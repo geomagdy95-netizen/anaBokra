@@ -1,0 +1,164 @@
+{
+  "id": "automotive_ev_technician",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep cars running, including the new electric ones.",
+      "ar": "تُبقي السيارات تعمل، ومنها السيارات الكهربائية الجديدة."
+    },
+    "summary": {
+      "en": "Automotive technicians inspect, diagnose and repair cars, from engines and brakes to electronics. More cars now use computers and batteries, so technicians who understand electrical and hybrid or electric systems will be needed more. The work is practical and always changing.",
+      "ar": "فني السيارات يفحص السيارات ويشخص أعطالها ويصلحها، من المحركات والفرامل إلى الإلكترونيات. تعتمد سيارات أكثر الآن على الكمبيوتر والبطاريات، لذلك سيزيد الطلب على الفنيين الذين يفهمون الأنظمة الكهربائية والهجينة والكهربائية. العمل عملي ومتجدد باستمرار."
+    },
+    "dayInLife": {
+      "en": "A car arrives with a warning light on. You connect a diagnostic scanner, read the code and find a faulty sensor. You replace the part, clear the code and test drive the car. Then you service another car: oil, filters and brakes. You explain the work to the customer and write the job card.",
+      "ar": "تصل سيارة وإنذار ما مضاء. توصّل جهاز الفحص وتقرأ الكود وتكتشف حساسًا معطلًا. تستبدل القطعة وتمسح الكود وتجرب السيارة. ثم تجري صيانة لسيارة أخرى: زيت ومرشحات وفرامل. تشرح الأعمال للعميل وتكتب بطاقة الشغل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Inspect cars and find faults using scanners and tests.",
+        "ar": "تفحص السيارات وتكتشف الأعطال بأجهزة الفحص والاختبارات."
+      },
+      {
+        "en": "Repair engines, brakes, suspension and electrical parts.",
+        "ar": "تصلح المحركات والفرامل والتعليق والأجزاء الكهربائية."
+      },
+      {
+        "en": "Do regular service and replace worn parts.",
+        "ar": "تجري الصيانة الدورية وتستبدل القطع المستهلكة."
+      },
+      {
+        "en": "Work safely on hybrid and electric systems with the right training.",
+        "ar": "تعمل بأمان على الأنظمة الهجينة والكهربائية بالتدريب المناسب."
+      },
+      {
+        "en": "Explain problems and costs to customers.",
+        "ar": "تشرح المشكلات والتكاليف للعملاء."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Dealer and brand service centres",
+        "ar": "مراكز خدمة الوكلاء والعلامات"
+      },
+      {
+        "en": "Independent garages",
+        "ar": "الورش المستقلة"
+      },
+      {
+        "en": "Fleet, transport and factory maintenance",
+        "ar": "صيانة الأساطيل والنقل والمصانع"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Diagnostic scanners and multimeters",
+        "ar": "أجهزة الفحص والملتيميتر"
+      },
+      {
+        "en": "Hand and power tools, lifts",
+        "ar": "العدد اليدوية والكهربائية والرافعات"
+      },
+      {
+        "en": "Manufacturer service manuals and software",
+        "ar": "كتيبات وبرامج الصيانة من المصنّعين"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "otherCurricula": {
+      "en": "This route starts after preparatory school, in technical education, not through Thanaweya Amma and Tansik. Maths, science and practical subjects from preparatory school help. Graduates of technical secondary schools can later continue to technical colleges or other higher education; check the current rules with the Ministry of Education and the Ministry of Higher Education.",
+      "ar": "يبدأ هذا المسار بعد الشهادة الإعدادية في التعليم الفني، وليس عبر الثانوية العامة والتنسيق. تفيد الرياضيات والعلوم والمواد العملية في الإعدادية. يمكن لخريجي الثانوية الفنية لاحقًا استكمال الدراسة بكليات تكنولوجية أو تعليم عالٍ آخر؛ فتأكد من القواعد الحالية لدى وزارة التربية والتعليم ووزارة التعليم العالي."
+    },
+    "faculties": [
+      {
+        "en": "Applied Technology Schools (three-year dual education with industry partners)",
+        "ar": "مدارس التكنولوجيا التطبيقية (ثلاث سنوات تعليم مزدوج مع شركاء صناعيين)"
+      },
+      {
+        "en": "Industrial technical secondary schools (Ministry of Education)",
+        "ar": "المدارس الثانوية الفنية الصناعية (وزارة التربية والتعليم)"
+      },
+      {
+        "en": "Technical institutes and technological colleges for continuing study",
+        "ar": "المعاهد الفنية والكليات التكنولوجية لاستكمال الدراسة"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik does not apply to this route. Entry depends on your preparatory-school results and each school's own tests and interview, which change by school and year, so ask the school or the Ministry of Education. We have no Tansik figures for this career in our data.",
+      "ar": "التنسيق لا ينطبق على هذا المسار. يعتمد القبول على نتيجة الشهادة الإعدادية واختبارات ومقابلة كل مدرسة، وهي تختلف من مدرسة لأخرى ومن سنة لأخرى، فاسأل المدرسة أو وزارة التربية والتعليم. ليست لدينا أرقام تنسيق لهذه المهنة في بياناتنا."
+    },
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Productivity and Vocational Training Department (PVTD) centres, with trade courses in vehicle repair.",
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني بدورات إصلاح المركبات."
+      },
+      {
+        "en": "Learn in a garage as an assistant, then take manufacturer training courses, including electric vehicle courses.",
+        "ar": "التعلم في ورشة كمساعد ثم أخذ دورات المصنّعين ومنها دورات السيارات الكهربائية."
+      }
+    ],
+    "licensing": {
+      "en": "Most technician jobs ask for a technical diploma and practical skill rather than a licence, though some employers and tasks need skill-level or safety certificates. Check the current requirements with your employer and the Ministry of Manpower.",
+      "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "electrician",
+      "mechanical_engineer",
+      "industrial_technician",
+      "mechatronics_engineer",
+      "solar_technician"
+    ],
+    "pivots": [
+      {
+        "en": "Electric and hybrid vehicle specialist",
+        "ar": "متخصص في السيارات الكهربائية والهجينة"
+      },
+      {
+        "en": "Service advisor or workshop manager",
+        "ar": "مستشار خدمة أو مدير ورشة"
+      },
+      {
+        "en": "Opening your own garage",
+        "ar": "فتح ورشة خاصة"
+      },
+      {
+        "en": "Further study toward mechanical engineering",
+        "ar": "استكمال الدراسة نحو الهندسة الميكانيكية"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Automotive / EV Technician",
+      "url": "https://www.onetonline.org/link/summary/49-3023.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Automotive / EV Technician",
+      "url": "https://www.mynextmove.org/profile/summary/49-3023.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Applied Technology Schools (Ministry of Education dual education)",
+      "url": "https://dualedu.moe.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "El Sewedy School of Applied Technology (Ministry of Education)",
+      "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

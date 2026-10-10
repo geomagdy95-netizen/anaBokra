@@ -1,0 +1,172 @@
+{
+  "id": "content_creator",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You turn ideas into videos, posts and stories people want to watch.",
+      "ar": "تحوّل الأفكار إلى فيديوهات ومنشورات وقصص يريد الناس مشاهدتها."
+    },
+    "summary": {
+      "en": "Content creators make videos, photos, podcasts and posts for platforms such as YouTube, TikTok and Instagram, for themselves or for brands. They need ideas, basic production skills and patience, because growing an audience takes time. Income can vary a lot, so many also work for companies or freelance.",
+      "ar": "صانع المحتوى ينتج فيديوهات وصورًا وبودكاست ومنشورات لمنصات مثل يوتيوب وتيك توك وإنستجرام، لنفسه أو للعلامات التجارية. يحتاج إلى أفكار ومهارات إنتاج أساسية وصبر، فبناء الجمهور يستغرق وقتًا. قد يتفاوت الدخل كثيرًا، ولذلك يعمل كثيرون أيضًا مع شركات أو كعمل حر."
+    },
+    "dayInLife": {
+      "en": "You plan the week's content with a simple calendar. Today you shoot a short video, using natural light and a phone on a small tripod, then edit it on your laptop and add subtitles. In the afternoon you reply to comments and look at which of your videos people watched until the end. In the evening you write ideas for tomorrow.",
+      "ar": "تخطط محتوى الأسبوع بتقويم بسيط. اليوم تصوّر فيديو قصيرًا بضوء طبيعي وهاتف على حامل صغير، ثم تحرره على اللابتوب وتضيف الترجمة. بعد الظهر ترد على التعليقات وترى أي فيديوهاتك شاهدها الناس حتى النهاية. وفي المساء تكتب أفكار الغد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Come up with ideas and plan content for a chosen audience.",
+        "ar": "تفكر في الأفكار وتخطط المحتوى لجمهور محدد."
+      },
+      {
+        "en": "Shoot, record and edit videos, photos or audio.",
+        "ar": "تصوّر وتسجّل وتحرر الفيديو أو الصور أو الصوت."
+      },
+      {
+        "en": "Write captions, scripts and titles.",
+        "ar": "تكتب التعليقات والسيناريوهات والعناوين."
+      },
+      {
+        "en": "Publish regularly and answer your audience.",
+        "ar": "تنشر بانتظام وترد على جمهورك."
+      },
+      {
+        "en": "Study the numbers and work with brands on paid content.",
+        "ar": "تدرس الأرقام وتعمل مع العلامات على المحتوى المدفوع."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Self-employed on social platforms",
+        "ar": "العمل الحر على منصات التواصل"
+      },
+      {
+        "en": "Marketing agencies and brand content teams",
+        "ar": "وكالات التسويق وفرق محتوى العلامات"
+      },
+      {
+        "en": "Media, education and entertainment companies",
+        "ar": "شركات الإعلام والتعليم والترفيه"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Smartphone or camera, microphone and lights",
+        "ar": "هاتف أو كاميرا وميكروفون وإضاءة"
+      },
+      {
+        "en": "Editing apps such as CapCut, Premiere or DaVinci",
+        "ar": "برامج المونتاج مثل CapCut وPremiere وDaVinci"
+      },
+      {
+        "en": "Platform analytics tools",
+        "ar": "أدوات تحليلات المنصات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "No specific stream is required. English, Arabic writing, Art and Media Studies help. A degree is not mandatory, but media, arts or marketing programs can give useful skills. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "لا تُشترط شعبة معينة. تفيد اللغة الإنجليزية والكتابة بالعربية والفنون ودراسات الإعلام. الدرجة الجامعية ليست إلزامية، لكن برامج الإعلام أو الفنون أو التسويق تمنحك مهارات مفيدة. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Mass Communication (public universities)",
+        "ar": "كليات الإعلام بالجامعات الحكومية"
+      },
+      {
+        "en": "Mass communication and media programs at private universities",
+        "ar": "برامج الإعلام والاتصال بالجامعات الخاصة"
+      },
+      {
+        "en": "Business faculties with a marketing or digital marketing focus",
+        "ar": "كليات الأعمال ذات التركيز التسويقي أو التسويق الرقمي"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "ain-shams-university-mass-communication",
+      "menoufia-university-mass-communication",
+      "british-university-in-egypt-communication-mass-media",
+      "misr-international-university-mass-communication"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 88.12% to 90.31% across 3 programs (lowest Menoufia University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 88.12% إلى 90.31% عبر 3 برنامجًا (الأدنى جامعة المنوفية والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Start now: publish on a free platform, learn editing and writing, and build a portfolio.",
+        "ar": "ابدأ الآن: انشر على منصة مجانية وتعلم المونتاج والكتابة وابنِ ملف أعمال."
+      },
+      {
+        "en": "Work in a brand or agency content team to learn the professional side while you build your own channel.",
+        "ar": "اعمل في فريق محتوى بعلامة أو وكالة لتتعلم الجانب المهني بينما تبني قناتك."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "social_media_manager",
+      "digital_marketer",
+      "photographer",
+      "film_producer",
+      "journalist",
+      "graphic_designer"
+    ],
+    "pivots": [
+      {
+        "en": "Social media management",
+        "ar": "إدارة السوشيال ميديا"
+      },
+      {
+        "en": "Video production and editing",
+        "ar": "إنتاج الفيديو والمونتاج"
+      },
+      {
+        "en": "Brand partnerships and marketing",
+        "ar": "شراكات العلامات والتسويق"
+      },
+      {
+        "en": "Teaching or training others online",
+        "ar": "التعليم أو التدريب عبر الإنترنت"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Content Creator",
+      "url": "https://www.onetonline.org/link/summary/27-3043.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Content Creator",
+      "url": "https://www.mynextmove.org/profile/summary/27-3043.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

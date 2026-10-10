@@ -1,0 +1,432 @@
+{
+  "id": "civil_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You design and build the roads, bridges, buildings and water systems people use every day.",
+      "ar": "تصمم وتبني الطرق والكباري والمباني وشبكات المياه التي يستخدمها الناس كل يوم."
+    },
+    "summary": {
+      "en": "Civil engineers plan, design and supervise construction and infrastructure. Egypt has many large building and transport projects, so there is work on site and in design offices. The job mixes calculation, drawing and managing people, and early years often mean long days on construction sites.",
+      "ar": "المهندس المدني يخطط ويصمم ويشرف على الإنشاءات والبنية التحتية. في مصر مشروعات كبيرة للمباني والنقل، فهناك عمل في المواقع ومكاتب التصميم. الوظيفة تمزج الحسابات والرسم وإدارة الناس، وغالبًا ما تعني سنواتها الأولى أيامًا طويلة في مواقع البناء."
+    },
+    "dayInLife": {
+      "en": "You reach the site at 7 a.m. with your helmet and drawings. The foreman asks about the reinforcement in a column, so you check the drawing and measure the bars. You test the concrete delivery and note the slump result. Later you meet the contractor to discuss a delay caused by materials arriving late. Back in the site office you update the progress report and check a design calculation on your laptop. It is hot and dusty, but at the end of the week you can point at something that was not there before.",
+      "ar": "تصل إلى الموقع في السابعة صباحًا بخوذتك والمخططات. يسألك رئيس العمال عن حديد التسليح في عمود، فتراجع المخطط وتقيس الأسياخ. تختبر خرسانة التوريد وتسجّل نتيجة الهبوط. ثم تجتمع مع المقاول لمناقشة تأخير بسبب وصول المواد متأخرة. وفي مكتب الموقع تحدّث تقرير التقدم وتراجع حسابًا تصميميًا على لابتوبك. الجو حار ومتربّ، لكنك في نهاية الأسبوع تشير إلى شيء لم يكن موجودًا من قبل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design structures such as foundations, slabs, bridges and roads using engineering calculations and codes.",
+        "ar": "تصمم منشآت مثل الأساسات والبلاطات والكباري والطرق باستخدام الحسابات الهندسية والأكواد."
+      },
+      {
+        "en": "Prepare drawings and quantities with CAD and BIM software.",
+        "ar": "تعد المخططات والكميات ببرامج CAD وBIM."
+      },
+      {
+        "en": "Supervise construction on site and check quality and safety.",
+        "ar": "تشرف على التنفيذ في الموقع وتراجع الجودة والسلامة."
+      },
+      {
+        "en": "Plan schedules and budgets and coordinate contractors and suppliers.",
+        "ar": "تخطط الجداول والميزانيات وتنسق بين المقاولين والموردين."
+      },
+      {
+        "en": "Test soil and materials such as concrete and steel.",
+        "ar": "تختبر التربة والمواد مثل الخرسانة والحديد."
+      },
+      {
+        "en": "Prepare reports and obtain approvals from authorities.",
+        "ar": "تعد التقارير وتحصل على الموافقات من الجهات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Construction sites and infrastructure projects",
+        "ar": "مواقع الإنشاءات ومشروعات البنية التحتية"
+      },
+      {
+        "en": "Design and consulting offices",
+        "ar": "مكاتب التصميم والاستشارات"
+      },
+      {
+        "en": "Contracting company offices and government agencies",
+        "ar": "مكاتب شركات المقاولات والجهات الحكومية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "AutoCAD, Revit and other BIM tools",
+        "ar": "أوتوكاد وريفيت وأدوات BIM الأخرى"
+      },
+      {
+        "en": "Structural analysis software such as ETABS, SAP2000 or SAFE",
+        "ar": "برامج التحليل الإنشائي مثل ETABS وSAP2000 وSAFE"
+      },
+      {
+        "en": "Planning tools like Primavera P6 and MS Project",
+        "ar": "أدوات التخطيط مثل Primavera P6 وMS Project"
+      },
+      {
+        "en": "Total station, level and material testing equipment",
+        "ar": "جهاز المحطة الشاملة والميزان ومعدات اختبار المواد"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Civil Engineering department, at public universities (Cairo, Ain Shams, Alexandria, Mansoura, Assiut and others)",
+        "ar": "كليات الهندسة قسم الهندسة المدنية بالجامعات الحكومية (القاهرة وعين شمس والإسكندرية والمنصورة وأسيوط وغيرها)"
+      },
+      {
+        "en": "Civil engineering programs at private universities (GUC, BUE, MUST, Nile University and others)",
+        "ar": "برامج الهندسة المدنية بالجامعات الخاصة (الألمانية والبريطانية ومصر للعلوم ونايل وغيرها)"
+      },
+      {
+        "en": "Faculty of Urban and Regional Planning (related)",
+        "ar": "كلية التخطيط الإقليمي والعمراني (قريبة)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "cairo-university-urban-regional-planning",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "british-university-in-egypt-engineering",
+      "german-university-in-cairo-civil-engineering",
+      "misr-university-for-science-and-technology-engineering",
+      "american-university-in-cairo-sciences-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.78% across 22 programs (lowest Assiut University, highest Mansoura University); 2025: 88.75% to 92.5% across 23 programs (lowest Cairo University, highest Mansoura University); 2024: 87.8% to 91.83% across 23 programs (lowest Cairo University, highest Cairo University); 2023: 83.41% to 89.88% across 23 programs (lowest Cairo University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.78% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2025: من 88.75% إلى 92.5% عبر 23 برنامجًا (الأدنى جامعة القاهرة، الأعلى جامعة المنصورة)؛ 2024: من 87.8% إلى 91.83% عبر 23 برنامجًا (الأدنى جامعة القاهرة، الأعلى جامعة القاهرة)؛ 2023: من 83.41% إلى 89.88% عبر 23 برنامجًا (الأدنى جامعة القاهرة، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Higher technological institutes and technical colleges give a shorter technician or technologist route into construction.",
+        "ar": "المعاهد العليا التكنولوجية والكليات التقنية تتيح مسارًا أقصر لفني أو تكنولوجي في الإنشاءات."
+      },
+      {
+        "en": "Architecture, quantity surveying and construction management are related paths.",
+        "ar": "العمارة وحصر الكميات وإدارة المشروعات الإنشائية مسارات قريبة."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Site supervision and design sign-off usually require a registered engineer, and some projects need a licensed consultant, so ask your employer about the syndicate's grades.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. الإشراف على التنفيذ واعتماد التصميم يتطلبان عادة مهندسًا مسجلًا، وبعض المشروعات تحتاج استشاريًا مرخصًا، فاسأل جهة عملك عن درجات النقابة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Structural analysis and design to codes",
+        "ar": "التحليل والتصميم الإنشائي وفق الأكواد"
+      },
+      {
+        "en": "CAD, BIM and engineering software",
+        "ar": "CAD وBIM والبرامج الهندسية"
+      },
+      {
+        "en": "Quantity surveying and cost estimation",
+        "ar": "حصر الكميات وتقدير التكاليف"
+      },
+      {
+        "en": "Project planning and site supervision",
+        "ar": "تخطيط المشروعات والإشراف على الموقع"
+      },
+      {
+        "en": "Soil mechanics and materials testing",
+        "ar": "ميكانيكا التربة واختبار المواد"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leading and communicating with foremen and workers",
+        "ar": "قيادة العمال ورؤساء العمال والتواصل معهم"
+      },
+      {
+        "en": "Problem-solving under time pressure",
+        "ar": "حل المشكلات تحت ضغط الوقت"
+      },
+      {
+        "en": "Safety awareness",
+        "ar": "الوعي بالسلامة"
+      },
+      {
+        "en": "Negotiation with clients and contractors",
+        "ar": "التفاوض مع العملاء والمقاولين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for codes, software and international projects",
+        "ar": "الإنجليزية للأكواد والبرامج والمشروعات الدولية"
+      },
+      {
+        "en": "Arabic for site teams and authorities",
+        "ar": "العربية لفرق الموقع والجهات"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "PMP (project management) after some years",
+        "ar": "PMP (إدارة المشروعات) بعد بضع سنوات"
+      },
+      {
+        "en": "BIM, Primavera and safety (e.g., NEBOSH or OSHA) courses",
+        "ar": "دورات BIM وبريمافيرا والسلامة (مثل NEBOSH أو OSHA)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "MIT OpenCourseWare: Civil and Environmental Engineering",
+        "url": "https://ocw.mit.edu/courses/civil-and-environmental-engineering/",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Physics",
+        "url": "https://www.khanacademy.org/science/physics",
+        "free": true
+      },
+      {
+        "title": "Autodesk: AutoCAD learning resources",
+        "url": "https://www.autodesk.com/learn/categories/autocad",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10729,
+        "max": 40498
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/construction-real-estate/civil-engineer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 33,365 EGP. The survey has 36 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 33,365 جنيهًا. يضم الاستبيان 36 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Large contractors such as Arab Contractors and Orascom Construction",
+        "ar": "شركات المقاولات الكبرى مثل المقاولون العرب وأوراسكوم للإنشاءات"
+      },
+      {
+        "en": "Real estate developers and consulting firms",
+        "ar": "شركات التطوير العقاري والمكاتب الاستشارية"
+      },
+      {
+        "en": "Government agencies, ministries and the armed forces' engineering authority",
+        "ar": "الجهات الحكومية والوزارات وهيئة الهندسة بالقوات المسلحة"
+      },
+      {
+        "en": "Infrastructure companies (roads, water, rail)",
+        "ar": "شركات البنية التحتية (الطرق والمياه والسكك الحديدية)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Design work, drawings and estimating can be done as a freelancer or small consultancy, including remote work for Gulf clients. Site supervision itself must be done in person.",
+      "ar": "يمكن عمل التصميم والرسومات وتقدير التكاليف كمستقل أو مكتب استشاري صغير، ومنها العمل عن بعد لعملاء في الخليج. أما الإشراف على الموقع فيتم حضوريًا."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo, New Administrative Capital and other new cities",
+        "ar": "القاهرة الكبرى والعاصمة الإدارية والمدن الجديدة"
+      },
+      {
+        "en": "Alexandria, the Suez Canal area and the North Coast",
+        "ar": "الإسكندرية ومنطقة قناة السويس والساحل الشمالي"
+      },
+      {
+        "en": "Upper Egypt and Red Sea development projects",
+        "ar": "مشروعات الصعيد والبحر الأحمر"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Civil engineers from Egypt work in Saudi Arabia, the UAE, Qatar and Kuwait on large construction and infrastructure projects. Some Gulf countries require registration with a local engineering council and a minimum experience, so plan your first years of site experience. The syndicate's membership helps.",
+    "ar": "يعمل المهندسون المدنيون المصريون في السعودية والإمارات وقطر والكويت على مشروعات إنشاء وبنية تحتية كبيرة. بعض دول الخليج تشترط التسجيل في مجلس هندسي محلي وحدًا أدنى من الخبرة، فخطط لسنواتك الأولى في الموقع. وعضوية النقابة تفيد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Visible results: you help build real things",
+        "ar": "نتائج مرئية: تساهم في بناء أشياء حقيقية"
+      },
+      {
+        "en": "Many mega-projects and steady demand for engineers",
+        "ar": "مشروعات ضخمة كثيرة وطلب مستمر على المهندسين"
+      },
+      {
+        "en": "Routes to management or to starting your own contracting or consulting office",
+        "ar": "مسارات إلى الإدارة أو لتأسيس مكتب مقاولات أو استشارات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Hot, dusty sites and long hours, especially at first",
+        "ar": "مواقع حارة ومتربة وساعات طويلة خاصة في البداية"
+      },
+      {
+        "en": "Starting pay is modest compared with the workload",
+        "ar": "الأجر في البداية متواضع مقارنة بالعبء"
+      },
+      {
+        "en": "Work depends on the construction and real estate cycle",
+        "ar": "العمل يتأثر بدورة قطاعي الإنشاءات والعقارات"
+      },
+      {
+        "en": "Safety responsibility is serious",
+        "ar": "مسؤولية السلامة جسيمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Civil engineers only work on site in helmets.",
+          "ar": "المهندس المدني يعمل فقط في الموقع بالخوذة."
+        },
+        "fact": {
+          "en": "Many work in design, planning, estimating or consulting offices using software.",
+          "ar": "كثير منهم يعمل في التصميم والتخطيط وتقدير التكاليف والاستشارات بالبرامج."
+        }
+      },
+      {
+        "myth": {
+          "en": "Civil engineering is a field for men only.",
+          "ar": "الهندسة المدنية للرجال فقط."
+        },
+        "fact": {
+          "en": "Women study and work as civil engineers in Egypt, in design, supervision and management.",
+          "ar": "تدرس النساء الهندسة المدنية وتعملن بها في مصر في التصميم والإشراف والإدارة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Site roles can mean 10-hour days, six days a week, and travel. Office design roles are steadier. It usually improves as you move into senior or office-based roles.",
+      "ar": "أدوار الموقع قد تعني ١٠ ساعات يوميًا وستة أيام أسبوعيًا مع سفر. أدوار التصميم المكتبية أكثر انتظامًا. وتتحسن عادة مع الانتقال إلى أدوار أقدم أو مكتبية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate engineer / site or design engineer",
+        "ar": "مهندس حديث / مهندس موقع أو تصميم"
+      },
+      {
+        "en": "Senior engineer",
+        "ar": "مهندس أول"
+      },
+      {
+        "en": "Project engineer or lead designer",
+        "ar": "مهندس مشروع أو مصمم رئيسي"
+      },
+      {
+        "en": "Project manager",
+        "ar": "مدير مشروع"
+      },
+      {
+        "en": "Technical director, consultant or company owner",
+        "ar": "مدير فني أو استشاري أو صاحب شركة"
+      }
+    ],
+    "relatedCareerIds": [
+      "architect",
+      "mechanical_engineer",
+      "electrical_engineer",
+      "petroleum_engineer",
+      "renewable_energy_engineer",
+      "geologist"
+    ],
+    "pivots": [
+      {
+        "en": "Real estate development or project management",
+        "ar": "التطوير العقاري أو إدارة المشروعات"
+      },
+      {
+        "en": "Environmental or water engineering",
+        "ar": "الهندسة البيئية أو هندسة المياه"
+      },
+      {
+        "en": "Construction technology and BIM consulting",
+        "ar": "تكنولوجيا الإنشاءات واستشارات BIM"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Orascom Construction - New Administrative Capital",
+      "url": "https://orascom.com/?p=457",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Civil Engineer salary survey",
+      "url": "https://paylab.com/eg/salaryinfo/construction-real-estate/civil-engineer?lang=en",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Saudi Council of Engineers - Professional Accreditation Guide for Engineering Categories",
+      "url": "https://saudieng.sa/Admin/NPDepartmentsDocs/Professional-Accreditation-Guide-for-Engineering-Categories-En.pdf",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

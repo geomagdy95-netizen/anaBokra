@@ -1,0 +1,384 @@
+{
+  "id": "judge_prosecutor",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You decide, in the name of the law, what is fair when people disagree.",
+      "ar": "تحكم باسم القانون بما هو عادل حين يختلف الناس."
+    },
+    "summary": {
+      "en": "Judges and prosecutors are public servants in the judicial bodies. Prosecutors investigate crimes and bring cases, and judges hear the evidence and issue rulings. In Egypt you enter through official appointment competitions open to law graduates, which are announced for specific graduating classes, not through a normal job application.",
+      "ar": "القضاة وأعضاء النيابة موظفون عموميون في الجهات القضائية. تحقق النيابة في الجرائم وترفع الدعاوى، ويستمع القاضي إلى الأدلة ويصدر الأحكام. في مصر يكون الدخول عبر مسابقات تعيين رسمية مفتوحة لخريجي الحقوق وتُعلن لدفعات تخرج محددة، وليس بطلب توظيف عادي."
+    },
+    "dayInLife": {
+      "en": "As an assistant prosecutor, you start your day by reading new case files from the police. You question a witness and write the record carefully, because every word will be read later. You decide what evidence is missing and ask for it. In the afternoon you attend a court session and present the case file. At the end of the day you read the law again for a difficult issue and write down your decision with reasons. The role needs calm, accuracy and the ability to stay fair even when the case is upsetting.",
+      "ar": "كمعاون نيابة تبدأ يومك بقراءة ملفات القضايا الجديدة من الشرطة. تستجوب شاهدًا وتكتب المحضر بدقة لأن كل كلمة ستُقرأ لاحقًا. تحدد الأدلة الناقصة وتطلبها. بعد الظهر تحضر جلسة في المحكمة وتعرض ملف القضية. في آخر اليوم تعيد قراءة القانون في مسألة صعبة وتكتب قرارك بأسبابه. الدور يحتاج هدوءًا ودقة وقدرة على البقاء عادلًا حتى لو كانت القضية مؤلمة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Prosecutors: investigate crimes, question suspects and witnesses and decide whether to bring a case.",
+        "ar": "أعضاء النيابة: يحققون في الجرائم ويستجوبون المتهمين والشهود ويقررون رفع الدعوى أو لا."
+      },
+      {
+        "en": "Judges: listen to both sides, study the evidence and the law and write reasoned rulings.",
+        "ar": "القضاة: يستمعون للطرفين ويدرسون الأدلة والقانون ويكتبون أحكامًا مسببة."
+      },
+      {
+        "en": "Make sure procedures are followed and the rights of all parties are respected.",
+        "ar": "يتأكدون من اتباع الإجراءات واحترام حقوق جميع الأطراف."
+      },
+      {
+        "en": "Write official records, decisions and judgments carefully.",
+        "ar": "يكتبون المحاضر والقرارات والأحكام بدقة."
+      },
+      {
+        "en": "Study new laws and court principles continuously.",
+        "ar": "يدرسون القوانين الجديدة ومبادئ المحاكم باستمرار."
+      },
+      {
+        "en": "Keep case details confidential and stay impartial.",
+        "ar": "يحافظون على سرية تفاصيل القضايا ويلتزمون بالحياد."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Public Prosecution offices and courts",
+        "ar": "مقار النيابة العامة والمحاكم"
+      },
+      {
+        "en": "Other judicial bodies such as the State Council and Administrative Prosecution",
+        "ar": "جهات قضائية أخرى مثل مجلس الدولة والنيابة الإدارية"
+      },
+      {
+        "en": "Sometimes outside the capital, because postings can be in different governorates",
+        "ar": "أحيانًا خارج العاصمة لأن التعيينات قد تكون في محافظات مختلفة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Laws, codes and case files",
+        "ar": "القوانين والتقنينات وملفات القضايا"
+      },
+      {
+        "en": "Official case-management systems, increasingly electronic",
+        "ar": "أنظمة إدارة القضايا الرسمية، وهي تتحول إلى الإلكترونية تدريجيًا"
+      },
+      {
+        "en": "Word processing",
+        "ar": "برامج الكتابة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Study law at a faculty that is recognised for judicial appointment. IGCSE, American or IB students can enter law faculties, including private ones, after equivalence procedures. Strong Arabic is essential because rulings and investigations are written in legal Arabic. Check with the judicial body whether graduates of every faculty are accepted.",
+      "ar": "ادرس الحقوق في كلية معترف بها للتعيين في الجهات القضائية. يستطيع طلاب IGCSE والأمريكي وIB دخول كليات الحقوق ومنها الخاصة بعد إجراءات المعادلة. العربية القوية ضرورية لأن التحقيقات والأحكام تُكتب بالعربية القانونية. اسأل الجهة القضائية إن كانت تقبل خريجي كل الكليات."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Law (LLB)",
+        "ar": "كلية الحقوق (ليسانس)"
+      },
+      {
+        "en": "Faculty of Sharia and Law (accepted in the announcements we reviewed)",
+        "ar": "كلية الشريعة والقانون (مقبولة في الإعلانات التي راجعناها)"
+      },
+      {
+        "en": "Police Academy graduates were also eligible in the announcement we reviewed",
+        "ar": "خريجو أكاديمية الشرطة كانوا مؤهلين أيضًا في الإعلان الذي راجعناه"
+      }
+    ],
+    "programIds": [
+      "port-said-university-law",
+      "damietta-university-law",
+      "minia-university-law",
+      "fayoum-university-law",
+      "british-university-in-egypt-law",
+      "german-university-in-cairo-law-legal-studies"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Law in the lists we reviewed (literary track) asked for about 75% to 85% in 2026: Fayoum 74.53% and Port Said 84.84% (percent of the total). Cairo, Ain Shams and Alexandria were not in these lists, so their minimums are unknown here. Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff. Entry to a judicial body depends on your graduation grade and the competition, not on the Tansik score.",
+      "ar": "طلبت كليات الحقوق الواردة في القوائم التي راجعناها (الشعبة الأدبية) نحو 75% إلى 85% في 2026: الفيوم 74.53% وبورسعيد 84.84% (نسبة مئوية من المجموع). كليات القاهرة وعين شمس والإسكندرية غير موجودة في هذه القوائم، فحدودها الدنيا غير معروفة هنا. تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي. والدخول إلى الجهات القضائية يعتمد على تقدير التخرج والمسابقة، وليس على مجموع التنسيق."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Official competitions open only to law (and some Sharia and police) graduates, announced for specific graduating classes. There is no private route.",
+        "ar": "مسابقات رسمية مفتوحة لخريجي الحقوق (وبعض خريجي الشريعة والشرطة) تُعلن لدفعات تخرج محددة. لا يوجد طريق خاص."
+      },
+      {
+        "en": "Many people first work as lawyers or legal researchers and keep their grades strong for the next announcement, but check the age limit.",
+        "ar": "كثيرون يعملون محامين أو باحثين قانونيين ويحافظون على تقديراتهم لانتظار الإعلان القادم، لكن انتبه لحد السن."
+      },
+      {
+        "en": "If you do not enter the judiciary, legal departments in the state, companies and the bar are other legal careers.",
+        "ar": "إن لم تدخل القضاء فالإدارات القانونية في الدولة والشركات والمحاماة مسارات قانونية أخرى."
+      }
+    ],
+    "licensing": {
+      "en": "Judicial posts are filled by official appointment, not by a syndicate license. In the 2024-class announcement for the Public Prosecution, State Council, Administrative Prosecution and State Lawsuits Authority, applicants needed a cumulative grade of at least Good, were not older than 30 on the registration deadline, had to pass an interview with the Supreme Judicial Council (for those judicial posts), complete the medical exams, training courses and tests the council sets at their own cost, and pay a file fee of about 2,500 to 3,000 EGP. The rules, dates and eligible graduating classes change in every announcement, so always read the latest official announcement.",
+      "ar": "التعيين في الوظائف القضائية يكون بقرار رسمي وليس بترخيص من نقابة. في إعلان دفعة 2024 للنيابة العامة ومجلس الدولة والنيابة الإدارية وهيئة قضايا الدولة، كان على المتقدم أن يحقق تقديرًا تراكميًا لا يقل عن جيد، وألا يزيد عمره على 30 سنة في آخر موعد للتسجيل، وأن يجتاز مقابلة المجلس الأعلى للقضاء (لهذه الوظائف القضائية)، وأن يؤدي على نفقته الفحوص الطبية والدورات والاختبارات التي يحددها المجلس، وأن يدفع رسم ملف نحو 2,500 إلى 3,000 جنيه. تتغير القواعد والمواعيد والدفعات المؤهلة في كل إعلان، فاقرأ دائمًا آخر إعلان رسمي."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Deep knowledge of Egyptian law and procedure",
+        "ar": "معرفة عميقة بالقانون المصري والإجراءات"
+      },
+      {
+        "en": "Legal research and precise writing in Arabic",
+        "ar": "البحث القانوني والكتابة الدقيقة بالعربية"
+      },
+      {
+        "en": "Analysing evidence",
+        "ar": "تحليل الأدلة"
+      },
+      {
+        "en": "Logical reasoning",
+        "ar": "الاستدلال المنطقي"
+      },
+      {
+        "en": "Basic computer skills for electronic case systems",
+        "ar": "مهارات حاسب أساسية لأنظمة القضايا الإلكترونية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Impartiality and integrity",
+        "ar": "الحياد والنزاهة"
+      },
+      {
+        "en": "Calm under pressure",
+        "ar": "الهدوء تحت الضغط"
+      },
+      {
+        "en": "Careful listening",
+        "ar": "الاستماع الدقيق"
+      },
+      {
+        "en": "Ability to keep secrets",
+        "ar": "القدرة على حفظ الأسرار"
+      },
+      {
+        "en": "Independent judgment and courage to decide",
+        "ar": "الحكم المستقل والشجاعة في اتخاذ القرار"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: legal Arabic at a very high level",
+        "ar": "العربية: لغة قانونية بمستوى عالٍ جدًا"
+      },
+      {
+        "en": "English or French: helpful for international law and training courses",
+        "ar": "الإنجليزية أو الفرنسية: مفيدة للقانون الدولي والدورات التدريبية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Law degree with the grade required by the announcement",
+        "ar": "ليسانس حقوق بالتقدير الذي يطلبه الإعلان"
+      },
+      {
+        "en": "Training courses set by the judicial body after appointment",
+        "ar": "دورات تدريبية تحددها الجهة القضائية بعد التعيين"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian Public Prosecution website",
+        "url": "https://www.ppo.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Supreme Constitutional Court of Egypt",
+        "url": "https://www.sccourt.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Egyptian legislation portal (Manshurat)",
+        "url": "https://manshurat.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Public Prosecution",
+        "ar": "النيابة العامة"
+      },
+      {
+        "en": "Ordinary courts under the Supreme Judicial Council",
+        "ar": "المحاكم العادية التابعة للمجلس الأعلى للقضاء"
+      },
+      {
+        "en": "State Council (administrative judiciary)",
+        "ar": "مجلس الدولة (القضاء الإداري)"
+      },
+      {
+        "en": "Administrative Prosecution and State Lawsuits Authority",
+        "ar": "النيابة الإدارية وهيئة قضايا الدولة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Salary: No citable salary figure was found. Judicial salaries follow official pay scales set by law for each rank, and we did not find a current official scale to cite. Paylab lists prosecutor roles but does not reflect the judicial pay scale, so no number is given. Ask the judicial body for official information. Not applicable: judicial posts are full-time public positions and cannot be done as freelance or remotely.",
+      "ar": "الراتب: لم نعثر على رقم راتب يمكن الاستشهاد به. تتبع مرتبات القضاة جداول رسمية يحددها القانون لكل درجة، ولم نجد جدولًا رسميًا حديثًا للاستشهاد به. يذكر Paylab وظائف نيابة لكنه لا يعبّر عن جدول الأجور القضائي، لذلك لا نقدم رقمًا. اسأل الجهة القضائية للحصول على معلومات رسمية. لا ينطبق: الوظائف القضائية وظائف عامة بدوام كامل ولا تُؤدَّى عملًا حرًا أو عن بُعد."
+    },
+    "regions": [
+      {
+        "en": "Postings across governorates, with courts and prosecution offices in every governorate",
+        "ar": "تعيينات في المحافظات، فلكل محافظة محاكم ومقار نيابة"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Judicial posts are national, so there is no direct way to move abroad as a judge. Egyptian legal experience can help in international arbitration, international organisations and some Gulf legal systems that recruit Arab legal experts, usually after leaving the judiciary or through secondment rules. Check each case with the authorities.",
+    "ar": "الوظائف القضائية وطنية، فلا توجد طريقة مباشرة للانتقال للخارج كقاضٍ. قد تفيد الخبرة القانونية المصرية في التحكيم الدولي والمنظمات الدولية وبعض الأنظمة القانونية الخليجية التي تستعين بخبراء قانون عرب، غالبًا بعد ترك القضاء أو بحسب قواعد الإعارة. اسأل الجهات المختصة في كل حالة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "A role with high responsibility and respect in society",
+        "ar": "دور بمسؤولية كبيرة ومكانة في المجتمع"
+      },
+      {
+        "en": "Stable public career with clear rank progression",
+        "ar": "مسار حكومي مستقر بدرجات واضحة"
+      },
+      {
+        "en": "Work that directly affects people's rights",
+        "ar": "عمل يمس حقوق الناس مباشرة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Very competitive entry and strict conditions, including age limits and an interview",
+        "ar": "دخول شديد التنافس وشروط صارمة منها السن والمقابلة"
+      },
+      {
+        "en": "Heavy caseload and emotional weight of serious cases",
+        "ar": "عدد قضايا كبير وعبء نفسي من القضايا الخطيرة"
+      },
+      {
+        "en": "Postings may be far from home, and personal activity is limited by the duty of impartiality",
+        "ar": "قد يكون التعيين بعيدًا عن بيتك، وحياد الوظيفة يقيّد بعض أنشطتك الشخصية"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Judges decide only by their own feelings.",
+          "ar": "القاضي يحكم بمشاعره فقط."
+        },
+        "fact": {
+          "en": "Judges must follow the law and give written reasons that higher courts can review.",
+          "ar": "على القاضي أن يتبع القانون ويكتب أسبابًا يمكن أن تراجعها محاكم أعلى."
+        }
+      },
+      {
+        "myth": {
+          "en": "You can apply any time you wish.",
+          "ar": "تستطيع التقديم في أي وقت."
+        },
+        "fact": {
+          "en": "Competitions open only when the body announces them for specific graduating classes, with age and grade conditions.",
+          "ar": "المسابقات لا تُفتح إلا عندما تعلنها الجهة لدفعات تخرج محددة بشروط للسن والتقدير."
+        }
+      },
+      {
+        "myth": {
+          "en": "Judges and prosecutors do the same job.",
+          "ar": "القضاة وأعضاء النيابة وظيفتهم واحدة."
+        },
+        "fact": {
+          "en": "Prosecutors investigate and bring cases. Judges hear both sides and decide. They are different roles within the judicial system.",
+          "ar": "النيابة تحقق وترفع الدعوى. القاضي يسمع الطرفين ويحكم. هما دوران مختلفان داخل المنظومة القضائية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office and court hours are regular, but on-call duty for urgent investigations and heavy workloads can extend the day. Moving between governorates may affect family life.",
+      "ar": "ساعات المكتب والمحكمة منتظمة، لكن المناوبات للتحقيقات العاجلة وكثرة القضايا قد تطيل اليوم. والانتقال بين المحافظات قد يؤثر على الحياة الأسرية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant prosecutor (entry rank for the Public Prosecution)",
+        "ar": "معاون نيابة (الدرجة الأولى في النيابة العامة)"
+      },
+      {
+        "en": "Deputy prosecutor and prosecutor",
+        "ar": "وكيل نيابة ثم رئيس نيابة"
+      },
+      {
+        "en": "Judge in the courts",
+        "ar": "قاضٍ بالمحاكم"
+      },
+      {
+        "en": "Senior judge or head of a court",
+        "ar": "مستشار أو رئيس محكمة"
+      },
+      {
+        "en": "Senior judicial leadership",
+        "ar": "مناصب قضائية عليا"
+      }
+    ],
+    "relatedCareerIds": [
+      "lawyer",
+      "diplomat",
+      "political_scientist",
+      "police_military_officer"
+    ],
+    "pivots": [
+      {
+        "en": "Law practice or arbitration after leaving the judiciary",
+        "ar": "المحاماة أو التحكيم بعد ترك القضاء"
+      },
+      {
+        "en": "Legal advisor in a ministry or company",
+        "ar": "مستشار قانوني في وزارة أو شركة"
+      },
+      {
+        "en": "Teaching law at a university",
+        "ar": "تدريس القانون في الجامعة"
+      }
+    ]
+  },
+  "industryId": "law",
+  "sources": [
+    {
+      "title": "Al-Dostor: judicial bodies open appointment for 2024 graduates (files, criteria, dates)",
+      "url": "https://www.dostor.org/5334637",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian legislation portal (Manshurat)",
+      "url": "https://manshurat.org",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian Public Prosecution",
+      "url": "https://www.ppo.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

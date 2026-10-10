@@ -1,0 +1,423 @@
+{
+  "id": "pharmacist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You are the medicine expert: you make sure every prescription is right, safe and understood.",
+      "ar": "أنت خبير الدواء: تتأكد أن كل وصفة صحيحة وآمنة ومفهومة."
+    },
+    "summary": {
+      "en": "Pharmacists dispense medicine, check doses and interactions, and advise patients. In Egypt you can work in community pharmacies, hospitals, drug factories or sales and regulation. The profession is going through changes: a compulsory training year and a national licensing exam now apply.",
+      "ar": "الصيدلي يصرف الدواء ويراجع الجرعات والتداخلات وينصح المرضى. في مصر يمكنك العمل في الصيدليات والمستشفيات ومصانع الأدوية والمبيعات والجهات الرقابية. والمهنة تمر بتغييرات: فهناك الآن سنة تدريب إجبارية وامتحان ترخيص وطني."
+    },
+    "dayInLife": {
+      "en": "You open the pharmacy at 9 a.m. and check the stock and the expiry dates. A customer hands you a prescription with two medicines that should not be taken together, so you call the doctor and fix it. An older woman asks why her blood pressure tablets look different, and you explain that it is the same medicine from another company. At midday you prepare an order from the distributor and file the narcotics register. In the afternoon you guide a young man on how to take antibiotics properly. You close with your numbers checked and everything labeled.",
+      "ar": "تفتح الصيدلية في التاسعة صباحًا وتراجع المخزون وتواريخ الصلاحية. يعطيك زبون روشتة فيها دواءان لا يصح تناولهما معًا، فتتصل بالطبيب وتصحح الأمر. تسألك سيدة كبيرة لماذا يبدو دواء الضغط مختلفًا، فتشرح أنه الدواء نفسه من شركة أخرى. عند الظهر تجهز طلبية من شركة التوزيع وتسجّل دفتر المخدرات. بعد العصر ترشد شابًا إلى الطريقة الصحيحة لتناول المضاد الحيوي. وتغلق وقد راجعت أرقامك وكل شيء موسوم بوضوح."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Check prescriptions for correct dose, timing and possible interactions.",
+        "ar": "تراجع الروشتات للتأكد من الجرعة والتوقيت والتداخلات المحتملة."
+      },
+      {
+        "en": "Dispense medicines and explain how to take them.",
+        "ar": "تصرف الأدوية وتشرح طريقة تناولها."
+      },
+      {
+        "en": "Advise patients on side effects, storage and safe use of over-the-counter medicines.",
+        "ar": "تنصح المرضى بشأن الآثار الجانبية والتخزين والاستخدام الآمن للأدوية بدون روشتة."
+      },
+      {
+        "en": "Manage stock, expiry dates, controlled drugs and records.",
+        "ar": "تدير المخزون وتواريخ الصلاحية والأدوية المراقبة والسجلات."
+      },
+      {
+        "en": "In hospitals, prepare and monitor treatments with the medical team (clinical pharmacy).",
+        "ar": "في المستشفيات تجهز العلاجات وتتابعها مع الفريق الطبي (الصيدلة الإكلينيكية)."
+      },
+      {
+        "en": "In industry, help test, make and control the quality of medicines.",
+        "ar": "في الصناعة تساعد في اختبار الأدوية وتصنيعها ومراقبة جودتها."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Community pharmacies",
+        "ar": "الصيدليات العامة"
+      },
+      {
+        "en": "Hospitals and clinics (hospital and clinical pharmacy)",
+        "ar": "المستشفيات والعيادات (الصيدلة الإكلينيكية)"
+      },
+      {
+        "en": "Pharmaceutical factories, labs and offices",
+        "ar": "مصانع ومعامل ومكاتب شركات الأدوية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Pharmacy management and stock software",
+        "ar": "برامج إدارة الصيدلية والمخزون"
+      },
+      {
+        "en": "Drug databases and interaction checkers",
+        "ar": "قواعد بيانات الأدوية وأدوات فحص التداخلات"
+      },
+      {
+        "en": "Lab instruments such as HPLC and dissolution testers (in industry)",
+        "ar": "أجهزة المعمل مثل HPLC وأجهزة اختبار الذوبان (في الصناعة)"
+      },
+      {
+        "en": "Prescription records and the controlled-drugs register",
+        "ar": "سجلات الروشتات ودفتر الأدوية المراقبة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, Chemistry and Biology at a high level are the core, with Maths helpful. With the American Diploma, take AP Chemistry and Biology. Equivalency rules for foreign certificates are applied strictly for pharmacy at public universities, so confirm yours with the Tansik office.",
+      "ar": "في IGCSE أو A-levels الكيمياء والأحياء بمستوى مرتفع هما الأساس، والرياضيات مفيدة. وفي الدبلومة الأمريكية اختر AP للكيمياء والأحياء. تُطبق قواعد معادلة الشهادات الأجنبية بصرامة على الصيدلة في الجامعات الحكومية، فتأكد من وضع شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Pharmacy (Bachelor of Pharmaceutical Sciences) at public universities",
+        "ar": "كليات الصيدلة (بكالوريوس العلوم الصيدلية) بالجامعات الحكومية"
+      },
+      {
+        "en": "Pharm-D and Clinical Pharmacy programs, mainly at private universities",
+        "ar": "برامج دكتور صيدلة (Pharm-D) والصيدلة الإكلينيكية، أغلبها في الجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-pharmacy",
+      "ain-shams-university-pharmacy",
+      "alexandria-university-pharmacy",
+      "mansoura-university-pharmacy",
+      "assiut-university-pharmacy",
+      "zagazig-university-pharmacy",
+      "tanta-university-pharmacy",
+      "capital-university-pharmacy",
+      "british-university-in-egypt-pharmacy-pharmd",
+      "british-university-in-egypt-pharmacy-clinical",
+      "german-university-in-cairo-pharmacy-biotechnology",
+      "egypt-japan-university-of-science-and-technology-pharmacy"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 92.19% to 93.12% across 18 programs (lowest Minia University, highest Mansoura University); 2025: 91.88% to 92.81% across 18 programs (lowest Capital University (formerly Helwan University), highest Sohag University); 2024: 91.71% to 92.68% across 18 programs (lowest Capital University (formerly Helwan University), highest Sohag University); 2023: 89.51% to 90.85% across 18 programs (lowest Capital University (formerly Helwan University), highest Sohag University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 72% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 92.19% إلى 93.12% عبر 18 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنصورة)؛ 2025: من 91.88% إلى 92.81% عبر 18 برنامجًا (الأدنى جامعة العاصمة (حلوان سابقاً)، الأعلى جامعة سوهاج)؛ 2024: من 91.71% إلى 92.68% عبر 18 برنامجًا (الأدنى جامعة العاصمة (حلوان سابقاً)، الأعلى جامعة سوهاج)؛ 2023: من 89.51% إلى 90.85% عبر 18 برنامجًا (الأدنى جامعة العاصمة (حلوان سابقاً)، الأعلى جامعة سوهاج). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 72% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Pharm-D (clinical pharmacy) programs last longer than the five-year bachelor and focus on patient care in hospitals.",
+        "ar": "برامج Pharm-D (الصيدلة الإكلينيكية) أطول من البكالوريوس ذي الخمس سنوات وتركز على رعاية المرضى في المستشفيات."
+      },
+      {
+        "en": "Medical laboratory science, clinical nutrition and biotechnology are related science paths with different entry requirements.",
+        "ar": "علوم المعامل الطبية والتغذية العلاجية والتكنولوجيا الحيوية مسارات علمية قريبة بشروط قبول مختلفة."
+      }
+    ],
+    "licensing": {
+      "en": "Law 90 of 2025 now requires a pharmacy degree, then one year of compulsory supervised training in an approved hospital, pharmacy or training unit, then passing the national qualification exam run by the Egyptian Health Council. Before that, some university announcements mentioned a six-month internship, so details differ by graduating year; check your faculty and the Pharmacists Syndicate. You must be registered with the Ministry of Health and the Egyptian Pharmacists Syndicate to practice.",
+      "ar": "ينص القانون 90 لسنة 2025 على أن تحصل على بكالوريوس الصيدلة ثم تقضي سنة تدريب إجبارية تحت إشراف في مستشفى أو صيدلية أو وحدة تدريب معتمدة، ثم تجتاز امتحان التأهيل الوطني الذي يديره المجلس الصحي المصري. قبل ذلك ذكرت بعض إعلانات الجامعات فترة امتياز ستة أشهر، فالتفاصيل تختلف حسب سنة التخرج؛ راجع كليتك ونقابة الصيادلة. ولا بد من التسجيل في وزارة الصحة ونقابة الصيادلة للممارسة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Pharmacology and pharmaceutics",
+        "ar": "علم الأدوية والصيدلانيات"
+      },
+      {
+        "en": "Drug interactions, dosing and safe use",
+        "ar": "التداخلات الدوائية والجرعات والاستخدام الآمن"
+      },
+      {
+        "en": "Pharmaceutical calculations (concentrations, dilutions)",
+        "ar": "الحسابات الصيدلانية (التراكيز والتخفيفات)"
+      },
+      {
+        "en": "Quality control and basic lab techniques",
+        "ar": "ضبط الجودة وتقنيات المعمل الأساسية"
+      },
+      {
+        "en": "Pharmacy law and record keeping",
+        "ar": "قوانين الصيدلة وحفظ السجلات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Careful attention: a small mistake can harm a patient",
+        "ar": "انتباه شديد: خطأ صغير قد يضر مريضًا"
+      },
+      {
+        "en": "Clear explanations to patients of all ages and education levels",
+        "ar": "شرح واضح لمرضى من كل الأعمار والمستويات التعليمية"
+      },
+      {
+        "en": "Business sense if you open or run a pharmacy",
+        "ar": "حس تجاري إذا فتحت صيدلية أو أدرتها"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for drug names, leaflets and research",
+        "ar": "الإنجليزية لأسماء الأدوية والنشرات والأبحاث"
+      },
+      {
+        "en": "Arabic for counselling patients",
+        "ar": "العربية لإرشاد المرضى"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Egyptian Pharmacists Syndicate registration and national licensing exam",
+        "ar": "تسجيل نقابة الصيادلة وامتحان الترخيص الوطني"
+      },
+      {
+        "en": "Good Manufacturing Practice (GMP) and quality courses for industry",
+        "ar": "دورات ممارسات التصنيع الجيد (GMP) والجودة للعمل في الصناعة"
+      },
+      {
+        "en": "Clinical pharmacy diplomas or a master's degree",
+        "ar": "دبلومات الصيدلة الإكلينيكية أو الماجستير"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Chemistry",
+        "url": "https://www.khanacademy.org/science/chemistry",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Health and Medicine",
+        "url": "https://www.khanacademy.org/science/health-and-medicine",
+        "free": true
+      },
+      {
+        "title": "MedlinePlus: Drugs, Herbs and Supplements (NIH)",
+        "url": "https://medlineplus.gov/druginformation.html",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 13574,
+        "max": 31070
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/pharmacist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 21,714 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 21,714 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Private community pharmacies and pharmacy chains",
+        "ar": "الصيدليات الخاصة وسلاسل الصيدليات"
+      },
+      {
+        "en": "Pharmaceutical companies (factories, quality control, medical representatives)",
+        "ar": "شركات الأدوية (المصانع وضبط الجودة والمندوبون الطبيون)"
+      },
+      {
+        "en": "Hospitals, including university hospitals and private hospitals",
+        "ar": "المستشفيات بما فيها الجامعية والخاصة"
+      },
+      {
+        "en": "Drug distributors and the Egyptian Drug Authority (regulation)",
+        "ar": "شركات توزيع الأدوية وهيئة الدواء المصرية (الجهة الرقابية)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Dispensing must be done in person in a licensed pharmacy. Some pharmacists do part-time shifts across pharmacies, write medical content, or consult for companies on registration and quality.",
+      "ar": "صرف الدواء يتم حضوريًا في صيدلية مرخصة. يعمل بعض الصيادلة بنظام الورديات في صيدليات متعددة، أو يكتبون محتوى طبيًا، أو يقدمون استشارات للشركات في التسجيل والجودة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria (pharma headquarters, hospitals, chains)",
+        "ar": "القاهرة الكبرى والإسكندرية (مقار شركات الأدوية والمستشفيات والسلاسل)"
+      },
+      {
+        "en": "Industrial cities such as 10th of Ramadan and 6th of October (factories)",
+        "ar": "المدن الصناعية مثل العاشر من رمضان وأكتوبر (المصانع)"
+      },
+      {
+        "en": "Every governorate for community pharmacies",
+        "ar": "كل المحافظات للصيدليات العامة"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Egyptian pharmacists work in the Gulf after passing local licensing exams, and some move to Europe, Canada or the US, which require further exams. Clinical pharmacy training and English strengthen your options abroad.",
+    "ar": "يعمل الصيادلة المصريون في الخليج بعد اجتياز امتحانات الترخيص المحلية، وينتقل بعضهم إلى أوروبا وكندا وأمريكا حيث تلزم امتحانات إضافية. التدريب في الصيدلة الإكلينيكية والإنجليزية الجيدة يقويان فرصك في الخارج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Many career directions: community, hospital, industry, regulation, sales",
+        "ar": "اتجاهات مهنية كثيرة: الصيدليات والمستشفيات والصناعة والرقابة والمبيعات"
+      },
+      {
+        "en": "Easier to get started than some health careers, and you can own a pharmacy",
+        "ar": "بداية أسهل من بعض المهن الصحية، ويمكنك امتلاك صيدلية"
+      },
+      {
+        "en": "Respected expertise that people rely on daily",
+        "ar": "خبرة محترمة يعتمد عليها الناس يوميًا"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Changing rules for training and licensing add uncertainty for new graduates",
+        "ar": "تغيّر قواعد التدريب والترخيص يضيف عدم يقين للخريجين الجدد"
+      },
+      {
+        "en": "Pay in community pharmacies can be modest and shifts long",
+        "ar": "الأجر في الصيدليات العامة قد يكون متواضعًا والورديات طويلة"
+      },
+      {
+        "en": "Competition from many graduates and from pharmacy chains",
+        "ar": "منافسة من كثرة الخريجين وسلاسل الصيدليات"
+      },
+      {
+        "en": "Responsibility: dispensing errors can have serious consequences",
+        "ar": "مسؤولية كبيرة: أخطاء الصرف قد تكون لها عواقب جسيمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A pharmacist only counts tablets and sells medicine.",
+          "ar": "الصيدلي يعد الأقراص ويبيع الدواء فقط."
+        },
+        "fact": {
+          "en": "Pharmacists check safety, prevent harmful interactions, advise patients, and work in factories, hospitals and regulation too.",
+          "ar": "الصيدلي يراجع السلامة ويمنع التداخلات الضارة وينصح المرضى ويعمل أيضًا في المصانع والمستشفيات والرقابة."
+        }
+      },
+      {
+        "myth": {
+          "en": "Pharmacy is easy compared to medicine.",
+          "ar": "الصيدلة سهلة مقارنة بالطب."
+        },
+        "fact": {
+          "en": "It is a demanding science degree with chemistry, pharmacology and many exams, and the Tansik minimum is high.",
+          "ar": "هي دراسة علمية صعبة فيها كيمياء وعلم أدوية وامتحانات كثيرة، والحد الأدنى للتنسيق مرتفع."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Reasonable if you work set shifts, though community pharmacies often run long hours including evenings and weekends. Industry jobs usually follow office or factory hours.",
+      "ar": "معقولة إذا عملت بورديات ثابتة، لكن الصيدليات العامة تعمل غالبًا ساعات طويلة تشمل المساء والعطلات. وظائف الصناعة تتبع عادة مواعيد المكاتب أو المصانع."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Pharmacy student (5 years)",
+        "ar": "طالب صيدلة (5 سنوات)"
+      },
+      {
+        "en": "Training year (supervised)",
+        "ar": "سنة تدريب (تحت إشراف)"
+      },
+      {
+        "en": "Pharmacist (community, hospital or industry)",
+        "ar": "صيدلي (عام أو مستشفى أو صناعة)"
+      },
+      {
+        "en": "Senior or clinical pharmacist, pharmacy manager",
+        "ar": "صيدلي أول أو إكلينيكي أو مدير صيدلية"
+      },
+      {
+        "en": "Pharmacy owner, quality or regulatory head, academic",
+        "ar": "صاحب صيدلية أو رئيس جودة أو شؤون تنظيمية أو أكاديمي"
+      }
+    ],
+    "relatedCareerIds": [
+      "physician",
+      "dentist",
+      "medical_lab_scientist",
+      "biotechnologist",
+      "clinical_nutritionist"
+    ],
+    "pivots": [
+      {
+        "en": "Regulatory affairs or pharmacovigilance",
+        "ar": "الشؤون التنظيمية أو اليقظة الدوائية"
+      },
+      {
+        "en": "Medical sales and marketing",
+        "ar": "المبيعات والتسويق الطبي"
+      },
+      {
+        "en": "Pharmaceutical quality assurance or research",
+        "ar": "ضمان الجودة الدوائية أو البحث"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MENA - Law No. 90 of 2025 on practicing pharmacy",
+      "url": "https://mena.org.eg/news/dbcall/table/textnews/id/11233836",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al Manassa - Parliament approves pharmacy practice law amendment",
+      "url": "https://almanassa.com/en/news/24128",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Assiut University Faculty of Pharmacy - Pharmacy practice licensing exam announcement",
+      "url": "https://aun.edu.eg/pharmacy/important-announcement-regarding-start-dates-pharmacy-practice-licensing-exams-may-2024-graduates",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Pharmacist salary survey",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/pharmacist?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

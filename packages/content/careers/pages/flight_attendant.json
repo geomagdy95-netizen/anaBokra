@@ -1,0 +1,171 @@
+{
+  "id": "flight_attendant",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep passengers safe and comfortable, thousands of feet in the air.",
+      "ar": "تحافظ على أمان الركاب وراحتهم على ارتفاعات شاهقة."
+    },
+    "summary": {
+      "en": "Flight attendants check safety equipment, welcome passengers, serve meals and handle emergencies on board. Safety is the main job, and service comes second. The work means irregular hours, time away from home and many different people.",
+      "ar": "مضيف الطيران يفحص معدات السلامة ويستقبل الركاب ويقدم الوجبات ويتعامل مع الطوارئ على متن الطائرة. السلامة هي المهمة الأولى والخدمة ثانية. يعني العمل ساعات غير منتظمة وغيابًا عن البيت والتعامل مع أنواع كثيرة من الناس."
+    },
+    "dayInLife": {
+      "en": "Before the flight you attend a briefing, check the emergency equipment and the food on board. As passengers enter, you welcome them and help with bags. In the air you demonstrate the safety rules, serve meals and respond when someone feels unwell. After landing you say goodbye to passengers and complete your report.",
+      "ar": "قبل الرحلة تحضر الإحاطة وتفحص معدات الطوارئ والطعام على متن الطائرة. عند صعود الركاب ترحب بهم وتساعدهم بالحقائب. في الجو تشرح قواعد السلامة وتقدم الوجبات وتتدخل حين يشعر أحدهم بتوعك. بعد الهبوط تودع الركاب وتكمل تقريرك."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Check safety and emergency equipment before each flight.",
+        "ar": "تفحص معدات السلامة والطوارئ قبل كل رحلة."
+      },
+      {
+        "en": "Welcome passengers and show them to their seats.",
+        "ar": "ترحب بالركاب وترشدهم إلى مقاعدهم."
+      },
+      {
+        "en": "Explain safety rules and act in emergencies.",
+        "ar": "تشرح قواعد السلامة وتتصرف في الطوارئ."
+      },
+      {
+        "en": "Serve food and drinks and look after passengers' needs.",
+        "ar": "تقدم الطعام والمشروبات وتلبي احتياجات الركاب."
+      },
+      {
+        "en": "Give first aid and write flight reports.",
+        "ar": "تقدم الإسعافات الأولية وتكتب تقارير الرحلة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Airlines (national and private)",
+        "ar": "شركات الطيران (الوطنية والخاصة)"
+      },
+      {
+        "en": "Private jets and charter companies",
+        "ar": "الطائرات الخاصة وشركات الطيران العارض"
+      },
+      {
+        "en": "Training and ground roles within airlines",
+        "ar": "أدوار التدريب والخدمات الأرضية في شركات الطيران"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Aircraft safety and emergency equipment",
+        "ar": "معدات السلامة والطوارئ في الطائرة"
+      },
+      {
+        "en": "Service carts and cabin systems",
+        "ar": "عربات الخدمة وأنظمة المقصورة"
+      },
+      {
+        "en": "First aid kits",
+        "ar": "حقائب الإسعافات الأولية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Airlines usually ask for a high school or university qualification and strong English, with other languages as a bonus. There is no required stream. Equivalency rules for foreign certificates change, so check yours with the airline.",
+      "ar": "تطلب شركات الطيران عادة مؤهلًا ثانويًا أو جامعيًا وإنجليزية قوية، واللغات الأخرى ميزة. لا توجد شعبة مطلوبة. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى شركة الطيران."
+    },
+    "faculties": [
+      {
+        "en": "No specific degree is required; tourism, hotel and language degrees are common",
+        "ar": "لا تُشترط درجة معينة؛ ودرجات السياحة والفنادق واللغات شائعة"
+      },
+      {
+        "en": "Faculties of Tourism and Hotels, and Al-Alsun (languages)",
+        "ar": "كليات السياحة والفنادق وكليات الألسن"
+      },
+      {
+        "en": "Airline training centres, such as EgyptAir Training Center",
+        "ar": "مراكز تدريب شركات الطيران مثل مركز تدريب مصر للطيران"
+      }
+    ],
+    "programIds": [
+      "alexandria-university-tourism-hotels",
+      "mansoura-university-tourism-hotels"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2024: 68.54% (Alexandria University, the only linked program with a published figure in our data). Newer figures are not in our data. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2024: 68.54% (جامعة الإسكندرية، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Apply directly to an airline, which gives its own training course before you fly.",
+        "ar": "التقديم مباشرة إلى شركة الطيران التي تقدم دورتها التدريبية قبل أن تعمل."
+      },
+      {
+        "en": "Work first in hotels, customer service or ground services to build language and service skills.",
+        "ar": "العمل أولًا في الفنادق أو خدمة العملاء أو الخدمات الأرضية لبناء مهارات اللغة والخدمة."
+      }
+    ],
+    "licensing": {
+      "en": "Airlines require approved safety and emergency training and a medical check before you can fly. Age, height, health, swimming and language requirements are set by each airline and the civil aviation authority, so check the current rules with the airline.",
+      "ar": "تشترط شركات الطيران تدريبًا معتمدًا على السلامة والطوارئ وفحصًا طبيًا قبل أن تعمل. شروط السن والطول والصحة والسباحة واللغة تضعها كل شركة وسلطة الطيران المدني، فتأكد من القواعد الحالية لدى الشركة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "pilot",
+      "hotel_manager",
+      "tour_guide",
+      "event_planner",
+      "nurse"
+    ],
+    "pivots": [
+      {
+        "en": "Cabin crew trainer or supervisor",
+        "ar": "مدرب أو مشرف طاقم الضيافة"
+      },
+      {
+        "en": "Airport and ground services",
+        "ar": "المطارات والخدمات الأرضية"
+      },
+      {
+        "en": "Hotel or customer service management",
+        "ar": "إدارة الفنادق أو خدمة العملاء"
+      },
+      {
+        "en": "Travel and tourism",
+        "ar": "السفر والسياحة"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Flight Attendant",
+      "url": "https://www.onetonline.org/link/summary/53-2031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Flight Attendant",
+      "url": "https://www.mynextmove.org/profile/summary/53-2031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "EgyptAir Training Center",
+      "url": "https://www.egyptair.com",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

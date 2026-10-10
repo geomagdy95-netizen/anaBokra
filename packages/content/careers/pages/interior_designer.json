@@ -1,0 +1,172 @@
+{
+  "id": "interior_designer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You shape the rooms where people live, work and relax.",
+      "ar": "تشكّل الغرف التي يعيش فيها الناس ويعملون ويرتاحون."
+    },
+    "summary": {
+      "en": "Interior designers plan how a space looks and works: layout, colours, furniture, lighting and materials. They draw plans, choose materials and work with clients and builders. A good designer mixes creativity with practical measurements and budget.",
+      "ar": "مصمم الديكور الداخلي يخطط كيف يبدو المكان وكيف يعمل: التوزيع والألوان والأثاث والإضاءة والخامات. يرسم المخططات ويختار الخامات ويعمل مع العملاء والمقاولين. المصمم الجيد يجمع بين الإبداع والقياسات العملية والميزانية."
+    },
+    "dayInLife": {
+      "en": "You visit a client's apartment and take measurements while listening to how the family uses each room. Back at the office you draw the plan on the computer and make a 3D picture. After lunch you choose fabrics and tiles with a supplier and check the price. Before you leave you send the client a mood board and the next step.",
+      "ar": "تزور شقة عميل وتأخذ القياسات وأنت تستمع لكيفية استخدام الأسرة لكل غرفة. في المكتب ترسم المخطط على الكمبيوتر وتعمل صورة ثلاثية الأبعاد. بعد الغداء تختار الأقمشة والبلاط مع مورّد وتراجع السعر. قبل المغادرة ترسل للعميل لوحة الأفكار والخطوة التالية."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Meet clients and understand their needs and budget.",
+        "ar": "تقابل العملاء وتفهم احتياجاتهم وميزانيتهم."
+      },
+      {
+        "en": "Draw layouts and 3D images of the design.",
+        "ar": "ترسم المخططات والصور ثلاثية الأبعاد للتصميم."
+      },
+      {
+        "en": "Choose colours, furniture, lighting and materials.",
+        "ar": "تختار الألوان والأثاث والإضاءة والخامات."
+      },
+      {
+        "en": "Prepare drawings and cost lists for builders and suppliers.",
+        "ar": "تجهّز الرسومات وقوائم التكلفة للمقاولين والموردين."
+      },
+      {
+        "en": "Visit the site and check the work is done as designed.",
+        "ar": "تزور الموقع وتتأكد أن التنفيذ يطابق التصميم."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Design studios and architecture offices",
+        "ar": "استوديوهات التصميم والمكاتب الهندسية"
+      },
+      {
+        "en": "Furniture, fit-out and contracting companies",
+        "ar": "شركات الأثاث والتشطيبات والمقاولات"
+      },
+      {
+        "en": "Freelance work for homes, shops and restaurants",
+        "ar": "العمل الحر للمنازل والمحلات والمطاعم"
+      }
+    ],
+    "tools": [
+      {
+        "en": "AutoCAD and SketchUp",
+        "ar": "AutoCAD وSketchUp"
+      },
+      {
+        "en": "3D Max, Revit or Lumion",
+        "ar": "3D Max وRevit أو Lumion"
+      },
+      {
+        "en": "Photoshop and material catalogues",
+        "ar": "فوتوشوب وكتالوجات الخامات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Art faculties usually accept students from any stream and add a practical aptitude test or portfolio review, so drawing and design practice matter as much as your marks. With IGCSE or A-Level, Art and Design is the most useful subject; with the American Diploma, take art electives. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الفنون تقبل عادة طلابًا من أي شعبة وتضيف اختبار قدرات عمليًا أو مراجعة ملف أعمال، فالتدريب على الرسم والتصميم يهم بقدر الدرجات. في IGCSE وA-Level الأنفع هو الفن والتصميم؛ وفي الدبلومة الأمريكية خذ مواد الفنون الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Fine Arts, interior design departments (with an aptitude test)",
+        "ar": "كليات الفنون الجميلة، أقسام الديكور (باختبار قدرات)"
+      },
+      {
+        "en": "Faculties of Applied Arts, interior design and furniture departments",
+        "ar": "كليات الفنون التطبيقية، أقسام الديكور والأثاث"
+      },
+      {
+        "en": "Art and design or architecture programs at private universities",
+        "ar": "برامج الفنون والتصميم أو العمارة بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "alexandria-university-fine-arts",
+      "mansoura-university-fine-arts",
+      "capital-university-applied-arts",
+      "benha-university-applied-arts",
+      "british-university-in-egypt-art-design",
+      "german-university-in-cairo-architecture-urban-design"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 78.44% to 80.31% across 2 programs (lowest Mansoura University, highest Alexandria University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% to 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 78.44% إلى 80.31% عبر 2 برنامجًا (الأدنى جامعة المنصورة والأعلى جامعة الإسكندرية). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: من 53% إلى 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a CAD drafter or assistant designer in a studio or fit-out company, then grow with a portfolio.",
+        "ar": "البدء كرسام CAD أو مساعد مصمم في استوديو أو شركة تشطيبات ثم التقدم بملف الأعمال."
+      },
+      {
+        "en": "Short diplomas and software courses next to another design or engineering degree.",
+        "ar": "دبلومات قصيرة ودورات برامج بجانب درجة أخرى في التصميم أو الهندسة."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "architect",
+      "graphic_designer",
+      "ux_designer",
+      "civil_engineer",
+      "fashion_designer"
+    ],
+    "pivots": [
+      {
+        "en": "Architecture",
+        "ar": "العمارة"
+      },
+      {
+        "en": "Furniture or product design",
+        "ar": "تصميم الأثاث أو المنتجات"
+      },
+      {
+        "en": "3D visualisation",
+        "ar": "التصوير ثلاثي الأبعاد"
+      },
+      {
+        "en": "Opening your own design studio",
+        "ar": "فتح استوديو تصميم خاص"
+      }
+    ]
+  },
+  "industryId": "creative",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Interior Designer",
+      "url": "https://www.onetonline.org/link/summary/27-1025.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Interior Designer",
+      "url": "https://www.mynextmove.org/profile/summary/27-1025.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

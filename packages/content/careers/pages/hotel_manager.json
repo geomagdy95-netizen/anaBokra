@@ -1,0 +1,454 @@
+{
+  "id": "hotel_manager",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You make sure hundreds of guests feel welcome, safe and well cared for.",
+      "ar": "تضمن أن مئات الضيوف يشعرون بالترحيب والأمان والرعاية."
+    },
+    "summary": {
+      "en": "Hotel managers run a hotel or a department of one: rooms, food and drink, front office, sales and maintenance. Egypt's tourism hit a record of about 19 million visitors in 2025 and hotel capacity is growing, so hospitality is a major employer, especially on the Red Sea and in Cairo, Luxor and Aswan. Most managers start in entry-level jobs and rise over years.",
+      "ar": "مدير الفندق يدير فندقًا أو قسمًا فيه: الغرف والطعام والشراب والاستقبال والمبيعات والصيانة. بلغت السياحة في مصر رقمًا قياسيًا نحو 19 مليون زائر في 2025 وطاقة الفنادق تنمو، فالضيافة جهة عمل كبيرة خاصة في البحر الأحمر والقاهرة والأقصر وأسوان. معظم المديرين يبدأون في وظائف مبتدئة ويترقون على مدى سنوات."
+    },
+    "dayInLife": {
+      "en": "You walk through the lobby at eight to see how the night went and to greet early guests. A group arrives earlier than planned, so you ask housekeeping to prepare their rooms first. In the morning meeting you check occupancy, complaints and the day's events with each department head. At noon a guest is upset about noise, so you listen, apologise and offer a quiet room. In the afternoon you review prices and sales reports with the revenue team. Late in the evening you check the restaurant and thank the night staff before you leave.",
+      "ar": "تمر على الاستقبال في الثامنة لترى كيف مرت الليلة وتستقبل الضيوف المبكرين. وصلت مجموعة قبل الموعد، فتطلب من الإشراف الداخلي تجهيز غرفهم أولًا. في اجتماع الصباح تراجع الإشغال والشكاوى وفعاليات اليوم مع رؤساء الأقسام. عند الظهر ينزعج ضيف من الضوضاء، فتستمع إليه وتعتذر وتعرض عليه غرفة هادئة. بعد الظهر تراجع الأسعار وتقارير المبيعات مع فريق الإيرادات. في آخر المساء تمر على المطعم وتشكر موظفي الليل قبل أن تنصرف."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Lead and schedule staff in front office, housekeeping, food and beverage and maintenance.",
+        "ar": "تقود الموظفين وتضع جداولهم في الاستقبال والإشراف الداخلي والأغذية والمشروبات والصيانة."
+      },
+      {
+        "en": "Make sure guests' needs and complaints are handled quickly and politely.",
+        "ar": "تضمن معالجة احتياجات الضيوف وشكاواهم بسرعة وأدب."
+      },
+      {
+        "en": "Manage budgets, prices, occupancy and revenue.",
+        "ar": "تدير الميزانيات والأسعار والإشغال والإيرادات."
+      },
+      {
+        "en": "Work with sales, travel agencies and online booking sites.",
+        "ar": "تعمل مع المبيعات ووكالات السفر ومواقع الحجز."
+      },
+      {
+        "en": "Keep the hotel safe, clean and following health and safety rules.",
+        "ar": "تحافظ على أمان الفندق ونظافته والتزامه بقواعد الصحة والسلامة."
+      },
+      {
+        "en": "Hire, train and motivate a diverse team.",
+        "ar": "توظف فريقًا متنوعًا وتدربه وتحفزه."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hotels, resorts and Nile cruisers",
+        "ar": "الفنادق والمنتجعات والبواخر النيلية"
+      },
+      {
+        "en": "Serviced apartments and hospitality chains",
+        "ar": "الشقق الفندقية وسلاسل الضيافة"
+      },
+      {
+        "en": "Often shifts, weekends and holidays",
+        "ar": "غالبًا مناوبات وعطلات نهاية الأسبوع والأعياد"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Hotel management systems such as Opera or similar",
+        "ar": "أنظمة إدارة الفنادق مثل Opera أو ما يشبهها"
+      },
+      {
+        "en": "Online booking platforms and revenue-management tools",
+        "ar": "منصات الحجز الإلكتروني وأدوات إدارة الإيرادات"
+      },
+      {
+        "en": "Excel and reporting dashboards",
+        "ar": "إكسل ولوحات التقارير"
+      },
+      {
+        "en": "Communication apps for staff coordination",
+        "ar": "تطبيقات التواصل لتنسيق الموظفين"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Tourism and Hotels accept Thanaweya Amma (literary) in public universities; private programs accept IGCSE, American Diploma and IB. Useful subjects: English and a second language, Business Studies, Maths and Hospitality or Food Technology where offered. A summer job in a hotel is excellent experience.",
+      "ar": "كليات السياحة والفنادق الحكومية تقبل الثانوية العامة (أدبي)، والبرامج الخاصة تقبل IGCSE والدبلومة الأمريكية وIB. مواد مفيدة: الإنجليزية ولغة ثانية ودراسات الأعمال والرياضيات والضيافة أو تكنولوجيا الغذاء إن توفرت. العمل الصيفي في فندق خبرة ممتازة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Tourism and Hotels (hotel studies department)",
+        "ar": "كلية السياحة والفنادق (قسم الدراسات الفندقية)"
+      },
+      {
+        "en": "Tourism and hotel management programs at private universities",
+        "ar": "برامج السياحة وإدارة الفنادق في الجامعات الخاصة"
+      },
+      {
+        "en": "Faculty of Commerce or Business Administration with hospitality experience",
+        "ar": "كلية التجارة أو إدارة الأعمال مع خبرة في الضيافة"
+      }
+    ],
+    "programIds": [
+      "alexandria-university-tourism-hotels",
+      "mansoura-university-tourism-hotels",
+      "capital-university-tourism-hotels",
+      "suez-canal-university-tourism-hotels",
+      "minia-university-tourism-hotels",
+      "british-university-in-egypt-tourism-hotel-management"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Tourism and Hotels: only Alexandria appears in the lists we reviewed, at 68.54% in 2024 (percent of the total). Mansoura, Capital, Suez Canal, Minia, Beni Suef and Fayoum programs are not listed in 2023 to 2026, so their minimums are unknown here. The private tourism and hotel management program shows only a 53% regulatory floor for 2025/26, a legal minimum and not its real cutoff.",
+      "ar": "كليات السياحة والفنادق: لم يرد في القوائم التي راجعناها غير الإسكندرية بنسبة 68.54% في 2024 (نسبة مئوية من المجموع). برامج المنصورة والعاصمة وقناة السويس والمنيا وبني سويف والفيوم غير مدرجة في 2023 إلى 2026، فحدودها الدنيا غير معروفة هنا. يعرض برنامج السياحة وإدارة الفنادق الخاص حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a receptionist, waiter or trainee in a hotel and move up through departments. Many managers did this.",
+        "ar": "ابدأ موظف استقبال أو ويتر أو متدربًا في فندق وترقَّ عبر الأقسام. كثير من المديرين فعلوا ذلك."
+      },
+      {
+        "en": "Hospitality training programs run by NGOs and hotel chains, such as EFE Egypt.",
+        "ar": "برامج تدريب الضيافة التي تنفذها المنظمات الأهلية وسلاسل الفنادق مثل EFE Egypt."
+      },
+      {
+        "en": "Any degree plus hotel internships and hospitality diplomas can also lead to management.",
+        "ar": "أي شهادة مع تدريب فندقي ودبلومات ضيافة يمكن أن تقود للإدارة أيضًا."
+      }
+    ],
+    "licensing": {
+      "en": "There is no personal licence for hotel managers. Hotels are classified and supervised by the Ministry of Tourism and Antiquities and hotel staff must meet health and safety rules, such as food-handling and fire-safety training. Employers prefer degrees and international hospitality certificates, so check what each hotel chain requires.",
+      "ar": "لا يوجد ترخيص شخصي لمديري الفنادق. تُصنَّف الفنادق وتُشرف عليها وزارة السياحة والآثار ويجب أن يلتزم العاملون بقواعد الصحة والسلامة مثل التدريب على التعامل مع الغذاء والسلامة من الحريق. يفضل أصحاب العمل الشهادات الجامعية والشهادات الدولية في الضيافة، فتحقق مما تطلبه كل سلسلة فنادق."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Hotel operations: front office, housekeeping, food and beverage",
+        "ar": "عمليات الفندق: الاستقبال والإشراف الداخلي والأغذية والمشروبات"
+      },
+      {
+        "en": "Budgeting and revenue management",
+        "ar": "الميزانيات وإدارة الإيرادات"
+      },
+      {
+        "en": "Hotel software and online booking platforms",
+        "ar": "برامج الفنادق ومنصات الحجز الإلكتروني"
+      },
+      {
+        "en": "Health, safety and food-hygiene rules",
+        "ar": "قواعد الصحة والسلامة ونظافة الغذاء"
+      },
+      {
+        "en": "Sales and marketing basics",
+        "ar": "أساسيات المبيعات والتسويق"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Welcoming and polite with every guest",
+        "ar": "الترحيب والأدب مع كل ضيف"
+      },
+      {
+        "en": "Leadership and teamwork",
+        "ar": "القيادة والعمل الجماعي"
+      },
+      {
+        "en": "Staying calm in complaints and emergencies",
+        "ar": "الهدوء في الشكاوى والطوارئ"
+      },
+      {
+        "en": "Organisation under pressure",
+        "ar": "التنظيم تحت الضغط"
+      },
+      {
+        "en": "Respect for different cultures and religions",
+        "ar": "احترام الثقافات والأديان المختلفة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English (essential)",
+        "ar": "الإنجليزية (أساسية)"
+      },
+      {
+        "en": "German, Russian, French, Italian or Chinese for specific markets",
+        "ar": "الألمانية أو الروسية أو الفرنسية أو الإيطالية أو الصينية لأسواق محددة"
+      },
+      {
+        "en": "Arabic",
+        "ar": "العربية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Hospitality diplomas such as AHLEI or Swiss hotel school certificates (optional)",
+        "ar": "دبلومات الضيافة مثل AHLEI أو شهادات مدارس الفنادق السويسرية (اختيارية)"
+      },
+      {
+        "en": "Food safety (HACCP) and first-aid certificates",
+        "ar": "شهادات سلامة الغذاء (HACCP) والإسعافات الأولية"
+      },
+      {
+        "en": "Revenue-management certificates (optional)",
+        "ar": "شهادات إدارة الإيرادات (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egypt Tourism Authority",
+        "url": "https://egypt.travel",
+        "free": true
+      },
+      {
+        "title": "AHLEI hospitality courses",
+        "url": "https://www.ahlei.org",
+        "free": false
+      },
+      {
+        "title": "Education For Employment (EFE) Egypt",
+        "url": "https://www.efe.org/egypt",
+        "free": true
+      },
+      {
+        "title": "Coursera: hospitality management courses",
+        "url": "https://www.coursera.org",
+        "free": false
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10757,
+        "max": 25488
+      },
+      "senior": {
+        "min": 10793,
+        "max": 40541
+      },
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/management",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Mid uses the Paylab title Shift Manager (tourism sector) and senior uses Hotel Manager (management sector). Entry roles such as Receptionist are 9,402 to 16,066 EGP. Large international chains often pay more than these ranges and may include service charges.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. المتوسط من مسمى Shift Manager (قطاع السياحة) والأعلى من Hotel Manager (قطاع الإدارة). الوظائف المبتدئة مثل موظف الاستقبال بين 9,402 و16,066 جنيهًا. غالبًا ما تدفع السلاسل الدولية الكبيرة أكثر من هذه النطاقات وقد تشمل نسبة الخدمة."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "International and Egyptian hotel chains",
+        "ar": "سلاسل الفنادق الدولية والمصرية"
+      },
+      {
+        "en": "Resorts on the Red Sea and Sinai (Hurghada, Sharm El Sheikh, Marsa Alam)",
+        "ar": "المنتجعات على البحر الأحمر وسيناء (الغردقة وشرم الشيخ ومرسى علم)"
+      },
+      {
+        "en": "Cairo, Alexandria, Luxor and Aswan hotels",
+        "ar": "فنادق القاهرة والإسكندرية والأقصر وأسوان"
+      },
+      {
+        "en": "Nile cruise operators and serviced apartments",
+        "ar": "شركات البواخر النيلية والشقق الفندقية"
+      },
+      {
+        "en": "Gulf hotel groups",
+        "ar": "مجموعات الفنادق الخليجية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Hotel management is done on site, but consulting, revenue management and online travel sales can be remote. Some managers open guesthouses or boutique hotels in places such as Siwa, Dahab and Fayoum.",
+      "ar": "إدارة الفنادق تتم في الموقع، لكن الاستشارات وإدارة الإيرادات والمبيعات السياحية عبر الإنترنت قد تكون عن بُعد. يفتح بعض المديرين بيوت ضيافة أو فنادق بوتيك في أماكن مثل سيوة ودهب والفيوم."
+    },
+    "regions": [
+      {
+        "en": "Red Sea (Hurghada, Marsa Alam)",
+        "ar": "البحر الأحمر (الغردقة ومرسى علم)"
+      },
+      {
+        "en": "South Sinai (Sharm El Sheikh, Dahab)",
+        "ar": "جنوب سيناء (شرم الشيخ ودهب)"
+      },
+      {
+        "en": "Cairo, Giza, Alexandria",
+        "ar": "القاهرة والجيزة والإسكندرية"
+      },
+      {
+        "en": "Luxor and Aswan",
+        "ar": "الأقصر وأسوان"
+      },
+      {
+        "en": "North Coast and New Alamein",
+        "ar": "الساحل الشمالي والعلمين الجديدة"
+      }
+    ],
+    "providerIds": [
+      "efe-egypt",
+      "british-council-egypt",
+      "goethe-institut-egypt"
+    ]
+  },
+  "global": {
+    "en": "Hospitality is a global career. Egyptian hotel professionals work in Gulf hotels, cruise ships and international chains, and chains often move managers between countries. Languages and a recognised hospitality diploma help. Check contracts, housing and working hours carefully.",
+    "ar": "الضيافة مهنة عالمية. يعمل المتخصصون المصريون في فنادق الخليج والسفن السياحية والسلاسل الدولية، وتنقل السلاسل مديريها بين الدول غالبًا. اللغات ودبلوم ضيافة معترف به تساعد. افحص العقود والسكن وساعات العمل بعناية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Clear steps from junior roles to management",
+        "ar": "خطوات واضحة من الوظائف المبتدئة إلى الإدارة"
+      },
+      {
+        "en": "Meeting people from many cultures",
+        "ar": "لقاء أشخاص من ثقافات كثيرة"
+      },
+      {
+        "en": "Jobs in many tourist cities and abroad",
+        "ar": "وظائف في مدن سياحية كثيرة وفي الخارج"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long shifts, weekends and holidays",
+        "ar": "مناوبات طويلة وعطلات أسبوعية وأعياد"
+      },
+      {
+        "en": "Tourism depends on regional events and seasons",
+        "ar": "السياحة تتأثر بالأحداث الإقليمية والمواسم"
+      },
+      {
+        "en": "Early-career pay is modest and you may live far from home",
+        "ar": "راتب بداية المسيرة متواضع وقد تعيش بعيدًا عن بيتك"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Hotel work is only serving guests.",
+          "ar": "العمل في الفنادق هو خدمة الضيوف فقط."
+        },
+        "fact": {
+          "en": "Managers also handle finance, sales, staff, safety and technology.",
+          "ar": "المديرون يتعاملون أيضًا مع المالية والمبيعات والموظفين والسلامة والتكنولوجيا."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need to be rich or know someone to manage a hotel.",
+          "ar": "تحتاج أن تكون غنيًا أو تعرف أحدًا لإدارة فندق."
+        },
+        "fact": {
+          "en": "Most managers rose from entry jobs. Performance, languages and reliability count most.",
+          "ar": "معظم المديرين ترقوا من وظائف مبتدئة. الأداء واللغات والاعتمادية أهم شيء."
+        }
+      },
+      {
+        "myth": {
+          "en": "Online booking means hotels need fewer people.",
+          "ar": "الحجز الإلكتروني يعني أن الفنادق تحتاج موظفين أقل."
+        },
+        "fact": {
+          "en": "Booking is automated, but guest experience, operations and revenue decisions still need people.",
+          "ar": "الحجز أصبح آليًا، لكن تجربة الضيف والتشغيل وقرارات الإيرادات ما زالت تحتاج بشرًا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Demanding. Hotels run 24 hours, so managers work shifts, weekends and holidays and may be called in emergencies. Work-life balance improves in senior or corporate roles.",
+      "ar": "متطلب. الفنادق تعمل 24 ساعة، فيعمل المديرون في مناوبات وعطلات وقد يُستدعون في الطوارئ. يتحسن التوازن في المناصب العليا أو الإدارية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Trainee or receptionist",
+        "ar": "متدرب أو موظف استقبال"
+      },
+      {
+        "en": "Supervisor or shift manager",
+        "ar": "مشرف أو مدير مناوبة"
+      },
+      {
+        "en": "Department head (rooms, food and beverage, sales)",
+        "ar": "رئيس قسم (الغرف أو الأغذية والمشروبات أو المبيعات)"
+      },
+      {
+        "en": "Assistant general manager",
+        "ar": "نائب المدير العام"
+      },
+      {
+        "en": "General manager or regional director",
+        "ar": "مدير عام أو مدير إقليمي"
+      }
+    ],
+    "relatedCareerIds": [
+      "tour_guide",
+      "event_planner",
+      "chef",
+      "flight_attendant",
+      "agribusiness_manager",
+      "management_consultant"
+    ],
+    "pivots": [
+      {
+        "en": "Event and conference management",
+        "ar": "إدارة الفعاليات والمؤتمرات"
+      },
+      {
+        "en": "Airline and cruise hospitality",
+        "ar": "ضيافة الطيران والسفن"
+      },
+      {
+        "en": "Revenue management and travel technology",
+        "ar": "إدارة الإيرادات وتكنولوجيا السفر"
+      },
+      {
+        "en": "Opening your own guesthouse or restaurant",
+        "ar": "فتح بيت ضيافة أو مطعم خاص"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Management salaries (hotel manager)",
+      "url": "https://www.paylab.com/eg/salaryinfo/management",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Tourism, gastronomy and hotel business salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Business Today Egypt: Egypt sets new tourism record with 19M visitors in 2025",
+      "url": "https://www.businesstodayegypt.com/Article/1/7031/Egypt-sets-new-tourism-record-with-19M-visitors-in-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "id": "accountant",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You are the person who knows where the money really went.",
+      "ar": "أنت الشخص الذي يعرف أين ذهبت الفلوس فعلًا."
+    },
+    "summary": {
+      "en": "Accountants record, check and explain the money of a company or person, and prepare reports and taxes. Almost every business in Egypt needs one, so the job is available in every governorate. The work is changing: software now does the routine entry, and employers value people who can analyse and advise.",
+      "ar": "المحاسب يسجّل أموال الشركة أو الشخص ويراجعها ويشرحها ويجهّز التقارير والضرائب. تقريبًا كل نشاط تجاري في مصر يحتاج محاسبًا، فالوظيفة موجودة في كل المحافظات. والعمل يتغير: البرامج تقوم الآن بالإدخال الروتيني، وأصحاب العمل يقدّرون من يحلل وينصح."
+    },
+    "dayInLife": {
+      "en": "You open your computer and check yesterday's invoices and bank movements against the company's records. One number does not match, so you trace it back and find a supplier invoice that was entered twice. You fix it and note it down. Before lunch you prepare a monthly report for the manager, showing what was spent and what is left in the budget. In the afternoon you submit the VAT return through the tax authority's website and answer a question from the sales team. At the end of the month the days get busier because every account has to be closed.",
+      "ar": "تفتح الكمبيوتر وتراجع فواتير أمس وحركة البنك على سجلات الشركة. رقم واحد لا يتطابق، فتتتبعه وتكتشف أن فاتورة مورّد سُجّلت مرتين. تصلحه وتدوّن الملاحظة. قبل الغداء تجهّز تقريرًا شهريًا للمدير يوضح ما أُنفق وما تبقى من الميزانية. بعد الظهر ترفع إقرار ضريبة القيمة المضافة على موقع مصلحة الضرائب وتجيب عن سؤال من فريق المبيعات. في آخر الشهر يزيد الضغط لأن كل الحسابات يجب أن تُقفل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Record sales, purchases, payments and salaries in the books.",
+        "ar": "تسجّل المبيعات والمشتريات والمدفوعات والمرتبات في الدفاتر."
+      },
+      {
+        "en": "Check that bank statements, invoices and stock records match the accounts.",
+        "ar": "تتأكد من تطابق كشوف البنك والفواتير وسجلات المخزون مع الحسابات."
+      },
+      {
+        "en": "Prepare monthly and yearly financial statements and budgets.",
+        "ar": "تعدّ القوائم المالية والميزانيات الشهرية والسنوية."
+      },
+      {
+        "en": "Calculate and submit taxes such as VAT and income tax on time.",
+        "ar": "تحسب الضرائب مثل القيمة المضافة وضريبة الدخل وتقدمها في موعدها."
+      },
+      {
+        "en": "Explain the numbers to managers and help them decide.",
+        "ar": "تشرح الأرقام للمديرين وتساعدهم على اتخاذ القرارات."
+      },
+      {
+        "en": "Support auditors who check the company's accounts.",
+        "ar": "تساعد المراجعين الذين يفحصون حسابات الشركة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Company finance departments",
+        "ar": "أقسام المالية في الشركات"
+      },
+      {
+        "en": "Accounting and audit firms",
+        "ar": "مكاتب المحاسبة والمراجعة"
+      },
+      {
+        "en": "Banks, factories, hospitals, schools and government bodies",
+        "ar": "البنوك والمصانع والمستشفيات والمدارس والجهات الحكومية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and Google Sheets",
+        "ar": "إكسل وجوجل شيتس"
+      },
+      {
+        "en": "Accounting software such as ERP systems (SAP, Oracle) and local programs",
+        "ar": "برامج المحاسبة ونظم ERP (مثل SAP وOracle) وبرامج محلية"
+      },
+      {
+        "en": "The Egyptian Tax Authority e-invoice and e-receipt systems",
+        "ar": "نظامَا الفاتورة الإلكترونية والإيصال الإلكتروني لمصلحة الضرائب المصرية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Accounting, Business Studies, Economics and Mathematics. American Diploma: Algebra, Statistics and any business electives. IB: Business Management, Economics and Maths. Good Excel skills help in all of them.",
+      "ar": "IGCSE أو A-Level: المحاسبة ودراسات الأعمال والاقتصاد والرياضيات. الدبلومة الأمريكية: الجبر والإحصاء وأي مواد اختيارية في الأعمال. IB: إدارة الأعمال والاقتصاد والرياضيات. ومهارة إكسل مفيدة في كل الأحوال."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Commerce, accounting department (Arabic or English section)",
+        "ar": "كلية التجارة، قسم المحاسبة (شعبة عربي أو إنجليزي)"
+      },
+      {
+        "en": "Faculty of Business Administration at private universities",
+        "ar": "كلية إدارة الأعمال في الجامعات الخاصة"
+      },
+      {
+        "en": "Faculty of Business with finance and fintech tracks (for example Ain Shams National University)",
+        "ar": "كلية الأعمال بمساراتها المالية والتكنولوجيا المالية (مثل جامعة عين شمس الأهلية)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "ain-shams-university-commerce",
+      "alexandria-university-commerce",
+      "assiut-university-commerce",
+      "capital-university-commerce",
+      "british-university-in-egypt-business-administration",
+      "ain-shams-national-university-business-fintech"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Commerce (literary track) asked for about 72% to 79% in the 2026 phase-1 lists: Cairo University 79.06% and Assiut 71.88% (percent of the total). The 2025 range was about 73% to 79.5%. Private universities show only a 53% regulatory floor for 2025/26, which is a legal minimum and not their real cutoff.",
+      "ar": "طلبت كليات التجارة (الشعبة الأدبية) نحو 72% إلى 79% في المرحلة الأولى لعام 2026: جامعة القاهرة 79.06% وأسيوط 71.88% (نسبة مئوية من المجموع). وكان نطاق 2025 نحو 73% إلى 79.5%. تعرض الجامعات الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Technical commercial diploma, then work as an accounts clerk while you study part-time for a degree.",
+        "ar": "دبلوم تجاري فني ثم العمل كمحاسب مساعد مع استكمال الدراسة الجامعية."
+      },
+      {
+        "en": "Professional qualifications such as ACCA or CMA can be studied alongside or after a degree.",
+        "ar": "مؤهلات مهنية مثل ACCA أو CMA يمكن دراستها مع الدراسة الجامعية أو بعدها."
+      },
+      {
+        "en": "Training years in an audit firm after graduation count toward professional membership.",
+        "ar": "سنوات التدريب في مكتب مراجعة بعد التخرج تُحسب في العضوية المهنية."
+      }
+    ],
+    "licensing": {
+      "en": "To work as an employee accountant you need a degree. To sign audit reports you must be registered as an auditor with the authorities, and membership of the Egyptian Society of Accountants and Auditors (ESAA) and the commerce syndicate is part of this. ESAA has an exam and requires supervised experience. Rules can change, so check the current requirements with the Ministry of Finance, the Financial Regulatory Authority and ESAA.",
+      "ar": "للعمل كمحاسب موظف تحتاج مؤهلًا جامعيًا. أما توقيع تقارير المراجعة فيتطلب القيد كمراقب حسابات لدى الجهات المختصة، وتدخل فيه عضوية جمعية المحاسبين والمراجعين المصرية (ESAA) ونقابة التجاريين. للجمعية امتحان وتشترط خبرة تحت إشراف. قد تتغير القواعد، فتأكد من الشروط الحالية من وزارة المالية والهيئة العامة للرقابة المالية والجمعية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Bookkeeping and financial accounting",
+        "ar": "مسك الدفاتر والمحاسبة المالية"
+      },
+      {
+        "en": "Excel, including formulas and pivot tables",
+        "ar": "إكسل بما فيه المعادلات والجداول المحورية"
+      },
+      {
+        "en": "Egyptian tax rules: VAT, income tax and e-invoicing",
+        "ar": "قواعد الضرائب المصرية: القيمة المضافة وضريبة الدخل والفاتورة الإلكترونية"
+      },
+      {
+        "en": "International Financial Reporting Standards (IFRS) basics",
+        "ar": "أساسيات معايير التقارير المالية الدولية (IFRS)"
+      },
+      {
+        "en": "Accounting software and basic data analysis",
+        "ar": "برامج المحاسبة وتحليل البيانات الأساسي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Accuracy and attention to detail",
+        "ar": "الدقة والانتباه للتفاصيل"
+      },
+      {
+        "en": "Honesty and keeping information confidential",
+        "ar": "الأمانة والحفاظ على سرية المعلومات"
+      },
+      {
+        "en": "Staying calm under month-end deadlines",
+        "ar": "الهدوء تحت ضغط مواعيد نهاية الشهر"
+      },
+      {
+        "en": "Explaining numbers in simple words",
+        "ar": "شرح الأرقام بكلمات بسيطة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: reports, software and most international firms",
+        "ar": "الإنجليزية: التقارير والبرامج ومعظم الشركات الدولية"
+      },
+      {
+        "en": "Arabic: tax forms, laws and local clients",
+        "ar": "العربية: النماذج الضريبية والقوانين والعملاء المحليون"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ACCA (Association of Chartered Certified Accountants)",
+        "ar": "ACCA (جمعية المحاسبين القانونيين المعتمدين)"
+      },
+      {
+        "en": "CMA (Certified Management Accountant)",
+        "ar": "CMA (محاسب إدارة معتمد)"
+      },
+      {
+        "en": "ESAA membership for Egyptian audit practice",
+        "ar": "عضوية ESAA لمزاولة المراجعة في مصر"
+      },
+      {
+        "en": "Excel and accounting software certificates (optional)",
+        "ar": "شهادات إكسل وبرامج المحاسبة (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "AccountingCoach: free accounting basics",
+        "url": "https://www.accountingcoach.com",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Finance and capital markets",
+        "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+        "free": true
+      },
+      {
+        "title": "Egyptian Tax Authority",
+        "url": "https://www.eta.gov.eg",
+        "free": true
+      },
+      {
+        "title": "ACCA: how to become an accountant",
+        "url": "https://www.accaglobal.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": {
+        "min": 5653,
+        "max": 15925
+      },
+      "mid": {
+        "min": 6171,
+        "max": 21077
+      },
+      "senior": {
+        "min": 10607,
+        "max": 43965
+      },
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Levels use the Paylab titles Junior Accountant, Accountant and Senior Accountant. Chief Accountant is higher.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. المستويات مأخوذة من مسميات Paylab: محاسب مبتدئ ومحاسب ومحاسب أول. مسمى كبير المحاسبين أعلى."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Companies of every size and sector",
+        "ar": "الشركات بكل أحجامها وقطاعاتها"
+      },
+      {
+        "en": "Audit and accounting firms",
+        "ar": "مكاتب المراجعة والمحاسبة"
+      },
+      {
+        "en": "Banks and insurance companies",
+        "ar": "البنوك وشركات التأمين"
+      },
+      {
+        "en": "Government bodies and the Ministry of Finance",
+        "ar": "الجهات الحكومية ووزارة المالية"
+      },
+      {
+        "en": "Shared-service centres serving regional finance functions",
+        "ar": "مراكز الخدمات المشتركة التي تخدم وظائف مالية إقليمية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance bookkeeping, tax filing and small-business accounts are common, and some Egyptian accountants serve foreign clients remotely. Automation is reducing routine data entry, so the best remote work is in analysis and advice.",
+      "ar": "مسك الدفاتر والإقرارات الضريبية وحسابات الأعمال الصغيرة عمل حر شائع، ويخدم بعض المحاسبين المصريين عملاء أجانب عن بُعد. الأتمتة تقلل الإدخال الروتيني، لذلك أفضل فرص العمل عن بُعد في التحليل والاستشارة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Industrial cities such as 10th of Ramadan and Borg El Arab",
+        "ar": "المدن الصناعية مثل العاشر من رمضان وبرج العرب"
+      },
+      {
+        "en": "All governorates",
+        "ar": "كل المحافظات"
+      }
+    ],
+    "providerIds": [
+      "injaz-egypt",
+      "auc-school-of-continuing-education"
+    ]
+  },
+  "global": {
+    "en": "Accounting qualifications such as ACCA and CMA are recognised across the Gulf, the UK and many other countries, and Gulf companies regularly hire Egyptian accountants. Salaries abroad are often higher, but the cost of living and the contract terms differ, so compare the full offer. Licensing rules change by country.",
+    "ar": "المؤهلات المحاسبية مثل ACCA وCMA معترف بها في الخليج وبريطانيا ودول كثيرة، وتوظّف الشركات الخليجية محاسبين مصريين باستمرار. الرواتب في الخارج غالبًا أعلى، لكن تكاليف المعيشة وشروط العقد تختلف، فقارن العرض كاملًا. وقواعد الترخيص تختلف من دولة لأخرى."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Jobs exist in every sector and every governorate",
+        "ar": "الوظائف موجودة في كل قطاع وكل محافظة"
+      },
+      {
+        "en": "Clear professional ladder with recognised qualifications",
+        "ar": "سلّم مهني واضح بمؤهلات معترف بها"
+      },
+      {
+        "en": "Skills travel abroad",
+        "ar": "المهارات تنفع في الخارج"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Month-end and tax deadlines create pressure",
+        "ar": "مواعيد نهاية الشهر والضرائب تسبب ضغطًا"
+      },
+      {
+        "en": "Starting salaries can be modest",
+        "ar": "قد تكون رواتب البداية متواضعة"
+      },
+      {
+        "en": "Routine tasks are being automated, so you must keep learning",
+        "ar": "المهام الروتينية تتحول إلى الأتمتة، فعليك أن تواصل التعلم"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Accounting is just adding numbers.",
+          "ar": "المحاسبة مجرد جمع أرقام."
+        },
+        "fact": {
+          "en": "Software adds the numbers. Accountants check, explain and advise, which needs judgment.",
+          "ar": "البرامج تجمع الأرقام. المحاسب يراجع ويشرح وينصح، وهذا يحتاج حكمًا سليمًا."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will remove accountants.",
+          "ar": "الذكاء الاصطناعي سيلغي المحاسبين."
+        },
+        "fact": {
+          "en": "Routine entry is shrinking, but analysis, tax and audit roles remain. Learning data tools protects you.",
+          "ar": "الإدخال الروتيني يتناقص، لكن التحليل والضرائب والمراجعة باقية. تعلّم أدوات البيانات يحميك."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must be a maths genius.",
+          "ar": "لازم تكون عبقري رياضيات."
+        },
+        "fact": {
+          "en": "Everyday arithmetic and careful thinking are enough. Accuracy matters more than advanced maths.",
+          "ar": "الحساب اليومي والتفكير المنظم يكفيان. الدقة أهم من الرياضيات المتقدمة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly office hours, with heavier weeks at month-end, year-end and during audits.",
+      "ar": "ساعات مكتبية في الغالب، مع أسابيع أثقل في نهاية الشهر ونهاية السنة وفترات المراجعة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Accounts clerk or junior accountant",
+        "ar": "محاسب مبتدئ أو مساعد محاسب"
+      },
+      {
+        "en": "Accountant",
+        "ar": "محاسب"
+      },
+      {
+        "en": "Senior accountant",
+        "ar": "محاسب أول"
+      },
+      {
+        "en": "Chief accountant or finance manager",
+        "ar": "كبير المحاسبين أو مدير مالي"
+      },
+      {
+        "en": "Financial controller or CFO",
+        "ar": "المراقب المالي أو المدير المالي (CFO)"
+      }
+    ],
+    "relatedCareerIds": [
+      "auditor",
+      "financial_analyst",
+      "banker",
+      "actuary",
+      "management_consultant"
+    ],
+    "pivots": [
+      {
+        "en": "External audit",
+        "ar": "المراجعة الخارجية"
+      },
+      {
+        "en": "Financial analysis or fintech",
+        "ar": "التحليل المالي أو التكنولوجيا المالية"
+      },
+      {
+        "en": "Tax advisory",
+        "ar": "الاستشارات الضريبية"
+      },
+      {
+        "en": "Starting your own accounting office",
+        "ar": "فتح مكتب محاسبة خاص"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Economy, finance, accountancy salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "IFAC: Egypt membership profile (ESAA)",
+      "url": "https://ifac.org/about-ifac/membership/profile/egypt",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian Tax Authority",
+      "url": "https://www.eta.gov.eg",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

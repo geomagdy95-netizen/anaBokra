@@ -1,0 +1,39 @@
+{
+  "id": "abilities",
+  "version": "1.0.0-draft",
+  "kind": "abilities",
+  "name": { "en": "What are you strong at?", "ar": "إيه نقط قوتك؟" },
+  "source": {
+    "name": "Self-ratings: anaBokra (domains aligned to O*NET Abilities). Performance items: to be supplied from ICAR.",
+    "url": "https://icar-project.org",
+    "license": "Self-rating wording: anaBokra. ICAR items are public domain but distributed on registration — the psychologist registers and selects 16 items (4 per domain: verbal, numerical/letter-number, matrix reasoning, 3D rotation).",
+    "notes": "Until performance items are added, ability scores come from self-ratings only (basis = 'self'), which the UI should label as 'self-reported strengths'. creative and manual are self-rated only by design."
+  },
+  "selfRatingScale": {
+    "min": 1,
+    "max": 5,
+    "labels": [
+      { "en": "Much weaker than others my age", "ar": "أضعف بكتير من اللي في سني" },
+      { "en": "A bit weaker", "ar": "أضعف شوية" },
+      { "en": "About the same", "ar": "زي اللي في سني" },
+      { "en": "A bit stronger", "ar": "أقوى شوية" },
+      { "en": "Much stronger than others my age", "ar": "أقوى بكتير من اللي في سني" }
+    ]
+  },
+  "selfRatings": [
+    { "id": "ab_verbal_1", "domain": "verbal", "text": { "en": "Understanding what I read quickly", "ar": "إني أفهم اللي بقراه بسرعة" } },
+    { "id": "ab_verbal_2", "domain": "verbal", "text": { "en": "Explaining my ideas clearly in writing or speech", "ar": "إني أوضّح أفكاري بوضوح كتابةً أو كلامًا" } },
+    { "id": "ab_numerical_1", "domain": "numerical", "text": { "en": "Solving math problems", "ar": "حل مسائل الرياضيات" } },
+    { "id": "ab_numerical_2", "domain": "numerical", "text": { "en": "Working with numbers quickly and accurately", "ar": "التعامل مع الأرقام بسرعة ودقة" } },
+    { "id": "ab_logical_1", "domain": "logical", "text": { "en": "Spotting patterns and rules", "ar": "إني ألاحظ الأنماط والقواعد" } },
+    { "id": "ab_logical_2", "domain": "logical", "text": { "en": "Solving puzzles and logic problems", "ar": "حل الألغاز والمسائل المنطقية" } },
+    { "id": "ab_spatial_1", "domain": "spatial", "text": { "en": "Imagining how an object looks when it's rotated", "ar": "إني أتخيل شكل أي حاجة لما تتلف" } },
+    { "id": "ab_spatial_2", "domain": "spatial", "text": { "en": "Reading maps and finding my way", "ar": "قراءة الخرايط ومعرفة الطريق" } },
+    { "id": "ab_creative_1", "domain": "creative", "text": { "en": "Coming up with many ideas quickly", "ar": "إني أطلع أفكار كتير بسرعة" } },
+    { "id": "ab_creative_2", "domain": "creative", "text": { "en": "Coming up with original, unusual ideas", "ar": "إني أطلع أفكار جديدة ومختلفة" } },
+    { "id": "ab_manual_1", "domain": "manual", "text": { "en": "Building or fixing things with my hands", "ar": "إني أبني أو أصلّح حاجات بإيدي" } },
+    { "id": "ab_manual_2", "domain": "manual", "text": { "en": "Doing precise work with my fingers, like assembling small parts", "ar": "الشغل الدقيق بصوابعي زي تركيب القطع الصغيرة" } }
+  ],
+  "performance": [],
+  "performanceWeight": 0.7
+}

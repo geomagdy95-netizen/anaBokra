@@ -1,0 +1,430 @@
+{
+  "id": "nurse",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You are the person at the bedside: watching, caring, and catching problems before anyone else does.",
+      "ar": "أنت الشخص الذي بجانب السرير: تراقب وتعتني وتلتقط المشكلات قبل غيرك."
+    },
+    "summary": {
+      "en": "Nurses give treatments, monitor patients, and support families around the clock. In Egypt you can enter through a university Faculty of Nursing or a technical nursing institute. Nurses are short in Egypt and wanted abroad, though pay at home is modest and the work is demanding.",
+      "ar": "الممرض يقدّم العلاج ويراقب المرضى ويدعم الأسر على مدار الساعة. في مصر يمكن الدخول عبر كلية التمريض الجامعية أو المعهد الفني للتمريض. التمريض ناقص في مصر ومطلوب في الخارج، لكن الأجر في الداخل متواضع والعمل شاق."
+    },
+    "dayInLife": {
+      "en": "Your shift starts at 7 a.m. with a handover from the night nurse about each patient on your ward. You check blood pressure and temperature, give medicines on time and write everything down. A patient after surgery is in pain, so you call the doctor and help him sit up safely. At noon you teach a diabetic patient how to inject insulin and she tries it herself. You also comfort a family waiting outside. When your shift ends you hand over carefully to the next nurse and go home tired but useful.",
+      "ar": "تبدأ ورديتك في السابعة صباحًا بتسليم من ممرضة الليل عن كل مريض في القسم. تقيس الضغط والحرارة وتعطي الأدوية في مواعيدها وتدوّن كل شيء. مريض بعد عملية جراحية يتألم، فتتصل بالطبيب وتساعده على الجلوس بأمان. عند الظهر تعلّم مريضة سكر كيف تحقن الإنسولين وتجرّب بنفسها. وتطمئن أسرة تنتظر في الخارج. حين تنتهي ورديتك تسلّم بعناية للممرضة التالية وتعود إلى بيتك متعبًا لكنك نافع."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Measure vital signs and record them accurately.",
+        "ar": "تقيس العلامات الحيوية وتسجلها بدقة."
+      },
+      {
+        "en": "Give medicines, injections and IV fluids as prescribed.",
+        "ar": "تعطي الأدوية والحقن والمحاليل حسب الوصفة."
+      },
+      {
+        "en": "Care for wounds, drains and tubes, and help patients move and eat.",
+        "ar": "تعتني بالجروح والتصريفات والأنابيب وتساعد المرضى على الحركة والأكل."
+      },
+      {
+        "en": "Spot changes in a patient's condition and alert the doctor quickly.",
+        "ar": "تلاحظ تغيّر حالة المريض وتنبّه الطبيب بسرعة."
+      },
+      {
+        "en": "Teach patients and families how to manage illness at home.",
+        "ar": "تعلّم المرضى وأسرهم كيف يتعاملون مع المرض في البيت."
+      },
+      {
+        "en": "Keep infection control rules and nursing records.",
+        "ar": "تلتزم بقواعد مكافحة العدوى وتحتفظ بسجلات التمريض."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hospital wards, ICUs, operating rooms and emergency rooms",
+        "ar": "أقسام المستشفى والعناية المركزة وغرف العمليات والطوارئ"
+      },
+      {
+        "en": "Primary health units and clinics",
+        "ar": "الوحدات الصحية والعيادات"
+      },
+      {
+        "en": "Home care and private nursing services",
+        "ar": "الرعاية المنزلية وخدمات التمريض الخاصة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Blood pressure monitors, thermometers, pulse oximeters",
+        "ar": "أجهزة الضغط والحرارة وقياس الأكسجين"
+      },
+      {
+        "en": "Infusion pumps, syringes and IV equipment",
+        "ar": "مضخات المحاليل والحقن ومعدات التغذية الوريدية"
+      },
+      {
+        "en": "Patient monitors and electronic or paper charts",
+        "ar": "أجهزة مراقبة المرضى والسجلات الورقية أو الإلكترونية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "A science stream at school is the usual route; for IGCSE or American Diploma students, Biology and Chemistry are the useful subjects. Faculties of Nursing at public universities accept Thanaweya Amma science students, and foreign-certificate students should confirm equivalency with the Tansik office.",
+      "ar": "الشعبة العلمية هي المسار المعتاد؛ ولطلاب IGCSE أو الدبلومة الأمريكية فمادتا الأحياء والكيمياء الأنفع. تقبل كليات التمريض الحكومية طلاب الثانوية العامة علمي، وعلى طلاب الشهادات الأجنبية التأكد من المعادلة لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Nursing at public universities (bachelor's degree)",
+        "ar": "كليات التمريض بالجامعات الحكومية (بكالوريوس)"
+      },
+      {
+        "en": "Faculties of Nursing at private universities such as BUE and MUST",
+        "ar": "كليات التمريض بالجامعات الخاصة مثل البريطانية ومصر للعلوم والتكنولوجيا"
+      },
+      {
+        "en": "Technical nursing institutes (two-year diploma) and Ministry of Health technical nursing schools",
+        "ar": "المعاهد الفنية للتمريض (دبلوم سنتان) ومدارس التمريض الفنية التابعة لوزارة الصحة"
+      }
+    ],
+    "programIds": [
+      "british-university-in-egypt-nursing",
+      "misr-university-for-science-and-technology-nursing",
+      "cairo-university-nursing",
+      "ain-shams-university-nursing",
+      "alexandria-university-nursing",
+      "mansoura-university-nursing",
+      "assiut-university-nursing",
+      "zagazig-university-nursing",
+      "tanta-university-nursing",
+      "capital-university-nursing",
+      "menoufia-university-nursing",
+      "benha-university-nursing"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the public programs linked to this career in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 56% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data has no published Tansik minimums for public Faculties of Nursing, only the 56% Ministry of Higher Education floor for the two private programs tracked, so ask the Tansik office for current figures.",
+      "ar": "ليس لدينا في بياناتنا حدودًا دنيا منشورة للمرحلة الأولى من التنسيق للبرامج الحكومية المرتبطة بهذه المهنة. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 56% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. ليست لدينا في بياناتنا حدود دنيا منشورة لكليات التمريض الحكومية، بل فقط حد وزارة التعليم العالي 56% للبرنامجين الخاصين المتابعين، فاسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Technical nursing institute diploma (about two academic years plus clinical training), then continue to a Faculty of Nursing, where diploma holders can be admitted to the second year.",
+        "ar": "دبلوم المعهد الفني للتمريض (نحو سنتين دراسيتين مع تدريب عملي)، ثم الالتحاق بكلية التمريض حيث يمكن قبول حملة الدبلوم في السنة الثانية."
+      },
+      {
+        "en": "Specialize later in critical care, pediatrics, midwifery or nursing management.",
+        "ar": "التخصص لاحقًا في العناية المركزة أو الأطفال أو التوليد أو إدارة التمريض."
+      }
+    ],
+    "licensing": {
+      "en": "Nurses must register with the Nursing Professions Syndicate (founded by Law 155 of 1976). Membership is open to holders of a nursing bachelor's degree, a nursing diploma from a Ministry of Health institute, or a nursing and midwifery diploma. Egypt's licensing exam system for health professions has been expanding, so check with the syndicate and the Ministry of Health about licensing steps for your graduating year.",
+      "ar": "يجب على الممرض التسجيل في نقابة المهن التمريضية (أُنشئت بالقانون 155 لسنة 1976). العضوية متاحة لحملة بكالوريوس التمريض أو دبلوم التمريض من معهد تابع لوزارة الصحة أو دبلوم التمريض والتوليد. ونظام امتحانات الترخيص للمهن الصحية يتوسع، فراجع النقابة ووزارة الصحة بشأن خطوات الترخيص لدفعتك."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Safe medicine administration and dose calculation",
+        "ar": "إعطاء الأدوية بأمان وحساب الجرعات"
+      },
+      {
+        "en": "Vital signs, wound care, IV therapy",
+        "ar": "العلامات الحيوية والعناية بالجروح والعلاج الوريدي"
+      },
+      {
+        "en": "Infection control and basic life support",
+        "ar": "مكافحة العدوى والإنعاش القلبي الرئوي الأساسي"
+      },
+      {
+        "en": "Accurate documentation",
+        "ar": "التوثيق الدقيق"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Compassion and patience",
+        "ar": "التعاطف والصبر"
+      },
+      {
+        "en": "Staying calm in emergencies",
+        "ar": "الهدوء في الطوارئ"
+      },
+      {
+        "en": "Teamwork and clear handovers",
+        "ar": "العمل الجماعي والتسليم الواضح"
+      },
+      {
+        "en": "Physical stamina for long shifts",
+        "ar": "التحمل البدني للورديات الطويلة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for clinical terms and for working abroad",
+        "ar": "الإنجليزية للمصطلحات الطبية وللعمل في الخارج"
+      },
+      {
+        "en": "Arabic for talking with patients and families",
+        "ar": "العربية للتحدث مع المرضى وأسرهم"
+      },
+      {
+        "en": "German if you plan to work in Germany",
+        "ar": "الألمانية إن كنت تخطط للعمل في ألمانيا"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Nursing Professions Syndicate registration",
+        "ar": "التسجيل في نقابة المهن التمريضية"
+      },
+      {
+        "en": "Basic and advanced life support (BLS/ACLS)",
+        "ar": "دورات الإنعاش الأساسي والمتقدم (BLS/ACLS)"
+      },
+      {
+        "en": "Later: licensing exams of destination countries such as Saudi Prometric or UK NMC (check current rules)",
+        "ar": "لاحقًا: امتحانات الترخيص في بلد الوجهة مثل برومترك السعودية أو NMC في بريطانيا (راجع الشروط الحالية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Health and Medicine",
+        "url": "https://www.khanacademy.org/science/health-and-medicine",
+        "free": true
+      },
+      {
+        "title": "MedlinePlus: Health Topics (NIH)",
+        "url": "https://medlineplus.gov/healthtopics.html",
+        "free": true
+      },
+      {
+        "title": "Coursera: Introduction to Nursing and Patient Care (search, audit free)",
+        "url": "https://www.coursera.org/search?query=nursing",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8303,
+        "max": 23166
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/nurse?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 14,683 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 14,683 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Ministry of Health and Population hospitals",
+        "ar": "مستشفيات وزارة الصحة والسكان"
+      },
+      {
+        "en": "University hospitals",
+        "ar": "المستشفيات الجامعية"
+      },
+      {
+        "en": "Private hospitals, which are recruiting nurses including from overseas",
+        "ar": "المستشفيات الخاصة التي توظف ممرضين منهم من الخارج"
+      },
+      {
+        "en": "Home-care companies and clinics",
+        "ar": "شركات الرعاية المنزلية والعيادات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Home nursing and private shifts are common as extra income; hospital work itself cannot be done remotely. Some nurses move into health education or telehealth coordination.",
+      "ar": "التمريض المنزلي والورديات الخاصة شائعان كدخل إضافي؛ أما عمل المستشفى فلا يتم عن بعد. ينتقل بعض الممرضين إلى التثقيف الصحي أو تنسيق الرعاية عن بعد."
+    },
+    "regions": [
+      {
+        "en": "Every governorate, since hospitals and units exist everywhere",
+        "ar": "كل المحافظات لأن المستشفيات والوحدات موجودة في كل مكان"
+      },
+      {
+        "en": "Greater Cairo and Alexandria have the most private hospital jobs",
+        "ar": "القاهرة الكبرى والإسكندرية بهما أكثر وظائف المستشفيات الخاصة"
+      }
+    ],
+    "providerIds": [
+      "moh-nursing-schools"
+    ]
+  },
+  "global": {
+    "en": "Gulf countries have long been the biggest market for Egyptian nurses, and Germany and other countries also recruit. But Saudi Arabia is pushing to train and hire more Saudi nurses, which can reduce openings for foreign nurses, and every country has its own licensing exam and language rules. Egyptian nurse density is about 14.8 per 10,000 people, one of the lowest in the region (WHO figure cited by Mada Masr).",
+    "ar": "كانت دول الخليج أكبر سوق للممرضين المصريين، وتوظف ألمانيا ودول أخرى أيضًا. لكن السعودية تسعى لتدريب وتوظيف ممرضين سعوديين أكثر مما قد يقلل الفرص للأجانب، ولكل دولة امتحان ترخيص وشروط لغة. كثافة التمريض في مصر نحو 14.8 لكل 10 آلاف نسمة وهي من الأدنى في المنطقة (رقم لمنظمة الصحة العالمية تنقله مدى مصر)."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Strong demand because Egypt has too few nurses",
+        "ar": "طلب قوي لأن عدد الممرضين في مصر قليل"
+      },
+      {
+        "en": "Several entry routes, including a shorter institute diploma",
+        "ar": "عدة طرق للدخول منها دبلوم المعهد الأقصر"
+      },
+      {
+        "en": "You make a visible difference to patients every day",
+        "ar": "تصنع فرقًا واضحًا للمرضى كل يوم"
+      },
+      {
+        "en": "Options to work abroad and to specialize",
+        "ar": "خيارات للعمل في الخارج وللتخصص"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Pay is modest and the profession does not always get the respect it deserves",
+        "ar": "الأجر متواضع والمهنة لا تحظى دائمًا بالتقدير الذي تستحقه"
+      },
+      {
+        "en": "Heavy workloads, night shifts and exposure to infection",
+        "ar": "أعباء كبيرة ومناوبات ليلية وتعرض للعدوى"
+      },
+      {
+        "en": "Emotionally hard moments with very sick patients",
+        "ar": "لحظات صعبة نفسيًا مع المرضى الشديدي المرض"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Nursing is only for women.",
+          "ar": "التمريض للنساء فقط."
+        },
+        "fact": {
+          "en": "Men and women both work as nurses in Egypt, and the syndicate represents both.",
+          "ar": "الرجال والنساء يعملون ممرضين في مصر والنقابة تمثل الجميع."
+        }
+      },
+      {
+        "myth": {
+          "en": "Nurses just follow doctors' orders.",
+          "ar": "الممرض ينفذ أوامر الأطباء فقط."
+        },
+        "fact": {
+          "en": "Nurses watch patients continuously and often notice danger first; their judgement saves lives.",
+          "ar": "الممرضون يراقبون المرضى باستمرار وكثيرًا ما يلاحظون الخطر أولًا، وقرارهم ينقذ الأرواح."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shift work with nights and weekends. It can be tiring, but many nurses choose schedules and units that fit their lives.",
+      "ar": "عمل بالورديات يشمل الليل والعطلات. قد يكون مرهقًا، لكن كثيرًا من الممرضين يختارون جداول وأقسامًا تناسب حياتهم."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Nursing student or institute trainee",
+        "ar": "طالب تمريض أو متدرب بالمعهد"
+      },
+      {
+        "en": "Staff nurse",
+        "ar": "ممرض/ممرضة"
+      },
+      {
+        "en": "Specialist nurse (ICU, theatre, pediatrics) or charge nurse",
+        "ar": "ممرض متخصص (عناية، عمليات، أطفال) أو مشرف وردية"
+      },
+      {
+        "en": "Head nurse or nursing supervisor",
+        "ar": "رئيس تمريض أو مشرف تمريض"
+      },
+      {
+        "en": "Nursing director, educator or researcher",
+        "ar": "مدير تمريض أو معلم أو باحث"
+      }
+    ],
+    "relatedCareerIds": [
+      "physician",
+      "physical_therapist",
+      "clinical_nutritionist",
+      "radiology_technologist",
+      "medical_lab_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Nursing education and training",
+        "ar": "تعليم وتدريب التمريض"
+      },
+      {
+        "en": "Infection control or quality in hospitals",
+        "ar": "مكافحة العدوى أو الجودة بالمستشفيات"
+      },
+      {
+        "en": "Medical sales, health education or hospital administration",
+        "ar": "المبيعات الطبية أو التثقيف الصحي أو إدارة المستشفيات"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Nursing Professions Syndicate",
+      "url": "https://nazra.org/en/2013/12/q-about-law-regulation-nursing-professions-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Sawiris Foundation - El Gouna Technical Nursing Institute",
+      "url": "https://sawirisfoundation.org/works/el-gouna-technical-nursing-institute-gtni/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "EMHJ (WHO EMRO) - Developing a national competency-based curriculum for technical nurses in Egypt",
+      "url": "https://www.emro.who.int/emhj-volume-24-2018/volume-24-issue-9/developpement-dun-programme-denseignement-national-fonde-sur-les-competences-pour-les-infirmiers-techniciens-en-egypte.html",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Mada Masr - Why are private Egyptian hospitals recruiting nursing staff from overseas?",
+      "url": "https://www.madamasr.com/en/?p=221291",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Health Tech World - Staffing group recruiting health workers for Saudi Arabia",
+      "url": "https://www.htworld.co.uk/?p=29490",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Business Monthly - Egypt eyes 1M jobs in Germany",
+      "url": "https://businessmonthlyeg.com/egypt-eyes-global-workforce-expansion-with-1m-jobs-in-germany/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Nurse salary survey",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/nurse?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+/*
+ * anaBokra design tokens.
+ *
+ * PLACEHOLDER VALUES ONLY. The founder will supply the real brand (palette,
+ * typography, radii, motion). Replace the values in this file; component code
+ * only ever references the variable names, so nothing else should need to change.
+ *
+ * Theming: light is the default; dark applies via prefers-color-scheme, and an
+ * explicit [data-theme="light"|"dark"] on <html> always wins over the OS setting.
+ * Color names follow the shadcn/ui semantic convention so shadcn components work as-is.
+ */
+
+:root {
+  /* Radius */
+  --radius: 0.625rem;
+
+  /* Spacing scale (named steps for use outside Tailwind utilities) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Font families. --font-latin / --font-arabic are injected by next/font in the locale layout. */
+  --font-body-latin: var(--font-latin), var(--font-arabic), system-ui, sans-serif;
+  --font-body-arabic: var(--font-arabic), var(--font-latin), system-ui, sans-serif;
+  --font-body: var(--font-body-latin);
+
+  /* Motion */
+  --duration-fast: 120ms;
+  --duration-normal: 220ms;
+  --duration-slow: 400ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.3, 0, 0, 1.2);
+
+  /*
+   * Scene palette for the generated anaBokra world (3D + 2D path). Hex on purpose:
+   * three.js parses these directly. Theme-independent (the world is a lit diorama).
+   * PLACEHOLDER: art direction to confirm. Names map 1:1 to features/path/palette.ts.
+   */
+  --path-sky: #f2e4d4;
+  --path-ground: #cfc8a6;
+  --path-ground-high: #a7a58a;
+  --path-tree: #7d9a74;
+  --path-road: #f4ead8;
+  --path-road-done: #2a9d8f;
+  --path-station-done: #3f9f7a;
+  --path-station-current: #ef8a3a;
+  --path-station-locked: #9a948a;
+  --path-region-r: #b5714a;
+  --path-region-i: #6fb7c4;
+  --path-region-a: #c78bb6;
+  --path-region-s: #e3b25c;
+  --path-region-e: #d0645a;
+  --path-region-c: #7fa384;
+
+  /* Colors: light (placeholder palette) */
+  --background: oklch(0.99 0.003 95);
+  --foreground: oklch(0.2 0.02 260);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0.02 260);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0.02 260);
+  --primary: oklch(0.5 0.12 190);
+  --primary-foreground: oklch(0.99 0.003 95);
+  --secondary: oklch(0.96 0.01 95);
+  --secondary-foreground: oklch(0.25 0.02 260);
+  --muted: oklch(0.96 0.005 95);
+  --muted-foreground: oklch(0.5 0.02 260);
+  --accent: oklch(0.94 0.04 80);
+  --accent-foreground: oklch(0.25 0.02 260);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.91 0.005 95);
+  --input: oklch(0.91 0.005 95);
+  --ring: oklch(0.5 0.12 190);
+}
+
+:root[lang="ar"] {
+  --font-body: var(--font-body-arabic);
+}
+
+/* Dark: follows the OS unless the page is explicitly forced to light */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --background: oklch(0.17 0.015 260);
+    --foreground: oklch(0.96 0.005 95);
+    --card: oklch(0.22 0.015 260);
+    --card-foreground: oklch(0.96 0.005 95);
+    --popover: oklch(0.22 0.015 260);
+    --popover-foreground: oklch(0.96 0.005 95);
+    --primary: oklch(0.72 0.12 190);
+    --primary-foreground: oklch(0.17 0.015 260);
+    --secondary: oklch(0.27 0.015 260);
+    --secondary-foreground: oklch(0.96 0.005 95);
+    --muted: oklch(0.27 0.015 260);
+    --muted-foreground: oklch(0.7 0.02 260);
+    --accent: oklch(0.3 0.04 80);
+    --accent-foreground: oklch(0.96 0.005 95);
+    --destructive: oklch(0.704 0.191 22.216);
+    --border: oklch(1 0 0 / 12%);
+    --input: oklch(1 0 0 / 16%);
+    --ring: oklch(0.72 0.12 190);
+  }
+}
+
+/* Dark: explicit opt-in (same values as above) */
+:root[data-theme="dark"] {
+  --background: oklch(0.17 0.015 260);
+  --foreground: oklch(0.96 0.005 95);
+  --card: oklch(0.22 0.015 260);
+  --card-foreground: oklch(0.96 0.005 95);
+  --popover: oklch(0.22 0.015 260);
+  --popover-foreground: oklch(0.96 0.005 95);
+  --primary: oklch(0.72 0.12 190);
+  --primary-foreground: oklch(0.17 0.015 260);
+  --secondary: oklch(0.27 0.015 260);
+  --secondary-foreground: oklch(0.96 0.005 95);
+  --muted: oklch(0.27 0.015 260);
+  --muted-foreground: oklch(0.7 0.02 260);
+  --accent: oklch(0.3 0.04 80);
+  --accent-foreground: oklch(0.96 0.005 95);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.72 0.12 190);
+}

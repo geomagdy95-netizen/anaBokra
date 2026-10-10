@@ -1,0 +1,431 @@
+{
+  "id": "lawyer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You use the law to protect people's rights and solve their problems.",
+      "ar": "تستخدم القانون لحماية حقوق الناس وحل مشكلاتهم."
+    },
+    "summary": {
+      "en": "Lawyers advise clients, write contracts and represent people in court. Some work in their own small offices, others in big commercial firms, banks or companies. The path is long, and the early years can be hard, but the work is varied and you can specialise.",
+      "ar": "المحامي ينصح موكليه ويكتب العقود ويمثل الناس أمام المحاكم. بعضهم يعمل في مكتب صغير خاص، وآخرون في مكاتب تجارية كبيرة أو بنوك أو شركات. الطريق طويل والسنوات الأولى قد تكون صعبة، لكن العمل متنوع وتستطيع أن تتخصص."
+    },
+    "dayInLife": {
+      "en": "You arrive at your office and read the court schedule for the day. A client comes in worried about a rental dispute, and you listen, ask for documents and explain her options. At the court you wait for your case number to be called, then present your argument to the judge in a few minutes. Back at the office you draft a contract for a small business and check each clause. At the end of the day you update client files and write down the next hearing dates so nothing is missed.",
+      "ar": "تصل إلى مكتبك وتقرأ جدول الجلسات لهذا اليوم. تأتي موكّلة قلقة من نزاع على الإيجار، فتستمع إليها وتطلب المستندات وتشرح لها خياراتها. في المحكمة تنتظر نداء رقم قضيتك ثم تعرض دفاعك على القاضي في دقائق. وفي المكتب تصيغ عقدًا لمشروع صغير وتراجع كل بند. في نهاية اليوم تحدّث ملفات الموكلين وتدوّن مواعيد الجلسات القادمة حتى لا يفوتك شيء."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Listen to clients and explain their legal position in simple words.",
+        "ar": "تستمع إلى الموكلين وتشرح موقفهم القانوني بكلمات بسيطة."
+      },
+      {
+        "en": "Research laws, court rulings and contracts.",
+        "ar": "تبحث في القوانين وأحكام المحاكم والعقود."
+      },
+      {
+        "en": "Draft contracts, memoranda and court papers.",
+        "ar": "تصيغ العقود والمذكرات وصحف الدعاوى."
+      },
+      {
+        "en": "Represent clients in court and in negotiations or arbitration.",
+        "ar": "تمثل الموكلين أمام المحاكم وفي التفاوض أو التحكيم."
+      },
+      {
+        "en": "Work with experts, notaries and government offices.",
+        "ar": "تعمل مع الخبراء والموثقين والجهات الحكومية."
+      },
+      {
+        "en": "Keep client secrets and follow the profession's ethics.",
+        "ar": "تحفظ أسرار الموكلين وتلتزم بأخلاقيات المهنة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Your own or a partner's small law office",
+        "ar": "مكتب محاماة صغير خاص أو مشترك"
+      },
+      {
+        "en": "Large commercial law firms",
+        "ar": "مكاتب المحاماة التجارية الكبيرة"
+      },
+      {
+        "en": "Legal departments of banks and companies",
+        "ar": "الإدارات القانونية في البنوك والشركات"
+      },
+      {
+        "en": "Courts and government offices",
+        "ar": "المحاكم والجهات الحكومية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Legal databases and law portals",
+        "ar": "قواعد البيانات القانونية وبوابات التشريعات"
+      },
+      {
+        "en": "Word processing and document-management tools",
+        "ar": "برامج الكتابة وإدارة المستندات"
+      },
+      {
+        "en": "Court case-tracking systems, which are moving online",
+        "ar": "أنظمة متابعة القضايا بالمحاكم التي تتحول للإنترنت"
+      },
+      {
+        "en": "Legal AI research tools, always checked by the lawyer",
+        "ar": "أدوات البحث القانوني بالذكاء الاصطناعي مع مراجعة المحامي دائمًا"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: English Language, History, Business Studies, Sociology and Law if offered. American Diploma: English, Government and Debate. IB: Language A, History and Global Politics. Strong Arabic and English reading and writing matter a lot. Private law faculties accept these certificates.",
+      "ar": "IGCSE أو A-Level: اللغة الإنجليزية والتاريخ ودراسات الأعمال وعلم الاجتماع والقانون إن توفرت. الدبلومة الأمريكية: الإنجليزية والحكومة والمناظرات. IB: لغة A والتاريخ والسياسة العالمية. القراءة والكتابة القويتان بالعربية والإنجليزية مهمتان جدًا. وتقبل كليات الحقوق الخاصة هذه الشهادات."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Law (LLB), public or private",
+        "ar": "كلية الحقوق (ليسانس)، حكومية أو خاصة"
+      },
+      {
+        "en": "English-section law programs at some universities",
+        "ar": "برامج حقوق بالإنجليزية في بعض الجامعات"
+      },
+      {
+        "en": "Postgraduate diplomas and master's degrees in commercial law, arbitration or other fields",
+        "ar": "دبلومات وماجستير دراسات عليا في القانون التجاري أو التحكيم أو مجالات أخرى"
+      }
+    ],
+    "programIds": [
+      "port-said-university-law",
+      "damietta-university-law",
+      "minia-university-law",
+      "fayoum-university-law",
+      "british-university-in-egypt-law",
+      "german-university-in-cairo-law-legal-studies"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Law in the lists we reviewed (literary track) asked for about 75% to 85% in 2026: Fayoum 74.53% and Port Said 84.84% (percent of the total). The 2025 range was 72.81% to 84.84%. The biggest faculties, such as Cairo, Ain Shams and Alexandria, were not in the lists we reviewed, so their minimums are unknown here. Private law programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff.",
+      "ar": "طلبت كليات الحقوق الواردة في القوائم التي راجعناها (الشعبة الأدبية) نحو 75% إلى 85% في 2026: الفيوم 74.53% وبورسعيد 84.84% (نسبة مئوية من المجموع). وكان نطاق 2025 من 72.81% إلى 84.84%. أكبر الكليات مثل القاهرة وعين شمس والإسكندرية غير موجودة في القوائم التي راجعناها، فحدودها الدنيا غير معروفة هنا. تعرض برامج الحقوق الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Law degrees by distance or open education are generally treated differently by employers and the Bar, so check recognition before you enrol.",
+        "ar": "درجات الحقوق بنظام التعليم المفتوح أو عن بُعد تُعامل عادةً بشكل مختلف لدى أصحاب العمل والنقابة، فتأكد من الاعتراف بها قبل أن تلتحق."
+      },
+      {
+        "en": "Work as a legal assistant or paralegal in a law office while studying.",
+        "ar": "اعمل مساعدًا قانونيًا في مكتب محاماة أثناء الدراسة."
+      },
+      {
+        "en": "A degree in another field plus a postgraduate law diploma is sometimes possible, but the Bar and the courts need a law degree for practice.",
+        "ar": "شهادة في مجال آخر مع دبلوم قانون للدراسات العليا ممكنة أحيانًا، لكن النقابة والمحاكم تطلب شهادة حقوق لمزاولة المهنة."
+      }
+    ],
+    "licensing": {
+      "en": "To practise you register with the Egyptian Bar Association (Lawyers Syndicate). A new graduate is first registered in the trainee table and must train for two years in the office of a lawyer who is allowed to plead before courts of appeal or cassation, or in a legal department; the period is reduced to one year with two postgraduate law diplomas or a higher qualification. After that you move to the tables that let you plead before higher courts after more years of practice. Check the Bar's current rules, fees and any new tests.",
+      "ar": "لمزاولة المهنة تُقيَّد في نقابة المحامين المصرية. يُقيَّد الخريج الجديد أولًا في جدول المحامين تحت التمرين، ويتدرب سنتين في مكتب محامٍ مقبول للمرافعة أمام محاكم الاستئناف أو النقض أو في إدارة قانونية، وتنخفض المدة إلى سنة بدبلومين من دبلومات الدراسات العليا في القانون أو مؤهل أعلى. بعد ذلك تنتقل إلى جداول تتيح المرافعة أمام محاكم أعلى بعد سنوات أخرى من الممارسة. راجع قواعد النقابة الحالية والرسوم وأي اختبارات جديدة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Egyptian civil, commercial, criminal and administrative law",
+        "ar": "القانون المدني والتجاري والجنائي والإداري المصري"
+      },
+      {
+        "en": "Legal research and drafting",
+        "ar": "البحث القانوني والصياغة"
+      },
+      {
+        "en": "Court procedures",
+        "ar": "إجراءات التقاضي"
+      },
+      {
+        "en": "Negotiation and arbitration basics",
+        "ar": "أساسيات التفاوض والتحكيم"
+      },
+      {
+        "en": "Using digital legal tools",
+        "ar": "استخدام الأدوات القانونية الرقمية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Clear speaking and persuasion",
+        "ar": "التحدث بوضوح والإقناع"
+      },
+      {
+        "en": "Listening carefully to clients",
+        "ar": "الاستماع الجيد إلى الموكلين"
+      },
+      {
+        "en": "Honesty and confidentiality",
+        "ar": "الأمانة والسرية"
+      },
+      {
+        "en": "Patience with slow procedures",
+        "ar": "الصبر على بطء الإجراءات"
+      },
+      {
+        "en": "Stress management",
+        "ar": "إدارة الضغط"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: strong legal Arabic for courts and contracts",
+        "ar": "العربية: لغة قانونية قوية للمحاكم والعقود"
+      },
+      {
+        "en": "English: international contracts, arbitration and big firms",
+        "ar": "الإنجليزية: العقود الدولية والتحكيم والمكاتب الكبيرة"
+      },
+      {
+        "en": "French: useful because Egyptian civil law has French roots",
+        "ar": "الفرنسية: مفيدة لأن القانون المدني المصري له جذور فرنسية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Bar Association registration (required to practise)",
+        "ar": "القيد بنقابة المحامين (مطلوب لمزاولة المهنة)"
+      },
+      {
+        "en": "Postgraduate diplomas in commercial, criminal or international law",
+        "ar": "دبلومات الدراسات العليا في القانون التجاري أو الجنائي أو الدولي"
+      },
+      {
+        "en": "English legal certificates such as ILEC or TOLES (optional)",
+        "ar": "شهادات إنجليزية قانونية مثل ILEC أو TOLES (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian legislation portal (Manshurat)",
+        "url": "https://manshurat.org",
+        "free": true
+      },
+      {
+        "title": "Supreme Constitutional Court of Egypt",
+        "url": "https://www.sccourt.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Egyptian Public Prosecution website",
+        "url": "https://www.ppo.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Civics and government",
+        "url": "https://www.khanacademy.org/humanities/us-government-and-civics",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12547,
+        "max": 32745
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/law-legislation",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Lawyer across all experience levels. Many lawyers in their own offices have irregular income, and trainee lawyers often earn much less than this range.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Lawyer في Paylab لكل مستويات الخبرة. دخل كثير من المحامين في مكاتبهم الخاصة غير منتظم، وغالبًا يكسب المحامون المتدربون أقل بكثير من هذا النطاق."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Small private law offices",
+        "ar": "مكاتب المحاماة الخاصة الصغيرة"
+      },
+      {
+        "en": "Large commercial and international law firms",
+        "ar": "مكاتب المحاماة التجارية والدولية الكبيرة"
+      },
+      {
+        "en": "Banks, developers and multinational companies (legal departments)",
+        "ar": "البنوك والمطورين العقاريين والشركات متعددة الجنسيات (الإدارات القانونية)"
+      },
+      {
+        "en": "Government legal departments and public bodies",
+        "ar": "الإدارات القانونية الحكومية والجهات العامة"
+      },
+      {
+        "en": "Arbitration centres and NGOs",
+        "ar": "مراكز التحكيم والمنظمات الأهلية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most lawyers are self-employed or work in small offices. Court work is local, so remote work is limited to research, drafting, consulting and online legal services.",
+      "ar": "معظم المحامين يعملون لحسابهم أو في مكاتب صغيرة. العمل أمام المحاكم محلي، لذلك يقتصر العمل عن بُعد على البحث والصياغة والاستشارات والخدمات القانونية عبر الإنترنت."
+    },
+    "regions": [
+      {
+        "en": "Cairo and Giza (most big firms and courts)",
+        "ar": "القاهرة والجيزة (معظم المكاتب الكبرى والمحاكم)"
+      },
+      {
+        "en": "Alexandria and other governorates with courts",
+        "ar": "الإسكندرية والمحافظات التي بها محاكم"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Gulf and international firms recruit Egyptian lawyers, especially in commercial law, arbitration and compliance, often with a master's degree or English legal qualifications. To practise in another country you usually need local requalification. Egyptian law degrees are known in the Arab world.",
+    "ar": "تستقطب مكاتب خليجية ودولية محامين مصريين، خاصة في القانون التجاري والتحكيم والامتثال، وغالبًا بماجستير أو مؤهلات قانونية بالإنجليزية. للمزاولة في دولة أخرى تحتاج عادةً إلى إعادة تأهيل محلية. وشهادات الحقوق المصرية معروفة في العالم العربي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Respected profession with many specialities",
+        "ar": "مهنة محترمة بتخصصات كثيرة"
+      },
+      {
+        "en": "You can work independently",
+        "ar": "تستطيع العمل باستقلالية"
+      },
+      {
+        "en": "Skills in argument and writing are useful everywhere",
+        "ar": "مهارات الحجة والكتابة مفيدة في كل مكان"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "The early years pay little and many graduates compete for few good places",
+        "ar": "السنوات الأولى قليلة الدخل وخريجون كثيرون يتنافسون على أماكن جيدة قليلة"
+      },
+      {
+        "en": "Court procedures can be slow and cases take a long time",
+        "ar": "إجراءات التقاضي قد تكون بطيئة والقضايا تستغرق وقتًا طويلًا"
+      },
+      {
+        "en": "Research and drafting tasks are changing because of AI tools",
+        "ar": "مهام البحث والصياغة تتغير بسبب أدوات الذكاء الاصطناعي"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A lawyer spends most of the time arguing in court.",
+          "ar": "المحامي يقضي معظم وقته في المرافعة أمام المحكمة."
+        },
+        "fact": {
+          "en": "Most time goes to reading, drafting, advising and negotiating. Court is only part of it.",
+          "ar": "معظم الوقت يذهب للقراءة والصياغة والنصح والتفاوض. المحكمة جزء منه فقط."
+        }
+      },
+      {
+        "myth": {
+          "en": "Lawyers get rich quickly.",
+          "ar": "المحامون يغتنون بسرعة."
+        },
+        "fact": {
+          "en": "Some do after many years, but many earn modestly for a long time. A specialty and good reputation take time.",
+          "ar": "بعضهم يفعل بعد سنوات طويلة، لكن كثيرين يكسبون قليلًا لفترة طويلة. التخصص والسمعة الطيبة يحتاجان وقتًا."
+        }
+      },
+      {
+        "myth": {
+          "en": "A lawyer must defend guilty people against their conscience.",
+          "ar": "المحامي يضطر لتبرئة المذنبين رغم ضميره."
+        },
+        "fact": {
+          "en": "Every person has the right to a defence, and lawyers must act within the law and ethics. Many lawyers choose civil or commercial work.",
+          "ar": "لكل إنسان حق الدفاع، والمحامي يعمل في حدود القانون والأخلاق. ويختار كثير من المحامين العمل المدني أو التجاري."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Court days start early and hearings can run late. Corporate lawyers keep office hours but may work late near deals. Self-employed lawyers control their schedule but carry business pressure.",
+      "ar": "أيام المحاكم تبدأ مبكرًا وقد تمتد الجلسات. المحامون في الشركات لهم ساعات مكتبية لكن قد يتأخرون قرب الصفقات. المحامي الحر يتحكم في جدوله لكنه يتحمل ضغط إدارة العمل."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Trainee lawyer",
+        "ar": "محامٍ تحت التمرين"
+      },
+      {
+        "en": "Lawyer before the courts of first instance",
+        "ar": "محامٍ أمام المحاكم الابتدائية"
+      },
+      {
+        "en": "Lawyer before the courts of appeal",
+        "ar": "محامٍ أمام محاكم الاستئناف"
+      },
+      {
+        "en": "Senior lawyer or partner",
+        "ar": "محامٍ أول أو شريك"
+      },
+      {
+        "en": "Lawyer before the Court of Cassation or head of a firm",
+        "ar": "محامٍ أمام محكمة النقض أو رئيس مكتب"
+      }
+    ],
+    "relatedCareerIds": [
+      "judge_prosecutor",
+      "diplomat",
+      "political_scientist",
+      "management_consultant",
+      "pr_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Judicial or State Council career, if you meet the entry rules",
+        "ar": "العمل بالقضاء أو مجلس الدولة إذا استوفيت شروط التعيين"
+      },
+      {
+        "en": "In-house legal counsel or compliance",
+        "ar": "مستشار قانوني داخل شركة أو الامتثال"
+      },
+      {
+        "en": "Arbitration or legal consulting",
+        "ar": "التحكيم أو الاستشارات القانونية"
+      },
+      {
+        "en": "Legal tech and policy work",
+        "ar": "التكنولوجيا القانونية والعمل على السياسات"
+      }
+    ]
+  },
+  "industryId": "law",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Law and legislation salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/law-legislation",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Youm7: conditions for joining the trainee lawyers table and its duration",
+      "url": "https://www.youm7.com/7162714",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian legislation portal (Manshurat)",
+      "url": "https://manshurat.org",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

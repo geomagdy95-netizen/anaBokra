@@ -1,0 +1,173 @@
+{
+  "id": "industrial_technician",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep the machines of factories running and smart.",
+      "ar": "تُبقي آلات المصانع تعمل بذكاء."
+    },
+    "summary": {
+      "en": "Industrial and mechatronics technicians install, adjust and repair machines that combine mechanics, electricity and control systems. They work in factories and production lines where a stopped machine costs money. Technical schools and training programs prepare many students for this work.",
+      "ar": "فنيو الصناعة والميكاترونكس يركّبون ويضبطون ويصلحون آلات تجمع بين الميكانيكا والكهرباء وأنظمة التحكم. يعملون في المصانع وخطوط الإنتاج حيث يكلّف توقف الآلة مالًا. وتعد المدارس الفنية وبرامج التدريب كثيرًا من الطلاب لهذا العمل."
+    },
+    "dayInLife": {
+      "en": "A packing machine on the line has stopped. You check the sensors, the motor and the control panel, and find a worn belt. You replace it, restart the machine and watch it for a few minutes. Later you do the planned maintenance of another machine and fill in the maintenance record.",
+      "ar": "توقفت ماكينة تعبئة على الخط. تفحص الحساسات والموتور ولوحة التحكم وتجد سيرًا مهترئًا. تستبدله وتعيد تشغيل الماكينة وتراقبها دقائق. لاحقًا تجري الصيانة المخططة لماكينة أخرى وتملأ سجل الصيانة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Install and adjust machines and automatic systems.",
+        "ar": "تركّب الماكينات والأنظمة الآلية وتضبطها."
+      },
+      {
+        "en": "Find and repair mechanical and electrical faults.",
+        "ar": "تكتشف الأعطال الميكانيكية والكهربائية وتصلحها."
+      },
+      {
+        "en": "Do regular maintenance to avoid breakdowns.",
+        "ar": "تجري الصيانة الدورية لتفادي الأعطال."
+      },
+      {
+        "en": "Read technical drawings and manuals.",
+        "ar": "تقرأ الرسومات الفنية والكتيبات."
+      },
+      {
+        "en": "Record work and follow safety rules.",
+        "ar": "تسجّل العمل وتلتزم بقواعد السلامة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Factories and production lines",
+        "ar": "المصانع وخطوط الإنتاج"
+      },
+      {
+        "en": "Maintenance departments in large companies",
+        "ar": "أقسام الصيانة في الشركات الكبرى"
+      },
+      {
+        "en": "Machine suppliers and service companies",
+        "ar": "موردو الماكينات وشركات الخدمة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Hand tools, meters and testers",
+        "ar": "العدد اليدوية وأجهزة القياس والاختبار"
+      },
+      {
+        "en": "PLCs and control panels",
+        "ar": "وحدات PLC ولوحات التحكم"
+      },
+      {
+        "en": "Sensors, motors and pneumatic parts",
+        "ar": "الحساسات والمحركات والأجزاء الهوائية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "otherCurricula": {
+      "en": "This route starts after preparatory school, in technical education, not through Thanaweya Amma and Tansik. Maths, science and practical subjects from preparatory school help. Graduates of technical secondary schools can later continue to technical colleges or other higher education; check the current rules with the Ministry of Education and the Ministry of Higher Education.",
+      "ar": "يبدأ هذا المسار بعد الشهادة الإعدادية في التعليم الفني، وليس عبر الثانوية العامة والتنسيق. تفيد الرياضيات والعلوم والمواد العملية في الإعدادية. يمكن لخريجي الثانوية الفنية لاحقًا استكمال الدراسة بكليات تكنولوجية أو تعليم عالٍ آخر؛ فتأكد من القواعد الحالية لدى وزارة التربية والتعليم ووزارة التعليم العالي."
+    },
+    "faculties": [
+      {
+        "en": "Applied Technology Schools (three-year dual education with industry partners)",
+        "ar": "مدارس التكنولوجيا التطبيقية (ثلاث سنوات تعليم مزدوج مع شركاء صناعيين)"
+      },
+      {
+        "en": "Industrial technical secondary schools (Ministry of Education)",
+        "ar": "المدارس الثانوية الفنية الصناعية (وزارة التربية والتعليم)"
+      },
+      {
+        "en": "Technical institutes and technological colleges for continuing study",
+        "ar": "المعاهد الفنية والكليات التكنولوجية لاستكمال الدراسة"
+      },
+      {
+        "en": "Egyptian-Japanese KOSEN Advanced Technology, a five-year program after preparatory school",
+        "ar": "كوسن المصرية اليابانية للتكنولوجيا المتقدمة، برنامج خمس سنوات بعد الإعدادية"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik does not apply to this route. Entry depends on your preparatory-school results and each school's own tests and interview, which change by school and year, so ask the school or the Ministry of Education. We have no Tansik figures for this career in our data.",
+      "ar": "التنسيق لا ينطبق على هذا المسار. يعتمد القبول على نتيجة الشهادة الإعدادية واختبارات ومقابلة كل مدرسة، وهي تختلف من مدرسة لأخرى ومن سنة لأخرى، فاسأل المدرسة أو وزارة التربية والتعليم. ليست لدينا أرقام تنسيق لهذه المهنة في بياناتنا."
+    },
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Productivity and Vocational Training Department (PVTD) centres, with trade courses in mechanics and electricity.",
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني بدورات الميكانيكا والكهرباء."
+      },
+      {
+        "en": "Start as a maintenance helper in a factory and add courses in PLC and automation.",
+        "ar": "البدء كمساعد صيانة في مصنع وإضافة دورات PLC والأتمتة."
+      }
+    ],
+    "licensing": {
+      "en": "Most technician jobs ask for a technical diploma and practical skill rather than a licence, though some employers and tasks need skill-level or safety certificates. Check the current requirements with your employer and the Ministry of Manpower.",
+      "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "mechatronics_engineer",
+      "electrician",
+      "cnc_operator",
+      "mechanical_engineer",
+      "automotive_ev_technician"
+    ],
+    "pivots": [
+      {
+        "en": "Automation and PLC specialist",
+        "ar": "متخصص أتمتة وPLC"
+      },
+      {
+        "en": "Maintenance supervisor",
+        "ar": "مشرف صيانة"
+      },
+      {
+        "en": "Machine sales and service",
+        "ar": "مبيعات وخدمة الماكينات"
+      },
+      {
+        "en": "Further study toward engineering",
+        "ar": "استكمال الدراسة نحو الهندسة"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Industrial / Mechatronics Technician",
+      "url": "https://www.onetonline.org/link/summary/17-3024.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Industrial / Mechatronics Technician",
+      "url": "https://www.mynextmove.org/profile/summary/17-3024.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Applied Technology Schools (Ministry of Education dual education)",
+      "url": "https://dualedu.moe.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "El Sewedy School of Applied Technology (Ministry of Education)",
+      "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "JICA Egypt: Egyptian-Japanese KOSEN",
+      "url": "https://www.jica.go.jp/egypt/english/activities/activity12.html",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

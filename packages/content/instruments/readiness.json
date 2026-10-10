@@ -1,0 +1,32 @@
+{
+  "id": "readiness",
+  "version": "1.0.0-draft",
+  "kind": "likert",
+  "name": { "en": "How ready do you feel?", "ar": "حاسس إنك جاهز لأد إيه؟", "arF": "حاسة إنك جاهزة لأد إيه؟" },
+  "source": {
+    "name": "anaBokra career decision readiness check (pre/post outcome metric)",
+    "url": "",
+    "license": "anaBokra — draft for the psychologist to validate",
+    "notes": "Asked at onboarding (B5) and after the reveal (E2). The change from pre to post is anaBokra's main outcome metric."
+  },
+  "responseScale": {
+    "min": 1,
+    "max": 5,
+    "labels": [
+      { "en": "Strongly disagree", "ar": "مش موافق خالص", "arF": "مش موافقة خالص" },
+      { "en": "Disagree", "ar": "مش موافق", "arF": "مش موافقة" },
+      { "en": "Not sure", "ar": "مش متأكد", "arF": "مش متأكدة" },
+      { "en": "Agree", "ar": "موافق", "arF": "موافقة" },
+      { "en": "Strongly agree", "ar": "موافق جدًا", "arF": "موافقة جدًا" }
+    ]
+  },
+  "scales": [{ "id": "readiness", "name": { "en": "Decision readiness", "ar": "الجاهزية لاتخاذ القرار" } }],
+  "items": [
+    { "id": "rd_01", "scale": "readiness", "keyed": 1, "text": { "en": "I know which careers might suit me", "ar": "أعرف المهن اللي ممكن تناسبني" } },
+    { "id": "rd_02", "scale": "readiness", "keyed": 1, "text": { "en": "I know what I need to study to reach the careers I like", "ar": "أعرف لازم أدرس إيه علشان أوصل للمهن اللي بحبها" } },
+    { "id": "rd_03", "scale": "readiness", "keyed": 1, "text": { "en": "I feel confident about choosing my major", "ar": "عندي ثقة في اختيار تخصصي" } },
+    { "id": "rd_04", "scale": "readiness", "keyed": 1, "text": { "en": "I know where to find reliable information about universities and programs", "ar": "أعرف ألاقي معلومات موثوقة عن الجامعات والبرامج منين" } },
+    { "id": "rd_05", "scale": "readiness", "keyed": -1, "text": { "en": "Thinking about my future career makes me anxious", "ar": "التفكير في مستقبلي المهني بيقلقني" } },
+    { "id": "rd_06", "scale": "readiness", "keyed": 1, "text": { "en": "I have a plan for my next steps", "ar": "عندي خطة لخطواتي الجاية" } }
+  ]
+}

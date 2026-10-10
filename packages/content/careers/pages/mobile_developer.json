@@ -1,0 +1,173 @@
+{
+  "id": "mobile_developer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You build the apps that live in everyone's pocket.",
+      "ar": "أنت من يبني التطبيقات التي في جيب كل شخص."
+    },
+    "summary": {
+      "en": "Mobile developers design and program apps for Android and iPhone, from banking and delivery apps to games and learning tools. They turn an idea and a design into something that works smoothly on a small screen. Egyptian companies and foreign clients both hire for this skill, and you can start learning it at home.",
+      "ar": "مطور تطبيقات الموبايل يصمم ويبرمج تطبيقات أندرويد وآيفون، من تطبيقات البنوك والتوصيل إلى الألعاب وأدوات التعلم. يحوّل الفكرة والتصميم إلى شيء يعمل بسلاسة على شاشة صغيرة. تطلب هذه المهارة شركات مصرية وعملاء من الخارج، ويمكنك أن تبدأ تعلمها من البيت."
+    },
+    "dayInLife": {
+      "en": "You start the day with a short team meeting, then pick a task: a new payment screen. You write the code, run the app on a phone and notice the button is hidden on small screens, so you fix the layout. After lunch you review a teammate's code, fix two bugs reported by users and release a small update for testing.",
+      "ar": "تبدأ اليوم باجتماع قصير مع الفريق، ثم تأخذ مهمة: شاشة دفع جديدة. تكتب الكود وتجرب التطبيق على الهاتف فتلاحظ أن الزر يختفي في الشاشات الصغيرة، فتصلح التصميم. بعد الغداء تراجع كود زميل، وتصلح خطأين أبلغ عنهما المستخدمون، وتطلق تحديثًا صغيرًا للاختبار."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Write the code for Android or iOS apps (or one codebase for both).",
+        "ar": "تكتب كود تطبيقات أندرويد أو iOS (أو كودًا واحدًا للاثنين)."
+      },
+      {
+        "en": "Turn designs into working screens that are fast and easy to use.",
+        "ar": "تحوّل التصميمات إلى شاشات تعمل بسرعة وسهولة."
+      },
+      {
+        "en": "Connect the app to servers, payments and other services.",
+        "ar": "تربط التطبيق بالخوادم والدفع والخدمات الأخرى."
+      },
+      {
+        "en": "Test the app, find bugs and fix them.",
+        "ar": "تختبر التطبيق وتكتشف الأخطاء وتصلحها."
+      },
+      {
+        "en": "Publish and update apps in the app stores.",
+        "ar": "تنشر التطبيقات وتحدّثها في متاجر التطبيقات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Software companies and startups",
+        "ar": "شركات البرمجيات والشركات الناشئة"
+      },
+      {
+        "en": "Banks, telecom and delivery companies with their own apps",
+        "ar": "البنوك والاتصالات وشركات التوصيل التي لها تطبيقات"
+      },
+      {
+        "en": "Freelance and remote work for clients",
+        "ar": "العمل الحر وعن بُعد لعملاء"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Kotlin, Swift, Flutter or React Native",
+        "ar": "Kotlin وSwift وFlutter أو React Native"
+      },
+      {
+        "en": "Android Studio and Xcode",
+        "ar": "Android Studio وXcode"
+      },
+      {
+        "en": "Git and project tools",
+        "ar": "Git وأدوات إدارة المشاريع"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "The math or science stream both lead to computing faculties. With IGCSE or A-Level, Mathematics and Computer Science are the most useful; with the American Diploma, AP Computer Science and AP Calculus. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبتان العلمي والرياضيات تؤديان إلى كليات الحاسبات. في IGCSE أو A-Level الأنفع الرياضيات وعلوم الحاسب؛ وفي الدبلومة الأمريكية AP علوم الحاسب وAP حساب التفاضل. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Computers and Information / Computers and Artificial Intelligence",
+        "ar": "كليات الحاسبات والمعلومات / الحاسبات والذكاء الاصطناعي"
+      },
+      {
+        "en": "Faculties of Engineering, computer or communications departments",
+        "ar": "كليات الهندسة أقسام الحاسبات أو الاتصالات"
+      },
+      {
+        "en": "Computer science and IT programs at private universities",
+        "ar": "برامج علوم الحاسب وتقنية المعلومات بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "mansoura-university-computers-information",
+      "assiut-university-computers-information",
+      "british-university-in-egypt-informatics-computer-science",
+      "misr-international-university-computer-science"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2025: 88.75% (Alexandria University, the only linked program with a published figure in our data). Newer figures are not in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 61% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2025: 88.75% (جامعة الإسكندرية، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 61% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Intensive coding bootcamps or national training programs for graduates, such as ITI or DEPI.",
+        "ar": "معسكرات البرمجة المكثفة أو برامج التدريب الوطنية للخريجين مثل ITI وDEPI."
+      },
+      {
+        "en": "Self-study with free courses plus a portfolio of small apps you built.",
+        "ar": "التعلم الذاتي بدورات مجانية مع ملف أعمال لتطبيقات صغيرة بنيتها."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "software_engineer",
+      "ux_designer",
+      "game_developer",
+      "cloud_devops_engineer",
+      "cybersecurity_specialist",
+      "product_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Backend or full-stack development",
+        "ar": "تطوير الخادم أو التطوير الشامل"
+      },
+      {
+        "en": "Game development",
+        "ar": "تطوير الألعاب"
+      },
+      {
+        "en": "Product management",
+        "ar": "إدارة المنتجات"
+      },
+      {
+        "en": "Freelance app development",
+        "ar": "تطوير التطبيقات كعمل حر"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Mobile App Developer",
+      "url": "https://www.onetonline.org/link/summary/15-1252.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Mobile App Developer",
+      "url": "https://www.mynextmove.org/profile/summary/15-1252.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

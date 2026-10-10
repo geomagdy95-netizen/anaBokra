@@ -1,0 +1,453 @@
+{
+  "id": "tour_guide",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You bring Egypt's history to life for visitors from all over the world.",
+      "ar": "تُحيي تاريخ مصر لزوار من كل أنحاء العالم."
+    },
+    "summary": {
+      "en": "Tour guides lead visitors through sites such as the pyramids, temples, museums and Islamic Cairo, explaining history and culture in the visitors' language. Egypt welcomed a record of about 19 million visitors in 2025, so guiding is a visible career, but work is seasonal and depends on tourism conditions. A licence is required to guide legally.",
+      "ar": "المرشد السياحي يقود الزوار في مواقع مثل الأهرامات والمعابد والمتاحف والقاهرة الإسلامية ويشرح التاريخ والثقافة بلغة الزوار. استقبلت مصر رقمًا قياسيًا بلغ نحو 19 مليون زائر في 2025، فالإرشاد مهنة ظاهرة، لكن العمل موسمي ويتأثر بأحوال السياحة. والترخيص مطلوب للإرشاد قانونيًا."
+    },
+    "dayInLife": {
+      "en": "You meet a group of German visitors at their hotel at seven in the morning and check that everyone is ready. On the bus you tell the story of the pyramids in simple German so that they are excited before they arrive. At the site you walk with them, answer questions and watch the time and the heat. You make sure an older guest has water and a place to sit. After lunch you take the group to a museum and then to the airport. In the evening you review tomorrow's programme and practise a new story in another language.",
+      "ar": "تقابل مجموعة سياح ألمان في فندقهم الساعة السابعة صباحًا وتتأكد أن الجميع جاهز. في الأتوبيس تحكي قصة الأهرامات بألمانية بسيطة ليتحمسوا قبل الوصول. في الموقع تمشي معهم وتجيب عن أسئلتهم وتراقب الوقت والحر. تتأكد أن ضيفًا كبير السن معه ماء ومكان يجلس فيه. بعد الغداء تأخذ المجموعة إلى متحف ثم إلى المطار. وفي المساء تراجع برنامج الغد وتتدرب على قصة جديدة بلغة أخرى."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Lead groups and individuals at archaeological sites, museums and cities.",
+        "ar": "تقود المجموعات والأفراد في المواقع الأثرية والمتاحف والمدن."
+      },
+      {
+        "en": "Explain history, art and culture in simple and interesting language.",
+        "ar": "تشرح التاريخ والفن والثقافة بلغة بسيطة وممتعة."
+      },
+      {
+        "en": "Plan the day, check tickets, timing and transport with the travel company.",
+        "ar": "تخطط اليوم وتراجع التذاكر والتوقيت والنقل مع شركة السياحة."
+      },
+      {
+        "en": "Look after visitors' safety, health and comfort.",
+        "ar": "تهتم بسلامة الزوار وصحتهم وراحتهم."
+      },
+      {
+        "en": "Answer questions and manage problems calmly.",
+        "ar": "تجيب عن الأسئلة وتتعامل مع المشكلات بهدوء."
+      },
+      {
+        "en": "Keep learning new research and the rules of each site.",
+        "ar": "تتابع الأبحاث الجديدة وقواعد كل موقع."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Archaeological sites, museums and historic districts",
+        "ar": "المواقع الأثرية والمتاحف والأحياء التاريخية"
+      },
+      {
+        "en": "Buses, trains, boats and cruise ships on the Nile",
+        "ar": "الأتوبيسات والقطارات والمراكب وبواخر النيل السياحية"
+      },
+      {
+        "en": "Hotels and travel companies",
+        "ar": "الفنادق وشركات السياحة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Maps, guidebooks and research notes",
+        "ar": "الخرائط والكتب السياحية وملاحظات البحث"
+      },
+      {
+        "en": "Microphone or audio headset for groups",
+        "ar": "ميكروفون أو سماعات صوت للمجموعات"
+      },
+      {
+        "en": "Phone apps for tickets, schedules and translation",
+        "ar": "تطبيقات الموبايل للتذاكر والمواعيد والترجمة"
+      },
+      {
+        "en": "First-aid basics",
+        "ar": "أساسيات الإسعافات الأولية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "The usual routes are university faculties that need Thanaweya Amma (literary). Students with IGCSE, American or IB certificates can enter private programs such as tourism and hotel management or archaeology and tourist guidance. Languages matter a lot: take English plus German, French, Spanish, Italian, Russian or Chinese, and History and Geography where offered.",
+      "ar": "المسارات المعتادة كليات جامعية تحتاج الثانوية العامة (أدبي). يمكن لطلاب IGCSE والأمريكي وIB دخول برامج خاصة مثل السياحة والفنادق أو الآثار والإرشاد السياحي. اللغات مهمة جدًا: الإنجليزية مع الألمانية أو الفرنسية أو الإسبانية أو الإيطالية أو الروسية أو الصينية، والتاريخ والجغرافيا حيث تتوفر."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Archaeology (tourist guidance department)",
+        "ar": "كلية الآثار (قسم الإرشاد السياحي)"
+      },
+      {
+        "en": "Faculty of Tourism and Hotels (tourist guidance department)",
+        "ar": "كلية السياحة والفنادق (قسم الإرشاد السياحي)"
+      },
+      {
+        "en": "Faculty of Al-Alsun (Languages and Translation)",
+        "ar": "كلية الألسن (اللغات والترجمة)"
+      },
+      {
+        "en": "Private programs in archaeology and tourist guidance or tourism and hotel management",
+        "ar": "برامج خاصة في الآثار والإرشاد السياحي أو السياحة والفنادق"
+      }
+    ],
+    "programIds": [
+      "cairo-university-archaeology",
+      "qena-university-archaeology",
+      "alexandria-university-tourism-hotels",
+      "mansoura-university-tourism-hotels",
+      "kafrelsheikh-university-alsun-languages",
+      "misr-university-for-science-and-technology-archaeology-tourist-guidance",
+      "british-university-in-egypt-tourism-hotel-management",
+      "misr-university-for-science-and-technology-languages-translation"
+    ],
+    "tansikNote": {
+      "en": "Archaeology (literary) asked for about 80% to 85% in 2026 (Qena 80.31% to Cairo 85.31%). Al-Alsun asked for 87.66% to 93.44% in 2026. Faculties of Tourism and Hotels: only Alexandria was in the lists we reviewed, at 68.54% in 2024; the others are unknown here (all percent of the total). Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff.",
+      "ar": "طلبت الآثار (أدبي) نحو 80% إلى 85% في 2026 (قنا 80.31% والقاهرة 85.31%). وطلبت الألسن من 87.66% إلى 93.44% في 2026. أما كليات السياحة والفنادق فلم يرد في القوائم التي راجعناها غير الإسكندرية بنسبة 68.54% في 2024، والباقي غير معروف هنا (كلها نسبة مئوية من المجموع). تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A university degree in another field plus strong languages and a guide licence course can also work, because the law asks for a university qualification, not a specific faculty.",
+        "ar": "شهادة جامعية في مجال آخر مع لغات قوية ودورة ترخيص إرشاد يمكن أن تنجح أيضًا، لأن القانون يطلب مؤهلًا جامعيًا وليس كلية بعينها."
+      },
+      {
+        "en": "Language institutes (Goethe, Institut français, Instituto Cervantes, British Council) offer exam-based courses.",
+        "ar": "معاهد اللغات (جوته والمعهد الفرنسي وثربانتس والمجلس الثقافي البريطاني) تقدم دورات بامتحانات."
+      },
+      {
+        "en": "Start as a hotel or travel-office employee, then take the guide licence.",
+        "ar": "ابدأ موظفًا في فندق أو مكتب سياحة ثم احصل على ترخيص الإرشاد."
+      }
+    ],
+    "licensing": {
+      "en": "Guiding is regulated by the tourism guides law (Law 121 of 1983). A licence applicant must be Egyptian, of good reputation, without a felony or dishonour conviction, medically fit, at least 21 years old, hold a university qualification from an Egyptian university or equivalent (the Minister of Tourism may exempt in cases set by the regulations), and pass the licensing exam of the Ministry of Tourism and Antiquities. Guiding without a licence is an offence. The details, exam and the guides' syndicate procedures are updated by the Ministry, so check its current announcement.",
+      "ar": "ينظم الإرشاد قانون المرشدين السياحيين (القانون 121 لسنة 1983). يشترط في طالب الترخيص أن يكون مصريًا حسن السمعة لم يُحكم عليه في جناية أو جريمة مخلة بالشرف، لائقًا طبيًا، لا يقل سنه عن 21 سنة، حاصلًا على مؤهل عالٍ من جامعة مصرية أو ما يعادله (ولوزير السياحة الإعفاء وفق ما تحدده اللائحة)، وأن يجتاز اختبار الترخيص لدى وزارة السياحة والآثار. ممارسة الإرشاد دون ترخيص جريمة. تحدّث الوزارة التفاصيل والامتحان وإجراءات نقابة المرشدين، فتأكد من إعلانها الحالي."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Egyptian history, archaeology and art",
+        "ar": "التاريخ والآثار والفن المصري"
+      },
+      {
+        "en": "At least one foreign language at a high level",
+        "ar": "لغة أجنبية واحدة على الأقل بمستوى عالٍ"
+      },
+      {
+        "en": "Knowledge of sites, museums and Egypt's geography",
+        "ar": "معرفة المواقع والمتاحف وجغرافيا مصر"
+      },
+      {
+        "en": "Basic first aid and safety",
+        "ar": "إسعافات أولية وأمان أساسيان"
+      },
+      {
+        "en": "Using tourism booking and communication apps",
+        "ar": "استخدام تطبيقات الحجز والاتصال السياحي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Storytelling and clear speaking",
+        "ar": "الحكي والتحدث بوضوح"
+      },
+      {
+        "en": "Friendliness, patience and humour",
+        "ar": "الود والصبر وروح الدعابة"
+      },
+      {
+        "en": "Leading groups and keeping time",
+        "ar": "قيادة المجموعات والالتزام بالوقت"
+      },
+      {
+        "en": "Calm in problems such as delays and sickness",
+        "ar": "الهدوء عند المشكلات مثل التأخير والمرض"
+      },
+      {
+        "en": "Respect for different cultures",
+        "ar": "احترام الثقافات المختلفة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English (essential)",
+        "ar": "الإنجليزية (أساسية)"
+      },
+      {
+        "en": "German, French, Spanish, Italian, Russian or Chinese for specific markets",
+        "ar": "الألمانية أو الفرنسية أو الإسبانية أو الإيطالية أو الروسية أو الصينية لأسواق محددة"
+      },
+      {
+        "en": "Arabic",
+        "ar": "العربية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Guide licence from the Ministry of Tourism and Antiquities (required)",
+        "ar": "ترخيص مرشد من وزارة السياحة والآثار (مطلوب)"
+      },
+      {
+        "en": "Language certificates such as Goethe, DELF, DELE or IELTS",
+        "ar": "شهادات لغة مثل جوته وDELF وDELE وIELTS"
+      },
+      {
+        "en": "First-aid certificate (optional)",
+        "ar": "شهادة إسعافات أولية (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Ministry of Tourism and Antiquities",
+        "url": "https://egymonuments.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Egypt Tourism Authority",
+        "url": "https://egypt.travel",
+        "free": true
+      },
+      {
+        "title": "Goethe-Institut Egypt",
+        "url": "https://www.goethe.de/ins/eg",
+        "free": false
+      },
+      {
+        "title": "Khan Academy: Ancient Egypt",
+        "url": "https://www.khanacademy.org/humanities/ancient-art-civilizations/egypt-art",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9141,
+        "max": 25033
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business/travel-guide",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Travel Guide across experience levels. Many guides are paid per tour, plus tips, so real income varies by season and language.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Travel Guide في Paylab لكل مستويات الخبرة. كثير من المرشدين يتقاضون أجرهم عن كل رحلة مع الإكراميات، فيختلف الدخل الفعلي بحسب الموسم واللغة."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Travel agencies and tour operators",
+        "ar": "شركات السياحة ومنظمو الرحلات"
+      },
+      {
+        "en": "Nile cruise operators",
+        "ar": "شركات البواخر النيلية"
+      },
+      {
+        "en": "Hotels and resorts",
+        "ar": "الفنادق والمنتجعات"
+      },
+      {
+        "en": "Museums and heritage sites",
+        "ar": "المتاحف والمواقع التراثية"
+      },
+      {
+        "en": "Freelance guiding through agencies",
+        "ar": "الإرشاد الحر عبر الشركات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most guides are freelance or paid per tour, so income rises in high season and falls in slow periods or when regional events reduce arrivals. Online tours and writing about heritage can add income, but most guiding is on site.",
+      "ar": "معظم المرشدين يعملون بالقطعة أو حرًا، فيرتفع الدخل في الموسم ويقل في الفترات البطيئة أو عندما تقلل الأحداث الإقليمية أعداد السياح. الجولات عبر الإنترنت والكتابة عن التراث تضيف دخلًا لكن معظم الإرشاد في الموقع."
+    },
+    "regions": [
+      {
+        "en": "Cairo and Giza",
+        "ar": "القاهرة والجيزة"
+      },
+      {
+        "en": "Luxor and Aswan",
+        "ar": "الأقصر وأسوان"
+      },
+      {
+        "en": "Red Sea and Sinai resorts",
+        "ar": "منتجعات البحر الأحمر وسيناء"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      }
+    ],
+    "providerIds": [
+      "british-council-egypt",
+      "goethe-institut-egypt",
+      "institut-francais-egypte",
+      "instituto-cervantes-cairo",
+      "efe-egypt"
+    ]
+  },
+  "global": {
+    "en": "Egyptian guides sometimes work abroad as escorts for tour groups or in Gulf tourism, and good languages open that door. Most guiding jobs are tied to Egyptian sites, so the career is mainly local, though a language-rich profile can lead to work in international tourism companies.",
+    "ar": "يعمل مرشدون مصريون أحيانًا في الخارج كمرافقين للمجموعات أو في السياحة الخليجية، واللغات الجيدة تفتح هذا الباب. معظم وظائف الإرشاد مرتبطة بالمواقع المصرية فالمهنة محلية في الأساس، لكن ملف اللغات الغني قد يقود إلى العمل في شركات السياحة الدولية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You meet people from many countries",
+        "ar": "تلتقي بأشخاص من بلاد كثيرة"
+      },
+      {
+        "en": "You work at inspiring places, often outdoors",
+        "ar": "تعمل في أماكن ملهمة وغالبًا في الهواء الطلق"
+      },
+      {
+        "en": "Languages become a real career asset",
+        "ar": "تصبح اللغات ميزة مهنية حقيقية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Income is seasonal and depends on tourism conditions",
+        "ar": "الدخل موسمي ويتأثر بأحوال السياحة"
+      },
+      {
+        "en": "Long days in heat, crowds and travel",
+        "ar": "أيام طويلة في الحر والزحام والسفر"
+      },
+      {
+        "en": "Competition from unlicensed guides and from apps and audio guides",
+        "ar": "منافسة من مرشدين بلا ترخيص ومن التطبيقات والأدلة الصوتية"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Anyone who knows history can guide.",
+          "ar": "من يعرف التاريخ يستطيع الإرشاد."
+        },
+        "fact": {
+          "en": "A licence is required by law, and the exam tests knowledge, languages and conduct.",
+          "ar": "الترخيص مطلوب بحكم القانون، والامتحان يختبر المعرفة واللغات والسلوك."
+        }
+      },
+      {
+        "myth": {
+          "en": "Guides only repeat memorised stories.",
+          "ar": "المرشدون يكررون قصصًا محفوظة."
+        },
+        "fact": {
+          "en": "Good guides read new research, adapt to each group and handle real problems all day.",
+          "ar": "المرشد الجيد يقرأ الأبحاث الجديدة ويتكيف مع كل مجموعة ويحل مشكلات حقيقية طوال اليوم."
+        }
+      },
+      {
+        "myth": {
+          "en": "Guides earn only from tips.",
+          "ar": "المرشدون يكسبون من الإكراميات فقط."
+        },
+        "fact": {
+          "en": "Most are paid per tour by agencies. Tips are an extra that varies.",
+          "ar": "معظمهم يتقاضى أجرًا عن الرحلة من الشركات. الإكرامية إضافة تتفاوت."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Irregular: early starts, long days and busy seasons, then quiet periods. Freelance guides can choose some tours but cannot control demand.",
+      "ar": "غير منتظم: بدايات مبكرة وأيام طويلة وفترات ازدحام ثم فترات هادئة. يستطيع المرشد الحر اختيار بعض الرحلات لكن لا يتحكم في الطلب."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Trainee or junior guide",
+        "ar": "مرشد متدرب أو مبتدئ"
+      },
+      {
+        "en": "Licensed guide",
+        "ar": "مرشد مرخّص"
+      },
+      {
+        "en": "Senior or specialised guide (language, region, period)",
+        "ar": "مرشد أول أو متخصص (لغة أو منطقة أو عصر)"
+      },
+      {
+        "en": "Tour leader, operations or product manager at a travel company",
+        "ar": "قائد رحلات أو مدير تشغيل أو منتج في شركة سياحة"
+      },
+      {
+        "en": "Travel company owner or tourism consultant",
+        "ar": "صاحب شركة سياحة أو مستشار سياحي"
+      }
+    ],
+    "relatedCareerIds": [
+      "egyptologist",
+      "hotel_manager",
+      "translator",
+      "event_planner",
+      "flight_attendant",
+      "photographer"
+    ],
+    "pivots": [
+      {
+        "en": "Museum education",
+        "ar": "التعليم المتحفي"
+      },
+      {
+        "en": "Travel company management",
+        "ar": "إدارة شركات السياحة"
+      },
+      {
+        "en": "Translation and language teaching",
+        "ar": "الترجمة وتدريس اللغات"
+      },
+      {
+        "en": "Content creation about travel and heritage",
+        "ar": "صناعة محتوى السفر والتراث"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Travel guide salary",
+      "url": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business/travel-guide",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Law No. 121 of 1983 on tourist guides (text)",
+      "url": "https://alberonsy.com/?p=3154",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Business Today Egypt: Egypt sets new tourism record with 19M visitors in 2025",
+      "url": "https://www.businesstodayegypt.com/Article/1/7031/Egypt-sets-new-tourism-record-with-19M-visitors-in-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

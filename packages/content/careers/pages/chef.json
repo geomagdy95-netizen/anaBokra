@@ -1,0 +1,186 @@
+{
+  "id": "chef",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You turn ingredients into meals people remember.",
+      "ar": "تحوّل المكونات إلى وجبات لا ينساها الناس."
+    },
+    "summary": {
+      "en": "Chefs plan menus, cook, manage a kitchen team and make sure food is safe and tasty. Work is fast, hot and often late in the day, and most chefs start as kitchen assistants and move up with skill. Hotels, restaurants and catering companies all hire cooks.",
+      "ar": "الشيف يخطط قوائم الطعام ويطبخ ويدير فريق المطبخ ويضمن أن الطعام آمن ولذيذ. العمل سريع وحار وغالبًا في ساعات متأخرة، ويبدأ معظم الشيفات مساعدين في المطبخ ثم يترقون بالمهارة. وتوظف الفنادق والمطاعم وشركات التموين الطهاة."
+    },
+    "dayInLife": {
+      "en": "You arrive in the afternoon and check the ingredients delivered today. With your team you prepare sauces and chop vegetables before service. When the restaurant opens, orders come in quickly: you cook, taste, plate and keep the kitchen clean and calm. After closing you count the stock and plan tomorrow's menu.",
+      "ar": "تصل بعد الظهر وتفحص المكونات التي وصلت اليوم. مع فريقك تجهّز الصلصات وتقطع الخضار قبل بدء الخدمة. حين يفتح المطعم تنهال الطلبات: تطبخ وتتذوق وتقدّم وتحافظ على نظافة المطبخ وهدوئه. بعد الإغلاق تعدّ المخزون وتخطط قائمة الغد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan menus and recipes and control food cost.",
+        "ar": "تخطط القوائم والوصفات وتتحكم في تكلفة الطعام."
+      },
+      {
+        "en": "Prepare and cook dishes to a consistent standard.",
+        "ar": "تحضّر الأطباق وتطبخها بمستوى ثابت."
+      },
+      {
+        "en": "Lead and train kitchen staff.",
+        "ar": "تقود فريق المطبخ وتدربه."
+      },
+      {
+        "en": "Follow food safety and hygiene rules.",
+        "ar": "تلتزم بقواعد سلامة الغذاء والنظافة."
+      },
+      {
+        "en": "Order ingredients and manage stock.",
+        "ar": "تطلب المكونات وتدير المخزون."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hotels and resorts",
+        "ar": "الفنادق والمنتجعات"
+      },
+      {
+        "en": "Restaurants and cafes",
+        "ar": "المطاعم والمقاهي"
+      },
+      {
+        "en": "Catering companies, hospitals and food factories",
+        "ar": "شركات التموين والمستشفيات ومصانع الأغذية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Professional knives, ovens and cooking equipment",
+        "ar": "السكاكين والأفران ومعدات الطهي المهنية"
+      },
+      {
+        "en": "Recipe, costing and stock sheets",
+        "ar": "جداول الوصفات والتكلفة والمخزون"
+      },
+      {
+        "en": "Food safety tools such as thermometers",
+        "ar": "أدوات سلامة الغذاء مثل مقاييس الحرارة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Tourism and Hotels mostly accept literary-stream students, and hotel technical secondary schools are another entry. Languages matter a lot: English first, then German, French, Russian or Italian. With IGCSE or A-Level, English and Business help. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "كليات السياحة والفنادق تقبل في الغالب طلاب الشعبة الأدبية، والمدارس الفنية الفندقية مدخل آخر. اللغات مهمة جدًا: الإنجليزية أولًا ثم الألمانية أو الفرنسية أو الروسية أو الإيطالية. في IGCSE وA-Level تفيد الإنجليزية ودراسات الأعمال. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Tourism and Hotels at public universities",
+        "ar": "كليات السياحة والفنادق بالجامعات الحكومية"
+      },
+      {
+        "en": "Tourism and hotel management programs at private universities",
+        "ar": "برامج السياحة وإدارة الفنادق بالجامعات الخاصة"
+      },
+      {
+        "en": "Hotel technical secondary schools and institutes",
+        "ar": "المدارس والمعاهد الفنية الفندقية"
+      }
+    ],
+    "programIds": [
+      "alexandria-university-tourism-hotels",
+      "mansoura-university-tourism-hotels",
+      "capital-university-tourism-hotels",
+      "suez-canal-university-tourism-hotels",
+      "minia-university-tourism-hotels",
+      "british-university-in-egypt-tourism-hotel-management"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2024: 68.54% (Alexandria University, the only linked program with a published figure in our data). Newer figures are not in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2024: 68.54% (جامعة الإسكندرية، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a kitchen assistant or commis chef and learn on the job in a hotel or restaurant.",
+        "ar": "البدء كمساعد مطبخ أو طاهٍ مبتدئ والتعلم أثناء العمل في فندق أو مطعم."
+      },
+      {
+        "en": "Culinary courses, such as those at Noqoush Culinary Academy or the Egyptian Chefs Association.",
+        "ar": "دورات الطهي مثل أكاديمية نقوش للطهي أو الجمعية المصرية للطهاة."
+      },
+      {
+        "en": "Hotel technical secondary school before work or further study.",
+        "ar": "الثانوية الفنية الفندقية قبل العمل أو استكمال الدراسة."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "hotel_manager",
+      "event_planner",
+      "food_scientist",
+      "entrepreneur",
+      "tour_guide"
+    ],
+    "pivots": [
+      {
+        "en": "Pastry or specialised cuisine",
+        "ar": "الحلويات أو مطابخ متخصصة"
+      },
+      {
+        "en": "Hotel or restaurant management",
+        "ar": "إدارة الفنادق أو المطاعم"
+      },
+      {
+        "en": "Food business or catering of your own",
+        "ar": "مشروع أغذية أو تموين خاص"
+      },
+      {
+        "en": "Food product development",
+        "ar": "تطوير منتجات الأغذية"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Chef",
+      "url": "https://www.onetonline.org/link/summary/35-1011.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Chef",
+      "url": "https://www.mynextmove.org/profile/summary/35-1011.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Noqoush Culinary Academy",
+      "url": "https://noqoush.org",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian Chefs Association",
+      "url": "https://www.egyptchefs.com",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

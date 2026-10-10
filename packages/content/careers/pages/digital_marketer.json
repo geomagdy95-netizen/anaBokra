@@ -1,0 +1,444 @@
+{
+  "id": "digital_marketer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help a brand get found, trusted and chosen online.",
+      "ar": "تساعد علامة تجارية على أن يجدها الناس ويثقوا بها ويختاروها على الإنترنت."
+    },
+    "summary": {
+      "en": "Digital marketers plan and run campaigns on social media, search engines, email and websites, then read the numbers to see what worked. Internet use in Egypt is very high, so almost every company needs this skill. You can start learning for free while you are still at school.",
+      "ar": "المسوّق الرقمي يخطط للحملات ويديرها على وسائل التواصل ومحركات البحث والبريد الإلكتروني والمواقع، ثم يقرأ الأرقام ليعرف ما نجح. استخدام الإنترنت في مصر مرتفع جدًا، لذلك تحتاج كل شركة تقريبًا هذه المهارة. يمكنك أن تبدأ التعلم مجانًا وأنت ما زلت في المدرسة."
+    },
+    "dayInLife": {
+      "en": "You start by checking last night's ad results: one video got many views but few sales. You read the comments, see that people ask about price, and change the first line of the ad. Then you meet the designer and copywriter to plan next week's posts for a clothing brand. After lunch you test two versions of a landing page and set a small budget for each. Late in the day you prepare a short report for the client that shows how many people clicked, bought and what each sale cost. You always finish by writing down what to try next.",
+      "ar": "تبدأ بنتائج إعلانات الليلة الماضية: فيديو حصل على مشاهدات كثيرة لكن مبيعاته قليلة. تقرأ التعليقات فتجد أن الناس تسأل عن السعر، فتغيّر السطر الأول في الإعلان. ثم تجتمع بالمصمم وكاتب المحتوى لتخطيط منشورات الأسبوع القادم لعلامة ملابس. بعد الغداء تجرّب نسختين من صفحة هبوط وتضع ميزانية صغيرة لكل واحدة. في آخر اليوم تجهّز تقريرًا قصيرًا للعميل يوضح كم شخصًا ضغط واشترى وكم كلفت كل عملية بيع. وتنتهي دائمًا بكتابة ما ستجربه بعد ذلك."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan campaigns with a goal, an audience and a budget.",
+        "ar": "تخطط للحملات بهدف وجمهور وميزانية."
+      },
+      {
+        "en": "Create and schedule posts, videos and ads for social media and search.",
+        "ar": "تنتج المنشورات والفيديوهات والإعلانات وتجدولها على وسائل التواصل ومحركات البحث."
+      },
+      {
+        "en": "Run paid ads on platforms such as Meta, Google, TikTok and YouTube.",
+        "ar": "تدير الإعلانات المدفوعة على منصات مثل ميتا وجوجل وتيك توك ويوتيوب."
+      },
+      {
+        "en": "Improve websites and pages so more visitors become customers (SEO and conversion).",
+        "ar": "تحسّن المواقع والصفحات ليتحول زوارها إلى عملاء (SEO وتحسين التحويل)."
+      },
+      {
+        "en": "Read analytics and report what worked and what did not.",
+        "ar": "تقرأ التحليلات وتكتب تقريرًا بما نجح وما لم ينجح."
+      },
+      {
+        "en": "Answer customers and manage the brand's online reputation.",
+        "ar": "ترد على العملاء وتدير سمعة العلامة على الإنترنت."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Marketing agencies",
+        "ar": "وكالات التسويق والإعلان"
+      },
+      {
+        "en": "In-house marketing teams in companies and online stores",
+        "ar": "فرق التسويق داخل الشركات والمتاجر الإلكترونية"
+      },
+      {
+        "en": "Freelancing from home or a co-working space",
+        "ar": "العمل الحر من البيت أو مساحة عمل مشتركة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Meta Business Suite and Ads Manager",
+        "ar": "ميتا بيزنس سويت ومدير الإعلانات"
+      },
+      {
+        "en": "Google Ads, Google Analytics and Search Console",
+        "ar": "جوجل أدز وجوجل أناليتكس وسيرش كونسول"
+      },
+      {
+        "en": "Canva and basic video editing apps",
+        "ar": "كانفا وتطبيقات مونتاج الفيديو الأساسية"
+      },
+      {
+        "en": "Email tools and spreadsheets",
+        "ar": "أدوات البريد الإلكتروني وجداول البيانات"
+      },
+      {
+        "en": "AI writing and image tools, always checked by a human",
+        "ar": "أدوات الذكاء الاصطناعي للكتابة والصور، مع مراجعة بشرية دائمًا"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Business Studies, Media Studies, Art and Design, English and Computer Science. American Diploma: Business, Communications, Statistics. IB: Business Management, Language and Literature. Build a real page or small online project now.",
+      "ar": "IGCSE أو A-Level: دراسات الأعمال ودراسات الإعلام والفن والتصميم والإنجليزية وعلوم الحاسب. الدبلومة الأمريكية: الأعمال والاتصال والإحصاء. IB: إدارة الأعمال واللغة والأدب. ابنِ صفحة حقيقية أو مشروعًا صغيرًا على الإنترنت من الآن."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Commerce or Business Administration (marketing)",
+        "ar": "كلية التجارة أو إدارة الأعمال (تسويق)"
+      },
+      {
+        "en": "Faculty of Mass Communication (advertising and public relations)",
+        "ar": "كلية الإعلام (الإعلان والعلاقات العامة)"
+      },
+      {
+        "en": "Digital marketing programs, for example at Ain Shams National University",
+        "ar": "برامج التسويق الرقمي مثل جامعة عين شمس الأهلية"
+      },
+      {
+        "en": "Any faculty plus strong practical courses and projects",
+        "ar": "أي كلية مع دورات عملية ومشروعات قوية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "cairo-university-mass-communication",
+      "ain-shams-national-university-business-digital-marketing",
+      "british-university-in-egypt-communication-mass-media",
+      "misr-international-university-mass-communication",
+      "capital-university-commerce"
+    ],
+    "tansikNote": {
+      "en": "Commerce (literary track) asked for about 72% to 79% in the 2026 phase-1 lists (Assiut 71.88% to Cairo University 79.06%). Mass Communication is higher: Qena 86.09% to Cairo University 90.31% in 2026 (percent of the total). Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff.",
+      "ar": "طلبت التجارة (الشعبة الأدبية) نحو 72% إلى 79% في المرحلة الأولى لعام 2026 (أسيوط 71.88% وجامعة القاهرة 79.06%). أما الإعلام فأعلى: قنا 86.09% وجامعة القاهرة 90.31% في 2026 (نسبة مئوية من المجموع). تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Learn online with free courses from Google, Meta and HubSpot, then do real projects for small shops or family businesses.",
+        "ar": "تعلّم عبر الإنترنت بدورات مجانية من جوجل وميتا وهَب سبوت ثم نفّذ مشروعات حقيقية لمحلات صغيرة أو أعمال الأسرة."
+      },
+      {
+        "en": "Egypt FWD (ITIDA) and bootcamps run digital marketing and freelancing courses for graduates and adults.",
+        "ar": "برنامج Egypt FWD التابع لـ ITIDA ومعسكرات التدريب تقدم دورات في التسويق الرقمي والعمل الحر للخريجين والبالغين."
+      },
+      {
+        "en": "Start as an intern or junior at an agency and learn on the job.",
+        "ar": "ابدأ متدربًا أو مبتدئًا في وكالة وتعلّم أثناء العمل."
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Social media and paid-ads management",
+        "ar": "إدارة وسائل التواصل والإعلانات المدفوعة"
+      },
+      {
+        "en": "SEO and website basics",
+        "ar": "أساسيات SEO والمواقع"
+      },
+      {
+        "en": "Analytics: reading numbers and making decisions",
+        "ar": "التحليلات: قراءة الأرقام واتخاذ القرارات"
+      },
+      {
+        "en": "Copywriting in Arabic and English",
+        "ar": "كتابة المحتوى الإعلاني بالعربية والإنجليزية"
+      },
+      {
+        "en": "Basic design and video editing",
+        "ar": "تصميم ومونتاج أساسي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Creativity with discipline",
+        "ar": "الإبداع مع الانضباط"
+      },
+      {
+        "en": "Curiosity about people and trends",
+        "ar": "الفضول تجاه الناس والاتجاهات"
+      },
+      {
+        "en": "Writing clearly and persuasively",
+        "ar": "الكتابة بوضوح وإقناع"
+      },
+      {
+        "en": "Handling client feedback calmly",
+        "ar": "التعامل مع ملاحظات العميل بهدوء"
+      },
+      {
+        "en": "Honesty: not promising results you cannot deliver",
+        "ar": "الصدق: ألا تعد بنتائج لا تضمنها"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: platform tools and global courses",
+        "ar": "الإنجليزية: أدوات المنصات والدورات العالمية"
+      },
+      {
+        "en": "Arabic, including Egyptian and Gulf dialects: for local and regional audiences",
+        "ar": "العربية بما فيها اللهجتان المصرية والخليجية: للجمهور المحلي والإقليمي"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Google Ads and Google Analytics certifications (free)",
+        "ar": "شهادات جوجل أدز وجوجل أناليتكس (مجانية)"
+      },
+      {
+        "en": "Meta Certified Digital Marketing Associate",
+        "ar": "شهادة ميتا لمساعد التسويق الرقمي المعتمد (Meta Certified Digital Marketing Associate)"
+      },
+      {
+        "en": "HubSpot inbound marketing certificate (free)",
+        "ar": "شهادة هَب سبوت للتسويق (مجانية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Google Skillshop (Ads and Analytics courses)",
+        "url": "https://skillshop.withgoogle.com",
+        "free": true
+      },
+      {
+        "title": "Meta Blueprint",
+        "url": "https://www.facebook.com/business/learn",
+        "free": true
+      },
+      {
+        "title": "HubSpot Academy",
+        "url": "https://academy.hubspot.com",
+        "free": true
+      },
+      {
+        "title": "Almentor: Arabic marketing courses",
+        "url": "https://www.almentor.net",
+        "free": false
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 5188,
+        "max": 18510
+      },
+      "senior": {
+        "min": 11449,
+        "max": 39498
+      },
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Mid uses the Paylab title Digital Marketing Specialist and senior uses Digital Marketing Manager. Related titles: Social Media Specialist 4,744 to 18,075, PPC Specialist 10,038 to 24,114 and SEO Analyst 11,109 to 24,619 EGP.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. المتوسط من مسمى Digital Marketing Specialist والأعلى من Digital Marketing Manager. مسميات قريبة: أخصائي سوشيال ميديا 4,744 إلى 18,075، وأخصائي إعلانات PPC من 10,038 إلى 24,114، ومحلل SEO من 11,109 إلى 24,619 جنيهًا."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Marketing and advertising agencies",
+        "ar": "وكالات التسويق والإعلان"
+      },
+      {
+        "en": "E-commerce and retail companies",
+        "ar": "شركات التجارة الإلكترونية والتجزئة"
+      },
+      {
+        "en": "Banks, telecoms, FMCG and real-estate companies",
+        "ar": "البنوك والاتصالات والسلع الاستهلاكية والعقارات"
+      },
+      {
+        "en": "Startups and software companies",
+        "ar": "الشركات الناشئة وشركات البرمجيات"
+      },
+      {
+        "en": "Gulf brands and agencies (often remotely)",
+        "ar": "علامات ووكالات خليجية (غالبًا عن بُعد)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance is common: managing pages, running ads, writing content and editing video. Many Egyptian marketers serve Gulf clients remotely. Prices are competitive and automation is lowering the value of routine content, so a specialty such as performance ads, analytics or video helps.",
+      "ar": "العمل الحر شائع: إدارة الصفحات وتشغيل الإعلانات وكتابة المحتوى ومونتاج الفيديو. يخدم كثير من المسوقين المصريين عملاء خليجيين عن بُعد. المنافسة قوية والأتمتة تقلل قيمة المحتوى الروتيني، فالتخصص في الإعلانات بالأداء أو التحليلات أو الفيديو يفيد."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Remote from any governorate",
+        "ar": "عن بُعد من أي محافظة"
+      }
+    ],
+    "providerIds": [
+      "egypt-fwd",
+      "almentor",
+      "coursera-egypt",
+      "sprints",
+      "gomycode-egypt"
+    ]
+  },
+  "global": {
+    "en": "Arabic-language marketing is in demand from Gulf brands, and Egyptian marketers often work for Saudi, Emirati and Kuwaiti clients, remotely or on site. International agencies hire remotely for skills like paid social and SEO. Skills transfer easily, but check payment terms when freelancing for clients abroad.",
+    "ar": "التسويق باللغة العربية مطلوب من علامات خليجية، وكثيرًا ما يعمل المسوقون المصريون لعملاء سعوديين وإماراتيين وكويتيين عن بُعد أو في الموقع. تستعين وكالات دولية بمسوقين عن بُعد في مهارات مثل الإعلانات على السوشيال وSEO. المهارات سهلة النقل، لكن تحقق من شروط الدفع عند العمل الحر لعملاء في الخارج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Low cost to start learning, and you can practice on real projects",
+        "ar": "تكلفة بدء التعلم منخفضة وتستطيع التدريب على مشروعات حقيقية"
+      },
+      {
+        "en": "Demand in nearly every industry",
+        "ar": "طلب في كل الصناعات تقريبًا"
+      },
+      {
+        "en": "Remote and freelance options",
+        "ar": "فرص للعمل الحر وعن بُعد"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Platforms and algorithms keep changing, so you must keep learning",
+        "ar": "المنصات والخوارزميات تتغير باستمرار فعليك أن تواصل التعلم"
+      },
+      {
+        "en": "Beginner pay can be low and competition is high",
+        "ar": "راتب المبتدئ قد يكون منخفضًا والمنافسة عالية"
+      },
+      {
+        "en": "Clients expect quick results that are not always possible",
+        "ar": "العملاء يتوقعون نتائج سريعة لا تتحقق دائمًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "It is just posting on Facebook and Instagram.",
+          "ar": "هو مجرد نشر على فيسبوك وإنستجرام."
+        },
+        "fact": {
+          "en": "Posting is a small part. The job is planning, testing, measuring and improving.",
+          "ar": "النشر جزء صغير. الوظيفة تخطيط واختبار وقياس وتحسين."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI tools mean marketers are not needed.",
+          "ar": "أدوات الذكاء الاصطناعي تعني أنه لا حاجة للمسوقين."
+        },
+        "fact": {
+          "en": "AI makes first drafts cheap, so strategy, facts, brand judgment and analysis matter more.",
+          "ar": "الذكاء الاصطناعي يجعل المسودة الأولى رخيصة، فتصبح الاستراتيجية والمعلومات الصحيحة وحكم العلامة والتحليل أهم."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a marketing degree.",
+          "ar": "تحتاج شهادة تسويق."
+        },
+        "fact": {
+          "en": "A degree helps, but many employers look first at real campaigns and results in your portfolio.",
+          "ar": "الشهادة تساعد، لكن أصحاب عمل كثيرين ينظرون أولًا إلى حملاتك الحقيقية ونتائجها."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular hours in companies. Agencies can have deadline spikes, and campaigns around Ramadan and sales seasons are busier.",
+      "ar": "ساعات منتظمة غالبًا في الشركات. الوكالات قد تشهد ضغطًا قرب المواعيد، والحملات في رمضان ومواسم التخفيضات أكثر انشغالًا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Marketing intern or social media assistant",
+        "ar": "متدرب تسويق أو مساعد سوشيال ميديا"
+      },
+      {
+        "en": "Digital marketing specialist",
+        "ar": "أخصائي تسويق رقمي"
+      },
+      {
+        "en": "Senior specialist or team lead",
+        "ar": "أخصائي أول أو قائد فريق"
+      },
+      {
+        "en": "Digital marketing manager",
+        "ar": "مدير التسويق الرقمي"
+      },
+      {
+        "en": "Head of marketing or CMO",
+        "ar": "رئيس التسويق أو CMO"
+      }
+    ],
+    "relatedCareerIds": [
+      "brand_manager",
+      "content_creator",
+      "social_media_manager",
+      "pr_specialist",
+      "ux_designer",
+      "product_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Brand management",
+        "ar": "إدارة العلامة التجارية"
+      },
+      {
+        "en": "Product management",
+        "ar": "إدارة المنتج"
+      },
+      {
+        "en": "Data analytics",
+        "ar": "تحليل البيانات"
+      },
+      {
+        "en": "Starting your own agency or online store",
+        "ar": "فتح وكالتك أو متجرك الإلكتروني"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Marketing, advertising and PR salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egypt FWD (ITIDA)",
+      "url": "https://egyptfwd.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Google Skillshop",
+      "url": "https://skillshop.withgoogle.com",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

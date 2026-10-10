@@ -1,0 +1,175 @@
+{
+  "id": "film_producer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You bring stories to the screen, from the first idea to the final cut.",
+      "ar": "تجلب القصص إلى الشاشة، من الفكرة الأولى حتى المونتاج النهائي."
+    },
+    "summary": {
+      "en": "Producers and directors turn ideas into films, series, adverts and online videos. Producers manage money, people and schedules; directors guide the creative look and the actors. It is a competitive field where you learn mostly by working on sets and building a portfolio.",
+      "ar": "المنتجون والمخرجون يحوّلون الأفكار إلى أفلام ومسلسلات وإعلانات وفيديوهات على الإنترنت. المنتج يدير المال والناس والجداول، والمخرج يقود الشكل الإبداعي والممثلين. مجال تنافسي نتعلم فيه غالبًا من العمل في مواقع التصوير وبناء ملف أعمال."
+    },
+    "dayInLife": {
+      "en": "On a shooting day you arrive before the crew and check the schedule. As a director you talk to the actors about the scene and decide where to put the camera; as a producer you check the budget and permits for tomorrow's location. When filming ends you watch the day's footage and plan what is left to shoot.",
+      "ar": "في يوم التصوير تصل قبل الطاقم وتراجع الجدول. كمخرج تتحدث مع الممثلين عن المشهد وتقرر مكان الكاميرا؛ وكمنتج تراجع ميزانية وتصاريح موقع الغد. عند انتهاء التصوير تشاهد لقطات اليوم وتخطط لما بقي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Develop ideas and scripts and find funding.",
+        "ar": "تطور الأفكار والسيناريوهات وتبحث عن التمويل."
+      },
+      {
+        "en": "Plan budgets, schedules, locations and permits.",
+        "ar": "تخطط الميزانيات والجداول والمواقع والتصاريح."
+      },
+      {
+        "en": "Hire and lead the cast and crew.",
+        "ar": "تختار الممثلين والطاقم وتقودهم."
+      },
+      {
+        "en": "Direct the performances and the look of each scene.",
+        "ar": "تخرج الأداء وشكل كل مشهد."
+      },
+      {
+        "en": "Supervise editing, sound and the final delivery.",
+        "ar": "تشرف على المونتاج والصوت والتسليم النهائي."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Film, TV and series production companies",
+        "ar": "شركات إنتاج الأفلام والتلفزيون والمسلسلات"
+      },
+      {
+        "en": "Advertising and digital content studios",
+        "ar": "استوديوهات الإعلان والمحتوى الرقمي"
+      },
+      {
+        "en": "Freelance and independent projects",
+        "ar": "الأعمال الحرة والمستقلة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Cameras, lighting and sound equipment",
+        "ar": "الكاميرات والإضاءة ومعدات الصوت"
+      },
+      {
+        "en": "Editing software such as Premiere or DaVinci",
+        "ar": "برامج المونتاج مثل Premiere وDaVinci"
+      },
+      {
+        "en": "Scheduling and budgeting tools",
+        "ar": "أدوات الجدولة والميزانيات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Cinema institutes and some fine-arts and media programs have special entry tests, so a portfolio and talent matter as well as your marks. Art, Media Studies and English help in IGCSE or A-Level. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "معاهد السينما وبعض برامج الفنون والإعلام لها اختبارات قبول خاصة، فملف الأعمال والموهبة مهمان إلى جانب الدرجات. تفيد الفنون ودراسات الإعلام والإنجليزية في IGCSE وA-Level. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Higher Institute of Cinema (Academy of Arts), with entry tests",
+        "ar": "المعهد العالي للسينما (أكاديمية الفنون) باختبارات قبول"
+      },
+      {
+        "en": "Faculties of Mass Communication (radio and TV)",
+        "ar": "كليات الإعلام (الإذاعة والتلفزيون)"
+      },
+      {
+        "en": "Faculties of Fine Arts and Applied Arts, and media or visual-design programs at private universities",
+        "ar": "كليات الفنون الجميلة والفنون التطبيقية وبرامج الإعلام أو التصميم المرئي بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "ain-shams-university-mass-communication",
+      "alexandria-university-fine-arts",
+      "british-university-in-egypt-communication-mass-media",
+      "misr-international-university-alsun-mass-communication-visual-design"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 80.31% to 90.31% across 3 programs (lowest Alexandria University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 80.31% إلى 90.31% عبر 3 برنامجًا (الأدنى جامعة الإسكندرية والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a runner or assistant on sets, in a production company or an advert house, and grow with experience.",
+        "ar": "البدء كمساعد في مواقع التصوير أو شركات الإنتاج أو الإعلانات والترقي بالخبرة."
+      },
+      {
+        "en": "Short filmmaking courses and making your own short films for a portfolio.",
+        "ar": "دورات قصيرة في صناعة الأفلام وإنتاج أفلام قصيرة لك لبناء ملف الأعمال."
+      }
+    ],
+    "licensing": {
+      "en": "Filming in public places and releasing films in Egypt usually need permits and approvals from the relevant authorities, and many film professionals join the film professions syndicate. Rules change, so check the current requirements before you shoot or publish.",
+      "ar": "التصوير في الأماكن العامة وعرض الأفلام في مصر يحتاجان عادة إلى تصاريح وموافقات من الجهات المختصة، وينضم كثير من العاملين في السينما إلى نقابة المهن السينمائية. القواعد تتغير، فتأكد من الشروط الحالية قبل التصوير أو النشر."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "content_creator",
+      "photographer",
+      "animator_3d_artist",
+      "journalist",
+      "graphic_designer",
+      "musician"
+    ],
+    "pivots": [
+      {
+        "en": "Advertising and branded content",
+        "ar": "الإعلانات ومحتوى العلامات"
+      },
+      {
+        "en": "Video editing or cinematography",
+        "ar": "المونتاج أو التصوير السينمائي"
+      },
+      {
+        "en": "TV and series production",
+        "ar": "إنتاج التلفزيون والمسلسلات"
+      },
+      {
+        "en": "Documentary and online content",
+        "ar": "الأفلام الوثائقية والمحتوى على الإنترنت"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Film & Video Producer / Director",
+      "url": "https://www.onetonline.org/link/summary/27-2012.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Film & Video Producer / Director",
+      "url": "https://www.mynextmove.org/profile/summary/27-2012.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

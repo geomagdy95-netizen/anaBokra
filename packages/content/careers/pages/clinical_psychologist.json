@@ -1,0 +1,382 @@
+{
+  "id": "clinical_psychologist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help people understand their feelings and thoughts, and build ways to cope and heal.",
+      "ar": "تساعد الناس على فهم مشاعرهم وأفكارهم وتبني معهم طرقًا للتعامل والتعافي."
+    },
+    "summary": {
+      "en": "Clinical psychologists assess emotional and behavioral difficulties and help people through therapy. In Egypt you usually study psychology in a Faculty of Arts, then add postgraduate clinical training. The field is growing but rules for licensing psychologists are still developing, so choose your training carefully.",
+      "ar": "الأخصائي النفسي الإكلينيكي يقيّم الصعوبات الانفعالية والسلوكية ويساعد الناس بالعلاج النفسي. في مصر تدرس غالبًا علم النفس في كلية الآداب ثم تضيف تدريبًا إكلينيكيًا في الدراسات العليا. المجال ينمو لكن قواعد ترخيص الأخصائيين النفسيين ما زالت تتطور، فاختر تدريبك بعناية."
+    },
+    "dayInLife": {
+      "en": "You arrive at a mental health clinic at 10 a.m. and read notes about a teenager who feels very anxious before exams. In your session you listen first, then teach her a breathing exercise and ask her to track her thoughts this week. After lunch you give a short assessment to a child whose teacher worries about attention. You write a clear report for the parents and the school. You also meet your supervisor to discuss a difficult case, because good therapists keep learning. You finish by writing notes and keeping everything confidential.",
+      "ar": "تصل إلى عيادة الصحة النفسية في العاشرة وتقرأ ملاحظات عن مراهقة تقلق كثيرًا قبل الامتحانات. في الجلسة تستمع أولًا ثم تعلمها تمرين تنفس وتطلب منها تتبع أفكارها هذا الأسبوع. بعد الغداء تجري تقييمًا قصيرًا لطفل تقلق معلمته من انتباهه، وتكتب تقريرًا واضحًا للوالدين والمدرسة. وتلتقي بمشرفك لمناقشة حالة صعبة لأن المعالج الجيد يتعلم دائمًا. وتنهي يومك بكتابة الملاحظات والمحافظة على السرية الكاملة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Interview clients and use tests to assess mood, anxiety, attention and behavior.",
+        "ar": "تجري مقابلات مع العملاء وتستخدم الاختبارات لتقييم المزاج والقلق والانتباه والسلوك."
+      },
+      {
+        "en": "Plan and run therapy sessions such as cognitive behavioral therapy.",
+        "ar": "تخطط وتجري جلسات علاج نفسي مثل العلاج المعرفي السلوكي."
+      },
+      {
+        "en": "Work with psychiatrists, doctors, teachers and families.",
+        "ar": "تتعاون مع الأطباء النفسيين والأطباء والمعلمين والأسر."
+      },
+      {
+        "en": "Assess risk and respond to crises safely.",
+        "ar": "تقيّم الخطورة وتتعامل مع الأزمات بأمان."
+      },
+      {
+        "en": "Write reports and keep confidential records.",
+        "ar": "تكتب التقارير وتحتفظ بسجلات سرية."
+      },
+      {
+        "en": "Teach coping skills and run groups or workshops.",
+        "ar": "تعلّم مهارات التعامل وتقدم مجموعات وورش عمل."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hospitals and psychiatric units",
+        "ar": "المستشفيات وأقسام الطب النفسي"
+      },
+      {
+        "en": "Private therapy clinics and mental health centers",
+        "ar": "العيادات الخاصة ومراكز الصحة النفسية"
+      },
+      {
+        "en": "Schools, universities and NGOs",
+        "ar": "المدارس والجامعات والجمعيات الأهلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Psychological tests and questionnaires",
+        "ar": "الاختبارات والمقاييس النفسية"
+      },
+      {
+        "en": "Therapy methods such as CBT and play therapy",
+        "ar": "طرق العلاج مثل العلاج المعرفي السلوكي والعلاج باللعب"
+      },
+      {
+        "en": "Secure record keeping and, increasingly, online session platforms",
+        "ar": "حفظ السجلات الآمن ومنصات الجلسات عبر الإنترنت"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Psychology, Biology and a statistics or Maths subject. With the American Diploma, choose AP Psychology and AP Statistics. Equivalency decides which Egyptian faculty you can join, so check with the Tansik office. Private options such as a psychology program at BUE exist with different fees.",
+      "ar": "في IGCSE أو A-levels خذ علم النفس والأحياء ومادة إحصاء أو رياضيات. وفي الدبلومة الأمريكية اختر AP لعلم النفس والإحصاء. تحدد المعادلة أي كلية مصرية يمكنك الالتحاق بها، فاسأل مكتب التنسيق. وتوجد خيارات خاصة مثل برنامج علم النفس في الجامعة البريطانية بمصروفات مختلفة."
+    },
+    "faculties": [
+      {
+        "en": "Psychology department of the Faculty of Arts at public universities (Cairo, Ain Shams, Alexandria, Benha and others)",
+        "ar": "قسم علم النفس بكليات الآداب بالجامعات الحكومية (القاهرة وعين شمس والإسكندرية وبنها وغيرها)"
+      },
+      {
+        "en": "Psychology programs at private universities (for example British University in Egypt)",
+        "ar": "برامج علم النفس بالجامعات الخاصة (مثل الجامعة البريطانية في مصر)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-arts",
+      "ain-shams-university-arts",
+      "alexandria-university-arts",
+      "mansoura-university-arts",
+      "zagazig-university-arts",
+      "tanta-university-arts",
+      "capital-university-arts",
+      "menoufia-university-arts",
+      "british-university-in-egypt-psychology",
+      "assiut-university-arts",
+      "suez-canal-university-arts",
+      "minia-university-arts"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 71.56% to 81.09% across 8 programs (lowest Fayoum University, highest Cairo University); 2025: 75.47% to 80.62% across 5 programs (lowest Benha University, highest Cairo University); 2024: 68.29% to 77.44% across 12 programs (lowest Zagazig University, highest Cairo University); 2023: 76.1% to 79.27% across 4 programs (lowest Alexandria University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 71.56% إلى 81.09% عبر 8 برنامجًا (الأدنى جامعة الفيوم، الأعلى جامعة القاهرة)؛ 2025: من 75.47% إلى 80.62% عبر 5 برنامجًا (الأدنى جامعة بنها، الأعلى جامعة القاهرة)؛ 2024: من 68.29% إلى 77.44% عبر 12 برنامجًا (الأدنى جامعة الزقازيق، الأعلى جامعة القاهرة)؛ 2023: من 76.1% إلى 79.27% عبر 4 برنامجًا (الأدنى جامعة الإسكندرية، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A medical degree followed by psychiatry training is a different profession: psychiatrists are regulated doctors who can prescribe medicine.",
+        "ar": "الدراسة الطبية ثم التدريب في الطب النفسي مهنة مختلفة: الطبيب النفسي طبيب منظم قانونيًا ويمكنه وصف الدواء."
+      },
+      {
+        "en": "School counseling, special education or social work also use psychology skills with a shorter route.",
+        "ar": "الإرشاد المدرسي والتربية الخاصة والعمل الاجتماعي تستخدم مهارات علم النفس بمسار أقصر."
+      }
+    ],
+    "licensing": {
+      "en": "Rules are still developing. According to a 2025 guide, psychiatrists (medical doctors) are fully regulated under the Mental Health Act (Law 71 of 2009) and Ministry of Health licensing, while there is no unified licensing system for psychologists yet, although a Ministry of Health committee was formed in 2024 to work on this. Psychotherapists who are not psychiatrists may practice only with Ministry licensing and cannot prescribe medicine. Choose a master's or diploma in clinical psychology with supervised practice, and check current rules before opening a practice.",
+      "ar": "القواعد ما زالت تتطور. وفق دليل عام 2025، الأطباء النفسيون (أطباء بشريون) منظمون بالكامل بموجب قانون الصحة النفسية (القانون 71 لسنة 2009) وترخيص وزارة الصحة، بينما لا يوجد نظام ترخيص موحد للأخصائيين النفسيين حتى الآن رغم تشكيل لجنة بوزارة الصحة في 2024 للعمل على ذلك. والمعالجون النفسيون من غير الأطباء يمارسون فقط بترخيص من الوزارة ولا يصفون الدواء. اختر ماجستيرًا أو دبلومًا في علم النفس الإكلينيكي مع ممارسة تحت إشراف، وراجع القواعد الحالية قبل فتح عيادة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Psychological assessment and testing",
+        "ar": "التقييم والقياس النفسي"
+      },
+      {
+        "en": "Evidence-based therapy methods such as CBT",
+        "ar": "طرق العلاج المبنية على الدليل مثل العلاج المعرفي السلوكي"
+      },
+      {
+        "en": "Research methods and statistics",
+        "ar": "مناهج البحث والإحصاء"
+      },
+      {
+        "en": "Case notes and ethical practice",
+        "ar": "كتابة الحالات والممارسة الأخلاقية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Deep listening and empathy without judging",
+        "ar": "الإنصات العميق والتعاطف دون حكم"
+      },
+      {
+        "en": "Emotional stability and self-care",
+        "ar": "الثبات الانفعالي والعناية بالنفس"
+      },
+      {
+        "en": "Keeping confidentiality",
+        "ar": "الحفاظ على السرية"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic, including colloquial Egyptian, for therapy",
+        "ar": "العربية بما فيها العامية المصرية للعلاج"
+      },
+      {
+        "en": "English for research and international training",
+        "ar": "الإنجليزية للأبحاث والتدريب الدولي"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Master's or professional diploma in clinical psychology",
+        "ar": "ماجستير أو دبلوم مهني في علم النفس الإكلينيكي"
+      },
+      {
+        "en": "Training in CBT or other therapy methods through recognized bodies",
+        "ar": "تدريب في العلاج المعرفي السلوكي أو غيره عبر جهات معتمدة"
+      },
+      {
+        "en": "Licensing through the Ministry of Health where required",
+        "ar": "الترخيص عبر وزارة الصحة حيث يلزم"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Psychology (MCAT Behavioral Sciences)",
+        "url": "https://www.khanacademy.org/test-prep/mcat/behavior",
+        "free": true
+      },
+      {
+        "title": "Yale: Psychology of Happiness / Introduction to Psychology (Coursera, audit free)",
+        "url": "https://www.coursera.org/learn/introduction-psych",
+        "free": true
+      },
+      {
+        "title": "WHO: Mental health information",
+        "url": "https://www.who.int/health-topics/mental-health",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Private mental health clinics and centers",
+        "ar": "العيادات ومراكز الصحة النفسية الخاصة"
+      },
+      {
+        "en": "Hospitals, including university and Ministry of Health psychiatry units",
+        "ar": "المستشفيات ومنها أقسام الطب النفسي الجامعية والتابعة لوزارة الصحة"
+      },
+      {
+        "en": "Schools, universities and special-needs centers",
+        "ar": "المدارس والجامعات ومراكز ذوي الاحتياجات"
+      },
+      {
+        "en": "NGOs and international organizations",
+        "ar": "الجمعيات الأهلية والمنظمات الدولية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Private practice and online therapy sessions are growing, which allows flexible work, but clients must be protected by ethical practice, supervision and clear rules on who may treat which conditions.",
+      "ar": "العمل الخاص والجلسات عبر الإنترنت في نمو مما يتيح مرونة، لكن يجب حماية العملاء بممارسة أخلاقية وإشراف وقواعد واضحة لمن يحق له علاج أي الحالات."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria (most clinics and centers)",
+        "ar": "القاهرة الكبرى والإسكندرية (معظم العيادات والمراكز)"
+      },
+      {
+        "en": "Online work can reach clients across governorates",
+        "ar": "العمل عبر الإنترنت يصل إلى عملاء في المحافظات"
+      }
+    ],
+    "providerIds": [],
+    "salaryNote": {
+      "en": "We did not find a citable Egypt salary figure for clinical psychologists (the Paylab page for psychologists shows no job-specific data), so pay is left empty rather than estimated. Income varies widely between hospital posts and private session fees.",
+      "ar": "لم نجد رقم راتب موثقًا للأخصائي النفسي الإكلينيكي في مصر (صفحة Paylab للأخصائيين النفسيين لا تعرض بيانات لهذه الوظيفة)، لذلك تُرك الراتب فارغًا بدل التقدير. يختلف الدخل كثيرًا بين وظائف المستشفيات وأجر الجلسات الخاصة."
+    }
+  },
+  "global": {
+    "en": "Psychologists are in demand worldwide, and Arabic-speaking therapists are needed in the Gulf and in Arabic-speaking communities abroad. But to practice you normally need local licensing, a recognized master's or doctorate and supervised hours, so plan postgraduate study abroad early.",
+    "ar": "الأخصائيون النفسيون مطلوبون عالميًا، والمعالجون الناطقون بالعربية مطلوبون في الخليج وفي الجاليات العربية بالخارج. لكن الممارسة تتطلب عادة ترخيصًا محليًا وماجستيرًا أو دكتوراه معترفًا بها وساعات إشراف، فخطط للدراسات العليا بالخارج مبكرًا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Meaningful work helping people through difficult times",
+        "ar": "عمل ذو معنى في مساعدة الناس في أوقات صعبة"
+      },
+      {
+        "en": "Growing public awareness of mental health",
+        "ar": "وعي عام متزايد بالصحة النفسية"
+      },
+      {
+        "en": "Flexible settings: clinic, school, online",
+        "ar": "بيئات مرنة: عيادة ومدرسة وإنترنت"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Training takes time and postgraduate study is usually needed",
+        "ar": "التدريب يحتاج وقتًا وغالبًا دراسات عليا"
+      },
+      {
+        "en": "Licensing rules are still evolving, which creates uncertainty",
+        "ar": "قواعد الترخيص ما زالت تتطور مما يخلق عدم يقين"
+      },
+      {
+        "en": "Stigma around mental health can make clients hesitant",
+        "ar": "الوصمة حول الصحة النفسية قد تجعل العملاء مترددين"
+      },
+      {
+        "en": "Emotionally heavy work needs supervision and self-care",
+        "ar": "عمل ثقيل نفسيًا يحتاج إشرافًا وعناية بالنفس"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Psychologists and psychiatrists are the same.",
+          "ar": "الأخصائي النفسي والطبيب النفسي شيء واحد."
+        },
+        "fact": {
+          "en": "Psychiatrists are medical doctors who can prescribe medicine; psychologists are trained in assessment and therapy and cannot prescribe.",
+          "ar": "الطبيب النفسي طبيب بشري يصف الدواء، والأخصائي النفسي مدرّب على التقييم والعلاج النفسي ولا يصف الدواء."
+        }
+      },
+      {
+        "myth": {
+          "en": "Going to therapy means you are weak.",
+          "ar": "الذهاب للعلاج يعني أنك ضعيف."
+        },
+        "fact": {
+          "en": "Seeking help is a sign of strength, and therapy works for ordinary life problems too.",
+          "ar": "طلب المساعدة علامة قوة، والعلاج النفسي يفيد في مشكلات الحياة العادية أيضًا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Often good in private practice because you set appointment times, but evenings are popular with clients. The emotional load needs breaks and supervision.",
+      "ar": "غالبًا جيدة في العمل الخاص لأنك تحدد المواعيد، لكن العملاء يفضلون المساء. والعبء النفسي يحتاج راحة وإشرافًا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Psychology student (4 years)",
+        "ar": "طالب علم نفس (4 سنوات)"
+      },
+      {
+        "en": "Graduate or assistant psychologist under supervision",
+        "ar": "خريج أو مساعد أخصائي تحت الإشراف"
+      },
+      {
+        "en": "Clinical psychologist with master's or diploma",
+        "ar": "أخصائي نفسي إكلينيكي بماجستير أو دبلوم"
+      },
+      {
+        "en": "Senior or specialist therapist, supervisor",
+        "ar": "أخصائي أول أو معالج متخصص أو مشرف"
+      },
+      {
+        "en": "Clinic director, trainer or academic",
+        "ar": "مدير عيادة أو مدرب أو أكاديمي"
+      }
+    ],
+    "relatedCareerIds": [
+      "school_counselor",
+      "social_worker",
+      "special_education_specialist",
+      "physician",
+      "hr_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Organizational or HR psychology",
+        "ar": "علم النفس التنظيمي والموارد البشرية"
+      },
+      {
+        "en": "Research and teaching",
+        "ar": "البحث والتدريس"
+      },
+      {
+        "en": "User research in technology companies",
+        "ar": "بحوث المستخدمين في شركات التقنية"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad - Tansik phase 1 minimums 2025, literary faculties",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "TherapyRoute - Mental Health Licensing & Regulation in Egypt: 2025 Guide",
+      "url": "https://www.therapyroute.com/article/mental-health-licensing-regulation-in-egypt-2025-guide-by-therapyroute",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

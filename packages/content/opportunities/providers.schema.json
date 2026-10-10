@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://anabokra.app/schemas/providers.schema.json",
+  "title": "anaBokra learning-opportunity providers dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "asOf",
+    "providers"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "asOf": {
+      "type": "string",
+      "format": "date"
+    },
+    "providers": {
+      "type": "array",
+      "minItems": 40,
+      "items": {
+        "$ref": "#/$defs/provider"
+      }
+    }
+  },
+  "$defs": {
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "kind",
+        "format",
+        "governorates",
+        "cost",
+        "ageMin",
+        "ageMax",
+        "eligibility",
+        "audience",
+        "skills",
+        "careerIds",
+        "website",
+        "sourceUrl",
+        "verifiedAt",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "ar"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ar": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "kind": {
+          "enum": [
+            "bootcamp",
+            "platform",
+            "government_program",
+            "ngo_program",
+            "technical_school",
+            "language_school",
+            "creative_academy",
+            "corporate_academy",
+            "other"
+          ]
+        },
+        "format": {
+          "enum": [
+            "online",
+            "offline",
+            "hybrid"
+          ]
+        },
+        "governorates": {
+          "description": "Governorate names, or [\"online\"] for fully online providers, or [\"nationwide\"] when delivered in many governorates and no verified list exists. Do not mix online/nationwide with governorate names.",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "Alexandria",
+              "Assiut",
+              "Aswan",
+              "Beheira",
+              "Beni Suef",
+              "Cairo",
+              "Dakahlia",
+              "Damietta",
+              "Fayoum",
+              "Gharbia",
+              "Giza",
+              "Ismailia",
+              "Kafr El Sheikh",
+              "Luxor",
+              "Matrouh",
+              "Menoufia",
+              "Minya",
+              "New Valley",
+              "North Sinai",
+              "Port Said",
+              "Qalyubia",
+              "Qena",
+              "Red Sea",
+              "Sharqia",
+              "Sohag",
+              "South Sinai",
+              "Suez",
+              "online",
+              "nationwide"
+            ]
+          }
+        },
+        "cost": {
+          "description": "null when cost data could not be verified. typicalEgp is a single reported price in EGP for the year given; its unit (per course, per cycle) is stated in notes.",
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "type",
+                "typicalEgp",
+                "year"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "free",
+                    "paid",
+                    "scholarship",
+                    "mixed"
+                  ]
+                },
+                "typicalEgp": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "year": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 2015,
+                      "maximum": 2100
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ageMin": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 3,
+              "maximum": 99
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ageMax": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 3,
+              "maximum": 99
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "eligibility": {
+          "description": "under18_ok: a teen 15-17 can apply; adults_only: 18+ only; graduates: aimed at university students/graduates, no under-18 track found; all_ages; unspecified: not stated by the source.",
+          "enum": [
+            "under18_ok",
+            "adults_only",
+            "graduates",
+            "all_ages",
+            "unspecified"
+          ]
+        },
+        "audience": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "en",
+            "ar"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ar": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "skills": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "careerIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "website": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "verifiedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "en",
+                "ar"
+              ],
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "ar": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

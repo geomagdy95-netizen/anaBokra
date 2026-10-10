@@ -1,0 +1,173 @@
+{
+  "id": "brand_manager",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You shape how people feel about a product.",
+      "ar": "أنت من يصنع شعور الناس تجاه المنتج."
+    },
+    "summary": {
+      "en": "Brand managers guide a brand: what it stands for, how it looks and how it talks to customers. They plan campaigns, watch sales and work with advertising agencies, designers and sales teams. Many reach this role after starting in marketing.",
+      "ar": "مدير العلامة التجارية يقود علامة: ما تمثله وكيف تبدو وكيف تخاطب العملاء. يخطط الحملات ويتابع المبيعات ويعمل مع وكالات الإعلان والمصممين وفرق البيع. ويصل كثيرون إلى هذا الدور بعد البداية في التسويق."
+    },
+    "dayInLife": {
+      "en": "You start by checking last week's sales and social media results for your product. Then you meet the agency to approve the design of a new advert. After lunch you review a customer survey to see what people like or dislike. Before leaving you update your budget and plan the next campaign.",
+      "ar": "تبدأ بمراجعة مبيعات الأسبوع الماضي ونتائج مواقع التواصل لمنتجك. ثم تجتمع مع الوكالة لاعتماد تصميم إعلان جديد. بعد الغداء تراجع استبيان العملاء لتعرف ما يعجبهم وما لا يعجبهم. قبل المغادرة تحدّث ميزانيتك وتخطط للحملة القادمة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Define the brand's message, look and audience.",
+        "ar": "تحدد رسالة العلامة وشكلها وجمهورها."
+      },
+      {
+        "en": "Plan and manage advertising and promotion campaigns.",
+        "ar": "تخطط حملات الإعلان والترويج وتديرها."
+      },
+      {
+        "en": "Study customers, competitors and sales results.",
+        "ar": "تدرس العملاء والمنافسين ونتائج المبيعات."
+      },
+      {
+        "en": "Manage the marketing budget.",
+        "ar": "تدير ميزانية التسويق."
+      },
+      {
+        "en": "Work with agencies, designers and sales teams.",
+        "ar": "تعمل مع الوكالات والمصممين وفرق البيع."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Consumer goods, food and retail companies",
+        "ar": "شركات السلع الاستهلاكية والأغذية والتجزئة"
+      },
+      {
+        "en": "Advertising and marketing agencies",
+        "ar": "وكالات الإعلان والتسويق"
+      },
+      {
+        "en": "Banks, telecom and tech companies",
+        "ar": "البنوك والاتصالات وشركات التقنية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and sales dashboards",
+        "ar": "إكسل ولوحات المبيعات"
+      },
+      {
+        "en": "Social media and analytics tools",
+        "ar": "منصات التواصل الاجتماعي وأدوات التحليلات"
+      },
+      {
+        "en": "Design and presentation tools",
+        "ar": "أدوات التصميم والعرض"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "No single stream is required; students from the literary, science and math streams all enter commerce and business faculties. With IGCSE or A-Level, Business Studies, Economics, Maths and Accounting help; with the American Diploma, Statistics, Economics and business electives help. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "لا تُشترط شعبة معينة؛ فطلاب الشعب الأدبية والعلمية والرياضيات يدخلون كليات التجارة والأعمال. في IGCSE وA-Level تفيد دراسات الأعمال والاقتصاد والرياضيات والمحاسبة؛ وفي الدبلومة الأمريكية يفيد الإحصاء والاقتصاد ومواد الأعمال الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Commerce or Business Administration (marketing)",
+        "ar": "كليات التجارة أو إدارة الأعمال (تخصص التسويق)"
+      },
+      {
+        "en": "Faculties of Mass Communication (advertising and public relations)",
+        "ar": "كليات الإعلام (الإعلان والعلاقات العامة)"
+      },
+      {
+        "en": "Business programs with a digital marketing focus (for example Ain Shams National University)",
+        "ar": "برامج الأعمال بتركيز التسويق الرقمي (مثل جامعة عين شمس الأهلية)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "ain-shams-university-mass-communication",
+      "british-university-in-egypt-business-administration",
+      "misr-international-university-business-international-trade",
+      "ain-shams-national-university-business-digital-marketing",
+      "american-university-in-cairo-business"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 89.38% to 90.31% across 2 programs (lowest Ain Shams University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 89.38% إلى 90.31% عبر 2 برنامجًا (الأدنى جامعة عين شمس والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a marketing assistant or agency junior, then grow into brand work.",
+        "ar": "البدء كمساعد تسويق أو مبتدئ في وكالة ثم التدرج إلى إدارة العلامات."
+      },
+      {
+        "en": "Marketing diplomas and certificates alongside a degree or job.",
+        "ar": "دبلومات وشهادات التسويق مع الدراسة الجامعية أو العمل."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "digital_marketer",
+      "social_media_manager",
+      "pr_specialist",
+      "product_manager",
+      "graphic_designer",
+      "entrepreneur"
+    ],
+    "pivots": [
+      {
+        "en": "Digital marketing",
+        "ar": "التسويق الرقمي"
+      },
+      {
+        "en": "Product management",
+        "ar": "إدارة المنتجات"
+      },
+      {
+        "en": "Advertising agency strategy",
+        "ar": "استراتيجية وكالات الإعلان"
+      },
+      {
+        "en": "Starting your own brand",
+        "ar": "إطلاق علامتك الخاصة"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Brand Manager",
+      "url": "https://www.onetonline.org/link/summary/11-2021.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Brand Manager",
+      "url": "https://www.mynextmove.org/profile/summary/11-2021.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

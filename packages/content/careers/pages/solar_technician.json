@@ -1,0 +1,164 @@
+{
+  "id": "solar_technician",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You put the sun to work.",
+      "ar": "تجعل الشمس تعمل لصالح الناس."
+    },
+    "summary": {
+      "en": "Solar technicians install, connect and maintain solar panels on roofs, farms and power plants. They work outdoors, often at height, and follow strict electrical safety rules. Egypt has strong sunshine and growing interest in solar power, so this skill is expected to be useful.",
+      "ar": "فني الطاقة الشمسية يركّب الألواح الشمسية ويوصّلها ويصونها على الأسطح والمزارع ومحطات الكهرباء. يعمل في الهواء الطلق وغالبًا على ارتفاع، ويلتزم بقواعد السلامة الكهربائية الصارمة. في مصر شمس قوية واهتمام متزايد بالطاقة الشمسية، لذلك يُتوقع أن تكون هذه المهارة مفيدة."
+    },
+    "dayInLife": {
+      "en": "You arrive at a rooftop early, before the heat. With your team you fix the frames, place the panels and connect the cables to the inverter. You wear a harness and gloves all day. You then test the system with a meter, record the voltage and show the owner how the app displays the power.",
+      "ar": "تصل إلى سطح مبنى مبكرًا قبل الحر. مع فريقك تثبّت الهياكل وتضع الألواح وتوصل الكابلات بالإنفرتر. ترتدي حزام الأمان والقفازات طوال اليوم. ثم تختبر النظام بجهاز القياس وتسجل الجهد وتري المالك كيف يعرض التطبيق الطاقة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Read plans and prepare roofs or ground sites.",
+        "ar": "تقرأ المخططات وتجهّز الأسطح أو المواقع الأرضية."
+      },
+      {
+        "en": "Fix panels and mounting frames safely.",
+        "ar": "تثبّت الألواح والهياكل بأمان."
+      },
+      {
+        "en": "Connect panels, inverters and batteries.",
+        "ar": "توصّل الألواح والإنفرتر والبطاريات."
+      },
+      {
+        "en": "Test and maintain systems and clean panels.",
+        "ar": "تختبر الأنظمة وتصونها وتنظف الألواح."
+      },
+      {
+        "en": "Follow electrical and height safety rules.",
+        "ar": "تلتزم بقواعد السلامة الكهربائية والعمل على الارتفاعات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Solar installation and contracting companies",
+        "ar": "شركات تركيب الطاقة الشمسية والمقاولات"
+      },
+      {
+        "en": "Solar power plants and farms",
+        "ar": "محطات الطاقة الشمسية والمزارع"
+      },
+      {
+        "en": "Self-employed installation for homes and shops",
+        "ar": "التركيب كعمل حر للبيوت والمحلات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Meters, testers and hand tools",
+        "ar": "أجهزة القياس والاختبار والعدد اليدوية"
+      },
+      {
+        "en": "Panels, inverters and mounting frames",
+        "ar": "الألواح والإنفرتر والهياكل"
+      },
+      {
+        "en": "Safety harnesses and protective gear",
+        "ar": "أحزمة الأمان ومعدات الوقاية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "otherCurricula": {
+      "en": "This route starts after preparatory school, in technical education, not through Thanaweya Amma and Tansik. Maths, science and practical subjects from preparatory school help. Graduates of technical secondary schools can later continue to technical colleges or other higher education; check the current rules with the Ministry of Education and the Ministry of Higher Education.",
+      "ar": "يبدأ هذا المسار بعد الشهادة الإعدادية في التعليم الفني، وليس عبر الثانوية العامة والتنسيق. تفيد الرياضيات والعلوم والمواد العملية في الإعدادية. يمكن لخريجي الثانوية الفنية لاحقًا استكمال الدراسة بكليات تكنولوجية أو تعليم عالٍ آخر؛ فتأكد من القواعد الحالية لدى وزارة التربية والتعليم ووزارة التعليم العالي."
+    },
+    "faculties": [
+      {
+        "en": "Applied Technology Schools (three-year dual education with industry partners)",
+        "ar": "مدارس التكنولوجيا التطبيقية (ثلاث سنوات تعليم مزدوج مع شركاء صناعيين)"
+      },
+      {
+        "en": "Industrial technical secondary schools (Ministry of Education)",
+        "ar": "المدارس الثانوية الفنية الصناعية (وزارة التربية والتعليم)"
+      },
+      {
+        "en": "Technical institutes and technological colleges for continuing study",
+        "ar": "المعاهد الفنية والكليات التكنولوجية لاستكمال الدراسة"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik does not apply to this route. Entry depends on your preparatory-school results and each school's own tests and interview, which change by school and year, so ask the school or the Ministry of Education. We have no Tansik figures for this career in our data.",
+      "ar": "التنسيق لا ينطبق على هذا المسار. يعتمد القبول على نتيجة الشهادة الإعدادية واختبارات ومقابلة كل مدرسة، وهي تختلف من مدرسة لأخرى ومن سنة لأخرى، فاسأل المدرسة أو وزارة التربية والتعليم. ليست لدينا أرقام تنسيق لهذه المهنة في بياناتنا."
+    },
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Start as an electrician, then take solar training courses.",
+        "ar": "البدء ككهربائي ثم أخذ دورات الطاقة الشمسية."
+      },
+      {
+        "en": "Learn on the job as a helper in a solar installation company and add certificates.",
+        "ar": "التعلم أثناء العمل كمساعد في شركة تركيب طاقة شمسية وإضافة الشهادات."
+      }
+    ],
+    "licensing": {
+      "en": "Most technician jobs ask for a technical diploma and practical skill rather than a licence, though some employers and tasks need skill-level or safety certificates. Check the current requirements with your employer and the Ministry of Manpower.",
+      "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "electrician",
+      "renewable_energy_engineer",
+      "electrical_engineer",
+      "industrial_technician",
+      "environmental_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Solar system designer or supervisor",
+        "ar": "مصمم أو مشرف أنظمة شمسية"
+      },
+      {
+        "en": "Wind and other renewable maintenance",
+        "ar": "صيانة طاقة الرياح وغيرها من المتجددة"
+      },
+      {
+        "en": "Starting your own installation business",
+        "ar": "بدء عمل تركيب خاص"
+      },
+      {
+        "en": "Further study toward renewable energy engineering",
+        "ar": "استكمال الدراسة نحو هندسة الطاقة المتجددة"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Solar Panel Technician",
+      "url": "https://www.onetonline.org/link/summary/47-2231.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Solar Panel Technician",
+      "url": "https://www.mynextmove.org/profile/summary/47-2231.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Applied Technology Schools (Ministry of Education dual education)",
+      "url": "https://dualedu.moe.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "El Sewedy School of Applied Technology (Ministry of Education)",
+      "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "physicist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You search for the rules that explain how the universe works.",
+      "ar": "تبحث عن القواعد التي تفسر كيف يعمل الكون."
+    },
+    "summary": {
+      "en": "Physicists study matter, energy, light and motion, using maths, experiments and computer models. Some work in pure research, while many apply physics in technology, medicine, energy and industry. A physics degree also builds strong skills in problem solving and data that employers value.",
+      "ar": "الفيزيائي يدرس المادة والطاقة والضوء والحركة باستخدام الرياضيات والتجارب والنماذج الحاسوبية. يعمل بعضهم في البحث البحت، ويطبق كثيرون الفيزياء في التكنولوجيا والطب والطاقة والصناعة. وتبني درجة الفيزياء مهارات قوية في حل المشكلات والبيانات يقدّرها أصحاب العمل."
+    },
+    "dayInLife": {
+      "en": "You set up an experiment in the lab to measure how a material reacts to light. While it runs, you write code to analyse the readings and plot them. In the afternoon you discuss the results with your supervisor and read a new paper on a similar problem. The plan for tomorrow includes improving the setup.",
+      "ar": "تجهّز تجربة في المعمل لقياس تفاعل مادة مع الضوء. وأثناء التشغيل تكتب كودًا لتحليل القراءات ورسمها. بعد الظهر تناقش النتائج مع المشرف وتقرأ بحثًا جديدًا عن مشكلة مشابهة. وتتضمن خطة الغد تحسين التجهيز."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design and run experiments, and measure results carefully.",
+        "ar": "تصمم التجارب وتجريها وتقيس النتائج بدقة."
+      },
+      {
+        "en": "Build mathematical and computer models.",
+        "ar": "تبني نماذج رياضية وحاسوبية."
+      },
+      {
+        "en": "Analyse data and test ideas against evidence.",
+        "ar": "تحلل البيانات وتختبر الأفكار بالأدلة."
+      },
+      {
+        "en": "Write papers and reports and present findings.",
+        "ar": "تكتب الأبحاث والتقارير وتعرض النتائج."
+      },
+      {
+        "en": "Apply physics in technology, medicine or industry.",
+        "ar": "تطبق الفيزياء في التكنولوجيا أو الطب أو الصناعة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Universities and research centres",
+        "ar": "الجامعات ومراكز الأبحاث"
+      },
+      {
+        "en": "Technology, energy and medical-device companies",
+        "ar": "شركات التكنولوجيا والطاقة والأجهزة الطبية"
+      },
+      {
+        "en": "Hospitals (medical physics) and industry labs",
+        "ar": "المستشفيات (الفيزياء الطبية) ومعامل الصناعة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Lab instruments, lasers and sensors",
+        "ar": "أجهزة المعمل والليزر والحساسات"
+      },
+      {
+        "en": "Python, MATLAB and data tools",
+        "ar": "Python وMATLAB وأدوات البيانات"
+      },
+      {
+        "en": "Simulation software",
+        "ar": "برامج المحاكاة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Science accept the science and math streams. With IGCSE or A-Level, take the subject you want to study (Chemistry, Physics or Biology) together with Mathematics; with the American Diploma, take the matching AP sciences and AP Calculus. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات العلوم تقبل شعبتي العلمي والرياضيات. في IGCSE وA-Level خذ المادة التي تريد دراستها (الكيمياء أو الفيزياء أو الأحياء) مع الرياضيات؛ وفي الدبلومة الأمريكية خذ مواد AP العلمية المناسبة وAP حساب التفاضل. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Science, physics department",
+        "ar": "كليات العلوم، قسم الفيزياء"
+      },
+      {
+        "en": "Faculties of Engineering for applied physics routes",
+        "ar": "كليات الهندسة لمسارات الفيزياء التطبيقية"
+      },
+      {
+        "en": "Science programs at Zewail City, E-JUST and AUC",
+        "ar": "برامج العلوم بمدينة زويل وE-JUST والجامعة الأمريكية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-science",
+      "ain-shams-university-science",
+      "alexandria-university-science",
+      "mansoura-university-science",
+      "assiut-university-science",
+      "zewail-city-science"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A physics degree followed by training in programming or data analysis opens many tech jobs.",
+        "ar": "درجة في الفيزياء ثم تدريب في البرمجة أو تحليل البيانات تفتح وظائف تقنية كثيرة."
+      },
+      {
+        "en": "A master's and PhD are needed for research careers.",
+        "ar": "الماجستير والدكتوراه مطلوبان للمسارات البحثية."
+      }
+    ],
+    "licensing": {
+      "en": "Scientists working in labs and industry usually need a science degree, and graduates of science faculties can join the scientific professions syndicate. Requirements for particular jobs differ, so check with the syndicate and your employer.",
+      "ar": "العاملون في المعامل والصناعة يحتاجون عادة إلى درجة علمية، ويمكن لخريجي كليات العلوم الانضمام إلى نقابة المهن العلمية. وتختلف شروط الوظائف المحددة، فتأكد من النقابة وجهة العمل."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "chemist",
+      "electrical_engineer",
+      "data_scientist",
+      "renewable_energy_engineer",
+      "geologist",
+      "biomedical_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Data science",
+        "ar": "علم البيانات"
+      },
+      {
+        "en": "Medical physics",
+        "ar": "الفيزياء الطبية"
+      },
+      {
+        "en": "Renewable energy",
+        "ar": "الطاقة المتجددة"
+      },
+      {
+        "en": "Teaching and research",
+        "ar": "التدريس والبحث"
+      }
+    ]
+  },
+  "industryId": "science",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Physicist",
+      "url": "https://www.onetonline.org/link/summary/19-2012.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Physicist",
+      "url": "https://www.mynextmove.org/profile/summary/19-2012.00",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

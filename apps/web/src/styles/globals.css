@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "./tokens.css";
+
+@custom-variant dark (&:is([data-theme="dark"] *));
+
+/* Map token variables to Tailwind utilities (bg-background, text-foreground, rounded-lg, font-sans, ...) */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-body);
+  --ease-standard: var(--ease-standard);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+/*
+ * Assessment: station-unlock placeholder (D10). Final art/motion comes from Figma.
+ * Without motion the already-open lock is simply shown.
+ */
+.mx-unlock-lock {
+  display: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .mx-unlock-lock {
+    display: block;
+    animation: mx-unlock-out var(--duration-slow) var(--ease-standard) 350ms forwards;
+  }
+  .mx-unlock-open {
+    opacity: 0;
+    animation: mx-unlock-in var(--duration-slow) var(--ease-emphasized) 450ms forwards;
+  }
+}
+@keyframes mx-unlock-out {
+  to {
+    opacity: 0;
+    transform: scale(0.6) rotate(-12deg);
+  }
+}
+@keyframes mx-unlock-in {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Legal drafts rendered from Markdown (A8). */
+.legal h2 { margin-block: 2rem 0.75rem; font-size: 1.375rem; font-weight: 600; }
+.legal h3 { margin-block: 1.5rem 0.5rem; font-size: 1.125rem; font-weight: 600; }
+.legal h4, .legal h5, .legal h6 { margin-block: 1.25rem 0.5rem; font-weight: 600; }
+.legal p, .legal ul, .legal ol, .legal blockquote, .legal table { margin-block: 0.75rem; line-height: 1.75; }
+.legal ul { list-style: disc; padding-inline-start: 1.5rem; }
+.legal ol { list-style: decimal; padding-inline-start: 1.5rem; }
+.legal blockquote { border-inline-start: 4px solid var(--border); padding-inline-start: 1rem; color: var(--muted-foreground); }
+.legal table { display: block; overflow-x: auto; border-collapse: collapse; font-size: 0.875rem; }
+.legal th, .legal td { border: 1px solid var(--border); padding: 0.375rem 0.625rem; text-align: start; vertical-align: top; }
+.legal a { text-decoration: underline; }

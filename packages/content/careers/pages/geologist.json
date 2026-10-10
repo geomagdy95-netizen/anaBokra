@@ -1,0 +1,164 @@
+{
+  "id": "geologist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You read the story of the Earth in rocks.",
+      "ar": "تقرأ قصة الأرض في الصخور."
+    },
+    "summary": {
+      "en": "Geologists study rocks, minerals, water and the structure of the Earth. They help find oil, gas, minerals and groundwater, and check that land is safe for building. Fieldwork in the desert and in the mountains is a big part of the job.",
+      "ar": "الجيولوجي يدرس الصخور والمعادن والمياه وتركيب الأرض. يساعد في العثور على البترول والغاز والمعادن والمياه الجوفية، ويتأكد أن الأرض آمنة للبناء. والعمل الميداني في الصحراء والجبال جزء كبير من المهنة."
+    },
+    "dayInLife": {
+      "en": "You wake early to drive into the desert with your team. At a site you study the rock layers, take samples and mark them on a map. In the evening you look at the samples under a microscope and compare them with older records. The next day you draw a map and write a short report about what the site might contain.",
+      "ar": "تستيقظ مبكرًا وتسافر مع فريقك إلى الصحراء. في الموقع تدرس طبقات الصخور وتأخذ العينات وتعلّمها على الخريطة. في المساء تفحص العينات بالميكروسكوب وتقارنها بسجلات قديمة. وفي اليوم التالي ترسم الخريطة وتكتب تقريرًا قصيرًا عما قد يحويه الموقع."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Do fieldwork: study rocks and collect samples.",
+        "ar": "تعمل ميدانيًا: تدرس الصخور وتجمع العينات."
+      },
+      {
+        "en": "Make geological maps and interpret data.",
+        "ar": "تعدّ الخرائط الجيولوجية وتفسّر البيانات."
+      },
+      {
+        "en": "Test samples in labs.",
+        "ar": "تختبر العينات في المعامل."
+      },
+      {
+        "en": "Help find oil, gas, minerals and groundwater.",
+        "ar": "تساعد في اكتشاف البترول والغاز والمعادن والمياه الجوفية."
+      },
+      {
+        "en": "Advise on the safety of land for construction and mining.",
+        "ar": "تقدم المشورة حول سلامة الأرض للبناء والتعدين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Oil, gas and mining companies",
+        "ar": "شركات البترول والغاز والتعدين"
+      },
+      {
+        "en": "Construction and water companies",
+        "ar": "شركات الإنشاءات والمياه"
+      },
+      {
+        "en": "Geological survey, universities and research centres",
+        "ar": "هيئات المساحة الجيولوجية والجامعات ومراكز الأبحاث"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Field tools such as compass, hammer and GPS",
+        "ar": "أدوات الميدان مثل البوصلة والمطرقة وGPS"
+      },
+      {
+        "en": "Microscopes and lab instruments",
+        "ar": "الميكروسكوبات وأجهزة المعمل"
+      },
+      {
+        "en": "GIS and geological modelling software",
+        "ar": "برامج GIS والنمذجة الجيولوجية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Science accept the science and math streams. With IGCSE or A-Level, take the subject you want to study (Chemistry, Physics or Biology) together with Mathematics; with the American Diploma, take the matching AP sciences and AP Calculus. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات العلوم تقبل شعبتي العلمي والرياضيات. في IGCSE وA-Level خذ المادة التي تريد دراستها (الكيمياء أو الفيزياء أو الأحياء) مع الرياضيات؛ وفي الدبلومة الأمريكية خذ مواد AP العلمية المناسبة وAP حساب التفاضل. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Science, geology department",
+        "ar": "كليات العلوم، قسم الجيولوجيا"
+      },
+      {
+        "en": "Faculties of Engineering, mining and petroleum departments",
+        "ar": "كليات الهندسة، أقسام التعدين والبترول"
+      },
+      {
+        "en": "Specialised institutes and postgraduate programs in petroleum geology",
+        "ar": "معاهد متخصصة وبرامج دراسات عليا في جيولوجيا البترول"
+      }
+    ],
+    "programIds": [
+      "cairo-university-science",
+      "ain-shams-university-science",
+      "alexandria-university-science",
+      "mansoura-university-science",
+      "assiut-university-science"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A master's degree in a specialty such as petroleum geology or hydrogeology.",
+        "ar": "ماجستير في تخصص مثل جيولوجيا البترول أو الجيولوجيا المائية."
+      },
+      {
+        "en": "Start as a field assistant or lab technician in a company and grow with training.",
+        "ar": "البدء كمساعد ميداني أو فني معمل في شركة والتقدم بالتدريب."
+      }
+    ],
+    "licensing": {
+      "en": "Scientists working in labs and industry usually need a science degree, and graduates of science faculties can join the scientific professions syndicate. Requirements for particular jobs differ, so check with the syndicate and your employer.",
+      "ar": "العاملون في المعامل والصناعة يحتاجون عادة إلى درجة علمية، ويمكن لخريجي كليات العلوم الانضمام إلى نقابة المهن العلمية. وتختلف شروط الوظائف المحددة، فتأكد من النقابة وجهة العمل."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "petroleum_engineer",
+      "civil_engineer",
+      "environmental_scientist",
+      "chemist",
+      "physicist",
+      "egyptologist"
+    ],
+    "pivots": [
+      {
+        "en": "Petroleum or mining exploration",
+        "ar": "استكشاف البترول أو التعدين"
+      },
+      {
+        "en": "Groundwater and water resources",
+        "ar": "المياه الجوفية والموارد المائية"
+      },
+      {
+        "en": "Geotechnical work for construction",
+        "ar": "الأعمال الجيوتقنية للإنشاءات"
+      },
+      {
+        "en": "Environmental consulting",
+        "ar": "الاستشارات البيئية"
+      }
+    ]
+  },
+  "industryId": "science",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Geologist",
+      "url": "https://www.onetonline.org/link/summary/19-2042.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Geologist",
+      "url": "https://www.mynextmove.org/profile/summary/19-2042.00",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

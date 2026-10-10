@@ -1,0 +1,167 @@
+{
+  "id": "biomedical_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You build and maintain the machines that keep patients alive.",
+      "ar": "أنت من يصنع ويصون الأجهزة التي تبقي المرضى على قيد الحياة."
+    },
+    "summary": {
+      "en": "Biomedical engineers design, test and maintain medical equipment such as monitors, ventilators, imaging machines and prosthetics. They sit between engineering and medicine, working with doctors and nurses. Hospitals depend on them to keep devices safe and working.",
+      "ar": "المهندس الطبي الحيوي يصمم الأجهزة الطبية ويختبرها ويصونها، مثل أجهزة المراقبة والتنفس الصناعي والأشعة والأطراف الصناعية. يقف بين الهندسة والطب ويتعاون مع الأطباء والممرضين. وتعتمد المستشفيات عليه لإبقاء الأجهزة آمنة وتعمل."
+    },
+    "dayInLife": {
+      "en": "A nurse reports that a patient monitor is showing odd readings, so you go to the ward, test it, and find a faulty sensor. You replace it, calibrate the device and write it in the maintenance log. Later you meet a doctor who wants to buy a new machine and compare two models with them. You end the day checking the schedule of safety tests for the whole department.",
+      "ar": "تبلّغك ممرضة بأن جهاز مراقبة المريض يعطي قراءات غريبة، فتذهب إلى القسم وتختبره وتكتشف حساسًا معطلًا. تستبدله وتعايره وتدوّن ذلك في سجل الصيانة. لاحقًا تجلس مع طبيب يريد شراء جهاز جديد وتقارنان بين طرازين. وتنهي يومك بمراجعة جدول اختبارات السلامة لكل القسم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Install, test and calibrate medical devices.",
+        "ar": "تركّب الأجهزة الطبية وتختبرها وتعايرها."
+      },
+      {
+        "en": "Repair equipment and run preventive maintenance.",
+        "ar": "تصلح الأجهزة وتجري الصيانة الوقائية."
+      },
+      {
+        "en": "Train doctors and nurses to use devices safely.",
+        "ar": "تدرّب الأطباء والممرضين على استخدام الأجهزة بأمان."
+      },
+      {
+        "en": "Help choose and buy new equipment.",
+        "ar": "تساعد في اختيار الأجهزة الجديدة وشرائها."
+      },
+      {
+        "en": "Design or improve devices and software with research or product teams.",
+        "ar": "تصمم أو تحسّن أجهزة وبرامج مع فرق الأبحاث أو المنتجات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hospitals (clinical engineering departments)",
+        "ar": "المستشفيات (أقسام الهندسة الإكلينيكية)"
+      },
+      {
+        "en": "Medical device companies and distributors",
+        "ar": "شركات الأجهزة الطبية وموزعوها"
+      },
+      {
+        "en": "Research labs and universities",
+        "ar": "معامل الأبحاث والجامعات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Test and calibration equipment",
+        "ar": "معدات الاختبار والمعايرة"
+      },
+      {
+        "en": "CAD and electronics design software",
+        "ar": "برامج التصميم الهندسي والإلكترونيات"
+      },
+      {
+        "en": "Maintenance management software",
+        "ar": "برامج إدارة الصيانة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "The math stream is the usual route to Faculties of Engineering. With IGCSE or A-Level take Mathematics, Physics and Chemistry; with the American Diploma take AP Calculus, Physics and Chemistry if your school offers them. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "شعبة الرياضيات هي المسار المعتاد لكليات الهندسة. في IGCSE أو A-Level خذ الرياضيات والفيزياء والكيمياء؛ وفي الدبلومة الأمريكية خذ AP حساب التفاضل والفيزياء والكيمياء إن وفرتها مدرستك. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Engineering, biomedical engineering or related departments (electronics, communications, systems and biomedical)",
+        "ar": "كليات الهندسة، قسم الهندسة الطبية الحيوية أو الأقسام القريبة (الإلكترونيات والاتصالات والنظم والطبية)"
+      },
+      {
+        "en": "Engineering programs at Zewail City and other private or ahleya universities",
+        "ar": "برامج الهندسة بمدينة زويل وجامعات خاصة وأهلية أخرى"
+      },
+      {
+        "en": "Faculties of Applied Health Sciences Technology for equipment technician roles",
+        "ar": "كليات تكنولوجيا العلوم الصحية التطبيقية لوظائف فنيي الأجهزة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "capital-university-engineering-helwan",
+      "menoufia-university-electronic-engineering",
+      "zewail-city-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 88.28% to 90.94% across 4 programs (lowest Capital University (formerly Helwan University), highest Menoufia University). These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 88.28% إلى 90.94% عبر 4 برنامجًا (الأدنى جامعة العاصمة (حلوان سابقاً) والأعلى جامعة المنوفية). هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Electronics or electrical engineering, then a diploma or master's in biomedical engineering.",
+        "ar": "هندسة إلكترونيات أو كهرباء ثم دبلوم أو ماجستير في الهندسة الطبية الحيوية."
+      },
+      {
+        "en": "Technical institute diploma in medical equipment, then work as a technician and study further part-time.",
+        "ar": "دبلوم معهد فني في الأجهزة الطبية ثم العمل كفني مع استكمال الدراسة."
+      }
+    ],
+    "licensing": {
+      "en": "Engineers register with the Engineers Syndicate, and hospitals set their own requirements for equipment staff. Rules change, so check with the syndicate and the employer.",
+      "ar": "يسجّل المهندسون في نقابة المهندسين، وتضع المستشفيات شروطها الخاصة للعاملين على الأجهزة. القواعد تتغير، فتأكد من النقابة وجهة العمل."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "electrical_engineer",
+      "mechatronics_engineer",
+      "radiology_technologist",
+      "medical_lab_scientist",
+      "communications_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Medical device sales and application specialist",
+        "ar": "مبيعات الأجهزة الطبية وأخصائي التطبيقات"
+      },
+      {
+        "en": "Health technology and software",
+        "ar": "تكنولوجيا الصحة والبرمجيات"
+      },
+      {
+        "en": "Prosthetics and rehabilitation engineering",
+        "ar": "الأطراف الصناعية وهندسة التأهيل"
+      },
+      {
+        "en": "Hospital technical management",
+        "ar": "الإدارة الفنية بالمستشفيات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Biomedical Engineer",
+      "url": "https://www.onetonline.org/link/summary/17-2031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Biomedical Engineer",
+      "url": "https://www.mynextmove.org/profile/summary/17-2031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

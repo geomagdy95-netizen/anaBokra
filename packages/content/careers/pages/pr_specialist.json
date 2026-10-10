@@ -1,0 +1,170 @@
+{
+  "id": "pr_specialist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help an organisation build trust with the public.",
+      "ar": "تساعد المؤسسة على بناء ثقة الجمهور."
+    },
+    "summary": {
+      "en": "Public relations specialists manage how an organisation speaks to the public, the press and its own staff. They write press releases, organise events and prepare answers for difficult questions. Good writing and calm communication are central.",
+      "ar": "أخصائي العلاقات العامة يدير كيف تخاطب المؤسسة الجمهور والصحافة وموظفيها. يكتب البيانات الصحفية وينظم الفعاليات ويجهّز الإجابات عن الأسئلة الصعبة. الكتابة الجيدة والتواصل الهادئ محوران أساسيان."
+    },
+    "dayInLife": {
+      "en": "You read the news first to see what is being said about your company. You then write a short press release about a new product and send it to journalists you know. After lunch you prepare the manager for a TV interview, practising likely questions. Later you plan the guest list and schedule for next week's event.",
+      "ar": "تقرأ الأخبار أولًا لترى ما يُقال عن شركتك. ثم تكتب بيانًا صحفيًا قصيرًا عن منتج جديد وترسله إلى صحفيين تعرفهم. بعد الغداء تجهّز المدير لمقابلة تلفزيونية وتتدرب على الأسئلة المحتملة. لاحقًا تخطط قائمة الضيوف وجدول فعالية الأسبوع القادم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Write press releases, speeches and statements.",
+        "ar": "تكتب البيانات الصحفية والكلمات والتصريحات."
+      },
+      {
+        "en": "Build relationships with journalists and media.",
+        "ar": "تبني علاقات مع الصحفيين ووسائل الإعلام."
+      },
+      {
+        "en": "Organise events, press conferences and visits.",
+        "ar": "تنظم الفعاليات والمؤتمرات الصحفية والزيارات."
+      },
+      {
+        "en": "Monitor news and social media about the organisation.",
+        "ar": "تتابع الأخبار والتواصل الاجتماعي عن المؤسسة."
+      },
+      {
+        "en": "Prepare managers for interviews and handle crises calmly.",
+        "ar": "تجهّز المديرين للمقابلات وتتعامل مع الأزمات بهدوء."
+      }
+    ],
+    "environments": [
+      {
+        "en": "PR and communication agencies",
+        "ar": "وكالات العلاقات العامة والاتصال"
+      },
+      {
+        "en": "Companies, banks and hotels",
+        "ar": "الشركات والبنوك والفنادق"
+      },
+      {
+        "en": "Government bodies and NGOs",
+        "ar": "الجهات الحكومية والمنظمات الأهلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Word processing and presentation tools",
+        "ar": "برامج الكتابة والعرض"
+      },
+      {
+        "en": "Social media and media monitoring tools",
+        "ar": "أدوات التواصل الاجتماعي ومتابعة الإعلام"
+      },
+      {
+        "en": "Contact lists and event planning tools",
+        "ar": "قوائم الاتصال وأدوات تنظيم الفعاليات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Mass Communication mostly accept literary-stream students. With IGCSE or A-Level, English Language, Media Studies and Business are useful; with the American Diploma, English, Communications and Art electives help. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الإعلام تقبل في الغالب طلاب الشعبة الأدبية. في IGCSE وA-Level تفيد اللغة الإنجليزية ودراسات الإعلام والأعمال؛ وفي الدبلومة الأمريكية تفيد الإنجليزية ومواد الاتصال والفنون الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Mass Communication (public universities)",
+        "ar": "كليات الإعلام بالجامعات الحكومية"
+      },
+      {
+        "en": "Mass communication and media programs at private universities",
+        "ar": "برامج الإعلام والاتصال بالجامعات الخاصة"
+      },
+      {
+        "en": "Business faculties with a marketing or digital marketing focus",
+        "ar": "كليات الأعمال ذات التركيز التسويقي أو التسويق الرقمي"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "ain-shams-university-mass-communication",
+      "menoufia-university-mass-communication",
+      "british-university-in-egypt-communication-mass-media",
+      "misr-international-university-mass-communication"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 88.12% to 90.31% across 3 programs (lowest Menoufia University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 88.12% إلى 90.31% عبر 3 برنامجًا (الأدنى جامعة المنوفية والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a PR assistant, in a communications department or as an event or media coordinator.",
+        "ar": "البدء كمساعد علاقات عامة أو في إدارة الاتصال أو كمنسق فعاليات أو إعلام."
+      },
+      {
+        "en": "Short courses in writing, communication and digital PR next to a degree in any field.",
+        "ar": "دورات قصيرة في الكتابة والاتصال والعلاقات العامة الرقمية بجانب درجة في أي مجال."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "journalist",
+      "brand_manager",
+      "social_media_manager",
+      "event_planner",
+      "digital_marketer",
+      "diplomat"
+    ],
+    "pivots": [
+      {
+        "en": "Corporate communications",
+        "ar": "الاتصال المؤسسي"
+      },
+      {
+        "en": "Social media and content",
+        "ar": "السوشيال ميديا والمحتوى"
+      },
+      {
+        "en": "Event management",
+        "ar": "إدارة الفعاليات"
+      },
+      {
+        "en": "Journalism or media relations",
+        "ar": "الصحافة أو العلاقات الإعلامية"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Public Relations Specialist",
+      "url": "https://www.onetonline.org/link/summary/27-3031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Public Relations Specialist",
+      "url": "https://www.mynextmove.org/profile/summary/27-3031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "id": "radiology_technologist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You take the pictures that let doctors see inside the body.",
+      "ar": "أنت من يلتقط الصور التي تتيح للأطباء رؤية داخل الجسم."
+    },
+    "summary": {
+      "en": "Radiology technologists operate X-ray, CT, MRI and ultrasound machines to produce images that doctors use for diagnosis. They position patients, protect them from radiation, and make sure the images are clear. The job combines technology with patient care.",
+      "ar": "أخصائي الأشعة يشغّل أجهزة الأشعة السينية والمقطعية والرنين المغناطيسي والسونار لإنتاج صور يعتمد عليها الأطباء في التشخيص. يضع المريض في الوضع الصحيح ويحميه من الإشعاع ويتأكد من وضوح الصور. تجمع المهنة بين التكنولوجيا ورعاية المرضى."
+    },
+    "dayInLife": {
+      "en": "You check the machine and read the day's requests. A patient arrives for a chest X-ray; you explain what will happen, position them and take the image. Next is a child who is nervous, so you speak gently and make it quick. You review each image to be sure it is clear enough for the radiologist, record the examination, and follow the radiation safety rules all day.",
+      "ar": "تفحص الجهاز وتقرأ طلبات اليوم. يصل مريض لأشعة على الصدر؛ تشرح له ما سيحدث وتضعه في الوضع الصحيح وتلتقط الصورة. بعده طفل قلق، فتتحدث معه بلطف وتنجز الأشعة بسرعة. تراجع كل صورة لتتأكد أنها واضحة بما يكفي لطبيب الأشعة، وتسجّل الفحص، وتلتزم بقواعد الوقاية من الإشعاع طوال اليوم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Explain the examination to patients and prepare them for it.",
+        "ar": "تشرح الفحص للمرضى وتجهّزهم له."
+      },
+      {
+        "en": "Position patients and operate X-ray, CT or other imaging equipment.",
+        "ar": "تضع المرضى في الوضع الصحيح وتشغّل أجهزة الأشعة السينية أو المقطعية أو غيرها."
+      },
+      {
+        "en": "Protect patients and staff from radiation using shields and safe settings.",
+        "ar": "تحمي المرضى والعاملين من الإشعاع بالواقيات والإعدادات الآمنة."
+      },
+      {
+        "en": "Check image quality and repeat when needed.",
+        "ar": "تتحقق من جودة الصور وتعيدها عند الحاجة."
+      },
+      {
+        "en": "Keep patient records and maintain equipment with the engineers.",
+        "ar": "تحتفظ بسجلات المرضى وتتابع صيانة الأجهزة مع المهندسين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hospital radiology departments",
+        "ar": "أقسام الأشعة في المستشفيات"
+      },
+      {
+        "en": "Private imaging centres",
+        "ar": "مراكز الأشعة الخاصة"
+      },
+      {
+        "en": "Clinics and emergency departments",
+        "ar": "العيادات وأقسام الطوارئ"
+      }
+    ],
+    "tools": [
+      {
+        "en": "X-ray, CT, MRI and ultrasound machines",
+        "ar": "أجهزة الأشعة السينية والمقطعية والرنين والسونار"
+      },
+      {
+        "en": "Radiation protection equipment",
+        "ar": "معدات الوقاية من الإشعاع"
+      },
+      {
+        "en": "Digital image systems (PACS)",
+        "ar": "أنظمة حفظ الصور الرقمية (PACS)"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "A science stream at school is the usual route. With IGCSE, A-Level or the American Diploma, Biology and Chemistry are the most useful subjects. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبة العلمية هي المسار المعتاد. وفي IGCSE وA-Level والدبلومة الأمريكية الأنفع هي الأحياء والكيمياء. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Applied Health Sciences Technology with radiology programs (for example at Misr University for Science and Technology)",
+        "ar": "كليات تكنولوجيا العلوم الصحية التطبيقية ببرامج الأشعة (مثل جامعة مصر للعلوم والتكنولوجيا)"
+      },
+      {
+        "en": "Technical health institutes (diploma) in radiology",
+        "ar": "المعاهد الفنية الصحية (دبلوم) تخصص الأشعة"
+      },
+      {
+        "en": "Faculties of Science (physics or biophysics) for related medical imaging roles",
+        "ar": "كليات العلوم (الفيزياء أو الفيزياء الحيوية) لوظائف التصوير الطبي المرتبطة"
+      }
+    ],
+    "programIds": [
+      "misr-university-for-science-and-technology-applied-health-sciences-technology"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 56% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 56% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Technical health institute diploma in radiology, then work in a hospital and continue to a bachelor's degree later.",
+        "ar": "دبلوم المعهد الفني الصحي في الأشعة ثم العمل في مستشفى واستكمال البكالوريوس لاحقًا."
+      },
+      {
+        "en": "Specialize later in CT, MRI, ultrasound or radiotherapy.",
+        "ar": "التخصص لاحقًا في الأشعة المقطعية أو الرنين أو السونار أو العلاج الإشعاعي."
+      }
+    ],
+    "licensing": {
+      "en": "Work with radiation is covered by radiation-safety rules in Egypt, and imaging departments need approvals from the relevant authorities. The licence you personally need depends on your degree and employer, so check with the Ministry of Health and your faculty.",
+      "ar": "العمل بالإشعاع تحكمه قواعد الأمان الإشعاعي في مصر، وتحتاج أقسام الأشعة إلى موافقات من الجهات المختصة. الترخيص الذي تحتاجه شخصيًا يعتمد على مؤهلك وجهة عملك، فتأكد من وزارة الصحة ومن كليتك."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "biomedical_engineer",
+      "medical_lab_scientist",
+      "nurse",
+      "physical_therapist",
+      "physician"
+    ],
+    "pivots": [
+      {
+        "en": "CT, MRI or ultrasound specialist",
+        "ar": "أخصائي أشعة مقطعية أو رنين أو سونار"
+      },
+      {
+        "en": "Radiotherapy technologist",
+        "ar": "أخصائي علاج إشعاعي"
+      },
+      {
+        "en": "Medical equipment application specialist",
+        "ar": "أخصائي تطبيقات الأجهزة الطبية"
+      },
+      {
+        "en": "Imaging department management",
+        "ar": "إدارة أقسام الأشعة"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Radiology Technologist",
+      "url": "https://www.onetonline.org/link/summary/29-2034.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Radiology Technologist",
+      "url": "https://www.mynextmove.org/profile/summary/29-2034.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

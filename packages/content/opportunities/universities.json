@@ -1,0 +1,1950 @@
+{
+  "version": "1.0.0",
+  "asOf": "2026-10-09",
+  "sources": [
+    {
+      "title": "Supreme Council of Universities (SCU) - Government universities",
+      "url": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/"
+    },
+    {
+      "title": "Supreme Council of Universities (SCU) - Egyptian national (ahleya) universities",
+      "url": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/"
+    },
+    {
+      "title": "Supreme Council of Universities (SCU) - Government technological universities",
+      "url": "https://scu.eg/government-technological-universities/"
+    },
+    {
+      "title": "Supreme Council of Universities (SCU) - Branches of international universities",
+      "url": "https://scu.eg/branches-of-international-universities/"
+    },
+    {
+      "title": "Arabic Wikipedia - List of universities of Egypt (cites SCU / Ministry of Higher Education / presidential decrees)",
+      "url": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1"
+    },
+    {
+      "title": "English Wikipedia - List of universities in Egypt",
+      "url": "https://en.wikipedia.org/wiki/List_of_universities_in_Egypt"
+    }
+  ],
+  "universities": [
+    {
+      "id": "cairo-university",
+      "name": {
+        "en": "Cairo University",
+        "ar": "جامعة القاهرة"
+      },
+      "type": "public",
+      "governorate": "Giza",
+      "city": "Giza",
+      "website": "https://cu.edu.eg/",
+      "established": 1908,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "alexandria-university",
+      "name": {
+        "en": "Alexandria University",
+        "ar": "جامعة الإسكندرية"
+      },
+      "type": "public",
+      "governorate": "Alexandria",
+      "city": "Alexandria",
+      "website": "https://alexu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "ain-shams-university",
+      "name": {
+        "en": "Ain Shams University",
+        "ar": "جامعة عين شمس"
+      },
+      "type": "public",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://www.asu.edu.eg/",
+      "established": 1950,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "assiut-university",
+      "name": {
+        "en": "Assiut University",
+        "ar": "جامعة أسيوط"
+      },
+      "type": "public",
+      "governorate": "Assiut",
+      "city": "Assiut",
+      "website": "https://www.aun.edu.eg/",
+      "established": 1957,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "tanta-university",
+      "name": {
+        "en": "Tanta University",
+        "ar": "جامعة طنطا"
+      },
+      "type": "public",
+      "governorate": "Gharbia",
+      "city": "Tanta",
+      "website": "https://tanta.edu.eg/",
+      "established": 1972,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "mansoura-university",
+      "name": {
+        "en": "Mansoura University",
+        "ar": "جامعة المنصورة"
+      },
+      "type": "public",
+      "governorate": "Dakahlia",
+      "city": "Mansoura",
+      "website": "https://www.mans.edu.eg/",
+      "established": 1972,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "zagazig-university",
+      "name": {
+        "en": "Zagazig University",
+        "ar": "جامعة الزقازيق"
+      },
+      "type": "public",
+      "governorate": "Sharqia",
+      "city": "Zagazig",
+      "website": "https://www.zu.edu.eg/",
+      "established": 1974,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "capital-university",
+      "name": {
+        "en": "Capital University (formerly Helwan University)",
+        "ar": "جامعة العاصمة (حلوان سابقاً)"
+      },
+      "type": "public",
+      "governorate": "Cairo",
+      "city": "Helwan",
+      "website": "https://www.helwan.edu.eg/",
+      "established": 1975,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "minia-university",
+      "name": {
+        "en": "Minia University",
+        "ar": "جامعة المنيا"
+      },
+      "type": "public",
+      "governorate": "Minya",
+      "city": "Minya",
+      "website": "https://www.minia.edu.eg/Minia/",
+      "established": 1976,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "menoufia-university",
+      "name": {
+        "en": "Menoufia University",
+        "ar": "جامعة المنوفية"
+      },
+      "type": "public",
+      "governorate": "Menoufia",
+      "city": "Shebin El Kom",
+      "website": "https://www.menofia.edu.eg/",
+      "established": 1976,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "suez-canal-university",
+      "name": {
+        "en": "Suez Canal University",
+        "ar": "جامعة قناة السويس"
+      },
+      "type": "public",
+      "governorate": "Ismailia",
+      "city": "Ismailia",
+      "website": "https://suez.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "qena-university",
+      "name": {
+        "en": "Qena University (formerly South Valley University)",
+        "ar": "جامعة قنا (جنوب الوادي سابقاً)"
+      },
+      "type": "public",
+      "governorate": "Qena",
+      "city": "Qena",
+      "website": "https://www.svu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "benha-university",
+      "name": {
+        "en": "Benha University",
+        "ar": "جامعة بنها"
+      },
+      "type": "public",
+      "governorate": "Qalyubia",
+      "city": "Benha",
+      "website": "https://www.bu.edu.eg/",
+      "established": 2005,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "fayoum-university",
+      "name": {
+        "en": "Fayoum University",
+        "ar": "جامعة الفيوم"
+      },
+      "type": "public",
+      "governorate": "Fayoum",
+      "city": "Fayoum",
+      "website": "https://www.fayoum.edu.eg/",
+      "established": 2005,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "beni-suef-university",
+      "name": {
+        "en": "Beni-Suef University",
+        "ar": "جامعة بني سويف"
+      },
+      "type": "public",
+      "governorate": "Beni Suef",
+      "city": "Beni Suef",
+      "website": "https://www.bsu.edu.eg/",
+      "established": 2005,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "kafrelsheikh-university",
+      "name": {
+        "en": "Kafrelsheikh University",
+        "ar": "جامعة كفر الشيخ"
+      },
+      "type": "public",
+      "governorate": "Kafr El Sheikh",
+      "city": "Kafr El Sheikh",
+      "website": "https://kfs.edu.eg/",
+      "established": 2006,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "sohag-university",
+      "name": {
+        "en": "Sohag University",
+        "ar": "جامعة سوهاج"
+      },
+      "type": "public",
+      "governorate": "Sohag",
+      "city": "Sohag",
+      "website": "https://www.sohag-univ.edu.eg/",
+      "established": 2006,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "port-said-university",
+      "name": {
+        "en": "Port Said University",
+        "ar": "جامعة بورسعيد"
+      },
+      "type": "public",
+      "governorate": "Port Said",
+      "city": "Port Said",
+      "website": "https://psu.edu.eg/",
+      "established": 2010,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "damanhour-university",
+      "name": {
+        "en": "Damanhour University",
+        "ar": "جامعة دمنهور"
+      },
+      "type": "public",
+      "governorate": "Beheira",
+      "city": "Damanhour",
+      "website": "https://www.damanhour.edu.eg/",
+      "established": 2010,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "damietta-university",
+      "name": {
+        "en": "Damietta University",
+        "ar": "جامعة دمياط"
+      },
+      "type": "public",
+      "governorate": "Damietta",
+      "city": "New Damietta",
+      "website": "https://www.du.edu.eg/",
+      "established": 2012,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "aswan-university",
+      "name": {
+        "en": "Aswan University",
+        "ar": "جامعة أسوان"
+      },
+      "type": "public",
+      "governorate": "Aswan",
+      "city": "Aswan",
+      "website": "https://aswu.edu.eg/",
+      "established": 2012,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "suez-university",
+      "name": {
+        "en": "Suez University",
+        "ar": "جامعة السويس"
+      },
+      "type": "public",
+      "governorate": "Suez",
+      "city": "Suez",
+      "website": "https://suezuni.edu.eg/",
+      "established": 2012,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "university-of-sadat-city",
+      "name": {
+        "en": "University of Sadat City",
+        "ar": "جامعة مدينة السادات"
+      },
+      "type": "public",
+      "governorate": "Menoufia",
+      "city": "Sadat City",
+      "website": "https://usc.edu.eg/",
+      "established": 2013,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "arish-university",
+      "name": {
+        "en": "Arish University",
+        "ar": "جامعة العريش"
+      },
+      "type": "public",
+      "governorate": "North Sinai",
+      "city": "Arish",
+      "website": "https://aru.edu.eg/",
+      "established": 2016,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "matrouh-university",
+      "name": {
+        "en": "Matrouh University",
+        "ar": "جامعة مطروح"
+      },
+      "type": "public",
+      "governorate": "Matrouh",
+      "city": "Marsa Matruh",
+      "website": "https://www.mau.edu.eg/",
+      "established": 2018,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-valley-university",
+      "name": {
+        "en": "New Valley University",
+        "ar": "جامعة الوادي الجديد"
+      },
+      "type": "public",
+      "governorate": "New Valley",
+      "city": "Kharga",
+      "website": "https://nvu.edu.eg/",
+      "established": 2018,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "luxor-university",
+      "name": {
+        "en": "Luxor University",
+        "ar": "جامعة الأقصر"
+      },
+      "type": "public",
+      "governorate": "Luxor",
+      "city": "Luxor",
+      "website": "https://www.luxor.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "hurghada-university",
+      "name": {
+        "en": "Hurghada University",
+        "ar": "جامعة الغردقة"
+      },
+      "type": "public",
+      "governorate": "Red Sea",
+      "city": "Hurghada",
+      "website": "https://www.hurghada.edu.eg/",
+      "established": 2024,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "al-azhar-university",
+      "name": {
+        "en": "Al-Azhar University",
+        "ar": "جامعة الأزهر"
+      },
+      "type": "azhar",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://azhar.edu.eg/",
+      "established": 975,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "delta-technological-university",
+      "name": {
+        "en": "Delta Technological University",
+        "ar": "جامعة الدلتا التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Menoufia",
+      "city": "Quesna",
+      "website": "https://dtu.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-cairo-technological-university",
+      "name": {
+        "en": "New Cairo Technological University",
+        "ar": "جامعة القاهرة الجديدة التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": "https://nctu.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "beni-suef-technological-university",
+      "name": {
+        "en": "Beni Suef Technological University",
+        "ar": "جامعة بني سويف التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Beni Suef",
+      "city": "New Beni Suef",
+      "website": "https://btu.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "borg-el-arab-technological-university",
+      "name": {
+        "en": "Borg El Arab Technological University",
+        "ar": "جامعة برج العرب التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Alexandria",
+      "city": "New Borg El Arab",
+      "website": "https://batechu.com/",
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "samannoud-technological-university",
+      "name": {
+        "en": "Samannoud Technological University",
+        "ar": "جامعة سمنود التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Gharbia",
+      "city": "Behbeit El Hagar",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "6th-october-technological-university",
+      "name": {
+        "en": "6th of October Technological University",
+        "ar": "جامعة السادس من أكتوبر التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-assiut-technological-university",
+      "name": {
+        "en": "New Assiut Technological University",
+        "ar": "جامعة أسيوط الجديدة التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Assiut",
+      "city": "New Assiut",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "teiba-technological-university",
+      "name": {
+        "en": "Teiba Technological University",
+        "ar": "جامعة طيبة الجديدة التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Luxor",
+      "city": "New Thebes",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "east-port-said-technological-university",
+      "name": {
+        "en": "East Port Said Technological University",
+        "ar": "جامعة شرق بورسعيد التكنولوجية"
+      },
+      "type": "technological",
+      "governorate": "Port Said",
+      "city": "Salam Misr",
+      "website": "https://ept.edu.eg/",
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "capital-international-technological-university",
+      "name": {
+        "en": "Capital International Technological University",
+        "ar": "جامعة العاصمة التكنولوجية الدولية"
+      },
+      "type": "technological",
+      "governorate": "Cairo",
+      "city": "Helwan",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "elsewedy-university-of-technology",
+      "name": {
+        "en": "Elsewedy University of Technology",
+        "ar": "جامعة السويدي للتكنولوجيا"
+      },
+      "type": "technological",
+      "governorate": "Sharqia",
+      "city": "10th of Ramadan City",
+      "website": "https://sut.edu.eg/",
+      "established": 2023,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "fayoum-international-technological-university",
+      "name": {
+        "en": "Fayoum International Technological University",
+        "ar": "جامعة الفيوم التكنولوجية الدولية"
+      },
+      "type": "technological",
+      "governorate": "Fayoum",
+      "city": "New Fayoum",
+      "website": "https://sites.google.com/view/itec-fayoum/home",
+      "established": 2024,
+      "sourceUrl": "https://scu.eg/government-technological-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "assiut-international-technological-university",
+      "name": {
+        "en": "Assiut International Technological University",
+        "ar": "جامعة أسيوط التكنولوجية الدولية"
+      },
+      "type": "technological",
+      "governorate": "Assiut",
+      "city": "New Assiut",
+      "website": "https://www.natechu.com/",
+      "established": 2024,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "galala-university",
+      "name": {
+        "en": "Galala University",
+        "ar": "جامعة الجلالة"
+      },
+      "type": "national",
+      "governorate": "Suez",
+      "city": "Galala City",
+      "website": "https://www.gu.edu.eg/",
+      "established": 2020,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "king-salman-international-university",
+      "name": {
+        "en": "King Salman International University",
+        "ar": "جامعة الملك سلمان الدولية"
+      },
+      "type": "national",
+      "governorate": "South Sinai",
+      "city": "Ras Sudr",
+      "website": "https://ksiu.edu.eg/",
+      "established": 2020,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "alamein-international-university",
+      "name": {
+        "en": "Alamein International University",
+        "ar": "جامعة العلمين الدولية"
+      },
+      "type": "national",
+      "governorate": "Matrouh",
+      "city": "New Alamein",
+      "website": "https://aiu.edu.eg/",
+      "established": 2020,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-mansoura-university",
+      "name": {
+        "en": "New Mansoura University",
+        "ar": "جامعة المنصورة الجديدة"
+      },
+      "type": "national",
+      "governorate": "Dakahlia",
+      "city": "New Mansoura",
+      "website": "https://www.nmu.edu.eg/",
+      "established": 2020,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "alexandria-national-university",
+      "name": {
+        "en": "Alexandria National University",
+        "ar": "جامعة الإسكندرية الأهلية"
+      },
+      "type": "national",
+      "governorate": "Alexandria",
+      "city": "Alexandria",
+      "website": "https://anu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "capital-national-university",
+      "name": {
+        "en": "Capital National University (formerly Helwan National University)",
+        "ar": "جامعة العاصمة الأهلية"
+      },
+      "type": "national",
+      "governorate": "Cairo",
+      "city": "Helwan",
+      "website": "https://www.hnu.edu.eg/",
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "benha-national-university",
+      "name": {
+        "en": "Benha National University",
+        "ar": "جامعة بنها الأهلية"
+      },
+      "type": "national",
+      "governorate": "Dakahlia",
+      "city": "Gamasa",
+      "website": "https://bnu.edu.eg/",
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "mansoura-national-university",
+      "name": {
+        "en": "Mansoura National University",
+        "ar": "جامعة المنصورة الأهلية"
+      },
+      "type": "national",
+      "governorate": "Dakahlia",
+      "city": "Gamasa",
+      "website": "https://www.mansnu.edu.eg/",
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "zagazig-national-university",
+      "name": {
+        "en": "Zagazig National University",
+        "ar": "جامعة الزقازيق الأهلية"
+      },
+      "type": "national",
+      "governorate": "Sharqia",
+      "city": "10th of Ramadan City",
+      "website": "https://www.znu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "menoufia-national-university",
+      "name": {
+        "en": "Menoufia National University",
+        "ar": "جامعة المنوفية الأهلية"
+      },
+      "type": "national",
+      "governorate": "Menoufia",
+      "city": "Tukh Tanbisha",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "minya-national-university",
+      "name": {
+        "en": "Minya National University",
+        "ar": "جامعة المنيا الأهلية"
+      },
+      "type": "national",
+      "governorate": "Minya",
+      "city": "New Minya",
+      "website": "https://minianu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "beni-suef-national-university",
+      "name": {
+        "en": "Beni Suef National University",
+        "ar": "جامعة بني سويف الأهلية"
+      },
+      "type": "national",
+      "governorate": "Beni Suef",
+      "city": "New Beni Suef",
+      "website": null,
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-ismailia-national-university",
+      "name": {
+        "en": "New Ismailia National University",
+        "ar": "جامعة الإسماعيلية الجديدة الأهلية"
+      },
+      "type": "national",
+      "governorate": "Ismailia",
+      "city": "New Ismailia",
+      "website": "https://ninu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "assiut-national-university",
+      "name": {
+        "en": "Assiut National University",
+        "ar": "جامعة أسيوط الأهلية"
+      },
+      "type": "national",
+      "governorate": "Assiut",
+      "city": "New Assiut",
+      "website": "https://www.asnu.edu.eg/",
+      "established": 2022,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "east-port-said-national-university",
+      "name": {
+        "en": "East Port Said National University",
+        "ar": "جامعة شرق بورسعيد الأهلية"
+      },
+      "type": "national",
+      "governorate": "Port Said",
+      "city": "Salam Misr",
+      "website": "https://epnu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "south-valley-national-university",
+      "name": {
+        "en": "South Valley National University",
+        "ar": "جامعة جنوب الوادي الأهلية"
+      },
+      "type": "national",
+      "governorate": "Qena",
+      "city": "Qena",
+      "website": "https://svnu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "kafrelsheikh-national-university",
+      "name": {
+        "en": "Kafrelsheikh National University",
+        "ar": "جامعة كفر الشيخ الأهلية"
+      },
+      "type": "national",
+      "governorate": "Kafr El Sheikh",
+      "city": "Kafr El Sheikh",
+      "website": "https://knu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-valley-national-university",
+      "name": {
+        "en": "New Valley National University",
+        "ar": "جامعة الوادي الجديد الأهلية"
+      },
+      "type": "national",
+      "governorate": "New Valley",
+      "city": "Kharga",
+      "website": "https://nvnu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "fayoum-national-university",
+      "name": {
+        "en": "Fayoum National University",
+        "ar": "جامعة الفيوم الأهلية"
+      },
+      "type": "national",
+      "governorate": "Fayoum",
+      "city": "New Fayoum",
+      "website": "https://fnu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "tanta-national-university",
+      "name": {
+        "en": "Tanta National University",
+        "ar": "جامعة طنطا الأهلية"
+      },
+      "type": "national",
+      "governorate": "Gharbia",
+      "city": "Tanta",
+      "website": "https://tnu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "luxor-national-university",
+      "name": {
+        "en": "Luxor National University",
+        "ar": "جامعة الأقصر الأهلية"
+      },
+      "type": "national",
+      "governorate": "Luxor",
+      "city": "New Thebes",
+      "website": "https://lnu.luxor.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "damietta-national-university",
+      "name": {
+        "en": "Damietta National University",
+        "ar": "جامعة دمياط الأهلية"
+      },
+      "type": "national",
+      "governorate": "Damietta",
+      "city": "New Damietta",
+      "website": "https://www.dam-nu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "sadat-city-national-university",
+      "name": {
+        "en": "National University of Sadat City",
+        "ar": "جامعة مدينة السادات الأهلية"
+      },
+      "type": "national",
+      "governorate": "Menoufia",
+      "city": "Sadat City",
+      "website": "https://nusc.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "suez-national-university",
+      "name": {
+        "en": "Suez National University",
+        "ar": "جامعة السويس الأهلية"
+      },
+      "type": "national",
+      "governorate": "Suez",
+      "city": "Suez",
+      "website": "https://snu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "damanhour-national-university",
+      "name": {
+        "en": "Damanhour National University",
+        "ar": "جامعة دمنهور الأهلية"
+      },
+      "type": "national",
+      "governorate": "Beheira",
+      "city": "Delengat",
+      "website": "https://dnu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "cairo-national-university",
+      "name": {
+        "en": "Cairo National University",
+        "ar": "جامعة القاهرة الأهلية"
+      },
+      "type": "national",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://cnu.cu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "ain-shams-national-university",
+      "name": {
+        "en": "Ain Shams National University",
+        "ar": "جامعة عين شمس الأهلية"
+      },
+      "type": "national",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://nasu.edu.eg/",
+      "established": 2025,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "sohag-national-university",
+      "name": {
+        "en": "Sohag National University",
+        "ar": "جامعة سوهاج الأهلية"
+      },
+      "type": "national",
+      "governorate": "Sohag",
+      "city": "New Sohag",
+      "website": "https://sonu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "nile-university",
+      "name": {
+        "en": "Nile University",
+        "ar": "جامعة النيل الأهلية"
+      },
+      "type": "national",
+      "governorate": "Giza",
+      "city": "Sheikh Zayed City",
+      "website": "https://nu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "egyptian-e-learning-university",
+      "name": {
+        "en": "Egyptian E-Learning University",
+        "ar": "الجامعة المصرية للتعلم الإلكتروني الأهلية"
+      },
+      "type": "national",
+      "governorate": "Giza",
+      "city": "Giza",
+      "website": "https://www.eelu.edu.eg/",
+      "established": 2008,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "french-university-of-egypt",
+      "name": {
+        "en": "French University of Egypt",
+        "ar": "الجامعة الأهلية الفرنسية في مصر"
+      },
+      "type": "national",
+      "governorate": "Cairo",
+      "city": "El Shorouk City",
+      "website": "https://ufe.edu.eg/",
+      "established": 2002,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "egypt-university-of-informatics",
+      "name": {
+        "en": "Egypt University of Informatics",
+        "ar": "جامعة مصر للمعلوماتية"
+      },
+      "type": "national",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://eui.edu.eg/",
+      "established": 2021,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "egypt-japan-university-of-science-and-technology",
+      "name": {
+        "en": "Egypt-Japan University of Science and Technology (E-JUST)",
+        "ar": "الجامعة المصرية اليابانية للعلوم والتكنولوجيا"
+      },
+      "type": "national",
+      "governorate": "Alexandria",
+      "city": "New Borg El Arab",
+      "website": "https://www.ejust.edu.eg/",
+      "established": 2010,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "zewail-city",
+      "name": {
+        "en": "Zewail City of Science, Technology and Innovation",
+        "ar": "مدينة زويل للعلوم والتكنولوجيا والابتكار"
+      },
+      "type": "national",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://www.zewailcity.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "cairo-university-international-branch",
+      "name": {
+        "en": "Cairo University International Branch",
+        "ar": "جامعة القاهرة الفرع الدولي"
+      },
+      "type": "national",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://ibcu.cu.edu.eg/",
+      "established": 2021,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "international-university-for-science-arts-and-technology",
+      "name": {
+        "en": "International University for Science, Arts and Technology",
+        "ar": "الجامعة الدولية للعلوم والفنون والتكنولوجيا"
+      },
+      "type": "national",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": null,
+      "established": 2026,
+      "sourceUrl": "https://scu.eg/%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a%d8%a9/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "misr-international-university",
+      "name": {
+        "en": "Misr International University",
+        "ar": "جامعة مصر الدولية"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://www.miuegypt.edu.eg/",
+      "established": 1996,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "german-university-in-cairo",
+      "name": {
+        "en": "German University in Cairo",
+        "ar": "الجامعة الألمانية بالقاهرة"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": "https://www.guc.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "modern-university-for-technology-and-information",
+      "name": {
+        "en": "Modern University for Technology and Information",
+        "ar": "الجامعة الحديثة للتكنولوجيا والمعلومات"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Maadi",
+      "website": "https://www.mti.edu.eg/",
+      "established": 2004,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "american-university-in-cairo",
+      "name": {
+        "en": "The American University in Cairo",
+        "ar": "الجامعة الأمريكية بالقاهرة"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": "https://www.aucegypt.edu/",
+      "established": 1919,
+      "sourceUrl": "https://www.aucegypt.edu/about",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "british-university-in-egypt",
+      "name": {
+        "en": "British University in Egypt",
+        "ar": "الجامعة البريطانية في مصر"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "El Shorouk City",
+      "website": "https://www.bue.edu.eg/",
+      "established": 2005,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "egyptian-russian-university",
+      "name": {
+        "en": "Egyptian Russian University",
+        "ar": "الجامعة المصرية الروسية"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "Badr City",
+      "website": "https://www.eru.edu.eg/",
+      "established": 2006,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "future-university-in-egypt",
+      "name": {
+        "en": "Future University in Egypt",
+        "ar": "جامعة المستقبل بمصر"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": "https://www.fue.edu.eg/",
+      "established": 2006,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "egyptian-chinese-university",
+      "name": {
+        "en": "Egyptian Chinese University",
+        "ar": "الجامعة المصرية الصينية"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://www.ecu.edu.eg",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "badr-university-in-cairo",
+      "name": {
+        "en": "Badr University in Cairo",
+        "ar": "جامعة بدر بالقاهرة"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "Badr City",
+      "website": "https://buc.edu.eg/",
+      "established": 2014,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "heliopolis-university",
+      "name": {
+        "en": "Heliopolis University for Sustainable Development",
+        "ar": "جامعة هليوبوليس"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://www.hu.edu.eg/",
+      "established": 2012,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "may-university",
+      "name": {
+        "en": "May University in Cairo",
+        "ar": "جامعة مايو"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "15th of May City",
+      "website": "https://www.muc.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "al-hayah-university",
+      "name": {
+        "en": "Al Hayah University in Cairo",
+        "ar": "جامعة الحياة"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": "https://ahuc.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "city-university-of-cairo",
+      "name": {
+        "en": "City University of Cairo",
+        "ar": "جامعة المدينة بالقاهرة"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Heliopolis",
+      "website": "https://cuc.edu.eg/",
+      "established": 2020,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "memphis-university",
+      "name": {
+        "en": "Memphis University",
+        "ar": "جامعة ممفيس"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": null,
+      "established": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_universities_in_Egypt",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "saxony-egypt-university",
+      "name": {
+        "en": "Saxony Egypt University for Applied Science and Technology",
+        "ar": "جامعة ساكسوني مصر للعلوم التطبيقية والتكنولوجيا"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://seu.edu.eg/",
+      "established": 2024,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_universities_in_Egypt",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "german-international-university",
+      "name": {
+        "en": "German International University",
+        "ar": "الجامعة الألمانية الدولية"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": null,
+      "established": 2018,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_universities_in_Egypt",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "canadian-international-college",
+      "name": {
+        "en": "Canadian International College",
+        "ar": "الكلية الكندية الدولية"
+      },
+      "type": "private",
+      "governorate": "Cairo",
+      "city": "New Cairo",
+      "website": "https://cic-cairo.edu.eg/",
+      "established": 2004,
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_universities_in_Egypt",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "misr-university-for-science-and-technology",
+      "name": {
+        "en": "Misr University for Science and Technology",
+        "ar": "جامعة مصر للعلوم والتكنولوجيا"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://www.must.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "6th-october-university",
+      "name": {
+        "en": "6 October University",
+        "ar": "جامعة 6 أكتوبر"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://o6u.edu.eg/",
+      "established": 1996,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "modern-sciences-and-arts-university",
+      "name": {
+        "en": "Modern Sciences and Arts University",
+        "ar": "جامعة أكتوبر للعلوم الحديثة والآداب"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://www.msa.edu.eg/",
+      "established": 1996,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "ahram-canadian-university",
+      "name": {
+        "en": "Ahram Canadian University",
+        "ar": "جامعة الأهرام الكندية"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://acu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "newgiza-university",
+      "name": {
+        "en": "Newgiza University",
+        "ar": "جامعة نيو جيزة"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://www.ngu.edu.eg",
+      "established": 2016,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "eslsca-university-egypt",
+      "name": {
+        "en": "ESLSCA University Egypt",
+        "ar": "جامعة إسلسكا"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "Sheikh Zayed City",
+      "website": "https://eslsca.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "badya-university",
+      "name": {
+        "en": "Badya University",
+        "ar": "جامعة باديا"
+      },
+      "type": "private",
+      "governorate": "Giza",
+      "city": "6th of October City",
+      "website": "https://www.badyauni.edu.eg/",
+      "established": 2023,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "pharos-university-in-alexandria",
+      "name": {
+        "en": "Pharos University in Alexandria",
+        "ar": "جامعة فاروس بالإسكندرية"
+      },
+      "type": "private",
+      "governorate": "Alexandria",
+      "city": "Alexandria",
+      "website": "https://www.pua.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "nahda-university",
+      "name": {
+        "en": "Nahda University",
+        "ar": "جامعة النهضة"
+      },
+      "type": "private",
+      "governorate": "Beni Suef",
+      "city": "New Beni Suef",
+      "website": "https://www.nub.edu.eg",
+      "established": 2006,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "sinai-university",
+      "name": {
+        "en": "Sinai University",
+        "ar": "جامعة سيناء"
+      },
+      "type": "private",
+      "governorate": "North Sinai",
+      "city": "Arish",
+      "website": "https://www.su.edu.eg/",
+      "established": 2006,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "delta-university-for-science-and-technology",
+      "name": {
+        "en": "Delta University for Science and Technology",
+        "ar": "جامعة الدلتا للعلوم والتكنولوجيا"
+      },
+      "type": "private",
+      "governorate": "Dakahlia",
+      "city": "Gamasa",
+      "website": "https://new.deltauniv.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "deraya-university",
+      "name": {
+        "en": "Deraya University",
+        "ar": "جامعة دراية"
+      },
+      "type": "private",
+      "governorate": "Minya",
+      "city": "New Minya",
+      "website": "https://www.deraya.edu.eg/",
+      "established": 2010,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "horus-university",
+      "name": {
+        "en": "Horus University",
+        "ar": "جامعة حورس"
+      },
+      "type": "private",
+      "governorate": "Damietta",
+      "city": "New Damietta",
+      "website": "https://horus.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "merit-university",
+      "name": {
+        "en": "Merit University",
+        "ar": "جامعة ميريت"
+      },
+      "type": "private",
+      "governorate": "Sohag",
+      "city": "New Sohag",
+      "website": "https://www.merit.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "al-salam-university",
+      "name": {
+        "en": "Al Salam University in Egypt",
+        "ar": "جامعة السلام"
+      },
+      "type": "private",
+      "governorate": "Gharbia",
+      "city": "Kafr El Zayat",
+      "website": "https://sue.edu.eg",
+      "established": 2018,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "sphinx-university",
+      "name": {
+        "en": "Sphinx University",
+        "ar": "جامعة سفنكس"
+      },
+      "type": "private",
+      "governorate": "Assiut",
+      "city": "New Assiut",
+      "website": "https://sphinx.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "lotus-university",
+      "name": {
+        "en": "Lotus University in Minya",
+        "ar": "جامعة اللوتس"
+      },
+      "type": "private",
+      "governorate": "Minya",
+      "city": "New Minya",
+      "website": "https://lum.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "new-salhia-university",
+      "name": {
+        "en": "El Saleheya El Gadida University",
+        "ar": "جامعة الصالحية الجديدة"
+      },
+      "type": "private",
+      "governorate": "Sharqia",
+      "city": "New Salhia",
+      "website": "https://sgu.edu.eg/",
+      "established": 2020,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "badr-university-in-assiut",
+      "name": {
+        "en": "Badr University in Assiut",
+        "ar": "جامعة بدر بأسيوط"
+      },
+      "type": "private",
+      "governorate": "Assiut",
+      "city": "New Nasser City",
+      "website": "https://bua.edu.eg/",
+      "established": 2021,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "nile-valley-university",
+      "name": {
+        "en": "Nile Valley University",
+        "ar": "جامعة وادي النيل"
+      },
+      "type": "private",
+      "governorate": "Fayoum",
+      "city": "Damo",
+      "website": "https://nv.edu.eg/",
+      "established": 2021,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "al-ryada-university",
+      "name": {
+        "en": "Al Ryada University for Science and Technology",
+        "ar": "جامعة الريادة للعلوم والتكنولوجيا"
+      },
+      "type": "private",
+      "governorate": "Menoufia",
+      "city": "Sadat City",
+      "website": "https://rst.edu.eg/",
+      "established": 2021,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "innovation-university",
+      "name": {
+        "en": "Innovation University",
+        "ar": "جامعة الابتكار"
+      },
+      "type": "private",
+      "governorate": "Sharqia",
+      "city": "10th of Ramadan City",
+      "website": "https://iu.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "egyptian-university-in-alamein",
+      "name": {
+        "en": "Egyptian University in Alamein",
+        "ar": "الجامعة المصرية بالعلمين"
+      },
+      "type": "private",
+      "governorate": "Matrouh",
+      "city": "New Alamein",
+      "website": "https://eua.edu.eg/",
+      "established": 2022,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "obour-university-for-science-and-technology",
+      "name": {
+        "en": "Obour University for Science and Technology",
+        "ar": "جامعة العبور للعلوم والتكنولوجيا"
+      },
+      "type": "private",
+      "governorate": "Qalyubia",
+      "city": "Obour City",
+      "website": null,
+      "established": 2024,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "rashid-university",
+      "name": {
+        "en": "Rashid University",
+        "ar": "جامعة رشيد"
+      },
+      "type": "private",
+      "governorate": "Beheira",
+      "city": "Rashid",
+      "website": "https://rashiduniv.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "coventry-university-egypt-branch",
+      "name": {
+        "en": "Coventry University Egypt Branch (The Knowledge Hub Universities)",
+        "ar": "فرع جامعة كوفنتري البريطانية"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://tkh.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "nova-university-lisbon-egypt-branch",
+      "name": {
+        "en": "NOVA University Lisbon Egypt Branch (The Knowledge Hub Universities)",
+        "ar": "فرع جامعة نوفا البرتغالية"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://tkh.edu.eg/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "upei-egypt-branch",
+      "name": {
+        "en": "University of Prince Edward Island Egypt Branch",
+        "ar": "فرع جامعة جزيرة الأمير إدوارد"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://upei.uofcanada.edu.eg/",
+      "established": 2018,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "university-of-hertfordshire-egypt-branch",
+      "name": {
+        "en": "University of Hertfordshire Egypt Branch",
+        "ar": "فرع جامعة هيرتفوردشاير البريطانية"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://www.gaf.edu.eg/",
+      "established": 2019,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "university-of-london-egypt-branch",
+      "name": {
+        "en": "University of London Egypt Branch (European Universities in Egypt)",
+        "ar": "فرع جامعة لندن"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": null,
+      "established": 2021,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "university-of-east-london-egypt-branch",
+      "name": {
+        "en": "University of East London Egypt Branch (European Universities in Egypt)",
+        "ar": "فرع جامعة إيست لندن"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": null,
+      "established": null,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "university-of-central-lancashire-egypt-branch",
+      "name": {
+        "en": "University of Central Lancashire Egypt Branch (European Universities in Egypt)",
+        "ar": "فرع جامعة لانكشاير"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": null,
+      "established": null,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "kazan-federal-university-egypt-branch",
+      "name": {
+        "en": "Kazan Federal University Cairo Branch",
+        "ar": "فرع جامعة كازان الروسية"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": "https://kpfu.ru/eng/academic-units/cairo-branch",
+      "established": 2023,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "st-petersburg-university-egypt-branch",
+      "name": {
+        "en": "St Petersburg State University Egypt Branch",
+        "ar": "فرع جامعة سان بطرسبرج الروسية"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": null,
+      "established": 2023,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "anglia-ruskin-university-cairo",
+      "name": {
+        "en": "Anglia Ruskin University Cairo",
+        "ar": "جامعة أنجليا روسكين"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": "https://aru-cairo.com/",
+      "established": null,
+      "sourceUrl": "https://scu.eg/branches-of-international-universities/",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "toronto-metropolitan-university-cairo",
+      "name": {
+        "en": "Toronto Metropolitan University Cairo",
+        "ar": "جامعة تورنتو متروبوليتان (فرع القاهرة)"
+      },
+      "type": "international_branch",
+      "governorate": "Cairo",
+      "city": "New Administrative Capital",
+      "website": null,
+      "established": null,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "tu-berlin-el-gouna",
+      "name": {
+        "en": "Technische Universität Berlin, El Gouna Campus",
+        "ar": "جامعة برلين التقنية (فرع الجونة)"
+      },
+      "type": "international_branch",
+      "governorate": "Red Sea",
+      "city": "El Gouna",
+      "website": null,
+      "established": 2012,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "sadat-academy-for-management-sciences",
+      "name": {
+        "en": "Sadat Academy for Management Sciences",
+        "ar": "أكاديمية السادات للعلوم الإدارية"
+      },
+      "type": "other",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": null,
+      "established": 1981,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "arab-academy-for-science-technology-and-maritime-transport",
+      "name": {
+        "en": "Arab Academy for Science, Technology and Maritime Transport",
+        "ar": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري"
+      },
+      "type": "other",
+      "governorate": "Alexandria",
+      "city": "Abu Qir",
+      "website": "https://aast.edu/",
+      "established": 1972,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "arab-open-university-egypt",
+      "name": {
+        "en": "Arab Open University - Egypt Branch",
+        "ar": "الجامعة العربية المفتوحة"
+      },
+      "type": "other",
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "website": "https://aou.edu.eg/",
+      "established": 2002,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "workers-university",
+      "name": {
+        "en": "Workers University",
+        "ar": "الجامعة العمالية"
+      },
+      "type": "other",
+      "governorate": "Cairo",
+      "city": "Cairo",
+      "website": null,
+      "established": 1985,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "senghor-university",
+      "name": {
+        "en": "Senghor University (Université Senghor)",
+        "ar": "جامعة سنجور"
+      },
+      "type": "other",
+      "governorate": "Alexandria",
+      "city": "Alexandria",
+      "website": "https://usenghor-francophonie.org/",
+      "established": 1989,
+      "sourceUrl": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA_%D9%85%D8%B5%D8%B1",
+      "verifiedAt": "2026-10-09"
+    }
+  ]
+}

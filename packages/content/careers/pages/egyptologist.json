@@ -1,0 +1,439 @@
+{
+  "id": "egyptologist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You uncover and protect the story of Egypt's ancient past.",
+      "ar": "تكتشف قصة ماضي مصر القديم وتحميها."
+    },
+    "summary": {
+      "en": "Archaeologists and Egyptologists excavate sites, study objects and texts, restore and protect monuments, and teach others about them. In Egypt you usually study in a Faculty of Archaeology, then work with the Ministry of Tourism and Antiquities, museums, universities or foreign missions. Jobs are limited and often connected to government hiring, but Egypt's record tourism and big museums keep the field visible.",
+      "ar": "عالم الآثار وعالم المصريات يحفر المواقع ويدرس القطع والنصوص ويرمم الآثار ويحميها ويعلّم الآخرين عنها. في مصر تدرس عادةً في كلية الآثار ثم تعمل مع وزارة السياحة والآثار أو المتاحف أو الجامعات أو البعثات الأجنبية. الوظائف محدودة وترتبط غالبًا بالتعيين الحكومي، لكن السياحة القياسية في مصر والمتاحف الكبرى تبقي المجال حاضرًا."
+    },
+    "dayInLife": {
+      "en": "During an excavation season you wake up early and walk to the site with your team. You carefully brush the sand from a small pottery piece and photograph it before it is moved. You draw the layer of earth where it was found, because the place of a find is as important as the object. At noon you work in the shade, cleaning and labelling pieces. In the evening you write the day's notes and update the site database. Outside the season you work in a museum or lab, study texts and write reports.",
+      "ar": "في موسم الحفائر تصحو مبكرًا وتمشي مع فريقك إلى الموقع. تزيل الرمل برفق عن قطعة فخار صغيرة وتصوّرها قبل نقلها. ترسم طبقة التربة التي وُجدت فيها لأن مكان العثور لا يقل أهمية عن القطعة. عند الظهر تعمل في الظل بتنظيف القطع ووضع بطاقات لها. وفي المساء تكتب ملاحظات اليوم وتحدّث قاعدة بيانات الموقع. وخارج الموسم تعمل في متحف أو معمل وتدرس النصوص وتكتب التقارير."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Excavate, survey and record archaeological sites.",
+        "ar": "تحفر المواقع الأثرية وتمسحها وتسجلها."
+      },
+      {
+        "en": "Clean, document, photograph and catalogue finds.",
+        "ar": "تنظف القطع وتوثقها وتصورها وتفهرسها."
+      },
+      {
+        "en": "Read and study hieroglyphic, hieratic, Greek, Coptic or Arabic texts.",
+        "ar": "تقرأ وتدرس نصوصًا بالهيروغليفية والهيراطيقية واليونانية والقبطية والعربية."
+      },
+      {
+        "en": "Help conserve and restore monuments and objects with conservators.",
+        "ar": "تساعد في صيانة الآثار وترميمها مع المرممين."
+      },
+      {
+        "en": "Write reports and research papers and present findings.",
+        "ar": "تكتب التقارير والأبحاث وتعرض النتائج."
+      },
+      {
+        "en": "Teach visitors and students and work in museums.",
+        "ar": "تعلّم الزوار والطلاب وتعمل في المتاحف."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Excavation sites in the desert, Nile valley and cities",
+        "ar": "مواقع الحفر في الصحراء ووادي النيل والمدن"
+      },
+      {
+        "en": "Museums, storerooms and conservation labs",
+        "ar": "المتاحف والمخازن ومعامل الترميم"
+      },
+      {
+        "en": "Universities and research centres",
+        "ar": "الجامعات ومراكز البحث"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Trowels, brushes, measuring tapes and notebooks",
+        "ar": "المحارق والفرش وأشرطة القياس والدفاتر"
+      },
+      {
+        "en": "Cameras, drones and GPS or mapping software (GIS)",
+        "ar": "الكاميرات والطائرات المسيّرة وGPS وبرامج الخرائط (GIS)"
+      },
+      {
+        "en": "Databases and 3D scanning",
+        "ar": "قواعد البيانات والمسح ثلاثي الأبعاد"
+      },
+      {
+        "en": "Dictionaries and sign lists for ancient languages",
+        "ar": "المعاجم وقوائم العلامات للغات القديمة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "The Faculty of Archaeology accepts Thanaweya Amma (literary) in public universities. Students with IGCSE, American or IB certificates can apply to private programs, such as the archaeology and tourist guidance faculty at Misr University for Science and Technology, or study Egyptology abroad. Useful subjects: History, Geography, English, a second language, Art and basic Science. Join museum visits and school history clubs.",
+      "ar": "كلية الآثار في الجامعات الحكومية تقبل الثانوية العامة (أدبي). يستطيع طلاب IGCSE والأمريكي وIB التقدم لبرامج خاصة مثل كلية الآثار والإرشاد السياحي في جامعة مصر للعلوم والتكنولوجيا، أو دراسة المصريات في الخارج. مواد مفيدة: التاريخ والجغرافيا والإنجليزية ولغة ثانية والفن والعلوم الأساسية. شارك في زيارات المتاحف ونوادي التاريخ بالمدرسة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Archaeology (Egyptology, Greek and Roman, Islamic or Coptic departments, conservation)",
+        "ar": "كلية الآثار (أقسام المصريات واليونانية والرومانية والإسلامية والقبطية والترميم)"
+      },
+      {
+        "en": "Faculty of Arts, history or Egyptology departments in some universities",
+        "ar": "كلية الآداب، أقسام التاريخ أو المصريات في بعض الجامعات"
+      },
+      {
+        "en": "Private university archaeology and tourist guidance programs",
+        "ar": "برامج الآثار والإرشاد السياحي في الجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-archaeology",
+      "qena-university-archaeology",
+      "sohag-university-archaeology",
+      "damietta-university-archaeology",
+      "zagazig-university-archaeology",
+      "misr-university-for-science-and-technology-archaeology-tourist-guidance"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Archaeology (literary track) asked for about 80% to 85% in the 2026 phase-1 lists: Qena 80.31% to Cairo University 85.31% (percent of the total). In 2025 the range was 82.34% (Sohag) to 85.78% (Zagazig), and in 2024 it was 78.05% to 82.07%. The private archaeology and tourist guidance program shows only a 53% regulatory floor for 2025/26, a legal minimum and not its real cutoff.",
+      "ar": "طلبت كليات الآثار (الشعبة الأدبية) نحو 80% إلى 85% في المرحلة الأولى لعام 2026: قنا 80.31% وجامعة القاهرة 85.31% (نسبة مئوية من المجموع). وفي 2025 كان النطاق من 82.34% (سوهاج) إلى 85.78% (الزقازيق)، وفي 2024 من 78.05% إلى 82.07%. يعرض البرنامج الخاص للآثار والإرشاد السياحي حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Postgraduate study (master's and PhD) in Egyptology or archaeology is the normal route to research and university teaching.",
+        "ar": "الدراسات العليا (ماجستير ودكتوراه) في المصريات أو الآثار هي الطريق المعتاد للبحث والتدريس الجامعي."
+      },
+      {
+        "en": "Volunteer or train on excavation seasons and museum projects.",
+        "ar": "التطوع أو التدريب في مواسم الحفائر ومشروعات المتاحف."
+      },
+      {
+        "en": "A degree in conservation, chemistry, geology or computing can lead to scientific or technical roles in archaeology.",
+        "ar": "شهادة في الترميم أو الكيمياء أو الجيولوجيا أو الحاسب تؤدي إلى أدوار علمية وتقنية في الآثار."
+      }
+    ],
+    "licensing": {
+      "en": "There is no syndicate license. Work on archaeological sites is governed by the antiquities protection law and by permits from the Supreme Council of Antiquities (Ministry of Tourism and Antiquities). Foreign missions work under permits, and Egyptian archaeologists are hired by the Ministry or by universities through their own announcements. We did not find a single current official hiring rule to cite, so check the Ministry's announcements.",
+      "ar": "لا يوجد ترخيص من نقابة. العمل في المواقع الأثرية ينظمه قانون حماية الآثار وتصاريح المجلس الأعلى للآثار (وزارة السياحة والآثار). تعمل البعثات الأجنبية بتصاريح، ويُعيَّن الأثريون المصريون في الوزارة أو الجامعات عبر إعلاناتها الخاصة. لم نجد قاعدة رسمية حديثة واحدة للتعيين للاستشهاد بها، فتابع إعلانات الوزارة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Archaeological methods: excavation, recording and stratigraphy",
+        "ar": "المناهج الأثرية: الحفر والتسجيل وتحليل الطبقات"
+      },
+      {
+        "en": "Ancient Egyptian language and history",
+        "ar": "اللغة المصرية القديمة والتاريخ"
+      },
+      {
+        "en": "Photography, drawing and documentation",
+        "ar": "التصوير والرسم والتوثيق"
+      },
+      {
+        "en": "Basic conservation knowledge",
+        "ar": "معرفة أساسية بالترميم"
+      },
+      {
+        "en": "GIS, databases and 3D tools",
+        "ar": "نظم المعلومات الجغرافية وقواعد البيانات والأدوات ثلاثية الأبعاد"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and care",
+        "ar": "الصبر والحرص"
+      },
+      {
+        "en": "Teamwork in hard conditions",
+        "ar": "العمل الجماعي في ظروف صعبة"
+      },
+      {
+        "en": "Curiosity and love for history",
+        "ar": "الفضول وحب التاريخ"
+      },
+      {
+        "en": "Respect for heritage and local communities",
+        "ar": "احترام التراث والمجتمعات المحلية"
+      },
+      {
+        "en": "Writing and presenting clearly",
+        "ar": "الكتابة والعرض بوضوح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic and English (research papers and foreign missions)",
+        "ar": "العربية والإنجليزية (الأبحاث والبعثات الأجنبية)"
+      },
+      {
+        "en": "French, German or Italian are important for Egyptology publications",
+        "ar": "الفرنسية أو الألمانية أو الإيطالية مهمة لمنشورات علم المصريات"
+      },
+      {
+        "en": "Ancient languages: hieroglyphs, Coptic, Greek",
+        "ar": "اللغات القديمة: الهيروغليفية والقبطية واليونانية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Bachelor's degree in archaeology",
+        "ar": "بكالوريوس الآثار"
+      },
+      {
+        "en": "Master's and PhD for research and teaching",
+        "ar": "ماجستير ودكتوراه للبحث والتدريس"
+      },
+      {
+        "en": "Specialised training courses in conservation and excavation (optional)",
+        "ar": "دورات تدريبية متخصصة في الترميم والحفر (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Ministry of Tourism and Antiquities",
+        "url": "https://egymonuments.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Grand Egyptian Museum",
+        "url": "https://gem.eg",
+        "free": false
+      },
+      {
+        "title": "Digital Giza project (Harvard)",
+        "url": "https://giza.fas.harvard.edu",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Ancient Egypt",
+        "url": "https://www.khanacademy.org/humanities/ancient-art-civilizations/egypt-art",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10458,
+        "max": 17619
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Archaeologist across experience levels. Government and university posts follow their own scales.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Archaeologist في Paylab لكل مستويات الخبرة. وتتبع الوظائف الحكومية والجامعية جداولها الخاصة."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Ministry of Tourism and Antiquities and the Supreme Council of Antiquities",
+        "ar": "وزارة السياحة والآثار والمجلس الأعلى للآثار"
+      },
+      {
+        "en": "Museums, including the Grand Egyptian Museum and the National Museum of Egyptian Civilization",
+        "ar": "المتاحف ومنها المتحف المصري الكبير ومتحف الحضارة"
+      },
+      {
+        "en": "Universities and research centres",
+        "ar": "الجامعات ومراكز البحث"
+      },
+      {
+        "en": "Foreign archaeological missions working in Egypt",
+        "ar": "البعثات الأثرية الأجنبية العاملة في مصر"
+      },
+      {
+        "en": "Tourism companies and heritage organisations",
+        "ar": "شركات السياحة ومنظمات التراث"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Archaeological fieldwork cannot be done remotely. Freelance work includes tour guiding (with a license), writing, translation, heritage education and documentary consulting. Record visitor numbers in 2025 (about 19 million) support heritage tourism jobs.",
+      "ar": "العمل الميداني الأثري لا يمكن أداؤه عن بُعد. العمل الحر يشمل الإرشاد السياحي (بترخيص) والكتابة والترجمة والتعليم التراثي والاستشارات للأفلام الوثائقية. أرقام الزوار القياسية في 2025 (نحو 19 مليونًا) تدعم وظائف السياحة التراثية."
+    },
+    "regions": [
+      {
+        "en": "Cairo and Giza",
+        "ar": "القاهرة والجيزة"
+      },
+      {
+        "en": "Luxor, Aswan and Upper Egypt",
+        "ar": "الأقصر وأسوان وصعيد مصر"
+      },
+      {
+        "en": "Alexandria, Sinai and oases for specific sites",
+        "ar": "الإسكندرية وسيناء والواحات لمواقع محددة"
+      }
+    ],
+    "providerIds": [
+      "british-council-egypt",
+      "goethe-institut-egypt"
+    ]
+  },
+  "global": {
+    "en": "Egyptologists work in universities and museums abroad, such as the British Museum, the Louvre and US and European universities, usually with a PhD and strong languages. Foreign missions hire Egyptian archaeologists for fieldwork. Competition is high, so scholarships and postgraduate study abroad are the usual path.",
+    "ar": "يعمل علماء المصريات في جامعات ومتاحف في الخارج مثل المتحف البريطاني واللوفر وجامعات أمريكية وأوروبية، غالبًا بدكتوراه ولغات قوية. وتستعين البعثات الأجنبية بأثريين مصريين للعمل الميداني. المنافسة عالية، والمنح والدراسات العليا بالخارج هي الطريق المعتاد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work with the most famous history in the world",
+        "ar": "العمل مع أشهر تاريخ في العالم"
+      },
+      {
+        "en": "A mix of fieldwork, lab and writing",
+        "ar": "مزيج من العمل الميداني والمعمل والكتابة"
+      },
+      {
+        "en": "Pride in protecting heritage",
+        "ar": "الفخر بحماية التراث"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few permanent posts, and government hiring can be slow",
+        "ar": "وظائف دائمة قليلة والتعيين الحكومي قد يكون بطيئًا"
+      },
+      {
+        "en": "Modest pay at the start and hard conditions in the field",
+        "ar": "أجر متواضع في البداية وظروف صعبة في الميدان"
+      },
+      {
+        "en": "Long study (postgraduate) needed for research roles",
+        "ar": "دراسة طويلة (دراسات عليا) مطلوبة لوظائف البحث"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Archaeologists spend their days finding treasure.",
+          "ar": "علماء الآثار يقضون أيامهم في العثور على كنوز."
+        },
+        "fact": {
+          "en": "Most of the work is slow: careful digging, recording, cleaning and writing. Discoveries come from patient work.",
+          "ar": "معظم العمل بطيء: حفر دقيق وتسجيل وتنظيف وكتابة. الاكتشافات تأتي من العمل الصبور."
+        }
+      },
+      {
+        "myth": {
+          "en": "Only foreigners discover Egypt's antiquities.",
+          "ar": "الأجانب فقط يكتشفون آثار مصر."
+        },
+        "fact": {
+          "en": "Egyptian archaeologists lead many excavations and discoveries, and Egyptian teams are central to the work.",
+          "ar": "يقود الأثريون المصريون حفائر واكتشافات كثيرة، والفرق المصرية محور العمل."
+        }
+      },
+      {
+        "myth": {
+          "en": "Archaeology means only reading hieroglyphs.",
+          "ar": "علم الآثار يعني قراءة الهيروغليفية فقط."
+        },
+        "fact": {
+          "en": "It also uses science, mapping, drawing, photography and conservation, and covers all periods.",
+          "ar": "يستخدم أيضًا العلوم والخرائط والرسم والتصوير والترميم، ويشمل كل العصور."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Field seasons are intense and far from home for weeks. Museum and university roles are closer to regular hours.",
+      "ar": "مواسم الحفر مكثفة وبعيدة عن البيت أسابيع. وظائف المتاحف والجامعات أقرب لساعات منتظمة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Archaeologist trainee or field assistant",
+        "ar": "أثري متدرب أو مساعد ميداني"
+      },
+      {
+        "en": "Archaeologist or museum curator assistant",
+        "ar": "أثري أو مساعد أمين متحف"
+      },
+      {
+        "en": "Senior archaeologist or site director",
+        "ar": "أثري أول أو مدير موقع"
+      },
+      {
+        "en": "Head of department, museum or mission",
+        "ar": "رئيس قسم أو متحف أو بعثة"
+      },
+      {
+        "en": "Professor or senior official",
+        "ar": "أستاذ جامعي أو مسؤول كبير"
+      }
+    ],
+    "relatedCareerIds": [
+      "tour_guide",
+      "geologist",
+      "environmental_scientist",
+      "photographer",
+      "translator"
+    ],
+    "pivots": [
+      {
+        "en": "Tour guiding and cultural tourism",
+        "ar": "الإرشاد السياحي والسياحة الثقافية"
+      },
+      {
+        "en": "Museum education and exhibition design",
+        "ar": "التعليم المتحفي وتصميم المعارض"
+      },
+      {
+        "en": "Heritage conservation or documentary work",
+        "ar": "حفظ التراث أو الأفلام الوثائقية"
+      },
+      {
+        "en": "University teaching",
+        "ar": "التدريس الجامعي"
+      }
+    ]
+  },
+  "industryId": "science",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Education, science and research salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/education-science-research",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Business Today Egypt: record 19M visitors in 2025",
+      "url": "https://www.businesstodayegypt.com/Article/1/7031/Egypt-sets-new-tourism-record-with-19M-visitors-in-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik 2026 upper and lower limits, science, math and literary",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

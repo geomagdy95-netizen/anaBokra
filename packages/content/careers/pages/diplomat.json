@@ -1,0 +1,413 @@
+{
+  "id": "diplomat",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You represent Egypt abroad and build relationships between countries.",
+      "ar": "تمثل مصر في الخارج وتبني العلاقات بين الدول."
+    },
+    "summary": {
+      "en": "Diplomats work for the Ministry of Foreign Affairs. They follow political and economic events, negotiate, help Egyptians abroad and write reports for decision makers. You enter by passing the Ministry's official attaché competition, which tests languages, international law, economics and politics.",
+      "ar": "الدبلوماسيون يعملون في وزارة الخارجية. يتابعون الأحداث السياسية والاقتصادية ويتفاوضون ويساعدون المصريين في الخارج ويكتبون تقارير لمتخذي القرار. تدخل المهنة بعد اجتياز مسابقة الملحقين الرسمية للوزارة التي تختبر اللغات والقانون الدولي والاقتصاد والسياسة."
+    },
+    "dayInLife": {
+      "en": "At an embassy you start by reading the local news and your country's instructions from Cairo. You write a short report on a new trade law in the host country. A citizen calls because he lost his passport, so you explain the steps for an emergency document. Later you attend a meeting with officials of the host country and take careful notes. In the evening you may go to a cultural event, which is also part of the work, because relationships matter. Back in the office you send your report in clear, short language.",
+      "ar": "في السفارة تبدأ بقراءة أخبار البلد المضيف وتعليمات القاهرة. تكتب تقريرًا قصيرًا عن قانون تجاري جديد في البلد المضيف. يتصل بك مواطن فقد جواز سفره فتشرح له خطوات استخراج وثيقة طارئة. لاحقًا تحضر اجتماعًا مع مسؤولين من البلد المضيف وتدوّن ملاحظات دقيقة. في المساء قد تذهب إلى فعالية ثقافية وهي جزء من العمل لأن العلاقات مهمة. وفي المكتب ترسل تقريرك بلغة واضحة ومختصرة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Follow political, economic and cultural developments and write reports.",
+        "ar": "تتابع التطورات السياسية والاقتصادية والثقافية وتكتب التقارير."
+      },
+      {
+        "en": "Take part in negotiations and meetings with other governments and organisations.",
+        "ar": "تشارك في المفاوضات والاجتماعات مع حكومات ومنظمات أخرى."
+      },
+      {
+        "en": "Help Egyptian citizens abroad with documents and emergencies (consular work).",
+        "ar": "تساعد المواطنين المصريين في الخارج في الوثائق والطوارئ (العمل القنصلي)."
+      },
+      {
+        "en": "Promote trade, investment, tourism and cultural exchange.",
+        "ar": "تروّج للتجارة والاستثمار والسياحة والتبادل الثقافي."
+      },
+      {
+        "en": "Prepare speeches, briefs and agreements.",
+        "ar": "تعدّ الخطابات والمذكرات والاتفاقات."
+      },
+      {
+        "en": "Work in Cairo and abroad, moving between posts every few years.",
+        "ar": "تعمل في القاهرة وفي الخارج وتنتقل بين الأماكن كل بضع سنوات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Ministry of Foreign Affairs in Cairo",
+        "ar": "وزارة الخارجية في القاهرة"
+      },
+      {
+        "en": "Embassies, consulates and missions to international organisations",
+        "ar": "السفارات والقنصليات والبعثات لدى المنظمات الدولية"
+      },
+      {
+        "en": "International conferences and negotiations",
+        "ar": "المؤتمرات الدولية والمفاوضات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Official communication and reporting systems",
+        "ar": "نظم الاتصال والتقارير الرسمية"
+      },
+      {
+        "en": "Languages and translation tools",
+        "ar": "اللغات وأدوات الترجمة"
+      },
+      {
+        "en": "Office software and secure email",
+        "ar": "برامج المكتب والبريد الآمن"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Any curriculum can lead to university. Useful subjects: English and a second language (French is common), History, Global Politics or Government, Economics. IB students may take Language B and Global Politics. A school Model United Nations club is a good start.",
+      "ar": "أي منهج يمكن أن يقود للجامعة. مواد مفيدة: الإنجليزية ولغة ثانية (الفرنسية شائعة) والتاريخ والسياسة العالمية أو الحكومة والاقتصاد. يمكن لطلاب IB دراسة Language B وGlobal Politics. نادي نموذج الأمم المتحدة في المدرسة بداية جيدة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Economics and Political Science",
+        "ar": "كلية الاقتصاد والعلوم السياسية"
+      },
+      {
+        "en": "Faculty of Law",
+        "ar": "كلية الحقوق"
+      },
+      {
+        "en": "Faculty of Al-Alsun (Languages and Translation)",
+        "ar": "كلية الألسن (اللغات والترجمة)"
+      },
+      {
+        "en": "Private universities: Political Science, Law, Languages and Translation",
+        "ar": "الجامعات الخاصة: العلوم السياسية والحقوق واللغات والترجمة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-economics-political-science",
+      "alexandria-university-economics-political-science",
+      "port-said-university-law",
+      "kafrelsheikh-university-alsun-languages",
+      "sohag-university-alsun-languages",
+      "british-university-in-egypt-political-science",
+      "misr-university-for-science-and-technology-languages-translation"
+    ],
+    "tansikNote": {
+      "en": "Economics and Political Science asked for about 89% to 93% in the 2026 phase-1 lists (Beni Suef 89.38%, Alexandria 91.88%, Cairo 93.44%). Al-Alsun asked for 87.66% (Sohag) to 93.44% (Kafrelsheikh). Law ranged from 74.53% (Fayoum) to 84.84% (Port Said). All are percent of the total. Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff. Entry to the diplomatic service itself is by competition after graduation, not by Tansik score.",
+      "ar": "طلب الاقتصاد والعلوم السياسية نحو 89% إلى 93% في المرحلة الأولى لعام 2026 (بني سويف 89.38% والإسكندرية 91.88% والقاهرة 93.44%). وطلبت الألسن من 87.66% (سوهاج) إلى 93.44% (كفر الشيخ). وتراوحت الحقوق من 74.53% (الفيوم) إلى 84.84% (بورسعيد). كلها نسبة مئوية من المجموع. تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي. أما الدخول إلى السلك الدبلوماسي نفسه فبمسابقة بعد التخرج وليس بمجموع التنسيق."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Any university degree from a recognised university can be enough to apply, so some diplomats come from commerce, arts or other faculties; foreign degrees need equivalence from the Supreme Council of Universities.",
+        "ar": "قد تكفي أي شهادة جامعية من جامعة معترف بها للتقدم، فيأتي بعض الدبلوماسيين من التجارة والآداب وكليات أخرى؛ والشهادات الأجنبية تحتاج معادلة من المجلس الأعلى للجامعات."
+      },
+      {
+        "en": "A master's degree in international relations, law or economics strengthens your preparation for the exams.",
+        "ar": "ماجستير في العلاقات الدولية أو القانون أو الاقتصاد يقوي استعدادك للامتحانات."
+      },
+      {
+        "en": "Other jobs in the field: international organisations, research centres, NGOs, trade and investment bodies.",
+        "ar": "وظائف أخرى في المجال: المنظمات الدولية ومراكز الأبحاث والمنظمات الأهلية وهيئات التجارة والاستثمار."
+      }
+    ],
+    "licensing": {
+      "en": "There is no syndicate license. You become a diplomat by passing the Ministry of Foreign Affairs competition for the post of attaché in the diplomatic and consular corps, announced from time to time. In the 2024 announcement we reviewed, applications were online (careerdiplo.mfa.gov.eg), and the exams included written tests in Arabic and two foreign languages (English or French as the first language and a second from a list of languages), international public law and organisations, international economic relations and international political relations, followed by computer, aptitude and oral tests, each with a 60% minimum. Press reports list an age range of 21 to 27 and a university degree, but conditions can change, so read the Ministry's current announcement. Successful candidates are appointed in order of their final scores.",
+      "ar": "لا يوجد ترخيص من نقابة. تصبح دبلوماسيًا باجتياز مسابقة وزارة الخارجية لوظيفة ملحق في السلك الدبلوماسي والقنصلي، وتُعلن من وقت لآخر. في إعلان 2024 الذي راجعناه كان التقديم إلكترونيًا (careerdiplo.mfa.gov.eg)، وشملت الامتحانات اختبارات تحريرية في العربية ولغتين أجنبيتين (الإنجليزية أو الفرنسية لغة أولى ولغة ثانية من قائمة لغات) والقانون الدولي العام والمنظمات الدولية والعلاقات الاقتصادية الدولية والعلاقات السياسية الدولية، ثم اختبارات الحاسب والقدرات والاختبار الشفهي، لكل منها حد أدنى 60%. تذكر تقارير صحفية أن السن بين 21 و27 سنة مع مؤهل جامعي، لكن الشروط قد تتغير، فاقرأ إعلان الوزارة الحالي. ويُعيَّن الناجحون بترتيب درجاتهم النهائية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "International law and international relations",
+        "ar": "القانون الدولي والعلاقات الدولية"
+      },
+      {
+        "en": "Economics, especially trade and development",
+        "ar": "الاقتصاد، خاصة التجارة والتنمية"
+      },
+      {
+        "en": "Report and speech writing",
+        "ar": "كتابة التقارير والخطب"
+      },
+      {
+        "en": "Negotiation",
+        "ar": "التفاوض"
+      },
+      {
+        "en": "Understanding of world history and current events",
+        "ar": "فهم التاريخ العالمي والأحداث الجارية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Tact, politeness and discretion",
+        "ar": "اللباقة والأدب والتكتم"
+      },
+      {
+        "en": "Listening and understanding other cultures",
+        "ar": "الاستماع وفهم الثقافات الأخرى"
+      },
+      {
+        "en": "Calm in a crisis",
+        "ar": "الهدوء في الأزمات"
+      },
+      {
+        "en": "Adapting to new places often",
+        "ar": "التكيف مع أماكن جديدة باستمرار"
+      },
+      {
+        "en": "Teamwork and loyalty to the institution",
+        "ar": "العمل الجماعي والولاء للمؤسسة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic at a very high level",
+        "ar": "العربية بمستوى عالٍ جدًا"
+      },
+      {
+        "en": "English or French as a first foreign language (required in the exam)",
+        "ar": "الإنجليزية أو الفرنسية لغة أجنبية أولى (مطلوبة في الامتحان)"
+      },
+      {
+        "en": "A second foreign language: German, Spanish, Italian, Chinese, Russian, Japanese and others",
+        "ar": "لغة أجنبية ثانية: الألمانية أو الإسبانية أو الإيطالية أو الصينية أو الروسية أو اليابانية وغيرها"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "A university degree (required)",
+        "ar": "مؤهل جامعي (مطلوب)"
+      },
+      {
+        "en": "Language diplomas such as DELF, DELE or Goethe certificates help you prepare (optional)",
+        "ar": "شهادات لغة مثل DELF وDELE وجوته تساعد في الاستعداد (اختيارية)"
+      },
+      {
+        "en": "Training at the Diplomatic Institute after appointment",
+        "ar": "التدريب في المعهد الدبلوماسي بعد التعيين"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian Ministry of Foreign Affairs",
+        "url": "https://www.mfa.gov.eg",
+        "free": true
+      },
+      {
+        "title": "United Nations: Model UN resources",
+        "url": "https://www.un.org/en/mun",
+        "free": true
+      },
+      {
+        "title": "British Council Egypt: English courses",
+        "url": "https://www.britishcouncil.org.eg",
+        "free": false
+      },
+      {
+        "title": "Khan Academy: World history",
+        "url": "https://www.khanacademy.org/humanities/world-history",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Ministry of Foreign Affairs (embassies and consulates)",
+        "ar": "وزارة الخارجية (السفارات والقنصليات)"
+      },
+      {
+        "en": "Permanent missions to the United Nations and the Arab League",
+        "ar": "البعثات الدائمة لدى الأمم المتحدة وجامعة الدول العربية"
+      },
+      {
+        "en": "International organisations and research centres (non-diplomatic roles)",
+        "ar": "المنظمات الدولية ومراكز الأبحاث (وظائف غير دبلوماسية)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Salary: No citable salary figure was found. Diplomatic pay follows official scales and allowances for posts abroad that we could not verify. No number is given. Not applicable for diplomatic posts, which are full-time government positions. Related work as an analyst or consultant can be done freelance.",
+      "ar": "الراتب: لم نعثر على رقم راتب يمكن الاستشهاد به. يتبع أجر الدبلوماسيين جداول رسمية وبدلات للعمل بالخارج لم نتمكن من التحقق منها. لذلك لا نقدم رقمًا. لا ينطبق على الوظائف الدبلوماسية فهي وظائف حكومية بدوام كامل. أما العمل المرتبط كمحلل أو مستشار فيمكن أداؤه عملًا حرًا."
+    },
+    "regions": [
+      {
+        "en": "Cairo (Ministry), then postings abroad",
+        "ar": "القاهرة (الوزارة) ثم التعيين في الخارج"
+      }
+    ],
+    "providerIds": [
+      "english-access-microscholarship",
+      "british-council-egypt",
+      "amideast-egypt",
+      "institut-francais-egypte"
+    ]
+  },
+  "global": {
+    "en": "The job itself is abroad: you serve in embassies and missions around the world, and families often move with you. After a diplomatic career, people move to international organisations, universities and consultancies. Entry is only through the Egyptian state, so other countries' diplomatic services recruit their own citizens.",
+    "ar": "الوظيفة نفسها في الخارج: تخدم في سفارات وبعثات حول العالم، وغالبًا تنتقل الأسرة معك. وبعد المسيرة الدبلوماسية ينتقل بعض الناس إلى المنظمات الدولية والجامعات وشركات الاستشارات. الدخول عبر الدولة المصرية فقط، فالسلك الدبلوماسي في الدول الأخرى يوظف مواطنيه."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Living and working in different countries",
+        "ar": "العيش والعمل في بلدان مختلفة"
+      },
+      {
+        "en": "Meaningful public service",
+        "ar": "خدمة عامة ذات معنى"
+      },
+      {
+        "en": "Learning languages and cultures",
+        "ar": "تعلم اللغات والثقافات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few places and a hard multi-stage exam",
+        "ar": "عدد الأماكن قليل والامتحان صعب ومتعدد المراحل"
+      },
+      {
+        "en": "Moving every few years is hard on families and friendships",
+        "ar": "الانتقال كل بضع سنوات صعب على الأسرة والصداقات"
+      },
+      {
+        "en": "Posts can be far away or in difficult places",
+        "ar": "قد تكون أماكن التعيين بعيدة أو صعبة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Diplomats mostly go to parties.",
+          "ar": "الدبلوماسيون يذهبون للحفلات في الغالب."
+        },
+        "fact": {
+          "en": "Events are part of building relations, but most work is reading, writing reports, negotiating and helping citizens.",
+          "ar": "الفعاليات جزء من بناء العلاقات، لكن معظم العمل قراءة وكتابة تقارير وتفاوض ومساعدة المواطنين."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must study political science to join.",
+          "ar": "لازم تدرس العلوم السياسية."
+        },
+        "fact": {
+          "en": "Graduates of different faculties apply. What counts is passing the exams, which you can prepare for.",
+          "ar": "يتقدم خريجو كليات مختلفة. المهم اجتياز الامتحانات ويمكن الاستعداد لها."
+        }
+      },
+      {
+        "myth": {
+          "en": "Knowing English is enough.",
+          "ar": "يكفي أن تعرف الإنجليزية."
+        },
+        "fact": {
+          "en": "The exam requires Arabic and two foreign languages at a high level.",
+          "ar": "الامتحان يتطلب العربية ولغتين أجنبيتين بمستوى عالٍ."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Hours vary. Cairo posts are closer to office hours. Posts abroad can include evenings, weekends and emergencies, and family life changes with each move.",
+      "ar": "تختلف الساعات. العمل في القاهرة أقرب لساعات المكتب. وفي الخارج قد يشمل المساء والعطلات والطوارئ، وتتغير الحياة الأسرية مع كل انتقال."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Attaché",
+        "ar": "ملحق"
+      },
+      {
+        "en": "Third secretary",
+        "ar": "سكرتير ثالث"
+      },
+      {
+        "en": "Second and first secretary",
+        "ar": "سكرتير ثانٍ وأول"
+      },
+      {
+        "en": "Counsellor and minister plenipotentiary",
+        "ar": "مستشار ووزير مفوض"
+      },
+      {
+        "en": "Ambassador",
+        "ar": "سفير"
+      }
+    ],
+    "relatedCareerIds": [
+      "political_scientist",
+      "lawyer",
+      "translator",
+      "judge_prosecutor",
+      "management_consultant"
+    ],
+    "pivots": [
+      {
+        "en": "International organisations",
+        "ar": "المنظمات الدولية"
+      },
+      {
+        "en": "Research and think tanks",
+        "ar": "مراكز الفكر والأبحاث"
+      },
+      {
+        "en": "University teaching",
+        "ar": "التدريس الجامعي"
+      },
+      {
+        "en": "International business and trade",
+        "ar": "الأعمال والتجارة الدولية"
+      }
+    ]
+  },
+  "industryId": "law",
+  "sources": [
+    {
+      "title": "Ahram Gate: diplomatic attaché competition 2024, conditions and tests",
+      "url": "https://gate.ahram.org.eg/News/4797761.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: dates and details of the attaché exams",
+      "url": "https://gate.ahram.org.eg/News/4764349.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian Ministry of Foreign Affairs",
+      "url": "https://www.mfa.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

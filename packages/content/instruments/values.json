@@ -1,0 +1,45 @@
+{
+  "id": "values",
+  "version": "1.0.0-draft",
+  "kind": "cardSort",
+  "name": { "en": "What matters to you?", "ar": "إيه اللي يهمك؟" },
+  "source": {
+    "name": "Structure of the O*NET Work Importance Locator / Minnesota Importance Questionnaire (6 values, 21 needs)",
+    "url": "https://www.onetcenter.org/WIL.html",
+    "license": "Value/need taxonomy is public (O*NET content model). Card wording is anaBokra's own and must be reviewed by the psychologist.",
+    "notes": "Each need card maps to one of the six O*NET work values so results connect directly to O*NET occupation data. 'Must have' is limited to 7 cards to force prioritization, as in the original Q-sort."
+  },
+  "buckets": [
+    { "id": "must", "name": { "en": "Must have", "ar": "لازم يكون موجود" }, "weight": 3, "limit": 7 },
+    { "id": "nice", "name": { "en": "Nice to have", "ar": "لو موجود يبقى كويس" }, "weight": 2 },
+    { "id": "no", "name": { "en": "Don't care", "ar": "مش فارق معايا" }, "weight": 1 }
+  ],
+  "cards": [
+    { "id": "v_ability_utilization", "value": "achievement", "text": { "en": "I'd use my abilities to the fullest", "ar": "أستخدم كل قدراتي" } },
+    { "id": "v_accomplishment", "value": "achievement", "text": { "en": "I'd feel a sense of accomplishment", "ar": "أحس إني بنجز حاجة" } },
+
+    { "id": "v_activity", "value": "workingConditions", "text": { "en": "I'd be busy all the time", "ar": "أكون مشغول طول الوقت", "arF": "أكون مشغولة طول الوقت" } },
+    { "id": "v_independence", "value": "workingConditions", "text": { "en": "I'd do my work alone", "ar": "أشتغل لوحدي" } },
+    { "id": "v_variety", "value": "workingConditions", "text": { "en": "I'd do something different every day", "ar": "أعمل حاجة مختلفة كل يوم" } },
+    { "id": "v_compensation", "value": "workingConditions", "text": { "en": "I'd earn more than most people", "ar": "أكسب أكتر من معظم الناس" } },
+    { "id": "v_security", "value": "workingConditions", "text": { "en": "I'd have a stable, secure job", "ar": "يكون شغلي ثابت ومضمون" } },
+    { "id": "v_conditions", "value": "workingConditions", "text": { "en": "I'd have good working conditions", "ar": "تكون ظروف الشغل كويسة" } },
+
+    { "id": "v_advancement", "value": "recognition", "text": { "en": "I'd have chances to get promoted", "ar": "يكون عندي فرص للترقي" } },
+    { "id": "v_recognition", "value": "recognition", "text": { "en": "I'd get recognition for my work", "ar": "شغلي يتقدّر" } },
+    { "id": "v_authority", "value": "recognition", "text": { "en": "I'd direct and lead others", "ar": "أوجّه وأقود غيري" } },
+    { "id": "v_social_status", "value": "recognition", "text": { "en": "I'd be looked up to in my community", "ar": "يكون ليا مكانة واحترام في المجتمع" } },
+
+    { "id": "v_coworkers", "value": "relationships", "text": { "en": "My coworkers would be easy to get along with", "ar": "زمايلي يكونوا لطاف وسهل أتعامل معاهم" } },
+    { "id": "v_social_service", "value": "relationships", "text": { "en": "I'd do things that help other people", "ar": "أعمل حاجات تفيد الناس" } },
+    { "id": "v_moral_values", "value": "relationships", "text": { "en": "I'd never be pushed to act against my values", "ar": "محدش يضغط عليا أعمل حاجة ضد قيمي" } },
+
+    { "id": "v_company_policies", "value": "support", "text": { "en": "The organization would treat workers fairly", "ar": "المكان يعامل الموظفين بعدل" } },
+    { "id": "v_supervision_human", "value": "support", "text": { "en": "My manager would back me up", "ar": "مديري يدعمني ويقف جنبي" } },
+    { "id": "v_supervision_technical", "value": "support", "text": { "en": "My manager would train me well", "ar": "مديري يدربني كويس" } },
+
+    { "id": "v_creativity", "value": "independence", "text": { "en": "I'd try out my own ideas", "ar": "أجرّب أفكاري الخاصة" } },
+    { "id": "v_responsibility", "value": "independence", "text": { "en": "I'd make decisions on my own", "ar": "آخد قراراتي بنفسي" } },
+    { "id": "v_autonomy", "value": "independence", "text": { "en": "I'd plan my work with little supervision", "ar": "أخطط لشغلي من غير رقابة كتير" } }
+  ]
+}

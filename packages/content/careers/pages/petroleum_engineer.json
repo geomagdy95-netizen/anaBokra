@@ -1,0 +1,405 @@
+{
+  "id": "petroleum_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help bring oil and natural gas from deep underground to the surface safely and efficiently.",
+      "ar": "تساعد في إخراج البترول والغاز الطبيعي من أعماق الأرض إلى السطح بأمان وكفاءة."
+    },
+    "summary": {
+      "en": "Petroleum engineers design wells, study reservoirs, and plan how to produce oil and gas. Egypt is a long-time producer and a gas hub, but the sector has been through a hard period of falling output and has only recently turned back to growth. Jobs are well paid in many companies, though they can mean remote desert or offshore work.",
+      "ar": "مهندس البترول يصمم الآبار ويدرس المكامن ويخطط كيفية إنتاج البترول والغاز. مصر منتج قديم ومركز للغاز، لكن القطاع مر بفترة صعبة من تراجع الإنتاج ولم يعد للنمو إلا مؤخرًا. الوظائف في كثير من الشركات جيدة الأجر، لكنها قد تعني العمل في الصحراء أو البحر."
+    },
+    "dayInLife": {
+      "en": "On a rotation in the Western Desert, you start at 6 a.m. at the well site. The drilling crew reports a change in pressure, so you check the data with the geologist and adjust the plan. Later you review production numbers for a gas well and see a small decline you need to explain. In the afternoon you join a safety meeting, because mistakes in this industry can be costly and dangerous. You write the daily report and then rest in the camp until the next shift, usually ten days on and a few days off.",
+      "ar": "في فترة عمل بالصحراء الغربية تبدأ في السادسة صباحًا في موقع البئر. يبلّغ طاقم الحفر عن تغير في الضغط، فتراجع البيانات مع الجيولوجي وتعدّل الخطة. لاحقًا تراجع أرقام إنتاج بئر غاز فتلاحظ هبوطًا بسيطًا عليك تفسيره. بعد العصر تحضر اجتماع سلامة لأن الأخطاء في هذه الصناعة مكلفة وخطرة. تكتب التقرير اليومي ثم ترتاح في المعسكر حتى الوردية التالية، وغالبًا ما يكون النظام عشرة أيام عمل وبضعة أيام إجازة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Study reservoir and well data to estimate how much oil or gas can be produced.",
+        "ar": "تدرس بيانات المكمن والبئر لتقدير كمية البترول أو الغاز القابلة للإنتاج."
+      },
+      {
+        "en": "Plan and monitor drilling programs with geologists and contractors.",
+        "ar": "تخطط وتتابع برامج الحفر مع الجيولوجيين والمقاولين."
+      },
+      {
+        "en": "Design well completion and stimulation to increase production.",
+        "ar": "تصمم إكمال الآبار وتحفيزها لزيادة الإنتاج."
+      },
+      {
+        "en": "Monitor production rates and plan workovers.",
+        "ar": "تراقب معدلات الإنتاج وتخطط عمليات الصيانة والتدخل بالآبار."
+      },
+      {
+        "en": "Estimate costs and economics of projects.",
+        "ar": "تقدر تكاليف المشروعات وجدواها الاقتصادية."
+      },
+      {
+        "en": "Follow health, safety and environment rules on site.",
+        "ar": "تتبع قواعد الصحة والسلامة والبيئة في الموقع."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Oil and gas fields in the Western Desert, Gulf of Suez and Mediterranean offshore",
+        "ar": "حقول البترول والغاز بالصحراء الغربية وخليج السويس وبالبحر المتوسط"
+      },
+      {
+        "en": "Company offices and operations rooms in Cairo and Alexandria",
+        "ar": "مكاتب الشركات وغرف العمليات في القاهرة والإسكندرية"
+      },
+      {
+        "en": "Drilling rigs and offshore platforms",
+        "ar": "منصات الحفر والمنصات البحرية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Reservoir simulation and well design software",
+        "ar": "برامج محاكاة المكامن وتصميم الآبار"
+      },
+      {
+        "en": "Well logs, seismic interpretation outputs and production databases",
+        "ar": "سجلات الآبار ومخرجات تفسير الزلازل وقواعد بيانات الإنتاج"
+      },
+      {
+        "en": "Excel, Python/MATLAB for analysis",
+        "ar": "إكسل وبايثون/ماتلاب للتحليل"
+      },
+      {
+        "en": "Drilling and production monitoring systems",
+        "ar": "نظم متابعة الحفر والإنتاج"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Petroleum Engineering department (Cairo, Suez, Suez Canal, Alexandria, Mansoura and others)",
+        "ar": "كليات الهندسة قسم هندسة البترول (القاهرة والسويس وقناة السويس والإسكندرية والمنصورة وغيرها)"
+      },
+      {
+        "en": "Faculty of Energy and Environmental Engineering and petroleum programs at newer universities",
+        "ar": "كلية هندسة الطاقة والبيئة وبرامج البترول بالجامعات الأحدث"
+      },
+      {
+        "en": "E-JUST and private university energy programs",
+        "ar": "جامعة اليابان E-JUST وبرامج الطاقة بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "capital-university-engineering-helwan",
+      "british-university-in-egypt-energy-environmental-engineering",
+      "egypt-japan-university-of-science-and-technology-engineering",
+      "capital-university-engineering-mataria",
+      "menoufia-university-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.78% across 22 programs (lowest Assiut University, highest Mansoura University); 2025: 90% to 92.5% across 22 programs (lowest Minia University, highest Mansoura University); 2024: 88.78% to 91.83% across 22 programs (lowest Assiut University, highest Cairo University); 2023: 85.12% to 89.88% across 22 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.78% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2025: من 90% إلى 92.5% عبر 22 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنصورة)؛ 2024: من 88.78% إلى 91.83% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة)؛ 2023: من 85.12% إلى 89.88% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Geology, chemical engineering and mechanical engineering are all routes into oil and gas companies.",
+        "ar": "الجيولوجيا والهندسة الكيميائية والميكانيكية كلها مسارات إلى شركات البترول والغاز."
+      },
+      {
+        "en": "Technical oil and petroleum institutes train technicians for field work.",
+        "ar": "معاهد البترول الفنية تدرب فنيين للعمل الميداني."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Companies usually add their own safety and well-control training (for example IWCF or IADC certification) before you work on rigs.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. تضيف الشركات عادة تدريبها الخاص في السلامة والتحكم بالآبار (مثل شهادات IWCF أو IADC) قبل العمل على المنصات."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Reservoir engineering and fluid flow",
+        "ar": "هندسة المكامن وانسياب الموائع"
+      },
+      {
+        "en": "Drilling and well completion",
+        "ar": "الحفر وإكمال الآبار"
+      },
+      {
+        "en": "Production engineering and surface facilities",
+        "ar": "هندسة الإنتاج والمنشآت السطحية"
+      },
+      {
+        "en": "Data analysis and simulation",
+        "ar": "تحليل البيانات والمحاكاة"
+      },
+      {
+        "en": "Economics and project evaluation",
+        "ar": "الاقتصاديات وتقييم المشروعات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Teamwork in remote camps",
+        "ar": "العمل الجماعي في المعسكرات النائية"
+      },
+      {
+        "en": "Calm decision-making in safety-critical situations",
+        "ar": "اتخاذ القرار بهدوء في مواقف حرجة للسلامة"
+      },
+      {
+        "en": "Adaptability to rotations and travel",
+        "ar": "التكيف مع نظام المناوبات والسفر"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English is essential for international oil companies",
+        "ar": "الإنجليزية ضرورية لشركات البترول الدولية"
+      },
+      {
+        "en": "Arabic for local teams and authorities",
+        "ar": "العربية للفرق المحلية والجهات"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "Well control (IWCF/IADC), HSE and first aid certificates",
+        "ar": "شهادات التحكم بالآبار (IWCF/IADC) والسلامة والإسعافات"
+      },
+      {
+        "en": "Society of Petroleum Engineers (SPE) student membership and courses",
+        "ar": "عضوية جمعية مهندسي البترول (SPE) للطلاب ودوراتها"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "SPE: Introduction to the petroleum industry (PetroWiki)",
+        "url": "https://petrowiki.spe.org",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Physics",
+        "url": "https://www.khanacademy.org/science/physics",
+        "free": true
+      },
+      {
+        "title": "Energy Education (University of Calgary): oil and natural gas",
+        "url": "https://energyeducation.ca/encyclopedia/Oil",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Egyptian General Petroleum Corporation (EGPC) and its companies",
+        "ar": "الهيئة المصرية العامة للبترول وشركاتها"
+      },
+      {
+        "en": "Joint ventures with international oil companies (such as Eni, bp, Apache and others)",
+        "ar": "الشركات المشتركة مع شركات البترول الدولية (مثل إيني وبي بي وأباتشي وغيرها)"
+      },
+      {
+        "en": "Service companies (drilling, logging, well services) and engineering firms like Enppi and Petrojet",
+        "ar": "شركات الخدمات (الحفر والتسجيل وخدمات الآبار) وشركات الهندسة مثل إنبي وبتروجت"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most work is tied to company assets and field sites, so freelancing is limited; some consulting and data analysis can be remote after you gain experience.",
+      "ar": "معظم العمل مرتبط بأصول الشركات ومواقعها، فالعمل الحر محدود؛ ويمكن لبعض الاستشارات وتحليل البيانات أن تتم عن بعد بعد اكتساب الخبرة."
+    },
+    "regions": [
+      {
+        "en": "Western Desert and Gulf of Suez fields",
+        "ar": "حقول الصحراء الغربية وخليج السويس"
+      },
+      {
+        "en": "Mediterranean offshore operations (Alexandria, Port Said)",
+        "ar": "العمليات البحرية بالبحر المتوسط (الإسكندرية وبورسعيد)"
+      },
+      {
+        "en": "Head offices in New Cairo and Maadi",
+        "ar": "المقار الرئيسية في القاهرة الجديدة والمعادي"
+      }
+    ],
+    "providerIds": [],
+    "salaryNote": {
+      "en": "We did not find a citable Egypt salary figure for petroleum engineers, so pay is left empty. Pay differs greatly between international companies and state-owned ones.",
+      "ar": "لم نجد رقمًا موثقًا لراتب مهندس البترول في مصر، لذا تُرك الراتب فارغًا. يختلف الأجر كثيرًا بين الشركات الدولية والشركات الحكومية."
+    }
+  },
+  "global": {
+    "en": "Egyptian petroleum engineers have long worked in the Gulf, Libya, Iraq and elsewhere. Global oil and gas hiring is cyclical and the world is shifting toward lower-carbon energy, so build skills that move into gas, data and renewables.",
+    "ar": "عمل مهندسو البترول المصريون طويلًا في الخليج وليبيا والعراق وغيرها. التوظيف عالميًا في البترول والغاز دوري والعالم يتجه إلى طاقة أقل كربونًا، فابنِ مهارات تنتقل إلى الغاز والبيانات والطاقة المتجددة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Rewarding technical challenges and global industry",
+        "ar": "تحديات تقنية مجزية وصناعة عالمية"
+      },
+      {
+        "en": "Often better pay than many engineering fields",
+        "ar": "غالبًا أجر أفضل من كثير من مجالات الهندسة"
+      },
+      {
+        "en": "Recent government efforts to repay arrears and drill more wells are encouraging",
+        "ar": "جهود حكومية حديثة لسداد المستحقات وحفر آبار أكثر مشجعة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Remote work locations and rotation schedules away from family",
+        "ar": "مواقع نائية ونظام مناوبات بعيدًا عن الأسرة"
+      },
+      {
+        "en": "Oil prices and company budgets make hiring cyclical",
+        "ar": "أسعار البترول وميزانيات الشركات تجعل التوظيف دوريًا"
+      },
+      {
+        "en": "Egypt's oil and gas sector shrank for more than two years before recently returning to growth",
+        "ar": "قطاع البترول والغاز في مصر انكمش أكثر من عامين قبل أن يعود مؤخرًا للنمو"
+      },
+      {
+        "en": "Long-term shift to low-carbon energy changes the field",
+        "ar": "التحول طويل المدى نحو الطاقة منخفضة الكربون يغيّر المجال"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Petroleum engineers spend all their time on rigs.",
+          "ar": "مهندس البترول يقضي وقته كله على المنصات."
+        },
+        "fact": {
+          "en": "Many work in offices with data, models and economics; field time depends on the role.",
+          "ar": "كثير منهم يعمل في المكاتب على البيانات والنماذج والاقتصاديات؛ ووقت الميدان يعتمد على الوظيفة."
+        }
+      },
+      {
+        "myth": {
+          "en": "The oil sector is guaranteed to boom forever.",
+          "ar": "قطاع البترول سيزدهر للأبد."
+        },
+        "fact": {
+          "en": "It goes through cycles, so keep skills flexible and consider related fields like gas, energy and data.",
+          "ar": "يمر بدورات، فأبقِ مهاراتك مرنة وفكّر في مجالات قريبة مثل الغاز والطاقة والبيانات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Field rotations (for example weeks on, days off) can strain family life, while office roles in Cairo are more regular.",
+      "ar": "نظام المناوبات الميدانية (أسابيع عمل ثم أيام إجازة) قد يرهق الحياة الأسرية، أما وظائف المكاتب في القاهرة فأكثر انتظامًا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate / field trainee engineer",
+        "ar": "مهندس حديث / متدرب ميداني"
+      },
+      {
+        "en": "Drilling, reservoir or production engineer",
+        "ar": "مهندس حفر أو مكامن أو إنتاج"
+      },
+      {
+        "en": "Senior engineer",
+        "ar": "مهندس أول"
+      },
+      {
+        "en": "Team leader or asset manager",
+        "ar": "رئيس فريق أو مدير أصل"
+      },
+      {
+        "en": "Technical manager or consultant",
+        "ar": "مدير فني أو استشاري"
+      }
+    ],
+    "relatedCareerIds": [
+      "chemical_engineer",
+      "geologist",
+      "mechanical_engineer",
+      "renewable_energy_engineer",
+      "civil_engineer",
+      "data_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Natural gas, LNG and energy transition roles",
+        "ar": "الغاز الطبيعي والغاز المسال وأدوار التحول في الطاقة"
+      },
+      {
+        "en": "Data analytics for energy companies",
+        "ar": "تحليل البيانات لشركات الطاقة"
+      },
+      {
+        "en": "Renewables, hydrogen and carbon management",
+        "ar": "الطاقة المتجددة والهيدروجين وإدارة الكربون"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - Egypt petroleum sector returns to growth for the first time since 2023 (June 2026)",
+      "url": "https://enterpriseam.com/egypt/2026/06/29/egypts-petroleum-sector-returns-to-growth-for-the-first-time-since-2023/",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "special_education_specialist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help every child learn in the way that works for them.",
+      "ar": "تساعد كل طفل على التعلم بالطريقة التي تناسبه."
+    },
+    "summary": {
+      "en": "Special education specialists teach and support children with learning difficulties, autism, speech or hearing problems, or other needs. They assess each child, build an individual plan and work closely with families and teachers. Patience and warmth matter as much as technical skill.",
+      "ar": "أخصائي التربية الخاصة يعلّم ويدعم الأطفال ذوي صعوبات التعلم أو التوحد أو مشكلات النطق أو السمع أو احتياجات أخرى. يقيّم كل طفل ويضع خطة فردية ويعمل بقرب مع الأسر والمعلمين. الصبر والدفء مهمان بقدر المهارة الفنية."
+    },
+    "dayInLife": {
+      "en": "You greet each child by name and start with a short routine they know. In a one-to-one session you use pictures and games to help a boy practise words. Later you work with a small group on reading, then meet a mother to show her an activity she can repeat at home. At the end of the day you write progress notes for each child.",
+      "ar": "تحيّي كل طفل باسمه وتبدأ بروتين قصير يعرفه. في جلسة فردية تستخدم الصور والألعاب لمساعدة ولد على التدرب على الكلمات. لاحقًا تعمل مع مجموعة صغيرة على القراءة، ثم تقابل أمًّا لتريها نشاطًا يمكنها تكراره في البيت. في نهاية اليوم تكتب ملاحظات التقدم لكل طفل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess each child's strengths and needs.",
+        "ar": "تقيّم نقاط قوة كل طفل واحتياجاته."
+      },
+      {
+        "en": "Write and follow an individual learning plan.",
+        "ar": "تكتب خطة تعلم فردية وتتابع تنفيذها."
+      },
+      {
+        "en": "Teach with games, pictures, repetition and simple steps.",
+        "ar": "تعلّم بالألعاب والصور والتكرار والخطوات البسيطة."
+      },
+      {
+        "en": "Work with parents, teachers and therapists.",
+        "ar": "تتعاون مع الأهالي والمعلمين والمعالجين."
+      },
+      {
+        "en": "Record progress and adjust the plan.",
+        "ar": "تسجّل التقدم وتعدّل الخطة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Special education centres and therapy centres",
+        "ar": "مراكز التربية الخاصة ومراكز العلاج"
+      },
+      {
+        "en": "Schools with inclusion programs",
+        "ar": "المدارس التي بها برامج دمج"
+      },
+      {
+        "en": "Hospitals, NGOs and home visits",
+        "ar": "المستشفيات والمنظمات الأهلية والزيارات المنزلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Learning cards, games and visual schedules",
+        "ar": "بطاقات التعلم والألعاب والجداول المصورة"
+      },
+      {
+        "en": "Assessment checklists and progress records",
+        "ar": "قوائم التقييم وسجلات التقدم"
+      },
+      {
+        "en": "Communication aids and learning apps",
+        "ar": "وسائل التواصل وتطبيقات التعلم"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Arts, Education and Economics and Political Science mostly accept literary-stream students. With IGCSE or A-Level, English, Sociology, Psychology, History or Economics help; with the American Diploma, take social science electives. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الآداب والتربية والاقتصاد والعلوم السياسية تقبل في الغالب طلاب الشعبة الأدبية. في IGCSE وA-Level تفيد الإنجليزية وعلم الاجتماع وعلم النفس والتاريخ والاقتصاد؛ وفي الدبلومة الأمريكية خذ مواد العلوم الاجتماعية الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Education, special education departments",
+        "ar": "كليات التربية، أقسام التربية الخاصة"
+      },
+      {
+        "en": "Special education programs at private universities (for example MUST)",
+        "ar": "برامج التربية الخاصة بالجامعات الخاصة (مثل MUST)"
+      },
+      {
+        "en": "Faculties of Arts, psychology or educational psychology, then a diploma in special education",
+        "ar": "كليات الآداب أو علم النفس أو علم النفس التربوي ثم دبلوم التربية الخاصة"
+      }
+    ],
+    "programIds": [
+      "ain-shams-university-education",
+      "alexandria-university-education",
+      "mansoura-university-education",
+      "assiut-university-education",
+      "misr-university-for-science-and-technology-special-education"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 78.44% to 80% across 3 programs (lowest Mansoura University, highest Alexandria University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 78.44% إلى 80% عبر 3 برنامجًا (الأدنى جامعة المنصورة والأعلى جامعة الإسكندرية). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A degree in education, psychology or a related field, followed by a diploma in special education.",
+        "ar": "درجة في التربية أو علم النفس أو مجال قريب ثم دبلوم في التربية الخاصة."
+      },
+      {
+        "en": "Start as a teaching assistant or shadow teacher in a center, then complete your studies.",
+        "ar": "البدء كمساعد معلم أو مرافق ظل في مركز ثم استكمال الدراسة."
+      }
+    ],
+    "licensing": {
+      "en": "Teaching in government schools goes through the Ministry of Education's recruitment, and special centres and private schools set their own hiring rules. Egypt has been developing licensing for teachers and other education professions, so check the current rules with the Ministry of Education and the centre where you want to work.",
+      "ar": "التدريس في المدارس الحكومية يكون عبر تعيينات وزارة التربية والتعليم، وتضع المراكز الخاصة والمدارس الخاصة شروط توظيفها. وتعمل مصر على تطوير منظومة ترخيص للمعلمين ومهن تعليمية أخرى، فتأكد من القواعد الحالية لدى وزارة التربية والتعليم والمركز الذي تريد العمل فيه."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "teacher",
+      "school_counselor",
+      "clinical_psychologist",
+      "social_worker",
+      "physical_therapist"
+    ],
+    "pivots": [
+      {
+        "en": "Early intervention and autism support",
+        "ar": "التدخل المبكر ودعم التوحد"
+      },
+      {
+        "en": "Speech and language therapy roles",
+        "ar": "أدوار علاج النطق واللغة"
+      },
+      {
+        "en": "School inclusion coordination",
+        "ar": "تنسيق الدمج في المدارس"
+      },
+      {
+        "en": "Running a special education centre",
+        "ar": "إدارة مركز تربية خاصة"
+      }
+    ]
+  },
+  "industryId": "education",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Special Education Specialist",
+      "url": "https://www.onetonline.org/link/summary/25-2057.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Special Education Specialist",
+      "url": "https://www.mynextmove.org/profile/summary/25-2057.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

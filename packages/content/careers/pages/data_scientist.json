@@ -1,0 +1,438 @@
+{
+  "id": "data_scientist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You find the story hidden in data and help organizations make better decisions.",
+      "ar": "تجد القصة المخبأة في البيانات وتساعد المؤسسات على اتخاذ قرارات أفضل."
+    },
+    "summary": {
+      "en": "Data scientists collect, clean and analyze data, build predictive models and explain the results to non-experts. In Egypt banks, telecoms, e-commerce and government use data more every year. The job needs statistics, programming and clear communication.",
+      "ar": "عالم البيانات يجمع البيانات وينظفها ويحللها ويبني نماذج تنبؤية ويشرح النتائج لغير المتخصصين. في مصر تستخدم البنوك والاتصالات والتجارة الإلكترونية والحكومة البيانات أكثر كل عام. تحتاج الوظيفة إحصاءً وبرمجة وتواصلًا واضحًا."
+    },
+    "dayInLife": {
+      "en": "You open a dataset of customer orders and notice that many dates are missing, so you clean them first. Then you build a simple model to predict which customers may stop buying and test how accurate it is. In the afternoon you meet the marketing team and show a chart in plain language: which customers to contact and why. You also discuss limits honestly, because the model is not perfect. Before leaving you save your notebook and write how you got the results so a colleague can repeat it.",
+      "ar": "تفتح بيانات طلبات العملاء وتلاحظ أن كثيرًا من التواريخ ناقصة، فتنظفها أولًا. ثم تبني نموذجًا بسيطًا يتوقع أي العملاء قد يتوقفون عن الشراء وتختبر دقته. بعد الظهر تقابل فريق التسويق وتعرض رسمًا بلغة بسيطة: أي العملاء نتواصل معهم ولماذا. وتناقش حدود النموذج بصدق لأنه ليس مثاليًا. قبل أن تغادر تحفظ دفترك وتكتب كيف وصلت للنتائج ليعيدها زميل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect and clean data from databases, files and APIs.",
+        "ar": "تجمع البيانات وتنظفها من قواعد البيانات والملفات وواجهات البرمجة."
+      },
+      {
+        "en": "Explore data with statistics and charts to find patterns.",
+        "ar": "تستكشف البيانات بالإحصاء والرسوم لإيجاد الأنماط."
+      },
+      {
+        "en": "Build and test machine-learning models for prediction or classification.",
+        "ar": "تبني وتختبر نماذج تعلم آلي للتنبؤ أو التصنيف."
+      },
+      {
+        "en": "Create dashboards and reports for decision makers.",
+        "ar": "تنشئ لوحات وتقارير لصناع القرار."
+      },
+      {
+        "en": "Check that results are fair, accurate and not misleading.",
+        "ar": "تتأكد أن النتائج عادلة ودقيقة وغير مضللة."
+      },
+      {
+        "en": "Work with engineers to put models into use.",
+        "ar": "تعمل مع المهندسين لإدخال النماذج في الاستخدام."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Banks, fintech, telecom operators and e-commerce companies",
+        "ar": "البنوك والتقنية المالية ومشغلو الاتصالات والتجارة الإلكترونية"
+      },
+      {
+        "en": "Consulting and outsourcing companies",
+        "ar": "شركات الاستشارات والتعهيد"
+      },
+      {
+        "en": "Government and research centers",
+        "ar": "الجهات الحكومية والمراكز البحثية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Python, pandas, scikit-learn",
+        "ar": "بايثون وpandas وscikit-learn"
+      },
+      {
+        "en": "SQL and databases",
+        "ar": "SQL وقواعد البيانات"
+      },
+      {
+        "en": "Power BI, Tableau or other visualization tools",
+        "ar": "Power BI وTableau أو أدوات تصور أخرى"
+      },
+      {
+        "en": "Jupyter notebooks and cloud platforms",
+        "ar": "دفاتر Jupyter والمنصات السحابية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, Mathematics and Computer Science (or Further Maths) are the most useful; Physics helps for engineering routes. With the American Diploma, take AP Computer Science A, AP Calculus and AP Statistics if your school offers them. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules and are popular in this field.",
+      "ar": "في IGCSE أو A-levels الأنفع هي الرياضيات وعلوم الحاسب (أو الرياضيات المتقدمة)، والفيزياء تفيد في مسارات الهندسة. وفي الدبلومة الأمريكية خذ AP علوم الحاسب A وAP حساب التفاضل وAP إحصاء إن وفرتها مدرستك. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة وهي شائعة في هذا المجال."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Computers and Information (FCI) / Faculty of Computers and Artificial Intelligence at public universities",
+        "ar": "كليات الحاسبات والمعلومات / الحاسبات والذكاء الاصطناعي بالجامعات الحكومية"
+      },
+      {
+        "en": "Data Science and Analytics programs (for example at Ain Shams National University, Faculty of Computers and Data Sciences)",
+        "ar": "برامج علم البيانات والتحليلات (مثل جامعة عين شمس الأهلية وكليات الحاسبات وعلوم البيانات)"
+      },
+      {
+        "en": "Faculty of Science (Statistics, Mathematics) and Faculty of Commerce (Statistics, Business Intelligence) as related starting points",
+        "ar": "كليات العلوم (إحصاء ورياضيات) والتجارة (إحصاء وذكاء الأعمال) كنقاط بداية قريبة"
+      },
+      {
+        "en": "Private university programs in data science and business analytics",
+        "ar": "برامج علوم البيانات وتحليلات الأعمال بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "mansoura-university-computers-information",
+      "assiut-university-computers-information",
+      "minia-university-computers-information",
+      "sohag-university-computers-information",
+      "kafrelsheikh-university-artificial-intelligence",
+      "british-university-in-egypt-informatics-computer-science",
+      "misr-international-university-business-international-trade-bi",
+      "misr-international-university-computer-science",
+      "zagazig-university-computers-information"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 91.41% (Sohag University, the only program with a published figure in our data); 2025: 88.75% to 91.72% across 2 programs (lowest Alexandria University, highest Sohag University); 2024: 87.2% to 91.46% across 8 programs (lowest Ain Shams University, highest Sohag University); 2023: 83.54% to 89.39% across 11 programs (lowest Damietta University, highest Sohag University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% to 61% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data has public computing-faculty minimums for only a few universities and years (Alexandria 88.75% in 2025, Sohag 91.72% in 2025 and 91.41% in 2026), so ask the Tansik office for the faculty you want.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: 91.41% (جامعة سوهاج، وهو البرنامج الوحيد الذي لدينا له رقم منشور)؛ 2025: من 88.75% إلى 91.72% عبر 2 برنامجًا (الأدنى جامعة الإسكندرية، الأعلى جامعة سوهاج)؛ 2024: من 87.2% إلى 91.46% عبر 8 برنامجًا (الأدنى جامعة عين شمس، الأعلى جامعة سوهاج)؛ 2023: من 83.54% إلى 89.39% عبر 11 برنامجًا (الأدنى جامعة دمياط، الأعلى جامعة سوهاج). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: من 53% إلى 61% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. لدينا حدود دنيا لكليات الحوسبة الحكومية لعدد قليل من الجامعات والسنوات (الإسكندرية 88.75% في 2025 وسوهاج 91.72% في 2025 و91.41% في 2026)، فاسأل مكتب التنسيق عن الكلية التي تريدها."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Statistics, mathematics or economics degrees plus programming skills are a common route.",
+        "ar": "درجات الإحصاء أو الرياضيات أو الاقتصاد مع مهارات البرمجة طريق شائع."
+      },
+      {
+        "en": "Programs such as ITI, DEPI, Egypt FWD, Route, GOMYCODE and the Microsoft/Huawei academies teach data skills quickly.",
+        "ar": "برامج مثل ITI وDEPI وEgypt FWD وRoute وGOMYCODE وأكاديميات مايكروسوفت وهواوي تعلم مهارات البيانات سريعًا."
+      },
+      {
+        "en": "Start as a data analyst, then move to data science as you build modelling skills.",
+        "ar": "ابدأ كمحلل بيانات ثم انتقل إلى علم البيانات مع بناء مهارات النمذجة."
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Statistics and probability",
+        "ar": "الإحصاء والاحتمالات"
+      },
+      {
+        "en": "Python and SQL",
+        "ar": "بايثون وSQL"
+      },
+      {
+        "en": "Machine learning basics",
+        "ar": "أساسيات التعلم الآلي"
+      },
+      {
+        "en": "Data visualization and storytelling",
+        "ar": "تصور البيانات وسرد القصة"
+      },
+      {
+        "en": "Data cleaning and experiment design",
+        "ar": "تنظيف البيانات وتصميم التجارب"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Curiosity and critical thinking",
+        "ar": "الفضول والتفكير النقدي"
+      },
+      {
+        "en": "Explaining results simply to non-experts",
+        "ar": "شرح النتائج ببساطة لغير المتخصصين"
+      },
+      {
+        "en": "Honesty about uncertainty and limits",
+        "ar": "الصدق بشأن عدم اليقين والحدود"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for tools, papers and datasets",
+        "ar": "الإنجليزية للأدوات والأوراق البحثية والبيانات"
+      },
+      {
+        "en": "Arabic for local business teams (and Arabic text data)",
+        "ar": "العربية لفرق الأعمال المحلية (وبيانات النصوص العربية)"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Google Data Analytics or Microsoft Power BI/Azure data certificates",
+        "ar": "شهادات تحليل البيانات من جوجل أو Power BI/Azure من مايكروسوفت"
+      },
+      {
+        "en": "IBM Data Science or TensorFlow developer-style certificates",
+        "ar": "شهادات علم البيانات من IBM أو شهادات على غرار TensorFlow"
+      },
+      {
+        "en": "A strong portfolio on GitHub or Kaggle",
+        "ar": "محفظة قوية على GitHub أو Kaggle"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Kaggle Learn (free micro-courses)",
+        "url": "https://www.kaggle.com/learn",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Statistics and probability",
+        "url": "https://www.khanacademy.org/math/statistics-probability",
+        "free": true
+      },
+      {
+        "title": "Google Data Analytics Certificate (Coursera, financial aid available)",
+        "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+        "free": false
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12829,
+        "max": 81126
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology/data-scientist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 70,416 EGP. The survey has 21 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale. The very wide range reflects big differences between entry-level and experienced or remote roles.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 70,416 جنيهًا. يضم الاستبيان 21 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور. يعكس النطاق الواسع جدًا فروقًا كبيرة بين الوظائف المبتدئة والخبيرة أو عن بعد."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Banks and fintech companies",
+        "ar": "البنوك وشركات التقنية المالية"
+      },
+      {
+        "en": "Telecom operators and e-commerce platforms",
+        "ar": "مشغلو الاتصالات ومنصات التجارة الإلكترونية"
+      },
+      {
+        "en": "Consulting, outsourcing and software companies",
+        "ar": "شركات الاستشارات والتعهيد والبرمجيات"
+      },
+      {
+        "en": "Government digital transformation teams and research centers",
+        "ar": "فرق التحول الرقمي الحكومية والمراكز البحثية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Data analysis and dashboard projects are widely available remotely, and some data scientists work for foreign companies from Egypt. Freelance projects usually start with analytics and reporting before modelling.",
+      "ar": "مشروعات تحليل البيانات واللوحات متاحة كثيرًا عن بعد، ويعمل بعض علماء البيانات لشركات أجنبية من مصر. وتبدأ المشروعات الحرة عادة بالتحليلات والتقارير قبل النمذجة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria",
+        "ar": "القاهرة الكبرى والإسكندرية"
+      },
+      {
+        "en": "Remote roles from other governorates",
+        "ar": "وظائف عن بعد من محافظات أخرى"
+      }
+    ],
+    "providerIds": [
+      "iti",
+      "depi",
+      "egypt-fwd",
+      "tawwar-wa-ghayyar",
+      "we-schools-applied-technology",
+      "huawei-ict-academy-egypt",
+      "orange-digital-center-egypt",
+      "microsoft-egypt-ai-skilling",
+      "google-career-certificates-egypt",
+      "coursera-egypt",
+      "route-academy",
+      "gomycode-egypt"
+    ]
+  },
+  "global": {
+    "en": "Data scientists are in demand across the Gulf, Europe and the US, often through remote hiring. Competition is high at senior level, and employers want evidence of real projects and strong fundamentals in math, statistics and programming.",
+    "ar": "علماء البيانات مطلوبون في الخليج وأوروبا وأمريكا، غالبًا بالتوظيف عن بعد. المنافسة عالية في المستويات العليا، وتريد الشركات دليلًا على مشروعات حقيقية وأساسيات قوية في الرياضيات والإحصاء والبرمجة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Interesting problems across many industries",
+        "ar": "مشكلات شيقة في صناعات كثيرة"
+      },
+      {
+        "en": "Strong pay potential and remote options",
+        "ar": "إمكانية أجر قوي وخيارات عن بعد"
+      },
+      {
+        "en": "Skills combine tech, math and business",
+        "ar": "مهارات تجمع التقنية والرياضيات والأعمال"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Much of the work is cleaning data, not building models",
+        "ar": "جزء كبير من العمل تنظيف بيانات لا بناء نماذج"
+      },
+      {
+        "en": "Entry-level data science jobs are scarce; many start as analysts",
+        "ar": "وظائف علم البيانات للمبتدئين قليلة؛ وكثيرون يبدأون كمحللين"
+      },
+      {
+        "en": "Tools change fast and AI automates parts of the work",
+        "ar": "الأدوات تتغير بسرعة والذكاء الاصطناعي يؤتمت أجزاء من العمل"
+      },
+      {
+        "en": "Data quality in Egypt can be poor or scattered",
+        "ar": "جودة البيانات في مصر قد تكون ضعيفة أو متفرقة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Data science is only building AI models.",
+          "ar": "علم البيانات يعني بناء نماذج ذكاء اصطناعي فقط."
+        },
+        "fact": {
+          "en": "Most of it is understanding the problem, preparing data and communicating results.",
+          "ar": "أغلبه فهم المشكلة وتجهيز البيانات وتوصيل النتائج."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a PhD.",
+          "ar": "تحتاج دكتوراه."
+        },
+        "fact": {
+          "en": "Many roles ask for a bachelor's degree plus strong projects, though research roles prefer postgraduate study.",
+          "ar": "كثير من الوظائف تطلب بكالوريوس مع مشروعات قوية، بينما تفضل وظائف البحث الدراسات العليا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually standard office or hybrid hours, with crunch time near reporting deadlines or launches.",
+      "ar": "غالبًا ساعات مكتب أو هجينة معتادة، مع ضغط قرب مواعيد التقارير أو الإطلاق."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Data analyst / junior data scientist",
+        "ar": "محلل بيانات / عالم بيانات مبتدئ"
+      },
+      {
+        "en": "Data scientist",
+        "ar": "عالم بيانات"
+      },
+      {
+        "en": "Senior data scientist",
+        "ar": "عالم بيانات أول"
+      },
+      {
+        "en": "Lead data scientist or ML engineer",
+        "ar": "قائد فريق بيانات أو مهندس تعلم آلي"
+      },
+      {
+        "en": "Head of data / analytics",
+        "ar": "رئيس قسم البيانات / التحليلات"
+      }
+    ],
+    "relatedCareerIds": [
+      "ai_engineer",
+      "software_engineer",
+      "financial_analyst",
+      "actuary",
+      "product_manager",
+      "cloud_devops_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Machine learning engineering",
+        "ar": "هندسة التعلم الآلي"
+      },
+      {
+        "en": "Product analytics or product management",
+        "ar": "تحليلات المنتج أو إدارة المنتج"
+      },
+      {
+        "en": "Quantitative finance or business strategy",
+        "ar": "التمويل الكمي أو استراتيجية الأعمال"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt digital exports hit $7.4bn (Dec 2025)",
+      "url": "https://meatechwatch.com/2025/12/23/egypts-digital-exports-hit-7-4bn-as-ict-sector-drives-economic-growth/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt launches second edition of National AI Strategy (2025-2030)",
+      "url": "https://meatechwatch.com/2025/07/15/egypt-launches-second-edition-of-national-ai-strategy-to-cement-role-as-regional-ai-hub/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Data Scientist salary survey",
+      "url": "https://paylab.com/eg/salaryinfo/information-technology/data-scientist?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

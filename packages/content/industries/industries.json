@@ -1,0 +1,2617 @@
+{
+  "version": "1.0.0-draft",
+  "asOf": "2026-10-09",
+  "method": {
+    "en": "Outlook is a judgement, not a forecast. For each cluster we combine (1) recent official growth and employment data (CAPMAS, Ministry of Planning, World Bank, ILO), (2) published government strategies and targets, treated as intentions not predictions, and (3) global evidence on automation and AI exposure (WEF Future of Jobs 2025, ILO). Trend is one of growing, stable, transforming or declining. 5-year demand is a numeric % range only where a source supports one, otherwise a qualitative band. Confidence is high only when several official sources agree, low when official data are missing. Missing numbers are null with a note; none are estimated.",
+    "ar": "التوقع هنا تقدير للاتجاه وليس تنبؤًا. نجمع لكل مجال: (1) أحدث بيانات رسمية عن النمو والتشغيل (الجهاز المركزي للتعبئة العامة والإحصاء، وزارة التخطيط، البنك الدولي، منظمة العمل الدولية)، (2) الاستراتيجيات والمستهدفات الحكومية المنشورة باعتبارها نوايا لا تنبؤات، (3) الأدلة العالمية على التعرض للأتمتة والذكاء الاصطناعي (تقرير مستقبل الوظائف 2025 للمنتدى الاقتصادي العالمي ومنظمة العمل الدولية). الاتجاه أحد: متنامٍ أو مستقر أو متحول أو متراجع. الطلب خلال خمس سنوات نطاق رقمي بالنسبة المئوية فقط حيث يدعمه مصدر، وإلا فهو وصف نوعي. تكون الثقة عالية فقط عند اتفاق عدة مصادر رسمية ومنخفضة عند غياب البيانات الرسمية. الأرقام غير المتوفرة تُترك فارغة مع ملاحظة ولا تُقدَّر."
+  },
+  "clusters": [
+    {
+      "id": "health",
+      "name": {
+        "en": "Health & Medicine",
+        "ar": "الصحة والطب"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 4.88,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Proxy: current health expenditure as a share of GDP (national accounts do not publish a separate health value-added share)",
+            "ar": "مؤشر بديل: الإنفاق الصحي الجاري كنسبة من الناتج المحلي الإجمالي (الحسابات القومية لا تنشر نصيب القطاع الصحي بشكل منفصل)"
+          },
+          "year": 2023,
+          "sourceId": "wbHealth"
+        },
+        "realGrowth": {
+          "value": 4.6,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Social services (health and education combined), Q1 FY2025/26",
+            "ar": "الخدمات الاجتماعية (الصحة والتعليم معًا)، الربع الأول من العام المالي 2025/2026"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Health and social work employment: no reliable figure found in the sources reviewed",
+            "ar": "العاملون في الصحة والعمل الاجتماعي: لم نعثر على رقم موثوق في المصادر التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "Health spending is about 4.9% of GDP. Social services (health plus education) grew 4.6% in Q1 FY2025/26, but the growth figure is not health alone. A CAPMAS health-sector headcount was not found, so it is left null.",
+          "ar": "يبلغ الإنفاق على الصحة نحو 4.9% من الناتج المحلي. نمت الخدمات الاجتماعية (الصحة والتعليم) 4.6% في الربع الأول من 2025/2026، لكن الرقم لا يخص الصحة وحدها. لم نجد عدد العاملين في القطاع الصحي من الجهاز المركزي للتعبئة العامة والإحصاء، لذلك تُرك فارغًا."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are Ministry of Health and Population hospitals, university hospitals, the growing private hospital and clinic chains, pharmaceutical manufacturers, labs and diagnostics, and the new Universal Health Insurance system. Pharmaceutical output already meets most domestic demand, so manufacturing is a real employer of pharmacists and chemists.",
+          "ar": "من أبرز جهات التوظيف مستشفيات وزارة الصحة والسكان، والمستشفيات الجامعية، وسلاسل المستشفيات والعيادات الخاصة المتنامية، وشركات تصنيع الدواء، والمعامل ومراكز التشخيص، ومنظومة التأمين الصحي الشامل الجديدة. يغطي الإنتاج المحلي من الدواء معظم الطلب، لذلك أصبح التصنيع جهة توظيف حقيقية للصيادلة والكيميائيين."
+        },
+        "startupFreelance": {
+          "en": "Health-tech startups (telemedicine, clinic booking, pharmacy delivery) exist but are a small share of the sector. Most doctors and many pharmacists work in a mix of public posts and private practice. Freelancing is mostly in medical writing, translation and online consultations.",
+          "ar": "توجد شركات ناشئة في التكنولوجيا الصحية (الاستشارات عن بعد، حجز العيادات، توصيل الأدوية) لكنها تمثل حصة صغيرة من القطاع. يجمع معظم الأطباء وكثير من الصيادلة بين وظيفة حكومية وعمل خاص. العمل الحر يقتصر غالبًا على الكتابة والترجمة الطبية والاستشارات عبر الإنترنت."
+        },
+        "remoteGcc": {
+          "en": "Demand from Gulf countries and Europe for Egyptian doctors, nurses and pharmacists is strong, and a published WHO regional journal study found that most surveyed medical students and young physicians wanted to emigrate. Clinical work is mostly in person, so remote work is limited to telehealth, reading images and medical writing. Remittances from Egyptians abroad hit a record USD 36.5 billion in FY2024/25, with health workers part of that picture.",
+          "ar": "الطلب الخليجي والأوروبي على الأطباء والتمريض والصيادلة المصريين قوي، وبيّنت دراسة منشورة في مجلة منظمة الصحة العالمية الإقليمية أن أغلب طلاب الطب والأطباء الشباب المشاركين يرغبون في الهجرة. العمل السريري حضوري في معظمه، فيقتصر العمل عن بعد على الطب عن بعد وقراءة الصور والكتابة الطبية. بلغت تحويلات المصريين بالخارج مستوى قياسيًا قدره 36.5 مليار دولار في 2024/2025، ويشكل العاملون في الصحة جزءًا من ذلك."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Universal Health Insurance System (UHIS)",
+            "ar": "منظومة التأمين الصحي الشامل"
+          },
+          "summary": {
+            "en": "A phased national rollout. Phase 1 covered six governorates and was completed with Aswan from 1 July 2025; the second phase targets Minya, Matrouh, Damietta, Kafr El-Sheikh and North Sinai. The government states a goal of nationwide coverage by 2030.",
+            "ar": "تطبيق وطني على مراحل. غطّت المرحلة الأولى ست محافظات واكتملت بانضمام أسوان في 1 يوليو 2025، وتستهدف المرحلة الثانية المنيا ومطروح ودمياط وكفر الشيخ وشمال سيناء. تعلن الحكومة هدف التغطية على مستوى الجمهورية بحلول 2030."
+          }
+        },
+        {
+          "name": {
+            "en": "Unified Procurement Authority and pharmaceutical localisation",
+            "ar": "هيئة الشراء الموحد وتوطين الصناعات الدوائية"
+          },
+          "summary": {
+            "en": "Law 151 of 2019 created the unified procurement authority. Officials state targets of USD 3 billion in pharmaceutical exports by 2030 (about USD 1.5 billion in 2024/25) and local production of about 95% of demand.",
+            "ar": "أنشأ القانون 151 لسنة 2019 هيئة الشراء الموحد. تعلن الجهات الرسمية مستهدفات منها 3 مليارات دولار صادرات دوائية بحلول 2030 (نحو 1.5 مليار في 2024/2025) وإنتاج محلي يغطي نحو 95% من الطلب."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "The national sustainable-development strategy lists improving quality of life, including health outcomes, as a strategic goal.",
+            "ar": "تدرج استراتيجية التنمية المستدامة الوطنية تحسين جودة حياة المصريين، ومنها المؤشرات الصحية، ضمن أهدافها الاستراتيجية."
+          }
+        },
+        {
+          "name": {
+            "en": "Professional licensing",
+            "ar": "ترخيص مزاولة المهنة"
+          },
+          "summary": {
+            "en": "Practising as a doctor, dentist, pharmacist or nurse requires a degree from a recognised faculty and registration with the relevant syndicate and the Ministry of Health. Rules can change, so check the current requirements with the syndicate.",
+            "ar": "تتطلب مزاولة الطب أو طب الأسنان أو الصيدلة أو التمريض مؤهلًا من كلية معتمدة والقيد في النقابة المعنية وبوزارة الصحة. قد تتغير الاشتراطات، لذا يُنصح بمراجعة النقابة."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "AI is entering diagnosis support, medical imaging, documentation and scheduling. ILO research finds that most jobs are more likely to be transformed than replaced because they combine tasks that need human judgement and contact. WEF Future of Jobs 2025 lists nursing professionals among the roles expected to add the most jobs worldwide, driven by ageing populations and care demand.",
+          "ar": "يدخل الذكاء الاصطناعي في دعم التشخيص والتصوير الطبي والتوثيق وجدولة المواعيد. تشير أبحاث منظمة العمل الدولية إلى أن أغلب الوظائف يُرجَّح أن تتحول لا أن تُستبدل لأنها تجمع مهامًا تحتاج إلى حكم بشري وتواصل مباشر. ويدرج تقرير مستقبل الوظائف 2025 للمنتدى الاقتصادي العالمي مهنيي التمريض ضمن الأدوار الأكثر إضافة للوظائف عالميًا بفعل شيخوخة السكان والطلب على الرعاية."
+        },
+        "howChanging": {
+          "en": "Routine paperwork shrinks while data skills, digital health records and working with AI tools become part of the job. Radiology, pathology and lab work change fastest; bedside care, surgery and mental health change slowest.",
+          "ar": "يقل العمل الورقي الروتيني وتصبح مهارات البيانات والسجلات الصحية الرقمية والعمل مع أدوات الذكاء الاصطناعي جزءًا من المهنة. تتغير الأشعة والباثولوجي والمعامل أسرع، بينما تتغير الرعاية عند سرير المريض والجراحة والصحة النفسية أبطأ."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Moderate to strong growth in demand for clinical and pharmaceutical roles; no official 5-year headcount forecast was found.",
+            "ar": "نمو معتدل إلى قوي في الطلب على الأدوار الإكلينيكية والدوائية؛ لم نجد توقعًا رسميًا لأعداد الوظائف خلال خمس سنوات."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Demand is supported by a young and growing population, the staged Universal Health Insurance rollout, pharmaceutical localisation and continued Gulf demand. Pay levels and emigration pressure are the main risks.",
+          "ar": "يدعم الطلبَ سكانٌ شباب متزايدون وتطبيق التأمين الصحي الشامل على مراحل وتوطين الدواء واستمرار الطلب الخليجي. أهم المخاطر مستويات الأجور وضغط الهجرة."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Digital health records and health informatics",
+            "ar": "السجلات الصحية الرقمية وتكنولوجيا المعلومات الصحية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Nursing and allied-health specialisations (critical care, rehabilitation)",
+            "ar": "تخصصات التمريض والمهن الطبية المساعدة (الرعاية الحرجة، إعادة التأهيل)"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Pharmaceutical manufacturing, quality and regulatory affairs",
+            "ar": "تصنيع الدواء والجودة والشؤون التنظيمية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Medical imaging with AI tools",
+            "ar": "التصوير الطبي باستخدام أدوات الذكاء الاصطناعي"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Public health and health-system management",
+            "ar": "الصحة العامة وإدارة النظم الصحية"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wbHealth",
+          "title": "Current health expenditure (% of GDP) - Egypt",
+          "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=EG",
+          "publisher": "World Bank (WDI) / WHO",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "uhis",
+          "title": "Egypt prepares to double universal health insurance reach before phase 1 results are in",
+          "url": "https://enterpriseam.com/egypt/2026/08/11/egypt-prepares-to-double-universal-health-ins-reach-before-phase-1-results-are-in/",
+          "publisher": "Enterprise",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "uhisPm",
+          "title": "Egypt's PM reviews rollout of second phase of universal health insurance scheme",
+          "url": "https://en.amwalalghad.com/?p=223893",
+          "publisher": "Amwal Al Ghad",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "pharma",
+          "title": "Pharmaceutical exports targeted to reach $3B by 2030: PM",
+          "url": "https://businesstodayegypt.com/amp/1/5132/Pharmaceutical-exports-targeted-to-reach-3B-by-2030-PM",
+          "publisher": "Business Today Egypt",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "eda",
+          "title": "Egyptian Drug Authority outlines strategy to localize pharma manufacturing",
+          "url": "https://www.cairo.gov.eg/en/news/news-eng/2025/b083f5c40931462db3c9aa760b3a6bae",
+          "publisher": "Cairo Governorate (Egyptian government portal)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "brainDrain",
+          "title": "The brain drain: why medical students and young physicians want to leave Egypt",
+          "url": "https://www.emro.who.int/emhj-volume-27-2021/volume-27-issue-12/the-brain-drain-why-medical-students-and-young-physicians-want-to-leave-egypt.html",
+          "publisher": "WHO Eastern Mediterranean Health Journal",
+          "year": 2021,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "remit",
+          "title": "Remittances from Egyptians abroad hit record high of USD 36.5 bn in FY 2024/25",
+          "url": "https://enterpriseam.com/egypt/2025/08/27/remittances-from-egyptians-abroad-hit-record-high-of-usd-36-5-bn-in-fy-24-25/",
+          "publisher": "Enterprise, reporting Central Bank of Egypt",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": {
+        "en": "Engineering",
+        "ar": "الهندسة"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 14.5,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Manufacturing value added (engineering also spans construction and utilities; industry including construction was 32.1% of GDP)",
+            "ar": "القيمة المضافة للصناعة التحويلية (تمتد الهندسة أيضًا إلى التشييد والمرافق؛ بلغت الصناعة شاملة التشييد 32.1% من الناتج المحلي)"
+          },
+          "year": 2025,
+          "sourceId": "wbMfg"
+        },
+        "realGrowth": {
+          "value": 14.5,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Non-oil manufacturing, Q1 FY2025/26 (construction grew 3.3%)",
+            "ar": "الصناعات التحويلية غير البترولية، الربع الأول من 2025/2026 (نما التشييد 3.3%)"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": 4310000,
+          "unit": "persons",
+          "sharePct": 13.5,
+          "scope": {
+            "en": "Manufacturing employment (construction adds about 3.63 million; shares computed from 32.02 million employed)",
+            "ar": "العاملون في الصناعات التحويلية (يضيف التشييد نحو 3.63 مليون؛ النسبة محسوبة من 32.02 مليون مشتغل)"
+          },
+          "year": 2025,
+          "sourceId": "capmasEmp"
+        },
+        "notes": {
+          "en": "Manufacturing is about 14.5% of GDP and employs roughly 4.3 million people; construction employs about 3.6 million. Growth in non-oil manufacturing was very strong in 2025. Treat double-digit growth as a strong recovery rather than a permanent rate.",
+          "ar": "تمثل الصناعة التحويلية نحو 14.5% من الناتج المحلي وتشغّل نحو 4.3 مليون شخص، ويعمل في التشييد نحو 3.6 مليون. كان نمو الصناعات غير البترولية قويًا جدًا في 2025، ويُفضَّل اعتبار النمو بخانتين تعافيًا قويًا وليس معدلًا دائمًا."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are contractors and developers, consulting engineering firms and state construction companies, the electricity and petroleum sectors, manufacturers (automotive, chemicals, food, textiles, electronics), and renewable-energy developers.",
+          "ar": "من أبرز جهات التوظيف شركات المقاولات والتطوير العقاري، ومكاتب الاستشارات الهندسية، وشركات المقاولات الحكومية، وقطاعا الكهرباء والبترول، والمصانع (السيارات والكيماويات والغذاء والنسيج والإلكترونيات)، ومطوّرو الطاقة المتجددة."
+        },
+        "startupFreelance": {
+          "en": "Freelance design, drafting, BIM modelling and supervision are common. Startups cluster in proptech, construction materials marketplaces, solar installers and industrial IoT, but they are small compared with contractor-led work.",
+          "ar": "العمل الحر شائع في التصميم والرسم الهندسي ونمذجة معلومات البناء (BIM) والإشراف. تتركز الشركات الناشئة في التكنولوجيا العقارية ومنصات مواد البناء ومقاولي الطاقة الشمسية وإنترنت الأشياء الصناعي، لكنها صغيرة مقارنة بالأعمال التي تقودها شركات المقاولات."
+        },
+        "remoteGcc": {
+          "en": "The Gulf is a long-standing destination for Egyptian engineers, especially civil, electrical and mechanical. Design, drafting and simulation can be done remotely for foreign firms; site work, supervision and plant operation cannot.",
+          "ar": "الخليج وجهة قديمة للمهندسين المصريين، خاصة المدني والكهرباء والميكانيكا. يمكن تنفيذ التصميم والرسم والمحاكاة عن بعد لشركات أجنبية، بينما لا يمكن ذلك في أعمال الموقع والإشراف وتشغيل المصانع."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Megaprojects and new cities",
+            "ar": "المشروعات القومية والمدن الجديدة"
+          },
+          "summary": {
+            "en": "Egypt Vision 2030 sets a well-developed infrastructure goal. The government has built the New Administrative Capital, New Alamein and other new cities, and large road and rail projects. Industry sources describe a large construction pipeline; the pace of new state-led projects depends on public finances.",
+            "ar": "تضع رؤية مصر 2030 هدف بنية تحتية متطورة. أقامت الحكومة العاصمة الإدارية الجديدة والعلمين الجديدة ومدنًا أخرى ومشروعات طرق وسكك حديدية كبيرة. تصف مصادر القطاع خط مشروعات إنشائية كبيرًا، ويعتمد وتيرة المشروعات الحكومية الجديدة على الموارد العامة."
+          }
+        },
+        {
+          "name": {
+            "en": "Integrated Sustainable Energy Strategy to 2035",
+            "ar": "استراتيجية الطاقة المتكاملة والمستدامة حتى 2035"
+          },
+          "summary": {
+            "en": "Government targets 42% of electricity from renewable sources by 2035 (about 25% solar, 14% wind, 2% hydro). An earlier aim to reach this by 2030, voiced at COP26, has not been confirmed in a published policy document.",
+            "ar": "تستهدف الحكومة أن تأتي 42% من الكهرباء من مصادر متجددة بحلول 2035 (نحو 25% شمسية و14% رياح و2% مائية). أما الطموح السابق بتحقيق ذلك بحلول 2030 الذي أُعلن في COP26 فلم يتأكد في وثيقة سياسة منشورة."
+          }
+        },
+        {
+          "name": {
+            "en": "Engineers Syndicate registration",
+            "ar": "القيد بنقابة المهندسين"
+          },
+          "summary": {
+            "en": "Practising engineering in Egypt requires an accredited engineering degree and registration with the Egyptian Engineers Syndicate. Check current rules with the syndicate.",
+            "ar": "تتطلب مزاولة الهندسة في مصر مؤهلًا هندسيًا معتمدًا والقيد بنقابة المهندسين المصرية. يُنصح بمراجعة النقابة للاطلاع على الاشتراطات الحالية."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "Design, drafting, simulation and code-checking are being assisted by AI and generative tools; site work and hands-on commissioning are much less exposed. WEF Future of Jobs 2025 expects renewable-energy engineers, environmental engineers and electric-vehicle specialists to be among the fastest-growing roles globally.",
+          "ar": "يستعين التصميم والرسم والمحاكاة ومراجعة الاشتراطات بأدوات الذكاء الاصطناعي، بينما تتأثر أعمال الموقع والتشغيل العملي أقل بكثير. يتوقع تقرير مستقبل الوظائف 2025 أن يكون مهندسو الطاقة المتجددة والبيئة وأخصائيو المركبات الكهربائية من أسرع الأدوار نموًا عالميًا."
+        },
+        "howChanging": {
+          "en": "Routine drawing becomes faster, so value shifts to judgement, safety, integration and project management. BIM, digital twins, automation and energy systems are becoming baseline skills across disciplines.",
+          "ar": "يصبح الرسم الروتيني أسرع، فتنتقل القيمة إلى الحكم الهندسي والسلامة والتكامل وإدارة المشروعات. تتحول نمذجة معلومات البناء والتوأم الرقمي والأتمتة ونظم الطاقة إلى مهارات أساسية في كل التخصصات."
+        }
+      },
+      "outlook": {
+        "trend": "transforming",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Stable to growing overall, with faster growth in energy, manufacturing and automation than in traditional building.",
+            "ar": "مستقر إلى متنامٍ بوجه عام، مع نمو أسرع في الطاقة والصناعة والأتمتة منه في البناء التقليدي."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Large infrastructure and energy plans and recovering manufacturing support demand, but the construction pipeline is sensitive to government spending and property cycles, and design tasks are being automated. Engineers who add energy, automation or data skills are best placed.",
+          "ar": "تدعم الطلبَ خطط البنية التحتية والطاقة الكبيرة وتعافي الصناعة، لكن خط مشروعات التشييد حساس للإنفاق الحكومي ودورات العقارات، وتُؤتمت مهام التصميم. الأفضل حظًا هم المهندسون الذين يضيفون مهارات الطاقة أو الأتمتة أو البيانات."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Renewable energy and power-systems engineering",
+            "ar": "هندسة الطاقة المتجددة ونظم القوى"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "BIM and digital construction",
+            "ar": "نمذجة معلومات البناء والتشييد الرقمي"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Industrial automation, robotics and mechatronics",
+            "ar": "الأتمتة الصناعية والروبوتات والميكاترونيكس"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Water, environmental and green-building engineering",
+            "ar": "هندسة المياه والبيئة والمباني الخضراء"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Project management and construction cost control",
+            "ar": "إدارة المشروعات وضبط تكاليف التشييد"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wbMfg",
+          "title": "Manufacturing, value added (% of GDP) - Egypt",
+          "url": "https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=EG",
+          "publisher": "World Bank (WDI)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wbInd",
+          "title": "Industry (including construction), value added (% of GDP) - Egypt",
+          "url": "https://data.worldbank.org/indicator/NV.IND.TOTL.ZS?locations=EG",
+          "publisher": "World Bank (WDI)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "capmasEmp",
+          "title": "Egypt jobs: unemployment falls to 6.3% in 2025 as labour force expands (CAPMAS Labour Force Survey)",
+          "url": "https://meobserver.news/economy/2026/04/30/egypt-jobs-unemployment-falls-to-6-3-in-2025-as-labour-force-expands/",
+          "publisher": "Middle East Observer, reporting CAPMAS",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "energy",
+          "title": "Breaking down the government's electricity targets and the roadmap to achieving them",
+          "url": "https://enterpriseam.com/egypt/hardhats/breaking-down-the-governments-electricity-targets-and-the-roadmap-to-achieving-them/",
+          "publisher": "Enterprise",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "construction",
+          "title": "How Egypt's $565b construction pipeline will transform economy",
+          "url": "https://gulfnews.com/business/property/how-egypts-565b-construction-pipeline-will-transform-economy-1.500218429",
+          "publisher": "Gulf News",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "agbiMfg",
+          "title": "Manufacturing to lead Egypt's drive to lift GDP next year",
+          "url": "https://www.agbi.com/economy/2026/05/egypt-manufacturing-to-lead-drive-to-lift-gdp-next-year/",
+          "publisher": "Arabian Gulf Business Insight (AGBI)",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": {
+        "en": "Technology & Data",
+        "ar": "التكنولوجيا والبيانات"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 5.8,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "ICT sector contribution to GDP (as reported by the Ministry of Communications and Information Technology)",
+            "ar": "مساهمة قطاع الاتصالات وتكنولوجيا المعلومات في الناتج المحلي (وفق وزارة الاتصالات وتكنولوجيا المعلومات)"
+          },
+          "year": 2024,
+          "sourceId": "mcitIct"
+        },
+        "realGrowth": {
+          "value": 14.5,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Communications and information technology, Q1 FY2025/26",
+            "ar": "الاتصالات وتكنولوجيا المعلومات، الربع الأول من 2025/2026"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "ICT sector employment: no official CAPMAS headcount found in the sources reviewed",
+            "ar": "العاملون في قطاع تكنولوجيا المعلومات: لم نعثر على رقم رسمي من الجهاز المركزي للتعبئة العامة والإحصاء"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "ICT is among the fastest-growing sectors. Government figures put digital exports at USD 7.4 billion and outsourcing exports at roughly USD 5.2 billion in 2025. Figures for the sector share of GDP differ between sources depending on definition (telecoms only versus broader ICT), so use 5.8% as an indicative level.",
+          "ar": "يُعد القطاع من أسرع القطاعات نموًا. تشير أرقام حكومية إلى أن الصادرات الرقمية بلغت 7.4 مليار دولار وصادرات الاستعانة بمصادر خارجية نحو 5.2 مليار دولار في 2025. تختلف نسبة مساهمة القطاع بين المصادر حسب التعريف (الاتصالات وحدها أم تكنولوجيا المعلومات الأوسع)، لذا تُؤخذ نسبة 5.8% كمستوى إرشادي."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are outsourcing and BPO centres, multinational technology branches (support, engineering and data hubs), telecom operators, banks and fintech, Egyptian software houses and the growing startup scene in Cairo.",
+          "ar": "من أبرز جهات التوظيف مراكز الاستعانة بمصادر خارجية، وفروع شركات التكنولوجيا متعددة الجنسيات (الدعم والهندسة والبيانات)، وشركات الاتصالات، والبنوك والتكنولوجيا المالية، وشركات البرمجيات المصرية، وبيئة الشركات الناشئة في القاهرة."
+        },
+        "startupFreelance": {
+          "en": "Egypt raised over USD 595 million in startup venture funding in 2025 according to press reports (third in Africa), with funding shifting toward debt for mature firms. ITIDA runs freelancing programmes (Egypt FWD, ITIDA Gigs) that help young people sell services on international platforms.",
+          "ar": "جمعت مصر أكثر من 595 مليون دولار تمويلًا مخاطرًا للشركات الناشئة في 2025 وفق تقارير صحفية (الثالثة في أفريقيا)، مع تحول التمويل نحو الدين للشركات الناضجة. تدير هيئة تنمية صناعة تكنولوجيا المعلومات (إيتيدا) برامج للعمل الحر (Egypt FWD وITIDA Gigs) تساعد الشباب على بيع خدماتهم عبر المنصات الدولية."
+        },
+        "remoteGcc": {
+          "en": "Egypt is a major offshoring destination: tech and customer-support work for European and Gulf clients is a main driver of export growth. Remote contracts with Gulf and European firms are common for developers and data roles. Entry-level roles are more competitive than a few years ago.",
+          "ar": "مصر وجهة رئيسية لنقل الأعمال للخارج: تُعد أعمال التكنولوجيا ودعم العملاء لعملاء أوروبيين وخليجيين محركًا رئيسيًا لنمو الصادرات. العقود عن بعد مع شركات خليجية وأوروبية شائعة للمطورين ووظائف البيانات. أصبحت الوظائف المبتدئة أكثر تنافسية مما كانت عليه قبل سنوات."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "National AI Strategy 2025-2030 (second edition)",
+            "ar": "الاستراتيجية الوطنية للذكاء الاصطناعي 2025-2030 (الإصدار الثاني)"
+          },
+          "summary": {
+            "en": "Six pillars: governance, technology, data, infrastructure, ecosystem and talent. Reported targets include training about 30,000 AI specialists and supporting about 250 AI startups by 2030. Press reports also cite a GDP-contribution target of 7.7%, but the exact definition differs between reports.",
+            "ar": "ست ركائز: الحوكمة والتكنولوجيا والبيانات والبنية التحتية والمنظومة والكفاءات. تتضمن المستهدفات المعلنة تدريب نحو 30 ألف متخصص في الذكاء الاصطناعي ودعم نحو 250 شركة ناشئة بحلول 2030. تذكر تقارير صحفية أيضًا مستهدفًا لمساهمة في الناتج المحلي بنسبة 7.7% لكن تعريفه يختلف بين التقارير."
+          }
+        },
+        {
+          "name": {
+            "en": "Digital Egypt and ITIDA export programmes",
+            "ar": "مصر الرقمية وبرامج إيتيدا لدعم الصادرات"
+          },
+          "summary": {
+            "en": "Government training and freelancing programmes aim to grow digital-services exports; ITIDA has publicly discussed a target of USD 6 billion in digital services in 2026.",
+            "ar": "تهدف برامج حكومية للتدريب والعمل الحر إلى زيادة صادرات الخدمات الرقمية؛ وقد ناقشت إيتيدا علنًا مستهدفًا قدره 6 مليارات دولار خدمات رقمية في 2026."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "Lists digital transformation and technology and innovation as enablers of the national strategy.",
+            "ar": "تدرج التحول الرقمي والتكنولوجيا والابتكار ضمن عوامل التمكين في الاستراتيجية الوطنية."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "high",
+        "summary": {
+          "en": "This is the cluster where AI changes the work most directly. WEF Future of Jobs 2025 ranks big-data specialists, fintech engineers and AI/machine-learning specialists among the fastest-growing roles globally. ILO research finds digitised clerical and some professional tasks have the highest generative-AI exposure, with transformation more likely than replacement.",
+          "ar": "هذا هو المجال الذي يغيّره الذكاء الاصطناعي بشكل مباشر. يضع تقرير مستقبل الوظائف 2025 أخصائيي البيانات الضخمة ومهندسي التكنولوجيا المالية وأخصائيي الذكاء الاصطناعي وتعلم الآلة بين أسرع الأدوار نموًا عالميًا. وتجد أبحاث منظمة العمل الدولية أن المهام المكتبية الرقمية وبعض المهام المهنية هي الأكثر تعرضًا للذكاء الاصطناعي التوليدي، مع ترجيح التحول على الإحلال."
+        },
+        "howChanging": {
+          "en": "Coding assistants make routine coding faster, so employers value problem framing, system design, security, data quality and the ability to check AI output. Entry-level tasks such as simple testing and basic support are shrinking, while AI engineering, cybersecurity and cloud roles are growing.",
+          "ar": "تجعل أدوات المساعدة البرمجية كتابة الشيفرة الروتينية أسرع، فيقدّر أصحاب العمل صياغة المشكلات وتصميم الأنظمة والأمن وجودة البيانات والقدرة على مراجعة مخرجات الذكاء الاصطناعي. تتقلص المهام المبتدئة مثل الاختبار البسيط والدعم الأساسي، بينما تنمو أدوار هندسة الذكاء الاصطناعي والأمن السيبراني والحوسبة السحابية."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Strong growth in demand for AI, data, cloud and cybersecurity skills; slower growth for entry-level generalist roles.",
+            "ar": "نمو قوي في الطلب على مهارات الذكاء الاصطناعي والبيانات والحوسبة السحابية والأمن السيبراني؛ ونمو أبطأ للوظائف المبتدئة العامة."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Export growth, government targets and global WEF projections all point up for specialised tech skills. Uncertainty comes from how fast AI tools reduce entry-level work and from competition between offshoring locations, so the range is wide.",
+          "ar": "يشير نمو الصادرات ومستهدفات الحكومة وتوقعات المنتدى الاقتصادي العالمي إلى صعود المهارات التقنية المتخصصة. وتأتي الشكوك من سرعة تقليل أدوات الذكاء الاصطناعي للأعمال المبتدئة ومن المنافسة بين مواقع نقل الأعمال، لذلك يتسع النطاق."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "AI and machine-learning engineering",
+            "ar": "هندسة الذكاء الاصطناعي وتعلم الآلة"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Cybersecurity",
+            "ar": "الأمن السيبراني"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Data engineering and analytics",
+            "ar": "هندسة البيانات وتحليلها"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Cloud and DevOps",
+            "ar": "الحوسبة السحابية وDevOps"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Fundamentals: algorithms, databases and English communication",
+            "ar": "الأساسيات: الخوارزميات وقواعد البيانات والتواصل بالإنجليزية"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mcitIct",
+          "title": "Egypt's ICT sector contributes 5.8% of GDP in FY2023/24",
+          "url": "https://www.businesstodayegypt.com/amp/1/4833/Egypt-s-ICT-sector-contributes-to-GDP-by-5-8",
+          "publisher": "Business Today Egypt, reporting MCIT",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "digitalExports",
+          "title": "Egypt's ICT sector posts double-digit growth, digital exports soar to $7.4b",
+          "url": "https://en.amwalalghad.com/?p=223861",
+          "publisher": "Amwal Al Ghad, reporting MCIT",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "outsourcing",
+          "title": "Egypt's outsourcing exports hit $5.2 billion in 2025",
+          "url": "https://english.ahram.org.eg/News/573235.aspx",
+          "publisher": "Ahram Online",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "oecdAi",
+          "title": "Egypt National Artificial Intelligence Strategy (OECD.AI Policy Navigator)",
+          "url": "https://oecd.ai/en/dashboards/policy-initiatives/egypt-national-artificial-intelligence-strategy",
+          "publisher": "OECD.AI",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "aiLaunch",
+          "title": "Egyptian president launches 2025-2030 National AI Strategy",
+          "url": "https://www.middleeastainews.com/p/egypt-president-el-sisi-launches-ai-strategy",
+          "publisher": "Middle East AI News",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "itida",
+          "title": "ITIDA to launch new incentives to boost freelancing competitiveness",
+          "url": "https://egyptinnovate.com/en/news/itida-to-launch-new-incentives-to-boost-freelancing-competitiveness-and-support-egyptian-freelancers",
+          "publisher": "Egypt Innovate / ITIDA",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "startups",
+          "title": "Egypt builds new funding stack as mature startups pivot from equity to institutional debt",
+          "url": "https://enterpriseam.com/egypt/2026/02/08/egypt-builds-new-funding-stack-as-mature-startups-pivot-from-equity-to-institutional-debt/",
+          "publisher": "Enterprise",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": {
+        "en": "Business & Finance",
+        "ar": "الأعمال والمال"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Financial intermediation and trade shares of GDP: not found in a source we could read",
+            "ar": "نصيب الوساطة المالية والتجارة من الناتج المحلي: لم نجده في مصدر أمكننا قراءته"
+          }
+        },
+        "realGrowth": {
+          "value": 10.2,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Financial intermediation, Q1 FY2025/26",
+            "ar": "الوساطة المالية، الربع الأول من 2025/2026"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": 5240000,
+          "unit": "persons",
+          "sharePct": 16.4,
+          "scope": {
+            "en": "Wholesale and retail trade employment (finance and insurance headcount not found; share computed from 32.02 million employed)",
+            "ar": "العاملون في تجارة الجملة والتجزئة (لم نجد عدد العاملين في التمويل والتأمين؛ النسبة محسوبة من 32.02 مليون مشتغل)"
+          },
+          "year": 2025,
+          "sourceId": "capmasEmp"
+        },
+        "notes": {
+          "en": "Trade is the second-largest employer after agriculture. Financial activities grew strongly, and financial inclusion reached 77.6% of adults 15+ by the end of 2025 (Central Bank of Egypt, as reported). Sector GDP shares were not found in a readable official source, so that field is null.",
+          "ar": "التجارة ثاني أكبر جهة تشغيل بعد الزراعة. نمت الأنشطة المالية بقوة، وبلغ الشمول المالي 77.6% من البالغين (15 سنة فأكثر) بنهاية 2025 (البنك المركزي المصري كما نُقل). لم نجد نصيب القطاع من الناتج في مصدر رسمي مقروء، لذلك ترك الحقل فارغًا."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are banks (a system of 36 banks), insurers and non-bank financial firms, the Egyptian Exchange, accounting and audit firms, retailers and distributors, FMCG and manufacturing companies, and a growing fintech sector.",
+          "ar": "من أبرز جهات التوظيف البنوك (36 بنكًا)، وشركات التأمين والتمويل غير المصرفي، والبورصة المصرية، ومكاتب المحاسبة والمراجعة، وشركات التجزئة والتوزيع، وشركات السلع الاستهلاكية والصناعة، وقطاع التكنولوجيا المالية المتنامي."
+        },
+        "startupFreelance": {
+          "en": "Fintech is the most active startup area (payments, lending, wallets). Total startup funding in Egypt was reported at over USD 595 million in 2025. Freelance work includes bookkeeping, financial modelling, consulting and e-commerce management.",
+          "ar": "التكنولوجيا المالية هي أنشط مجالات الشركات الناشئة (المدفوعات والإقراض والمحافظ). أُفيد بأن إجمالي تمويل الشركات الناشئة في مصر تجاوز 595 مليون دولار في 2025. يشمل العمل الحر مسك الدفاتر والنمذجة المالية والاستشارات وإدارة التجارة الإلكترونية."
+        },
+        "remoteGcc": {
+          "en": "Gulf financial centres recruit Egyptian accountants, bankers and analysts, and shared-service centres in Egypt serve regional finance functions. Remote bookkeeping and analysis for foreign clients are possible but face competition from automation.",
+          "ar": "تستقطب المراكز المالية الخليجية محاسبين ومصرفيين ومحللين مصريين، وتخدم مراكز الخدمات المشتركة في مصر وظائف مالية إقليمية. العمل عن بعد في مسك الدفاتر والتحليل لعملاء أجانب ممكن لكنه يواجه منافسة الأتمتة."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Central Bank fintech strategy and non-cash payments",
+            "ar": "استراتيجية البنك المركزي للتكنولوجيا المالية والمدفوعات غير النقدية"
+          },
+          "summary": {
+            "en": "The Central Bank of Egypt has a fintech strategy aiming to make Egypt a regional fintech hub, a non-cash payment law, the Meeza national card, and a fintech-focused fund.",
+            "ar": "لدى البنك المركزي المصري استراتيجية للتكنولوجيا المالية تستهدف جعل مصر مركزًا إقليميًا لها، وقانونًا للمدفوعات غير النقدية، وبطاقة ميزة الوطنية، وصندوقًا يركز على التكنولوجيا المالية."
+          }
+        },
+        {
+          "name": {
+            "en": "Financial inclusion drive",
+            "ar": "مبادرات الشمول المالي"
+          },
+          "summary": {
+            "en": "Official data show financial inclusion rising to 77.6% of adults by end-2025, with the share of women with accounts up from 19.1% in 2016 to 71.4%.",
+            "ar": "تُظهر البيانات الرسمية ارتفاع الشمول المالي إلى 77.6% من البالغين بنهاية 2025، وارتفاع نسبة النساء صاحبات الحسابات من 19.1% في 2016 إلى 71.4%."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "Sets the goal of a diversified, knowledge-based, competitive economy and lists financing as an enabler.",
+            "ar": "تضع هدف اقتصاد متنوع قائم على المعرفة وتنافسي، وتدرج التمويل ضمن عوامل التمكين."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "high",
+        "summary": {
+          "en": "Clerical and back-office work is the most exposed to automation and generative AI. WEF Future of Jobs 2025 lists bank tellers, cashiers, data-entry and administrative roles among the fastest-declining, while fintech engineers and data analysts are among the fastest-growing. ILO finds clerical occupations have the highest generative-AI exposure.",
+          "ar": "الأعمال الكتابية والإدارية الخلفية هي الأكثر تعرضًا للأتمتة والذكاء الاصطناعي التوليدي. يدرج تقرير مستقبل الوظائف 2025 أمناء الصندوق والصرافين وإدخال البيانات والوظائف الإدارية ضمن الأسرع تراجعًا، بينما مهندسو التكنولوجيا المالية ومحللو البيانات من الأسرع نموًا. وتجد منظمة العمل الدولية أن المهن الكتابية هي الأعلى تعرضًا للذكاء الاصطناعي التوليدي."
+        },
+        "howChanging": {
+          "en": "Routine processing moves to software, so jobs shift toward advice, risk, analysis, compliance and customer relationships. Digital payments and mobile wallets keep expanding.",
+          "ar": "تنتقل المعالجة الروتينية إلى البرمجيات، فتتجه الوظائف نحو الاستشارة والمخاطر والتحليل والامتثال وعلاقات العملاء. تواصل المدفوعات الرقمية والمحافظ الإلكترونية التوسع."
+        }
+      },
+      "outlook": {
+        "trend": "transforming",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Mixed: growth in analytical, fintech and compliance roles; decline in routine clerical and teller roles.",
+            "ar": "متباين: نمو في الأدوار التحليلية والتكنولوجيا المالية والامتثال، وتراجع في الأدوار الكتابية الروتينية وأمناء الصناديق."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Financial activities are growing and inclusion is expanding, but task automation is reshaping which roles exist. People with data, risk and domain skills are better placed than those in routine processing.",
+          "ar": "تنمو الأنشطة المالية ويتسع الشمول المالي، لكن أتمتة المهام تعيد تشكيل الوظائف المتاحة. أصحاب مهارات البيانات والمخاطر والخبرة المتخصصة أفضل حالًا ممن يعملون في المعالجة الروتينية."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Financial data analysis and modelling",
+            "ar": "تحليل البيانات المالية والنمذجة"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Fintech product and payments",
+            "ar": "منتجات التكنولوجيا المالية والمدفوعات"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Risk, compliance and anti-fraud",
+            "ar": "المخاطر والامتثال ومكافحة الاحتيال"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Sustainable finance and ESG reporting",
+            "ar": "التمويل المستدام وتقارير الحوكمة البيئية والاجتماعية"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Accounting and audit with digital tools",
+            "ar": "المحاسبة والمراجعة بالأدوات الرقمية"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "capmasEmp",
+          "title": "Egypt jobs: unemployment falls to 6.3% in 2025 as labour force expands (CAPMAS Labour Force Survey)",
+          "url": "https://meobserver.news/economy/2026/04/30/egypt-jobs-unemployment-falls-to-6-3-in-2025-as-labour-force-expands/",
+          "publisher": "Middle East Observer, reporting CAPMAS",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "finIncl",
+          "title": "Egypt's financial inclusion rate hits 77.6% by 2025",
+          "url": "https://www.businesstodayegypt.com/amp/1/7152/Egypt-s-financial-inclusion-rate-hits-77-6-by-2025",
+          "publisher": "Business Today Egypt, reporting Central Bank of Egypt",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "startups",
+          "title": "Egypt builds new funding stack as mature startups pivot from equity to institutional debt",
+          "url": "https://enterpriseam.com/egypt/2026/02/08/egypt-builds-new-funding-stack-as-mature-startups-pivot-from-equity-to-institutional-debt/",
+          "publisher": "Enterprise",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "remit",
+          "title": "Remittances from Egyptians abroad hit record high of USD 36.5 bn in FY 2024/25",
+          "url": "https://enterpriseam.com/egypt/2025/08/27/remittances-from-egyptians-abroad-hit-record-high-of-usd-36-5-bn-in-fy-24-25/",
+          "publisher": "Enterprise, reporting Central Bank of Egypt",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": {
+        "en": "Marketing & Media",
+        "ar": "التسويق والإعلام"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Media and advertising are not reported as a separate sector in the national accounts we reviewed",
+            "ar": "لا يُعرض الإعلام والإعلان كقطاع مستقل في الحسابات القومية التي راجعناها"
+          }
+        },
+        "realGrowth": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "No official growth rate found for media or advertising (the Communications and IT sector grew 14.5% in Q1 FY2025/26 but is mostly telecoms and IT)",
+            "ar": "لم نجد معدل نمو رسميًا للإعلام أو الإعلان (نما قطاع الاتصالات وتكنولوجيا المعلومات 14.5% لكنه يخص الاتصالات وتكنولوجيا المعلومات أساسًا)"
+          }
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Media, advertising and marketing employment: no official figure found",
+            "ar": "العاملون في الإعلام والإعلان والتسويق: لم نجد رقمًا رسميًا"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "This is one of the least well-measured clusters. Private market-research estimates exist for the advertising market but are not official statistics, so we do not use them as numbers here.",
+          "ar": "هذا من أقل المجالات قياسًا بالأرقام. توجد تقديرات من شركات أبحاث السوق لسوق الإعلان لكنها ليست إحصاءات رسمية، لذلك لا نستخدمها كأرقام هنا."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are advertising and PR agencies, in-house marketing teams at banks, telecoms, FMCG and retail companies, TV, radio, press and digital publishers, production houses and, increasingly, social-media and performance-marketing agencies.",
+          "ar": "من أبرز جهات التوظيف وكالات الإعلان والعلاقات العامة، وإدارات التسويق داخل البنوك والاتصالات والسلع الاستهلاكية والتجزئة، والتلفزيون والإذاعة والصحافة والناشرون الرقميون، وشركات الإنتاج، وبشكل متزايد وكالات التواصل الاجتماعي والتسويق بالأداء."
+        },
+        "startupFreelance": {
+          "en": "Freelancing is common: social-media management, copywriting, video editing, community management and paid-ads buying. Internet use is very high (about 82% penetration in early 2025 per industry sources), which supports digital marketing demand.",
+          "ar": "العمل الحر شائع: إدارة وسائل التواصل وكتابة المحتوى ومونتاج الفيديو وإدارة المجتمعات وشراء الإعلانات المدفوعة. استخدام الإنترنت مرتفع جدًا (نحو 82% في أوائل 2025 وفق مصادر القطاع)، مما يدعم الطلب على التسويق الرقمي."
+        },
+        "remoteGcc": {
+          "en": "Arabic-language marketing, content and video skills are in demand from Gulf brands and agencies, and many Egyptian marketers work remotely for Gulf clients.",
+          "ar": "المهارات التسويقية والمحتوى والفيديو بالعربية مطلوبة لدى العلامات والوكالات الخليجية، ويعمل كثير من المسوقين المصريين عن بعد لعملاء خليجيين."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Press and media regulation framework",
+            "ar": "الإطار التنظيمي للصحافة والإعلام"
+          },
+          "summary": {
+            "en": "Law 180 of 2018 sets the framework for press and media. The Supreme Council for Media Regulation (SCMR) licenses outlets and digital platforms and regulates advertising content; its Decision 9 of 2025, effective 1 March 2025, updated advertising rules for health services, medical and food products and competitions.",
+            "ar": "يضع القانون 180 لسنة 2018 إطار الصحافة والإعلام. يرخص المجلس الأعلى لتنظيم الإعلام للمنافذ والمنصات الرقمية وينظم المحتوى الإعلاني؛ وقد حدّث قراره رقم 9 لسنة 2025 المعمول به من 1 مارس 2025 قواعد إعلانات الخدمات الصحية والمنتجات الطبية والغذائية والمسابقات."
+          }
+        },
+        {
+          "name": {
+            "en": "Rules for online content",
+            "ar": "قواعد المحتوى على الإنترنت"
+          },
+          "summary": {
+            "en": "Online content creators are subject to the press and media law and to the Anti-Cybercrime Law No. 175 of 2018. Anyone planning professional media work should read the current rules on licensing and advertising disclosure.",
+            "ar": "يخضع صناع المحتوى على الإنترنت لقانون تنظيم الصحافة والإعلام وقانون مكافحة جرائم تقنية المعلومات رقم 175 لسنة 2018. من يخطط لعمل إعلامي احترافي عليه الاطلاع على القواعد الحالية للترخيص والإفصاح الإعلاني."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "high",
+        "summary": {
+          "en": "Generative AI can now draft copy, images, voice and video, so routine content production is highly exposed. ILO research finds transformation of jobs more likely than wholesale replacement. WEF Future of Jobs 2025 expects creative thinking, AI literacy and technological literacy among the fastest-rising skills.",
+          "ar": "يستطيع الذكاء الاصطناعي التوليدي الآن صياغة النصوص والصور والصوت والفيديو، فالإنتاج الروتيني للمحتوى معرّض بدرجة عالية. تجد أبحاث منظمة العمل الدولية أن تحول الوظائف أرجح من الإحلال الكامل. ويتوقع تقرير مستقبل الوظائف 2025 أن يكون التفكير الإبداعي ومعرفة الذكاء الاصطناعي والمعرفة التقنية بين أسرع المهارات صعودًا."
+        },
+        "howChanging": {
+          "en": "Producing a first draft becomes cheap, so value moves to strategy, original insight, brand judgement, data-driven targeting and verifying facts. Marketing is increasingly measured with analytics.",
+          "ar": "يصبح إنتاج المسودة الأولى رخيصًا، فتنتقل القيمة إلى الاستراتيجية والرؤية الأصلية وحكم العلامة التجارية والاستهداف المبني على البيانات والتحقق من المعلومات. يُقاس التسويق بشكل متزايد بالتحليلات."
+        }
+      },
+      "outlook": {
+        "trend": "transforming",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Mixed: growth in digital marketing, analytics, video and Arabic-language content; pressure on routine copy, design and print roles.",
+            "ar": "متباين: نمو في التسويق الرقمي والتحليلات والفيديو والمحتوى العربي، وضغط على الأدوار الروتينية في الكتابة والتصميم والطباعة."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "Few official statistics exist for this cluster, so confidence is low. The direction (more digital, more AI-assisted, fewer traditional print roles) is consistent across global sources, but the size of the change in Egypt is not measured.",
+          "ar": "لا توجد إحصاءات رسمية كافية لهذا المجال، لذلك الثقة منخفضة. الاتجاه (مزيد من الرقمنة والذكاء الاصطناعي وأدوار طباعية تقليدية أقل) متسق في المصادر العالمية، لكن حجم التغير في مصر غير مقيس."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Performance marketing and analytics",
+            "ar": "التسويق بالأداء والتحليلات"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Short-form video production and editing",
+            "ar": "إنتاج ومونتاج الفيديو القصير"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Working with AI tools while checking facts and quality",
+            "ar": "العمل بأدوات الذكاء الاصطناعي مع التحقق من الحقائق والجودة"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Brand strategy and Arabic-language storytelling",
+            "ar": "استراتيجية العلامة التجارية والسرد بالعربية"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mediaAds",
+          "title": "Advertising & Marketing 2025: Egypt",
+          "url": "https://practiceguides.chambers.com/practice-guides/advertising-marketing-2025/egypt",
+          "publisher": "Chambers and Partners",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mediaRules",
+          "title": "What you need to know about Egypt's new advertising rules",
+          "url": "https://www.tamimi.com/news/what-you-need-to-know-about-egypts-new-advertising-rules",
+          "publisher": "Al Tamimi & Co.",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "name": {
+        "en": "Creative & Design",
+        "ar": "الإبداع والتصميم"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Creative industries are not measured as a separate sector in official Egyptian accounts",
+            "ar": "الصناعات الإبداعية غير مقيسة كقطاع مستقل في الحسابات الرسمية المصرية"
+          }
+        },
+        "realGrowth": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "No official growth rate found",
+            "ar": "لم نجد معدل نمو رسميًا"
+          }
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Creative-sector employment: no official figure found; a British Council study describes the sector as large and largely informal",
+            "ar": "العاملون في القطاع الإبداعي: لم نجد رقمًا رسميًا؛ وتصفه دراسة المجلس الثقافي البريطاني بأنه كبير وغير رسمي في معظمه"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "A British Council Egypt study found that creative industries sit across several ministries and laws and are often informal, which is why official numbers are missing. This is the weakest-measured cluster, so confidence is low.",
+          "ar": "وجدت دراسة للمجلس الثقافي البريطاني في مصر أن الصناعات الإبداعية موزعة بين عدة وزارات وقوانين وغالبًا غير رسمية، ولهذا تغيب الأرقام الرسمية. هذا أضعف المجالات قياسًا، لذلك الثقة منخفضة."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are design and branding studios, advertising agencies, architecture and interior firms, animation and game studios, film, TV and drama production companies, publishers, and in-house design teams at tech and retail companies.",
+          "ar": "من أبرز جهات التوظيف استوديوهات التصميم والهوية البصرية، ووكالات الإعلان، ومكاتب العمارة والديكور، واستوديوهات الرسوم المتحركة والألعاب، وشركات إنتاج الأفلام والتلفزيون والدراما، ودور النشر، وفرق التصميم داخل شركات التكنولوجيا والتجزئة."
+        },
+        "startupFreelance": {
+          "en": "Freelancing and project-based work dominate. Gaming is described by Egyptian business press as a growing market that could create jobs for illustrators, writers, composers and voice actors, but the local industry is still small.",
+          "ar": "يغلب العمل الحر والعمل بالمشروع. تصف الصحافة الاقتصادية المصرية الألعاب بأنها سوق متنامٍ قد يوفر وظائف للرسامين والكتّاب والملحنين والممثلين الصوتيين، لكن الصناعة المحلية ما زالت صغيرة."
+        },
+        "remoteGcc": {
+          "en": "Gulf clients hire Egyptian designers, animators and architects, and remote contracts for illustration, motion graphics and UI design are common. Portfolios matter more than degrees for most remote work.",
+          "ar": "يوظف عملاء خليجيون مصممين ومحركي رسوم ومعماريين مصريين، والعقود عن بعد في الرسم التوضيحي والموشن جرافيك وتصميم الواجهات شائعة. تهم ملفات الأعمال أكثر من الشهادات في معظم العمل عن بعد."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Fragmented regulatory framework",
+            "ar": "إطار تنظيمي متفرق"
+          },
+          "summary": {
+            "en": "Registration, taxation and intellectual-property rules for creative work are spread across different ministries and authorities, according to a British Council Egypt study. Digital content platforms fall under the Supreme Council for Media Regulation.",
+            "ar": "تتوزع قواعد التسجيل والضرائب وحقوق الملكية الفكرية للعمل الإبداعي بين وزارات وجهات مختلفة وفق دراسة للمجلس الثقافي البريطاني في مصر. وتخضع منصات المحتوى الرقمي للمجلس الأعلى لتنظيم الإعلام."
+          }
+        },
+        {
+          "name": {
+            "en": "Architecture and design licensing",
+            "ar": "ترخيص العمارة والتصميم"
+          },
+          "summary": {
+            "en": "Architects practise under the Egyptian Engineers Syndicate. Graphic and digital designers do not need a licence.",
+            "ar": "يمارس المعماريون عملهم تحت مظلة نقابة المهندسين المصرية. لا يحتاج المصممون الجرافيكيون والرقميون إلى ترخيص."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "high",
+        "summary": {
+          "en": "Image, music and video generators handle many routine design tasks, and ILO research finds digitised creative and clerical tasks among the more exposed. Hands-on craft, in-person collaboration and original direction are less exposed. WEF Future of Jobs 2025 lists creative thinking among the skills employers value most.",
+          "ar": "تتولى مولدات الصور والموسيقى والفيديو كثيرًا من مهام التصميم الروتينية، وتجد أبحاث منظمة العمل الدولية أن المهام الإبداعية والكتابية المرقمنة من الأكثر تعرضًا. أما الحرفة اليدوية والتعاون المباشر والتوجيه الإبداعي الأصلي فأقل تعرضًا. ويدرج تقرير مستقبل الوظائف 2025 التفكير الإبداعي ضمن أكثر المهارات التي يقدّرها أصحاب العمل."
+        },
+        "howChanging": {
+          "en": "Designers who direct AI tools, keep a recognisable style and understand users and brands can produce more. Entry-level production work is under pressure, while art direction, UX research and interactive design become more important.",
+          "ar": "يستطيع المصممون الذين يوجّهون أدوات الذكاء الاصطناعي ويحافظون على أسلوب مميز ويفهمون المستخدمين والعلامات إنتاج المزيد. يتعرض العمل الإنتاجي المبتدئ لضغط، بينما تزداد أهمية التوجيه الفني وأبحاث تجربة المستخدم والتصميم التفاعلي."
+        }
+      },
+      "outlook": {
+        "trend": "transforming",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Mixed and uneven: growth in UX/UI, motion, game art and brand work; pressure on routine illustration and layout jobs.",
+            "ar": "متباين وغير متساوٍ: نمو في تجربة المستخدم والموشن وفنون الألعاب والهوية البصرية، وضغط على أعمال الرسم والتنسيق الروتينية."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "No official data exist and the market is largely freelance, so any forecast is a judgement from global sources. A strong portfolio, a specialty and AI fluency matter more than the title of the degree.",
+          "ar": "لا توجد بيانات رسمية والسوق قائم على العمل الحر في معظمه، فأي توقع هو تقدير من مصادر عالمية. تهم المهارة المثبتة بملف أعمال قوي والتخصص وإجادة أدوات الذكاء الاصطناعي أكثر من اسم الشهادة."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "UX/UI and product design",
+            "ar": "تصميم تجربة وواجهة المستخدم والمنتجات"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Motion graphics and video",
+            "ar": "الموشن جرافيك والفيديو"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Game art and animation",
+            "ar": "فنون الألعاب والرسوم المتحركة"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Art direction and brand identity",
+            "ar": "التوجيه الفني والهوية البصرية"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "Directing AI image and video tools",
+            "ar": "توجيه أدوات الذكاء الاصطناعي للصور والفيديو"
+          },
+          "momentum": "emerging"
+        }
+      ],
+      "sources": [
+        {
+          "id": "creativeBc",
+          "title": "Contextualizing Creativity, Recognizing Informality: On Creative Industries in Egypt",
+          "url": "https://britishcouncil.org.eg/en/programmes/arts/creative-economy/study-contextualizing-creativity-recognizing-informality",
+          "publisher": "British Council Egypt",
+          "year": 2020,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "gaming",
+          "title": "Can Egypt's growing gaming market pave the way for a creative boom?",
+          "url": "https://enterpriseam.com/egypt/2026/02/05/can-egypts-growing-gaming-market-pave-the-way-for-a-creative-boom/",
+          "publisher": "Enterprise",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mediaAds",
+          "title": "Advertising & Marketing 2025: Egypt",
+          "url": "https://practiceguides.chambers.com/practice-guides/advertising-marketing-2025/egypt",
+          "publisher": "Chambers and Partners",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "name": {
+        "en": "Law & Public Service",
+        "ar": "القانون والخدمة العامة"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Legal and public-administration shares of GDP: not found in a source we could read",
+            "ar": "نصيب الخدمات القانونية والإدارة العامة من الناتج: لم نجده في مصدر أمكننا قراءته"
+          }
+        },
+        "realGrowth": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "No sector growth figure found for legal services or public administration",
+            "ar": "لم نجد معدل نمو للخدمات القانونية أو الإدارة العامة"
+          }
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Legal and public-sector employment: no reliable CAPMAS figure found. Bar Association membership is reported in the hundreds of thousands (estimates vary), and many members do not practise",
+            "ar": "العاملون في القانون والقطاع العام: لم نجد رقمًا موثوقًا من الجهاز المركزي للتعبئة العامة والإحصاء. تُقدَّر عضوية نقابة المحامين بمئات الآلاف (تختلف التقديرات) ولا يمارس كثير منهم المهنة"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "Official data are limited. Egypt has a very large number of registered lawyers relative to practising positions, which makes the entry stage competitive. Public service is a large employer, but headcount data are not summarised here.",
+          "ar": "البيانات الرسمية محدودة. عدد المحامين المقيدين في مصر كبير جدًا مقارنة بفرص الممارسة، مما يجعل مرحلة البداية تنافسية. القطاع العام جهة تشغيل كبيرة لكن بيانات أعداد العاملين غير مجمعة هنا."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are law firms (small practices to large commercial firms), in-house legal teams at banks, multinationals and developers, the judiciary and public prosecution, State Council and State Lawsuits Authority, ministries and local administration, and notary offices.",
+          "ar": "من أبرز جهات التوظيف مكاتب المحاماة (من المكاتب الصغيرة إلى الكبرى التجارية)، والإدارات القانونية في البنوك والشركات متعددة الجنسيات والمطورين، والقضاء والنيابة العامة ومجلس الدولة وهيئة قضايا الدولة، والوزارات والإدارة المحلية، ومكاتب التوثيق."
+        },
+        "startupFreelance": {
+          "en": "Most lawyers work independently or in small offices. Legal-tech and online legal information services are early-stage.",
+          "ar": "يعمل معظم المحامين بشكل مستقل أو في مكاتب صغيرة. خدمات التكنولوجيا القانونية والمعلومات القانونية عبر الإنترنت في مراحلها الأولى."
+        },
+        "remoteGcc": {
+          "en": "Gulf and international firms recruit Egyptian lawyers, particularly in commercial, arbitration and compliance work. Court work is local, so remote practice is limited to research, drafting and advisory work.",
+          "ar": "تستقطب شركات خليجية ودولية محامين مصريين، خاصة في الأعمال التجارية والتحكيم والامتثال. العمل أمام المحاكم محلي، فيقتصر العمل عن بعد على البحث والصياغة والاستشارات."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Judicial digital transformation",
+            "ar": "التحول الرقمي في منظومة العدالة"
+          },
+          "summary": {
+            "en": "The Ministry of Justice and the Ministry of Communications launched new digital justice services in September 2025, and electronic litigation platforms operate in the economic courts and State Council courts.",
+            "ar": "أطلقت وزارتا العدل والاتصالات خدمات عدالة رقمية جديدة في سبتمبر 2025، وتعمل منصات التقاضي الإلكتروني في المحاكم الاقتصادية ومحاكم مجلس الدولة."
+          }
+        },
+        {
+          "name": {
+            "en": "Advocates Law and Bar Association",
+            "ar": "قانون المحاماة ونقابة المحامين"
+          },
+          "summary": {
+            "en": "Law 17 of 1983 governs the legal profession. Membership of the Bar Association is required to practise as a lawyer.",
+            "ar": "ينظم القانون 17 لسنة 1983 مهنة المحاماة. القيد بنقابة المحامين شرط لمزاولة المهنة."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "Includes governance and partnerships among its six strategic goals.",
+            "ar": "تدرج الحوكمة والشراكات ضمن أهدافها الاستراتيجية الستة."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "Legal research, document review and first-draft contracts are well suited to AI, so these tasks are changing fastest. ILO research finds professional tasks that are digitised are more exposed, but advocacy, negotiation and court appearance still depend on human judgement and licensing.",
+          "ar": "البحث القانوني ومراجعة المستندات ومسودات العقود الأولى مناسبة جدًا للذكاء الاصطناعي، فهي الأسرع تغيرًا. تجد أبحاث منظمة العمل الدولية أن المهام المهنية المرقمنة أكثر تعرضًا، لكن المرافعة والتفاوض والحضور أمام المحاكم ما زالت تعتمد على الحكم البشري والترخيص."
+        },
+        "howChanging": {
+          "en": "Junior research and drafting tasks shrink, so employers expect new lawyers to use AI tools and to add specialist knowledge (commercial, IP, data protection, arbitration). Courts and public services are moving online.",
+          "ar": "تقل مهام البحث والصياغة المبتدئة، فيتوقع أصحاب العمل من المحامين الجدد استخدام أدوات الذكاء الاصطناعي وإضافة معرفة متخصصة (تجاري، ملكية فكرية، حماية البيانات، تحكيم). وتتحول المحاكم والخدمات العامة إلى المنصات الإلكترونية."
+        }
+      },
+      "outlook": {
+        "trend": "stable",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Broadly stable overall; growth in commercial, compliance, data-protection and arbitration work; a crowded entry stage.",
+            "ar": "مستقر عمومًا؛ مع نمو في الأعمال التجارية والامتثال وحماية البيانات والتحكيم؛ ومرحلة بداية مزدحمة."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "Demand follows the economy and public-sector hiring, and no official forecast was found. Digitisation of courts and the number of graduates are the main factors shaping entry-level opportunities.",
+          "ar": "يتبع الطلب الاقتصاد والتعيينات في القطاع العام، ولم نجد توقعًا رسميًا. رقمنة المحاكم وعدد الخريجين من أهم العوامل المؤثرة في فرص البداية."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Commercial, corporate and arbitration law",
+            "ar": "القانون التجاري وقانون الشركات والتحكيم"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "Compliance and data protection",
+            "ar": "الامتثال وحماية البيانات"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Legal tech and AI-assisted research",
+            "ar": "التكنولوجيا القانونية والبحث بمساعدة الذكاء الاصطناعي"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Intellectual property and technology law",
+            "ar": "الملكية الفكرية وقانون التكنولوجيا"
+          },
+          "momentum": "rising"
+        }
+      ],
+      "sources": [
+        {
+          "id": "digitalJustice",
+          "title": "Egypt launches new digital justice projects to accelerate transformation",
+          "url": "https://meatechwatch.com/2025/10/01/egypt-launches-new-digital-justice-projects-to-accelerate-transformation/",
+          "publisher": "MEA Tech Watch",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "eLitigation",
+          "title": "Egypt launches electronic litigation system in State Council courts",
+          "url": "https://www.cairo.gov.eg/en/news/news-eng/2024/31fc132ade5b44e9884b159572ea3a77",
+          "publisher": "Cairo Governorate (Egyptian government portal)",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "lawyers",
+          "title": "How Egyptian Lawyers Engage with the State",
+          "url": "https://clp.law.harvard.edu/knowledge-hub/magazine/issues/lawyers-between-democracy-and-authoritarianism/how-egyptian-lawyers-engage-with-the-state/",
+          "publisher": "Harvard Law School Center on the Legal Profession",
+          "year": 2022,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": {
+        "en": "Education & Social",
+        "ar": "التعليم والعمل الاجتماعي"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Education value-added share of GDP: not found; the latest World Bank figure for government education spending is from 2008, so it is not used",
+            "ar": "نصيب التعليم من الناتج المحلي: لم نجده؛ وآخر رقم للبنك الدولي عن الإنفاق الحكومي على التعليم يعود إلى 2008 فلم نستخدمه"
+          }
+        },
+        "realGrowth": {
+          "value": 4.6,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Social services (health and education combined), Q1 FY2025/26",
+            "ar": "الخدمات الاجتماعية (الصحة والتعليم معًا)، الربع الأول من 2025/2026"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Education employment: press reports cite about 843,000 pre-university teachers with a reported deficit, but the year and basis are unclear, so the field is left null",
+            "ar": "العاملون في التعليم: تذكر تقارير صحفية نحو 843 ألف معلم في التعليم قبل الجامعي مع عجز معلن، لكن السنة والأساس غير واضحين، لذلك ترك الحقل فارغًا"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "Education has one of the largest public workforces and a reported shortage of teachers. Government recruited teachers under a plan of 30,000 per year, and also uses hourly-paid teachers. Growth shown is for health and education combined.",
+          "ar": "يضم التعليم واحدة من أكبر قوى العمل الحكومية وعجزًا معلنًا في المعلمين. جندت الحكومة معلمين وفق خطة 30 ألف سنويًا وتستعين أيضًا بمعلمين بالحصة. معدل النمو المعروض يخص الصحة والتعليم معًا."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are the Ministry of Education, public and private universities, private and international schools, language centres, training providers and NGOs, along with social-service bodies such as the Ministry of Social Solidarity.",
+          "ar": "من أبرز جهات التوظيف وزارة التربية والتعليم، والجامعات الحكومية والخاصة، والمدارس الخاصة والدولية، ومراكز اللغات، وجهات التدريب، والمنظمات الأهلية، وجهات الخدمة الاجتماعية مثل وزارة التضامن الاجتماعي."
+        },
+        "startupFreelance": {
+          "en": "Private tutoring and online education are large informal markets. Ed-tech startups focus on exam preparation, coding education and corporate training.",
+          "ar": "الدروس الخصوصية والتعليم عبر الإنترنت سوقان كبيران غير رسميين. تركز شركات التكنولوجيا التعليمية الناشئة على التحضير للامتحانات وتعليم البرمجة وتدريب الشركات."
+        },
+        "remoteGcc": {
+          "en": "Gulf countries have long recruited Egyptian teachers and lecturers. Online teaching of Arabic, English and school subjects to students abroad is a growing remote option.",
+          "ar": "استقطبت دول الخليج لسنوات معلمين ومحاضرين مصريين. التدريس عبر الإنترنت للعربية والإنجليزية والمواد الدراسية لطلاب في الخارج خيار عن بعد متنامٍ."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Teacher recruitment plan",
+            "ar": "خطة تعيين المعلمين"
+          },
+          "summary": {
+            "en": "The government announced in 2024 a plan to recruit 30,000 teachers per year for five years to reduce the teacher deficit.",
+            "ar": "أعلنت الحكومة في 2024 خطة لتعيين 30 ألف معلم سنويًا لمدة خمس سنوات لسد عجز المعلمين."
+          }
+        },
+        {
+          "name": {
+            "en": "Private-sector share and technical education",
+            "ar": "حصة القطاع الخاص والتعليم الفني"
+          },
+          "summary": {
+            "en": "The national narrative for comprehensive development sets a target of a 20% private-school market share by 2030, and the government is reforming technical education with international partners such as GIZ.",
+            "ar": "تضع السردية الوطنية للتنمية الشاملة مستهدفًا بنسبة 20% لحصة المدارس الخاصة بحلول 2030، وتعمل الحكومة على إصلاح التعليم الفني بالتعاون مع شركاء دوليين مثل GIZ."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "Lists education and knowledge-based development under its strategic goals.",
+            "ar": "تدرج التعليم والتنمية القائمة على المعرفة ضمن أهدافها الاستراتيجية."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "low",
+        "summary": {
+          "en": "AI is entering lesson planning, marking and tutoring, but teaching relies on human relationships and classroom management. WEF Future of Jobs 2025 expects growth in vocational education teachers and secondary-school teachers globally, and a rise in demand for training and upskilling.",
+          "ar": "يدخل الذكاء الاصطناعي في إعداد الدروس والتصحيح والتدريس الخصوصي، لكن التعليم يقوم على العلاقات الإنسانية وإدارة الصف. يتوقع تقرير مستقبل الوظائف 2025 نموًا في معلمي التعليم المهني ومعلمي المرحلة الثانوية عالميًا وزيادة الطلب على التدريب وإعادة التأهيل."
+        },
+        "howChanging": {
+          "en": "Teachers who use digital tools to personalise learning and cut admin time gain most. Blended and online learning grows, and demand rises for skills trainers and special-education specialists.",
+          "ar": "يستفيد أكثر المعلمون الذين يستخدمون الأدوات الرقمية لتخصيص التعلم وتقليل العمل الإداري. يتوسع التعلم المدمج وعبر الإنترنت، ويرتفع الطلب على مدربي المهارات وأخصائيي التربية الخاصة."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Moderate growth in teaching demand (teacher shortage and student numbers), with faster growth in training, special education and technical teaching.",
+            "ar": "نمو معتدل في الطلب على التدريس (عجز المعلمين وأعداد الطلاب)، مع نمو أسرع في التدريب والتربية الخاصة والتدريس الفني."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "A reported teacher deficit, hiring plans and large school-age cohorts support demand. Pay levels and public budgets are the main constraints on how quickly demand turns into jobs.",
+          "ar": "يدعم الطلبَ عجز المعلمين المعلن وخطط التعيين وكبر أعداد الأطفال في سن الدراسة. أهم القيود على سرعة تحول الطلب إلى وظائف هي مستويات الأجور والموازنات العامة."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Special education and inclusive teaching",
+            "ar": "التربية الخاصة والتدريس الدامج"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Digital pedagogy and ed-tech",
+            "ar": "التربية الرقمية والتكنولوجيا التعليمية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "STEM and technical-subject teaching",
+            "ar": "تدريس العلوم والتكنولوجيا والمواد الفنية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Early-childhood education and counselling",
+            "ar": "تعليم الطفولة المبكرة والإرشاد"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "teachers",
+          "title": "Egypt's plan to recruit 30,000 educators annually",
+          "url": "https://egyptianstreets.com/2024/06/04/egypts-plan-to-recruit-30000-educators-annually/",
+          "publisher": "Egyptian Streets",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "privateSchools",
+          "title": "The state sets a 20% market share target for private schools by 2030",
+          "url": "https://enterpriseam.com/egypt/blackboards/the-state-sets-a-20-market-share-target-for-private-schools-by-2030-in-its-national-narrative-for-comprehensive-development/",
+          "publisher": "Enterprise",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "gizTvet",
+          "title": "Technical support to the Comprehensive Technical Education Initiative, Egypt",
+          "url": "https://www.giz.de/en/projects/technical-support-comprehensive-technical-education-initiative-egypt-2",
+          "publisher": "GIZ",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": {
+        "en": "Science & Research",
+        "ar": "العلوم والبحث"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 1.02,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Proxy: research and development expenditure as a share of GDP (science is not a separate sector in national accounts)",
+            "ar": "مؤشر بديل: الإنفاق على البحث والتطوير كنسبة من الناتج المحلي (العلوم ليست قطاعًا مستقلًا في الحسابات القومية)"
+          },
+          "year": 2024,
+          "sourceId": "wbRd"
+        },
+        "realGrowth": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "No sector growth figure exists for research; R&D spending rose from 0.64% of GDP in 2017 to 1.02% in 2024",
+            "ar": "لا يوجد معدل نمو قطاعي للبحث؛ ارتفع الإنفاق على البحث والتطوير من 0.64% من الناتج في 2017 إلى 1.02% في 2024"
+          }
+        },
+        "employment": {
+          "value": null,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Researcher headcount: no figure found in the sources reviewed",
+            "ar": "عدد الباحثين: لم نجد رقمًا في المصادر التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "notes": {
+          "en": "R&D spending has risen steadily to about 1% of GDP, which is a meaningful improvement but still modest. Research jobs are concentrated in universities, national research centres and a small number of company labs.",
+          "ar": "ارتفع الإنفاق على البحث والتطوير بثبات إلى نحو 1% من الناتج المحلي، وهو تحسن ملموس لكنه ما زال متواضعًا. تتركز وظائف البحث في الجامعات والمراكز البحثية الوطنية وعدد قليل من معامل الشركات."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are universities, national research centres (for example under the Academy of Scientific Research and Technology and the National Research Centre), pharmaceutical and chemical companies, food and agricultural firms, environmental and water agencies, and laboratories.",
+          "ar": "من أبرز جهات التوظيف الجامعات والمراكز البحثية الوطنية (مثل التابعة لأكاديمية البحث العلمي والتكنولوجيا والمركز القومي للبحوث)، وشركات الدواء والكيماويات، وشركات الأغذية والزراعة، وجهات البيئة والمياه، والمعامل."
+        },
+        "startupFreelance": {
+          "en": "Deep-tech startups (biotech, agritech, climate) are few. The Science and Technology Development Fund (STDF) funds research and innovation projects. Freelance work is mostly lab analysis, scientific writing and data work.",
+          "ar": "الشركات الناشئة في التكنولوجيا العميقة (التقنية الحيوية والتقنية الزراعية والمناخ) قليلة. يموّل صندوق العلوم والتنمية التكنولوجية مشروعات البحث والابتكار. العمل الحر غالبًا في التحاليل المعملية والكتابة العلمية وأعمال البيانات."
+        },
+        "remoteGcc": {
+          "en": "Many Egyptian scientists build careers abroad through graduate study. Data analysis and computational research can be done remotely, while lab work cannot.",
+          "ar": "يبني كثير من العلماء المصريين مسارهم بالخارج عبر الدراسات العليا. يمكن إجراء تحليل البيانات والبحوث الحاسوبية عن بعد، بينما لا يمكن ذلك في العمل المعملي."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "National Strategy for Science, Technology and Innovation 2030",
+            "ar": "الاستراتيجية الوطنية للعلوم والتكنولوجيا والابتكار 2030"
+          },
+          "summary": {
+            "en": "Issued by the Ministry of Higher Education and Scientific Research; aims for Egypt to be creative, innovative and productive in science and technology by 2030.",
+            "ar": "صادرة عن وزارة التعليم العالي والبحث العلمي، وتهدف إلى أن تكون مصر مبدعة ومبتكرة ومنتجة في العلوم والتكنولوجيا بحلول 2030."
+          }
+        },
+        {
+          "name": {
+            "en": "Research funding bodies",
+            "ar": "جهات تمويل البحث"
+          },
+          "summary": {
+            "en": "The Academy of Scientific Research and Technology coordinates national research councils, and the STDF (created by Presidential Decree 218 of 2007) finances research aligned with national priorities.",
+            "ar": "تنسق أكاديمية البحث العلمي والتكنولوجيا المجالس البحثية الوطنية، ويموّل صندوق العلوم والتنمية التكنولوجية (أُنشئ بالقرار الجمهوري 218 لسنة 2007) البحوث المتسقة مع الأولويات الوطنية."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "Lists technology and innovation as enablers and a knowledge-based economy as a goal.",
+            "ar": "تدرج التكنولوجيا والابتكار كعوامل تمكين والاقتصاد القائم على المعرفة كهدف."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "AI speeds up literature review, data analysis, simulation and some lab automation. WEF Future of Jobs 2025 expects analytical thinking, AI and big-data skills to be among the fastest-growing skills, and ILO finds transformation more likely than replacement.",
+          "ar": "يسرّع الذكاء الاصطناعي مراجعة الأدبيات وتحليل البيانات والمحاكاة وبعض الأتمتة المعملية. يتوقع تقرير مستقبل الوظائف 2025 أن تكون مهارات التفكير التحليلي والذكاء الاصطناعي والبيانات الضخمة من الأسرع نموًا، وتجد منظمة العمل الدولية أن التحول أرجح من الإحلال."
+        },
+        "howChanging": {
+          "en": "Science is becoming more computational: every field now needs coding and statistics. Researchers who combine a domain (biology, chemistry, physics, earth science) with data skills have the widest options.",
+          "ar": "يصبح العلم أكثر حاسوبية: كل مجال يحتاج الآن إلى البرمجة والإحصاء. الباحثون الذين يجمعون بين تخصص (أحياء، كيمياء، فيزياء، علوم الأرض) ومهارات البيانات لديهم أوسع الخيارات."
+        }
+      },
+      "outlook": {
+        "trend": "stable",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Stable to modestly growing; growth is concentrated in applied fields (pharma, biotech, environment, data science) rather than academic posts.",
+            "ar": "مستقر إلى متنامٍ بشكل معتدل؛ ويتركز النمو في المجالات التطبيقية (الدواء والتقنية الحيوية والبيئة وعلم البيانات) لا في الوظائف الأكاديمية."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "R&D spending has grown but remains around 1% of GDP, and academic positions are limited. Applied roles tied to pharma localisation, energy, agriculture and data offer more openings. No official job forecast exists.",
+          "ar": "نما الإنفاق على البحث لكنه ما زال نحو 1% من الناتج، والوظائف الأكاديمية محدودة. تتيح الأدوار التطبيقية المرتبطة بتوطين الدواء والطاقة والزراعة والبيانات فرصًا أكثر. لا يوجد توقع رسمي للوظائف."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Data science for scientists (Python, statistics)",
+            "ar": "علم البيانات للعلماء (بايثون والإحصاء)"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Biotechnology and pharmaceutical R&D",
+            "ar": "التقنية الحيوية والبحث والتطوير الدوائي"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Environmental, water and climate science",
+            "ar": "علوم البيئة والمياه والمناخ"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Materials and energy research",
+            "ar": "أبحاث المواد والطاقة"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Scientific writing and research methods",
+            "ar": "الكتابة العلمية ومناهج البحث"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wbRd",
+          "title": "Research and development expenditure (% of GDP) - Egypt",
+          "url": "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=EG",
+          "publisher": "World Bank (WDI) / UNESCO UIS",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "sti",
+          "title": "National Strategy for Science, Technology and Innovation 2030",
+          "url": "https://www.pua.edu.eg/wp-content/uploads/2021/01/National-Strategy-for-Science-Technology-and-Innovation-2030.pdf",
+          "publisher": "Ministry of Higher Education and Scientific Research (Egypt)",
+          "year": 2016,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "tourism",
+      "name": {
+        "en": "Tourism & Hospitality",
+        "ar": "السياحة والضيافة"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 8.5,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Travel & Tourism contribution to GDP (WTTC definition, EGP 1.4 trillion)",
+            "ar": "مساهمة السفر والسياحة في الناتج المحلي (تعريف المجلس العالمي للسفر والسياحة، 1.4 تريليون جنيه)"
+          },
+          "year": 2024,
+          "sourceId": "wttc"
+        },
+        "realGrowth": {
+          "value": 13.8,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Tourism (restaurants and hotels), Q1 FY2025/26",
+            "ar": "السياحة (المطاعم والفنادق)، الربع الأول من 2025/2026"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": 2700000,
+          "unit": "persons",
+          "sharePct": null,
+          "scope": {
+            "en": "Jobs supported by Travel & Tourism (WTTC estimate; WTTC forecasts 2.9 million for 2025)",
+            "ar": "الوظائف التي يدعمها قطاع السفر والسياحة (تقدير المجلس العالمي للسفر والسياحة؛ ويتوقع 2.9 مليون في 2025)"
+          },
+          "year": 2024,
+          "sourceId": "wttc"
+        },
+        "notes": {
+          "en": "WTTC reports a record 2024: EGP 1.4 trillion contribution (8.5% of GDP), 2.7 million jobs and 15.7 million international visitors. Tourism is highly exposed to regional security and global shocks, which is why growth can swing from year to year.",
+          "ar": "يذكر المجلس العالمي للسفر والسياحة أن 2024 كان عامًا قياسيًا: مساهمة 1.4 تريليون جنيه (8.5% من الناتج) و2.7 مليون وظيفة و15.7 مليون زائر دولي. السياحة شديدة التأثر بالأوضاع الإقليمية والصدمات العالمية، ولذلك قد يتقلب النمو من عام لآخر."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are hotels and resorts (Red Sea, Sinai, Cairo, Luxor and Aswan), tour operators and travel agencies, airlines and airports, restaurants and cafes, cruise operators, museums and heritage sites, and event and conference companies.",
+          "ar": "من أبرز جهات التوظيف الفنادق والمنتجعات (البحر الأحمر وسيناء والقاهرة والأقصر وأسوان)، وشركات السياحة ووكالات السفر، وشركات الطيران والمطارات، والمطاعم والمقاهي، وشركات الرحلات النيلية، والمتاحف والمواقع الأثرية، وشركات الفعاليات والمؤتمرات."
+        },
+        "startupFreelance": {
+          "en": "Freelance tour guiding, diving and desert-safari instruction, photography and online travel services are common. Startups focus on booking platforms, experiences and hospitality technology.",
+          "ar": "العمل الحر شائع في الإرشاد السياحي وتدريب الغوص ورحلات السفاري والتصوير والخدمات السياحية عبر الإنترنت. تركز الشركات الناشئة على منصات الحجز والتجارب وتكنولوجيا الضيافة."
+        },
+        "remoteGcc": {
+          "en": "Gulf hotel groups and airlines hire Egyptian hospitality staff, and language skills are valuable. Most on-site tourism jobs cannot be done remotely; online travel sales, revenue management and digital marketing can.",
+          "ar": "توظف مجموعات فندقية وشركات طيران خليجية عاملين مصريين في الضيافة، واللغات ميزة مهمة. لا يمكن أداء معظم وظائف السياحة الميدانية عن بعد؛ بينما يمكن ذلك في مبيعات السفر عبر الإنترنت وإدارة الإيرادات والتسويق الرقمي."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "30 million tourists by 2031 target",
+            "ar": "مستهدف 30 مليون سائح بحلول 2031"
+          },
+          "summary": {
+            "en": "The Minister of Tourism and Antiquities has stated a goal of 30 million tourists a year by 2031, conditional on regional conditions. Around 19,000 new hotel rooms were expected in 2025 after 7,200 in 2024, and the plan covers hotels, restaurants, safari camps, theme parks and heritage sites through public-private partnerships.",
+            "ar": "صرّح وزير السياحة والآثار بهدف 30 مليون سائح سنويًا بحلول 2031 بشرط استقرار الأوضاع الإقليمية. كان متوقعًا إضافة نحو 19 ألف غرفة فندقية في 2025 بعد 7,200 في 2024، وتشمل الخطة الفنادق والمطاعم ومعسكرات السفاري والمدن الترفيهية والمواقع الأثرية عبر الشراكة بين القطاعين العام والخاص."
+          }
+        },
+        {
+          "name": {
+            "en": "Revenue target",
+            "ar": "مستهدف الإيرادات"
+          },
+          "summary": {
+            "en": "Press reports cite a goal of raising tourism revenue to about USD 40.5 billion by FY2029/30.",
+            "ar": "تذكر تقارير صحفية هدف رفع إيرادات السياحة إلى نحو 40.5 مليار دولار بحلول 2029/2030."
+          }
+        },
+        {
+          "name": {
+            "en": "Tourism strategy pillars and flagship heritage projects",
+            "ar": "ركائز استراتيجية السياحة والمشروعات الأثرية الكبرى"
+          },
+          "summary": {
+            "en": "The ministry cites diversification, sustainability, capacity building and digital transformation as pillars, and the Grand Egyptian Museum as a flagship project.",
+            "ar": "تذكر الوزارة التنويع والاستدامة وبناء القدرات والتحول الرقمي كركائز، والمتحف المصري الكبير كمشروع رئيسي."
+          }
+        },
+        {
+          "name": {
+            "en": "Tour-guide and travel-agency licensing",
+            "ar": "ترخيص المرشدين السياحيين ووكالات السفر"
+          },
+          "summary": {
+            "en": "Tour guides and travel agencies must be licensed by the Ministry of Tourism and Antiquities. Check current requirements with the ministry.",
+            "ar": "يجب أن يكون المرشدون السياحيون ووكالات السفر مرخصين من وزارة السياحة والآثار. يُنصح بمراجعة الوزارة للاشتراطات الحالية."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "Online booking, dynamic pricing, chatbots and self-service check-in are automating reservations and front-desk routines. Service roles that depend on personal contact, languages and local knowledge are less exposed. WEF Future of Jobs 2025 expects customer-service roles to shift as AI tools take on routine enquiries.",
+          "ar": "يؤتمت الحجز عبر الإنترنت والتسعير الديناميكي وروبوتات المحادثة وتسجيل الوصول الذاتي الحجوزات وأعمال الاستقبال الروتينية. الأدوار التي تعتمد على الاتصال الشخصي واللغات والمعرفة المحلية أقل تعرضًا. ويتوقع تقرير مستقبل الوظائف 2025 تحول أدوار خدمة العملاء مع تولي أدوات الذكاء الاصطناعي للاستفسارات الروتينية."
+        },
+        "howChanging": {
+          "en": "Hospitality staff increasingly combine service skills with digital tools, revenue management and sustainability practice. Experiences (diving, culture, wellness, adventure) and personalised service are where people add value.",
+          "ar": "يجمع العاملون في الضيافة بشكل متزايد بين مهارات الخدمة والأدوات الرقمية وإدارة الإيرادات وممارسات الاستدامة. تظهر قيمة العنصر البشري في التجارب (الغوص والثقافة والعافية والمغامرة) والخدمة المخصصة."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": 10,
+          "high": 20,
+          "unit": "percent change in tourism jobs over 5 years (derived, indicative)",
+          "band": {
+            "en": "Moderate growth. Range is derived from WTTC jobs of 2.7 million (2024) rising to a projected 3.8 million in 2035 (about 3% a year, about +17% over five years), widened for uncertainty. It is not an official forecast.",
+            "ar": "نمو معتدل. النطاق مشتق من تقدير المجلس العالمي للسفر والسياحة: 2.7 مليون وظيفة في 2024 ترتفع إلى 3.8 مليون في 2035 (نحو 3% سنويًا، أي نحو +17% خلال خمس سنوات)، مع توسيع النطاق لمراعاة عدم اليقين. ليس توقعًا رسميًا."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Record visitor numbers, hotel-capacity expansion and a stated 30 million target support growth. The main risks are regional security, global travel shocks; the stated target depends on regional conditions, so real outcomes may be lower or higher than the range.",
+          "ar": "تدعم النمو أعداد الزوار القياسية وتوسع الطاقة الفندقية والمستهدف المعلن بـ30 مليون سائح. أهم المخاطر الأوضاع الإقليمية وصدمات السفر العالمية؛ ويعتمد المستهدف المعلن على الظروف الإقليمية، لذا قد تأتي النتائج الفعلية أقل أو أعلى من النطاق."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Languages (English plus German, Russian, Chinese or Italian)",
+            "ar": "اللغات (الإنجليزية مع الألمانية أو الروسية أو الصينية أو الإيطالية)"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "Hospitality revenue management and digital marketing",
+            "ar": "إدارة إيرادات الضيافة والتسويق الرقمي"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Heritage, cultural and eco-tourism guiding",
+            "ar": "الإرشاد في السياحة الثقافية والتراثية والبيئية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Sustainable hotel and resort operations",
+            "ar": "تشغيل الفنادق والمنتجعات بشكل مستدام"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Diving, adventure and wellness tourism",
+            "ar": "سياحة الغوص والمغامرات والعافية"
+          },
+          "momentum": "rising"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wttc",
+          "title": "Travel & Tourism in Egypt reaches historic milestones",
+          "url": "https://wttc.org/news/travel-and-tourism-in-egypt-reaches-historic-milestones",
+          "publisher": "World Travel & Tourism Council (WTTC)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "tourTarget",
+          "title": "Egypt targets 30 million tourists by 2031 under new investment plan",
+          "url": "https://www.dailynewsegypt.com/?p=833010",
+          "publisher": "Daily News Egypt",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "tourArrivals",
+          "title": "Egypt sees record 15.7 million tourists in 2024",
+          "url": "https://egyptianstreets.com/2025/01/03/egypt-sees-record-15-7-million-tourists-in-2024-aims-for-18-million-in-2025/",
+          "publisher": "Egyptian Streets",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "tourRevenue",
+          "title": "Egypt prepares to attract US$40 billion annually from tourism",
+          "url": "https://www.egyptindependent.com/egypt-prepares-to-attract-us40-billion-annually-from-tourism/",
+          "publisher": "Egypt Independent",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "trades",
+      "name": {
+        "en": "Skilled Trades & Technical",
+        "ar": "المهن الفنية والتقنية"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Trades cut across construction, manufacturing and services; industry including construction was 32.1% of GDP in 2025 (World Bank), which is too broad to attribute to trades",
+            "ar": "تتقاطع المهن الفنية مع التشييد والصناعة والخدمات؛ بلغت الصناعة شاملة التشييد 32.1% من الناتج في 2025 (البنك الدولي) وهو نطاق أوسع من أن يُنسب إلى المهن الفنية"
+          }
+        },
+        "realGrowth": {
+          "value": 3.3,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Construction, Q1 FY2025/26 (proxy; non-oil manufacturing grew 14.5%)",
+            "ar": "التشييد، الربع الأول من 2025/2026 (مؤشر بديل؛ نمت الصناعات التحويلية غير البترولية 14.5%)"
+          },
+          "year": 2025,
+          "sourceId": "mpedQ1"
+        },
+        "employment": {
+          "value": 3630000,
+          "unit": "persons",
+          "sharePct": 11.3,
+          "scope": {
+            "en": "Construction employment (a large share of skilled-trades work; the Q3 2025 quarterly figure was 3.82 million; share computed from 32.02 million employed)",
+            "ar": "العاملون في التشييد (يمثل نسبة كبيرة من المهن الفنية؛ وبلغ الرقم الربعي للربع الثالث 2025 نحو 3.82 مليون؛ النسبة محسوبة من 32.02 مليون مشتغل)"
+          },
+          "year": 2025,
+          "sourceId": "capmasEmp"
+        },
+        "notes": {
+          "en": "Construction employs about 3.6 million people, and manufacturing another 4.3 million. Much trade work is informal, which the ILO diagnostic of Egypt's informal economy documents. Informality means lower job security and benefits, but also low barriers to start working.",
+          "ar": "يعمل في التشييد نحو 3.6 مليون شخص وفي الصناعة التحويلية نحو 4.3 مليون. جزء كبير من العمل الحرفي غير رسمي كما يوثق التشخيص الذي أعدته منظمة العمل الدولية للاقتصاد غير الرسمي في مصر. تعني اللارسمية أمانًا وظيفيًا ومزايا أقل، لكنها تعني أيضًا حواجز دخول منخفضة."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are contractors and developers, factories, the electricity and gas utilities, solar and HVAC installers, car dealers and workshops, shipyards and ports, telecom operators and building-services firms. Many tradespeople are self-employed.",
+          "ar": "من أبرز جهات التوظيف شركات المقاولات والتطوير، والمصانع، وشركات الكهرباء والغاز، ومقاولو الطاقة الشمسية والتكييف، وتوكيلات وورش السيارات، والترسانات والموانئ، وشركات الاتصالات، وشركات خدمات المباني. كثير من الحرفيين يعملون لحسابهم."
+        },
+        "startupFreelance": {
+          "en": "Self-employment is common, and app-based marketplaces for home services (electricians, plumbers, technicians) are growing. Starting a small workshop or installation business has a lower cost than most degrees.",
+          "ar": "العمل الحر شائع، وتنمو منصات الخدمات المنزلية (كهرباء وسباكة وفنيون). تأسيس ورشة صغيرة أو شركة تركيب أقل تكلفة من معظم المؤهلات الجامعية."
+        },
+        "remoteGcc": {
+          "en": "Gulf countries are a major destination for Egyptian skilled workers (electricians, welders, mechanics, technicians). Trades cannot be done remotely, although design, planning and diagnostics increasingly are.",
+          "ar": "دول الخليج وجهة رئيسية للعمالة الفنية المصرية (كهربائيون ولحامون وميكانيكيون وفنيون). لا يمكن أداء الحرف عن بعد، وإن أصبح التصميم والتخطيط والتشخيص يتم عن بعد بشكل متزايد."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Technical education reform",
+            "ar": "إصلاح التعليم الفني"
+          },
+          "summary": {
+            "en": "The government and international partners such as GIZ are reforming technical education, with a stronger link to employers and applied-technology schools. Studies describe the system as under-funded with a shortage of qualified staff and equipment, so quality varies.",
+            "ar": "تعمل الحكومة وشركاء دوليون مثل GIZ على إصلاح التعليم الفني بربط أقوى بأصحاب العمل ومدارس التكنولوجيا التطبيقية. تصف دراسات المنظومة بأنها تعاني نقص التمويل ونقص المعلمين والمعدات المؤهلة، لذلك تتفاوت الجودة."
+          }
+        },
+        {
+          "name": {
+            "en": "Infrastructure and renewable-energy buildout",
+            "ar": "التوسع في البنية التحتية والطاقة المتجددة"
+          },
+          "summary": {
+            "en": "Vision 2030 infrastructure goals and the 2035 energy strategy (42% renewable electricity target) create demand for electricians, technicians and installers.",
+            "ar": "تخلق أهداف البنية التحتية في رؤية 2030 واستراتيجية الطاقة حتى 2035 (مستهدف 42% كهرباء متجددة) طلبًا على الكهربائيين والفنيين والمركّبين."
+          }
+        },
+        {
+          "name": {
+            "en": "Informality",
+            "ar": "العمل غير الرسمي"
+          },
+          "summary": {
+            "en": "The ILO has published an informal-economy diagnostic for Egypt; formal registration affects social insurance and contracts.",
+            "ar": "نشرت منظمة العمل الدولية تشخيصًا للاقتصاد غير الرسمي في مصر؛ ويؤثر القيد الرسمي على التأمينات الاجتماعية والعقود."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "low",
+        "summary": {
+          "en": "Physical trades in unpredictable settings are among the least exposed to AI. WEF Future of Jobs 2025 expects construction workers and other frontline workers among the roles adding the most jobs in absolute terms, while advising that digital skills are becoming part of every job.",
+          "ar": "الحرف البدنية في بيئات غير متوقعة من الأقل تعرضًا للذكاء الاصطناعي. يتوقع تقرير مستقبل الوظائف 2025 أن يكون عمال البناء وغيرهم من العاملين في الخطوط الأمامية من بين الأدوار الأكثر إضافة للوظائف بالأعداد المطلقة، مع تنبيهه إلى أن المهارات الرقمية تصبح جزءًا من كل وظيفة."
+        },
+        "howChanging": {
+          "en": "Tools are becoming digital: smart meters, solar and battery systems, electric vehicles, CNC machines and diagnostics software. Technicians who learn these systems earn more than those who stay with older methods.",
+          "ar": "تتحول الأدوات إلى رقمية: عدادات ذكية ونظم الطاقة الشمسية والبطاريات والسيارات الكهربائية وآلات التحكم الرقمي وبرمجيات التشخيص. يكسب الفنيون الذين يتعلمون هذه النظم أكثر ممن يبقون على الأساليب القديمة."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Steady to moderate growth, faster for technicians in solar, electric vehicles, automation and building services.",
+            "ar": "نمو ثابت إلى معتدل، وأسرع للفنيين في الطاقة الشمسية والسيارات الكهربائية والأتمتة وخدمات المباني."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Infrastructure, energy and manufacturing plans and Gulf demand support the need for skilled workers, and physical trades are hard to automate. Formal qualifications and safety certificates are the difference between informal and better-paid formal work. Construction cycles tied to public spending are the main risk.",
+          "ar": "تدعم خطط البنية التحتية والطاقة والصناعة والطلب الخليجي الحاجة إلى العمالة الماهرة، ويصعب أتمتة الحرف البدنية. تصنع المؤهلات الرسمية وشهادات السلامة الفارق بين العمل غير الرسمي والعمل الرسمي الأعلى أجرًا. أهم المخاطر دورات التشييد المرتبطة بالإنفاق العام."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Solar PV and battery installation",
+            "ar": "تركيب الألواح الشمسية والبطاريات"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Electric-vehicle and hybrid maintenance",
+            "ar": "صيانة السيارات الكهربائية والهجينة"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Industrial automation and mechatronics technician skills",
+            "ar": "مهارات فني الأتمتة الصناعية والميكاترونيكس"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "HVAC and building-services technology",
+            "ar": "تكنولوجيا التكييف وخدمات المباني"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "Welding and CNC machining certifications",
+            "ar": "شهادات اللحام والتشغيل بالتحكم الرقمي"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "capmasEmp",
+          "title": "Egypt jobs: unemployment falls to 6.3% in 2025 as labour force expands (CAPMAS Labour Force Survey)",
+          "url": "https://meobserver.news/economy/2026/04/30/egypt-jobs-unemployment-falls-to-6-3-in-2025-as-labour-force-expands/",
+          "publisher": "Middle East Observer, reporting CAPMAS",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "mpedQ1",
+          "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
+          "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
+          "publisher": "Ministry of Planning, Economic Development and International Cooperation (Egypt)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "gizTvet",
+          "title": "Technical support to the Comprehensive Technical Education Initiative, Egypt",
+          "url": "https://www.giz.de/en/projects/technical-support-comprehensive-technical-education-initiative-egypt-2",
+          "publisher": "GIZ",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloInformal",
+          "title": "Informal economy diagnostic study in Egypt",
+          "url": "https://www.ilo.org/sites/default/files/2025-04/Informality%20EN.pdf",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "energy",
+          "title": "Breaking down the government's electricity targets and the roadmap to achieving them",
+          "url": "https://enterpriseam.com/egypt/hardhats/breaking-down-the-governments-electricity-targets-and-the-roadmap-to-achieving-them/",
+          "publisher": "Enterprise",
+          "year": 2024,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "construction",
+          "title": "How Egypt's $565b construction pipeline will transform economy",
+          "url": "https://gulfnews.com/business/property/how-egypts-565b-construction-pipeline-will-transform-economy-1.500218429",
+          "publisher": "Gulf News",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": {
+        "en": "Agriculture & Food",
+        "ar": "الزراعة والغذاء"
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 16.55,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Agriculture, forestry and fishing value added (nominal share; sensitive to price changes and data revisions: 10.6% in 2023, 13.7% in 2024)",
+            "ar": "القيمة المضافة للزراعة والغابات والصيد (نسبة اسمية؛ حساسة للأسعار وتعديلات البيانات: 10.6% في 2023 و13.7% في 2024)"
+          },
+          "year": 2025,
+          "sourceId": "wbAgri"
+        },
+        "realGrowth": {
+          "value": null,
+          "year": null,
+          "sourceId": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "No agriculture growth figure found in the sources reviewed (agriculture was reported among positive-growth sectors)",
+            "ar": "لم نجد معدل نمو للزراعة في المصادر التي راجعناها (ذُكرت الزراعة ضمن القطاعات ذات النمو الإيجابي)"
+          }
+        },
+        "employment": {
+          "value": 6570000,
+          "unit": "persons",
+          "sharePct": 20.5,
+          "scope": {
+            "en": "Agriculture and fishing employment (CAPMAS 2025); the ILO-modelled share was 17.5% in 2025",
+            "ar": "العاملون في الزراعة والصيد (الجهاز المركزي للتعبئة العامة والإحصاء 2025)؛ وبلغت النسبة المقدرة لمنظمة العمل الدولية 17.5% في 2025"
+          },
+          "year": 2025,
+          "sourceId": "capmasEmp"
+        },
+        "notes": {
+          "en": "Agriculture is the largest single employer (about 6.6 million, around one in five workers). The share of workers in farming has been falling slowly (19.3% in 2021 to 17.5% in 2025 on ILO estimates) as other sectors grow. Fresh-food exports reached USD 11.5 billion in 2025 and total agricultural exports a record 9.5 million tonnes, per press reports.",
+          "ar": "الزراعة أكبر جهة تشغيل منفردة (نحو 6.6 مليون، أي نحو واحد من كل خمسة عاملين). تنخفض نسبة العاملين في الزراعة ببطء (من 19.3% في 2021 إلى 17.5% في 2025 وفق تقديرات منظمة العمل الدولية) مع نمو القطاعات الأخرى. بلغت صادرات الغذاء الطازج 11.5 مليار دولار في 2025 وإجمالي الصادرات الزراعية رقمًا قياسيًا قدره 9.5 مليون طن وفق تقارير صحفية."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are smallholder and commercial farms, export-oriented horticulture companies, food-processing and packing firms, input suppliers (seeds, fertilisers, irrigation), agricultural cooperatives, research centres, veterinary services, and environmental and water agencies.",
+          "ar": "من أبرز جهات التوظيف المزارع الصغيرة والتجارية، وشركات البستنة المصدّرة، وشركات تصنيع وتعبئة الأغذية، وموردو المدخلات (بذور وأسمدة وري)، والجمعيات التعاونية الزراعية، والمراكز البحثية، والخدمات البيطرية، وجهات البيئة والمياه."
+        },
+        "startupFreelance": {
+          "en": "Agritech startups (marketplaces, farm advisory, IoT irrigation, cold-chain logistics) are growing but small. Many farmers are self-employed. Agricultural engineers and consultants can also work as freelancers.",
+          "ar": "الشركات الناشئة في التقنية الزراعية (أسواق إلكترونية، إرشاد زراعي، ري ذكي، سلسلة التبريد) تنمو لكنها صغيرة. كثير من المزارعين يعملون لحسابهم، ويمكن للمهندسين والاستشاريين الزراعيين العمل كمستقلين."
+        },
+        "remoteGcc": {
+          "en": "Gulf countries import Egyptian fresh produce and hire agricultural engineers and technicians. Farm work is local, while advisory, remote sensing and market work can be done remotely.",
+          "ar": "تستورد دول الخليج المنتجات الطازجة المصرية وتوظف مهندسين وفنيين زراعيين. العمل الزراعي محلي، بينما يمكن أداء الإرشاد والاستشعار عن بعد والعمل التسويقي عن بعد."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "New Delta and land reclamation",
+            "ar": "الدلتا الجديدة واستصلاح الأراضي"
+          },
+          "summary": {
+            "en": "The New Delta project is reported to cover about 2.2 million feddans (around 15% more cultivated land), cost around USD 15.1 billion and aim to create more than two million jobs once complete.",
+            "ar": "يُذكر أن مشروع الدلتا الجديدة يغطي نحو 2.2 مليون فدان (نحو 15% زيادة في الأرض المزروعة) بتكلفة نحو 15.1 مليار دولار ويستهدف أكثر من مليوني وظيفة عند اكتماله."
+          }
+        },
+        {
+          "name": {
+            "en": "Export growth plans",
+            "ar": "خطط زيادة الصادرات"
+          },
+          "summary": {
+            "en": "Officials have announced plans to expand agricultural exports; press reports cite a goal of doubling them from 2026.",
+            "ar": "أعلن مسؤولون خططًا لتوسيع الصادرات الزراعية؛ وتذكر تقارير صحفية هدف مضاعفتها اعتبارًا من 2026."
+          }
+        },
+        {
+          "name": {
+            "en": "Egypt Vision 2030",
+            "ar": "رؤية مصر 2030"
+          },
+          "summary": {
+            "en": "Includes an integrated and sustainable environmental system among its six strategic goals.",
+            "ar": "تدرج نظامًا بيئيًا متكاملًا ومستدامًا ضمن أهدافها الاستراتيجية الستة."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "Precision irrigation, drones, sensors and AI crop advice are entering Egyptian farming, although most farms are small and use few of them. WEF Future of Jobs 2025 lists farmworkers among the roles adding the most jobs in absolute numbers globally, together with growth in agritech and sustainability specialists.",
+          "ar": "يدخل الري الدقيق والطائرات المسيّرة والمستشعرات ونصائح المحاصيل بالذكاء الاصطناعي إلى الزراعة المصرية، رغم أن معظم المزارع صغيرة وتستخدم القليل منها. يدرج تقرير مستقبل الوظائف 2025 عمال الزراعة بين الأدوار الأكثر إضافة للوظائف بالأعداد المطلقة عالميًا، مع نمو في أخصائيي التقنية الزراعية والاستدامة."
+        },
+        "howChanging": {
+          "en": "Fewer people do traditional field labour, while more roles appear in water management, export quality control, packing, cold chain, drone and sensor operation, and farm data. Farming is becoming more technical and market-driven.",
+          "ar": "يقل عدد من يعملون في العمل الحقلي التقليدي، بينما تظهر أدوار أكثر في إدارة المياه ومراقبة جودة الصادرات والتعبئة وسلسلة التبريد وتشغيل الطائرات المسيّرة والمستشعرات وبيانات المزارع. تصبح الزراعة أكثر تقنية وارتباطًا بالسوق."
+        }
+      },
+      "outlook": {
+        "trend": "transforming",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Total farm jobs likely stable or slowly falling as a share of employment; growth in export, agri-processing, water-efficiency and agritech roles.",
+            "ar": "يُرجَّح استقرار إجمالي وظائف المزارع أو انخفاضها ببطء كنسبة من التشغيل؛ مع نمو في أدوار التصدير والتصنيع الزراعي وكفاءة المياه والتقنية الزراعية."
+          }
+        },
+        "confidence": "medium",
+        "rationale": {
+          "en": "Farming's share of employment has been declining slowly while exports and land-reclamation projects expand. The mix of jobs is changing toward higher-skill, higher-value roles. Water availability and project delivery are key uncertainties.",
+          "ar": "تنخفض حصة الزراعة من التشغيل ببطء بينما تتوسع الصادرات ومشروعات الاستصلاح. تتغير تركيبة الوظائف نحو أدوار أعلى مهارة وقيمة. أهم عوامل عدم اليقين توافر المياه وتنفيذ المشروعات."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Water-efficient and precision irrigation",
+            "ar": "الري الموفر للمياه والري الدقيق"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Food safety, quality control and export standards",
+            "ar": "سلامة الغذاء ومراقبة الجودة ومعايير التصدير"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Agritech: sensors, drones and farm data",
+            "ar": "التقنية الزراعية: المستشعرات والطائرات المسيّرة وبيانات المزارع"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Cold chain, packing and agri-logistics",
+            "ar": "سلسلة التبريد والتعبئة واللوجستيات الزراعية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Soil, crop and plant-protection science",
+            "ar": "علوم التربة والمحاصيل ووقاية النبات"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "wbAgri",
+          "title": "Agriculture, forestry, and fishing, value added (% of GDP) - Egypt",
+          "url": "https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS?locations=EG",
+          "publisher": "World Bank (WDI)",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wbAgriEmp",
+          "title": "Employment in agriculture (% of total employment, modeled ILO estimate) - Egypt",
+          "url": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=EG",
+          "publisher": "World Bank (WDI) / ILO",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "capmasEmp",
+          "title": "Egypt jobs: unemployment falls to 6.3% in 2025 as labour force expands (CAPMAS Labour Force Survey)",
+          "url": "https://meobserver.news/economy/2026/04/30/egypt-jobs-unemployment-falls-to-6-3-in-2025-as-labour-force-expands/",
+          "publisher": "Middle East Observer, reporting CAPMAS",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "agriZawya",
+          "title": "An eye on Egypt's agriculture sector",
+          "url": "https://www.zawya.com/en/economy/north-africa/an-eye-on-egypts-agriculture-sector-y589ybg0",
+          "publisher": "Zawya",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "agriExports",
+          "title": "Egypt's fresh food exports jump 8.5% to $11.5B",
+          "url": "https://www.businesstodayegypt.com/amp/1/7075/Egypt%E2%80%99s-fresh-food-exports-jump-8-5-to-11-5B",
+          "publisher": "Business Today Egypt",
+          "year": 2026,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "vision",
+          "title": "Egypt Vision 2030",
+          "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

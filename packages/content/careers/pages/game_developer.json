@@ -1,0 +1,420 @@
+{
+  "id": "game_developer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You turn an idea in your head into a world other people can play.",
+      "ar": "تحوّل فكرة في رأسك إلى عالم يلعبه الآخرون."
+    },
+    "summary": {
+      "en": "Game developers write the code, build the tools and tune the rules behind video and mobile games. Egypt has a big player base (press reports say about 31 million gamers), but local studios are still few and small, so many developers also build apps or work remotely for foreign studios. The job mixes programming, maths and creativity.",
+      "ar": "مطوّر الألعاب يكتب الكود ويبني الأدوات ويضبط القواعد التي تقوم عليها ألعاب الفيديو والموبايل. في مصر عدد كبير من اللاعبين (تقول الصحافة إن عددهم نحو 31 مليونًا)، لكن الاستوديوهات المحلية ما زالت قليلة وصغيرة، فيعمل كثير من المطورين أيضًا في التطبيقات أو عن بُعد لاستوديوهات أجنبية. الوظيفة تجمع بين البرمجة والرياضيات والخيال."
+    },
+    "dayInLife": {
+      "en": "You start by checking the bug list from last night's test. A player's character gets stuck in a wall on level three, so you track down the code that handles movement and fix it. After a short team meeting you work with the artist to make a new enemy move smoothly, then tweak its speed again and again until the fight feels fair. In the afternoon you test the game on an old phone because many players use cheap devices. Before you leave you save your work to the shared project and write notes for tomorrow.",
+      "ar": "تبدأ يومك بقائمة الأخطاء التي وجدها المختبرون أمس. شخصية اللاعب تعلق في الحائط في المرحلة الثالثة، فتبحث عن الكود المسؤول عن الحركة وتصلحه. بعد اجتماع قصير مع الفريق تعمل مع الفنان حتى تتحرك شخصية العدو الجديدة بسلاسة، ثم تغيّر سرعتها مرة بعد مرة حتى يصبح القتال عادلًا. بعد الظهر تجرّب اللعبة على موبايل قديم لأن كثيرًا من اللاعبين يستخدمون أجهزة رخيصة. قبل أن تنصرف تحفظ عملك في المشروع المشترك وتكتب ملاحظات لباكر."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Write gameplay code: movement, controls, scoring, enemy behaviour and menus.",
+        "ar": "تكتب كود اللعب: الحركة والتحكم والنقاط وسلوك الأعداء والقوائم."
+      },
+      {
+        "en": "Design game rules, levels and difficulty, and test them with real players.",
+        "ar": "تصمم قواعد اللعبة والمراحل ومستوى الصعوبة وتجرّبها مع لاعبين حقيقيين."
+      },
+      {
+        "en": "Find and fix bugs, and make the game run smoothly on cheap phones and old computers.",
+        "ar": "تكتشف الأخطاء وتصلحها وتجعل اللعبة تعمل بسلاسة على الموبايلات الرخيصة والأجهزة القديمة."
+      },
+      {
+        "en": "Work with artists, sound designers and writers to bring their work into the game.",
+        "ar": "تعمل مع الفنانين ومصممي الصوت والكتّاب لإدخال أعمالهم في اللعبة."
+      },
+      {
+        "en": "Publish the game on stores such as Google Play, the App Store or Steam and release updates.",
+        "ar": "تنشر اللعبة على متاجر مثل جوجل بلاي وآب ستور وستيم وتُصدر التحديثات."
+      },
+      {
+        "en": "Read player reviews and data, then improve the game.",
+        "ar": "تقرأ آراء اللاعبين وبيانات اللعب ثم تحسّن اللعبة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "A game studio or software house, often with a small team",
+        "ar": "استوديو ألعاب أو شركة برمجيات، غالبًا بفريق صغير"
+      },
+      {
+        "en": "Working remotely from home or a co-working space",
+        "ar": "العمل عن بُعد من البيت أو من مساحة عمل مشتركة"
+      },
+      {
+        "en": "Game jams, where teams build a small game in a weekend",
+        "ar": "مسابقات صناعة الألعاب (Game Jams) التي يبني فيها الفريق لعبة صغيرة في عطلة أسبوع"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Unity (C#), Unreal Engine (C++) or Godot",
+        "ar": "محركات الألعاب: Unity (بلغة C#) أو Unreal Engine (بلغة C++) أو Godot"
+      },
+      {
+        "en": "Git for sharing code with the team",
+        "ar": "Git لمشاركة الكود مع الفريق"
+      },
+      {
+        "en": "Blender or other 3D and 2D art tools (basic level)",
+        "ar": "Blender وأدوات الرسم ثلاثي وثنائي الأبعاد (بمستوى أساسي)"
+      },
+      {
+        "en": "Bug trackers such as Jira or Trello",
+        "ar": "أدوات تتبع المهام والأخطاء مثل Jira وTrello"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or O-Level: Computer Science, Mathematics and Physics. American Diploma: AP Computer Science and Calculus if your school offers them. IB: Computer Science and Maths. You can start coding now without any course, because engines like Unity and Godot are free.",
+      "ar": "IGCSE أو O-Level: علوم الحاسب والرياضيات والفيزياء. الدبلومة الأمريكية: مادتا AP Computer Science وCalculus إن توفرتا في مدرستك. IB: علوم الحاسب والرياضيات. تستطيع أن تبدأ البرمجة من الآن بلا أي دورة، لأن Unity وGodot مجانيان."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Computers and Information / Artificial Intelligence (public universities)",
+        "ar": "كلية الحاسبات والمعلومات / الذكاء الاصطناعي (الجامعات الحكومية)"
+      },
+      {
+        "en": "Faculty of Engineering, computer or communications department",
+        "ar": "كلية الهندسة، قسم الحاسبات أو الاتصالات"
+      },
+      {
+        "en": "Private university programs in computer science, IT or media engineering (for example media engineering at GUC)",
+        "ar": "برامج الجامعات الخاصة في علوم الحاسب وتكنولوجيا المعلومات وهندسة الإعلام (مثل هندسة الإعلام في الجامعة الألمانية GUC)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "sohag-university-computers-information",
+      "german-university-in-cairo-media-engineering-technology",
+      "nile-university-information-technology-computer-science",
+      "misr-international-university-computer-science"
+    ],
+    "tansikNote": {
+      "en": "Public computers and information faculties asked for roughly 84% to 89% in the 2023 phase-1 lists and 87% to 91% in 2024 (for example Cairo University 87.44% and Ain Shams 87.2% in 2024). Alexandria's faculty was 88.75% in 2025 and Sohag's was 91.41% in 2026 (percent of the total). Private universities show a 61% regulatory floor for science-track programs in 2025/26, but that is only a legal minimum, not the real cutoff, and they charge fees.",
+      "ar": "طلبت كليات الحاسبات والمعلومات الحكومية نحو 84% إلى 89% في المرحلة الأولى لعام 2023 ونحو 87% إلى 91% في 2024 (مثلًا جامعة القاهرة 87.44% وعين شمس 87.2% في 2024). وكانت كلية الإسكندرية 88.75% في 2025 وسوهاج 91.41% في 2026 (نسبة مئوية من المجموع). تعرض الجامعات الخاصة حدًا أدنى تنظيميًا 61% للشعب العلمية في 2025/26، لكنه حد قانوني فقط وليس حد القبول الفعلي، وهذه الجامعات لها مصروفات."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Teach yourself with free engines and online courses, then build a portfolio of small finished games. Many studios care more about your games than your degree.",
+        "ar": "تعلّم بنفسك بمحركات مجانية ودورات على الإنترنت، ثم ابنِ ملف أعمال من ألعاب صغيرة مكتملة. كثير من الاستوديوهات تهتم بألعابك أكثر من شهادتك."
+      },
+      {
+        "en": "Coding schools open to under-18s, such as 3C Coding School and iSchool, which teach game programming from a young age.",
+        "ar": "مدارس برمجة تقبل من هم أقل من 18 سنة مثل 3C Coding School وiSchool وتعلّم برمجة الألعاب من سن صغيرة."
+      },
+      {
+        "en": "After graduation: the ITI 9-month program or bootcamps (graduates only) to strengthen software skills.",
+        "ar": "بعد التخرج: برنامج ITI مدته 9 شهور أو معسكرات تدريب (للخريجين فقط) لتقوية مهارات البرمجة."
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Programming in C# or C++ (and Python for tools)",
+        "ar": "البرمجة بلغة C# أو C++ (وبايثون للأدوات)"
+      },
+      {
+        "en": "Data structures, algorithms and basic maths such as vectors and geometry",
+        "ar": "هياكل البيانات والخوارزميات والرياضيات الأساسية مثل المتجهات والهندسة"
+      },
+      {
+        "en": "A game engine such as Unity, Unreal or Godot",
+        "ar": "إتقان محرك ألعاب مثل Unity أو Unreal أو Godot"
+      },
+      {
+        "en": "Game design basics: loops, balance and level design",
+        "ar": "أساسيات تصميم الألعاب: حلقات اللعب والتوازن وتصميم المراحل"
+      },
+      {
+        "en": "Version control (Git) and performance optimisation",
+        "ar": "التحكم في الإصدارات (Git) وتحسين الأداء"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience when a bug takes hours to find",
+        "ar": "الصبر حين يأخذ البحث عن خطأ ساعات"
+      },
+      {
+        "en": "Finishing projects, not only starting them",
+        "ar": "إنهاء المشروعات وليس بدايتها فقط"
+      },
+      {
+        "en": "Accepting feedback on your work",
+        "ar": "تقبّل النقد على عملك"
+      },
+      {
+        "en": "Teamwork with artists and designers",
+        "ar": "العمل الجماعي مع الفنانين والمصممين"
+      },
+      {
+        "en": "Creativity and curiosity about how things work",
+        "ar": "الخيال والفضول لمعرفة كيف تعمل الأشياء"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: documentation, tutorials and foreign studios are mostly in English",
+        "ar": "الإنجليزية: التوثيق والشروحات والاستوديوهات الأجنبية بالإنجليزية غالبًا"
+      },
+      {
+        "en": "Arabic: useful for games and stories made for the local and Gulf markets",
+        "ar": "العربية: مفيدة للألعاب والقصص الموجّهة للسوق المحلي والخليجي"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Unity Certified User or Associate (optional)",
+        "ar": "شهادة Unity Certified User أو Associate (اختيارية)"
+      },
+      {
+        "en": "No license is needed to work. A portfolio matters more than certificates.",
+        "ar": "لا يلزم ترخيص للعمل. ملف الأعمال أهم من الشهادات."
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Unity Learn (free lessons and projects)",
+        "url": "https://learn.unity.com",
+        "free": true
+      },
+      {
+        "title": "Godot Engine documentation and tutorials",
+        "url": "https://docs.godotengine.org",
+        "free": true
+      },
+      {
+        "title": "Harvard CS50x: Introduction to Computer Science",
+        "url": "https://cs50.harvard.edu/x",
+        "free": true
+      },
+      {
+        "title": "itch.io game jams",
+        "url": "https://itch.io/jams",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11581,
+        "max": 39013
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Paylab publishes one range for the title Game Developer across all experience levels, so it is shown under mid. Entry-level pay is likely near the low end, but no separate figure exists.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. ينشر Paylab نطاقًا واحدًا لمسمى مطور ألعاب لكل مستويات الخبرة، لذلك وُضع تحت المستوى المتوسط. الراتب في بداية العمل غالبًا قرب الحد الأدنى، لكن لا توجد أرقام منفصلة."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Local game studios such as Instinct Games and AN Games Studio",
+        "ar": "استوديوهات ألعاب محلية مثل Instinct Games وAN Games Studio"
+      },
+      {
+        "en": "Mobile app and software houses that also build games",
+        "ar": "شركات تطبيقات وبرمجيات تبني الألعاب أيضًا"
+      },
+      {
+        "en": "Foreign and Gulf studios, often through remote contracts",
+        "ar": "استوديوهات أجنبية وخليجية، غالبًا بعقود عن بُعد"
+      },
+      {
+        "en": "Ed-tech, simulation and advertising companies that use game technology",
+        "ar": "شركات التعليم التقني والمحاكاة والإعلان التي تستخدم تقنيات الألعاب"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance and remote work are common: small games, game prototypes, game ports and bug fixing for clients abroad. Income can be irregular at first. A newly formed industry group, Assembly Games Egypt (2026), aims to connect studios and developers.",
+      "ar": "العمل الحر وعن بُعد شائع: ألعاب صغيرة ونماذج أولية ونقل ألعاب بين المنصات وإصلاح أخطاء لعملاء في الخارج. قد يكون الدخل غير منتظم في البداية. وتأسست في 2026 جمعية Assembly Games Egypt لتجمع الاستوديوهات والمطورين."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo (Giza, Smart Village, New Cairo)",
+        "ar": "القاهرة الكبرى (الجيزة والقرية الذكية والقاهرة الجديدة)"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Remote from any governorate",
+        "ar": "عن بُعد من أي محافظة"
+      }
+    ],
+    "providerIds": [
+      "3c-coding-school",
+      "ischool-egypt",
+      "nayzak-animation-school",
+      "iti",
+      "sprints"
+    ]
+  },
+  "global": {
+    "en": "Game studios in Europe, North America and the Gulf hire developers remotely, and Egyptian developers work on international titles. Gulf governments, especially Saudi Arabia, have announced large gaming investments, which may open more jobs in the region, but check each offer carefully. Moving abroad usually needs a degree plus a strong portfolio and English.",
+    "ar": "تستعين استوديوهات في أوروبا وأمريكا الشمالية والخليج بمطورين عن بُعد، ويعمل مطورون مصريون في ألعاب عالمية. أعلنت حكومات خليجية، خاصة السعودية، استثمارات كبيرة في الألعاب، وقد يفتح ذلك وظائف أكثر في المنطقة، لكن افحص كل عرض بعناية. السفر للعمل في الخارج يحتاج عادةً شهادة جامعية وملف أعمال قويًا وإنجليزية جيدة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You can see people enjoy something you built",
+        "ar": "ترى الناس تستمتع بشيء صنعته بيدك"
+      },
+      {
+        "en": "Skills transfer to apps, simulation, ads and general software jobs",
+        "ar": "مهاراتك تنفع في التطبيقات والمحاكاة والإعلانات ووظائف البرمجة عمومًا"
+      },
+      {
+        "en": "Remote and freelance options exist",
+        "ar": "توجد فرص عمل عن بُعد وحر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few local studios, so the first job can be hard to find",
+        "ar": "الاستوديوهات المحلية قليلة، فقد يصعب إيجاد أول وظيفة"
+      },
+      {
+        "en": "Deadlines before a release can mean long hours",
+        "ar": "المواعيد النهائية قبل الإصدار قد تعني ساعات عمل طويلة"
+      },
+      {
+        "en": "Many people try to enter the field, so a portfolio is essential",
+        "ar": "كثيرون يحاولون دخول المجال، فملف الأعمال ضروري"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Playing games all day makes you a game developer.",
+          "ar": "اللعب طوال اليوم يجعلك مطور ألعاب."
+        },
+        "fact": {
+          "en": "Playing helps you understand games, but the job is mostly programming, testing and fixing problems.",
+          "ar": "اللعب يساعدك على فهم الألعاب، لكن الوظيفة في معظمها برمجة واختبار وحل مشكلات."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must be a maths genius.",
+          "ar": "لازم تكون عبقريًا في الرياضيات."
+        },
+        "fact": {
+          "en": "You need solid school maths and logic. Patience and practice matter more than genius.",
+          "ar": "تحتاج رياضيات المدرسة ومنطقًا جيدًا. الصبر والتدريب أهم من العبقرية."
+        }
+      },
+      {
+        "myth": {
+          "en": "Games are a risky career with no other options.",
+          "ar": "الألعاب مجال خطير بلا بدائل."
+        },
+        "fact": {
+          "en": "The same skills are used in apps, simulations and software, so you can switch if the games market is slow.",
+          "ar": "نفس المهارات تُستخدم في التطبيقات والمحاكاة والبرمجيات، فتستطيع التحول إذا كان سوق الألعاب بطيئًا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually normal hours, but the weeks before a release can be intense. Remote work gives flexibility.",
+      "ar": "غالبًا ساعات عمل عادية، لكن الأسابيع التي تسبق الإصدار قد تكون مكثفة. العمل عن بُعد يعطي مرونة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior game programmer or game tester",
+        "ar": "مبرمج ألعاب مبتدئ أو مختبر ألعاب"
+      },
+      {
+        "en": "Game developer",
+        "ar": "مطور ألعاب"
+      },
+      {
+        "en": "Senior game developer",
+        "ar": "مطور ألعاب أول"
+      },
+      {
+        "en": "Lead developer or technical director",
+        "ar": "قائد فريق التطوير أو المدير التقني"
+      },
+      {
+        "en": "Studio founder (indie)",
+        "ar": "مؤسس استوديو مستقل"
+      }
+    ],
+    "relatedCareerIds": [
+      "software_engineer",
+      "mobile_developer",
+      "animator_3d_artist",
+      "ux_designer",
+      "ai_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Software or mobile app development",
+        "ar": "تطوير البرمجيات أو تطبيقات الموبايل"
+      },
+      {
+        "en": "UX/UI design",
+        "ar": "تصميم تجربة وواجهة المستخدم"
+      },
+      {
+        "en": "Technical art or 3D animation",
+        "ar": "الفن التقني أو الرسوم ثلاثية الأبعاد"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Information technology salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/information-technology",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egypt Today: Egypt gaming market nears $1B",
+      "url": "https://www.egypttoday.com/Article/1/149654/Egypt-gaming-market-nears-1B-projected-to-hit-1-8B",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Games Industry Africa: Assembly Games Egypt launches",
+      "url": "https://gamesindustryafrica.com/2026/05/11/assembly-games-egypt-launches-to-unite-and-grow-egypts-game-development-industry/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

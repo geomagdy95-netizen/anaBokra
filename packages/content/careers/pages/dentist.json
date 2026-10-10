@@ -1,0 +1,425 @@
+{
+  "id": "dentist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You fix teeth and relieve pain, with hands as steady as a craftsperson and a patient manner.",
+      "ar": "تعالج الأسنان وتخفف الألم بيد ثابتة كيد الحِرَفي وبأسلوب صبور مع المرضى."
+    },
+    "summary": {
+      "en": "Dentists prevent and treat problems of the teeth, gums and mouth. In Egypt you study five years, do a compulsory internship year, then register with the syndicate. Many dentists run their own clinic, so you also become a small-business owner.",
+      "ar": "طبيب الأسنان يمنع مشكلات الأسنان واللثة والفم ويعالجها. في مصر تدرس خمس سنوات ثم تقضي سنة امتياز إجبارية وتسجّل في النقابة. كثير من الأطباء يديرون عيادتهم الخاصة، فتصبح أيضًا صاحب مشروع صغير."
+    },
+    "dayInLife": {
+      "en": "You start your clinic at 10 a.m. with a child who is scared of the chair, so you show the tools first and speak slowly. Next you clean and fill a cavity, checking the X-ray on the screen. At noon you plan a crown for another patient and send the details to the dental lab. In the afternoon you explain to an older patient how to look after new dentures. Between patients you sterilize instruments and answer messages from your assistant about bookings. You finish at 8 p.m., a little tired in the back and shoulders, with a good feeling that people left without pain.",
+      "ar": "تفتح العيادة في العاشرة صباحًا باستقبال طفل يخاف من الكرسي، فتُريه الأدوات أولًا وتتحدث ببطء. بعدها تنظف سنًا وتحشو تسوسًا وأنت تراجع صورة الأشعة على الشاشة. عند الظهر تخطط لتركيبة لمريض آخر وترسل تفاصيلها لمعمل الأسنان. بعد العصر تشرح لمريض كبير في السن كيف يعتني بطقم أسنانه الجديد. وبين المرضى تعقّم الأدوات وترد على رسائل المساعد بشأن المواعيد. تنتهي في الثامنة مساءً بتعب خفيف في الظهر والكتفين، ومعك شعور طيب لأن الناس خرجوا بلا ألم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Examine teeth and gums and read dental X-rays to find problems early.",
+        "ar": "تفحص الأسنان واللثة وتقرأ أشعة الأسنان لاكتشاف المشكلات مبكرًا."
+      },
+      {
+        "en": "Remove decay, fill cavities and perform root canal treatment.",
+        "ar": "تزيل التسوس وتحشو الأسنان وتعالج العصب."
+      },
+      {
+        "en": "Give local anesthesia and manage pain and anxiety.",
+        "ar": "تعطي البنج الموضعي وتتحكم في الألم والخوف."
+      },
+      {
+        "en": "Make and fit crowns, bridges, dentures and implants, often with a dental lab.",
+        "ar": "تصنع وتركّب التيجان والجسور وأطقم الأسنان والزرعات، غالبًا بالتعاون مع معمل أسنان."
+      },
+      {
+        "en": "Treat gum disease and extract teeth when needed.",
+        "ar": "تعالج أمراض اللثة وتخلع الأسنان عند الحاجة."
+      },
+      {
+        "en": "Teach patients and parents how to prevent decay.",
+        "ar": "ترشد المرضى وأولياء الأمور إلى كيفية الوقاية من التسوس."
+      },
+      {
+        "en": "Follow infection control rules and keep patient records.",
+        "ar": "تلتزم بقواعد مكافحة العدوى وتحتفظ بسجلات المرضى."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Private dental clinics (very common)",
+        "ar": "عيادات الأسنان الخاصة (الأكثر شيوعًا)"
+      },
+      {
+        "en": "Dental centers and private hospitals",
+        "ar": "مراكز الأسنان والمستشفيات الخاصة"
+      },
+      {
+        "en": "University dental hospitals and Ministry of Health units",
+        "ar": "مستشفيات الأسنان الجامعية ووحدات وزارة الصحة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Dental chair, handpieces, scalers and hand instruments",
+        "ar": "كرسي الأسنان والمقابض والمجارف والأدوات اليدوية"
+      },
+      {
+        "en": "Dental X-ray, intraoral camera and digital scanners",
+        "ar": "أشعة الأسنان وكاميرا الفم والماسحات الرقمية"
+      },
+      {
+        "en": "Sterilizers (autoclave) and infection-control supplies",
+        "ar": "أجهزة التعقيم (الأوتوكلاف) ومستلزمات مكافحة العدوى"
+      },
+      {
+        "en": "Dental materials: composites, cements, impression materials",
+        "ar": "المواد السنية: الحشوات والأسمنتات ومواد الطبعات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, Biology and Chemistry at a high level are the key subjects, with Physics and Maths as support. With the American Diploma, take AP Biology and Chemistry. Equivalency and Tansik rules for foreign certificates change, so confirm yours with the Tansik office; private dental faculties have their own entry requirements.",
+      "ar": "في IGCSE أو A-levels المادتان الأساسيتان هما الأحياء والكيمياء بمستوى مرتفع، مع الفيزياء والرياضيات كدعم. وفي الدبلومة الأمريكية اختر AP للأحياء والكيمياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من وضع شهادتك لدى مكتب التنسيق؛ وللكليات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Dentistry / Faculty of Oral and Dental Medicine at public universities",
+        "ar": "كليات طب الأسنان / طب الفم والأسنان بالجامعات الحكومية"
+      },
+      {
+        "en": "Faculties of Dentistry at private universities (BUE, GUC, MIU, Future and others)",
+        "ar": "كليات طب الأسنان بالجامعات الخاصة (البريطانية والألمانية ومصر الدولية والمستقبل وغيرها)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-dentistry",
+      "ain-shams-university-dentistry",
+      "alexandria-university-dentistry",
+      "mansoura-university-dentistry",
+      "assiut-university-dentistry",
+      "zagazig-university-dentistry",
+      "tanta-university-dentistry",
+      "menoufia-university-dentistry",
+      "british-university-in-egypt-dentistry",
+      "german-university-in-cairo-dentistry",
+      "misr-international-university-dentistry",
+      "suez-canal-university-dentistry"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 93.28% to 93.91% across 15 programs (lowest Assiut University, highest Mansoura University); 2025: 92.66% to 93.12% across 15 programs (lowest Menoufia University, highest Mansoura University); 2024: 92.8% to 93.9% across 14 programs (lowest Beni-Suef University, highest Mansoura University); 2023: 90.98% to 92.8% across 14 programs (lowest Beni-Suef University, highest Qena University (formerly South Valley University)). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 79% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 93.28% إلى 93.91% عبر 15 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2025: من 92.66% إلى 93.12% عبر 15 برنامجًا (الأدنى جامعة المنوفية، الأعلى جامعة المنصورة)؛ 2024: من 92.8% إلى 93.9% عبر 14 برنامجًا (الأدنى جامعة بني سويف، الأعلى جامعة المنصورة)؛ 2023: من 90.98% إلى 92.8% عبر 14 برنامجًا (الأدنى جامعة بني سويف، الأعلى جامعة قنا (جنوب الوادي سابقاً)). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 79% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Dental technology and dental assistant diplomas let you work in dentistry with a shorter path, but they are not the same as being a dentist.",
+        "ar": "دبلومات فني الأسنان ومساعد طبيب الأسنان تتيح العمل في المجال بمسار أقصر، لكنها لا تساوي أن تكون طبيب أسنان."
+      },
+      {
+        "en": "Pharmacy, physical therapy and medicine are nearby health options if your marks or interests change.",
+        "ar": "الصيدلة والعلاج الطبيعي والطب خيارات صحية قريبة إذا تغيّر مجموعك أو اهتمامك."
+      }
+    ],
+    "licensing": {
+      "en": "After five years of study, a compulsory 12-month internship is required before you can be licensed as a dental practitioner by the Egyptian Dental Syndicate (a university page describes it as compulsory after graduation to be licensed as a qualified dentist). You then register with the syndicate and the Ministry of Health to open a clinic. Check the syndicate for current steps, since health-profession licensing rules have been updated recently.",
+      "ar": "بعد خمس سنوات دراسة، سنة امتياز إجبارية مدتها 12 شهرًا مطلوبة قبل الحصول على ترخيص ممارس عام من نقابة أطباء الأسنان (وتصفها صفحة جامعية بأنها إجبارية بعد التخرج للترخيص كطبيب أسنان مؤهل). بعدها تسجّل في النقابة ووزارة الصحة لفتح عيادة. راجع النقابة لمعرفة الخطوات الحالية لأن قواعد ترخيص المهن الصحية حُدّثت مؤخرًا."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Hand dexterity and fine motor control",
+        "ar": "مهارة اليد والتحكم الدقيق في الحركة"
+      },
+      {
+        "en": "Dental anatomy and oral pathology",
+        "ar": "تشريح الأسنان وأمراض الفم"
+      },
+      {
+        "en": "Restorative dentistry, endodontics and basic prosthodontics",
+        "ar": "الأسنان الترميمية وعلاج العصب والتركيبات الأساسية"
+      },
+      {
+        "en": "Infection control and sterilization",
+        "ar": "مكافحة العدوى والتعقيم"
+      },
+      {
+        "en": "Reading dental X-rays and 3D scans",
+        "ar": "قراءة أشعة الأسنان والمسح ثلاثي الأبعاد"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and gentle communication, especially with children",
+        "ar": "الصبر والتواصل اللطيف خاصة مع الأطفال"
+      },
+      {
+        "en": "Business sense for running a clinic: pricing, booking, staff",
+        "ar": "حس تجاري لإدارة عيادة: التسعير والمواعيد والفريق"
+      },
+      {
+        "en": "Attention to detail and steady concentration",
+        "ar": "الانتباه للتفاصيل والتركيز الثابت"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for study materials and international courses",
+        "ar": "الإنجليزية للمواد الدراسية والدورات الدولية"
+      },
+      {
+        "en": "Arabic for explaining treatment to patients",
+        "ar": "العربية لشرح العلاج للمرضى"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Egyptian Dental Syndicate license",
+        "ar": "ترخيص نقابة أطباء الأسنان"
+      },
+      {
+        "en": "Postgraduate diplomas or a master's in a specialty (orthodontics, endodontics, pediatric dentistry and others)",
+        "ar": "دبلومات أو ماجستير في تخصص (تقويم الأسنان، علاج الجذور، أسنان الأطفال وغيرها)"
+      },
+      {
+        "en": "Implantology and digital dentistry short courses",
+        "ar": "دورات قصيرة في الزرعات وطب الأسنان الرقمي"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Health and Medicine",
+        "url": "https://www.khanacademy.org/science/health-and-medicine",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Biology",
+        "url": "https://www.khanacademy.org/science/biology",
+        "free": true
+      },
+      {
+        "title": "American Dental Association: Mouth Healthy (oral health basics)",
+        "url": "https://www.mouthhealthy.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 14598,
+        "max": 34149
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/dentist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 23,451 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale. Many dentists earn from their own clinic, so income depends heavily on location, equipment and patient numbers.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 23,451 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور. كثير من الأطباء يكسبون من عيادتهم الخاصة، فيعتمد الدخل كثيرًا على المكان والتجهيزات وعدد المرضى."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Your own private clinic (most common path)",
+        "ar": "عيادتك الخاصة (المسار الأكثر شيوعًا)"
+      },
+      {
+        "en": "Dental centers and clinic chains",
+        "ar": "مراكز الأسنان وسلاسل العيادات"
+      },
+      {
+        "en": "Private hospitals with dental departments",
+        "ar": "المستشفيات الخاصة التي بها أقسام أسنان"
+      },
+      {
+        "en": "University dental hospitals and Ministry of Health facilities",
+        "ar": "مستشفيات الأسنان الجامعية ومنشآت وزارة الصحة"
+      },
+      {
+        "en": "Dental material and equipment companies (sales, training)",
+        "ar": "شركات المواد والأجهزة السنية (المبيعات والتدريب)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Dentistry cannot be done remotely, but many dentists work as independent practitioners, sharing clinics or working part-time across several centers.",
+      "ar": "لا يمكن ممارسة طب الأسنان عن بعد، لكن كثيرًا من الأطباء يعملون بشكل مستقل، فيشاركون العيادات أو يعملون بدوام جزئي في عدة مراكز."
+    },
+    "regions": [
+      {
+        "en": "Large cities where private clinics are concentrated: Cairo, Giza, Alexandria",
+        "ar": "المدن الكبرى حيث تتركز العيادات الخاصة: القاهرة والجيزة والإسكندرية"
+      },
+      {
+        "en": "Delta and Upper Egypt towns, where there may be less competition but lower fees",
+        "ar": "مدن الدلتا والصعيد حيث المنافسة أقل ولكن الأتعاب أقل"
+      },
+      {
+        "en": "New cities with growing populations",
+        "ar": "المدن الجديدة ذات السكان المتزايدين"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Egyptian dentists can work in the Gulf after passing local licensing exams (for example in Saudi Arabia or the UAE), and some move to the UK, Canada or the US, which usually need extra exams and sometimes extra years of study. Check each country's regulator before planning; requirements are strict and change.",
+    "ar": "يعمل أطباء الأسنان المصريون في الخليج بعد اجتياز امتحانات الترخيص المحلية (مثل السعودية والإمارات)، وينتقل بعضهم إلى بريطانيا وكندا وأمريكا حيث تلزم عادة امتحانات إضافية وأحيانًا سنوات دراسة إضافية. راجع الجهة المنظمة في كل دولة قبل التخطيط لأن الشروط صارمة وتتغير."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You can open your own clinic and be your own boss",
+        "ar": "يمكنك فتح عيادتك الخاصة وتكون مديرًا لنفسك"
+      },
+      {
+        "en": "Shorter than medicine, with a clear skill you can see and feel",
+        "ar": "أقصر من الطب، ومهارة واضحة تراها وتشعر بنتيجتها"
+      },
+      {
+        "en": "Regular hours compared to hospital medicine",
+        "ar": "مواعيد أكثر انتظامًا مقارنة بطب المستشفيات"
+      },
+      {
+        "en": "Room to specialize in cosmetic, children's, implant or orthodontic care",
+        "ar": "مساحة للتخصص في التجميل أو الأطفال أو الزرعات أو التقويم"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Setting up a clinic needs a lot of money for equipment",
+        "ar": "تجهيز العيادة يحتاج مبلغًا كبيرًا للأجهزة"
+      },
+      {
+        "en": "Many graduates each year means competition in big cities",
+        "ar": "كثرة الخريجين كل سنة تعني منافسة في المدن الكبرى"
+      },
+      {
+        "en": "Physical strain on the back, neck and eyes",
+        "ar": "إجهاد جسدي للظهر والرقبة والعين"
+      },
+      {
+        "en": "Patients who are afraid of dentists can be demanding",
+        "ar": "مرضى يخافون من طبيب الأسنان قد يكونون صعبي التعامل"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Dentistry is only for people who could not get into medicine.",
+          "ar": "طب الأسنان لمن لم يلتحق بالطب."
+        },
+        "fact": {
+          "en": "It is a separate profession with its own skills, specialties and a high Tansik minimum.",
+          "ar": "مهنة مستقلة لها مهاراتها وتخصصاتها وحدها الأدنى مرتفع في التنسيق."
+        }
+      },
+      {
+        "myth": {
+          "en": "Every dentist earns a lot immediately.",
+          "ar": "كل طبيب أسنان يكسب كثيرًا فورًا."
+        },
+        "fact": {
+          "en": "Building a patient base takes time, and the cost of equipment is high at the start.",
+          "ar": "بناء قاعدة مرضى يحتاج وقتًا وتكلفة الأجهزة مرتفعة في البداية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Better than hospital medicine: clinic hours are usually fixed and emergencies are fewer. As a clinic owner you also handle accounts, staff and marketing, which can stretch your day.",
+      "ar": "أفضل من طب المستشفيات: ساعات العيادة ثابتة غالبًا والطوارئ أقل. وكصاحب عيادة ستتولى أيضًا الحسابات والفريق والتسويق، وقد يطول يومك."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Dental student (5 years)",
+        "ar": "طالب طب أسنان (5 سنوات)"
+      },
+      {
+        "en": "Intern dentist (1 year)",
+        "ar": "طبيب أسنان امتياز (سنة)"
+      },
+      {
+        "en": "General dentist",
+        "ar": "طبيب أسنان عام"
+      },
+      {
+        "en": "Specialist (master's or diploma in a specialty)",
+        "ar": "أخصائي (ماجستير أو دبلوم في تخصص)"
+      },
+      {
+        "en": "Clinic owner, consultant or academic",
+        "ar": "صاحب عيادة أو استشاري أو أكاديمي"
+      }
+    ],
+    "relatedCareerIds": [
+      "physician",
+      "pharmacist",
+      "physical_therapist",
+      "medical_lab_scientist",
+      "biomedical_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Dental materials, sales and training for equipment companies",
+        "ar": "المواد السنية والمبيعات والتدريب لدى شركات الأجهزة"
+      },
+      {
+        "en": "Academic teaching and research in dental faculties",
+        "ar": "التدريس والبحث في كليات الأسنان"
+      },
+      {
+        "en": "Dental practice management or digital dentistry services",
+        "ar": "إدارة عيادات الأسنان أو خدمات طب الأسنان الرقمي"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Future University in Egypt, Faculty of Dentistry - Internship",
+      "url": "https://dentistry.fue.edu.eg/dentistryinternships",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Dentist salary survey",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/dentist?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

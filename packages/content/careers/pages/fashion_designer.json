@@ -1,0 +1,160 @@
+{
+  "id": "fashion_designer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You design clothes people will wear and love.",
+      "ar": "تصمم ملابس سيرتديها الناس ويحبونها."
+    },
+    "summary": {
+      "en": "Fashion designers create clothing and accessories: they sketch ideas, choose fabrics, make patterns and oversee the first samples. Some work for factories and brands, and others build their own label. Creativity must be matched with an understanding of cost, sizes and what customers will buy.",
+      "ar": "مصمم الأزياء يبتكر الملابس والإكسسوارات: يرسم الأفكار ويختار الأقمشة ويصنع الباترون ويتابع العينات الأولى. يعمل بعضهم لدى المصانع والعلامات، ويبني آخرون علامتهم الخاصة. ويجب أن تقترن الموهبة بفهم التكلفة والمقاسات وما يشتريه العملاء."
+    },
+    "dayInLife": {
+      "en": "You start with a sketch for a new dress and pick fabric samples to match. At the workshop you check the pattern with the pattern maker and try the first sample on a model. A small mistake in the sleeve means you mark the change and send it back. In the afternoon you meet a supplier about prices and update your collection plan.",
+      "ar": "تبدأ برسم فستان جديد وتختار عينات الأقمشة المناسبة. في الورشة تراجع الباترون مع صانع الباترون وتجرب العينة الأولى على موديل. خطأ صغير في الكم يجعلك تعلّم التعديل وتعيدها. بعد الظهر تقابل مورّدًا لمناقشة الأسعار وتحدّث خطة تشكيلتك."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Research trends and sketch design ideas.",
+        "ar": "تبحث الاتجاهات وترسم أفكار التصميم."
+      },
+      {
+        "en": "Choose fabrics, colours and trims.",
+        "ar": "تختار الأقمشة والألوان والإكسسوارات."
+      },
+      {
+        "en": "Make or supervise patterns and sample garments.",
+        "ar": "تصنع أو تشرف على الباترون والعينات."
+      },
+      {
+        "en": "Work with factories and workshops on production and cost.",
+        "ar": "تعمل مع المصانع والورش على الإنتاج والتكلفة."
+      },
+      {
+        "en": "Present collections to buyers and customers.",
+        "ar": "تعرض التشكيلات على التجار والعملاء."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Clothing factories and fashion brands",
+        "ar": "مصانع الملابس وعلامات الأزياء"
+      },
+      {
+        "en": "Own workshop or small label",
+        "ar": "ورشة خاصة أو علامة صغيرة"
+      },
+      {
+        "en": "Textile companies and retail chains",
+        "ar": "شركات النسيج وسلاسل التجزئة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Sketching and design software such as Illustrator",
+        "ar": "الرسم وبرامج التصميم مثل Illustrator"
+      },
+      {
+        "en": "Pattern-making and sewing equipment",
+        "ar": "معدات الباترون والخياطة"
+      },
+      {
+        "en": "Fabric samples and trend resources",
+        "ar": "عينات الأقمشة ومصادر الاتجاهات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Art faculties usually accept students from any stream and add a practical aptitude test or portfolio review, so drawing and design practice matter as much as your marks. With IGCSE or A-Level, Art and Design is the most useful subject; with the American Diploma, take art electives. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الفنون تقبل عادة طلابًا من أي شعبة وتضيف اختبار قدرات عمليًا أو مراجعة ملف أعمال، فالتدريب على الرسم والتصميم يهم بقدر الدرجات. في IGCSE وA-Level الأنفع هو الفن والتصميم؛ وفي الدبلومة الأمريكية خذ مواد الفنون الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Applied Arts, clothing, textile and printing departments (with an aptitude test)",
+        "ar": "كليات الفنون التطبيقية، أقسام الملابس والنسيج والطباعة (باختبار قدرات)"
+      },
+      {
+        "en": "Fine arts and art and design programs at other universities",
+        "ar": "الفنون الجميلة وبرامج الفنون والتصميم بجامعات أخرى"
+      },
+      {
+        "en": "Technical schools and institutes for clothing and sewing",
+        "ar": "المدارس والمعاهد الفنية للملابس والخياطة"
+      }
+    ],
+    "programIds": [
+      "capital-university-applied-arts",
+      "benha-university-applied-arts",
+      "beni-suef-university-applied-arts",
+      "damietta-university-applied-arts"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Learn pattern making and sewing in a workshop or vocational course, then build your own label.",
+        "ar": "تعلم الباترون والخياطة في ورشة أو دورة مهنية ثم ابنِ علامتك."
+      },
+      {
+        "en": "Fashion courses and diplomas, plus a portfolio of finished pieces.",
+        "ar": "دورات ودبلومات الأزياء مع ملف بقطع منفذة."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "graphic_designer",
+      "interior_designer",
+      "entrepreneur",
+      "brand_manager",
+      "photographer"
+    ],
+    "pivots": [
+      {
+        "en": "Pattern making or production management",
+        "ar": "صناعة الباترون أو إدارة الإنتاج"
+      },
+      {
+        "en": "Costume or stage design",
+        "ar": "تصميم الأزياء المسرحية أو الاستعراضية"
+      },
+      {
+        "en": "Fashion styling and retail",
+        "ar": "تنسيق الأزياء وتجارة التجزئة"
+      },
+      {
+        "en": "Starting your own label",
+        "ar": "إطلاق علامتك الخاصة"
+      }
+    ]
+  },
+  "industryId": "creative",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Fashion Designer",
+      "url": "https://www.onetonline.org/link/summary/27-1022.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Fashion Designer",
+      "url": "https://www.mynextmove.org/profile/summary/27-1022.00",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

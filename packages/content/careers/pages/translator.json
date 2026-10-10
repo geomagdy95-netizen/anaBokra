@@ -1,0 +1,448 @@
+{
+  "id": "translator",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You carry meaning from one language to another so people can understand each other.",
+      "ar": "تنقل المعنى من لغة إلى أخرى ليفهم الناس بعضهم."
+    },
+    "summary": {
+      "en": "Translators work with written texts and interpreters with spoken words, on contracts, medical papers, films, websites, books and speeches. Egypt has strong language faculties and many translators work freelance or remotely, so the field suits people who love languages and accuracy. Machine translation has changed routine work, so quality, specialisation and cultural judgment matter more.",
+      "ar": "المترجم يعمل مع النصوص المكتوبة والمترجم الفوري مع الكلام المنطوق، في العقود والأوراق الطبية والأفلام والمواقع والكتب والخطب. في مصر كليات لغات قوية ويعمل كثير من المترجمين عملًا حرًا أو عن بُعد، فالمجال يناسب من يحب اللغات والدقة. غيّرت الترجمة الآلية الأعمال الروتينية، فأصبحت الجودة والتخصص والحكم الثقافي أهم."
+    },
+    "dayInLife": {
+      "en": "You open a project from a medical company: a leaflet that must be translated from English into Arabic by tomorrow. You check each medical term in a trusted dictionary because one wrong word could confuse a patient. You use translation software for repeated phrases, then read every sentence again to fix tone and grammar. After lunch you send the file to the client with a short note about two unclear parts. Later you spend an hour practising interpretation by listening to a news speech and repeating it in Arabic.",
+      "ar": "تفتح مشروعًا من شركة أدوية: نشرة يجب ترجمتها من الإنجليزية للعربية قبل الغد. تتحقق من كل مصطلح طبي في قاموس موثوق لأن كلمة خاطئة قد تربك المريض. تستعين ببرنامج ترجمة للعبارات المتكررة ثم تعيد قراءة كل جملة لتصحيح الأسلوب والنحو. بعد الغداء ترسل الملف للعميل مع ملاحظة قصيرة عن جزأين غير واضحين. لاحقًا تقضي ساعة في التدرّب على الترجمة الفورية بالاستماع إلى خطاب إخباري وإعادته بالعربية."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Translate documents, websites, subtitles and books accurately.",
+        "ar": "تترجم الوثائق والمواقع والترجمة النصية للأفلام والكتب بدقة."
+      },
+      {
+        "en": "Interpret live in meetings, conferences, courts or events (simultaneous or consecutive).",
+        "ar": "تترجم فوريًا في الاجتماعات والمؤتمرات والمحاكم والفعاليات (متزامنة أو تتابعية)."
+      },
+      {
+        "en": "Research terms in a field such as law, medicine or technology.",
+        "ar": "تبحث عن مصطلحات في مجال مثل القانون أو الطب أو التكنولوجيا."
+      },
+      {
+        "en": "Proofread and edit your own and others' translations.",
+        "ar": "تراجع وتحرر ترجمتك وترجمات غيرك."
+      },
+      {
+        "en": "Use translation tools and machine translation, then correct the output.",
+        "ar": "تستخدم أدوات الترجمة والترجمة الآلية ثم تصحح المخرجات."
+      },
+      {
+        "en": "Keep client information confidential and meet deadlines.",
+        "ar": "تحافظ على سرية معلومات العميل وتلتزم بالمواعيد."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Translation offices and agencies",
+        "ar": "مكاتب ووكالات الترجمة"
+      },
+      {
+        "en": "Companies, ministries, embassies and international organisations",
+        "ar": "الشركات والوزارات والسفارات والمنظمات الدولية"
+      },
+      {
+        "en": "Freelance from home, and conference halls for interpreters",
+        "ar": "العمل الحر من البيت وقاعات المؤتمرات للمترجمين الفوريين"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Computer-assisted translation tools such as Trados or memoQ",
+        "ar": "أدوات الترجمة بمساعدة الحاسب مثل Trados أو memoQ"
+      },
+      {
+        "en": "Dictionaries and term databases",
+        "ar": "القواميس وقواعد المصطلحات"
+      },
+      {
+        "en": "Machine translation and AI assistants, always reviewed",
+        "ar": "الترجمة الآلية ومساعدو الذكاء الاصطناعي مع المراجعة دائمًا"
+      },
+      {
+        "en": "Subtitling and audio tools",
+        "ar": "أدوات الترجمة النصية والصوتية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE, American and IB students already study in English. Keep Arabic reading and writing strong, and study a second language such as French, German, Spanish, Italian or Chinese. Language electives, Literature and Linguistics help. Take an Arabic exam seriously because good Arabic is half of the job.",
+      "ar": "طلاب IGCSE والأمريكي وIB يدرسون بالإنجليزية بالفعل. حافظ على قوة القراءة والكتابة بالعربية، وادرس لغة ثانية مثل الفرنسية أو الألمانية أو الإسبانية أو الإيطالية أو الصينية. مواد اللغات والأدب واللسانيات مفيدة. خذ العربية بجدية لأن العربية الجيدة نصف المهنة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Al-Alsun (Languages and Translation)",
+        "ar": "كلية الألسن (اللغات والترجمة)"
+      },
+      {
+        "en": "Faculty of Arts, English, French, German or other language departments",
+        "ar": "كلية الآداب، أقسام اللغة الإنجليزية أو الفرنسية أو الألمانية أو غيرها"
+      },
+      {
+        "en": "Languages and translation programs at private universities",
+        "ar": "برامج اللغات والترجمة في الجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "kafrelsheikh-university-alsun-languages",
+      "sohag-university-alsun-languages",
+      "cairo-university-arts",
+      "british-university-in-egypt-english-language-literature",
+      "british-university-in-egypt-chinese-language-culture",
+      "misr-university-for-science-and-technology-languages-translation",
+      "misr-international-university-applied-linguistics-alsun"
+    ],
+    "tansikNote": {
+      "en": "Al-Alsun (literary track) asked for about 88% to 93% in the 2026 phase-1 lists: Sohag 87.66% to Kafrelsheikh 93.44% (percent of the total), after 88.12% to 92.81% in 2025. Arts faculties asked for 71.56% (Fayoum) to 81.09% (Cairo) in 2026. Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff.",
+      "ar": "طلبت الألسن (الشعبة الأدبية) نحو 88% إلى 93% في المرحلة الأولى لعام 2026: سوهاج 87.66% وكفر الشيخ 93.44% (نسبة مئوية من المجموع)، بعد نطاق 88.12% إلى 92.81% في 2025. وطلبت كليات الآداب من 71.56% (الفيوم) إلى 81.09% (القاهرة) في 2026. تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A degree in a specialist field (law, medicine, engineering) plus advanced language skills can make you a specialised translator.",
+        "ar": "شهادة في مجال متخصص (قانون أو طب أو هندسة) مع لغة متقدمة تجعلك مترجمًا متخصصًا."
+      },
+      {
+        "en": "Translation diplomas and courses at language institutes and universities, for example at AUC School of Continuing Education.",
+        "ar": "دبلومات ودورات ترجمة في معاهد اللغات والجامعات مثل مركز التعليم المستمر بالجامعة الأمريكية بالقاهرة."
+      },
+      {
+        "en": "Language institutes such as the British Council, Goethe-Institut, Institut français and Instituto Cervantes offer language courses and exams.",
+        "ar": "معاهد اللغات مثل المجلس الثقافي البريطاني وجوته والمعهد الفرنسي ومعهد ثربانتس تقدم دورات وامتحانات لغة."
+      }
+    ],
+    "licensing": {
+      "en": "There is no license to work as a general translator. Official or sworn (certified) translation for courts and government is done by translators registered by the relevant authorities, and requirements and lists differ, so check with the Ministry of Justice or the authority that asks for the translation. We did not find a single current official rule to cite. Freelancers often join the translators' associations for networking.",
+      "ar": "لا يوجد ترخيص للعمل كمترجم عام. الترجمة الرسمية أو المعتمدة للمحاكم والجهات الحكومية يقوم بها مترجمون مسجلون لدى الجهات المختصة، وتختلف الشروط والقوائم، فاسأل وزارة العدل أو الجهة التي تطلب الترجمة. لم نجد قاعدة رسمية حديثة واحدة للاستشهاد بها. وينضم المستقلون غالبًا إلى جمعيات المترجمين للتواصل."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Excellent command of Arabic and at least one foreign language",
+        "ar": "إتقان العربية ولغة أجنبية واحدة على الأقل"
+      },
+      {
+        "en": "Translation techniques and terminology research",
+        "ar": "تقنيات الترجمة والبحث عن المصطلحات"
+      },
+      {
+        "en": "Interpreting skills: listening, memory and note-taking",
+        "ar": "مهارات الترجمة الفورية: الاستماع والذاكرة وتدوين الملاحظات"
+      },
+      {
+        "en": "Computer-assisted translation tools",
+        "ar": "أدوات الترجمة بمساعدة الحاسب"
+      },
+      {
+        "en": "Specialist knowledge such as law, medicine or technology",
+        "ar": "معرفة متخصصة مثل القانون أو الطب أو التكنولوجيا"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      },
+      {
+        "en": "Curiosity about words and cultures",
+        "ar": "الفضول للكلمات والثقافات"
+      },
+      {
+        "en": "Discretion with confidential material",
+        "ar": "التكتم على المواد السرية"
+      },
+      {
+        "en": "Meeting deadlines",
+        "ar": "الالتزام بالمواعيد"
+      },
+      {
+        "en": "Staying calm when interpreting live",
+        "ar": "الهدوء أثناء الترجمة الفورية"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic (native-level writing)",
+        "ar": "العربية (كتابة بمستوى لغة أم)"
+      },
+      {
+        "en": "English at a very high level",
+        "ar": "الإنجليزية بمستوى عالٍ جدًا"
+      },
+      {
+        "en": "A second foreign language such as French, German, Spanish, Italian or Chinese",
+        "ar": "لغة أجنبية ثانية مثل الفرنسية أو الألمانية أو الإسبانية أو الإيطالية أو الصينية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "IELTS, TOEFL or advanced language certificates (C1 or C2)",
+        "ar": "IELTS أو TOEFL أو شهادات لغة متقدمة (C1 أو C2)"
+      },
+      {
+        "en": "Translation diplomas and CAT tool certificates (optional)",
+        "ar": "دبلومات الترجمة وشهادات أدوات الترجمة بمساعدة الحاسب (اختيارية)"
+      },
+      {
+        "en": "Certified translator registration where required for official translation",
+        "ar": "التسجيل كمترجم معتمد حيث يلزم للترجمة الرسمية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Proz.com translator community",
+        "url": "https://www.proz.com",
+        "free": true
+      },
+      {
+        "title": "British Council LearnEnglish",
+        "url": "https://learnenglish.britishcouncil.org",
+        "free": true
+      },
+      {
+        "title": "Wikipedia and Wiktionary for term research",
+        "url": "https://www.wiktionary.org",
+        "free": true
+      },
+      {
+        "title": "AMIDEAST Egypt language programs",
+        "url": "https://www.amideast.org/egypt",
+        "free": false
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8933,
+        "max": 26232
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/translating-interpreting/translator",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Paylab's Translator range applies across experience levels. Freelance rates are usually paid per word or per page and vary a lot.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. نطاق المترجم في Paylab لكل مستويات الخبرة. أجر العمل الحر عادةً بالكلمة أو بالصفحة ويختلف كثيرًا."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Translation agencies and offices",
+        "ar": "وكالات ومكاتب الترجمة"
+      },
+      {
+        "en": "Companies, banks and law firms",
+        "ar": "الشركات والبنوك ومكاتب المحاماة"
+      },
+      {
+        "en": "Embassies, ministries and international organisations",
+        "ar": "السفارات والوزارات والمنظمات الدولية"
+      },
+      {
+        "en": "Media, publishing and subtitling companies",
+        "ar": "شركات الإعلام والنشر والترجمة النصية"
+      },
+      {
+        "en": "Tourism and conference companies",
+        "ar": "شركات السياحة والمؤتمرات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance and remote work are very common. Egyptian translators work for clients in Egypt, the Gulf and abroad. Machine translation lowers prices for simple texts, so specialisation and post-editing skills help.",
+      "ar": "العمل الحر وعن بُعد شائع جدًا. يعمل المترجمون المصريون لعملاء في مصر والخليج والخارج. الترجمة الآلية تخفض أسعار النصوص البسيطة، فالتخصص ومهارات التحرير بعد الترجمة الآلية تفيد."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Tourist cities for tourism-related languages",
+        "ar": "المدن السياحية للغات السياحة"
+      },
+      {
+        "en": "Remote from any governorate",
+        "ar": "عن بُعد من أي محافظة"
+      }
+    ],
+    "providerIds": [
+      "british-council-egypt",
+      "goethe-institut-egypt",
+      "institut-francais-egypte",
+      "amideast-egypt",
+      "instituto-cervantes-cairo",
+      "auc-school-of-continuing-education"
+    ]
+  },
+  "global": {
+    "en": "Arabic translators and interpreters are needed in the Gulf, international organisations (UN, EU, Arab League), courts and companies worldwide. Rare language pairs such as Arabic with Chinese or Russian are in demand. Remote work lets you serve clients abroad without moving.",
+    "ar": "المترجمون والمترجمون الفوريون العرب مطلوبون في الخليج والمنظمات الدولية (الأمم المتحدة والاتحاد الأوروبي وجامعة الدول العربية) والمحاكم والشركات حول العالم. الأزواج اللغوية النادرة مثل العربية مع الصينية أو الروسية مطلوبة. العمل عن بُعد يتيح خدمة عملاء بالخارج دون السفر."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Flexible, often remote work",
+        "ar": "عمل مرن وغالبًا عن بُعد"
+      },
+      {
+        "en": "You learn about many subjects",
+        "ar": "تتعلم عن موضوعات كثيرة"
+      },
+      {
+        "en": "Language skills open many doors",
+        "ar": "مهارات اللغة تفتح أبوابًا كثيرة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Income from freelance work can be irregular",
+        "ar": "دخل العمل الحر قد يكون غير منتظم"
+      },
+      {
+        "en": "Machine translation pressures prices for simple texts",
+        "ar": "الترجمة الآلية تضغط على أسعار النصوص البسيطة"
+      },
+      {
+        "en": "Interpreting needs strong concentration and can be tiring",
+        "ar": "الترجمة الفورية تحتاج تركيزًا شديدًا وقد تكون مرهقة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "If you speak two languages you can translate.",
+          "ar": "من يتكلم لغتين يستطيع الترجمة."
+        },
+        "fact": {
+          "en": "Translation needs excellent writing in the target language, research and subject knowledge, not only speaking.",
+          "ar": "الترجمة تحتاج كتابة ممتازة في اللغة الهدف وبحثًا ومعرفة بالموضوع، وليس الكلام فقط."
+        }
+      },
+      {
+        "myth": {
+          "en": "Google Translate has replaced translators.",
+          "ar": "جوجل ترجمة حلّ محل المترجمين."
+        },
+        "fact": {
+          "en": "Machines are useful for rough drafts, but people are needed for accuracy, tone and responsibility, especially in legal and medical texts.",
+          "ar": "الآلة مفيدة للمسودات، لكن الناس مطلوبون للدقة والأسلوب والمسؤولية، خاصة في النصوص القانونية والطبية."
+        }
+      },
+      {
+        "myth": {
+          "en": "Translators and interpreters do the same job.",
+          "ar": "المترجم التحريري والفوري عملهما واحد."
+        },
+        "fact": {
+          "en": "Translators work with written text and have time to research. Interpreters work live under pressure. Different skills.",
+          "ar": "المترجم التحريري يعمل بنص مكتوب ولديه وقت للبحث. والفوري يعمل مباشرة تحت الضغط. مهارات مختلفة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Freelancers choose their hours but often work to client deadlines, sometimes at night. Agency jobs have regular hours. Interpreters work in bursts at events.",
+      "ar": "المستقلون يختارون ساعاتهم لكن غالبًا يعملون وفق مواعيد العملاء وأحيانًا ليلًا. وظائف الوكالات بساعات منتظمة. والمترجمون الفوريون يعملون في فترات مكثفة أثناء الفعاليات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior translator or proofreader",
+        "ar": "مترجم مبتدئ أو مراجع لغوي"
+      },
+      {
+        "en": "Translator",
+        "ar": "مترجم"
+      },
+      {
+        "en": "Senior translator or specialist (legal, medical, technical)",
+        "ar": "مترجم أول أو متخصص (قانوني أو طبي أو تقني)"
+      },
+      {
+        "en": "Reviser or project manager",
+        "ar": "مراجع أو مدير مشروعات ترجمة"
+      },
+      {
+        "en": "Head of translation unit, conference interpreter or agency owner",
+        "ar": "رئيس وحدة ترجمة أو مترجم مؤتمرات أو صاحب وكالة"
+      }
+    ],
+    "relatedCareerIds": [
+      "teacher",
+      "diplomat",
+      "tour_guide",
+      "journalist",
+      "content_creator"
+    ],
+    "pivots": [
+      {
+        "en": "Localisation and subtitling",
+        "ar": "التوطين والترجمة النصية"
+      },
+      {
+        "en": "Language teaching",
+        "ar": "تدريس اللغات"
+      },
+      {
+        "en": "International communications and diplomacy",
+        "ar": "الاتصال الدولي والدبلوماسية"
+      },
+      {
+        "en": "Content writing and editing",
+        "ar": "كتابة المحتوى والتحرير"
+      }
+    ]
+  },
+  "industryId": "education",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Translating and interpreting salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/translating-interpreting",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Translator salary",
+      "url": "https://www.paylab.com/eg/salaryinfo/translating-interpreting/translator",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik 2026 upper and lower limits, science, math and literary",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

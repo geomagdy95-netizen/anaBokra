@@ -1,0 +1,168 @@
+{
+  "id": "social_worker",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You stand with people when life becomes difficult.",
+      "ar": "تقف مع الناس حين تصبح الحياة صعبة."
+    },
+    "summary": {
+      "en": "Social workers help individuals, families and communities facing poverty, illness, violence, disability or other problems. They listen, assess needs, connect people with services and help them build a way forward. The work is meaningful but can be emotionally demanding.",
+      "ar": "الأخصائي الاجتماعي يساعد الأفراد والأسر والمجتمعات التي تواجه الفقر أو المرض أو العنف أو الإعاقة أو غيرها من المشكلات. يستمع ويقيّم الاحتياجات ويربط الناس بالخدمات ويساعدهم على إيجاد طريق للمستقبل. عمل ذو معنى لكنه قد يكون مرهقًا عاطفيًا."
+    },
+    "dayInLife": {
+      "en": "You visit a family whose father lost his job, listen to their situation and check which support programs fit them. Back at the office you write the case notes and call a hospital about a child who needs follow-up. In the afternoon you run a small group meeting for mothers, then plan next week's visits.",
+      "ar": "تزور أسرة فقد الأب عمله وتستمع لحالتها وتتحقق من برامج الدعم المناسبة. في المكتب تكتب ملاحظات الحالة وتتصل بمستشفى بخصوص طفل يحتاج متابعة. بعد الظهر تدير لقاء صغيرًا للأمهات ثم تخطط زيارات الأسبوع القادم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Meet individuals and families and assess their needs.",
+        "ar": "تقابل الأفراد والأسر وتقيّم احتياجاتهم."
+      },
+      {
+        "en": "Connect people with services such as health, education and aid.",
+        "ar": "تربط الناس بخدمات مثل الصحة والتعليم والمساعدات."
+      },
+      {
+        "en": "Support people through personal and family problems.",
+        "ar": "تدعم الناس في مشكلاتهم الشخصية والأسرية."
+      },
+      {
+        "en": "Run group sessions and community projects.",
+        "ar": "تدير جلسات جماعية ومشروعات مجتمعية."
+      },
+      {
+        "en": "Keep case records and follow up on progress.",
+        "ar": "تحتفظ بسجلات الحالات وتتابع التقدم."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Schools, hospitals and clinics",
+        "ar": "المدارس والمستشفيات والعيادات"
+      },
+      {
+        "en": "NGOs and charities",
+        "ar": "المنظمات الأهلية والجمعيات الخيرية"
+      },
+      {
+        "en": "Government social service offices",
+        "ar": "مكاتب الخدمات الاجتماعية الحكومية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Interviews and home visits",
+        "ar": "المقابلات والزيارات المنزلية"
+      },
+      {
+        "en": "Case files and referral lists",
+        "ar": "ملفات الحالات وقوائم الإحالة"
+      },
+      {
+        "en": "Basic office software",
+        "ar": "برامج المكتب الأساسية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Arts, Education and Economics and Political Science mostly accept literary-stream students. With IGCSE or A-Level, English, Sociology, Psychology, History or Economics help; with the American Diploma, take social science electives. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الآداب والتربية والاقتصاد والعلوم السياسية تقبل في الغالب طلاب الشعبة الأدبية. في IGCSE وA-Level تفيد الإنجليزية وعلم الاجتماع وعلم النفس والتاريخ والاقتصاد؛ وفي الدبلومة الأمريكية خذ مواد العلوم الاجتماعية الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Arts, sociology and social work departments",
+        "ar": "كليات الآداب، أقسام علم الاجتماع والخدمة الاجتماعية"
+      },
+      {
+        "en": "Faculties or higher institutes of social work at some public universities",
+        "ar": "كليات أو معاهد عليا للخدمة الاجتماعية في بعض الجامعات الحكومية"
+      },
+      {
+        "en": "Humanities and social sciences programs at private universities",
+        "ar": "برامج العلوم الإنسانية والاجتماعية بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-arts",
+      "ain-shams-university-arts",
+      "alexandria-university-arts",
+      "mansoura-university-arts",
+      "american-university-in-cairo-humanities-social-sciences"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 77.66% to 81.09% across 3 programs (lowest Alexandria University, highest Cairo University). These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 77.66% إلى 81.09% عبر 3 برنامجًا (الأدنى جامعة الإسكندرية والأعلى جامعة القاهرة). هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Volunteer first with an NGO or charity to see if the work suits you.",
+        "ar": "ابدأ بالتطوع في منظمة أهلية أو جمعية خيرية لترى إن كان العمل يناسبك."
+      },
+      {
+        "en": "A related degree (psychology, sociology), then training courses in case work and counselling.",
+        "ar": "درجة قريبة (علم النفس أو الاجتماع) ثم دورات تدريبية في دراسة الحالة والإرشاد."
+      }
+    ],
+    "licensing": {
+      "en": "Social workers in schools, hospitals and government bodies are usually appointed with a related degree, and some may join a social professions syndicate. Rules differ by employer, so check with your employer and the Ministry of Social Solidarity.",
+      "ar": "يُعيَّن الأخصائيون الاجتماعيون في المدارس والمستشفيات والجهات الحكومية عادة بمؤهل مناسب، وقد ينضم بعضهم إلى نقابة للمهن الاجتماعية. تختلف القواعد حسب جهة العمل، فتأكد من جهة عملك ووزارة التضامن الاجتماعي."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "school_counselor",
+      "clinical_psychologist",
+      "special_education_specialist",
+      "nurse",
+      "teacher",
+      "lawyer"
+    ],
+    "pivots": [
+      {
+        "en": "Counselling or psychology (with further study)",
+        "ar": "الإرشاد أو علم النفس (بدراسة إضافية)"
+      },
+      {
+        "en": "NGO program management",
+        "ar": "إدارة برامج المنظمات الأهلية"
+      },
+      {
+        "en": "Child protection and family services",
+        "ar": "حماية الطفل وخدمات الأسرة"
+      },
+      {
+        "en": "Community development",
+        "ar": "التنمية المجتمعية"
+      }
+    ]
+  },
+  "industryId": "education",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Social Worker",
+      "url": "https://www.onetonline.org/link/summary/21-1021.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Social Worker",
+      "url": "https://www.mynextmove.org/profile/summary/21-1021.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

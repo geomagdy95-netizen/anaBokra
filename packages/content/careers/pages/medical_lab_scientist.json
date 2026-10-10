@@ -1,0 +1,165 @@
+{
+  "id": "medical_lab_scientist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "Behind most diagnoses is someone who ran the test.",
+      "ar": "وراء معظم التشخيصات شخص أجرى التحليل."
+    },
+    "summary": {
+      "en": "Medical lab scientists analyse blood, urine and other samples to help doctors find and follow illnesses. The work is careful and detailed, and doctors depend on the accuracy of the results. Labs exist in hospitals, private labs and research centres.",
+      "ar": "أخصائي التحاليل الطبية يفحص عينات الدم والبول وغيرها ليساعد الأطباء في اكتشاف الأمراض ومتابعتها. العمل دقيق ومفصّل، ويعتمد الأطباء على صحة النتائج. توجد المعامل في المستشفيات والمعامل الخاصة ومراكز الأبحاث."
+    },
+    "dayInLife": {
+      "en": "You arrive, check that the machines are calibrated and run the quality-control samples. Then the day's samples arrive: blood for counts, urine for chemistry, swabs for cultures. You prepare them, run them on the analyser or under the microscope, and check any result that looks strange. You record the results, report urgent values to the doctor, and clean and label everything carefully.",
+      "ar": "تصل إلى المعمل وتتأكد من معايرة الأجهزة وتشغّل عينات مراقبة الجودة. ثم تصل عينات اليوم: دم لتعداد الخلايا وبول للتحاليل الكيميائية ومسحات للمزارع. تجهّزها وتشغّلها على الجهاز أو تفحصها بالميكروسكوب، وتعيد فحص أي نتيجة تبدو غريبة. تسجّل النتائج وتبلغ الطبيب بالقيم العاجلة، وتنظّف وتسجّل البيانات على كل شيء بعناية."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Prepare and analyse samples of blood, urine and other body fluids.",
+        "ar": "تجهّز وتحلل عينات الدم والبول وسوائل الجسم الأخرى."
+      },
+      {
+        "en": "Use microscopes and automatic analysers to count cells and measure chemicals.",
+        "ar": "تستخدم الميكروسكوب وأجهزة التحليل الآلية لعدّ الخلايا وقياس المواد الكيميائية."
+      },
+      {
+        "en": "Check results for accuracy and repeat tests when something looks wrong.",
+        "ar": "تتحقق من دقة النتائج وتعيد التحليل عند وجود ما يثير الشك."
+      },
+      {
+        "en": "Record results and report them to doctors.",
+        "ar": "تسجّل النتائج وتسلّمها للأطباء."
+      },
+      {
+        "en": "Follow safety rules for handling infected samples and chemicals.",
+        "ar": "تتبع قواعد السلامة في التعامل مع العينات المعدية والمواد الكيميائية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hospital laboratories",
+        "ar": "معامل المستشفيات"
+      },
+      {
+        "en": "Private diagnostic labs and blood banks",
+        "ar": "المعامل الخاصة وبنوك الدم"
+      },
+      {
+        "en": "Research and public health laboratories",
+        "ar": "معامل الأبحاث والصحة العامة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Microscopes and automatic analysers",
+        "ar": "الميكروسكوبات وأجهزة التحليل الآلية"
+      },
+      {
+        "en": "Lab information systems",
+        "ar": "أنظمة معلومات المعامل"
+      },
+      {
+        "en": "Protective equipment and sterilization tools",
+        "ar": "معدات الوقاية وأدوات التعقيم"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "A science stream at school is the usual route. With IGCSE, A-Level or the American Diploma, Biology and Chemistry are the most useful subjects. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبة العلمية هي المسار المعتاد. وفي IGCSE وA-Level والدبلومة الأمريكية الأنفع هي الأحياء والكيمياء. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Applied Health Sciences or medical laboratory programs (for example at Misr University for Science and Technology)",
+        "ar": "كليات العلوم الصحية التطبيقية أو برامج التحاليل الطبية (مثل جامعة مصر للعلوم والتكنولوجيا)"
+      },
+      {
+        "en": "Faculties of Science, with biochemistry, microbiology or biology departments",
+        "ar": "كليات العلوم بأقسام الكيمياء الحيوية أو الميكروبيولوجي أو الأحياء"
+      },
+      {
+        "en": "Technical health institutes (diploma) for laboratory assistants",
+        "ar": "المعاهد الفنية الصحية (دبلوم) لمساعدي المعامل"
+      }
+    ],
+    "programIds": [
+      "misr-university-for-science-and-technology-applied-health-sciences-technology",
+      "cairo-university-science",
+      "ain-shams-university-science"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 56% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 56% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Technical health institute diploma, then work in a laboratory and continue to a bachelor's degree later.",
+        "ar": "دبلوم المعهد الفني الصحي ثم العمل في معمل واستكمال البكالوريوس لاحقًا."
+      },
+      {
+        "en": "A science degree in chemistry or biology, followed by a diploma in medical laboratory techniques.",
+        "ar": "درجة علمية في الكيمياء أو الأحياء ثم دبلوم في فنيات التحاليل الطبية."
+      }
+    ],
+    "licensing": {
+      "en": "Laboratory work on patient samples is regulated by the Ministry of Health, and the licence or syndicate you need depends on your degree. Rules change, so check with the Ministry of Health and your faculty.",
+      "ar": "العمل في تحليل عينات المرضى تنظمه وزارة الصحة، والترخيص أو النقابة المطلوبة يعتمدان على مؤهلك. القواعد تتغير، فتأكد من وزارة الصحة ومن كليتك."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "pharmacist",
+      "biotechnologist",
+      "nurse",
+      "chemist",
+      "radiology_technologist"
+    ],
+    "pivots": [
+      {
+        "en": "Blood bank or transfusion specialist",
+        "ar": "أخصائي بنك الدم"
+      },
+      {
+        "en": "Molecular diagnostics and genetics",
+        "ar": "التشخيص الجزيئي والوراثة"
+      },
+      {
+        "en": "Lab quality management",
+        "ar": "إدارة الجودة في المعامل"
+      },
+      {
+        "en": "Medical device sales and support",
+        "ar": "مبيعات ودعم الأجهزة الطبية"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Medical Lab Scientist",
+      "url": "https://www.onetonline.org/link/summary/29-2011.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Medical Lab Scientist",
+      "url": "https://www.mynextmove.org/profile/summary/29-2011.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

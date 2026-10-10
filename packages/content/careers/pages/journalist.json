@@ -1,0 +1,427 @@
+{
+  "id": "journalist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You find out what is happening and tell people the truth about it.",
+      "ar": "تكتشف ما يحدث وتخبر الناس بالحقيقة."
+    },
+    "summary": {
+      "en": "Journalists gather facts, interview people, check information and report it in writing, video, audio or data. The field is changing quickly: print is shrinking and digital, video and data stories are growing. It is a career for curious people who value accuracy, and it comes with real pressures, so go in with open eyes.",
+      "ar": "الصحفي يجمع الحقائق ويحاور الناس ويتحقق من المعلومات وينقلها كتابةً أو فيديو أو صوتًا أو بيانات. المجال يتغير بسرعة: الصحافة الورقية تتراجع والقصص الرقمية والمرئية والبيانات تنمو. إنه مسار للفضوليين الذين يقدّرون الدقة، وله ضغوط حقيقية، فادخله وأنت واعٍ."
+    },
+    "dayInLife": {
+      "en": "You start the day reading the news and checking what your editor wants covered. A story tip reaches you about rising prices in a local market, so you visit it, talk to sellers and customers and collect prices with photos. You check the numbers with an official source and ask a specialist to explain the reasons. Back at the desk you write the report in clear short sentences and send it to the editor, who asks you to add one more source. You fix it, publish it online, and answer readers' questions on social media.",
+      "ar": "تبدأ يومك بقراءة الأخبار ومعرفة ما يريد رئيس التحرير تغطيته. تصلك معلومة عن ارتفاع الأسعار في سوق محلي، فتذهب إليه وتتحدث مع البائعين والزبائن وتجمع الأسعار مع الصور. تتحقق من الأرقام من مصدر رسمي وتسأل متخصصًا ليشرح الأسباب. وفي المكتب تكتب التقرير بجمل قصيرة واضحة وترسله إلى رئيس التحرير الذي يطلب منك إضافة مصدر آخر. تعدّل وتنشره على الموقع، ثم ترد على أسئلة القراء على وسائل التواصل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Find story ideas and sources, and follow events and official announcements.",
+        "ar": "تبحث عن أفكار القصص والمصادر وتتابع الأحداث والبيانات الرسمية."
+      },
+      {
+        "en": "Interview people and take notes, audio or video.",
+        "ar": "تُجري حوارات وتسجل ملاحظات أو صوتًا أو فيديو."
+      },
+      {
+        "en": "Check facts with more than one source before publishing.",
+        "ar": "تتحقق من الحقائق بأكثر من مصدر قبل النشر."
+      },
+      {
+        "en": "Write or produce stories for print, websites, TV, radio or social media.",
+        "ar": "تكتب أو تنتج القصص للصحف والمواقع والتلفزيون والإذاعة ووسائل التواصل."
+      },
+      {
+        "en": "Work with editors, photographers and video teams on deadlines.",
+        "ar": "تعمل مع المحررين والمصورين وفرق الفيديو على مواعيد محددة."
+      },
+      {
+        "en": "Follow the law and ethics of the profession, including privacy and fair reporting.",
+        "ar": "تلتزم بقانون المهنة وأخلاقياتها، ومنها الخصوصية والتغطية العادلة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Newsrooms of newspapers, websites and TV channels",
+        "ar": "غرف أخبار الصحف والمواقع والقنوات"
+      },
+      {
+        "en": "Field reporting: courts, markets, events and press conferences",
+        "ar": "العمل الميداني: المحاكم والأسواق والفعاليات والمؤتمرات الصحفية"
+      },
+      {
+        "en": "Remote work for digital outlets and as a freelancer",
+        "ar": "العمل عن بُعد للمواقع الرقمية والعمل الحر"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Smartphone for photos, video and audio",
+        "ar": "الموبايل للصور والفيديو والصوت"
+      },
+      {
+        "en": "Content management systems and social media",
+        "ar": "أنظمة إدارة المحتوى ووسائل التواصل"
+      },
+      {
+        "en": "Fact-checking and search tools",
+        "ar": "أدوات التحقق من الحقائق والبحث"
+      },
+      {
+        "en": "Basic video editing and data tools such as Excel",
+        "ar": "مونتاج فيديو أساسي وأدوات بيانات مثل إكسل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: English Language, English Literature, History, Media Studies and Sociology. American Diploma: English, Journalism or Composition electives and Government. IB: Language A, History and Theory of Knowledge. Write regularly in the school paper or a blog.",
+      "ar": "IGCSE أو A-Level: اللغة الإنجليزية والأدب الإنجليزي والتاريخ ودراسات الإعلام وعلم الاجتماع. الدبلومة الأمريكية: الإنجليزية ومواد اختيارية في الصحافة أو الكتابة والحكومة. IB: لغة A والتاريخ ونظرية المعرفة. اكتب باستمرار في مجلة المدرسة أو في مدونة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Mass Communication (journalism, broadcasting, advertising)",
+        "ar": "كلية الإعلام (صحافة وإذاعة وتلفزيون وإعلان)"
+      },
+      {
+        "en": "Faculty of Arts, media or Arabic or English language departments",
+        "ar": "كلية الآداب، أقسام الإعلام أو اللغة العربية أو الإنجليزية"
+      },
+      {
+        "en": "Private university media and communication programs",
+        "ar": "برامج الإعلام والاتصال في الجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "beni-suef-university-mass-communication",
+      "qena-university-mass-communication",
+      "cairo-university-arts",
+      "british-university-in-egypt-communication-mass-media",
+      "misr-international-university-mass-communication"
+    ],
+    "tansikNote": {
+      "en": "Mass Communication (literary track) asked for about 86% to 90% in the 2026 phase-1 lists: Qena 86.09%, Beni Suef 86.72% and Cairo University 90.31% (percent of the total). Faculties of Arts were lower: Fayoum 71.56% to Cairo University 81.09% in 2026. Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff.",
+      "ar": "طلب الإعلام (الشعبة الأدبية) نحو 86% إلى 90% في المرحلة الأولى لعام 2026: قنا 86.09% وبني سويف 86.72% وجامعة القاهرة 90.31% (نسبة مئوية من المجموع). وكانت كليات الآداب أقل: الفيوم 71.56% وجامعة القاهرة 81.09% في 2026. تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Any degree plus a strong portfolio of published work: many journalists specialise in what they studied, such as economics, health, law or science.",
+        "ar": "أي شهادة مع ملف قوي من الأعمال المنشورة: كثير من الصحفيين يتخصصون فيما درسوه مثل الاقتصاد أو الصحة أو القانون أو العلوم."
+      },
+      {
+        "en": "Training programs and diplomas from newsroom academies and media institutes.",
+        "ar": "برامج ودبلومات تدريبية من أكاديميات غرف الأخبار ومعاهد الإعلام."
+      },
+      {
+        "en": "Start with a digital outlet, local newspaper or student media, then move to bigger platforms.",
+        "ar": "ابدأ بموقع رقمي أو صحيفة محلية أو إعلام الطلاب ثم انتقل لمنصات أكبر."
+      }
+    ],
+    "licensing": {
+      "en": "To be a recognised journalist you register with the Journalists Syndicate. In general you need a higher qualification, Egyptian nationality, good reputation and training period with a press institution or agency (the trainee table), followed by registration in the working journalists table after proving your journalistic activity. Broadcast and online media are also regulated by the Supreme Council for Media Regulation. Rules and syndicate decisions change, so check with the syndicate directly.",
+      "ar": "للاعتراف بك صحفيًا تُقيَّد في نقابة الصحفيين. يُشترط عمومًا مؤهل عالٍ وجنسية مصرية وحسن السمعة وفترة تدريب في مؤسسة صحفية أو وكالة (جدول المتدربين)، ثم القيد في جدول المشتغلين بعد إثبات نشاطك الصحفي. كما ينظّم المجلس الأعلى لتنظيم الإعلام العمل في الإعلام المسموع والمرئي والإلكتروني. القواعد وقرارات النقابة تتغير، فاسأل النقابة مباشرة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Researching and verifying information",
+        "ar": "البحث عن المعلومات والتحقق منها"
+      },
+      {
+        "en": "News writing and editing",
+        "ar": "كتابة الأخبار وتحريرها"
+      },
+      {
+        "en": "Interviewing",
+        "ar": "إجراء الحوارات"
+      },
+      {
+        "en": "Photo, video and audio basics",
+        "ar": "أساسيات الصورة والفيديو والصوت"
+      },
+      {
+        "en": "Data and spreadsheet basics for stories with numbers",
+        "ar": "أساسيات البيانات وجداول البيانات للقصص التي تحتوي أرقامًا"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Curiosity and courage to ask questions",
+        "ar": "الفضول والشجاعة في طرح الأسئلة"
+      },
+      {
+        "en": "Honesty and fairness",
+        "ar": "الأمانة والإنصاف"
+      },
+      {
+        "en": "Working under deadlines",
+        "ar": "العمل تحت المواعيد النهائية"
+      },
+      {
+        "en": "Listening and respecting sources",
+        "ar": "الاستماع واحترام المصادر"
+      },
+      {
+        "en": "Resilience when facing criticism",
+        "ar": "المرونة أمام النقد"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: strong writing is essential",
+        "ar": "العربية: الكتابة القوية أساسية"
+      },
+      {
+        "en": "English: sources, agencies and international outlets",
+        "ar": "الإنجليزية: المصادر والوكالات والمنصات الدولية"
+      },
+      {
+        "en": "A third language (French, German or other) opens foreign media jobs",
+        "ar": "لغة ثالثة (فرنسية أو ألمانية أو غيرها) تفتح وظائف في الإعلام الأجنبي"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "No certificate is required beyond syndicate registration.",
+        "ar": "لا شهادة مطلوبة غير القيد في النقابة."
+      },
+      {
+        "en": "Fact-checking and digital journalism training (optional)",
+        "ar": "تدريب على التحقق من الأخبار والصحافة الرقمية (اختياري)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Reuters Handbook of Journalism",
+        "url": "https://handbook.reuters.com",
+        "free": true
+      },
+      {
+        "title": "BBC Academy: journalism skills",
+        "url": "https://www.bbc.co.uk/academy",
+        "free": true
+      },
+      {
+        "title": "Al Jazeera Media Institute",
+        "url": "https://institute.aljazeera.net",
+        "free": false
+      },
+      {
+        "title": "Egyptian legislation portal (Manshurat)",
+        "url": "https://manshurat.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9167,
+        "max": 23088
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Journalist across all experience levels. Related titles: Reporter 8,998 to 21,029 and Editor 9,295 to 23,314 EGP; Editor-in-Chief is 9,551 to 37,579 EGP on the management page. Pay in state press institutions follows their own scales and can differ.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Journalist في Paylab لكل مستويات الخبرة. مسميات قريبة: مراسل 8,998 إلى 21,029 ومحرر 9,295 إلى 23,314، ورئيس التحرير 9,551 إلى 37,579 في صفحة الإدارة. وتتبع المؤسسات الصحفية القومية جداول أجور خاصة قد تختلف."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "National press institutions (for example Al-Ahram, Akhbar El Yom)",
+        "ar": "المؤسسات الصحفية القومية (مثل الأهرام وأخبار اليوم)"
+      },
+      {
+        "en": "Private newspapers and news websites (for example Al-Masry Al-Youm, Youm7, Masrawy, Mada Masr)",
+        "ar": "صحف ومواقع إخبارية خاصة (مثل المصري اليوم واليوم السابع ومصراوي ومدى مصر)"
+      },
+      {
+        "en": "TV and radio channels",
+        "ar": "القنوات التلفزيونية والإذاعية"
+      },
+      {
+        "en": "News agencies and international media bureaus in Cairo",
+        "ar": "وكالات الأنباء ومكاتب الإعلام الدولية في القاهرة"
+      },
+      {
+        "en": "Companies' content and communication teams",
+        "ar": "فرق المحتوى والاتصال في الشركات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelancing is common: articles, video reports, podcasts and newsletters. Digital outlets often hire remote correspondents. Income from freelancing can be irregular.",
+      "ar": "العمل الحر شائع: مقالات وتقارير فيديو وبودكاست ونشرات. وتوظف المواقع الرقمية مراسلين عن بُعد كثيرًا. دخل العمل الحر قد يكون غير منتظم."
+    },
+    "regions": [
+      {
+        "en": "Cairo (most newsrooms and media city)",
+        "ar": "القاهرة (معظم غرف الأخبار ومدينة الإنتاج الإعلامي)"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Regional bureaus in other governorates",
+        "ar": "مكاتب إقليمية في المحافظات"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Egyptian journalists work for Arabic-language outlets across the Gulf and for international media with Arabic services. Moving abroad usually needs strong English or another language, a portfolio and a work permit. Journalism careers can also lead to communication roles in companies and organisations.",
+    "ar": "يعمل صحفيون مصريون في مؤسسات ناطقة بالعربية في الخليج وفي وسائل إعلام دولية لها خدمات عربية. السفر للعمل يحتاج غالبًا إنجليزية قوية أو لغة أخرى وملف أعمال وتصريح عمل. ويمكن أن يقود العمل الصحفي أيضًا إلى وظائف الاتصال في الشركات والمنظمات."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Every day is different and you learn about many topics",
+        "ar": "كل يوم مختلف وتتعلم عن موضوعات كثيرة"
+      },
+      {
+        "en": "You can give people useful information",
+        "ar": "تستطيع أن تقدم للناس معلومات مفيدة"
+      },
+      {
+        "en": "Skills in writing and research open other doors",
+        "ar": "مهارات الكتابة والبحث تفتح أبوابًا أخرى"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few well-paid jobs and many people competing",
+        "ar": "وظائف جيدة الأجر قليلة ومنافسون كثيرون"
+      },
+      {
+        "en": "Egypt ranks low in international press-freedom indexes, so some topics are sensitive and legal rules matter",
+        "ar": "تأتي مصر في مراتب متأخرة في مؤشرات حرية الصحافة الدولية، فبعض الموضوعات حساسة والقواعد القانونية مهمة"
+      },
+      {
+        "en": "Print is declining and digital outlets compete for attention and money",
+        "ar": "الصحافة الورقية تتراجع والمواقع الرقمية تتنافس على الانتباه والمال"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Journalists only write opinions.",
+          "ar": "الصحفيون يكتبون آراءً فقط."
+        },
+        "fact": {
+          "en": "Most of the work is gathering and checking facts. Opinion is a small part.",
+          "ar": "معظم العمل جمع الحقائق والتحقق منها. الرأي جزء صغير."
+        }
+      },
+      {
+        "myth": {
+          "en": "Anyone with a phone is a journalist, so training is not needed.",
+          "ar": "أي شخص معه موبايل صحفي فلا حاجة للتدريب."
+        },
+        "fact": {
+          "en": "Training in verification, law and ethics protects you and your readers.",
+          "ar": "التدريب على التحقق والقانون والأخلاقيات يحميك ويحمي قراءك."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will replace journalists.",
+          "ar": "الذكاء الاصطناعي سيحل محل الصحفيين."
+        },
+        "fact": {
+          "en": "AI helps with summaries and data, but being on the ground, building trust with sources and checking facts remain human work.",
+          "ar": "الذكاء الاصطناعي يساعد في التلخيص والبيانات، لكن الوجود في الميدان وبناء ثقة المصادر والتحقق يبقى عملًا بشريًا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Irregular hours are common, especially during breaking news and elections. Desk jobs are steadier than field reporting.",
+      "ar": "الساعات غير المنتظمة شائعة، خاصة عند الأخبار العاجلة والانتخابات. العمل المكتبي أكثر استقرارًا من الميداني."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Trainee or junior reporter",
+        "ar": "صحفي متدرب أو محرر مبتدئ"
+      },
+      {
+        "en": "Reporter or editor",
+        "ar": "مراسل أو محرر"
+      },
+      {
+        "en": "Senior reporter or section editor",
+        "ar": "مراسل أول أو رئيس قسم"
+      },
+      {
+        "en": "Managing editor",
+        "ar": "مدير التحرير"
+      },
+      {
+        "en": "Editor-in-chief",
+        "ar": "رئيس التحرير"
+      }
+    ],
+    "relatedCareerIds": [
+      "content_creator",
+      "pr_specialist",
+      "film_producer",
+      "social_media_manager",
+      "political_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Public relations and corporate communication",
+        "ar": "العلاقات العامة والاتصال المؤسسي"
+      },
+      {
+        "en": "Content and social media management",
+        "ar": "إدارة المحتوى والسوشيال ميديا"
+      },
+      {
+        "en": "Documentary and video production",
+        "ar": "إنتاج الأفلام الوثائقية والفيديو"
+      },
+      {
+        "en": "Research and policy writing",
+        "ar": "البحث وكتابة السياسات"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Journalism, printing arts and media salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Shbabbek: how to become a Journalists Syndicate member",
+      "url": "https://shbabbek.com/show/21332.",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

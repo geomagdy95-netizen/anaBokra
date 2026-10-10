@@ -1,0 +1,391 @@
+{
+  "id": "veterinarian",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You treat animals, from pets to farm livestock, and protect people from diseases that pass from animals.",
+      "ar": "تعالج الحيوانات من القطط والكلاب إلى مواشي المزارع، وتحمي الناس من الأمراض التي تنتقل من الحيوان."
+    },
+    "summary": {
+      "en": "Veterinarians diagnose and treat animals, vaccinate herds, and help keep food safe. In Egypt you study five years in a Faculty of Veterinary Medicine. Most work is with livestock and poultry outside the big cities; pet clinics are growing in Cairo, Giza and Alexandria.",
+      "ar": "الطبيب البيطري يشخّص الحيوانات ويعالجها ويطعّم القطعان ويساعد في سلامة الغذاء. في مصر تدرس خمس سنوات في كلية الطب البيطري. معظم العمل مع الماشية والدواجن خارج المدن الكبرى، وتنمو عيادات الحيوانات الأليفة في القاهرة والجيزة والإسكندرية."
+    },
+    "dayInLife": {
+      "en": "You leave early for a dairy farm in the Delta where a cow has stopped eating. You examine her, take a blood sample, and explain the treatment to the farmer. Then you vaccinate calves and write the records. In the afternoon you open your small clinic in town: a cat with a swollen paw, a dog due for its rabies shot. You clean your instruments, answer a worried owner on the phone, and fill in the day's notes before going home with a bit of mud on your boots.",
+      "ar": "تخرج مبكرًا إلى مزرعة ألبان في الدلتا حيث توقفت بقرة عن الأكل. تفحصها وتأخذ عينة دم وتشرح العلاج للمزارع. ثم تطعّم العجول وتدوّن السجلات. بعد الظهر تفتح عيادتك الصغيرة في البلدة: قطة بقدم متورمة وكلب يحتاج حقنة السعار. تنظف أدواتك وترد على صاحب قلق في الهاتف وتكمل ملاحظات اليوم ثم تعود إلى البيت وفي حذائك بعض الطين."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Examine sick or injured animals and diagnose the problem.",
+        "ar": "تفحص الحيوانات المريضة أو المصابة وتشخّص المشكلة."
+      },
+      {
+        "en": "Treat with medicine, wound care or surgery.",
+        "ar": "تعالج بالأدوية أو العناية بالجروح أو الجراحة."
+      },
+      {
+        "en": "Vaccinate animals and run disease prevention programs on farms.",
+        "ar": "تطعّم الحيوانات وتنفذ برامج الوقاية من الأمراض في المزارع."
+      },
+      {
+        "en": "Advise owners and farmers on feeding, breeding and hygiene.",
+        "ar": "تنصح أصحاب الحيوانات والمزارعين بالتغذية والتربية والنظافة."
+      },
+      {
+        "en": "Inspect meat, milk and animal products for food safety.",
+        "ar": "تفحص اللحوم والألبان والمنتجات الحيوانية لضمان سلامة الغذاء."
+      },
+      {
+        "en": "Report and help control diseases that can spread to people.",
+        "ar": "تبلغ عن الأمراض التي قد تنتقل للإنسان وتساعد في السيطرة عليها."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Farms, dairy and poultry units",
+        "ar": "المزارع ووحدات الألبان والدواجن"
+      },
+      {
+        "en": "Small-animal and pet clinics",
+        "ar": "عيادات الحيوانات الصغيرة والأليفة"
+      },
+      {
+        "en": "Slaughterhouses, veterinary quarantine and labs",
+        "ar": "المجازر والحجر البيطري والمعامل"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Stethoscope, thermometer and basic surgical instruments",
+        "ar": "السماعة والترمومتر والأدوات الجراحية الأساسية"
+      },
+      {
+        "en": "Portable ultrasound and X-ray (in clinics)",
+        "ar": "السونار والأشعة المحمولة (في العيادات)"
+      },
+      {
+        "en": "Lab test kits and microscopes",
+        "ar": "عدد الفحص المعملي والميكروسكوب"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Biology and Chemistry at a high level. With the American Diploma, choose AP Biology and Chemistry. Confirm equivalency and accepted subjects with the Tansik office.",
+      "ar": "في IGCSE أو A-levels خذ الأحياء والكيمياء بمستوى مرتفع. وفي الدبلومة الأمريكية اختر AP للأحياء والكيمياء. تأكد من المعادلة والمواد المقبولة لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Veterinary Medicine (BVSc) at public universities such as Cairo, Mansoura, Alexandria and Benha",
+        "ar": "كليات الطب البيطري (بكالوريوس العلوم الطبية البيطرية) بالجامعات الحكومية مثل القاهرة والمنصورة والإسكندرية وبنها"
+      }
+    ],
+    "programIds": [
+      "mansoura-university-veterinary-medicine",
+      "sohag-university-veterinary-medicine",
+      "cairo-university-veterinary-medicine",
+      "alexandria-university-veterinary-medicine",
+      "assiut-university-veterinary-medicine",
+      "zagazig-university-veterinary-medicine",
+      "benha-university-veterinary-medicine",
+      "suez-canal-university-veterinary-medicine",
+      "minia-university-veterinary-medicine",
+      "kafrelsheikh-university-veterinary-medicine",
+      "beni-suef-university-veterinary-medicine",
+      "qena-university-veterinary-medicine"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2024: 90.61% to 90.73% across 2 programs (lowest Mansoura University, highest Sohag University); 2023: 88.41% (Mansoura University, the only program with a published figure in our data). These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data has Tansik figures for only two veterinary faculties in two years, so compare with the Tansik office for the current year.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2024: من 90.61% إلى 90.73% عبر 2 برنامجًا (الأدنى جامعة المنصورة، الأعلى جامعة سوهاج)؛ 2023: 88.41% (جامعة المنصورة، وهو البرنامج الوحيد الذي لدينا له رقم منشور). هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. لدينا أرقام تنسيق لكليتين بيطريتين فقط في سنتين، فقارن مع مكتب التنسيق للسنة الحالية."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Agricultural science, animal production, food science or biotechnology lead to nearby careers with animals and food.",
+        "ar": "العلوم الزراعية والإنتاج الحيواني وعلوم الأغذية والتكنولوجيا الحيوية تقود إلى مهن قريبة من الحيوان والغذاء."
+      },
+      {
+        "en": "Postgraduate degrees open research, lab and specialist hospital roles.",
+        "ar": "الدراسات العليا تفتح أبواب البحث والمعامل والمستشفيات المتخصصة."
+      }
+    ],
+    "licensing": {
+      "en": "Membership of the Veterinary Syndicate is a legal requirement for practicing in Egypt. In 2025 the Health Ministry and the syndicate discussed training for recent graduates and licensing through the Egyptian Health Council, so check current requirements for your graduating year. Specialist titles need a license, 5 years of practice and syndicate exams.",
+      "ar": "عضوية نقابة الأطباء البيطريين شرط قانوني للممارسة في مصر. وفي 2025 ناقشت وزارة الصحة والنقابة تدريب الخريجين الجدد والترخيص عبر المجلس الصحي المصري، فراجع الشروط الحالية لدفعتك. ألقاب التخصص تتطلب ترخيصًا وخمس سنوات ممارسة وامتحانات النقابة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Animal anatomy, physiology and pathology",
+        "ar": "تشريح وفسيولوجيا وأمراض الحيوان"
+      },
+      {
+        "en": "Clinical examination and animal handling",
+        "ar": "الفحص الإكلينيكي والتعامل مع الحيوانات"
+      },
+      {
+        "en": "Pharmacology, vaccination and parasitology",
+        "ar": "علم الأدوية والتطعيم والطفيليات"
+      },
+      {
+        "en": "Food hygiene and meat inspection",
+        "ar": "صحة الأغذية وفحص اللحوم"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm and patient with animals and worried owners",
+        "ar": "الهدوء والصبر مع الحيوانات وأصحابها القلقين"
+      },
+      {
+        "en": "Willingness to work outdoors and in rural areas",
+        "ar": "الاستعداد للعمل في الخارج والريف"
+      },
+      {
+        "en": "Clear advice for farmers and families",
+        "ar": "نصائح واضحة للمزارعين والأسر"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for textbooks and research",
+        "ar": "الإنجليزية للكتب والأبحاث"
+      },
+      {
+        "en": "Arabic, including everyday rural speech with farmers",
+        "ar": "العربية بما فيها لغة الحديث اليومي مع المزارعين"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Veterinary Syndicate membership",
+        "ar": "عضوية نقابة الأطباء البيطريين"
+      },
+      {
+        "en": "Postgraduate diplomas or a master's in a specialty",
+        "ar": "دبلومات أو ماجستير في تخصص"
+      },
+      {
+        "en": "Short courses in small-animal medicine, ultrasound, surgery",
+        "ar": "دورات قصيرة في طب الحيوانات الصغيرة والسونار والجراحة"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Biology",
+        "url": "https://www.khanacademy.org/science/biology",
+        "free": true
+      },
+      {
+        "title": "WOAH (World Organisation for Animal Health) - learn about animal health",
+        "url": "https://www.woah.org/en/what-we-do/animal-health-and-welfare/",
+        "free": true
+      },
+      {
+        "title": "Cornell Feline Health Center (cat health information)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8832,
+        "max": 25037
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/veterinarian?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 22,981 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 22,981 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Ministry of Agriculture veterinary directorates and the General Organization for Veterinary Services",
+        "ar": "مديريات الطب البيطري بوزارة الزراعة والهيئة العامة للخدمات البيطرية"
+      },
+      {
+        "en": "Poultry and dairy companies",
+        "ar": "شركات الدواجن والألبان"
+      },
+      {
+        "en": "Veterinary pharmaceutical and feed companies",
+        "ar": "شركات الأدوية البيطرية والأعلاف"
+      },
+      {
+        "en": "Private pet clinics and your own practice",
+        "ar": "عيادات الحيوانات الأليفة الخاصة وعيادتك الخاصة"
+      },
+      {
+        "en": "Universities and research centers",
+        "ar": "الجامعات ومراكز البحث"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many vets run their own clinic or visit farms on a fee basis. Online consultation is limited because animals must be examined in person.",
+      "ar": "كثير من البيطريين يديرون عيادتهم أو يزورون المزارع بالأجر. الاستشارة عن بعد محدودة لأن الحيوان يحتاج فحصًا مباشرًا."
+    },
+    "regions": [
+      {
+        "en": "Delta and Upper Egypt governorates with livestock and poultry",
+        "ar": "محافظات الدلتا والصعيد ذات الثروة الحيوانية والدواجن"
+      },
+      {
+        "en": "Cairo, Giza and Alexandria for pet clinics",
+        "ar": "القاهرة والجيزة والإسكندرية لعيادات الحيوانات الأليفة"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Veterinary skills are in demand in the Gulf for livestock, racing and companion animals, but each country has its own license. Moving to Europe, Canada or the US generally means entrance exams and further study.",
+    "ar": "المهارات البيطرية مطلوبة في الخليج للماشية والسباقات والحيوانات الأليفة، ولكل بلد ترخيصه. الانتقال إلى أوروبا أو كندا أو أمريكا يعني عادة امتحانات قبول ودراسة إضافية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Working with animals every day",
+        "ar": "العمل مع الحيوانات كل يوم"
+      },
+      {
+        "en": "Important role in food safety and public health",
+        "ar": "دور مهم في سلامة الغذاء والصحة العامة"
+      },
+      {
+        "en": "Chance to open your own clinic",
+        "ar": "فرصة لفتح عيادتك الخاصة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Pay in the public sector and in rural practice is modest",
+        "ar": "الأجر متواضع في القطاع الحكومي وفي الريف"
+      },
+      {
+        "en": "Physically demanding work, sometimes dirty and early",
+        "ar": "عمل مرهق جسديًا وأحيانًا متسخ ومبكر"
+      },
+      {
+        "en": "Risk of bites, scratches and animal diseases",
+        "ar": "خطر العض والخدش وأمراض الحيوان"
+      },
+      {
+        "en": "Hard moments when animals cannot be saved",
+        "ar": "لحظات صعبة حين لا يمكن إنقاذ الحيوان"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Vets only treat cats and dogs.",
+          "ar": "البيطري يعالج القطط والكلاب فقط."
+        },
+        "fact": {
+          "en": "Most Egyptian vets work with livestock, poultry, fish, horses and food safety.",
+          "ar": "أغلب البيطريين في مصر يعملون مع الماشية والدواجن والأسماك والخيول وسلامة الغذاء."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is a lesser option than human medicine.",
+          "ar": "هي أقل شأنًا من الطب البشري."
+        },
+        "fact": {
+          "en": "It is a full science degree with surgery, pharmacology and public health, and it protects human health too.",
+          "ar": "هي شهادة علمية كاملة فيها جراحة وأدوية وصحة عامة وتحمي صحة الإنسان أيضًا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Depends on your path. Farm and emergency work can start early and run late; clinic work and lab jobs are steadier.",
+      "ar": "تعتمد على مسارك. عمل المزارع والطوارئ قد يبدأ مبكرًا وينتهي متأخرًا؛ أما العيادة والمعمل فأكثر انتظامًا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Veterinary student (5 years)",
+        "ar": "طالب طب بيطري (5 سنوات)"
+      },
+      {
+        "en": "Recent graduate in training",
+        "ar": "خريج حديث تحت التدريب"
+      },
+      {
+        "en": "Veterinarian",
+        "ar": "طبيب بيطري"
+      },
+      {
+        "en": "Specialist (master's or diploma) or farm manager",
+        "ar": "أخصائي (ماجستير أو دبلوم) أو مدير مزرعة"
+      },
+      {
+        "en": "Clinic owner, consultant or academic",
+        "ar": "صاحب عيادة أو استشاري أو أكاديمي"
+      }
+    ],
+    "relatedCareerIds": [
+      "agricultural_engineer",
+      "food_scientist",
+      "biotechnologist",
+      "physician",
+      "agribusiness_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Veterinary pharmaceuticals and animal feed industry",
+        "ar": "صناعة الأدوية البيطرية والأعلاف"
+      },
+      {
+        "en": "Food safety and quality assurance",
+        "ar": "سلامة الغذاء وضمان الجودة"
+      },
+      {
+        "en": "Wildlife, zoo and research work",
+        "ar": "الحياة البرية والحدائق والبحث"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Cairo Governorate - Health Ministry, Veterinarians Syndicate discuss training, law amendments",
+      "url": "https://www.cairo.gov.eg/en/news/news-eng/2025/f69d5b30a4b6415dac75e847266199b0",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Daily News Egypt - Health Ministry, Veterinarians Syndicate discuss training, law amendments, veterinary drugs",
+      "url": "https://www.dailynewsegypt.com/?p=842754",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Veterinarian salary survey",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/veterinarian?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

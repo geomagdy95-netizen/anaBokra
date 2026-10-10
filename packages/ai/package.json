@@ -1,0 +1,21 @@
+{
+  "name": "@anabokra/ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@anabokra/engine": "workspace:*",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@anabokra/content": "workspace:*"
+  }
+}

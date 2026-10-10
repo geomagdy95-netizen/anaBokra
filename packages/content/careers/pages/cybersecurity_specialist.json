@@ -1,0 +1,461 @@
+{
+  "id": "cybersecurity_specialist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You protect people, companies and countries from hackers, scams and data theft.",
+      "ar": "تحمي الناس والشركات والدول من الهاكرز والاحتيال وسرقة البيانات."
+    },
+    "summary": {
+      "en": "Cybersecurity specialists defend networks, systems and data, find weaknesses before attackers do, and respond when something goes wrong. Egypt adopted a National Cybersecurity Strategy 2023-2027 and runs training programs for young people. It is a field where curiosity and ethics matter as much as technical skill.",
+      "ar": "متخصص الأمن السيبراني يدافع عن الشبكات والنظم والبيانات ويكتشف الثغرات قبل المهاجمين ويتصرف حين يحدث خلل. اعتمدت مصر الاستراتيجية الوطنية للأمن السيبراني 2023-2027 وتدير برامج تدريب للشباب. هو مجال تهم فيه الفضول والأخلاق قدر المهارة التقنية."
+    },
+    "dayInLife": {
+      "en": "You start by checking alerts on the security dashboard overnight. One login from an unusual country looks suspicious, so you lock the account and ask the user to reset the password. Later you test a company's website with the owner's permission and find a weak spot that could expose customer data, and you write a clear report. In the afternoon you run a short awareness session for staff about phishing messages. You finish by updating the incident log so that nothing is forgotten.",
+      "ar": "تبدأ بفحص تنبيهات لوحة الأمان خلال الليل. دخول من دولة غير معتادة يبدو مريبًا، فتغلق الحساب وتطلب من المستخدم تغيير كلمة المرور. لاحقًا تختبر موقع شركة بإذن صاحبها وتجد ثغرة قد تكشف بيانات العملاء، وتكتب تقريرًا واضحًا. بعد الظهر تقدم جلسة توعية قصيرة للموظفين عن رسائل التصيد. وتنهي يومك بتحديث سجل الحوادث حتى لا يُنسى شيء."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Monitor systems and networks for attacks and unusual activity.",
+        "ar": "تراقب النظم والشبكات بحثًا عن هجمات ونشاط غير معتاد."
+      },
+      {
+        "en": "Test systems for weaknesses with permission (penetration testing).",
+        "ar": "تختبر النظم بحثًا عن الثغرات بإذن (اختبار الاختراق)."
+      },
+      {
+        "en": "Respond to incidents: contain, investigate and recover.",
+        "ar": "تستجيب للحوادث: تحتوي وتحقق وتستعيد."
+      },
+      {
+        "en": "Set up protections such as firewalls, access controls and encryption.",
+        "ar": "تعد وسائل الحماية مثل الجدران النارية وضوابط الدخول والتشفير."
+      },
+      {
+        "en": "Train staff to avoid phishing and scams.",
+        "ar": "تدرب الموظفين على تجنب التصيد والاحتيال."
+      },
+      {
+        "en": "Follow laws and standards, and write security reports.",
+        "ar": "تتبع القوانين والمعايير وتكتب تقارير الأمن."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Security operations centers (SOC) at banks, telecoms and large companies",
+        "ar": "مراكز عمليات الأمن (SOC) في البنوك والاتصالات والشركات الكبرى"
+      },
+      {
+        "en": "Consulting and managed-security firms",
+        "ar": "شركات الاستشارات والأمن المُدار"
+      },
+      {
+        "en": "Government agencies and national cybersecurity bodies",
+        "ar": "الجهات الحكومية وهيئات الأمن السيبراني الوطنية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Linux, networking tools such as Wireshark and Nmap",
+        "ar": "لينكس وأدوات الشبكات مثل Wireshark وNmap"
+      },
+      {
+        "en": "SIEM systems (Splunk, Wazuh) and endpoint protection",
+        "ar": "نظم SIEM (مثل Splunk وWazuh) وحماية الأجهزة"
+      },
+      {
+        "en": "Vulnerability scanners and penetration testing tools (Burp Suite, Metasploit)",
+        "ar": "ماسحات الثغرات وأدوات اختبار الاختراق (Burp Suite وMetasploit)"
+      },
+      {
+        "en": "Python and scripting",
+        "ar": "بايثون والبرمجة النصية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, Mathematics and Computer Science (or Further Maths) are the most useful; Physics helps for engineering routes. With the American Diploma, take AP Computer Science A, AP Calculus and AP Statistics if your school offers them. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules and are popular in this field.",
+      "ar": "في IGCSE أو A-levels الأنفع هي الرياضيات وعلوم الحاسب (أو الرياضيات المتقدمة)، والفيزياء تفيد في مسارات الهندسة. وفي الدبلومة الأمريكية خذ AP علوم الحاسب A وAP حساب التفاضل وAP إحصاء إن وفرتها مدرستك. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة وهي شائعة في هذا المجال."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Computers and Information (FCI) / Faculty of Computers and Artificial Intelligence at public universities",
+        "ar": "كليات الحاسبات والمعلومات / الحاسبات والذكاء الاصطناعي بالجامعات الحكومية"
+      },
+      {
+        "en": "Faculty of Engineering, Computer Engineering or Electronics departments",
+        "ar": "كليات الهندسة أقسام هندسة الحاسبات أو الإلكترونيات"
+      },
+      {
+        "en": "Computer science, IT and AI programs at private universities and Ain Shams National University",
+        "ar": "برامج علوم الحاسب وتقنية المعلومات والذكاء الاصطناعي بالجامعات الخاصة وجامعة عين شمس الأهلية"
+      },
+      {
+        "en": "Zewail City, E-JUST and AUC for research-oriented computing programs",
+        "ar": "مدينة زويل وجامعة اليابان E-JUST والجامعة الأمريكية لبرامج الحوسبة البحثية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "mansoura-university-computers-information",
+      "assiut-university-computers-information",
+      "minia-university-computers-information",
+      "sohag-university-computers-information",
+      "kafrelsheikh-university-artificial-intelligence",
+      "british-university-in-egypt-informatics-computer-science",
+      "german-university-in-cairo-information-engineering-technology",
+      "misr-international-university-computer-science",
+      "zagazig-university-computers-information"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 91.41% (Sohag University, the only program with a published figure in our data); 2025: 88.75% to 91.72% across 2 programs (lowest Alexandria University, highest Sohag University); 2024: 87.2% to 91.46% across 8 programs (lowest Ain Shams University, highest Sohag University); 2023: 83.54% to 89.39% across 11 programs (lowest Damietta University, highest Sohag University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 61% to 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data has public computing-faculty minimums for only a few universities and years (Alexandria 88.75% in 2025, Sohag 91.72% in 2025 and 91.41% in 2026), so ask the Tansik office for the faculty you want.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: 91.41% (جامعة سوهاج، وهو البرنامج الوحيد الذي لدينا له رقم منشور)؛ 2025: من 88.75% إلى 91.72% عبر 2 برنامجًا (الأدنى جامعة الإسكندرية، الأعلى جامعة سوهاج)؛ 2024: من 87.2% إلى 91.46% عبر 8 برنامجًا (الأدنى جامعة عين شمس، الأعلى جامعة سوهاج)؛ 2023: من 83.54% إلى 89.39% عبر 11 برنامجًا (الأدنى جامعة دمياط، الأعلى جامعة سوهاج). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: من 61% إلى 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. لدينا حدود دنيا لكليات الحوسبة الحكومية لعدد قليل من الجامعات والسنوات (الإسكندرية 88.75% في 2025 وسوهاج 91.72% في 2025 و91.41% في 2026)، فاسأل مكتب التنسيق عن الكلية التي تريدها."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Networking and IT support roles are common starting points before specializing in security.",
+        "ar": "أدوار الشبكات والدعم الفني نقطة بداية شائعة قبل التخصص في الأمن."
+      },
+      {
+        "en": "Programs such as NTI, ITI, DEPI, Cisco Networking Academy, Orange Digital Center and Sprints offer cybersecurity tracks; check current availability.",
+        "ar": "برامج مثل NTI وITI وDEPI وأكاديمية سيسكو للشبكات ومركز أورنج الرقمي وSprints تقدم مسارات في الأمن السيبراني؛ راجع المتاح حاليًا."
+      },
+      {
+        "en": "Practice legally on platforms such as Hack The Box, TryHackMe and CTF competitions.",
+        "ar": "تدرب بشكل قانوني على منصات مثل Hack The Box وTryHackMe ومسابقات CTF."
+      }
+    ],
+    "licensing": {
+      "en": "There is no personal license for cybersecurity professionals in Egypt, but security work is regulated: Law 175 of 2018 criminalizes unauthorized access, so only test systems with written permission. In 2023 Egypt formed a Supreme Cybersecurity Council, and cybersecurity firms are covered by new rules, so check the current rules if you plan to start a company.",
+      "ar": "لا يوجد ترخيص شخصي للعاملين في الأمن السيبراني بمصر، لكن العمل الأمني منظم: القانون 175 لسنة 2018 يجرّم الدخول غير المصرح به، فاختبر النظم بإذن مكتوب فقط. وفي 2023 تشكل المجلس الأعلى للأمن السيبراني، وتخضع شركات الأمن السيبراني لقواعد جديدة، فراجع القواعد الحالية إن أردت تأسيس شركة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Networking and operating systems (Linux, Windows)",
+        "ar": "الشبكات ونظم التشغيل (لينكس وويندوز)"
+      },
+      {
+        "en": "Security concepts: encryption, authentication, firewalls",
+        "ar": "مفاهيم الأمن: التشفير والتوثيق والجدران النارية"
+      },
+      {
+        "en": "Penetration testing and vulnerability assessment",
+        "ar": "اختبار الاختراق وتقييم الثغرات"
+      },
+      {
+        "en": "Incident response and log analysis",
+        "ar": "الاستجابة للحوادث وتحليل السجلات"
+      },
+      {
+        "en": "Scripting (Python, Bash)",
+        "ar": "البرمجة النصية (بايثون وBash)"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Curiosity and an attacker's mindset used for defense",
+        "ar": "الفضول وعقلية المهاجم لأجل الدفاع"
+      },
+      {
+        "en": "Ethics and integrity: you will have access to sensitive information",
+        "ar": "الأخلاق والنزاهة: ستصل إلى معلومات حساسة"
+      },
+      {
+        "en": "Staying calm under pressure during incidents",
+        "ar": "الهدوء تحت الضغط أثناء الحوادث"
+      },
+      {
+        "en": "Explaining risks to non-technical people",
+        "ar": "شرح المخاطر لغير التقنيين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for tools, reports and threat information",
+        "ar": "الإنجليزية للأدوات والتقارير ومعلومات التهديدات"
+      },
+      {
+        "en": "Arabic for working with local clients and authorities",
+        "ar": "العربية للعمل مع العملاء والجهات المحلية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "CompTIA Security+ or Network+",
+        "ar": "CompTIA Security+ أو Network+"
+      },
+      {
+        "en": "CEH, eJPT, OSCP (advanced) or Cisco CyberOps",
+        "ar": "CEH وeJPT وOSCP (متقدم) أو Cisco CyberOps"
+      },
+      {
+        "en": "Later: CISSP, CISM for management",
+        "ar": "لاحقًا: CISSP وCISM للإدارة"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "TryHackMe (free tier available)",
+        "url": "https://tryhackme.com",
+        "free": true
+      },
+      {
+        "title": "Cisco Networking Academy: Introduction to Cybersecurity",
+        "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+        "free": true
+      },
+      {
+        "title": "OverTheWire wargames (free)",
+        "url": "https://overthewire.org/wargames/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9766,
+        "max": 47173
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology/it-security-specialist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 37,953 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale. Paylab lists this job as \"IT Security Specialist\"; cybersecurity titles vary a lot between companies.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 37,953 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور. يُدرج Paylab هذه الوظيفة تحت «أخصائي أمن تقنية المعلومات»، وتتفاوت مسميات الأمن السيبراني كثيرًا بين الشركات."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Banks and fintech companies",
+        "ar": "البنوك وشركات التقنية المالية"
+      },
+      {
+        "en": "Telecom operators and large corporations",
+        "ar": "مشغلو الاتصالات والشركات الكبرى"
+      },
+      {
+        "en": "Cybersecurity consulting and managed-security companies",
+        "ar": "شركات الاستشارات والأمن المُدار"
+      },
+      {
+        "en": "Government bodies such as the Supreme Cybersecurity Council and EG-CERT",
+        "ar": "جهات حكومية مثل المجلس الأعلى للأمن السيبراني وEG-CERT"
+      },
+      {
+        "en": "Outsourcing firms and international companies hiring remotely",
+        "ar": "شركات التعهيد والشركات الدولية التي توظف عن بعد"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance work includes legal bug bounty programs, penetration testing for small businesses and security audits. Remote work is possible for monitoring and consulting. Always work only with written permission; unauthorized testing is a crime under Law 175 of 2018.",
+      "ar": "يشمل العمل الحر برامج مكافآت الثغرات القانونية واختبار الاختراق للشركات الصغيرة وتدقيق الأمن. والعمل عن بعد ممكن للمراقبة والاستشارات. اعمل دائمًا بإذن مكتوب فقط؛ فالاختبار بلا إذن جريمة بموجب القانون 175 لسنة 2018."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo (banks, telecom headquarters, SOCs)",
+        "ar": "القاهرة الكبرى (البنوك ومقار الاتصالات ومراكز العمليات)"
+      },
+      {
+        "en": "Remote roles; national training centers in 14 governorates through Digital Creativity Centers",
+        "ar": "وظائف عن بعد؛ ومراكز تدريب وطنية في 14 محافظة عبر مراكز الإبداع الرقمي"
+      }
+    ],
+    "providerIds": [
+      "iti",
+      "depi",
+      "nti",
+      "we-schools-applied-technology",
+      "orange-digital-center-egypt",
+      "cisco-networking-academy-egypt",
+      "sprints",
+      "route-academy",
+      "ischool-egypt"
+    ]
+  },
+  "global": {
+    "en": "Cybersecurity professionals are short worldwide, and the Gulf in particular is investing heavily. Certifications such as Security+, OSCP and CISSP are recognized across borders; some government and defense jobs abroad need citizenship or clearance, which Egyptians generally do not have.",
+    "ar": "متخصصو الأمن السيبراني ناقصون عالميًا، والخليج يستثمر بقوة. وشهادات مثل Security+ وOSCP وCISSP معترف بها عبر الحدود؛ وبعض وظائف الحكومة والدفاع بالخارج تتطلب جنسية أو تصريحًا أمنيًا لا يتوفر عادة للمصريين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Global shortage of skilled people and growing national investment",
+        "ar": "نقص عالمي في المهرة واستثمار وطني متنامٍ"
+      },
+      {
+        "en": "Constant learning and challenge",
+        "ar": "تعلم مستمر وتحدٍّ دائم"
+      },
+      {
+        "en": "Many routes in: networking, software, SOC, consulting",
+        "ar": "مسارات دخول كثيرة: الشبكات والبرمجة ومراكز العمليات والاستشارات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Stress during attacks, with night and weekend on-call duty",
+        "ar": "ضغط أثناء الهجمات مع مناوبات ليلية وعطلات"
+      },
+      {
+        "en": "Needs strong foundations in networking and systems",
+        "ar": "يحتاج أساسًا قويًا في الشبكات والنظم"
+      },
+      {
+        "en": "Entry-level security jobs can be hard to find; many start in IT support",
+        "ar": "وظائف الأمن المبتدئة قد يصعب إيجادها؛ وكثيرون يبدأون في الدعم الفني"
+      },
+      {
+        "en": "Legal and ethical limits are strict",
+        "ar": "الحدود القانونية والأخلاقية صارمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Cybersecurity is like the hacker movies.",
+          "ar": "الأمن السيبراني مثل أفلام الهاكرز."
+        },
+        "fact": {
+          "en": "Most work is careful monitoring, documentation, configuration and teaching, not dramatic breaking in.",
+          "ar": "معظم العمل مراقبة دقيقة وتوثيق وإعداد وتعليم، لا اقتحام درامي."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must learn hacking before anything else.",
+          "ar": "يجب أن تتعلم الاختراق قبل أي شيء."
+        },
+        "fact": {
+          "en": "Start with networking, operating systems and basic programming; hacking skills build on these.",
+          "ar": "ابدأ بالشبكات ونظم التشغيل والبرمجة الأساسية؛ فمهارات الاختراق تُبنى عليها."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Normal hours in many consulting roles; SOC roles often use shifts and incident response may mean night calls.",
+      "ar": "ساعات عادية في كثير من أدوار الاستشارات؛ وأدوار مراكز العمليات تعتمد غالبًا الورديات وقد تعني الاستجابة للحوادث مكالمات ليلية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "IT support or junior security analyst",
+        "ar": "دعم فني أو محلل أمن مبتدئ"
+      },
+      {
+        "en": "Security analyst / SOC analyst",
+        "ar": "محلل أمن / محلل مركز عمليات"
+      },
+      {
+        "en": "Security engineer or penetration tester",
+        "ar": "مهندس أمن أو مختبر اختراق"
+      },
+      {
+        "en": "Senior specialist or team lead",
+        "ar": "متخصص أول أو قائد فريق"
+      },
+      {
+        "en": "Security architect or CISO",
+        "ar": "مهندس معماري أمن أو مدير أمن المعلومات"
+      }
+    ],
+    "relatedCareerIds": [
+      "it_support",
+      "cloud_devops_engineer",
+      "software_engineer",
+      "communications_engineer",
+      "ai_engineer",
+      "lawyer"
+    ],
+    "pivots": [
+      {
+        "en": "Cloud security or DevSecOps",
+        "ar": "أمن السحابة أو DevSecOps"
+      },
+      {
+        "en": "Governance, risk and compliance",
+        "ar": "الحوكمة وإدارة المخاطر والالتزام"
+      },
+      {
+        "en": "Digital forensics",
+        "ar": "الأدلة الجنائية الرقمية"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt digital exports hit $7.4bn (Dec 2025)",
+      "url": "https://meatechwatch.com/2025/12/23/egypts-digital-exports-hit-7-4bn-as-ict-sector-drives-economic-growth/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Digital Policy Alert - Egypt adopts National Cybersecurity Strategy 2023-2027",
+      "url": "https://digitalpolicyalert.org/event/25828-adopted-the-national-cybersecurity-strategy-2023-2027",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt expands cybersecurity training across 14 governorates (Nov 2025)",
+      "url": "https://meatechwatch.com/2025/11/20/egypt-expands-cybersecurity-training-across-14-governorates-through-digital-creativity-centers/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egypt Today - \"Cyber Talents\" initiative to develop local cybersecurity talent pool",
+      "url": "https://www.egypttoday.com/Article/3/132429/%E2%80%9CCyber-Talents%E2%80%9D-initiative-to-develop-local-cybersecurity-talent-pool-MCIT",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Mondaq - Translation of Law No. 175 of 2018",
+      "url": "https://www.mondaq.com/security/1639534/translation-of-law-no-175-of-2018",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - IT Security Specialist salary survey",
+      "url": "https://www.paylab.com/eg/salaryinfo/information-technology/it-security-specialist?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

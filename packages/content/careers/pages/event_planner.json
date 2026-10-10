@@ -1,0 +1,173 @@
+{
+  "id": "event_planner",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You make sure a big day goes perfectly.",
+      "ar": "تضمن أن يمر اليوم الكبير على أكمل وجه."
+    },
+    "summary": {
+      "en": "Event planners organise weddings, conferences, concerts and company parties. They manage the budget, places, suppliers and schedule, and solve problems on the day. The job needs organisation, calm under pressure and good people skills.",
+      "ar": "منظم الفعاليات ينظم حفلات الزفاف والمؤتمرات والحفلات الموسيقية وفعاليات الشركات. يدير الميزانية والأماكن والموردين والجدول ويحل المشكلات يوم الحدث. يحتاج العمل إلى التنظيم والهدوء تحت الضغط ومهارات التعامل مع الناس."
+    },
+    "dayInLife": {
+      "en": "Today is a conference day. You arrive early, check the hall, the screens and the registration desk. Speakers arrive, one microphone fails and you replace it within minutes. During the event you keep the schedule moving and answer guests' questions. Afterwards you pay suppliers and begin preparing the report for the client.",
+      "ar": "اليوم يوم مؤتمر. تصل مبكرًا وتفحص القاعة والشاشات ومكتب التسجيل. يصل المتحدثون ويتعطل ميكروفون فتستبدله خلال دقائق. أثناء الحدث تُبقي الجدول يمضي وتجيب عن أسئلة الضيوف. بعدها تسدد للموردين وتبدأ تجهيز تقرير العميل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Meet clients and understand what they want and can spend.",
+        "ar": "تقابل العملاء وتفهم ما يريدونه وما يمكنهم إنفاقه."
+      },
+      {
+        "en": "Book venues, caterers, decorators and entertainers.",
+        "ar": "تحجز القاعات والتموين والديكور والفقرات الترفيهية."
+      },
+      {
+        "en": "Prepare budgets and schedules.",
+        "ar": "تعدّ الميزانيات والجداول."
+      },
+      {
+        "en": "Coordinate the team and solve problems on the event day.",
+        "ar": "تنسق الفريق وتحل المشكلات يوم الحدث."
+      },
+      {
+        "en": "Collect feedback and close payments.",
+        "ar": "تجمع آراء الحضور وتنهي المدفوعات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Event and wedding planning companies",
+        "ar": "شركات تنظيم الفعاليات والأفراح"
+      },
+      {
+        "en": "Hotels, conference centres and tourism companies",
+        "ar": "الفنادق ومراكز المؤتمرات وشركات السياحة"
+      },
+      {
+        "en": "Company marketing departments and freelance work",
+        "ar": "أقسام التسويق في الشركات والعمل الحر"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and scheduling tools",
+        "ar": "إكسل وأدوات الجدولة"
+      },
+      {
+        "en": "Supplier and guest lists",
+        "ar": "قوائم الموردين والضيوف"
+      },
+      {
+        "en": "Messaging apps and design tools",
+        "ar": "تطبيقات المراسلة وأدوات التصميم"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Tourism and Hotels mostly accept literary-stream students, and hotel technical secondary schools are another entry. Languages matter a lot: English first, then German, French, Russian or Italian. With IGCSE or A-Level, English and Business help. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "كليات السياحة والفنادق تقبل في الغالب طلاب الشعبة الأدبية، والمدارس الفنية الفندقية مدخل آخر. اللغات مهمة جدًا: الإنجليزية أولًا ثم الألمانية أو الفرنسية أو الروسية أو الإيطالية. في IGCSE وA-Level تفيد الإنجليزية ودراسات الأعمال. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Tourism and Hotels",
+        "ar": "كليات السياحة والفنادق"
+      },
+      {
+        "en": "Faculties of Commerce, Business Administration or Mass Communication",
+        "ar": "كليات التجارة أو إدارة الأعمال أو الإعلام"
+      },
+      {
+        "en": "Hotel management programs at private universities",
+        "ar": "برامج إدارة الفنادق بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "alexandria-university-tourism-hotels",
+      "mansoura-university-tourism-hotels",
+      "capital-university-tourism-hotels",
+      "suez-canal-university-tourism-hotels",
+      "minia-university-tourism-hotels",
+      "british-university-in-egypt-tourism-hotel-management"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2024: 68.54% (Alexandria University, the only linked program with a published figure in our data). Newer figures are not in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2024: 68.54% (جامعة الإسكندرية، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start by helping an event company, a hotel banquet team or student activities, then take bigger roles.",
+        "ar": "البدء بمساعدة شركة فعاليات أو فريق ولائم في فندق أو أنشطة طلابية ثم تولي مهام أكبر."
+      },
+      {
+        "en": "Short courses in event management, plus a portfolio of events you helped to organise.",
+        "ar": "دورات قصيرة في إدارة الفعاليات مع ملف بفعاليات شاركت في تنظيمها."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "hotel_manager",
+      "pr_specialist",
+      "tour_guide",
+      "brand_manager",
+      "chef",
+      "entrepreneur"
+    ],
+    "pivots": [
+      {
+        "en": "Wedding or conference specialist",
+        "ar": "التخصص في الأفراح أو المؤتمرات"
+      },
+      {
+        "en": "Hotel sales and banquets",
+        "ar": "مبيعات الفنادق والولائم"
+      },
+      {
+        "en": "Marketing and brand activation",
+        "ar": "التسويق وتفعيل العلامات"
+      },
+      {
+        "en": "Opening your own event company",
+        "ar": "فتح شركة فعاليات خاصة"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Event Planner",
+      "url": "https://www.onetonline.org/link/summary/13-1121.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Event Planner",
+      "url": "https://www.mynextmove.org/profile/summary/13-1121.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "id": "biotechnologist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You work with living cells to make medicines, food and cleaner industries.",
+      "ar": "تعمل مع الخلايا الحية لصنع الأدوية والغذاء وصناعات أنظف."
+    },
+    "summary": {
+      "en": "Biologists and biotechnologists study living things and use them to develop vaccines, medicines, diagnostic tests, better crops and food. Egypt plans a large Vaccine City and biotechnology push, and its pharma industry is moving toward biological medicines, so applied roles are growing. Academic research posts are limited and usually need a master's degree or PhD.",
+      "ar": "عالم الأحياء وخبير التقنية الحيوية يدرس الكائنات الحية ويستخدمها لتطوير اللقاحات والأدوية والفحوص التشخيصية ومحاصيل وأغذية أفضل. تخطط مصر لمدينة لقاحات كبيرة ودفعة في التقنية الحيوية، وصناعة الدواء تتجه نحو الأدوية البيولوجية، فالأدوار التطبيقية تنمو. أما وظائف البحث الأكاديمي فمحدودة وتحتاج غالبًا ماجستير أو دكتوراه."
+    },
+    "dayInLife": {
+      "en": "You start by wearing your lab coat and checking the cells you grew last week. You prepare a new sample, measure small amounts of liquid carefully and label every tube. You run a test and wait for the machine to give the data. While waiting you read a scientific paper and write notes in your lab book. After lunch you meet your supervisor to discuss why one result is different. You repeat the test the next day, because science needs repeating and checking.",
+      "ar": "تبدأ بارتداء معطف المعمل وفحص الخلايا التي زرعتها الأسبوع الماضي. تجهز عينة جديدة وتقيس كميات صغيرة من السوائل بدقة وتكتب بطاقة لكل أنبوب. تجري اختبارًا وتنتظر الجهاز ليعطي البيانات. وأثناء الانتظار تقرأ بحثًا علميًا وتدوّن ملاحظات في دفتر المعمل. بعد الغداء تقابل المشرف لمناقشة سبب اختلاف نتيجة واحدة. وتعيد الاختبار في اليوم التالي لأن العلم يحتاج تكرارًا وتحققًا."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Grow and study cells, microbes or plants in the lab.",
+        "ar": "تزرع وتدرس الخلايا أو الميكروبات أو النباتات في المعمل."
+      },
+      {
+        "en": "Run experiments and tests such as DNA analysis (PCR) and culture tests.",
+        "ar": "تجري تجارب واختبارات مثل تحليل الـDNA (PCR) والزراعات."
+      },
+      {
+        "en": "Record results carefully and analyse data with statistics.",
+        "ar": "تسجل النتائج بدقة وتحلل البيانات إحصائيًا."
+      },
+      {
+        "en": "Help develop and test products such as vaccines, biological medicines and diagnostic kits.",
+        "ar": "تساعد في تطوير واختبار منتجات مثل اللقاحات والأدوية البيولوجية وأطقم التشخيص."
+      },
+      {
+        "en": "Follow safety and quality rules (biosafety, good laboratory practice).",
+        "ar": "تتبع قواعد السلامة والجودة (الأمان الحيوي وممارسات المعمل الجيدة)."
+      },
+      {
+        "en": "Write reports and papers and present results.",
+        "ar": "تكتب التقارير والأبحاث وتعرض النتائج."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Laboratories in universities and research centres",
+        "ar": "معامل الجامعات ومراكز البحث"
+      },
+      {
+        "en": "Pharmaceutical and vaccine factories",
+        "ar": "مصانع الأدوية واللقاحات"
+      },
+      {
+        "en": "Food, agricultural and diagnostic laboratories",
+        "ar": "معامل الغذاء والزراعة والتشخيص"
+      }
+    ],
+    "tools": [
+      {
+        "en": "PCR machines, microscopes and centrifuges",
+        "ar": "أجهزة PCR والميكروسكوبات وأجهزة الطرد المركزي"
+      },
+      {
+        "en": "Sterile benches and incubators",
+        "ar": "كبائن التعقيم والحضانات"
+      },
+      {
+        "en": "Statistics and data tools such as Excel, R or Python",
+        "ar": "أدوات الإحصاء والبيانات مثل إكسل وR وبايثون"
+      },
+      {
+        "en": "Bioinformatics tools (growing)",
+        "ar": "أدوات المعلوماتية الحيوية (في نمو)"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Biology, Chemistry and Maths. American Diploma: AP Biology, AP Chemistry and Statistics. IB: Biology and Chemistry at higher level. Private biotechnology programs accept these certificates. Learning basic coding and statistics helps.",
+      "ar": "IGCSE أو A-Level: الأحياء والكيمياء والرياضيات. الدبلومة الأمريكية: AP Biology وAP Chemistry والإحصاء. IB: الأحياء والكيمياء بمستوى أعلى. وتقبل برامج التقنية الحيوية الخاصة هذه الشهادات. وتعلّم البرمجة والإحصاء الأساسيين مفيد."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Science (biotechnology, microbiology, biochemistry or zoology departments)",
+        "ar": "كلية العلوم (أقسام التقنية الحيوية أو الميكروبيولوجي أو الكيمياء الحيوية أو علم الحيوان)"
+      },
+      {
+        "en": "Faculty of Pharmacy (including biotechnology tracks)",
+        "ar": "كلية الصيدلة (ومنها مسارات التقنية الحيوية)"
+      },
+      {
+        "en": "Faculty of Agriculture (agricultural biotechnology) and Faculty of Veterinary Medicine",
+        "ar": "كلية الزراعة (التقنية الحيوية الزراعية) وكلية الطب البيطري"
+      },
+      {
+        "en": "Private faculties and schools of Biotechnology",
+        "ar": "كليات ومدارس خاصة للتقنية الحيوية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-science",
+      "ain-shams-university-science",
+      "mansoura-university-pharmacy",
+      "cairo-university-agriculture",
+      "sohag-university-veterinary-medicine",
+      "misr-university-for-science-and-technology-biotechnology",
+      "nile-university-biotechnology",
+      "german-university-in-cairo-pharmacy-biotechnology"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Science and Agriculture are not in the minimum-score lists we reviewed (2023 to 2026), so their minimums are unknown here. For related faculties, Pharmacy asked for 92.19% to 93.12% in 2026, and Veterinary Medicine 90.61% to 90.73% in 2024 (percent of the total, science track). The private biotechnology programs at Misr University and Nile University show only a 56% regulatory floor for 2025/26 (science track), a legal minimum and not their real cutoff, and they charge fees.",
+      "ar": "كليتا العلوم والزراعة غير موجودتين في قوائم الحد الأدنى التي راجعناها (2023 إلى 2026)، فحدودهما الدنيا غير معروفة هنا. أما الكليات القريبة فطلبت الصيدلة من 92.19% إلى 93.12% في 2026، والطب البيطري من 90.61% إلى 90.73% في 2024 (نسبة مئوية من المجموع، شعبة علمية). تعرض برامج التقنية الحيوية الخاصة في جامعة مصر وجامعة النيل حدًا أدنى تنظيميًا 56% فقط لعام 2025/26 (شعبة علمية)، وهو حد قانوني وليس حد القبول الفعلي، ولها مصروفات."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A bachelor's degree in biology or biotechnology followed by a master's degree and PhD for research and university posts.",
+        "ar": "بكالوريوس في الأحياء أو التقنية الحيوية ثم ماجستير ودكتوراه لوظائف البحث والجامعة."
+      },
+      {
+        "en": "Scholarships and graduate study abroad are a common way into advanced research.",
+        "ar": "المنح والدراسات العليا بالخارج طريق شائع للبحث المتقدم."
+      },
+      {
+        "en": "Diplomas and short courses in quality control, bioinformatics or pharmaceutical manufacturing after graduation.",
+        "ar": "دبلومات ودورات قصيرة في مراقبة الجودة أو المعلوماتية الحيوية أو التصنيع الدوائي بعد التخرج."
+      }
+    ],
+    "licensing": {
+      "en": "There is no single licence for biologists. Jobs in medical or clinical labs may need registration with the relevant syndicate (for example the Syndicate of Scientific Professions for science graduates) and follow the rules of the Ministry of Health. Pharmaceutical jobs follow the Egyptian Drug Authority's quality rules. We did not find one current official rule to cite, so check the rules for the exact job you want.",
+      "ar": "لا يوجد ترخيص واحد لعلماء الأحياء. قد تحتاج وظائف المعامل الطبية والإكلينيكية إلى القيد في النقابة المختصة (مثل نقابة المهن العلمية لخريجي العلوم) واتباع قواعد وزارة الصحة. والوظائف الدوائية تتبع قواعد الجودة لهيئة الدواء المصرية. لم نجد قاعدة رسمية حديثة واحدة للاستشهاد بها، فتحقق من قواعد الوظيفة التي تريدها بالتحديد."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Laboratory techniques: sterile work, PCR, cultures and measurements",
+        "ar": "تقنيات المعمل: العمل المعقم وPCR والزراعات والقياسات"
+      },
+      {
+        "en": "Molecular biology and microbiology",
+        "ar": "البيولوجيا الجزيئية والميكروبيولوجي"
+      },
+      {
+        "en": "Statistics and data analysis",
+        "ar": "الإحصاء وتحليل البيانات"
+      },
+      {
+        "en": "Biosafety and quality systems (GLP, GMP)",
+        "ar": "الأمان الحيوي ونظم الجودة (GLP وGMP)"
+      },
+      {
+        "en": "Scientific writing and reading papers",
+        "ar": "الكتابة العلمية وقراءة الأبحاث"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and carefulness",
+        "ar": "الصبر والدقة"
+      },
+      {
+        "en": "Curiosity and problem solving",
+        "ar": "الفضول وحل المشكلات"
+      },
+      {
+        "en": "Teamwork in the lab",
+        "ar": "العمل الجماعي في المعمل"
+      },
+      {
+        "en": "Honesty in recording results",
+        "ar": "الصدق في تسجيل النتائج"
+      },
+      {
+        "en": "Persistence when experiments fail",
+        "ar": "المثابرة عند فشل التجارب"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: scientific papers, conferences and most lab manuals",
+        "ar": "الإنجليزية: الأبحاث والمؤتمرات ومعظم أدلة المعامل"
+      },
+      {
+        "en": "Arabic: teaching, reports and regulators",
+        "ar": "العربية: التدريس والتقارير والجهات التنظيمية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Good Laboratory Practice (GLP) or GMP training",
+        "ar": "تدريب ممارسات المعمل الجيدة (GLP) أو GMP"
+      },
+      {
+        "en": "Biosafety training",
+        "ar": "تدريب الأمان الحيوي"
+      },
+      {
+        "en": "Bioinformatics or data science short courses (optional)",
+        "ar": "دورات قصيرة في المعلوماتية الحيوية أو علم البيانات (اختيارية)"
+      },
+      {
+        "en": "Master's and PhD for research roles",
+        "ar": "ماجستير ودكتوراه لوظائف البحث"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Biology",
+        "url": "https://www.khanacademy.org/science/biology",
+        "free": true
+      },
+      {
+        "title": "MIT OpenCourseWare: Biology",
+        "url": "https://ocw.mit.edu/courses/biology/",
+        "free": true
+      },
+      {
+        "title": "Coursera: Introduction to Genetics and Evolution",
+        "url": "https://www.coursera.org/learn/genetics-evolution",
+        "free": true
+      },
+      {
+        "title": "Egyptian Knowledge Bank (EKB)",
+        "url": "https://www.ekb.eg",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9522,
+        "max": 22410
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Biologist across experience levels. Public research and university posts follow their own scales, and pharma companies may pay differently.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Biologist في Paylab لكل مستويات الخبرة. وتتبع وظائف البحث العام والجامعات جداولها الخاصة، وقد تدفع شركات الأدوية بشكل مختلف."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Pharmaceutical companies (for example EIPICO and Eva Pharma) and VACSERA",
+        "ar": "شركات الأدوية (مثل إيبيكو وإيفا فارما) وفاكسيرا"
+      },
+      {
+        "en": "Universities and national research centres",
+        "ar": "الجامعات ومراكز البحث القومية"
+      },
+      {
+        "en": "Medical and diagnostic laboratories",
+        "ar": "المعامل الطبية والتشخيصية"
+      },
+      {
+        "en": "Food, agriculture and environment companies",
+        "ar": "شركات الغذاء والزراعة والبيئة"
+      },
+      {
+        "en": "Start-ups in biotech and agritech (few so far)",
+        "ar": "شركات ناشئة في التقنية الحيوية والتقنية الزراعية (قليلة حتى الآن)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Lab work cannot be done remotely. Freelance work is limited to scientific writing, data analysis, bioinformatics and consulting. Egypt aims to produce 140 million human vaccine doses a year by 2030 under its Vaccine City project, with investments of about EGP 12 billion, which may create applied jobs if delivered.",
+      "ar": "لا يمكن أداء عمل المعمل عن بُعد. العمل الحر يقتصر على الكتابة العلمية وتحليل البيانات والمعلوماتية الحيوية والاستشارات. تستهدف مصر إنتاج 140 مليون جرعة لقاح بشري سنويًا بحلول 2030 ضمن مشروع مدينة اللقاحات باستثمارات نحو 12 مليار جنيه، وقد يخلق ذلك وظائف تطبيقية إذا نُفذ."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Giza (research centres and companies)",
+        "ar": "القاهرة الكبرى والجيزة (مراكز البحث والشركات)"
+      },
+      {
+        "en": "Industrial cities such as 6th of October and 10th of Ramadan",
+        "ar": "المدن الصناعية مثل السادس من أكتوبر والعاشر من رمضان"
+      },
+      {
+        "en": "Alexandria and university cities",
+        "ar": "الإسكندرية والمدن الجامعية"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Many Egyptian scientists build careers abroad through graduate study and research positions in Europe, North America and the Gulf. Pharma and biotech firms hire scientists with a master's or PhD. Competition for scholarships and posts is strong, so strong English and research experience matter.",
+    "ar": "يبني علماء مصريون كثيرون مسيرتهم في الخارج عبر الدراسات العليا ووظائف البحث في أوروبا وأمريكا الشمالية والخليج. وتوظف شركات الأدوية والتقنية الحيوية علماء بماجستير أو دكتوراه. المنافسة على المنح والوظائف قوية، فالإنجليزية القوية والخبرة البحثية مهمتان."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Contribute to health, food and the environment",
+        "ar": "تسهم في الصحة والغذاء والبيئة"
+      },
+      {
+        "en": "Growing applied fields such as vaccines and biologics",
+        "ar": "مجالات تطبيقية متنامية مثل اللقاحات والأدوية البيولوجية"
+      },
+      {
+        "en": "Skills are respected and useful abroad",
+        "ar": "المهارات محترمة ومفيدة في الخارج"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few well-paid jobs for bachelor's graduates; many need a master's or PhD",
+        "ar": "وظائف جيدة الأجر قليلة لحملة البكالوريوس؛ وكثير منها يحتاج ماجستير أو دكتوراه"
+      },
+      {
+        "en": "Research funding is limited and academic posts are scarce",
+        "ar": "تمويل البحث محدود والوظائف الأكاديمية نادرة"
+      },
+      {
+        "en": "Lab work can be slow and experiments often fail",
+        "ar": "عمل المعمل قد يكون بطيئًا والتجارب تفشل كثيرًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Biotechnology is only about genetic modification of food.",
+          "ar": "التقنية الحيوية هي تعديل الغذاء وراثيًا فقط."
+        },
+        "fact": {
+          "en": "It covers vaccines, medicines, diagnostics, enzymes, environment, agriculture and more.",
+          "ar": "تشمل اللقاحات والأدوية والتشخيص والإنزيمات والبيئة والزراعة وغيرها."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must go to medical or pharmacy school to work in this field.",
+          "ar": "لازم تدخل الطب أو الصيدلة للعمل في هذا المجال."
+        },
+        "fact": {
+          "en": "Science, biotechnology, agriculture and other faculties also lead to this career.",
+          "ar": "كليات العلوم والتقنية الحيوية والزراعة وغيرها تقود إلى هذه المهنة أيضًا."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will replace lab scientists.",
+          "ar": "الذكاء الاصطناعي سيحل محل علماء المعامل."
+        },
+        "fact": {
+          "en": "AI speeds up data and design, but experiments, judgment and quality work still need scientists. Learning data skills makes you stronger.",
+          "ar": "الذكاء الاصطناعي يسرّع البيانات والتصميم، لكن التجارب والحكم والجودة ما زالت تحتاج علماء. وتعلّم مهارات البيانات يقويك."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular lab hours. Some experiments need weekend or evening checks. Academic careers can involve long study years.",
+      "ar": "ساعات معمل منتظمة غالبًا. بعض التجارب تحتاج متابعة في العطلات أو المساء. والمسيرة الأكاديمية قد تتطلب سنوات دراسة طويلة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Lab assistant or research assistant",
+        "ar": "مساعد معمل أو مساعد باحث"
+      },
+      {
+        "en": "Biologist or lab technologist",
+        "ar": "أخصائي أحياء أو أخصائي معمل"
+      },
+      {
+        "en": "Senior scientist or quality/R&D specialist",
+        "ar": "عالم أول أو أخصائي جودة/بحث وتطوير"
+      },
+      {
+        "en": "Team leader or research manager",
+        "ar": "قائد فريق أو مدير بحث"
+      },
+      {
+        "en": "Head of laboratory or R&D director, or professor",
+        "ar": "رئيس معمل أو مدير بحث وتطوير أو أستاذ جامعي"
+      }
+    ],
+    "relatedCareerIds": [
+      "medical_lab_scientist",
+      "pharmacist",
+      "chemist",
+      "food_scientist",
+      "environmental_scientist",
+      "veterinarian",
+      "agricultural_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Pharmaceutical quality control and regulatory affairs",
+        "ar": "مراقبة الجودة الدوائية والشؤون التنظيمية"
+      },
+      {
+        "en": "Bioinformatics and data science",
+        "ar": "المعلوماتية الحيوية وعلم البيانات"
+      },
+      {
+        "en": "Food safety or agricultural biotechnology",
+        "ar": "سلامة الغذاء أو التقنية الحيوية الزراعية"
+      },
+      {
+        "en": "Science teaching and communication",
+        "ar": "تدريس العلوم والتواصل العلمي"
+      }
+    ]
+  },
+  "industryId": "science",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Education, science and research salaries (biologist)",
+      "url": "https://www.paylab.com/eg/salaryinfo/education-science-research",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Daily News Egypt: Egypt targets annual vaccine output of 140 million doses by 2030",
+      "url": "https://www.dailynewsegypt.com/2026/04/13/egypt-targets-annual-vaccine-output-of-140-million-doses-by-2030/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Zawya: Egypt targets annual vaccine output of 140mln doses by 2030",
+      "url": "https://www.zawya.com/en/business/healthcare/egypt-targets-annual-vaccine-output-of-140mln-doses-by-2030-vvd3c5zz",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

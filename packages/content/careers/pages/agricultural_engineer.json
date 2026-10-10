@@ -1,0 +1,435 @@
+{
+  "id": "agricultural_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help Egypt grow more food with less water.",
+      "ar": "تساعد مصر على إنتاج غذاء أكثر بمياه أقل."
+    },
+    "summary": {
+      "en": "Agricultural engineers (agronomists) advise farms and companies on crops, soil, irrigation, plant protection and post-harvest handling. Water is limited in Egypt, so water-saving irrigation, export quality and new farming technology are growing needs. Many jobs are in farms and export companies, sometimes far from the city, and pay at the start is modest.",
+      "ar": "المهندس الزراعي ينصح المزارع والشركات في المحاصيل والتربة والري ووقاية النبات والتعامل مع المحصول بعد الحصاد. المياه محدودة في مصر، فالري الموفر للمياه وجودة التصدير وتقنيات الزراعة الحديثة احتياجات متنامية. كثير من الوظائف في المزارع وشركات التصدير وأحيانًا بعيدًا عن المدينة، والأجر في البداية متواضع."
+    },
+    "dayInLife": {
+      "en": "You drive to a vegetable farm early in the morning, walk through the rows, check for pests and take a soil sample. The drip irrigation in one corner is blocked, so you show the workers how to clean it. You record what you found in a phone app and update the fertiliser plan. At noon you explain to the farm owner why the plants in one field look yellow. In the afternoon you check a packing station to make sure the produce meets export rules, and you finish with a written report for the next visit.",
+      "ar": "تسافر إلى مزرعة خضار مبكرًا وتمشي بين الصفوف وتفحص الآفات وتأخذ عينة تربة. الري بالتنقيط في ركن من المزرعة مسدود، فتعلّم العمال كيف ينظفونه. تسجل ما وجدته في تطبيق على الموبايل وتحدّث خطة التسميد. عند الظهر تشرح لصاحب المزرعة لماذا تبدو النباتات صفراء في حقل معين. بعد الظهر تفحص محطة تعبئة لتتأكد أن المحصول يطابق شروط التصدير، وتنهي اليوم بتقرير مكتوب للزيارة القادمة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Advise farmers on crops, planting dates, fertiliser and irrigation.",
+        "ar": "تنصح المزارعين في المحاصيل ومواعيد الزراعة والتسميد والري."
+      },
+      {
+        "en": "Test soil and water and design irrigation (drip and sprinkler) systems.",
+        "ar": "تحلل التربة والمياه وتصمم أنظمة الري (بالتنقيط والرش)."
+      },
+      {
+        "en": "Find and control pests and plant diseases, using safe methods and the right pesticide amounts.",
+        "ar": "تكتشف الآفات والأمراض النباتية وتكافحها بطرق آمنة وكميات مبيدات صحيحة."
+      },
+      {
+        "en": "Check produce quality and export standards, packing and cold chain.",
+        "ar": "تراقب جودة المحصول ومعايير التصدير والتعبئة وسلسلة التبريد."
+      },
+      {
+        "en": "Use sensors, drones and farm records to make decisions.",
+        "ar": "تستخدم المستشعرات والطائرات المسيّرة وسجلات المزرعة في اتخاذ القرار."
+      },
+      {
+        "en": "Train farm workers and write reports for owners and authorities.",
+        "ar": "تدرب عمال المزرعة وتكتب تقارير لأصحاب المزارع والجهات المختصة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Farms and greenhouses, often outdoors",
+        "ar": "المزارع والصوب الزراعية، غالبًا في الهواء الطلق"
+      },
+      {
+        "en": "Packing houses, food factories and laboratories",
+        "ar": "محطات التعبئة ومصانع الأغذية والمعامل"
+      },
+      {
+        "en": "Offices of agricultural companies, cooperatives and research centres",
+        "ar": "مكاتب الشركات الزراعية والجمعيات ومراكز البحث"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Soil and water testing kits",
+        "ar": "أطقم تحليل التربة والمياه"
+      },
+      {
+        "en": "Irrigation systems and sensors",
+        "ar": "أنظمة الري والمستشعرات"
+      },
+      {
+        "en": "Drones and satellite images (growing)",
+        "ar": "الطائرات المسيّرة وصور الأقمار الصناعية (في نمو)"
+      },
+      {
+        "en": "Excel and farm-management apps",
+        "ar": "إكسل وتطبيقات إدارة المزارع"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Biology, Chemistry, Geography and Maths. American Diploma: AP Biology, Environmental Science and Chemistry. IB: Biology and Environmental Systems. Public Faculties of Agriculture accept Thanaweya Amma (science or math); international-certificate students need an equivalence. Visiting farms during holidays is great experience.",
+      "ar": "IGCSE أو A-Level: الأحياء والكيمياء والجغرافيا والرياضيات. الدبلومة الأمريكية: AP Biology وعلوم البيئة والكيمياء. IB: الأحياء ونظم البيئة. كليات الزراعة الحكومية تقبل الثانوية العامة (علمي أو رياضة)، وطلاب الشهادات الدولية يحتاجون معادلة. زيارة المزارع في الإجازات خبرة رائعة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Agriculture (crop science, horticulture, soil and water, plant protection, food science, animal production, agricultural economics)",
+        "ar": "كلية الزراعة (المحاصيل والبساتين والأراضي والمياه ووقاية النبات وعلوم الأغذية والإنتاج الحيواني والاقتصاد الزراعي)"
+      },
+      {
+        "en": "Faculty of Agriculture at 17 public universities across the country",
+        "ar": "كليات الزراعة في 17 جامعة حكومية في أنحاء البلاد"
+      },
+      {
+        "en": "Agricultural engineering departments in some Faculties of Engineering",
+        "ar": "أقسام الهندسة الزراعية في بعض كليات الهندسة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-agriculture",
+      "ain-shams-university-agriculture",
+      "alexandria-university-agriculture",
+      "mansoura-university-agriculture",
+      "assiut-university-agriculture",
+      "zagazig-university-agriculture",
+      "minia-university-agriculture",
+      "damanhour-university-agriculture"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Agriculture are not in the minimum-score lists we reviewed (2023 to 2026), so no minimums are available here. Check the Coordination Office results for your year; these faculties are generally open to the science and math tracks.",
+      "ar": "كليات الزراعة غير موجودة في قوائم الحد الأدنى التي راجعناها (2023 إلى 2026)، لذلك لا تتوفر حدود دنيا هنا. راجع نتائج مكتب التنسيق لعامك؛ وهذه الكليات مفتوحة عمومًا للشعبتين العلمية والرياضية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Agricultural technical secondary school diplomas lead to technician-level jobs, with a chance to continue to higher studies.",
+        "ar": "دبلومات المدارس الثانوية الفنية الزراعية تؤدي إلى وظائف فنية مع فرصة استكمال الدراسة العليا."
+      },
+      {
+        "en": "Syndicate training courses and certificates for graduates and technicians in specific agricultural professions.",
+        "ar": "دورات وشهادات النقابة للخريجين والفنيين في مهن زراعية محددة."
+      },
+      {
+        "en": "Postgraduate study in irrigation, plant protection, food safety or agribusiness for advanced roles.",
+        "ar": "دراسات عليا في الري أو وقاية النبات أو سلامة الغذاء أو الأعمال الزراعية لوظائف متقدمة."
+      }
+    ],
+    "licensing": {
+      "en": "Graduates register with the Agricultural Professions Syndicate (established by Law 95 of 1976). Press reports say new registration controls in 2020 require a criminal record certificate, and the syndicate offers training and practice certificates in many agricultural professions. Rules and fees change, so ask the syndicate for the current requirements.",
+      "ar": "يقيَّد الخريجون في نقابة المهن الزراعية (المنشأة بالقانون 95 لسنة 1976). تذكر تقارير صحفية أن ضوابط القيد الجديدة في 2020 تتطلب صحيفة الحالة الجنائية، وأن النقابة تقدم تدريبًا وشهادات مزاولة في مهن زراعية كثيرة. تتغير القواعد والرسوم، فاسأل النقابة عن الشروط الحالية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Crop, soil and plant-protection science",
+        "ar": "علوم المحاصيل والتربة ووقاية النبات"
+      },
+      {
+        "en": "Irrigation design and water management",
+        "ar": "تصميم الري وإدارة المياه"
+      },
+      {
+        "en": "Food safety and export quality standards",
+        "ar": "سلامة الغذاء ومعايير جودة التصدير"
+      },
+      {
+        "en": "Farm data, Excel and basic GIS or drone use",
+        "ar": "بيانات المزارع وإكسل ونظم المعلومات الجغرافية أو الطائرات المسيّرة"
+      },
+      {
+        "en": "Pesticide and fertiliser safety",
+        "ar": "سلامة المبيدات والأسمدة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Communicating with farmers and workers respectfully",
+        "ar": "التواصل مع المزارعين والعمال باحترام"
+      },
+      {
+        "en": "Patience and observation",
+        "ar": "الصبر والملاحظة"
+      },
+      {
+        "en": "Problem solving in the field",
+        "ar": "حل المشكلات في الميدان"
+      },
+      {
+        "en": "Physical stamina for outdoor work",
+        "ar": "تحمل بدني للعمل في الهواء الطلق"
+      },
+      {
+        "en": "Honesty about risks and results",
+        "ar": "الصدق في المخاطر والنتائج"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic",
+        "ar": "العربية"
+      },
+      {
+        "en": "English: export markets, research and technical documents",
+        "ar": "الإنجليزية: أسواق التصدير والأبحاث والوثائق الفنية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Agricultural Professions Syndicate registration",
+        "ar": "القيد في نقابة المهن الزراعية"
+      },
+      {
+        "en": "GlobalG.A.P. and food safety certificates (HACCP) for export farms",
+        "ar": "شهادات GlobalG.A.P. وسلامة الغذاء (HACCP) لمزارع التصدير"
+      },
+      {
+        "en": "Irrigation and pesticide application training",
+        "ar": "تدريب على الري واستخدام المبيدات"
+      },
+      {
+        "en": "Drone pilot or GIS short courses (optional)",
+        "ar": "دورات قصيرة في تشغيل الدرون أو نظم المعلومات الجغرافية (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "FAO e-learning Academy",
+        "url": "https://elearning.fao.org",
+        "free": true
+      },
+      {
+        "title": "Ministry of Agriculture and Land Reclamation (Egypt)",
+        "url": "https://www.agr-egypt.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Agricultural Research Center (Egypt)",
+        "url": "https://www.arc.sci.eg",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Biology and ecology",
+        "url": "https://www.khanacademy.org/science/biology",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10139,
+        "max": 23226
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/agriculture-food-industry/agricultural-engineer-agronomist",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Agricultural Engineer, Agronomist across experience levels. Agricultural Technologist is 11,727 to 27,256 EGP. Export companies may pay more than small farms, and government posts follow state scales.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Agricultural Engineer, Agronomist في Paylab لكل مستويات الخبرة. مسمى Agricultural Technologist بين 11,727 و27,256 جنيهًا. قد تدفع شركات التصدير أكثر من المزارع الصغيرة، والوظائف الحكومية تتبع جداول الدولة."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Commercial and export-oriented farms (vegetables, fruit, flowers)",
+        "ar": "المزارع التجارية ومزارع التصدير (خضار وفاكهة وزهور)"
+      },
+      {
+        "en": "Food processing, packing and cold-chain companies",
+        "ar": "شركات التصنيع الغذائي والتعبئة وسلسلة التبريد"
+      },
+      {
+        "en": "Seed, fertiliser, pesticide and irrigation suppliers",
+        "ar": "شركات البذور والأسمدة والمبيدات والري"
+      },
+      {
+        "en": "Ministry of Agriculture, Agricultural Research Center and universities",
+        "ar": "وزارة الزراعة ومركز البحوث الزراعية والجامعات"
+      },
+      {
+        "en": "Land-reclamation and agritech projects",
+        "ar": "مشروعات استصلاح الأراضي والتقنية الزراعية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Farm advisory work is local, but consultants can serve several farms and use apps and remote sensing for part of the work. Agritech startups for marketplaces, advice and irrigation sensors are growing but small. Farming is changing toward higher-skill, higher-value roles, while total farm jobs are likely stable or slowly falling as a share of employment.",
+      "ar": "العمل الاستشاري للمزارع محلي، لكن يمكن للمستشار خدمة عدة مزارع واستخدام التطبيقات والاستشعار عن بُعد في جزء من العمل. الشركات الناشئة في التقنية الزراعية (أسواق ونصائح ومستشعرات ري) تنمو لكنها صغيرة. تتجه الزراعة نحو وظائف أعلى مهارة وقيمة، بينما يُرجَّح استقرار إجمالي وظائف المزارع أو انخفاضها ببطء كنسبة من التشغيل."
+    },
+    "regions": [
+      {
+        "en": "Nile Delta governorates (Beheira, Gharbia, Sharqia, Dakahlia)",
+        "ar": "محافظات الدلتا (البحيرة والغربية والشرقية والدقهلية)"
+      },
+      {
+        "en": "Upper Egypt (Minya, Assiut, Sohag, Qena, Aswan)",
+        "ar": "الصعيد (المنيا وأسيوط وسوهاج وقنا وأسوان)"
+      },
+      {
+        "en": "Desert reclamation areas such as Wadi El Natrun, New Valley and Toshka",
+        "ar": "مناطق استصلاح الصحراء مثل وادي النطرون والوادي الجديد وتوشكى"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Gulf countries import Egyptian produce and hire agricultural engineers and technicians. International agricultural companies and organisations (FAO and others) recruit specialists in irrigation, food security and quality. Experience in export farming and good English are strengths for work abroad.",
+    "ar": "تستورد دول الخليج المنتجات المصرية وتوظف مهندسين وفنيين زراعيين. وتوظف الشركات الزراعية الدولية والمنظمات (مثل الفاو وغيرها) متخصصين في الري والأمن الغذائي والجودة. الخبرة في مزارع التصدير والإنجليزية الجيدة نقاط قوة للعمل بالخارج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Practical, outdoor work that feeds people",
+        "ar": "عمل عملي في الهواء الطلق يطعم الناس"
+      },
+      {
+        "en": "Growing needs: water-saving irrigation, export quality and agritech",
+        "ar": "احتياجات متنامية: الري الموفر للمياه وجودة التصدير والتقنية الزراعية"
+      },
+      {
+        "en": "Chance to run your own farm or consultancy later",
+        "ar": "فرصة لإدارة مزرعتك أو مكتب استشارات لاحقًا"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Entry pay is modest and some farms are far from cities",
+        "ar": "الأجر في البداية متواضع وبعض المزارع بعيدة عن المدن"
+      },
+      {
+        "en": "Work in heat, dust and long days in the field",
+        "ar": "العمل في الحر والغبار وأيام طويلة في الحقل"
+      },
+      {
+        "en": "Water scarcity, climate and price changes affect farms and jobs",
+        "ar": "ندرة المياه والمناخ وتغير الأسعار تؤثر على المزارع والوظائف"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Agriculture is only traditional farming.",
+          "ar": "الزراعة زراعة تقليدية فقط."
+        },
+        "fact": {
+          "en": "Modern agriculture uses irrigation engineering, sensors, drones, food safety and data.",
+          "ar": "الزراعة الحديثة تستخدم هندسة الري والمستشعرات والطائرات المسيّرة وسلامة الغذاء والبيانات."
+        }
+      },
+      {
+        "myth": {
+          "en": "Only students with low scores study agriculture.",
+          "ar": "كلية الزراعة لمن مجموعهم منخفض فقط."
+        },
+        "fact": {
+          "en": "Agriculture is a science field with real demand for skilled graduates, and good graduates have strong options.",
+          "ar": "الزراعة مجال علمي به طلب حقيقي على الخريجين المهرة، وللخريج المتميز خيارات قوية."
+        }
+      },
+      {
+        "myth": {
+          "en": "Agricultural engineers must live in the village forever.",
+          "ar": "المهندس الزراعي يعيش في القرية طوال عمره."
+        },
+        "fact": {
+          "en": "Many work in companies, labs, packing stations and offices in cities, or move into agribusiness and consulting.",
+          "ar": "كثيرون يعملون في شركات ومعامل ومحطات تعبئة ومكاتب بالمدن، أو ينتقلون إلى الأعمال الزراعية والاستشارات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Field days start early, and harvest seasons are busy. Office and lab roles have more regular hours. Travel between farms is common.",
+      "ar": "أيام الحقل تبدأ مبكرًا ومواسم الحصاد مزدحمة. وظائف المكاتب والمعامل أكثر انتظامًا. والتنقل بين المزارع شائع."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Trainee or junior agricultural engineer",
+        "ar": "مهندس زراعي متدرب أو مبتدئ"
+      },
+      {
+        "en": "Agricultural engineer or field supervisor",
+        "ar": "مهندس زراعي أو مشرف حقل"
+      },
+      {
+        "en": "Senior engineer or farm technical manager",
+        "ar": "مهندس أول أو مدير فني مزرعة"
+      },
+      {
+        "en": "Farm manager or regional technical manager",
+        "ar": "مدير مزرعة أو مدير فني إقليمي"
+      },
+      {
+        "en": "Agribusiness director, consultant or farm owner",
+        "ar": "مدير أعمال زراعية أو استشاري أو صاحب مزرعة"
+      }
+    ],
+    "relatedCareerIds": [
+      "food_scientist",
+      "agribusiness_manager",
+      "environmental_scientist",
+      "veterinarian",
+      "biotechnologist",
+      "supply_chain_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Food safety and quality control",
+        "ar": "سلامة الغذاء ومراقبة الجودة"
+      },
+      {
+        "en": "Agribusiness and export management",
+        "ar": "الأعمال الزراعية وإدارة التصدير"
+      },
+      {
+        "en": "Water and environment consulting",
+        "ar": "الاستشارات في المياه والبيئة"
+      },
+      {
+        "en": "Agritech startups and sales of agricultural inputs",
+        "ar": "الشركات الناشئة في التقنية الزراعية وبيع المستلزمات الزراعية"
+      }
+    ]
+  },
+  "industryId": "agriculture",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Agriculture and food industry salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/agriculture-food-industry",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Law No. 95 of 1976 establishing the Agricultural Professions Syndicate",
+      "url": "https://lawsociety.ly/akn/ly/act/law/rcc/1976/95",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Agricultural Syndicate training courses for the profession",
+      "url": "https://gate.ahram.org.eg/News/4910288.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (Faculties of Agriculture not listed)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

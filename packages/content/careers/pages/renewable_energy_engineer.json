@@ -1,0 +1,408 @@
+{
+  "id": "renewable_energy_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help turn Egypt's sun and wind into clean electricity.",
+      "ar": "تساعد في تحويل شمس مصر ورياحها إلى كهرباء نظيفة."
+    },
+    "summary": {
+      "en": "Renewable energy engineers design, build and run solar, wind and related power systems. Egypt aims to produce 42% of its electricity from renewables by 2030, and 2025 was a record year for renewable output. There is no single \"renewable engineering\" license; most people study electrical, mechanical or energy engineering and specialize.",
+      "ar": "مهندس الطاقة المتجددة يصمم ويبني ويشغّل أنظمة الطاقة الشمسية والرياح وما يرتبط بها. تستهدف مصر إنتاج 42% من كهرباءها من مصادر متجددة بحلول 2030، وكان 2025 عامًا قياسيًا للإنتاج المتجدد. لا توجد رخصة مستقلة لـ«هندسة الطاقة المتجددة»؛ وأغلب الناس يدرسون الكهرباء أو الميكانيكا أو هندسة الطاقة ثم يتخصصون."
+    },
+    "dayInLife": {
+      "en": "You start the morning at a solar plant in Upper Egypt, checking the output of each row of panels on your tablet. One section produces less than expected, so you walk the site and find shading from a new fence. In the afternoon you work in the office on the design of a rooftop solar system for a factory, calculating panels, inverter size and expected savings. You finish by sending a short report to the client, in clear language, showing how many months it takes to pay back.",
+      "ar": "تبدأ الصباح في محطة شمسية بالصعيد وتراجع إنتاج كل صف ألواح على التابلت. أحد الأقسام ينتج أقل من المتوقع، فتتجول في الموقع وتجد ظلًا من سور جديد. بعد الظهر تعمل في المكتب على تصميم نظام شمسي لسطح مصنع، فتحسب عدد الألواح وحجم العاكس والوفر المتوقع. وتنهي اليوم بتقرير قصير للعميل بلغة واضحة يبين كم شهرًا يحتاج لاسترداد الاستثمار."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Survey sites and estimate sun or wind resources.",
+        "ar": "تفحص المواقع وتقدّر موارد الشمس أو الرياح."
+      },
+      {
+        "en": "Design solar PV, wind or hybrid systems, including cables, inverters and storage.",
+        "ar": "تصمم أنظمة شمسية أو رياح أو هجينة تشمل الكابلات والعاكسات والتخزين."
+      },
+      {
+        "en": "Prepare technical and financial studies for clients.",
+        "ar": "تعد دراسات فنية ومالية للعملاء."
+      },
+      {
+        "en": "Supervise installation, testing and connection to the grid.",
+        "ar": "تشرف على التركيب والاختبار والربط بالشبكة."
+      },
+      {
+        "en": "Monitor performance and fix underperforming plants.",
+        "ar": "تراقب الأداء وتعالج المحطات ضعيفة الإنتاج."
+      },
+      {
+        "en": "Follow standards, permits and safety rules.",
+        "ar": "تلتزم بالمعايير والتراخيص وقواعد السلامة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Solar farms and wind farms (such as Benban and Gulf of Suez areas)",
+        "ar": "المزارع الشمسية ومزارع الرياح (مثل بنبان ومناطق خليج السويس)"
+      },
+      {
+        "en": "Design and contracting offices",
+        "ar": "مكاتب التصميم والمقاولات"
+      },
+      {
+        "en": "Factories, hotels and homes installing rooftop systems",
+        "ar": "المصانع والفنادق والمنازل التي تركب أنظمة على الأسطح"
+      }
+    ],
+    "tools": [
+      {
+        "en": "PVsyst, Helioscope or similar solar design software",
+        "ar": "PVsyst وHelioscope أو برامج تصميم شمسية مشابهة"
+      },
+      {
+        "en": "AutoCAD, Excel and monitoring dashboards",
+        "ar": "أوتوكاد وإكسل ولوحات المراقبة"
+      },
+      {
+        "en": "Multimeters, IV curve tracers and thermal cameras",
+        "ar": "أجهزة القياس وأجهزة تتبع منحنى IV والكاميرات الحرارية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Electrical Power or Mechanical Power departments",
+        "ar": "كليات الهندسة أقسام القوى الكهربية أو القوى الميكانيكية"
+      },
+      {
+        "en": "Energy and Environmental Engineering programs (BUE, Nile University, newer faculties)",
+        "ar": "برامج هندسة الطاقة والبيئة (البريطانية ونايل والكليات الأحدث)"
+      },
+      {
+        "en": "E-JUST, Zewail City and Ain Shams National University programs",
+        "ar": "برامج جامعة اليابان E-JUST ومدينة زويل وجامعة عين شمس الأهلية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "capital-university-engineering-helwan",
+      "british-university-in-egypt-energy-environmental-engineering",
+      "nile-university-energy-environmental-engineering",
+      "ain-shams-national-university-engineering-civil-environmental-informatics",
+      "zewail-city-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.78% across 22 programs (lowest Assiut University, highest Mansoura University); 2025: 90% to 92.5% across 22 programs (lowest Minia University, highest Mansoura University); 2024: 88.78% to 91.83% across 22 programs (lowest Assiut University, highest Cairo University); 2023: 85.12% to 89.88% across 22 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.78% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2025: من 90% إلى 92.5% عبر 22 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنصورة)؛ 2024: من 88.78% إلى 91.83% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة)؛ 2023: من 85.12% إلى 89.88% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "The Egyptian-Japanese KOSEN and technical institutes train technicians in solar and electrical installation.",
+        "ar": "كوسن المصري الياباني والمعاهد الفنية تدرب فنيين على تركيب الأنظمة الشمسية والكهربائية."
+      },
+      {
+        "en": "Short solar design courses can add a specialization after an electrical or mechanical degree.",
+        "ar": "دورات قصيرة في تصميم الطاقة الشمسية تضيف تخصصًا بعد درجة الكهرباء أو الميكانيكا."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Grid-connected plants follow utility and energy-authority approvals, so you will work with the electricity distribution company and the New and Renewable Energy Authority (NREA).",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. المحطات المرتبطة بالشبكة تتبع موافقات شركات الكهرباء وجهات الطاقة، فستعمل مع شركة التوزيع وهيئة الطاقة الجديدة والمتجددة (NREA)."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Electrical power systems and power electronics",
+        "ar": "نظم القوى الكهربائية والإلكترونيات القدرة"
+      },
+      {
+        "en": "Solar PV design and sizing",
+        "ar": "تصميم وتحجيم الأنظمة الشمسية"
+      },
+      {
+        "en": "Energy storage and grid connection basics",
+        "ar": "أساسيات تخزين الطاقة والربط بالشبكة"
+      },
+      {
+        "en": "Energy modelling and financial analysis",
+        "ar": "نمذجة الطاقة والتحليل المالي"
+      },
+      {
+        "en": "CAD and simulation software",
+        "ar": "CAD وبرامج المحاكاة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Explaining benefits and costs to clients simply",
+        "ar": "شرح الفوائد والتكاليف للعملاء ببساطة"
+      },
+      {
+        "en": "Working outdoors in hot weather safely",
+        "ar": "العمل بأمان في الخارج في الطقس الحار"
+      },
+      {
+        "en": "Attention to safety at height and with electricity",
+        "ar": "الانتباه للسلامة عند الارتفاعات ومع الكهرباء"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for standards, software and international developers",
+        "ar": "الإنجليزية للمعايير والبرامج والمطورين الدوليين"
+      },
+      {
+        "en": "Arabic for clients and site teams",
+        "ar": "العربية للعملاء وفرق الموقع"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "PVsyst and solar design courses; NABCEP-style or vendor certificates",
+        "ar": "دورات PVsyst وتصميم الطاقة الشمسية؛ وشهادات على غرار NABCEP أو شهادات الموردين"
+      },
+      {
+        "en": "Energy management or efficiency certifications (for example CEM)",
+        "ar": "شهادات إدارة الطاقة أو الكفاءة (مثل CEM)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Energy Education (University of Calgary): solar and wind",
+        "url": "https://energyeducation.ca/encyclopedia/Solar_power",
+        "free": true
+      },
+      {
+        "title": "NREL: Learn about solar energy",
+        "url": "https://www.nrel.gov/research/re-solar.html",
+        "free": true
+      },
+      {
+        "title": "IRENA: Publications on renewable energy",
+        "url": "https://www.irena.org/Publications",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "high",
+    "employers": [
+      {
+        "en": "New and Renewable Energy Authority (NREA) and the Egyptian Electricity Transmission Company",
+        "ar": "هيئة الطاقة الجديدة والمتجددة والشركة المصرية لنقل الكهرباء"
+      },
+      {
+        "en": "International renewable developers (solar, wind, green hydrogen projects)",
+        "ar": "مطورو الطاقة المتجددة الدوليون (مشروعات الشمس والرياح والهيدروجين الأخضر)"
+      },
+      {
+        "en": "EPC and solar installation companies, and consultancies",
+        "ar": "شركات التنفيذ والتركيب الشمسي والمكاتب الاستشارية"
+      },
+      {
+        "en": "Factories and hotels adding their own solar systems",
+        "ar": "المصانع والفنادق التي تضيف أنظمتها الشمسية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Solar design studies and remote monitoring can be freelance or remote; installation is on site. Small solar installation businesses are growing.",
+      "ar": "يمكن عمل دراسات التصميم الشمسي والمراقبة عن بعد أو بنظام حر؛ والتركيب في الموقع. وتنمو شركات التركيب الشمسي الصغيرة."
+    },
+    "regions": [
+      {
+        "en": "Upper Egypt (Aswan, Benban), the Red Sea and Gulf of Suez coast for wind and solar",
+        "ar": "الصعيد (أسوان وبنبان) والبحر الأحمر وساحل خليج السويس للرياح والشمس"
+      },
+      {
+        "en": "Greater Cairo for offices and developers",
+        "ar": "القاهرة الكبرى للمكاتب والمطورين"
+      }
+    ],
+    "providerIds": [
+      "egyptian-japanese-kosen"
+    ],
+    "salaryNote": {
+      "en": "We did not find a citable Egypt salary figure for renewable energy engineers, so pay is left empty. Compare roughly with electrical engineers, and note that international developers may pay differently from local installers.",
+      "ar": "لم نجد رقمًا موثقًا لراتب مهندس الطاقة المتجددة في مصر، لذا تُرك الراتب فارغًا. يمكن المقارنة تقريبيًا بالمهندس الكهربائي، مع ملاحظة أن المطورين الدوليين قد يدفعون بشكل مختلف عن شركات التركيب المحلية."
+    }
+  },
+  "global": {
+    "en": "Renewable energy is one of the fastest-growing fields in the Gulf, Africa and Europe, and Egyptian engineers work on projects abroad. Egypt's own targets of 42% renewable electricity by 2030 and large new solar proposals create local demand too, but targets are intentions and projects can slip.",
+    "ar": "الطاقة المتجددة من أسرع المجالات نموًا في الخليج وأفريقيا وأوروبا، ويعمل مهندسون مصريون في مشروعات بالخارج. كما أن أهداف مصر بنسبة 42% كهرباء متجددة بحلول 2030 ومقترحات المحطات الشمسية الكبيرة تخلق طلبًا محليًا، لكن الأهداف نوايا وقد تتأخر المشروعات."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work that supports Egypt's energy future and clean air",
+        "ar": "عمل يدعم مستقبل الطاقة في مصر والهواء النظيف"
+      },
+      {
+        "en": "Growing sector: 35.19 TWh renewable output in 2025, up 28%",
+        "ar": "قطاع متنامٍ: إنتاج متجدد 35.19 تيراوات ساعة في 2025 بزيادة 28%"
+      },
+      {
+        "en": "Skills are in demand worldwide",
+        "ar": "المهارات مطلوبة عالميًا"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Targets can change and projects take years to materialize",
+        "ar": "الأهداف قد تتغير والمشروعات تحتاج سنوات للتنفيذ"
+      },
+      {
+        "en": "Sites are often remote, hot and windy",
+        "ar": "المواقع غالبًا نائية وحارة وعاصفة"
+      },
+      {
+        "en": "Few jobs have the title \"renewable engineer\" so you start from a general degree",
+        "ar": "قليل من الوظائف يحمل مسمى «مهندس طاقة متجددة» فتبدأ من شهادة عامة"
+      },
+      {
+        "en": "Still competing with fossil fuels for investment",
+        "ar": "ما زال هناك تنافس مع الوقود الأحفوري على الاستثمار"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Renewables are a hobby field with no real jobs.",
+          "ar": "الطاقة المتجددة مجال هواية بلا وظائف حقيقية."
+        },
+        "fact": {
+          "en": "Utility-scale plants, rooftop systems and storage need many engineers, and Egypt has large capacity targets.",
+          "ar": "المحطات الكبيرة وأنظمة الأسطح والتخزين تحتاج مهندسين كثيرين، ولدى مصر أهداف سعة كبيرة."
+        }
+      },
+      {
+        "myth": {
+          "en": "You can only work with solar panels.",
+          "ar": "تعمل فقط في الألواح الشمسية."
+        },
+        "fact": {
+          "en": "Roles also include wind, grid integration, storage, green hydrogen, energy efficiency and finance.",
+          "ar": "تشمل الأدوار الرياح وربط الشبكة والتخزين والهيدروجين الأخضر وكفاءة الطاقة والتمويل."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Design roles are regular; commissioning and site work can mean travel and long days in hot conditions.",
+      "ar": "أدوار التصميم منتظمة؛ والتشغيل وعمل الموقع قد يعني سفرًا وأيامًا طويلة في طقس حار."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate / trainee engineer",
+        "ar": "مهندس حديث / متدرب"
+      },
+      {
+        "en": "Solar or energy engineer",
+        "ar": "مهندس طاقة شمسية أو طاقة"
+      },
+      {
+        "en": "Senior design or project engineer",
+        "ar": "مهندس تصميم أو مشروع أول"
+      },
+      {
+        "en": "Project manager or energy consultant",
+        "ar": "مدير مشروع أو استشاري طاقة"
+      },
+      {
+        "en": "Head of energy or company owner",
+        "ar": "رئيس قسم الطاقة أو صاحب شركة"
+      }
+    ],
+    "relatedCareerIds": [
+      "electrical_engineer",
+      "mechanical_engineer",
+      "solar_technician",
+      "petroleum_engineer",
+      "environmental_scientist",
+      "civil_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Energy efficiency and sustainability consulting",
+        "ar": "كفاءة الطاقة واستشارات الاستدامة"
+      },
+      {
+        "en": "Green hydrogen and storage",
+        "ar": "الهيدروجين الأخضر والتخزين"
+      },
+      {
+        "en": "Energy finance and project development",
+        "ar": "تمويل الطاقة وتطوير المشروعات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEES - Egypt renewables surge to annual record (2026)",
+      "url": "https://www.mees.com/2026/2/27/power-water/egypt-renewables-surge-to-annual-record/929097e0-13e9-11f1-a124-2f202365ce8a",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "TaiyangNews - Egypt offers land to support 60 GW renewable energy",
+      "url": "https://taiyangnews.info/markets/egypt-offers-land-to-support-60-gw-re/",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

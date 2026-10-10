@@ -1,0 +1,407 @@
+{
+  "id": "mechatronics_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You combine mechanics, electronics and programming to build robots and smart machines.",
+      "ar": "تجمع الميكانيكا والإلكترونيات والبرمجة لتبني الروبوتات والآلات الذكية."
+    },
+    "summary": {
+      "en": "Mechatronics engineers design systems where machines, sensors and software work together, like robotic arms, automated production lines and smart devices. In Egypt there is usually no separate mechatronics faculty, so you often study mechanical, electrical or a robotics/automation program and specialize. It is a good fit if you like both building and coding.",
+      "ar": "مهندس الميكاترونيكس يصمم نظمًا تعمل فيها الآلات والحساسات والبرمجيات معًا، مثل الأذرع الروبوتية وخطوط الإنتاج الآلية والأجهزة الذكية. في مصر غالبًا لا توجد كلية ميكاترونيكس مستقلة، فتدرس عادة الميكانيكا أو الكهرباء أو برنامج روبوتات وأتمتة ثم تتخصص. مناسب إن كنت تحب البناء والبرمجة معًا."
+    },
+    "dayInLife": {
+      "en": "In the morning you test a small robotic arm that should sort bottles by color, and it keeps missing the green ones. You check the camera settings and adjust the code. Later you meet a factory manager who wants to automate packing, and you explain which sensors and controllers could do it. After lunch you solder a new sensor board and update the PLC program. At the end you document the wiring so another technician can maintain it.",
+      "ar": "في الصباح تختبر ذراعًا روبوتية صغيرة يفترض أن تفرز الزجاجات حسب اللون، لكنها تخطئ في الأخضر. تفحص إعدادات الكاميرا وتعدل الكود. لاحقًا تقابل مدير مصنع يريد أتمتة التعبئة، فتشرح له أي حساسات ومتحكمات تؤدي ذلك. بعد الغداء تلحم لوحة حساس جديدة وتحدّث برنامج PLC. وفي النهاية توثق التوصيلات ليتمكن فني آخر من صيانتها."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design mechanical parts and mount sensors and actuators.",
+        "ar": "تصمم الأجزاء الميكانيكية وتركّب الحساسات والمحركات."
+      },
+      {
+        "en": "Program microcontrollers, PLCs and robot controllers.",
+        "ar": "تبرمج المتحكمات الدقيقة وPLC ومتحكمات الروبوت."
+      },
+      {
+        "en": "Build and test prototypes of automated systems.",
+        "ar": "تبني وتختبر نماذج أولية لنظم آلية."
+      },
+      {
+        "en": "Integrate machine vision and control algorithms.",
+        "ar": "تدمج الرؤية الآلية وخوارزميات التحكم."
+      },
+      {
+        "en": "Install and maintain automated production lines.",
+        "ar": "تركّب وتصون خطوط الإنتاج الآلية."
+      },
+      {
+        "en": "Write documentation and train operators.",
+        "ar": "تكتب التوثيق وتدرب المشغلين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Factories and automation integrators",
+        "ar": "المصانع وشركات تكامل الأتمتة"
+      },
+      {
+        "en": "R&D labs, startups and workshops",
+        "ar": "معامل البحث والشركات الناشئة والورش"
+      },
+      {
+        "en": "Laboratories and maker spaces such as Fab Labs",
+        "ar": "المعامل ومساحات الصناع مثل Fab Lab"
+      }
+    ],
+    "tools": [
+      {
+        "en": "SolidWorks or Fusion 360 for mechanical design",
+        "ar": "سوليد ووركس أو فيوجن 360 للتصميم الميكانيكي"
+      },
+      {
+        "en": "Arduino, ESP32, Raspberry Pi and PLCs",
+        "ar": "أردوينو وESP32 وراسبيري باي وPLC"
+      },
+      {
+        "en": "MATLAB/Simulink, Python and ROS",
+        "ar": "ماتلاب/سيمولينك وبايثون وROS"
+      },
+      {
+        "en": "3D printers, CNC machines and electronics tools",
+        "ar": "طابعات ثلاثية الأبعاد وماكينات CNC وأدوات الإلكترونيات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Mechanical or Electrical departments (mechatronics electives and graduation projects)",
+        "ar": "كليات الهندسة أقسام الميكانيكا أو الكهرباء (مقررات اختيارية ومشروعات تخرج ميكاترونيكس)"
+      },
+      {
+        "en": "Robotics and Autonomous Systems and Digital Manufacturing programs at Ain Shams National University",
+        "ar": "برامج الروبوتات والنظم المستقلة والتصنيع الرقمي بجامعة عين شمس الأهلية"
+      },
+      {
+        "en": "Mechatronics-related programs at private universities and E-JUST",
+        "ar": "برامج قريبة من الميكاترونيكس بالجامعات الخاصة وجامعة اليابان E-JUST"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "capital-university-engineering-helwan",
+      "british-university-in-egypt-engineering",
+      "german-university-in-cairo-engineering-materials-science",
+      "misr-international-university-engineering-electronics-communications",
+      "american-university-in-cairo-sciences-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.94% across 23 programs (lowest Assiut University, highest Menoufia University); 2025: 90% to 92.66% across 23 programs (lowest Minia University, highest Menoufia University); 2024: 88.78% to 91.83% across 23 programs (lowest Assiut University, highest Menoufia University); 2023: 85.12% to 89.88% across 23 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists. Mechatronics is usually a specialization inside mechanical or electrical engineering, so the figures shown are for those faculties.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.94% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنوفية)؛ 2025: من 90% إلى 92.66% عبر 23 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنوفية)؛ 2024: من 88.78% إلى 91.83% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنوفية)؛ 2023: من 85.12% إلى 89.88% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم. الميكاترونيكس غالبًا تخصص داخل الهندسة الميكانيكية أو الكهربية، لذا الأرقام المعروضة لتلك الكليات."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "The Egyptian-Japanese KOSEN program trains practical engineers in mechatronics-style fields.",
+        "ar": "برنامج كوسن المصري الياباني يعدّ مهندسين عمليين في مجالات قريبة من الميكاترونيكس."
+      },
+      {
+        "en": "Applied technology schools and technical institutes offer technician routes in automation and CNC.",
+        "ar": "مدارس التكنولوجيا التطبيقية والمعاهد الفنية تقدم مسارات فنية في الأتمتة وCNC."
+      },
+      {
+        "en": "Start with a maker space or Fab Lab and online courses while studying.",
+        "ar": "ابدأ بمساحة صناع أو Fab Lab ودورات إلكترونية أثناء الدراسة."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. There is no separate mechatronics license; most graduates register as mechanical or electrical engineers.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. لا يوجد ترخيص مستقل للميكاترونيكس؛ ويسجل أغلب الخريجين كمهندسي ميكانيكا أو كهرباء."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Mechanical design and mechanics",
+        "ar": "التصميم الميكانيكي والميكانيكا"
+      },
+      {
+        "en": "Electronics, sensors and actuators",
+        "ar": "الإلكترونيات والحساسات والمحركات"
+      },
+      {
+        "en": "Programming (C/C++, Python) and PLC programming",
+        "ar": "البرمجة (C/C++ وبايثون) وبرمجة PLC"
+      },
+      {
+        "en": "Control theory and robotics",
+        "ar": "نظرية التحكم والروبوتات"
+      },
+      {
+        "en": "Prototyping and 3D printing",
+        "ar": "النمذجة الأولية والطباعة ثلاثية الأبعاد"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Curiosity and persistence when prototypes fail",
+        "ar": "الفضول والمثابرة حين تفشل النماذج"
+      },
+      {
+        "en": "Working across mechanical and software teams",
+        "ar": "العمل بين الفرق الميكانيكية والبرمجية"
+      },
+      {
+        "en": "Explaining technical ideas simply",
+        "ar": "شرح الأفكار التقنية ببساطة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for datasheets, forums and software",
+        "ar": "الإنجليزية لأوراق البيانات والمنتديات والبرامج"
+      },
+      {
+        "en": "Arabic for factory and customer teams",
+        "ar": "العربية لفرق المصنع والعملاء"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "PLC (Siemens, Schneider, Allen-Bradley) courses",
+        "ar": "دورات PLC (سيمنس وشنايدر وألن برادلي)"
+      },
+      {
+        "en": "Robotics, ROS and SolidWorks certificates",
+        "ar": "شهادات الروبوتات وROS وسوليد ووركس"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Arduino: Getting started",
+        "url": "https://docs.arduino.cc/learn/starting-guide/getting-started-arduino/",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Electrical engineering",
+        "url": "https://www.khanacademy.org/science/electrical-engineering",
+        "free": true
+      },
+      {
+        "title": "Tinkercad Circuits (free browser simulator)",
+        "url": "https://www.tinkercad.com/circuits",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Manufacturers with automated lines (food, automotive parts, electronics)",
+        "ar": "مصانع بخطوط آلية (أغذية وقطع سيارات وإلكترونيات)"
+      },
+      {
+        "en": "Automation and system-integration companies",
+        "ar": "شركات الأتمتة وتكامل النظم"
+      },
+      {
+        "en": "Robotics and hardware startups",
+        "ar": "الشركات الناشئة في الروبوتات والعتاد"
+      },
+      {
+        "en": "Oil, gas and power companies",
+        "ar": "شركات البترول والغاز والكهرباء"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance prototyping, PLC programming and design work exist, and some automation support can be done remotely, but hardware work needs access to equipment.",
+      "ar": "يوجد عمل حر في النمذجة وبرمجة PLC والتصميم، ويمكن تقديم بعض دعم الأتمتة عن بعد، لكن عمل العتاد يحتاج إلى معدات."
+    },
+    "regions": [
+      {
+        "en": "Industrial cities around Cairo and Alexandria",
+        "ar": "المدن الصناعية حول القاهرة والإسكندرية"
+      },
+      {
+        "en": "Suez Canal Economic Zone",
+        "ar": "المنطقة الاقتصادية لقناة السويس"
+      }
+    ],
+    "providerIds": [
+      "egyptian-japanese-kosen",
+      "fab-lab-egypt"
+    ],
+    "salaryNote": {
+      "en": "We did not find a citable Egypt salary figure for mechatronics engineers, so pay is left empty. Compare roughly with the Paylab pages for mechanical and electrical engineers, but treat that as a guide only.",
+      "ar": "لم نجد رقمًا موثقًا لراتب مهندس الميكاترونيكس في مصر، لذا تُرك الراتب فارغًا. يمكن المقارنة تقريبيًا بصفحات Paylab للمهندس الميكانيكي والكهربائي مع اعتبارها دليلًا فقط."
+    }
+  },
+  "global": {
+    "en": "Mechatronics and automation skills are valued in Germany, the Gulf and other industrial markets. Strong English, project portfolios and PLC or robotics certifications help; some countries require equivalency of the degree.",
+    "ar": "مهارات الميكاترونيكس والأتمتة مقدّرة في ألمانيا والخليج وأسواق صناعية أخرى. تساعد الإنجليزية القوية وملف المشروعات وشهادات PLC أو الروبوتات؛ وبعض الدول تشترط معادلة الشهادة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Exciting mix of building and coding",
+        "ar": "مزيج ممتع من البناء والبرمجة"
+      },
+      {
+        "en": "Automation is expanding in factories",
+        "ar": "الأتمتة تتوسع في المصانع"
+      },
+      {
+        "en": "Easy to start learning with cheap boards and kits",
+        "ar": "سهل أن تبدأ التعلم بلوحات وعُدد رخيصة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few jobs are called \"mechatronics\" so you have to look under automation or maintenance titles",
+        "ar": "قليل من الوظائف تسمى «ميكاترونيكس» فعليك البحث تحت مسميات الأتمتة والصيانة"
+      },
+      {
+        "en": "Broad skills take time to build",
+        "ar": "المهارات الواسعة تحتاج وقتًا لبنائها"
+      },
+      {
+        "en": "Hardware prototypes need a lab and budget",
+        "ar": "نماذج العتاد تحتاج معملًا وميزانية"
+      },
+      {
+        "en": "Startup roles may have less job security",
+        "ar": "وظائف الشركات الناشئة قد تكون أقل أمانًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Mechatronics means building humanoid robots.",
+          "ar": "الميكاترونيكس يعني بناء روبوتات بشرية."
+        },
+        "fact": {
+          "en": "Most jobs involve automation in factories, sensors, machines and control systems.",
+          "ar": "معظم الوظائف تتعلق بأتمتة المصانع والحساسات والآلات ونظم التحكم."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need an expensive lab to start.",
+          "ar": "تحتاج معملًا باهظًا لتبدأ."
+        },
+        "fact": {
+          "en": "Low-cost boards, simulators and maker spaces are enough to build a portfolio.",
+          "ar": "لوحات منخفضة التكلفة ومحاكيات ومساحات الصناع تكفي لبناء ملف أعمال."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular office or factory hours, with extra effort around commissioning deadlines or breakdowns.",
+      "ar": "غالبًا ساعات مكتب أو مصنع منتظمة، مع جهد إضافي قرب مواعيد التشغيل أو الأعطال."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate / trainee engineer",
+        "ar": "مهندس حديث / متدرب"
+      },
+      {
+        "en": "Automation or maintenance engineer",
+        "ar": "مهندس أتمتة أو صيانة"
+      },
+      {
+        "en": "Senior controls or robotics engineer",
+        "ar": "مهندس تحكم أو روبوتات أول"
+      },
+      {
+        "en": "Team lead or project manager",
+        "ar": "رئيس فريق أو مدير مشروع"
+      },
+      {
+        "en": "Technical director, founder or consultant",
+        "ar": "مدير فني أو مؤسس أو استشاري"
+      }
+    ],
+    "relatedCareerIds": [
+      "mechanical_engineer",
+      "electrical_engineer",
+      "industrial_technician",
+      "cnc_operator",
+      "ai_engineer",
+      "automotive_ev_technician"
+    ],
+    "pivots": [
+      {
+        "en": "Embedded software and IoT",
+        "ar": "البرمجيات المدمجة وإنترنت الأشياء"
+      },
+      {
+        "en": "AI and computer vision",
+        "ar": "الذكاء الاصطناعي والرؤية الحاسوبية"
+      },
+      {
+        "en": "Technical product design or starting a hardware company",
+        "ar": "تصميم المنتجات التقنية أو تأسيس شركة عتاد"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

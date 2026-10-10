@@ -1,0 +1,170 @@
+{
+  "id": "product_manager",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You decide what gets built, and why.",
+      "ar": "أنت من يقرر ما الذي يُبنى ولماذا."
+    },
+    "summary": {
+      "en": "Product managers guide a digital product such as an app or a website. They talk to users, set priorities and work with designers and developers so the team builds the right thing. It is a role you usually reach after some experience in tech, design or business.",
+      "ar": "مدير المنتج يقود منتجًا رقميًا مثل تطبيق أو موقع. يتحدث مع المستخدمين ويحدد الأولويات ويعمل مع المصممين والمبرمجين لكي يبني الفريق الشيء الصحيح. وهو دور تصل إليه عادة بعد خبرة في التقنية أو التصميم أو الأعمال."
+    },
+    "dayInLife": {
+      "en": "You begin by reading user feedback and checking how many people used last week's new feature. In a meeting with the developers and the designer you decide which of five ideas to build first. Then you write a clear description of the next feature, answer questions from the team, and prepare a short update for management.",
+      "ar": "تبدأ بقراءة آراء المستخدمين ومعرفة كم شخصًا استخدم الميزة الجديدة الأسبوع الماضي. في اجتماع مع المبرمجين والمصمم تقرر أي أفكار من خمس تُبنى أولًا. ثم تكتب وصفًا واضحًا للميزة القادمة وتجيب عن أسئلة الفريق وتجهّز تحديثًا قصيرًا للإدارة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Talk to users and study data to understand their problems.",
+        "ar": "تتحدث مع المستخدمين وتدرس البيانات لتفهم مشكلاتهم."
+      },
+      {
+        "en": "Decide priorities and write clear requirements.",
+        "ar": "تحدد الأولويات وتكتب المتطلبات بوضوح."
+      },
+      {
+        "en": "Work with designers and developers to plan and launch features.",
+        "ar": "تعمل مع المصممين والمبرمجين لتخطيط الميزات وإطلاقها."
+      },
+      {
+        "en": "Track results and adjust the plan.",
+        "ar": "تتابع النتائج وتعدّل الخطة."
+      },
+      {
+        "en": "Share progress with managers and customers.",
+        "ar": "تشارك التقدم مع المديرين والعملاء."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Technology companies and startups",
+        "ar": "شركات التكنولوجيا والشركات الناشئة"
+      },
+      {
+        "en": "Banks, telecom and e-commerce companies",
+        "ar": "البنوك والاتصالات وشركات التجارة الإلكترونية"
+      },
+      {
+        "en": "Remote teams working with international clients",
+        "ar": "فرق عن بُعد تعمل مع عملاء دوليين"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Project and task tools such as Jira, Trello or Notion",
+        "ar": "أدوات المشاريع والمهام مثل Jira وTrello وNotion"
+      },
+      {
+        "en": "Analytics and spreadsheet tools",
+        "ar": "أدوات التحليلات والجداول"
+      },
+      {
+        "en": "Design and prototype tools",
+        "ar": "أدوات التصميم والنماذج الأولية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "No single school stream is required. Maths, Computer Science, Business and Economics are all useful. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "لا توجد شعبة مدرسية واحدة مطلوبة. الرياضيات وعلوم الحاسب ودراسات الأعمال والاقتصاد كلها مفيدة. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Computers and Information or Engineering",
+        "ar": "كليات الحاسبات والمعلومات أو الهندسة"
+      },
+      {
+        "en": "Faculties of Commerce or Business Administration",
+        "ar": "كليات التجارة أو إدارة الأعمال"
+      },
+      {
+        "en": "There is no dedicated product-management degree; most people combine one of these degrees with practical experience",
+        "ar": "لا توجد درجة مخصصة لإدارة المنتجات؛ يجمع معظم الناس بين إحدى هذه الدرجات والخبرة العملية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "british-university-in-egypt-business-administration",
+      "american-university-in-cairo-business"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2024: 87.44% (Cairo University, the only linked program with a published figure in our data). Newer figures are not in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2024: 87.44% (جامعة القاهرة، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a developer, designer, analyst or marketer in a product team, then move into product management.",
+        "ar": "البدء كمبرمج أو مصمم أو محلل أو مسوّق في فريق منتج ثم الانتقال إلى إدارة المنتجات."
+      },
+      {
+        "en": "Short courses and certificates in product management can help, but experience matters most.",
+        "ar": "الدورات القصيرة وشهادات إدارة المنتجات تساعد، لكن الخبرة هي الأهم."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "software_engineer",
+      "ux_designer",
+      "management_consultant",
+      "digital_marketer",
+      "entrepreneur",
+      "data_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Startup founder",
+        "ar": "مؤسس شركة ناشئة"
+      },
+      {
+        "en": "Business or strategy roles",
+        "ar": "وظائف الأعمال والاستراتيجية"
+      },
+      {
+        "en": "Technical program management",
+        "ar": "إدارة البرامج التقنية"
+      },
+      {
+        "en": "Consulting",
+        "ar": "الاستشارات"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Product Manager",
+      "url": "https://www.onetonline.org/link/summary/15-1299.09",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Product Manager",
+      "url": "https://www.mynextmove.org/profile/summary/15-1299.09",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

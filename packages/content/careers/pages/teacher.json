@@ -1,0 +1,447 @@
+{
+  "id": "teacher",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help young people learn, and you can change how they see themselves.",
+      "ar": "تساعد الشباب على التعلم، وقد تغيّر نظرتهم لأنفسهم."
+    },
+    "summary": {
+      "en": "Teachers plan lessons, explain subjects, assess students and support their growth. Egypt has a reported teacher shortage and large school cohorts, so there is steady demand, especially for maths, science, English and technical subjects. Pay in public schools is modest, which is a real challenge, and many teachers also give private lessons or work in private and international schools.",
+      "ar": "المعلم يخطط الدروس ويشرح المواد ويقيّم الطلاب ويدعم نموهم. في مصر عجز مُعلن في المعلمين وأعداد كبيرة من تلاميذ المدارس، فالطلب مستمر خاصة في الرياضيات والعلوم والإنجليزية والمواد الفنية. الأجر في المدارس الحكومية متواضع وهذا تحدٍّ حقيقي، ويعطي كثير من المعلمين دروسًا خصوصية أو يعملون في المدارس الخاصة والدولية."
+    },
+    "dayInLife": {
+      "en": "You arrive before the bell and check your plan for the day. In the first class you explain fractions with real examples from the school canteen. You notice that one student is quiet and struggling, so you speak to him after the lesson and find out he needs glasses. Between classes you mark homework and talk to a parent. In the afternoon you attend a short meeting about exam dates. At home you spend an hour preparing tomorrow's activity, because a good lesson needs preparation.",
+      "ar": "تصل قبل الجرس وتراجع خطة يومك. في الحصة الأولى تشرح الكسور بأمثلة من كافتيريا المدرسة. تلاحظ أن طالبًا هادئًا ويواجه صعوبة، فتتحدث معه بعد الحصة وتعرف أنه يحتاج نظارة. بين الحصص تصحح الواجبات وتتحدث مع ولي أمر. بعد الظهر تحضر اجتماعًا قصيرًا عن مواعيد الامتحانات. وفي البيت تقضي ساعة في تحضير نشاط الغد لأن الحصة الجيدة تحتاج تحضيرًا."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan lessons that match the curriculum and the level of your students.",
+        "ar": "تخطط دروسًا تناسب المنهج ومستوى طلابك."
+      },
+      {
+        "en": "Explain ideas clearly and use examples, activities and technology.",
+        "ar": "تشرح الأفكار بوضوح وتستخدم الأمثلة والأنشطة والتكنولوجيا."
+      },
+      {
+        "en": "Set and mark homework and exams, and give feedback.",
+        "ar": "تضع الواجبات والامتحانات وتصححها وتعطي ملاحظات."
+      },
+      {
+        "en": "Manage the classroom and support students who struggle or are shy.",
+        "ar": "تدير الفصل وتدعم الطلاب المتعثرين أو الخجولين."
+      },
+      {
+        "en": "Talk with parents and work with the school counsellor.",
+        "ar": "تتحدث مع أولياء الأمور وتتعاون مع الأخصائي الاجتماعي أو المرشد."
+      },
+      {
+        "en": "Keep learning new methods and subject knowledge.",
+        "ar": "تواصل تعلم أساليب جديدة ومعرفة أعمق بمادتك."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Public schools",
+        "ar": "المدارس الحكومية"
+      },
+      {
+        "en": "Private, language and international schools",
+        "ar": "المدارس الخاصة واللغات والدولية"
+      },
+      {
+        "en": "Training centres, nurseries and online platforms",
+        "ar": "مراكز التدريب والحضانات والمنصات الإلكترونية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Whiteboard, textbooks and worksheets",
+        "ar": "السبورة والكتب وأوراق العمل"
+      },
+      {
+        "en": "Presentation tools and educational apps",
+        "ar": "برامج العرض والتطبيقات التعليمية"
+      },
+      {
+        "en": "Learning platforms of the Ministry of Education and online classrooms",
+        "ar": "المنصات التعليمية لوزارة التربية والتعليم والفصول الإلكترونية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "To teach your own subject, choose a degree in it (science, maths, English, Arabic and so on) or in education. IGCSE, American or IB students with strong English can teach in private and international schools. Subjects like Maths, Science, English and Arabic are in high demand.",
+      "ar": "لتدرّس مادتك اختر شهادة فيها (علوم أو رياضيات أو إنجليزي أو عربي وغيرها) أو في التربية. يستطيع طلاب IGCSE والأمريكي وIB ذوو الإنجليزية القوية التدريس في المدارس الخاصة والدولية. مواد مثل الرياضيات والعلوم والإنجليزية والعربية مطلوبة بشدة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Education (primary, early childhood, subject-based)",
+        "ar": "كلية التربية (ابتدائي أو طفولة مبكرة أو تخصصات المواد)"
+      },
+      {
+        "en": "Faculty of Arts, Science, Al-Alsun or any subject faculty followed by an education diploma",
+        "ar": "كلية الآداب أو العلوم أو الألسن أو أي كلية متخصصة ثم دبلوم تربوي"
+      },
+      {
+        "en": "Faculty of Special Education (for example at Misr University for Science and Technology)",
+        "ar": "كلية التربية الخاصة (مثل جامعة مصر للعلوم والتكنولوجيا)"
+      }
+    ],
+    "programIds": [
+      "zagazig-university-education",
+      "qena-university-education",
+      "beni-suef-university-education",
+      "cairo-university-arts",
+      "kafrelsheikh-university-alsun-languages",
+      "misr-university-for-science-and-technology-special-education",
+      "british-university-in-egypt-english-language-literature"
+    ],
+    "tansikNote": {
+      "en": "Faculties of Education (literary track) asked for about 72% to 81% in the 2026 phase-1 lists: Beni Suef 71.56% to Zagazig 80.78%. In 2024 the range was 70.12% (Qena) to 79.15% (Port Said). Arts asked for 71.56% to 81.09% in 2026. Al-Alsun asked for 87.66% to 93.44% in 2026 (all percent of the total). Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff. Science and maths teachers often study in the Faculty of Science or Education, whose minimums are not in the lists we reviewed.",
+      "ar": "طلبت كليات التربية (الشعبة الأدبية) نحو 72% إلى 81% في المرحلة الأولى لعام 2026: بني سويف 71.56% والزقازيق 80.78%. وفي 2024 كان النطاق من 70.12% (قنا) إلى 79.15% (بورسعيد). وطلبت الآداب من 71.56% إلى 81.09% في 2026. وطلبت الألسن من 87.66% إلى 93.44% في 2026 (كلها نسبة مئوية من المجموع). تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي. ومعلمو العلوم والرياضيات يدرسون كثيرًا في كلية العلوم أو التربية وحدودها الدنيا غير موجودة في القوائم التي راجعناها."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Degree in your subject plus an education diploma or the teacher qualification programs of the Ministry.",
+        "ar": "شهادة في مادتك مع دبلوم تربوي أو برامج تأهيل المعلمين التابعة للوزارة."
+      },
+      {
+        "en": "Teaching English or other languages with certificates such as CELTA or TEFL, in language centres and private schools.",
+        "ar": "تدريس الإنجليزية أو لغات أخرى بشهادات مثل CELTA أو TEFL في مراكز اللغات والمدارس الخاصة."
+      },
+      {
+        "en": "Teaching assistant roles and training centres, then a formal qualification.",
+        "ar": "العمل مساعد معلم أو في مراكز التدريب ثم الحصول على مؤهل رسمي."
+      }
+    ],
+    "licensing": {
+      "en": "To teach in government schools you are appointed through the Ministry of Education's recruitment competitions, which require an education qualification or a degree in the subject plus an education qualification, and tests and interviews. Egypt has a professional license system for teachers (applications opened through the Ministry in 2026 according to press reports), and the Ministry has also discussed a wider teaching practice law, so check the current rules with the Ministry of Education. Private and international schools set their own hiring rules.",
+      "ar": "للتدريس في المدارس الحكومية يتم التعيين عبر مسابقات وزارة التربية والتعليم التي تتطلب مؤهلًا تربويًا أو شهادة في المادة مع مؤهل تربوي، مع اختبارات ومقابلات. توجد في مصر منظومة رخصة مهنية للمعلمين (فُتح التقديم لها عبر الوزارة في 2026 بحسب تقارير صحفية)، كما ناقشت الوزارة قانونًا أوسع لمزاولة المهنة، فتأكد من القواعد الحالية لدى وزارة التربية والتعليم. وتضع المدارس الخاصة والدولية شروط توظيفها."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Deep knowledge of your subject",
+        "ar": "معرفة عميقة بمادتك"
+      },
+      {
+        "en": "Lesson planning and classroom management",
+        "ar": "تخطيط الدروس وإدارة الفصل"
+      },
+      {
+        "en": "Assessment and giving feedback",
+        "ar": "التقييم وإعطاء الملاحظات"
+      },
+      {
+        "en": "Using digital teaching tools",
+        "ar": "استخدام أدوات التدريس الرقمية"
+      },
+      {
+        "en": "Basic child development and inclusive teaching",
+        "ar": "أساسيات نمو الطفل والتدريس الدامج"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and empathy",
+        "ar": "الصبر والتعاطف"
+      },
+      {
+        "en": "Clear speaking and storytelling",
+        "ar": "الحديث الواضح والحكي"
+      },
+      {
+        "en": "Fairness with every student",
+        "ar": "العدل مع كل الطلاب"
+      },
+      {
+        "en": "Creativity",
+        "ar": "الإبداع"
+      },
+      {
+        "en": "Working with parents and colleagues",
+        "ar": "التعاون مع أولياء الأمور والزملاء"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: for most public schools",
+        "ar": "العربية: لمعظم المدارس الحكومية"
+      },
+      {
+        "en": "English: for language, private and international schools",
+        "ar": "الإنجليزية: لمدارس اللغات والخاصة والدولية"
+      },
+      {
+        "en": "French or German for those subjects",
+        "ar": "الفرنسية أو الألمانية لتلك المواد"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Education qualification (Faculty of Education or education diploma)",
+        "ar": "مؤهل تربوي (كلية التربية أو دبلوم تربوي)"
+      },
+      {
+        "en": "Teacher professional license (Egyptian Ministry of Education)",
+        "ar": "الرخصة المهنية للمعلم (وزارة التربية والتعليم)"
+      },
+      {
+        "en": "CELTA or TEFL for English teaching",
+        "ar": "CELTA أو TEFL لتدريس الإنجليزية"
+      },
+      {
+        "en": "Cambridge or other international teacher training for international schools",
+        "ar": "تدريب كامبريدج أو معلمين دوليين للمدارس الدولية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy for teachers",
+        "url": "https://www.khanacademy.org/khan-for-educators",
+        "free": true
+      },
+      {
+        "title": "Egyptian Knowledge Bank (EKB)",
+        "url": "https://www.ekb.eg",
+        "free": true
+      },
+      {
+        "title": "British Council Teaching English",
+        "url": "https://www.teachingenglish.org.uk",
+        "free": true
+      },
+      {
+        "title": "Ministry of Education Egypt",
+        "url": "https://moe.gov.eg",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": {
+        "min": 7835,
+        "max": 13756
+      },
+      "mid": {
+        "min": 10857,
+        "max": 18682
+      },
+      "senior": {
+        "min": 14697,
+        "max": 24953
+      },
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Levels use the Paylab titles Assistant Teacher, Teacher and Deputy Headmaster. Primary school teacher is 11,585 to 19,961 and secondary school teacher is 12,013 to 20,970 EGP. Government teachers are paid on state scales that can differ, and private and international school pay varies widely.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. المستويات من مسميات Paylab: مساعد معلم ومعلم ووكيل مدرسة. معلم الابتدائي 11,585 إلى 19,961 ومعلم الثانوي 12,013 إلى 20,970 جنيهًا. يتقاضى معلمو الحكومة رواتب وفق جداول الدولة وقد تختلف، وتتفاوت رواتب المدارس الخاصة والدولية كثيرًا."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Ministry of Education (public schools)",
+        "ar": "وزارة التربية والتعليم (المدارس الحكومية)"
+      },
+      {
+        "en": "Private, language and international schools",
+        "ar": "المدارس الخاصة واللغات والدولية"
+      },
+      {
+        "en": "Universities and technical education",
+        "ar": "الجامعات والتعليم الفني"
+      },
+      {
+        "en": "Language and training centres, ed-tech companies",
+        "ar": "مراكز اللغات والتدريب وشركات التكنولوجيا التعليمية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Online teaching and tutoring are growing, including teaching Arabic and school subjects to students abroad. Private lessons are a large, mostly informal market. Egypt reported appointing a record 43,000 teachers ahead of the 2026 school year and a large teacher deficit, but public pay and budgets limit hiring speed.",
+      "ar": "التدريس عبر الإنترنت والدروس الخصوصية في نمو، ومنها تدريس العربية والمواد الدراسية لطلاب في الخارج. الدروس الخصوصية سوق كبير غير رسمي في معظمه. أُعلن تعيين رقم قياسي بلغ 43 ألف معلم قبل العام الدراسي 2026 مع عجز كبير في المعلمين، لكن الأجور والميزانيات الحكومية تحد من سرعة التوظيف."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      },
+      {
+        "en": "Higher demand in crowded areas and areas with teacher shortages",
+        "ar": "طلب أعلى في المناطق المزدحمة والمناطق التي بها عجز معلمين"
+      }
+    ],
+    "providerIds": [
+      "british-council-egypt",
+      "amideast-egypt",
+      "english-access-microscholarship",
+      "goethe-institut-egypt"
+    ]
+  },
+  "global": {
+    "en": "Gulf countries have long recruited Egyptian teachers, and international schools hire teachers with English and international qualifications. Online teaching can serve students anywhere. Salaries and contracts abroad vary, so check them carefully.",
+    "ar": "ظلت دول الخليج تستقطب المعلمين المصريين، وتوظف المدارس الدولية معلمين بالإنجليزية ومؤهلات دولية. يمكن للتدريس عبر الإنترنت أن يخدم طلابًا في أي مكان. تتفاوت الرواتب والعقود في الخارج فافحصها بعناية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Meaningful work that shapes young people",
+        "ar": "عمل ذو معنى يشكّل الشباب"
+      },
+      {
+        "en": "Steady demand and many school types",
+        "ar": "طلب مستمر وأنواع كثيرة من المدارس"
+      },
+      {
+        "en": "Holidays and a clear daily rhythm",
+        "ar": "إجازات وإيقاع يومي واضح"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Public school pay is modest and classes can be crowded",
+        "ar": "راتب المدارس الحكومية متواضع والفصول قد تكون مزدحمة"
+      },
+      {
+        "en": "Heavy workload outside lesson time, such as preparing and marking",
+        "ar": "عبء عمل كبير خارج الحصص مثل التحضير والتصحيح"
+      },
+      {
+        "en": "Pressure from exams and from parents",
+        "ar": "ضغط من الامتحانات وأولياء الأمور"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Teaching is easy and has short hours.",
+          "ar": "التدريس سهل وساعاته قصيرة."
+        },
+        "fact": {
+          "en": "Lessons are only part of the day. Preparing, marking and caring for students takes a lot of extra time.",
+          "ar": "الحصص جزء من اليوم فقط. التحضير والتصحيح ورعاية الطلاب يأخذ وقتًا إضافيًا كبيرًا."
+        }
+      },
+      {
+        "myth": {
+          "en": "Only people who failed to get into other faculties become teachers.",
+          "ar": "المعلمون هم من لم يدخلوا كليات أخرى."
+        },
+        "fact": {
+          "en": "Good teachers choose the job because they like explaining and helping. Great teachers make a big difference.",
+          "ar": "المعلمون الجيدون يختارون المهنة لأنهم يحبون الشرح والمساعدة. والمعلم الممتاز يصنع فرقًا كبيرًا."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will replace teachers.",
+          "ar": "الذكاء الاصطناعي سيحل محل المعلمين."
+        },
+        "fact": {
+          "en": "AI helps with planning and practice, but children need a person who knows and encourages them.",
+          "ar": "الذكاء الاصطناعي يساعد في التخطيط والتدريب، لكن الأطفال يحتاجون شخصًا يعرفهم ويشجعهم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "School hours are regular and there are long holidays, but evenings go to preparation and marking, and many teachers add private lessons.",
+      "ar": "ساعات المدرسة منتظمة والإجازات طويلة، لكن المساء يذهب للتحضير والتصحيح، ويضيف كثير من المعلمين دروسًا خصوصية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant teacher or new teacher",
+        "ar": "مساعد معلم أو معلم جديد"
+      },
+      {
+        "en": "Teacher",
+        "ar": "معلم"
+      },
+      {
+        "en": "Senior teacher or head of department",
+        "ar": "معلم أول أو رئيس قسم"
+      },
+      {
+        "en": "Deputy head or school principal",
+        "ar": "وكيل أو مدير مدرسة"
+      },
+      {
+        "en": "Education supervisor, trainer or university lecturer",
+        "ar": "موجّه أو مدرب أو محاضر جامعي"
+      }
+    ],
+    "relatedCareerIds": [
+      "special_education_specialist",
+      "school_counselor",
+      "translator",
+      "social_worker",
+      "content_creator"
+    ],
+    "pivots": [
+      {
+        "en": "Educational technology and content creation",
+        "ar": "التكنولوجيا التعليمية وصناعة المحتوى"
+      },
+      {
+        "en": "Teacher training and curriculum design",
+        "ar": "تدريب المعلمين وتصميم المناهج"
+      },
+      {
+        "en": "School counselling or special education",
+        "ar": "الإرشاد المدرسي أو التربية الخاصة"
+      },
+      {
+        "en": "Corporate training",
+        "ar": "التدريب المؤسسي"
+      }
+    ]
+  },
+  "industryId": "education",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Education, science and research salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/education-science-research",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Online: Egypt appoints record 43,000 teachers for the new school year",
+      "url": "https://english.ahram.org.eg/News/576430.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "EIPR: What we know about teachers' status in Egypt",
+      "url": "https://www.eipr.org/en/node/4807",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Raya: applications open for professional licenses (Sept 2026)",
+      "url": "https://www.raya.com/2026/09/05/التربية-تفتح-التقديم-للرخص-المهنية/amp",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik 2026 upper and lower limits, science, math and literary",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "it_support",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "When something stops working, you are the one who fixes it.",
+      "ar": "حين يتوقف شيء عن العمل، أنت من يصلحه."
+    },
+    "summary": {
+      "en": "IT support specialists help people and companies with computers, networks, printers and software problems. They answer questions, install and repair systems, and keep offices running. It is one of the easiest ways to start in technology and a good first step toward networking, cloud or security.",
+      "ar": "أخصائي الدعم الفني يساعد الأفراد والشركات في مشكلات الكمبيوتر والشبكات والطابعات والبرامج. يجيب عن الأسئلة ويركّب الأنظمة ويصلحها ويُبقي المكاتب تعمل. وهي من أسهل طرق البدء في التكنولوجيا وخطوة جيدة نحو الشبكات والسحابة والأمان."
+    },
+    "dayInLife": {
+      "en": "The first call of the day is from an employee who cannot log in. You check the account, reset the password and explain how to keep it safe. Then you set up a new laptop for a colleague, find out why the office printer stopped working, and update the antivirus on several computers. You record every problem in the ticket system and note what fixed it.",
+      "ar": "أول مكالمة في اليوم من موظف لا يستطيع تسجيل الدخول. تفحص حسابه وتعيد ضبط كلمة المرور وتشرح له كيف يحميها. ثم تجهّز لابتوبًا جديدًا لزميل، وتعرف سبب توقف طابعة المكتب، وتحدّث برنامج الحماية على عدة أجهزة. تسجّل كل مشكلة في نظام التذاكر وتدوّن ما أصلحها."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Answer users' questions by phone, chat or in person.",
+        "ar": "تجيب عن أسئلة المستخدمين بالهاتف أو الدردشة أو شخصيًا."
+      },
+      {
+        "en": "Install, set up and repair computers, printers and software.",
+        "ar": "تركّب وتجهّز وتصلح الكمبيوترات والطابعات والبرامج."
+      },
+      {
+        "en": "Manage user accounts and passwords.",
+        "ar": "تدير حسابات المستخدمين وكلمات المرور."
+      },
+      {
+        "en": "Fix basic network and internet problems.",
+        "ar": "تصلح مشكلات الشبكة والإنترنت الأساسية."
+      },
+      {
+        "en": "Record problems and solutions in a ticket system.",
+        "ar": "تسجّل المشكلات وحلولها في نظام التذاكر."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Company IT departments",
+        "ar": "أقسام تكنولوجيا المعلومات في الشركات"
+      },
+      {
+        "en": "Customer support centres and IT service companies",
+        "ar": "مراكز خدمة العملاء وشركات الخدمات التقنية"
+      },
+      {
+        "en": "Schools, hospitals, banks and government offices",
+        "ar": "المدارس والمستشفيات والبنوك والمكاتب الحكومية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Windows, Linux and macOS",
+        "ar": "Windows وLinux وmacOS"
+      },
+      {
+        "en": "Remote-support and ticketing tools",
+        "ar": "أدوات الدعم عن بُعد ونظم التذاكر"
+      },
+      {
+        "en": "Basic network tools and testers",
+        "ar": "أدوات الشبكات الأساسية وأجهزة الاختبار"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science",
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "The math or science stream both lead to computing faculties. With IGCSE or A-Level, Mathematics and Computer Science are the most useful; with the American Diploma, AP Computer Science and AP Calculus. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبتان العلمي والرياضيات تؤديان إلى كليات الحاسبات. في IGCSE أو A-Level الأنفع الرياضيات وعلوم الحاسب؛ وفي الدبلومة الأمريكية AP علوم الحاسب وAP حساب التفاضل. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Computers and Information, IT departments",
+        "ar": "كليات الحاسبات والمعلومات، أقسام تكنولوجيا المعلومات"
+      },
+      {
+        "en": "Faculties of Engineering, computer or communications departments",
+        "ar": "كليات الهندسة أقسام الحاسبات أو الاتصالات"
+      },
+      {
+        "en": "Technical institutes in computer and IT fields",
+        "ar": "المعاهد الفنية في مجالات الحاسب وتقنية المعلومات"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "mansoura-university-computers-information",
+      "assiut-university-computers-information",
+      "british-university-in-egypt-informatics-computer-science",
+      "misr-international-university-computer-science"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2025: 88.75% (Alexandria University, the only linked program with a published figure in our data). Newer figures are not in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 61% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2025: 88.75% (جامعة الإسكندرية، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 61% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Technical secondary school or WE Schools of Applied Technology (ICT), then entry-level support jobs.",
+        "ar": "الثانوية الفنية أو مدارس WE للتكنولوجيا التطبيقية (ICT) ثم وظائف الدعم المبتدئة."
+      },
+      {
+        "en": "Vendor academy courses and certificates such as Cisco, Huawei or CompTIA, with hands-on practice.",
+        "ar": "دورات أكاديميات الشركات وشهاداتها مثل Cisco وHuawei وCompTIA مع تدريب عملي."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "cloud_devops_engineer",
+      "cybersecurity_specialist",
+      "software_engineer",
+      "communications_engineer",
+      "mobile_developer"
+    ],
+    "pivots": [
+      {
+        "en": "Network administration",
+        "ar": "إدارة الشبكات"
+      },
+      {
+        "en": "Cybersecurity",
+        "ar": "الأمن السيبراني"
+      },
+      {
+        "en": "Cloud and DevOps",
+        "ar": "السحابة وDevOps"
+      },
+      {
+        "en": "IT management",
+        "ar": "إدارة تكنولوجيا المعلومات"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "O*NET OnLine: IT Support Specialist",
+      "url": "https://www.onetonline.org/link/summary/15-1232.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): IT Support Specialist",
+      "url": "https://www.mynextmove.org/profile/summary/15-1232.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "WE Schools of Applied Technology",
+      "url": "https://te.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

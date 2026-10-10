@@ -1,0 +1,410 @@
+{
+  "id": "ux_designer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You make apps and websites easy, clear and pleasant to use, by understanding the people who use them.",
+      "ar": "تجعل التطبيقات والمواقع سهلة وواضحة وممتعة الاستخدام عبر فهم الناس الذين يستخدمونها."
+    },
+    "summary": {
+      "en": "UX designers research users, design flows and screens, and test them with real people. There is no single degree for it in Egypt: designers come from applied arts, fine arts, computing, psychology or self-study. A portfolio matters more than the certificate.",
+      "ar": "مصمم تجربة المستخدم يبحث في المستخدمين ويصمم المسارات والشاشات ويختبرها مع ناس حقيقيين. لا توجد في مصر شهادة واحدة لهذا الدور: يأتي المصممون من الفنون التطبيقية أو الجميلة أو الحاسبات أو علم النفس أو التعلم الذاتي. محفظة الأعمال أهم من الشهادة."
+    },
+    "dayInLife": {
+      "en": "You start the day with a call with five users trying a prototype of a bill-payment app. You watch where they get stuck and take notes without helping. After lunch you share findings with the team and sketch a simpler version of the confusing screen in Figma. Then you work with a developer to make sure the design can be built, and with a writer to improve the Arabic text. Before leaving you update the design system so every button and color stays consistent.",
+      "ar": "تبدأ اليوم باتصال مع خمسة مستخدمين يجربون نموذجًا أوليًا لتطبيق دفع الفواتير. تراقب أين يتعثرون وتدوّن الملاحظات دون أن تساعد. بعد الغداء تشارك الفريق ما وجدته وترسم في Figma نسخة أبسط من الشاشة المربكة. ثم تعمل مع مطور للتأكد من إمكانية التنفيذ ومع كاتب لتحسين النص العربي. قبل أن تغادر تحدّث نظام التصميم لتبقى كل الأزرار والألوان متسقة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Interview users and observe how they use products.",
+        "ar": "تجري مقابلات مع المستخدمين وتلاحظ كيف يستخدمون المنتجات."
+      },
+      {
+        "en": "Map user journeys and design flows and wireframes.",
+        "ar": "ترسم رحلات المستخدم وتصمم المسارات والإطارات السلكية."
+      },
+      {
+        "en": "Design screens and prototypes, including Arabic and right-to-left layouts.",
+        "ar": "تصمم الشاشات والنماذج الأولية بما فيها الواجهات العربية من اليمين لليسار."
+      },
+      {
+        "en": "Test prototypes with users and improve them.",
+        "ar": "تختبر النماذج مع المستخدمين وتحسنها."
+      },
+      {
+        "en": "Build and maintain a design system.",
+        "ar": "تبني وتصون نظام تصميم."
+      },
+      {
+        "en": "Work with developers and product managers.",
+        "ar": "تعمل مع المطورين ومديري المنتج."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Product companies, startups and banks' digital teams",
+        "ar": "شركات المنتجات والشركات الناشئة وفرق البنوك الرقمية"
+      },
+      {
+        "en": "Design agencies and software houses",
+        "ar": "وكالات التصميم وشركات البرمجيات"
+      },
+      {
+        "en": "Remote work for international clients",
+        "ar": "العمل عن بعد لعملاء دوليين"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Figma (most common), Adobe XD and Sketch",
+        "ar": "Figma (الأكثر شيوعًا) وAdobe XD وSketch"
+      },
+      {
+        "en": "FigJam, Miro and survey tools for research",
+        "ar": "FigJam وMiro وأدوات الاستبيان للبحث"
+      },
+      {
+        "en": "Usability testing tools and analytics dashboards",
+        "ar": "أدوات اختبار الاستخدام ولوحات التحليلات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Any stream or curriculum can lead into UX. With IGCSE or A-levels, Art & Design, Psychology, Computer Science or Media Studies are useful; with the American Diploma, AP Art and Design, Psychology and Computer Science Principles. Programs that ask for a portfolio or aptitude test (Applied Arts, Fine Arts) need drawing practice, so check each faculty. Confirm equivalency with the Tansik office.",
+      "ar": "يمكن أن يقود أي مسار أو منهج إلى تجربة المستخدم. في IGCSE أو A-levels تفيد مواد الفن والتصميم وعلم النفس وعلوم الحاسب والإعلام؛ وفي الدبلومة الأمريكية AP للفن والتصميم وعلم النفس وأساسيات علوم الحاسب. البرامج التي تطلب محفظة أو اختبار قدرات (الفنون التطبيقية والجميلة) تحتاج تدريبًا على الرسم، فراجع كل كلية. وتأكد من المعادلة لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Applied Arts (Graphic Design, Digital Design) at public universities",
+        "ar": "كليات الفنون التطبيقية (تصميم جرافيك وتصميم رقمي) بالجامعات الحكومية"
+      },
+      {
+        "en": "Faculty of Fine Arts or Art and Design programs; private programs such as GUC Media Engineering and Technology, BUE Art & Design, MIU Visual Communication Design",
+        "ar": "كليات الفنون الجميلة أو برامج الفن والتصميم؛ وبرامج خاصة مثل هندسة وتكنولوجيا الإعلام بالجامعة الألمانية والفن والتصميم بالبريطانية والتصميم البصري بمصر الدولية"
+      },
+      {
+        "en": "Faculty of Computers and Information (as a route into front-end and product work)",
+        "ar": "كليات الحاسبات والمعلومات (كطريق إلى الواجهات والمنتجات)"
+      },
+      {
+        "en": "Psychology or media studies as supporting backgrounds",
+        "ar": "علم النفس أو دراسات الإعلام كخلفيات داعمة"
+      }
+    ],
+    "programIds": [
+      "british-university-in-egypt-art-design",
+      "german-university-in-cairo-media-engineering-technology",
+      "german-university-in-cairo-applied-sciences-arts",
+      "capital-university-applied-arts",
+      "benha-university-applied-arts",
+      "beni-suef-university-applied-arts",
+      "damietta-university-applied-arts",
+      "egypt-japan-university-of-science-and-technology-art-design"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the public programs linked to this career in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% to 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data has no published Tansik minimums for the public applied-arts faculties linked to UX; the programs with figures are private, at the 53% to 68% Ministry floor. Applied Arts and Fine Arts usually also require an aptitude or drawing test.",
+      "ar": "ليس لدينا في بياناتنا حدودًا دنيا منشورة للمرحلة الأولى من التنسيق للبرامج الحكومية المرتبطة بهذه المهنة. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: من 53% إلى 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. ليست لدينا حدود دنيا منشورة لكليات الفنون التطبيقية الحكومية المرتبطة بالتجربة؛ والبرامج التي لها أرقام خاصة عند حد الوزارة بين 53% و68%. وتطلب الفنون التطبيقية والجميلة عادة اختبار قدرات أو رسم."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Google UX Design Certificate (Google Career Certificates scholarships are offered in the MENA region), Coursera, Route, GOMYCODE and local bootcamps teach UX in a few months.",
+        "ar": "شهادة جوجل لتصميم تجربة المستخدم (تتوفر منح شهادات جوجل المهنية في المنطقة) وCoursera وRoute وGOMYCODE ومعسكرات محلية تعلم التجربة في بضعة أشهر."
+      },
+      {
+        "en": "Graphic designers, developers or psychology graduates often move into UX by building case studies.",
+        "ar": "كثيرًا ما ينتقل مصممو الجرافيك والمطورون وخريجو علم النفس إلى التجربة ببناء دراسات حالة."
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "User research and usability testing",
+        "ar": "بحث المستخدم واختبار الاستخدام"
+      },
+      {
+        "en": "Wireframing and prototyping in Figma",
+        "ar": "الإطارات السلكية والنماذج الأولية في Figma"
+      },
+      {
+        "en": "Visual design: layout, typography, color",
+        "ar": "التصميم البصري: التخطيط والخطوط والألوان"
+      },
+      {
+        "en": "Arabic and bilingual (RTL/LTR) design",
+        "ar": "التصميم العربي وثنائي اللغة (يمين-يسار/يسار-يمين)"
+      },
+      {
+        "en": "Accessibility basics",
+        "ar": "أساسيات إمكانية الوصول"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Empathy and curiosity about how people think",
+        "ar": "التعاطف والفضول لفهم طريقة تفكير الناس"
+      },
+      {
+        "en": "Presenting and defending design decisions calmly",
+        "ar": "عرض قرارات التصميم والدفاع عنها بهدوء"
+      },
+      {
+        "en": "Collaboration with developers and business teams",
+        "ar": "التعاون مع المطورين وفرق الأعمال"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for tools, communities and international clients",
+        "ar": "الإنجليزية للأدوات والمجتمعات والعملاء الدوليين"
+      },
+      {
+        "en": "Arabic writing and typography for local products",
+        "ar": "الكتابة والخطوط العربية للمنتجات المحلية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Google UX Design Certificate",
+        "ar": "شهادة جوجل لتصميم تجربة المستخدم"
+      },
+      {
+        "en": "Nielsen Norman Group UX certification (paid, advanced)",
+        "ar": "شهادة Nielsen Norman Group لتجربة المستخدم (مدفوعة ومتقدمة)"
+      },
+      {
+        "en": "A portfolio with 2-4 detailed case studies matters more",
+        "ar": "محفظة بدراستي حالة إلى أربع تفصيلية أهم"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Figma Learn (official tutorials)",
+        "url": "https://help.figma.com/hc/en-us/categories/360002051613-Get-started",
+        "free": true
+      },
+      {
+        "title": "Google UX Design Certificate (Coursera, financial aid available)",
+        "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+        "free": false
+      },
+      {
+        "title": "Laws of UX",
+        "url": "https://lawsofux.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 15906,
+        "max": 50554
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://paylab.com/eg/salaryinfo/information-technology/ux-designer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for UX designers (about EGP 15,906 to 50,554, with a listed average of about 28,787), without separating junior and senior levels. We show it under \"mid\". The page does not state its sample size or date (accessed October 2026), so treat it as a rough guide only; pay differs a lot between local companies and international or remote clients.",
+        "ar": "يعرض Paylab مصر نطاقًا شهريًا إجماليًا واحدًا لمصمم تجربة المستخدم (نحو 15,906 إلى 50,554 جنيهًا، ومتوسط مذكور نحو 28,787) دون فصل المبتدئ عن الأقدم. وضعناه تحت «متوسط». لا تذكر الصفحة حجم العينة ولا تاريخها (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا؛ ويختلف الأجر كثيرًا بين الشركات المحلية والعملاء الدوليين أو عن بعد."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Software houses, startups and fintech companies",
+        "ar": "شركات البرمجيات والشركات الناشئة والتقنية المالية"
+      },
+      {
+        "en": "Banks, telecom operators and e-commerce platforms with in-house design teams",
+        "ar": "البنوك ومشغلو الاتصالات ومنصات التجارة الإلكترونية ذات فرق التصميم الداخلية"
+      },
+      {
+        "en": "Design and digital agencies",
+        "ar": "وكالات التصميم والوكالات الرقمية"
+      },
+      {
+        "en": "Outsourcing firms and international clients (remote)",
+        "ar": "شركات التعهيد والعملاء الدوليون (عن بعد)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelancing and remote UX/UI work is common, especially for Gulf and international clients. Many designers start with UI projects before moving to full UX research roles. A strong portfolio and English are key, and Arabic interface skills set you apart.",
+      "ar": "العمل الحر وعن بعد في التصميم شائع خاصة لعملاء الخليج والعملاء الدوليين. يبدأ كثير من المصممين بمشروعات الواجهات قبل الانتقال إلى أدوار بحث المستخدم الكاملة. والمحفظة القوية والإنجليزية مفتاحان، ومهارة الواجهات العربية تميزك."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria",
+        "ar": "القاهرة الكبرى والإسكندرية"
+      },
+      {
+        "en": "Remote work from any governorate",
+        "ar": "العمل عن بعد من أي محافظة"
+      }
+    ],
+    "providerIds": [
+      "google-career-certificates-egypt",
+      "coursera-egypt",
+      "route-academy",
+      "gomycode-egypt"
+    ]
+  },
+  "global": {
+    "en": "UX designers are hired in the Gulf and worldwide, often remotely. Entry-level positions are competitive abroad, so experience, a portfolio and English matter most.",
+    "ar": "يُوظف مصممو تجربة المستخدم في الخليج والعالم، غالبًا عن بعد. والوظائف المبتدئة تنافسية في الخارج، لذا فالخبرة والمحفظة والإنجليزية أهم ما تحتاجه."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative and analytical at the same time",
+        "ar": "إبداعي وتحليلي معًا"
+      },
+      {
+        "en": "Multiple entry routes, including non-degree ones",
+        "ar": "مسارات دخول متعددة منها ما لا يتطلب شهادة"
+      },
+      {
+        "en": "Remote and freelance options",
+        "ar": "خيارات للعمل عن بعد والعمل الحر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Many beginners compete for junior jobs",
+        "ar": "كثير من المبتدئين يتنافسون على الوظائف الأولى"
+      },
+      {
+        "en": "Design decisions are often questioned or overruled by business needs",
+        "ar": "قرارات التصميم كثيرًا ما تُناقش أو تُرفض لاعتبارات الأعمال"
+      },
+      {
+        "en": "Some companies confuse UX with just making things look nice",
+        "ar": "بعض الشركات تخلط بين التجربة وجعل الأشياء جميلة فقط"
+      },
+      {
+        "en": "AI tools are changing production tasks; research and judgement are what stay valuable",
+        "ar": "أدوات الذكاء الاصطناعي تغير مهام الإنتاج؛ وما يبقى ذا قيمة هو البحث والحكم"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "UX design is the same as graphic design.",
+          "ar": "تصميم تجربة المستخدم هو نفسه الجرافيك."
+        },
+        "fact": {
+          "en": "Graphic design focuses on visual communication; UX focuses on how a product works for people, including research and testing.",
+          "ar": "الجرافيك يركز على التواصل البصري، والتجربة تركز على كيف يعمل المنتج للناس بما فيه البحث والاختبار."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must code to be a UX designer.",
+          "ar": "يجب أن تبرمج لتكون مصمم تجربة."
+        },
+        "fact": {
+          "en": "Coding is not required, but understanding how things are built helps you design realistic solutions.",
+          "ar": "البرمجة ليست شرطًا، لكن فهم كيفية بناء الأشياء يساعدك على تصميم حلول واقعية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Generally good with regular hours; deadlines before launches and client feedback cycles can add pressure. Freelancers control their time but must manage steady income.",
+      "ar": "جيدة عمومًا بساعات منتظمة؛ ومواعيد قبل الإطلاق وجولات ملاحظات العملاء قد تضيف ضغطًا. والمستقلون يتحكمون في وقتهم لكن عليهم إدارة دخل منتظم."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior UI/UX designer",
+        "ar": "مصمم UI/UX مبتدئ"
+      },
+      {
+        "en": "UX designer",
+        "ar": "مصمم تجربة المستخدم"
+      },
+      {
+        "en": "Senior UX designer or UX researcher",
+        "ar": "مصمم تجربة أول أو باحث مستخدم"
+      },
+      {
+        "en": "Lead designer / design manager",
+        "ar": "قائد تصميم / مدير تصميم"
+      },
+      {
+        "en": "Head of design or product leader",
+        "ar": "رئيس التصميم أو قائد منتج"
+      }
+    ],
+    "relatedCareerIds": [
+      "graphic_designer",
+      "product_manager",
+      "software_engineer",
+      "mobile_developer",
+      "interior_designer",
+      "digital_marketer",
+      "clinical_psychologist"
+    ],
+    "pivots": [
+      {
+        "en": "Product management",
+        "ar": "إدارة المنتج"
+      },
+      {
+        "en": "User research or service design",
+        "ar": "بحث المستخدم أو تصميم الخدمات"
+      },
+      {
+        "en": "Front-end development or motion design",
+        "ar": "تطوير الواجهات أو التحريك"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt digital exports hit $7.4bn (Dec 2025)",
+      "url": "https://meatechwatch.com/2025/12/23/egypts-digital-exports-hit-7-4bn-as-ict-sector-drives-economic-growth/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - UX Designer salary survey",
+      "url": "https://paylab.com/eg/salaryinfo/information-technology/ux-designer?lang=en",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Google Career Certificates - UX Design",
+      "url": "https://grow.google/certificates/ux-design/",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

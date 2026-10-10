@@ -1,0 +1,170 @@
+{
+  "id": "political_scientist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You study how power, states and decisions shape people's lives.",
+      "ar": "تدرس كيف تؤثر السلطة والدول والقرارات في حياة الناس."
+    },
+    "summary": {
+      "en": "Political scientists research governments, public policy, elections and international relations. They read, collect data, write and explain what is happening and why. They work in universities, research centres, media, government and international organisations.",
+      "ar": "الباحث في العلوم السياسية يدرس الحكومات والسياسات العامة والانتخابات والعلاقات الدولية. يقرأ ويجمع البيانات ويكتب ويشرح ما يحدث ولماذا. يعمل في الجامعات ومراكز الأبحاث والإعلام والجهات الحكومية والمنظمات الدولية."
+    },
+    "dayInLife": {
+      "en": "You read a new law and a few reports in the morning. You then collect data on how citizens voted in several regions and compare it with older elections. After lunch you meet your team, discuss the results and begin writing a short policy brief that explains them in clear language for a decision-maker.",
+      "ar": "تقرأ صباحًا قانونًا جديدًا وبعض التقارير. ثم تجمع بيانات عن تصويت المواطنين في عدة مناطق وتقارنها بانتخابات سابقة. بعد الغداء تجتمع بفريقك وتناقش النتائج وتبدأ كتابة ورقة سياسات قصيرة تشرحها بلغة واضحة لصاحب القرار."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Research political systems, laws, policies and events.",
+        "ar": "تبحث في النظم السياسية والقوانين والسياسات والأحداث."
+      },
+      {
+        "en": "Collect and analyse data with surveys, statistics and case studies.",
+        "ar": "تجمع البيانات وتحللها بالاستبيانات والإحصاء ودراسات الحالة."
+      },
+      {
+        "en": "Write reports, articles and policy briefs.",
+        "ar": "تكتب التقارير والمقالات وأوراق السياسات."
+      },
+      {
+        "en": "Advise organisations on public policy or international issues.",
+        "ar": "تقدم المشورة للمؤسسات حول السياسات العامة أو القضايا الدولية."
+      },
+      {
+        "en": "Teach and present findings in seminars or the media.",
+        "ar": "تدرّس وتعرض النتائج في الندوات أو الإعلام."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Universities and research centres",
+        "ar": "الجامعات ومراكز الأبحاث"
+      },
+      {
+        "en": "Government bodies and international organisations",
+        "ar": "الجهات الحكومية والمنظمات الدولية"
+      },
+      {
+        "en": "Media, think tanks and NGOs",
+        "ar": "الإعلام ومراكز الفكر والمنظمات الأهلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Databases, news archives and libraries",
+        "ar": "قواعد البيانات وأرشيف الأخبار والمكتبات"
+      },
+      {
+        "en": "Statistics and survey software",
+        "ar": "برامج الإحصاء والاستبيانات"
+      },
+      {
+        "en": "Word processing and presentation tools",
+        "ar": "برامج الكتابة والعرض"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Arts, Education and Economics and Political Science mostly accept literary-stream students. With IGCSE or A-Level, English, Sociology, Psychology, History or Economics help; with the American Diploma, take social science electives. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الآداب والتربية والاقتصاد والعلوم السياسية تقبل في الغالب طلاب الشعبة الأدبية. في IGCSE وA-Level تفيد الإنجليزية وعلم الاجتماع وعلم النفس والتاريخ والاقتصاد؛ وفي الدبلومة الأمريكية خذ مواد العلوم الاجتماعية الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Economics and Political Science",
+        "ar": "كليات الاقتصاد والعلوم السياسية"
+      },
+      {
+        "en": "Political science and global affairs programs at private universities",
+        "ar": "برامج العلوم السياسية والشؤون العالمية بالجامعات الخاصة"
+      },
+      {
+        "en": "Faculties of Arts or Law, followed by postgraduate study",
+        "ar": "كليات الآداب أو الحقوق ثم الدراسات العليا"
+      }
+    ],
+    "programIds": [
+      "cairo-university-economics-political-science",
+      "alexandria-university-economics-political-science",
+      "beni-suef-university-economics-political-science",
+      "british-university-in-egypt-political-science",
+      "american-university-in-cairo-global-affairs-public-policy"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 89.38% to 93.44% across 3 programs (lowest Beni-Suef University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 89.38% إلى 93.44% عبر 3 برنامجًا (الأدنى جامعة بني سويف والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A degree in law, economics, history or media, followed by a master's in political science.",
+        "ar": "درجة في القانون أو الاقتصاد أو التاريخ أو الإعلام ثم ماجستير في العلوم السياسية."
+      },
+      {
+        "en": "Start in a research centre or NGO as a research assistant while you study.",
+        "ar": "البدء في مركز أبحاث أو منظمة أهلية كمساعد باحث أثناء الدراسة."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "diplomat",
+      "journalist",
+      "lawyer",
+      "judge_prosecutor",
+      "financial_analyst",
+      "teacher"
+    ],
+    "pivots": [
+      {
+        "en": "Diplomacy and foreign service",
+        "ar": "الدبلوماسية والسلك الخارجي"
+      },
+      {
+        "en": "Policy analysis in government or NGOs",
+        "ar": "تحليل السياسات في الحكومة والمنظمات"
+      },
+      {
+        "en": "Journalism and media commentary",
+        "ar": "الصحافة والتعليق الإعلامي"
+      },
+      {
+        "en": "University teaching and research",
+        "ar": "التدريس الجامعي والبحث"
+      }
+    ]
+  },
+  "industryId": "law",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Political Scientist",
+      "url": "https://www.onetonline.org/link/summary/19-3094.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Political Scientist",
+      "url": "https://www.mynextmove.org/profile/summary/19-3094.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

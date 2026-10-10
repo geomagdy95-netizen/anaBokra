@@ -1,0 +1,173 @@
+{
+  "id": "cnc_operator",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You guide machines that cut metal to the width of a hair.",
+      "ar": "توجّه ماكينات تقطع المعدن بدقة تقارب سُمك الشعرة."
+    },
+    "summary": {
+      "en": "CNC machine operators set up and run computer-controlled machines that cut and shape metal, plastic or wood parts. They read drawings, load programs, measure the parts and fix small problems. Accuracy and patience are key, and experienced operators can move on to programming.",
+      "ar": "مشغّل ماكينات CNC يجهّز ويشغّل ماكينات تتحكم فيها الحواسيب لقطع وتشكيل قطع المعدن أو البلاستيك أو الخشب. يقرأ الرسومات ويحمّل البرامج ويقيس القطع ويصلح المشكلات الصغيرة. الدقة والصبر أساسيان، ويمكن للمشغّل الخبير أن ينتقل إلى البرمجة."
+    },
+    "dayInLife": {
+      "en": "You read the drawing of today's part and load the metal into the machine. You select the program, set the tools and run the first part slowly. Then you measure it with a caliper to check it matches the drawing. If it is right, the machine runs the batch while you check tools and clean chips.",
+      "ar": "تقرأ رسم قطعة اليوم وتحمّل المعدن في الماكينة. تختار البرنامج وتضبط الأدوات وتشغّل أول قطعة ببطء. ثم تقيسها بالقدمة لتتأكد أنها مطابقة للرسم. وإن كانت سليمة تعمل الماكينة على الدفعة بينما تفحص الأدوات وتنظف البرادة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Read technical drawings and choose the right tools.",
+        "ar": "تقرأ الرسومات الفنية وتختار الأدوات المناسبة."
+      },
+      {
+        "en": "Load programs and set up CNC machines.",
+        "ar": "تحمّل البرامج وتجهّز ماكينات CNC."
+      },
+      {
+        "en": "Run the machine and watch for problems.",
+        "ar": "تشغّل الماكينة وتراقب المشكلات."
+      },
+      {
+        "en": "Measure finished parts to meet tolerances.",
+        "ar": "تقيس القطع المنتهية لتطابق التفاوتات."
+      },
+      {
+        "en": "Maintain tools and follow workshop safety rules.",
+        "ar": "تصون الأدوات وتلتزم بقواعد السلامة في الورشة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Metalworking and machining workshops",
+        "ar": "ورش تشغيل المعادن والمخارط"
+      },
+      {
+        "en": "Factories for automotive, appliance and machine parts",
+        "ar": "مصانع قطع السيارات والأجهزة والآلات"
+      },
+      {
+        "en": "Tool and mould makers",
+        "ar": "ورش صناعة العدد والقوالب"
+      }
+    ],
+    "tools": [
+      {
+        "en": "CNC lathes and milling machines",
+        "ar": "ماكينات الخراطة والفريزة CNC"
+      },
+      {
+        "en": "Calipers, micrometers and gauges",
+        "ar": "القدمة والميكرومتر ومقاييس الدقة"
+      },
+      {
+        "en": "Basic CAD/CAM and programming software",
+        "ar": "برامج CAD/CAM والبرمجة الأساسية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "otherCurricula": {
+      "en": "This route starts after preparatory school, in technical education, not through Thanaweya Amma and Tansik. Maths, science and practical subjects from preparatory school help. Graduates of technical secondary schools can later continue to technical colleges or other higher education; check the current rules with the Ministry of Education and the Ministry of Higher Education.",
+      "ar": "يبدأ هذا المسار بعد الشهادة الإعدادية في التعليم الفني، وليس عبر الثانوية العامة والتنسيق. تفيد الرياضيات والعلوم والمواد العملية في الإعدادية. يمكن لخريجي الثانوية الفنية لاحقًا استكمال الدراسة بكليات تكنولوجية أو تعليم عالٍ آخر؛ فتأكد من القواعد الحالية لدى وزارة التربية والتعليم ووزارة التعليم العالي."
+    },
+    "faculties": [
+      {
+        "en": "Applied Technology Schools (three-year dual education with industry partners)",
+        "ar": "مدارس التكنولوجيا التطبيقية (ثلاث سنوات تعليم مزدوج مع شركاء صناعيين)"
+      },
+      {
+        "en": "Industrial technical secondary schools (Ministry of Education)",
+        "ar": "المدارس الثانوية الفنية الصناعية (وزارة التربية والتعليم)"
+      },
+      {
+        "en": "Technical institutes and technological colleges for continuing study",
+        "ar": "المعاهد الفنية والكليات التكنولوجية لاستكمال الدراسة"
+      },
+      {
+        "en": "Fab Labs and makerspaces where you can practise 3D printing, CNC and laser cutting",
+        "ar": "معامل التصنيع الرقمي (Fab Labs) حيث يمكنك التدرب على الطباعة ثلاثية الأبعاد وCNC والقطع بالليزر"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik does not apply to this route. Entry depends on your preparatory-school results and each school's own tests and interview, which change by school and year, so ask the school or the Ministry of Education. We have no Tansik figures for this career in our data.",
+      "ar": "التنسيق لا ينطبق على هذا المسار. يعتمد القبول على نتيجة الشهادة الإعدادية واختبارات ومقابلة كل مدرسة، وهي تختلف من مدرسة لأخرى ومن سنة لأخرى، فاسأل المدرسة أو وزارة التربية والتعليم. ليست لدينا أرقام تنسيق لهذه المهنة في بياناتنا."
+    },
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Productivity and Vocational Training Department (PVTD) centres, with machining and turning trades.",
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني بحرف الخراطة والتشغيل."
+      },
+      {
+        "en": "Start as a helper in a machining workshop and train on CNC machines on the job.",
+        "ar": "البدء كمساعد في ورشة تشغيل والتدرب على ماكينات CNC أثناء العمل."
+      }
+    ],
+    "licensing": {
+      "en": "Most technician jobs ask for a technical diploma and practical skill rather than a licence, though some employers and tasks need skill-level or safety certificates. Check the current requirements with your employer and the Ministry of Manpower.",
+      "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "industrial_technician",
+      "mechanical_engineer",
+      "mechatronics_engineer",
+      "electrician",
+      "automotive_ev_technician"
+    ],
+    "pivots": [
+      {
+        "en": "CNC programmer",
+        "ar": "مبرمج CNC"
+      },
+      {
+        "en": "Quality inspector",
+        "ar": "مفتش جودة"
+      },
+      {
+        "en": "Workshop supervisor",
+        "ar": "مشرف ورشة"
+      },
+      {
+        "en": "Opening your own machining workshop",
+        "ar": "فتح ورشة تشغيل خاصة"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine: CNC Machine Operator",
+      "url": "https://www.onetonline.org/link/summary/51-9161.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): CNC Machine Operator",
+      "url": "https://www.mynextmove.org/profile/summary/51-9161.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Applied Technology Schools (Ministry of Education dual education)",
+      "url": "https://dualedu.moe.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "El Sewedy School of Applied Technology (Ministry of Education)",
+      "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Fab Lab Egypt",
+      "url": "https://fablabegypt.com",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

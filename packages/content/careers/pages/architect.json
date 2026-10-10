@@ -1,0 +1,412 @@
+{
+  "id": "architect",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You shape the spaces where people live, work and meet, mixing creativity with engineering.",
+      "ar": "تشكّل الأماكن التي يعيش فيها الناس ويعملون ويلتقون، وتجمع الإبداع مع الهندسة."
+    },
+    "summary": {
+      "en": "Architects design buildings and public spaces, from houses to schools to city districts. In Egypt you can study architecture in a Faculty of Engineering or a Faculty of Fine Arts, and the path usually includes drawing and design studios. The work is creative but needs patience with clients, regulations and deadlines.",
+      "ar": "المعماري يصمم المباني والأماكن العامة من البيوت إلى المدارس وأحياء المدن. في مصر يمكنك دراسة العمارة في كلية الهندسة أو كلية الفنون الجميلة، ويشمل المسار عادة مراسم الرسم والتصميم. العمل إبداعي لكنه يحتاج صبرًا مع العملاء واللوائح والمواعيد."
+    },
+    "dayInLife": {
+      "en": "You start in the design office, where a client wants a bigger kitchen without losing the balcony. You sketch three options, then model one in 3D. After lunch you visit a site to check that the walls match the drawings, and notice a door in the wrong place. You call the contractor and agree a fix. In the evening you prepare the drawings to submit to the local authority for a building permit. It is a long day, but you enjoy seeing how a line on paper turns into a building.",
+      "ar": "تبدأ في مكتب التصميم حيث يريد العميل مطبخًا أكبر دون أن يفقد الشرفة. ترسم ثلاثة خيارات ثم تصنع نموذجًا ثلاثي الأبعاد لأحدها. بعد الغداء تزور موقعًا لتتأكد أن الجدران تطابق المخططات، وتلاحظ بابًا في مكان خاطئ. تتصل بالمقاول وتتفقان على الحل. في المساء تجهز المخططات لتقديمها للحي للحصول على ترخيص البناء. يوم طويل، لكنك تستمتع برؤية الخط على الورق يتحول إلى مبنى."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Meet clients to understand needs, budget and site.",
+        "ar": "تلتقي العملاء لفهم احتياجاتهم وميزانيتهم وموقعهم."
+      },
+      {
+        "en": "Develop concept sketches, plans, sections and 3D models.",
+        "ar": "تضع رسومات فكرية ومساقط وقطاعات ونماذج ثلاثية الأبعاد."
+      },
+      {
+        "en": "Prepare construction drawings and specifications.",
+        "ar": "تعد المخططات التنفيذية والمواصفات."
+      },
+      {
+        "en": "Coordinate with structural, electrical and mechanical engineers.",
+        "ar": "تنسق مع مهندسي الإنشاءات والكهرباء والميكانيكا."
+      },
+      {
+        "en": "Visit sites to check that work follows the design.",
+        "ar": "تزور المواقع لتتأكد أن التنفيذ يتبع التصميم."
+      },
+      {
+        "en": "Submit drawings and follow building permits and codes.",
+        "ar": "تقدم المخططات وتتابع تراخيص البناء والاشتراطات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Architecture and design offices",
+        "ar": "مكاتب العمارة والتصميم"
+      },
+      {
+        "en": "Construction sites for supervision",
+        "ar": "مواقع الإنشاء للإشراف"
+      },
+      {
+        "en": "Real estate developers and government planning departments",
+        "ar": "شركات التطوير العقاري وإدارات التخطيط الحكومية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "AutoCAD, Revit, SketchUp, Rhino",
+        "ar": "أوتوكاد وريفيت وسكتش أب ورينو"
+      },
+      {
+        "en": "Rendering tools such as Lumion, V-Ray or Enscape",
+        "ar": "أدوات التصيير مثل Lumion وV-Ray وEnscape"
+      },
+      {
+        "en": "Hand sketching, models and presentation software",
+        "ar": "الرسم اليدوي والمجسمات وبرامج العرض"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Maths, Physics and Art or Design Technology. With the American Diploma, take AP Calculus or Physics and an art or drawing course. Many architecture programs also ask for a drawing or aptitude test, so check each faculty; keep a portfolio of your drawings. Equivalency and Tansik rules for foreign certificates change, so confirm yours with the Tansik office.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات والفيزياء والفنون أو تكنولوجيا التصميم. وفي الدبلومة الأمريكية خذ AP حساب التفاضل أو الفيزياء ومقررًا في الفن أو الرسم. كثير من برامج العمارة تطلب اختبار رسم أو قدرات، فراجع كل كلية؛ وكوّن ملفًا (بورتفوليو) برسوماتك. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Architecture department, at public universities",
+        "ar": "كليات الهندسة قسم العمارة بالجامعات الحكومية"
+      },
+      {
+        "en": "Faculty of Fine Arts, Architecture department (Alexandria, Mansoura, Assiut, Minia and others)",
+        "ar": "كليات الفنون الجميلة قسم العمارة (الإسكندرية والمنصورة وأسيوط والمنيا وغيرها)"
+      },
+      {
+        "en": "Architecture programs at private universities (GUC, MIU, BUE, MUST, Future and others)",
+        "ar": "برامج العمارة بالجامعات الخاصة (الألمانية ومصر الدولية والبريطانية ومصر للعلوم والمستقبل وغيرها)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "cairo-university-urban-regional-planning",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "alexandria-university-fine-arts",
+      "mansoura-university-engineering",
+      "mansoura-university-fine-arts",
+      "assiut-university-engineering",
+      "british-university-in-egypt-engineering",
+      "german-university-in-cairo-architecture-urban-design",
+      "misr-international-university-engineering-architecture",
+      "american-university-in-cairo-sciences-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 72.81% to 90.78% across 27 programs (lowest Assiut University, highest Mansoura University); 2025: 73.91% to 92.5% across 28 programs (lowest Assiut University, highest Mansoura University); 2024: 72.68% to 91.83% across 26 programs (lowest Mansoura University, highest Cairo University); 2023: 76.83% to 89.88% across 26 programs (lowest Mansoura University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data shows Fine Arts faculties with architecture departments around 72.81% to 80.78% in 2025-2026, lower than engineering faculties, but entry usually includes a drawing or aptitude test.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 72.81% إلى 90.78% عبر 27 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2025: من 73.91% إلى 92.5% عبر 28 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2024: من 72.68% إلى 91.83% عبر 26 برنامجًا (الأدنى جامعة المنصورة، الأعلى جامعة القاهرة)؛ 2023: من 76.83% إلى 89.88% عبر 26 برنامجًا (الأدنى جامعة المنصورة، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. تُظهر بياناتنا أن كليات الفنون الجميلة ذات أقسام العمارة بين 72.81% و80.78% في 2025 و2026، أقل من كليات الهندسة، لكن القبول يتضمن عادة اختبار رسم أو قدرات."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Interior design, urban planning, landscape design and construction management are related paths.",
+        "ar": "التصميم الداخلي والتخطيط العمراني وتنسيق المواقع وإدارة التشييد مسارات قريبة."
+      },
+      {
+        "en": "Short courses in Revit, rendering and BIM, for example at the AUC School of Continuing Education, can strengthen your skills.",
+        "ar": "دورات قصيرة في ريفيت والتصيير وBIM، مثل مركز التعليم المستمر بالجامعة الأمريكية، تقوّي مهاراتك."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Architecture graduates register in the syndicate's architecture division. Design offices usually need a syndicate-registered architect to sign drawings for permits.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. يسجل خريجو العمارة في شعبة العمارة بالنقابة. وتحتاج مكاتب التصميم عادة معماريًا مسجلًا في النقابة لتوقيع مخططات التراخيص."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Architectural design and drawing",
+        "ar": "التصميم المعماري والرسم"
+      },
+      {
+        "en": "CAD, BIM and 3D modelling",
+        "ar": "CAD وBIM والنمذجة ثلاثية الأبعاد"
+      },
+      {
+        "en": "Building codes, materials and construction details",
+        "ar": "اشتراطات البناء والمواد وتفاصيل التنفيذ"
+      },
+      {
+        "en": "Presentation and visual communication",
+        "ar": "العرض والتواصل البصري"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Creativity with realistic limits (budget, code)",
+        "ar": "إبداع ضمن حدود واقعية (الميزانية والاشتراطات)"
+      },
+      {
+        "en": "Listening to clients and handling feedback",
+        "ar": "الإصغاء للعملاء وتقبل الملاحظات"
+      },
+      {
+        "en": "Teamwork with engineers and contractors",
+        "ar": "العمل الجماعي مع المهندسين والمقاولين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for software, international projects and clients",
+        "ar": "الإنجليزية للبرامج والمشروعات والعملاء الدوليين"
+      },
+      {
+        "en": "Arabic for local authorities and site teams",
+        "ar": "العربية للجهات المحلية وفرق الموقع"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "Autodesk Revit or other certified software courses",
+        "ar": "دورات معتمدة في ريفيت أو برامج أخرى"
+      },
+      {
+        "en": "LEED or Egyptian green building rating (GPRS) training for sustainable design",
+        "ar": "تدريب LEED أو التصنيف المصري للمباني الخضراء للتصميم المستدام"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Art History (architecture context)",
+        "url": "https://www.khanacademy.org/humanities/art-history",
+        "free": true
+      },
+      {
+        "title": "SketchUp free web version",
+        "url": "https://www.sketchup.com/plans-and-pricing/sketchup-free",
+        "free": true
+      },
+      {
+        "title": "Autodesk: Revit learning resources",
+        "url": "https://www.autodesk.com/learn/categories/revit",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11782,
+        "max": 40598
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/construction-real-estate/architect?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 30,456 EGP. The survey has 40 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 30,456 جنيهًا. يضم الاستبيان 40 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Architecture and consulting offices",
+        "ar": "مكاتب العمارة والاستشارات"
+      },
+      {
+        "en": "Real estate developers",
+        "ar": "شركات التطوير العقاري"
+      },
+      {
+        "en": "Contractors and design-and-build firms",
+        "ar": "شركات المقاولات والتصميم والتنفيذ"
+      },
+      {
+        "en": "Government planning bodies and the New Administrative Capital authorities",
+        "ar": "الجهات الحكومية للتخطيط وجهات العاصمة الإدارية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance design work (houses, interiors, renders) is common, and remote work for Gulf clients exists, but clients may pay late and compete on price.",
+      "ar": "العمل الحر في التصميم (بيوت وداخلي وتصيير) شائع، وهناك عمل عن بعد لعملاء الخليج، لكن العملاء قد يتأخرون في الدفع ويتنافسون على السعر."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and the new cities",
+        "ar": "القاهرة الكبرى والمدن الجديدة"
+      },
+      {
+        "en": "North Coast, Red Sea and Alexandria for resort and residential developments",
+        "ar": "الساحل الشمالي والبحر الأحمر والإسكندرية للمشروعات السياحية والسكنية"
+      }
+    ],
+    "providerIds": [
+      "auc-school-of-continuing-education"
+    ]
+  },
+  "global": {
+    "en": "Egyptian architects work in the Gulf, especially the UAE and Saudi Arabia, and in international firms; some Gulf countries require local registration and minimum experience. A strong portfolio and software skills matter more than the certificate alone.",
+    "ar": "يعمل المعماريون المصريون في الخليج وخاصة الإمارات والسعودية وفي شركات دولية؛ وبعض دول الخليج تشترط تسجيلًا محليًا وحدًا أدنى من الخبرة. وتُهم محفظة الأعمال ومهارات البرامج أكثر من الشهادة وحدها."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative work with lasting results",
+        "ar": "عمل إبداعي بنتائج دائمة"
+      },
+      {
+        "en": "Mix of design, technical and people skills",
+        "ar": "مزيج من التصميم والتقنية ومهارات التعامل"
+      },
+      {
+        "en": "Freelance and own-office possibilities",
+        "ar": "إمكانية العمل الحر وفتح مكتب خاص"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Pay is often modest in the first years",
+        "ar": "الأجر غالبًا متواضع في السنوات الأولى"
+      },
+      {
+        "en": "Deadline crunches and demanding clients",
+        "ar": "ضغط المواعيد وعملاء كثيرو المطالب"
+      },
+      {
+        "en": "Work follows the real estate market cycle",
+        "ar": "العمل يتبع دورة سوق العقارات"
+      },
+      {
+        "en": "Long study with many hours in studios",
+        "ar": "دراسة طويلة وساعات كثيرة في المراسم"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Architects just draw pretty buildings.",
+          "ar": "المعماري يرسم مباني جميلة فقط."
+        },
+        "fact": {
+          "en": "Much of the job is codes, structure coordination, costs and site details.",
+          "ar": "جزء كبير من العمل اشتراطات وتنسيق إنشائي وتكاليف وتفاصيل تنفيذ."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must be a great artist.",
+          "ar": "يجب أن تكون فنانًا عظيمًا."
+        },
+        "fact": {
+          "en": "Drawing skills help, but design thinking, logic and persistence can be learned.",
+          "ar": "مهارة الرسم تفيد لكن التفكير التصميمي والمنطق والمثابرة يمكن تعلمها."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mixed: studio deadlines can mean late nights, but project timing is often predictable. Own-office architects control their hours but also carry business risk.",
+      "ar": "متفاوتة: مواعيد التسليم قد تعني سهرًا، لكن إيقاع المشروعات غالبًا متوقع. وصاحب المكتب يتحكم في ساعاته لكنه يتحمل مخاطرة تجارية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior architect / draftsperson",
+        "ar": "معماري مبتدئ / رسام"
+      },
+      {
+        "en": "Architect",
+        "ar": "مهندس معماري"
+      },
+      {
+        "en": "Senior architect or project architect",
+        "ar": "معماري أول أو معماري مشروع"
+      },
+      {
+        "en": "Design lead or associate",
+        "ar": "رئيس تصميم أو شريك"
+      },
+      {
+        "en": "Principal, office owner or consultant",
+        "ar": "مدير مكتب أو صاحب مكتب أو استشاري"
+      }
+    ],
+    "relatedCareerIds": [
+      "interior_designer",
+      "civil_engineer",
+      "graphic_designer",
+      "event_planner",
+      "animator_3d_artist"
+    ],
+    "pivots": [
+      {
+        "en": "Urban planning or landscape design",
+        "ar": "التخطيط العمراني أو تنسيق المواقع"
+      },
+      {
+        "en": "3D visualization, VR and game environment art",
+        "ar": "التصوير ثلاثي الأبعاد والواقع الافتراضي وفن بيئات الألعاب"
+      },
+      {
+        "en": "Real estate development and project management",
+        "ar": "التطوير العقاري وإدارة المشروعات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Orascom Construction - New Administrative Capital",
+      "url": "https://orascom.com/?p=457",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Architect salary survey",
+      "url": "https://paylab.com/eg/salaryinfo/construction-real-estate/architect?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

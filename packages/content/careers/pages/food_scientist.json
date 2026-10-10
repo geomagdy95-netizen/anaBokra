@@ -1,0 +1,172 @@
+{
+  "id": "food_scientist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You make food safer, tastier and longer-lasting.",
+      "ar": "تجعل الطعام أكثر أمانًا ولذة وأطول صلاحية."
+    },
+    "summary": {
+      "en": "Food scientists study what food is made of and how it changes, then develop new products and check quality and safety. They work in factories, labs and research centres. Egypt has a large food industry, so there are many places where this knowledge is used.",
+      "ar": "عالم الأغذية يدرس مكونات الطعام وكيف يتغير، ثم يطوّر منتجات جديدة ويفحص الجودة والسلامة. يعمل في المصانع والمعامل ومراكز الأبحاث. وفي مصر صناعة أغذية كبيرة، لذلك توجد أماكن كثيرة تستخدم هذه المعرفة."
+    },
+    "dayInLife": {
+      "en": "You test a batch of yoghurt in the lab: acidity, taste and bacteria count. One sample looks different, so you check the production record. After that you try a new recipe with less sugar and ask colleagues to taste it. Before leaving, you write the results and update the quality report.",
+      "ar": "تختبر دفعة زبادي في المعمل: الحموضة والطعم وعدد البكتيريا. إحدى العينات تبدو مختلفة فتراجع سجل الإنتاج. بعد ذلك تجرب وصفة جديدة بسكر أقل وتطلب من زملائك تذوقها. قبل المغادرة تكتب النتائج وتحدّث تقرير الجودة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Test food samples for quality, nutrition and safety.",
+        "ar": "تختبر عينات الغذاء للجودة والتغذية والسلامة."
+      },
+      {
+        "en": "Develop new products and improve recipes.",
+        "ar": "تطوّر منتجات جديدة وتحسّن الوصفات."
+      },
+      {
+        "en": "Check that production follows hygiene and safety rules.",
+        "ar": "تتأكد أن الإنتاج يلتزم بقواعد النظافة والسلامة."
+      },
+      {
+        "en": "Study shelf life, packaging and storage.",
+        "ar": "تدرس مدة الصلاحية والتعبئة والتخزين."
+      },
+      {
+        "en": "Write reports and work with production and marketing teams.",
+        "ar": "تكتب التقارير وتتعاون مع فرق الإنتاج والتسويق."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Food and beverage factories",
+        "ar": "مصانع الأغذية والمشروبات"
+      },
+      {
+        "en": "Quality-control and testing laboratories",
+        "ar": "معامل مراقبة الجودة والفحص"
+      },
+      {
+        "en": "Research centres and universities",
+        "ar": "مراكز الأبحاث والجامعات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Lab instruments for chemical and microbiology tests",
+        "ar": "أجهزة المعمل للاختبارات الكيميائية والميكروبيولوجية"
+      },
+      {
+        "en": "Food safety systems such as HACCP",
+        "ar": "أنظمة سلامة الغذاء مثل HACCP"
+      },
+      {
+        "en": "Data and reporting software",
+        "ar": "برامج البيانات والتقارير"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "A science stream at school is the usual route. With IGCSE, A-Level or the American Diploma, Biology and Chemistry are the most useful subjects. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبة العلمية هي المسار المعتاد. وفي IGCSE وA-Level والدبلومة الأمريكية الأنفع هي الأحياء والكيمياء. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Agriculture, food science departments",
+        "ar": "كليات الزراعة، أقسام علوم الأغذية"
+      },
+      {
+        "en": "Faculty of Nutrition Sciences at Capital University (Helwan), food science department",
+        "ar": "كلية علوم التغذية بجامعة العاصمة (حلوان)، قسم علوم الأغذية"
+      },
+      {
+        "en": "Faculties of Science (chemistry, microbiology) and biotechnology programs",
+        "ar": "كليات العلوم (الكيمياء والميكروبيولوجي) وبرامج التكنولوجيا الحيوية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-agriculture",
+      "ain-shams-university-agriculture",
+      "alexandria-university-agriculture",
+      "mansoura-university-agriculture",
+      "assiut-university-agriculture",
+      "nile-university-biotechnology"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 56% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 56% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Technical agricultural or industrial school, then work in a food factory lab and continue studying.",
+        "ar": "مدرسة فنية زراعية أو صناعية ثم العمل في معمل مصنع أغذية واستكمال الدراسة."
+      },
+      {
+        "en": "Short courses in food safety (HACCP, ISO 22000) add skills but do not replace a degree.",
+        "ar": "دورات قصيرة في سلامة الغذاء (HACCP وISO 22000) تضيف مهارات لكنها لا تغني عن الدرجة."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "clinical_nutritionist",
+      "chemist",
+      "biotechnologist",
+      "agribusiness_manager",
+      "chef",
+      "chemical_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Quality assurance",
+        "ar": "ضمان الجودة"
+      },
+      {
+        "en": "Product development",
+        "ar": "تطوير المنتجات"
+      },
+      {
+        "en": "Food safety auditing",
+        "ar": "تدقيق سلامة الغذاء"
+      },
+      {
+        "en": "Starting a food business",
+        "ar": "بدء مشروع أغذية"
+      }
+    ]
+  },
+  "industryId": "agriculture",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Food Scientist",
+      "url": "https://www.onetonline.org/link/summary/19-1012.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Food Scientist",
+      "url": "https://www.mynextmove.org/profile/summary/19-1012.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Faculty of Nutrition Sciences, Capital University (Helwan): food science department",
+      "url": "https://nutrition-sci.capu.edu.eg/en/departments-en/food-science-dept",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

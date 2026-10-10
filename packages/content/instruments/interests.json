@@ -1,0 +1,100 @@
+{
+  "id": "interests",
+  "version": "1.0.0-draft",
+  "kind": "likert",
+  "name": { "en": "What do you enjoy?", "ar": "إيه اللي بتستمتع بيه؟" },
+  "source": {
+    "name": "O*NET Interest Profiler Short Form (60 items)",
+    "url": "https://www.onetcenter.org/IP.html",
+    "license": "CC BY 4.0 — U.S. Department of Labor, Employment and Training Administration",
+    "notes": "English items verbatim from the Short Form (Appendix B, Rounds et al., 2018). Original response format is a checklist; anaBokra uses the 5-point like/dislike scale of the computerized IP. Arabic is a DRAFT for forward/back translation. ip_A08 culturally adapted (jazz/tap dance)."
+  },
+  "responseScale": {
+    "min": 1,
+    "max": 5,
+    "labels": [
+      { "en": "Strongly dislike", "ar": "مش بحبه خالص" },
+      { "en": "Dislike", "ar": "مش بحبه" },
+      { "en": "Unsure", "ar": "مش متأكد", "arF": "مش متأكدة" },
+      { "en": "Like", "ar": "بحبه" },
+      { "en": "Strongly like", "ar": "بحبه جدًا" }
+    ]
+  },
+  "scales": [
+    { "id": "R", "name": { "en": "Realistic (Builder)", "ar": "واقعي (البنّاء)" } },
+    { "id": "I", "name": { "en": "Investigative (Thinker)", "ar": "استقصائي (المفكر)" } },
+    { "id": "A", "name": { "en": "Artistic (Creator)", "ar": "فني (المبدع)" } },
+    { "id": "S", "name": { "en": "Social (Helper)", "ar": "اجتماعي (المساعد)" } },
+    { "id": "E", "name": { "en": "Enterprising (Persuader)", "ar": "مبادر (القائد المؤثر)" } },
+    { "id": "C", "name": { "en": "Conventional (Organizer)", "ar": "تنظيمي (المنظم)" } }
+  ],
+  "items": [
+    { "id": "ip_R01", "scale": "R", "keyed": 1, "text": { "en": "Build kitchen cabinets", "ar": "أصنع دواليب مطبخ" } },
+    { "id": "ip_R02", "scale": "R", "keyed": 1, "text": { "en": "Lay brick or tile", "ar": "أبني بالطوب أو أركّب بلاط" } },
+    { "id": "ip_R03", "scale": "R", "keyed": 1, "text": { "en": "Repair household appliances", "ar": "أصلّح الأجهزة المنزلية" } },
+    { "id": "ip_R04", "scale": "R", "keyed": 1, "text": { "en": "Raise fish in a fish hatchery", "ar": "أربّي أسماك في مزرعة سمكية" } },
+    { "id": "ip_R05", "scale": "R", "keyed": 1, "text": { "en": "Assemble electronic parts", "ar": "أجمّع قطع إلكترونية" } },
+    { "id": "ip_R06", "scale": "R", "keyed": 1, "text": { "en": "Drive a truck to deliver packages to offices and homes", "ar": "أسوق عربية نقل لتوصيل الطرود للمكاتب والبيوت" } },
+    { "id": "ip_R07", "scale": "R", "keyed": 1, "text": { "en": "Test the quality of parts before shipment", "ar": "أختبر جودة القطع قبل شحنها" } },
+    { "id": "ip_R08", "scale": "R", "keyed": 1, "text": { "en": "Repair and install locks", "ar": "أصلّح وأركّب الأقفال" } },
+    { "id": "ip_R09", "scale": "R", "keyed": 1, "text": { "en": "Set up and operate machines to make products", "ar": "أجهّز وأشغّل ماكينات لتصنيع المنتجات" } },
+    { "id": "ip_R10", "scale": "R", "keyed": 1, "text": { "en": "Put out forest fires", "ar": "أطفي حرائق الغابات" } },
+
+    { "id": "ip_I01", "scale": "I", "keyed": 1, "text": { "en": "Develop a new medicine", "ar": "أطوّر دواء جديد" } },
+    { "id": "ip_I02", "scale": "I", "keyed": 1, "text": { "en": "Study ways to reduce water pollution", "ar": "أدرس طرق لتقليل تلوث المياه" } },
+    { "id": "ip_I03", "scale": "I", "keyed": 1, "text": { "en": "Conduct chemical experiments", "ar": "أعمل تجارب كيميائية" } },
+    { "id": "ip_I04", "scale": "I", "keyed": 1, "text": { "en": "Study the movement of planets", "ar": "أدرس حركة الكواكب" } },
+    { "id": "ip_I05", "scale": "I", "keyed": 1, "text": { "en": "Examine blood samples using a microscope", "ar": "أفحص عينات دم بالميكروسكوب" } },
+    { "id": "ip_I06", "scale": "I", "keyed": 1, "text": { "en": "Investigate the cause of a fire", "ar": "أحقق في سبب حريق" } },
+    { "id": "ip_I07", "scale": "I", "keyed": 1, "text": { "en": "Develop a way to better predict the weather", "ar": "أطوّر طريقة للتنبؤ بالطقس بدقة أكبر" } },
+    { "id": "ip_I08", "scale": "I", "keyed": 1, "text": { "en": "Work in a biology lab", "ar": "أشتغل في معمل أحياء" } },
+    { "id": "ip_I09", "scale": "I", "keyed": 1, "text": { "en": "Invent a replacement for sugar", "ar": "أخترع بديل للسكر" } },
+    { "id": "ip_I10", "scale": "I", "keyed": 1, "text": { "en": "Do laboratory tests to identify diseases", "ar": "أعمل تحاليل معملية لتشخيص الأمراض" } },
+
+    { "id": "ip_A01", "scale": "A", "keyed": 1, "text": { "en": "Write books or plays", "ar": "أكتب كتب أو مسرحيات" } },
+    { "id": "ip_A02", "scale": "A", "keyed": 1, "text": { "en": "Play a musical instrument", "ar": "أعزف على آلة موسيقية" } },
+    { "id": "ip_A03", "scale": "A", "keyed": 1, "text": { "en": "Compose or arrange music", "ar": "ألحّن أو أوزّع موسيقى" } },
+    { "id": "ip_A04", "scale": "A", "keyed": 1, "text": { "en": "Draw pictures", "ar": "أرسم لوحات" } },
+    { "id": "ip_A05", "scale": "A", "keyed": 1, "text": { "en": "Create special effects for movies", "ar": "أعمل مؤثرات خاصة للأفلام" } },
+    { "id": "ip_A06", "scale": "A", "keyed": 1, "text": { "en": "Paint sets for plays", "ar": "أرسم ديكورات المسرحيات" } },
+    { "id": "ip_A07", "scale": "A", "keyed": 1, "text": { "en": "Write scripts for movies or television shows", "ar": "أكتب سيناريوهات أفلام أو مسلسلات" } },
+    { "id": "ip_A08", "scale": "A", "keyed": 1, "text": { "en": "Perform jazz or tap dance", "ar": "أقدّم عروض استعراضية أو رقص فني" } },
+    { "id": "ip_A09", "scale": "A", "keyed": 1, "text": { "en": "Sing in a band", "ar": "أغنّي في فرقة" } },
+    { "id": "ip_A10", "scale": "A", "keyed": 1, "text": { "en": "Edit movies", "ar": "أعمل مونتاج أفلام" } },
+
+    { "id": "ip_ac1", "text": { "en": "Quick check: choose \"Strongly like\" for this one", "ar": "سؤال سريع: اختار «بحبه جدًا» هنا", "arF": "سؤال سريع: اختاري «بحبه جدًا» هنا" }, "attentionCheck": { "expected": 5 } },
+
+    { "id": "ip_S01", "scale": "S", "keyed": 1, "text": { "en": "Teach an individual an exercise routine", "ar": "أعلّم شخص برنامج تمارين رياضية" } },
+    { "id": "ip_S02", "scale": "S", "keyed": 1, "text": { "en": "Help people with personal or emotional problems", "ar": "أساعد الناس في مشاكلهم الشخصية أو النفسية" } },
+    { "id": "ip_S03", "scale": "S", "keyed": 1, "text": { "en": "Give career guidance to people", "ar": "أقدّم للناس إرشاد مهني" } },
+    { "id": "ip_S04", "scale": "S", "keyed": 1, "text": { "en": "Perform rehabilitation therapy", "ar": "أقدّم علاج تأهيلي" } },
+    { "id": "ip_S05", "scale": "S", "keyed": 1, "text": { "en": "Do volunteer work at a non-profit organization", "ar": "أتطوع في جمعية أو منظمة غير ربحية" } },
+    { "id": "ip_S06", "scale": "S", "keyed": 1, "text": { "en": "Teach children how to play sports", "ar": "أعلّم الأطفال يلعبوا رياضة" } },
+    { "id": "ip_S07", "scale": "S", "keyed": 1, "text": { "en": "Teach sign language to people who are deaf or hard of hearing", "ar": "أعلّم لغة الإشارة للصم وضعاف السمع" } },
+    { "id": "ip_S08", "scale": "S", "keyed": 1, "text": { "en": "Help conduct a group therapy session", "ar": "أساعد في إدارة جلسة علاج جماعي" } },
+    { "id": "ip_S09", "scale": "S", "keyed": 1, "text": { "en": "Take care of children at a day-care center", "ar": "أرعى الأطفال في حضانة" } },
+    { "id": "ip_S10", "scale": "S", "keyed": 1, "text": { "en": "Teach a high-school class", "ar": "أدرّس فصل في ثانوي" } },
+
+    { "id": "ip_E01", "scale": "E", "keyed": 1, "text": { "en": "Buy and sell stocks and bonds", "ar": "أشتري وأبيع أسهم وسندات" } },
+    { "id": "ip_E02", "scale": "E", "keyed": 1, "text": { "en": "Manage a retail store", "ar": "أدير محل بيع بالتجزئة" } },
+    { "id": "ip_E03", "scale": "E", "keyed": 1, "text": { "en": "Operate a beauty salon or barber shop", "ar": "أدير صالون تجميل أو حلاقة" } },
+    { "id": "ip_E04", "scale": "E", "keyed": 1, "text": { "en": "Manage a department within a large company", "ar": "أدير قسم في شركة كبيرة" } },
+    { "id": "ip_E05", "scale": "E", "keyed": 1, "text": { "en": "Start your own business", "ar": "أبدأ مشروعي الخاص" } },
+    { "id": "ip_E06", "scale": "E", "keyed": 1, "text": { "en": "Negotiate business contracts", "ar": "أتفاوض على عقود تجارية" } },
+    { "id": "ip_E07", "scale": "E", "keyed": 1, "text": { "en": "Represent a client in a lawsuit", "ar": "أمثّل موكّل في قضية" } },
+    { "id": "ip_E08", "scale": "E", "keyed": 1, "text": { "en": "Market a new line of clothing", "ar": "أسوّق تشكيلة ملابس جديدة" } },
+    { "id": "ip_E09", "scale": "E", "keyed": 1, "text": { "en": "Sell merchandise at a department store", "ar": "أبيع منتجات في محل كبير" } },
+    { "id": "ip_E10", "scale": "E", "keyed": 1, "text": { "en": "Manage a clothing store", "ar": "أدير محل ملابس" } },
+
+    { "id": "ip_C01", "scale": "C", "keyed": 1, "text": { "en": "Develop a spreadsheet using computer software", "ar": "أعمل جدول بيانات على الكمبيوتر (زي Excel)" } },
+    { "id": "ip_C02", "scale": "C", "keyed": 1, "text": { "en": "Proofread records or forms", "ar": "أراجع السجلات أو النماذج وأصحّح أخطاءها" } },
+    { "id": "ip_C03", "scale": "C", "keyed": 1, "text": { "en": "Install software across computers on a large network", "ar": "أسطّب برامج على أجهزة كمبيوتر في شبكة كبيرة" } },
+    { "id": "ip_C04", "scale": "C", "keyed": 1, "text": { "en": "Operate a calculator", "ar": "أستخدم الآلة الحاسبة" } },
+    { "id": "ip_C05", "scale": "C", "keyed": 1, "text": { "en": "Keep shipping and receiving records", "ar": "أسجّل بيانات الشحن والاستلام" } },
+    { "id": "ip_C06", "scale": "C", "keyed": 1, "text": { "en": "Calculate the wages of employees", "ar": "أحسب مرتبات الموظفين" } },
+    { "id": "ip_C07", "scale": "C", "keyed": 1, "text": { "en": "Inventory supplies using a hand-held computer", "ar": "أجرد المخزون بجهاز محمول" } },
+    { "id": "ip_C08", "scale": "C", "keyed": 1, "text": { "en": "Record rent payments", "ar": "أسجّل مدفوعات الإيجار" } },
+    { "id": "ip_C09", "scale": "C", "keyed": 1, "text": { "en": "Keep inventory records", "ar": "أمسك سجلات المخزون" } },
+    { "id": "ip_C10", "scale": "C", "keyed": 1, "text": { "en": "Stamp, sort, and distribute mail for an organization", "ar": "أختم وأفرز وأوزّع البريد في مؤسسة" } }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "graphic_designer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You make ideas visible with colour, shape and type.",
+      "ar": "تجعل الأفكار مرئية بالألوان والأشكال والخطوط."
+    },
+    "summary": {
+      "en": "Graphic designers create logos, posters, social media designs, packaging and layouts that help people understand a message or recognise a brand. Most work is project-based and freelance-friendly, and your portfolio matters more than your degree. AI image tools are changing routine work, so taste, ideas and direction are worth more every year.",
+      "ar": "مصمم الجرافيك يصنع الشعارات والبوسترات وتصميمات السوشيال ميديا والعبوات والتنسيقات التي تساعد الناس على فهم رسالة أو التعرف على علامة. معظم العمل بنظام المشروعات ويناسب العمل الحر، وملف أعمالك أهم من شهادتك. أدوات الصور بالذكاء الاصطناعي تغيّر الأعمال الروتينية، فيزداد كل عام وزن الذوق والفكرة والتوجيه."
+    },
+    "dayInLife": {
+      "en": "You open an email from a client who owns a small bakery and wants a new logo and a menu. You sketch four ideas on paper, then pick two and build them on the computer. You test the colours on a printed sample because screens can look different from paper. After a quick call, the client says the text is too small, so you adjust it. In the afternoon you create a set of social media posts for another client and keep the same style across them. You export all files in the right sizes and save the project for next time.",
+      "ar": "تفتح رسالة من عميل يملك مخبزًا صغيرًا ويريد شعارًا جديدًا وقائمة طعام. ترسم أربع أفكار على الورق ثم تختار فكرتين وتنفذهما على الكمبيوتر. تجرّب الألوان على نسخة مطبوعة لأن الشاشة قد تختلف عن الورق. بعد مكالمة قصيرة يقول العميل إن الكتابة صغيرة، فتعدّلها. بعد الظهر تصمم مجموعة منشورات سوشيال ميديا لعميل آخر وتحافظ على نفس الأسلوب فيها. تُخرج كل الملفات بالمقاسات الصحيحة وتحفظ المشروع للمرة القادمة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Understand the client's goal and audience before you design.",
+        "ar": "تفهم هدف العميل وجمهوره قبل أن تصمم."
+      },
+      {
+        "en": "Sketch ideas and build logos, posters, social posts, brochures and packaging.",
+        "ar": "ترسم الأفكار وتنفذ الشعارات والبوسترات ومنشورات السوشيال والبروشورات والعبوات."
+      },
+      {
+        "en": "Choose colours, fonts and images that fit the brand, including Arabic typography.",
+        "ar": "تختار الألوان والخطوط والصور المناسبة للعلامة، ومنها الخط العربي."
+      },
+      {
+        "en": "Prepare files for print and digital with the right sizes and colour modes.",
+        "ar": "تجهّز الملفات للطباعة والنشر الرقمي بالمقاسات وأنظمة الألوان الصحيحة."
+      },
+      {
+        "en": "Present your work, listen to feedback and revise.",
+        "ar": "تعرض عملك وتستمع للملاحظات وتعدّل."
+      },
+      {
+        "en": "Keep a portfolio and manage deadlines and invoices if you freelance.",
+        "ar": "تحافظ على ملف أعمالك وتدير المواعيد والفواتير إذا كنت تعمل حرًا."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Design studios and branding agencies",
+        "ar": "استوديوهات التصميم ووكالات الهوية البصرية"
+      },
+      {
+        "en": "In-house design teams in companies, publishers and media",
+        "ar": "فرق التصميم داخل الشركات ودور النشر والإعلام"
+      },
+      {
+        "en": "Freelancing from home or a co-working space",
+        "ar": "العمل الحر من البيت أو مساحة عمل مشتركة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Adobe Illustrator, Photoshop and InDesign",
+        "ar": "أدوبي إليستريتور وفوتوشوب وإن ديزاين"
+      },
+      {
+        "en": "Figma and Canva",
+        "ar": "فيجما وكانفا"
+      },
+      {
+        "en": "Pen, paper and a graphics tablet",
+        "ar": "قلم وورق وجهاز رسم رقمي"
+      },
+      {
+        "en": "AI image tools used carefully and checked for rights",
+        "ar": "أدوات الصور بالذكاء الاصطناعي مع الحذر ومراجعة حقوق الاستخدام"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Art and Design, Graphic Products, Computer Science and English. American Diploma: Studio Art, Digital Art and Design electives. IB: Visual Arts. Start your portfolio now with five to ten finished projects and practise Arabic fonts.",
+      "ar": "IGCSE أو A-Level: الفن والتصميم ومنتجات الجرافيك وعلوم الحاسب والإنجليزية. الدبلومة الأمريكية: الفن والفن الرقمي ومواد اختيارية في التصميم. IB: الفنون البصرية. ابدأ ملف أعمالك الآن بخمسة إلى عشرة مشروعات مكتملة وتدرّب على الخطوط العربية."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Fine Arts (painting, graphics, design)",
+        "ar": "كلية الفنون الجميلة (تصوير وجرافيك وتصميم)"
+      },
+      {
+        "en": "Faculty of Applied Arts (graphics, advertising, printing)",
+        "ar": "كلية الفنون التطبيقية (جرافيك وإعلان وطباعة)"
+      },
+      {
+        "en": "Art and design or visual communication programs at private universities",
+        "ar": "برامج الفن والتصميم أو الاتصال البصري في الجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "alexandria-university-fine-arts",
+      "assiut-university-fine-arts",
+      "benha-university-applied-arts",
+      "capital-university-applied-arts",
+      "beni-suef-university-applied-arts",
+      "damietta-university-applied-arts",
+      "british-university-in-egypt-art-design",
+      "misr-international-university-alsun-mass-communication-visual-design"
+    ],
+    "tansikNote": {
+      "en": "Fine Arts asked for about 73% to 80% in the 2026 phase-1 lists (Assiut 72.81% to Alexandria 80.31%, percent of the total), and 73.9% to 80.8% in 2025. Applied Arts faculties are not in the minimum-score lists we reviewed (2023 to 2026), so their minimums are unknown here. Fine Arts and Applied Arts also require an aptitude test after Thanaweya Amma. Private programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff.",
+      "ar": "طلبت الفنون الجميلة نحو 73% إلى 80% في المرحلة الأولى لعام 2026 (أسيوط 72.81% والإسكندرية 80.31%، نسبة مئوية من المجموع)، ونحو 73.9% إلى 80.8% في 2025. كليات الفنون التطبيقية غير موجودة في قوائم الحد الأدنى التي راجعناها (2023 إلى 2026)، فحدودها الدنيا غير معروفة هنا. وتشترط الفنون الجميلة والتطبيقية اختبار قدرات بعد الثانوية العامة. تعرض البرامج الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Teach yourself with online courses and real projects, then build a portfolio on Behance. Many designers work without a design degree.",
+        "ar": "تعلّم بنفسك بدورات على الإنترنت ومشروعات حقيقية ثم ابنِ ملف أعمالك على Behance. يعمل مصممون كثيرون بلا شهادة تصميم."
+      },
+      {
+        "en": "Courses at AUC School of Continuing Education and other design centres.",
+        "ar": "دورات في مركز التعليم المستمر بالجامعة الأمريكية بالقاهرة ومراكز تصميم أخرى."
+      },
+      {
+        "en": "Internship at a studio or agency, then junior designer.",
+        "ar": "تدريب في استوديو أو وكالة ثم العمل مصممًا مبتدئًا."
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Design principles: layout, colour, hierarchy and typography",
+        "ar": "مبادئ التصميم: التخطيط واللون والتسلسل البصري والخطوط"
+      },
+      {
+        "en": "Illustrator, Photoshop, InDesign and Figma",
+        "ar": "إليستريتور وفوتوشوب وإن ديزاين وفيجما"
+      },
+      {
+        "en": "Arabic and English typography",
+        "ar": "الخط العربي والإنجليزي"
+      },
+      {
+        "en": "Preparing files for print",
+        "ar": "تجهيز الملفات للطباعة"
+      },
+      {
+        "en": "Branding and logo design",
+        "ar": "تصميم الهوية والشعارات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Taking feedback without taking it personally",
+        "ar": "تقبّل الملاحظات دون أن تأخذها بشكل شخصي"
+      },
+      {
+        "en": "Explaining your design choices",
+        "ar": "شرح اختياراتك التصميمية"
+      },
+      {
+        "en": "Meeting deadlines",
+        "ar": "الالتزام بالمواعيد"
+      },
+      {
+        "en": "Creativity and attention to detail",
+        "ar": "الإبداع والانتباه للتفاصيل"
+      },
+      {
+        "en": "Managing clients and time as a freelancer",
+        "ar": "إدارة العملاء والوقت عند العمل الحر"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: tutorials, tools and international clients",
+        "ar": "الإنجليزية: الشروحات والأدوات والعملاء الدوليون"
+      },
+      {
+        "en": "Arabic: Arabic lettering and local clients",
+        "ar": "العربية: الخط العربي والعملاء المحليون"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Adobe Certified Professional (optional)",
+        "ar": "Adobe Certified Professional (اختيارية)"
+      },
+      {
+        "en": "Google UX Design Certificate (optional, for UI design)",
+        "ar": "Google UX Design Certificate (اختيارية لتصميم الواجهات)"
+      },
+      {
+        "en": "A strong portfolio is more important than certificates.",
+        "ar": "ملف الأعمال القوي أهم من الشهادات."
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Canva Design School",
+        "url": "https://www.canva.com/designschool/",
+        "free": true
+      },
+      {
+        "title": "Adobe Illustrator tutorials",
+        "url": "https://helpx.adobe.com/illustrator/tutorials.html",
+        "free": true
+      },
+      {
+        "title": "Figma Learn",
+        "url": "https://help.figma.com",
+        "free": true
+      },
+      {
+        "title": "Behance portfolio platform",
+        "url": "https://www.behance.net",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": {
+        "min": 7403,
+        "max": 17642
+      },
+      "mid": {
+        "min": 6501,
+        "max": 19432
+      },
+      "senior": {
+        "min": 11559,
+        "max": 26775
+      },
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Junior and senior use Paylab's Junior Graphic Designer and Senior Graphic Designer titles; mid uses Graphic Designer from the marketing sector page. Freelance rates vary a lot.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. المبتدئ والأول من مسميات Paylab: Junior Graphic Designer وSenior Graphic Designer، والمتوسط من مسمى Graphic Designer في صفحة التسويق. تختلف أسعار العمل الحر كثيرًا."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Advertising and branding agencies",
+        "ar": "وكالات الإعلان والهوية البصرية"
+      },
+      {
+        "en": "In-house design teams in companies, publishers and media houses",
+        "ar": "فرق التصميم داخل الشركات ودور النشر والإعلام"
+      },
+      {
+        "en": "Printing and packaging companies",
+        "ar": "شركات الطباعة والتغليف"
+      },
+      {
+        "en": "E-commerce and tech companies",
+        "ar": "شركات التجارة الإلكترونية والتكنولوجيا"
+      },
+      {
+        "en": "Gulf and international clients (remote)",
+        "ar": "عملاء خليجيون ودوليون (عن بُعد)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance is very common, and many Egyptian designers sell logos, social designs and brand kits to clients in Egypt, the Gulf and abroad. Competition on freelance platforms is high and some work is paid at low rates, so a clear style and specialty such as motion or UI helps.",
+      "ar": "العمل الحر شائع جدًا، ويبيع كثير من المصممين المصريين الشعارات وتصميمات السوشيال وهويات العلامات لعملاء في مصر والخليج والخارج. المنافسة على منصات العمل الحر عالية وبعض الأعمال بأسعار منخفضة، فيفيد أسلوب واضح وتخصص مثل الموشن أو تصميم الواجهات."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Remote from any governorate",
+        "ar": "عن بُعد من أي محافظة"
+      }
+    ],
+    "providerIds": [
+      "nayzak-animation-school",
+      "auc-school-of-continuing-education"
+    ]
+  },
+  "global": {
+    "en": "Designers with a strong portfolio get remote work from Gulf, European and American clients, and Gulf agencies hire Egyptian designers on site. Arabic typography and Middle East brand knowledge are real strengths. Work permits and contracts differ by country.",
+    "ar": "يحصل المصممون أصحاب ملف الأعمال القوي على عمل عن بُعد من عملاء في الخليج وأوروبا وأمريكا، وتوظف وكالات خليجية مصممين مصريين في الموقع. الخط العربي ومعرفة علامات الشرق الأوسط نقطتا قوة حقيقيتان. تختلف تصاريح العمل والعقود بين الدول."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You can start with a laptop and free learning",
+        "ar": "تستطيع أن تبدأ بلابتوب وتعلم مجاني"
+      },
+      {
+        "en": "Creative work and visible results",
+        "ar": "عمل إبداعي ونتائج تراها بعينك"
+      },
+      {
+        "en": "Freelance and remote options",
+        "ar": "فرص للعمل الحر وعن بُعد"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Pay can be low at the start and freelance income is irregular",
+        "ar": "الأجر قد يكون منخفضًا في البداية والدخل الحر غير منتظم"
+      },
+      {
+        "en": "AI tools are replacing routine layout and image work",
+        "ar": "أدوات الذكاء الاصطناعي تحل محل أعمال التنسيق والصور الروتينية"
+      },
+      {
+        "en": "Clients often ask for many revisions",
+        "ar": "العملاء يطلبون تعديلات كثيرة غالبًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A designer just knows Photoshop.",
+          "ar": "المصمم هو من يعرف الفوتوشوب فقط."
+        },
+        "fact": {
+          "en": "Tools are the easy part. Good designers solve communication problems with ideas.",
+          "ar": "الأدوات هي الجزء السهل. المصمم الجيد يحل مشكلات التواصل بأفكار."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI means designers are finished.",
+          "ar": "الذكاء الاصطناعي يعني نهاية المصممين."
+        },
+        "fact": {
+          "en": "AI makes routine images cheap. Designers who direct ideas, understand brands and keep a clear style are still needed.",
+          "ar": "الذكاء الاصطناعي يجعل الصور الروتينية رخيصة. ما زال المصممون الذين يوجهون الأفكار ويفهمون العلامات ولهم أسلوب واضح مطلوبين."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must study art for years first.",
+          "ar": "لازم تدرس الفن سنوات أولًا."
+        },
+        "fact": {
+          "en": "A degree helps, but many designers get hired on the strength of their portfolio.",
+          "ar": "الشهادة تساعد، لكن مصممين كثيرين يُوظَّفون بسبب قوة ملف أعمالهم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "In-house jobs have regular hours. Freelancers choose their hours but may work evenings and weekends to meet client deadlines.",
+      "ar": "الوظائف داخل الشركات بساعات منتظمة. المستقلون يختارون ساعاتهم لكن قد يعملون مساءً وفي العطلات لمواعيد العملاء."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior designer or intern",
+        "ar": "مصمم مبتدئ أو متدرب"
+      },
+      {
+        "en": "Graphic designer",
+        "ar": "مصمم جرافيك"
+      },
+      {
+        "en": "Senior designer",
+        "ar": "مصمم أول"
+      },
+      {
+        "en": "Art director",
+        "ar": "مدير فني"
+      },
+      {
+        "en": "Creative director or studio owner",
+        "ar": "مدير إبداعي أو صاحب استوديو"
+      }
+    ],
+    "relatedCareerIds": [
+      "ux_designer",
+      "animator_3d_artist",
+      "brand_manager",
+      "interior_designer",
+      "photographer",
+      "digital_marketer"
+    ],
+    "pivots": [
+      {
+        "en": "UX/UI design",
+        "ar": "تصميم تجربة وواجهة المستخدم"
+      },
+      {
+        "en": "Motion graphics and animation",
+        "ar": "الموشن جرافيك والرسوم المتحركة"
+      },
+      {
+        "en": "Brand strategy",
+        "ar": "استراتيجية العلامات"
+      },
+      {
+        "en": "Illustration or publishing design",
+        "ar": "الرسم التوضيحي أو تصميم النشر"
+      }
+    ]
+  },
+  "industryId": "creative",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Journalism, printing arts and media salaries (graphic designer titles)",
+      "url": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Marketing, advertising and PR salaries (graphic designer)",
+      "url": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Dostor: aptitude tests 2026, list of faculties and steps",
+      "url": "https://www.dostor.org/5647207",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024 (all faculties)",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

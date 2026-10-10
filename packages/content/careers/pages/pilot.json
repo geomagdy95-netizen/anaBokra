@@ -1,0 +1,432 @@
+{
+  "id": "pilot",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You fly hundreds of people safely across the sky.",
+      "ar": "تطير بمئات الأشخاص بأمان عبر السماء."
+    },
+    "summary": {
+      "en": "Airline pilots fly passenger and cargo aircraft, following strict procedures and working as a team with the co-pilot and cabin crew. Becoming a pilot takes years of training, a very high medical standard and a lot of money or a company or military sponsorship. In Egypt the main routes are EgyptAir's trainee pilot recruitment (for graduates), approved flight schools, or the Air Force.",
+      "ar": "الطيار التجاري يقود طائرات الركاب والشحن ملتزمًا بإجراءات صارمة ويعمل كفريق مع مساعد الطيار وطاقم الضيافة. يحتاج أن تصبح طيارًا سنوات من التدريب ومعيارًا طبيًا عاليًا جدًا ومالًا كثيرًا أو رعاية من شركة أو من القوات المسلحة. في مصر المسارات الرئيسية: استقبال مصر للطيران طيارين متدربين (للخريجين) أو مدارس طيران معتمدة أو القوات الجوية."
+    },
+    "dayInLife": {
+      "en": "You arrive at the airport two hours before departure and read the weather, the route and the aircraft notes with the co-pilot. You check the plane, then brief the cabin crew. During the flight, the autopilot does much of the flying, but you watch the instruments, talk to air traffic control and take decisions if the weather changes. Landing is the most careful part, and you follow a checklist even though you have done it many times. After landing you write a short report and rest before the next flight. Some days start at night or end in another country.",
+      "ar": "تصل المطار قبل الإقلاع بساعتين وتقرأ حالة الطقس والمسار وملاحظات الطائرة مع مساعد الطيار. تفحص الطائرة ثم تعطي إحاطة لطاقم الضيافة. أثناء الرحلة يقوم الطيار الآلي بجزء كبير من القيادة، لكنك تراقب الأجهزة وتتحدث مع المراقبة الجوية وتتخذ قرارات إذا تغير الطقس. الهبوط هو الجزء الأدق، وتتبع قائمة الفحص رغم أنك فعلتها مرات كثيرة. بعد الهبوط تكتب تقريرًا قصيرًا وترتاح قبل الرحلة التالية. بعض الأيام تبدأ ليلًا أو تنتهي في بلد آخر."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan flights: weather, route, fuel and weight.",
+        "ar": "تخطط الرحلات: الطقس والمسار والوقود والوزن."
+      },
+      {
+        "en": "Check the aircraft and systems before every flight.",
+        "ar": "تفحص الطائرة وأنظمتها قبل كل رحلة."
+      },
+      {
+        "en": "Fly the aircraft, manually and with automation, and monitor instruments.",
+        "ar": "تقود الطائرة يدويًا وبالأنظمة الآلية وتراقب الأجهزة."
+      },
+      {
+        "en": "Communicate with air traffic control and the cabin crew.",
+        "ar": "تتواصل مع المراقبة الجوية وطاقم الضيافة."
+      },
+      {
+        "en": "Handle emergencies by following trained procedures.",
+        "ar": "تتعامل مع الطوارئ باتباع إجراءات مدربة عليها."
+      },
+      {
+        "en": "Train regularly in simulators and pass medical and proficiency checks.",
+        "ar": "تتدرب باستمرار في المحاكيات وتجتاز الفحوص الطبية واختبارات الكفاءة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Airline cockpits and airports",
+        "ar": "كابينة القيادة والمطارات"
+      },
+      {
+        "en": "Flight simulators and training centres",
+        "ar": "المحاكيات ومراكز التدريب"
+      },
+      {
+        "en": "Layovers in different cities and time zones",
+        "ar": "إقامات في مدن مختلفة ومناطق زمنية متعددة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Aircraft instruments, autopilot and flight management systems",
+        "ar": "أجهزة الطائرة والطيار الآلي وأنظمة إدارة الطيران"
+      },
+      {
+        "en": "Weather and navigation tools, electronic flight bags",
+        "ar": "أدوات الطقس والملاحة والحقيبة الإلكترونية للطيران"
+      },
+      {
+        "en": "Radio communication with air traffic control",
+        "ar": "الاتصال اللاسلكي بالمراقبة الجوية"
+      },
+      {
+        "en": "Full-flight simulators for training",
+        "ar": "محاكيات الطيران الكاملة للتدريب"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Strong Maths, Physics and English help in any curriculum: IGCSE and A-Level Maths and Physics, AP Calculus and Physics in the American Diploma, or IB Maths and Physics. A third-party guide to Egyptian flight schools mentions a science-focused Thanaweya Amma or equivalent, English and Arabic proficiency and an ECAA Class 1 medical, so confirm requirements with the school or airline.",
+      "ar": "الرياضيات والفيزياء والإنجليزية القوية تفيد في أي منهج: الرياضيات والفيزياء في IGCSE وA-Level أو AP Calculus والفيزياء في الدبلومة الأمريكية أو الرياضيات والفيزياء في IB. يذكر دليل من جهة خارجية عن مدارس الطيران في مصر ثانوية عامة علمية أو معادلة وإجادة الإنجليزية والعربية وشهادة طبية من الدرجة الأولى من سلطة الطيران المدني، فتأكد من الشروط مع المدرسة أو شركة الطيران."
+    },
+    "faculties": [
+      {
+        "en": "No Tansik faculty directly gives the pilot licence",
+        "ar": "لا توجد كلية في التنسيق تمنح رخصة الطيار مباشرة"
+      },
+      {
+        "en": "Many airline recruits hold a bachelor's degree in a suitable field (engineering, science, business and others)",
+        "ar": "كثير من المقبولين في شركات الطيران يحملون بكالوريوس في مجال مناسب (هندسة وعلوم وأعمال وغيرها)"
+      },
+      {
+        "en": "Military route: Egyptian Air College (Air Force) after Thanaweya Amma",
+        "ar": "المسار العسكري: الكلية الجوية (القوات الجوية) بعد الثانوية العامة"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "No Tansik faculty in the programs list gives a pilot licence, so there are no Tansik minimums to report. For military pilots, the Armed Forces announce the Military College and Air College conditions each year (the October 2026 Military College announcement requires at least 65% science or 70% literary, but check the Air College announcement separately).",
+      "ar": "لا توجد كلية في قوائم التنسيق تمنح رخصة طيار، لذلك لا توجد حدود دنيا للتنسيق لنعرضها. بالنسبة للطيارين العسكريين، تعلن القوات المسلحة شروط الكلية الحربية والكلية الجوية كل عام (إعلان الكلية الحربية لأكتوبر 2026 يشترط 65% علمي أو 70% أدبي على الأقل، لكن راجع إعلان الكلية الجوية بشكل منفصل)."
+    },
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "EgyptAir trainee pilots: EgyptAir has announced recruitment of trainee pilots for graduates. In the announcement we reviewed, applicants needed a bachelor's degree in a suitable field with at least Good, age up to 30 at the closing date, excellent English, a valid Class 1 aviation medical certificate, and to pass the company's tests at their own cost. Both men and women could apply.",
+        "ar": "طيارون متدربون في مصر للطيران: أعلنت مصر للطيران قبول طيارين متدربين من الخريجين. في الإعلان الذي راجعناه كان مطلوبًا بكالوريوس في تخصص مناسب بتقدير جيد على الأقل وسن لا يزيد على 30 سنة عند إغلاق باب التقديم وإنجليزية ممتازة وشهادة طبية سارية من الدرجة الأولى للطيران واجتياز اختبارات الشركة على نفقة المتقدم. وكان التقديم متاحًا للرجال والنساء."
+      },
+      {
+        "en": "Approved flight schools (ECAA-approved) for private (PPL) and commercial (CPL) licences. Third-party guides give minimum ages of 17 for PPL and 18 for CPL, and estimate total costs in the millions of EGP, so confirm prices with the schools.",
+        "ar": "مدارس طيران معتمدة (من سلطة الطيران المدني) لرخصتي الطيار الخاص (PPL) والتجاري (CPL). تذكر أدلة من جهات خارجية سنًا أدنى 17 لـPPL و18 لـCPL وتقدّر التكلفة الكلية بملايين الجنيهات، فتأكد من الأسعار مع المدارس."
+      },
+      {
+        "en": "Air Force route: the Egyptian Air College trains officer pilots for the Air Force after Thanaweya Amma.",
+        "ar": "مسار القوات الجوية: تدرّب الكلية الجوية المصرية ضباط الطيران للقوات الجوية بعد الثانوية العامة."
+      },
+      {
+        "en": "Related aviation careers if the medical standard or cost blocks you: air traffic control, aircraft maintenance, dispatch and cabin crew.",
+        "ar": "مهن طيران مرتبطة إذا منعك المعيار الطبي أو التكلفة: المراقبة الجوية وصيانة الطائرات وتنسيق الرحلات وطاقم الضيافة."
+      }
+    ],
+    "licensing": {
+      "en": "Pilots need a licence from the Egyptian Civil Aviation Authority (ECAA): usually a private licence, then a commercial licence with an instrument rating and multi-engine rating, and later an airline transport pilot licence with experience hours. You must keep a valid Class 1 medical certificate, which is checked regularly. Airlines add their own training on their aircraft type. Rules, hours and fees change, so confirm with ECAA and the school or airline.",
+      "ar": "يحتاج الطيار إلى رخصة من سلطة الطيران المدني المصرية: عادةً رخصة طيار خاص ثم رخصة تجارية مع تأهيل الطيران بالأجهزة والطائرات متعددة المحركات، ثم رخصة طيار نقل جوي بعد ساعات خبرة. ويجب الحفاظ على شهادة طبية سارية من الدرجة الأولى تُفحص بانتظام. وتضيف شركات الطيران تدريبها الخاص على نوع طائراتها. تتغير القواعد وساعات الطيران والرسوم، فتأكد من سلطة الطيران المدني والمدرسة أو الشركة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Maths and physics for navigation and aircraft performance",
+        "ar": "الرياضيات والفيزياء للملاحة وأداء الطائرة"
+      },
+      {
+        "en": "Aviation English and radio phraseology",
+        "ar": "الإنجليزية الجوية واللغة اللاسلكية"
+      },
+      {
+        "en": "Flight planning and weather",
+        "ar": "تخطيط الرحلات والطقس"
+      },
+      {
+        "en": "Instrument flying",
+        "ar": "الطيران بالأجهزة"
+      },
+      {
+        "en": "Aircraft systems and emergency procedures",
+        "ar": "أنظمة الطائرة وإجراءات الطوارئ"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Discipline and following checklists",
+        "ar": "الانضباط واتباع قوائم الفحص"
+      },
+      {
+        "en": "Calm decision-making under pressure",
+        "ar": "اتخاذ القرار بهدوء تحت الضغط"
+      },
+      {
+        "en": "Teamwork and clear communication",
+        "ar": "العمل الجماعي والتواصل الواضح"
+      },
+      {
+        "en": "Responsibility for passengers",
+        "ar": "المسؤولية تجاه الركاب"
+      },
+      {
+        "en": "Managing tiredness and stress",
+        "ar": "إدارة التعب والضغط"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English at ICAO level (required for international flying)",
+        "ar": "الإنجليزية بمستوى ICAO (مطلوبة للطيران الدولي)"
+      },
+      {
+        "en": "Arabic",
+        "ar": "العربية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ECAA pilot licences: PPL, CPL, instrument rating, multi-engine rating",
+        "ar": "رخص سلطة الطيران المدني: PPL وCPL وتأهيل الأجهزة والمحركات المتعددة"
+      },
+      {
+        "en": "Class 1 aviation medical certificate",
+        "ar": "شهادة طبية من الدرجة الأولى للطيران"
+      },
+      {
+        "en": "ICAO English proficiency",
+        "ar": "كفاءة الإنجليزية وفق ICAO"
+      },
+      {
+        "en": "Type rating on the airline's aircraft",
+        "ar": "تأهيل نوع الطائرة لدى شركة الطيران"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian Civil Aviation Authority (ECAA)",
+        "url": "https://ecaa.gov.eg",
+        "free": true
+      },
+      {
+        "title": "EgyptAir careers",
+        "url": "https://www.egyptair.com",
+        "free": true
+      },
+      {
+        "title": "FAA Pilot's Handbook of Aeronautical Knowledge",
+        "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Physics",
+        "url": "https://www.khanacademy.org/science/physics",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 19991,
+        "max": 78835
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/transport-haulage-logistics/pilot",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The range is for the Paylab title Pilot across experience levels; first officers earn less and captains more. Pay in military service follows its own scale.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. النطاق لمسمى Pilot في Paylab لكل مستويات الخبرة؛ يكسب مساعد الطيار أقل والكابتن أكثر. والأجر في الخدمة العسكرية يتبع جدوله الخاص."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "EgyptAir and EgyptAir Express",
+        "ar": "مصر للطيران ومصر للطيران إكسبريس"
+      },
+      {
+        "en": "Other Egyptian airlines and charter companies (for example Air Cairo)",
+        "ar": "شركات طيران وعارض مصرية أخرى (مثل إير كايرو)"
+      },
+      {
+        "en": "Egyptian Air Force (military pilots)",
+        "ar": "القوات الجوية المصرية (الطيارون العسكريون)"
+      },
+      {
+        "en": "Gulf and international airlines",
+        "ar": "شركات طيران خليجية ودولية"
+      },
+      {
+        "en": "Private jet, cargo and aerial work companies",
+        "ar": "شركات الطائرات الخاصة والشحن والأعمال الجوية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Not applicable in the usual sense. Pilots are employed by airlines. Instructors in flight schools and contract pilots exist, but cannot work remotely.",
+      "ar": "لا ينطبق بالمعنى المعتاد. الطيارون يعملون لدى شركات الطيران. يوجد مدربون في مدارس الطيران وطيارون بعقود لكن لا يمكن العمل عن بُعد."
+    },
+    "regions": [
+      {
+        "en": "Cairo (EgyptAir base and Cairo International Airport)",
+        "ar": "القاهرة (قاعدة مصر للطيران ومطار القاهرة الدولي)"
+      },
+      {
+        "en": "Hurghada, Sharm El Sheikh and other airports for charter operations",
+        "ar": "الغردقة وشرم الشيخ ومطارات أخرى لرحلات الطيران العارض"
+      }
+    ],
+    "providerIds": [
+      "egyptair-training-center"
+    ]
+  },
+  "global": {
+    "en": "Pilots are among the most mobile professionals. Egyptian pilots fly for Gulf airlines and others, and a licence from ECAA is recognised under ICAO rules, though each airline and country sets its own requirements and checks. Hiring follows the global airline cycle, so demand can rise and fall.",
+    "ar": "الطيارون من أكثر المهنيين قدرة على التنقل. يطير طيارون مصريون لدى شركات خليجية وغيرها، ورخصة سلطة الطيران المدني معترف بها وفق قواعد ICAO، لكن لكل شركة ودولة شروطها واختباراتها. يتبع التوظيف دورة الطيران العالمية، فقد يرتفع الطلب وينخفض."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Responsible, respected job with global travel",
+        "ar": "وظيفة مسؤولة ومحترمة مع سفر حول العالم"
+      },
+      {
+        "en": "Strong pay in many airlines and a clear career ladder",
+        "ar": "راتب جيد في شركات طيران كثيرة وسلّم وظيفي واضح"
+      },
+      {
+        "en": "Skills recognised internationally",
+        "ar": "مهارات معترف بها دوليًا"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Training is expensive and long, and a job is not guaranteed",
+        "ar": "التدريب مكلف وطويل والوظيفة غير مضمونة"
+      },
+      {
+        "en": "You must keep a strict medical standard; a health issue can end a career",
+        "ar": "يجب الحفاظ على معيار طبي صارم؛ ومشكلة صحية قد تنهي المسيرة"
+      },
+      {
+        "en": "Irregular hours, jet lag and time away from home",
+        "ar": "ساعات غير منتظمة وإرهاق السفر والبعد عن البيت"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "The autopilot flies the plane so pilots do little.",
+          "ar": "الطيار الآلي يقود الطائرة فالطيار لا يفعل شيئًا."
+        },
+        "fact": {
+          "en": "Pilots monitor, plan and decide, and they take over in problems. Training for rare emergencies is the core of the job.",
+          "ar": "الطيارون يراقبون ويخططون ويقررون ويتولون القيادة عند المشكلات. والتدريب على الطوارئ النادرة جوهر الوظيفة."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must have perfect eyesight with no glasses.",
+          "ar": "لازم نظر ممتاز بدون نظارة."
+        },
+        "fact": {
+          "en": "Standards are strict but not always no-glasses. Medical rules specify what is allowed, so get checked early by an aviation doctor.",
+          "ar": "المعايير صارمة لكنها لا تعني دائمًا منع النظارة. القواعد الطبية تحدد المسموح، فافحص مبكرًا عند طبيب طيران."
+        }
+      },
+      {
+        "myth": {
+          "en": "Pilots are only men.",
+          "ar": "الطيارون رجال فقط."
+        },
+        "fact": {
+          "en": "Airline recruitment announcements are open to both men and women, and there are women pilots in Egypt and worldwide.",
+          "ar": "إعلانات التوظيف في شركات الطيران مفتوحة للرجال والنساء، وهناك طيارات في مصر والعالم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Rosters change monthly and include nights, weekends and holidays. Time off comes in blocks, but jet lag and time away are real. Planning family life takes effort.",
+      "ar": "تتغير الجداول شهريًا وتشمل ليالي وعطلات أسبوعية وأعيادًا. تأتي الإجازات في كتل، لكن إرهاق السفر والبعد حقيقيان. وتخطيط الحياة الأسرية يحتاج جهدًا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Cadet or trainee pilot",
+        "ar": "طيار متدرب"
+      },
+      {
+        "en": "First officer (co-pilot)",
+        "ar": "مساعد طيار"
+      },
+      {
+        "en": "Senior first officer",
+        "ar": "مساعد طيار أول"
+      },
+      {
+        "en": "Captain",
+        "ar": "كابتن"
+      },
+      {
+        "en": "Training captain, instructor or chief pilot",
+        "ar": "كابتن مدرب أو مدرب طيران أو كبير الطيارين"
+      }
+    ],
+    "relatedCareerIds": [
+      "flight_attendant",
+      "police_military_officer",
+      "mechanical_engineer",
+      "electrical_engineer",
+      "hotel_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Flight instructor or simulator instructor",
+        "ar": "مدرب طيران أو مدرب محاكي"
+      },
+      {
+        "en": "Aviation safety and management",
+        "ar": "سلامة الطيران والإدارة"
+      },
+      {
+        "en": "Air traffic control or airline operations",
+        "ar": "المراقبة الجوية أو تشغيل شركات الطيران"
+      },
+      {
+        "en": "Aircraft technical roles",
+        "ar": "الوظائف الفنية للطائرات"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Pilot salary (transport, haulage, logistics)",
+      "url": "https://www.paylab.com/eg/salaryinfo/transport-haulage-logistics/pilot",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "EgyptAir trainee pilot recruitment conditions (job post)",
+      "url": "https://jobx.me/?p=2016",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Wikipedia: Egyptian Air College",
+      "url": "https://en.wikipedia.org/wiki/Egyptian_Air_College",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Military College admission conditions for the October 2026 batch",
+      "url": "https://gate.ahram.org.eg/News/5758235.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Rotate Pilot: pilot training cost and requirements in Egypt (third-party estimate)",
+      "url": "https://rotatepilot.com/pilot-cost/egypt",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

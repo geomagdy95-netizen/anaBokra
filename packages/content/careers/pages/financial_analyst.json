@@ -1,0 +1,431 @@
+{
+  "id": "financial_analyst",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You read the numbers to tell a company, or an investor, what to do next.",
+      "ar": "تقرأ الأرقام لتقول لشركة أو مستثمر ماذا يفعل بعد ذلك."
+    },
+    "summary": {
+      "en": "Financial analysts study a company's results, its market and the economy to judge if an investment or project is a good idea. They build spreadsheets and models and write short reports for managers or investors. Jobs are in banks, investment firms, large companies and fintech, and they ask for strong Excel, English and a professional exam such as CFA over time.",
+      "ar": "المحلل المالي يدرس نتائج الشركة وسوقها والاقتصاد ليحكم إن كان الاستثمار أو المشروع فكرة جيدة. يبني جداول ونماذج ويكتب تقارير قصيرة للمديرين أو المستثمرين. الوظائف في البنوك وشركات الاستثمار والشركات الكبرى والتكنولوجيا المالية، وتطلب إكسل قويًا وإنجليزية جيدة وامتحانًا مهنيًا مثل CFA مع الوقت."
+    },
+    "dayInLife": {
+      "en": "In the morning you check news about interest rates and the dollar rate, because they affect your companies. Then you update a spreadsheet model with the latest quarterly results from a listed company. You compare its profit with its competitors and notice that its debt is growing fast. You write a one-page note for your manager explaining the risk. After lunch you join a meeting about a new project and show how much money it could make under good and bad scenarios. Before you leave you check that every number in your report has a source.",
+      "ar": "في الصباح تتابع أخبار أسعار الفائدة وسعر الدولار لأنها تؤثر في الشركات التي تتابعها. ثم تحدّث نموذجًا في جدول بيانات بأحدث نتائج ربع سنوية لشركة مقيدة في البورصة. تقارن أرباحها بمنافسيها وتلاحظ أن ديونها تزيد بسرعة. تكتب لمديرك مذكرة من صفحة واحدة تشرح الخطر. بعد الغداء تحضر اجتماعًا عن مشروع جديد وتعرض كم يمكن أن يربح في السيناريو الجيد والسيئ. قبل أن تنصرف تتأكد أن لكل رقم في تقريرك مصدرًا."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect and clean financial data from reports, markets and company records.",
+        "ar": "تجمع البيانات المالية وتنظّفها من التقارير والأسواق وسجلات الشركات."
+      },
+      {
+        "en": "Build spreadsheet models to forecast revenue, costs and cash.",
+        "ar": "تبني نماذج في جداول البيانات للتنبؤ بالإيرادات والتكاليف والسيولة."
+      },
+      {
+        "en": "Value companies and projects and compare investment options.",
+        "ar": "تقيّم الشركات والمشروعات وتقارن بين فرص الاستثمار."
+      },
+      {
+        "en": "Study risks such as interest rates, exchange rates and debt.",
+        "ar": "تدرس المخاطر مثل أسعار الفائدة وأسعار الصرف والديون."
+      },
+      {
+        "en": "Write short reports and present findings to managers or clients.",
+        "ar": "تكتب تقارير قصيرة وتعرض النتائج على المديرين أو العملاء."
+      },
+      {
+        "en": "Track results after decisions to see if the forecasts were right.",
+        "ar": "تتابع النتائج بعد القرارات لتعرف إن كانت توقعاتك صحيحة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Banks and investment firms",
+        "ar": "البنوك وشركات الاستثمار"
+      },
+      {
+        "en": "Finance departments of large companies",
+        "ar": "أقسام المالية في الشركات الكبرى"
+      },
+      {
+        "en": "Consulting firms and fintech startups",
+        "ar": "شركات الاستشارات وشركات التكنولوجيا المالية الناشئة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel, including formulas and modelling",
+        "ar": "إكسل بما فيه المعادلات والنمذجة"
+      },
+      {
+        "en": "Power BI or Tableau for dashboards",
+        "ar": "Power BI أو Tableau للوحات المتابعة"
+      },
+      {
+        "en": "Bloomberg or Refinitiv market data (in large firms)",
+        "ar": "بيانات Bloomberg أو Refinitiv (في الشركات الكبيرة)"
+      },
+      {
+        "en": "SQL or Python for larger datasets (growing demand)",
+        "ar": "SQL أو بايثون للبيانات الكبيرة (طلب متزايد)"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Mathematics, Economics, Business Studies and Accounting. American Diploma: Algebra, Statistics, Economics. IB: Maths, Economics and Business Management. Learn Excel early.",
+      "ar": "IGCSE أو A-Level: الرياضيات والاقتصاد ودراسات الأعمال والمحاسبة. الدبلومة الأمريكية: الجبر والإحصاء والاقتصاد. IB: الرياضيات والاقتصاد وإدارة الأعمال. تعلّم إكسل مبكرًا."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Commerce (accounting, finance or economics)",
+        "ar": "كلية التجارة (محاسبة أو تمويل أو اقتصاد)"
+      },
+      {
+        "en": "Faculty of Economics and Political Science",
+        "ar": "كلية الاقتصاد والعلوم السياسية"
+      },
+      {
+        "en": "Faculty of Business Administration or Business with fintech at private and national universities",
+        "ar": "كلية إدارة الأعمال أو الأعمال مع التكنولوجيا المالية في الجامعات الخاصة والأهلية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "ain-shams-university-commerce",
+      "cairo-university-economics-political-science",
+      "alexandria-university-economics-political-science",
+      "capital-university-commerce",
+      "ain-shams-national-university-business-fintech",
+      "british-university-in-egypt-economics"
+    ],
+    "tansikNote": {
+      "en": "Commerce (literary track) asked for about 72% to 79% in 2026 (Assiut 71.88% to Cairo 79.06%). Economics and Political Science is higher: Beni Suef 89.38%, Alexandria 91.88% and Cairo 93.44% in 2026 (percent of the total). Private university programs show a 53% regulatory floor for 2025/26, which is not their real cutoff.",
+      "ar": "طلبت التجارة (الشعبة الأدبية) نحو 72% إلى 79% في 2026 (أسيوط 71.88% وجامعة القاهرة 79.06%). أما الاقتصاد والعلوم السياسية فأعلى: بني سويف 89.38% والإسكندرية 91.88% والقاهرة 93.44% في 2026 (نسبة مئوية من المجموع). تعرض برامج الجامعات الخاصة حدًا أدنى تنظيميًا 53% لعام 2025/26، وهو ليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as an accountant or credit analyst and move into analysis after one or two years.",
+        "ar": "ابدأ محاسبًا أو محلل ائتمان ثم انتقل للتحليل بعد سنة أو سنتين."
+      },
+      {
+        "en": "Study CFA or similar exams while you work, using free online lessons first.",
+        "ar": "ادرس امتحانات CFA أو ما يشابهها أثناء العمل، وابدأ بالدروس المجانية على الإنترنت."
+      },
+      {
+        "en": "A data or science degree plus finance courses can also work, because employers value data skills.",
+        "ar": "شهادة في البيانات أو العلوم مع كورسات مالية تصلح أيضًا، لأن أصحاب العمل يقدّرون مهارات البيانات."
+      }
+    ],
+    "licensing": {
+      "en": "There is no single license to be an analyst in a company. People who give investment advice or work in securities firms must be licensed by the Financial Regulatory Authority (FRA), which runs professional certification exams for securities staff. Check the FRA website for the current rules.",
+      "ar": "لا يوجد ترخيص واحد للعمل محللًا في شركة. أما من يقدم نصائح استثمارية أو يعمل في شركات الأوراق المالية فيجب أن يحصل على ترخيص من الهيئة العامة للرقابة المالية، وهي تعقد امتحانات اعتماد مهني للعاملين في الأوراق المالية. راجع موقع الهيئة للقواعد الحالية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Financial statements analysis",
+        "ar": "تحليل القوائم المالية"
+      },
+      {
+        "en": "Financial modelling in Excel",
+        "ar": "النمذجة المالية في إكسل"
+      },
+      {
+        "en": "Company valuation and basic statistics",
+        "ar": "تقييم الشركات والإحصاء الأساسي"
+      },
+      {
+        "en": "Understanding of interest rates, inflation and exchange rates",
+        "ar": "فهم أسعار الفائدة والتضخم وأسعار الصرف"
+      },
+      {
+        "en": "SQL, Power BI or Python (a plus)",
+        "ar": "SQL أو Power BI أو بايثون (ميزة إضافية)"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Clear thinking and curiosity",
+        "ar": "التفكير الواضح والفضول"
+      },
+      {
+        "en": "Writing short, simple reports",
+        "ar": "كتابة تقارير قصيرة وبسيطة"
+      },
+      {
+        "en": "Presenting numbers with confidence",
+        "ar": "عرض الأرقام بثقة"
+      },
+      {
+        "en": "Being honest when the data says something unpopular",
+        "ar": "الصراحة عندما تقول البيانات شيئًا غير مرغوب"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: most reports, data and global firms",
+        "ar": "الإنجليزية: معظم التقارير والبيانات والشركات العالمية"
+      },
+      {
+        "en": "Arabic: local clients and regulations",
+        "ar": "العربية: العملاء المحليون واللوائح"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "CFA (Chartered Financial Analyst) levels I to III",
+        "ar": "CFA (محلل مالي معتمد) المستويات من الأول إلى الثالث"
+      },
+      {
+        "en": "FRM for risk (optional)",
+        "ar": "FRM للمخاطر (اختياري)"
+      },
+      {
+        "en": "FRA securities certificates for those working in brokerage",
+        "ar": "شهادات الهيئة العامة للرقابة المالية للعاملين في السمسرة"
+      },
+      {
+        "en": "Excel and Power BI certificates (optional)",
+        "ar": "شهادات إكسل وPower BI (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Investopedia: financial analysis and investing basics",
+        "url": "https://www.investopedia.com",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Finance and capital markets",
+        "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+        "free": true
+      },
+      {
+        "title": "Egyptian Exchange (EGX)",
+        "url": "https://www.egx.com.eg",
+        "free": true
+      },
+      {
+        "title": "CFA Institute: Investment Foundations",
+        "url": "https://www.cfainstitute.org",
+        "free": false
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11307,
+        "max": 48418
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy/financial-analyst",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. Paylab's Financial Analyst page is based on fewer than 20 respondents, so it is shown only under mid and may be unreliable. For comparison, the banking sector page lists a Financial Analyst at 11,844 to 35,821 EGP.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. صفحة المحلل المالي في Paylab مبنية على أقل من 20 مشاركًا، لذلك وُضعت تحت المستوى المتوسط فقط وقد لا تكون دقيقة. وللمقارنة تذكر صفحة قطاع البنوك محللًا ماليًا بين 11,844 و35,821 جنيهًا."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Banks and investment banks",
+        "ar": "البنوك وبنوك الاستثمار"
+      },
+      {
+        "en": "Brokerage and asset management firms",
+        "ar": "شركات السمسرة وإدارة الأصول"
+      },
+      {
+        "en": "Large companies and multinationals (finance teams)",
+        "ar": "الشركات الكبرى والمتعددة الجنسيات (فرق المالية)"
+      },
+      {
+        "en": "Consulting and audit firms",
+        "ar": "شركات الاستشارات والمراجعة"
+      },
+      {
+        "en": "Fintech and startups",
+        "ar": "شركات التكنولوجيا المالية والشركات الناشئة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance financial modelling and business plans for startups are possible, and some roles in regional finance centres can be remote. Most junior roles are in offices.",
+      "ar": "النمذجة المالية الحرة وخطط الأعمال للشركات الناشئة ممكنة، وبعض وظائف المراكز المالية الإقليمية قد تكون عن بُعد. معظم الوظائف المبتدئة في المكاتب."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo (New Cairo, Downtown, Smart Village)",
+        "ar": "القاهرة الكبرى (القاهرة الجديدة ووسط البلد والقرية الذكية)"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      }
+    ],
+    "providerIds": [
+      "injaz-egypt",
+      "coursera-egypt",
+      "auc-school-of-continuing-education"
+    ]
+  },
+  "global": {
+    "en": "Financial analysts with CFA or strong experience are recruited in the Gulf financial centres (Dubai, Abu Dhabi, Riyadh, Doha) and in London and other hubs. Entry roles abroad are competitive, so most people first build two to four years of experience in Egypt. Check visa rules and the full package.",
+    "ar": "يُطلب المحللون الماليون الحاصلون على CFA أو الذين لديهم خبرة قوية في المراكز المالية الخليجية (دبي وأبوظبي والرياض والدوحة) ولندن ومراكز أخرى. الوظائف المبتدئة في الخارج تنافسية، لذلك يبني معظم الناس خبرة سنتين إلى أربع في مصر أولًا. راجع شروط التأشيرة والعرض كاملًا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Interesting mix of numbers, news and decision-making",
+        "ar": "مزيج ممتع من الأرقام والأخبار واتخاذ القرار"
+      },
+      {
+        "en": "Strong pay growth with experience and qualifications",
+        "ar": "نمو جيد في الدخل مع الخبرة والمؤهلات"
+      },
+      {
+        "en": "Skills are used in many industries",
+        "ar": "المهارات تُستخدم في صناعات كثيرة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Competitive entry with few openings for fresh graduates",
+        "ar": "دخول تنافسي وفرص قليلة لحديثي التخرج"
+      },
+      {
+        "en": "Professional exams like CFA take years and cost money",
+        "ar": "امتحانات مثل CFA تستغرق سنوات وتكلف مالًا"
+      },
+      {
+        "en": "Market shocks and exchange-rate swings make forecasts uncertain",
+        "ar": "صدمات السوق وتقلب سعر الصرف تجعل التوقعات غير مؤكدة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You need an economics degree to do it.",
+          "ar": "لازم شهادة اقتصاد."
+        },
+        "fact": {
+          "en": "Commerce, engineering and science graduates also become analysts if they learn finance and Excel.",
+          "ar": "خريجو التجارة والهندسة والعلوم يصبحون محللين أيضًا إذا تعلموا المالية وإكسل."
+        }
+      },
+      {
+        "myth": {
+          "en": "Analysts can predict the market.",
+          "ar": "المحلل يتوقع السوق بدقة."
+        },
+        "fact": {
+          "en": "They estimate scenarios and risks. Nobody predicts markets perfectly.",
+          "ar": "هم يقدّرون سيناريوهات ومخاطر. لا أحد يتنبأ بالسوق بدقة كاملة."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will make analysts unnecessary.",
+          "ar": "الذكاء الاصطناعي سيلغي المحللين."
+        },
+        "fact": {
+          "en": "AI speeds up data work, but judgment and explaining choices to people still matter.",
+          "ar": "الذكاء الاصطناعي يسرّع العمل على البيانات، لكن الحكم السليم وشرح القرارات للناس ما زالا مهمين."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Normal office hours most of the time, with long days around results season and deals.",
+      "ar": "ساعات مكتبية عادية في أغلب الوقت، مع أيام طويلة في مواسم النتائج والصفقات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior or credit analyst",
+        "ar": "محلل مبتدئ أو محلل ائتمان"
+      },
+      {
+        "en": "Financial analyst",
+        "ar": "محلل مالي"
+      },
+      {
+        "en": "Senior analyst",
+        "ar": "محلل أول"
+      },
+      {
+        "en": "Finance manager or portfolio manager",
+        "ar": "مدير مالي أو مدير محفظة"
+      },
+      {
+        "en": "Head of finance or investment director",
+        "ar": "رئيس المالية أو مدير استثمار"
+      }
+    ],
+    "relatedCareerIds": [
+      "accountant",
+      "banker",
+      "auditor",
+      "actuary",
+      "data_scientist",
+      "management_consultant"
+    ],
+    "pivots": [
+      {
+        "en": "Investment banking or asset management",
+        "ar": "الخدمات المصرفية الاستثمارية أو إدارة الأصول"
+      },
+      {
+        "en": "Risk and compliance",
+        "ar": "المخاطر والامتثال"
+      },
+      {
+        "en": "Data analytics or fintech product roles",
+        "ar": "تحليل البيانات أو منتجات التكنولوجيا المالية"
+      },
+      {
+        "en": "Running your own business",
+        "ar": "إدارة مشروعك الخاص"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Financial analyst salary",
+      "url": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy/financial-analyst",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Banking salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/banking",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate: Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Financial Regulatory Authority (FRA)",
+      "url": "https://fra.gov.eg/en/",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

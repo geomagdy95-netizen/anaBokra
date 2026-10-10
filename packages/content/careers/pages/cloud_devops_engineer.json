@@ -1,0 +1,173 @@
+{
+  "id": "cloud_devops_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep the internet services people rely on running day and night.",
+      "ar": "أنت من يُبقي خدمات الإنترنت التي يعتمد عليها الناس تعمل ليلًا ونهارًا."
+    },
+    "summary": {
+      "en": "Cloud and DevOps engineers set up and look after the servers, networks and tools that run websites and apps. They automate the work of releasing software and make sure systems stay fast, secure and available. Almost every company that uses software needs this skill.",
+      "ar": "مهندس السحابة وDevOps يجهّز ويرعى الخوادم والشبكات والأدوات التي تشغّل المواقع والتطبيقات. يؤتمت عملية إطلاق البرمجيات ويضمن أن تبقى الأنظمة سريعة وآمنة ومتاحة. وتحتاج هذه المهارة تقريبًا كل شركة تستخدم البرمجيات."
+    },
+    "dayInLife": {
+      "en": "You check the dashboards first thing: all services are green except one that is slow. You find the reason in the logs, change a setting and watch the speed recover. Then you improve the automatic pipeline that deploys new code, so developers can release faster. In the afternoon you review the cloud bill and shut down servers nobody is using.",
+      "ar": "تفتح لوحات المتابعة أول شيء: كل الخدمات سليمة عدا واحدة بطيئة. تجد السبب في سجلات النظام وتغيّر إعدادًا وتراقب السرعة وهي تعود. ثم تحسّن خط النشر الآلي للكود الجديد ليتمكن المبرمجون من الإطلاق أسرع. بعد الظهر تراجع فاتورة السحابة وتغلق الخوادم التي لا يستخدمها أحد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Set up and manage servers and networks in the cloud.",
+        "ar": "تجهّز وتدير الخوادم والشبكات على السحابة."
+      },
+      {
+        "en": "Automate building, testing and releasing software.",
+        "ar": "تؤتمت بناء البرمجيات واختبارها وإطلاقها."
+      },
+      {
+        "en": "Watch systems and respond when something fails.",
+        "ar": "تراقب الأنظمة وتتصرف عند حدوث عطل."
+      },
+      {
+        "en": "Keep systems secure and backed up.",
+        "ar": "تحافظ على أمان الأنظمة وعلى النسخ الاحتياطية."
+      },
+      {
+        "en": "Control cloud costs.",
+        "ar": "تتحكم في تكاليف السحابة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Software and technology companies",
+        "ar": "شركات البرمجيات والتكنولوجيا"
+      },
+      {
+        "en": "Banks, telecom and large enterprises",
+        "ar": "البنوك والاتصالات والشركات الكبرى"
+      },
+      {
+        "en": "Cloud consulting firms and remote international teams",
+        "ar": "شركات استشارات السحابة وفرق دولية عن بُعد"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Cloud platforms such as AWS, Azure and Google Cloud",
+        "ar": "منصات السحابة مثل AWS وAzure وGoogle Cloud"
+      },
+      {
+        "en": "Linux, Docker and Kubernetes",
+        "ar": "Linux وDocker وKubernetes"
+      },
+      {
+        "en": "Automation and monitoring tools",
+        "ar": "أدوات الأتمتة والمراقبة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "The math or science stream both lead to computing faculties. With IGCSE or A-Level, Mathematics and Computer Science are the most useful; with the American Diploma, AP Computer Science and AP Calculus. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبتان العلمي والرياضيات تؤديان إلى كليات الحاسبات. في IGCSE أو A-Level الأنفع الرياضيات وعلوم الحاسب؛ وفي الدبلومة الأمريكية AP علوم الحاسب وAP حساب التفاضل. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Computers and Information / Computers and Artificial Intelligence",
+        "ar": "كليات الحاسبات والمعلومات / الحاسبات والذكاء الاصطناعي"
+      },
+      {
+        "en": "Faculties of Engineering, computer or communications departments",
+        "ar": "كليات الهندسة أقسام الحاسبات أو الاتصالات"
+      },
+      {
+        "en": "Computer science and IT programs at private universities",
+        "ar": "برامج علوم الحاسب وتقنية المعلومات بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "mansoura-university-computers-information",
+      "assiut-university-computers-information",
+      "british-university-in-egypt-informatics-computer-science",
+      "misr-international-university-computer-science"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimum (percent of total marks) for the programs we track: 2025: 88.75% (Alexandria University, the only linked program with a published figure in our data). Newer figures are not in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 61% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2025: 88.75% (جامعة الإسكندرية، وهو البرنامج الوحيد المرتبط الذي لدينا له رقم منشور). الأرقام الأحدث غير متوفرة في بياناتنا. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 61% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start in IT support or as a system or network administrator, then move to cloud with certificates.",
+        "ar": "البدء في الدعم الفني أو إدارة الأنظمة والشبكات ثم الانتقال إلى السحابة بالشهادات."
+      },
+      {
+        "en": "Training programs and bootcamps such as ITI, DEPI or vendor academies, plus cloud certificates.",
+        "ar": "برامج التدريب والمعسكرات مثل ITI وDEPI وأكاديميات الشركات، مع شهادات السحابة."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "software_engineer",
+      "cybersecurity_specialist",
+      "it_support",
+      "data_scientist",
+      "ai_engineer",
+      "mobile_developer"
+    ],
+    "pivots": [
+      {
+        "en": "Cybersecurity",
+        "ar": "الأمن السيبراني"
+      },
+      {
+        "en": "Cloud architecture",
+        "ar": "معمارية السحابة"
+      },
+      {
+        "en": "Software engineering",
+        "ar": "هندسة البرمجيات"
+      },
+      {
+        "en": "Remote work for international companies",
+        "ar": "العمل عن بُعد لشركات دولية"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Cloud / DevOps Engineer",
+      "url": "https://www.onetonline.org/link/summary/15-1299.08",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Cloud / DevOps Engineer",
+      "url": "https://www.mynextmove.org/profile/summary/15-1299.08",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

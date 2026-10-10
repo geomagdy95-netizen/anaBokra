@@ -1,0 +1,180 @@
+{
+  "id": "management_consultant",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You solve business problems for organisations that ask for help.",
+      "ar": "تحل مشكلات الأعمال لجهات تطلب المساعدة."
+    },
+    "summary": {
+      "en": "Management consultants study how an organisation works, find what is not working and recommend changes. They collect data, interview people and present clear advice to leaders. Most start as analysts in consulting firms, where the pace is fast and the learning is quick.",
+      "ar": "استشاري الإدارة يدرس كيف تعمل المؤسسة ويكتشف ما لا يعمل جيدًا ويوصي بالتغييرات. يجمع البيانات ويقابل الناس ويعرض نصيحة واضحة على القيادات. يبدأ معظمهم محللين في شركات الاستشارات حيث الإيقاع سريع والتعلم أسرع."
+    },
+    "dayInLife": {
+      "en": "Your team is helping a retailer lower its costs. You spend the morning in a spreadsheet, finding which stores lose money. At noon you interview a store manager to understand why. In the afternoon you turn the findings into three simple slides and practise how to present them. In the evening you often continue the work to meet the deadline.",
+      "ar": "فريقك يساعد شركة تجزئة على خفض تكاليفها. تقضي الصباح في جدول بيانات تبحث عن الفروع الخاسرة. وعند الظهر تقابل مدير فرع لتفهم السبب. بعد الظهر تحوّل النتائج إلى ثلاث شرائح بسيطة وتتدرب على عرضها. وفي المساء غالبًا تواصل العمل لتلحق بالموعد النهائي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Define the client's problem and plan how to study it.",
+        "ar": "تحدد مشكلة العميل وتخطط لدراستها."
+      },
+      {
+        "en": "Collect and analyse data and interview staff.",
+        "ar": "تجمع البيانات وتحللها وتقابل العاملين."
+      },
+      {
+        "en": "Build recommendations and a business case.",
+        "ar": "تبني التوصيات وجدوى العمل."
+      },
+      {
+        "en": "Present findings to managers in clear, short slides.",
+        "ar": "تعرض النتائج على المديرين في شرائح واضحة ومختصرة."
+      },
+      {
+        "en": "Help the client put the changes into practice.",
+        "ar": "تساعد العميل على تنفيذ التغييرات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Consulting firms",
+        "ar": "شركات الاستشارات"
+      },
+      {
+        "en": "Large companies' internal strategy teams",
+        "ar": "فرق الاستراتيجية الداخلية في الشركات الكبرى"
+      },
+      {
+        "en": "Government and development organisations",
+        "ar": "الجهات الحكومية ومنظمات التنمية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and PowerPoint",
+        "ar": "إكسل وباوربوينت"
+      },
+      {
+        "en": "Data-analysis and survey tools",
+        "ar": "أدوات تحليل البيانات والاستبيانات"
+      },
+      {
+        "en": "Interview and workshop methods",
+        "ar": "أساليب المقابلات وورش العمل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "No single stream is required; students from the literary, science and math streams all enter commerce and business faculties. With IGCSE or A-Level, Business Studies, Economics, Maths and Accounting help; with the American Diploma, Statistics, Economics and business electives help. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "لا تُشترط شعبة معينة؛ فطلاب الشعب الأدبية والعلمية والرياضيات يدخلون كليات التجارة والأعمال. في IGCSE وA-Level تفيد دراسات الأعمال والاقتصاد والرياضيات والمحاسبة؛ وفي الدبلومة الأمريكية يفيد الإحصاء والاقتصاد ومواد الأعمال الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Commerce at public universities (Arabic or English sections)",
+        "ar": "كليات التجارة بالجامعات الحكومية (شعبة عربي أو إنجليزي)"
+      },
+      {
+        "en": "Faculties of Business Administration at private universities",
+        "ar": "كليات إدارة الأعمال بالجامعات الخاصة"
+      },
+      {
+        "en": "Faculties of Economics and Political Science",
+        "ar": "كليات الاقتصاد والعلوم السياسية"
+      },
+      {
+        "en": "Faculties of Engineering or other degrees with strong analytical skills",
+        "ar": "كليات الهندسة أو درجات أخرى تنمي المهارات التحليلية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "ain-shams-university-commerce",
+      "alexandria-university-commerce",
+      "assiut-university-commerce",
+      "capital-university-commerce",
+      "british-university-in-egypt-business-administration",
+      "ain-shams-national-university-business-fintech",
+      "cairo-university-economics-political-science",
+      "american-university-in-cairo-business"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 71.88% to 93.44% across 6 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 71.88% إلى 93.44% عبر 6 برنامجًا (الأدنى جامعة أسيوط والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start in a company job (finance, operations or marketing), then move into consulting after gaining experience.",
+        "ar": "البدء في وظيفة بشركة (مالية أو عمليات أو تسويق) ثم الانتقال للاستشارات بعد اكتساب الخبرة."
+      },
+      {
+        "en": "A master's degree in business or a related field can help, but strong analysis and communication matter most.",
+        "ar": "ماجستير في إدارة الأعمال أو مجال قريب قد يساعد، لكن التحليل القوي والتواصل هما الأهم."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "financial_analyst",
+      "product_manager",
+      "entrepreneur",
+      "hr_specialist",
+      "accountant",
+      "supply_chain_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Company strategy or operations roles",
+        "ar": "وظائف الاستراتيجية أو العمليات في الشركات"
+      },
+      {
+        "en": "Starting your own business",
+        "ar": "بدء مشروعك الخاص"
+      },
+      {
+        "en": "Private equity and investment",
+        "ar": "الاستثمار المباشر"
+      },
+      {
+        "en": "Specialised consulting (technology, finance, HR)",
+        "ar": "استشارات متخصصة (التقنية أو المال أو الموارد البشرية)"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Management Consultant",
+      "url": "https://www.onetonline.org/link/summary/13-1111.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Management Consultant",
+      "url": "https://www.mynextmove.org/profile/summary/13-1111.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

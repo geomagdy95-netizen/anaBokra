@@ -1,0 +1,175 @@
+{
+  "id": "chemical_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You turn raw materials into products people use every day.",
+      "ar": "تحوّل المواد الخام إلى منتجات يستخدمها الناس كل يوم."
+    },
+    "summary": {
+      "en": "Chemical engineers design and run the processes that make fuel, plastics, fertilizer, medicine, food and many other products. They use chemistry, physics and maths to make production safe, efficient and clean. Egypt has many plants and refineries where this work happens.",
+      "ar": "المهندس الكيميائي يصمم ويشغّل العمليات التي تنتج الوقود والبلاستيك والأسمدة والدواء والغذاء ومنتجات كثيرة غيرها. يستخدم الكيمياء والفيزياء والرياضيات ليجعل الإنتاج آمنًا وكفؤًا ونظيفًا. وفي مصر مصانع ومعامل تكرير كثيرة يتم فيها هذا العمل."
+    },
+    "dayInLife": {
+      "en": "You walk through the plant and check temperatures, pressures and flow on the control screens. One reactor is producing less than planned, so you review the data with the operators and suggest a small change. After lunch you join a safety meeting, then work on a report that compares two ways to cut energy use. Safety checks come before everything else.",
+      "ar": "تتجول في المصنع وتتابع درجات الحرارة والضغط والتدفق على شاشات التحكم. أحد المفاعلات ينتج أقل من المخطط، فتراجع البيانات مع المشغّلين وتقترح تعديلًا صغيرًا. بعد الغداء تحضر اجتماع السلامة، ثم تعمل على تقرير يقارن طريقتين لتقليل استهلاك الطاقة. فحوصات السلامة تأتي قبل أي شيء."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design and improve production processes and equipment.",
+        "ar": "تصمم عمليات الإنتاج والمعدات وتحسّنها."
+      },
+      {
+        "en": "Monitor plant data and fix problems that reduce quality or output.",
+        "ar": "تتابع بيانات المصنع وتحل المشكلات التي تقلل الجودة أو الإنتاج."
+      },
+      {
+        "en": "Test new materials and methods in the lab or small pilot plants.",
+        "ar": "تختبر مواد وطرقًا جديدة في المعمل أو في وحدات تجريبية صغيرة."
+      },
+      {
+        "en": "Make sure processes follow safety and environmental rules.",
+        "ar": "تتأكد من التزام العمليات بقواعد السلامة والبيئة."
+      },
+      {
+        "en": "Estimate costs and write technical reports.",
+        "ar": "تقدّر التكاليف وتكتب التقارير الفنية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Factories, refineries and petrochemical plants",
+        "ar": "المصانع ومعامل التكرير والبتروكيماويات"
+      },
+      {
+        "en": "Fertilizer, cement, food and pharmaceutical plants",
+        "ar": "مصانع الأسمدة والأسمنت والأغذية والأدوية"
+      },
+      {
+        "en": "Consulting firms and research labs",
+        "ar": "شركات الاستشارات ومعامل الأبحاث"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Process simulation software",
+        "ar": "برامج محاكاة العمليات الصناعية"
+      },
+      {
+        "en": "Excel and data-analysis tools",
+        "ar": "إكسل وأدوات تحليل البيانات"
+      },
+      {
+        "en": "Plant control systems and lab instruments",
+        "ar": "أنظمة التحكم في المصانع وأجهزة المعامل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "The math stream is the usual route to Faculties of Engineering. With IGCSE or A-Level take Mathematics, Physics and Chemistry; with the American Diploma take AP Calculus, Physics and Chemistry if your school offers them. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "شعبة الرياضيات هي المسار المعتاد لكليات الهندسة. في IGCSE أو A-Level خذ الرياضيات والفيزياء والكيمياء؛ وفي الدبلومة الأمريكية خذ AP حساب التفاضل والفيزياء والكيمياء إن وفرتها مدرستك. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Engineering, chemical engineering departments (some universities choose departments after a preparatory year)",
+        "ar": "كليات الهندسة، أقسام الهندسة الكيميائية (تختار بعض الجامعات القسم بعد السنة التمهيدية)"
+      },
+      {
+        "en": "Private university engineering programs in chemical, materials or energy fields",
+        "ar": "برامج الهندسة بالجامعات الخاصة في المجالات الكيميائية أو المواد أو الطاقة"
+      },
+      {
+        "en": "Egypt-Japan University of Science and Technology (E-JUST) engineering programs",
+        "ar": "برامج الهندسة بجامعة مصر واليابان للعلوم والتكنولوجيا E-JUST"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "british-university-in-egypt-energy-environmental-engineering",
+      "german-university-in-cairo-engineering-materials-science"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.78% across 5 programs (lowest Assiut University, highest Mansoura University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.78% عبر 5 برنامجًا (الأدنى جامعة أسيوط والأعلى جامعة المنصورة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Industrial technical secondary school or technical institute, then work as a plant technician while you study part-time for a degree.",
+        "ar": "الثانوية الفنية الصناعية أو المعهد الفني ثم العمل كفني في مصنع مع استكمال الدراسة الجامعية."
+      },
+      {
+        "en": "A degree in chemistry, then a master's or training in process engineering.",
+        "ar": "درجة في الكيمياء ثم ماجستير أو تدريب في هندسة العمليات."
+      }
+    ],
+    "licensing": {
+      "en": "Engineers register with the Engineers Syndicate, which is usually needed for signing designs and for some jobs. Requirements change, so check with the syndicate.",
+      "ar": "يسجّل المهندسون في نقابة المهندسين، وهو مطلوب عادة لاعتماد التصميمات ولبعض الوظائف. المتطلبات تتغير، فتأكد من النقابة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "petroleum_engineer",
+      "mechanical_engineer",
+      "renewable_energy_engineer",
+      "chemist",
+      "food_scientist",
+      "environmental_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Process safety",
+        "ar": "سلامة العمليات"
+      },
+      {
+        "en": "Environmental and water treatment engineering",
+        "ar": "هندسة البيئة ومعالجة المياه"
+      },
+      {
+        "en": "Oil, gas and petrochemicals",
+        "ar": "البترول والغاز والبتروكيماويات"
+      },
+      {
+        "en": "Plant management",
+        "ar": "إدارة المصانع"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Chemical Engineer",
+      "url": "https://www.onetonline.org/link/summary/17-2041.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Chemical Engineer",
+      "url": "https://www.mynextmove.org/profile/summary/17-2041.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

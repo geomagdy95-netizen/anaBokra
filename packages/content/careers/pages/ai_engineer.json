@@ -1,0 +1,410 @@
+{
+  "id": "ai_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You build systems that learn, see, read and talk, and put them to work in real products.",
+      "ar": "تبني أنظمة تتعلم وترى وتقرأ وتتحدث، وتضعها في خدمة منتجات حقيقية."
+    },
+    "summary": {
+      "en": "AI engineers design, train and deploy machine-learning systems, such as image recognition, language tools and recommendation engines. Egypt launched the second edition of its National AI Strategy (2025-2030), which aims to train more than 30,000 AI specialists and build over 250 AI startups, but these are goals, not guarantees. You need strong programming and math.",
+      "ar": "مهندس الذكاء الاصطناعي يصمم ويدرّب وينشر أنظمة تعلم آلي مثل التعرف على الصور وأدوات اللغة ومحركات التوصية. أطلقت مصر الإصدار الثاني من استراتيجيتها الوطنية للذكاء الاصطناعي (2025-2030) وتستهدف تدريب أكثر من 30 ألف متخصص وإنشاء أكثر من 250 شركة ناشئة، لكنها أهداف لا ضمانات. تحتاج برمجة ورياضيات قوية."
+    },
+    "dayInLife": {
+      "en": "You start by checking a model that reads Arabic receipts and notice it fails on blurry photos. You look at examples, add more training data and retrain it overnight. In the afternoon you work with a software engineer to connect the model to an app, making it fast enough for phones. You also test for unfair or wrong answers, because the system will be used by real people. At the end of the day you write your experiments in a log so the team knows what worked and what did not.",
+      "ar": "تبدأ بفحص نموذج يقرأ الإيصالات العربية وتلاحظ أنه يفشل مع الصور غير الواضحة. تنظر في أمثلة وتضيف بيانات تدريب وتعيد تدريبه طوال الليل. بعد الظهر تعمل مع مهندس برمجيات لربط النموذج بتطبيق وجعله سريعًا بما يكفي للهواتف. وتختبر الإجابات غير العادلة أو الخاطئة لأن الناس سيستخدمون النظام. في نهاية اليوم تدوّن تجاربك في سجل ليعرف الفريق ما نجح وما لم ينجح."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Prepare datasets and design experiments for training models.",
+        "ar": "تجهز مجموعات البيانات وتصمم تجارب تدريب النماذج."
+      },
+      {
+        "en": "Train, evaluate and improve machine-learning and deep-learning models.",
+        "ar": "تدرب وتقيّم وتحسّن نماذج التعلم الآلي والتعلم العميق."
+      },
+      {
+        "en": "Use or adapt existing large language and vision models.",
+        "ar": "تستخدم أو تكيّف نماذج لغوية وبصرية كبيرة موجودة."
+      },
+      {
+        "en": "Deploy models into apps and services, and monitor them.",
+        "ar": "تنشر النماذج في التطبيقات والخدمات وتراقبها."
+      },
+      {
+        "en": "Test for errors, bias and safety issues.",
+        "ar": "تختبر الأخطاء والتحيز ومشكلات الأمان."
+      },
+      {
+        "en": "Work with software, data and product teams.",
+        "ar": "تعمل مع فرق البرمجيات والبيانات والمنتج."
+      }
+    ],
+    "environments": [
+      {
+        "en": "AI startups and software companies",
+        "ar": "الشركات الناشئة في الذكاء الاصطناعي وشركات البرمجيات"
+      },
+      {
+        "en": "Banks, telecom, e-commerce and government innovation teams",
+        "ar": "البنوك والاتصالات والتجارة الإلكترونية وفرق الابتكار الحكومية"
+      },
+      {
+        "en": "University and research labs",
+        "ar": "المعامل الجامعية والبحثية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Python, PyTorch, TensorFlow and scikit-learn",
+        "ar": "بايثون وPyTorch وTensorFlow وscikit-learn"
+      },
+      {
+        "en": "GPU cloud platforms and Docker",
+        "ar": "منصات GPU السحابية وDocker"
+      },
+      {
+        "en": "Hugging Face and APIs of large AI models",
+        "ar": "Hugging Face وواجهات النماذج الكبيرة"
+      },
+      {
+        "en": "Git, notebooks and experiment tracking tools",
+        "ar": "Git ودفاتر الملاحظات وأدوات تتبع التجارب"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, Mathematics and Computer Science (or Further Maths) are the most useful; Physics helps for engineering routes. With the American Diploma, take AP Computer Science A, AP Calculus and AP Statistics if your school offers them. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules and are popular in this field.",
+      "ar": "في IGCSE أو A-levels الأنفع هي الرياضيات وعلوم الحاسب (أو الرياضيات المتقدمة)، والفيزياء تفيد في مسارات الهندسة. وفي الدبلومة الأمريكية خذ AP علوم الحاسب A وAP حساب التفاضل وAP إحصاء إن وفرتها مدرستك. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة وهي شائعة في هذا المجال."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Computers and Artificial Intelligence / Faculty of Artificial Intelligence (Cairo, Menoufia, Kafr El-Sheikh and others)",
+        "ar": "كليات الحاسبات والذكاء الاصطناعي / كليات الذكاء الاصطناعي (القاهرة والمنوفية وكفر الشيخ وغيرها)"
+      },
+      {
+        "en": "Faculty of Computers and Information, Computer Science or Computer Engineering departments",
+        "ar": "كليات الحاسبات والمعلومات أقسام علوم الحاسب أو هندسة الحاسبات"
+      },
+      {
+        "en": "Electronics and AI Engineering at Ain Shams National University; Zewail City and E-JUST for research-oriented AI",
+        "ar": "هندسة الإلكترونيات والذكاء الاصطناعي بجامعة عين شمس الأهلية؛ ومدينة زويل وE-JUST للذكاء الاصطناعي البحثي"
+      }
+    ],
+    "programIds": [
+      "cairo-university-computers-information",
+      "ain-shams-university-computers-information",
+      "alexandria-university-computers-information",
+      "mansoura-university-computers-information",
+      "assiut-university-computers-information",
+      "minia-university-computers-information",
+      "sohag-university-computers-information",
+      "kafrelsheikh-university-artificial-intelligence",
+      "british-university-in-egypt-informatics-computer-science",
+      "german-university-in-cairo-information-engineering-technology",
+      "misr-international-university-computer-science",
+      "zagazig-university-computers-information"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 91.41% (Sohag University, the only program with a published figure in our data); 2025: 88.75% to 91.72% across 2 programs (lowest Alexandria University, highest Sohag University); 2024: 87.2% to 91.46% across 8 programs (lowest Ain Shams University, highest Sohag University); 2023: 83.54% to 89.39% across 11 programs (lowest Damietta University, highest Sohag University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 61% to 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Our data has public computing-faculty minimums for only a few universities and years (Alexandria 88.75% in 2025, Sohag 91.72% in 2025 and 91.41% in 2026), so ask the Tansik office for the faculty you want.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: 91.41% (جامعة سوهاج، وهو البرنامج الوحيد الذي لدينا له رقم منشور)؛ 2025: من 88.75% إلى 91.72% عبر 2 برنامجًا (الأدنى جامعة الإسكندرية، الأعلى جامعة سوهاج)؛ 2024: من 87.2% إلى 91.46% عبر 8 برنامجًا (الأدنى جامعة عين شمس، الأعلى جامعة سوهاج)؛ 2023: من 83.54% إلى 89.39% عبر 11 برنامجًا (الأدنى جامعة دمياط، الأعلى جامعة سوهاج). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: من 61% إلى 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. لدينا حدود دنيا لكليات الحوسبة الحكومية لعدد قليل من الجامعات والسنوات (الإسكندرية 88.75% في 2025 وسوهاج 91.72% في 2025 و91.41% في 2026)، فاسأل مكتب التنسيق عن الكلية التي تريدها."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a software engineer or data analyst, then specialize in machine learning through projects and short programs (ITI, DEPI, Microsoft, Huawei, Sprints, 3C).",
+        "ar": "ابدأ كمهندس برمجيات أو محلل بيانات ثم تخصص في التعلم الآلي عبر المشروعات والبرامج القصيرة (ITI وDEPI ومايكروسوفت وهواوي وSprints وC3)."
+      },
+      {
+        "en": "A master's degree in AI or machine learning (in Egypt or abroad) is a common next step for research-heavy roles.",
+        "ar": "الماجستير في الذكاء الاصطناعي أو التعلم الآلي (في مصر أو الخارج) خطوة شائعة للوظائف البحثية."
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Python programming",
+        "ar": "برمجة بايثون"
+      },
+      {
+        "en": "Linear algebra, probability and calculus",
+        "ar": "الجبر الخطي والاحتمالات والتفاضل"
+      },
+      {
+        "en": "Machine learning and deep learning",
+        "ar": "التعلم الآلي والتعلم العميق"
+      },
+      {
+        "en": "Data engineering basics and MLOps (deployment)",
+        "ar": "أساسيات هندسة البيانات وMLOps (النشر)"
+      },
+      {
+        "en": "Evaluating models and understanding bias",
+        "ar": "تقييم النماذج وفهم التحيز"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Experimenting patiently and recording what you try",
+        "ar": "التجريب بصبر وتسجيل ما تجربه"
+      },
+      {
+        "en": "Thinking about ethics and who is affected",
+        "ar": "التفكير في الأخلاقيات ومن يتأثر"
+      },
+      {
+        "en": "Explaining AI limits honestly",
+        "ar": "شرح حدود الذكاء الاصطناعي بصدق"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English is essential for research and tools",
+        "ar": "الإنجليزية ضرورية للأبحاث والأدوات"
+      },
+      {
+        "en": "Arabic: Arabic language AI is an area with real need",
+        "ar": "العربية: الذكاء الاصطناعي بالعربية مجال له حاجة حقيقية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Cloud AI certificates (Azure AI, Google Cloud ML, AWS ML)",
+        "ar": "شهادات الذكاء الاصطناعي السحابية (Azure AI وGoogle Cloud ML وAWS ML)"
+      },
+      {
+        "en": "Huawei HCIA-AI or similar vendor certificates",
+        "ar": "شهادة Huawei HCIA-AI أو شهادات موردين مشابهة"
+      },
+      {
+        "en": "Research papers and projects often matter more than certificates",
+        "ar": "الأبحاث والمشروعات غالبًا أهم من الشهادات"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "fast.ai Practical Deep Learning",
+        "url": "https://course.fast.ai",
+        "free": true
+      },
+      {
+        "title": "Google Machine Learning Crash Course",
+        "url": "https://developers.google.com/machine-learning/crash-course",
+        "free": true
+      },
+      {
+        "title": "CS50 Introduction to Artificial Intelligence with Python (Harvard)",
+        "url": "https://cs50.harvard.edu/ai/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Software and AI companies, startups and outsourcing firms",
+        "ar": "شركات البرمجيات والذكاء الاصطناعي والشركات الناشئة وشركات التعهيد"
+      },
+      {
+        "en": "Banks, telecom operators and e-commerce companies",
+        "ar": "البنوك ومشغلو الاتصالات وشركات التجارة الإلكترونية"
+      },
+      {
+        "en": "Government programs under the Ministry of Communications and Information Technology",
+        "ar": "برامج حكومية تحت مظلة وزارة الاتصالات وتكنولوجيا المعلومات"
+      },
+      {
+        "en": "International companies hiring remotely",
+        "ar": "الشركات الدولية التي توظف عن بعد"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Remote work is common, from building chatbots to computer vision projects for foreign clients. Entry is competitive, and you should have a few real projects to show.",
+      "ar": "العمل عن بعد شائع، من بناء روبوتات المحادثة إلى مشروعات الرؤية الحاسوبية لعملاء أجانب. والدخول تنافسي، ولا بد من بضعة مشروعات حقيقية لتعرضها."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo (Smart Village, New Cairo) and Alexandria",
+        "ar": "القاهرة الكبرى (القرية الذكية والقاهرة الجديدة) والإسكندرية"
+      },
+      {
+        "en": "Remote work from any governorate",
+        "ar": "العمل عن بعد من أي محافظة"
+      }
+    ],
+    "providerIds": [
+      "iti",
+      "depi",
+      "huawei-ict-academy-egypt",
+      "microsoft-egypt-ai-skilling",
+      "sprints",
+      "3c-coding-school"
+    ],
+    "salaryNote": {
+      "en": "We did not find a citable Egypt salary figure for AI engineers, so pay is left empty. The Paylab Egypt pages for software engineers and data scientists show wide ranges, and AI roles are likely to fall in the upper part of those ranges, but that is our reasoning, not data.",
+      "ar": "لم نجد رقمًا موثقًا لراتب مهندس الذكاء الاصطناعي في مصر، لذا تُرك الراتب فارغًا. تعرض صفحات Paylab لمهندس البرمجيات وعالم البيانات نطاقات واسعة، ومن المرجح أن تقع وظائف الذكاء الاصطناعي في الجزء الأعلى منها، لكن هذا استنتاج منا لا بيانات."
+    }
+  },
+  "global": {
+    "en": "AI engineers are in demand worldwide, and the Gulf is investing heavily in AI. Research and senior roles often need a master's or PhD, a strong portfolio or published work. Competition is global, so show real projects rather than only course certificates.",
+    "ar": "مهندسو الذكاء الاصطناعي مطلوبون عالميًا، والخليج يستثمر بقوة في الذكاء الاصطناعي. تحتاج الوظائف البحثية والعليا غالبًا ماجستيرًا أو دكتوراه أو محفظة قوية أو أبحاثًا منشورة. المنافسة عالمية فاعرض مشروعات حقيقية لا شهادات دورات فقط."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Frontier field with fast progress",
+        "ar": "مجال متقدم وسريع التطور"
+      },
+      {
+        "en": "Strong national support, training programs and corporate partnerships",
+        "ar": "دعم وطني قوي وبرامج تدريب وشراكات مع الشركات"
+      },
+      {
+        "en": "Remote and international options",
+        "ar": "خيارات للعمل عن بعد ودوليًا"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Needs strong math and programming, and it takes years to master",
+        "ar": "يحتاج رياضيات وبرمجة قوية ويستغرق سنوات للإتقان"
+      },
+      {
+        "en": "Tools and best practices change every few months",
+        "ar": "الأدوات وأفضل الممارسات تتغير كل بضعة أشهر"
+      },
+      {
+        "en": "Compute and data are costly, and entry-level roles are limited",
+        "ar": "الحوسبة والبيانات مكلفتان والوظائف المبتدئة محدودة"
+      },
+      {
+        "en": "AI hype can mislead; real systems are harder than demos",
+        "ar": "ضجيج الذكاء الاصطناعي قد يضلل؛ والنظم الحقيقية أصعب من العروض"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "AI engineering means just calling ChatGPT.",
+          "ar": "هندسة الذكاء الاصطناعي تعني استدعاء ChatGPT فقط."
+        },
+        "fact": {
+          "en": "Using APIs is one part; you also need data, evaluation, deployment, cost control and understanding why models fail.",
+          "ar": "استخدام الواجهات جزء؛ وتحتاج أيضًا البيانات والتقييم والنشر وضبط التكلفة وفهم أسباب فشل النماذج."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will take all tech jobs, so there is no point.",
+          "ar": "الذكاء الاصطناعي سيأخذ كل وظائف التقنية فلا فائدة."
+        },
+        "fact": {
+          "en": "AI changes tasks, but people who build and supervise it are in demand. Learning fundamentals protects you.",
+          "ar": "يغيّر الذكاء الاصطناعي المهام، لكن من يبنونه ويشرفون عليه مطلوبون. وتعلم الأساسيات يحميك."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular, flexible and often remote-friendly, with intense periods before launches or when models need retraining.",
+      "ar": "غالبًا منتظمة ومرنة وصديقة للعمل عن بعد، مع فترات ضغط قبل الإطلاق أو عند إعادة تدريب النماذج."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior ML / AI engineer or data analyst",
+        "ar": "مهندس تعلم آلي / ذكاء اصطناعي مبتدئ أو محلل بيانات"
+      },
+      {
+        "en": "Machine learning engineer",
+        "ar": "مهندس تعلم آلي"
+      },
+      {
+        "en": "Senior AI engineer",
+        "ar": "مهندس ذكاء اصطناعي أول"
+      },
+      {
+        "en": "AI lead or research scientist",
+        "ar": "قائد فريق ذكاء اصطناعي أو عالم أبحاث"
+      },
+      {
+        "en": "Head of AI or founder",
+        "ar": "رئيس الذكاء الاصطناعي أو مؤسس"
+      }
+    ],
+    "relatedCareerIds": [
+      "data_scientist",
+      "software_engineer",
+      "cloud_devops_engineer",
+      "cybersecurity_specialist",
+      "mechatronics_engineer",
+      "game_developer"
+    ],
+    "pivots": [
+      {
+        "en": "Data engineering or MLOps",
+        "ar": "هندسة البيانات أو MLOps"
+      },
+      {
+        "en": "AI product management",
+        "ar": "إدارة منتجات الذكاء الاصطناعي"
+      },
+      {
+        "en": "Robotics, computer vision or AI ethics and policy",
+        "ar": "الروبوتات أو الرؤية الحاسوبية أو أخلاقيات الذكاء الاصطناعي وسياساته"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt digital exports hit $7.4bn (Dec 2025)",
+      "url": "https://meatechwatch.com/2025/12/23/egypts-digital-exports-hit-7-4bn-as-ict-sector-drives-economic-growth/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt launches second edition of National AI Strategy (2025-2030)",
+      "url": "https://meatechwatch.com/2025/07/15/egypt-launches-second-edition-of-national-ai-strategy-to-cement-role-as-regional-ai-hub/",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

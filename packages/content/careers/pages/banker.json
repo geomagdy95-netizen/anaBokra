@@ -1,0 +1,425 @@
+{
+  "id": "banker",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help people and companies save, borrow and grow their money safely.",
+      "ar": "تساعد الناس والشركات على الادخار والاقتراض وتنمية أموالهم بأمان."
+    },
+    "summary": {
+      "en": "Bankers work with customers on accounts, loans, cards and investments, and they manage risk for the bank. Egypt has a system of around 36 banks and a push toward digital payments, so the roles are changing from counter service to advice, risk and technology. Many large banks run training programs for fresh graduates.",
+      "ar": "يعمل المصرفي مع العملاء على الحسابات والقروض والبطاقات والاستثمار، ويدير مخاطر البنك. في مصر نظام مصرفي من نحو 36 بنكًا وتوجه قوي نحو المدفوعات الرقمية، فتتحول الأدوار من خدمة الشباك إلى النصيحة والمخاطر والتكنولوجيا. وتقدم بنوك كبيرة برامج تدريب لحديثي التخرج."
+    },
+    "dayInLife": {
+      "en": "You arrive before the branch opens and review the list of customers you need to call. A small shop owner comes in to ask for a loan to buy new equipment. You listen, collect his documents and check his sales and debts. You explain the interest rate and the monthly payment in simple words and tell him honestly what the bank needs from him. After lunch you help an elderly customer set up the bank's mobile app. Before closing you record your meetings in the system and send the loan file to the credit team.",
+      "ar": "تصل قبل فتح الفرع وتراجع قائمة العملاء الذين ستتصل بهم. يأتي صاحب محل صغير ليطلب قرضًا لشراء معدات جديدة. تستمع إليه وتجمع أوراقه وتفحص مبيعاته وديونه. تشرح له سعر الفائدة والقسط الشهري بكلمات بسيطة وتقول له بصراحة ما يحتاجه البنك منه. بعد الغداء تساعد عميلًا كبير السن في تشغيل تطبيق البنك على موبايله. قبل الإغلاق تسجل اجتماعاتك في النظام وترسل ملف القرض إلى فريق الائتمان."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Open accounts and explain products such as savings, cards and loans.",
+        "ar": "تفتح الحسابات وتشرح المنتجات مثل الادخار والبطاقات والقروض."
+      },
+      {
+        "en": "Check customers' documents and income before approving credit.",
+        "ar": "تفحص أوراق العملاء ودخلهم قبل الموافقة على الائتمان."
+      },
+      {
+        "en": "Advise customers and companies on saving, borrowing and payments.",
+        "ar": "تنصح العملاء والشركات في الادخار والاقتراض والمدفوعات."
+      },
+      {
+        "en": "Follow anti-fraud and anti-money-laundering rules carefully.",
+        "ar": "تلتزم بدقة بقواعد مكافحة الاحتيال وغسل الأموال."
+      },
+      {
+        "en": "Help customers use digital banking and mobile wallets.",
+        "ar": "تساعد العملاء على استخدام الخدمات المصرفية الرقمية والمحافظ الإلكترونية."
+      },
+      {
+        "en": "Meet sales targets while treating customers fairly.",
+        "ar": "تحقق أهداف المبيعات مع معاملة العملاء بإنصاف."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Bank branches",
+        "ar": "فروع البنوك"
+      },
+      {
+        "en": "Corporate banking and head-office departments",
+        "ar": "إدارات الشركات والمقر الرئيسي"
+      },
+      {
+        "en": "Call centres and digital banking teams",
+        "ar": "مراكز الاتصال وفرق الخدمات الرقمية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Core banking software",
+        "ar": "أنظمة العمل المصرفي الأساسية"
+      },
+      {
+        "en": "Excel and presentation tools",
+        "ar": "إكسل وأدوات العرض"
+      },
+      {
+        "en": "Credit scoring and customer-management (CRM) systems",
+        "ar": "أنظمة تقييم الائتمان وإدارة العملاء (CRM)"
+      },
+      {
+        "en": "Mobile banking apps and payment systems such as InstaPay",
+        "ar": "تطبيقات البنوك على الموبايل وأنظمة الدفع مثل إنستا باي"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "IGCSE or A-Level: Mathematics, Economics, Business Studies and Accounting. American Diploma: Algebra, Statistics, Economics. IB: Maths, Economics and Business. Strong English and customer-service skills help.",
+      "ar": "IGCSE أو A-Level: الرياضيات والاقتصاد ودراسات الأعمال والمحاسبة. الدبلومة الأمريكية: الجبر والإحصاء والاقتصاد. IB: الرياضيات والاقتصاد والأعمال. الإنجليزية القوية ومهارات خدمة العملاء مفيدة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Commerce",
+        "ar": "كلية التجارة"
+      },
+      {
+        "en": "Faculty of Business Administration / Economics (including private universities)",
+        "ar": "كلية إدارة الأعمال / الاقتصاد (بما فيها الجامعات الخاصة)"
+      },
+      {
+        "en": "Other faculties are accepted by some banks, such as engineering or Al-Alsun, for specialised roles",
+        "ar": "تقبل بعض البنوك خريجي كليات أخرى مثل الهندسة أو الألسن لوظائف متخصصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "ain-shams-university-commerce",
+      "alexandria-university-commerce",
+      "capital-university-commerce",
+      "british-university-in-egypt-business-administration",
+      "ain-shams-national-university-business-fintech",
+      "misr-international-university-business-international-trade"
+    ],
+    "tansikNote": {
+      "en": "Commerce (literary track) asked for about 72% to 79% in the 2026 phase-1 lists (Assiut 71.88%, Cairo University 79.06%), and about 73% to 79.5% in 2025 (percent of the total). Private university programs show only a 53% regulatory floor for 2025/26, which is a legal minimum and not their real cutoff.",
+      "ar": "طلبت التجارة (الشعبة الأدبية) نحو 72% إلى 79% في المرحلة الأولى لعام 2026 (أسيوط 71.88% وجامعة القاهرة 79.06%)، ونحو 73% إلى 79.5% في 2025 (نسبة مئوية من المجموع). تعرض برامج الجامعات الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Fresh-graduate programs at banks and at the Egyptian Banking Institute (EBI), which the Central Bank's training arm runs with Pearson/Edexcel and Scotland's Chartered Banking Institute; banks may hire participants.",
+        "ar": "برامج حديثي التخرج في البنوك وفي المعهد المصرفي المصري (EBI)، الذراع التدريبية للبنك المركزي، بالتعاون مع Pearson/Edexcel ومعهد المصرفيين القانونيين في اسكتلندا؛ وقد توظف البنوك المشاركين."
+      },
+      {
+        "en": "Start in a call centre or customer-service role and move to branch or corporate roles.",
+        "ar": "ابدأ في مركز اتصال أو خدمة عملاء ثم انتقل لوظائف الفروع أو الشركات."
+      },
+      {
+        "en": "Technical commercial diplomas can lead to teller or clerk roles, with limited promotion without a degree.",
+        "ar": "الدبلومات التجارية الفنية قد تؤدي لوظائف صراف أو كاتب، مع فرص ترقية محدودة دون شهادة جامعية."
+      }
+    ],
+    "licensing": {
+      "en": "No personal license is needed to work in a bank, but banks follow Central Bank of Egypt (CBE) rules and run their own tests and interviews. Some roles, for example in securities or insurance, need extra licences or exams from the Financial Regulatory Authority.",
+      "ar": "لا يلزم ترخيص شخصي للعمل في بنك، لكن البنوك تلتزم بقواعد البنك المركزي المصري وتجري اختباراتها ومقابلاتها الخاصة. بعض الوظائف، مثل الأوراق المالية أو التأمين، تحتاج تراخيص أو امتحانات إضافية من الهيئة العامة للرقابة المالية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Banking products and credit basics",
+        "ar": "أساسيات المنتجات المصرفية والائتمان"
+      },
+      {
+        "en": "Reading financial statements",
+        "ar": "قراءة القوائم المالية"
+      },
+      {
+        "en": "Excel and data basics",
+        "ar": "إكسل وأساسيات البيانات"
+      },
+      {
+        "en": "Anti-money-laundering (AML) and compliance rules",
+        "ar": "قواعد مكافحة غسل الأموال والامتثال"
+      },
+      {
+        "en": "Digital banking and payments",
+        "ar": "الخدمات المصرفية الرقمية والمدفوعات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Listening and explaining clearly and politely",
+        "ar": "الاستماع والشرح بوضوح وأدب"
+      },
+      {
+        "en": "Trustworthiness and discretion",
+        "ar": "الأمانة والتكتم"
+      },
+      {
+        "en": "Selling honestly, without pressure",
+        "ar": "البيع بصدق ودون إلحاح"
+      },
+      {
+        "en": "Staying calm with upset customers",
+        "ar": "الهدوء مع العملاء الغاضبين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: reports, global banks and most training materials",
+        "ar": "الإنجليزية: التقارير والبنوك العالمية ومعظم مواد التدريب"
+      },
+      {
+        "en": "Arabic: customers and contracts",
+        "ar": "العربية: العملاء والعقود"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Egyptian Banking Institute (EBI) certificates and diplomas",
+        "ar": "شهادات ودبلومات المعهد المصرفي المصري (EBI)"
+      },
+      {
+        "en": "Chartered Banking Institute qualifications (via EBI)",
+        "ar": "مؤهلات معهد المصرفيين القانونيين (عبر EBI)"
+      },
+      {
+        "en": "ACAMS for anti-money laundering (later in career)",
+        "ar": "ACAMS لمكافحة غسل الأموال (في مرحلة متقدمة)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian Banking Institute (EBI)",
+        "url": "https://ebi.gov.eg",
+        "free": false
+      },
+      {
+        "title": "Central Bank of Egypt",
+        "url": "https://www.cbe.org.eg",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Banking and money",
+        "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+        "free": true
+      },
+      {
+        "title": "INJAZ Egypt youth programs",
+        "url": "https://www.injazegypt.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8885,
+        "max": 26939
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/banking",
+      "note": {
+        "en": "Source: Paylab Egypt anonymous salary survey, monthly gross, range shown is the 10th to 90th percentile (80% of respondents) for the job titles named in each level. Paylab does not date these figures, so 2026 means the reading taken in October 2026. Samples are small (some under 20 respondents) and numbers change as new answers arrive, so treat them as a rough guide, not an offer. The mid range is the Paylab title Personal Banker. Other bank titles: Relationship Manager 11,644 to 35,053 EGP, Private Banker 11,082 to 34,170 EGP and Client Officer 7,285 to 22,320 EGP. Paylab does not split these ranges by experience.",
+        "ar": "المصدر: استطلاع مرتبات Paylab مصر المجهول، الراتب الشهري الإجمالي. النطاق المعروض يمثل من 10% إلى 90% من المشاركين (80% منهم) للمسميات الوظيفية المذكورة في كل مستوى. لا يحدد الموقع تاريخًا لهذه الأرقام، فالمقصود بـ 2026 هو قراءة أكتوبر 2026. العينات صغيرة (بعضها أقل من 20 مشاركًا) والأرقام تتغير مع الإجابات الجديدة، فاعتبرها تقديرًا تقريبيًا وليست عرض عمل. نطاق المستوى المتوسط هو مسمى Personal Banker في Paylab. مسميات أخرى في البنوك: مدير علاقات العملاء 11,644 إلى 35,053 جنيهًا، ومصرفي الخدمات الخاصة 11,082 إلى 34,170، وموظف العملاء 7,285 إلى 22,320. لا يقسّم Paylab هذه النطاقات حسب الخبرة."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Large state-owned banks (National Bank of Egypt, Banque Misr)",
+        "ar": "البنوك الحكومية الكبرى (البنك الأهلي المصري وبنك مصر)"
+      },
+      {
+        "en": "Private banks such as CIB and QNB Egypt",
+        "ar": "بنوك خاصة مثل CIB وQNB مصر"
+      },
+      {
+        "en": "Foreign banks with branches in Egypt",
+        "ar": "بنوك أجنبية لها فروع في مصر"
+      },
+      {
+        "en": "Fintech companies and payment providers",
+        "ar": "شركات التكنولوجيا المالية ومقدمو خدمات الدفع"
+      },
+      {
+        "en": "Insurance and leasing companies",
+        "ar": "شركات التأمين والتأجير التمويلي"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance work is rare for bankers because banking is regulated. Some digital banking, risk and compliance work can be done from home inside a bank, and fintech startups may offer flexible roles.",
+      "ar": "العمل الحر نادر للمصرفيين لأن العمل المصرفي منظَّم. بعض أعمال الخدمات الرقمية والمخاطر والامتثال تُنجز من البيت داخل البنك، وقد تقدم شركات التكنولوجيا المالية أدوارًا مرنة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria (head offices)",
+        "ar": "القاهرة الكبرى والإسكندرية (المقار الرئيسية)"
+      },
+      {
+        "en": "Branches in every governorate",
+        "ar": "فروع في كل المحافظات"
+      }
+    ],
+    "providerIds": [
+      "injaz-egypt",
+      "almentor"
+    ]
+  },
+  "global": {
+    "en": "Egyptian bankers work in Gulf banks, especially in Saudi Arabia, the UAE, Kuwait and Qatar, usually after some years of experience. Roles that require customer languages, compliance or corporate banking skills are in demand. Compare salary, housing and contract terms carefully.",
+    "ar": "يعمل مصرفيون مصريون في بنوك الخليج، خاصة السعودية والإمارات والكويت وقطر، غالبًا بعد سنوات من الخبرة. الوظائف التي تحتاج لغات أو امتثالًا أو خبرة في الشركات مطلوبة. قارن الراتب والسكن وشروط العقد بعناية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Structured training and clear career steps in big banks",
+        "ar": "تدريب منظم وخطوات وظيفية واضحة في البنوك الكبرى"
+      },
+      {
+        "en": "Stable employer and benefits such as health cover in many banks",
+        "ar": "جهة عمل مستقرة ومزايا مثل التأمين الصحي في كثير من البنوك"
+      },
+      {
+        "en": "You learn how money and business work",
+        "ar": "تتعلم كيف يعمل المال والأعمال"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Sales targets can be stressful",
+        "ar": "أهداف المبيعات قد تكون مرهقة"
+      },
+      {
+        "en": "Routine teller jobs are shrinking because of digital banking",
+        "ar": "وظائف الصراف الروتينية تتناقص بسبب الخدمات الرقمية"
+      },
+      {
+        "en": "Strict rules mean a lot of paperwork",
+        "ar": "القواعد الصارمة تعني أوراقًا كثيرة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Banking is only for commerce graduates.",
+          "ar": "العمل بالبنوك لخريجي التجارة فقط."
+        },
+        "fact": {
+          "en": "Banks also hire engineers, IT and language graduates for different roles.",
+          "ar": "البنوك توظف خريجي الهندسة وتكنولوجيا المعلومات واللغات في أدوار مختلفة."
+        }
+      },
+      {
+        "myth": {
+          "en": "Everything is online now, so banks do not need people.",
+          "ar": "كل شيء صار أونلاين فلا حاجة لموظفين."
+        },
+        "fact": {
+          "en": "Routine tasks are going digital, but advice, risk, compliance and business clients still need people.",
+          "ar": "المهام الروتينية تتحول رقميًا، لكن النصيحة والمخاطر والامتثال وعملاء الأعمال ما زالوا يحتاجون بشرًا."
+        }
+      },
+      {
+        "myth": {
+          "en": "Bank jobs are easy because the hours are fixed.",
+          "ar": "وظيفة البنك سهلة لأن ساعاتها ثابتة."
+        },
+        "fact": {
+          "en": "Hours are set, but accuracy, regulation and customer pressure make it demanding.",
+          "ar": "الساعات ثابتة، لكن الدقة والتنظيم وضغط العملاء تجعلها متطلبة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually fixed weekday hours. Branch managers and sales teams may stay late near targets or month-end.",
+      "ar": "ساعات ثابتة غالبًا في أيام الأسبوع. قد يتأخر مديرو الفروع وفرق المبيعات قرب الأهداف ونهاية الشهر."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Customer service officer or graduate trainee",
+        "ar": "موظف خدمة عملاء أو متدرب حديث التخرج"
+      },
+      {
+        "en": "Relationship officer or credit officer",
+        "ar": "موظف علاقات عملاء أو موظف ائتمان"
+      },
+      {
+        "en": "Senior officer or branch deputy",
+        "ar": "موظف أول أو نائب مدير فرع"
+      },
+      {
+        "en": "Branch manager or corporate banker",
+        "ar": "مدير فرع أو مصرفي شركات"
+      },
+      {
+        "en": "Regional or division head",
+        "ar": "رئيس منطقة أو قطاع"
+      }
+    ],
+    "relatedCareerIds": [
+      "accountant",
+      "financial_analyst",
+      "auditor",
+      "actuary",
+      "management_consultant"
+    ],
+    "pivots": [
+      {
+        "en": "Risk and compliance",
+        "ar": "المخاطر والامتثال"
+      },
+      {
+        "en": "Fintech products and payments",
+        "ar": "منتجات التكنولوجيا المالية والمدفوعات"
+      },
+      {
+        "en": "Financial analysis or investment",
+        "ar": "التحليل المالي أو الاستثمار"
+      },
+      {
+        "en": "Insurance",
+        "ar": "التأمين"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "Paylab Egypt: Banking salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/banking",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian Banking Institute: About us",
+      "url": "https://ebi.gov.eg/about_us/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Central Bank of Egypt",
+      "url": "https://www.cbe.org.eg",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

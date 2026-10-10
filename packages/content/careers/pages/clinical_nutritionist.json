@@ -1,0 +1,161 @@
+{
+  "id": "clinical_nutritionist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help people eat in a way that protects their health.",
+      "ar": "تساعد الناس على أن يأكلوا بطريقة تحمي صحتهم."
+    },
+    "summary": {
+      "en": "Clinical nutritionists assess what patients eat and design diet plans to help manage illnesses such as diabetes, high blood pressure or weight problems. They work with doctors and nurses in hospitals and clinics, and they also teach families about healthy habits. The work mixes science with a lot of talking and encouragement.",
+      "ar": "أخصائي التغذية العلاجية يقيّم ما يأكله المرضى ويصمم لهم أنظمة غذائية تساعد في التعامل مع أمراض مثل السكري وارتفاع الضغط ومشكلات الوزن. يعمل مع الأطباء والممرضين في المستشفيات والعيادات، ويعلّم الأسر عادات صحية. العمل يجمع بين العلم والكثير من الحديث والتشجيع."
+    },
+    "dayInLife": {
+      "en": "You start by reviewing the files and lab results of the patients you will see. In the clinic you ask a patient about their meals, check their weight and test results, and explain a simple plan that fits their budget and food habits. In the afternoon you meet a family to explain a diet for a child with diabetes, then you write your notes and follow up on patients you saw last week.",
+      "ar": "تبدأ يومك بمراجعة ملفات المرضى ونتائج تحاليلهم. في العيادة تسأل المريض عن وجباته وتتابع وزنه ونتائجه، وتشرح له خطة بسيطة تناسب ميزانيته وعاداته الغذائية. بعد الظهر تقابل أسرة لتشرح حمية لطفل مصاب بالسكري، ثم تكتب ملاحظاتك وتتابع مرضى قابلتهم الأسبوع الماضي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess patients' eating habits, weight and test results.",
+        "ar": "تقيّم عادات المرضى الغذائية ووزنهم ونتائج تحاليلهم."
+      },
+      {
+        "en": "Design diet plans for conditions such as diabetes, heart disease and obesity.",
+        "ar": "تصمم أنظمة غذائية لحالات مثل السكري وأمراض القلب والسمنة."
+      },
+      {
+        "en": "Explain food choices and preparation in simple words, respecting each family's habits and beliefs.",
+        "ar": "تشرح اختيار الطعام وتحضيره بكلمات بسيطة مع احترام عادات كل أسرة ومعتقداتها."
+      },
+      {
+        "en": "Follow up on progress and adjust the plan.",
+        "ar": "تتابع تقدم المريض وتعدّل الخطة."
+      },
+      {
+        "en": "Work with doctors and nurses as part of the care team.",
+        "ar": "تعمل مع الأطباء والممرضين ضمن فريق الرعاية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hospitals and clinics",
+        "ar": "المستشفيات والعيادات"
+      },
+      {
+        "en": "Private nutrition clinics and fitness centres",
+        "ar": "عيادات التغذية الخاصة ومراكز اللياقة"
+      },
+      {
+        "en": "Food companies and community health programs",
+        "ar": "شركات الأغذية وبرامج الصحة المجتمعية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Diet-planning and food-composition tables or software",
+        "ar": "جداول أو برامج تركيب الأغذية وتخطيط الحميات"
+      },
+      {
+        "en": "Body measurement tools (scales, tape, body-composition devices)",
+        "ar": "أدوات قياس الجسم (الميزان والشريط وأجهزة تحليل الجسم)"
+      },
+      {
+        "en": "Patient records and lab reports",
+        "ar": "ملفات المرضى وتقارير التحاليل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "A science stream at school is the usual route. With IGCSE, A-Level or the American Diploma, Biology and Chemistry are the most useful subjects. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "الشعبة العلمية هي المسار المعتاد. وفي IGCSE وA-Level والدبلومة الأمريكية الأنفع هي الأحياء والكيمياء. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Nutrition Sciences at Capital University (formerly Helwan University), with clinical nutrition, community nutrition and food science departments",
+        "ar": "كلية علوم التغذية بجامعة العاصمة (حلوان سابقًا) بأقسامها: التغذية العلاجية وتغذية المجتمع وعلوم الأغذية"
+      },
+      {
+        "en": "Faculties of Home Economics, nutrition and food science departments",
+        "ar": "كليات الاقتصاد المنزلي، أقسام التغذية وعلوم الأطعمة"
+      },
+      {
+        "en": "Faculties of Science, Agriculture or Applied Health Sciences with nutrition or food-related programs",
+        "ar": "كليات العلوم أو الزراعة أو العلوم الصحية التطبيقية ببرامج التغذية أو الأغذية"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik figures for this career are not available in our data, because no linked program is tracked. Ask the Tansik office about the faculty you want.",
+      "ar": "أرقام التنسيق لهذه المهنة غير متوفرة في بياناتنا لعدم وجود برنامج مرتبط نتابعه. اسأل مكتب التنسيق عن الكلية التي تريدها."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A degree in a related science (for example biology, biochemistry or food science), followed by a diploma or master's in clinical nutrition.",
+        "ar": "درجة جامعية في علم قريب (مثل الأحياء أو الكيمياء الحيوية أو علوم الأغذية) ثم دبلوم أو ماجستير في التغذية العلاجية."
+      },
+      {
+        "en": "Short courses and international certificates in sports or clinical nutrition can add skills but do not replace a degree.",
+        "ar": "الدورات القصيرة والشهادات الدولية في تغذية الرياضيين أو التغذية العلاجية تضيف مهارات لكنها لا تغني عن الدرجة الجامعية."
+      }
+    ],
+    "licensing": {
+      "en": "Working in hospitals and clinics normally requires a relevant university degree, and the rules for licensing health professions in Egypt keep changing. Check the current requirements with the Ministry of Health and the Faculty you choose.",
+      "ar": "العمل في المستشفيات والعيادات يتطلب عادة مؤهلًا جامعيًا مناسبًا، وقواعد ترخيص المهن الصحية في مصر تتغير باستمرار. تأكد من الشروط الحالية من وزارة الصحة ومن الكلية التي تختارها."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "nurse",
+      "physician",
+      "pharmacist",
+      "physical_therapist",
+      "food_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Sports nutrition",
+        "ar": "تغذية الرياضيين"
+      },
+      {
+        "en": "Public health and community nutrition",
+        "ar": "الصحة العامة وتغذية المجتمع"
+      },
+      {
+        "en": "Food industry quality and product development",
+        "ar": "جودة الأغذية وتطوير المنتجات"
+      },
+      {
+        "en": "Opening your own nutrition clinic",
+        "ar": "فتح عيادة تغذية خاصة"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Clinical Nutritionist",
+      "url": "https://www.onetonline.org/link/summary/29-1031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Clinical Nutritionist",
+      "url": "https://www.mynextmove.org/profile/summary/29-1031.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Faculty of Nutrition Sciences, Capital University (Helwan): about the faculty",
+      "url": "https://nutrition-sci.capu.edu.eg/en/about-en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

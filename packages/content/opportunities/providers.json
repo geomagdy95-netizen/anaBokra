@@ -1,0 +1,1744 @@
+{
+  "version": "1.0.0",
+  "asOf": "2026-10-09",
+  "providers": [
+    {
+      "id": "iti",
+      "name": {
+        "en": "Information Technology Institute (ITI)",
+        "ar": "معهد تكنولوجيا المعلومات"
+      },
+      "kind": "government_program",
+      "format": "offline",
+      "governorates": [
+        "Giza"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "graduates",
+      "audience": {
+        "en": "University graduates (fresh graduates); 9-month professional training program. Reported entry criteria: Egyptian national, good grade, English test, interview.",
+        "ar": "خريجو الجامعات (حديثو التخرج)؛ برنامج تدريب احترافي لمدة 9 أشهر. شروط القبول المنشورة: جنسية مصرية، تقدير جيد، اختبار لغة إنجليزية ومقابلة."
+      },
+      "skills": [
+        "software development",
+        "web",
+        "mobile apps",
+        "data",
+        "AI"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "mobile_developer",
+        "data_scientist",
+        "ai_engineer",
+        "cybersecurity_specialist"
+      ],
+      "website": "https://iti.gov.eg",
+      "sourceUrl": "https://www.bibalex.org/he_funding/Donors/Details.aspx?ID=59",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Not open to under-18s. Headquarters in Smart Village, Giza; ITI has other branches not verified here. Fees not verified; check the current call. Entry criteria are from a third-party summary and may have changed.",
+        "ar": "غير متاح لمن هم أقل من 18 عامًا. المقر في القرية الذكية بالجيزة، وللمعهد فروع أخرى لم يتم التحقق منها. الرسوم غير مؤكدة؛ راجع الإعلان الحالي. شروط القبول من ملخص خارجي وقد تتغير."
+      }
+    },
+    {
+      "id": "depi",
+      "name": {
+        "en": "Digital Egypt Pioneers Initiative (DEPI)",
+        "ar": "مبادرة رواد مصر الرقمية"
+      },
+      "kind": "government_program",
+      "format": "hybrid",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": {
+        "type": "scholarship",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": 18,
+      "ageMax": 32,
+      "eligibility": "adults_only",
+      "audience": {
+        "en": "Young people aged 18-32, students and graduates of all colleges and backgrounds, from all governorates. Full scholarships reported, including accommodation.",
+        "ar": "شباب من 18 إلى 32 عامًا، طلاب وخريجو جميع الكليات والخلفيات من كل المحافظات. منح كاملة تشمل الإقامة بحسب ما نُشر."
+      },
+      "skills": [
+        "AI",
+        "programming",
+        "cybersecurity",
+        "data science",
+        "digital arts",
+        "IT infrastructure"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "data_scientist",
+        "ai_engineer",
+        "cybersecurity_specialist",
+        "cloud_devops_engineer"
+      ],
+      "website": "https://depi.gov.eg",
+      "sourceUrl": "https://egyptinnovate.com/en/news/the-ministry-of-communications-and-information-technology-launches-the-digital-pioneers-initiative",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Launched 2025 by MCIT; target about 12,000 trainees a year. Not open to under-18s; useful as a post-secondary step. Delivery mix of online and on-site centres not verified.",
+        "ar": "أطلقتها وزارة الاتصالات عام 2025 بهدف تدريب نحو 12 ألف شاب سنويًا. غير متاحة لمن هم دون 18 عامًا؛ مفيدة كخطوة بعد الثانوية. لم يتم التحقق من توزيع التدريب بين الإنترنت والمراكز."
+      }
+    },
+    {
+      "id": "itida-talent-programs",
+      "name": {
+        "en": "ITIDA Talent Programs (Train to Hire, Gigs, Summer Training)",
+        "ar": "برامج ITIDA لتنمية المواهب (التدريب للتوظيف، العمل الحر، التدريب الصيفي)"
+      },
+      "kind": "government_program",
+      "format": "hybrid",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "graduates",
+      "audience": {
+        "en": "Mainly university students, graduates and young job-seekers; ITIDA Gigs is a 3-month freelancing program for youth. No under-18 track found.",
+        "ar": "طلاب الجامعات والخريجون والشباب الباحثون عن عمل؛ برنامج ITIDA Gigs للعمل الحر مدته 3 أشهر. لم نجد مسارًا لمن هم دون 18."
+      },
+      "skills": [
+        "freelancing",
+        "IT services",
+        "offshoring/BPO",
+        "embedded systems",
+        "German language"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "it_support",
+        "entrepreneur"
+      ],
+      "website": "https://itida.gov.eg",
+      "sourceUrl": "https://itida.gov.eg",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Eligibility and costs are not stated on the programs page; call center 16248. Program list changes by round.",
+        "ar": "شروط التقديم والتكلفة غير مذكورة في صفحة البرامج؛ مركز الاتصال 16248. تتغير البرامج حسب الدورة."
+      }
+    },
+    {
+      "id": "egypt-fwd",
+      "name": {
+        "en": "Egypt FWD (Future Work is Digital)",
+        "ar": "مستقبلنا رقمي (Egypt FWD)"
+      },
+      "kind": "government_program",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "scholarship",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": 18,
+      "ageMax": 35,
+      "eligibility": "graduates",
+      "audience": {
+        "en": "University graduates with English proficiency; FWD 2.0 call reported ages 18-35. Fully funded by MCIT with Udacity content.",
+        "ar": "خريجو الجامعات مع إجادة اللغة الإنجليزية؛ دعوة FWD 2.0 ذكرت سن 18-35. ممولة بالكامل من وزارة الاتصالات بمحتوى Udacity."
+      },
+      "skills": [
+        "web development",
+        "data analysis",
+        "digital marketing",
+        "cloud",
+        "software testing",
+        "mobile development",
+        "embedded systems"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "data_scientist",
+        "digital_marketer",
+        "cloud_devops_engineer",
+        "mobile_developer"
+      ],
+      "website": "https://egfwd.com",
+      "sourceUrl": "https://itida.gov.eg/English/Programs/future-work-is-digital/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Applications were closed when checked (2026-10-09); site says new rounds will be announced. Age range is from an earlier round; the current site mentions graduate status instead.",
+        "ar": "كان باب التقديم مغلقًا وقت المراجعة (2026-10-09) مع وعد بجولات جديدة. نطاق السن من جولة سابقة؛ الموقع الحالي يذكر شرط التخرج."
+      }
+    },
+    {
+      "id": "nti",
+      "name": {
+        "en": "National Telecommunication Institute (NTI)",
+        "ar": "المعهد القومي للاتصالات"
+      },
+      "kind": "government_program",
+      "format": "hybrid",
+      "governorates": [
+        "Cairo"
+      ],
+      "cost": {
+        "type": "scholarship",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "graduates",
+      "audience": {
+        "en": "University students and graduates. Train-to-Hire is a 4-month full-scholarship program (288 technical hours, 132 soft-skill hours, 120 on-job hours).",
+        "ar": "طلاب الجامعات والخريجون. برنامج التدريب للتوظيف مدته 4 أشهر بمنحة كاملة (288 ساعة فنية و132 ساعة مهارات و120 ساعة تدريب عملي)."
+      },
+      "skills": [
+        "telecom",
+        "networking",
+        "cybersecurity",
+        "ICT certifications",
+        "freelancing"
+      ],
+      "careerIds": [
+        "communications_engineer",
+        "cybersecurity_specialist",
+        "it_support",
+        "cloud_devops_engineer",
+        "software_engineer"
+      ],
+      "website": "https://www.nti.sci.eg",
+      "sourceUrl": "https://www.nti.sci.eg",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Founded 1983 under MCIT. Creativa innovation hubs run workshops in several governorates (list not verified). Not an under-18 option.",
+        "ar": "تأسس عام 1983 تحت مظلة وزارة الاتصالات. مراكز Creativa تقدم ورشًا في عدة محافظات (القائمة غير مؤكدة). ليس خيارًا لمن هم دون 18."
+      }
+    },
+    {
+      "id": "tawwar-wa-ghayyar",
+      "name": {
+        "en": "Tawwar wa Ghayyar (MCIT x Microsoft digital skills)",
+        "ar": "طوّر وغيّر (وزارة الاتصالات ومايكروسوفت)"
+      },
+      "kind": "government_program",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "free",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": 18,
+      "ageMax": 35,
+      "eligibility": "adults_only",
+      "audience": {
+        "en": "Egyptian youth aged 18-35, any gender; free online training package.",
+        "ar": "شباب مصري من 18 إلى 35 عامًا من الجنسين؛ حزمة تدريب مجانية عبر الإنترنت."
+      },
+      "skills": [
+        "Microsoft 365",
+        "Python",
+        "data analysis",
+        "design thinking",
+        "entrepreneurship",
+        "digital safety"
+      ],
+      "careerIds": [
+        "it_support",
+        "data_scientist",
+        "software_engineer",
+        "entrepreneur"
+      ],
+      "website": "https://mcit.gov.eg",
+      "sourceUrl": "https://menastartupdigest.com/?p=8936",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Partners: MCIT, Microsoft Egypt, CARE Egypt, Sustainable Human Development Foundation. Registration is via a form announced by MCIT; the program has no dedicated site, so website is the ministry. Source updated July 2025.",
+        "ar": "الشركاء: وزارة الاتصالات ومايكروسوفت مصر وكير مصر ومؤسسة التنمية البشرية المستدامة. التسجيل عبر نموذج تعلنه الوزارة ولا يوجد موقع مخصص للبرنامج لذلك الموقع هو موقع الوزارة. المصدر محدث يوليو 2025."
+      }
+    },
+    {
+      "id": "tiec",
+      "name": {
+        "en": "Technology Innovation and Entrepreneurship Center (TIEC)",
+        "ar": "مركز التميز والابتكار وريادة الأعمال التكنولوجية (TIEC)"
+      },
+      "kind": "government_program",
+      "format": "hybrid",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "graduates",
+      "audience": {
+        "en": "Students, recent graduates and young professionals (for example the InnovEgypt entrepreneurship training).",
+        "ar": "الطلاب وحديثو التخرج والمهنيون الشباب (مثل برنامج InnovEgypt لريادة الأعمال)."
+      },
+      "skills": [
+        "entrepreneurship",
+        "innovation",
+        "startup training",
+        "ICT"
+      ],
+      "careerIds": [
+        "entrepreneur",
+        "product_manager",
+        "software_engineer"
+      ],
+      "website": "https://tiec.gov.eg",
+      "sourceUrl": "https://www.wearetech.africa/en/fils-uk/tech-stars/egypts-technology-innovation-and-entrepreneurship-center-backs-ict-r-d",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Affiliated with the Ministry of Communications since 2010. Program-by-program eligibility and cost not verified; its older Next Coders school program is not listed because its current status was not confirmed.",
+        "ar": "تابع لوزارة الاتصالات منذ 2010. شروط وتكلفة كل برنامج لم يتم التحقق منها؛ لم يُدرج برنامج Next Coders لطلاب الثانوي لعدم تأكيد استمراره."
+      }
+    },
+    {
+      "id": "applied-technology-schools",
+      "name": {
+        "en": "Applied Technology Schools (Ministry of Education dual-education network)",
+        "ar": "مدارس التكنولوجيا التطبيقية (وزارة التربية والتعليم)"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Preparatory-school graduates (about age 15 and up). Competitive entry: preparatory results, entrance tests (Arabic, English, maths) and interview. 2024 reported minimum score 225.",
+        "ar": "خريجو المرحلة الإعدادية (من نحو 15 عامًا). القبول تنافسي: مجموع الإعدادية واختبارات (عربي وإنجليزي ورياضيات) ومقابلة. الحد الأدنى المعلن 2024 هو 225."
+      },
+      "skills": [
+        "industrial technology",
+        "electrical",
+        "mechatronics",
+        "ICT",
+        "medical technology",
+        "on-the-job training"
+      ],
+      "careerIds": [
+        "electrician",
+        "industrial_technician",
+        "automotive_ev_technician",
+        "cnc_operator",
+        "solar_technician",
+        "it_support"
+      ],
+      "website": "https://dualedu.moe.gov.eg",
+      "sourceUrl": "https://english.ahram.org.eg/News/547420.aspx",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "About 70 schools in 19 governorates by 2024, planned to reach 90 in 2025/26. Graduates are now eligible for some university AI and computer science programs. Fees not verified; apply via the ministry portal.",
+        "ar": "نحو 70 مدرسة في 19 محافظة حتى 2024 مع خطة للوصول إلى 90 في 2025/26. أصبح الخريجون مؤهلين لبعض كليات الذكاء الاصطناعي والحاسبات. الرسوم غير مؤكدة؛ التقديم عبر بوابة الوزارة."
+      }
+    },
+    {
+      "id": "we-schools-applied-technology",
+      "name": {
+        "en": "WE Schools of Applied Technology (ICT)",
+        "ar": "مدارس WE للتكنولوجيا التطبيقية"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "Giza",
+        "Matrouh",
+        "Fayoum",
+        "Menoufia",
+        "Red Sea",
+        "Luxor",
+        "Aswan",
+        "Beni Suef",
+        "North Sinai"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": 18,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Preparatory-certificate holders no older than 18 on 1 October 2026 (2025/26 intake rule as reported).",
+        "ar": "حاصلون على الشهادة الإعدادية بما لا يتجاوز 18 عامًا في 1 أكتوبر 2026 (شرط دفعة 2025/26 بحسب ما نُشر)."
+      },
+      "skills": [
+        "telecom",
+        "software and web development",
+        "networks",
+        "cybersecurity",
+        "data and AI",
+        "digital arts"
+      ],
+      "careerIds": [
+        "it_support",
+        "software_engineer",
+        "cybersecurity_specialist",
+        "communications_engineer",
+        "data_scientist"
+      ],
+      "website": "https://te.eg",
+      "sourceUrl": "https://en.amwalalghad.com/?p=211817",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Run by MCIT with Telecom Egypt since 2020; 27 schools after 8 openings in 2025/26. Governorates listed are only those confirmed (Sheikh Zayed branch plus the 8 new ones); other schools exist. Pearson-accredited. Fees not verified.",
+        "ar": "تديرها وزارة الاتصالات مع المصرية للاتصالات منذ 2020؛ 27 مدرسة بعد افتتاح 8 مدارس في 2025/26. المحافظات المذكورة هي المؤكدة فقط (فرع الشيخ زايد و8 مدارس جديدة) وتوجد مدارس أخرى. معتمدة من Pearson. الرسوم غير مؤكدة."
+      }
+    },
+    {
+      "id": "egyptian-japanese-kosen",
+      "name": {
+        "en": "Egyptian-Japanese KOSEN Advanced Technology",
+        "ar": "كوسن المصرية اليابانية للتكنولوجيا المتقدمة"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "Sharqia"
+      ],
+      "cost": null,
+      "ageMin": 15,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Five-year post-preparatory program for students who finish preparatory school (KOSEN entry from age 15). First cohort of about 320 students announced for September 2025.",
+        "ar": "برنامج مدته خمس سنوات بعد الإعدادية (الالتحاق بنظام كوسن من سن 15). الدفعة الأولى نحو 320 طالبًا في سبتمبر 2025."
+      },
+      "skills": [
+        "electronics",
+        "green energy",
+        "solar",
+        "mechatronics",
+        "robotics",
+        "AI",
+        "microchips"
+      ],
+      "careerIds": [
+        "mechatronics_engineer",
+        "electrical_engineer",
+        "renewable_energy_engineer",
+        "solar_technician",
+        "industrial_technician"
+      ],
+      "website": "https://www.jica.go.jp/egypt/english/activities/activity12.html",
+      "sourceUrl": "https://en.amwalalghad.com/?p=209441",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Hosted at the PVTD training centre in 10th of Ramadan City with JICA support. Fees and later intakes not verified. Website is the JICA Egypt-Japan Education Partnership page; no dedicated site found.",
+        "ar": "يقع في مركز التدريب المهني بالعاشر من رمضان بدعم من جايكا. الرسوم والدفعات التالية غير مؤكدة. الموقع هو صفحة الشراكة التعليمية المصرية اليابانية لدى جايكا ولم نجد موقعًا مخصصًا."
+      }
+    },
+    {
+      "id": "pvtd-vocational-training",
+      "name": {
+        "en": "Productivity and Vocational Training Department (PVTD) centres",
+        "ar": "مصلحة الكفاية الإنتاجية والتدريب المهني"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": 15,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Preparatory-school graduates (age 15) can enter a 3-year program; also adult trade courses. About 40 trades.",
+        "ar": "خريجو الإعدادية (15 عامًا) يمكنهم الالتحاق ببرنامج مدته 3 سنوات، إضافة إلى دورات مهنية للكبار. نحو 40 مهنة."
+      },
+      "skills": [
+        "industrial trades",
+        "electrical",
+        "mechanical",
+        "maintenance",
+        "welding"
+      ],
+      "careerIds": [
+        "electrician",
+        "industrial_technician",
+        "cnc_operator",
+        "automotive_ev_technician"
+      ],
+      "website": null,
+      "sourceUrl": "https://www.aics.gov.it/news/in-egitto-un-nuovo-centro-di-formazione-professionale/?lang=en",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Under the Ministry of Industry; reported 39 centres in 9 zones. Centre counts, fees and current intake are from older summaries and were not confirmed on an official site (none reachable).",
+        "ar": "تتبع وزارة الصناعة؛ 39 مركزًا في 9 مناطق بحسب مصادر. الأعداد والرسوم والقبول الحالي من ملخصات أقدم ولم يتم تأكيدها على موقع رسمي."
+      }
+    },
+    {
+      "id": "moh-nursing-schools",
+      "name": {
+        "en": "Ministry of Health technical nursing schools",
+        "ar": "مدارس التمريض الفنية (وزارة الصحة)"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Giza",
+        "Alexandria",
+        "Ismailia"
+      ],
+      "cost": null,
+      "ageMin": 15,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Preparatory-certificate holders, at least 15 at the start of the school year, same-governorate residents, with English study, aptitude/medical tests and interview.",
+        "ar": "حاصلون على الشهادة الإعدادية بسن لا تقل عن 15 عامًا في بداية العام، من أبناء نفس المحافظة، مع دراسة اللغة الإنجليزية واختبارات القدرات والكشف الطبي والمقابلة."
+      },
+      "skills": [
+        "nursing",
+        "patient care",
+        "clinical practice"
+      ],
+      "careerIds": [
+        "nurse"
+      ],
+      "website": "https://www.mohp.gov.eg",
+      "sourceUrl": "https://www.masrawy.com/news/news_egypt/details/2024/5/22/2586554",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "2024 criteria: application file reported at EGP 150; 18 schools listed in several governorates (only four named here are confirmed). Graduates accept ministry assignment. Post-secondary technical health institutes exist but their terms were not verified.",
+        "ar": "شروط 2024: ملف التقديم بنحو 150 جنيهًا؛ 18 مدرسة في عدة محافظات (المحافظات الأربع المذكورة فقط مؤكدة). يلتزم الخريج بالتكليف. توجد معاهد فنية صحية بعد الثانوية لم تُراجع شروطها."
+      }
+    },
+    {
+      "id": "english-access-microscholarship",
+      "name": {
+        "en": "English Access Microscholarship (US Embassy Cairo)",
+        "ar": "منحة إنجلش أكسس الصغيرة (السفارة الأمريكية بالقاهرة)"
+      },
+      "kind": "government_program",
+      "format": "offline",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": {
+        "type": "scholarship",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": 13,
+      "ageMax": 18,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Promising but disadvantaged high-school students aged 13-18; two-year program run with AUC School of Continuing Education.",
+        "ar": "طلاب ثانويون واعدون من الأسر محدودة الدخل بين 13 و18 عامًا؛ برنامج لمدة عامين بالتعاون مع مدرسة التعليم المستمر بالجامعة الأمريكية."
+      },
+      "skills": [
+        "English",
+        "soft skills",
+        "cross-cultural skills"
+      ],
+      "careerIds": [
+        "translator",
+        "teacher",
+        "diplomat"
+      ],
+      "website": "https://sce.aucegypt.edu/news/english-all-access-microscholarship-program-brings-egyptian-youth-empowering-life-changing",
+      "sourceUrl": "https://sce.aucegypt.edu/news/english-all-access-microscholarship-program-brings-egyptian-youth-empowering-life-changing",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Funded by the US Department of State; selection is competitive and cohort-based (173 students in one reported cohort). Check SCE for the current call.",
+        "ar": "ممولة من وزارة الخارجية الأمريكية؛ الاختيار تنافسي ويتم على دفعات (173 طالبًا في إحدى الدفعات). راجع المدرسة للتعرف على الإعلان الحالي."
+      }
+    },
+    {
+      "id": "don-bosco-cairo",
+      "name": {
+        "en": "Don Bosco Technical Institutes (Cairo and Alexandria)",
+        "ar": "معهد دون بوسكو الفني (القاهرة والإسكندرية)"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Alexandria"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Students entering after grade 9 for a 3-year technical program, with 2 extra years for a diploma recognised in Egypt and Italy.",
+        "ar": "طلاب بعد الصف التاسع لدراسة 3 سنوات، مع سنتين إضافيتين للحصول على دبلوم معترف به في مصر وإيطاليا."
+      },
+      "skills": [
+        "electricity",
+        "mechanics",
+        "lathe/CNC",
+        "air conditioning",
+        "welding",
+        "automotive"
+      ],
+      "careerIds": [
+        "electrician",
+        "industrial_technician",
+        "cnc_operator",
+        "automotive_ev_technician"
+      ],
+      "website": "https://donboscocairo.org",
+      "sourceUrl": "https://donboscocairo.org/ministry-of-labor-discusses-activation-of-free-training-scholarships-for-youth-with-don-bosco-institute-for-the-second-consecutive-year/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Salesian institute founded 1926 in Shubra. The Ministry of Labour has funded free training scholarships there for youth; tuition for the school track was not verified.",
+        "ar": "معهد سالزياني تأسس عام 1926 في شبرا. موّلت وزارة العمل منحًا تدريبية مجانية للشباب؛ مصروفات المسار الدراسي لم يتم التحقق منها."
+      }
+    },
+    {
+      "id": "elsewedy-technical-academy",
+      "name": {
+        "en": "Elsewedy Technical Academy (STA)",
+        "ar": "أكاديمية السويدي الفنية"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Secondary-level, three-year technical education in electrical skills for preparatory graduates; delivered through Applied Technology Schools.",
+        "ar": "تعليم فني ثانوي لمدة 3 سنوات في المهارات الكهربائية لخريجي الإعدادية، عبر مدارس التكنولوجيا التطبيقية."
+      },
+      "skills": [
+        "electrical skills",
+        "industrial training",
+        "centres of competence"
+      ],
+      "careerIds": [
+        "electrician",
+        "electrical_engineer",
+        "industrial_technician"
+      ],
+      "website": "https://elsewedyelectric.com",
+      "sourceUrl": "https://elsewedyelectric.com/csr?sub=1",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Reported as 7 schools across 7 governorates (which ones was not verified). Admission goes through the Applied Technology Schools system; cost not verified.",
+        "ar": "7 مدارس في 7 محافظات بحسب ما نُشر (لم تُحدد المحافظات). القبول عبر منظومة مدارس التكنولوجيا التطبيقية؛ التكلفة غير مؤكدة."
+      }
+    },
+    {
+      "id": "egyptair-training-center",
+      "name": {
+        "en": "EgyptAir Training Center",
+        "ar": "مركز تدريب مصر للطيران"
+      },
+      "kind": "corporate_academy",
+      "format": "offline",
+      "governorates": [
+        "Cairo"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "graduates",
+      "audience": {
+        "en": "Training for university students and graduates in flight, cabin crew, ground services, maintenance and administration; applications reported accepted all year.",
+        "ar": "تدريب لطلاب الجامعات والخريجين في الطيران وضيافة الطائرات والخدمات الأرضية والصيانة والإدارة؛ يُذكر قبول الطلبات طوال العام."
+      },
+      "skills": [
+        "cabin crew",
+        "flight training",
+        "aircraft maintenance",
+        "ground handling"
+      ],
+      "careerIds": [
+        "flight_attendant",
+        "pilot"
+      ],
+      "website": "https://www.egyptair.com",
+      "sourceUrl": "https://timesaerospace.aero/features/training/school-for-success",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Based at Cairo Airport with EASA-approved simulators. Public-course fees and under-18 access not verified.",
+        "ar": "يقع في مطار القاهرة ويضم أجهزة محاكاة معتمدة من EASA. رسوم الدورات المفتوحة وإتاحتها لمن هم دون 18 غير مؤكدة."
+      }
+    },
+    {
+      "id": "huawei-ict-academy-egypt",
+      "name": {
+        "en": "Huawei ICT Academy Egypt",
+        "ar": "أكاديمية هواوي لتكنولوجيا المعلومات في مصر"
+      },
+      "kind": "corporate_academy",
+      "format": "hybrid",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Students and instructors at partner universities and applied technology schools; first academy inside an applied technology school opened at Fresh International School of Applied Technology.",
+        "ar": "طلاب ومدرسون في الجامعات والمدارس الشريكة؛ أول أكاديمية داخل مدرسة تكنولوجيا تطبيقية في مدرسة فريش الدولية للتكنولوجيا التطبيقية."
+      },
+      "skills": [
+        "AI",
+        "data science",
+        "networking",
+        "cloud",
+        "Huawei certifications"
+      ],
+      "careerIds": [
+        "data_scientist",
+        "ai_engineer",
+        "communications_engineer",
+        "it_support"
+      ],
+      "website": "https://www.huawei.com/eg",
+      "sourceUrl": "https://english.ahram.org.eg/News/574946.aspx",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Huawei reports 187+ ICT Academies in Egypt with 56+ universities and institutions. Access is through the partner institution, not direct enrolment; costs not verified.",
+        "ar": "تذكر هواوي أكثر من 187 أكاديمية في مصر مع أكثر من 56 جامعة ومؤسسة. الالتحاق عبر المؤسسة الشريكة وليس مباشرًا؛ التكلفة غير مؤكدة."
+      }
+    },
+    {
+      "id": "orange-digital-center-egypt",
+      "name": {
+        "en": "Orange Digital Center Egypt",
+        "ar": "مركز أورنج الرقمي مصر"
+      },
+      "kind": "corporate_academy",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Aswan"
+      ],
+      "cost": {
+        "type": "free",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Young people and university students; programs described as free and open to everyone. Exact age limits not published in the sources found.",
+        "ar": "الشباب وطلاب الجامعات؛ البرامج مجانية ومفتوحة للجميع بحسب المصادر. حدود السن غير منشورة في المصادر التي وجدناها."
+      },
+      "skills": [
+        "software",
+        "data",
+        "cybersecurity",
+        "embedded systems",
+        "prototyping",
+        "startup acceleration"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "cybersecurity_specialist",
+        "data_scientist",
+        "it_support"
+      ],
+      "website": "https://www.orangedigitalcenter.com",
+      "sourceUrl": "https://www.intelligentcio.com/africa/?p=79821",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Cairo hub since 2021; Aswan centre opened with GIZ and Aswan University. Fab Labs run by Orange are covered under Fab Lab Egypt.",
+        "ar": "المركز الرئيسي بالقاهرة منذ 2021 ومركز أسوان بالتعاون مع GIZ وجامعة أسوان. معامل Fab Lab التابعة لأورنج مذكورة ضمن Fab Lab Egypt."
+      }
+    },
+    {
+      "id": "cisco-networking-academy-egypt",
+      "name": {
+        "en": "Cisco Networking Academy (Egypt, via NTI and universities)",
+        "ar": "أكاديمية سيسكو للشبكات في مصر"
+      },
+      "kind": "corporate_academy",
+      "format": "hybrid",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "mixed",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Open to learners through partner institutions; NTI trains youth and fresh graduates in CCNA and CyberOps tracks. Online courses are free or paid depending on the course.",
+        "ar": "متاحة عبر المؤسسات الشريكة؛ يدرب المعهد القومي للاتصالات الشباب وحديثي التخرج على مسارات CCNA وCyberOps. الدورات عبر الإنترنت مجانية أو مدفوعة حسب الدورة."
+      },
+      "skills": [
+        "networking",
+        "CCNA",
+        "cybersecurity",
+        "IT essentials"
+      ],
+      "careerIds": [
+        "it_support",
+        "cybersecurity_specialist",
+        "communications_engineer",
+        "cloud_devops_engineer"
+      ],
+      "website": "https://www.netacad.com",
+      "sourceUrl": "https://www.nti.sci.eg",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Egypt-specific enrolment goes through NTI or other academies; global self-enrol courses at netacad.com. Minimum age not verified.",
+        "ar": "التسجيل في مصر عبر المعهد القومي للاتصالات أو الأكاديميات الشريكة؛ ودورات التسجيل الذاتي عالميًا على netacad.com. الحد الأدنى للسن غير مؤكد."
+      }
+    },
+    {
+      "id": "microsoft-egypt-ai-skilling",
+      "name": {
+        "en": "Microsoft Egypt AI skilling (MCIT partnership)",
+        "ar": "تدريب مايكروسوفت مصر على الذكاء الاصطناعي (بالشراكة مع وزارة الاتصالات)"
+      },
+      "kind": "corporate_academy",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Youth and public-sector staff; MoU to train 100,000 people in AI under the National AI Strategy 2025-2030. Tawwar wa Ghayyar (18-35, free) is a related Microsoft program.",
+        "ar": "الشباب وموظفو القطاع العام؛ مذكرة تفاهم لتدريب 100 ألف شخص على الذكاء الاصطناعي ضمن الاستراتيجية الوطنية 2025-2030. برنامج طوّر وغيّر (18-35، مجاني) برنامج مرتبط."
+      },
+      "skills": [
+        "AI",
+        "Microsoft Learn",
+        "Azure",
+        "productivity tools"
+      ],
+      "careerIds": [
+        "ai_engineer",
+        "data_scientist",
+        "cloud_devops_engineer",
+        "it_support"
+      ],
+      "website": "https://learn.microsoft.com",
+      "sourceUrl": "https://www.middleeastainews.com/p/egypt-microsoft-train-100000-in-ai",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Based on a 2025 announcement; enrolment channel, age limits and cost were not published. Microsoft Learn itself is global and free to browse.",
+        "ar": "استنادًا إلى إعلان 2025؛ لم تُنشر قناة التسجيل وحدود السن والتكلفة. منصة Microsoft Learn عالمية ومفتوحة للتصفح مجانًا."
+      }
+    },
+    {
+      "id": "google-career-certificates-egypt",
+      "name": {
+        "en": "Google Career Certificates (MENA scholarships, Egypt)",
+        "ar": "شهادات جوجل المهنية (منح الشرق الأوسط وشمال أفريقيا - مصر)"
+      },
+      "kind": "corporate_academy",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "mixed",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Job-seekers, women and young people without prior experience; certificates in IT support, project management, UX design and data analytics, self-paced on Coursera.",
+        "ar": "الباحثون عن عمل والنساء والشباب بلا خبرة سابقة؛ شهادات في دعم تكنولوجيا المعلومات وإدارة المشاريع وتصميم تجربة المستخدم وتحليل البيانات عبر كورسيرا."
+      },
+      "skills": [
+        "IT support",
+        "UX design",
+        "data analytics",
+        "project management"
+      ],
+      "careerIds": [
+        "it_support",
+        "ux_designer",
+        "data_scientist",
+        "product_manager"
+      ],
+      "website": "https://grow.google/certificates",
+      "sourceUrl": "https://www.dailynewsegypt.com/2021/08/19/google-offers-career-certificates-scholarships-for-mena-job-seekers/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "The 7,000-scholarship MENA round was announced in 2021 (Egypt distribution via EBI and UCCD); whether scholarships are currently open was not verified. Certificates remain available on Coursera for a fee.",
+        "ar": "منح الـ7000 أُعلنت عام 2021 (التوزيع في مصر عبر معهد البنوك المصري ومركز تطوير المسار الوظيفي)؛ لم يتم التحقق من إتاحة المنح حاليًا. الشهادات متاحة على كورسيرا برسوم."
+      }
+    },
+    {
+      "id": "coursera-egypt",
+      "name": {
+        "en": "Coursera (Egypt partnerships)",
+        "ar": "كورسيرا (الشراكات في مصر)"
+      },
+      "kind": "platform",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "mixed",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Open to anyone online; free access via Egyptian universities (for example Ain Shams, New Alamein) and TIEC's Next Technology Leaders program. Minimum age not verified.",
+        "ar": "متاحة للجميع عبر الإنترنت؛ ومجانية عبر جامعات مصرية (مثل عين شمس والعلمين الجديدة) وبرنامج قادة التكنولوجيا القادمين التابع لـ TIEC. الحد الأدنى للسن غير مؤكد."
+      },
+      "skills": [
+        "data science",
+        "software",
+        "business",
+        "design",
+        "cybersecurity"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "data_scientist",
+        "digital_marketer",
+        "ux_designer",
+        "product_manager"
+      ],
+      "website": "https://www.coursera.org",
+      "sourceUrl": "https://www.dailynewsegypt.com/2021/12/16/coursera-is-looking-to-support-advanced-skills-development-curricula-with-6-egyptian-universities/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Many courses are free to audit; certificates are paid unless sponsored. Prices are in USD and not recorded.",
+        "ar": "كثير من الدورات مجانية للمشاهدة والشهادات مدفوعة ما لم تكن مموّلة. الأسعار بالدولار ولم تُسجل."
+      }
+    },
+    {
+      "id": "almentor",
+      "name": {
+        "en": "Almentor",
+        "ar": "المنتور"
+      },
+      "kind": "platform",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "paid",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "all_ages",
+      "audience": {
+        "en": "Arabic-language video courses (1,000+) for any adult learner, with some English courses; monthly and annual subscription plans.",
+        "ar": "دورات فيديو بالعربية (أكثر من 1000) لأي متعلم، مع بعض الدورات الإنجليزية؛ اشتراك شهري وسنوي."
+      },
+      "skills": [
+        "business",
+        "marketing",
+        "English",
+        "AI",
+        "personal development"
+      ],
+      "careerIds": [
+        "digital_marketer",
+        "entrepreneur",
+        "content_creator",
+        "hr_specialist"
+      ],
+      "website": "https://www.almentor.net",
+      "sourceUrl": "https://www.almentor.net/en",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Subscription price in EGP is not shown publicly outside the sign-up page, so it is not recorded. Teen suitability not stated; content is general adult learning.",
+        "ar": "سعر الاشتراك بالجنيه غير معلن خارج صفحة الاشتراك لذلك لم يُسجل. ملاءمته للمراهقين غير مذكورة والمحتوى للتعلم العام للكبار."
+      }
+    },
+    {
+      "id": "sprints",
+      "name": {
+        "en": "Sprints",
+        "ar": "سبرينتس"
+      },
+      "kind": "platform",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Self-paced tech and AI courses for beginners through advanced learners; no age restriction stated. 14-day free trial.",
+        "ar": "دورات تقنية وذكاء اصطناعي ذاتية التعلم للمبتدئين وحتى المتقدمين؛ لا توجد قيود سن معلنة. فترة تجريبية 14 يومًا."
+      },
+      "skills": [
+        "web development",
+        "Python",
+        "AI/ML",
+        "mobile",
+        "cybersecurity",
+        "digital marketing"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "mobile_developer",
+        "ai_engineer",
+        "cybersecurity_specialist",
+        "digital_marketer"
+      ],
+      "website": "https://sprints.ai",
+      "sourceUrl": "https://sprints.ai",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Egyptian-founded with offices in Egypt, the UAE and the Netherlands. Paid pricing is not shown on the home page and is not recorded.",
+        "ar": "شركة مصرية الأصل بمكاتب في مصر والإمارات وهولندا. الأسعار المدفوعة غير معلنة بالصفحة الرئيسية ولم تُسجل."
+      }
+    },
+    {
+      "id": "route-academy",
+      "name": {
+        "en": "Route Academy",
+        "ar": "أكاديمية روت"
+      },
+      "kind": "bootcamp",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Giza"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Software and IT training center (founded 2012) running bootcamps and upskilling programs. Age rules and prices not published in sources found.",
+        "ar": "مركز تدريب برمجيات وتكنولوجيا معلومات (تأسس 2012) يقدم معسكرات وبرامج رفع مهارات. شروط السن والأسعار غير منشورة في المصادر التي وجدناها."
+      },
+      "skills": [
+        "web development",
+        "programming",
+        "IT bootcamps"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "mobile_developer",
+        "data_scientist",
+        "ux_designer",
+        "cybersecurity_specialist"
+      ],
+      "website": "https://www.routeegypt.com",
+      "sourceUrl": "https://www.routeegypt.com",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Main operations in Cairo/Giza (Dokki branch reported); other branches and online options not verified. Site content could not be summarised automatically.",
+        "ar": "العمليات الرئيسية في القاهرة والجيزة (فرع الدقي مذكور)؛ الفروع الأخرى والتعلم عن بُعد غير مؤكدين. تعذر تلخيص محتوى الموقع آليًا."
+      }
+    },
+    {
+      "id": "gomycode-egypt",
+      "name": {
+        "en": "GOMYCODE Egypt",
+        "ar": "جوماي كود مصر"
+      },
+      "kind": "bootcamp",
+      "format": "hybrid",
+      "governorates": [
+        "Cairo",
+        "Giza"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Online or in-person, full-time or part-time bootcamps in full-stack JavaScript, data science, design, DevOps and digital marketing.",
+        "ar": "معسكرات حضورية أو عن بُعد بدوام كامل أو جزئي في تطوير الويب وعلوم البيانات والتصميم وDevOps والتسويق الرقمي."
+      },
+      "skills": [
+        "full-stack JavaScript",
+        "data science",
+        "UX design",
+        "DevOps",
+        "digital marketing"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "data_scientist",
+        "ux_designer",
+        "cloud_devops_engineer",
+        "digital_marketer"
+      ],
+      "website": "https://gomycode.com",
+      "sourceUrl": "https://coursereport.com/schools/gomycode",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Campuses reported in Fifth Settlement, Heliopolis, 6th of October and Dokki. Course Report quotes roughly USD 1,500 per bootcamp (not EGP, so not recorded as typicalEgp). Age limits not published.",
+        "ar": "فروع في التجمع الخامس ومصر الجديدة و6 أكتوبر والدقي بحسب المصادر. يذكر Course Report نحو 1500 دولار للمعسكر (بالدولار لذا لم يُسجل كجنيه). حدود السن غير منشورة."
+      }
+    },
+    {
+      "id": "3c-coding-school",
+      "name": {
+        "en": "3C Coding School",
+        "ar": "مدرسة 3C للبرمجة"
+      },
+      "kind": "platform",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": {
+        "type": "paid",
+        "typicalEgp": 3950,
+        "year": 2026
+      },
+      "ageMin": 6,
+      "ageMax": 18,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Kids and teens aged 6-18; live online classes, private or group.",
+        "ar": "أطفال ومراهقون من 6 إلى 18 عامًا؛ حصص مباشرة عبر الإنترنت فردية أو جماعية."
+      },
+      "skills": [
+        "Python",
+        "game development",
+        "AI/ML",
+        "web development"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "game_developer",
+        "ai_engineer",
+        "mobile_developer"
+      ],
+      "website": "https://3cschool.net",
+      "sourceUrl": "https://3cschool.net",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Typical price is the 3-month plan on the site in 2026 (EGP 3,950 discounted from 5,900); 6- and 12-month plans cost more. Prices are promotional and change.",
+        "ar": "السعر هو باقة 3 أشهر المعلنة عام 2026 (3950 جنيهًا بعد خصم من 5900)، وباقات 6 و12 شهرًا أعلى. الأسعار ترويجية وتتغير."
+      }
+    },
+    {
+      "id": "ischool-egypt",
+      "name": {
+        "en": "iSchool",
+        "ar": "آي سكول"
+      },
+      "kind": "platform",
+      "format": "online",
+      "governorates": [
+        "online"
+      ],
+      "cost": null,
+      "ageMin": 6,
+      "ageMax": 18,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Children and teens aged 6-18; live online group or private classes, with teen tracks such as Unity AR games for ages 16-18.",
+        "ar": "أطفال ومراهقون من 6 إلى 18 عامًا؛ حصص مباشرة جماعية أو فردية ومسارات للمراهقين مثل ألعاب الواقع المعزز بـ Unity لأعمار 16-18."
+      },
+      "skills": [
+        "Python",
+        "game design",
+        "mobile apps",
+        "web development",
+        "cybersecurity"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "game_developer",
+        "mobile_developer",
+        "cybersecurity_specialist"
+      ],
+      "website": "https://ischooltech.com",
+      "sourceUrl": "https://ischooltech.com",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Prices are not displayed on the site and are not recorded. Operates from Egypt; online delivery.",
+        "ar": "الأسعار غير معروضة على الموقع ولم تُسجل. تعمل من مصر والتعلم عن بُعد."
+      }
+    },
+    {
+      "id": "british-council-egypt",
+      "name": {
+        "en": "British Council Egypt teaching centres",
+        "ar": "المجلس الثقافي البريطاني - مصر"
+      },
+      "kind": "language_school",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Giza",
+        "Alexandria"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "English courses for kids, teens and adults, including IELTS preparation and young learner courses.",
+        "ar": "دورات إنجليزية للأطفال والمراهقين والكبار تشمل التحضير للأيلتس وبرامج الناشئة."
+      },
+      "skills": [
+        "English",
+        "IELTS preparation"
+      ],
+      "careerIds": [
+        "translator",
+        "teacher",
+        "diplomat",
+        "tour_guide"
+      ],
+      "website": "https://www.britishcouncil.org.eg",
+      "sourceUrl": "https://www.britishcouncil.org.eg/en/english/teaching-centres",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Four Cairo/Giza branches (Agouza, Heliopolis, Nasr City, 6th of October) and one in Alexandria per its site listing. Exact teen age bands and fees not verified.",
+        "ar": "أربعة فروع بالقاهرة والجيزة (العجوزة ومصر الجديدة ومدينة نصر و6 أكتوبر) وفرع بالإسكندرية بحسب الموقع. الفئات العمرية للمراهقين والرسوم غير مؤكدة."
+      }
+    },
+    {
+      "id": "goethe-institut-egypt",
+      "name": {
+        "en": "Goethe-Institut Egypt",
+        "ar": "معهد جوته - مصر"
+      },
+      "kind": "language_school",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Giza",
+        "Alexandria",
+        "Red Sea"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "German courses at all CEFR levels for adults, teenagers and children (Alexandria lists teen/child courses); partner centres also offer children's courses.",
+        "ar": "دورات ألمانية بجميع المستويات للكبار والمراهقين والأطفال (الإسكندرية تعلن دورات للمراهقين والأطفال)، ومراكز شريكة تقدم دورات للأطفال."
+      },
+      "skills": [
+        "German",
+        "DSD/Goethe exams"
+      ],
+      "careerIds": [
+        "translator",
+        "tour_guide",
+        "teacher"
+      ],
+      "website": "https://www.goethe.de/ins/eg/en/index.html",
+      "sourceUrl": "https://www.goethe.de/ins/eg/de/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Locations listed: Alexandria, Cairo, New Cairo, 6th of October and Hurghada. Minimum teen age and fees not verified.",
+        "ar": "الفروع المعلنة: الإسكندرية والقاهرة والقاهرة الجديدة و6 أكتوبر والغردقة. الحد الأدنى لسن المراهقين والرسوم غير مؤكدين."
+      }
+    },
+    {
+      "id": "institut-francais-egypte",
+      "name": {
+        "en": "Institut français d'Égypte",
+        "ar": "المعهد الفرنسي بمصر"
+      },
+      "kind": "language_school",
+      "format": "hybrid",
+      "governorates": [
+        "Cairo",
+        "Giza",
+        "Alexandria"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "French courses from beginner to advanced at 7 language centres plus online; teen course ages not published on the site.",
+        "ar": "دورات فرنسية من المبتدئ إلى المتقدم في 7 مراكز لغات وعبر الإنترنت؛ أعمار دورات المراهقين غير منشورة."
+      },
+      "skills": [
+        "French",
+        "DELF/DALF"
+      ],
+      "careerIds": [
+        "translator",
+        "tour_guide",
+        "diplomat",
+        "teacher"
+      ],
+      "website": "https://www.ifegypte.com",
+      "sourceUrl": "https://www.ifegypte.com",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Centres in Mounira, Sheikh Zayed, Heliopolis, New Cairo and Alexandria (plus Miami, listed under Cairo on the site). Fees not published.",
+        "ar": "مراكز المنيرة والشيخ زايد ومصر الجديدة والقاهرة الجديدة والإسكندرية (ومركز ميامي المدرج بالقاهرة على الموقع). الرسوم غير منشورة."
+      }
+    },
+    {
+      "id": "amideast-egypt",
+      "name": {
+        "en": "AMIDEAST Egypt",
+        "ar": "أميديست مصر"
+      },
+      "kind": "language_school",
+      "format": "offline",
+      "governorates": [
+        "Giza",
+        "Cairo",
+        "Alexandria"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "English instruction at all levels, professional skills, standardized testing and US study advising. Youth age limits not stated on the site.",
+        "ar": "تعليم اللغة الإنجليزية بجميع المستويات ومهارات مهنية واختبارات معيارية وإرشاد للدراسة بأمريكا. حدود سن الشباب غير مذكورة بالموقع."
+      },
+      "skills": [
+        "English",
+        "test preparation",
+        "US study advising"
+      ],
+      "careerIds": [
+        "translator",
+        "teacher",
+        "diplomat"
+      ],
+      "website": "https://www.amideast.org/egypt",
+      "sourceUrl": "https://www.amideast.org/egypt",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Offices in Dokki (Giza), Cairo and Alexandria; operating in Egypt for 60+ years.",
+        "ar": "مكاتب في الدقي (الجيزة) والقاهرة والإسكندرية؛ تعمل في مصر منذ أكثر من 60 عامًا."
+      }
+    },
+    {
+      "id": "instituto-cervantes-cairo",
+      "name": {
+        "en": "Instituto Cervantes Cairo",
+        "ar": "معهد ثربانتس بالقاهرة"
+      },
+      "kind": "language_school",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Alexandria"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Spanish courses and official DELE exams; centres in Cairo and Alexandria. Youth age limits not verified.",
+        "ar": "دورات إسبانية واختبارات DELE الرسمية؛ مركزان في القاهرة والإسكندرية. حدود سن الشباب غير مؤكدة."
+      },
+      "skills": [
+        "Spanish",
+        "DELE exams"
+      ],
+      "careerIds": [
+        "translator",
+        "tour_guide",
+        "teacher"
+      ],
+      "website": "https://elcairo.cervantes.es",
+      "sourceUrl": "https://elcairo.cervantes.es",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Fees and teen courses not verified.",
+        "ar": "الرسوم ودورات المراهقين غير مؤكدة."
+      }
+    },
+    {
+      "id": "auc-school-of-continuing-education",
+      "name": {
+        "en": "AUC School of Continuing Education (SCE)",
+        "ar": "مدرسة التعليم المستمر بالجامعة الأمريكية بالقاهرة"
+      },
+      "kind": "other",
+      "format": "hybrid",
+      "governorates": [
+        "Cairo"
+      ],
+      "cost": {
+        "type": "mixed",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": 10,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "Youth programs and summer bootcamps for ages 10+, plus adult professional, language and creative courses; a free English Access program for disadvantaged teens.",
+        "ar": "برامج للشباب ومعسكرات صيفية من سن 10 سنوات، إضافة إلى دورات مهنية ولغوية وإبداعية للكبار، وبرنامج إنجلش أكسس المجاني للمراهقين."
+      },
+      "skills": [
+        "languages",
+        "animation",
+        "design",
+        "public speaking",
+        "entrepreneurship",
+        "interior design"
+      ],
+      "careerIds": [
+        "graphic_designer",
+        "animator_3d_artist",
+        "interior_designer",
+        "architect",
+        "translator",
+        "entrepreneur"
+      ],
+      "website": "https://sce.aucegypt.edu",
+      "sourceUrl": "https://enterpriseam.com/egypt/2026/05/07/your-guide-to-this-seasons-best-summer-camps/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Campuses: New Cairo, Tahrir and New Capital, plus online. 2026 summer bootcamps reported at EGP 2,900-4,500 (not set as typicalEgp because course prices vary widely). Adult courses are priced separately.",
+        "ar": "الفروع: القاهرة الجديدة والتحرير والعاصمة الجديدة وأونلاين. معسكرات صيف 2026 بين 2900 و4500 جنيه (لم تُسجل كسعر نموذجي لتفاوت أسعار الدورات). دورات الكبار بأسعار مستقلة."
+      }
+    },
+    {
+      "id": "cairo-opera-talents-development-center",
+      "name": {
+        "en": "Cairo Opera House - Talents Development Center",
+        "ar": "مركز تنمية المواهب بدار الأوبرا المصرية"
+      },
+      "kind": "creative_academy",
+      "format": "offline",
+      "governorates": [
+        "Cairo"
+      ],
+      "cost": {
+        "type": "paid",
+        "typicalEgp": 850,
+        "year": 2023
+      },
+      "ageMin": 6,
+      "ageMax": null,
+      "eligibility": "all_ages",
+      "audience": {
+        "en": "Music and dance classes for children from age 6 with no upper age limit; ballet, piano, oud, qanun, violin, flute, guitar and singing.",
+        "ar": "دروس موسيقى ورقص للأطفال من سن 6 سنوات دون حد أقصى للعمر؛ باليه وبيانو وعود وقانون وكمان وناي وجيتار وغناء."
+      },
+      "skills": [
+        "music performance",
+        "ballet",
+        "Arabic instruments",
+        "singing"
+      ],
+      "careerIds": [
+        "musician"
+      ],
+      "website": "https://www.cairoopera.org",
+      "sourceUrl": "https://enterpriseam.com/egypt/2023/09/08/where-to-take-your-kids-young-and-old-to-dabble-in-the-arts-part-two/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Price is per three-month cycle as reported in 2023; current fees are on the course pages. Located in Zamalek.",
+        "ar": "السعر عن دورة مدتها 3 أشهر بحسب تقرير 2023؛ الرسوم الحالية في صفحات الدورات. يقع في الزمالك."
+      }
+    },
+    {
+      "id": "nayzak-animation-school",
+      "name": {
+        "en": "Nayzak Animation School",
+        "ar": "مدرسة نيزك للأنيميشن"
+      },
+      "kind": "creative_academy",
+      "format": "offline",
+      "governorates": [
+        "Cairo"
+      ],
+      "cost": {
+        "type": "paid",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Short courses and diplomas in 2D/3D animation, concept art, motion graphics and graphic design. Age requirement not stated; applications reported via Instagram.",
+        "ar": "دورات قصيرة ودبلومات في الرسوم المتحركة ثنائية وثلاثية الأبعاد والفن التصوري والموشن جرافيك والتصميم. شرط السن غير مذكور؛ يُذكر التقديم عبر إنستغرام."
+      },
+      "skills": [
+        "2D animation",
+        "3D animation",
+        "concept art",
+        "motion graphics"
+      ],
+      "careerIds": [
+        "animator_3d_artist",
+        "graphic_designer",
+        "game_developer",
+        "film_producer"
+      ],
+      "website": "https://nayzakschool.com",
+      "sourceUrl": "https://www.cairo360.com/article/arts-culture/5-animation-workshops-in-cairo-styles-fees-and-how-to-join/",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "A beginner 3D course (ten 3-hour sessions) is reported at about EGP 3,000 in an undated article, so no price is recorded. Located in Nasr City.",
+        "ar": "كورس مبتدئين ثلاثي الأبعاد (10 جلسات كل منها 3 ساعات) بنحو 3000 جنيه في مقال غير مؤرخ لذلك لم يُسجل سعر. يقع في مدينة نصر."
+      }
+    },
+    {
+      "id": "noqoush-culinary-academy",
+      "name": {
+        "en": "Noqoush Culinary Academy",
+        "ar": "أكاديمية نقوش للفنون الطهوية"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "Cairo"
+      ],
+      "cost": {
+        "type": "paid",
+        "typicalEgp": 19000,
+        "year": 2022
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Professional culinary arts certificate (40 classes of 6 hours) aligned with City and Guilds, plus short garde-manger courses. Minimum age not stated.",
+        "ar": "شهادة فنون طهي احترافية (40 حصة مدة كل منها 6 ساعات) وفق City and Guilds، ودورات قصيرة. الحد الأدنى للسن غير مذكور."
+      },
+      "skills": [
+        "culinary arts",
+        "garde manger",
+        "professional cooking"
+      ],
+      "careerIds": [
+        "chef"
+      ],
+      "website": "https://noqoush.org",
+      "sourceUrl": "https://cairoscene.com/Eats/Noqoush-is-the-Cairo-Culinary-Art-School-We-ve-Been-Waiting-for",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Price is the full certificate fee reported in May 2022; likely higher now. Located in Nasr City.",
+        "ar": "السعر هو رسوم الشهادة الكاملة المعلنة في مايو 2022 وغالبًا ارتفع الآن. يقع في مدينة نصر."
+      }
+    },
+    {
+      "id": "egyptian-chefs-association",
+      "name": {
+        "en": "Egyptian Chefs Association (ECA) training",
+        "ar": "الجمعية المصرية للشيفات (ECA)"
+      },
+      "kind": "technical_school",
+      "format": "offline",
+      "governorates": [
+        "Giza"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Practical certified cooking courses (for example Basics of Professional Cooking Level 1: 16 days, two days a week for 8 weeks). Minimum age not published in sources found.",
+        "ar": "دورات طهي عملية معتمدة (مثل أساسيات الطهي الاحترافي المستوى الأول: 16 يومًا بواقع يومين أسبوعيًا لمدة 8 أسابيع). الحد الأدنى للسن غير منشور في المصادر."
+      },
+      "skills": [
+        "professional cooking",
+        "kitchen basics"
+      ],
+      "careerIds": [
+        "chef"
+      ],
+      "website": "https://www.egyptchefs.com",
+      "sourceUrl": "https://www.egyptchefs.com/?p=162",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Located in Agouza (Giza governorate). Described as running 23+ years. Fees not recorded; the site blocked automated access when checked.",
+        "ar": "يقع في العجوزة (محافظة الجيزة). يُذكر أنه يعمل منذ أكثر من 23 عامًا. الرسوم غير مسجلة؛ منع الموقع الوصول الآلي وقت المراجعة."
+      }
+    },
+    {
+      "id": "injaz-egypt",
+      "name": {
+        "en": "INJAZ Egypt",
+        "ar": "إنجاز مصر"
+      },
+      "kind": "ngo_program",
+      "format": "offline",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "under18_ok",
+      "audience": {
+        "en": "School, university and company programs in financial literacy, work readiness, entrepreneurship and STEM; about a quarter of participants are high-school students. Company Program lets students run a mini company with volunteer mentors.",
+        "ar": "برامج مدرسية وجامعية في الثقافة المالية والجاهزية للعمل وريادة الأعمال والعلوم والتكنولوجيا؛ نحو ربع المشاركين طلاب ثانوي. برنامج الشركة يتيح للطلاب إدارة شركة صغيرة بإرشاد متطوعين."
+      },
+      "skills": [
+        "financial literacy",
+        "work readiness",
+        "entrepreneurship",
+        "STEM"
+      ],
+      "careerIds": [
+        "entrepreneur",
+        "accountant",
+        "banker"
+      ],
+      "website": "https://injaz-egypt.org",
+      "sourceUrl": "https://injaz-egypt.org",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Part of Junior Achievement Worldwide since 2003. Cost to students not stated; delivery is mostly through partner schools and universities.",
+        "ar": "جزء من Junior Achievement العالمية منذ 2003. التكلفة على الطلاب غير مذكورة؛ التنفيذ غالبًا عبر مدارس وجامعات شريكة."
+      }
+    },
+    {
+      "id": "sawiris-foundation",
+      "name": {
+        "en": "Sawiris Foundation for Social Development",
+        "ar": "مؤسسة ساويرس للتنمية الاجتماعية"
+      },
+      "kind": "ngo_program",
+      "format": "hybrid",
+      "governorates": [
+        "nationwide"
+      ],
+      "cost": {
+        "type": "scholarship",
+        "typicalEgp": null,
+        "year": null
+      },
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Competitive scholarships (including Tech-Start and Arts & Culture), technical-education support and the Sawiris Screenplay Lab. Age and eligibility vary by call.",
+        "ar": "منح تنافسية (منها Tech-Start والفنون والثقافة) ودعم التعليم الفني ومعمل ساويرس لكتابة السيناريو. السن وشروط التقديم تختلف حسب كل دعوة."
+      },
+      "skills": [
+        "scholarships",
+        "technical education",
+        "screenwriting",
+        "tech"
+      ],
+      "careerIds": [
+        "software_engineer",
+        "film_producer",
+        "industrial_technician"
+      ],
+      "website": "https://www.sawirisfoundation.org",
+      "sourceUrl": "https://www.sawirisfoundation.org",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Active since 2001 in 23 governorates by its own reporting, with a focus on Upper Egypt. Check each open call for age and cost.",
+        "ar": "نشطة منذ 2001 في 23 محافظة بحسب بياناتها مع تركيز على صعيد مصر. راجع كل دعوة مفتوحة للسن والتكلفة."
+      }
+    },
+    {
+      "id": "efe-egypt",
+      "name": {
+        "en": "Education For Employment (EFE) Egypt",
+        "ar": "التعليم من أجل التوظيف مصر (EFE)"
+      },
+      "kind": "ngo_program",
+      "format": "offline",
+      "governorates": [
+        "Sohag",
+        "Qena"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": 30,
+      "eligibility": "unspecified",
+      "audience": {
+        "en": "Unemployed, underprivileged Egyptian youth under 30: vocational training, job placement and alumni support. Shaghalni (with Sawiris Foundation) trains youth in tourism, hospitality and maritime jobs in Sohag and Qena.",
+        "ar": "شباب مصري عاطل من الأسر محدودة الدخل دون 30 عامًا: تدريب مهني وتوظيف ومتابعة الخريجين. برنامج شغلني (مع مؤسسة ساويرس) يدرب الشباب على وظائف السياحة والضيافة والملاحة في سوهاج وقنا."
+      },
+      "skills": [
+        "vocational training",
+        "job placement",
+        "hospitality",
+        "tourism"
+      ],
+      "careerIds": [
+        "hotel_manager",
+        "chef",
+        "tour_guide"
+      ],
+      "website": "https://www.efe.org/network/efe-egypt",
+      "sourceUrl": "https://www.efe.org/network/efe-egypt",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Founded 2007; operates beyond the two governorates listed (list not verified). Program-specific minimum age not published.",
+        "ar": "تأسست عام 2007 وتعمل في محافظات أخرى غير المذكورتين (القائمة غير مؤكدة). الحد الأدنى للسن لكل برنامج غير منشور."
+      }
+    },
+    {
+      "id": "fab-lab-egypt",
+      "name": {
+        "en": "Fab Lab Egypt and Orange Fab Labs network",
+        "ar": "مختبر فاب لاب مصر وشبكة معامل أورنج"
+      },
+      "kind": "other",
+      "format": "offline",
+      "governorates": [
+        "Cairo",
+        "Sharqia",
+        "Ismailia",
+        "Dakahlia",
+        "Assiut",
+        "Aswan"
+      ],
+      "cost": null,
+      "ageMin": null,
+      "ageMax": null,
+      "eligibility": "all_ages",
+      "audience": {
+        "en": "Makerspaces open to children, students, entrepreneurs and businesses: 3D printing, CNC, laser cutting, PCB, programming and crafts.",
+        "ar": "مساحات صناعة مفتوحة للأطفال والطلاب ورواد الأعمال والشركات: طباعة ثلاثية الأبعاد وCNC وقص بالليزر ودوائر إلكترونية وبرمجة وحرف."
+      },
+      "skills": [
+        "3D printing",
+        "digital fabrication",
+        "CNC",
+        "electronics prototyping"
+      ],
+      "careerIds": [
+        "mechatronics_engineer",
+        "mechanical_engineer",
+        "electrical_engineer",
+        "industrial_technician"
+      ],
+      "website": "https://fablabegypt.com",
+      "sourceUrl": "https://engageforchange.orange.com/country/eg/programs/148dac9d-ff82-43d8-8535-01600a3a698c",
+      "verifiedAt": "2026-10-09",
+      "notes": {
+        "en": "Fab Lab Egypt is in Maadi, Cairo (since 2012, MIT Fab Lab network). Orange Fab Labs run in Zagazig, Ismailia, Mansoura, Asyut, Aswan and Cairo. Teen programs and prices not published.",
+        "ar": "فاب لاب مصر في المعادي بالقاهرة (منذ 2012 ضمن شبكة MIT). معامل أورنج في الزقازيق والإسماعيلية والمنصورة وأسيوط وأسوان والقاهرة. برامج المراهقين والأسعار غير منشورة."
+      }
+    }
+  ]
+}

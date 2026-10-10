@@ -1,0 +1,172 @@
+{
+  "id": "social_media_manager",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You are the voice of a brand on social media.",
+      "ar": "أنت صوت العلامة التجارية على السوشيال ميديا."
+    },
+    "summary": {
+      "en": "Social media managers plan, publish and monitor a brand's posts on platforms like Facebook, Instagram, TikTok and LinkedIn. They write, coordinate designs, answer followers and measure what works. Almost every company now needs one, and the skills can be learned partly by practice.",
+      "ar": "مدير السوشيال ميديا يخطط وينشر ويتابع منشورات العلامة التجارية على منصات مثل فيسبوك وإنستجرام وتيك توك ولينكدإن. يكتب وينسق التصميمات ويرد على المتابعين ويقيس ما ينجح. تحتاج تقريبًا كل شركة الآن إلى واحد، ويمكن تعلم جزء من المهارات بالممارسة."
+    },
+    "dayInLife": {
+      "en": "You check the comments and messages from the night and answer what you can. Then you finish the week's post calendar and send designs to the designer. At noon you launch a small paid ad, and in the afternoon you look at the numbers: which posts people liked and which they skipped. You end the day by writing next week's ideas.",
+      "ar": "تراجع تعليقات ورسائل الليل وترد على ما تستطيع. ثم تنهي تقويم منشورات الأسبوع وترسل التصميمات للمصمم. عند الظهر تطلق إعلانًا مدفوعًا صغيرًا، وبعد الظهر تنظر في الأرقام: أي المنشورات أعجبت الناس وأيها تجاهلوه. تنهي اليوم بكتابة أفكار الأسبوع القادم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan a content calendar and write posts.",
+        "ar": "تخطط تقويم المحتوى وتكتب المنشورات."
+      },
+      {
+        "en": "Work with designers and video makers.",
+        "ar": "تعمل مع المصممين وصناع الفيديو."
+      },
+      {
+        "en": "Reply to comments and messages and manage the community.",
+        "ar": "ترد على التعليقات والرسائل وتدير المجتمع."
+      },
+      {
+        "en": "Run paid ads and track results.",
+        "ar": "تدير الإعلانات المدفوعة وتتابع نتائجها."
+      },
+      {
+        "en": "Report to managers and adjust the plan.",
+        "ar": "ترفع تقارير للمديرين وتعدّل الخطة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Company marketing departments",
+        "ar": "أقسام التسويق في الشركات"
+      },
+      {
+        "en": "Marketing and social media agencies",
+        "ar": "وكالات التسويق والسوشيال ميديا"
+      },
+      {
+        "en": "Freelance work for small businesses",
+        "ar": "العمل الحر للأعمال الصغيرة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Meta Business Suite and other platform tools",
+        "ar": "Meta Business Suite وأدوات المنصات الأخرى"
+      },
+      {
+        "en": "Scheduling and analytics tools",
+        "ar": "أدوات الجدولة والتحليلات"
+      },
+      {
+        "en": "Canva and simple editing apps",
+        "ar": "Canva وتطبيقات التحرير البسيطة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Mass Communication mostly accept literary-stream students. With IGCSE or A-Level, English Language, Media Studies and Business are useful; with the American Diploma, English, Communications and Art electives help. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الإعلام تقبل في الغالب طلاب الشعبة الأدبية. في IGCSE وA-Level تفيد اللغة الإنجليزية ودراسات الإعلام والأعمال؛ وفي الدبلومة الأمريكية تفيد الإنجليزية ومواد الاتصال والفنون الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Mass Communication (public universities)",
+        "ar": "كليات الإعلام بالجامعات الحكومية"
+      },
+      {
+        "en": "Mass communication and media programs at private universities",
+        "ar": "برامج الإعلام والاتصال بالجامعات الخاصة"
+      },
+      {
+        "en": "Business faculties with a marketing or digital marketing focus",
+        "ar": "كليات الأعمال ذات التركيز التسويقي أو التسويق الرقمي"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "ain-shams-university-mass-communication",
+      "menoufia-university-mass-communication",
+      "british-university-in-egypt-communication-mass-media",
+      "misr-international-university-mass-communication"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 88.12% to 90.31% across 3 programs (lowest Menoufia University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 88.12% إلى 90.31% عبر 3 برنامجًا (الأدنى جامعة المنوفية والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a community manager or content assistant, even part-time while studying.",
+        "ar": "البدء كمدير مجتمع أو مساعد محتوى حتى لو بدوام جزئي أثناء الدراسة."
+      },
+      {
+        "en": "Free and paid marketing courses plus a portfolio of accounts you managed.",
+        "ar": "دورات تسويق مجانية ومدفوعة مع ملف بحسابات أدرتها."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "digital_marketer",
+      "content_creator",
+      "brand_manager",
+      "pr_specialist",
+      "graphic_designer",
+      "journalist"
+    ],
+    "pivots": [
+      {
+        "en": "Digital marketing and paid ads",
+        "ar": "التسويق الرقمي والإعلانات المدفوعة"
+      },
+      {
+        "en": "Brand management",
+        "ar": "إدارة العلامات التجارية"
+      },
+      {
+        "en": "Content strategy",
+        "ar": "استراتيجية المحتوى"
+      },
+      {
+        "en": "Freelance or agency ownership",
+        "ar": "العمل الحر أو امتلاك وكالة"
+      }
+    ]
+  },
+  "industryId": "media",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Social Media Manager",
+      "url": "https://www.onetonline.org/link/summary/13-1161.01",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Social Media Manager",
+      "url": "https://www.mynextmove.org/profile/summary/13-1161.01",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

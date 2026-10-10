@@ -1,0 +1,7 @@
+.next/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files (secrets)
+.env
+.env*.local

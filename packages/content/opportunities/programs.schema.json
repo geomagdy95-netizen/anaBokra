@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://anabokra.app/schemas/programs.schema.json",
+  "title": "anaBokra faculties and programs dataset",
+  "description": "Faculties/programs of 30 leading Egyptian universities, linked to catalog careers, with Tansik phase-1 minimum-score history (public universities) and Ministry minimum percentages / published fees (private and ahleya universities). Unknown values are null or omitted; nothing is estimated.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "asOf", "scoringSystems", "sources", "programs"],
+  "properties": {
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "asOf": { "type": "string", "format": "date" },
+    "scoringSystems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "description", "scoreMax"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "description": { "type": "string", "minLength": 1 },
+          "scoreMax": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https://" }
+        }
+      }
+    },
+    "programs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/program" }
+    }
+  },
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "ar"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "ar": { "type": "string", "minLength": 1 }
+      }
+    },
+    "httpsUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "minScore": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["year", "track", "scorePct", "system", "kind", "sourceUrl"],
+      "properties": {
+        "year": { "type": "integer", "minimum": 2020, "maximum": 2026 },
+        "track": { "enum": ["science", "math", "literary", "any"] },
+        "scorePct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "scoreRaw": { "type": "number", "minimum": 0 },
+        "scoreMax": { "type": "number", "exclusiveMinimum": 0 },
+        "system": { "const": "thanaweya-amma" },
+        "phase": { "type": ["integer", "null"], "minimum": 1 },
+        "kind": {
+          "enum": ["tansik-phase1-cutoff", "regulatory-minimum"],
+          "description": "tansik-phase1-cutoff: realised phase-1 minimum of a public faculty. regulatory-minimum: Ministry floor percentage for private/ahleya universities."
+        },
+        "sourceUrl": { "$ref": "#/$defs/httpsUrl" }
+      }
+    },
+    "fees": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "year", "sourceUrl"],
+      "properties": {
+        "value": { "type": "number", "exclusiveMinimum": 0 },
+        "year": { "type": "integer", "minimum": 2020, "maximum": 2026, "description": "First calendar year of the academic year the fee applies to." },
+        "sourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "note": { "type": "string" }
+      }
+    },
+    "program": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "universityId", "faculty", "program", "unitType", "degree", "durationYears",
+        "teachingLanguage", "acceptedTracks", "minScores", "feesEgpPerYear", "careerIds",
+        "website", "sourceUrl", "verifiedAt", "notes"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "universityId": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "faculty": { "$ref": "#/$defs/bilingual" },
+        "program": { "anyOf": [{ "$ref": "#/$defs/bilingual" }, { "type": "null" }] },
+        "unitType": { "enum": ["faculty", "program"] },
+        "degree": { "type": "string", "minLength": 1 },
+        "durationYears": { "type": ["integer", "null"], "minimum": 1, "maximum": 8 },
+        "teachingLanguage": { "enum": ["ar", "en", "mixed", null] },
+        "acceptedTracks": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["science", "math", "literary"] }
+        },
+        "minScores": { "type": "array", "items": { "$ref": "#/$defs/minScore" } },
+        "feesEgpPerYear": { "anyOf": [{ "$ref": "#/$defs/fees" }, { "type": "null" }] },
+        "careerIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$" }
+        },
+        "website": { "$ref": "#/$defs/httpsUrl" },
+        "sourceUrl": { "$ref": "#/$defs/httpsUrl" },
+        "verifiedAt": { "type": "string", "format": "date" },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

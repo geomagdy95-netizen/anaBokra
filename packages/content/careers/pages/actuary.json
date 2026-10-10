@@ -1,0 +1,168 @@
+{
+  "id": "actuary",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You use maths to put a price on the future.",
+      "ar": "تستخدم الرياضيات لتضع سعرًا للمستقبل."
+    },
+    "summary": {
+      "en": "Actuaries use statistics and maths to measure risk, mostly for insurance companies, pension funds and banks. They estimate how likely events like accidents or illness are, and how much money should be set aside to pay for them. It is a demanding profession with long professional exams, and few people do it in Egypt.",
+      "ar": "الخبير الاكتواري يستخدم الإحصاء والرياضيات لقياس المخاطر، وغالبًا لشركات التأمين وصناديق المعاشات والبنوك. يقدّر احتمال أحداث مثل الحوادث أو المرض، وكم من المال يجب تخصيصه لتغطيتها. مهنة تتطلب جهدًا وامتحانات مهنية طويلة، وعدد العاملين فيها محدود."
+    },
+    "dayInLife": {
+      "en": "You open a data file with thousands of insurance policies and check how many claims came last year. You build a model in a spreadsheet or statistics program to estimate next year's claims, then compare it with the premium the company charges. After lunch you explain your results to the product manager in simple words, and then study for your next professional exam in the evening.",
+      "ar": "تفتح ملف بيانات به آلاف وثائق التأمين وتفحص عدد المطالبات في العام الماضي. تبني نموذجًا في جدول بيانات أو برنامج إحصاء لتقدير مطالبات العام القادم، ثم تقارنه بالقسط الذي تحصّله الشركة. بعد الغداء تشرح نتائجك لمدير المنتج بكلمات بسيطة، وفي المساء تذاكر لامتحانك المهني القادم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect and analyse data about claims, deaths, illness and other risks.",
+        "ar": "تجمع وتحلل بيانات المطالبات والوفيات والمرض والمخاطر الأخرى."
+      },
+      {
+        "en": "Build models to estimate future costs.",
+        "ar": "تبني نماذج لتقدير التكاليف المستقبلية."
+      },
+      {
+        "en": "Help set prices for insurance and pension products.",
+        "ar": "تساعد في تسعير منتجات التأمين والمعاشات."
+      },
+      {
+        "en": "Estimate the reserves a company must hold.",
+        "ar": "تقدّر الاحتياطيات التي يجب أن تحتفظ بها الشركة."
+      },
+      {
+        "en": "Explain findings to managers and regulators.",
+        "ar": "تشرح النتائج للمديرين والجهات الرقابية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Insurance and reinsurance companies",
+        "ar": "شركات التأمين وإعادة التأمين"
+      },
+      {
+        "en": "Pension funds and banks",
+        "ar": "صناديق المعاشات والبنوك"
+      },
+      {
+        "en": "Consulting firms and regulators",
+        "ar": "شركات الاستشارات والجهات الرقابية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel, R or Python",
+        "ar": "إكسل وR أو Python"
+      },
+      {
+        "en": "Statistics and modelling software",
+        "ar": "برامج الإحصاء والنمذجة"
+      },
+      {
+        "en": "Insurance data systems",
+        "ar": "أنظمة بيانات التأمين"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science",
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "Strong maths is the main requirement. Students from the math stream have an easy start, and others can enter commerce or science faculties that include statistics. With IGCSE or A-Level take Mathematics and Further Mathematics; with the American Diploma take AP Calculus and AP Statistics. Equivalency rules for foreign certificates change, so check yours with the Tansik office.",
+      "ar": "الرياضيات القوية هي الشرط الأساسي. طلاب شعبة الرياضيات يبدأون بسهولة، ويمكن للآخرين دخول كليات التجارة أو العلوم التي تضم الإحصاء. في IGCSE وA-Level خذ الرياضيات والرياضيات المتقدمة؛ وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP إحصاء. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Commerce, with insurance and statistics departments",
+        "ar": "كليات التجارة بأقسام التأمين والإحصاء"
+      },
+      {
+        "en": "Faculties of Economics and Political Science, statistics departments",
+        "ar": "كليات الاقتصاد والعلوم السياسية، أقسام الإحصاء"
+      },
+      {
+        "en": "Faculties of Science, mathematics or statistics departments",
+        "ar": "كليات العلوم، أقسام الرياضيات أو الإحصاء"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik figures for this career are not available in our data, because no linked program is tracked. Ask the Tansik office about the faculty you want.",
+      "ar": "أرقام التنسيق لهذه المهنة غير متوفرة في بياناتنا لعدم وجود برنامج مرتبط نتابعه. اسأل مكتب التنسيق عن الكلية التي تريدها."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A maths, statistics or economics degree, then professional actuarial exams taken alongside work.",
+        "ar": "درجة في الرياضيات أو الإحصاء أو الاقتصاد ثم الامتحانات الاكتوارية المهنية أثناء العمل."
+      },
+      {
+        "en": "Start in an insurance company in a data or pricing role and study for the exams there.",
+        "ar": "البدء في شركة تأمين بوظيفة بيانات أو تسعير ودراسة الامتحانات هناك."
+      }
+    ],
+    "licensing": {
+      "en": "Professional actuarial qualifications come from international bodies such as the Institute and Faculty of Actuaries (UK) or the Society of Actuaries (US), through a series of exams. Insurance in Egypt is overseen by the Financial Regulatory Authority, so check its current rules on who may sign actuarial reports.",
+      "ar": "المؤهلات الاكتوارية المهنية تأتي من هيئات دولية مثل معهد وكلية الاكتواريين (بريطانيا) أو جمعية الاكتواريين (أمريكا) عبر سلسلة امتحانات. وتشرف الهيئة العامة للرقابة المالية على التأمين في مصر، فراجع قواعدها الحالية بشأن من يحق له توقيع التقارير الاكتوارية."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "financial_analyst",
+      "data_scientist",
+      "banker",
+      "accountant",
+      "auditor"
+    ],
+    "pivots": [
+      {
+        "en": "Data science",
+        "ar": "علم البيانات"
+      },
+      {
+        "en": "Risk management",
+        "ar": "إدارة المخاطر"
+      },
+      {
+        "en": "Investment and financial analysis",
+        "ar": "الاستثمار والتحليل المالي"
+      },
+      {
+        "en": "Insurance management",
+        "ar": "إدارة التأمين"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Actuary",
+      "url": "https://www.onetonline.org/link/summary/15-2011.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Actuary",
+      "url": "https://www.mynextmove.org/profile/summary/15-2011.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Institute and Faculty of Actuaries",
+      "url": "https://actuaries.org.uk",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Society of Actuaries",
+      "url": "https://www.soa.org",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "photographer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You freeze moments that people want to remember.",
+      "ar": "تثبّت لحظات يريد الناس تذكرها."
+    },
+    "summary": {
+      "en": "Photographers capture images of people, events, products, places and news. They choose light, angles and moments, then edit the photos. Many work for themselves, so business skills, such as finding clients and pricing, are as important as the camera.",
+      "ar": "المصور يلتقط صور الناس والمناسبات والمنتجات والأماكن والأخبار. يختار الإضاءة والزوايا واللحظات ثم يحرر الصور. يعمل كثيرون لحسابهم الخاص، فمهارات الأعمال مثل إيجاد العملاء والتسعير مهمة مثل الكاميرا."
+    },
+    "dayInLife": {
+      "en": "You prepare the camera and lens for a wedding that starts at noon. At the venue you check the light and shoot portraits, then follow the event and catch the special moments. At night you copy the files, back them up and start choosing the best pictures. The next morning you edit and send a preview to the client.",
+      "ar": "تجهّز الكاميرا والعدسة لحفل زفاف يبدأ عند الظهر. في القاعة تفحص الإضاءة وتصوّر البورتريهات ثم تتابع الحفل وتلتقط اللحظات المميزة. في الليل تنسخ الملفات وتحفظ نسخة احتياطية وتبدأ اختيار أفضل الصور. وفي الصباح التالي تحرر وترسل معاينة للعميل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan shoots and set up lighting and equipment.",
+        "ar": "تخطط جلسات التصوير وتجهّز الإضاءة والمعدات."
+      },
+      {
+        "en": "Direct people and choose angles and moments.",
+        "ar": "توجّه الأشخاص وتختار الزوايا واللحظات."
+      },
+      {
+        "en": "Edit and retouch photos on a computer.",
+        "ar": "تحرر الصور وتعالجها على الكمبيوتر."
+      },
+      {
+        "en": "Store and deliver files to clients.",
+        "ar": "تخزن الملفات وتسلمها للعملاء."
+      },
+      {
+        "en": "Find clients, quote prices and keep a portfolio.",
+        "ar": "تبحث عن العملاء وتحدد الأسعار وتحتفظ بملف أعمال."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Own studio or freelance",
+        "ar": "استوديو خاص أو عمل حر"
+      },
+      {
+        "en": "Newspapers, magazines and media companies",
+        "ar": "الصحف والمجلات وشركات الإعلام"
+      },
+      {
+        "en": "Advertising, fashion and event companies",
+        "ar": "شركات الإعلان والأزياء والفعاليات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Cameras, lenses and lighting",
+        "ar": "الكاميرات والعدسات والإضاءة"
+      },
+      {
+        "en": "Lightroom and Photoshop",
+        "ar": "Lightroom وفوتوشوب"
+      },
+      {
+        "en": "Storage, backup and delivery tools",
+        "ar": "أدوات التخزين والنسخ الاحتياطي والتسليم"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Art faculties usually accept students from any stream and add a practical aptitude test or portfolio review, so drawing and design practice matter as much as your marks. With IGCSE or A-Level, Art and Design is the most useful subject; with the American Diploma, take art electives. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات الفنون تقبل عادة طلابًا من أي شعبة وتضيف اختبار قدرات عمليًا أو مراجعة ملف أعمال، فالتدريب على الرسم والتصميم يهم بقدر الدرجات. في IGCSE وA-Level الأنفع هو الفن والتصميم؛ وفي الدبلومة الأمريكية خذ مواد الفنون الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Applied Arts, photography, film and TV department (aptitude test)",
+        "ar": "كليات الفنون التطبيقية، قسم التصوير والسينما والتلفزيون (باختبار قدرات)"
+      },
+      {
+        "en": "Faculties of Mass Communication and Fine Arts",
+        "ar": "كليات الإعلام والفنون الجميلة"
+      },
+      {
+        "en": "Art and design programs at private universities",
+        "ar": "برامج الفنون والتصميم بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-mass-communication",
+      "capital-university-applied-arts",
+      "alexandria-university-fine-arts",
+      "british-university-in-egypt-art-design"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 80.31% to 90.31% across 2 programs (lowest Alexandria University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 80.31% إلى 90.31% عبر 2 برنامجًا (الأدنى جامعة الإسكندرية والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Learn by assisting a working photographer and shooting your own projects.",
+        "ar": "التعلم بمساعدة مصور محترف وتصوير مشاريعك الخاصة."
+      },
+      {
+        "en": "Photography courses and workshops, plus an online portfolio.",
+        "ar": "دورات وورش التصوير مع ملف أعمال على الإنترنت."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "film_producer",
+      "graphic_designer",
+      "journalist",
+      "content_creator",
+      "animator_3d_artist"
+    ],
+    "pivots": [
+      {
+        "en": "Video and cinematography",
+        "ar": "الفيديو والتصوير السينمائي"
+      },
+      {
+        "en": "Photojournalism",
+        "ar": "التصوير الصحفي"
+      },
+      {
+        "en": "Commercial and product photography",
+        "ar": "تصوير المنتجات والإعلانات"
+      },
+      {
+        "en": "Teaching or running a studio",
+        "ar": "التدريس أو إدارة استوديو"
+      }
+    ]
+  },
+  "industryId": "creative",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Photographer",
+      "url": "https://www.onetonline.org/link/summary/27-4021.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Photographer",
+      "url": "https://www.mynextmove.org/profile/summary/27-4021.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

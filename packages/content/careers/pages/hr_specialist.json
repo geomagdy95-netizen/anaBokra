@@ -1,0 +1,178 @@
+{
+  "id": "hr_specialist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help a company find, grow and look after its people.",
+      "ar": "تساعد الشركة على إيجاد موظفيها وتنميتهم والعناية بهم."
+    },
+    "summary": {
+      "en": "HR specialists handle hiring, training, salaries and the daily needs of employees. They connect managers and staff, and they help build a fair and healthy workplace. The role needs good listening, careful records and knowledge of labour rules.",
+      "ar": "أخصائي الموارد البشرية يتولى التوظيف والتدريب والرواتب واحتياجات الموظفين اليومية. يربط بين المديرين والعاملين ويساعد في بناء مكان عمل عادل وصحي. يحتاج الدور إلى الاستماع الجيد والسجلات الدقيقة ومعرفة قواعد العمل."
+    },
+    "dayInLife": {
+      "en": "You open the day by reading job applications for a vacancy and calling three candidates for interviews. After that you meet an employee who is worried about her contract and explain the company policy. In the afternoon you prepare the attendance sheet for payroll and plan a training day for new staff.",
+      "ar": "تبدأ اليوم بقراءة طلبات وظيفة شاغرة وتتصل بثلاثة مرشحين لمقابلات. بعدها تقابل موظفة قلقة بشأن عقدها وتشرح لها سياسة الشركة. بعد الظهر تجهّز كشف الحضور للمرتبات وتخطط ليوم تدريب للموظفين الجدد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Write job ads, screen applicants and interview candidates.",
+        "ar": "تكتب إعلانات الوظائف وتفرز المتقدمين وتجري المقابلات."
+      },
+      {
+        "en": "Prepare contracts and keep employee records.",
+        "ar": "تجهّز العقود وتحتفظ بسجلات الموظفين."
+      },
+      {
+        "en": "Organise training and help new employees settle in.",
+        "ar": "تنظم التدريب وتساعد الموظفين الجدد على الاندماج."
+      },
+      {
+        "en": "Support payroll, attendance and benefits.",
+        "ar": "تدعم المرتبات والحضور والمزايا."
+      },
+      {
+        "en": "Listen to employees' concerns and help solve conflicts.",
+        "ar": "تستمع لمشكلات الموظفين وتساعد في حل الخلافات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Company HR departments",
+        "ar": "أقسام الموارد البشرية في الشركات"
+      },
+      {
+        "en": "Recruitment agencies",
+        "ar": "شركات التوظيف"
+      },
+      {
+        "en": "Banks, factories, hospitals and schools",
+        "ar": "البنوك والمصانع والمستشفيات والمدارس"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and HR/payroll systems",
+        "ar": "إكسل وأنظمة الموارد البشرية والمرتبات"
+      },
+      {
+        "en": "Job platforms and LinkedIn",
+        "ar": "منصات الوظائف وLinkedIn"
+      },
+      {
+        "en": "Interview and assessment tools",
+        "ar": "أدوات المقابلات والتقييم"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "No single stream is required; students from the literary, science and math streams all enter commerce and business faculties. With IGCSE or A-Level, Business Studies, Economics, Maths and Accounting help; with the American Diploma, Statistics, Economics and business electives help. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "لا تُشترط شعبة معينة؛ فطلاب الشعب الأدبية والعلمية والرياضيات يدخلون كليات التجارة والأعمال. في IGCSE وA-Level تفيد دراسات الأعمال والاقتصاد والرياضيات والمحاسبة؛ وفي الدبلومة الأمريكية يفيد الإحصاء والاقتصاد ومواد الأعمال الاختيارية. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Commerce at public universities (Arabic or English sections)",
+        "ar": "كليات التجارة بالجامعات الحكومية (شعبة عربي أو إنجليزي)"
+      },
+      {
+        "en": "Faculties of Business Administration at private universities",
+        "ar": "كليات إدارة الأعمال بالجامعات الخاصة"
+      },
+      {
+        "en": "Faculties of Economics and Political Science",
+        "ar": "كليات الاقتصاد والعلوم السياسية"
+      },
+      {
+        "en": "Faculties of Arts or psychology programs for people-focused roles",
+        "ar": "كليات الآداب أو برامج علم النفس للأدوار المتعلقة بالأفراد"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "ain-shams-university-commerce",
+      "alexandria-university-commerce",
+      "assiut-university-commerce",
+      "capital-university-commerce",
+      "british-university-in-egypt-business-administration",
+      "ain-shams-national-university-business-fintech",
+      "british-university-in-egypt-psychology"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 71.88% to 79.06% across 5 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 53% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 71.88% إلى 79.06% عبر 5 برنامجًا (الأدنى جامعة أسيوط والأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 53% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as an HR assistant, recruiter or administrator after a commercial diploma or degree.",
+        "ar": "البدء كمساعد موارد بشرية أو مسؤول توظيف أو إداري بعد دبلوم تجاري أو درجة جامعية."
+      },
+      {
+        "en": "HR diplomas and international certificates (for example CIPD), taken alongside work.",
+        "ar": "دبلومات الموارد البشرية وشهادات دولية (مثل CIPD) تؤخذ أثناء العمل."
+      }
+    ],
+    "licensing": null
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "management_consultant",
+      "school_counselor",
+      "supply_chain_specialist",
+      "brand_manager",
+      "social_worker"
+    ],
+    "pivots": [
+      {
+        "en": "Recruitment and talent acquisition",
+        "ar": "التوظيف واستقطاب المواهب"
+      },
+      {
+        "en": "Training and development",
+        "ar": "التدريب والتطوير"
+      },
+      {
+        "en": "Compensation and payroll",
+        "ar": "الأجور والمرتبات"
+      },
+      {
+        "en": "HR consulting",
+        "ar": "استشارات الموارد البشرية"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "O*NET OnLine: HR Specialist",
+      "url": "https://www.onetonline.org/link/summary/13-1071.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): HR Specialist",
+      "url": "https://www.mynextmove.org/profile/summary/13-1071.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

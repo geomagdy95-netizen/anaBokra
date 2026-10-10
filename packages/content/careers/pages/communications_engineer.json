@@ -1,0 +1,423 @@
+{
+  "id": "communications_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You build the networks that carry calls, internet and data across Egypt and the world.",
+      "ar": "تبني الشبكات التي تنقل المكالمات والإنترنت والبيانات عبر مصر والعالم."
+    },
+    "summary": {
+      "en": "Communications engineers design, install and optimize mobile, fiber and wireless networks and the electronics behind them. Egypt launched 5G in 2025 and sells growing digital services, so telecom operators, equipment vendors and data centers need engineers. The degree mixes electronics, signals and programming.",
+      "ar": "مهندس الاتصالات يصمم ويركّب ويحسّن شبكات المحمول والألياف والاتصال اللاسلكي والإلكترونيات خلفها. أطلقت مصر الجيل الخامس في 2025 وتنمو خدماتها الرقمية، فتحتاج شركات الاتصالات وموردو المعدات ومراكز البيانات إلى مهندسين. تجمع الدراسة الإلكترونيات والإشارات والبرمجة."
+    },
+    "dayInLife": {
+      "en": "You start the day looking at a dashboard of cell towers in your area, where one site shows weak signal. You analyse the data and see interference from a neighbouring antenna, so you change its tilt remotely. After lunch you travel with a field team to a new site to test fiber links and check the radio equipment. Back at the desk you plan the capacity for a stadium that will host a big match, because thousands of phones will connect at once. At the end of the day you write the change log carefully so the night team can see what you did.",
+      "ar": "تبدأ يومك بلوحة مراقبة لأبراج الشبكة في منطقتك، وأحد المواقع إشارته ضعيفة. تحلل البيانات فتجد تداخلًا من هوائي مجاور، فتغيّر ميله عن بعد. بعد الغداء تسافر مع فريق ميداني إلى موقع جديد لاختبار وصلات الألياف وفحص أجهزة الراديو. وعند مكتبك تخطط سعة الشبكة لاستاد سيستضيف مباراة كبيرة لأن آلاف الهواتف ستتصل معًا. وفي النهاية تكتب سجل التغييرات بعناية ليعرف فريق الليل ما فعلت."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan and design wireless, fiber and core network systems.",
+        "ar": "تخطط وتصمم نظم الشبكات اللاسلكية والألياف والنواة."
+      },
+      {
+        "en": "Install, test and commission antennas, radios and network equipment.",
+        "ar": "تركّب وتختبر وتشغّل الهوائيات وأجهزة الراديو ومعدات الشبكة."
+      },
+      {
+        "en": "Monitor network performance and fix faults.",
+        "ar": "تراقب أداء الشبكة وتصلح الأعطال."
+      },
+      {
+        "en": "Optimize coverage, speed and capacity.",
+        "ar": "تحسّن التغطية والسرعة والسعة."
+      },
+      {
+        "en": "Work with software, cloud and security teams.",
+        "ar": "تعمل مع فرق البرمجيات والسحابة والأمن."
+      },
+      {
+        "en": "Document designs and follow regulations and standards.",
+        "ar": "توثق التصميمات وتتبع اللوائح والمعايير."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Telecom operator offices, network operations centers and field sites",
+        "ar": "مكاتب شركات الاتصالات ومراكز عمليات الشبكة والمواقع الميدانية"
+      },
+      {
+        "en": "Equipment vendors and system integrators",
+        "ar": "موردو المعدات وشركات التكامل"
+      },
+      {
+        "en": "Data centers and internet service providers",
+        "ar": "مراكز البيانات ومزودو الإنترنت"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Network planning and drive-test tools",
+        "ar": "أدوات تخطيط الشبكات واختبار القيادة"
+      },
+      {
+        "en": "Spectrum analyzers, OTDR and fiber testers",
+        "ar": "محللات الطيف وأجهزة OTDR واختبار الألياف"
+      },
+      {
+        "en": "Linux, Python and network monitoring dashboards",
+        "ar": "لينكس وبايثون ولوحات مراقبة الشبكة"
+      },
+      {
+        "en": "Cisco, Huawei, Ericsson or Nokia equipment",
+        "ar": "معدات سيسكو وهواوي وإريكسون ونوكيا"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Electronics and Communications department, at public universities",
+        "ar": "كليات الهندسة قسم الإلكترونيات والاتصالات بالجامعات الحكومية"
+      },
+      {
+        "en": "Faculty of Electronic Engineering (Menoufia) and Faculty of Information Engineering and Technology (GUC)",
+        "ar": "كلية الهندسة الإلكترونية (المنوفية) وكلية هندسة وتكنولوجيا المعلومات (الجامعة الألمانية)"
+      },
+      {
+        "en": "Electronics and Communications programs at private universities (MIU, Nile University, MUST, Future)",
+        "ar": "برامج الإلكترونيات والاتصالات بالجامعات الخاصة (مصر الدولية ونايل ومصر للعلوم والمستقبل)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "capital-university-engineering-helwan",
+      "british-university-in-egypt-engineering",
+      "german-university-in-cairo-information-engineering-technology",
+      "misr-international-university-engineering-computer",
+      "american-university-in-cairo-sciences-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.94% across 23 programs (lowest Assiut University, highest Menoufia University); 2025: 90% to 92.66% across 23 programs (lowest Minia University, highest Menoufia University); 2024: 88.78% to 91.83% across 23 programs (lowest Assiut University, highest Menoufia University); 2023: 85.12% to 89.88% across 23 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.94% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنوفية)؛ 2025: من 90% إلى 92.66% عبر 23 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنوفية)؛ 2024: من 88.78% إلى 91.83% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنوفية)؛ 2023: من 85.12% إلى 89.88% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "The National Telecommunication Institute (NTI) runs postgraduate and professional training for telecom graduates.",
+        "ar": "يقدم المعهد القومي للاتصالات تدريبًا مهنيًا ودراسات عليا لخريجي الاتصالات."
+      },
+      {
+        "en": "Applied technology schools in ICT and vendor academies (Cisco, Huawei) are shorter routes into network technician roles.",
+        "ar": "مدارس التكنولوجيا التطبيقية في الاتصالات وأكاديميات الشركات (سيسكو وهواوي) مسارات أقصر إلى أدوار فنيي الشبكات."
+      },
+      {
+        "en": "Computer science or software engineering can lead to network software roles.",
+        "ar": "علوم الحاسب أو هندسة البرمجيات قد تقود إلى وظائف برمجيات الشبكات."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Telecom operations are regulated by the National Telecommunications Regulatory Authority (NTRA), which licenses operators and equipment rather than individual engineers.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. تنظم الجهاز القومي لتنظيم الاتصالات (NTRA) عمل قطاع الاتصالات وتمنح تراخيص للمشغلين والأجهزة لا للمهندسين الأفراد."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Signals and systems, electromagnetics and RF basics",
+        "ar": "الإشارات والنظم والكهرومغناطيسية وأساسيات الترددات اللاسلكية"
+      },
+      {
+        "en": "Networking: IP, routing, switching",
+        "ar": "الشبكات: بروتوكول IP والتوجيه والتبديل"
+      },
+      {
+        "en": "Mobile networks (4G/5G) and fiber optics",
+        "ar": "شبكات المحمول (4G/5G) والألياف الضوئية"
+      },
+      {
+        "en": "Python or scripting for automation",
+        "ar": "بايثون أو البرمجة النصية للأتمتة"
+      },
+      {
+        "en": "Troubleshooting with measurement tools",
+        "ar": "حل الأعطال بأدوات القياس"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Systematic troubleshooting under pressure",
+        "ar": "حل الأعطال بمنهجية تحت الضغط"
+      },
+      {
+        "en": "Teamwork with field technicians and vendors",
+        "ar": "العمل مع الفنيين الميدانيين والموردين"
+      },
+      {
+        "en": "Willingness to learn quickly as technology changes",
+        "ar": "الاستعداد للتعلم السريع مع تغير التقنية"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for standards, vendor manuals and international teams",
+        "ar": "الإنجليزية للمعايير وكتيبات الموردين والفرق الدولية"
+      },
+      {
+        "en": "Arabic for field work",
+        "ar": "العربية للعمل الميداني"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Cisco CCNA / CCNP",
+        "ar": "سيسكو CCNA / CCNP"
+      },
+      {
+        "en": "Huawei HCIA / HCIP",
+        "ar": "هواوي HCIA / HCIP"
+      },
+      {
+        "en": "Vendor-specific 5G and fiber courses, and PMP later",
+        "ar": "دورات الجيل الخامس والألياف لدى الموردين، وPMP لاحقًا"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Cisco Networking Academy: Networking Basics (free course)",
+        "url": "https://www.netacad.com/courses/networking/networking-basics",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Electrical engineering",
+        "url": "https://www.khanacademy.org/science/electrical-engineering",
+        "free": true
+      },
+      {
+        "title": "Huawei ICT Academy learning resources",
+        "url": "https://e.huawei.com/en/talent/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Mobile operators: Vodafone Egypt, Orange Egypt, e& Egypt, WE (Telecom Egypt)",
+        "ar": "مشغلو المحمول: فودافون مصر وأورنج مصر واتصالات مصر (e&) والمصرية للاتصالات (WE)"
+      },
+      {
+        "en": "Equipment vendors such as Huawei, Ericsson and Nokia and their local partners",
+        "ar": "موردو المعدات مثل هواوي وإريكسون ونوكيا وشركاؤهم المحليون"
+      },
+      {
+        "en": "Internet service providers, data centers and the National Telecommunications Regulatory Authority",
+        "ar": "مزودو الإنترنت ومراكز البيانات والجهاز القومي لتنظيم الاتصالات"
+      },
+      {
+        "en": "Outsourcing and IT companies serving telecom clients",
+        "ar": "شركات التعهيد والتقنية التي تخدم عملاء الاتصالات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Network design, monitoring and software automation can be done remotely for some employers, while installation and field testing are on site. Freelancing is less common than in software.",
+      "ar": "يمكن عمل تصميم الشبكات ومراقبتها وأتمتتها عن بعد لدى بعض الجهات، أما التركيب والاختبار الميداني فمواقعي. والعمل الحر أقل شيوعًا منه في البرمجة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo (operators and vendors)",
+        "ar": "القاهرة الكبرى (المشغلون والموردون)"
+      },
+      {
+        "en": "Field roles across all governorates",
+        "ar": "الأدوار الميدانية في كل المحافظات"
+      },
+      {
+        "en": "Smart Villages Giza and the New Administrative Capital for tech campuses",
+        "ar": "القرية الذكية بالجيزة والعاصمة الإدارية لمجمعات التقنية"
+      }
+    ],
+    "providerIds": [
+      "nti",
+      "we-schools-applied-technology",
+      "huawei-ict-academy-egypt",
+      "cisco-networking-academy-egypt"
+    ],
+    "salaryNote": {
+      "en": "We did not find a citable Egypt salary figure for communications or telecom engineers (the Paylab telecommunications page shows only sector-wide ranges, not job-specific data), so pay is left empty. Compare with the Paylab ranges for electrical engineers or IT roles as a rough guide only.",
+      "ar": "لم نجد رقمًا موثقًا لراتب مهندس الاتصالات في مصر (صفحة Paylab للاتصالات تعرض نطاقات القطاع فقط لا بيانات الوظيفة)، لذا تُرك الراتب فارغًا. يمكن مقارنته تقريبيًا بنطاقات المهندس الكهربائي أو وظائف تقنية المعلومات فقط."
+    }
+  },
+  "global": {
+    "en": "Telecom engineers are needed in the Gulf, where 5G and fiber are expanding, and with vendors worldwide. Experience with major vendor equipment and certifications such as CCNA make relocation easier.",
+    "ar": "مهندسو الاتصالات مطلوبون في الخليج حيث يتوسع الجيل الخامس والألياف، ولدى الموردين حول العالم. وتسهل الخبرة بمعدات الموردين الكبار وشهادات مثل CCNA الانتقال للخارج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Egypt rolled out 5G in 2025 and digital services are growing",
+        "ar": "أطلقت مصر الجيل الخامس في 2025 والخدمات الرقمية تنمو"
+      },
+      {
+        "en": "Skills transfer between telecom, IT and cloud",
+        "ar": "المهارات تنتقل بين الاتصالات وتقنية المعلومات والسحابة"
+      },
+      {
+        "en": "Strong vendor certifications and training programs exist",
+        "ar": "توجد شهادات وبرامج تدريب قوية لدى الموردين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Tough degree with signals, electromagnetics and math",
+        "ar": "دراسة صعبة فيها الإشارات والكهرومغناطيسية والرياضيات"
+      },
+      {
+        "en": "Network faults can require night or emergency work",
+        "ar": "أعطال الشبكة قد تتطلب عملًا ليليًا أو طارئًا"
+      },
+      {
+        "en": "Technology changes quickly, so learning never stops",
+        "ar": "التقنية تتغير بسرعة فلا يتوقف التعلم"
+      },
+      {
+        "en": "Some jobs are field-based and physically demanding",
+        "ar": "بعض الوظائف ميدانية وتتطلب جهدًا بدنيًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Telecom is only about mobile towers.",
+          "ar": "الاتصالات مجرد أبراج محمول."
+        },
+        "fact": {
+          "en": "It includes fiber, data centers, satellite, internet services and software for networks.",
+          "ar": "تشمل الألياف ومراكز البيانات والأقمار الصناعية وخدمات الإنترنت وبرمجيات الشبكات."
+        }
+      },
+      {
+        "myth": {
+          "en": "AI will make network engineers unnecessary.",
+          "ar": "الذكاء الاصطناعي سيلغي الحاجة لمهندسي الشبكات."
+        },
+        "fact": {
+          "en": "Automation changes tasks, but engineers who understand networks and can script and use AI tools remain needed.",
+          "ar": "الأتمتة تغيّر المهام، لكن المهندسين الذين يفهمون الشبكات ويكتبون سكربتات ويستخدمون أدوات الذكاء الاصطناعي يبقون مطلوبين."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office roles are regular, while operations and field roles may require on-call duty and travel. Mid-career managers often move to more predictable planning roles.",
+      "ar": "أدوار المكتب منتظمة، أما العمليات والميدان فقد تتطلب مناوبة وسفرًا. وينتقل المديرون في منتصف المسار غالبًا إلى أدوار تخطيط أكثر انتظامًا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate / trainee engineer",
+        "ar": "مهندس حديث / متدرب"
+      },
+      {
+        "en": "Network or RF engineer",
+        "ar": "مهندس شبكات أو ترددات"
+      },
+      {
+        "en": "Senior engineer or team lead",
+        "ar": "مهندس أول أو رئيس فريق"
+      },
+      {
+        "en": "Network architect or manager",
+        "ar": "مهندس معماري شبكات أو مدير"
+      },
+      {
+        "en": "Technical director or consultant",
+        "ar": "مدير فني أو استشاري"
+      }
+    ],
+    "relatedCareerIds": [
+      "electrical_engineer",
+      "cybersecurity_specialist",
+      "cloud_devops_engineer",
+      "software_engineer",
+      "it_support",
+      "mechatronics_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Cloud and DevOps engineering",
+        "ar": "هندسة السحابة وDevOps"
+      },
+      {
+        "en": "Cybersecurity",
+        "ar": "الأمن السيبراني"
+      },
+      {
+        "en": "Technical sales or product management for telecom vendors",
+        "ar": "المبيعات الفنية أو إدارة المنتج لدى موردي الاتصالات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Egyptian Streets - Egypt to officially roll out 5G services (June 2025)",
+      "url": "https://egyptianstreets.com/2025/06/04/egypt-to-officially-roll-out-5g-services-this-week/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "MEA Tech Watch - Egypt digital exports hit $7.4bn (Dec 2025)",
+      "url": "https://meatechwatch.com/2025/12/23/egypts-digital-exports-hit-7-4bn-as-ict-sector-drives-economic-growth/",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

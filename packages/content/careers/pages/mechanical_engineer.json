@@ -1,0 +1,416 @@
+{
+  "id": "mechanical_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You design and fix the machines that move, heat, cool and make things.",
+      "ar": "تصمم وتصلح الآلات التي تتحرك وتسخن وتبرد وتصنع الأشياء."
+    },
+    "summary": {
+      "en": "Mechanical engineers work on engines, pumps, air conditioning, production lines and power plants. In Egypt they are needed in factories, building services (HVAC), oil and gas and maintenance. It is a broad degree, so you can specialize later.",
+      "ar": "المهندس الميكانيكي يعمل على المحركات والمضخات والتكييف وخطوط الإنتاج ومحطات الطاقة. في مصر هو مطلوب في المصانع وخدمات المباني (التكييف) والبترول والغاز والصيانة. الدراسة واسعة فيمكنك التخصص لاحقًا."
+    },
+    "dayInLife": {
+      "en": "At 8 a.m. you walk through a bottling factory to check why one machine keeps stopping. You read the sensor data, spot that a bearing is overheating and plan its replacement. Late morning you sit with the maintenance team and agree a schedule that will not stop production. After lunch you work in the office on a CAD drawing for a new conveyor guard, then calculate the load on its supports. Before leaving you update the maintenance log so the next shift knows what you did.",
+      "ar": "في الثامنة تتجول في مصنع تعبئة لتعرف لماذا تتوقف إحدى الماكينات باستمرار. تقرأ بيانات الحساسات وتكتشف أن رولمان بلي يسخن فتخطط لاستبداله. قبل الظهر تجلس مع فريق الصيانة وتتفقون على جدول لا يوقف الإنتاج. وبعد الغداء تعمل في المكتب على رسم CAD لحاجز حماية جديد للسير الناقل ثم تحسب الأحمال على دعاماته. قبل أن تغادر تحدّث سجل الصيانة ليعرف الفريق التالي ما فعلته."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design mechanical parts, machines and systems using CAD and calculations.",
+        "ar": "تصمم أجزاءً وآلات وأنظمة ميكانيكية بالـ CAD والحسابات."
+      },
+      {
+        "en": "Analyze heat, fluids, stress and vibration to make designs safe and efficient.",
+        "ar": "تحلل الحرارة والموائع والإجهاد والاهتزاز لجعل التصميم آمنًا وكفؤًا."
+      },
+      {
+        "en": "Plan and supervise installation of equipment, pipes and air conditioning.",
+        "ar": "تخطط وتشرف على تركيب المعدات والمواسير والتكييف."
+      },
+      {
+        "en": "Maintain and troubleshoot plant equipment to reduce breakdowns.",
+        "ar": "تصون معدات المصنع وتحل أعطالها لتقليل التوقفات."
+      },
+      {
+        "en": "Test prototypes and check quality and standards.",
+        "ar": "تختبر النماذج وتراجع الجودة والمعايير."
+      },
+      {
+        "en": "Estimate costs and write technical reports.",
+        "ar": "تقدر التكاليف وتكتب التقارير الفنية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Factories and production plants",
+        "ar": "المصانع ومواقع الإنتاج"
+      },
+      {
+        "en": "Design and contracting offices (HVAC, plumbing, fire)",
+        "ar": "مكاتب التصميم والمقاولات (التكييف والسباكة ومكافحة الحريق)"
+      },
+      {
+        "en": "Power, oil and gas facilities and workshops",
+        "ar": "منشآت الكهرباء والبترول والغاز والورش"
+      }
+    ],
+    "tools": [
+      {
+        "en": "SolidWorks, AutoCAD and Inventor",
+        "ar": "سوليد ووركس وأوتوكاد وإنفنتور"
+      },
+      {
+        "en": "ANSYS or other simulation software",
+        "ar": "ANSYS وبرامج المحاكاة الأخرى"
+      },
+      {
+        "en": "HVAC design tools (HAP, Carrier) and Excel",
+        "ar": "أدوات تصميم التكييف (HAP وCarrier) وإكسل"
+      },
+      {
+        "en": "Measurement tools: gauges, thermal cameras, vibration meters",
+        "ar": "أدوات القياس: العدادات والكاميرات الحرارية وأجهزة الاهتزاز"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Mechanical Power / Production / Design departments, at public universities",
+        "ar": "كليات الهندسة أقسام القوى الميكانيكية والإنتاج والتصميم بالجامعات الحكومية"
+      },
+      {
+        "en": "Mechanical and related programs at private universities (GUC, MUST, BUE, Nile University)",
+        "ar": "برامج ميكانيكية وقريبة بالجامعات الخاصة (الألمانية ومصر للعلوم والبريطانية ونايل)"
+      },
+      {
+        "en": "Programs such as Robotics and Digital Manufacturing at Ain Shams National University",
+        "ar": "برامج مثل الروبوتات والتصنيع الرقمي بجامعة عين شمس الأهلية"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "capital-university-engineering-helwan",
+      "british-university-in-egypt-engineering",
+      "german-university-in-cairo-engineering-materials-science",
+      "misr-university-for-science-and-technology-engineering",
+      "american-university-in-cairo-sciences-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.78% across 22 programs (lowest Assiut University, highest Mansoura University); 2025: 90% to 92.5% across 22 programs (lowest Minia University, highest Mansoura University); 2024: 88.78% to 91.83% across 22 programs (lowest Assiut University, highest Cairo University); 2023: 85.12% to 89.88% across 22 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.78% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنصورة)؛ 2025: من 90% إلى 92.5% عبر 22 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنصورة)؛ 2024: من 88.78% إلى 91.83% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة)؛ 2023: من 85.12% إلى 89.88% عبر 22 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Technical institutes and applied technology schools offer technician paths in maintenance and production, and the Egyptian-Japanese KOSEN program targets practical engineering.",
+        "ar": "المعاهد الفنية ومدارس التكنولوجيا التطبيقية تقدم مسارات فنية في الصيانة والإنتاج، وبرنامج كوسن المصري الياباني يركز على الهندسة التطبيقية."
+      },
+      {
+        "en": "Mechatronics and industrial engineering are close alternatives.",
+        "ar": "الميكاترونيكس والهندسة الصناعية بدائل قريبة."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Many mechanical engineers also seek training in safety and quality standards for plants.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. يسعى كثير من المهندسين الميكانيكيين أيضًا إلى التدريب في معايير السلامة والجودة للمصانع."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Thermodynamics, fluid mechanics and mechanics of materials",
+        "ar": "الديناميكا الحرارية وميكانيكا الموائع ومقاومة المواد"
+      },
+      {
+        "en": "CAD and simulation tools",
+        "ar": "أدوات CAD والمحاكاة"
+      },
+      {
+        "en": "HVAC and pipe design",
+        "ar": "تصميم التكييف والمواسير"
+      },
+      {
+        "en": "Maintenance planning and troubleshooting",
+        "ar": "تخطيط الصيانة وإصلاح الأعطال"
+      },
+      {
+        "en": "Manufacturing processes and quality standards",
+        "ar": "عمليات التصنيع ومعايير الجودة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Practical problem solving",
+        "ar": "حل المشكلات العملي"
+      },
+      {
+        "en": "Teamwork with technicians",
+        "ar": "العمل مع الفنيين"
+      },
+      {
+        "en": "Safety mindset",
+        "ar": "عقلية السلامة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for manuals, standards and software",
+        "ar": "الإنجليزية للكتيبات والمعايير والبرامج"
+      },
+      {
+        "en": "Arabic for shop-floor communication",
+        "ar": "العربية للتواصل في أرض المصنع"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "SolidWorks (CSWA), HVAC design and AutoCAD courses",
+        "ar": "دورات سوليد ووركس (CSWA) وتصميم التكييف وأوتوكاد"
+      },
+      {
+        "en": "Safety, quality and project management certificates",
+        "ar": "شهادات السلامة والجودة وإدارة المشروعات"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "MIT OpenCourseWare: Mechanical Engineering",
+        "url": "https://ocw.mit.edu/courses/mechanical-engineering/",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Physics",
+        "url": "https://www.khanacademy.org/science/physics",
+        "free": true
+      },
+      {
+        "title": "Fusion 360 personal use (free for students and hobbyists, check eligibility)",
+        "url": "https://www.autodesk.com/products/fusion-360/personal",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11968,
+        "max": 30974
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/mechanical-engineering/mechanical-engineer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 26,342 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 26,342 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Manufacturers: food, automotive parts, appliances, building materials",
+        "ar": "المصانع: الأغذية وقطع السيارات والأجهزة ومواد البناء"
+      },
+      {
+        "en": "HVAC and MEP contracting and consulting firms",
+        "ar": "شركات مقاولات واستشارات التكييف والـ MEP"
+      },
+      {
+        "en": "Oil, gas and power companies",
+        "ar": "شركات البترول والغاز والكهرباء"
+      },
+      {
+        "en": "Industrial zones such as 10th of Ramadan and 6th of October",
+        "ar": "المناطق الصناعية مثل العاشر من رمضان وأكتوبر"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Design drafting, CAD and technical consulting can be freelance or remote, but plant work and installation need you on site.",
+      "ar": "الرسم والتصميم بالـ CAD والاستشارات الفنية يمكن أن تتم بنظام العمل الحر أو عن بعد، أما عمل المصنع والتركيبات فيتطلب وجودك في الموقع."
+    },
+    "regions": [
+      {
+        "en": "Industrial cities near Cairo and Alexandria",
+        "ar": "المدن الصناعية قرب القاهرة والإسكندرية"
+      },
+      {
+        "en": "Suez Canal Economic Zone and Red Sea oil areas",
+        "ar": "المنطقة الاقتصادية لقناة السويس ومناطق البترول بالبحر الأحمر"
+      }
+    ],
+    "providerIds": [
+      "fab-lab-egypt"
+    ]
+  },
+  "global": {
+    "en": "Mechanical engineers are wanted in the Gulf for building services, plants and maintenance, and elsewhere in manufacturing and energy. Gulf engineering councils usually require registration and experience; a good record in a recognized plant helps.",
+    "ar": "المهندسون الميكانيكيون مطلوبون في الخليج لخدمات المباني والمصانع والصيانة، وفي التصنيع والطاقة بدول أخرى. تشترط مجالس الهندسة الخليجية التسجيل والخبرة عادة؛ وتساعد خبرة جيدة في مصنع معروف."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Broad degree that opens many industries",
+        "ar": "دراسة واسعة تفتح صناعات كثيرة"
+      },
+      {
+        "en": "Practical, hands-on problem solving",
+        "ar": "حل مشكلات عملي وملموس"
+      },
+      {
+        "en": "Strong link to Egypt's industrial and energy growth",
+        "ar": "ارتباط قوي بنمو الصناعة والطاقة في مصر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Factory sites can be hot, noisy and far from the city",
+        "ar": "مواقع المصانع قد تكون حارة وصاخبة وبعيدة عن المدينة"
+      },
+      {
+        "en": "Starting pay is modest",
+        "ar": "الأجر في البداية متواضع"
+      },
+      {
+        "en": "Shift work or on-call maintenance in some roles",
+        "ar": "ورديات أو مناوبة صيانة في بعض الوظائف"
+      },
+      {
+        "en": "Competition from many engineering graduates",
+        "ar": "منافسة من كثرة خريجي الهندسة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Mechanical engineers just fix cars.",
+          "ar": "المهندس الميكانيكي يصلح السيارات فقط."
+        },
+        "fact": {
+          "en": "They design air-conditioning, power plants, pumps, machines and production lines too.",
+          "ar": "يصمم أيضًا التكييف ومحطات الكهرباء والمضخات والآلات وخطوط الإنتاج."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is only for men.",
+          "ar": "هي للرجال فقط."
+        },
+        "fact": {
+          "en": "Women work in design, quality, HVAC and plant roles; workplaces differ, so look for supportive employers.",
+          "ar": "تعمل النساء في التصميم والجودة والتكييف والمصانع؛ وتختلف بيئات العمل فابحث عن جهات داعمة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office and design roles are steady. Plant and maintenance roles may require shifts or call-outs.",
+      "ar": "أدوار المكتب والتصميم منتظمة. أدوار المصانع والصيانة قد تتطلب ورديات أو استدعاءً."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate engineer / trainee",
+        "ar": "مهندس حديث / متدرب"
+      },
+      {
+        "en": "Mechanical or maintenance engineer",
+        "ar": "مهندس ميكانيكا أو صيانة"
+      },
+      {
+        "en": "Senior engineer or section head",
+        "ar": "مهندس أول أو رئيس قسم"
+      },
+      {
+        "en": "Plant or project manager",
+        "ar": "مدير مصنع أو مشروع"
+      },
+      {
+        "en": "Technical director or consultant",
+        "ar": "مدير فني أو استشاري"
+      }
+    ],
+    "relatedCareerIds": [
+      "mechatronics_engineer",
+      "electrical_engineer",
+      "petroleum_engineer",
+      "chemical_engineer",
+      "renewable_energy_engineer",
+      "automotive_ev_technician"
+    ],
+    "pivots": [
+      {
+        "en": "Energy efficiency and renewable energy",
+        "ar": "كفاءة الطاقة والطاقة المتجددة"
+      },
+      {
+        "en": "Supply chain, quality or operations management",
+        "ar": "سلسلة الإمداد أو الجودة أو إدارة العمليات"
+      },
+      {
+        "en": "Technical sales for equipment suppliers",
+        "ar": "المبيعات الفنية لموردي المعدات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Mechanical Engineer salary survey",
+      "url": "https://paylab.com/eg/salaryinfo/mechanical-engineering/mechanical-engineer?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

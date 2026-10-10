@@ -1,0 +1,402 @@
+{
+  "id": "physical_therapist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You help people move again after injury, surgery or illness, one exercise at a time.",
+      "ar": "تساعد الناس على الحركة من جديد بعد إصابة أو جراحة أو مرض، تمرينًا بعد تمرين."
+    },
+    "summary": {
+      "en": "Physical therapists assess how the body moves and design exercise and hands-on treatment to reduce pain and restore function. In Egypt you study at a Faculty of Physical Therapy, complete an internship year and register with the syndicate. Work is varied: sports, neurology, children, orthopedics.",
+      "ar": "أخصائي العلاج الطبيعي يقيّم حركة الجسم ويصمم تمارين وعلاجًا يدويًا لتخفيف الألم واستعادة الوظيفة. في مصر تدرس في كلية العلاج الطبيعي وتقضي سنة امتياز وتسجّل في النقابة. العمل متنوع: رياضة وأعصاب وأطفال وعظام."
+    },
+    "dayInLife": {
+      "en": "You start at 9 a.m. in a rehab clinic with a teenager recovering from a knee ligament injury. You test his range of motion, adjust his exercises and show him how to do them safely at home. Next comes a woman after a stroke: you help her practice standing and walking with support. Between sessions you write progress notes and set small goals for the week. In the afternoon a footballer arrives with a sore hamstring and you treat it with manual techniques and a plan for returning to play. By evening your hands and back are tired, but you saw real progress today.",
+      "ar": "تبدأ في التاسعة صباحًا في عيادة تأهيل مع مراهق يتعافى من إصابة في رباط الركبة. تختبر مدى حركته وتعدّل تمارينه وتريه كيف يؤديها بأمان في البيت. ثم تأتي سيدة بعد جلطة دماغية: تساعدها على التدرب على الوقوف والمشي بمساعدة. وبين الجلسات تكتب ملاحظات التقدم وتضع أهدافًا صغيرة للأسبوع. بعد العصر يصل لاعب كرة بشد في العضلة الخلفية للفخذ فتعالجه بتقنيات يدوية وخطة للعودة إلى الملعب. في المساء تكون يداك وظهرك متعبين، لكنك رأيت تقدمًا حقيقيًا اليوم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess a patient's posture, strength, movement and pain.",
+        "ar": "تقيّم وضعية المريض وقوته وحركته وألمه."
+      },
+      {
+        "en": "Design an exercise and treatment plan for each person.",
+        "ar": "تصمم خطة تمارين وعلاج لكل شخص."
+      },
+      {
+        "en": "Use hands-on techniques, electrotherapy, heat, cold and ultrasound.",
+        "ar": "تستخدم تقنيات يدوية وعلاجًا كهربائيًا وحرارة وبرودة وموجات فوق صوتية."
+      },
+      {
+        "en": "Teach patients exercises and ways to prevent re-injury.",
+        "ar": "تعلّم المرضى التمارين وطرق منع تكرار الإصابة."
+      },
+      {
+        "en": "Record progress and adjust the plan.",
+        "ar": "تسجّل التقدم وتعدّل الخطة."
+      },
+      {
+        "en": "Work with doctors, surgeons and families on rehabilitation goals.",
+        "ar": "تعمل مع الأطباء والجراحين والأسر على أهداف التأهيل."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Private physical therapy and rehab clinics",
+        "ar": "عيادات ومراكز العلاج الطبيعي والتأهيل الخاصة"
+      },
+      {
+        "en": "Hospitals and rehabilitation centers",
+        "ar": "المستشفيات ومراكز التأهيل"
+      },
+      {
+        "en": "Sports clubs and academies",
+        "ar": "الأندية والأكاديميات الرياضية"
+      },
+      {
+        "en": "Home visits",
+        "ar": "الزيارات المنزلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Exercise equipment, balance tools and resistance bands",
+        "ar": "أدوات التمرين والتوازن وأربطة المقاومة"
+      },
+      {
+        "en": "Electrotherapy, ultrasound and laser devices",
+        "ar": "أجهزة العلاج الكهربائي والموجات فوق الصوتية والليزر"
+      },
+      {
+        "en": "Goniometer and other measurement tools",
+        "ar": "مقياس الزوايا وأدوات القياس الأخرى"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Biology and Chemistry (Physics and PE help). With the American Diploma, choose AP Biology and any anatomy or sports-science courses your school offers. Confirm equivalency for your certificate with the Tansik office; private faculties set their own rules.",
+      "ar": "في IGCSE أو A-levels خذ الأحياء والكيمياء (والفيزياء والتربية البدنية تفيد). وفي الدبلومة الأمريكية اختر AP للأحياء وأي مقررات تشريح أو علوم رياضة تقدمها مدرستك. تأكد من معادلة شهادتك لدى مكتب التنسيق؛ وللكليات الخاصة شروطها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Physical Therapy at public universities such as Cairo University, Benha, Suez Canal and Beni-Suef",
+        "ar": "كليات العلاج الطبيعي بالجامعات الحكومية مثل القاهرة وبنها وقناة السويس وبني سويف"
+      },
+      {
+        "en": "Faculty of Physical Therapy at private universities such as BUE and MUST",
+        "ar": "كليات العلاج الطبيعي بالجامعات الخاصة مثل البريطانية ومصر للعلوم والتكنولوجيا"
+      }
+    ],
+    "programIds": [
+      "cairo-university-physical-therapy",
+      "benha-university-physical-therapy",
+      "suez-canal-university-physical-therapy",
+      "kafrelsheikh-university-physical-therapy",
+      "beni-suef-university-physical-therapy",
+      "qena-university-physical-therapy",
+      "port-said-university-physical-therapy",
+      "british-university-in-egypt-physical-therapy",
+      "misr-university-for-science-and-technology-physical-therapy"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 92.34% to 92.97% across 7 programs (lowest Beni-Suef University, highest Kafrelsheikh University); 2025: 92.03% to 92.34% across 7 programs (lowest Cairo University, highest Qena University (formerly South Valley University)); 2024: 92.2% to 92.56% across 7 programs (lowest Beni-Suef University, highest Kafrelsheikh University); 2023: 90.12% to 90.73% across 7 programs (lowest Beni-Suef University, highest Kafrelsheikh University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 77% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 92.34% إلى 92.97% عبر 7 برنامجًا (الأدنى جامعة بني سويف، الأعلى جامعة كفر الشيخ)؛ 2025: من 92.03% إلى 92.34% عبر 7 برنامجًا (الأدنى جامعة القاهرة، الأعلى جامعة قنا (جنوب الوادي سابقاً))؛ 2024: من 92.2% إلى 92.56% عبر 7 برنامجًا (الأدنى جامعة بني سويف، الأعلى جامعة كفر الشيخ)؛ 2023: من 90.12% إلى 90.73% عبر 7 برنامجًا (الأدنى جامعة بني سويف، الأعلى جامعة كفر الشيخ). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 77% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Occupational therapy, sports science, nursing or clinical nutrition lead to nearby rehab and health roles.",
+        "ar": "العلاج الوظيفي وعلوم الرياضة والتمريض والتغذية العلاجية تقود إلى أدوار قريبة في التأهيل والصحة."
+      },
+      {
+        "en": "After graduating, short courses in manual therapy, sports rehab, pediatrics or neurology deepen your specialty.",
+        "ar": "بعد التخرج تعمّق تخصصك بدورات قصيرة في العلاج اليدوي وتأهيل الرياضيين والأطفال والأعصاب."
+      }
+    ],
+    "licensing": {
+      "en": "The bachelor's program is five years of study plus a compulsory internship year that has been part of the program since 1977 and is required to practice. After that you register for a license with the Ministry of Health and the Egyptian Physical Therapy Syndicate (established 1994). Check the syndicate for the current steps and any licensing exam.",
+      "ar": "برنامج البكالوريوس خمس سنوات دراسة وسنة امتياز إجبارية أصبحت جزءًا من البرنامج منذ 1977 وهي شرط للممارسة. بعدها تسجّل للحصول على الترخيص من وزارة الصحة ونقابة العلاج الطبيعي المصرية (تأسست 1994). راجع النقابة للخطوات الحالية وأي امتحان ترخيص."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Anatomy, biomechanics and movement analysis",
+        "ar": "التشريح والميكانيكا الحيوية وتحليل الحركة"
+      },
+      {
+        "en": "Manual therapy and therapeutic exercise",
+        "ar": "العلاج اليدوي والتمارين العلاجية"
+      },
+      {
+        "en": "Use of electrotherapy devices",
+        "ar": "استخدام أجهزة العلاج الكهربائي"
+      },
+      {
+        "en": "Assessment and clinical documentation",
+        "ar": "التقييم والتوثيق الإكلينيكي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Motivating people through slow progress",
+        "ar": "تحفيز الناس خلال التقدم البطيء"
+      },
+      {
+        "en": "Patient, clear instructions",
+        "ar": "تعليمات واضحة وصبورة"
+      },
+      {
+        "en": "Physical fitness and care for your own body",
+        "ar": "اللياقة البدنية والاعتناء بجسمك"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for textbooks, research and courses",
+        "ar": "الإنجليزية للكتب والأبحاث والدورات"
+      },
+      {
+        "en": "Arabic for explaining exercises simply",
+        "ar": "العربية لشرح التمارين ببساطة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Egyptian Physical Therapy Syndicate license",
+        "ar": "ترخيص نقابة العلاج الطبيعي"
+      },
+      {
+        "en": "Short courses in manual therapy, sports rehab, Kinesio taping, pediatrics",
+        "ar": "دورات قصيرة في العلاج اليدوي وتأهيل الرياضيين والشريط اللاصق والأطفال"
+      },
+      {
+        "en": "Postgraduate diplomas or a master's",
+        "ar": "دبلومات الدراسات العليا أو الماجستير"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Health and Medicine",
+        "url": "https://www.khanacademy.org/science/health-and-medicine",
+        "free": true
+      },
+      {
+        "title": "Physiopedia (free physical therapy encyclopedia)",
+        "url": "https://www.physio-pedia.com",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Biology",
+        "url": "https://www.khanacademy.org/science/biology",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 7737,
+        "max": 22884
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/physiotherapist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 14,726 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 14,726 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Private physical therapy and rehabilitation centers",
+        "ar": "مراكز العلاج الطبيعي والتأهيل الخاصة"
+      },
+      {
+        "en": "Private and university hospitals",
+        "ar": "المستشفيات الخاصة والجامعية"
+      },
+      {
+        "en": "Sports clubs, academies and gyms",
+        "ar": "الأندية والأكاديميات والصالات الرياضية"
+      },
+      {
+        "en": "Your own clinic or home-visit practice",
+        "ar": "عيادتك الخاصة أو الزيارات المنزلية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many therapists run home-visit services or rent clinic hours. Online exercise coaching exists but hands-on treatment cannot be done remotely.",
+      "ar": "كثير من الأخصائيين يقدمون زيارات منزلية أو يستأجرون ساعات في عيادة. التدريب عبر الإنترنت موجود لكن العلاج اليدوي لا يتم عن بعد."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria (most rehab centers and sports clubs)",
+        "ar": "القاهرة الكبرى والإسكندرية (معظم مراكز التأهيل والأندية)"
+      },
+      {
+        "en": "Resort cities and new cities with private hospitals",
+        "ar": "المدن السياحية والمدن الجديدة ذات المستشفيات الخاصة"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Egyptian physical therapists work in the Gulf after local licensing exams, and some move to Europe or North America, which need credential evaluation and exams. English and a postgraduate specialty help.",
+    "ar": "يعمل أخصائيو العلاج الطبيعي المصريون في الخليج بعد امتحانات الترخيص المحلية، وينتقل بعضهم إلى أوروبا وأمريكا الشمالية حيث يلزم تقييم الشهادة وامتحانات. تساعد الإنجليزية والتخصص بعد التخرج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "See patients improve over weeks and months",
+        "ar": "ترى مرضاك يتحسنون خلال أسابيع وشهور"
+      },
+      {
+        "en": "Active, hands-on work rather than desk work",
+        "ar": "عمل نشط وعملي لا مكتبي"
+      },
+      {
+        "en": "Can open your own clinic or work with athletes",
+        "ar": "يمكنك فتح عيادتك أو العمل مع الرياضيين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Pay is modest at the start",
+        "ar": "الأجر متواضع في البداية"
+      },
+      {
+        "en": "Physically tiring and risk of back or wrist strain",
+        "ar": "عمل مرهق جسديًا وخطر إجهاد الظهر والمعصم"
+      },
+      {
+        "en": "Many graduates compete for jobs in big cities",
+        "ar": "كثرة الخريجين تعني منافسة في المدن الكبرى"
+      },
+      {
+        "en": "Public understanding of the profession is still growing",
+        "ar": "فهم الناس للمهنة ما زال يتطور"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Physical therapy is just massage.",
+          "ar": "العلاج الطبيعي مجرد مساج."
+        },
+        "fact": {
+          "en": "It is an evidence-based health profession with assessment, exercise science, neurology and orthopedics.",
+          "ar": "هي مهنة صحية مبنية على الأدلة وفيها تقييم وعلوم تمارين وأعصاب وعظام."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is only for athletes.",
+          "ar": "هو للرياضيين فقط."
+        },
+        "fact": {
+          "en": "Most patients are children with developmental needs, stroke survivors, older adults and people after surgery.",
+          "ar": "أغلب المرضى أطفال لديهم احتياجات نمائية وناجون من الجلطات وكبار سن ومرضى بعد الجراحة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Generally good: appointment-based days and few emergencies. Private practice may mean evenings and weekends.",
+      "ar": "جيدة عمومًا: أيام بمواعيد وطوارئ قليلة. العمل الخاص قد يعني مساءً وعطلات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Student (5 years)",
+        "ar": "طالب (5 سنوات)"
+      },
+      {
+        "en": "Intern (1 year)",
+        "ar": "طبيب امتياز (سنة)"
+      },
+      {
+        "en": "Physical therapist",
+        "ar": "أخصائي علاج طبيعي"
+      },
+      {
+        "en": "Senior therapist or specialist (master's or diplomas)",
+        "ar": "أخصائي أول أو متخصص (ماجستير أو دبلومات)"
+      },
+      {
+        "en": "Clinic owner, rehab manager or academic",
+        "ar": "صاحب عيادة أو مدير تأهيل أو أكاديمي"
+      }
+    ],
+    "relatedCareerIds": [
+      "physician",
+      "nurse",
+      "clinical_nutritionist",
+      "special_education_specialist",
+      "dentist"
+    ],
+    "pivots": [
+      {
+        "en": "Sports performance and injury prevention",
+        "ar": "الأداء الرياضي ومنع الإصابات"
+      },
+      {
+        "en": "Rehabilitation technology and equipment sales",
+        "ar": "تقنيات التأهيل وبيع الأجهزة"
+      },
+      {
+        "en": "Teaching and research",
+        "ar": "التدريس والبحث"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Pharos University (PUA) - Faculty of Physical Therapy",
+      "url": "https://pua.edu.eg/?p=853",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Physiotherapist salary survey",
+      "url": "https://paylab.com/eg/salaryinfo/medicine-social-care/physiotherapist?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

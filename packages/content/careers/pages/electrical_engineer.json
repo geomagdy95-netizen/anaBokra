@@ -1,0 +1,418 @@
+{
+  "id": "electrical_engineer",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You make sure electricity is generated, moved and used safely, from power stations to the wiring in a building.",
+      "ar": "تضمن أن الكهرباء تُولَّد وتنتقل وتُستخدم بأمان، من محطات التوليد إلى أسلاك المبنى."
+    },
+    "summary": {
+      "en": "Electrical engineers design and maintain power systems, electrical installations, control panels and electronics. Egypt is investing in power and renewables, so there is work in utilities, factories, construction and energy companies. Study includes heavy math and physics.",
+      "ar": "المهندس الكهربائي يصمم ويصون نظم القوى والتركيبات الكهربائية ولوحات التحكم والإلكترونيات. تستثمر مصر في الكهرباء والطاقة المتجددة، فهناك عمل في الشركات الحكومية والمصانع والإنشاءات وشركات الطاقة. الدراسة فيها رياضيات وفيزياء كثيفة."
+    },
+    "dayInLife": {
+      "en": "You begin at a new residential tower, checking that cables, circuit breakers and earthing match the drawing. You measure the load on one panel and find that it is too close to its limit, so you update the design. Back in the office you use software to calculate cable sizes for the next floor. In the afternoon you meet the power company about connecting the building to the grid. You finish by writing a testing report that must be right, because people will live safely or not depending on it.",
+      "ar": "تبدأ في برج سكني جديد لتتأكد أن الكابلات والقواطع والتأريض تطابق المخطط. تقيس الحمل على إحدى اللوحات فتجده قريبًا جدًا من حده، فتعدّل التصميم. في المكتب تستخدم برنامجًا لحساب مقاسات الكابلات للدور التالي. بعد العصر تقابل شركة الكهرباء بشأن توصيل المبنى بالشبكة. وتنهي يومك بتقرير اختبار يجب أن يكون صحيحًا لأن سلامة الناس تعتمد عليه."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design electrical systems for buildings, factories or power networks.",
+        "ar": "تصمم نظمًا كهربائية للمباني أو المصانع أو شبكات القوى."
+      },
+      {
+        "en": "Calculate loads, cables and protection devices.",
+        "ar": "تحسب الأحمال والكابلات وأجهزة الحماية."
+      },
+      {
+        "en": "Supervise installation and test equipment before it is switched on.",
+        "ar": "تشرف على التركيب وتختبر المعدات قبل التشغيل."
+      },
+      {
+        "en": "Maintain and troubleshoot motors, transformers and panels.",
+        "ar": "تصون المحركات والمحولات واللوحات وتحل أعطالها."
+      },
+      {
+        "en": "Work with PLCs and control systems in factories.",
+        "ar": "تعمل مع PLC ونظم التحكم في المصانع."
+      },
+      {
+        "en": "Follow safety rules and write technical reports.",
+        "ar": "تلتزم بقواعد السلامة وتكتب التقارير الفنية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Power companies and substations",
+        "ar": "شركات الكهرباء ومحطات المحولات"
+      },
+      {
+        "en": "Factories and industrial plants",
+        "ar": "المصانع والمنشآت الصناعية"
+      },
+      {
+        "en": "Design and contracting offices and building sites",
+        "ar": "مكاتب التصميم والمقاولات ومواقع البناء"
+      }
+    ],
+    "tools": [
+      {
+        "en": "AutoCAD Electrical, DIALux, ETAP",
+        "ar": "AutoCAD Electrical وDIALux وETAP"
+      },
+      {
+        "en": "MATLAB/Simulink and Excel",
+        "ar": "ماتلاب/سيمولينك وإكسل"
+      },
+      {
+        "en": "Multimeters, insulation testers and power analyzers",
+        "ar": "أجهزة القياس ومختبرات العزل ومحللات القدرة"
+      },
+      {
+        "en": "PLC software",
+        "ar": "برامج PLC"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "With IGCSE or A-levels, take Mathematics (and Further Maths if you can) plus Physics at a high level; Chemistry or Computer Science helps for some branches. Public engineering faculties usually ask for AS/A-level subjects on top of IGCSE. With the American Diploma, take AP Calculus and AP Physics. Equivalency and Tansik rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "في IGCSE أو A-levels خذ الرياضيات (والرياضيات المتقدمة إن أمكن) والفيزياء بمستوى مرتفع؛ والكيمياء أو الحاسب تفيد في بعض الفروع. وتطلب كليات الهندسة الحكومية عادة مواد AS/A إضافة إلى IGCSE. وفي الدبلومة الأمريكية خذ AP حساب التفاضل وAP فيزياء. قواعد المعادلة والتنسيق للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة بها."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Electrical Power and Machines / Electronics and Communications departments, at public universities",
+        "ar": "كليات الهندسة أقسام القوى والآلات الكهربية / الإلكترونيات والاتصالات بالجامعات الحكومية"
+      },
+      {
+        "en": "Faculty of Electronic Engineering (Menoufia)",
+        "ar": "كلية الهندسة الإلكترونية (المنوفية)"
+      },
+      {
+        "en": "Electrical-related programs at private universities (GUC, MUST, MIU, Nile University)",
+        "ar": "برامج كهربائية بالجامعات الخاصة (الألمانية ومصر للعلوم ومصر الدولية ونايل)"
+      }
+    ],
+    "programIds": [
+      "cairo-university-engineering",
+      "ain-shams-university-engineering",
+      "alexandria-university-engineering",
+      "mansoura-university-engineering",
+      "assiut-university-engineering",
+      "zagazig-university-engineering",
+      "tanta-university-engineering",
+      "capital-university-engineering-helwan",
+      "british-university-in-egypt-engineering",
+      "german-university-in-cairo-information-engineering-technology",
+      "misr-international-university-engineering-computer",
+      "american-university-in-cairo-sciences-engineering"
+    ],
+    "tansikNote": {
+      "en": "Phase 1 Tansik minimums (percent of total marks) for the programs we track: 2026: 86.72% to 90.94% across 23 programs (lowest Assiut University, highest Menoufia University); 2025: 90% to 92.66% across 23 programs (lowest Minia University, highest Menoufia University); 2024: 88.78% to 91.83% across 23 programs (lowest Assiut University, highest Menoufia University); 2023: 85.12% to 89.88% across 23 programs (lowest Assiut University, highest Cairo University). Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Engineering Tansik minimums were lower in 2026 than in 2025 for most public faculties, but that can reverse; check the latest lists.",
+      "ar": "الحد الأدنى للمرحلة الأولى من التنسيق (نسبة من المجموع الكلي) للبرامج التي نتابعها: 2026: من 86.72% إلى 90.94% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنوفية)؛ 2025: من 90% إلى 92.66% عبر 23 برنامجًا (الأدنى جامعة المنيا، الأعلى جامعة المنوفية)؛ 2024: من 88.78% إلى 91.83% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة المنوفية)؛ 2023: من 85.12% إلى 89.88% عبر 23 برنامجًا (الأدنى جامعة أسيوط، الأعلى جامعة القاهرة). الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. كانت الحدود الدنيا لكليات الهندسة في 2026 أقل منها في 2025 في أغلب الكليات الحكومية، لكن هذا قد يتغير؛ راجع أحدث القوائم."
+    },
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "The Egyptian-Japanese KOSEN and Elsewedy Technical Academy are practical routes into electrical work; technical institutes lead to technician roles.",
+        "ar": "كوسن المصري الياباني وأكاديمية السويدي التقنية مساران عمليان إلى العمل الكهربائي؛ والمعاهد الفنية تقود إلى أدوار الفنيين."
+      },
+      {
+        "en": "Renewable energy, mechatronics and automation are related options.",
+        "ar": "الطاقة المتجددة والميكاترونيكس والأتمتة خيارات قريبة."
+      }
+    ],
+    "licensing": {
+      "en": "Engineering graduates register with the Egyptian Engineers Syndicate. To join you need an engineering bachelor's degree from an Egyptian university (or a recognized equivalent), Egyptian nationality (or reciprocity), full legal capacity and a clean record. The syndicate's engineering stamp is required on drawings, contracts and expert reports accepted by government bodies and courts, and it provides pension benefits. Electrical installations and substations must follow the Egyptian electrical code and utility approval, so you will also work with the distribution company.",
+      "ar": "يسجّل خريجو الهندسة في نقابة المهندسين المصرية. للانضمام تحتاج بكالوريوس هندسة من جامعة مصرية (أو معادل معترف به) وجنسية مصرية (أو معاملة بالمثل) وأهلية قانونية كاملة وسجلًا نظيفًا. وختم النقابة مطلوب على الرسومات والعقود وتقارير الخبرة المقبولة لدى الجهات الحكومية والمحاكم، وتقدم النقابة معاشات. التركيبات الكهربائية والمحولات يجب أن تتبع الكود المصري للكهرباء وموافقة شركة التوزيع، لذا ستتعامل أيضًا معها."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Circuit theory, machines and power systems",
+        "ar": "نظرية الدوائر والآلات الكهربية ونظم القوى"
+      },
+      {
+        "en": "Electrical design and load calculation",
+        "ar": "التصميم الكهربائي وحساب الأحمال"
+      },
+      {
+        "en": "PLC and control systems",
+        "ar": "PLC ونظم التحكم"
+      },
+      {
+        "en": "Protection, earthing and electrical safety",
+        "ar": "الحماية والتأريض والسلامة الكهربائية"
+      },
+      {
+        "en": "CAD and simulation software",
+        "ar": "CAD وبرامج المحاكاة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Careful, safety-first habits",
+        "ar": "عادات دقيقة والسلامة أولًا"
+      },
+      {
+        "en": "Teamwork with technicians and other engineers",
+        "ar": "العمل مع الفنيين والمهندسين الآخرين"
+      },
+      {
+        "en": "Clear technical writing",
+        "ar": "كتابة فنية واضحة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for standards and software",
+        "ar": "الإنجليزية للمعايير والبرامج"
+      },
+      {
+        "en": "Arabic for site and utility communication",
+        "ar": "العربية للتواصل مع الموقع وشركات الكهرباء"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Engineers Syndicate registration",
+        "ar": "التسجيل في نقابة المهندسين"
+      },
+      {
+        "en": "PLC (Siemens, Schneider) and ETAP/DIALux courses",
+        "ar": "دورات PLC (سيمنس وشنايدر) وETAP/DIALux"
+      },
+      {
+        "en": "Electrical safety and project management certificates",
+        "ar": "شهادات السلامة الكهربائية وإدارة المشروعات"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Khan Academy: Electrical engineering",
+        "url": "https://www.khanacademy.org/science/electrical-engineering",
+        "free": true
+      },
+      {
+        "title": "MIT OpenCourseWare: Electrical Engineering and Computer Science",
+        "url": "https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science",
+        "free": true
+      },
+      {
+        "title": "Falstad Circuit Simulator (browser-based)",
+        "url": "https://www.falstad.com/circuit/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12179,
+        "max": 34011
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/electrical-power-engineering/electrical-engineer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Paylab's own figure for someone with 5 years of experience is about 29,273 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. رقم Paylab لمن لديه 5 سنوات خبرة نحو 29,273 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Egyptian Electricity Holding Company and its distribution and generation companies",
+        "ar": "الشركة القابضة لكهرباء مصر وشركات التوزيع والتوليد التابعة لها"
+      },
+      {
+        "en": "Industrial manufacturers and large contractors",
+        "ar": "المصانع الكبرى وشركات المقاولات الكبرى"
+      },
+      {
+        "en": "Electrical contractors (MEP), consulting offices and cable and equipment makers",
+        "ar": "مقاولو الكهرباء (MEP) ومكاتب الاستشارات وصانعو الكابلات والمعدات"
+      },
+      {
+        "en": "Renewable energy developers and oil and gas companies",
+        "ar": "مطورو الطاقة المتجددة وشركات البترول والغاز"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Electrical design, drawings and load studies can be done freelance or remotely; installation and testing need you on site.",
+      "ar": "يمكن عمل التصميم الكهربائي والرسومات ودراسات الأحمال بنظام العمل الحر أو عن بعد؛ أما التركيب والاختبار فيتطلبان وجودك في الموقع."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and industrial cities",
+        "ar": "القاهرة الكبرى والمدن الصناعية"
+      },
+      {
+        "en": "Upper Egypt (Benban solar and Aswan power stations) and the Red Sea",
+        "ar": "الصعيد (بنبان للطاقة الشمسية ومحطات أسوان) والبحر الأحمر"
+      }
+    ],
+    "providerIds": [
+      "egyptian-japanese-kosen",
+      "elsewedy-technical-academy",
+      "fab-lab-egypt"
+    ]
+  },
+  "global": {
+    "en": "Electrical engineers are in demand across the Gulf for construction, utilities and industry, and in Europe and North America for power and automation. Registration and experience requirements differ, and English (and sometimes German) matter.",
+    "ar": "المهندسون الكهربائيون مطلوبون في الخليج للإنشاءات والمرافق والصناعة، وفي أوروبا وأمريكا الشمالية للطاقة والأتمتة. تختلف شروط التسجيل والخبرة، والإنجليزية (وأحيانًا الألمانية) مهمة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Essential, steady demand with energy and building projects",
+        "ar": "طلب أساسي ومستمر مع مشروعات الطاقة والبناء"
+      },
+      {
+        "en": "Several directions: power, control, electronics, renewables",
+        "ar": "اتجاهات متعددة: القوى والتحكم والإلكترونيات والطاقة المتجددة"
+      },
+      {
+        "en": "Strong international mobility",
+        "ar": "قدرة جيدة على العمل دوليًا"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Heavy math and theory in the degree",
+        "ar": "رياضيات ونظريات كثيفة في الدراسة"
+      },
+      {
+        "en": "Electrical hazards require strict safety discipline",
+        "ar": "مخاطر الكهرباء تتطلب انضباطًا صارمًا في السلامة"
+      },
+      {
+        "en": "Starting pay is modest",
+        "ar": "الأجر في البداية متواضع"
+      },
+      {
+        "en": "Site conditions and tight schedules",
+        "ar": "ظروف الموقع ومواعيد ضيقة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Electrical and electronics engineering are the same.",
+          "ar": "الهندسة الكهربائية والإلكترونية شيء واحد."
+        },
+        "fact": {
+          "en": "Power engineering deals with large-scale electricity; electronics works with small circuits and signals. Faculties offer separate departments.",
+          "ar": "هندسة القوى تتعامل مع الكهرباء على نطاق كبير، والإلكترونيات مع دوائر صغيرة وإشارات. وتوفر الكليات أقسامًا منفصلة."
+        }
+      },
+      {
+        "myth": {
+          "en": "You only need to be good at wiring.",
+          "ar": "يكفي أن تجيد التوصيلات."
+        },
+        "fact": {
+          "en": "The degree is about calculation, design and system thinking, and technicians do much of the wiring.",
+          "ar": "الدراسة عن الحساب والتصميم والتفكير النظامي، والفنيون ينفذون الكثير من التوصيلات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office design roles are regular; utility, plant and site jobs may include shifts and emergency call-outs.",
+      "ar": "أدوار تصميم المكتب منتظمة؛ ووظائف شركات الكهرباء والمصانع والمواقع قد تشمل ورديات واستدعاءات طارئة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate / trainee engineer",
+        "ar": "مهندس حديث / متدرب"
+      },
+      {
+        "en": "Electrical engineer (design or site)",
+        "ar": "مهندس كهرباء (تصميم أو موقع)"
+      },
+      {
+        "en": "Senior engineer or team lead",
+        "ar": "مهندس أول أو رئيس فريق"
+      },
+      {
+        "en": "Section or project manager",
+        "ar": "رئيس قسم أو مدير مشروع"
+      },
+      {
+        "en": "Technical director or consultant",
+        "ar": "مدير فني أو استشاري"
+      }
+    ],
+    "relatedCareerIds": [
+      "mechatronics_engineer",
+      "communications_engineer",
+      "renewable_energy_engineer",
+      "mechanical_engineer",
+      "electrician",
+      "industrial_technician"
+    ],
+    "pivots": [
+      {
+        "en": "Renewable energy and energy efficiency",
+        "ar": "الطاقة المتجددة وكفاءة الطاقة"
+      },
+      {
+        "en": "Automation, robotics and industrial IoT",
+        "ar": "الأتمتة والروبوتات وإنترنت الأشياء الصناعي"
+      },
+      {
+        "en": "Technical sales and project management",
+        "ar": "المبيعات الفنية وإدارة المشروعات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "Masrawy - Tansik phase 1 minimums 2026, science and math faculties",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2025, medical and engineering faculties",
+      "url": "https://gate.ahram.org.eg/News/5259620.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Ahram Gate - Tansik phase 1 minimums 2024",
+      "url": "https://gate.ahram.org.eg/News/4951911.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain - Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Enterprise - The IGCSE fiasco: how are universities responding",
+      "url": "https://enterpriseam.com/egypt/blackboards/the-igcse-fiasco-how-are-universities-responding/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Nazra - Q&A about the Law on the Regulation of the Engineers Syndicate",
+      "url": "https://www.nazra.org/en/2014/04/q-about-law-regulation-engineers-syndicate",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt - Electrical Engineer salary survey",
+      "url": "https://www.paylab.com/eg/salaryinfo/electrical-power-engineering/electrical-engineer?lang=en",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

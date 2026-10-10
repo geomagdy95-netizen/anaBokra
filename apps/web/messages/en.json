@@ -1,0 +1,2026 @@
+{
+  "Meta": {
+    "title": "anaBokra",
+    "description": "Discover the career that fits you"
+  },
+  "Home": {
+    "title": "anaBokra",
+    "tagline": "Find your career path with confidence.",
+    "body": "A short journey to help you understand yourself and discover careers that fit you. This is an early preview.",
+    "cta": "Try the matching engine"
+  },
+  "LocaleSwitcher": {
+    "label": "Language",
+    "ar": "العربية",
+    "en": "English"
+  },
+  "DevEngine": {
+    "title": "Matching engine (dev)",
+    "intro": "A sample interest profile and the top 5 careers it matches.",
+    "profile": "Interest profile",
+    "top": "Top 5 careers",
+    "fit": "Fit",
+    "cluster": "Cluster",
+    "back": "Home"
+  },
+  "Riasec": {
+    "R": "Realistic",
+    "I": "Investigative",
+    "A": "Artistic",
+    "S": "Social",
+    "E": "Enterprising",
+    "C": "Conventional"
+  },
+  "DevPath": {
+    "title": "anaBokra world (dev)",
+    "intro": "Grey-box prototype: a world generated from an interest profile, with the assessment path through it.",
+    "back": "Home",
+    "profile": "Profile",
+    "presets": {
+      "scientist": "Scientist",
+      "creative": "Creative",
+      "helper": "Helper",
+      "builder": "Builder",
+      "leader": "Leader",
+      "random": "Random"
+    },
+    "progress": "Stations completed",
+    "renderer": "View",
+    "reason": {
+      "no-webgl": "3D is unavailable on this device, showing the 2D map.",
+      "reduced-motion": "Reduced motion is on, showing the 2D map.",
+      "low-end": "Weak device detected, showing the 2D map.",
+      "user": "You chose the 2D map.",
+      "error": "3D stopped working, showing the 2D map."
+    },
+    "sceneLabel": "Map of your journey with four stations and a final landmark",
+    "fps": "fps",
+    "fpsNa": "FPS: 3D only",
+    "idle": "idle",
+    "stationsLabel": "Stations",
+    "stations": {
+      "interests": "Interests",
+      "personality": "Personality",
+      "values": "Values",
+      "abilities": "Abilities"
+    },
+    "landmark": "Destination",
+    "state": {
+      "locked": "Locked",
+      "current": "Current",
+      "done": "Done"
+    },
+    "focused": "Focused",
+    "regions": "Regions (interest score · map cells)",
+    "regionsHint": "Higher scores make a region bigger, taller and stronger in color."
+  },
+  "Auth": {
+    "login": {
+      "title": "Sign in to anaBokra",
+      "subtitle": "Create your account or sign in. It takes a minute.",
+      "roleLabel": "I am",
+      "student": "I'm a student",
+      "parent": "I'm a parent",
+      "phoneLabel": "WhatsApp number",
+      "phoneHint": "Egyptian number, for example 010 1234 5678",
+      "sendWhatsapp": "Send code on WhatsApp",
+      "sending": "Sending…",
+      "or": "or",
+      "google": "Continue with Google",
+      "useEmail": "Use email instead",
+      "useWhatsapp": "Use WhatsApp instead",
+      "emailLabel": "Email",
+      "sendEmail": "Send code to my email",
+      "methodLabel": "Sign-in method"
+    },
+    "verify": {
+      "title": "Enter the code",
+      "subtitlePhone": "We sent a 6-digit code on WhatsApp to {target}.",
+      "subtitleEmail": "We sent a 6-digit code to {target}.",
+      "codeLabel": "6-digit code",
+      "submit": "Verify",
+      "verifying": "Verifying…",
+      "resendIn": "Resend code in {seconds}s",
+      "resend": "Send a new code",
+      "resent": "A new code is on its way.",
+      "changePhone": "Change number",
+      "changeEmail": "Change email"
+    },
+    "account": {
+      "title": "Your account",
+      "role": "Account type",
+      "roles": {
+        "student": "Student",
+        "parent": "Parent"
+      },
+      "contact": "Signed in as",
+      "signOut": "Sign out",
+      "home": "Home"
+    },
+    "errors": {
+      "invalid_phone": "That doesn't look like a valid mobile number. Check it and try again.",
+      "invalid_email": "That doesn't look like a valid email address.",
+      "invalid_code": "That code is wrong or expired. Check it or ask for a new one.",
+      "rate_limited": "Too many attempts. Please wait a bit and try again.",
+      "send_failed": "We couldn't send the code right now. Please try again in a moment.",
+      "server_error": "Something went wrong on our side. Please try again.",
+      "forbidden": "This request was blocked. Reload the page and try again.",
+      "invalid_json": "Something went wrong. Reload the page and try again.",
+      "oauth": "Google sign-in didn't work. Please try again.",
+      "network": "No connection. Check your internet and try again.",
+      "session_expired": "Your sign-in session expired. Please start again."
+    }
+  },
+  "Otp": {
+    "body": "{code} is your anaBokra verification code. Don't share it with anyone."
+  },
+  "Assessment": {
+    "save": {
+      "saving": "Saving…",
+      "retrying": "Having trouble saving, trying again…",
+      "offline": "Offline. Your answers are kept on this device.",
+      "error": "Couldn't save",
+      "saved": "Saved"
+    },
+    "errors": {
+      "server_error": "Something went wrong while saving. Please try again.",
+      "session_paused": "This session is paused. Go back to the map to continue.",
+      "session_closed": "This session has ended. Go back to the map.",
+      "unauthenticated": "Your sign-in expired. Sign in again to keep going.",
+      "instrument_version_mismatch": "The questions were updated. Go back to the map.",
+      "values_limit_exceeded": "Only 7 cards can be \"must have\".",
+      "consent_required": "A guardian has to give consent first."
+    },
+    "blocked": {
+      "consent_required": {
+        "title": "A guardian needs to approve first",
+        "body": "Because you're under 18, a parent or guardian has to give consent before you start the full assessment."
+      },
+      "not_student": {
+        "title": "Students only",
+        "body": "The assessment is for student accounts."
+      },
+      "generic": {
+        "title": "Something went wrong",
+        "body": "We couldn't open the assessment right now. Please try again in a moment."
+      },
+      "account": "Your account",
+      "askParent": "Ask my parent"
+    },
+    "hub": {
+      "home": "Home",
+      "title": "Your journey",
+      "subtitle": "Four short stations and one optional stop. You can pause any time and pick up where you left off.",
+      "overall": "{answered} of {total} questions answered",
+      "overallLabel": "Overall progress",
+      "seeResults": "See my matches",
+      "continue": "Continue: {name}",
+      "start": "Start: {name}",
+      "skipToResults": "Skip the rest and see my matches",
+      "stationsLabel": "Stations",
+      "state": {
+        "locked": "Locked",
+        "current": "Up next",
+        "done": "Done"
+      },
+      "items": "{n} questions",
+      "minutes": "about {n} min",
+      "optional": "Optional",
+      "action": {
+        "start": "Start",
+        "continue": "Continue",
+        "review": "Review"
+      },
+      "lockedHint": "Finish the earlier station to unlock this one.",
+      "showOnMap": "Show on map",
+      "stationProgressLabel": "Progress in {name}"
+    },
+    "map": {
+      "label": "Map of your journey with four stations and a final destination",
+      "view": "Map view",
+      "reason": {
+        "no-webgl": "3D is unavailable on this device, showing the 2D map.",
+        "reduced-motion": "Reduced motion is on, showing the 2D map.",
+        "low-end": "Weak device detected, showing the 2D map.",
+        "user": "You chose the 2D map.",
+        "error": "3D stopped working, showing the 2D map."
+      },
+      "landmark": "Destination: your career matches, unlocked when the stations are done.",
+      "focused": "{name}: {state}"
+    },
+    "stations": {
+      "interests": {
+        "eyebrow": "Station 1 of 4",
+        "title": "Interests",
+        "blurb": "Swipe through activities and tell us what you enjoy.",
+        "intro": "You'll see a stack of everyday activities. For each one, show how much you'd enjoy doing it. There are no right or wrong answers, just what feels like you.",
+        "how": "Swipe left for dislike, right for like, up for love. Or tap the buttons under the card.",
+        "doneTitle": "Interests complete"
+      },
+      "personality": {
+        "eyebrow": "Station 2 of 4",
+        "title": "Personality",
+        "blurb": "Say how well short statements describe you.",
+        "intro": "These are short statements about how you usually think, feel and act. Pick the answer that fits you best, not the one that sounds best.",
+        "how": "Choose one of five answers for each statement. You can go back to change an answer.",
+        "doneTitle": "Personality complete"
+      },
+      "values": {
+        "eyebrow": "Station 3 of 4",
+        "title": "Values",
+        "blurb": "Sort what matters to you in a future job.",
+        "intro": "You'll see things people want from work, like good pay or a calm workplace. Sort them by how much they matter to you.",
+        "how": "Put each card in a group. Only 7 can be \"must have\", so choose carefully. Then pick your top 3 values.",
+        "doneTitle": "Values complete"
+      },
+      "abilities": {
+        "eyebrow": "Station 4 of 4",
+        "title": "Strengths",
+        "blurb": "Rate how strong you feel in different skills.",
+        "intro": "Rate yourself on a few skills compared with others your age. This is how you see yourself, so be honest and kind to yourself.",
+        "how": "Choose one of five answers for each skill. These are self-reported strengths, not a test.",
+        "doneTitle": "Strengths complete"
+      },
+      "context": {
+        "eyebrow": "Optional last stop",
+        "title": "About you",
+        "blurb": "A few quick questions about your school and plans.",
+        "intro": "A few quick questions help us suggest paths that fit your school track and situation. Skip any you'd rather not answer.",
+        "how": "Everything here is optional and saves as you go.",
+        "doneTitle": "Done with the questions"
+      }
+    },
+    "intro": {
+      "howTitle": "How it works",
+      "how": {
+        "1": "Answer honestly. There are no right or wrong answers.",
+        "2": "Your answers are saved as you go. You can pause and come back any time.",
+        "3": "At the end you'll see careers that fit you. No scores show up until then."
+      },
+      "start": "Start",
+      "resume": "Continue where I stopped",
+      "backToMap": "Back to the map"
+    },
+    "sequence": {
+      "counter": "{current} / {total}",
+      "answered": "{n} answered",
+      "progressLabel": "Questions answered",
+      "undo": "Undo",
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish"
+    },
+    "prompts": {
+      "interests": "Would you enjoy doing this?",
+      "personality": "How well does this describe you?",
+      "abilities": "Compared with others your age, how strong are you at this?",
+      "values": "Sort each card by how much it matters to you in a future job."
+    },
+    "swipe": {
+      "cardLabel": "Card {current} of {total}",
+      "help": "Swipe left: {left}. Swipe right: {right}. Swipe up: {up}. Or use the buttons or the arrow keys.",
+      "buttonsLabel": "Your answer, from 1 to 5"
+    },
+    "insight": {
+      "title": "Quick breather",
+      "count": "6",
+      "lines": {
+        "0": "Nice pace. There are no right or wrong answers here.",
+        "1": "Go with your first instinct. It's usually the most honest one.",
+        "2": "Remember, you can pause and come back any time.",
+        "3": "Answer for who you are today, not who you think you should be.",
+        "4": "Every answer helps paint a fuller picture of you.",
+        "5": "Take a breath if you need one. There's no timer."
+      },
+      "progress": "You've answered {answered} of {total}.",
+      "continue": "Keep going"
+    },
+    "puzzle": {
+      "mediaLabel": "Picture for this puzzle",
+      "mediaPlaceholder": "Picture goes here",
+      "options": "Answer options"
+    },
+    "values": {
+      "limitReached": "Only {limit} cards can be \"must have\". Move one out first.",
+      "placeLabel": "Where does \"{card}\" go?",
+      "sorted": "{n} of {total} sorted",
+      "toSort": "Cards to sort ({n})",
+      "allSorted": "All cards sorted.",
+      "dropHere": "Nothing here yet.",
+      "toRank": "Next: pick your top values",
+      "rankTitle": "Pick your top {n} values",
+      "rankHelp": "Tap to choose, most important first. Use the arrows to change the order.",
+      "yourOrder": "Your order",
+      "moveUp": "Move {name} up",
+      "moveDown": "Move {name} down",
+      "backToSort": "Back to sorting",
+      "done": "Done"
+    },
+    "workValues": {
+      "achievement": {
+        "name": "Achievement",
+        "desc": "Using your abilities and feeling you got something done."
+      },
+      "workingConditions": {
+        "name": "Working conditions",
+        "desc": "Good pay, security and a pleasant place to work."
+      },
+      "recognition": {
+        "name": "Recognition",
+        "desc": "Being respected, with chances to move up."
+      },
+      "relationships": {
+        "name": "Relationships",
+        "desc": "Friendly coworkers and helping other people."
+      },
+      "support": {
+        "name": "Support",
+        "desc": "Fair management and good training."
+      },
+      "independence": {
+        "name": "Independence",
+        "desc": "Making your own decisions and being creative."
+      }
+    },
+    "context": {
+      "lead": "A few quick questions, all optional. They help us suggest paths that fit your school and plans.",
+      "choose": "Choose…",
+      "curriculum": {
+        "q": "Which school system are you in?",
+        "thanaweya": "Thanaweya Amma",
+        "igcse": "IGCSE",
+        "american": "American Diploma",
+        "ib": "IB",
+        "other": "Something else"
+      },
+      "track": {
+        "q": "Which track?",
+        "science": "Science (Sciences)",
+        "math": "Science (Mathematics)",
+        "literary": "Literary",
+        "other": "Not sure / other"
+      },
+      "score": {
+        "q": "What score do you expect? (percent)",
+        "error": "Enter a number from {min} to {max}."
+      },
+      "budget": {
+        "q": "What's your budget for studying?",
+        "low": "Tight",
+        "medium": "Moderate",
+        "high": "Flexible",
+        "lowHint": "Public university, low fees",
+        "mediumHint": "Some private options",
+        "highHint": "Private or international"
+      },
+      "governorate": {
+        "q": "Which governorate do you live in?"
+      },
+      "optional": "You can skip anything you'd rather not answer.",
+      "failed": "We couldn't save your answers. Check your connection and try again.",
+      "saving": "Saving…",
+      "finish": "Finish",
+      "skip": "Skip for now"
+    },
+    "pause": {
+      "title": "Saved. Come back anytime.",
+      "button": "Save and come back later",
+      "saved": "Your answers are saved.",
+      "savedOffline": "No connection right now. Your answers are kept on this device and will be saved when you're back online.",
+      "error": "We couldn't save everything yet. Keep this tab open and we'll keep trying.",
+      "stationProgress": "{answered} of {total} answered in this station",
+      "stationProgressLabel": "Progress in this station",
+      "overall": "{answered} of {total} questions overall",
+      "resumeHint": "When you come back, you'll land on the exact spot where you stopped.",
+      "leave": "Back to the map",
+      "keepGoing": "Keep going"
+    },
+    "complete": {
+      "unlocked": "Nice work! Next up: {name}.",
+      "all": "You've finished every station. Your matches are ready.",
+      "next": "Next: {name}",
+      "results": "See my matches",
+      "review": "Review my answers"
+    },
+    "finishing": {
+      "saving": "Saving your answers…",
+      "failed": "We couldn't finish this station. Try again.",
+      "offline": "No connection. Your answers are kept; try again when you're back online.",
+      "retry": "Try again"
+    },
+    "result": {
+      "title": "Your top matches",
+      "topLabel": "Top career matches",
+      "intro": "Careers that best fit your interests, personality, values and strengths.",
+      "working": "Working out your matches…",
+      "failed": "We couldn't work out your matches. Try again.",
+      "notReady": "Finish at least one station first and your matches will show up here."
+    },
+    "governorates": {
+      "cairo": "Cairo",
+      "giza": "Giza",
+      "alexandria": "Alexandria",
+      "qalyubia": "Qalyubia",
+      "sharqia": "Sharqia",
+      "dakahlia": "Dakahlia",
+      "gharbia": "Gharbia",
+      "monufia": "Monufia",
+      "beheira": "Beheira",
+      "kafr_el_sheikh": "Kafr El Sheikh",
+      "damietta": "Damietta",
+      "port_said": "Port Said",
+      "ismailia": "Ismailia",
+      "suez": "Suez",
+      "north_sinai": "North Sinai",
+      "south_sinai": "South Sinai",
+      "fayoum": "Fayoum",
+      "beni_suef": "Beni Suef",
+      "minya": "Minya",
+      "assiut": "Assiut",
+      "sohag": "Sohag",
+      "qena": "Qena",
+      "luxor": "Luxor",
+      "aswan": "Aswan",
+      "red_sea": "Red Sea",
+      "new_valley": "New Valley",
+      "matrouh": "Matrouh"
+    },
+    "resultsState": {
+      "title": "Your results are ready",
+      "body": "You finished the assessment on {date}.",
+      "retakeTitle": "Retake",
+      "retakeReady": "It has been a while. You can retake the assessment to see how you have changed.",
+      "retake": "Retake the assessment",
+      "retakeLocked": "You can retake the assessment on {date}. Interests and strengths take time to change, so we ask you to wait about six months."
+    }
+  },
+  "Careers": {
+    "nav": {
+      "label": "Careers",
+      "brand": "anaBokra",
+      "browse": "Browse careers",
+      "compare": "Compare",
+      "favorites": "My favorites"
+    },
+    "meta": {
+      "browseTitle": "Browse careers in Egypt | anaBokra",
+      "browseDescription": "Explore careers, filter by field, Thanaweya track, outlook and salary data, and see how well each one fits you.",
+      "careerTitle": "{name}: career guide for Egypt | anaBokra",
+      "careerDescription": "{name} ({cluster}): what the job is like, how to get there in Egypt, skills, pay and outlook.",
+      "compareTitle": "Compare careers | anaBokra",
+      "favoritesTitle": "My favorite careers | anaBokra"
+    },
+    "browser": {
+      "title": "Browse careers",
+      "intro": "Search the whole catalog, narrow it down, and open any career to see how to get there in Egypt.",
+      "filtersLabel": "Search and filter careers",
+      "search": "Search by name",
+      "searchPlaceholder": "For example: engineer, doctor",
+      "cluster": "Field",
+      "allClusters": "All fields",
+      "track": "Thanaweya track",
+      "anyTrack": "Any track",
+      "outlook": "Field outlook",
+      "anyOutlook": "Any outlook",
+      "minFit": "Fit with you",
+      "anyFit": "Any fit",
+      "fitAtLeast": "{n}% or more",
+      "sort": "Sort by",
+      "salaryOnly": "Only careers with salary data",
+      "reset": "Clear filters",
+      "fitHint": "Take the assessment to see how well each career fits you.",
+      "fitHintCta": "Start the assessment",
+      "count": "{count, plural, =0 {No careers match} one {# career} other {# careers}}",
+      "empty": "No careers match these filters."
+    },
+    "sort": {
+      "name": "Name (A-Z)",
+      "fit": "Best fit first",
+      "study": "Shortest study first",
+      "salary": "Highest published salary first"
+    },
+    "tracks": {
+      "science": "Science",
+      "math": "Math",
+      "literary": "Literary"
+    },
+    "trend": {
+      "growing": "Growing",
+      "stable": "Stable",
+      "transforming": "Transforming",
+      "declining": "Declining"
+    },
+    "card": {
+      "facts": "Career facts",
+      "holland": "Holland code",
+      "outlook": "Outlook",
+      "hasSalary": "Salary data",
+      "lite": "Summary page",
+      "soon": "Page coming soon",
+      "compare": "Compare",
+      "fit": "{n}% fit"
+    },
+    "compare": {
+      "title": "Compare careers",
+      "intro": "Pick {min} to {max} careers to see them side by side.",
+      "barLabel": "Careers selected to compare",
+      "selected": "{count} of {max} selected",
+      "limit": "You can compare up to {max} careers.",
+      "needMore": "Pick at least {min} careers to compare.",
+      "clear": "Clear",
+      "go": "Compare",
+      "na": "Not available",
+      "tableLabel": "Comparison table, scrollable",
+      "caption": "Careers compared side by side",
+      "pickerLabel": "Choose careers to compare",
+      "pick": "Career {n}",
+      "choose": "Choose a career",
+      "optional": "Optional",
+      "submit": "Compare",
+      "rows": {
+        "fit": "Fit with you",
+        "cluster": "Field",
+        "holland": "Holland code",
+        "study": "Years of study",
+        "tracks": "Thanaweya tracks",
+        "path": "Where to study",
+        "salary": "Monthly salary (EGP)",
+        "outlook": "Field outlook",
+        "demand": "Job demand"
+      }
+    },
+    "favorite": {
+      "signIn": "Sign in to save",
+      "save": "Save",
+      "saved": "Saved",
+      "addNamed": "Save {name} to favorites",
+      "removeNamed": "Remove {name} from favorites",
+      "error": {
+        "unauthenticated": "Please sign in to save careers.",
+        "consent_required": "Saving careers unlocks after your guardian gives consent.",
+        "not_found": "We could not find this career.",
+        "unavailable": "Saving is not available right now. Please try again later.",
+        "network": "Could not reach the server. Check your connection."
+      }
+    },
+    "favorites": {
+      "title": "My favorite careers",
+      "signedOut": "Sign in to see the careers you saved.",
+      "signIn": "Sign in",
+      "consentRequired": "Saving careers unlocks after your guardian gives consent. You can still browse every career.",
+      "unavailable": "We could not load your favorites right now. Please try again later.",
+      "empty": "You have not saved any careers yet.",
+      "browse": "Browse careers",
+      "compareFirst": "Compare your first {count} favorites"
+    },
+    "share": {
+      "label": "Share",
+      "copied": "Link copied.",
+      "failed": "Could not share. Copy the address from your browser."
+    },
+    "fit": {
+      "title": "Your fit",
+      "why": "Why it fits you",
+      "watch": "Things to keep in mind",
+      "noResult": "Take the assessment to see how well this career fits you.",
+      "signedOut": "Sign in and take the assessment to see how well this career fits you.",
+      "cta": "Start the assessment"
+    },
+    "reasons": {
+      "interest": "Your interests lean toward {types}, which this career uses a lot.",
+      "personality": "Your {trait} fits how people in this career usually work.",
+      "value": "It offers something you value: {value}.",
+      "ability": "Your {domain} ability is a good match."
+    },
+    "watchOuts": {
+      "personalityStretch": "This career may stretch your {trait}.",
+      "abilityGap": "Your {domain} ability may need extra work for this career."
+    },
+    "flags": {
+      "trackMismatch": "Your Thanaweya track may not lead to this career directly.",
+      "scoreReach": "The usual minimum score may be above your expected score.",
+      "costHigh": "Study costs may be high for your budget."
+    },
+    "riasec": {
+      "R": "Realistic",
+      "I": "Investigative",
+      "A": "Artistic",
+      "S": "Social",
+      "E": "Enterprising",
+      "C": "Conventional"
+    },
+    "traits": {
+      "extraversion": "outgoing side",
+      "agreeableness": "cooperative side",
+      "conscientiousness": "organized side",
+      "emotionalStability": "calm under pressure",
+      "intellect": "curiosity"
+    },
+    "workValues": {
+      "achievement": "achievement",
+      "workingConditions": "good working conditions",
+      "recognition": "recognition",
+      "relationships": "good relationships at work",
+      "support": "support from the workplace",
+      "independence": "independence"
+    },
+    "abilities": {
+      "verbal": "verbal",
+      "numerical": "numerical",
+      "logical": "logical",
+      "spatial": "spatial",
+      "creative": "creative",
+      "manual": "hands-on"
+    },
+    "page": {
+      "back": "Back to all careers",
+      "compare": "Compare with others",
+      "sections": "Sections of this page",
+      "liteNote": "This is a short summary. The full page for this career is coming soon. Here is what we have so far.",
+      "noPageNote": "The page for this career is coming soon. The field outlook below is already available.",
+      "overviewEmpty": "A description of this career is coming soon.",
+      "noSources": "Sources will be listed when the full page is published.",
+      "lastReviewed": "Last reviewed: {date}.",
+      "notReviewed": "Not reviewed yet.",
+      "draft": "This content is a draft."
+    },
+    "sections": {
+      "overview": "Overview",
+      "path": "Path in Egypt",
+      "skills": "Skills",
+      "market": "Market",
+      "future": "Future outlook",
+      "reality": "Reality check",
+      "related": "Related careers",
+      "sources": "Sources"
+    },
+    "overview": {
+      "dayInLife": "A day in this job",
+      "tasks": "What you do",
+      "environments": "Where you work",
+      "tools": "Tools you use"
+    },
+    "path": {
+      "programFacts": "Program facts",
+      "years": "{count, plural, one {# year} other {# years}}",
+      "languages": {
+        "en": "Taught in English",
+        "ar": "Taught in Arabic",
+        "mixed": "Arabic and English"
+      },
+      "uniType": {
+        "public": "Public university",
+        "azhar": "Al-Azhar University",
+        "technological": "Technological university",
+        "national": "National (ahleya) university",
+        "private": "Private university",
+        "international_branch": "International branch",
+        "other": "University"
+      },
+      "minScore": "Latest minimum score",
+      "year": "{year}",
+      "scale": "{raw} of {max} marks",
+      "kindTansik": "Tansik phase 1",
+      "kindFloor": "Ministry minimum for private universities",
+      "noScore": "No published score",
+      "website": "Website",
+      "studyYears": "Years of study",
+      "tracks": "Thanaweya tracks",
+      "trackNames": {
+        "science": "Science",
+        "math": "Math",
+        "literary": "Literary"
+      },
+      "faculties": "Faculties that lead here",
+      "programs": "Programs and latest minimum scores",
+      "tansik": "About the scores",
+      "otherCurricula": "IGCSE, American Diploma and other certificates",
+      "alternatives": "Other routes in",
+      "licensing": "Licensing and registration",
+      "providers": "Training programs and courses"
+    },
+    "skills": {
+      "hard": "Technical skills",
+      "soft": "Personal skills",
+      "languages": "Languages",
+      "certifications": "Certificates",
+      "starter": "Free places to start",
+      "free": "free"
+    },
+    "market": {
+      "salary": "Salary",
+      "demand": "Demand for this job in Egypt",
+      "demandLevels": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "employers": "Who hires",
+      "regions": "Where the jobs are",
+      "freelance": "Freelance and remote work",
+      "global": "Working abroad"
+    },
+    "salary": {
+      "noneTitle": "No reliable salary figure yet",
+      "noneDefault": "We did not find a citable salary figure for this career in Egypt, so we do not show one.",
+      "noneShort": "Not published",
+      "range": "{min} to {max} EGP per month",
+      "caption": "Gross monthly pay in Egyptian pounds, {year}",
+      "level": "Level",
+      "monthly": "Monthly pay",
+      "levels": {
+        "junior": "Junior",
+        "mid": "Mid-level",
+        "senior": "Senior"
+      },
+      "notPublished": "Not published separately",
+      "source": "Salary source"
+    },
+    "future": {
+      "summary": "Outlook summary",
+      "trend": "Trend",
+      "confidence": "Confidence",
+      "trends": {
+        "growing": "Growing",
+        "stable": "Stable",
+        "transforming": "Transforming",
+        "declining": "Declining"
+      },
+      "confidenceLevels": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "demand": "Demand over the next 5 years",
+      "rationale": "Why we think so",
+      "changes": "Skills and areas changing in this field",
+      "momentum": {
+        "rising": "Rising",
+        "steady": "Steady",
+        "fading": "Fading",
+        "emerging": "Emerging"
+      },
+      "sources": "Outlook sources"
+    },
+    "reality": {
+      "pros": "The good side",
+      "challenges": "The hard side",
+      "myths": "Myths and facts",
+      "myth": "Myth",
+      "fact": "Fact",
+      "balance": "Work-life balance"
+    },
+    "related": {
+      "ladder": "A typical career ladder",
+      "careers": "Related careers",
+      "pivots": "Where you can move next"
+    },
+    "report": {
+      "subject": "Issue with career page",
+      "link": "Report an issue with this page"
+    }
+  },
+  "Results": {
+    "back": "Back to my map",
+    "backToResults": "Back to my results",
+    "title": "Your world",
+    "reveal": {
+      "label": "Your world reveal",
+      "caption": "This is your world",
+      "sub": "A world shaped by what you enjoy. The bigger a region, the stronger that interest.",
+      "skip": "Skip",
+      "continue": "See my results",
+      "replay": "Replay the reveal",
+      "sceneLabel": "Your generated world, seen from above and pulling back"
+    },
+    "readiness": {
+      "title": "One last check",
+      "intro": "Now that you have seen your results, how do these statements feel? They are the same six as at the start.",
+      "scaleLabel": "Answer from 1 to 5",
+      "submit": "Save and continue",
+      "skip": "Maybe later",
+      "saving": "Saving…",
+      "error": "We could not save that. Try again.",
+      "incomplete": "Answer all six statements to continue."
+    },
+    "overview": {
+      "title": "Your profile",
+      "summaryTitle": "In a few words",
+      "summaryEmpty": "Your summary will appear once your matches are ready.",
+      "partial": "This result is based on the stations you finished. Finish the rest for a fuller picture.",
+      "hollandTitle": "Your Holland code",
+      "hollandIntro": "Three interest types lead your profile, strongest first.",
+      "hollandCode": "Holland code {code}",
+      "bigFiveTitle": "Your strengths",
+      "bigFiveIntro": "Five ways you naturally show up. Bands show where each sits, not an exact score.",
+      "valuesTitle": "What matters most to you at work",
+      "valuesIntro": "Your top three, in order.",
+      "abilitiesTitle": "Your ability strengths",
+      "abilitiesIntro": "Where you are strongest right now. Abilities grow with practice.",
+      "selfReported": "Self-reported",
+      "selfReportedHint": "Based on how you rated yourself, not on a test.",
+      "bandLabel": "Band: {band}",
+      "seeDetail": "How it shows up",
+      "guidance": "Guidance, not a diagnosis. This is a starting point for exploring, not a verdict on who you are.",
+      "valueRank": "Number {n}"
+    },
+    "bands": {
+      "growing": "Growing strength",
+      "balanced": "Steady strength",
+      "strong": "Clear strength",
+      "standout": "Standout strength"
+    },
+    "detail": {
+      "title": "{section}",
+      "meaning": "What it means",
+      "yourBand": "Your band",
+      "shows": "How it shows up",
+      "suits": "Careers it suits",
+      "noSuits": "Your matches will show careers here.",
+      "guidance": "Guidance, not a diagnosis. Bands describe tendencies today and can change as you grow.",
+      "others": "Other sections",
+      "notAvailable": "This part of your profile is not available yet.",
+      "unknownSection": "We could not find that section."
+    },
+    "sections": {
+      "holland": "Interests (Holland code)",
+      "bigFive": "Strengths",
+      "values": "Work values",
+      "abilities": "Abilities"
+    },
+    "items": {
+      "R": {
+        "name": "Hands-on",
+        "meaning": "You like practical work: building, fixing, using tools, being active and seeing something real at the end.",
+        "shows": "You would rather try it than read about it, and you feel at home with machines, nature or physical tasks."
+      },
+      "I": {
+        "name": "Investigative",
+        "meaning": "You like to figure things out: asking why, analysing information and solving hard problems.",
+        "shows": "You enjoy puzzles, experiments and deep questions, and you are happy to spend time on one problem until it clicks."
+      },
+      "A": {
+        "name": "Creative",
+        "meaning": "You like to express ideas: designing, writing, making and imagining things that did not exist before.",
+        "shows": "You notice style and detail, you like freedom in how you work, and you often have a different angle."
+      },
+      "S": {
+        "name": "Helping",
+        "meaning": "You like working with people: teaching, caring, listening and making a difference to someone's day.",
+        "shows": "Friends come to you to talk, and you feel energised when you help someone understand or feel better."
+      },
+      "E": {
+        "name": "Leading",
+        "meaning": "You like to lead and persuade: starting projects, taking decisions and moving people towards a goal.",
+        "shows": "You speak up, take initiative and enjoy the challenge of convincing others or building something of your own."
+      },
+      "C": {
+        "name": "Organising",
+        "meaning": "You like order and detail: planning, keeping records accurate and making systems run smoothly.",
+        "shows": "You like clear steps and checklists, you spot mistakes quickly, and people rely on you to get things right."
+      },
+      "extraversion": {
+        "name": "Energy around people",
+        "meaning": "How much you draw energy from talking, teamwork and being in the middle of things.",
+        "shows": "Higher bands show up as an easy start to conversations and a love of group work. Calmer bands show up as focus, listening and thoughtful one-to-one time."
+      },
+      "agreeableness": {
+        "name": "Care and cooperation",
+        "meaning": "How naturally you look out for others, work as a team and keep the peace.",
+        "shows": "You notice how people feel, you share credit, and groups work better with you in them."
+      },
+      "conscientiousness": {
+        "name": "Organisation and reliability",
+        "meaning": "How much you plan ahead, follow through and take care with your work.",
+        "shows": "Deadlines, tidy notes and finishing what you start. This is one of the strongest signals of study and work success."
+      },
+      "emotionalStability": {
+        "name": "Calm under pressure",
+        "meaning": "How steady you stay when things get stressful, like exams, surprises or criticism.",
+        "shows": "You recover quickly after a setback and can keep thinking clearly when others are rushing."
+      },
+      "intellect": {
+        "name": "Curiosity and ideas",
+        "meaning": "How much you enjoy new ideas, learning and looking at things in unusual ways.",
+        "shows": "You ask follow-up questions, enjoy trying new methods and get bored when everything stays the same."
+      },
+      "achievement": {
+        "name": "Achievement",
+        "meaning": "Wanting work where you use your abilities and can see your effort turn into results.",
+        "shows": "You are happiest when you can point at what you accomplished."
+      },
+      "workingConditions": {
+        "name": "Stable conditions",
+        "meaning": "Wanting a secure, comfortable workplace with a steady routine and fair pay.",
+        "shows": "You value knowing what to expect and having a life outside work."
+      },
+      "recognition": {
+        "name": "Recognition",
+        "meaning": "Wanting your good work to be noticed and to move up over time.",
+        "shows": "You are motivated by progress, titles and being respected for your skill."
+      },
+      "relationships": {
+        "name": "Good relationships",
+        "meaning": "Wanting friendly colleagues and work that helps other people.",
+        "shows": "The people around you shape how much you enjoy a job."
+      },
+      "support": {
+        "name": "Supportive place",
+        "meaning": "Wanting managers who back you and a workplace that treats people fairly.",
+        "shows": "You do your best when you feel trusted and can ask for help."
+      },
+      "independence": {
+        "name": "Independence",
+        "meaning": "Wanting freedom to decide how you do your work, with little supervision.",
+        "shows": "You like owning your approach and trying your own ideas."
+      },
+      "verbal": {
+        "name": "Words and language",
+        "meaning": "Understanding, explaining and writing ideas clearly.",
+        "shows": "Reading, discussions, presentations and learning languages tend to come easily."
+      },
+      "numerical": {
+        "name": "Numbers",
+        "meaning": "Working comfortably with figures, percentages and calculations.",
+        "shows": "You estimate quickly, enjoy patterns in data and are comfortable with maths."
+      },
+      "logical": {
+        "name": "Logic and reasoning",
+        "meaning": "Spotting patterns, following rules and working out what comes next.",
+        "shows": "You enjoy puzzles, step-by-step problem solving and finding the flaw in an argument."
+      },
+      "spatial": {
+        "name": "Shapes and space",
+        "meaning": "Picturing objects, maps and layouts in your head and turning them around.",
+        "shows": "Diagrams, building things, design and finding your way around come naturally."
+      },
+      "creative": {
+        "name": "Creative thinking",
+        "meaning": "Coming up with many original ideas and new ways to solve problems.",
+        "shows": "You brainstorm freely and connect ideas other people keep separate."
+      },
+      "manual": {
+        "name": "Hands and coordination",
+        "meaning": "Working accurately with your hands and tools.",
+        "shows": "Fixing, crafting, drawing or handling equipment feels natural and precise."
+      }
+    },
+    "matches": {
+      "title": "Your top matches",
+      "intro": "Careers that fit your interests, strengths, values and abilities best.",
+      "fit": "{n}% fit",
+      "why": "Why it fits",
+      "watch": "Worth keeping in mind",
+      "view": "View career",
+      "exploreMore": "Explore {n} more",
+      "hideMore": "Show fewer",
+      "moreTitle": "More careers to explore",
+      "surpriseTitle": "Surprising matches",
+      "surpriseIntro": "Careers you might not have thought of that still fit you well.",
+      "surpriseBadge": "Surprise",
+      "prev": "Previous",
+      "next": "Next",
+      "carousel": "Surprising matches carousel",
+      "empty": "Your matches will show here once they are ready.",
+      "rank": "Match number {n}"
+    },
+    "share": {
+      "title": "Share your world",
+      "intro": "A picture of your world, your Holland code and your top area. You choose what is shown.",
+      "hideName": "Hide my name",
+      "hideMatches": "Hide my matches",
+      "story": "Story (1080 x 1920)",
+      "post": "Post (1080 x 1080)",
+      "format": "Image format",
+      "privacy": "What to show",
+      "preview": "Preview of your share card",
+      "previewAlt": "Your world share card",
+      "share": "Share",
+      "download": "Download image",
+      "shareText": "This is my world.",
+      "preparing": "Preparing your image…",
+      "failed": "We could not prepare the image. Try again.",
+      "shared": "Shared.",
+      "downloaded": "Image downloaded.",
+      "card": {
+        "kicker": "My world",
+        "code": "Holland code",
+        "area": "Top area",
+        "by": "{name}'s world",
+        "brand": "anaBokra"
+      }
+    },
+    "notReady": "Finish at least one station first and your results will show up here.",
+    "toHub": "Back to my map"
+  },
+  "Explore": {
+    "nav": {
+      "skip": "Skip to content",
+      "label": "Explore",
+      "brand": "anaBokra",
+      "home": "Explore",
+      "search": "Search",
+      "compare": "Compare programs",
+      "saved": "Saved"
+    },
+    "meta": {
+      "homeTitle": "Explore universities, programs and courses in Egypt | anaBokra",
+      "homeDescription": "Find universities, faculties, programs and training providers across Egypt, with admission cutoffs, fees and sources.",
+      "searchTitle": "Search programs and universities | anaBokra",
+      "searchDescription": "Filter by university type, governorate, Thanaweya track, teaching language, fees and how realistic each program is for your score.",
+      "universityTitle": "{name}: programs, cutoffs and fees | anaBokra",
+      "universityDescription": "{name}: {count} programs with Thanaweya cutoffs, fees and sources.",
+      "programTitle": "{name} at {university} | anaBokra",
+      "programDescription": "{name} at {university}: yearly admission cutoffs with their scale, fees, careers it leads to and sources.",
+      "providerTitle": "{name}: course and training provider | anaBokra",
+      "compareTitle": "Compare programs | anaBokra",
+      "compareDescription": "Compare two or three programs side by side.",
+      "savedTitle": "Saved opportunities | anaBokra",
+      "savedDescription": "Programs, universities and providers you saved."
+    },
+    "place": {
+      "unknown": "Not specified",
+      "nationwide": "Nationwide",
+      "online": "Online"
+    },
+    "score": {
+      "cutoffYear": "{year} cutoff",
+      "source": "Source"
+    },
+    "feasibility": {
+      "likely": "Likely",
+      "reach": "Reach",
+      "unlikely": "Unlikely",
+      "unknown_no_score": "Add your expected score",
+      "unknown_no_cutoff": "No cutoff published",
+      "unknown_track_mismatch": "Not open to your track",
+      "deltaSr": " ({delta} points {dir, select, above {above} other {below}} the latest cutoff)",
+      "needScoreSignedIn": "Add your expected Thanaweya score in the assessment context step to see how realistic this program is.",
+      "needScoreSignedOut": "Sign in and complete the assessment to see how realistic this program is for your score.",
+      "title": "Fit with your score",
+      "yourScore": "Your expected score: {score}%.",
+      "against": "Compared with the latest cutoff:",
+      "disclaimer": "Likely means your expected score is at least {likely} points above the latest cutoff. Reach means within {reach} points below it (or less than {likely} above). Unlikely is further below. Cutoffs change every year, so this is a guide, not a promise. Regulatory minimums are never used here."
+    },
+    "fees": {
+      "unknown": "Not published",
+      "perYear": "{amount} EGP per year",
+      "year": "{year} fees"
+    },
+    "types": {
+      "public": "Public",
+      "private": "Private",
+      "national": "National (Ahleya)",
+      "technological": "Technological",
+      "international_branch": "International branch",
+      "azhar": "Al-Azhar",
+      "other": "Other"
+    },
+    "languages": {
+      "ar": "Arabic",
+      "en": "English",
+      "mixed": "Arabic and English",
+      "unknown": "Language not specified"
+    },
+    "tracks": {
+      "science": "Science",
+      "math": "Mathematics",
+      "literary": "Literary",
+      "any": "Any track"
+    },
+    "providerKinds": {
+      "government_program": "Government program",
+      "technical_school": "Technical school",
+      "corporate_academy": "Corporate academy",
+      "platform": "Online platform",
+      "bootcamp": "Bootcamp",
+      "language_school": "Language school",
+      "other": "Other",
+      "creative_academy": "Creative academy",
+      "ngo_program": "NGO program"
+    },
+    "formats": {
+      "offline": "In person",
+      "hybrid": "Hybrid",
+      "online": "Online"
+    },
+    "card": {
+      "cutoff": "Latest cutoff",
+      "minimumOnly": "Only a regulatory minimum is published (not a cutoff)",
+      "noCutoff": "No cutoff published",
+      "fees": "Fees",
+      "compareWith": "Compare {name}",
+      "programCount": "{count, plural, one {# program} other {# programs}}"
+    },
+    "save": {
+      "signIn": "Sign in to save",
+      "save": "Save",
+      "saved": "Saved",
+      "addNamed": "Save {name}",
+      "removeNamed": "Remove {name} from saved",
+      "error": {
+        "unauthenticated": "Please sign in to save items.",
+        "consent_required": "Saving unlocks after your guardian gives consent.",
+        "not_found": "We could not save this item right now.",
+        "unavailable": "Saving is not available right now. Please try again later.",
+        "network": "Could not reach the server. Check your connection."
+      }
+    },
+    "map": {
+      "label": "Map of Egypt's governorates with university counts",
+      "tile": "{name}: {count, plural, one {# university} other {# universities}}",
+      "caption": "Schematic map. Shade shows the number of universities; select a governorate to see them."
+    },
+    "home": {
+      "title": "Explore universities, programs and courses",
+      "intro": "See where you can study in Egypt, what each program asked for in past years, what it costs, and which careers it leads to.",
+      "categories": "Categories",
+      "chips": {
+        "universities": "Universities",
+        "programs": "Programs",
+        "providers": "Courses and providers"
+      },
+      "topCareers": "For your top careers",
+      "loading": "Loading your results...",
+      "noResult": "Finish the assessment to see programs for your top careers.",
+      "signedOut": "Sign in and take the assessment to see programs for your top careers.",
+      "takeAssessment": "Go to the assessment",
+      "signIn": "Sign in",
+      "nearYou": "Near you",
+      "inGov": "Universities in {name}",
+      "noGovernorate": "Add your governorate in the assessment to see universities near you.",
+      "nearSignedOut": "Sign in to see universities near you.",
+      "byGovernorate": "By governorate",
+      "viewToggle": "Choose a view",
+      "view": {
+        "list": "List",
+        "map": "Map"
+      },
+      "andMore": "and {count} more"
+    },
+    "search": {
+      "title": "Search and filter",
+      "loading": "Loading...",
+      "kindLabel": "What to search",
+      "kinds": {
+        "programs": "Programs",
+        "universities": "Universities",
+        "providers": "Courses and providers"
+      },
+      "filtersLabel": "Filters",
+      "q": "Search by name",
+      "qPlaceholder": "For example: medicine, Cairo",
+      "type": "University type",
+      "any": "Any",
+      "governorate": "Governorate",
+      "track": "Thanaweya track",
+      "language": "Teaching language",
+      "feeMin": "Fees from (EGP per year)",
+      "feeMax": "Fees up to (EGP per year)",
+      "feasibility": "Realistic for your score",
+      "feas": {
+        "likely": "Likely",
+        "reach": "Reach",
+        "unlikely": "Unlikely"
+      },
+      "reset": "Clear filters",
+      "feasNeedsScore": "Add your expected score in the assessment to filter by how realistic a program is.",
+      "feasHint": "Compared with your expected score of {score}%.",
+      "feeHint": "Setting a fee range shows only programs with a published fee.",
+      "count": "{count, plural, =0 {No results} one {# result} other {# results}}",
+      "tray": "Compare tray",
+      "selected": "{count} of {max} selected for comparison",
+      "goCompare": "Compare selected programs",
+      "pickMore": "Select at least {min} programs to compare.",
+      "compareFull": "You can compare at most {max} programs. Remove one first.",
+      "empty": "Nothing matches these filters.",
+      "more": "Show more ({shown} of {total})"
+    },
+    "program": {
+      "back": "All programs",
+      "years": "{count, plural, one {# year} other {# years}}",
+      "scoresTitle": "Admission cutoffs by year",
+      "scoresCaption": "First-phase Tansik cutoffs. Scales differ: up to 410 before 2025, up to 320 from 2025. Percentages are comparable across years; raw scores are not.",
+      "colYear": "Year",
+      "colTrack": "Track",
+      "colPct": "Percent",
+      "colRaw": "Raw score (scale)",
+      "colSource": "Source",
+      "rawOf": "{raw} out of {max}",
+      "na": "Not available",
+      "source": "Source",
+      "noCutoffs": "No admission cutoffs are published for this program.",
+      "minimumTitle": "Regulatory minimum (not a cutoff)",
+      "minimumNote": "This is the lowest score the ministry allows for this type of university. It is not the score students were actually admitted with.",
+      "minimumRow": "{year}: at least {pct}% ({track})",
+      "feesTitle": "Fees",
+      "feesNone": "No published fees for this program.",
+      "careersTitle": "Careers it leads to",
+      "careersNone": "No linked careers yet.",
+      "sourcesTitle": "Sources and corrections",
+      "mainSource": "Main source",
+      "officialSite": "Official website",
+      "verified": "Last verified: {date}"
+    },
+    "university": {
+      "back": "All universities",
+      "website": "Official website",
+      "programs": "{count, plural, one {# program} other {# programs}}",
+      "noCutoff": "No cutoff published",
+      "noPrograms": "No programs listed yet for this university.",
+      "source": "Source",
+      "verified": "Last verified: {date}"
+    },
+    "provider": {
+      "back": "All courses and providers",
+      "website": "Official website",
+      "who": "Who it is for",
+      "ages": "Ages {min} to {max}",
+      "agesUnknown": "Age range not specified",
+      "skills": "Skills",
+      "source": "Source",
+      "verified": "Last verified: {date}"
+    },
+    "report": {
+      "cta": "Report an issue with this page",
+      "mailBody": "What is wrong or out of date on this page?"
+    },
+    "compare": {
+      "title": "Compare programs",
+      "needMore": "Choose {min} to {max} programs to compare.",
+      "pick": "Pick programs",
+      "caption": "Comparison of {count} programs",
+      "na": "Not available",
+      "noCutoff": "No cutoff published",
+      "minimumValue": "{pct}% minimum in {year} (not a cutoff)",
+      "someMissing": "Some programs in the link were not found and were left out.",
+      "minimumNote": "Cutoffs are first-phase Tansik results shown with their year and scale. A regulatory minimum is a ministry floor, not a cutoff.",
+      "rows": {
+        "university": "University",
+        "type": "Type",
+        "governorate": "Governorate",
+        "degree": "Degree",
+        "years": "Years of study",
+        "language": "Teaching language",
+        "tracks": "Accepted tracks",
+        "cutoff": "Latest cutoff",
+        "minimum": "Regulatory minimum",
+        "fees": "Fees",
+        "feasibility": "Fit with your score"
+      }
+    },
+    "savedPage": {
+      "title": "Saved opportunities",
+      "signedOut": "Sign in to see what you saved.",
+      "signIn": "Sign in",
+      "consentRequired": "Saving unlocks after your guardian gives consent. You can still browse everything.",
+      "unavailable": "We could not load your saved items right now. Please try again later.",
+      "empty": "You have not saved anything yet.",
+      "browse": "Browse and search",
+      "programs": "Programs",
+      "universities": "Universities",
+      "providers": "Courses and providers",
+      "compareFirst": "Compare your first {count} programs"
+    }
+  },
+  "Consent": {
+    "draftNotice": "DRAFT text: pending review by Egyptian counsel. Not final.",
+    "relations": {
+      "mother": "Mother",
+      "father": "Father",
+      "legal_guardian": "Legal guardian",
+      "other": "Other"
+    },
+    "routes": {
+      "teen_invite": "WhatsApp link",
+      "parent_account": "Family account",
+      "school": "School"
+    },
+    "notice": {
+      "fallbackTeen": "your teen",
+      "invite": "Hello. This is anaBokra, a career guidance platform for teens.\n{teen} asked us to contact you. We need your permission, as parent or legal guardian, before {teen} can take our assessments.\nPlease read what data we use and decide here: {link}\nThe link works for 7 days and only for you. You will receive a one-time code to confirm it is you. If you do not know {teen}, or do not want this, just ignore this message. We will not send you any marketing.",
+      "childClaim": "{parent} added you to anaBokra. Open this link and sign in with this WhatsApp number to start: {link}\nYou can only use the teaser until your parent finishes the permission step.",
+      "granted": "Thank you. You gave anaBokra permission for {teen} on {date}. You can see a summary or withdraw at any time: {link}",
+      "withdrawn": "Your permission for {teen} on anaBokra was withdrawn on {date}. We have stopped processing. You can give permission again at any time."
+    },
+    "errors": {
+      "unauthenticated": "Please sign in again.",
+      "forbidden": "You can't do that with this account.",
+      "invalid_json": "Something went wrong. Reload the page and try again.",
+      "invalid_input": "Please check the details and try again.",
+      "invalid_phone": "That doesn't look like a valid mobile number.",
+      "invalid_token": "This link is not valid.",
+      "invalid_code": "That code is wrong or expired. Check it or ask for a new one.",
+      "invalid_class_code": "We don't know that class code. Check it with your teacher.",
+      "checks_required": "Please tick every required box to continue.",
+      "phone_mismatch": "This phone number does not match the one the link was sent to.",
+      "resend_limit": "You've reached today's resend limit. Try again tomorrow or change the number.",
+      "invite_limit": "Too many requests for today. Try again tomorrow.",
+      "not_found": "We couldn't find that.",
+      "send_failed": "We couldn't send the WhatsApp message right now. Please try again in a moment.",
+      "rate_limited": "Too many attempts. Please wait a bit and try again.",
+      "conflict": "That can't be done right now (it may already exist).",
+      "server_error": "Something went wrong on our side. Please try again.",
+      "network": "No connection. Check your internet and try again."
+    },
+    "teen": {
+      "title": "Ask your parent",
+      "intro": "Because you're under 18, a parent or guardian has to say yes before you can take the full assessment. We'll send them a WhatsApp message with a private link.",
+      "bullets": [
+        "They'll see a short summary of your results, never your raw answers.",
+        "You can see exactly what they can see.",
+        "Until then you can still try the quick teaser."
+      ],
+      "phoneLabel": "Parent's WhatsApp number",
+      "phoneHint": "Egyptian number, for example 010 1234 5678",
+      "hintLabel": "Who is it?",
+      "send": "Send the link",
+      "sending": "Sending…",
+      "doneTitle": "You're all set",
+      "doneBody": "A parent already gave permission. You can start the full assessment.",
+      "doneCta": "Go to the assessment",
+      "adultTitle": "No permission needed",
+      "adultBody": "You're 18 or older, so you don't need a parent's permission.",
+      "notStudent": "This page is for student accounts.",
+      "status": {
+        "pending": "Sent",
+        "opened": "Opened, waiting for the decision",
+        "granted": "Your parent said yes",
+        "declined": "Your parent said no",
+        "expired": "The link expired",
+        "revoked": "Replaced"
+      },
+      "statusBody": {
+        "pending": "We sent the message to {phone}. It works for 7 days.",
+        "opened": "{phone} opened the link. They still need to confirm.",
+        "granted": "Permission was recorded. You can start the full assessment.",
+        "declined": "No problem. You can keep using the teaser, and ask again whenever you like.",
+        "expired": "Nobody answered in 7 days. Send a new link when you're ready.",
+        "revoked": "This invite was replaced by a newer one."
+      },
+      "sentAt": "Last sent {when}",
+      "expiresAt": "Expires {when}",
+      "resend": "Send again",
+      "resending": "Sending…",
+      "resendsLeft": "{count, plural, =0 {No resends left today} one {1 resend left today} other {# resends left today}}",
+      "resendLater": "You can resend again after {when}.",
+      "resendNote": "Sending again gives your parent a new link. The earlier one stops working.",
+      "changeNumber": "Wrong number? Change it",
+      "newPhoneLabel": "New WhatsApp number",
+      "changeSubmit": "Send to this number",
+      "cancel": "Cancel",
+      "askAgain": "Ask a parent",
+      "devTitle": "Dev mode: the message that was \"sent\"",
+      "devOtp": "Parent's code in dev mode: {code}"
+    },
+    "parent": {
+      "title": "Your permission for {teen}",
+      "verifyTitle": "First, let's confirm it's you",
+      "verifyBody": "We'll send a one-time code on WhatsApp to {phone}, the number this link was sent to.",
+      "sendCode": "Send me the code",
+      "sending": "Sending…",
+      "codeLabel": "6-digit code",
+      "verify": "Confirm",
+      "verifying": "Checking…",
+      "resendCode": "Send a new code",
+      "codeSent": "The code is on its way to {phone}.",
+      "step1": "Who you are",
+      "nameLabel": "Your full name",
+      "relationLabel": "Your relationship to {teen}",
+      "verifiedNumber": "WhatsApp number (verified)",
+      "step2": "In short",
+      "intro": "{teen} wants to use anaBokra to explore careers. The questions are about interests, personality, work values and abilities.",
+      "collectedTitle": "What we collect",
+      "collected": [
+        "Name or nickname, date of birth, governorate, school and curriculum",
+        "WhatsApp number",
+        "Answers, results, and an AI-written explanation of the results",
+        "The answers are treated as sensitive data"
+      ],
+      "seesTitle": "What you will see",
+      "sees": [
+        "A summary of the results only",
+        "{teen} is told what you can see",
+        "You can withdraw your permission at any time"
+      ],
+      "privateTitle": "What stays private",
+      "private": [
+        "You will never see the raw answers",
+        "We do not sell data, show ads or send marketing to teens",
+        "Only scores and match labels, with no name, phone, date of birth, school or governorate, go to the AI service",
+        "This is guidance, not a diagnosis"
+      ],
+      "links": "Full details: Privacy Policy · Children's Data Notice · Terms of Use (links pending).",
+      "step3": "Please tick to confirm",
+      "required": "Required",
+      "optional": "Optional",
+      "agree": "I agree and continue",
+      "agreeing": "Saving…",
+      "decline": "I do not agree",
+      "declineConfirm": "Decline for {teen}? No assessment data will be collected.",
+      "declineYes": "Yes, I do not agree",
+      "declineBack": "Go back",
+      "grantedTitle": "Thank you",
+      "grantedBody": "Your permission is recorded on {date}. You can see the summary, change or withdraw your permission from your family page.",
+      "familyCta": "Open the family page",
+      "declinedTitle": "No problem",
+      "declinedBody": "{teen} can keep using the teaser. No assessment data will be collected. You can change your mind at any time by asking {teen} to send a new link.",
+      "invalidTitle": "This link doesn't work",
+      "invalidBody": "It may be mistyped. If you got a message from anaBokra, use the newest link in it.",
+      "expiredTitle": "This link has expired",
+      "expiredBody": "It was valid for 7 days. Ask {teen} to send a new one.",
+      "usedTitle": "Already answered",
+      "usedBody": "This request has already been answered. You can manage the permission from your family page.",
+      "verifiedAs": "Verified as {phone}"
+    },
+    "checks": {
+      "guardian": "I confirm that I am {teen}'s parent or legal guardian, that I am 18 or older, and that I have the authority to give this permission.",
+      "guardianFamily": "I confirm that I am this teen's parent or legal guardian, that I am 18 or older, and that I have the authority to give this permission.",
+      "sensitive": "I give my explicit written consent for anaBokra to collect and process {teen}'s personal data, including his or her answers and results, which are sensitive personal data, for the purposes described: running the assessments, producing career matches, opportunities and a roadmap, and managing this consent.",
+      "ai": "I agree that scores and match labels (without name, phone number, date of birth, school or governorate) are sent to an AI service (Claude, Anthropic, USA) to write explanations.",
+      "transfer": "I agree that data is stored on servers in Europe (OVH, [country]) and processed by the service providers listed in the Privacy Policy, some of them outside Egypt.",
+      "summary": "I understand that I will see a summary of the results and not the raw answers, and that {teen} is told what I can see.",
+      "read": "I have read the Privacy Policy and the Children's Data Notice (version {version}), and I understand I can withdraw my consent at any time.",
+      "analytics": "I agree that {teen}'s use of the app is measured in a pseudonymous way to improve anaBokra (no advertising, no tracking on other sites). I can say no and everything still works.",
+      "family": "I understand that I can add, remove or withdraw consent for each teen separately from the family account."
+    },
+    "family": {
+      "title": "Your family",
+      "intro": "Add your teen, give permission once, and see a summary of their results. You never see their raw answers.",
+      "empty": "No teens added yet.",
+      "add": "Add a teen",
+      "nameLabel": "Teen's name or nickname",
+      "dobLabel": "Date of birth",
+      "schoolLabel": "School (optional)",
+      "teenPhoneLabel": "Teen's WhatsApp number",
+      "teenPhoneHint": "We message your teen a link. Signing in with this number opens the profile you created.",
+      "guardianNameLabel": "Your full name",
+      "relationLabel": "Your relationship",
+      "submit": "Add and give permission",
+      "submitting": "Saving…",
+      "added": "{name} was added and your permission is recorded. We sent a WhatsApp message with the link to start.",
+      "claimNote": "{name} hasn't signed in yet.",
+      "claimed": "{name} signed in.",
+      "permission": "Permission",
+      "permissionActive": "Active since {date}",
+      "permissionNone": "No active permission",
+      "viaRoute": "Given through: {route}",
+      "settings": "Permission settings",
+      "ageHint": "Ages 10 to 17",
+      "signedOut": "Sign in as a parent to manage your family.",
+      "notParent": "This page is for parent accounts.",
+      "signIn": "Sign in"
+    },
+    "settings": {
+      "title": "Permission settings",
+      "intro": "Here you can withdraw the permission you gave. Withdrawing takes effect immediately.",
+      "empty": "You haven't given any permission yet.",
+      "active": "Active since {date}",
+      "withdrawnOn": "Withdrawn on {date}",
+      "withdraw": "Withdraw permission",
+      "confirmTitle": "Withdraw permission for {teen}?",
+      "confirmBody": "If you withdraw: {teen} can no longer take assessments, an assessment in progress is paused, and saved careers, goals and the roadmap are locked. We stop using the data. We keep a small record that you gave and withdrew permission, as legal proof.",
+      "deletionNote": "Deleting {teen}'s answers and results on request: contact privacy@anabokra.example. [DRAFT: deletion timeline pending legal decision.]",
+      "reasonLabel": "Reason (optional)",
+      "confirm": "Confirm withdrawal",
+      "confirming": "Withdrawing…",
+      "cancel": "Cancel",
+      "doneTitle": "Permission withdrawn",
+      "effectsTitle": "What changed",
+      "effectPaused": "The assessment in progress was paused.",
+      "effectLocked": "Saved careers, goals, the roadmap and XP are locked again.",
+      "effectCovered": "Another permission still covers {teen}, so nothing was locked.",
+      "effectRecord": "A record of the withdrawal was kept.",
+      "again": "You can give permission again at any time: the teen can send a new link, or you can add them from the family page."
+    },
+    "school": {
+      "joinTitle": "Join your school",
+      "joinIntro": "Enter the class code your teacher gave you.",
+      "codeLabel": "Class code",
+      "join": "Join",
+      "joining": "Joining…",
+      "joined": "You joined {school}.",
+      "joinedCohort": "Class: {cohort}",
+      "joinNote": "Joining a class does not give permission. A parent or guardian still has to say yes (the school can record it for you).",
+      "adminTitle": "School consent",
+      "adminIntro": "Record that the school holds a parent's or guardian's written consent for a student who joined with the class code. Do this only with the signed slip in hand.",
+      "notStaff": "This page is for school staff.",
+      "codes": "Class codes",
+      "newCode": "New class code",
+      "cohortLabel": "Class label (optional)",
+      "createCode": "Create code",
+      "students": "Students",
+      "noStudents": "No students have joined yet.",
+      "consented": "Consent recorded",
+      "missing": "Consent missing",
+      "record": "Record consent",
+      "repLabel": "Your name and title",
+      "methodLabel": "How it was collected",
+      "methodPaper": "Paper slip (Part 2)",
+      "methodAttest": "School attestation",
+      "attest": "I confirm the school holds the written, explicit consent of this student's parent or legal guardian, signed on the slip, and a copy is kept.",
+      "save": "Save consent",
+      "saved": "Consent recorded.",
+      "withdraw": "Withdraw"
+    },
+    "gate": {
+      "title": "A parent needs to say yes first",
+      "body": "Because you're under 18, this part of anaBokra unlocks after a parent or guardian gives permission.",
+      "cta": "Ask my parent",
+      "classCta": "Join with a class code",
+      "lockedLabel": "Locked until a parent gives permission"
+    },
+    "nav": {
+      "askParent": "Ask a parent for permission",
+      "joinClass": "Join a class",
+      "family": "Family and permissions",
+      "school": "School consent",
+      "devTitle": "Dev mode: act as",
+      "devStudent": "Student",
+      "devParent": "Parent",
+      "devSchool": "School admin",
+      "devReset": "Reset mock data"
+    }
+  },
+  "Admin": {
+    "meta": {
+      "title": "anaBokra admin"
+    },
+    "nav": {
+      "label": "Admin sections",
+      "overview": "Overview",
+      "users": "Users",
+      "assessment": "Assessment",
+      "content": "Content",
+      "flags": "Feature flags",
+      "audit": "Audit log",
+      "system": "System",
+      "back": "Back to app"
+    },
+    "demo": "Demo data — dev mock mode. Nothing here is real.",
+    "roles": "Your roles: {roles}",
+    "overview": {
+      "title": "Overview",
+      "intro": "Platform activity at a glance.",
+      "users": "Users",
+      "students": "Students",
+      "parents": "Parents",
+      "newLast7d": "{n} new in the last 7 days",
+      "sessions": "Full assessments",
+      "inProgress": "{n} in progress",
+      "completed": "Completed",
+      "results": "Results",
+      "consents": "Active consents",
+      "withdrawn": "{n} withdrawn",
+      "funnel": "Assessment funnel",
+      "funnelIntro": "Students who reached each step; percentages are of the step before.",
+      "steps": {
+        "students": "Students",
+        "started": "Started",
+        "interests": "Interests done",
+        "personality": "Personality done",
+        "values": "Values done",
+        "abilities": "Abilities done",
+        "result": "Got a result"
+      }
+    },
+    "users": {
+      "title": "Users",
+      "intro": "Search students and parents. Raw assessment answers are never shown here.",
+      "search": "Search by name or user id",
+      "role": "Role",
+      "anyRole": "Any role",
+      "submit": "Search",
+      "name": "Name",
+      "joined": "Joined",
+      "lastSeen": "Last seen",
+      "governorate": "Governorate",
+      "curriculum": "Curriculum",
+      "consent": "Consent",
+      "result": "Result",
+      "consentState": {
+        "active": "Active",
+        "withdrawn": "Withdrawn",
+        "none": "None"
+      },
+      "yes": "Yes",
+      "no": "No",
+      "showing": "Showing {from}–{to} of {total}",
+      "prev": "Previous",
+      "next": "Next",
+      "empty": "No users match."
+    },
+    "user": {
+      "profile": "Profile",
+      "gender": "Gender",
+      "grade": "Grade",
+      "dob": "Date of birth",
+      "phone": "Phone",
+      "consents": "Consent records",
+      "route": "Route",
+      "method": "Method",
+      "policy": "Policy version",
+      "granted": "Granted",
+      "withdrawnAt": "Withdrawn",
+      "noConsents": "No consent records.",
+      "sessions": "Assessment sessions",
+      "status": "Status",
+      "stations": "Stations done",
+      "started": "Started",
+      "finished": "Finished",
+      "noSessions": "No sessions.",
+      "result": "Latest result",
+      "holland": "Holland code",
+      "topCareers": "Top careers",
+      "quality": "Quality flags",
+      "coverage": "Coverage",
+      "noResult": "No result yet.",
+      "none": "None",
+      "summaryOnly": "Your role sees a summary only."
+    },
+    "assessment": {
+      "title": "Assessment analytics",
+      "intro": "Item and scale statistics from real answers. Reliability is shown once a scale has at least {min} complete cases.",
+      "sessions": "{n} sessions with answers",
+      "scales": "Scales",
+      "scale": "Scale",
+      "items": "Items",
+      "completeCases": "Complete cases",
+      "alpha": "Cronbach’s alpha",
+      "itemTable": "Items",
+      "item": "Item",
+      "keyed": "Key",
+      "n": "Answers",
+      "missing": "Skipped",
+      "mean": "Mean",
+      "sd": "SD",
+      "itemTotal": "Item–total r",
+      "time": "Median time",
+      "distribution": "Distribution",
+      "flags": "Flags",
+      "reverse": "reverse",
+      "check": "attention check",
+      "passRate": "pass rate {pct}",
+      "flag": {
+        "weakItem": "Weak item",
+        "oftenSkipped": "Often skipped",
+        "lowSpread": "Low spread",
+        "ceilingOrFloor": "Ceiling/floor",
+        "lowPassRate": "Low pass rate"
+      },
+      "noData": "No answers yet for this instrument."
+    },
+    "content": {
+      "title": "Content health",
+      "intro": "What needs review before publishing. Content lives in the repo (packages/content) until the editors are built.",
+      "careers": "Careers",
+      "fullPages": "Full pages",
+      "litePages": "Lite pages",
+      "withSalary": "Full pages with salary",
+      "universities": "Universities",
+      "programs": "Programs",
+      "withScores": "{n} with Tansik cutoffs",
+      "withFees": "{n} with fees",
+      "providers": "Providers",
+      "withCost": "{n} with cost",
+      "filter": "Filter by issue",
+      "all": "All",
+      "career": "Career",
+      "cluster": "Cluster",
+      "depth": "Page",
+      "reviewed": "Last reviewed",
+      "sources": "Sources",
+      "issues": "Issues",
+      "issue": {
+        "noPage": "No page",
+        "litePage": "Lite page",
+        "proxyProfile": "Proxy profile",
+        "imputedData": "Imputed O*NET data",
+        "noSalary": "No salary",
+        "noPrograms": "No programs",
+        "fewSources": "Few sources",
+        "stale": "Stale"
+      }
+    },
+    "flags": {
+      "title": "Feature flags",
+      "intro": "Turn features on or off without a deploy. Every change is written to the audit log.",
+      "on": "On",
+      "off": "Off",
+      "turnOn": "Turn on",
+      "turnOff": "Turn off",
+      "updated": "Updated {date}",
+      "error": "Could not update the flag.",
+      "empty": "No flags defined."
+    },
+    "audit": {
+      "title": "Audit log",
+      "intro": "Latest 200 changes. Personal data is never copied here — only ids and the names of changed fields.",
+      "when": "When",
+      "actor": "Actor",
+      "action": "Action",
+      "entity": "Entity",
+      "fields": "Changed fields",
+      "empty": "No entries.",
+      "system": "system"
+    },
+    "system": {
+      "title": "System",
+      "intro": "Configuration and service health. Secret values are never shown.",
+      "check": "Check",
+      "status": "Status",
+      "detail": "Detail",
+      "status_ok": "OK",
+      "status_warn": "Warning",
+      "status_missing": "Missing"
+    }
+  },
+  "Public": {
+    "shell": {
+      "skip": "Skip to content",
+      "brand": "anaBokra",
+      "nav": "Main",
+      "careers": "Careers",
+      "explore": "Universities & programs",
+      "parents": "For parents",
+      "schools": "For schools",
+      "login": "Log in",
+      "legal": "Legal",
+      "contact": "Contact us",
+      "copyright": "© {year} anaBokra",
+      "docs": {
+        "privacy-policy": "Privacy policy",
+        "terms-of-use": "Terms of use",
+        "children-data-notice": "Children’s data notice"
+      }
+    },
+    "landing": {
+      "metaTitle": "anaBokra — find your path",
+      "metaDescription": "A science-based journey for Egyptian students aged 15–18: understand yourself, see the careers that fit, and plan your next steps.",
+      "headline": "Find your world.",
+      "subhead": "Understand what you enjoy and what you’re good at, see the careers that fit you, and plan your next steps in Egypt — in about 40 minutes.",
+      "ctaTry": "Try it in 3 minutes",
+      "ctaLogin": "Log in",
+      "proof1": "Built on validated science (O*NET, Big Five)",
+      "proof2": "82 careers, 137 Egyptian universities",
+      "proof3": "Arabic and English",
+      "heroAlt": "An example world: a path through a landscape shaped by someone’s interests.",
+      "howTitle": "How it works",
+      "steps": {
+        "discover": {
+          "title": "Discover",
+          "body": "Four short stations about your interests, how you work, what matters to you and your strengths."
+        },
+        "match": {
+          "title": "Match",
+          "body": "See careers ranked by how well they fit you — and why, in plain words."
+        },
+        "act": {
+          "title": "Act",
+          "body": "Explore Egyptian universities, programs and courses, then build your roadmap."
+        }
+      },
+      "parentsTitle": "For parents",
+      "parentsBody": "See your child’s strengths and career areas, and get a guide for talking about them — without seeing their private answers.",
+      "parentsCta": "How it works for parents",
+      "schoolsTitle": "For schools",
+      "schoolsBody": "Join our free pilot: your students get guidance, and your counselors get an anonymous group report.",
+      "schoolsCta": "Join the pilot",
+      "faqTitle": "Questions",
+      "faq": {
+        "science": {
+          "q": "Is this scientific?",
+          "a": "anaBokra uses established questionnaires (O*NET interests, the IPIP Big Five) that are being adapted and validated with Egyptian students. Results are guidance, not a diagnosis."
+        },
+        "time": {
+          "q": "How long does it take?",
+          "a": "About 40 minutes, split into four short stations you can pause and resume."
+        },
+        "cost": {
+          "q": "Is it free?",
+          "a": "Yes, during the beta."
+        },
+        "privacy": {
+          "q": "Who sees my answers?",
+          "a": "Only you. Parents and schools see summaries, never your answers. You can download or delete your data."
+        },
+        "parents": {
+          "q": "Do I need my parents’ permission?",
+          "a": "If you are under 18, a parent or guardian confirms by WhatsApp before your full assessment starts."
+        }
+      }
+    },
+    "teaser": {
+      "metaTitle": "Try anaBokra in 3 minutes",
+      "metaDescription": "12 quick questions to preview your interest profile.",
+      "introTitle": "What do you enjoy?",
+      "introBody": "{n} quick cards, about 3 minutes. Swipe right for “like”, left for “dislike”, or up for “love”.",
+      "privacy": "No account needed. Your answers stay on this device until you choose to save them.",
+      "start": "Start",
+      "progress": "{n} of {total}",
+      "undo": "Undo",
+      "scaleLabel": "Choose an answer",
+      "swipeHint": "Swipe the card, or tap an answer.",
+      "resultTitle": "Your first two directions",
+      "resultIntro": "Based on 12 quick answers. The full assessment gives you a complete picture.",
+      "types": {
+        "R": "You enjoy hands-on, practical work: building, fixing and working with tools or nature.",
+        "I": "You enjoy investigating: asking why, experimenting and solving problems.",
+        "A": "You enjoy creating: ideas, design, writing, music and self-expression.",
+        "S": "You enjoy helping people: teaching, caring and supporting others.",
+        "E": "You enjoy leading: persuading, organizing people and starting things.",
+        "C": "You enjoy organizing: details, data, order and doing things accurately."
+      },
+      "worldLabel": "A preview of your world",
+      "lockedWorld": "Your full world unlocks after 4 stations.",
+      "tourCareers": "Careers ranked by how well they fit you, with reasons.",
+      "tourOpportunities": "Universities, programs and courses in Egypt.",
+      "tourRoadmap": "A step-by-step roadmap with deadlines.",
+      "save": "Save my result",
+      "browse": "Browse careers",
+      "disclaimer": "This preview is guidance, not a diagnosis."
+    },
+    "parents": {
+      "title": "anaBokra for parents",
+      "intro": "Help your child make a confident, informed choice about their studies and career — with science-based guidance and Egyptian data.",
+      "scienceTitle": "Built on science",
+      "scienceBody": "Your child answers validated questionnaires about interests, personality, values and strengths. anaBokra matches them with careers and explains why, then shows real study routes in Egypt.",
+      "seesTitle": "What you can see",
+      "sees": {
+        "strengths": "A summary of your child’s strengths",
+        "careers": "Their top career areas and why they fit",
+        "roadmap": "Their roadmap and upcoming deadlines",
+        "progress": "How far they are in the assessment"
+      },
+      "privateTitle": "What stays private",
+      "private": {
+        "answers": "Their individual answers",
+        "scores": "Detailed scores — so they can answer honestly"
+      },
+      "consentTitle": "Your consent",
+      "consentBody": "For students under 18, a parent or guardian gives consent before the full assessment. You can create a family account and add your child, or confirm a WhatsApp link your child sends you. You can withdraw consent at any time.",
+      "cta": "Create a family account",
+      "privacyCta": "Read the privacy policy",
+      "disclaimer": "anaBokra offers guidance, not a psychological diagnosis."
+    },
+    "schools": {
+      "title": "anaBokra for schools",
+      "intro": "We are running a free pilot with a small number of schools in Cairo and Alexandria from November 2026 to January 2027.",
+      "benefits": {
+        "free": {
+          "title": "Free during the pilot",
+          "body": "No cost for the school or the students."
+        },
+        "report": {
+          "title": "Cohort insight report",
+          "body": "An anonymous summary of your students’ interests and how their readiness changed."
+        },
+        "counselor": {
+          "title": "Counselor walkthrough",
+          "body": "We train your counselor and support the sessions."
+        },
+        "privacy": {
+          "title": "Privacy first",
+          "body": "Parents consent for students under 18. Individual results stay with the student and family."
+        }
+      },
+      "howTitle": "What it involves",
+      "howBody": "Four 10–12 minute sessions in a lab or on students’ phones, a short results session, and your feedback. The Arabic assessment is being validated with Egyptian students in this pilot.",
+      "cta": "Request a pilot",
+      "mailSubject": "anaBokra school pilot",
+      "mailBody": "School name:\nCity:\nNumber of secondary students:\nContact person and phone:\n"
+    }
+  },
+  "DevWorld": {
+    "title": {
+      "before": "Your map before the assessment",
+      "during": "Your map during the assessment",
+      "after": "Your map after the assessment",
+      "added": "Your map, your choices"
+    },
+    "hint": {
+      "before": "Every field is open to explore",
+      "during": "Connections change as you answer",
+      "after": "Suggested paths that fit you now",
+      "added": "You added a field yourself"
+    },
+    "viewLabel": "View",
+    "view": {
+      "map": "Map",
+      "list": "List"
+    },
+    "scenario": "Scenario",
+    "scenarios": {
+      "before": "Before",
+      "during": "During",
+      "after": "After",
+      "added": "After adding"
+    },
+    "quality": "Quality",
+    "qualities": {
+      "high": "High",
+      "low": "Low-end"
+    },
+    "updating": "Updating",
+    "noMap": "The 3D map isn't available on this device, so the list is shown.",
+    "status": {
+      "neutral": "Open to explore",
+      "suggested": "Suggested",
+      "added": "Added by you",
+      "other": "Outside current suggestions"
+    },
+    "careers": "{count} careers",
+    "progress": "{done} of {total} phases",
+    "bridge": "Your bridge",
+    "added": "Field added to your map",
+    "close": "Close",
+    "legend": {
+      "neutral": {
+        "title": "Open bridge",
+        "text": "Every field is open to explore."
+      },
+      "updating": {
+        "title": "Updating",
+        "text": "This connection is changing as you answer."
+      },
+      "suggested": {
+        "title": "Connected bridge",
+        "text": "In your suggestions from the assessment."
+      },
+      "other": {
+        "title": "Separate bridge",
+        "text": "Outside your current suggestions, still open to explore."
+      },
+      "added": {
+        "title": "Reopened bridge",
+        "text": "You added it to your map yourself."
+      }
+    },
+    "disclaimer": {
+      "title": "Results suggest directions; they don't define your abilities.",
+      "text": "This is a design example, not a real assessment result."
+    },
+    "sheet": {
+      "neutral": "This field is open to explore.",
+      "suggested": "This field is in your suggestions from the assessment.",
+      "added": "You added this field to your map yourself.",
+      "other": "This field is outside your current suggestions, but it's still open to explore. You can add it to your map or review your answers."
+    },
+    "actions": {
+      "add": "Add to my map",
+      "explore": "Explore the field",
+      "review": "Review my answers"
+    },
+    "profile": {
+      "label": "Me",
+      "open": "Open my profile",
+      "title": "My profile",
+      "close": "Close",
+      "demoName": "Sara",
+      "meta": "{grade} · {track}",
+      "grades": {
+        "10": "Grade 10",
+        "11": "Grade 11"
+      },
+      "tracks": {
+        "science": "Science",
+        "math": "Mathematics",
+        "literary": "Literary"
+      },
+      "discovery": "My discovery",
+      "phasesDone": "{done} of {total}",
+      "phases": {
+        "interests": "Interests",
+        "personality": "Personality",
+        "values": "Work values",
+        "abilities": "Abilities"
+      },
+      "phaseStatus": {
+        "done": "Done",
+        "current": "Next",
+        "todo": "Not started"
+      },
+      "interests": "My interests",
+      "values": "What matters to me at work",
+      "strengths": "My strengths",
+      "valueNames": {
+        "creativity": "Creativity",
+        "helping": "Helping others",
+        "stability": "Stability"
+      },
+      "strengthNames": {
+        "logic": "Logical thinking",
+        "communication": "Communication"
+      },
+      "myIslands": "My islands",
+      "suggestedTag": "Suggested",
+      "addedTag": "Added by you",
+      "emptyIslands": "Your suggested fields appear here after the first part of the assessment.",
+      "continue": "Continue the assessment",
+      "review": "Review my answers",
+      "edit": "Edit my profile",
+      "note": "These results guide your exploration; they are not a judgement of you.",
+      "islandsUpdating": "Your suggestions are updating as you answer."
+    }
+  }
+}

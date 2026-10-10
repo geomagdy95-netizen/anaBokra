@@ -1,0 +1,169 @@
+{
+  "id": "environmental_scientist",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You protect air, water and land from harm.",
+      "ar": "تحمي الهواء والماء والأرض من الأذى."
+    },
+    "summary": {
+      "en": "Environmental scientists study pollution, water, soil, waste and climate, and help companies and governments reduce harm to nature. They collect samples, test them in labs and recommend solutions. Egypt's water, desert, Nile and industrial growth make this an important field.",
+      "ar": "عالم البيئة يدرس التلوث والمياه والتربة والمخلفات والمناخ ويساعد الشركات والحكومات على تقليل الضرر الواقع على الطبيعة. يجمع العينات ويختبرها في المعامل ويوصي بالحلول. وتجعل المياه والصحراء والنيل والنمو الصناعي في مصر هذا المجال مهمًا."
+    },
+    "dayInLife": {
+      "en": "You go to a factory with your team to collect samples of wastewater. In the lab you test them and compare the numbers with the allowed limits. After lunch you map the data and write a short report showing where the problem is. The last hour you meet the factory's manager to explain a cheaper way to clean the water.",
+      "ar": "تذهب مع فريقك إلى مصنع لجمع عينات من مياه الصرف. في المعمل تختبرها وتقارن الأرقام بالحدود المسموح بها. بعد الغداء ترسم البيانات على الخريطة وتكتب تقريرًا قصيرًا يوضح مكان المشكلة. وفي الساعة الأخيرة تقابل مدير المصنع لتشرح له طريقة أرخص لتنقية المياه."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect samples of air, water or soil in the field.",
+        "ar": "تجمع عينات الهواء أو الماء أو التربة من الميدان."
+      },
+      {
+        "en": "Test samples in the lab and analyse the data.",
+        "ar": "تختبر العينات في المعمل وتحلل البيانات."
+      },
+      {
+        "en": "Check whether a project or factory follows environmental rules.",
+        "ar": "تفحص التزام المشروع أو المصنع بالقواعد البيئية."
+      },
+      {
+        "en": "Recommend ways to cut pollution, waste and energy use.",
+        "ar": "توصي بطرق لتقليل التلوث والمخلفات واستهلاك الطاقة."
+      },
+      {
+        "en": "Write reports and explain findings to managers and communities.",
+        "ar": "تكتب التقارير وتشرح النتائج للمديرين والمجتمعات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Environmental consulting firms",
+        "ar": "شركات الاستشارات البيئية"
+      },
+      {
+        "en": "Factories, oil and construction companies",
+        "ar": "المصانع وشركات البترول والإنشاءات"
+      },
+      {
+        "en": "Government bodies, research centres and NGOs",
+        "ar": "الجهات الحكومية ومراكز الأبحاث والمنظمات الأهلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Sampling kits and field instruments",
+        "ar": "أدوات أخذ العينات والأجهزة الميدانية"
+      },
+      {
+        "en": "Lab analysis equipment",
+        "ar": "معدات التحليل المعملي"
+      },
+      {
+        "en": "GIS maps and data software",
+        "ar": "خرائط GIS وبرامج البيانات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Faculties of Science accept the science and math streams. With IGCSE or A-Level, take the subject you want to study (Chemistry, Physics or Biology) together with Mathematics; with the American Diploma, take the matching AP sciences and AP Calculus. Equivalency rules for foreign certificates change, so check yours with the Tansik office; private universities set their own admission rules.",
+      "ar": "كليات العلوم تقبل شعبتي العلمي والرياضيات. في IGCSE وA-Level خذ المادة التي تريد دراستها (الكيمياء أو الفيزياء أو الأحياء) مع الرياضيات؛ وفي الدبلومة الأمريكية خذ مواد AP العلمية المناسبة وAP حساب التفاضل. قواعد المعادلة للشهادات الأجنبية تتغير، فتأكد من شهادتك لدى مكتب التنسيق؛ وللجامعات الخاصة شروط قبول خاصة."
+    },
+    "faculties": [
+      {
+        "en": "Faculties of Science (environmental science, chemistry, biology or geology)",
+        "ar": "كليات العلوم (علوم البيئة أو الكيمياء أو الأحياء أو الجيولوجيا)"
+      },
+      {
+        "en": "Faculties of Agriculture (soil, water and environment departments)",
+        "ar": "كليات الزراعة (أقسام الأراضي والمياه والبيئة)"
+      },
+      {
+        "en": "Environmental or energy engineering programs at private universities",
+        "ar": "برامج هندسة البيئة أو الطاقة بالجامعات الخاصة"
+      }
+    ],
+    "programIds": [
+      "cairo-university-science",
+      "alexandria-university-science",
+      "cairo-university-agriculture",
+      "british-university-in-egypt-energy-environmental-engineering",
+      "nile-university-energy-environmental-engineering"
+    ],
+    "tansikNote": {
+      "en": "We do not have published Phase 1 Tansik minimums for the programs linked to this career in our data. Private and ahleya universities set their own admission rules above a Ministry of Higher Education floor (2025/26: 68% for the programs tracked here), and their fees are separate. These are past cut-offs, not promises: they change every year, and since 2025 the \"modern system\" counts out of 320 marks, so compare percentages, not raw marks. Ask the Tansik office for current figures.",
+      "ar": "ليست لدينا في بياناتنا حدود دنيا منشورة للمرحلة الأولى من التنسيق للبرامج المرتبطة بهذه المهنة. الجامعات الخاصة والأهلية تضع شروط قبولها فوق حد أدنى تحدده وزارة التعليم العالي (2025/2026: 68% للبرامج المتابعة هنا)، ولها مصروفات مستقلة. هذه حدود سابقة وليست وعودًا: تتغير كل سنة، ومنذ 2025 يُحسب «النظام الحديث» من 320 درجة، فقارن النسب المئوية لا الدرجات الخام. واسأل مكتب التنسيق عن الأرقام الحالية."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start as a lab or field technician with a technical diploma and continue to a degree.",
+        "ar": "البدء كفني معمل أو ميدان بدبلوم فني ثم استكمال الدراسة الجامعية."
+      },
+      {
+        "en": "A master's in environmental science or management after a related degree.",
+        "ar": "ماجستير في علوم البيئة أو إدارتها بعد درجة قريبة."
+      }
+    ],
+    "licensing": {
+      "en": "Environmental impact studies and monitoring for projects in Egypt are regulated by the environmental authorities, and consultants may need registration with them. Rules change, so check with the Ministry of Environment and the employer.",
+      "ar": "دراسات التأثير البيئي والرصد للمشروعات في مصر تنظمها الجهات البيئية، وقد يحتاج الاستشاريون إلى القيد لديها. القواعد تتغير، فتأكد من وزارة البيئة وجهة العمل."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "chemist",
+      "geologist",
+      "renewable_energy_engineer",
+      "chemical_engineer",
+      "agricultural_engineer",
+      "biotechnologist"
+    ],
+    "pivots": [
+      {
+        "en": "Environmental impact assessment",
+        "ar": "تقييم الأثر البيئي"
+      },
+      {
+        "en": "Water and wastewater treatment",
+        "ar": "معالجة المياه والصرف"
+      },
+      {
+        "en": "Sustainability and climate roles in companies",
+        "ar": "وظائف الاستدامة والمناخ في الشركات"
+      },
+      {
+        "en": "Research and teaching",
+        "ar": "البحث والتدريس"
+      }
+    ]
+  },
+  "industryId": "science",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Environmental Scientist",
+      "url": "https://www.onetonline.org/link/summary/19-2041.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Environmental Scientist",
+      "url": "https://www.mynextmove.org/profile/summary/19-2041.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
+      "url": "https://al-ain.com/article/university-admission-2025",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

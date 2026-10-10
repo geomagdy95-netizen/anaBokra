@@ -1,0 +1,411 @@
+{
+  "id": "entrepreneur",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You spot a problem, build something to fix it and make a business out of it.",
+      "ar": "ترى مشكلة وتبني شيئًا يحلها وتصنع منه مشروعًا."
+    },
+    "summary": {
+      "en": "Entrepreneurs start and run businesses, from a small shop to a technology startup. They find customers, raise money, build a team and keep going when things go wrong. There is no required degree and no guaranteed salary, so this path rewards learning fast and taking careful risks.",
+      "ar": "رائد الأعمال يؤسس مشروعًا ويديره، من محل صغير إلى شركة تكنولوجيا ناشئة. يبحث عن العملاء ويدبّر التمويل ويبني فريقًا ويستمر حين تسوء الأمور. لا توجد شهادة مطلوبة ولا راتب مضمون، فهذا الطريق يكافئ من يتعلم بسرعة ويخاطر بحساب."
+    },
+    "dayInLife": {
+      "en": "You wake up and check last night's orders and messages from customers. A delivery is late, so you call the courier and apologise to the client. At noon you meet a possible investor and explain your numbers, and you are asked a hard question you cannot answer, so you note it to research. In the afternoon you work with your small team on a new product idea and test it with five customers. In the evening you do the accounts yourself because there is no one else yet. Some weeks go very well, others do not, and you learn from both.",
+      "ar": "تصحو وتراجع طلبات الليلة الماضية ورسائل العملاء. شحنة تأخرت، فتتصل بشركة التوصيل وتعتذر للعميل. في الظهر تقابل مستثمرًا محتملًا وتشرح له أرقامك، ويسألك سؤالًا صعبًا لا تعرف إجابته فتدوّنه لتبحث عنه. بعد الظهر تعمل مع فريقك الصغير على فكرة منتج جديد وتجرّبها مع خمسة عملاء. في المساء تراجع الحسابات بنفسك لأنه لا يوجد أحد غيرك بعد. بعض الأسابيع تسير جيدًا وبعضها لا، وتتعلم من الاثنين."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Find a real customer problem and test your idea cheaply before spending a lot.",
+        "ar": "تبحث عن مشكلة حقيقية عند العملاء وتجرّب فكرتك بتكلفة قليلة قبل أن تنفق كثيرًا."
+      },
+      {
+        "en": "Make or choose the product or service and decide its price.",
+        "ar": "تصنع المنتج أو الخدمة أو تختارها وتحدد سعرها."
+      },
+      {
+        "en": "Sell, market and talk to customers every week.",
+        "ar": "تبيع وتسوّق وتتحدث مع العملاء كل أسبوع."
+      },
+      {
+        "en": "Manage cash, costs, taxes and legal registration.",
+        "ar": "تدير السيولة والتكاليف والضرائب والتسجيل القانوني."
+      },
+      {
+        "en": "Hire, train and lead a team, and also do many tasks yourself at the start.",
+        "ar": "تُوظّف وتدرّب وتقود فريقًا، وتؤدي بنفسك مهامّ كثيرة في البداية."
+      },
+      {
+        "en": "Look for money from savings, family, grants, competitions or investors.",
+        "ar": "تبحث عن تمويل من المدخرات أو الأسرة أو المنح أو المسابقات أو المستثمرين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Your own workshop, shop, home or co-working space",
+        "ar": "ورشتك أو محلك أو بيتك أو مساحة عمل مشتركة"
+      },
+      {
+        "en": "Incubators and accelerators",
+        "ar": "حاضنات ومسرّعات الأعمال"
+      },
+      {
+        "en": "Markets, online platforms and customer sites",
+        "ar": "الأسواق والمنصات الإلكترونية ومواقع العملاء"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Spreadsheets and simple accounting tools",
+        "ar": "جداول البيانات وأدوات المحاسبة البسيطة"
+      },
+      {
+        "en": "Social media, WhatsApp Business and online stores",
+        "ar": "وسائل التواصل وواتساب للأعمال والمتاجر الإلكترونية"
+      },
+      {
+        "en": "Payment tools such as InstaPay and mobile wallets",
+        "ar": "أدوات الدفع مثل إنستا باي والمحافظ الإلكترونية"
+      },
+      {
+        "en": "A simple business plan and pitch deck",
+        "ar": "خطة عمل بسيطة وعرض تقديمي للمستثمرين"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "otherCurricula": {
+      "en": "Any curriculum works. Business Studies, Economics, Accounting and Maths help in IGCSE, A-Level and IB, and Business or Economics electives help in the American Diploma. Join your school's business club or INJAZ company program if you have one.",
+      "ar": "أي منهج يصلح. دراسات الأعمال والاقتصاد والمحاسبة والرياضيات تفيد في IGCSE وA-Level وIB، والمواد الاختيارية في الأعمال أو الاقتصاد تفيد في الدبلومة الأمريكية. انضم لنادي الأعمال في مدرستك أو لبرنامج شركة INJAZ إن وُجد."
+    },
+    "faculties": [
+      {
+        "en": "Faculty of Commerce or Business Administration",
+        "ar": "كلية التجارة أو إدارة الأعمال"
+      },
+      {
+        "en": "Any faculty related to your idea (engineering, computers, agriculture, arts) combined with business courses",
+        "ar": "أي كلية مرتبطة بفكرتك (هندسة أو حاسبات أو زراعة أو فنون) مع كورسات في الأعمال"
+      },
+      {
+        "en": "Business programs at private and national universities that include entrepreneurship courses",
+        "ar": "برامج الأعمال في الجامعات الخاصة والأهلية التي تتضمن مقررات ريادة الأعمال"
+      }
+    ],
+    "programIds": [
+      "cairo-university-commerce",
+      "ain-shams-university-commerce",
+      "alexandria-university-commerce",
+      "capital-university-commerce",
+      "british-university-in-egypt-business-administration",
+      "german-university-in-cairo-management-technology",
+      "misr-international-university-business-international-trade"
+    ],
+    "tansikNote": {
+      "en": "Commerce (literary track) asked for about 72% to 79% in the 2026 phase-1 lists (Assiut 71.88% to Cairo University 79.06%). Private business programs show only a 53% regulatory floor for 2025/26, a legal minimum and not their real cutoff. A degree is optional for starting a business.",
+      "ar": "طلبت التجارة (الشعبة الأدبية) نحو 72% إلى 79% في المرحلة الأولى لعام 2026 (أسيوط 71.88% وجامعة القاهرة 79.06%). تعرض برامج الأعمال الخاصة حدًا أدنى تنظيميًا 53% فقط لعام 2025/26، وهو حد قانوني وليس حد القبول الفعلي. الشهادة الجامعية ليست شرطًا لبدء مشروع."
+    },
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Start small while you study: sell a product, offer a service or run a school project and learn from real customers.",
+        "ar": "ابدأ صغيرًا وأنت تدرس: بِع منتجًا أو قدّم خدمة أو أدر مشروعًا مدرسيًا وتعلّم من عملاء حقيقيين."
+      },
+      {
+        "en": "Join incubators and accelerators such as Flat6Labs or the Technology Innovation and Entrepreneurship Center (TIEC) once you are old enough and have a team.",
+        "ar": "انضم لحاضنات ومسرّعات مثل Flat6Labs أو مركز تنمية الابتكار وريادة الأعمال التكنولوجي (TIEC) حين تكبر ويكون لديك فريق."
+      },
+      {
+        "en": "Work a few years in a startup or a family business to learn how real companies run.",
+        "ar": "اعمل بضع سنوات في شركة ناشئة أو مشروع عائلي لتتعلم كيف تعمل الشركات الحقيقية."
+      }
+    ],
+    "licensing": {
+      "en": "No license is needed to be an entrepreneur, but your business must be registered. This usually means a commercial register, a tax card and, for companies, registration with the General Authority for Investment and Free Zones (GAFI), plus any permits for your activity. The steps depend on your business type, so check the official portals before you start.",
+      "ar": "لا يلزم ترخيص لتكون رائد أعمال، لكن مشروعك يجب أن يكون مسجلًا. يعني ذلك عادةً سجلًا تجاريًا وبطاقة ضريبية، وللشركات التسجيل لدى الهيئة العامة للاستثمار والمناطق الحرة (GAFI)، إضافة إلى تصاريح نشاطك. تختلف الخطوات حسب نوع المشروع، فتأكد من البوابات الرسمية قبل أن تبدأ."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Basic finance: cost, price, profit and cash flow",
+        "ar": "أساسيات المالية: التكلفة والسعر والربح والسيولة"
+      },
+      {
+        "en": "Selling and digital marketing",
+        "ar": "البيع والتسويق الرقمي"
+      },
+      {
+        "en": "Simple accounting and taxes",
+        "ar": "المحاسبة البسيطة والضرائب"
+      },
+      {
+        "en": "Market and customer research",
+        "ar": "أبحاث السوق والعملاء"
+      },
+      {
+        "en": "Using spreadsheets and basic tech tools",
+        "ar": "استخدام جداول البيانات وأدوات التكنولوجيا الأساسية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Resilience: continuing after a failure",
+        "ar": "المرونة: الاستمرار بعد الفشل"
+      },
+      {
+        "en": "Leadership and teamwork",
+        "ar": "القيادة والعمل الجماعي"
+      },
+      {
+        "en": "Negotiating and speaking in public",
+        "ar": "التفاوض والتحدث أمام الناس"
+      },
+      {
+        "en": "Taking careful risks and learning fast",
+        "ar": "المخاطرة المحسوبة والتعلم السريع"
+      },
+      {
+        "en": "Managing your time and money",
+        "ar": "إدارة وقتك ومالك"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: investors, tools and foreign suppliers",
+        "ar": "الإنجليزية: المستثمرون والأدوات والموردون الأجانب"
+      },
+      {
+        "en": "Arabic: customers, contracts and staff",
+        "ar": "العربية: العملاء والعقود والموظفون"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "No certificate is required.",
+        "ar": "لا توجد شهادة مطلوبة."
+      },
+      {
+        "en": "INJAZ Egypt company program certificates (for students)",
+        "ar": "شهادات برنامج الشركة من INJAZ مصر (للطلاب)"
+      },
+      {
+        "en": "Short courses in startup finance and marketing (optional)",
+        "ar": "دورات قصيرة في مالية الشركات الناشئة والتسويق (اختيارية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Y Combinator Startup School (free)",
+        "url": "https://www.startupschool.org",
+        "free": true
+      },
+      {
+        "title": "Flat6Labs: Egypt's startup accelerator",
+        "url": "https://www.flat6labs.com",
+        "free": true
+      },
+      {
+        "title": "INJAZ Egypt: youth entrepreneurship programs",
+        "url": "https://www.injazegypt.org",
+        "free": true
+      },
+      {
+        "title": "Almentor: Arabic business courses",
+        "url": "https://www.almentor.net",
+        "free": false
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Your own business",
+        "ar": "مشروعك الخاص"
+      },
+      {
+        "en": "Startups, where you can learn as an early employee",
+        "ar": "الشركات الناشئة، حيث تتعلم كموظف في مرحلة مبكرة"
+      },
+      {
+        "en": "Family businesses and SMEs",
+        "ar": "المشروعات العائلية والصغيرة والمتوسطة"
+      },
+      {
+        "en": "Support organisations: Flat6Labs, TIEC, ITIDA programs and the Small and Medium Enterprise Development Agency",
+        "ar": "جهات الدعم: Flat6Labs وTIEC وبرامج ITIDA وجهاز تنمية المشروعات المتوسطة والصغيرة ومتناهية الصغر"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Salary: No reliable salary figure exists. Entrepreneurs have no fixed pay: income depends on the business and can be zero in the first months or years. Paylab has no entrepreneur title, so no number is given here. Most entrepreneurs combine online selling, social media and platforms to reach customers beyond their town. Many start part-time with freelance work or a small online shop while keeping other income. Startup funding in Egypt was reported at over USD 595 million in 2025, but only a small share of founders get venture money.",
+      "ar": "الراتب: لا يوجد رقم موثوق للراتب. رائد الأعمال ليس له أجر ثابت: دخله يعتمد على المشروع وقد يكون صفرًا في الشهور أو السنوات الأولى. لا يوجد مسمى رائد أعمال في Paylab، لذلك لا نذكر رقمًا. معظم رواد الأعمال يجمعون بين البيع عبر الإنترنت ووسائل التواصل والمنصات للوصول لعملاء خارج مدينتهم. ويبدأ كثيرون بدوام جزئي بعمل حر أو متجر إلكتروني صغير مع الاحتفاظ بدخل آخر. أُفيد بأن تمويل الشركات الناشئة في مصر تجاوز 595 مليون دولار في 2025، لكن نسبة قليلة من المؤسسين تحصل على تمويل استثماري."
+    },
+    "regions": [
+      {
+        "en": "Anywhere in Egypt; startup hubs are in Greater Cairo and Alexandria",
+        "ar": "في أي مكان بمصر؛ مراكز الشركات الناشئة في القاهرة الكبرى والإسكندرية"
+      },
+      {
+        "en": "Industrial and tourism cities for specific sectors",
+        "ar": "المدن الصناعية والسياحية لقطاعات معينة"
+      }
+    ],
+    "providerIds": [
+      "tiec",
+      "injaz-egypt",
+      "itida-talent-programs",
+      "almentor",
+      "auc-school-of-continuing-education"
+    ]
+  },
+  "global": {
+    "en": "Egyptian founders sell to the Gulf, Africa and Europe, and some move their company abroad to raise money or reach larger markets. Gulf governments run startup programs, but each has its own rules, so check carefully. Starting in Egypt and growing across the region is a common path.",
+    "ar": "يبيع المؤسسون المصريون في الخليج وأفريقيا وأوروبا، وينقل بعضهم شركته للخارج لجمع التمويل أو الوصول لأسواق أكبر. تدير حكومات خليجية برامج للشركات الناشئة، ولكل منها قواعده، فتحقق منها جيدًا. البدء من مصر ثم التوسع في المنطقة مسار شائع."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You decide what to build and how to work",
+        "ar": "تقرر ماذا تبني وكيف تعمل"
+      },
+      {
+        "en": "You learn many skills quickly",
+        "ar": "تتعلم مهارات كثيرة بسرعة"
+      },
+      {
+        "en": "Possible to create jobs for others and grow your income",
+        "ar": "يمكنك خلق وظائف للآخرين وزيادة دخلك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Income is uncertain and many new businesses close in the first years",
+        "ar": "الدخل غير مضمون وكثير من المشروعات الجديدة تُغلق في السنوات الأولى"
+      },
+      {
+        "en": "You carry financial risk, so start small and protect your savings",
+        "ar": "تتحمل مخاطرة مالية، فابدأ صغيرًا واحمِ مدخراتك"
+      },
+      {
+        "en": "Access to funding, rules and taxes can be confusing",
+        "ar": "الوصول للتمويل والقواعد والضرائب قد يكون محيرًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You need a lot of money to start.",
+          "ar": "تحتاج مبلغًا كبيرًا لتبدأ."
+        },
+        "fact": {
+          "en": "Many businesses start with a small test, such as selling online or offering a service before spending on a shop.",
+          "ar": "كثير من المشروعات تبدأ باختبار صغير مثل البيع على الإنترنت أو تقديم خدمة قبل إنفاق مال على محل."
+        }
+      },
+      {
+        "myth": {
+          "en": "Entrepreneurs are born, not made.",
+          "ar": "رائد الأعمال يُولد ولا يُصنع."
+        },
+        "fact": {
+          "en": "Selling, money management and leadership can be learned and practised.",
+          "ar": "البيع وإدارة المال والقيادة مهارات تُتعلم وتُمارس."
+        }
+      },
+      {
+        "myth": {
+          "en": "Dropping out of school is the way to succeed.",
+          "ar": "ترك الدراسة هو طريق النجاح."
+        },
+        "fact": {
+          "en": "A few famous founders did, but most successful founders studied, worked and learned first. Education gives you options.",
+          "ar": "فعلها قلة من المشهورين، لكن معظم المؤسسين الناجحين درسوا وعملوا وتعلموا أولًا. التعليم يمنحك خيارات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Often irregular. The first years may mean long hours and mixing work with home life. It improves as the business grows and you hire help.",
+      "ar": "غالبًا غير منتظم. السنوات الأولى قد تعني ساعات طويلة واختلاط العمل بالبيت. يتحسن الوضع مع نمو المشروع وتوظيف مساعدين."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Side project or small online business",
+        "ar": "مشروع جانبي أو عمل صغير على الإنترنت"
+      },
+      {
+        "en": "First paying customers and a small team",
+        "ar": "أول عملاء يدفعون وفريق صغير"
+      },
+      {
+        "en": "Registered company with steady sales",
+        "ar": "شركة مسجلة بمبيعات منتظمة"
+      },
+      {
+        "en": "Growing business with managers and investors",
+        "ar": "مشروع نامٍ بمديرين ومستثمرين"
+      },
+      {
+        "en": "Serial founder, investor or mentor",
+        "ar": "مؤسس متسلسل أو مستثمر أو مرشد"
+      }
+    ],
+    "relatedCareerIds": [
+      "management_consultant",
+      "product_manager",
+      "agribusiness_manager",
+      "digital_marketer",
+      "supply_chain_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Join a startup as a manager or product lead",
+        "ar": "الانضمام لشركة ناشئة كمدير أو مسؤول منتج"
+      },
+      {
+        "en": "Business consulting",
+        "ar": "الاستشارات التجارية"
+      },
+      {
+        "en": "Product or marketing roles in larger companies",
+        "ar": "وظائف المنتج أو التسويق في شركات أكبر"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "Flat6Labs Egypt fund and portfolio (press summary)",
+      "url": "https://enterprise.press/?p=137230",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "INJAZ Egypt",
+      "url": "https://www.injazegypt.org",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Technology Innovation and Entrepreneurship Center (TIEC)",
+      "url": "https://tiec.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
+      "url": "https://amwalalghad.com/fcdc",
+      "accessed": "2026-10-09"
+    }
+  ]
+}

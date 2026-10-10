@@ -1,0 +1,168 @@
+{
+  "id": "electrician",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "lastReviewedAt": "2026-10-09",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You bring power safely to homes, factories and cities.",
+      "ar": "تجلب الكهرباء بأمان إلى البيوت والمصانع والمدن."
+    },
+    "summary": {
+      "en": "Electricians install, test and repair wiring, panels, lights and electrical machines in buildings and factories. The work is hands-on and needs strict safety habits. It is a skill that is needed everywhere and a starting point for specialised and technical careers.",
+      "ar": "الكهربائي يركّب ويختبر ويصلح الأسلاك واللوحات والإضاءة والآلات الكهربائية في المباني والمصانع. العمل يدوي ويتطلب التزامًا صارمًا بالسلامة. وهي مهارة مطلوبة في كل مكان ونقطة بداية لمهن فنية متخصصة."
+    },
+    "dayInLife": {
+      "en": "You read the drawing of a new apartment and plan where the cables will run. You pull wires, fix sockets and connect the main panel while following safety rules. A fault in another flat needs a test with a meter, and you find a loose connection. At the end of the day you tidy tools and note what is left for tomorrow.",
+      "ar": "تقرأ مخطط شقة جديدة وتخطط مسار الكابلات. تسحب الأسلاك وتثبت الأفياش وتوصّل اللوحة الرئيسية وأنت تلتزم بقواعد السلامة. عطل في شقة أخرى يحتاج فحصًا بجهاز القياس فتجد توصيلة مفكوكة. في نهاية اليوم ترتب أدواتك وتدوّن ما بقي للغد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Read wiring drawings and plan installations.",
+        "ar": "تقرأ مخططات التمديدات وتخطط التركيبات."
+      },
+      {
+        "en": "Install cables, sockets, lights and panels.",
+        "ar": "تركّب الكابلات والأفياش والإضاءة واللوحات."
+      },
+      {
+        "en": "Test circuits with meters and find faults.",
+        "ar": "تختبر الدوائر بأجهزة القياس وتكتشف الأعطال."
+      },
+      {
+        "en": "Repair and maintain electrical systems and motors.",
+        "ar": "تصلح وتصون الأنظمة الكهربائية والمحركات."
+      },
+      {
+        "en": "Follow safety rules and codes at all times.",
+        "ar": "تلتزم بقواعد السلامة والكودات دائمًا."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Construction and contracting companies",
+        "ar": "شركات الإنشاءات والمقاولات"
+      },
+      {
+        "en": "Factories and maintenance teams",
+        "ar": "المصانع وفرق الصيانة"
+      },
+      {
+        "en": "Self-employed work in homes and shops",
+        "ar": "العمل الحر في البيوت والمحلات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Meters, testers and hand tools",
+        "ar": "أجهزة القياس والاختبار والعدد اليدوية"
+      },
+      {
+        "en": "Cables, breakers and distribution panels",
+        "ar": "الكابلات والقواطع ولوحات التوزيع"
+      },
+      {
+        "en": "Wiring drawings and safety equipment",
+        "ar": "مخططات التمديد ومعدات السلامة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "otherCurricula": {
+      "en": "This route starts after preparatory school, in technical education, not through Thanaweya Amma and Tansik. Maths, science and practical subjects from preparatory school help. Graduates of technical secondary schools can later continue to technical colleges or other higher education; check the current rules with the Ministry of Education and the Ministry of Higher Education.",
+      "ar": "يبدأ هذا المسار بعد الشهادة الإعدادية في التعليم الفني، وليس عبر الثانوية العامة والتنسيق. تفيد الرياضيات والعلوم والمواد العملية في الإعدادية. يمكن لخريجي الثانوية الفنية لاحقًا استكمال الدراسة بكليات تكنولوجية أو تعليم عالٍ آخر؛ فتأكد من القواعد الحالية لدى وزارة التربية والتعليم ووزارة التعليم العالي."
+    },
+    "faculties": [
+      {
+        "en": "Applied Technology Schools (three-year dual education with industry partners)",
+        "ar": "مدارس التكنولوجيا التطبيقية (ثلاث سنوات تعليم مزدوج مع شركاء صناعيين)"
+      },
+      {
+        "en": "Industrial technical secondary schools (Ministry of Education)",
+        "ar": "المدارس الثانوية الفنية الصناعية (وزارة التربية والتعليم)"
+      },
+      {
+        "en": "Technical institutes and technological colleges for continuing study",
+        "ar": "المعاهد الفنية والكليات التكنولوجية لاستكمال الدراسة"
+      },
+      {
+        "en": "Elsewedy Technical Academy, electrical skills school delivered through Applied Technology Schools",
+        "ar": "أكاديمية السويدي الفنية لمهارات الكهرباء عبر مدارس التكنولوجيا التطبيقية"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Tansik does not apply to this route. Entry depends on your preparatory-school results and each school's own tests and interview, which change by school and year, so ask the school or the Ministry of Education. We have no Tansik figures for this career in our data.",
+      "ar": "التنسيق لا ينطبق على هذا المسار. يعتمد القبول على نتيجة الشهادة الإعدادية واختبارات ومقابلة كل مدرسة، وهي تختلف من مدرسة لأخرى ومن سنة لأخرى، فاسأل المدرسة أو وزارة التربية والتعليم. ليست لدينا أرقام تنسيق لهذه المهنة في بياناتنا."
+    },
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Productivity and Vocational Training Department (PVTD) centres, with a three-year program and adult trade courses.",
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني (برنامج ثلاث سنوات ودورات حرف للكبار)."
+      },
+      {
+        "en": "Learn on the job as a helper with an experienced electrician, then take skill courses.",
+        "ar": "التعلم أثناء العمل كمساعد مع كهربائي خبير ثم أخذ دورات مهارية."
+      }
+    ],
+    "licensing": {
+      "en": "Most technician jobs ask for a technical diploma and practical skill rather than a licence, though some employers and tasks need skill-level or safety certificates. Check the current requirements with your employer and the Ministry of Manpower.",
+      "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
+    }
+  },
+  "progression": {
+    "relatedCareerIds": [
+      "solar_technician",
+      "industrial_technician",
+      "automotive_ev_technician",
+      "electrical_engineer",
+      "renewable_energy_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Industrial maintenance and automation",
+        "ar": "الصيانة الصناعية والأتمتة"
+      },
+      {
+        "en": "Solar and renewable installation",
+        "ar": "تركيب الطاقة الشمسية والمتجددة"
+      },
+      {
+        "en": "Site supervisor or contractor",
+        "ar": "مشرف موقع أو مقاول"
+      },
+      {
+        "en": "Further study toward engineering",
+        "ar": "استكمال الدراسة نحو الهندسة"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine: Electrician",
+      "url": "https://www.onetonline.org/link/summary/47-2111.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "My Next Move (O*NET): Electrician",
+      "url": "https://www.mynextmove.org/profile/summary/47-2111.00",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Applied Technology Schools (Ministry of Education dual education)",
+      "url": "https://dualedu.moe.gov.eg",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "El Sewedy School of Applied Technology (Ministry of Education)",
+      "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
+      "accessed": "2026-10-09"
+    }
+  ]
+}
