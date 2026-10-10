@@ -2022,5 +2022,19 @@
       "note": "These results guide your exploration; they are not a judgement of you.",
       "islandsUpdating": "Your suggestions are updating as you answer."
     }
+  },
+  "DevLocal": {
+    "title": "On-device check (dev)",
+    "intro": "Runs a full demo assessment in this browser: answers are saved and scored on the device, nothing is sent to a server.",
+    "persistent": "Survives a reload",
+    "yes": "Yes (IndexedDB)",
+    "no": "No (memory only)",
+    "profiles": "Profiles on this device",
+    "latest": "Latest result",
+    "none": "None",
+    "run": "Run a demo assessment",
+    "running": "Running…",
+    "wipe": "Wipe this device",
+    "report": "Loaded in {load}, answered in {answer}, scored in {score}; {matches} matches."
   }
 }
