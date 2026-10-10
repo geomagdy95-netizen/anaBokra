@@ -1,3 +1,6 @@
+import { DATA_MODE } from '@/lib/data-mode';
+
+import { localAssessmentApi } from './local-api';
 import { SaveFailure } from './save-queue';
 
 export interface ResponseItem {
@@ -28,7 +31,7 @@ async function call<T>(method: 'PUT' | 'POST', url: string, body: unknown, init:
 
 const base = (sessionId: string) => `/api/assessment/sessions/${sessionId}`;
 
-export const assessmentApi = {
+const httpAssessmentApi = {
   saveResponses: (sessionId: string, station: string, responses: ResponseItem[], cursor?: Record<string, unknown>, keepalive = false) =>
     call('PUT', `${base(sessionId)}/responses`, { station, responses, ...(cursor ? { cursor } : {}) }, { keepalive }),
   saveContext: (sessionId: string, context: Record<string, unknown>) => call('PUT', `${base(sessionId)}/context`, { context }),
@@ -38,3 +41,7 @@ export const assessmentApi = {
   saveReadiness: (sessionId: string, answers: Record<string, number>) => call('PUT', '/api/assessment/readiness', { phase: 'post', sessionId, answers }),
   finalize: (sessionId: string) => call('POST', `${base(sessionId)}/finalize`, {}),
 };
+
+/** Phase 1 answers on the device; phase 2 calls the server. Callers never read the return values. */
+export const assessmentApi: { [K in keyof typeof httpAssessmentApi]: (...args: Parameters<(typeof httpAssessmentApi)[K]>) => Promise<unknown> } =
+  DATA_MODE === 'local' ? localAssessmentApi : httpAssessmentApi;

@@ -5,9 +5,11 @@ import { AssessmentBlocked } from '@/features/assessment/blocked';
 import { StationRunner } from '@/features/assessment/station-runner';
 import { nextStationAfter } from '@/features/assessment/stations';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
+import { LocalStation } from '@/features/local/local-station';
 import { redirect } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
-import { STATION_IDS, stationConfig } from '@/server/assessment/config';
+import { DATA_MODE } from '@/lib/data-mode';
+import { STATION_IDS, stationConfig, type StationId } from '@/server/assessment/config';
 import { loadAssessment } from '@/server/assessment/page-data';
 import { stationPayload } from '@/server/assessment/station-payload';
 
@@ -18,6 +20,7 @@ export default async function StationPage({ params }: PageProps<'/[locale]/asses
   const { locale, station } = await params;
   setRequestLocale(locale);
   if (!(STATION_IDS as readonly string[]).includes(station)) notFound();
+  if (DATA_MODE === 'local') return <LocalStation station={station as StationId} />;
 
   const data = await loadAssessment(locale as Locale, `/assessment/${station}`);
   if (data.ok === 'results') return redirect({ href: '/assessment', locale: locale as Locale });

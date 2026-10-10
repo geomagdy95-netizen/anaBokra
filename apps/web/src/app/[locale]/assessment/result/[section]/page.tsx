@@ -3,11 +3,13 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { LocaleSwitcher } from '@/components/locale-switcher';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
+import { LocalResultSection } from '@/features/local/local-result';
 import { SectionDetail } from '@/features/results/section-detail';
 import { genderedT } from '@/features/results/gendered';
 import { buildProfileView, careersForSection, isSection, sectionItems } from '@/features/results/view';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
+import { DATA_MODE } from '@/lib/data-mode';
 import { requireRuntime } from '@/server/assessment/page-data';
 
 export const dynamic = 'force-dynamic';
@@ -17,6 +19,7 @@ export default async function ResultSectionPage({ params }: PageProps<'/[locale]
   const { locale, section } = await params;
   setRequestLocale(locale);
   if (!isSection(section)) notFound();
+  if (DATA_MODE === 'local') return <LocalResultSection section={section} />;
   const lang = locale as Locale;
   const t = await getTranslations('Results');
 

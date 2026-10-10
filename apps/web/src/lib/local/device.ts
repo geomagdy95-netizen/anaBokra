@@ -30,6 +30,7 @@ export interface LocalProfile {
   grade: number | null;
   track: string | null;
   gender: 'female' | 'male' | null;
+  governorate: string | null;
   locale: 'ar' | 'en';
   ageBand: AgeBand | null;
   consent: DeviceConsent | null;
@@ -70,6 +71,7 @@ export class DeviceStore {
       grade: null,
       track: null,
       gender: null,
+      governorate: null,
       locale: 'ar',
       ageBand: null,
       consent: null,

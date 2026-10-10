@@ -94,7 +94,7 @@ function Carousel({ items }: { items: MatchView[] }) {
         ref={ref}
         tabIndex={0}
         aria-label={rt('matches.carousel')}
-        className="flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+        className="relative flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
       >
         {items.map((m) => (
           <li key={m.careerId} className="w-[80%] shrink-0 snap-start sm:w-[22rem]" aria-roledescription="slide">

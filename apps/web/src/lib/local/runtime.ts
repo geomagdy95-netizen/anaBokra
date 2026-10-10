@@ -30,3 +30,28 @@ export async function openLocalRuntime(): Promise<LocalRuntime | null> {
   const profile = id ? await device.getProfile(id) : null;
   return profile ? localRuntimeFor(kv, profile) : null;
 }
+
+let active: { id: string; rt: LocalRuntime } | null = null;
+
+/**
+ * The active profile's runtime, shared by every screen. One repo instance per profile keeps writes
+ * in order; the profile record is re-read so name, gender or consent changes show up.
+ */
+export async function activeRuntime(): Promise<LocalRuntime | null> {
+  const kv = await deviceKv();
+  const device = new DeviceStore(kv);
+  const id = await device.getActiveId();
+  const profile = id ? await device.getProfile(id) : null;
+  if (!profile) {
+    active = null;
+    return null;
+  }
+  if (active?.id !== profile.id) active = { id: profile.id, rt: localRuntimeFor(kv, profile) };
+  active.rt = { ...active.rt, profile };
+  return active.rt;
+}
+
+/** Call after deleting or switching profiles. */
+export function forgetActiveRuntime() {
+  active = null;
+}

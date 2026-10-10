@@ -2036,5 +2036,63 @@
     "running": "Running…",
     "wipe": "Wipe this device",
     "report": "Loaded in {load}, answered in {answer}, scored in {score}; {matches} matches."
+  },
+  "Local": {
+    "loading": "Loading…",
+    "storageWarning": "This browser won't keep your answers after you close it (private window or storage blocked). Use a normal window to keep your progress.",
+    "firstStart": {
+      "ageTitle": "Before we start",
+      "ageQuestion": "How old are you?",
+      "ages": {
+        "under15": "Under 15",
+        "15": "15",
+        "16": "16",
+        "17": "17",
+        "18plus": "18 or older"
+      },
+      "tooYoungTitle": "anaBokra is for ages 15 and up",
+      "tooYoungBody": "The career library is open to browse, but the questions aren't open yet.",
+      "browseCareers": "Career library",
+      "back": "Back",
+      "handOverTitle": "Now it's your parent's or guardian's turn",
+      "handOverBody": "Please hand them this phone. They need to say yes before you start.",
+      "handOverButton": "I'm the parent or guardian",
+      "guardianTitle": "Your permission for your child to use anaBokra",
+      "guardianPoints": {
+        "p1": "anaBokra helps your child explore careers. They answer questions about their interests, personality, work values and abilities, and get career suggestions and study routes in Egypt.",
+        "p2": "Everything stays on this device. Answers, results and profile are not sent to anaBokra or anyone else. No account, no phone number, no AI.",
+        "p3": "Anyone who can open the app on this device can see the results.",
+        "p4": "Results are guidance, not a diagnosis, and are not used for any grade or admission.",
+        "p5": "You or your child can delete everything at any time with \"Delete all my data\"."
+      },
+      "tickTitle": "Please tick to confirm",
+      "guardianChecks": {
+        "c1": "I am this young person's parent or legal guardian, and I am 18 or older.",
+        "c2": "I agree that my child uses anaBokra on this device, and that their answers and results are saved on this device only.",
+        "c3": "I have read the Terms of Use and the Privacy Policy (version {version}) and accept them on my child's behalf."
+      },
+      "agree": "I agree",
+      "notNow": "Not now",
+      "notNowDone": "No problem. Nothing has been saved. You can come back to this any time.",
+      "thanks": "Thank you. Please hand the phone back to your child.",
+      "continue": "Continue",
+      "adultTitle": "Before you start",
+      "adultP1": "anaBokra keeps your answers and results on this device only. Nothing is sent to us.",
+      "adultP2": "Results are guidance, not a diagnosis.",
+      "adultCheck": "I am 18 or older and I accept the Terms of Use and have read the Privacy Policy (version {version}).",
+      "start": "Start",
+      "docs": {
+        "privacy-policy": "Privacy Policy",
+        "terms-of-use": "Terms of Use",
+        "children-data-notice": "Your data on anaBokra"
+      }
+    },
+    "deleteData": {
+      "open": "Delete all my data",
+      "title": "Delete everything?",
+      "body": "This removes your profile, answers, results, islands and points from this device. It can't be undone, and anaBokra can't recover them, because we never had them.",
+      "confirm": "Delete everything",
+      "cancel": "Cancel"
+    }
   }
 }

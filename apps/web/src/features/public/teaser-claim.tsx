@@ -11,7 +11,16 @@ import { loadTeaserAnswers, TEASER_STORAGE_KEY } from './teaser';
  * After signup, carries the teaser answers (A3) into the student's first interests station so
  * they don't answer the same 12 cards twice. Only runs while that station is still untouched.
  */
-export function TeaserClaim({ sessionId, interestsAnswered }: { sessionId: string; interestsAnswered: number }) {
+export function TeaserClaim({
+  sessionId,
+  interestsAnswered,
+  onDone,
+}: {
+  sessionId: string;
+  interestsAnswered: number;
+  /** Re-load after the answers are carried over (defaults to a server refresh). */
+  onDone?: () => void;
+}) {
   const router = useRouter();
   const done = useRef(false);
 
@@ -28,11 +37,12 @@ export function TeaserClaim({ sessionId, interestsAnswered }: { sessionId: strin
         } catch {
           // ignore
         }
-        router.refresh();
+        if (onDone) onDone();
+        else router.refresh();
       },
       () => undefined, // keep the answers for the next visit
     );
-  }, [sessionId, interestsAnswered, router]);
+  }, [sessionId, interestsAnswered, router, onDone]);
 
   return null;
 }

@@ -6,11 +6,13 @@ import { Button } from '@/components/ui/button';
 import { AssessmentBlocked } from '@/features/assessment/blocked';
 import { FinalizeRunner } from '@/features/assessment/finalize-runner';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
+import { LocalResult } from '@/features/local/local-result';
 import { loadResultView } from '@/features/results/load';
 import { ResultsFlow } from '@/features/results/results-flow';
 import { genderedT } from '@/features/results/gendered';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
+import { DATA_MODE } from '@/lib/data-mode';
 import { AssessmentError } from '@/server/assessment/errors';
 import { loadAssessment, requireRuntime } from '@/server/assessment/page-data';
 
@@ -24,10 +26,11 @@ export default async function ResultPage({ params, searchParams }: PageProps<'/[
   const { locale } = await params;
   const sp = await searchParams;
   setRequestLocale(locale);
+  const sid = typeof sp.s === 'string' ? sp.s : undefined;
+  if (DATA_MODE === 'local') return <LocalResult sessionId={sid} />;
   const t = await getTranslations('Results');
   const lang = locale as Locale;
 
-  const sid = typeof sp.s === 'string' ? sp.s : undefined;
   const runtime = await requireRuntime(lang, '/assessment/result');
   const profile = await runtime.profile();
   const tr = (key: string) => genderedT(t as never, lang, profile.gender, key);

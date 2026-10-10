@@ -23,6 +23,7 @@ export function ResultsFlow({
   readinessDone,
   readiness,
   partial,
+  share = true,
 }: {
   view: ResultView;
   worldProfile: WorldProfile;
@@ -30,6 +31,8 @@ export function ResultsFlow({
   readinessDone: boolean;
   readiness: ReadinessInstrument;
   partial: boolean;
+  /** The share card is rendered on the server from the stored result, so phase 1 (data on the device) hides it. */
+  share?: boolean;
 }) {
   const rt = useRT();
   const [stage, setStage] = useState<Stage>(fresh ? 'reveal' : 'main');
@@ -62,7 +65,7 @@ export function ResultsFlow({
       ) : null}
       <ProfileOverview view={view} summary={view.summary} partial={partial} />
       <Matches top={view.top} more={view.more} surprising={view.surprising} />
-      <SharePanel />
+      {share && <SharePanel />}
       <div>
         <Button type="button" variant="ghost" onClick={() => setStage('reveal')} data-testid="replay-reveal">
           {rt('reveal.replay')}
