@@ -40,7 +40,7 @@ The pilot runs **local-first** on tablets that anaBokra brings. No student uses 
 | Task | Owner | Done by |
 |---|---|---|
 | Outreach to 10–15 private schools to land 3–5 (see `outreach-templates.md`). Founder's connections first | Founder | 31 Oct |
-| **Lawyer brief and sign-off**: consent form, pilot agreement, whether the uploads count as anonymous, the paired readiness data, the 31-day withdrawal period, anaBokra's obligations for data held on its tablets (incl. PDPC license question) | Founder + lawyer | 25 Oct |
+| **Lawyer brief and sign-off** (`docs/legal/lawyer-brief.md`): consent form, pilot agreement (`pilot-agreement.en.md`), whether the uploads count as anonymous, the paired readiness data, the 31-day withdrawal period, anaBokra's obligations for data held on its tablets (incl. PDPC license question) | Founder + lawyer | 25 Oct |
 | Pilot agreement signed with each school (scope, data promises, report, testimonial permission) | Founder + principal | 31 Oct |
 | Tablet kit: currently 6 tablets, charging case, encryption, kiosk mode, remote wipe, offline printer setup. More tablets only raise capacity (section 6) | anaBokra | 31 Oct |
 | Pilot build ready on tablets (see `docs/product/world-spec.md`, section 6) | anaBokra | 31 Oct |

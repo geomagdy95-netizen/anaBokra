@@ -311,6 +311,6 @@ Turned off for the pilot: WhatsApp sign-in, server consent flows, the AI package
 
 ## 8. Follow-ups outside this spec
 
-- **Legal drafts** (`docs/legal/`: privacy policy, consent texts, compliance map, children's data notice, terms) still describe server storage, WhatsApp sign-in and AI explanations. Rewrite them for phase 1 before the lawyer review.
+- **Legal drafts** (`docs/legal/`) were rewritten for phase 1 on 10 Oct 2026; open questions for counsel are in `docs/legal/lawyer-brief.md`. The phase 2 (server) versions are in git history.
 - **Server fixes needed before phase 2:** `can_view_student_summary` must check the `counseling` scope for school staff; `recordSchoolConsent` must record the optional choices; `analytics_results` must check the `research` scope instead of `data_processing`.
 - The domain and support email are still placeholders (`anabokra.app`, `privacy@anabokra.example`) until the domain is bought.

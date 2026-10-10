@@ -1,154 +1,117 @@
 > **DRAFT — not legal advice — must be reviewed by Egyptian counsel before use.**
 >
-> Consent mechanisms for children's data must be approved by the Personal Data Protection Center (Executive Regulations, as reported — see `compliance-map.md`). Do not ship these screens until counsel confirms approval status. [Square brackets] = placeholders.
+> [Square brackets] = placeholders. **[LAWYER]** = open legal question (see `lawyer-brief.md`).
+>
+> This version covers **phase 1**: the phone app (data kept on the device) and the school pilot (anaBokra tablets). The phase 2 consent routes (WhatsApp invite to the parent, family account, school upload) are not in use; their texts are in git history.
 
-# anaBokra Consent Texts
+# anaBokra Consent Texts (phase 1)
 
-**Text version:** consent-0.1-draft (stored with every consent record together with the privacy policy version).
+**Text version:** consent-0.2-draft
 
 **Design rules for all screens** (for Product/Engineering)
 - All checkboxes are **unticked by default**. Required boxes must all be ticked to continue. Optional boxes never block anything (PDPL Art. 12: participation must not depend on data beyond what is necessary).
-- Show the privacy policy and children's notice by link before the checkboxes; keep each screen in the guardian's chosen language (Arabic or English).
-- Record for each consent: route (A/B/C), method (OTP / account / school form), guardian name, relationship, WhatsApp number (hashed copy plus encrypted copy), timestamp (UTC and Cairo), policy version, text version, each checkbox value, IP address [only if counsel approves], teen identifier, consent expiry date, and withdrawal data.
-- Consent is valid for [24 months] or until withdrawn; we ask again before it expires.
+- Each screen links to the Privacy Policy, the Children's Data Notice and the Terms of Use, in the language the user chose (Arabic by default).
+- **Phone app:** the confirmation is stored **on the device only**: that it was given, the date and time, the text version and the policy version. Nothing is sent to anaBokra.
+- **School pilot:** the signed paper forms stay at the school. anaBokra receives only the student ID, grade and the optional choices.
 
 ---
 
-## 1. Route A — WhatsApp invite to the parent
-*(Sent from the anaBokra WhatsApp Business number when the teen taps "Ask my parent". Needs a pre-approved WhatsApp template. Transactional only — no marketing.)*
+## 1. Phone app — first start
 
-**Template (English):**
-> Hello. This is anaBokra, a career guidance platform for teens.
-> **{{teen_nickname}}** asked us to contact you. We need your permission, as parent or legal guardian, before {{teen_nickname}} can take our assessments.
-> Please read what data we use and decide here: {{consent_link}}
-> The link works for 7 days and only for you. You will receive a one-time code to confirm it is you. If you do not know {{teen_nickname}}, or do not want this, just ignore this message. We will not send you any marketing.
+### 1.1 Age question
+**Title:** Before we start
+"How old are you?"
+( ) Under 15 ( ) 15 ( ) 16 ( ) 17 ( ) 18 or older
 
-**Template (Arabic):**
-> مرحبًا. معكم «أنا بكرة»، منصة للإرشاد المهني للمراهقين.
-> طلب منا **{{teen_nickname}}** التواصل معكم. نحتاج إلى إذنكم بصفتكم ولي الأمر أو الوصي القانوني قبل أن يجري {{teen_nickname}} التقييمات لدينا.
-> يرجى الاطلاع على البيانات التي نستخدمها واتخاذ قراركم من هنا: {{consent_link}}
-> الرابط صالح لمدة 7 أيام ولكم وحدكم، وسيصلكم رمز تحقق لمرة واحدة لتأكيد هويتكم. وإذا كنتم لا تعرفون {{teen_nickname}} أو لا ترغبون في ذلك فتجاهلوا هذه الرسالة. لن نرسل لكم أي رسائل تسويقية.
+- **Under 15:** "anaBokra is made for people aged 15 and over. You can look at the career library, but the questions aren't open to you yet." The app saves nothing. **[LAWYER: confirm minimum age and this behaviour.]**
+- **15 to 17:** go to 1.2.
+- **18 or older:** go to 1.3.
 
-**Reminder (once, after 3 days):** "Reminder: {{teen_nickname}} is waiting for your decision on anaBokra. {{consent_link}} (expires in 4 days)." Then stop. If no response after 7 days, the link expires and the teen is told.
+### 1.2 Parent or guardian confirmation (under 18)
+**Screen 1 (to the teen):** "Please hand this phone to your parent or guardian. They need to say yes before you start."
 
-**OTP message:** "{{code}} is your anaBokra verification code. Do not share it. It expires in 5 minutes."
+**Screen 2 (to the parent or guardian):**
+**Title:** Your permission for your child to use anaBokra
 
-**After consent (to parent):** "Thank you. You gave anaBokra permission for {{teen_nickname}} on {{date}}. You can see a summary or withdraw at any time: {{family_link}}."
+**In short** (always visible, before the checkboxes)
+- anaBokra helps your child explore careers. They answer questions about their interests, personality, work values and abilities, and get career suggestions and study routes in Egypt.
+- **Everything stays on this device.** Answers, results and profile are not sent to anaBokra or anyone else. No account, no phone number, no AI.
+- Anyone who can open the app on this device can see the results.
+- Results are guidance, **not a diagnosis**, and are not used for any grade or admission.
+- You or your child can delete everything at any time from *Settings → Delete all my data*.
+- Full details: [Privacy Policy] · [Children's Data Notice] · [Terms of Use]
 
----
+**Please tick to confirm** (all required)
+- [ ] **1. Guardian.** I am this young person's parent or legal guardian, and I am 18 or older.
+- [ ] **2. Permission.** I agree that my child uses anaBokra on this device, and that their answers and results are saved on this device only.
+- [ ] **3. Terms.** I have read the Terms of Use and the Privacy Policy (version {{policy_version}}) and accept them on my child's behalf.
 
-## 2. Parent consent screen — Routes A and B
-*(Shown after OTP verification. In Route A the parent has no account yet; in Route B it is shown inside the family account for each teen added.)*
+**Buttons:** [ I agree ] [ Not now ]
 
-### Title: Your permission for {{teen_nickname}}
+- "Not now": "No problem. Nothing has been saved. You can come back to this any time."
+- After "I agree": "Thank you. Please hand the phone back to your child." The device stores: confirmed = true, {{date_time}}, consent text version, policy version.
 
-**Step 1 — Who you are**
-Name: [______]  Relationship: ( ) Mother ( ) Father ( ) Legal guardian ( ) Other: [____]
-WhatsApp number (verified): {{number}}
+**[LAWYER: (a) whether this on-device confirmation is needed or sufficient when anaBokra does not process the data; (b) whether a guardian's tick counts as written consent; (c) whether we should also ask the guardian's name (kept on the device only).]**
 
-**Step 2 — In short** (always visible, before the checkboxes)
-- {{teen_nickname}} wants to use anaBokra to explore careers. The questions are about interests, personality, work values and abilities.
-- We will collect: name or nickname, date of birth, governorate, school and curriculum, WhatsApp number, answers, results and an AI-written explanation of the results.
-- The answers are treated as **sensitive data** (PDPL Art. 1 and 12).
-- You will see a **summary** only. You will never see the raw answers.
-- We do not sell data, show ads or send marketing to teens.
-- You can **withdraw** any time. We then stop and delete the data.
-- This is guidance, **not a diagnosis**.
-- Full details: [Privacy Policy] · [Children's Data Notice] · [Terms of Use].
+### 1.3 Adults (18 or older)
+**Title:** Before you start
+- anaBokra keeps your answers and results **on this device only**. Nothing is sent to us.
+- Results are guidance, not a diagnosis.
 
-**Step 3 — Please tick to confirm** (all required unless marked optional)
+- [ ] I am 18 or older and I accept the [Terms of Use] and have read the [Privacy Policy] (version {{policy_version}}).
 
-- [ ] **1. Guardian.** I confirm that I am {{teen_nickname}}'s parent or legal guardian, that I am 18 or older, and that I have the authority to give this permission.
-- [ ] **2. Sensitive data.** I give my explicit written consent for anaBokra to collect and process {{teen_nickname}}'s personal data, including his or her answers and results, which are sensitive personal data, for the purposes described: running the assessments, producing career matches, opportunities and a roadmap, and managing this consent.
-- [ ] **3. AI explanation.** I agree that scores and match labels (without name, phone number, date of birth, school or governorate) are sent to an AI service (Claude, Anthropic, USA) to write explanations.
-- [ ] **4. Storage and transfer outside Egypt.** I agree that data is stored on servers in Europe (OVH, [country]) and processed by the service providers listed in the Privacy Policy, some of them outside Egypt.
-- [ ] **5. Summary view.** I understand that I will see a summary of the results and not the raw answers, and that {{teen_nickname}} is told what I can see.
-- [ ] **6. I have read** the Privacy Policy and the Children's Data Notice (version {{version}}), and I understand I can withdraw my consent at any time.
-- [ ] **7. Optional — usage analytics.** I agree that {{teen_nickname}}'s use of the app is measured in a pseudonymous way to improve anaBokra (no advertising, no tracking on other sites). I can say no and everything still works.
+**Button:** [ Start ]
 
-**Buttons:** [ I agree and continue ] [ I do not agree ]
-
-If "I do not agree" or the link expires: "No problem. {{teen_nickname}} can keep using the teaser. No assessment data will be collected. You can change your mind at any time."
-
-**Confirmation screen:** "Thank you. Your permission is recorded on {{date}} (valid until {{expiry}}). You can see the summary, change or withdraw your permission here: {{family_link}}."
+### 1.4 Delete all my data
+*(Settings → Delete all my data)*
+**Title:** Delete everything?
+"This removes your profile, answers, results, islands and points from this device. It can't be undone, and anaBokra can't recover them, because we never had them."
+**Buttons:** [ Delete everything ] [ Cancel ]
+After deleting: the app returns to the first-start screen (1.1). For under-18s, a parent must confirm again before anything is saved.
 
 ---
 
-## 3. Route B — Family account consent
-*(Parent creates the account first, then adds teens.)*
+## 2. School pilot
 
-### 3.1 Create the family account
-Title: **Create your anaBokra family account**
-Fields: parent full name; WhatsApp number (verified by OTP); language.
-- [ ] I am a parent or legal guardian, aged 18 or over, and I accept the [Terms of Use].
-- [ ] I have read the [Privacy Policy] (what data we hold about me as a parent: name, WhatsApp number, consent records and the family account).
-Text: "We use your details only to run your account, to verify your consent and to show you your teen's summary. We will not send you marketing."
+### 2.1 Parent or guardian consent form
+The form that goes home with each student is in `docs/gtm/school-consent-form.en.md` (Arabic: `school-consent-form.ar.md`). It has one required consent and two optional choices:
+1. **Required:** participation and the data described.
+2. **Optional:** research use of answers without any ID, and linking the before/after readiness answers by a random code.
+3. **Optional:** a copy of the results card for the school counselor.
 
-### 3.2 Add a teen
-Fields: teen nickname (or name); date of birth; relationship; teen's WhatsApp number (optional; the teen can also be invited by link).
-Message to teen (WhatsApp/SMS): "{{parent_name}} added you to anaBokra. Open this link to start: {{link}}. You can only use the teaser until your parent finishes the permission step."
+### 2.2 School declaration
+*(Signed by the principal before consent forms go home. Part of the pilot agreement.)*
 
-### 3.3 Consent for each teen
-Show **Section 2, Step 2 and Step 3** (checkboxes 1 to 7) for each teen separately. Checkbox 1 text changes to: "I confirm that I am this teen's parent or legal guardian…". Add:
-- [ ] **8. Family account.** I understand that I can add, remove or withdraw consent for each teen separately from the family account.
-
-If a second guardian disagrees, either guardian's withdrawal is applied immediately **[LAWYER: confirm]**.
-
----
-
-## 4. Route C — School consent form
-*(Phase 2. Two parts: Part 1 signed by the school; Part 2 signed by each guardian, on paper or by e-signature, and kept by the school and uploaded to anaBokra.)*
-
-### Part 1 — School declaration
-**School:** [name] · **Governorate:** [__] · **Commercial/ministry registration:** [__] · **Authorized representative:** [name, title]
+**School:** [name] · **Governorate:** [__] · **Registration:** [__] · **Authorized representative:** [name, title]
 
 By signing, the school confirms that:
-1. It wishes to offer anaBokra career guidance to the enrolled students listed in [annex / dashboard].
-2. It has collected **written, explicit consent from each student's parent or legal guardian** (Part 2 or equivalent), kept a copy, and will give anaBokra a copy or a verified list **before** any student assessment starts. anaBokra will not enable assessments for a student without a recorded consent.
-3. It informed the guardians about anaBokra using the attached notice, and told students.
+1. It wishes to offer the anaBokra career guidance pilot to students in grades 10 and 11 between [start date] and [end date].
+2. It will give each parent the anaBokra consent form, collect the signed forms, and **keep them at the school**. Only students whose parent signed the required consent will take part.
+3. It will give each consenting student one of the random student IDs and PINs prepared by anaBokra, and keep the list matching IDs to names **at the school only**. It will give anaBokra only each student's ID, grade and the parent's optional choices, never names.
 4. Students are not forced to take part, and declining has no effect on their school standing.
-5. [Roles: the school and anaBokra act as follows regarding student data — **LAWYER: independent controllers / joint controllers / anaBokra as processor?**]
-6. [What the school sees: completion status and a summary of results for enrolled students, never raw answers. Anything more needs a separate guardian checkbox.]
-7. The school will tell anaBokra promptly when a guardian withdraws consent or a student leaves, and anaBokra will stop processing and delete data on request or on withdrawal.
-8. The school has authority to sign for the institution.
+5. It will tell anaBokra, by student ID, as soon as a parent withdraws consent or a student leaves.
+6. It names [staff member] as the contact for any student who is upset during or after the pilot.
+7. It understands that it receives only an anonymized group report, and a copy of a student's results card only where the parent ticked that box.
+8. [Roles of the school and anaBokra regarding student data — **LAWYER: separate controllers, joint controllers, or school as controller and anaBokra as processor?**]
+9. The signatory has authority to sign for the school.
 
 Signature · Name · Title · Date · Stamp
 
-### Part 2 — Guardian consent slip (one per student)
-**Student:** [name] **Class:** [__] **School:** [__]
+### 2.3 Student agreement
+*(Read aloud by the counselor at the start of the first sitting. Each student also confirms on the tablet.)*
+"This is guidance, not an exam. There are no right or wrong answers, and it has nothing to do with your grades. You can skip any question or stop at any time. Your name is not on the tablet; only your ID."
+- [ ] I understand and I am happy to take part.
 
-anaBokra is an online career-guidance platform. The school has offered it to students. To take part, your child answers questions about interests, personality, work values and abilities; anaBokra turns the answers into career matches and a roadmap, and an AI writes the explanation from scores only. **These answers are sensitive personal data.** You (and not the school) decide.
+If a student does not tick the box, their profile stays closed and the counselor offers them another activity.
 
-Tick each box that you accept:
-- [ ] 1. I am the student's parent or legal guardian.
-- [ ] 2. I give my explicit written consent for anaBokra to process my child's personal data, including answers and results, for the purposes above.
-- [ ] 3. I agree that scores (without identity) are sent to an AI service, and that data is stored in Europe and handled by providers outside Egypt, as the Privacy Policy explains.
-- [ ] 4. I agree that the school will see [completion status and a summary of results]. The school will not see raw answers.
-- [ ] 5. I understand that I will see a summary through a family account, that I can withdraw consent at any time at [privacy@anabokra.example] or through the school, and that this is guidance and not a diagnosis.
-- [ ] 6. Optional — pseudonymous usage analytics to improve the service.
+### 2.4 Withdrawal
+**From the school to anaBokra** (email or WhatsApp to [privacy@anabokra.example]):
+"Consent for student ID {{student_id}} at {{school}} was withdrawn on {{date}}."
 
-Guardian name: ______ Relationship: ______ National ID/passport no. [only if counsel approves]: ______ WhatsApp number: ______ Signature: ______ Date: ______
+**anaBokra's confirmation to the school:**
+"We received the withdrawal for student ID {{student_id}} on {{date}}. We stopped using this student's data straight away. It will be deleted from the tablet by {{deletion_date}} (within 31 days after our school visit on {{visit_date}}, and no later than 31 December 2026). Anonymous data already sent cannot be traced back to the student, so it cannot be removed. Reference: {{reference}}."
 
-Privacy Policy: [link/QR] · Valid for [24 months] or until withdrawn.
+**[LAWYER: compare the 31-day deletion period with the 6-working-day response period in PDPL Art. 32.]**
 
----
-
-## 5. Withdrawal confirmation
-
-### 5.1 Screen (after the parent taps "Withdraw")
-**Title:** Withdraw permission for {{teen_nickname}}?
-"If you withdraw: {{teen_nickname}} can no longer take assessments; we stop using the data and **delete {{teen_nickname}}'s assessment answers, results, profile and AI texts within 30 days**. We keep only a small record that you gave and withdrew consent (for {{retention}} years) as legal proof. Copies in backups disappear within 35 days."
-Options: ( ) Withdraw and delete everything ( ) Pause only (keep data for 30 days in case you change your mind, then delete) [Product to decide]
-Button: [ Confirm withdrawal ] [ Cancel ]
-
-### 5.2 Confirmation message — to parent (WhatsApp/email)
-"Your permission for {{teen_nickname}} on anaBokra was withdrawn on {{date}} at {{time}}. We have stopped processing and will delete the data by {{deletion_date}}. You can give permission again at any time: {{link}}. Reference: {{reference}}. Questions: privacy@anabokra.example."
-
-### 5.3 Message — to teen (in app)
-"Your parent withdrew permission. You can still try the teaser. Your results and answers will be deleted by {{deletion_date}}. If you want a copy of your own results first, tell us before then."
-
-### 5.4 Message — to school (Route C)
-"Guardian consent for student {{student_ref}} was withdrawn on {{date}}. Please stop sharing this student's data with anaBokra and update your records."
-
-### 5.5 When a teen asks to stop
-"We received your request to stop. We will tell your parent that you asked and we will [stop using your data now / ask your parent to confirm within 7 days]. **[LAWYER/Product: when a 15 to 17-year-old asks to delete, do we act immediately?]**"
+### 2.5 When a student asks to stop
+The student may stop at any time during a sitting; the counselor or the anaBokra team member closes their profile. If the student asks for their data to be deleted, the anaBokra team deletes the profile from the tablet at that visit and tells the school by ID.
