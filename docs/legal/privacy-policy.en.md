@@ -1,141 +1,146 @@
 > **DRAFT — not legal advice — must be reviewed by Egyptian counsel before use.**
 >
-> Items in [square brackets] are placeholders or facts to be confirmed by the anaBokra team. Items marked **[LAWYER]** are open legal questions (see `compliance-map.md`).
+> Items in [square brackets] are placeholders or facts to be confirmed by the anaBokra team. Items marked **[LAWYER]** are open legal questions (see `lawyer-brief.md` and `compliance-map.md`).
+>
+> This version describes **phase 1** (school pilot from November 2026 and public launch on 16 January 2027), where personal data stays on the device. The earlier server-based draft (accounts, WhatsApp sign-in, AI explanations) is kept in git history for phase 2.
 
 # anaBokra Privacy Policy
 
-**Version:** 0.1-draft  **Effective date:** [date]  **Language:** English (an Arabic version exists; if they differ, [the Arabic version prevails — LAWYER])
+**Version:** 0.2-draft  **Effective date:** [date]  **Language:** English (an Arabic version exists; if they differ, [the Arabic version prevails — LAWYER])
 
 A shorter, teen-friendly version is in the *Children's Data Notice*. This policy is the full version.
 
 ## 1. Who we are
 
-anaBokra is operated by **[anaBokra legal entity name]**, [Commercial Register No.], [registered address], Egypt ("anaBokra", "we", "us"). We are the **controller** of the personal data described here under the Egyptian Personal Data Protection Law No. 151 of 2020 (the "PDPL") and its Executive Regulations (Ministerial Decision No. 816 of 2025).
+anaBokra is operated by **[anaBokra legal entity name]**, [Commercial Register No.], [registered address], Egypt ("anaBokra", "we", "us").
 
-**Data Protection Officer:** [name], registered with the Personal Data Protection Center (the "Center") under code [code]. Contact: [privacy@anabokra.example] · [address] · WhatsApp [number].
+**Data protection contact:** [name] · [privacy@anabokra.example] · [address]. **[LAWYER: whether a registered Data Protection Officer is required for phase 1.]**
 
-## 2. Who this policy is about
+## 2. The most important points
 
-- **Teens** (about 15 to 18) who take assessments on anaBokra.
-- **Parents or legal guardians** who give consent and see a summary.
-- **Schools** that enroll students (when this feature is offered).
-- **Visitors** to our website and app.
+1. **Your answers and results stay on the device.** On your own phone, anaBokra does not send your answers, results, name or any other personal data to us. We cannot see them.
+2. **No account, no phone number, no email.** You do not sign up or log in.
+3. **No artificial intelligence.** Result explanations are written by our team in advance and chosen by the app on your device.
+4. **Under 18:** a parent or legal guardian must confirm on the device before the app saves anything.
+5. **School pilot:** students use tablets that anaBokra brings to the school. Students are known to us only by an ID; the list of names stays at the school. See section 6.
+6. We **do not sell** data, show advertising or send marketing.
+7. anaBokra gives **guidance, not a diagnosis** (see the Terms of Use).
 
-anaBokra is designed for teens aged 15 and over. We do not knowingly offer the service to anyone under 15.
+## 3. Who this policy is about
 
-## 3. The most important points
+- **Teens** (about 15 to 18) and **young adults** who use the anaBokra app on their own phone.
+- **Students** taking part in the anaBokra school pilot on anaBokra tablets.
+- **Parents or legal guardians** who confirm their child's use or sign the school consent form.
+- **Visitors** to our website.
 
-1. We ask a parent or legal guardian to consent **before** a teen under 18 can take any assessment. A teen can only use a short teaser and the sign-up steps until that happens.
-2. Assessment answers are treated as **sensitive personal data**. We use them only to give the teen career guidance.
-3. Parents see a **summary**, never the teen's raw answers.
-4. We **do not sell** personal data, show advertising, or send marketing messages to teens.
-5. Parent or teen can **withdraw consent** at any time.
-6. Some of our service providers are outside Egypt (Europe and the USA). We ask for your consent to this and tell you exactly who they are (section 8).
-7. Guidance from anaBokra is **not a diagnosis** and not a substitute for a professional (see the Terms of Use).
+anaBokra is designed for people aged 15 and over. **[LAWYER: minimum age.]**
 
-## 4. What data we collect, why, and on what basis
+## 4. Using anaBokra on your own phone
 
-Our basis for processing is **explicit consent** (PDPL Art. 2 and 6(1)), given in writing for sensitive data and children's data (PDPL Art. 12), or, for adult users, their own consent. For contract-type processing (running the account you asked for) we also rely on PDPL Art. 6(2). **[LAWYER: confirm bases.]**
+### 4.1 What the app keeps on your device
 
-| Data | Examples | Why we use it | When collected |
+| Data | Examples | Why | Where it is kept |
 |---|---|---|---|
-| Identity and contact | Name or nickname, date of birth, WhatsApp number | Create the account, log in by WhatsApp one-time code (OTP), check age, contact the parent | Sign-up |
-| Location and school | Governorate, school, curriculum (e.g., Thanaweya Amma, IGCSE, American Diploma) | Show relevant opportunities, universities and tracks | After consent **[Engineering to confirm; see 4.1]** |
-| Parent or guardian identity | Name, WhatsApp number, relationship, consent method | Verify and record consent | Consent step |
-| Assessment answers | Answers to interests, personality (Big Five), work values and abilities questions | Calculate scores and career matches | After consent |
-| Results | Scores, career matches, roadmap, saved opportunities | Show results; build the roadmap | After consent |
-| AI-written explanations | Text generated from scores (see section 7) | Explain the results in plain language | After consent |
-| Consent records | Method, who consented, time, policy version, withdrawal | Prove and manage consent (PDPL Art. 4 and 11) | Consent step |
-| Usage analytics | Pages visited, buttons used, device type (PostHog) | Keep the product working and improve it | See 4.2 |
-| Error logs | Technical error details, device and browser type (Sentry) | Find and fix bugs | Always, with personal data removed where possible |
-| Messages and support | What you send us | Answer you | When you contact us |
+| Profile | Nickname, grade, secondary track, language; gender only if you choose to give it (used only for Arabic grammar) | Show your profile and relevant study routes | On your device only |
+| Answers | Your answers to the interests, personality, work values and abilities questions | Calculate your scores and career matches | On your device only |
+| Results | Scores, career matches, the islands you explore, your progress and points | Show your results and your map | On your device only |
+| Readiness check | Your answers to the short "how ready do you feel" questions | Show how your readiness changes | On your device only |
+| Parent confirmation | That a parent confirmed, when, and which text version | Remember that the confirmation was given | On your device only |
 
-### 4.1 Before consent
-Before a parent consents, a teen can only use the teaser (no answers are saved) and the onboarding steps. In this period we collect only what is needed to log the teen in and ask the parent: [nickname, date of birth or age band, teen WhatsApp number, parent WhatsApp number]. We do not ask for governorate, school or any assessment answers until consent is recorded. **[LAWYER: PDPL Art. 12 requires guardian consent for processing children's data; is even this minimal pre-consent collection permitted?]**
+The scoring and matching run **inside the app on your device**. We do not receive this data, so we cannot see it, correct it, recover it or delete it for you. You control it (section 8).
 
-### 4.2 Analytics and children
-For teens we use analytics only to keep the service working and to find usability problems. We **do not** use analytics to build advertising profiles, to track teens across other websites, or to monitor teens' behavior for any other purpose. The Executive Regulations restrict profiling, tracking and behavioral monitoring of children in activities (reported as ER Art. 14(5); **[LAWYER: confirm text]**). Analytics for teens is switched off until consent is given, uses a pseudonymous ID, and has no session recording [Engineering to confirm]. A separate optional checkbox covers non-essential analytics.
+### 4.2 What reaches our servers
 
-## 5. How we use data
+The app downloads its content (questions, careers, islands, study routes) from our server [hosted at: provider, country — to be confirmed]. Like any website, the server receives technical information needed to send that content, such as your device's internet (IP) address and browser type. We use it only to deliver the content and keep the service secure. We do not link it to your answers or results, and we [do not store IP addresses / keep server logs for no more than [7] days — Engineering to confirm]. **[LAWYER: whether this technical data, and the server's location outside Egypt, needs any further step.]**
 
-- To run the service: log-in, assessments, results, opportunities and roadmap.
-- To record and manage consent, and to contact the parent about consent.
-- To keep the service safe, secure and working (including fraud and abuse prevention).
-- To improve the service using **aggregated or de-identified** statistics.
-- To comply with the law.
+We do **not** use analytics, advertising tools or crash-reporting tools that send data about you [Engineering to confirm].
 
-We do **not** use personal data for advertising, we do not make decisions about a teen that have legal or similar significant effect, and career matches are suggestions that a teen can ignore. A teen or parent can object to the processing or its outcomes (PDPL Art. 2).
+**Anonymous research data from the phone app:** not collected at launch. If we ever offer it, it will be optional, only for users aged 18 or over, and described here before it starts.
 
-## 6. Parent view
+### 4.3 Parents and young users
 
-Parents linked to a teen see a **summary**: the teen's top career matches and strengths in plain words, roadmap progress and saved opportunities. Parents **never** see the raw answers, individual question responses or the teen's WhatsApp conversations. The teen can see what the parent sees. **[Product to confirm exact fields.]**
+If you say you are under 18, the app asks you to hand the device to a parent or legal guardian. They read a short explanation and confirm on the device before the app saves anything. **No data is sent to us for users under 18.** **[LAWYER: whether this on-device confirmation is the right mechanism, and whether any consent is legally required when anaBokra does not process the data.]**
 
-## 7. Artificial intelligence
+### 4.4 Shared devices
 
-We use Claude, an AI model from Anthropic, to write the explanation text from the teen's **scores and match labels**. We send Anthropic only what is needed: scores, trait labels and, where useful, an age band. We **do not send** names, WhatsApp numbers, dates of birth, school names or governorate [Engineering to confirm]. Anthropic acts as our processor under a written agreement and [does not use this data to train its models — confirm contract and current Anthropic terms]. AI text can contain errors; it is guidance, not a diagnosis. Our systems must use AI in a way that does not harm the data subject (Executive Regulations, as reported by Baker McKenzie).
+Anyone who can open the app on your device can see your profile and results. If you share your phone, [use the app's PIN lock — if offered] or delete your data when you are done (section 8).
 
-## 8. Who receives data, and transfers outside Egypt
+## 5. Who receives data from the phone app
 
-We do not sell data. We share it only with:
+Nobody receives your answers or results from us, because we never have them. We do not sell data and we do not share it for marketing. Our hosting provider [name] stores the app's content and processes the technical data in section 4.2 on our behalf.
 
-| Recipient | Role | What | Where |
-|---|---|---|---|
-| OVH (VPS hosting) | Processor | Everything stored in our database (self-hosted Supabase) | [France/Germany/other — confirm], Europe |
-| Anthropic (Claude API) | Processor | Scores and labels for AI text | USA [confirm region] |
-| Meta / WhatsApp Business Platform [or BSP name] | Processor / independent service | WhatsApp numbers and the messages we send (OTP, consent link) | [confirm] |
-| PostHog | Processor | Pseudonymous usage events | [self-hosted on OVH / EU cloud — confirm] |
-| Sentry | Processor | Error logs | [EU / US — confirm] |
-| Parent or guardian | Recipient | Summary only | In app |
-| School (route C only) | Recipient | [Completion status and summary, only as stated in the school consent form] | In app |
-| Authorities | Recipient | Only when required by law or court order | — |
+## 6. The school pilot (November–December 2026)
 
-**Transfers outside Egypt.** Egyptian law allows personal data to leave Egypt only with the Center's license or permit, to a destination with adequate protection, and with the data subject's or guardian's consent (PDPL Art. 14–16; ER Art. 16). As of [date], we understand the Center has not yet published a list of adequate countries. **[LAWYER: license status and whether we may operate in the meantime.]** We include a separate consent checkbox for this transfer.
+Students in pilot schools use the app on **tablets that anaBokra owns and brings to the school**. This section explains what is different. The consent form that parents sign gives the same information in plain words.
 
-## 9. How long we keep data
+### 6.1 How identity is protected
+- The school gives each consenting student a **random student ID and PIN** prepared by anaBokra. The list matching IDs to names **stays at the school**. anaBokra never receives students' names.
+- The signed consent forms stay at the school. The school gives anaBokra only each student's ID, grade and the parent's optional choices.
+- We do not collect names, national ID numbers, dates of birth, phone numbers, emails, addresses or school grades.
 
-See the table below. When a period ends, we delete the data or make it permanently non-identifiable (PDPL Art. 4(7)). **[Periods are proposals — LAWYER/Product to confirm.]**
+### 6.2 What is kept on the tablets
+Under the student's ID only: grade, secondary track, language, gender if given (for Arabic grammar only), answers, scores, career matches, choices in the app, the readiness check before and after, and short feedback surveys.
 
+### 6.3 What leaves the tablets
+- **Totals per school and grade** (for example, how many students finished, average ratings, most common career matches). These describe no individual student.
+- **Only if the parent ticked the research box:**
+  - the student's answers **with no ID**, tagged only with school code, grade and language, to study whether the Arabic questions work well;
+  - the readiness answers before and after, linked to each other by a random code (not the ID) so the change can be measured. **[LAWYER: this linked readiness data is pseudonymous, not anonymous.]**
+
+These uploads go to [server provider, country — to be confirmed]. **[LAWYER: confirm that the anonymous answer sets fall outside the PDPL, and what applies to the linked readiness data and to hosting location.]**
+
+### 6.4 Who sees what
+| Who | What |
+|---|---|
+| The student | Their own results on the tablet and a **printed results card** (ID only) to take home |
+| The parent or guardian | The printed results card the student brings home |
+| The school | An **anonymized group report**; groups too small to protect identity are never shown. The counselor receives a copy of a student's results card **only if the parent ticked that box** |
+| anaBokra team | Data under an ID, never a name, to run the pilot |
+| Researchers working with anaBokra | Anonymous data only, for research consented to by the parent, reported only as group statistics |
+
+### 6.5 Security
+The tablets are encrypted, locked to the anaBokra app, and each student's data opens only with their ID and PIN. We count tablets in and out at every school visit and can wipe them remotely. Results cards are printed on our own offline printer and no copies are kept.
+
+### 6.6 How long we keep pilot data
 | Data | Retention |
 |---|---|
-| Account, profile, assessment answers, results | While the account is active; deleted within 30 days after consent is withdrawn or deletion is requested; deleted after [24] months of inactivity (we warn first) |
-| Parent/guardian details | While the teen account is active, then as consent records below |
-| Consent records (who, how, when, version, withdrawal) | [5] years after the account ends (to prove consent), kept separately from content |
-| Usage analytics | [12] months, pseudonymous; aggregated statistics may be kept |
-| Error logs | [90] days |
-| OTP codes | Expire after [5] minutes; delivery logs [30] days |
-| Backups | Overwritten within [35] days; deleted data is not restored to active use |
-| Support messages | [24] months |
+| All data on the tablets | Deleted by **31 December 2026** |
+| A withdrawn student's data | Deleted from the tablet within **31 days after the school visit at which we receive the withdrawal**, and in any case by 31 December 2026 **[LAWYER: compare with the 6-working-day response period in PDPL Art. 32]** |
+| Anonymous answer sets and linked readiness data | Until the research analysis is finished, and no later than **17 June 2027** |
+| Group statistics from the analysis | May be kept; they describe no one |
 
-## 10. Security
+### 6.7 Roles
+**[LAWYER: whether anaBokra and the school are separate controllers, joint controllers, or the school a controller and anaBokra a processor, for the pilot.]**
 
-We apply technical and organizational measures to protect data, including encryption in transit and at rest, access control limited to staff who need it, separation of consent records, logging of admin access, and regular backups [Engineering to confirm]. If a breach occurs we will notify the Center within 72 hours and tell affected people within three working days after notifying the Center (PDPL Art. 7).
+## 7. Legal basis
 
-## 11. Your rights
+On your own phone, anaBokra does not collect or process your answers, results or profile, so it does not rely on a legal basis for them; the parent confirmation for under-18s is a safeguard. For the school pilot, we rely on the **explicit written consent** of the parent or legal guardian (PDPL Art. 2, 6(1) and 12), with the student's own agreement. **[LAWYER: confirm.]**
 
-You (a teen, or a parent for a young child) can ask us to:
+## 8. Your choices and rights
 
-- tell you what data we hold and give you a copy;
-- correct, update or complete it;
-- delete it;
-- stop or limit its use;
-- withdraw consent at any time (this does not undo earlier lawful use);
-- object to the processing or its outcomes;
-- tell you about a breach affecting you.
+**On your own phone**
+- **See** your data: it is all in the app (profile and results).
+- **Change** it: edit your profile or retake a part of the assessment.
+- **Delete** it: *Settings → Delete all my data* removes everything from the device straight away. Uninstalling the app or clearing the browser's site data also removes it.
+- We cannot do these things for you, because we do not have your data.
 
-We answer within **6 working days** (PDPL Art. 32). We do not charge a fee. If you are not satisfied, you may complain to the Personal Data Protection Center (PDPL Art. 33) or go to court. To use your rights, write to [privacy@anabokra.example] or use *Settings → My data* in the app. We may need to verify your identity, and for a teen's account we may confirm with the parent.
+**In the school pilot**
+- Parents can **withdraw consent** at any time by telling the school counselor or writing to [privacy@anabokra.example]. The school passes the student's ID to us and we delete the data from the tablet (section 6.6). Anonymous data already sent cannot be traced back to the student, so it cannot be removed.
+- Until the tablets are wiped, parents can ask through the school to see or correct their child's data.
+- You can complain to the Personal Data Protection Center (PDPL Art. 33) or go to court.
 
-## 12. Withdrawing consent
+## 9. Children's safety
 
-A parent can withdraw consent from the family account, from the WhatsApp link, or by email. A teen can also ask us to stop. After withdrawal the teen can use only the teaser, we stop processing, and we delete the data on the schedule above. See the *Consent Texts* for the exact message.
+anaBokra's results are suggestions to explore, not a judgement on anyone. If a young person feels anxious, hopeless or unsafe, they should talk to a trusted adult straight away or call [the child helpline — number to be verified]. In the school pilot, each school names a staff member to support any student who is upset.
 
-## 13. Cookies and similar technologies
+## 10. Cookies and local storage
 
-We use only [essential storage (log-in, language)] and, with consent, analytics identifiers. We do not use advertising cookies. [Update after technical review.]
+The app uses your browser's or device's local storage to keep your data on your device, and essential storage for your language choice. We do not use advertising or tracking cookies.
 
-## 14. Changes to this policy
+## 11. Changes to this policy
 
-We will tell parents and teens about important changes and, if the change affects consent, ask again. Each consent record stores the policy version.
+If we change how data is handled, for example to offer accounts or to store data on our servers (phase 2), we will update this policy, show the change in the app before it takes effect, and ask for new consent where needed. Your existing on-device data will not be uploaded without your (or your parent's) agreement.
 
-## 15. Contact and complaints
+## 12. Contact and complaints
 
 [privacy@anabokra.example] · [address] · Personal Data Protection Center: [portal.pdpc.gov.eg].
