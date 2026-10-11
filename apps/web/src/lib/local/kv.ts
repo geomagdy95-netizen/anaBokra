@@ -86,16 +86,86 @@ export class IndexedDbKv implements KvStore {
   }
 }
 
+interface Sealed {
+  iv: Uint8Array<ArrayBuffer>;
+  data: ArrayBuffer;
+}
+
+/**
+ * Encrypts every value (AES-256-GCM, fresh IV per write) before it reaches the inner store. Keys
+ * (record names) are not secret and stay readable. This keeps data unreadable outside the app (e.g.
+ * the browser's storage files); it does not stop someone using the app on an unlocked device.
+ */
+export class EncryptedKv implements KvStore {
+  constructor(
+    private readonly inner: KvStore,
+    private readonly key: CryptoKey,
+  ) {}
+
+  get persistent() {
+    return this.inner.persistent;
+  }
+
+  async get<T>(key: string) {
+    const sealed = await this.inner.get<Sealed>(key);
+    // Records written before encryption existed (development only) read as missing.
+    if (!sealed || !(sealed.iv instanceof Uint8Array)) return undefined;
+    const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: sealed.iv }, this.key, sealed.data);
+    return JSON.parse(new TextDecoder().decode(plain)) as T;
+  }
+  async set<T>(key: string, value: T) {
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const data = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, this.key, new TextEncoder().encode(JSON.stringify(value)));
+    await this.inner.set<Sealed>(key, { iv, data });
+  }
+  delete(key: string) {
+    return this.inner.delete(key);
+  }
+  keys(prefix = '') {
+    return this.inner.keys(prefix);
+  }
+  clear() {
+    return this.inner.clear();
+  }
+}
+
+/** A new random device key. Non-extractable: page scripts can use it but never read its bytes. */
+export function newDeviceKey(): Promise<CryptoKey> {
+  return crypto.subtle.generateKey({ name: 'AES-GCM', length: 256 }, false, ['encrypt', 'decrypt']);
+}
+
+const KEY_DB = 'anabokra-key';
+
+/** The device key lives in its own IndexedDB database, so wiping the data store can't strand it. */
+async function deviceKey(): Promise<CryptoKey> {
+  const store = new IndexedDbKv(KEY_DB);
+  const existing = await store.get<CryptoKey>('device');
+  if (existing) return existing;
+  const key = await newDeviceKey();
+  await store.set('device', key);
+  return key;
+}
+
+/** Forgets the device key: anything still encrypted with it can no longer be read. */
+export async function forgetDeviceKey(): Promise<void> {
+  if (typeof indexedDB === 'undefined') return;
+  await new IndexedDbKv(KEY_DB).delete('device');
+  shared = null;
+}
+
 let shared: Promise<KvStore> | null = null;
 
-/** The device's store: IndexedDB when it works, otherwise memory (data then lasts until the page closes). */
+/**
+ * The device's store: encrypted IndexedDB when it works, otherwise memory (data then lasts until the
+ * page closes, and never touches disk).
+ */
 export function deviceKv(): Promise<KvStore> {
   shared ??= (async () => {
-    if (typeof indexedDB === 'undefined') return new MemoryKv();
+    if (typeof indexedDB === 'undefined' || typeof crypto?.subtle === 'undefined') return new MemoryKv();
     const kv = new IndexedDbKv();
     try {
       await kv.keys('__probe__');
-      return kv;
+      return new EncryptedKv(kv, await deviceKey());
     } catch {
       return new MemoryKv();
     }

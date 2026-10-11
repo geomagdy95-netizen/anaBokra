@@ -1,4 +1,5 @@
 import type { KvStore } from './kv';
+import type { PinHash } from './pin';
 
 /**
  * Profiles that live on this device. A phone has one profile (its owner); a shared device (a loaner
@@ -7,22 +8,36 @@ import type { KvStore } from './kv';
 export type DeviceMode = 'phone' | 'shared';
 
 /**
- * Why this profile may take the assessment (consent-texts.en.md, phase 1). Phase 1 is for adults, who
- * consent for themselves; a guardian basis comes back with the teen phase.
+ * Why this profile may take the assessment (consent-texts.en.md §1): an adult accepted for themselves,
+ * or (15–17) a parent or guardian verified their phone and gave their national ID.
  */
-export type ConsentBasis = 'adult_self';
+export type ConsentBasis = 'adult_self' | 'guardian_verified';
 
 export interface DeviceConsent {
   basis: ConsentBasis;
   confirmedAt: string;
   textVersion: string;
   policyVersion: string;
-  /** The user's own opt-in to sending anonymous answers for research (pilot sessions only). */
+  /** Opt-in to anonymous statistics (§1.6); for 15–17 the parent decides. */
+  stats?: boolean;
+  /** Opt-in to research data at university sessions (§2.3, adults only). */
   research?: boolean;
 }
 
+/** The verified parent or guardian of a 15–17 profile. Kept on the device only, encrypted. */
+export interface GuardianRecord {
+  name: string;
+  relation: 'mother' | 'father' | 'legal_guardian';
+  /** Checked on the device (lib/national-id); never sent anywhere. */
+  nationalId: string;
+  /** Last 3 digits of the phone number verified by SMS code. */
+  phoneLast3: string;
+  phoneVerifiedAt: string;
+  pin: PinHash;
+}
+
 /** 18–20 is kept apart from 21+ because the Civil Code puts full capacity at 21 (open legal question). */
-export type AgeBand = 'under18' | '18-20' | '21-25' | '26plus';
+export type AgeBand = 'under15' | '15-17' | '18-20' | '21-25' | '26plus';
 
 export interface LocalProfile {
   id: string;
@@ -35,6 +50,7 @@ export interface LocalProfile {
   locale: 'ar' | 'en';
   ageBand: AgeBand | null;
   consent: DeviceConsent | null;
+  guardian: GuardianRecord | null;
   createdAt: string;
 }
 
@@ -75,6 +91,7 @@ export class DeviceStore {
       locale: 'ar',
       ageBand: null,
       consent: null,
+      guardian: null,
       ...input,
       id: crypto.randomUUID(),
       createdAt: this.now().toISOString(),
@@ -110,8 +127,10 @@ export class DeviceStore {
     if ((await this.getActiveId()) === id) await this.setActiveId(null);
   }
 
-  /** Removes everything on this device (end of the pilot, or a reset). */
+  /** Removes everything on this device and discards its encryption key. */
   async wipeAll(): Promise<void> {
     await this.kv.clear();
+    const { forgetDeviceKey } = await import('./kv');
+    await forgetDeviceKey();
   }
 }

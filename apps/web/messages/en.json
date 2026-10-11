@@ -2044,22 +2044,30 @@
       "ageTitle": "Before we start",
       "ageQuestion": "How old are you?",
       "ages": {
-        "under18": "Under 18",
+        "under15": "Under 15",
+        "15-17": "15–17",
         "18-20": "18–20",
         "21-25": "21–25",
         "26plus": "26 or older"
       },
-      "tooYoungTitle": "anaBokra is for ages 18 and up for now",
-      "tooYoungBody": "A version for school students is coming. The career library is open to browse in the meantime.",
+      "tooYoungTitle": "anaBokra is for ages 15 and up",
+      "tooYoungBody": "The career library is open to browse in the meantime.",
       "browseCareers": "Career library",
       "back": "Back",
+      "handOverTitle": "Now it's your parent's or guardian's turn",
+      "handOverBody": "Please hand them this phone. They need to verify and agree before you start.",
+      "handOverButton": "I'm the parent or guardian",
+      "notNowDone": "No problem. Nothing has been saved. You can come back to this any time.",
+      "thanks": "Thank you. Please hand the phone back to your child.",
+      "continue": "Continue",
       "acceptTitle": "Before you start",
       "acceptPoints": {
-        "p1": "Your answers and results stay on this device. Nothing is sent to anaBokra: no account, no phone number, no AI.",
+        "p1": "Your answers and results stay on this device, encrypted. Nothing is sent to anaBokra: no account, no AI.",
         "p2": "Anyone who can open the app on this device can see your results. You can delete everything at any time.",
         "p3": "Results are guidance to explore, not a diagnosis."
       },
       "acceptCheck": "I am 18 or older, I accept the Terms of Use and I have read the Privacy Policy (version {version}).",
+      "statsCheck": "Optional: share anonymous statistics to help improve anaBokra. No name, phone number or anything that points to me.",
       "start": "Start",
       "docs": {
         "privacy-policy": "Privacy Policy",
@@ -2072,7 +2080,70 @@
       "title": "Delete everything?",
       "body": "This removes your profile, answers, results, islands and points from this device. It can't be undone, and anaBokra can't recover them, because we never had them.",
       "confirm": "Delete everything",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "pinPrompt": "Parent PIN",
+      "pinWrong": "That PIN isn't right."
+    },
+    "guardian": {
+      "title": "Your permission for your child to use anaBokra",
+      "points": {
+        "p1": "anaBokra helps your child explore careers. They answer questions about their interests, personality, work values and abilities.",
+        "p2": "Everything stays on this device, encrypted. Answers, results and your details are not sent to anaBokra. No account, no AI.",
+        "p3": "To make sure a parent or guardian agrees, we ask you to verify your phone number with a code and to give your national ID number. Your ID number is checked and stored on this device only, encrypted, and is never sent to anaBokra. Your phone number is used only to send the code and is not kept.",
+        "p4": "You set a parent PIN. It is needed to delete data or change these settings.",
+        "p5": "Results are guidance, not a diagnosis, and are not used for any grade or admission."
+      },
+      "detailsTitle": "Your details",
+      "name": "Full name",
+      "relation": "Relationship",
+      "relations": {
+        "mother": "Mother",
+        "father": "Father",
+        "legal_guardian": "Legal guardian"
+      },
+      "nid": "National ID number (14 digits)",
+      "nidHelp": "Checked on this device and stored here only, encrypted. Never sent to anaBokra.",
+      "nidOk": "Valid national ID.",
+      "nidNeedsRelation": "Choose your relationship to check the ID.",
+      "nidErrors": {
+        "format": "The national ID must be 14 digits.",
+        "century": "This doesn't look like a valid national ID.",
+        "birth_date": "The date of birth in this ID isn't valid.",
+        "future": "The date of birth in this ID is in the future.",
+        "governorate": "The governorate code in this ID isn't valid.",
+        "too_young": "A parent or guardian must be 21 or older.",
+        "gap": "This ID doesn't match a parent of a 15–17-year-old. If you are the legal guardian, choose \"Legal guardian\"."
+      },
+      "phone": "Your mobile number",
+      "sendCode": "Send code",
+      "resend": "Send again",
+      "codeLabel": "6-digit code",
+      "verify": "Verify",
+      "phoneHelp": "Sent by SMS. Your number is not stored after verification.",
+      "verified": "Phone verified (number ending {last3}).",
+      "phoneErrors": {
+        "invalid_phone": "Please enter a valid mobile number.",
+        "rate_limited": "Too many attempts. Please wait a little and try again.",
+        "sms_unavailable": "SMS isn't available right now. Please try again later.",
+        "send_failed": "We couldn't send the code. Please try again.",
+        "invalid_code": "That code isn't right.",
+        "expired": "The code has expired. Please send a new one.",
+        "too_many_attempts": "Too many wrong codes. Please send a new one.",
+        "network": "No connection. Please check the internet and try again."
+      },
+      "tickTitle": "Please tick to confirm",
+      "checks": {
+        "c1": "I am this young person's parent or legal guardian, I am 21 or older, and the details above are true. I understand that giving false details is my responsibility.",
+        "c2": "I agree that my child uses anaBokra on this device, and that their answers and results, and my details, are saved on this device only, encrypted.",
+        "c3": "I have read the Terms of Use and the Privacy Policy (version {version}) and accept them on my child's behalf.",
+        "c4": "Optional: share anonymous statistics from my child's use to help improve anaBokra."
+      },
+      "pin": "Parent PIN (4–6 digits)",
+      "pinConfirm": "Enter the PIN again",
+      "pinHelp": "Needed to delete data or change these settings. Keep it to yourself.",
+      "pinMismatch": "The PINs must match and be 4–6 digits.",
+      "agree": "I agree",
+      "notNow": "Not now"
     }
   }
 }
