@@ -45,7 +45,8 @@ export function DevLocalClient() {
     snapshot().then(setSnap, (e: unknown) => setError(String(e)));
   }, []);
 
-  const run = async () => {
+  /** Answers the four stations; with `finish`, also makes the result (else the "About you" stop stays open). */
+  const run = async (finish: boolean) => {
     setBusy(true);
     setError(null);
     try {
@@ -69,9 +70,9 @@ export function DevLocalClient() {
         await rt.service.completeStation(rt.userId, { sessionId: session.id, station });
       }
       const t2 = performance.now();
-      const result = await rt.service.finalize(rt.userId, { sessionId: session.id });
+      const result = finish ? await rt.service.finalize(rt.userId, { sessionId: session.id }) : null;
       const t3 = performance.now();
-      setReport({ loadMs: t1 - t0, answerMs: t2 - t1, scoreMs: t3 - t2, matches: result.matches.length });
+      setReport(result ? { loadMs: t1 - t0, answerMs: t2 - t1, scoreMs: t3 - t2, matches: result.matches.length } : null);
       setSnap(await snapshot());
     } catch (e) {
       setError(String(e));
@@ -113,8 +114,11 @@ export function DevLocalClient() {
         </ol>
       )}
       <div className="flex gap-2">
-        <button onClick={run} disabled={busy} className="min-h-10 rounded-lg bg-primary px-4 text-primary-foreground disabled:opacity-50">
+        <button onClick={() => void run(true)} disabled={busy} className="min-h-10 rounded-lg bg-primary px-4 text-primary-foreground disabled:opacity-50">
           {busy ? t('running') : t('run')}
+        </button>
+        <button onClick={() => void run(false)} disabled={busy} className="min-h-10 rounded-lg border px-4" data-testid="fill-only">
+          {t('fill')}
         </button>
         <button onClick={wipe} disabled={busy} className="min-h-10 rounded-lg border px-4">
           {t('wipe')}

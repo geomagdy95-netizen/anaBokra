@@ -37,7 +37,7 @@ Under-15s may not use anaBokra.
 
 | Data | Examples | Why |
 |---|---|---|
-| Profile | Age band (15–17, 18–20, 21–25, 26+), stage (school, university or graduate), language; gender only if given (used only for Arabic grammar); a pilot event code if entered | Show your profile and relevant routes |
+| Profile | Age band (15–17, 18–20, 21–25, 26+), stage (school, university or graduate), language; if you answer them: field of study and year of study or graduation, school system, track and expected score (school only), study budget and governorate; gender only if given (used only for Arabic grammar); a pilot event code if entered | Show your profile and relevant routes |
 | Answers | Your answers to the interests, personality, work values and abilities questions | Calculate your scores and career matches |
 | Results | Scores, career matches, the islands you explore, progress and points | Show your results and your map |
 | Readiness check | Your answers to the short "how ready do you feel" questions | Show how your readiness changes |

@@ -244,8 +244,8 @@
       "context": {
         "eyebrow": "Optional last stop",
         "title": "About you",
-        "blurb": "A few quick questions about your school and plans.",
-        "intro": "A few quick questions help us suggest paths that fit your school track and situation. Skip any you'd rather not answer.",
+        "blurb": "A few quick questions about your studies and plans.",
+        "intro": "A few quick questions help us suggest paths that fit your studies and situation. Skip any you'd rather not answer.",
         "how": "Everything here is optional and saves as you go.",
         "doneTitle": "Done with the questions"
       }
@@ -343,8 +343,47 @@
       }
     },
     "context": {
-      "lead": "A few quick questions, all optional. They help us suggest paths that fit your school and plans.",
+      "lead": "A few quick questions, all optional. They help us suggest paths that fit where you are now.",
       "choose": "Choose…",
+      "stage": {
+        "q": "Where are you now?",
+        "school": "At school",
+        "university": "At university or an institute",
+        "graduate": "Graduated"
+      },
+      "field": {
+        "q": "What do you study?",
+        "qPast": "What did you study?",
+        "medicine": "Medicine",
+        "dentistry": "Dentistry",
+        "pharmacy": "Pharmacy",
+        "nursing": "Nursing",
+        "allied_health": "Physical therapy, applied health sciences or nutrition",
+        "veterinary": "Veterinary medicine",
+        "engineering": "Engineering",
+        "computing": "Computers and information / AI",
+        "science": "Science",
+        "agriculture": "Agriculture",
+        "commerce": "Commerce or business administration",
+        "economics_politics": "Economics and political science",
+        "law": "Law",
+        "arts_humanities": "Arts and humanities (incl. psychology and sociology)",
+        "languages": "Al-Alsun / languages and translation",
+        "mass_communication": "Mass communication",
+        "education": "Education",
+        "arts": "Fine arts, applied arts or music",
+        "tourism_archaeology": "Tourism and hotels, or archaeology",
+        "technical": "Technical institute or technological college",
+        "other": "Something else"
+      },
+      "year": {
+        "q": "Which year are you in?",
+        "n": "Year {n}",
+        "later": "Year 7 or later"
+      },
+      "gradYear": {
+        "q": "When did you graduate?"
+      },
       "curriculum": {
         "q": "Which school system are you in?",
         "thanaweya": "Thanaweya Amma",
@@ -372,6 +411,12 @@
         "lowHint": "Public university, low fees",
         "mediumHint": "Some private options",
         "highHint": "Private or international"
+      },
+      "budgetMore": {
+        "q": "If you studied more (courses or a further degree), what budget could you manage?",
+        "lowHint": "Free or low-cost courses",
+        "mediumHint": "Some paid courses or diplomas",
+        "highHint": "Private programs or a master's"
       },
       "governorate": {
         "q": "Which governorate do you live in?"
@@ -599,7 +644,9 @@
     "flags": {
       "trackMismatch": "Your Thanaweya track may not lead to this career directly.",
       "scoreReach": "The usual minimum score may be above your expected score.",
-      "costHigh": "Study costs may be high for your budget."
+      "costHigh": "Study costs may be high for your budget.",
+      "fieldMatch": "Your field of study is one of the usual routes into this career.",
+      "fieldSwitch": "Most people come to this career from a different field of study; moving in usually means extra courses or study."
     },
     "riasec": {
       "R": "Realistic",
@@ -2034,6 +2081,7 @@
     "none": "None",
     "run": "Run a demo assessment",
     "running": "Running…",
+    "fill": "Answer the four stations only",
     "wipe": "Wipe this device",
     "report": "Loaded in {load}, answered in {answer}, scored in {score}; {matches} matches."
   },

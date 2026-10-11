@@ -243,10 +243,27 @@ export class SupabaseAssessmentRepo implements AssessmentRepo {
 
   async getUserContext(userId: string): Promise<UserContext> {
     const p = ok(
-      await this.user.from('profiles').select('curriculum, track, expected_score_pct, budget').eq('id', userId).maybeSingle(),
-    ) as { curriculum: UserContext['curriculum'] | null; track: string | null; expected_score_pct: number | string | null; budget: UserContext['budget'] | null } | null;
+      await this.user
+        .from('profiles')
+        .select('stage, study_field, study_year, grad_year, curriculum, track, expected_score_pct, budget')
+        .eq('id', userId)
+        .maybeSingle(),
+    ) as {
+      stage: UserContext['stage'] | null;
+      study_field: UserContext['field'] | null;
+      study_year: number | null;
+      grad_year: number | null;
+      curriculum: UserContext['curriculum'] | null;
+      track: string | null;
+      expected_score_pct: number | string | null;
+      budget: UserContext['budget'] | null;
+    } | null;
     if (!p) return {};
     return {
+      ...(p.stage ? { stage: p.stage } : {}),
+      ...(p.study_field ? { field: p.study_field } : {}),
+      ...(p.study_year !== null ? { year: p.study_year } : {}),
+      ...(p.grad_year !== null ? { gradYear: p.grad_year } : {}),
       ...(p.curriculum ? { curriculum: p.curriculum } : {}),
       ...(p.track ? { track: p.track } : {}),
       ...(p.expected_score_pct !== null ? { expectedScorePct: Number(p.expected_score_pct) } : {}),
@@ -256,6 +273,10 @@ export class SupabaseAssessmentRepo implements AssessmentRepo {
 
   async updateUserContext(userId: string, patch: Partial<Record<keyof UserContext, UserContext[keyof UserContext] | null>>) {
     const set: Record<string, unknown> = {};
+    if (patch.stage !== undefined) set.stage = patch.stage;
+    if (patch.field !== undefined) set.study_field = patch.field;
+    if (patch.year !== undefined) set.study_year = patch.year;
+    if (patch.gradYear !== undefined) set.grad_year = patch.gradYear;
     if (patch.curriculum !== undefined) set.curriculum = patch.curriculum;
     if (patch.track !== undefined) set.track = patch.track;
     if (patch.expectedScorePct !== undefined) set.expected_score_pct = patch.expectedScorePct;

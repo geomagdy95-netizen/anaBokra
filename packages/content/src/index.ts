@@ -1,10 +1,12 @@
-import type {
-  AbilitiesInstrument,
-  CareerForMatching,
-  CareerTraits,
-  I18n,
-  LikertInstrument,
-  ValuesInstrument,
+import {
+  STUDY_FIELDS,
+  type AbilitiesInstrument,
+  type CareerForMatching,
+  type CareerTraits,
+  type StudyField,
+  type I18n,
+  type LikertInstrument,
+  type ValuesInstrument,
 } from '@anabokra/engine';
 import interestsJson from '../instruments/interests.json';
 import personalityJson from '../instruments/personality.json';
@@ -13,6 +15,7 @@ import abilitiesJson from '../instruments/abilities.json';
 import readinessJson from '../instruments/readiness.json';
 import catalogJson from '../careers/catalog.json';
 import careersJson from '../careers/careers.generated.json';
+import studyFieldsJson from '../careers/study-fields.json';
 
 export const instruments = {
   interests: interestsJson as LikertInstrument,
@@ -40,7 +43,13 @@ export interface Career extends CareerForMatching {
 }
 
 export const clusters: Cluster[] = catalogJson.clusters;
-export const careers = careersJson.careers as Career[];
+const studyFields = studyFieldsJson.fields as Record<string, string[]>;
+
+/** Careers with their usual fields of study merged in (careers/study-fields.json). */
+export const careers = (careersJson.careers as Career[]).map((c): Career => {
+  const fields = (studyFields[c.id] ?? []).filter((f): f is StudyField => (STUDY_FIELDS as readonly string[]).includes(f));
+  return fields.length ? { ...c, egypt: { ...c.egypt, fields } } : c;
+});
 export const careerSources = careersJson.sources;
 
 export const careerById = (id: string) => careers.find((c) => c.id === id);

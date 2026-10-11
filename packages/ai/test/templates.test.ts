@@ -16,7 +16,7 @@ const watchOuts: WatchOut[] = [
   ...BIG_FIVE.map((trait) => ({ kind: 'personalityStretch' as const, trait })),
   ...ABILITY_DOMAINS.map((domain) => ({ kind: 'abilityGap' as const, domain, gap: 0.3 })),
 ];
-const flags: ContextFlag[] = ['trackMismatch', 'scoreReach', 'costHigh'];
+const flags: ContextFlag[] = ['trackMismatch', 'scoreReach', 'costHigh', 'fieldMatch', 'fieldSwitch'];
 
 describe('template explanations', () => {
   for (const locale of ['en', 'ar'] as const) {
@@ -34,6 +34,16 @@ describe('template explanations', () => {
       expect(new Set(lines).size).toBe(lines.length);
     });
   }
+
+  it('shows a matching field of study as a reason, and a field switch as a caution', () => {
+    const m: CareerMatch = { ...fullMatch, flags: ['fieldMatch'] };
+    const e = templateExplanation(m, careers[0], 'en', 'neutral');
+    expect(e.reasons[0]).toContain('usual routes');
+    expect(e.flags).toEqual([]);
+    const s = templateExplanation({ ...fullMatch, flags: ['fieldSwitch'] }, careers[0], 'en', 'neutral');
+    expect(s.flags).toHaveLength(1);
+    expect(s.reasons).toHaveLength(fullMatch.reasons.length);
+  });
 
   it('uses feminine Arabic forms for female users and masculine otherwise', () => {
     const interest: Reason = { kind: 'interest', types: ['S'], strength: 0.9 };

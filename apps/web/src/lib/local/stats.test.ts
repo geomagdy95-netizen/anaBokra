@@ -11,7 +11,7 @@ import { MemoryKv } from './kv';
 import { localRuntimeFor } from './runtime';
 import { statsKey, syncStats } from './stats';
 
-async function finished({ stats }: { stats: boolean }) {
+async function finished({ stats, context }: { stats: boolean; context?: Record<string, unknown> }) {
   const kv = new MemoryKv();
   const device = new DeviceStore(kv);
   let profile = await device.createProfile({ mode: 'phone', ageBand: '18-20', locale: 'ar' });
@@ -22,6 +22,7 @@ async function finished({ stats }: { stats: boolean }) {
     await rt.service.saveResponses(rt.userId, { sessionId: session.id, station, responses });
     await rt.service.completeStation(rt.userId, { sessionId: session.id, station });
   }
+  if (context) await rt.service.saveContext(rt.userId, { sessionId: session.id, context });
   const result = await rt.service.finalize(rt.userId, { sessionId: session.id });
   return { kv, rt, result, profile };
 }
@@ -62,6 +63,15 @@ describe('sending', () => {
     const no = await finished({ stats: false });
     expect(await syncStats(no.rt, post)).toBe('skipped');
     expect(posted).toHaveLength(1);
+  });
+
+  it('sends the stage from the context station, and only the stage', async () => {
+    const { rt } = await finished({ stats: true, context: { stage: 'university', field: 'computing', year: 2 } });
+    const posted: unknown[] = [];
+    await syncStats(rt, async (s) => (posted.push(s), true));
+    expect(posted).toHaveLength(1);
+    expect(posted[0]).toMatchObject({ stage: 'university' });
+    expect(JSON.stringify(posted[0])).not.toMatch(/computing|"year"/);
   });
 
   it('retries after a failed send', async () => {

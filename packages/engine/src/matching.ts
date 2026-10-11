@@ -160,20 +160,32 @@ function watchOutsFor(user: UserProfile, career: CareerForMatching): WatchOut[] 
   return out;
 }
 
-/** Context never removes a career; it only adds flags the UI explains. */
+/**
+ * Context never removes a career; it only adds flags the UI explains. School rules (track, expected
+ * score) apply at school only; at university or after it, the field of study is compared instead.
+ */
 export function contextFlags(ctx: UserContext | undefined, career: CareerForMatching): ContextFlag[] {
   const eg = career.egypt;
   if (!ctx || !eg) return [];
   const flags: ContextFlag[] = [];
-  if (ctx.curriculum === 'thanaweya' && ctx.track && eg.tracks?.length && !eg.tracks.includes(ctx.track))
-    flags.push('trackMismatch');
-  if (
-    ctx.expectedScorePct !== undefined &&
-    eg.typicalMinScorePct !== undefined &&
-    ctx.expectedScorePct < eg.typicalMinScorePct - MATCH_SETTINGS.scoreReachMargin
-  )
-    flags.push('scoreReach');
-  if (eg.costLevel === 'high' && ctx.budget && ctx.budget !== 'high') flags.push('costHigh');
+  const atSchool = ctx.stage === undefined || ctx.stage === 'school';
+  if (atSchool) {
+    if (ctx.curriculum === 'thanaweya' && ctx.track && eg.tracks?.length && !eg.tracks.includes(ctx.track))
+      flags.push('trackMismatch');
+    if (
+      ctx.expectedScorePct !== undefined &&
+      eg.typicalMinScorePct !== undefined &&
+      ctx.expectedScorePct < eg.typicalMinScorePct - MATCH_SETTINGS.scoreReachMargin
+    )
+      flags.push('scoreReach');
+  }
+  let switching = atSchool;
+  if (!atSchool && ctx.field && ctx.field !== 'other' && eg.fields?.length) {
+    switching = !eg.fields.includes(ctx.field);
+    flags.push(switching ? 'fieldSwitch' : 'fieldMatch');
+  }
+  // Study costs matter for a route still ahead: at school, or when switching fields.
+  if (switching && eg.costLevel === 'high' && ctx.budget && ctx.budget !== 'high') flags.push('costHigh');
   return flags;
 }
 

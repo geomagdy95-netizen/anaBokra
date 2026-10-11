@@ -1,4 +1,4 @@
-import type { CareerMatch, ContextFlag, Reason, WatchOut } from '@anabokra/engine';
+import { POSITIVE_FLAGS, type CareerMatch, type ContextFlag, type Reason, type WatchOut } from '@anabokra/engine';
 import {
   ABILITY_LABELS,
   RIASEC_LABELS,
@@ -82,6 +82,14 @@ export function flagLine(flag: ContextFlag, name: string, locale: Locale): strin
       return locale === 'ar'
         ? 'قد تكون تكلفة الدراسة لهذه المهنة أعلى من ميزانيتك، فقارن بين الخيارات والتكاليف مبكرًا.'
         : 'Studying toward this career can cost more than your budget, so it is worth comparing options and costs early.';
+    case 'fieldMatch':
+      return locale === 'ar'
+        ? `مجال دراستك من الطرق المعتادة إلى مهنة ${name}، فهي تبني على ما تعلّمته بالفعل.`
+        : `Your field of study is one of the usual routes into the ${name} career, so it builds on what you already know.`;
+    case 'fieldSwitch':
+      return locale === 'ar'
+        ? `معظم من يعملون في مهنة ${name} يأتون من مجال دراسة مختلف عن مجالك. الانتقال إليها ممكن، وعادةً يحتاج إلى دورات أو دراسة إضافية.`
+        : `Most people come to the ${name} career from a different field of study than yours. Moving in is possible, usually with extra courses or further study.`;
   }
 }
 
@@ -104,9 +112,12 @@ export function templateExplanation(
 ): CareerExplanation {
   const name = careerName(career, match.careerId, locale);
   const byStrength = [...match.reasons].sort((a, b) => b.strength - a.strength);
-  const reasons = match.reasons.map((r) => reasonLine(r, name, locale, gender));
+  const good = match.flags.filter((f) => POSITIVE_FLAGS.includes(f));
+  // Good-news flags (the field of study fits) read as reasons, first, since cards show only the top
+  // few; the rest are cautions.
+  const reasons = [...good.map((f) => flagLine(f, name, locale)), ...match.reasons.map((r) => reasonLine(r, name, locale, gender))];
   const watchOuts = match.watchOuts.map((w) => watchOutLine(w, name, locale, gender));
-  const flags = match.flags.map((f) => flagLine(f, name, locale));
+  const flags = match.flags.filter((f) => !good.includes(f)).map((f) => flagLine(f, name, locale));
 
   const ranked = byStrength.map((r) => reasonLine(r, name, locale, gender));
   const caution = watchOuts[0] ?? flags[0];

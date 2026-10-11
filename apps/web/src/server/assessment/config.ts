@@ -1,5 +1,5 @@
 import { instruments } from '@anabokra/content';
-import type { AbilitiesInstrument, LikertInstrument, ValuesInstrument } from '@anabokra/engine';
+import type { AbilitiesInstrument, LikertInstrument, UserContext, ValuesInstrument } from '@anabokra/engine';
 
 /** Instrument-set tag stored in results.assessment_version. Bump when the set of instruments or scoring rules changes. */
 export const ASSESSMENT_VERSION = '2026.1';
@@ -59,7 +59,15 @@ export function currentInstrumentVersions(kind: SessionKind): Record<string, str
   return out;
 }
 
-export const CONTEXT_FIELDS = ['curriculum', 'track', 'expectedScorePct', 'budget'] as const;
+/** Context questions asked at each stage (the stage question itself counts as one). */
+export const CONTEXT_FIELDS = {
+  school: ['stage', 'curriculum', 'track', 'expectedScorePct', 'budget'],
+  university: ['stage', 'field', 'year', 'budget'],
+  graduate: ['stage', 'field', 'gradYear', 'budget'],
+  none: ['stage', 'budget'],
+} as const satisfies Record<string, readonly (keyof UserContext)[]>;
+
+export const contextFieldsFor = (ctx: UserContext | undefined): readonly (keyof UserContext)[] => CONTEXT_FIELDS[ctx?.stage ?? 'none'];
 
 export const likert = (id: 'interests' | 'personality' | 'readiness') => instruments[id] as LikertInstrument;
 export const valuesInstrument = () => instruments.values as ValuesInstrument;

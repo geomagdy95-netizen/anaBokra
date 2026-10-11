@@ -1,3 +1,4 @@
+import { careerById } from '@anabokra/content';
 import { describe, expect, it } from 'vitest';
 
 import { AssessmentError, type AssessmentErrorCode } from '@/server/assessment/errors';
@@ -48,6 +49,22 @@ describe('assessment on the device', () => {
     const result = await rt.service.finalize(rt.userId, { sessionId: session.id });
     expect(result.coverage).toBeGreaterThan(0.9);
     expect(result.matches.length).toBeGreaterThan(0);
+  });
+
+  it('marks careers that build on the field of study, or need a switch', async () => {
+    const { rt } = await setup();
+    const { session } = await rt.service.startSession(rt.userId, {});
+    await answerAll(rt, session.id);
+    await rt.service.saveContext(rt.userId, { sessionId: session.id, context: { stage: 'graduate', field: 'law', gradYear: 2025 } });
+    const result = await rt.service.finalize(rt.userId, { sessionId: session.id });
+    const matches = result.matches as { careerId: string; flags: string[] }[];
+    expect(matches.length).toBeGreaterThan(0);
+    for (const m of matches) {
+      const fields = careerById(m.careerId)?.egypt?.fields ?? [];
+      const expected = fields.length === 0 ? [] : fields.includes('law') ? ['fieldMatch'] : ['fieldSwitch'];
+      expect(m.flags.filter((f) => f.startsWith('field')), m.careerId).toEqual(expected);
+    }
+    expect(matches.flatMap((m) => m.flags)).not.toContain('trackMismatch');
   });
 
   it('keeps everything across a reload (a new runtime over the same store)', async () => {

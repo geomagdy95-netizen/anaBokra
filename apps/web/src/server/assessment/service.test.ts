@@ -327,12 +327,21 @@ describe('progress and stations', () => {
   it('stores the context snapshot and mirrors it to the profile', async () => {
     const { svc, repo } = setup();
     const id = await startFull(svc);
-    await svc.saveContext(ADULT, { sessionId: id, context: { curriculum: 'thanaweya', track: 'science', expectedScorePct: 92 } });
+    await svc.saveContext(ADULT, { sessionId: id, context: { stage: 'school', curriculum: 'thanaweya', track: 'science', expectedScorePct: 92 } });
     const p = await svc.saveContext(ADULT, { sessionId: id, context: { budget: 'low', track: null } });
-    expect(p.progress.stations.find((s) => s.id === 'context')).toMatchObject({ answered: 3, expected: 4 });
-    expect(await repo.getUserContext(ADULT)).toEqual({ curriculum: 'thanaweya', expectedScorePct: 92, budget: 'low' });
+    expect(p.progress.stations.find((s) => s.id === 'context')).toMatchObject({ answered: 4, expected: 5 });
+    expect(await repo.getUserContext(ADULT)).toEqual({ stage: 'school', curriculum: 'thanaweya', expectedScorePct: 92, budget: 'low' });
     expect(await code(svc.saveContext(ADULT, { sessionId: id, context: { budget: 'rich' } }))).toBe('invalid_input');
     expect(await code(svc.saveContext(ADULT, { sessionId: id, context: {} }))).toBe('invalid_input');
+  });
+
+  it('asks field and year at university, and counts only that stage’s questions', async () => {
+    const { svc } = setup();
+    const id = await startFull(svc);
+    const p = await svc.saveContext(ADULT, { sessionId: id, context: { stage: 'university', field: 'law', year: 3 } });
+    expect(p.progress.stations.find((s) => s.id === 'context')).toMatchObject({ answered: 3, expected: 4 });
+    expect(await code(svc.saveContext(ADULT, { sessionId: id, context: { field: 'astrology' } }))).toBe('invalid_input');
+    expect(await code(svc.saveContext(ADULT, { sessionId: id, context: { year: 9 } }))).toBe('invalid_input');
   });
 });
 

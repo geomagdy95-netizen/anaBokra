@@ -30,6 +30,38 @@ export type WorkValue = (typeof WORK_VALUES)[number];
 export const ABILITY_DOMAINS = ['verbal', 'numerical', 'logical', 'spatial', 'creative', 'manual'] as const;
 export type AbilityDomain = (typeof ABILITY_DOMAINS)[number];
 
+/**
+ * Fields of study, grouped the way Egyptian faculties are. Used to link a student's or graduate's
+ * faculty to the usual routes into a career. 'other' never matches anything.
+ */
+export const STUDY_FIELDS = [
+  'medicine',
+  'dentistry',
+  'pharmacy',
+  'nursing',
+  'allied_health',
+  'veterinary',
+  'engineering',
+  'computing',
+  'science',
+  'agriculture',
+  'commerce',
+  'economics_politics',
+  'law',
+  'arts_humanities',
+  'languages',
+  'mass_communication',
+  'education',
+  'arts',
+  'tourism_archaeology',
+  'technical',
+  'other',
+] as const;
+export type StudyField = (typeof STUDY_FIELDS)[number];
+
+export const STAGES = ['school', 'university', 'graduate'] as const;
+export type Stage = (typeof STAGES)[number];
+
 /** A score per key, every value normalized to 0..1. */
 export type Scores<K extends string> = Record<K, number>;
 
@@ -164,6 +196,8 @@ export interface CareerEgyptContext {
   typicalMinScorePct?: number;
   /** Typical cost of the main study route. */
   costLevel?: 'low' | 'medium' | 'high';
+  /** Fields of study that are usual routes in. Empty/undefined = no usual field (any). */
+  fields?: StudyField[];
 }
 
 export interface CareerForMatching {
@@ -185,6 +219,12 @@ export interface UserProfile {
 }
 
 export interface UserContext {
+  /** School (15–17), university or graduate. Undefined is treated as school, for older sessions. */
+  stage?: Stage;
+  /** University and graduate stages: field of study, and year of study or of graduation. */
+  field?: StudyField;
+  year?: number;
+  gradYear?: number;
   curriculum?: 'thanaweya' | 'igcse' | 'american' | 'ib' | 'other';
   track?: string;
   expectedScorePct?: number;
@@ -208,7 +248,10 @@ export type WatchOut =
   | { kind: 'personalityStretch'; trait: BigFive }
   | { kind: 'abilityGap'; domain: AbilityDomain; gap: number };
 
-export type ContextFlag = 'trackMismatch' | 'scoreReach' | 'costHigh';
+export type ContextFlag = 'trackMismatch' | 'scoreReach' | 'costHigh' | 'fieldMatch' | 'fieldSwitch';
+
+/** Flags that are good news (shown with the reasons), not cautions. */
+export const POSITIVE_FLAGS: readonly ContextFlag[] = ['fieldMatch'];
 
 export interface CareerMatch {
   careerId: string;

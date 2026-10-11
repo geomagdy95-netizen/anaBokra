@@ -1,4 +1,6 @@
-import { buildStatsSummary } from '@/lib/stats-summary';
+import { STAGES } from '@anabokra/engine';
+
+import { buildStatsSummary, type StatsSummary } from '@/lib/stats-summary';
 
 import type { LocalRuntime } from './runtime';
 
@@ -42,10 +44,13 @@ async function syncOnce(rt: LocalRuntime, post: Post): Promise<SyncOutcome> {
     const kv = rt.device.kv;
     const sent = (await kv.get<string[]>(statsKey(rt.userId))) ?? [];
     if (sent.includes(result.id)) return 'skipped';
+    // The stage as it was when the result was made (the context station), if it was answered.
+    const raw = (result.context as { stage?: unknown } | null | undefined)?.stage;
+    const stage: StatsSummary['stage'] = STAGES.find((s) => s === raw) ?? null;
     const summary = buildStatsSummary({
       result: { scores: result.scores as Record<string, unknown>, matches: result.matches },
       ageBand: profile.ageBand,
-      stage: null,
+      stage,
       locale: profile.locale,
     });
     if (!(await post(summary))) return 'failed';

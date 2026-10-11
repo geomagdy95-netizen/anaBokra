@@ -1,3 +1,4 @@
+import { STAGES, STUDY_FIELDS } from '@anabokra/engine';
 import { z } from 'zod';
 
 import { READINESS } from './config';
@@ -7,6 +8,11 @@ const MAX_UI_BYTES = 4096;
 
 export const contextSchema = z
   .strictObject({
+    stage: z.enum(STAGES).nullish(),
+    field: z.enum(STUDY_FIELDS).nullish(),
+    /** Year of study (1–7; medicine runs longer). */
+    year: z.number().int().min(1).max(7).nullish(),
+    gradYear: z.number().int().min(1990).max(2100).nullish(),
     curriculum: z.enum(['thanaweya', 'igcse', 'american', 'ib', 'other']).nullish(),
     track: z.string().trim().min(1).max(40).nullish(),
     expectedScorePct: z.number().min(0).max(100).nullish(),

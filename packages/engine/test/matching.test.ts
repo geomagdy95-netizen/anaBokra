@@ -106,6 +106,24 @@ describe('contextFlags', () => {
   it('ignores track rules for non-Thanaweya curricula', () => {
     expect(contextFlags({ curriculum: 'igcse', track: 'literary' }, c)).toEqual([]);
   });
+
+  const withFields = { ...c, egypt: { ...c.egypt, fields: ['medicine' as const] } };
+
+  it('compares the field of study at university and after, not the school track or score', () => {
+    const stale = { curriculum: 'thanaweya' as const, track: 'literary', expectedScorePct: 50, budget: 'low' as const };
+    expect(contextFlags({ ...stale, stage: 'university', field: 'medicine', year: 3 }, withFields)).toEqual(['fieldMatch']);
+    expect(contextFlags({ ...stale, stage: 'graduate', field: 'commerce', gradYear: 2025 }, withFields)).toEqual([
+      'fieldSwitch',
+      'costHigh',
+    ]);
+    expect(contextFlags({ ...stale, stage: 'school' }, withFields)).toEqual(['trackMismatch', 'scoreReach', 'costHigh']);
+  });
+
+  it("adds no field flag for 'other', no field, or a career open to any field", () => {
+    expect(contextFlags({ stage: 'university', field: 'other' }, withFields)).toEqual([]);
+    expect(contextFlags({ stage: 'graduate' }, withFields)).toEqual([]);
+    expect(contextFlags({ stage: 'university', field: 'law' }, c)).toEqual([]);
+  });
 });
 
 describe('rankCareers & surprisingMatches', () => {

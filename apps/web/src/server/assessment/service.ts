@@ -4,7 +4,7 @@ import type { ZodType } from 'zod';
 
 import {
   ASSESSMENT_VERSION,
-  CONTEXT_FIELDS,
+  contextFieldsFor,
   currentInstrumentVersions,
   READINESS,
   stationConfig,
@@ -156,13 +156,13 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
   }
 
   function contextAnswered(ctx: UserContext | undefined): number {
-    return CONTEXT_FIELDS.filter((f) => ctx?.[f] !== undefined && ctx?.[f] !== null).length;
+    return contextFieldsFor(ctx).filter((f) => ctx?.[f] !== undefined && ctx?.[f] !== null).length;
   }
 
   function buildProgress(s: SessionRecord, responses: ResponseRecord[], hasResult: boolean): ProgressView {
     const stations = stationsFor(s.kind).map<StationProgress>((cfg) => {
       const instrumentId = cfg.instrumentId;
-      const expected = cfg.id === 'context' ? CONTEXT_FIELDS.length : stationItems(cfg.id).expected;
+      const expected = cfg.id === 'context' ? contextFieldsFor(progressOf(s).context).length : stationItems(cfg.id).expected;
       const answered =
         cfg.id === 'context' ? contextAnswered(progressOf(s).context) : countAnswered(responses, instrumentId!);
       return {
@@ -323,7 +323,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
     return { saved: byItem.size, station: view.stations.find((st) => st.id === cfg.id)!, progress: view };
   }
 
-  /** Context station: curriculum / track / expected score / budget. Mirrored to the profile. */
+  /** Context station: stage, then school (curriculum, track, expected score) or study (field, year), and budget. Mirrored to the profile. */
   async function saveContext(userId: string, rawInput: unknown) {
     const input = parse(saveContextSchema, rawInput);
     const s = await loadSession(userId, input.sessionId);

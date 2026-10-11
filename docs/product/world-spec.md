@@ -287,14 +287,14 @@ Build:
 
 1. **Local store** (section 4.2) and the offline content cache. *Done: on-device store, profiles, repository; assessment pages run from the device.*
 2. **First start:** age question, acceptance for 18+, *Delete all my data*. *Done.*
-3. **Profile:** stage (school for 15–17, university with faculty and year, or graduate), replacing the old context questions (curriculum, track, expected score) for adults.
-4. **Encryption on the device** for everything stored (profile, answers, results, parent details).
-5. **Parent flow for 15–17:** SMS code to the parent's phone (verification service, number not stored), national ID checked on the device, declaration, parent PIN; PIN required to delete data or change settings.
-6. **Moving phones:** passphrase-protected backup file, and a transfer code through an end-to-end encrypted relay (≤ 10 min).
+3. **Profile:** stage (school for 15–17, university with faculty and year, or graduate), replacing the old context questions (curriculum, track, expected score) for adults. *Done: the "About you" stop asks the stage first, then school questions or field of study (21 faculty groups) and year; each career is tagged with its usual fields (`packages/content/careers/study-fields.json`), and matches say whether a career builds on the user's field or means switching. The stage is sent with the anonymous statistics; the field and year are not.*
+4. **Encryption on the device** for everything stored (profile, answers, results, parent details). *Done (AES-GCM, non-extractable device key).*
+5. **Parent flow for 15–17:** SMS code to the parent's phone (verification service, number not stored), national ID checked on the device, declaration, parent PIN; PIN required to delete data or change settings. *Done; the SMS provider is still to choose (production refuses to send until one is added).*
+6. **Moving phones:** passphrase-protected backup file, and a transfer code through an end-to-end encrypted relay (≤ 10 min). *Done.*
 7. **Core island** with the four instruments as phases, the readiness check at the start and two weeks after results (in-app prompt), and the "clear and useful" rating right after results.
 8. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations. *Scoring done; re-scoring per instrument to do.*
-9. **Anonymous statistics opt-in** (adults; parent decides for 15–17), **event code, research opt-in** at sessions, and *Settings → Research data*.
-10. **Upload endpoint** for anonymous statistics, research answer sets and linked readiness records (4.3).
+9. **Anonymous statistics opt-in** (adults; parent decides for 15–17), **event code, research opt-in** at sessions, and *Settings → Research data*. *Statistics opt-in done; event code and research opt-in to do.*
+10. **Upload endpoint** for anonymous statistics, research answer sets and linked readiness records (4.3). *Statistics endpoint done (`anon_stats`); research uploads to do.*
 11. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
 12. **2.5D map and list view**, connected to the real results.
 
