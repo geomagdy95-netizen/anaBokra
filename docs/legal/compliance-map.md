@@ -58,7 +58,8 @@ Sections 1–5 and 7 below were written for the **server design** (accounts, Wha
 | Content requests | IP address, browser type | App users | Content server (OVH) | Technical only | [not stored / ≤ 7 days] |
 | Anonymous statistics | age band, stage, language, top areas/groups, score bands, completion, event code | Opt-in users | Stats server (OVH) | Not identifiable | Kept |
 | Research answer sets | item answers, event code, age band, stage, language | Opt-in adults at sessions | Stats server (OVH) | Not identifiable | ≤ 17 Jun 2027 |
-| Readiness pairs | readiness before/after, random code, event code | Opt-in adults at sessions | Stats server (OVH) | Pseudonymous | ≤ 17 Jun 2027 |
+| Readiness pairs | readiness before/after, random code, event code, language, items version | Opt-in adults at sessions | Stats server (OVH) | Pseudonymous | ≤ 17 Jun 2027, or when the phone turns research off (deleted by its random code) |
+| Pilot sessions | session code, partner, dates, research offered | — (not personal data) | Server (OVH), `pilot_events` | Yes | Until the pilot ends |
 | Transfer relay | encrypted payload, transfer code | Users moving phones | Relay (OVH) | **No** (ciphertext only) | ≤ 10 min |
 
 ---

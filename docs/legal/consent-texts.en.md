@@ -122,4 +122,6 @@ Field: [ event code ]  **Buttons:** [ Join ] [ Skip ]
 - Saying no changes nothing in the app.
 
 **Buttons:** [ Yes, I'll help ] [ No, thanks ]
+
+Shown only when the session's partner offers research (some universities may need an approval first). The choice can be changed later under *University session* on the main page. Turning it off stops all uploads and deletes the readiness answers sent from this phone (by its random code); answer sets carry no code and cannot be picked out.
 **[LAWYER: is this explicit consent for the linked readiness data? Is a research or ethics approval needed?]**

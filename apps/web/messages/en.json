@@ -2122,7 +2122,8 @@
         "terms-of-use": "Terms of Use",
         "children-data-notice": "Your data, in short"
       },
-      "restoreLink": "Moving from another phone? Restore your data"
+      "restoreLink": "Moving from another phone? Restore your data",
+      "joinLater": "You can also join a session later, from the bottom of the main page."
     },
     "deleteData": {
       "open": "Delete all my data",
@@ -2259,6 +2260,44 @@
       "confirm": "Confirm",
       "pinWrong": "That PIN isn't right.",
       "what": "Age group, language, top interest areas and career groups, score ranges and how many parts were finished. No name, phone number, ID or exact time."
+    },
+    "session": {
+      "title": "Joining a session?",
+      "intro": "Enter the code your session organiser gave you. It links your anonymous totals to the session report, which shows group results only.",
+      "field": "Session code",
+      "join": "Join",
+      "joining": "Checking…",
+      "skip": "Skip",
+      "errors": {
+        "invalid": "That doesn’t look like a session code. Check it and try again.",
+        "unknown_event": "We couldn’t find that session code. Check it with the organiser.",
+        "event_closed": "That session code isn’t open right now.",
+        "rate_limited": "Too many tries. Please wait a little and try again.",
+        "network": "We couldn’t reach anaBokra. Check your connection and try again.",
+        "generic": "Something went wrong. Please try again."
+      },
+      "settingTitle": "University session",
+      "none": "You haven’t joined a session.",
+      "open": "Enter a session code",
+      "current": "Session {code}",
+      "leave": "Leave this session",
+      "cancel": "Cancel"
+    },
+    "research": {
+      "title": "Help us check the Arabic questions? (optional)",
+      "p1": "In addition to the anonymous statistics, your individual answers are sent without your name or any ID, with only the session code, your age group, stage and language.",
+      "p2": "Your readiness answers before and after are linked by a random code made on your phone, so we can see how much they change.",
+      "p3": "We delete this data once the research is done, by 17 June 2027 at the latest. Results are published only as group statistics.",
+      "p4": "Saying no changes nothing in the app.",
+      "yes": "Yes, I’ll help",
+      "no": "No, thanks",
+      "settingOn": "You’re sharing research data with this session.",
+      "settingOff": "You’re not sharing research data.",
+      "switchLabel": "Share research data",
+      "stopped": "Stopped. The readiness answers sent from this phone were deleted. Your other answers were sent without any key, so they can’t be picked out; they are deleted with the rest of the research data by 17 June 2027.",
+      "stoppedNone": "Stopped. Nothing more will be sent. Answers already sent carry no key, so they can’t be picked out; they are deleted with the rest of the research data by 17 June 2027.",
+      "deleteFailed": "Stopped, but we couldn’t reach anaBokra to delete the readiness answers sent from this phone. Try again when you’re online.",
+      "retry": "Try deleting again"
     }
   }
 }

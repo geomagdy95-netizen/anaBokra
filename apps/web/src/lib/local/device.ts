@@ -20,8 +20,17 @@ export interface DeviceConsent {
   policyVersion: string;
   /** Opt-in to anonymous statistics (§1.6); for 15–17 the parent decides. */
   stats?: boolean;
-  /** Opt-in to research data at university sessions (§2.3, adults only). */
+  /** Opt-in to research data at university sessions (§2.3, adults only), and when it was given. */
   research?: boolean;
+  researchConfirmedAt?: string;
+}
+
+/** The university pilot session this profile joined (§2.2), as the server confirmed it. */
+export interface JoinedEvent {
+  code: string;
+  /** Whether that partner offers the research opt-in. */
+  research: boolean;
+  joinedAt: string;
 }
 
 /** The verified parent or guardian of a 15–17 profile. Kept on the device only, encrypted. */
@@ -51,6 +60,8 @@ export interface LocalProfile {
   ageBand: AgeBand | null;
   consent: DeviceConsent | null;
   guardian: GuardianRecord | null;
+  /** Pilot session, if one was joined. Optional: profiles made before sessions existed lack it. */
+  event?: JoinedEvent | null;
   createdAt: string;
 }
 
@@ -59,7 +70,7 @@ export type NewProfile = Partial<Omit<LocalProfile, 'id' | 'createdAt'>> & Pick<
 const PROFILE = (id: string) => `profile:${id}`;
 const ACTIVE = 'active-profile';
 /** Every key holding one profile's data starts with one of these. */
-export const PROFILE_SCOPED_PREFIXES = ['profile:', 'assessment:', 'stats:'] as const;
+export const PROFILE_SCOPED_PREFIXES = ['profile:', 'assessment:', 'stats:', 'research:'] as const;
 
 export class DeviceStore {
   constructor(
@@ -92,6 +103,7 @@ export class DeviceStore {
       ageBand: null,
       consent: null,
       guardian: null,
+      event: null,
       ...input,
       id: crypto.randomUUID(),
       createdAt: this.now().toISOString(),

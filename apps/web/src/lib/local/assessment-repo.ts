@@ -201,6 +201,11 @@ export class LocalAssessmentRepo implements AssessmentRepo {
     return this.run((d) => d.readiness.find((r) => r.userId === userId && r.sessionId === sessionId && r.phase === phase) ?? null);
   }
 
+  /** Every readiness check this profile took, oldest first. */
+  listReadiness() {
+    return this.run((d) => [...d.readiness].sort((a, b) => a.takenAt.localeCompare(b.takenAt)));
+  }
+
   upsertReadiness(row: ReadinessRow) {
     return this.run((d) => {
       if (!this.mine(row.userId)) throw new RepoForbiddenError('other_profile');

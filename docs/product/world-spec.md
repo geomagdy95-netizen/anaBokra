@@ -293,8 +293,8 @@ Build:
 6. **Moving phones:** passphrase-protected backup file, and a transfer code through an end-to-end encrypted relay (≤ 10 min). *Done.*
 7. **Core island** with the four instruments as phases, the readiness check at the start and two weeks after results (in-app prompt), and the "clear and useful" rating right after results.
 8. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations. *Scoring done; re-scoring per instrument to do.*
-9. **Anonymous statistics opt-in** (adults; parent decides for 15–17), **event code, research opt-in** at sessions, and *Settings → Research data*. *Statistics opt-in done; event code and research opt-in to do.*
-10. **Upload endpoint** for anonymous statistics, research answer sets and linked readiness records (4.3). *Statistics endpoint done (`anon_stats`); research uploads to do.*
+9. **Anonymous statistics opt-in** (adults; parent decides for 15–17), **event code, research opt-in** at sessions, and *Settings → Research data*. *Done: statistics opt-in; session code (checked against `pilot_events`, after acceptance or later from the main page); research opt-in, shown only when the partner offers it, with a switch that stops uploads and deletes the readiness records sent from the phone. Still to do: the baseline readiness check before part 1 (only the check after results exists, so there is nothing to pair yet).*
+10. **Upload endpoint** for anonymous statistics, research answer sets and linked readiness records (4.3). *Done: statistics (`anon_stats`), research answer sets and readiness records (`research_answer_sets`, `research_readiness`), and deleting readiness records by link code.*
 11. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
 12. **2.5D map and list view**, connected to the real results.
 

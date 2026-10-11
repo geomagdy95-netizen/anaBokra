@@ -52,6 +52,7 @@ async function syncOnce(rt: LocalRuntime, post: Post): Promise<SyncOutcome> {
       ageBand: profile.ageBand,
       stage,
       locale: profile.locale,
+      eventCode: profile.event?.code ?? null,
     });
     if (!(await post(summary))) return 'failed';
     await kv.set(statsKey(rt.userId), [...sent, result.id]);

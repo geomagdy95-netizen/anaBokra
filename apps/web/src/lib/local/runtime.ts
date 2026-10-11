@@ -10,6 +10,8 @@ export interface LocalRuntime {
   profile: LocalProfile;
   userId: string;
   service: AssessmentService;
+  /** The on-device store behind the service (for reading what to upload, never for writing). */
+  repo: LocalAssessmentRepo;
 }
 
 export function localRuntimeFor(kv: KvStore, profile: LocalProfile, now?: () => Date): LocalRuntime {
@@ -19,7 +21,7 @@ export function localRuntimeFor(kv: KvStore, profile: LocalProfile, now?: () => 
     hasConsent: async () => Boolean((await device.getProfile(profile.id))?.consent),
     now,
   });
-  return { device, profile, userId: profile.id, service: createAssessmentService({ repo, now }) };
+  return { device, profile, userId: profile.id, service: createAssessmentService({ repo, now }), repo };
 }
 
 /** Opens the active profile on this device, or null when there is none yet (first start). */

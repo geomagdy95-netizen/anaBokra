@@ -9,13 +9,15 @@ import { Link } from '@/i18n/navigation';
 import type { AgeBand, ConsentBasis, GuardianRecord } from '@/lib/local/device';
 
 import { GuardianConsent } from './guardian-consent';
+import { JoinSession } from './join-session';
+import { ResearchConsent } from './research-consent';
 import { RestoreData } from './restore-data';
 
 /** Versions stored with every on-device acceptance (docs/legal/consent-texts, privacy-policy). */
 export const CONSENT_TEXT_VERSION = 'consent-0.4-draft';
 export const POLICY_VERSION = '0.4-draft';
 
-type Step = 'age' | 'too-young' | 'hand-over' | 'guardian' | 'thanks' | 'accept' | 'restore';
+type Step = 'age' | 'too-young' | 'hand-over' | 'guardian' | 'thanks' | 'accept' | 'restore' | 'session' | 'research';
 const AGES = ['under15', '15-17', '18-20', '21-25', '26plus'] as const satisfies readonly AgeBand[];
 
 function Docs() {
@@ -176,6 +178,15 @@ export function FirstStart({ onDone }: { onDone: () => void }) {
         </section>
       )}
 
+      {step === 'session' && (
+        <section className="flex flex-col gap-3">
+          <JoinSession onJoined={(e) => (e.research ? setStep('research') : onDone())} onSkip={onDone} />
+          <p className="text-xs text-muted-foreground">{t('joinLater')}</p>
+        </section>
+      )}
+
+      {step === 'research' && <ResearchConsent onAnswered={onDone} />}
+
       {step === 'accept' && (
         <section className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold">{t('acceptTitle')}</h1>
@@ -201,7 +212,8 @@ export function FirstStart({ onDone }: { onDone: () => void }) {
                 setSaving(true);
                 await createProfile({ ageBand: age, locale, basis: 'adult_self', stats });
                 setSaving(false);
-                onDone();
+                // University pilot: adults can join a session (§2.2); the app works without one.
+                setStep('session');
               }}
             >
               {t('start')}

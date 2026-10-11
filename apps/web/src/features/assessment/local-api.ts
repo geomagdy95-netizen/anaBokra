@@ -27,12 +27,18 @@ export const localAssessmentApi = {
   completeStation: (sessionId: string, station: string, valuesRanking?: string[]) =>
     withRuntime((rt) => rt.service.completeStation(rt.userId, { sessionId, station, ...(valuesRanking ? { valuesRanking } : {}) })),
   saveReadiness: (sessionId: string, answers: Record<string, number>) =>
-    withRuntime((rt) => rt.service.saveReadiness(rt.userId, { phase: 'post', sessionId, answers })),
+    withRuntime(async (rt) => {
+      const saved = await rt.service.saveReadiness(rt.userId, { phase: 'post', sessionId, answers });
+      void import('@/lib/local/research').then(({ syncResearch }) => syncResearch(rt));
+      return saved;
+    }),
   finalize: (sessionId: string) =>
     withRuntime(async (rt) => {
       const result = await rt.service.finalize(rt.userId, { sessionId });
       // Opt-in anonymous statistics; never blocks or fails the result.
       void import('@/lib/local/stats').then(({ syncStats }) => syncStats(rt));
+      // Research uploads (opt-in, pilot sessions only); same rule.
+      void import('@/lib/local/research').then(({ syncResearch }) => syncResearch(rt));
       return result;
     }),
 };

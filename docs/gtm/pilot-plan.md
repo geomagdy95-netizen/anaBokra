@@ -28,7 +28,7 @@ Participants use the app on **their own phones**. Everything stays on the phone,
 | Anonymous statistics (**only if the participant opts in**): one summary per finished assessment (age band, stage, language, top areas and groups, score bands, completion), with the event code | Sent with no ID, device identifier or exact time | Nobody |
 
 - Participants **consent for themselves** on their phone. Ages 18–20 are an open legal question (Civil Code capacity at 21) that the lawyer must answer before sessions start.
-- **Event code:** each partner session gets a short code (for example `CU-FCI-1`). Entering it links the participant's totals and research data to that partner's report. The app works without one.
+- **Event code:** each partner session gets its own short code (3–20 letters, digits or dashes, for example `CU-FCI-1`); a partner with several sessions gets one code per session. Each code is a row in `pilot_events` with the partner, the dates it can be entered, and whether that partner offers the research opt-in. Entering it links the participant's totals and research data to that partner's report. The app works without one, and a participant can join or leave later from the main page.
 - **No AI**, no accounts, no phone numbers, emails or names.
 - **Deleting:** *Delete all my data* removes everything from the phone at once. Anonymous data already sent cannot be traced to a person, so it cannot be removed.
 - **Retention:** anonymous research data is kept until the analysis is done, and no later than 17 June 2027. Group statistics may be kept.
@@ -107,7 +107,7 @@ The follow-up comes two weeks after results, so the report describes the change 
 ## 9. Assumptions the founder must confirm
 
 1. Partner list, session dates and room capacity.
-2. Event code format and whether a partner can have several sessions (one code each).
+2. ~~Event code format and whether a partner can have several sessions.~~ Decided: one code per session, 3–20 letters, digits or dashes (see "Event code").
 3. The completion target (60%) and validation target ([150]).
 4. Number of loaner phones.
 5. The helpline number and each partner's contact for someone who is upset.
