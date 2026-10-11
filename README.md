@@ -1,11 +1,17 @@
 # anaBokra
 
-Career discovery for Egyptian youth. This repo currently holds the **assessment engine** and the **content data** (instruments + career library). The web app, database and admin panel come next.
+Career discovery for young people in Egypt: four short questionnaires, career matches with plain explanations, and a career library, in Arabic and English. Phase 1 (ages 18–25, plus 15–17 with a verified parent) keeps everyone's data on their own phone, encrypted.
+
+**Start with [docs/system](docs/system/README.md)**: the big picture, every user flow, how the parts connect, the screen index and our vocabulary.
 
 ```
 packages/
   engine/    Pure TypeScript scoring + matching (no dependencies, no I/O)
-  content/   Instruments (JSON), career catalog, O*NET build script, demo
+  content/   Instruments (JSON), career catalog and pages, study fields, universities/programs/providers
+  ai/        Explanation templates (and the phase 2 AI explainer, off in phase 1)
+apps/web/    Next.js app: pages, the on-device runtime, API routes, Arabic/English messages
+supabase/    Database migrations, row-level security, seed, SQL tests
+docs/        system (start here), product, gtm (pilot), legal (drafts), review (psychologist)
 data/raw/    O*NET source files (git-ignored, see "Career data")
 ```
 
@@ -13,7 +19,7 @@ data/raw/    O*NET source files (git-ignored, see "Career data")
 
 ```bash
 pnpm install
-pnpm test               # engine + content tests
+pnpm test               # all packages and the web app
 pnpm typecheck
 pnpm demo scientist     # simulated answers → scores → top matches (scientist|helper|builder|leader|creative)
 pnpm build:careers      # rebuild careers.generated.json from O*NET
@@ -30,7 +36,7 @@ pnpm build:careers      # rebuild careers.generated.json from O*NET
    - **Values:** how much the career offers the things the user values (Theory of Work Adjustment).
    - **Abilities:** penalizes only shortfalls, beyond a 15-point slack, and weighs them by how important the ability is.
    - If a module isn't finished yet, the weights are rescaled over the parts that exist, and `coverage` says how complete the result is.
-5. **Explain:** structured `reasons`, `watchOuts` and context `flags` (wrong track, score is a reach, high cost). The UI or AI turns these into Arabic or English text and never changes the scores.
+5. **Explain:** structured `reasons`, `watchOuts` and context `flags` (field of study fits or means a switch; at school: wrong track, score is a reach; high cost). The UI or AI turns these into Arabic or English text and never changes the scores.
 
 All weights and thresholds live in `DEFAULT_WEIGHTS` and `MATCH_SETTINGS` in `packages/engine/src/matching.ts`.
 
@@ -84,5 +90,3 @@ O*NET data © U.S. Department of Labor, Employment and Training Administration, 
 - [ ] Register with ICAR and select the 16 performance items.
 - [ ] Set the starting matching weights.
 - [ ] Decide how swipe gestures map onto the 1–5 answer scale.
-# anaBokra
-# anaBokra
