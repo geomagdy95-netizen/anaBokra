@@ -1,8 +1,8 @@
 # anaBokra World Spec: Islands, Bridges and Levels
 
-Status: draft for founder and psychologist review · updated 10 Oct 2026 with founder decisions · Prototype: [anaBokra islands](https://anabokra-islands.gentle-plum-8395.chatgpt.site)
+Status: draft for founder and psychologist review · updated 11 Oct 2026 (audience: ages 18–25, students and recent graduates; teens in a later phase) · Prototype: [anaBokra islands](https://anabokra-islands.gentle-plum-8395.chatgpt.site)
 
-anaBokra is a game-like world in which a teen explores careers. They start on their own **core island**, then explore **group islands**, one per career group (the 12 catalog clusters). Inside a group they explore **career islands**, and a selected career grows a **progress plan** and a **career plan**. Each island is reached by **building a bridge** made of phases: assessments, readings, tasks and so on. **All content, phases and their order are set from the admin dashboard.** Nothing about an island is hard-coded in the app.
+anaBokra is a game-like world in which a young adult (18–25, a student or recent graduate) explores careers. They start on their own **core island**, then explore **group islands**, one per career group (the 12 catalog clusters). Inside a group they explore **career islands**, and a selected career grows a **progress plan** and a **career plan**. Each island is reached by **building a bridge** made of phases: assessments, readings, tasks and so on. **All content, phases and their order are set from the admin dashboard.** Nothing about an island is hard-coded in the app.
 
 A bridge shows exploration progress. It does not endorse a career, and finishing it does not qualify anyone for that career.
 
@@ -38,8 +38,8 @@ flowchart LR
 | **L0** | Core island ("me") | Always there | Never completes, keeps growing | L1 once the interests phase is done (see 1.4) |
 | **L1** | Group islands, one per career group (12) | A bridge from the core island | The user **selects** a group whose bridge is complete | L2 career islands of that group |
 | **L2** | Career islands, one per career in a selected group | A bridge from the group island | The user **selects** a career whose bridge is complete | L3 for that career |
-| **L3** | Progress plan: what to do *now* in school | A bridge from the selected career island | Plan built and its first goals met | L4 for that career |
-| **L4** | Career plan: faculties, universities, routes, backups | A bridge from the L3 island | Plan with a main option and backups | L5 (not before launch) |
+| **L3** | Progress plan: what to do *now* (at university, or as a graduate) | A bridge from the selected career island | Plan built and its first goals met | L4 for that career |
+| **L4** | Career plan: main route and backups (specialisation, further study, first role) | A bridge from the L3 island | Plan with a main option and backups | L5 (not before launch) |
 
 The same rule applies at every level: **the level unlocks, then the user builds a bridge to reach its island.** Levels, their names and their unlock rules are dashboard-managed (section 3.3).
 
@@ -60,7 +60,7 @@ The same rule applies at every level: **the level unlocks, then the user builds 
 
 ### 1.3 User rules
 
-- **Active group islands are capped at 3** (set in the dashboard). Active means `building`, `reached` or `selected`. This keeps teens going deep instead of collecting islands. Archived islands don't count.
+- **Active group islands are capped at 3** (set in the dashboard). Active means `building`, `reached` or `selected`. This keeps users going deep instead of collecting islands. Archived islands don't count.
 - **Selected careers are capped at 2** (set in the dashboard), across all groups.
 - **Selecting** a group or a career needs a `reached` bridge.
 - **Dropping is allowed.** The island moves to `archived` with all progress kept, and the user can restore it from the core island's history if they are under the cap. Archiving a selected career also archives its L3 and L4 islands, and frees one selection.
@@ -93,7 +93,7 @@ Every island has a details page, opened by tapping it. Its content comes from th
 
 ### 2.1 Core island ("me")
 
-- Profile, stored on the device: display name or student ID (pilot), grade, school track, gender if given (for Arabic forms only)
+- Profile, stored on the device: nickname, age band, stage (student: faculty and year; or graduate: graduation year), gender if given (for Arabic forms only)
 - Sections that unlock as core phases finish: interests, personality, values, strengths, readiness
 - Suggested groups and top career matches with an explanation (from the current result)
 - My islands: active, selected and archived (with restore)
@@ -105,7 +105,7 @@ Every island has a details page, opened by tapping it. Its content comes from th
 |---|---|---|
 | Overview | What the group is about, what people in it do | `clusters.description` (plus a new `summary` field) |
 | Careers in this group | Each career with a short summary and how it relates to the user's results | `careers` by `cluster_id`, current result |
-| Common study routes | Secondary tracks and faculties that lead into the group | `career_country_data.path`, `programs` |
+| Common routes in | Faculties and specialisations, further study, courses and certificates, typical first roles | `career_country_data.path`, `programs`, `opportunities` |
 | Market in Egypt | Overall demand and sectors | Aggregated from `career_country_data.market` |
 | Related groups | Groups with overlapping interests | Dashboard-edited |
 | Your bridge | Phases and steps with progress | New (section 4) |
@@ -116,16 +116,16 @@ Every island has a details page, opened by tapping it. Its content comes from th
 |---|---|---|
 | Overview | What the career is, a day in the life, typical tasks | `careers.summary`, `description`, `tasks` |
 | Market in Egypt | Demand, salary ranges, growth, sectors and employers, outlook | `career_country_data.market` |
-| Study route | Secondary track, faculties and programs, admission scores, alternatives | `career_country_data.path`, `programs`, `program_careers` |
-| Supporting skills | Hard and soft skills to build, school subjects that matter | New field on `careers` (dashboard-edited) |
+| Routes in | Specialisations and programs, postgraduate options, courses and certificates, internships and entry-level roles, switching in from another field | `career_country_data.path`, `programs`, `program_careers`, `opportunities` |
+| Supporting skills | Hard and soft skills to build, and how to show them (projects, portfolio) | New field on `careers` (dashboard-edited) |
 | Resources | Courses, books, videos, competitions, scholarships | `opportunities`, `opportunity_careers` |
 | Fit with you | How the career relates to the user's results; never a verdict | Current result |
 | Your bridge | Phases and steps with progress | New (section 4) |
 
 ### 2.4 Level islands (L3, L4)
 
-- **L3 Progress plan:** goals for the student's current grade, subjects to focus on, skills, activities, summer courses. Its steps come from templates tagged with a grade, so a grade-10 plan and a grade-11 plan differ. When the grade changes, the new grade's steps appear and finished steps stay finished. It is stored in the shape of `roadmaps` + `milestones`.
-- **L4 Career plan:** a main faculty or program plus backups, likely admission score ranges, costs, scholarships, alternative routes (technical, private, ahliya). Stored in the shape of `roadmaps` with `data` holding the chosen route and backups.
+- **L3 Progress plan:** goals for the user's current stage: courses and electives, skills, projects, internships, student activities, or for graduates, first applications and short courses. Its steps come from templates tagged with a stage (for example `year-1-2`, `final-years`, `graduate`), so plans differ by stage. When the stage changes, the new stage's steps appear and finished steps stay finished. It is stored in the shape of `roadmaps` + `milestones`.
+- **L4 Career plan:** a main route (a specialisation, further study, or a first role) plus backups: certificates, internships, entry-level roles, costs, scholarships, and routes in from a different degree. Stored in the shape of `roadmaps` with `data` holding the chosen route and backups.
 
 Section layouts for level islands are dashboard-defined (`islands.details` in section 4).
 
@@ -147,7 +147,7 @@ A **template** is a reusable piece of work that can be placed in any phase of an
 | `reflection` | "What surprised you?" | Answer submitted. The answer stays on the device |
 | `external` | Online course, school club, event | Self-marked "done" |
 
-- **Tags** organise the library (topic, skill, cluster, grade, difficulty, language). The dashboard can filter and search by tag.
+- **Tags** organise the library (topic, skill, cluster, stage, difficulty, language). The dashboard can filter and search by tag.
 - **Versions:** editing a published template creates a new version. Finished steps keep the version they were done on, so editing never changes past results.
 - **Arabic forms:** every template's Arabic text has a feminine variant (`arF`) where the grammar needs one, as the instruments do.
 - **Workflow:** `draft → review → published → archived`, the existing `content_status`. Who reviews what is in 3.4.
@@ -227,7 +227,8 @@ phase_steps         (id, phase_id, template_id, pinned_version_id?, sort_order, 
 Stored locally (IndexedDB), in the same shapes as the future server tables so phase 2 can sync them:
 
 ```
-profiles            (id, display_name | student_code, grade, track, gender?, locale)
+profiles            (id, display_name?, age_band, stage, faculty?, year?, gender?, locale,
+                     event_code?, consent)
 user_islands        (id, profile_id, island_id, parent_user_island_id?, state,
                      content_version_seen, unlocked_at, selected_at?, archived_at?, restored_at?)
                      unique (profile_id, island_id, parent_user_island_id)
@@ -246,13 +247,13 @@ xp_events           (profile_id, points, ref_type, ref_id, created_at)
 
 ### 4.3 Uploads and devices
 
-| | Tablet mode (school pilot) | Phone mode (launch) |
+| | Pilot session (own phone, event code) | Launch (own phone) |
 |---|---|---|
-| Profiles | Several per tablet, each opened with student ID + PIN. Each visit loads a **roster of registered students**; only profiles on that visit's roster can be opened | One per device |
-| Before use | Profiles created only for consented IDs from the school | Under 18: a parent confirms on the device before anything is saved |
-| Uploads | Totals per school and grade; anonymous answer sets (no ID, no key; school code, grade, language); readiness pre/post with a random pairing key. Answer sets and readiness only with the parent's research choice | **None for under-18s.** 18+: open question 2 |
-| Results home | Printed results card (ID only) | On the phone |
-| End | Tablets wiped after the pilot | User can delete everything from settings |
+| Profiles | One per device (a loaner phone holds one at a time and is cleared after the session) | One per device |
+| Before use | Age question; 18+ accept for themselves; nothing saved for under-18s | Same |
+| Uploads | Totals per event code; **only with the user's opt-in:** anonymous answer sets (no ID, no key; event code, age band, stage, language) and readiness pre/post linked by a random code made on the phone | None (open question 2) |
+| Results | In the app | In the app |
+| End | The user deletes on the device | The user deletes on the device |
 
 The upload endpoint accepts only these three record types, stores no IP address and no device identifier, and receives answer sets in shuffled batches.
 
@@ -262,7 +263,7 @@ The upload endpoint accepts only these three record types, stores no IP address 
 
 ## 5. App surfaces
 
-| Surface | Pilot (tablets, Nov 2026) | Launch (phones, 16 Jan 2027) |
+| Surface | Pilot (own phones, Nov 2026) | Launch (own phones, 16 Jan 2027) |
 |---|---|---|
 | World map | 2.5D / low-poly, plus list view | Full 3D polish (camera fly-through, animations), list view kept |
 | Core island + details page | Yes | Yes |
@@ -272,8 +273,7 @@ The upload endpoint accepts only these three record types, stores no IP address 
 | Archive / restore | Yes | Yes |
 | XP and achievements (on device) | Yes | Yes |
 | Results explanations | Templates, no AI | Templates, no AI |
-| Printed results card | Yes | No |
-| Tablet mode (multi-profile, ID + PIN, wipe) | Yes | No |
+| Event code and research opt-in | Yes | No |
 | Dashboard: template library, tags, island builder, publish, preview | No, content seeded | Yes |
 | Dashboard: level config, world settings | Hard-coded defaults | Yes |
 
@@ -285,16 +285,17 @@ The upload endpoint accepts only these three record types, stores no IP address 
 
 Build:
 
-1. **Local store** (section 4.2) and the offline content cache.
-2. **Tablet mode:** profiles loaded from the school's ID list (ID, grade, optional choices); **visit registration** (book each ID into a tablet + period slot for sitting 1, sitting 2 and the follow-up, for any number of tablets, and load the roster per visit); ID + PIN unlock; kiosk mode; delete one profile (withdrawal); wipe all.
-3. **Core island** with the four instruments as phases, the readiness check before (sitting 1) and after (follow-up), and the "clear and useful" rating right after results.
-4. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations.
-5. **Results screen** and a **printable results card** (PDF, ID only, guidance-not-diagnosis wording).
-6. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
-7. **Upload endpoint** for totals, anonymous answer sets and paired readiness records (4.3).
-8. **2.5D map and list view.**
+1. **Local store** (section 4.2) and the offline content cache. *Done: on-device store, profiles, repository; assessment pages run from the device.*
+2. **First start:** age question, acceptance for 18+, *Delete all my data*. *Done.*
+3. **Profile for 18–25:** stage (student or graduate), faculty and year, replacing the school-oriented context questions (curriculum, track, expected score).
+4. **Core island** with the four instruments as phases, the readiness check at the start and two weeks after results (in-app prompt), and the "clear and useful" rating right after results.
+5. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations. *Scoring done; re-scoring per instrument to do.*
+6. **Event code, research opt-in and Settings → Research data** (consent texts 2.2–2.4).
+7. **Upload endpoint** for totals, anonymous answer sets and linked readiness records (4.3).
+8. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
+9. **2.5D map and list view**, connected to the real results.
 
-Turned off for the pilot: WhatsApp sign-in, server consent flows, the AI package, parent and school views, and analytics and crash reporting that could carry a student ID (open question 6).
+Turned off for the pilot: accounts and WhatsApp sign-in, server consent flows, the AI package, parent and school views, the server-rendered share card, and analytics and crash reporting that could identify a user (open question 6).
 
 ---
 
@@ -305,12 +306,16 @@ Turned off for the pilot: WhatsApp sign-in, server consent flows, the AI package
 3. **Group ranking:** is a group suggested by its best career fit (proposed) or by the average of its top careers? (Psychologist.)
 4. **Launch results card:** should the phone app let users save their results as an image or PDF?
 5. **Gender on the device:** keep it optional for Arabic grammar only (proposed), or drop it?
-6. **Crash reporting:** off on tablets, or on with no student ID and no answers?
+6. **Crash reporting:** off, or on with no identifiers and no answers?
+
+**Decided (11 Oct 2026):** phase 1 is for ages 18–25 (students and recent graduates) on their own phones; the pilot runs at universities; teens come later.
 
 **Decided (10 Oct 2026):** one island per catalog cluster; career islands as their own level (L2); chains per selected career; caps of 3 active groups and 2 selected careers; tasks self-marked only; psychologist approves assessments and reflections; nothing after L4 before launch; island edits recalculate progress with an "island upgraded" notice and keep selections; XP on the device with no read or watch tracking; no AI in phase 1.
 
 ## 8. Follow-ups outside this spec
 
 - **Legal drafts** (`docs/legal/`) were rewritten for phase 1 on 10 Oct 2026; open questions for counsel are in `docs/legal/lawyer-brief.md`. The phase 2 (server) versions are in git history.
+- **Content for 18–25:** reword the readiness items for students and graduates (psychologist); add entry routes (internships, first roles, certificates) to `career_country_data`; remove Thanaweya Amma and school wording from app copy.
+- **Teens (later phase):** guardian consent, school pilot material and the teen legal texts are parked in `docs/parked/teens/`.
 - **Server fixes needed before phase 2:** `can_view_student_summary` must check the `counseling` scope for school staff; `recordSchoolConsent` must record the optional choices; `analytics_results` must check the `research` scope instead of `data_processing`.
 - The domain and support email are still placeholders (`anabokra.app`, `privacy@anabokra.example`) until the domain is bought.

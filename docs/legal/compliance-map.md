@@ -2,7 +2,7 @@
 
 # anaBokra Compliance Map (MX-07)
 
-**Prepared:** 2026-10-09 · **Updated:** 2026-10-10 (phase 1 section 0b) · **Audience:** anaBokra founders, product/engineering, Egyptian counsel · **Status:** working draft, research done from secondary English sources (see section 6). **No primary Arabic text of the Executive Regulations was available to the author.**
+**Prepared:** 2026-10-09 · **Updated:** 2026-10-11 (phase 1 section 0b: adults 18+) · **Audience:** anaBokra founders, product/engineering, Egyptian counsel · **Status:** working draft, research done from secondary English sources (see section 6). **No primary Arabic text of the Executive Regulations was available to the author.**
 
 ## 0. Read this first
 
@@ -14,49 +14,42 @@
 
 ---
 
-## 0b. Phase 1 design (decided 10 Oct 2026) — read this before the tables below
+## 0b. Phase 1 design (updated 11 Oct 2026: adults 18+) — read this before the tables below
 
-Sections 1–5 and 7 below were written for the **server design** (accounts, WhatsApp sign-in, consent routes A/B/C, AI explanations, storage in Europe). That design is now **phase 2**, after the PDPC license and permits exist. **Phase 1** (school pilot Nov–Dec 2026, public launch 16 Jan 2027) works like this:
+Sections 1–5 and 7 below were written for the **server design** (accounts, WhatsApp sign-in, guardian consent routes A/B/C, AI explanations, storage in Europe). That design is now **phase 2**. On 11 Oct 2026 the phase 1 audience also changed to **ages 18–25**; minors come in a later phase (`docs/parked/teens/`). **Phase 1** (university pilot Nov–Dec 2026, public launch 16 Jan 2027) works like this:
 
-- **Phone app:** no account, no phone number, no AI. Profile, answers, scoring, results, islands and points stay **on the device**. The app downloads content (questions, careers, islands) from our server. Under-18s: a parent confirms on the device before anything is saved. **Nothing is uploaded for under-18s.**
-- **School pilot:** anaBokra-owned tablets, encrypted and in kiosk mode. Students use a random ID + PIN; the ID ↔ name list and the signed paper consent forms stay at the school. Data on tablets is wiped by 31 Dec 2026. Uploads: totals per school and grade; anonymous answer sets (no ID, no key; school code, grade, language) with the parent's research consent; readiness before/after linked by a random key (pseudonymous) with the same consent. Results go home on a printed card.
-- **Not in phase 1:** AI explanations, WhatsApp, parent or school accounts, analytics, transfer of personal data abroad.
+- **App on the user's own phone:** ages 18+ only; the user accepts for themselves. No account, phone number, email, name or AI. Profile, answers, scoring, results, islands and points stay **on the device**. The app downloads content (questions, careers, islands) from our server.
+- **University pilot:** participants use their own phones. An optional **event code** links totals to the partner's report. **Only with the participant's opt-in:** anonymous answer sets (no ID or key; event code, age band, stage, language) and readiness before/after linked by a random code made on the phone (pseudonymous). Partners receive only anonymized group reports.
+- **Not in phase 1:** minors, guardian consent, AI explanations, WhatsApp, accounts, analytics, transfer of personal data abroad.
 
 ### Phase 1 status of each obligation in section 1
 
 | # | Obligation | Phase 1 status | Open question for the lawyer |
 |---|---|---|---|
-| 1, 6 | Explicit consent; guardian consent for children | **Pilot:** written paper consent collected by the school. **Phone:** on-device guardian confirmation; anaBokra does not receive the data | Is the on-device confirmation needed or sufficient? Is the paper form "explicit written consent" for sensitive data (Art. 12)? |
-| 2, 18 | Purpose limitation, retention, erasure | **Pilot:** tablets wiped by 31 Dec 2026; anonymous and linked research data deleted after analysis, by 17 Jun 2027. **Phone:** the user deletes on the device | Are these periods acceptable? |
-| 3, 4 | Rights; reply in 6 working days | **Pilot:** through the school by student ID; withdrawn data deleted within 31 days after the school visit. **Phone:** the user controls everything on the device | Does the 31-day deletion conflict with Art. 32 (6 working days)? |
-| 7 | Verify guardian identity | **Pilot:** the school knows its parents and keeps the signed forms. **Phone:** self-declared on the device | Acceptable for phone mode? |
-| 8 | Collecting minors' data before consent | **Resolved:** nothing is saved before consent (pilot: no profile without consent; phone: no saving before the guardian confirms) | — |
-| 9, 11 | Sensitive data; controller license | **Pilot:** pseudonymous psychological data on anaBokra tablets for ~2 months, plus linked readiness data. **Phone:** no processing by anaBokra | Is a PDPC license needed for the pilot, and before 31 Oct / 1 Nov 2026? |
-| 10 | No profiling, tracking or behavioural monitoring of children | Matching runs on the device; XP and progress never leave the device; no read or watch tracking; no analytics | Is on-device matching "profiling" by anaBokra? |
-| 12 | Register of processing | Keep a short register for the pilot (section 3b) | Format? |
-| 13 | DPO | Not appointed | Required for phase 1? |
-| 14, 15 | Cross-border transfer; processors | No personal data abroad **if** the upload server and content server are in Egypt or do not log IP addresses | Does content-server technical data (IP) count? Host the upload endpoint in Egypt? |
-| 16, 17 | Security; breach notification | Tablet encryption, kiosk mode, ID + PIN, remote wipe, tablet count per visit. A lost tablet is a possible breach | Is a lost tablet holding pseudonymous data a notifiable breach? |
-| 19 | Direct marketing | None | — |
-| 20 | AI and automated processing | **No AI in phase 1** | — |
-| 21 | Digital evidence of consent | **Pilot:** paper at the school. **Phone:** record on the device only | Enough for the pilot? |
-| 22 | Age of minority (18 vs 21) | Unchanged | Ages 18–20; can a 15–17-year-old accept the Terms? |
-| 24 | Schools: roles and evidence | School keeps the forms and the ID list; anaBokra receives IDs and choices only | Controller / joint controller / processor? |
-| 26 | Psychological testing rules | Unchanged | Any rules on psychological questionnaires for minors? |
-| 27 | Consumer and e-signature law | On-device checkbox confirmation | Does a checkbox count as signature for the guardian? |
+| 1 | Explicit consent | Nothing is collected by anaBokra except opt-in research data, for which the participant gives explicit consent on the device | Is the on-device opt-in valid explicit consent? Is acceptance needed at all for data that never leaves the device? |
+| 6–8 | Children's data; guardian consent; pre-consent collection | **Not applicable:** under-18s are turned away at the age question and nothing is saved | — |
+| 22 | Age of minority / civil capacity | **Central question:** ages 18–20 accept for themselves; the Civil Code puts full capacity at 21. Age band kept on the device (18–20 vs 21+) | Can 18–20-year-olds consent and accept the terms? If not, start at 21 and add 18–20 later |
+| 2, 18 | Purpose limitation, retention, erasure | Research data deleted after analysis, by 17 Jun 2027; on-device data deleted by the user | Acceptable? |
+| 3, 4 | Rights; reply in 6 working days | The user controls everything on the device. Anonymous data can't be traced. Linked readiness data deletable via the random code on the phone | Enough? |
+| 9, 11 | Sensitive data; controller license | anaBokra receives no identifiable psychological data; only anonymous answer sets and pseudonymous readiness pairs (opt-in) | Is a PDPC license needed for phase 1, and before 31 Oct / 1 Nov 2026? |
+| 10 | No profiling of children | Not applicable (adults); matching runs on the device in any case | — |
+| 12, 13 | Register; DPO | A short register for the research data (below). No DPO appointed | Required for phase 1? |
+| 14, 15 | Cross-border; processors | No personal data abroad **if** the upload and content servers are in Egypt or don't log IP addresses | Does content-server technical data (IP) count? |
+| 16, 17 | Security; breach | No personal data held centrally except pseudonymous readiness pairs | Breach duties for the research store? |
+| 19, 20 | Marketing; AI | None | — |
+| 24 | Partners' roles | The university receives only anonymized reports | Any role for the partner under the PDPL? Research/ethics approvals at universities? |
+| 26 | Psychological testing rules | Unchanged | Any rules on psychological questionnaires offered to the public? |
+| 27 | Consumer and e-signature law | On-device checkbox acceptance | Valid acceptance of the terms? |
 
 ### Phase 1 data register
 
 | Category | Fields | Subjects | Where | anaBokra sees it? | Retention |
 |---|---|---|---|---|---|
-| Phone profile and results | nickname, grade, track, optional gender, answers, results, islands, points, guardian confirmation record | Teens, young adults | User's device | **No** | Until the user deletes it |
-| Content requests | IP address, browser type (server logs) | Phone users | Content server [provider, country] | Technical only | [no IP storage / ≤ 7 days — Engineering] |
-| Pilot tablet data | student ID, grade, track, language, optional gender, answers, results, choices, readiness, feedback | Students | anaBokra tablets | Yes (ID only) | Wiped by 31 Dec 2026 |
-| Pilot consent choices | student ID, grade, optional choices | Students | anaBokra (from the school) | Yes (ID only) | Until 31 Dec 2026 |
-| Anonymous answer sets | item answers, school code, grade, language | Students (research consent) | Upload server [provider, country] | Not identifiable | Until analysis is done, ≤ 17 Jun 2027 |
-| Linked readiness | readiness answers before/after, random key, school code, grade | Students (research consent) | Upload server | Pseudonymous | Until analysis is done, ≤ 17 Jun 2027 |
-| Totals | counts and averages per school and grade | — | Upload server | Aggregate | Kept |
-| Signed consent forms, ID ↔ name list | names, signatures | Parents, students | **At the school** | No | School's policy [LAWYER] |
+| App profile and results | age band, stage, language, optional gender, event code, answers, results, islands, points, acceptance record | Users 18+ | User's device | **No** | Until the user deletes it |
+| Content requests | IP address, browser type (server logs) | App users | Content server [provider, country] | Technical only | [no IP storage / ≤ 7 days — Engineering] |
+| Session totals | counts and averages per event code | — | Upload server [provider, country] | Aggregate | Kept |
+| Anonymous answer sets | item answers, event code, age band, stage, language | Opt-in participants | Upload server | Not identifiable | Until analysis is done, ≤ 17 Jun 2027 |
+| Linked readiness | readiness answers before/after, random code, event code | Opt-in participants | Upload server | Pseudonymous | Until analysis is done, ≤ 17 Jun 2027 |
 
 ---
 
@@ -187,14 +180,13 @@ Sections 1–5 and 7 below were written for the **server design** (accounts, Wha
 ## 7. Engineering and product to-dos that follow from this map
 
 ### Phase 1
-1. Phone app: no network calls that carry personal data; content requests only. Verify with a network audit before launch.
+1. App: no network calls that carry personal data; content requests only. Verify with a network audit before launch.
 2. Content and upload servers: no IP address storage (or ≤ 7 days); decide hosting location (Egypt preferred).
-3. On-device guardian confirmation (consent-texts 1.2), stored on the device with text and policy versions.
-4. *Settings → Delete all my data* on the device.
-5. Tablet mode: ID + PIN, kiosk, device encryption, remote wipe, delete one profile (withdrawal), wipe all by 31 Dec 2026.
-6. Upload endpoint accepts only totals, anonymous answer sets (no ID, no key) and linked readiness records; stores no IP or device identifier; answer sets sent in shuffled batches.
-7. Lost-tablet runbook (who to tell, remote wipe, breach assessment).
-8. No analytics or crash reporting carrying identifiers.
+3. Age question and on-device acceptance (consent-texts 1.1–1.2), stored on the device with text and policy versions; under-18s saved nothing.
+4. *Delete all my data* on the device.
+5. Event code, research opt-in (consent-texts 2.2–2.3), and the upload endpoint: accepts only totals, anonymous answer sets (no ID, no key) and linked readiness records; stores no IP or device identifier; answer sets in shuffled batches.
+6. *Settings → Research data*: change the choice before sending; request deletion of the linked readiness record with the random code.
+7. No analytics or crash reporting carrying identifiers.
 
 ### Phase 2 (server design)
 

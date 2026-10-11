@@ -17,8 +17,8 @@ async function setup({ consent = true } = {}) {
   const kv = new MemoryKv();
   const now = clock();
   const device = new DeviceStore(kv, now);
-  let profile = await device.createProfile({ mode: 'phone', ageBand: '15-17', locale: 'ar' });
-  if (consent) profile = await device.setConsent(profile.id, { basis: 'guardian_on_device', textVersion: 'consent-0.2-draft', policyVersion: '0.2' });
+  let profile = await device.createProfile({ mode: 'phone', ageBand: '18-20', locale: 'ar' });
+  if (consent) profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.3-draft', policyVersion: '0.3' });
   await device.setActiveId(profile.id);
   return { kv, now, device, profile, rt: localRuntimeFor(kv, profile, now) };
 }
@@ -86,18 +86,18 @@ describe('assessment on the device', () => {
     expect(resume.responses).toHaveLength(40);
   });
 
-  it('refuses to start before a guardian has confirmed, and starts after', async () => {
+  it('refuses to start before the user has accepted, and starts after', async () => {
     const { rt, device, profile } = await setup({ consent: false });
     expect(await code(rt.service.startSession(rt.userId, {}))).toBe('consent_required');
-    await device.setConsent(profile.id, { basis: 'guardian_on_device', textVersion: 'consent-0.2-draft', policyVersion: '0.2' });
+    await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.3-draft', policyVersion: '0.3' });
     expect(await code(rt.service.startSession(rt.userId, {}))).toBe('no_error');
   });
 
-  it('keeps profiles on one tablet apart', async () => {
+  it('keeps profiles on one shared device apart', async () => {
     const { kv, now, device, rt } = await setup();
     const other: LocalProfile = await device.setConsent(
-      (await device.createProfile({ mode: 'tablet', studentCode: 'B7K2Q' })).id,
-      { basis: 'school_form', textVersion: 'consent-0.2-draft', policyVersion: '0.2' },
+      (await device.createProfile({ mode: 'shared', ageBand: '21-25' })).id,
+      { basis: 'adult_self', textVersion: 'consent-0.3-draft', policyVersion: '0.3' },
     );
     const { session } = await rt.service.startSession(rt.userId, {});
     const ort = localRuntimeFor(kv, other, now);
@@ -120,7 +120,7 @@ describe('assessment on the device', () => {
 
   it('wipes the whole device', async () => {
     const { kv, device } = await setup();
-    await device.createProfile({ mode: 'tablet', studentCode: 'X1' });
+    await device.createProfile({ mode: 'shared' });
     await device.wipeAll();
     expect(await kv.keys()).toEqual([]);
   });

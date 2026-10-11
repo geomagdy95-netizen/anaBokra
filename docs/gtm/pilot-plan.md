@@ -1,155 +1,114 @@
-# anaBokra School Pilot Plan (MX-09)
+# anaBokra University Pilot Plan (MX-09)
 
-Closed beta, free · 3–5 private schools (Cairo/Alexandria) · grades 10–11 · up to about 300 students in total, set by tablet capacity (section 6) · November to mid-December 2026
-Cohort reports by 31 December 2026 · Public launch: 16 January 2027.
+Closed beta, free · 3–5 universities or institutes (Cairo/Alexandria) through career centres or student clubs · ages 18–25, students and recent graduates · about 300 participants · November to mid-December 2026
+Partner reports by 31 December 2026 · Public launch: 16 January 2027.
 
-> Dates assume a Sunday-to-Thursday school week. Sessions end in mid-December so the pilot avoids first-term exams (usually from around the second week of January) and leaves about four weeks for fixes before launch. Each school's calendar overrides this plan (see Assumptions).
+> On 11 October 2026 the phase 1 audience changed from secondary students to **18–25-year-olds**. The school pilot (tablets, parent consent, ID lists) is parked for a later teen phase; see `docs/parked/teens/`.
+>
+> Dates assume a Sunday-to-Thursday week. Sessions end in mid-December, before most universities' first-term exams (usually January — confirm per partner), and leave about four weeks for fixes before launch.
 
 ## 1. Goals
 
 | Goal | Why |
 |---|---|
-| Learn whether students finish and value the experience | Product feedback and fixes before the 16 January launch |
-| Collect testimonials and a case study from willing schools | Launch credibility |
-| Gather pilot data on the Arabic assessment | Reliability (internal consistency per scale) and preliminary norms. The assessment is **being validated** in this pilot; nothing is claimed as validated yet |
-| Test the school delivery model (tablet visits + counselor + cohort report) | Shape the school offer and pricing |
+| Learn whether young adults finish and value the experience | Product feedback and fixes before the 16 January launch |
+| Collect testimonials and a case study from willing partners | Launch credibility |
+| Gather pilot data on the Arabic assessment | Reliability (internal consistency per scale) and preliminary norms for 18–25-year-olds. The assessment is **being validated** in this pilot; nothing is claimed as validated yet |
+| Test the university delivery model (career centre + session + partner report) | Shape the university offer and pricing |
 
 ## 2. How data is handled in phase 1
 
-The pilot runs **local-first** on tablets that anaBokra brings. No student uses their own phone, and no personal data goes to a server.
+Participants use the app on **their own phones**. Everything stays on the phone; nobody creates an account.
 
-| What | Where it lives | Who can link it to a child |
+| What | Where it lives | Who can link it to a person |
 |---|---|---|
-| Student ID ↔ name list | At the school only | The school |
-| Answers, results, roadmap, readiness, feedback | On one anaBokra tablet per student, opened with the student's ID + PIN | Nobody at anaBokra (ID only, no names on the tablet) |
-| Anonymous answer sets (research consent only) | Uploaded once after the student's last sitting: no ID, no pairing key, tagged only with school code, grade and language | Nobody |
-| Readiness before/after (research consent only) | Uploaded with a random pairing key so the two measurements can be matched. The key is never on the answer sets | Only while the tablet still holds the key (until wipe) |
-| Totals (consented, started, completed, ratings, top matches) | Uploaded per school and grade | Nobody |
+| Profile, answers, results, readiness, feedback | On the participant's phone | Nobody at anaBokra |
+| Anonymous answer sets (**only if the participant opts in**) | Sent once after the last part: no name, no ID, no key; tagged only with the partner's event code, age band, stage (student or graduate) and language | Nobody |
+| Readiness before and after (**same opt-in**) | Sent with a random code made on the phone, so the two answers can be matched. The code is never on the answer sets | Only from that phone, until the app is deleted |
+| Totals (started, finished, ratings, top matches) | Sent per event code, with no individual data | Nobody |
 
-- **No AI** in phase 1. Result explanations come from the engine's reasons and watch-outs.
-- **No national ID, phone number, email, date of birth or name** is collected by anaBokra.
-- Tablets are encrypted and run the app in kiosk mode.
-- **Withdrawal:** a withdrawn student's data is deleted from the tablet within **31 days after the school visit** at which anaBokra receives the withdrawal.
-- **All tablets are wiped by 31 December 2026**, after cards are printed and make-ups are done.
-- **Anonymous answer sets** are kept until the psychologist's analysis is done, and **at most 6 months after the data freeze (17 June 2027)**. Aggregate results (reliability, norms tables) are kept, since they describe no one.
-- Results go home as a **printed results card** (ID only, no name). There is no parent link or online account.
-- Data on anaBokra's tablets is still data that anaBokra holds, so the lawyer review in section 3 applies. Nothing leaves Egypt.
+- Participants **consent for themselves** on their phone. Ages 18–20 are an open legal question (Civil Code capacity at 21) that the lawyer must answer before sessions start.
+- **Event code:** each partner session gets a short code (for example `CU-FCI-1`). Entering it links the participant's totals and research data to that partner's report. The app works without one.
+- **No AI**, no accounts, no phone numbers, emails or names.
+- **Deleting:** *Delete all my data* removes everything from the phone at once. Anonymous data already sent cannot be traced to a person, so it cannot be removed.
+- **Retention:** anonymous research data is kept until the analysis is done, and no later than 17 June 2027. Group statistics may be kept.
 
 ## 3. Pre-pilot (now to 31 October)
 
 | Task | Owner | Done by |
 |---|---|---|
-| Outreach to 10–15 private schools to land 3–5 (see `outreach-templates.md`). Founder's connections first | Founder | 31 Oct |
-| **Lawyer brief and sign-off** (`docs/legal/lawyer-brief.md`): consent form, pilot agreement (`pilot-agreement.en.md`), whether the uploads count as anonymous, the paired readiness data, the 31-day withdrawal period, anaBokra's obligations for data held on its tablets (incl. PDPC license question) | Founder + lawyer | 25 Oct |
-| Pilot agreement signed with each school (scope, data promises, report, testimonial permission) | Founder + principal | 31 Oct |
-| Tablet kit: currently 6 tablets, charging case, encryption, kiosk mode, remote wipe, offline printer setup. More tablets only raise capacity (section 6) | anaBokra | 31 Oct |
-| Pilot build ready on tablets (see `docs/product/world-spec.md`, section 6) | anaBokra | 31 Oct |
+| Outreach to 10–15 career centres, student activity offices and student clubs to land 3–5 (see `outreach-templates.md`) | Founder | 31 Oct |
+| **Lawyer brief and sign-off** (`docs/legal/lawyer-brief.md`): in-app texts, partner agreement, the anonymous uploads, ages 18–20 | Founder + lawyer | 25 Oct |
+| Partner agreement signed with each partner (`partner-agreement.en.md`) | Founder + partner | 31 Oct |
+| Check whether each university needs a research or ethics approval for the research opt-in | Founder + partner | 31 Oct |
+| Pilot build ready (see `docs/product/world-spec.md`, section 6) | anaBokra | 31 Oct |
 
-**Gate:** no consent form goes home and no session runs until the lawyer has signed off. If sign-off slips, the timeline shifts with it.
+**Gate:** no session runs until the lawyer has signed off. If sign-off slips, the timeline shifts with it.
 
-Selection criteria: an engaged counselor, a principal who signs off, a quiet room, enough free periods on visit days, grades 10–11 classes with consenting students, both cities if possible. Public schools are deferred to a later round, because they may need Ministry of Education district (and possibly CAPMAS) approval.
+Selection criteria: an engaged career centre or club lead, a room for 30–60 people with Wi-Fi, a channel to reach students (page, group, mailing list), a mix of faculties and both cities if possible.
 
 ## 4. Week-by-week timeline
 
 | Week | Dates | Milestone | Owner |
 |---|---|---|---|
-| W1 | 1–5 Nov | Kickoff call. Confirm grade 10–11 classes, student counts, **visit days and free periods per visit**. anaBokra works out the number of visits and the student cap for the school (section 6). **Counselor walkthrough** (60 min). Consent forms go home (paper) with a parent message from the principal. | anaBokra + school lead |
-| W2 | 8–12 Nov | Consent reminders. Tablet dry run with 5–10 staff or volunteers. | Counselor; anaBokra |
-| W3 | 15–19 Nov | **Consent deadline** (end of week). anaBokra gives the school a sheet of random student IDs + PINs. The school assigns them to consenting students, keeps the ID ↔ name list, and returns to anaBokra only **ID, grade and the optional choices** (no names). anaBokra **registers each ID for its visits** (section 6), sends the school a roster per visit, and prints ID slips (ID, PIN, tablet number, visit dates). | Counselor; anaBokra |
-| W4–W6 | 22 Nov–10 Dec | **Sitting visits.** Each student does **sitting 1** (parts 1–2 + baseline readiness) on one visit and **sitting 2** (parts 3–4) on a later visit, on the same tablet. At the end of sitting 2 they see their results and rate them ("clear and useful"). anaBokra prints that visit's results cards. Absentees move to the school's make-up visit. | Both |
-| W6–W7 | by 17 Dec | **Results session** led by the counselor (one class period) once a class has finished, with the printed cards, which students take home. Counselor gets a copy of a card only where the parent ticked that box. | Counselor; anaBokra supports |
-| W7 | 13–17 Dec | **Follow-up visit**: follow-up readiness check + short feedback survey on the tablets. Counselor feedback interview (20 min). Testimonial request. **Uploads complete; data frozen 17 Dec.** | Both |
-| Wrap | by 31 Dec | **Tablets wiped 31 Dec.** **Cohort insight report delivered.** Debrief call offered in the first week of January (before exams). | anaBokra |
-
-If a school starts late, its visits shift by up to one week. Anything later moves to a second round after the mid-year break.
+| W1 | 1–5 Nov | Kickoff with each partner: session dates, rooms, expected numbers, promotion plan. Staff walkthrough (60 min). Event codes issued. | anaBokra + partner |
+| W2 | 8–12 Nov | Promotion through the partner's channels. Dry run with 5–10 students on their own phones (Android and iPhone, including older models). | Partner; anaBokra |
+| W3–W5 | 15 Nov – 3 Dec | **Session 1** at each partner (about 60 min): intro, open the app, accept, enter the event code, baseline readiness, **parts 1 and 2**. **Parts 3 and 4** at home within a week, with one reminder through the partner's channel, or in an optional **Session 2**. Participants see their results in the app and rate them. | Both |
+| W5–W6 | by 10 Dec | **Results workshop** led by career-centre staff (about 60 min): reading results, exploring the islands, next steps. | Partner; anaBokra supports |
+| W7 | 13–17 Dec | The app asks for the follow-up readiness check and a short feedback survey, two weeks after results. Staff interview (20 min). Testimonial request. **Data frozen 17 Dec.** | Both |
+| Wrap | by 31 Dec | **Partner reports delivered.** Debrief call offered in the first week of January, before exams. | anaBokra |
 
 ## 5. Roles
 
-| | School counselor / coordinator | anaBokra |
+| | Partner (career centre / club) | anaBokra |
 |---|---|---|
-| Before | Names a lead. Confirms classes, visit days, free periods and room. Distributes and collects consent forms. Assigns IDs and keeps the ID ↔ name list. | Provides one-pager, consent form, parent message, counselor guide, ID + PIN sheet. Registers students for visits and sends the rosters. Prepares the tablets. |
-| During visits | Sends each roster group to the room at its period, supervises, makes sure only registered students take part, hands out ID slips, handles attendance. | Brings the tablets, runs every visit, fixes technical issues, rebooks absentees onto the make-up visit. |
-| After results | Leads the results session with the printed cards. Flags any distressed student to the school's named escalation contact (section 7). | Prints the cards, trains the counselor, provides talking points, delivers the cohort report. |
-| Data | Keeps the signed consent forms and the ID ↔ name list. Passes withdrawals to anaBokra by ID. Never receives individual results unless the parent opted in. | Holds only IDs. Deletes a withdrawn student's data within 31 days after the visit at which the withdrawal is received. Produces the anonymized report. Wipes the tablets by 31 Dec. |
-| Principal | Sign-off, communication to parents, permission for testimonial. | Agreement, report debrief. |
+| Before | Names a lead. Books the room. Promotes the sessions. Checks whether a research approval is needed. | Provides materials, staff walkthrough, event codes, promotion text. |
+| During sessions | Hosts, welcomes participants, sends the one reminder for parts 3–4. | Runs session 1, helps with phones, answers questions. |
+| After results | Leads the results workshop. Points anyone who is upset to [student counselling / named contact]. | Provides talking points, delivers the partner report. |
+| Data | Receives only the anonymized partner report. | Receives only totals and opt-in anonymous data; never names. |
 
-## 6. Visits and registration
+## 6. Session logistics
 
-The plan works with any number of tablets. **The tablet count only sets how many students fit in a visit**, and so how many visits a school needs.
+- **Format:** the assessment has 4 parts of 10–12 minutes. Session 1 covers parts 1–2 (about 25 minutes of answering) inside a 60-minute slot.
+- **Devices:** participants' own phones, in the browser or installed to the home screen. The app works offline once loaded. Bring a mobile hotspot in case the room's Wi-Fi is weak, and [2–3] loaner phones; a loaner's data is deleted at the end of the session.
+- **Private browsing:** the app warns when the browser won't keep data; participants should use a normal window.
+- **Changing phones:** results stay on the phone they were made on. Say this at the start.
+- **Language:** Arabic by default, English available. The Arabic version is the one being validated, so answers given in English are reported but excluded from the Arabic reliability and norms analysis.
+- **Wellbeing:** results are framed as guidance, not diagnosis. Each partner names a contact (for example student counselling), and the app shows [a verified helpline number].
 
-**Registration.** Each visit has its own **roster of registered students**. When the school returns the ID list (W3), anaBokra books every student into:
-- a **sitting 1** slot on one visit, and a **sitting 2** slot on a later visit, on the **same tablet** (the tablet holding their profile);
-- a place in the **follow-up visit** (W7).
-
-A slot is one tablet for one class period. Before each visit, anaBokra loads that visit's roster, and the tablets only open profiles registered for it.
-
-**Capacity per school:**
-
-- Slots per visit = tablets × free periods that day.
-- Each student needs 2 sitting slots. The follow-up takes about 10 minutes, so about 4 students share one tablet per period.
-- Visits needed ≈ (2 × students ÷ slots per visit) + 1 make-up visit + 1 follow-up visit.
-
-**Capacity across the pilot:** there are **20 school days** between 22 Nov and 17 Dec. With one anaBokra team, there is one visit per day across all schools. At kickoff anaBokra adds up the visits for all schools. If they don't fit in 20 days, it either caps students per school or adds tablets, and tells each school its cap before consent forms go home.
-
-| Tablets | Free periods per visit | Slots per visit | Students that fit (5 schools) | Students that fit (3 schools) |
-|---|---|---|---|---|
-| 6 | 6 | 36 | about 180 | about 250 |
-| 12 | 6 | 72 | about 300+ | about 300+ |
-
-*Example: 6 tablets, 6 free periods, 40 students → 3 sitting visits (80 slots ÷ 36) + 1 make-up + 1 follow-up = 5 visits.*
-
-**Logistics:**
-
-- **Format:** the assessment has 4 parts of 10–12 minutes. They run as **2 sittings** of about 25 minutes, each inside one 45-minute period with a short intro and wrap-up.
-- **Same tablet every time:** a tablet holds several students' profiles, each opened with ID + PIN. If a tablet fails, its students move to another tablet on a later visit and redo the unfinished parts.
-- **Before each visit:** tablets charged, kiosk mode on, roster loaded, ID slips sorted by period.
-- **Uploads:** at the end of each visit, over anaBokra's own mobile hotspot.
-- **Printing:** results cards are printed from the tablets on anaBokra's offline printer after each visit. No copies are kept after printing.
-- **Room setup:** quiet room, counselor present, an anaBokra team member at every visit. Short script: "this is not an exam, no right answers, not graded, you may skip any question."
-- **Absences:** absentees are rebooked onto the make-up visit. Students who still have not finished keep a partial result; their card says so.
-- **Language:** all student-facing text in Arabic and English, Arabic by default. The Arabic version is the one being validated, so answers given in English are reported but excluded from the Arabic reliability and norms analysis.
-
-## 7. Student wellbeing
-
-- Results are framed as guidance, not diagnosis.
-- **Each school names an escalation contact** for any distressed student before its first visit. The founder has confirmed this will be in place.
-- **anaBokra gives each counselor a verified helpline number** in the counselor guide: [helpline number, verified by the founder]. The founder has confirmed it will be provided.
-
-## 8. Success metrics
+## 7. Success metrics
 
 | Metric | Target | How measured |
 |---|---|---|
-| Completion | **At least 70%** of registered students finish all 4 parts | Totals uploaded from the tablets |
-| Results rating | **At least 4 out of 5** average on "my results were clear and useful" | On the tablet, right after results (sitting 2) |
-| Readiness change | Positive average change in career-decision readiness from baseline (sitting 1) to follow-up (W7). Exact size target set after baseline | The 6-item readiness check (`readiness.json`, draft for the psychologist), 1–5 scale, paired by random key, research-consented students only |
-| Counselor satisfaction | At least 4 out of 5 on usefulness, plus a qualitative interview | Survey + interview (W7) |
-| School willingness | At least 60% of pilot schools willing to give a testimonial or continue as a partner | Direct ask in W7 |
-| Data for validation | As many complete Arabic answer sets with research consent as capacity allows; at least [150] for reliability estimates | Upload count; analysis by the psychologist. Results are preliminary and described as such |
+| Completion | **At least 60%** of those who start finish all 4 parts (parts 3–4 are done at home) | Totals per event code |
+| Results rating | **At least 4 out of 5** on "my results were clear and useful" | In the app, right after results |
+| Readiness change | Positive average change from session 1 to the follow-up. Exact size set after baseline | The readiness check (`readiness.json`, items to be reviewed for students and graduates by the psychologist), paired by random code, opt-in only |
+| Partner satisfaction | At least 4 out of 5 on usefulness, plus an interview | Survey + interview (W7) |
+| Partner willingness | At least 60% of partners willing to give a testimonial or continue | Direct ask in W7 |
+| Data for validation | At least [150] complete Arabic answer sets with opt-in | Upload count; analysis by the psychologist. Results are preliminary |
 
-The readiness follow-up comes only one to three weeks after results, so the report describes the change as short-term. Report negative results honestly in the cohort report and internally.
+The follow-up comes two weeks after results, so the report describes the change as short-term. Report negative results honestly.
 
-## 9. Risks and mitigations
+## 8. Risks and mitigations
 
 | Risk | Mitigation |
 |---|---|
-| Lawyer sign-off late | Brief the lawyer now with a narrow scope (section 3). The pilot shifts rather than starting without sign-off. |
-| Not enough tablet capacity | Visit-based registration with a per-school cap set at kickoff (section 6). Add tablets to raise the cap. |
-| Schools slow to approve or reply | Start outreach now. Use founder's connections. Keep the ask small. Have 10–15 prospects. |
-| Low parental consent rate | Parent message from the principal. Short plain-language form. Two weeks to return it. One reminder. Do not pressure students. |
-| Exam periods or school events | Confirm the calendar and visit days at kickoff. Finish by mid-December. One make-up visit per school. |
-| Tablet lost or stolen | No names on tablets, ID + PIN per profile, device encryption, remote wipe. Count tablets in and out at every visit. |
-| Tablet failure or flat battery | Charging case, charge the night before. Students on a failed tablet are rebooked on another tablet and redo only the unfinished parts. |
-| Low completion in sitting 2 | Two sittings instead of four, a make-up visit, counselor reminder. |
-| Re-identification from uploads | Answer sets carry no ID or key and are uploaded in shuffled batches. Small-group suppression in the report. No gender in uploads. |
-| Students misread results as a verdict | Guidance-not-diagnosis framing on the tablet, on the printed card, in counselor training and in the results session. |
-| Small samples limit validation | Present as preliminary. Pool data across schools. No validation claims until analysis is done. |
-| Solo founder capacity | One visit per day. Psychologist as backup for one day a week. |
-| Counselor overload | Counselor tasks limited to consent, the ID list, sending groups to the room and one results session. anaBokra does the rest. |
+| Lawyer sign-off late, or 18–20 needs special handling | Brief the lawyer now, with ages 18–20 as the first question. If needed, start with 21–25 and add 18–20 later. |
+| Low turnout | Partner promotes; short ask (one hour); results workshop as the hook; [certificate of participation — partner to decide]. |
+| Low completion of parts 3–4 at home | One reminder through the partner; optional session 2; resumable progress. |
+| A university requires research approval | Ask in W1. If it takes too long, run the session without the research opt-in for that partner. |
+| Old or full phones | Dry run on older models; loaner phones; works in the browser without installing. |
+| Data lost (private window, phone change) | Warning in the app; say it at the start. |
+| Exams or events cut into sessions | Confirm calendars at kickoff; finish by mid-December. |
+| Participants misread results as a verdict | Guidance-not-diagnosis framing in the app, at the session and in the workshop. |
+| Small samples limit validation | Present as preliminary; pool across partners. |
+| Solo founder capacity | One partner session per day; psychologist as backup. |
 
-## 10. Assumptions the founder must confirm
+## 9. Assumptions the founder must confirm
 
-1. School calendars: confirm the visit days avoid exams, trips and holidays in each school.
-2. Free periods per visit day in each school (the capacity table assumes 6).
-3. Final readiness items (psychologist) and the validation target ([150] answer sets).
-4. Whether gender is asked on the tablet (it is only used for Arabic grammar and is never uploaded).
-5. The helpline number for the counselor guide.
+1. Partner list, session dates and room capacity.
+2. Event code format and whether a partner can have several sessions (one code each).
+3. The completion target (60%) and validation target ([150]).
+4. Number of loaner phones.
+5. The helpline number and each partner's contact for someone who is upset.
+6. Readiness items reworded for students and graduates (psychologist).

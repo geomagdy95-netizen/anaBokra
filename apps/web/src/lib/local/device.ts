@@ -1,32 +1,33 @@
 import type { KvStore } from './kv';
 
 /**
- * Profiles that live on this device. Phone mode has one profile (the owner); tablet mode (school
- * pilot) holds several, each opened with a student ID + PIN. Nothing here leaves the device.
+ * Profiles that live on this device. A phone has one profile (its owner); a shared device (a loaner
+ * at a pilot session) may hold several in turn. Nothing here leaves the device.
  */
-export type DeviceMode = 'phone' | 'tablet';
+export type DeviceMode = 'phone' | 'shared';
 
-/** Why this profile may take the assessment (consent-texts.en.md, phase 1). */
-export type ConsentBasis = 'guardian_on_device' | 'adult_self' | 'school_form';
+/**
+ * Why this profile may take the assessment (consent-texts.en.md, phase 1). Phase 1 is for adults, who
+ * consent for themselves; a guardian basis comes back with the teen phase.
+ */
+export type ConsentBasis = 'adult_self';
 
 export interface DeviceConsent {
   basis: ConsentBasis;
   confirmedAt: string;
   textVersion: string;
   policyVersion: string;
-  /** School pilot: the parent's optional choices from the paper form. */
+  /** The user's own opt-in to sending anonymous answers for research (pilot sessions only). */
   research?: boolean;
-  counselorCopy?: boolean;
 }
 
-export type AgeBand = 'under15' | '15-17' | '18plus';
+/** 18–20 is kept apart from 21+ because the Civil Code puts full capacity at 21 (open legal question). */
+export type AgeBand = 'under18' | '18-20' | '21-25' | '26plus';
 
 export interface LocalProfile {
   id: string;
   mode: DeviceMode;
   displayName: string | null;
-  /** School pilot only: the random student ID handed out by the school. */
-  studentCode: string | null;
   grade: number | null;
   track: string | null;
   gender: 'female' | 'male' | null;
@@ -67,7 +68,6 @@ export class DeviceStore {
   async createProfile(input: NewProfile): Promise<LocalProfile> {
     const p: LocalProfile = {
       displayName: null,
-      studentCode: null,
       grade: null,
       track: null,
       gender: null,

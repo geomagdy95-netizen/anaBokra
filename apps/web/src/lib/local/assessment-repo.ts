@@ -34,7 +34,7 @@ const emptyDoc = (): AssessmentDoc => ({ v: 1, sessions: [], responses: {}, resu
 export const assessmentKey = (profileId: string) => `assessment:${profileId}`;
 
 export interface LocalRepoOptions {
-  /** Whether this profile may take the assessment (guardian confirmed, adult, or school form). */
+  /** Whether this profile may take the assessment (the user has accepted the terms on the device). */
   hasConsent: () => Promise<boolean>;
   now?: () => Date;
 }

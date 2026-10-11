@@ -1,113 +1,100 @@
 # Brief for Counsel: anaBokra Phase 1
 
 **From:** [Founder name], [anaBokra legal entity name] · [email] · [phone]
-**Date:** 10 October 2026
-**What we need:** sign-off on the school pilot documents and answers to questions P1–P10 by **25 October 2026**; answers to L1–L5 by **15 December 2026**.
+**Date:** 11 October 2026 (replaces the 10 October brief, which assumed secondary-school students)
+**What we need:** sign-off on the pilot documents and answers to questions P1–P8 by **25 October 2026**; answers to L1–L4 by **15 December 2026**.
 
 ## 1. About anaBokra
 
-anaBokra is an Egyptian career guidance app for secondary students. Students answer questionnaires about their interests (O\*NET Interest Profiler), personality (IPIP Big Five), work values and abilities. The app suggests career groups and careers, and lets them explore study routes in Egypt. Results are presented as guidance, not as a diagnosis.
+anaBokra is an Egyptian career guidance app for young adults. Users answer questionnaires about their interests (O\*NET Interest Profiler), personality (IPIP Big Five), work values and abilities. The app suggests career groups and careers and shows the routes into them in Egypt. Results are presented as guidance, not a diagnosis.
 
-We have redesigned the first phase so that **personal data stays on the device**, to limit processing until we hold the licenses needed for a server-based service (phase 2).
+**Phase 1 is for people aged 18 and over**, aimed at university and institute students and graduates aged 18–25. A version for secondary-school students will come later, after we have settled the rules for minors. To limit processing until we hold any licenses a server-based service would need, **personal data stays on the user's phone**.
 
 | Date | Event |
 |---|---|
-| By 31 Oct 2026 | Pilot agreements signed with 3–5 private schools in Cairo and Alexandria |
-| 1–19 Nov 2026 | Consent forms go home and come back; IDs assigned |
-| 22 Nov – 17 Dec 2026 | Student sittings at the schools (grades 10–11, up to about 300 students) |
-| 31 Dec 2026 | All tablets wiped; anonymized reports delivered to schools |
-| 16 Jan 2027 | Public launch of the phone app |
+| By 31 Oct 2026 | Partner agreements signed with 3–5 university career centres or student clubs (Cairo, Alexandria) |
+| 15 Nov – 10 Dec 2026 | Pilot sessions at the partners; about 300 participants |
+| 31 Dec 2026 | Anonymized partner reports delivered |
+| 16 Jan 2027 | Public launch |
 
-**No consent form goes to parents and no student session runs until you have signed off.**
+**No pilot session runs until you have signed off.**
 
 ## 2. How phase 1 works
 
-### 2.1 School pilot (Nov–Dec 2026)
+- **No account, no name, phone number, email or ID.** Users open the app in a browser on their own phone.
+- **Age question first.** Under-18s are turned away and nothing is saved. Users 18+ tick one box accepting the terms and confirming they are 18 or over. The app records the age band (18–20, 21–25, 26+) on the phone only.
+- **Everything is on the phone.** Profile, questionnaire answers, scoring, results and progress are stored and computed on the device. anaBokra does not receive them.
+- **Content download.** The app downloads its content from our server, which receives standard technical data (IP address, browser type).
+- **Pilot sessions.** Participants enter an optional event code. The app then sends **totals** for that event (counts and averages, no individual data) for the partner's report.
+- **Research opt-in.** At a session, participants can choose to help validate the Arabic questionnaire. Only if they agree, the app sends:
+  1. their answers with **no ID or key**, tagged with the event code, age band, stage (student or graduate) and language;
+  2. their readiness answers before and after, linked by a **random code made on the phone** (pseudonymous).
 
-- Students use **tablets owned by anaBokra**, brought to the school on visit days. Tablets are encrypted, locked to the app (kiosk mode), and can be wiped remotely.
-- anaBokra prepares random **student IDs and PINs**. The school assigns them to students whose parents signed the consent form, and keeps the **ID ↔ name list and the signed forms at the school**. anaBokra receives only each student's ID, grade and the parent's optional choices. **anaBokra never receives names.**
-- On the tablet, under the ID only: grade, secondary track, language, optional gender (used only for Arabic grammar), questionnaire answers, scores, career matches, choices in the app, a short readiness check before and after, and feedback surveys.
-- Results go home as a **printed card** (ID only). The school receives an **anonymized group report**; the counselor receives a copy of a student's card only if the parent ticked that box.
-- **What leaves the tablets:**
-  1. totals per school and grade (no individual data);
-  2. with the parent's optional research consent, **answer sets with no ID** (tagged with school code, grade and language);
-  3. with the same consent, **readiness answers before and after linked by a random key** (not the student ID). This is pseudonymous.
-- **Retention:** tablets wiped by 31 Dec 2026; a withdrawn student's data deleted within 31 days after the school visit at which we receive the withdrawal; research data deleted once the analysis is finished, no later than 17 Jun 2027.
-- **Not used:** AI, WhatsApp, accounts, analytics, any transfer of personal data abroad. The upload server's location is still to be decided (section 4, P6).
-
-### 2.2 Phone app (from 16 Jan 2027)
-
-- No account, no phone number, no email, no AI.
-- Profile, answers, scoring, results and progress are stored and computed **on the user's device**. anaBokra does not receive them.
-- The app downloads content (questions, careers, study routes) from our server, which receives standard technical request data (IP address, browser type).
-- Users under 18 must hand the device to a parent or guardian, who confirms on the device before anything is saved. **Nothing is uploaded for users under 18.**
-- Users can delete everything on the device at any time.
+  This data is deleted once the analysis is done, and no later than 17 June 2027.
+- **Partners** (universities) receive only an anonymized group report, never individual results.
+- **Not used:** AI, WhatsApp, accounts, analytics, any transfer of personal data abroad. The upload server's location is still to be decided (P5).
 
 ## 3. Documents for review
 
-In priority order. Arabic versions are included where marked.
-
 | # | Document | Needed by |
 |---|---|---|
-| 1 | Parent/guardian consent form for the pilot (EN, AR): `school-consent-form.en.md`, `school-consent-form.ar.md` | 25 Oct |
-| 2 | School pilot agreement (EN; AR to follow after your comments): `pilot-agreement.en.md` | 25 Oct |
-| 3 | Consent texts, section 2 (school declaration, student agreement, withdrawal messages) (EN, AR): `consent-texts.en.md` | 25 Oct |
-| 4 | Privacy policy, section 6 (school pilot) (EN, AR): `privacy-policy.en.md` | 25 Oct |
-| 5 | Consent texts, section 1 (phone app screens) | 15 Dec |
-| 6 | Privacy policy (rest), terms of use, children's data notice (EN, AR) | 15 Dec |
-| — | Background: our compliance map (section 0b covers phase 1). Its article numbers for the Executive Regulations come from law-firm summaries; we could not verify them against the official Arabic text | — |
+| 1 | Consent texts (EN, AR): `consent-texts.en.md`, `consent-texts.ar.md`. These are the age question, the acceptance, the event code, the research opt-in and what is said at sessions | 25 Oct |
+| 2 | Partner agreement (EN; AR after your comments): `partner-agreement.en.md` | 25 Oct |
+| 3 | Privacy policy (EN, AR) | 25 Oct |
+| 4 | Terms of use and the short data notice (EN, AR) | 25 Oct |
+| — | Background: our compliance map, section 0b. Its article numbers for the Executive Regulations come from law-firm summaries; we could not verify them against the official Arabic text | — |
 
 ## 4. Questions
 
-### Before 25 October (school pilot)
+### Before 25 October (pilot)
 
-**P1. License.** Given the pilot design in 2.1, does anaBokra need a PDPC controller license, or a permit for sensitive data, before the first school visit on 22 November? If so, may the pilot start while the application is under review? Does the fee exemption up to 100,000 records also exempt us from the license itself?
+**P1. Ages 18–20.** The data protection law treats under-18s as children, but the Civil Code puts full civil capacity at 21. Can users aged 18–20 accept the terms and consent to the research opt-in themselves? If not, we will start the pilot at 21–25 and add 18–20 later.
 
-**P2. Roles.** For the pilot, are the school and anaBokra separate controllers, joint controllers, or is the school the controller and anaBokra its processor? What must the pilot agreement say as a result?
+**P2. Does the PDPL apply, and do we need a license?** anaBokra receives no identifiable data from the app. It receives only:
+- totals;
+- anonymous answer sets;
+- pseudonymous readiness pairs from participants who opt in.
 
-**P3. Consent.**
-- Is the paper form valid **explicit written consent** under Art. 12 for sensitive (psychological) data of students aged 15–17?
-- We ask for guardian consent for everyone under 18, even though the Executive Regulations reportedly allow 15–18-year-olds or their guardian to consent. Is that right?
-- Is it enough that the signed forms stay at the school?
+Does anaBokra need a PDPC controller license or a sensitive-data permit for this? If so, before the 31 Oct / 1 Nov 2026 deadline and before the pilot?
 
-**P4. Anonymous and linked data.**
-- Are the answer sets with no ID or key (school code, grade, language) anonymous, and so outside the PDPL, given cohorts of 50–100 students per school?
-- The readiness data linked by a random key is pseudonymous. What obligations follow from that, and is keeping it until 17 Jun 2027 acceptable?
+**P3. Anonymous and pseudonymous data.**
+- Are the answer sets with no ID or key anonymous (outside the PDPL), given about 60–100 participants per event code?
+- What follows for the readiness pairs linked by a random code?
+- Is the opt-in screen (consent texts 2.3) valid explicit consent?
 
-**P5. Withdrawal.** Our forms say a withdrawn student's data is deleted within 31 days after the school visit at which we receive the request. Does this conflict with the 6-working-day response period in Art. 32? What wording do you recommend?
+**P4. Partner roles and approvals.** Does the university partner have any role under the PDPL when it receives only anonymized reports? Do we need a research or ethics approval from the university, or anything from the Ministry of Higher Education or CAPMAS, for the research opt-in?
 
-**P6. Hosting.** Must the server that receives the uploads in 2.1 be in Egypt? If it is abroad, do anonymous uploads or the linked readiness data count as a cross-border transfer?
+**P5. Hosting.** Must the server receiving the opt-in research data be in Egypt? If it is abroad, does sending anonymous or pseudonymous data count as a cross-border transfer?
 
-**P7. Lost tablet.** If a tablet holding pseudonymous pilot data is lost, is that a notifiable breach (Art. 7)? What should our runbook say?
+**P6. Psychological questionnaires.** Do any Egyptian rules on psychological practice or testing apply to offering interest and personality questionnaires to the public with "guidance, not diagnosis" framing? Please review the disclaimers in the terms of use, section 2.
 
-**P8. School approvals.** Does a private school need Ministry of Education or district permission to run this activity in class? Do the questionnaires need CAPMAS approval?
+**P7. Deletion rights.** Anonymous answers can't be traced to a person, so they can't be deleted on request. Linked readiness answers can be deleted using the random code on the phone. Is that enough?
 
-**P9. Psychological questionnaires.** Do any Egyptian rules on psychological practice or testing apply to offering interest and personality questionnaires to minors with "guidance, not diagnosis" framing? Please review the disclaimers in the terms of use (section 2) and the consent form (section 1).
+**P8. Quotes.** May we quote participants anonymously in reports and marketing with their consent given at the session?
 
-**P10. Quotes.** May we use anonymous student quotes in reports and marketing with the parent's consent? Should that be a separate tick box on the form?
+### Before 15 December (public launch)
 
-### Before 15 December (phone launch)
+**L1. App acceptance.** When data never leaves the phone, is the single acceptance tick (consent texts 1.2) needed, sufficient, or should it differ?
 
-**L1. Phone mode.** Does the PDPL apply to anaBokra at all when personal data never leaves the user's device? Is the on-device guardian confirmation (consent texts 1.2) needed, sufficient, or should it be different? Should it record the guardian's name on the device?
+**L2. Technical data.** Our content server receives IP addresses. If we don't store them, or keep them for no more than 7 days, is anything further required? Does a content server outside Egypt matter?
 
-**L2. Age.** Is 15 the right minimum age? How should we treat ages 18–20, given that the Civil Code puts full capacity at 21? Can a 15–17-year-old accept the terms of use, or only the guardian?
+**L3. Consumer and e-signature law.** Is the tick a valid acceptance of the terms? Is anything required under the Consumer Protection Law for a free app?
 
-**L3. Technical data.** When the app downloads content, our server receives IP addresses. If we do not store them, or keep them for no more than 7 days, is anything further required? Does a content server outside Egypt matter?
+**L4. Formalities.** For phase 1, do we need to appoint and register a DPO, or keep a formal processing register?
 
-**L4. Consumer and e-signature law.** Is a checkbox on the device a valid acceptance by the guardian? Is anything required under the Consumer Protection Law for a free app?
+### Later phases (not for now)
 
-**L5. Formalities.** For phase 1, do we need to appoint and register a DPO, or keep a formal processing register?
+- **Minors:** guardian consent, schools and children's data, for the secondary-school version.
+- **Phase 2:** accounts, an AI vendor, storage in Europe.
 
-### Not for now (phase 2)
-
-Accounts, WhatsApp sign-in, an AI vendor, storage in Europe, and parent and school accounts are planned for phase 2. They are covered in our compliance map, sections 1–5. We will come back to you with them once phase 1 is settled.
+Both are covered in our compliance map, sections 1–5. We'll come back to you with them.
 
 ## 5. What we have already done to reduce risk
 
-- No names, national ID numbers, dates of birth, phone numbers or school grades are collected in the pilot.
-- The ID ↔ name list and the consent forms never leave the school.
-- No AI, no analytics, no advertising and no marketing.
-- No transfer of personal data abroad is planned for phase 1.
-- Nothing is saved before consent. Nothing is uploaded for under-18s on the phone app.
-- Short, fixed retention periods, with all tablets wiped by 31 December 2026.
-- Public schools are deferred to a later round.
+- Adults only in phase 1; under-18s are turned away and nothing is saved.
+- No names, phone numbers, emails or ID numbers are collected.
+- Answers and results never leave the phone unless the participant opts in, and even then without identity.
+- No AI, analytics, advertising or marketing.
+- No transfer of personal data abroad is planned.
+- Partners receive anonymized group reports only.
+- Short, fixed retention for research data (by 17 June 2027).

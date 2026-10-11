@@ -53,8 +53,8 @@ export function DevLocalClient() {
       const [{ localRuntimeFor }, { DeviceStore }, { deviceKv }, { demoStations }] = await load();
       const kv = await deviceKv();
       const device = new DeviceStore(kv);
-      let profile = await device.createProfile({ mode: 'phone', ageBand: '18plus' });
-      profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.2-draft', policyVersion: '0.2' });
+      let profile = await device.createProfile({ mode: 'phone', ageBand: '21-25' });
+      profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.3-draft', policyVersion: '0.3-draft' });
       await device.setActiveId(profile.id);
       const rt = localRuntimeFor(kv, profile);
       const t1 = performance.now();
