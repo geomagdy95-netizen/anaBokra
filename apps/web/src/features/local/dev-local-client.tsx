@@ -53,9 +53,14 @@ export function DevLocalClient() {
       const [{ localRuntimeFor }, { DeviceStore }, { deviceKv }, { demoStations }] = await load();
       const kv = await deviceKv();
       const device = new DeviceStore(kv);
-      let profile = await device.createProfile({ mode: 'phone', ageBand: '21-25' });
-      profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.3-draft', policyVersion: '0.3-draft' });
-      await device.setActiveId(profile.id);
+      // Reuse the active profile if it has consent (keeps its choices, e.g. statistics); else make one.
+      const activeId = await device.getActiveId();
+      let profile = activeId ? await device.getProfile(activeId) : null;
+      if (!profile?.consent) {
+        profile = await device.createProfile({ mode: 'phone', ageBand: '21-25' });
+        profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.4-draft', policyVersion: '0.4-draft' });
+        await device.setActiveId(profile.id);
+      }
       const rt = localRuntimeFor(kv, profile);
       const t1 = performance.now();
       const { session } = await rt.service.startSession(rt.userId, {});

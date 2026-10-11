@@ -2202,6 +2202,15 @@
         "network": "No connection. Please try again.",
         "generic": "Something went wrong. Please try again."
       }
+    },
+    "stats": {
+      "title": "Anonymous statistics",
+      "on": "On: one anonymous summary is sent when you finish.",
+      "off": "Off: nothing is sent.",
+      "pin": "Parent PIN",
+      "confirm": "Confirm",
+      "pinWrong": "That PIN isn't right.",
+      "what": "Age group, language, top interest areas and career groups, score ranges and how many parts were finished. No name, phone number, ID or exact time."
     }
   }
 }

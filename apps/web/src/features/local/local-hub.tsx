@@ -11,6 +11,7 @@ import type { Locale } from '@/i18n/routing';
 
 import { DeleteMyData } from './delete-data';
 import { MoveData } from './move-data';
+import { StatsSetting } from './stats-setting';
 import { FirstStart } from './first-start';
 import { loadLocalAssessment, type LocalPageData } from './load';
 import { LocalBlocked, LocalLoading, StorageWarning } from './local-states';
@@ -26,6 +27,8 @@ export function LocalAssessmentHub({ retake }: { retake: boolean }) {
     let alive = true;
     void loadLocalAssessment(locale, { retake }).then((d) => {
       if (alive) setData(d);
+      // Retry an anonymous summary that couldn't be sent when the result was made (e.g. offline).
+      if (d.ok === 'results' || d.ok === true) void import('@/lib/local/stats').then(({ syncStats }) => syncStats(d.rt));
     });
     return () => {
       alive = false;
@@ -39,6 +42,7 @@ export function LocalAssessmentHub({ retake }: { retake: boolean }) {
   const footer = (
     <footer className="mx-auto flex w-full max-w-md flex-col gap-3 px-4 pb-10">
       {!data.rt.device.persistent && <StorageWarning />}
+      <StatsSetting />
       <MoveData />
       <DeleteMyData onDeleted={reload} />
     </footer>

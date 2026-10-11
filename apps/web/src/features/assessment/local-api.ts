@@ -28,5 +28,11 @@ export const localAssessmentApi = {
     withRuntime((rt) => rt.service.completeStation(rt.userId, { sessionId, station, ...(valuesRanking ? { valuesRanking } : {}) })),
   saveReadiness: (sessionId: string, answers: Record<string, number>) =>
     withRuntime((rt) => rt.service.saveReadiness(rt.userId, { phase: 'post', sessionId, answers })),
-  finalize: (sessionId: string) => withRuntime((rt) => rt.service.finalize(rt.userId, { sessionId })),
+  finalize: (sessionId: string) =>
+    withRuntime(async (rt) => {
+      const result = await rt.service.finalize(rt.userId, { sessionId });
+      // Opt-in anonymous statistics; never blocks or fails the result.
+      void import('@/lib/local/stats').then(({ syncStats }) => syncStats(rt));
+      return result;
+    }),
 };
