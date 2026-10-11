@@ -3,7 +3,7 @@
 Closed beta, free · 3–5 universities or institutes (Cairo/Alexandria) through career centres or student clubs · ages 18–25, students and recent graduates · about 300 participants · November to mid-December 2026
 Partner reports by 31 December 2026 · Public launch: 16 January 2027.
 
-> On 11 October 2026 the phase 1 audience changed from secondary students to **18–25-year-olds**. The school pilot (tablets, parent consent, ID lists) is parked for a later teen phase; see `docs/parked/teens/`.
+> On 11 October 2026 the phase 1 audience changed to **18–25-year-olds**, with **15–17-year-olds allowed from the public launch** through a verified parent or guardian. The pilot itself is for adults at universities. The school pilot (tablets, ID lists) is parked; see `docs/parked/teens/`.
 >
 > Dates assume a Sunday-to-Thursday week. Sessions end in mid-December, before most universities' first-term exams (usually January — confirm per partner), and leave about four weeks for fixes before launch.
 
@@ -18,14 +18,14 @@ Partner reports by 31 December 2026 · Public launch: 16 January 2027.
 
 ## 2. How data is handled in phase 1
 
-Participants use the app on **their own phones**. Everything stays on the phone; nobody creates an account.
+Participants use the app on **their own phones**. Everything stays on the phone, **encrypted**; nobody creates an account. Participants can move their data to a new phone with a backup file or a transfer code.
 
 | What | Where it lives | Who can link it to a person |
 |---|---|---|
 | Profile, answers, results, readiness, feedback | On the participant's phone | Nobody at anaBokra |
 | Anonymous answer sets (**only if the participant opts in**) | Sent once after the last part: no name, no ID, no key; tagged only with the partner's event code, age band, stage (student or graduate) and language | Nobody |
 | Readiness before and after (**same opt-in**) | Sent with a random code made on the phone, so the two answers can be matched. The code is never on the answer sets | Only from that phone, until the app is deleted |
-| Totals (started, finished, ratings, top matches) | Sent per event code, with no individual data | Nobody |
+| Anonymous statistics (**only if the participant opts in**): one summary per finished assessment (age band, stage, language, top areas and groups, score bands, completion), with the event code | Sent with no ID, device identifier or exact time | Nobody |
 
 - Participants **consent for themselves** on their phone. Ages 18–20 are an open legal question (Civil Code capacity at 21) that the lawyer must answer before sessions start.
 - **Event code:** each partner session gets a short code (for example `CU-FCI-1`). Entering it links the participant's totals and research data to that partner's report. The app works without one.

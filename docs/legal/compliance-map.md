@@ -14,42 +14,52 @@
 
 ---
 
-## 0b. Phase 1 design (updated 11 Oct 2026: adults 18+) — read this before the tables below
+## 0b. Phase 1 design (updated 11 Oct 2026) — read this before the tables below
 
-Sections 1–5 and 7 below were written for the **server design** (accounts, WhatsApp sign-in, guardian consent routes A/B/C, AI explanations, storage in Europe). That design is now **phase 2**. On 11 Oct 2026 the phase 1 audience also changed to **ages 18–25**; minors come in a later phase (`docs/parked/teens/`). **Phase 1** (university pilot Nov–Dec 2026, public launch 16 Jan 2027) works like this:
+Sections 1–5 and 7 below were written for the **server design** (accounts, WhatsApp sign-in, consent routes A/B/C, AI explanations, storage in Europe), which is now a later phase. **Phase 1** (university pilot Nov–Dec 2026, public launch 16 Jan 2027) works like this:
 
-- **App on the user's own phone:** ages 18+ only; the user accepts for themselves. No account, phone number, email, name or AI. Profile, answers, scoring, results, islands and points stay **on the device**. The app downloads content (questions, careers, islands) from our server.
-- **University pilot:** participants use their own phones. An optional **event code** links totals to the partner's report. **Only with the participant's opt-in:** anonymous answer sets (no ID or key; event code, age band, stage, language) and readiness before/after linked by a random code made on the phone (pseudonymous). Partners receive only anonymized group reports.
-- **Not in phase 1:** minors, guardian consent, AI explanations, WhatsApp, accounts, analytics, transfer of personal data abroad.
+- **On the device, encrypted, never sent to anaBokra:** profile, answers, scoring, results, islands, points, acceptance records, and for 15–17 the parent's details (name, relationship, national ID number, last 3 phone digits, PIN hash).
+- **Ages:** 18+ accept for themselves; **15–17 need a parent or guardian** who verifies their phone by SMS code, enters their national ID (checked on the device: format, date of birth, governorate, check digit, adult and old enough), declares guardianship, accepts the terms and sets a parent PIN. Under-15s are turned away.
+- **Reaches the server (OVH):**
+  - content requests;
+  - the parent's phone number, only to send the code, not stored (a one-way hash is kept ≤ 24 h for rate limiting);
+  - opt-in anonymous statistics;
+  - opt-in research data at university sessions (adults);
+  - encrypted device-transfer payloads anaBokra cannot read, deleted within 10 minutes.
+- **Not in phase 1:** accounts, server storage of personal data, AI, analytics, advertising.
 
 ### Phase 1 status of each obligation in section 1
 
 | # | Obligation | Phase 1 status | Open question for the lawyer |
 |---|---|---|---|
-| 1 | Explicit consent | Nothing is collected by anaBokra except opt-in research data, for which the participant gives explicit consent on the device | Is the on-device opt-in valid explicit consent? Is acceptance needed at all for data that never leaves the device? |
-| 6–8 | Children's data; guardian consent; pre-consent collection | **Not applicable:** under-18s are turned away at the age question and nothing is saved | — |
-| 22 | Age of minority / civil capacity | **Central question:** ages 18–20 accept for themselves; the Civil Code puts full capacity at 21. Age band kept on the device (18–20 vs 21+) | Can 18–20-year-olds consent and accept the terms? If not, start at 21 and add 18–20 later |
-| 2, 18 | Purpose limitation, retention, erasure | Research data deleted after analysis, by 17 Jun 2027; on-device data deleted by the user | Acceptable? |
-| 3, 4 | Rights; reply in 6 working days | The user controls everything on the device. Anonymous data can't be traced. Linked readiness data deletable via the random code on the phone | Enough? |
-| 9, 11 | Sensitive data; controller license | anaBokra receives no identifiable psychological data; only anonymous answer sets and pseudonymous readiness pairs (opt-in) | Is a PDPC license needed for phase 1, and before 31 Oct / 1 Nov 2026? |
-| 10 | No profiling of children | Not applicable (adults); matching runs on the device in any case | — |
-| 12, 13 | Register; DPO | A short register for the research data (below). No DPO appointed | Required for phase 1? |
-| 14, 15 | Cross-border; processors | No personal data abroad **if** the upload and content servers are in Egypt or don't log IP addresses | Does content-server technical data (IP) count? |
-| 16, 17 | Security; breach | No personal data held centrally except pseudonymous readiness pairs | Breach duties for the research store? |
+| 11, 9 | Controller licence; sensitive data | anaBokra receives no answers, results or ID numbers. It handles parent phone numbers briefly, opt-in anonymous statistics, opt-in pseudonymous readiness pairs (adults), and ciphertext it can't read | Is any licence needed? Is on-device or relayed encrypted data "processing" by anaBokra? |
+| 1, 6, 7 | Consent; children; guardian verification | **15–17:** parent SMS code + national ID checked on the device + declaration + PIN. Adults accept for themselves | Is this an acceptable mechanism? Does it need Center approval when no data reaches us? Parent 21+ or 18+? |
+| 8 | Data before consent | Nothing is saved before acceptance or parent consent | — |
+| — | National ID collection | Checked and stored only on the device, encrypted; never uploaded | Lawful and proportionate? |
+| 22 | Civil capacity (18 vs 21) | Ages 18–20 accept for themselves; age band kept on the device | Can 18–20 consent? |
+| 14, 15 | Cross-border; processors | OVH holds no answers or IDs; parent phone numbers pass through for SMS | Is OVH acceptable without transfer consent? Must SMS verification run in Egypt? |
+| 2, 18 | Retention | Research data ≤ 17 Jun 2027; phone hashes ≤ 24 h; relay ≤ 10 min; on-device data deleted by the user (parent PIN for 15–17) | Acceptable? |
+| 3, 4 | Rights | The user controls on-device data. Anonymous data can't be traced. Readiness pairs deletable via the code on the phone | Enough? |
+| 10 | No profiling of children | Matching runs on the device; nothing about a child reaches anaBokra except opt-in anonymous statistics | Are anonymous statistics from 15–17s acceptable with parent opt-in? |
+| 16, 17 | Security; breach | Encryption on the device; no identifiable data held centrally except readiness pairs | Breach duties? |
+| 12, 13 | Register; DPO | Not appointed | Required? |
 | 19, 20 | Marketing; AI | None | — |
-| 24 | Partners' roles | The university receives only anonymized reports | Any role for the partner under the PDPL? Research/ethics approvals at universities? |
-| 26 | Psychological testing rules | Unchanged | Any rules on psychological questionnaires offered to the public? |
-| 27 | Consumer and e-signature law | On-device checkbox acceptance | Valid acceptance of the terms? |
+| 24 | University partners | Anonymized reports only | Partner role? Research/ethics approvals? |
+| 26 | Psychological testing rules | Unchanged | Rules for questionnaires offered to the public and minors? |
+| 27 | Consumer and e-signature law | On-device ticks | Valid acceptance? |
 
 ### Phase 1 data register
 
 | Category | Fields | Subjects | Where | anaBokra sees it? | Retention |
 |---|---|---|---|---|---|
-| App profile and results | age band, stage, language, optional gender, event code, answers, results, islands, points, acceptance record | Users 18+ | User's device | **No** | Until the user deletes it |
-| Content requests | IP address, browser type (server logs) | App users | Content server [provider, country] | Technical only | [no IP storage / ≤ 7 days — Engineering] |
-| Session totals | counts and averages per event code | — | Upload server [provider, country] | Aggregate | Kept |
-| Anonymous answer sets | item answers, event code, age band, stage, language | Opt-in participants | Upload server | Not identifiable | Until analysis is done, ≤ 17 Jun 2027 |
-| Linked readiness | readiness answers before/after, random code, event code | Opt-in participants | Upload server | Pseudonymous | Until analysis is done, ≤ 17 Jun 2027 |
+| App data | profile, answers, results, progress, acceptance | Users 15+ | User's device, encrypted | **No** | Until the user deletes it |
+| Parent details (15–17) | name, relationship, national ID, last 3 phone digits, PIN hash | Parents/guardians | User's device, encrypted | **No** | Until deleted |
+| Phone verification | phone number (transient), code hash, one-way phone hash | Parents/guardians | Verification service + SMS provider [Egypt] | Transiently | Code 10 min; hash ≤ 24 h; number not stored |
+| Content requests | IP address, browser type | App users | Content server (OVH) | Technical only | [not stored / ≤ 7 days] |
+| Anonymous statistics | age band, stage, language, top areas/groups, score bands, completion, event code | Opt-in users | Stats server (OVH) | Not identifiable | Kept |
+| Research answer sets | item answers, event code, age band, stage, language | Opt-in adults at sessions | Stats server (OVH) | Not identifiable | ≤ 17 Jun 2027 |
+| Readiness pairs | readiness before/after, random code, event code | Opt-in adults at sessions | Stats server (OVH) | Pseudonymous | ≤ 17 Jun 2027 |
+| Transfer relay | encrypted payload, transfer code | Users moving phones | Relay (OVH) | **No** (ciphertext only) | ≤ 10 min |
 
 ---
 
@@ -180,13 +190,14 @@ Sections 1–5 and 7 below were written for the **server design** (accounts, Wha
 ## 7. Engineering and product to-dos that follow from this map
 
 ### Phase 1
-1. App: no network calls that carry personal data; content requests only. Verify with a network audit before launch.
-2. Content and upload servers: no IP address storage (or ≤ 7 days); decide hosting location (Egypt preferred).
-3. Age question and on-device acceptance (consent-texts 1.1–1.2), stored on the device with text and policy versions; under-18s saved nothing.
-4. *Delete all my data* on the device.
-5. Event code, research opt-in (consent-texts 2.2–2.3), and the upload endpoint: accepts only totals, anonymous answer sets (no ID, no key) and linked readiness records; stores no IP or device identifier; answer sets in shuffled batches.
-6. *Settings → Research data*: change the choice before sending; request deletion of the linked readiness record with the random code.
-7. No analytics or crash reporting carrying identifiers.
+1. App: no network calls that carry personal data except parent phone verification; verify with a network audit before launch.
+2. Encrypt all on-device data (profile, answers, results, parent details).
+3. Age question (under 15 turned away); adult acceptance; parent flow for 15–17 (SMS code, national ID check on the device, declaration, PIN), per consent-texts 1.1–1.3.
+4. Phone-verification service: send code via [Egyptian SMS provider], keep only a code hash for 10 minutes and a one-way phone hash ≤ 24 h for rate limits; never store the number.
+5. *Delete all my data* (parent PIN for 15–17).
+6. Backup file (passphrase) and transfer code (end-to-end encrypted relay, ≤ 10 min).
+7. Opt-in anonymous statistics, event code, research opt-in (adults at sessions), upload endpoint storing no IP or device identifier.
+8. Content and stats servers: no IP address storage (or ≤ 7 days).
 
 ### Phase 2 (server design)
 

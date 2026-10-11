@@ -250,8 +250,8 @@ xp_events           (profile_id, points, ref_type, ref_id, created_at)
 | | Pilot session (own phone, event code) | Launch (own phone) |
 |---|---|---|
 | Profiles | One per device (a loaner phone holds one at a time and is cleared after the session) | One per device |
-| Before use | Age question; 18+ accept for themselves; nothing saved for under-18s | Same |
-| Uploads | Totals per event code; **only with the user's opt-in:** anonymous answer sets (no ID, no key; event code, age band, stage, language) and readiness pre/post linked by a random code made on the phone | None (open question 2) |
+| Before use | Age question; 18+ accept for themselves | Age question; 18+ accept; 15–17 need the parent flow (SMS code, national ID on the device, PIN); under-15s turned away |
+| Uploads | **Only with the user's opt-in:** anonymous statistics (with the event code); and research data: anonymous answer sets (no ID, no key; event code, age band, stage, language) and readiness pre/post linked by a random code made on the phone | **Only with opt-in** (parent decides for 15–17): anonymous statistics |
 | Results | In the app | In the app |
 | End | The user deletes on the device | The user deletes on the device |
 
@@ -287,13 +287,16 @@ Build:
 
 1. **Local store** (section 4.2) and the offline content cache. *Done: on-device store, profiles, repository; assessment pages run from the device.*
 2. **First start:** age question, acceptance for 18+, *Delete all my data*. *Done.*
-3. **Profile for 18–25:** stage (student or graduate), faculty and year, replacing the school-oriented context questions (curriculum, track, expected score).
-4. **Core island** with the four instruments as phases, the readiness check at the start and two weeks after results (in-app prompt), and the "clear and useful" rating right after results.
-5. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations. *Scoring done; re-scoring per instrument to do.*
-6. **Event code, research opt-in and Settings → Research data** (consent texts 2.2–2.4).
-7. **Upload endpoint** for totals, anonymous answer sets and linked readiness records (4.3).
-8. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
-9. **2.5D map and list view**, connected to the real results.
+3. **Profile:** stage (school for 15–17, university with faculty and year, or graduate), replacing the old context questions (curriculum, track, expected score) for adults.
+4. **Encryption on the device** for everything stored (profile, answers, results, parent details).
+5. **Parent flow for 15–17:** SMS code to the parent's phone (verification service, number not stored), national ID checked on the device, declaration, parent PIN; PIN required to delete data or change settings.
+6. **Moving phones:** passphrase-protected backup file, and a transfer code through an end-to-end encrypted relay (≤ 10 min).
+7. **Core island** with the four instruments as phases, the readiness check at the start and two weeks after results (in-app prompt), and the "clear and useful" rating right after results.
+8. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations. *Scoring done; re-scoring per instrument to do.*
+9. **Anonymous statistics opt-in** (adults; parent decides for 15–17), **event code, research opt-in** at sessions, and *Settings → Research data*.
+10. **Upload endpoint** for anonymous statistics, research answer sets and linked readiness records (4.3).
+11. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
+12. **2.5D map and list view**, connected to the real results.
 
 Turned off for the pilot: accounts and WhatsApp sign-in, server consent flows, the AI package, parent and school views, the server-rendered share card, and analytics and crash reporting that could identify a user (open question 6).
 
@@ -302,13 +305,13 @@ Turned off for the pilot: accounts and WhatsApp sign-in, server consent flows, t
 ## 7. Open questions
 
 1. **Career-island cap:** is there a cap on active career islands inside a selected group (proposed: 3, set in the dashboard)?
-2. **18+ at launch:** may adults opt in to anonymous uploads, or is nothing uploaded at launch?
+2. ~~Uploads at launch~~ *Decided 11 Oct: opt-in anonymous statistics for everyone; the parent decides for 15–17.*
 3. **Group ranking:** is a group suggested by its best career fit (proposed) or by the average of its top careers? (Psychologist.)
 4. **Launch results card:** should the phone app let users save their results as an image or PDF?
 5. **Gender on the device:** keep it optional for Arabic grammar only (proposed), or drop it?
 6. **Crash reporting:** off, or on with no identifiers and no answers?
 
-**Decided (11 Oct 2026):** phase 1 is for ages 18–25 (students and recent graduates) on their own phones; the pilot runs at universities; teens come later.
+**Decided (11 Oct 2026):** phase 1 is for ages 18–25 (students and recent graduates), plus 15–17 with a verified parent (SMS code + national ID on the device); data stays on the device, encrypted, with backup and transfer; anonymous statistics only with opt-in; the pilot runs at universities for adults.
 
 **Decided (10 Oct 2026):** one island per catalog cluster; career islands as their own level (L2); chains per selected career; caps of 3 active groups and 2 selected careers; tasks self-marked only; psychologist approves assessments and reflections; nothing after L4 before launch; island edits recalculate progress with an "island upgraded" notice and keep selections; XP on the device with no read or watch tracking; no AI in phase 1.
 
