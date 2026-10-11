@@ -9,12 +9,13 @@ import { Link } from '@/i18n/navigation';
 import type { AgeBand, ConsentBasis, GuardianRecord } from '@/lib/local/device';
 
 import { GuardianConsent } from './guardian-consent';
+import { RestoreData } from './restore-data';
 
 /** Versions stored with every on-device acceptance (docs/legal/consent-texts, privacy-policy). */
 export const CONSENT_TEXT_VERSION = 'consent-0.4-draft';
 export const POLICY_VERSION = '0.4-draft';
 
-type Step = 'age' | 'too-young' | 'hand-over' | 'guardian' | 'thanks' | 'accept';
+type Step = 'age' | 'too-young' | 'hand-over' | 'guardian' | 'thanks' | 'accept' | 'restore';
 const AGES = ['under15', '15-17', '18-20', '21-25', '26plus'] as const satisfies readonly AgeBand[];
 
 function Docs() {
@@ -112,8 +113,13 @@ export function FirstStart({ onDone }: { onDone: () => void }) {
               </Button>
             ))}
           </div>
+          <button onClick={() => setStep('restore')} className="self-start text-sm text-primary underline underline-offset-4" data-testid="open-restore">
+            {t('restoreLink')}
+          </button>
         </section>
       )}
+
+      {step === 'restore' && <RestoreData onDone={onDone} onCancel={() => setStep('age')} />}
 
       {step === 'too-young' && (
         <section className="flex flex-col gap-4">

@@ -2073,7 +2073,8 @@
         "privacy-policy": "Privacy Policy",
         "terms-of-use": "Terms of Use",
         "children-data-notice": "Your data, in short"
-      }
+      },
+      "restoreLink": "Moving from another phone? Restore your data"
     },
     "deleteData": {
       "open": "Delete all my data",
@@ -2144,6 +2145,63 @@
       "pinMismatch": "The PINs must match and be 4–6 digits.",
       "agree": "I agree",
       "notNow": "Not now"
+    },
+    "move": {
+      "open": "Move to a new phone",
+      "title": "Move your data to a new phone",
+      "modes": {
+        "file": "Backup file",
+        "code": "Transfer code"
+      },
+      "intro": {
+        "file": "Save a file locked with a passphrase you choose. Without the passphrase, nobody can open it, including us.",
+        "code": "Get a one-time code and key. Your data is locked here first, passes through our server in a form we can't read, and is deleted after 10 minutes or once received."
+      },
+      "pin": "Parent PIN",
+      "passphrase": "Passphrase",
+      "passphraseAgain": "Passphrase again",
+      "passphraseHelp": "At least 8 characters. Keep it safe: we can't recover it.",
+      "saveFile": "Save backup file",
+      "saved": "Backup saved. On the new phone, choose \"Restore my data\" and open this file.",
+      "makeCode": "Create transfer code",
+      "codeIntro": "On the new phone, choose \"Restore my data\", then \"Transfer code\", and enter both within {minutes} minutes.",
+      "code": "Code",
+      "key": "Key",
+      "errors": {
+        "pin": "That PIN isn't right.",
+        "network": "No connection. Please try again.",
+        "too_large": "Your data is too large to transfer by code. Please use a backup file.",
+        "rate_limited": "Too many attempts. Please wait a little.",
+        "generic": "Something went wrong. Please try again."
+      },
+      "close": "Close"
+    },
+    "restore": {
+      "title": "Restore my data",
+      "modes": {
+        "file": "Backup file",
+        "code": "Transfer code"
+      },
+      "intro": {
+        "file": "Open the backup file from your old phone and enter its passphrase.",
+        "code": "Enter the code and key shown on your old phone."
+      },
+      "file": "Backup file",
+      "passphrase": "Passphrase",
+      "code": "Code",
+      "key": "Key",
+      "replaces": "Any data already on this phone will be replaced.",
+      "restore": "Restore",
+      "back": "Back",
+      "errors": {
+        "wrong_secret": "The passphrase or key isn't right.",
+        "not_a_backup": "This isn't an anaBokra backup file.",
+        "unsupported_version": "This backup is from a newer version of anaBokra. Please update the app.",
+        "not_found": "That code has expired or was already used. Please create a new one on the old phone.",
+        "rate_limited": "Too many attempts. Please wait a little.",
+        "network": "No connection. Please try again.",
+        "generic": "Something went wrong. Please try again."
+      }
     }
   }
 }

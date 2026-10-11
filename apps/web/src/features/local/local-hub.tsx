@@ -10,6 +10,7 @@ import { TeaserClaim } from '@/features/public/teaser-claim';
 import type { Locale } from '@/i18n/routing';
 
 import { DeleteMyData } from './delete-data';
+import { MoveData } from './move-data';
 import { FirstStart } from './first-start';
 import { loadLocalAssessment, type LocalPageData } from './load';
 import { LocalBlocked, LocalLoading, StorageWarning } from './local-states';
@@ -38,6 +39,7 @@ export function LocalAssessmentHub({ retake }: { retake: boolean }) {
   const footer = (
     <footer className="mx-auto flex w-full max-w-md flex-col gap-3 px-4 pb-10">
       {!data.rt.device.persistent && <StorageWarning />}
+      <MoveData />
       <DeleteMyData onDeleted={reload} />
     </footer>
   );

@@ -94,7 +94,7 @@ On the new phone: *Restore from a backup file* → choose the file → passphras
 
 **Option B: transfer code**
 "Move your data with a one-time code. Your data is locked on this phone before it leaves, passes through our server in a form we can't read, and is deleted from the server after 10 minutes or once received."
-- Old phone: [ Create transfer code ] → shows a code and a 6-word key.
+- Old phone: [ Create transfer code ] → shows an 8-character code and a 16-character key (for 15–17 profiles, after the parent PIN). The key never reaches the server.
 - New phone: *I have a transfer code* → enter the code and the key.
 **[LAWYER: is briefly relaying encrypted data that anaBokra cannot read "processing" under the PDPL?]**
 
