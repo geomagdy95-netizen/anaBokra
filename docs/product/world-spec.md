@@ -2,6 +2,8 @@
 
 Status: draft for founder and psychologist review · updated 11 Oct 2026 (audience: ages 18–25, students and recent graduates; teens in a later phase) · Prototype: [anaBokra islands](https://anabokra-islands.gentle-plum-8395.chatgpt.site)
 
+> **12 Oct 2026:** the assessment is being restructured into short island tasks: **Discover** on the user's own island, **Verify** on each path (group) island. See [discover-verify.md](discover-verify.md). Where this spec describes the four instruments as core-island phases, that document takes precedence.
+
 anaBokra is a game-like world in which a young adult (18–25, a student or recent graduate) explores careers. They start on their own **core island**, then explore **group islands**, one per career group (the 12 catalog clusters). Inside a group they explore **career islands**, and a selected career grows a **progress plan** and a **career plan**. Each island is reached by **building a bridge** made of phases: assessments, readings, tasks and so on. **All content, phases and their order are set from the admin dashboard.** Nothing about an island is hard-coded in the app.
 
 A bridge shows exploration progress. It does not endorse a career, and finishing it does not qualify anyone for that career.
