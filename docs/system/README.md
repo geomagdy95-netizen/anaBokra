@@ -92,13 +92,14 @@ The assessment pages check the mode first and use the on-device runtime in `loca
 | Area | Status |
 |---|---|
 | First start: age question, adult acceptance, parent consent for 15–17 | Built |
-| Four questionnaires plus "About you", saved as you go, scored on the phone | Built |
+| Discover (10 short tasks on my island) and Verify (4 paths), replacing the five stations | Built |
+| Island map on my island from real progress | Built (3D devices; lists everywhere) |
 | Results: reveal, profile, career matches with explanations | Built |
-| Readiness check | Built, gaps (only after results; no baseline or two-week follow-up yet) |
+| Readiness check | Built: baseline before Discover, follow-up after the first path (timing to settle) |
 | Encryption on the phone, delete my data | Built |
 | Moving phones: backup file, transfer code | Built |
 | Anonymous statistics (opt-in) | Built |
 | Pilot session code, research opt-in | Built |
-| Island world (L0–L4) | Prototype (`/dev/world`), designed in the world spec |
+| Island world beyond paths (L2–L4: career plans) | Designed in the world spec |
 | "Clear and useful" rating after results | Designed |
 | Career library and explore pages | Built for `server` mode; personal parts not yet on the phone |

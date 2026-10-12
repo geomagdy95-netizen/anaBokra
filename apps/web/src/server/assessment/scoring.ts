@@ -214,6 +214,8 @@ export interface Preview {
   groups: GroupRank[];
   /** The best careers so far. */
   matches: CareerMatch[];
+  /** Fit (0–100) of every career, for ranking the careers inside a path. */
+  fits: Record<string, number>;
   /** Interest type codes, strongest first (e.g. ["I", "A", "S"]). */
   interestCode: string[];
   personalitySet: PersonalitySet | null;
@@ -240,7 +242,7 @@ export function previewSuggestions(
   { valuesRanking, context, careers = allCareers }: { valuesRanking?: string[]; context?: UserContext; careers?: CareerForMatching[] } = {},
 ): Preview {
   const interests = scoreInterests(responses);
-  const empty: Preview = { stage: 'none', groups: [], matches: [], interestCode: [], personalitySet: null, flat: false };
+  const empty: Preview = { stage: 'none', groups: [], matches: [], fits: {}, interestCode: [], personalitySet: null, flat: false };
   if (!interests) {
     const rs = inInstrumentOrder('interests', forInstrument(responses, 'interests'));
     const early = interestProfile(scoreLikert(likert('interests'), rs, undefined, { minCoverage: EARLY_GUESS_COVERAGE }));
@@ -250,6 +252,7 @@ export function previewSuggestions(
       stage: 'early',
       groups: rankGroups(ranked),
       matches: ranked.slice(0, 5),
+      fits: Object.fromEntries(ranked.map((m) => [m.careerId, m.fit])),
       interestCode: early.code.split(''),
       personalitySet: null,
       flat: early.differentiation < FLAT_INTERESTS,
@@ -269,6 +272,7 @@ export function previewSuggestions(
     stage: 'suggested',
     groups: rankGroups(ranked),
     matches: ranked.slice(0, 5),
+    fits: Object.fromEntries(ranked.map((m) => [m.careerId, m.fit])),
     interestCode: interests.code.split(''),
     personalitySet: personality?.set ?? null,
     flat: interests.differentiation < FLAT_INTERESTS,

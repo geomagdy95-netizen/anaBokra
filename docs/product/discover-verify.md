@@ -153,8 +153,13 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 | 1 | Path suggestions: early guess after task 4, suggestions after task 8, group rank = average of the 3 best careers; "no path stands out" when interest answers are flat | **Built** (`previewSuggestions`, `rankGroups`) |
 | 1 | Verify question formats: story, this or that, scenario, puzzle with reveal, "did you enjoy that?" | **Built**; try them at `/dev/paths` |
 | 1 | Verify content for 4 paths, Arabic and English | **Drafted**: `packages/content/paths/*.json`; review pack [docs/review/paths-review.md](../review/paths-review.md) |
-| 2 | Verify scoring and saving, values once, path results, careers ranked inside a path | To do |
-| 2 | Island map connected (my island → path islands), readiness baseline and follow-up, `/assessment` switched to the journey | To do |
+| 2 (13 Oct) | Verify: values once, the path's 3 tasks saved on the phone, result (draft weights 50/30/20, bands 0.65/0.45), reasons, realities turned down, careers re-ranked with cautions | **Built** at `/journey/[path]` (`lib/journey/verify.ts`) |
+| 2 | First full result made when Discover, values and a first path are done; statistics and research (opt-in) sent from it | **Built** (`maybeFinalize`) |
+| 2 | Readiness baseline before task 1 (task 1 waits for it unless skipped); follow-up offered 7 days after the first path result | **Built**; the 7 days is a placeholder until the timing is decided |
+| 2 | Island map on my island from real progress (suggested paths glow; tapping a path opens Verify); 3D only, the lists cover phones without it | **Built** (`journey-map.tsx`, `map-state.ts`) |
+| 2 | `/assessment` redirects to `/journey`; settings (statistics, session, move, delete) moved there; old station hub removed | **Built** |
+| 3 | Statistics summary adds verified paths and bands; research answer sets add path answers | To do (schemas unchanged so far) |
+| 3 | Map labels can overlap on small screens (suggested ones now stay on top) | To polish |
 | 3 | Psychologist's edits, phone testing, docs and consent texts | To do |
 
 ## 10. Open questions for the founder

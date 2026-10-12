@@ -88,6 +88,7 @@ export function TaskRunner({ title, intro, steps, initial, onAnswer, onDone, onC
         {step.kind === 'scenario' && <ScenarioQuestion {...common} text={step.text} options={step.options} />}
         {step.kind === 'puzzle' && <PuzzleQuestion {...common} text={step.text} options={step.options} answer={step.answer} explain={step.explain} />}
         {step.kind === 'enjoy' && <EnjoyQuestion {...common} />}
+        {step.kind === 'agree' && <FacesQuestion {...common} text={step.text} scale={step.scale} prompt={jt('readiness.prompt')} />}
       </div>
 
       {failed && (

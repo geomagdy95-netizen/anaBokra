@@ -2362,7 +2362,52 @@
       "top": "Top careers here for you: {list}",
       "verifySoon": "Checking a path opens soon"
     },
-    "saveFailed": "We couldn’t save that answer. Please try again."
+    "saveFailed": "We couldn’t save that answer. Please try again.",
+    "verify": {
+      "eyebrow": "Check this path",
+      "intro": "A few short tasks about this path’s real work. There are no right answers.",
+      "values": "What you need from work",
+      "valuesIntro": "Asked once, then used for every path you check.",
+      "notReady": "Finish Discover task 8 to get your path suggestions first.",
+      "noContent": "Checking this path opens soon. You can still read about its careers.",
+      "result": "See my result",
+      "bands": {
+        "fitsWell": "Fits you well",
+        "fitsPartly": "Fits you partly",
+        "rethink": "Worth rethinking"
+      },
+      "bandText": {
+        "fitsWell": "Your profile, what you enjoyed and the realities you’re fine with all point this way.",
+        "fitsPartly": "Some parts of this path suit you and some don’t. The careers below show where it fits best.",
+        "rethink": "From your answers, this path may not be the best fit right now. That’s useful to know too."
+      },
+      "enjoyed": "What you’d enjoy",
+      "accepted": "Realities you’re fine with",
+      "keep": "Worth keeping in mind",
+      "over": "You picked “{chosen}” over “{path}”",
+      "common": "common for: {list}",
+      "careers": "Careers in this path, for you",
+      "caution": "Check: {text}",
+      "disclaimer": "This is guidance to explore, not a verdict. You can check any path, any time.",
+      "again": "Answer again",
+      "openCareer": "Read about it",
+      "other": "Check another path"
+    },
+    "readiness": {
+      "baselineTitle": "Before we start: how ready do you feel?",
+      "baselineIntro": "Six quick statements about choosing a career. We ask again later to see what changed.",
+      "followTitle": "How ready do you feel now?",
+      "followIntro": "The same six statements as at the start, to see what changed.",
+      "prompt": "How much do you agree?",
+      "start": "Answer",
+      "skip": "Skip for now",
+      "saved": "Thanks! Saved on your phone."
+    },
+    "paths": "Paths",
+    "settings": "Settings",
+    "myProfile": "My results",
+    "showTasks": "Show the 10 tasks",
+    "hideTasks": "Hide the tasks"
   },
   "DevPaths": {
     "title": "Path questions (preview)",

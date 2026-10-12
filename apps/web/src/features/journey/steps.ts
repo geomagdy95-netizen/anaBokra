@@ -19,7 +19,9 @@ export type Step =
   | { kind: 'choice'; id: string; a: I18n; b: I18n }
   | { kind: 'scenario'; id: string; text: I18n; options: I18n[] }
   | { kind: 'puzzle'; id: string; text: I18n; options: I18n[]; answer: number; explain: I18n }
-  | { kind: 'enjoy'; id: string };
+  | { kind: 'enjoy'; id: string }
+  /** Readiness statements, 1–5 agreement. */
+  | { kind: 'agree'; id: string; text: I18n; scale: Scale };
 
 const SCALES: Record<'interests' | 'personality' | 'abilities', Scale> = {
   interests: { ...instruments.interests.responseScale },
@@ -29,6 +31,12 @@ const SCALES: Record<'interests' | 'personality' | 'abilities', Scale> = {
 
 export function discoverSteps(task: DiscoverTask): Step[] {
   return task.items.map((i) => ({ kind: i.format, id: i.id, instrumentId: i.instrumentId, text: i.text, scale: SCALES[i.instrumentId] }));
+}
+
+/** The six readiness statements (baseline before Discover, follow-up later). */
+export function readinessSteps(): Step[] {
+  const r = instruments.readiness;
+  return r.items.map((i) => ({ kind: 'agree', id: i.id, text: i.text, scale: { ...r.responseScale } }));
 }
 
 /** A path task as steps; every "Try it" item is followed by "Did you enjoy that?". */

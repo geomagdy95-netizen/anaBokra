@@ -70,7 +70,7 @@ export type NewProfile = Partial<Omit<LocalProfile, 'id' | 'createdAt'>> & Pick<
 const PROFILE = (id: string) => `profile:${id}`;
 const ACTIVE = 'active-profile';
 /** Every key holding one profile's data starts with one of these. */
-export const PROFILE_SCOPED_PREFIXES = ['profile:', 'assessment:', 'stats:', 'research:'] as const;
+export const PROFILE_SCOPED_PREFIXES = ['profile:', 'assessment:', 'stats:', 'research:', 'journey:'] as const;
 
 export class DeviceStore {
   constructor(

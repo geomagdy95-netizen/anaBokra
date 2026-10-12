@@ -65,12 +65,12 @@ export function SwipeQuestion({ text, scale, value, onAnswer, disabled }: Answer
 const FACES = ['😣', '🙁', '😐', '🙂', '😄'];
 
 /** Personality: five faces from "not me at all" to "so me". */
-export function FacesQuestion({ text, scale, value, onAnswer, disabled }: Answerable & { text: I18n; scale: Scale }) {
+export function FacesQuestion({ text, scale, value, onAnswer, disabled, prompt }: Answerable & { text: I18n; scale: Scale; prompt?: string }) {
   const at = useAT();
   const tx = useText();
   return (
     <fieldset className="flex flex-col gap-4" data-testid="q-faces" disabled={disabled}>
-      <legend className="mb-2 text-sm text-muted-foreground">{at('prompts.personality')}</legend>
+      <legend className="mb-2 text-sm text-muted-foreground">{prompt ?? at('prompts.personality')}</legend>
       <p className={cn(card, big)}>{tx(text)}</p>
       <div className="grid grid-cols-5 gap-1.5">
         {scale.labels.map((label, i) => {

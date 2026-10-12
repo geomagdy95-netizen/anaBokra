@@ -46,10 +46,12 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 
 | Code | Screen | Route | Status |
 |---|---|---|---|
-| I1 | My island · Discover: 10 task cards, progress, suggested paths | `/journey` | Built (week 1); replaces the stations in week 2 |
+| I1 | My island: map, readiness, Discover tasks, suggested and checked paths, settings | `/journey` (and `/assessment` redirects here) | Built |
 | I2 | A task: one question at a time, mixed formats | `/journey` | Built |
 | I3 | Task reward: "Your island grew", early guess or suggestions | `/journey` | Built |
-| I4 | Verify a path: day, real deal, try it | `/dev/paths` (preview only) | Prototype; saving and results in week 2 |
+| I4 | Verify a path: values once, day, real deal, try it | `/journey/[path]` | Built (4 paths; others say "opens soon") |
+| I5 | Path result: band, reasons, worth keeping in mind, careers ranked | `/journey/[path]` | Built |
+| I6 | Readiness baseline and follow-up | `/journey` | Built |
 
 ## C and D · Journey and stations
 

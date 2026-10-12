@@ -87,6 +87,16 @@ describe('moving data between phones', () => {
     expect((await otherDevice.listProfiles()).map((p) => p.id)).toEqual([profile.id]);
   });
 
+  it('moves path (Verify) answers and results, and deletes them with the profile', async () => {
+    const { kv, profile } = await deviceWithResult();
+    await kv.set(`journey:${profile.id}`, { v: 1, paths: { tech: { answers: { tech_day_1: 3 } } } });
+    const other = new MemoryKv();
+    await importProfile(other, await exportProfile(kv, profile.id));
+    expect(await other.get(`journey:${profile.id}`)).toEqual({ v: 1, paths: { tech: { answers: { tech_day_1: 3 } } } });
+    await new DeviceStore(other).deleteProfile(profile.id);
+    expect(await other.get(`journey:${profile.id}`)).toBeUndefined();
+  });
+
   it('normalizes look-alike characters in typed codes', () => {
     expect(normalizeCode('abcd-efgh ijkl-mnop')).toBe('ABCDEFGH1JK1MN0P');
   });

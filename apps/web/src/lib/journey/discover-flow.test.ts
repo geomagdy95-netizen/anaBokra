@@ -4,7 +4,13 @@ import { DeviceStore } from '@/lib/local/device';
 import { MemoryKv } from '@/lib/local/kv';
 import { localRuntimeFor } from '@/lib/local/runtime';
 
+import { paths } from '@anabokra/content';
+
+import { demoStations } from '@/lib/local/demo-answers';
+
 import { discoverPlan } from './discover-plan';
+import { maybeFinalize } from './journey';
+import { readJourney, saveVerifyAnswer, saveVerifyResult, scoreVerify } from './verify';
 
 /** A student who loves investigating and building: I and R high, the rest middling. */
 function answer(id: string, format: string): number {
@@ -65,3 +71,34 @@ describe('Discover on the phone', () => {
     expect(derived.scoredStations).toEqual(['interests', 'personality', 'abilities']);
   });
 });
+
+describe('the first full result', () => {
+  it('is made only once Discover, values and a first path are done', async () => {
+    const rt = await runtime();
+    const { session } = await rt.service.startSession(rt.userId, {});
+    const d = { rt, sessionId: session.id };
+    const quiet = { send: async () => {} };
+    for (const item of discoverPlan().flatMap((t) => t.items))
+      await rt.service.saveResponses(rt.userId, { sessionId: session.id, station: item.instrumentId, responses: [{ itemId: item.id, value: answer(item.id, item.format), ms: 2500 }] });
+    expect(await maybeFinalize(d, quiet)).toBe(false);
+
+    const values = demoStations().find(([s]) => s === 'values')![1];
+    await rt.service.saveResponses(rt.userId, { sessionId: session.id, station: 'values', responses: values });
+    await rt.service.completeStation(rt.userId, { sessionId: session.id, station: 'values', valuesRanking: ['achievement', 'independence', 'recognition', 'relationships', 'support', 'workingConditions'] });
+    expect(await maybeFinalize(d, quiet)).toBe(false);
+
+    const preview = await rt.service.preview(rt.userId, { sessionId: session.id });
+    const tech = paths.tech!;
+    await saveVerifyAnswer(rt.device.kv, rt.userId, 'tech', 'tech_day_1', 3);
+    const answers = (await readJourney(rt.device.kv, rt.userId)).paths.tech!.answers;
+    await saveVerifyResult(rt.device.kv, rt.userId, scoreVerify(tech, answers, { groupFit: preview.groups.find((g) => g.cluster === 'tech')!.fit, careerFits: preview.fits }));
+    expect(await maybeFinalize(d, quiet)).toBe(true);
+
+    const result = await rt.service.getLatestResult(rt.userId);
+    const derived = (result!.scores as { derived: { scoredStations: string[]; personalitySet: string } }).derived;
+    expect(derived.scoredStations).toEqual(['interests', 'personality', 'values', 'abilities']);
+    expect(derived.personalitySet).toBe('short');
+    expect(await maybeFinalize(d, quiet)).toBe(false);
+  });
+});
+

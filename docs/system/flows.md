@@ -406,14 +406,17 @@ flowchart LR
 
 **Discover** (`/journey`): 10 tasks of 9–10 validated questions in mixed formats; each task has one interest card of every type, 2 personality statements (short set) and 1–2 strengths. Answers save on the phone through the same assessment service, so encryption, moving phones, statistics and research all apply. Suggestions are computed live (`service.preview`) and never stored. If every interest answer is the same, the app says no path stands out instead of ranking.
 
-**Verify** (preview at `/dev/paths`): drafts for Technology & Data, Business & Finance, Engineering, Health & Medicine. Scoring, saving and the path result come in week 2.
+**Verify** (`/journey/[path]`, built for Technology & Data, Business & Finance, Engineering, Health & Medicine): values once, then the path's 3 tasks, saved on the phone under `journey:{profileId}` (moved with backups, deleted with the profile). The result mixes the path's profile fit (50%), enjoyment of its activities (30%) and acceptance of its realities (20%) into fits well / partly / worth rethinking, lists what the user enjoyed, the realities they turned down (with the careers they matter for), and ranks the path's careers.
+
+**The stored result** is made once Discover, values and a first path are all done; opt-in statistics and research are sent from it. **Readiness:** baseline before task 1, follow-up 7 days after the first path result (placeholder timing).
 
 ## Known gaps
 
 | Gap | Effect | Where |
 |---|---|---|
 | Career page "fit" panel, favorites, explore "for you", account still call server endpoints | In phase 1 they show "Sign in and take the assessment" or nothing | `features/careers/personal-context.tsx`, `features/explore/personal-context.tsx`, `/account` |
-| Readiness baseline and follow-up not built | No before/after pairs for the pilot measure | Flow 9 |
+| Readiness follow-up timing is a placeholder (7 days) | Must be settled against the 17 Dec data freeze | `FOLLOW_UP_DAYS` |
+| Statistics and research uploads don't yet include Verify (paths and bands, path answers) | The pilot report can't show path results yet | `stats-summary.ts`, `lib/research.ts` |
 | "Clear and useful" rating not built | Pilot plan measure missing | Pilot plan, world spec §6 item 7 |
 | Gender not asked in phase 1 | Arabic always uses the masculine form | First start |
 | No SMS provider | 15–17 can't verify a parent in production | `server/verify/sms.ts` |

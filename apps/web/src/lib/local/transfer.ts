@@ -17,6 +17,8 @@ export interface ProfileBundle {
   assessment: unknown;
   /** What was already sent (statistics, research) and the research link code, so nothing is sent twice. */
   sent?: { stats?: unknown; research?: unknown };
+  /** Verify answers and path results (lib/journey/verify.ts). */
+  journey?: unknown;
 }
 
 export interface SealedBundle {
@@ -153,13 +155,14 @@ export async function openTransfer(sealed: SealedBundle, key: string): Promise<P
 export async function exportProfile(kv: KvStore, profileId: string, now: () => Date = () => new Date()): Promise<ProfileBundle> {
   const profile = await new DeviceStore(kv).getProfile(profileId);
   if (!profile) throw new Error('profile_not_found');
-  const [stats, research] = await Promise.all([kv.get(`stats:${profileId}`), kv.get(`research:${profileId}`)]);
+  const [stats, research, journey] = await Promise.all([kv.get(`stats:${profileId}`), kv.get(`research:${profileId}`), kv.get(`journey:${profileId}`)]);
   return {
     v: 1,
     exportedAt: now().toISOString(),
     profile,
     assessment: (await kv.get(assessmentKey(profileId))) ?? null,
     sent: { ...(stats ? { stats } : {}), ...(research ? { research } : {}) },
+    ...(journey ? { journey } : {}),
   };
 }
 
@@ -174,6 +177,8 @@ export async function importProfile(kv: KvStore, bundle: ProfileBundle): Promise
   await kv.set(`profile:${bundle.profile.id}`, bundle.profile);
   if (bundle.assessment) await kv.set(assessmentKey(bundle.profile.id), bundle.assessment);
   else await kv.delete(assessmentKey(bundle.profile.id));
+  if (bundle.journey) await kv.set(`journey:${bundle.profile.id}`, bundle.journey);
+  else await kv.delete(`journey:${bundle.profile.id}`);
   for (const k of ['stats', 'research'] as const) {
     const v = bundle.sent?.[k];
     if (v) await kv.set(`${k}:${bundle.profile.id}`, v);

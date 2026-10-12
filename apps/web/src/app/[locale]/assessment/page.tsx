@@ -4,8 +4,8 @@ import { AssessmentBlocked } from '@/features/assessment/blocked';
 import { ResultsState } from '@/features/assessment/results-state';
 import { AssessmentHub } from '@/features/assessment/hub';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
-import { LocalAssessmentHub } from '@/features/local/local-hub';
 import { TeaserClaim } from '@/features/public/teaser-claim';
+import { redirect } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { DATA_MODE } from '@/lib/data-mode';
 import { loadAssessment } from '@/server/assessment/page-data';
@@ -17,7 +17,8 @@ export default async function AssessmentPage({ params, searchParams }: PageProps
   const { locale } = await params;
   const sp = await searchParams;
   setRequestLocale(locale);
-  if (DATA_MODE === 'local') return <LocalAssessmentHub retake={sp.retake === '1'} />;
+  // Phase 1: the assessment is the journey (Discover on my island, Verify per path).
+  if (DATA_MODE === 'local') return redirect({ href: '/journey', locale });
   const data = await loadAssessment(locale as Locale, '/assessment', { retake: sp.retake === '1' });
   if (data.ok === 'results')
     return (
