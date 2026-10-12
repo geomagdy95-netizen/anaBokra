@@ -100,6 +100,12 @@ Must the parent-phone verification run in Egypt? If any of these counts as a tra
 - Anonymous data can't be deleted on request. Pseudonymous readiness pairs can be, using the code on the phone. Is that enough?
 - May we quote participants anonymously with their consent?
 
+**P10. O\*NET licence.** The interest questionnaire uses the 60 items of the O\*NET Interest Profiler Short Form (US Department of Labor, USDOL/ETA). We have modified it: a 1–5 scale instead of a checklist, an Arabic translation, one adapted item, and the items split across 10 short tasks. The O\*NET Tools Developer License appears to require, for modified tools:
+- an attribution and modification notice shown to users ("…has modified all or some of this information. USDOL/ETA has not approved, endorsed, or tested these modifications."), on launch screens for a reasonable period and in the README;
+- a validation study before the modified tool is introduced.
+
+Does that licence apply to us, or only the general CC BY 4.0 licence of the O\*NET database? Is a pilot with opt-in research data the "introduction", or part of the validation? Where must the notice appear in the app?
+
 ### Before 15 December (public launch)
 
 **L1. Acceptance.** Is the single tick for adults, and the parent's ticks for 15–17, a valid acceptance of the terms (Consumer Protection Law, e-signature)?

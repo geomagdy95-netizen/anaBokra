@@ -39,6 +39,7 @@ flowchart LR
 4. **New, playful formats are for path questions** (section 5), which are our own and scored our own way.
 5. **Every task ends with a small reward:** the island grows, a fact about a career, or "what this says about you so far". No scores, no grades.
 6. Any task can be paused; answers save as they're given (as today).
+7. **Results, rewards and the map follow [guidance-rules.md](guidance-rules.md):** keep enjoyment, task performance, familiarity and confidence apart; unknown is never low; XP only on a task's first completion and never for an answer; no punishment for archiving or changing your mind.
 
 ### Question formats
 
@@ -141,6 +142,9 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 5. **Path fit:** the draft weights (50 / 30 / 20) and band cut-offs (0.65 / 0.45).
 6. **Early guess after task 4:** acceptable, if clearly labelled as early?
 7. **Readiness statements:** reword for 18–25 (see [system flows §9](../system/flows.md#9-readiness-check)).
+8. **The interest items are a modified O\*NET tool.** We changed the checklist to a 1–5 scale, translated the items, adapted ip_A08 and split the 60 items into 10 tasks. The O\*NET Tools Developer License asks for a validation study before a modified tool is introduced, plus a notice in the app (lawyer brief P10). Is splitting the items across Discover tasks acceptable, and what would a proportionate validation look like for the pilot and for launch?
+9. **Scenario answers carry hand-set `fit` values** (0 to 1 per option, e.g. 0, 0.2, 0.8, 1, in `packages/content/paths/*.json`), and they count towards the path fit. Keep them, set them, or count only the "did you enjoy that?" answer, as the puzzles do?
+10. **Rules for wording results:** please check [guidance-rules.md](guidance-rules.md) §1, what a result may and may not say from each kind of answer.
 
 **Needed by 27 Oct** for the pilot build.
 

@@ -18,6 +18,8 @@ Related documents elsewhere:
 | Document | Topic |
 |---|---|
 | [../product/world-spec.md](../product/world-spec.md) | The island world (levels L0–L4, bridges, dashboard) and the pilot build list |
+| [../product/discover-verify.md](../product/discover-verify.md) | The assessment as island tasks: Discover on my island, Verify on each path island |
+| [../product/guidance-rules.md](../product/guidance-rules.md) | What results may say, rewards, what the map means, accessibility, facts about study routes, partners, versions |
 | [../gtm/pilot-plan.md](../gtm/pilot-plan.md) | The university pilot: timeline, measures, data |
 | [../legal/](../legal/) | Consent texts, privacy policy, terms, compliance map, lawyer brief (all drafts) |
 | [../review/GUIDE.md](../review/GUIDE.md) | How the psychologist reviews the question wording |

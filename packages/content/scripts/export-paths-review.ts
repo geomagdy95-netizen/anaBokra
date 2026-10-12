@@ -48,7 +48,7 @@ const lines = [
   '',
   'Generated from `packages/content/paths/*.json` by `pnpm --filter @anabokra/content export:paths`. Do not edit by hand: write comments in the Notes columns (or a copy) and we apply them to the JSON.',
   '',
-  'Status: **draft**, written 13 Oct 2026 from the career pages, for the psychologist. Design: [discover-verify.md](../product/discover-verify.md) §5. Arabic is Egyptian colloquial; *(f)* marks the feminine form where it differs.',
+  'Status: **draft**, written 12 Oct 2026 from the career pages, for the psychologist. Design: [discover-verify.md](../product/discover-verify.md) §5. Arabic is Egyptian colloquial; *(f)* marks the feminine form where it differs.',
   '',
   'What to check for every item: is it accurate for Egypt, is it clear at 18–25, is it neutral (no right answer implied where there shouldn\'t be one), does it measure what the column says, and is the Arabic natural.',
   '',

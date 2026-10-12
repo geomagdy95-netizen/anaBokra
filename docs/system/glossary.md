@@ -151,6 +151,8 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 | without your name or any ID; can't be traced back to you | anonymous (alone, in legal text) | Say what is left out, so the claim can be checked |
 | stays on this phone, encrypted | 100% secure, nobody can ever see it | Anyone who can open the app on the phone can see the results |
 | parent or guardian | parents (only) | Legal guardians count too |
+| you enjoyed this kind of problem | you're good at this, you have a talent for | A puzzle is a taste test; one task shows nothing about ability ([guidance rules §1](../product/guidance-rules.md#1-what-a-result-may-say)) |
+| not tried yet, no answer yet | low, zero, not interested | Unknown is never low |
 | session code | event code | "Event" is code-only vocabulary |
 
 ## 9. Naming issues to settle

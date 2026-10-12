@@ -6,8 +6,8 @@
   "source": {
     "name": "O*NET Interest Profiler Short Form (60 items)",
     "url": "https://www.onetcenter.org/IP.html",
-    "license": "CC BY 4.0 — U.S. Department of Labor, Employment and Training Administration",
-    "notes": "English items verbatim from the Short Form (Appendix B, Rounds et al., 2018). Original response format is a checklist; anaBokra uses the 5-point like/dislike scale of the computerized IP. Arabic is a DRAFT for forward/back translation. ip_A08 culturally adapted (jazz/tap dance)."
+    "license": "O*NET Tools Developer License (USDOL/ETA); the O*NET database itself is CC BY 4.0. To confirm with counsel (docs/legal/lawyer-brief.md P10)",
+    "notes": "English items verbatim from the Short Form (Appendix B, Rounds et al., 2018). Original response format is a checklist; anaBokra uses the 5-point like/dislike scale of the computerized IP. Arabic is a DRAFT for forward/back translation. ip_A08 culturally adapted (jazz/tap dance). These changes, and splitting the items across Discover tasks, make this a modified tool: the licence asks for a user-facing modification notice and a validation study before introduction."
   },
   "responseScale": {
     "min": 1,
