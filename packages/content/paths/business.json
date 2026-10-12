@@ -1,0 +1,80 @@
+{
+  "id": "business",
+  "version": "0.1.0-draft",
+  "status": "draft: written 13 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in business and finance", "ar": "يوم في البيزنس والمال" },
+      "intro": { "en": "Moments from a typical day in business and finance. How does each one sound to you?", "ar": "لحظات من يوم عادي في البيزنس والمال. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "business_day_1", "text": { "en": "Checking that every invoice this month matches the bank statement, line by line.", "ar": "مراجعة إن كل فواتير الشهر مطابقة لكشف حساب البنك، سطر سطر." }, "careers": ["accountant", "auditor"] },
+        { "id": "business_day_2", "text": { "en": "Building a spreadsheet model: what happens to profit if prices rise 10%?", "ar": "شيت حسابات بيجاوب على سؤال: الربح هيحصله إيه لو الأسعار زادت 10%؟" }, "careers": ["financial_analyst", "actuary", "management_consultant"] },
+        { "id": "business_day_3", "text": { "en": "Meeting a client to work out which savings plan suits their family.", "ar": "مقابلة مع عميل لاختيار خطة التوفير اللي تناسب عيلته." }, "careers": ["banker", "financial_analyst"] },
+        { "id": "business_day_4", "text": { "en": "Planning how 5,000 orders reach customers in three cities by Friday.", "ar": "تخطيط إزاي 5000 طلب يوصلوا للعملا في 3 محافظات قبل الجمعة." }, "careers": ["supply_chain_specialist"] },
+        { "id": "business_day_5", "text": { "en": "Interviewing three candidates and deciding who joins the team.", "ar": "مقابلات مع 3 متقدمين واختيار مين ينضم للفريق." }, "careers": ["hr_specialist"] },
+        { "id": "business_day_6", "text": { "en": "Pitching a small business idea to investors in ten minutes.", "ar": "عرض فكرة مشروع صغير على مستثمرين في 10 دقايق." }, "careers": ["entrepreneur", "management_consultant"] }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "business_real_1", "a": { "en": "Numbers and details every day", "ar": "أرقام وتفاصيل كل يوم" }, "b": { "en": "Words and ideas every day", "ar": "كلام وأفكار كل يوم" }, "path": "a" },
+        { "id": "business_real_2", "a": { "en": "Sales targets, with a bonus when you hit them", "ar": "تارجت مبيعات، وبونص لما يتحقق" }, "b": { "en": "A fixed salary with no targets", "ar": "مرتب ثابت من غير تارجت" }, "path": "a", "careers": ["banker", "entrepreneur"] },
+        { "id": "business_real_3", "a": { "en": "Years of professional exams after graduation (such as CMA, CFA or actuarial exams)", "ar": "سنين من الشهادات المهنية بعد التخرج (زي CMA أو CFA أو امتحانات الأكتواري)" }, "b": { "en": "Learning only on the job", "ar": "التعلم من الشغل بس" }, "path": "a", "careers": ["accountant", "auditor", "financial_analyst", "actuary"] },
+        { "id": "business_real_4", "a": { "en": "Risking your own savings on your own idea", "ar": "المخاطرة بفلوسك على فكرتك" }, "b": { "en": "A steady monthly salary", "ar": "مرتب ثابت كل شهر" }, "path": "a", "careers": ["entrepreneur"] },
+        { "id": "business_real_5", "a": { "en": "An office, smart clothes and meetings", "ar": "مكتب ولبس رسمي واجتماعات" }, "b": { "en": "A workshop, a field or a studio", "ar": "ورشة أو موقع أو استوديو" }, "path": "a" },
+        { "id": "business_real_6", "a": { "en": "Very busy weeks at month-end and year-end", "ar": "أسابيع ضغط جامد في آخر الشهر وآخر السنة" }, "b": { "en": "The same pace all year round", "ar": "نفس الإيقاع طول السنة" }, "path": "a", "careers": ["accountant", "auditor", "financial_analyst"] }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from business. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل البيزنس. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل البيزنس. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "business_try_1",
+          "type": "scenario",
+          "text": { "en": "It's month-end and the accounts are 3,000 EGP off. What's the first step?", "ar": "آخر الشهر والحسابات فيها فرق 3000 جنيه. إيه أول خطوة؟" },
+          "options": [
+            { "text": { "en": "Go through the entries line by line until I find it", "ar": "أراجع القيود سطر سطر لحد ما ألاقيه" }, "fit": 1 },
+            { "text": { "en": "Ask a colleague to check it with me", "ar": "أطلب من زميل يراجع معايا" }, "fit": 0.7 },
+            { "text": { "en": "Adjust the numbers so they match and move on", "ar": "أظبط الأرقام علشان تتطابق وأكمّل" }, "fit": 0 }
+          ]
+        },
+        {
+          "id": "business_try_2",
+          "type": "scenario",
+          "text": { "en": "A big client asks for a discount you're not sure the company can afford.", "ar": "عميل كبير طالب خصم ومش متأكد الشركة تقدر عليه ولا لأ.", "arF": "عميل كبير طالب خصم ومش متأكدة الشركة تقدر عليه ولا لأ." },
+          "options": [
+            { "text": { "en": "Work out the cost first, then offer something that still makes a profit", "ar": "أحسب التكلفة الأول، وبعدين أعرض حاجة لسه فيها ربح" }, "fit": 1 },
+            { "text": { "en": "Take the numbers to my manager with a suggestion", "ar": "أرفع الأرقام لمديري ومعاها اقتراح" }, "fit": 0.8 },
+            { "text": { "en": "Say yes to keep them happy", "ar": "أوافق علشان يفضل مبسوط" }, "fit": 0.2 },
+            { "text": { "en": "Refuse straight away", "ar": "أرفض على طول" }, "fit": 0.2 }
+          ]
+        },
+        {
+          "id": "business_try_3",
+          "type": "puzzle",
+          "text": { "en": "A koshary stand sells 120 plates a day at 25 EGP each. Its costs are 1,800 EGP a day. What's the daily profit?", "ar": "عربية كشري بتبيع 120 طبق في اليوم بـ25 جنيه للطبق. التكاليف 1800 جنيه في اليوم. الربح اليومي كام؟" },
+          "options": [{ "en": "600 EGP", "ar": "600 جنيه" }, { "en": "1,200 EGP", "ar": "1200 جنيه" }, { "en": "1,800 EGP", "ar": "1800 جنيه" }, { "en": "3,000 EGP", "ar": "3000 جنيه" }],
+          "answer": 1,
+          "explain": { "en": "Sales are 120 × 25 = 3,000 EGP; minus 1,800 costs leaves 1,200. Every business decision starts with a sum like this.", "ar": "المبيعات 120 × 25 = 3000 جنيه؛ ناقص 1800 تكاليف يفضل 1200. كل قرار في البيزنس بيبدأ بحسبة زي دي." }
+        },
+        {
+          "id": "business_try_4",
+          "type": "puzzle",
+          "text": { "en": "A price goes up 10%, then down 10%. Compared with where it started, it is now…", "ar": "سعر زاد 10%، وبعدين نزل 10%. مقارنة باللي بدأ بيه، بقى…" },
+          "options": [{ "en": "The same", "ar": "زي ما هو" }, { "en": "1% lower", "ar": "أقل بـ1%" }, { "en": "1% higher", "ar": "أعلى بـ1%" }, { "en": "10% lower", "ar": "أقل بـ10%" }],
+          "answer": 1,
+          "explain": { "en": "100 → 110 → 99. The 10% drop is taken from a bigger number. Analysts spot traps like this all the time.", "ar": "100 ← 110 ← 99. الـ10% اللي نزلت اتحسبت من رقم أكبر. المحللين بيلاحظوا فخاخ زي دي طول الوقت." }
+        }
+      ]
+    }
+  ]
+}

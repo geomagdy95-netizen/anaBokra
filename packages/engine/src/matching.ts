@@ -255,6 +255,33 @@ export function surprisingMatches(ranked: CareerMatch[], { top = 5, count = 3, w
   return out;
 }
 
+export interface GroupRank {
+  cluster: string;
+  /** Average fit of the group's best careers for this user (0–100). */
+  fit: number;
+  /** The careers that made the score, best first. */
+  careerIds: string[];
+}
+
+/**
+ * Ranks career groups ("paths") for the user: each group scores the average fit of its `top` best
+ * careers, which is steadier than its single best career. Groups with fewer careers use what they have.
+ */
+export function rankGroups(ranked: CareerMatch[], { top = 3 }: { top?: number } = {}): GroupRank[] {
+  const byGroup = new Map<string, CareerMatch[]>();
+  for (const m of ranked) {
+    const list = byGroup.get(m.cluster) ?? [];
+    list.push(m);
+    byGroup.set(m.cluster, list);
+  }
+  return [...byGroup.entries()]
+    .map(([cluster, ms]) => {
+      const best = [...ms].sort((a, b) => b.fit - a.fit || a.careerId.localeCompare(b.careerId)).slice(0, top);
+      return { cluster, fit: round1(best.reduce((n, m) => n + m.fit, 0) / best.length), careerIds: best.map((m) => m.careerId) };
+    })
+    .sort((a, b) => b.fit - a.fit || a.cluster.localeCompare(b.cluster));
+}
+
 /** Top-3 RIASEC letters of a career, used for display and quick filters. */
 export const careerCode = (career: CareerForMatching): string => top(career.traits.riasec, RIASEC, 3).join('');
 

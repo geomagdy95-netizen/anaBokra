@@ -29,6 +29,14 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 | **Upgrade** | A bridge that changes when results are re-scored, shown to the user as an update. | — | Designed |
 | **Career group** (= cluster) | One of 12 groups of similar careers: Health & Medicine, Engineering, Technology & Data, Business & Finance, Marketing & Media, Creative & Design, Science & Research, Tourism & Hospitality, Law & Public Service, Education & Social, Skilled Trades & Technical, Agriculture & Food. | e.g. الصحة والطب، الهندسة، التكنولوجيا والبيانات | `cluster`, `packages/content/careers/catalog.json` |
 | **Career library** | All 82 careers, each with a page. | Careers | `/careers`, `packages/content/careers` |
+| **Discover** | Step 1 of the assessment, on my island: 10 short tasks of interests, strengths and a short personality set that suggest paths. Replaces the stations. | Discover / اكتشف | `/journey`, `lib/journey/discover-plan.ts` |
+| **Verify** | Step 2, on a path island: the path's own questions (day, real deal, try it) plus values once, giving fits well / partly / worth rethinking. | — | `packages/content/paths`, `/dev/paths` |
+| **Path** | A career-group island checked in Verify; one of the 12 groups. | — | `cluster` |
+| **Task** | 5–10 questions in mixed formats; one plank of a bridge. | Task {n} / المهمة {n} | `DiscoverTask`, `PathTask` |
+| **Early guess** | Path suggestions after Discover task 4, from interests only, clearly labelled. | Early guess / تخمين أوّلي | `PreviewStage 'early'` |
+| **Suggested paths** | The top paths from task 8 on (interests scorable), sharpening to task 10. | Paths suggested for you / مجالات مقترحة ليك | `previewSuggestions`, `rankGroups` |
+| **Short personality set** | Mini-IPIP: 20 of the 50 personality statements, 4 per trait, used in Discover (psychologist to confirm). | — | `personalityShort()` |
+| **A day as… / The real deal / Try it** | Verify's three tasks: story moments, this-or-that trade-offs, and work situations or small puzzles followed by "did you enjoy that?". Puzzles are taste tests, never graded. | يوم في… / الحقيقة من غير تجميل / جرّب بنفسك | `PathStoryItem`, `PathChoiceItem`, `PathScenarioItem`, `PathPuzzleItem` |
 | **Explore** | Universities (137), programs (372) and course providers (42) in Egypt. | Explore | `/explore`, `packages/content/opportunities` |
 
 ## 2. Assessment

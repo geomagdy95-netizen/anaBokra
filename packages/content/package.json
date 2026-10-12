@@ -9,7 +9,8 @@
     "typecheck": "tsc -p .",
     "build:careers": "tsx scripts/build-careers.ts",
     "demo": "tsx scripts/demo.ts",
-    "export:review": "tsx scripts/export-review.ts"
+    "export:review": "tsx scripts/export-review.ts",
+    "export:paths": "tsx scripts/export-paths-review.ts"
   },
   "dependencies": { "@anabokra/engine": "workspace:*" }
 }

@@ -33,6 +33,13 @@ describe('scoreLikert', () => {
     expect(r.scales.a?.raw).toBe(1);
   });
 
+  it('can score an early guess at a lower coverage, but never from no answers', () => {
+    const early = scoreLikert(likert, [{ itemId: 'a1', value: 4 }], undefined, { minCoverage: 0.3 });
+    expect(early.scales.a?.answered).toBe(1);
+    expect(early.scales.b).toBeUndefined();
+    expect(scoreLikert(likert, [], undefined, { minCoverage: 0 }).scales).toEqual({});
+  });
+
   it('skips scales below 80% coverage and marks the result incomplete', () => {
     const r = scoreLikert(likert, [{ itemId: 'a1', value: 4 }, { itemId: 'b1', value: 4 }]);
     expect(r.scales.a).toBeUndefined();

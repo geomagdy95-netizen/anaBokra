@@ -75,3 +75,15 @@ describe('careers', () => {
     }
   });
 });
+
+describe('short personality set (Mini-IPIP)', () => {
+  it('has 4 items per trait, all from the full set, with the same keys', async () => {
+    const { personalityShort } = await import('../src');
+    const short = personalityShort();
+    expect(short.items).toHaveLength(20);
+    for (const f of BIG_FIVE) expect(short.items.filter((i) => i.scale === f)).toHaveLength(4);
+    const full = new Map(instruments.personality.items.map((i) => [i.id, i]));
+    for (const i of short.items) expect(full.get(i.id)).toEqual(i);
+    expect(short.items.some((i) => i.attentionCheck)).toBe(false);
+  });
+});

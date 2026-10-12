@@ -25,6 +25,16 @@ export const instruments = {
   readiness: readinessJson as LikertInstrument,
 };
 
+/**
+ * The short personality set used in Discover (Mini-IPIP: 20 of the 50 items, 4 per trait). Same
+ * items, keys and scale as the full set, so it is scored the same way; only the item list is shorter.
+ */
+export function personalityShort(): LikertInstrument {
+  const full = instruments.personality;
+  const ids = new Set((personalityJson as { shortForm: { items: string[] } }).shortForm.items);
+  return { ...full, version: `${full.version}+mini`, items: full.items.filter((i) => ids.has(i.id)) };
+}
+
 export interface Cluster {
   id: string;
   name: I18n;
@@ -146,3 +156,5 @@ export const programById = (id: string) => programs.find((p) => p.id === id);
 export const universityById = (id: string) => universities.find((u) => u.id === id);
 export const providerById = (id: string) => providers.find((p) => p.id === id);
 export const industryById = (id: string) => industries.find((i) => i.id === id);
+
+export * from './paths';

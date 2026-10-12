@@ -7,6 +7,7 @@ import {
   matchCareer,
   personalityFit,
   rankCareers,
+  rankGroups,
   surprisingMatches,
   valuesFit,
   type UserProfile,
@@ -123,6 +124,27 @@ describe('contextFlags', () => {
     expect(contextFlags({ stage: 'university', field: 'other' }, withFields)).toEqual([]);
     expect(contextFlags({ stage: 'graduate' }, withFields)).toEqual([]);
     expect(contextFlags({ stage: 'university', field: 'law' }, c)).toEqual([]);
+  });
+});
+
+describe('rankGroups', () => {
+  it('scores each group by the average of its 3 best careers', () => {
+    const m = (careerId: string, cluster: string, fit: number) => ({ careerId, cluster, fit }) as Parameters<typeof rankGroups>[0][number];
+    const groups = rankGroups([
+      m('a1', 'a', 90),
+      m('a2', 'a', 60),
+      m('a3', 'a', 30),
+      m('a4', 'a', 10),
+      m('b1', 'b', 70),
+      m('b2', 'b', 68),
+      m('c1', 'c', 95),
+    ]);
+    expect(groups.map((g) => [g.cluster, g.fit])).toEqual([
+      ['c', 95],
+      ['b', 69],
+      ['a', 60],
+    ]);
+    expect(groups[2]!.careerIds).toEqual(['a1', 'a2', 'a3']);
   });
 });
 

@@ -144,7 +144,20 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 
 **Needed by 27 Oct** for the pilot build.
 
-## 9. Open questions for the founder
+## 9. Build status
+
+| Week | Item | Status |
+|---|---|---|
+| 1 (13 Oct) | Discover: 10 tasks from the existing questions (`lib/journey/discover-plan.ts`), mixed formats (swipe, faces, slider), saved on the phone | **Built**, at `/journey` |
+| 1 | Short personality set (Mini-IPIP, 20 of the 50 items), scored when the full set isn't answered | **Built** (`personalityShort()`; result records `personalitySet`) |
+| 1 | Path suggestions: early guess after task 4, suggestions after task 8, group rank = average of the 3 best careers; "no path stands out" when interest answers are flat | **Built** (`previewSuggestions`, `rankGroups`) |
+| 1 | Verify question formats: story, this or that, scenario, puzzle with reveal, "did you enjoy that?" | **Built**; try them at `/dev/paths` |
+| 1 | Verify content for 4 paths, Arabic and English | **Drafted**: `packages/content/paths/*.json`; review pack [docs/review/paths-review.md](../review/paths-review.md) |
+| 2 | Verify scoring and saving, values once, path results, careers ranked inside a path | To do |
+| 2 | Island map connected (my island → path islands), readiness baseline and follow-up, `/assessment` switched to the journey | To do |
+| 3 | Psychologist's edits, phone testing, docs and consent texts | To do |
+
+## 10. Open questions for the founder
 
 - Keep the after-results readiness check as a third point, or drop it?
 - Follow-up timing versus the 17 Dec freeze: 7 days, or move the freeze?

@@ -31,6 +31,7 @@ import {
   scorePersonality,
   scoreSession,
   scoreValueCards,
+  previewSuggestions,
 } from './scoring';
 import type {
   AssessmentRepo,
@@ -347,6 +348,19 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
   }
 
   /**
+   * Discover: path suggestions from the answers so far (early guess, then suggestions). Read-only:
+   * nothing is stored and the session stays open. Own sessions only.
+   */
+  async function preview(userId: string, rawInput: unknown) {
+    const { sessionId } = parse(sessionRefSchema, rawInput);
+    const s = await loadSession(userId, sessionId);
+    const progress = progressOf(s);
+    const responses = await repo.listResponses(s.id);
+    const context = progress.context ?? (await repo.getUserContext(userId));
+    return previewSuggestions(responses, { valuesRanking: progress.valuesRanking, context });
+  }
+
+  /**
    * Everything the UI needs to resume exactly where the user left off: stored answers, the
    * context fields and the chosen values ranking. Own sessions only.
    */
@@ -530,7 +544,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
     return (await repo.findReadiness(userId, sessionId, 'post')) !== null;
   }
 
-  return { hasPostReadiness, startSession, saveResponses, saveContext, getProgress, getResume, completeStation, finalize, getResult, getLatestResult, getEntryState, saveReadiness };
+  return { preview, hasPostReadiness, startSession, saveResponses, saveContext, getProgress, getResume, completeStation, finalize, getResult, getLatestResult, getEntryState, saveReadiness };
 }
 
 export type AssessmentService = ReturnType<typeof createAssessmentService>;

@@ -27,6 +27,12 @@
     { "id": "emotionalStability", "name": { "en": "Emotional stability", "ar": "الاتزان الانفعالي" } },
     { "id": "intellect", "name": { "en": "Intellect / Imagination", "ar": "الانفتاح والخيال" } }
   ],
+  "shortForm": {
+    "id": "mini-ipip",
+    "name": "Mini-IPIP, 20 items, 4 per factor (Donnellan, Oswald, Baird & Lucas, 2006), a subset of these IPIP-50 items",
+    "status": "proposed for Discover; psychologist to confirm",
+    "items": ["ipip_E01", "ipip_E07", "ipip_E02", "ipip_E04", "ipip_A04", "ipip_A08", "ipip_A09", "ipip_A05", "ipip_C05", "ipip_C07", "ipip_C06", "ipip_C04", "ipip_N08", "ipip_N06", "ipip_N02", "ipip_N04", "ipip_O03", "ipip_O04", "ipip_O02", "ipip_O06"]
+  },
   "items": [
     { "id": "ipip_E01", "scale": "extraversion", "keyed": 1, "text": { "en": "Am the life of the party.", "ar": "بكون مصدر الحيوية والبهجة في التجمعات" } },
     { "id": "ipip_A01", "scale": "agreeableness", "keyed": -1, "text": { "en": "Feel little concern for others.", "ar": "نادرًا ما بهتم بأمر الناس" } },

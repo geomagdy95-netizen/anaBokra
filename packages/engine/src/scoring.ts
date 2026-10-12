@@ -39,10 +39,19 @@ export interface LikertResult {
 /** Minimum share of a scale's items that must be answered for the scale to be scored. */
 const MIN_SCALE_COVERAGE = 0.8;
 
+export interface LikertOptions {
+  /**
+   * Share of a scale's items that must be answered for it to be scored (default 0.8). Lower it only
+   * for a clearly labelled early guess, never for a result.
+   */
+  minCoverage?: number;
+}
+
 export function scoreLikert(
   instrument: LikertInstrument,
   responses: ItemResponse[],
   norms?: Norms,
+  { minCoverage = MIN_SCALE_COVERAGE }: LikertOptions = {},
 ): LikertResult {
   const { min, max } = instrument.responseScale;
   const byItem = new Map(responses.map((r) => [r.itemId, r.value]));
@@ -59,7 +68,7 @@ export function scoreLikert(
       values.push(item.keyed === -1 ? min + max - v : v);
     }
     if (values.length < items.length) complete = false;
-    if (values.length < Math.ceil(items.length * MIN_SCALE_COVERAGE)) continue;
+    if (values.length === 0 || values.length < Math.ceil(items.length * minCoverage)) continue;
 
     const raw = mean(values);
     const score: ScaleScore = {

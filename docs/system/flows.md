@@ -17,6 +17,7 @@ Each flow in phase 1 (on-device mode), step by step, with a diagram, what is sto
 | 11 | [Delete all my data](#11-delete-all-my-data) | Built |
 | 12 | [Island world](#12-island-world) | Prototype / Designed |
 | 13 | [Phase 2 flows](#13-phase-2-flows-server-mode) | Phase 2 |
+| 14 | [Discover and Verify (replacing the stations)](#14-discover-and-verify) | Built (Discover), Prototype (Verify) |
 | — | [Known gaps](#known-gaps) | — |
 
 ---
@@ -391,6 +392,21 @@ Built for `NEXT_PUBLIC_DATA_MODE=server` and switched off in phase 1. Kept here 
 The teen and school pilot materials are parked in [../parked/teens](../parked/teens/).
 
 ---
+
+## 14. Discover and Verify
+
+Decided 12 Oct 2026; full design in [discover-verify.md](../product/discover-verify.md). It replaces the five stations (flow 3) with short island tasks.
+
+```mermaid
+flowchart LR
+    t1["Task 1–3"] --> t4["Task 4<br/>early guess"] --> t8["Task 8<br/>suggested paths"] --> t10["Task 10<br/>top 3 paths"]
+    t10 --> v["Verify a path<br/>day · real deal · try it"]
+    v --> r["Fits well / partly /<br/>worth rethinking"]
+```
+
+**Discover** (`/journey`): 10 tasks of 9–10 validated questions in mixed formats; each task has one interest card of every type, 2 personality statements (short set) and 1–2 strengths. Answers save on the phone through the same assessment service, so encryption, moving phones, statistics and research all apply. Suggestions are computed live (`service.preview`) and never stored. If every interest answer is the same, the app says no path stands out instead of ranking.
+
+**Verify** (preview at `/dev/paths`): drafts for Technology & Data, Business & Finance, Engineering, Health & Medicine. Scoring, saving and the path result come in week 2.
 
 ## Known gaps
 

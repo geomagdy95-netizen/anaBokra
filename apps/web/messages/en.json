@@ -2299,5 +2299,76 @@
       "deleteFailed": "Stopped, but we couldn’t reach anaBokra to delete the readiness answers sent from this phone. Try again when you’re online.",
       "retry": "Try deleting again"
     }
+  },
+  "Journey": {
+    "title": "My island",
+    "discover": "Discover",
+    "intro": "Ten short tasks to get to know you. After task 4 we make a first guess at the paths that suit you.",
+    "progress": "{done} of {total} tasks done",
+    "task": "Task {n}",
+    "taskMeta": "{count} questions · about {min} min",
+    "state": {
+      "done": "Done",
+      "next": "Up next",
+      "locked": "Locked"
+    },
+    "start": "Start",
+    "again": "Review",
+    "taskTitles": {
+      "1": "Warm-up",
+      "2": "What lights you up",
+      "3": "Hands and minds",
+      "4": "People and ideas",
+      "5": "Your style",
+      "6": "Halfway there",
+      "7": "A bit deeper",
+      "8": "Getting clearer",
+      "9": "Almost there",
+      "10": "The last piece"
+    },
+    "counter": "{current} of {total}",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back to my island",
+    "close": "Close",
+    "story": {
+      "prompt": "How does that sound?",
+      "1": "Not for me",
+      "2": "OK",
+      "3": "Sounds great"
+    },
+    "choice": {
+      "prompt": "Which would you pick?",
+      "or": "or"
+    },
+    "enjoy": {
+      "prompt": "Did you enjoy that?",
+      "1": "Not really",
+      "2": "Kind of",
+      "3": "Loved it"
+    },
+    "puzzle": {
+      "right": "Nice, that’s it!",
+      "wrong": "Good try. The answer is: {answer}"
+    },
+    "reward": {
+      "title": "Your island grew",
+      "none": "Keep going: after task 4 we’ll make a first guess at your paths.",
+      "earlyTitle": "Early guess",
+      "early": "So far you lean toward these paths. The picture gets clearer with every task.",
+      "suggestedTitle": "Paths suggested for you",
+      "suggested": "Based on your interests, strengths and style so far.",
+      "flat": "No path stands out yet: your interest answers are very even. Try using the whole scale, from \"strongly dislike\" to \"strongly like\". You can also explore any path you’re curious about.",
+      "top": "Top careers here for you: {list}",
+      "verifySoon": "Checking a path opens soon"
+    },
+    "saveFailed": "We couldn’t save that answer. Please try again."
+  },
+  "DevPaths": {
+    "title": "Path questions (preview)",
+    "intro": "Try the draft Verify tasks for a path. Nothing is saved.",
+    "pick": "Path",
+    "task": "Task",
+    "answers": "Answers"
   }
 }

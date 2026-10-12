@@ -26,7 +26,7 @@ flowchart BT
 | Package | Holds | Notes |
 |---|---|---|
 | `packages/engine` | `scoring.ts` (Likert, values cards, abilities), `matching.ts` (fit, reasons, watch-outs, context flags, surprising matches), `quality.ts`, `types.ts` (RIASEC, Big Five, work values, ability domains, study fields, stages) | Same code on the phone and on the server |
-| `packages/content` | `instruments/*.json`, `careers/` (catalog, generated traits from O*NET, 82 career pages, `study-fields.json`), `opportunities/` (universities, programs, providers), `industries/` | O*NET data is CC BY 4.0, modified by anaBokra |
+| `packages/content` | `instruments/*.json` (personality includes the short set), `paths/*.json` (Verify drafts), `careers/` (catalog, generated traits from O*NET, 82 career pages, `study-fields.json`), `opportunities/` (universities, programs, providers), `industries/` | O*NET data is CC BY 4.0, modified by anaBokra |
 | `packages/ai` | `templates.ts` (Arabic and English sentences for reasons, watch-outs, flags), `prompt.ts`, `guardrails.ts`, `explain.ts` | The Anthropic client is used only in server mode |
 | `apps/web` | Pages, features, the on-device runtime, server services, API routes, messages | See section 2 |
 | `supabase/` | 15 migrations, row-level security, seed data, SQL tests | Phase 2 schema, plus the phase 1 statistics and research tables |
@@ -57,6 +57,8 @@ flowchart TB
 | `features/assessment/`, `features/results/` | Station and results screens, shared by both modes. |
 | `features/path/` | The path map and the generated "your world" (3D with a 2D fallback). |
 | `features/world/` | The island-world prototype (`/dev/world`). |
+| `lib/journey/` | Discover task plan and status. |
+| `features/journey/` | Discover page, task player, question formats, path preview. |
 | `lib/local/` | The on-device runtime: storage, encryption, profiles, repo, PIN, transfer, statistics and research senders. |
 | `lib/` | Shared schemas and helpers used on both sides: `stats-summary.ts`, `research.ts`, `national-id.ts`, `data-mode.ts`. |
 | `server/` | Services behind the API: assessment, verify, transfer, stats, research, and the phase 2 auth, consent, admin, careers and explore services. |
@@ -172,5 +174,8 @@ The SMS sender for parent codes has no setting yet: it prints to the log in deve
 | `/en/dev/world` | Island-world prototype |
 | `/en/dev/path` | Path-map prototype |
 | `/en/dev/engine` | Engine and content smoke test |
+| `/en/journey` | Discover (my island) |
+| `/en/dev/paths` | Try the draft Verify tasks |
+| `pnpm --filter @anabokra/content export:paths` | Regenerates the psychologist's review pack `docs/review/paths-review.md` |
 
 **The dev pages are not hidden in production yet** (see [known gaps](flows.md#known-gaps)). Before launch they should return 404 outside development.

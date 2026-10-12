@@ -1,0 +1,80 @@
+{
+  "id": "tech",
+  "version": "0.1.0-draft",
+  "status": "draft: written 13 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in tech", "ar": "يوم في التكنولوجيا" },
+      "intro": { "en": "Moments from a typical day in tech. How does each one sound to you?", "ar": "لحظات من يوم عادي في التكنولوجيا. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "tech_day_1", "text": { "en": "9:30 a.m. A 10-minute stand-up: everyone says what they did yesterday and what's blocking them.", "ar": "9:30 الصبح: اجتماع 10 دقايق واقفين، كل واحد يقول عمل إيه امبارح وإيه اللي معطّله." } },
+        { "id": "tech_day_2", "text": { "en": "Two hours of focused work, headphones on, turning an idea into working code.", "ar": "ساعتين تركيز والسماعات في الودان: فكرة بتتحوّل لكود شغال." }, "careers": ["software_engineer", "mobile_developer", "game_developer", "ai_engineer", "cloud_devops_engineer"] },
+        { "id": "tech_day_3", "text": { "en": "Hunting a bug: it works on your laptop but not on the server.", "ar": "مطاردة غلطة: البرنامج شغال على اللابتوب بس مش شغال على السيرفر." }, "careers": ["software_engineer", "cloud_devops_engineer", "mobile_developer", "it_support"] },
+        { "id": "tech_day_4", "text": { "en": "Digging through a million rows of data to find out why sales dropped.", "ar": "تدوير في مليون سطر بيانات: ليه المبيعات وقعت؟" }, "careers": ["data_scientist", "ai_engineer", "product_manager"] },
+        { "id": "tech_day_5", "text": { "en": "Sketching app screens and watching five users try them to see where they get stuck.", "ar": "رسم شاشات تطبيق ومتابعة 5 مستخدمين بيجربوها: بيتلخبطوا فين؟" }, "careers": ["ux_designer", "product_manager"] },
+        { "id": "tech_day_6", "text": { "en": "An alert at 2 a.m.: someone is trying to break into the company's systems.", "ar": "تنبيه الساعة 2 بالليل: حد بيحاول يخترق أنظمة الشركة." }, "careers": ["cybersecurity_specialist", "cloud_devops_engineer"] }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "tech_real_1", "a": { "en": "Learning new tools every year, for your whole career", "ar": "تتعلم أدوات جديدة كل سنة، طول عمرك المهني", "arF": "تتعلمي أدوات جديدة كل سنة، طول عمرك المهني" }, "b": { "en": "Mastering one set of skills and using it for years", "ar": "تتقن مجموعة مهارات وتفضل تستخدمها سنين", "arF": "تتقني مجموعة مهارات وتفضلي تستخدميها سنين" }, "path": "a" },
+        { "id": "tech_real_2", "a": { "en": "Long hours at a screen, solving problems mostly on your own", "ar": "ساعات طويلة قدام شاشة، بتحل مشاكل أغلبها لوحدك", "arF": "ساعات طويلة قدام شاشة، بتحلي مشاكل أغلبها لوحدك" }, "b": { "en": "Moving around and meeting people all day", "ar": "حركة ومقابلة ناس طول اليوم" }, "path": "a" },
+        { "id": "tech_real_3", "a": { "en": "A field where you prove yourself with projects, not your grades", "ar": "مجال بتثبت فيه نفسك بمشاريعك مش بدرجاتك", "arF": "مجال بتثبتي فيه نفسك بمشاريعك مش بدرجاتك" }, "b": { "en": "A field where your degree opens the door for you", "ar": "مجال الشهادة هي اللي بتفتحلك الباب" }, "path": "a" },
+        { "id": "tech_real_4", "a": { "en": "Working remotely for a company abroad", "ar": "شغل من البيت لشركة برا مصر" }, "b": { "en": "An office in Egypt with fixed hours", "ar": "مكتب في مصر بمواعيد ثابتة" }, "path": "a" },
+        { "id": "tech_real_5", "a": { "en": "Being on call to fix things when they break at night", "ar": "تكون متاح تصلّح الأعطال لو حصلت بالليل", "arF": "تكوني متاحة تصلّحي الأعطال لو حصلت بالليل" }, "b": { "en": "Never being contacted after work hours", "ar": "محدش يكلمك بعد مواعيد الشغل خالص" }, "path": "a", "careers": ["cybersecurity_specialist", "cloud_devops_engineer", "it_support"] },
+        { "id": "tech_real_6", "a": { "en": "Building something millions of people use, without ever meeting them", "ar": "تبني حاجة بيستخدمها ملايين من غير ما تقابلهم", "arF": "تبني حاجة بيستخدمها ملايين من غير ما تقابليهم" }, "b": { "en": "Helping a few people face to face", "ar": "تساعد ناس قليلين وش لوش", "arF": "تساعدي ناس قليلين وش لوش" }, "path": "a" }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from tech. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل التكنولوجيا. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل التكنولوجيا. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "tech_try_1",
+          "type": "scenario",
+          "text": { "en": "The app your team built crashes for some users only. What's the first step?", "ar": "التطبيق اللي فريقك عمله بيقفل فجأة عند بعض المستخدمين بس. إيه أول خطوة؟" },
+          "options": [
+            { "text": { "en": "Try to make the crash happen myself and read the error logs", "ar": "أحاول أعمل نفس المشكلة بنفسي وأقرا سجل الأخطاء" }, "fit": 1 },
+            { "text": { "en": "Ask the users exactly what they were doing", "ar": "أسأل المستخدمين كانوا بيعملوا إيه بالظبط" }, "fit": 0.7 },
+            { "text": { "en": "Rewrite the whole feature from scratch", "ar": "أكتب الجزء ده كله من الأول" }, "fit": 0.2 },
+            { "text": { "en": "Wait and see if it happens again", "ar": "أستنى أشوف هتتكرر ولا لأ" }, "fit": 0 }
+          ]
+        },
+        {
+          "id": "tech_try_2",
+          "type": "scenario",
+          "text": { "en": "A new tool everyone is talking about could replace the one you use every day.", "ar": "فيه أداة جديدة الكل بيتكلم عنها ممكن تغني عن الأداة اللي بتستخدمها كل يوم.", "arF": "فيه أداة جديدة الكل بيتكلم عنها ممكن تغني عن الأداة اللي بتستخدميها كل يوم." },
+          "options": [
+            { "text": { "en": "Try it on a small project this weekend", "ar": "أجربها على مشروع صغير في الويك إند" }, "fit": 1 },
+            { "text": { "en": "Read reviews and wait until others have tested it", "ar": "أقرا آراء الناس وأستنى لما غيري يجربها" }, "fit": 0.6 },
+            { "text": { "en": "Stick with what works until I'm forced to change", "ar": "أفضل على اللي شغال لحد ما أضطر أغيّر" }, "fit": 0.2 }
+          ]
+        },
+        {
+          "id": "tech_try_3",
+          "type": "puzzle",
+          "text": { "en": "Instructions for a robot: start at 0. Repeat 3 times: add 4, then double. Where does it end?", "ar": "تعليمات لروبوت: ابدأ من 0. كرر 3 مرات: زوّد 4، وبعدين اضرب في 2. هيوصل لكام؟" },
+          "options": [{ "en": "28", "ar": "28" }, { "en": "48", "ar": "48" }, { "en": "56", "ar": "56" }, { "en": "60", "ar": "60" }],
+          "answer": 2,
+          "explain": { "en": "0 → 4 → 8, then 12 → 24, then 28 → 56. Programs are long chains of small steps like this.", "ar": "0 ← 4 ← 8، وبعدين 12 ← 24، وبعدين 28 ← 56. البرامج سلسلة طويلة من خطوات صغيرة زي دي." }
+        },
+        {
+          "id": "tech_try_4",
+          "type": "puzzle",
+          "text": { "en": "A password must have at least 8 characters and include a number. Which one passes?", "ar": "الباسورد لازم يكون 8 حروف على الأقل وفيه رقم. أنهي واحد ينفع؟" },
+          "options": [{ "en": "password", "ar": "password" }, { "en": "nile7", "ar": "nile7" }, { "en": "cairo2026", "ar": "cairo2026" }, { "en": "AHMED_ALI", "ar": "AHMED_ALI" }],
+          "answer": 2,
+          "explain": { "en": "Only \"cairo2026\" has 8+ characters and a number. Checking rules like this is everyday work in security.", "ar": "«cairo2026» بس هو اللي فيه 8 حروف أو أكتر ورقم. التأكد من قواعد زي دي شغل يومي في أمن المعلومات." }
+        }
+      ]
+    }
+  ]
+}

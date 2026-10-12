@@ -1,9 +1,10 @@
-import { careers as allCareers } from '@anabokra/content';
+import { careers as allCareers, personalityShort } from '@anabokra/content';
 import {
   checkQuality,
   interestProfile,
   personalityProfile,
   rankCareers,
+  rankGroups,
   scoreAbilities,
   scoreLikert,
   scoreValues,
@@ -11,6 +12,7 @@ import {
   WORK_VALUES,
   type CareerForMatching,
   type CareerMatch,
+  type GroupRank,
   type ItemResponse,
   type UserContext,
   type UserProfile,
@@ -50,9 +52,20 @@ export function scoreInterests(responses: ResponseRecord[]) {
   return interestProfile(scoreLikert(likert('interests'), rs));
 }
 
-export function scorePersonality(responses: ResponseRecord[]) {
+/** Which personality set the scores rest on: all 50 statements, or the 20 of the short set (Discover). */
+export type PersonalitySet = 'full' | 'short';
+
+export function scorePersonalityWithSet(responses: ResponseRecord[]): { scores: ReturnType<typeof personalityProfile>; set: PersonalitySet } | undefined {
   const rs = inInstrumentOrder('personality', forInstrument(responses, 'personality'));
-  return personalityProfile(scoreLikert(likert('personality'), rs));
+  const full = personalityProfile(scoreLikert(likert('personality'), rs));
+  if (full) return { scores: full, set: 'full' };
+  // Discover asks only the short set; score it when the full set isn't answered.
+  const short = personalityProfile(scoreLikert(personalityShort(), rs));
+  return short ? { scores: short, set: 'short' } : undefined;
+}
+
+export function scorePersonality(responses: ResponseRecord[]) {
+  return scorePersonalityWithSet(responses)?.scores;
 }
 
 export function scoreValueCards(responses: ResponseRecord[], ranking?: string[]) {
@@ -98,7 +111,8 @@ export interface ScoreSessionInput {
 export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
   const { responses, context = {}, careers = allCareers } = input;
   const interests = scoreInterests(responses);
-  const personality = scorePersonality(responses);
+  const personalityScored = scorePersonalityWithSet(responses);
+  const personality = personalityScored?.scores;
   const values = scoreValueCards(responses, input.valuesRanking);
   const abilities = scoreAbilityStation(responses);
   if (!interests && !personality && !values && !abilities) return undefined;
@@ -161,6 +175,7 @@ export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
           : {}),
         ...(values ? { valuesRanking: values.ranking } : {}),
         ...(abilities ? { abilityBasis: abilities.basis } : {}),
+        ...(personalityScored ? { personalitySet: personalityScored.set } : {}),
         instrumentVersions: versions,
         scoredStations: [
           ...(interests ? ['interests'] : []),
@@ -185,3 +200,77 @@ export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
 }
 
 export type StoredMatch = CareerMatch & { rank: number; kind: 'top' | 'surprising'; surprising?: true };
+
+// ---------------------------------------------------------------------------
+// Discover: live path suggestions while the answers come in (nothing is stored)
+// ---------------------------------------------------------------------------
+
+/** How far suggestions have got: nothing yet, an early guess from a few interests, or suggestions. */
+export type PreviewStage = 'none' | 'early' | 'suggested';
+
+export interface Preview {
+  stage: PreviewStage;
+  /** Career groups ("paths"), best first. */
+  groups: GroupRank[];
+  /** The best careers so far. */
+  matches: CareerMatch[];
+  /** Interest type codes, strongest first (e.g. ["I", "A", "S"]). */
+  interestCode: string[];
+  personalitySet: PersonalitySet | null;
+  /**
+   * The interest answers are so even that no type stands out, so the path ranking means little.
+   * The UI says so instead of listing paths.
+   */
+  flat: boolean;
+}
+
+/** Below this spread between the strongest and weakest interest type (0–1), no path stands out. */
+export const FLAT_INTERESTS = 0.1;
+
+/** An early guess needs 4 of the 10 activities of each interest type (after Discover task 4). */
+export const EARLY_GUESS_COVERAGE = 0.4;
+
+/**
+ * Scores what has been answered so far and ranks the paths. With interests at 80% coverage the
+ * stage is "suggested"; with fewer (but at least EARLY_GUESS_COVERAGE) it is an "early" guess built
+ * from interests only, to be labelled as such. Pure and fast enough to run after every task.
+ */
+export function previewSuggestions(
+  responses: ResponseRecord[],
+  { valuesRanking, context, careers = allCareers }: { valuesRanking?: string[]; context?: UserContext; careers?: CareerForMatching[] } = {},
+): Preview {
+  const interests = scoreInterests(responses);
+  const empty: Preview = { stage: 'none', groups: [], matches: [], interestCode: [], personalitySet: null, flat: false };
+  if (!interests) {
+    const rs = inInstrumentOrder('interests', forInstrument(responses, 'interests'));
+    const early = interestProfile(scoreLikert(likert('interests'), rs, undefined, { minCoverage: EARLY_GUESS_COVERAGE }));
+    if (!early) return empty;
+    const ranked = rankCareers({ interests: early.scores }, careers, { context });
+    return {
+      stage: 'early',
+      groups: rankGroups(ranked),
+      matches: ranked.slice(0, 5),
+      interestCode: early.code.split(''),
+      personalitySet: null,
+      flat: early.differentiation < FLAT_INTERESTS,
+    };
+  }
+  const personality = scorePersonalityWithSet(responses);
+  const abilities = scoreAbilityStation(responses);
+  const values = scoreValueCards(responses, valuesRanking);
+  const profile: UserProfile = {
+    interests: interests.scores,
+    ...(personality ? { personality: personality.scores } : {}),
+    ...(values ? { values: values.scores } : {}),
+    ...(abilities ? { abilities: abilities.scores } : {}),
+  };
+  const ranked = rankCareers(profile, careers, { context });
+  return {
+    stage: 'suggested',
+    groups: rankGroups(ranked),
+    matches: ranked.slice(0, 5),
+    interestCode: interests.code.split(''),
+    personalitySet: personality?.set ?? null,
+    flat: interests.differentiation < FLAT_INTERESTS,
+  };
+}
