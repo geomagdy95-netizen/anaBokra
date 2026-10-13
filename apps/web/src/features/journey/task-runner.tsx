@@ -62,13 +62,15 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
     setBusy(true);
     setFailed(false);
     const ok = await onAnswer(step, v, Math.max(0, Date.now() - shownAt.current));
-    setBusy(false);
     if (!ok) {
+      setBusy(false);
       setFailed(true);
       return;
     }
     setAnswers((a) => ({ ...a, [step.id]: v }));
-    // A puzzle shows its reveal first; everything else moves on.
+    // A puzzle shows its reveal first; everything else moves on after a beat, so the choice is seen.
+    if (step.kind !== 'puzzle') await new Promise((r) => setTimeout(r, 320));
+    setBusy(false);
     if (step.kind !== 'puzzle') advance();
   };
 

@@ -2522,7 +2522,8 @@
     "intro": "Try the draft Verify tasks for a path. Nothing is saved.",
     "pick": "Path",
     "task": "Task",
-    "answers": "Answers"
+    "answers": "Answers",
+    "mine": "My island"
   },
   "Pwa": {
     "title": "Add anaBokra to your home screen",

@@ -2,6 +2,7 @@
 
 import type { I18n } from '@anabokra/engine';
 import { Frown, Meh, Smile } from 'lucide-react';
+import { useState } from 'react';
 
 import { choiceBase, choiceIdle, choiceOn, useNumberFormat } from '@/features/assessment/primitives';
 import { SwipeCard } from '@/features/assessment/swipe-card';
@@ -9,6 +10,7 @@ import { SWIPE_VALUE } from '@/features/assessment/swipe';
 import { useAT, useText } from '@/features/assessment/ui-context';
 import { cn } from '@/lib/utils';
 
+import { MoodFace } from './mood-face';
 import type { Scale } from './steps';
 import { useJT } from './use-jt';
 
@@ -63,34 +65,62 @@ export function SwipeQuestion({ text, scale, value, onAnswer, disabled }: Answer
   );
 }
 
-const FACES = ['😣', '🙁', '😐', '🙂', '😄'];
-
-/** Personality: five faces from "not me at all" to "so me". */
+/**
+ * Personality and readiness: an agreement scale drawn as a character whose face reacts, a five-stop
+ * track under it and the chosen answer in words. Hovering a stop previews the face; tapping answers.
+ */
 export function FacesQuestion({ text, scale, value, onAnswer, disabled, prompt }: Answerable & { text: I18n; scale: Scale; prompt?: string }) {
   const at = useAT();
   const tx = useText();
+  const [hover, setHover] = useState<number | undefined>();
+  const steps = scale.labels.map((_, i) => scale.min + i);
+  const shown = hover ?? value;
+  const level = shown === undefined ? undefined : 1 + Math.round(((shown - scale.min) / (scale.max - scale.min)) * 4);
+  const fill = value === undefined ? 0 : (value - scale.min) / (scale.max - scale.min);
   return (
-    <fieldset className="flex flex-col gap-4" data-testid="q-faces" disabled={disabled}>
-      <legend className="mb-2 text-sm text-muted-foreground">{prompt ?? at('prompts.personality')}</legend>
-      <p className={cn(card, big)}>{tx(text)}</p>
-      <div className="grid grid-cols-5 gap-1.5">
-        {scale.labels.map((label, i) => {
-          const v = scale.min + i;
-          return (
+    <fieldset className="flex flex-col gap-3" data-testid="q-faces" disabled={disabled}>
+      <legend className="mb-3 text-base font-bold text-foreground">{prompt ?? at('prompts.personality')}</legend>
+      <p className="text-xl font-semibold leading-snug text-foreground">{tx(text)}</p>
+      <div className="flex flex-col items-center">
+        <MoodFace key={level ?? 0} level={level} className="size-24 motion-safe:animate-in motion-safe:zoom-in-90 motion-safe:duration-200" />
+        <p className="min-h-7 text-center text-lg font-bold text-primary" aria-live="polite">
+          {shown !== undefined ? tx(scale.labels[shown - scale.min]!) : ''}
+        </p>
+      </div>
+      <div className="relative px-1" onPointerLeave={() => setHover(undefined)}>
+        <div aria-hidden="true" className="absolute inset-x-[10%] top-1/2 h-2 -translate-y-1/2 rounded-full bg-primary/15">
+          <div className="h-full rounded-full bg-gradient-to-r from-primary/70 to-primary transition-[width] duration-300 rtl:bg-gradient-to-l" style={{ width: `${fill * 100}%` }} />
+        </div>
+        <div className="relative grid grid-cols-5">
+          {steps.map((v, i) => (
             <button
               key={v}
               type="button"
               aria-pressed={value === v}
+              aria-label={tx(scale.labels[i]!)}
+              onPointerEnter={(e) => e.pointerType === 'mouse' && setHover(v)}
+              onFocus={() => setHover(v)}
+              onBlur={() => setHover(undefined)}
               onClick={() => onAnswer(v)}
-              className={cn(choiceBase, 'h-full min-h-20 flex-col gap-1 px-1 text-center text-xs leading-tight', value === v ? choiceOn : choiceIdle)}
+              className="group flex h-14 items-center justify-center rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
-              <span aria-hidden="true" className="text-2xl">
-                {FACES[i] ?? '•'}
-              </span>
-              <span>{tx(label)}</span>
+              <span
+                className={cn(
+                  'block rounded-full border-4 transition-all duration-200',
+                  value === v
+                    ? 'size-9 border-primary bg-background shadow-lg shadow-primary/30'
+                    : value !== undefined && v < value
+                      ? 'size-5 border-primary bg-primary'
+                      : 'size-5 border-primary/30 bg-card group-hover:size-7 group-hover:border-primary/60',
+                )}
+              />
             </button>
-          );
-        })}
+          ))}
+        </div>
+      </div>
+      <div className="-mt-1 flex justify-between gap-6 px-1 text-xs font-medium text-muted-foreground">
+        <span className="max-w-[40%] text-start">{tx(scale.labels[0]!)}</span>
+        <span className="max-w-[40%] text-end">{tx(scale.labels[scale.labels.length - 1]!)}</span>
       </div>
     </fieldset>
   );
