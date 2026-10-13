@@ -21,7 +21,7 @@ import { bridgePoint, islandGeometry } from './geometry';
 import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, WORLD_EXTENT, islandPlacements, type IslandPlacement } from './layout';
 import { BRAND, MutedContext, SCENE } from './materials';
 import { GroupIcon, Logo3D } from './props';
-import { Backdrop, Clouds, Ripples, Sea, SkyDome, Trees, treesFor } from './scenery';
+import { Backdrop, Clouds, Sea, SkyDome, Trees, treesFor } from './scenery';
 import type { GroupId, IslandState, Selection } from './types';
 
 export type Quality = 'high' | 'low';
@@ -75,7 +75,10 @@ function Island({
   shadows: boolean;
 }) {
   const muted = state.relation === 'other';
-  const geo = useMemo(() => islandGeometry(ISLAND_RADIUS), []);
+  const geo = useMemo(
+    () => islandGeometry({ seed: placement.id, radius: ISLAND_RADIUS, landAt: [Math.atan2(-placement.dir[1], -placement.dir[0])] }),
+    [placement],
+  );
   const mat = useMemo(
     () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.85, color: muted ? '#E5E1EC' : '#FFFFFF' }),
     [muted],
@@ -121,20 +124,26 @@ function Island({
           <GroupIcon id={placement.id} />
         </group>
       </MutedContext.Provider>
-      {selected && (
-        <mesh position={[0, ISLAND_TOP + 0.025, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-          <ringGeometry args={[ISLAND_RADIUS - 0.2, ISLAND_RADIUS - 0.06, 72]} />
-          <meshStandardMaterial color={BRAND.violet} emissive={BRAND.violet} emissiveIntensity={0.6} />
-        </mesh>
-      )}
+      {selected && <SelectionRing radius={ISLAND_RADIUS} color={BRAND.violet} />}
     </group>
   );
 }
 
+/** A glowing ring on the water around the selected island, just past its beach. */
+function SelectionRing({ radius, color }: { radius: number; color: string }) {
+  return (
+    <mesh position={[0, 0.03, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+      <ringGeometry args={[radius + 0.6, radius + 0.78, 96]} />
+      <meshBasicMaterial color={color} transparent opacity={0.85} depthWrite={false} />
+    </mesh>
+  );
+}
+
 function CoreIsland({ shadows, selected, onSelect, animate }: { shadows: boolean; selected: boolean; onSelect: () => void; animate: boolean }) {
-  const base = useMemo(() => islandGeometry(CORE_RADIUS, ISLAND_TOP, 1.0, 0.28, 96), []);
+  // Bridges land all around the core, so its outline only wanders a little.
+  const base = useMemo(() => islandGeometry({ seed: 'core', radius: CORE_RADIUS, wobble: 0.025, segments: 128 }), []);
   const tierTop = ISLAND_TOP + 0.34;
-  const tier = useMemo(() => islandGeometry(2.05, tierTop, 0.5, 0.16, 96), [tierTop]);
+  const tier = useMemo(() => islandGeometry({ seed: 'core-tier', radius: 2.05, top: tierTop, beach: false, wobble: 0.05, segments: 112 }), [tierTop]);
   const mat = useMemo(() => new MeshStandardMaterial({ vertexColors: true, roughness: 0.85 }), []);
   useEffect(() => () => (base.dispose(), tier.dispose(), mat.dispose()), [base, tier, mat]);
   const logo = useRef<Group>(null);
@@ -161,12 +170,7 @@ function CoreIsland({ shadows, selected, onSelect, animate }: { shadows: boolean
       <group ref={logo} position={[0, tierTop + 1.33, -0.25]} rotation={[-0.08, 0, 0]}>
         <Logo3D height={2.65} />
       </group>
-      {selected && (
-        <mesh position={[0, ISLAND_TOP + 0.025, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-          <ringGeometry args={[CORE_RADIUS - 0.24, CORE_RADIUS - 0.08, 96]} />
-          <meshStandardMaterial color={BRAND.apricot} emissive={BRAND.apricot} emissiveIntensity={0.6} />
-        </mesh>
-      )}
+      {selected && <SelectionRing radius={CORE_RADIUS} color={BRAND.apricot} />}
     </group>
   );
 }
@@ -295,7 +299,7 @@ function Environment() {
     const pmrem = new PMREMGenerator(gl);
     const env = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
     scene.environment = env;
-    scene.environmentIntensity = 0.45;
+    scene.environmentIntensity = 0.38;
     return () => {
       scene.environment = null;
       env.dispose();
@@ -324,12 +328,12 @@ function Lights({ shadows }: { shadows: boolean }) {
   }, []);
   return (
     <>
-      <hemisphereLight args={['#FFFFFF', '#B9A6EA', 1.15]} />
+      <hemisphereLight args={['#FFFFFF', '#AE97E6', 0.95]} />
       <directionalLight
         ref={sun}
         position={[-12, 22, 14]}
-        intensity={1.9}
-        color="#FFF3E6"
+        intensity={2.3}
+        color="#FFECD9"
         castShadow={shadows}
         shadow-mapSize={[2048, 2048]}
       />
@@ -349,8 +353,9 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels }: W
     return [...spots, ...core];
   }, [states]);
 
-  const ripples = useMemo(
-    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS }, ...PLACEMENTS.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS }))],
+  // Where each island meets the water (its beach runs about 0.24 past the radius).
+  const shores = useMemo(
+    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS + 0.24 }, ...PLACEMENTS.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.24 }))],
     [],
   );
 
@@ -361,8 +366,7 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels }: W
       <Environment />
       <Lights shadows={shadows} />
       <SkyDome />
-      <Sea shadows={shadows} />
-      <Ripples centers={ripples} animate={animate} />
+      <Sea shadows={shadows} islands={shores} animate={animate} />
       <Clouds islands={PLACEMENTS} density={quality === 'high' ? 1 : 0.5} animate={animate} />
       <Backdrop />
       <CoreIsland shadows={shadows} selected={selected === 'core'} onSelect={() => onSelect('core')} animate={animate} />

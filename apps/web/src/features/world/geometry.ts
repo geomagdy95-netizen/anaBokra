@@ -1,37 +1,140 @@
-import { BufferAttribute, BufferGeometry, Color, LatheGeometry, Path, Shape, Vector2, Vector3 } from 'three';
+import { BufferAttribute, BufferGeometry, Color, Path, Shape, Vector3 } from 'three';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 
 import { ISLAND_TOP } from './layout';
 
-const smooth = (a: number, b: number, x: number) => {
-  const t = Math.min(1, Math.max(0, (x - a) / (b - a)));
-  return t * t * (3 - 2 * t);
-};
+/** Island colours: pastel grass on top, a warm earth cliff, a sandy beach that fades into the sea. */
+export const ISLAND_COLORS = {
+  grass: '#BFE0A3',
+  grassEdge: '#A6D08C',
+  cliffTop: '#D9B98F',
+  cliff: '#C9A27A',
+  sand: '#F7E8C8',
+  wetSand: '#EAD6B0',
+  sea: '#CBBDF0',
+} as const;
 
-/** A thick cream disc with a rounded top edge: the body of every island. Vertex colours: light top, warmer sides. */
-export function islandGeometry(radius: number, top = ISLAND_TOP, depth = 0.95, bevel = 0.24, segments = 72): BufferGeometry {
-  const bottom = top - depth;
-  // Bottom to top so the lathe faces point outward.
-  const pts: Vector2[] = [new Vector2(0, bottom), new Vector2(radius * 0.93, bottom), new Vector2(radius, bottom + depth * 0.3)];
-  pts.push(new Vector2(radius, top - bevel));
-  for (let i = 1; i <= 8; i++) {
-    const a = (i / 8) * (Math.PI / 2);
-    pts.push(new Vector2(radius - bevel + Math.cos(a) * bevel, top - bevel + Math.sin(a) * bevel));
-  }
-  pts.push(new Vector2(radius * 0.55, top + 0.015), new Vector2(0, top + 0.02));
-  const g = new LatheGeometry(pts, segments);
+type ColorKey = keyof typeof ISLAND_COLORS;
 
-  const topC = new Color('#FBF4E8');
-  const sideC = new Color('#E6D5BA');
-  const pos = g.getAttribute('position');
-  const colors = new Float32Array(pos.count * 3);
+/** One ring of the island profile: distance from the centre (`r`, or `off` from the island radius), height, colour. */
+interface Ring {
+  r?: number;
+  off?: number;
+  y: number;
+  color: ColorKey;
+  /** 0..1 blend toward the sea colour (the shallows). */
+  sea?: number;
+}
+
+export interface IslandShape {
+  /** Seeds the outline, so every island has its own shape. */
+  seed: string;
+  radius: number;
+  top?: number;
+  /** false: a raised tier (grass and cliff only) that sits on another island. */
+  beach?: boolean;
+  /** Where the cliff of a tier stops. */
+  base?: number;
+  /** How far the outline wanders, as a share of the radius. */
+  wobble?: number;
+  /** Directions (radians, atan2(z, x)) where bridges land: the outline stays full there. */
+  landAt?: number[];
+  segments?: number;
+}
+
+function hash(s: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+  return h >>> 0;
+}
+
+/** Outline radius multiplier at angle a: a few seeded waves, never smaller than 1 where a bridge lands. */
+function outline(seed: string, wobble: number, landAt: number[]): (a: number) => number {
+  let h = hash(seed);
+  const next = () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0), (h % 10000) / 10000);
+  const waves = [2, 3, 5, 7].map((k, i) => ({ k, phase: next() * Math.PI * 2, amp: wobble * [0.55, 0.45, 0.25, 0.12][i]! }));
+  return (a) => {
+    let m = 1 + waves.reduce((sum, w) => sum + Math.sin(w.k * a + w.phase) * w.amp, 0);
+    for (const b of landAt) {
+      // Within about ±30° of a bridge the outline is at least full, with a small headland for the bridge.
+      const near = Math.pow(Math.max(0, Math.cos(a - b)), 6);
+      m = Math.max(m, 1 - (1 - near) * 2) + Math.pow(near, 2) * wobble * 0.4;
+    }
+    return m;
+  };
+}
+
+/**
+ * An island in the toy style: a seeded, organic outline; a grassy plateau with a rounded lip; a short
+ * earth cliff; a sandy beach running into shallow water. A tier (`beach: false`) is plateau and cliff
+ * only. Vertex colours, smooth normals; the plateau is flat at `top` so props and bridges sit on it.
+ */
+export function islandGeometry({ seed, radius: R, top = ISLAND_TOP, beach = true, base = ISLAND_TOP, wobble = 0.06, landAt = [], segments = 96 }: IslandShape): BufferGeometry {
+  const rings: Ring[] = beach
+    ? [
+        { r: 0, y: top + 0.05, color: 'grass' },
+        { r: R * 0.45, y: top + 0.04, color: 'grass' },
+        { off: -0.45, y: top + 0.015, color: 'grass' },
+        { off: -0.32, y: top, color: 'grassEdge' },
+        { off: -0.27, y: top - 0.035, color: 'grassEdge' },
+        { off: -0.24, y: top - 0.09, color: 'cliffTop' },
+        { off: -0.19, y: 0.25, color: 'cliff' },
+        { off: -0.15, y: 0.16, color: 'cliff' },
+        { off: -0.11, y: 0.125, color: 'sand' },
+        { off: 0.1, y: 0.05, color: 'sand' },
+        { off: 0.22, y: 0.0, color: 'wetSand' },
+        { off: 0.38, y: -0.1, color: 'wetSand', sea: 0.6 },
+        { off: 0.52, y: -0.28, color: 'wetSand', sea: 1 },
+      ]
+    : [
+        { r: 0, y: top + 0.04, color: 'grass' },
+        { r: R * 0.5, y: top + 0.03, color: 'grass' },
+        { off: -0.3, y: top, color: 'grassEdge' },
+        { off: -0.24, y: top - 0.035, color: 'grassEdge' },
+        { off: -0.2, y: top - 0.09, color: 'cliffTop' },
+        { off: -0.12, y: base + 0.02, color: 'cliff' },
+        { off: -0.08, y: base - 0.08, color: 'cliff' },
+      ];
+
+  const shape = outline(seed, wobble, landAt);
+  const n = segments;
+  const positions = new Float32Array(rings.length * n * 3);
+  const colors = new Float32Array(rings.length * n * 3);
+  const palette = Object.fromEntries(Object.entries(ISLAND_COLORS).map(([k, v]) => [k, new Color(v)])) as Record<ColorKey, Color>;
   const c = new Color();
-  for (let i = 0; i < pos.count; i++) {
-    const t = smooth(top - bevel * 1.4, top - 0.02, pos.getY(i));
-    c.copy(sideC).lerp(topC, t);
-    colors.set([c.r, c.g, c.b], i * 3);
+  // Gentle brightness speckle so large surfaces don't look flat.
+  const speckle = (i: number, k: number) => ((hash(`${seed}:${i}:${k}`) % 1000) / 1000 - 0.5) * 0.035;
+
+  rings.forEach((ring, k) => {
+    for (let i = 0; i < n; i++) {
+      const a = (i / n) * Math.PI * 2;
+      const dist = ring.r !== undefined ? ring.r * (ring.r > 0 ? shape(a) * 0.98 : 1) : (R + ring.off!) * shape(a);
+      const idx = (k * n + i) * 3;
+      positions[idx] = Math.cos(a) * dist;
+      positions[idx + 1] = ring.y;
+      positions[idx + 2] = Math.sin(a) * dist;
+      c.copy(palette[ring.color]);
+      if (ring.sea) c.lerp(palette.sea, ring.sea);
+      else c.offsetHSL(0, 0, speckle(i, k));
+      colors.set([c.r, c.g, c.b], idx);
+    }
+  });
+
+  const index: number[] = [];
+  for (let k = 0; k < rings.length - 1; k++) {
+    for (let i = 0; i < n; i++) {
+      const a = k * n + i;
+      const b = k * n + ((i + 1) % n);
+      const d = (k + 1) * n + i;
+      const e = (k + 1) * n + ((i + 1) % n);
+      index.push(a, b, d, b, e, d);
+    }
   }
+  const g = new BufferGeometry();
+  g.setAttribute('position', new BufferAttribute(positions, 3));
   g.setAttribute('color', new BufferAttribute(colors, 3));
+  g.setIndex(index);
+  g.computeVertexNormals();
   return g;
 }
 

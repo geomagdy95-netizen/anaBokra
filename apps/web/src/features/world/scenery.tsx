@@ -9,10 +9,10 @@ import {
   ConeGeometry,
   CylinderGeometry,
   ExtrudeGeometry,
-  MeshBasicMaterial,
   MeshStandardMaterial,
   Object3D,
   SphereGeometry,
+  Vector3,
   type BufferGeometry,
   type InstancedMesh,
   type Mesh,
@@ -52,48 +52,82 @@ export function SkyDome() {
   );
 }
 
-export function Sea({ shadows }: { shadows: boolean }) {
-  return (
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]} receiveShadow={shadows}>
-      <circleGeometry args={[150, 64]} />
-      <meshStandardMaterial color={SCENE.sea} roughness={0.75} metalness={0} />
-    </mesh>
-  );
-}
+/** Sea colours: deeper lavender offshore, lighter shallows near the islands, white foam at the shore. */
+const SEA = { deep: '#AE97E6', mid: '#C2B1EF', shallow: '#E2D8FA', foam: '#FFFFFF', glint: '#F4EEFF' } as const;
 
-/** Soft expanding rings around every island, like water lapping at the shore. */
-export function Ripples({ centers, animate }: { centers: { pos: XZ; radius: number }[]; animate: boolean }) {
-  const refs = useRef<(Mesh | null)[]>([]);
-  const mats = useMemo(
-    () => centers.map(() => new MeshBasicMaterial({ color: '#FFFFFF', transparent: true, opacity: 0.35, depthWrite: false })),
-    [centers],
+/**
+ * The sea: a lit, shadow-receiving plane whose colour is worked out per pixel from the distance to the
+ * nearest island (shallows, a foam line that laps at the shore) plus slow drifting wave highlights.
+ * `islands` are circles (x, z, radius at the waterline).
+ */
+export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: { pos: XZ; radius: number }[]; animate: boolean }) {
+  const uniforms = useMemo(
+    () => ({
+      uTime: { value: 0 },
+      uIslands: { value: islands.map((i) => new Vector3(i.pos[0], i.pos[1], i.radius)) },
+      uDeep: { value: new Color(SEA.deep) },
+      uMid: { value: new Color(SEA.mid) },
+      uShallow: { value: new Color(SEA.shallow) },
+      uFoam: { value: new Color(SEA.foam) },
+      uGlint: { value: new Color(SEA.glint) },
+    }),
+    [islands],
   );
-  useEffect(() => () => mats.forEach((m) => m.dispose()), [mats]);
+  const mat = useMemo(() => {
+    const m = new MeshStandardMaterial({ roughness: 0.6, metalness: 0 });
+    m.userData.uTime = uniforms.uTime;
+    m.onBeforeCompile = (shader) => {
+      Object.assign(shader.uniforms, uniforms);
+      shader.vertexShader = shader.vertexShader
+        .replace('#include <common>', '#include <common>\nvarying vec2 vSeaXZ;')
+        .replace('#include <begin_vertex>', '#include <begin_vertex>\nvSeaXZ = (modelMatrix * vec4(transformed, 1.0)).xz;');
+      shader.fragmentShader = shader.fragmentShader
+        .replace(
+          '#include <common>',
+          `#include <common>
+varying vec2 vSeaXZ;
+uniform float uTime;
+uniform vec3 uIslands[${islands.length}];
+uniform vec3 uDeep, uMid, uShallow, uFoam, uGlint;`,
+        )
+        .replace(
+          '#include <color_fragment>',
+          `#include <color_fragment>
+float d = 1e5;
+float ang = 0.0;
+for (int i = 0; i < ${islands.length}; i++) {
+  vec2 v = vSeaXZ - uIslands[i].xy;
+  float di = length(v) - uIslands[i].z;
+  if (di < d) { d = di; ang = atan(v.y, v.x) + float(i) * 1.7; }
+}
+// Offshore: mid to deep with distance from the archipelago centre.
+vec3 col = mix(uMid, uDeep, smoothstep(14.0, 26.0, length(vSeaXZ)));
+// Shallows around each island.
+col = mix(col, uShallow, 1.0 - smoothstep(0.0, 1.6, d));
+// Slow drifting wave highlights.
+float w = sin(vSeaXZ.x * 0.85 + uTime * 0.45 + sin(vSeaXZ.y * 0.6 + uTime * 0.3) * 1.6)
+        * sin(vSeaXZ.y * 0.75 - uTime * 0.38 + sin(vSeaXZ.x * 0.5) * 1.4);
+col = mix(col, uGlint, smoothstep(0.72, 0.98, w) * 0.35 * smoothstep(0.4, 2.0, d));
+// Foam line lapping at the shore, a little uneven along the beach, and a fainter second line.
+float lap = 0.18 + 0.1 * sin(uTime * 1.1 + ang * 3.0) + 0.05 * sin(ang * 7.0);
+float foam = 1.0 - smoothstep(0.0, 0.1, abs(d - lap));
+foam += (1.0 - smoothstep(0.0, 0.12, abs(d - lap - 0.38))) * 0.35 * (0.5 + 0.5 * sin(uTime * 1.1 + ang * 3.0 + 1.5));
+col = mix(col, uFoam, clamp(foam, 0.0, 1.0) * 0.75);
+diffuseColor.rgb = col;`,
+        );
+    };
+    return m;
+  }, [uniforms, islands.length]);
+  useEffect(() => () => mat.dispose(), [mat]);
+  const ref = useRef<Mesh>(null);
   useFrame(({ clock }) => {
-    if (!animate) return;
-    refs.current.forEach((m, i) => {
-      if (!m) return;
-      const p = (clock.elapsedTime * 0.22 + i * 0.37) % 1;
-      m.scale.setScalar(1 + p * 0.22);
-      mats[i]!.opacity = 0.42 * (1 - p);
-    });
+    const m = ref.current?.material as MeshStandardMaterial | undefined;
+    if (animate && m) m.userData.uTime.value = clock.elapsedTime;
   });
   return (
-    <>
-      {centers.map((c, i) => (
-        <mesh
-          key={i}
-          ref={(el) => {
-            refs.current[i] = el;
-          }}
-          position={[c.pos[0], 0.01, c.pos[1]]}
-          rotation={[-Math.PI / 2, 0, 0]}
-          material={mats[i]}
-        >
-          <ringGeometry args={[c.radius * 1.02, c.radius * 1.08, 64]} />
-        </mesh>
-      ))}
-    </>
+    <mesh ref={ref} rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]} receiveShadow={shadows} material={mat}>
+      <circleGeometry args={[150, 64]} />
+    </mesh>
   );
 }
 
@@ -142,7 +176,7 @@ export function Clouds({ islands, density, animate }: { islands: { pos: XZ; dir:
   const puffs = useMemo(() => cloudPuffs(islands, density), [islands, density]);
   const ref = useRef<InstancedMesh>(null);
   const geo = useMemo(() => new SphereGeometry(1, 20, 14), []);
-  const mat = useMemo(() => new MeshStandardMaterial({ color: SCENE.cloud, roughness: 1, emissive: '#F3EEFF', emissiveIntensity: 0.18 }), []);
+  const mat = useMemo(() => new MeshStandardMaterial({ color: SCENE.cloud, roughness: 1, emissive: '#F1EDFF', emissiveIntensity: 0.3 }), []);
   useEffect(() => () => (geo.dispose(), mat.dispose()), [geo, mat]);
 
   const place = (t: number) => {
@@ -202,7 +236,8 @@ export function treesFor(seedKey: string, center: XZ, radius: number, count: num
     // Skip the front sector, facing the camera (+z), where the label sits.
     const frontness = Math.sin(a);
     if (frontness > 0.55) continue;
-    const r = radius * (0.66 + rng() * 0.2);
+    // Inside the plateau (it ends about 0.3 inside the radius, a little less where the outline dips).
+    const r = radius * (0.52 + rng() * 0.22);
     const x = center[0] + Math.cos(a) * r;
     const z = center[1] + Math.sin(a) * r;
     if (out.some((t) => Math.hypot(t.x - x, t.z - z) < 0.42)) continue;
