@@ -52,7 +52,7 @@ Sections 1–5 and 7 below were written for the **server design** (accounts, Wha
 
 | Category | Fields | Subjects | Where | anaBokra sees it? | Retention |
 |---|---|---|---|---|---|
-| App data | profile, answers, results, progress, acceptance | Users 15+ | User's device, encrypted | **No** | Until the user deletes it |
+| App data | profile (with nickname), answers, results, progress, acceptance; optional app password and recovery code as salted hashes | Users 15+ | User's device, encrypted | **No** | Until the user deletes it |
 | Parent details (15–17) | name, relationship, national ID, last 3 phone digits, PIN hash | Parents/guardians | User's device, encrypted | **No** | Until deleted |
 | Phone verification | phone number (transient), code hash, one-way phone hash | Parents/guardians | Verification service + SMS provider [Egypt] | Transiently | Code 10 min; hash ≤ 24 h; number not stored |
 | Content requests | IP address, browser type | App users | Content server (OVH) | Technical only | [not stored / ≤ 7 days] |

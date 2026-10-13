@@ -153,8 +153,11 @@ export async function openTransfer(sealed: SealedBundle, key: string): Promise<P
 // --- device ----------------------------------------------------------------------
 
 export async function exportProfile(kv: KvStore, profileId: string, now: () => Date = () => new Date()): Promise<ProfileBundle> {
-  const profile = await new DeviceStore(kv).getProfile(profileId);
-  if (!profile) throw new Error('profile_not_found');
+  const stored = await new DeviceStore(kv).getProfile(profileId);
+  if (!stored) throw new Error('profile_not_found');
+  // The app lock belongs to this phone, not to the data: a backup is already locked by its passphrase,
+  // and a forgotten app password must not come back with the restore.
+  const profile = { ...stored, lock: null };
   const [stats, research, journey] = await Promise.all([kv.get(`stats:${profileId}`), kv.get(`research:${profileId}`), kv.get(`journey:${profileId}`)]);
   return {
     v: 1,
@@ -168,13 +171,13 @@ export async function exportProfile(kv: KvStore, profileId: string, now: () => D
 
 /**
  * Restores a bundle as this device's profile, keeping its id (sessions and results refer to it).
- * Whatever profile was active here is replaced.
+ * Whatever profile was active here is replaced. Any app lock is dropped (set a new one on this phone).
  */
 export async function importProfile(kv: KvStore, bundle: ProfileBundle): Promise<LocalProfile> {
   const device = new DeviceStore(kv);
   const current = await device.getActiveId();
   if (current && current !== bundle.profile.id) await device.deleteProfile(current);
-  await kv.set(`profile:${bundle.profile.id}`, bundle.profile);
+  await kv.set(`profile:${bundle.profile.id}`, { ...bundle.profile, lock: null });
   if (bundle.assessment) await kv.set(assessmentKey(bundle.profile.id), bundle.assessment);
   else await kv.delete(assessmentKey(bundle.profile.id));
   if (bundle.journey) await kv.set(`journey:${bundle.profile.id}`, bundle.journey);
@@ -185,5 +188,5 @@ export async function importProfile(kv: KvStore, bundle: ProfileBundle): Promise
     else await kv.delete(`${k}:${bundle.profile.id}`);
   }
   await device.setActiveId(bundle.profile.id);
-  return bundle.profile;
+  return { ...bundle.profile, lock: null };
 }

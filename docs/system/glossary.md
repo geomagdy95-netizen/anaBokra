@@ -87,15 +87,19 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 
 | Term | Meaning | On screen (EN / AR) | In the code |
 |---|---|---|---|
-| **Profile** | The user on this phone: age band, stage, language, optional gender, consent, session code. | — | `LocalProfile` |
+| **Profile** | The user on this phone: nickname, age band, stage, language, optional gender, consent, session code, app lock. | — | `LocalProfile` |
+| **Nickname** | The name the user picks at first start; stays on the phone, never in statistics or research data. | Nickname / اسمك في التطبيق | `displayName` |
+| **App lock** (password) | Optional password asked when the app opens. Locks the app; doesn't encrypt anything. Not an account password. | Password / كلمة المرور | `lib/local/lock.ts`, `profile.lock` |
+| **Recovery code** | 12 characters (`XXXX-XXXX-XXXX`) shown once when a password is set; resets a forgotten password. A new one comes with every new password. | Recovery code / رمز الاسترجاع | `newRecoveryCode` |
+| **Unlock screen** | Asks for the password before anything is shown; "Forgot your password?" leads to the recovery code. | Welcome back / أهلًا بيك تاني | `unlock-screen.tsx` |
 | **Age band** | Under 15, 15–17, 18–20, 21–25, 26+. 18–20 is kept apart because full legal capacity is at 21 (open legal question). | How old are you? | `AgeBand` |
-| **First start** | Everything before the first question: age, acceptance, parent consent, session code, research question. | Before you start / قبل البداية | `first-start.tsx` |
+| **First start** | Everything before the first question: age, acceptance, parent consent, nickname and optional password, session code, research question. | Before you start / قبل البداية | `first-start.tsx` |
 | **Acceptance** | An adult's own agreement to the terms and privacy policy, ticked on the phone. | — | `ConsentBasis 'adult_self'` |
 | **Parent consent** (guardian consent) | For 15–17: the parent or legal guardian verifies their phone with a code, gives their national ID, agrees and sets a PIN. | Your permission for your child to use anaBokra / إذنكم باستخدام ابنكم/ابنتكم «أنا بكرة» | `guardian-consent.tsx`, `'guardian_verified'` |
 | **Hand-over** | The screen asking the 15–17-year-old to pass the phone to their parent. | — | step `hand-over` |
 | **National ID check** | Checks the 14-digit ID's format, century, birth date and governorate, and the parent's age (21+, and old enough to be the parent). Done on the phone; the ID never leaves it. | — | `lib/national-id.ts` |
 | **Parent PIN** | 4–6 digits set by the parent; needed to delete data or change settings on a 15–17 profile. Stored only as a salted hash. | Parent PIN / الرمز السري لولي الأمر | `lib/local/pin.ts` |
-| **Consent texts** | The exact wording of every consent screen, with a version (now `consent-0.4-draft`). | — | `docs/legal/consent-texts.*.md`, `CONSENT_TEXT_VERSION` |
+| **Consent texts** | The exact wording of every consent screen, with a version (now `consent-0.5-draft`). | — | `docs/legal/consent-texts.*.md`, `CONSENT_TEXT_VERSION` |
 
 ## 5. Data on the phone
 
@@ -163,3 +167,4 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 | "Values" vs "Work values" | Station: Values / القيم; results section: Work values / قيم العمل | Use "Work values" everywhere |
 | Readiness phases | Code says `pre`/`post`; the pilot plan says baseline / follow-up; the app's after-results check is stored as `post` | Use **baseline**, **after results** and **follow-up** in product talk; decide which one `post` means before the pilot (see [readiness](flows.md#9-readiness-check)) |
 | "Session" | Assessment session vs pilot session | Say "assessment" for the first and "pilot session" for the second |
+| Two things are «كلمة المرور» in Arabic | The backup file's passphrase and the app password share the Arabic word | Keep «كلمة المرور» for the app password; call the backup one «كلمة سر الملف» (to settle before the pilot) |

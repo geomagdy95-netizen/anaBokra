@@ -6,7 +6,7 @@
 
 # anaBokra Privacy Policy
 
-**Version:** 0.4-draft  **Effective date:** [date]  **Language:** English (an Arabic version exists; if they differ, [the Arabic version prevails — LAWYER])
+**Version:** 0.5-draft  **Effective date:** [date]  **Language:** English (an Arabic version exists; if they differ, [the Arabic version prevails — LAWYER])
 
 A short version is in *Your data, in short*. This policy is the full version.
 
@@ -42,6 +42,7 @@ Under-15s may not use anaBokra.
 | Results | Scores, career matches, the islands you explore, progress and points | Show your results and your map |
 | Readiness check | Your answers to the short "how ready do you feel" questions | Show how your readiness changes |
 | Acceptance | What you accepted, when, which versions, and your anonymous-statistics choice | Remember your choices |
+| Nickname and password | The nickname you choose; if you set a password, salted hashes of it and of its recovery code, and a count of wrong tries | Greet you, and lock the app if you want it locked. The password itself is never stored or sent |
 | **Parent or guardian (15–17 only)** | Name, relationship, **national ID number**, the last 3 digits of the verified phone number, verification time, a hash of the parent PIN | Record that a verified parent or guardian agreed, and protect deletion and settings with the parent PIN |
 
 All of this is **encrypted on the device** and stays there. Scoring and matching run **inside the app**. We do not receive this data, so we cannot see, correct, recover or delete it for you. You control it (section 8).

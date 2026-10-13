@@ -59,7 +59,7 @@ export function DevLocalClient() {
       let profile = activeId ? await device.getProfile(activeId) : null;
       if (!profile?.consent) {
         profile = await device.createProfile({ mode: 'phone', ageBand: '21-25' });
-        profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.4-draft', policyVersion: '0.4-draft' });
+        profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.5-draft', policyVersion: '0.5-draft' });
         await device.setActiveId(profile.id);
       }
       const rt = localRuntimeFor(kv, profile);

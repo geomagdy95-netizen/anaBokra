@@ -10,7 +10,9 @@ import { LocaleSwitcher } from '@/components/locale-switcher';
 import { ProgressBar, useNumberFormat } from '@/features/assessment/primitives';
 import { AssessmentProvider, useText } from '@/features/assessment/ui-context';
 import { DeleteMyData } from '@/features/local/delete-data';
+import { LockSetting } from '@/features/local/lock-setting';
 import { FirstStart } from '@/features/local/first-start';
+import { UnlockScreen } from '@/features/local/unlock-screen';
 import { LocalBlocked, LocalLoading, StorageWarning } from '@/features/local/local-states';
 import { MoveData } from '@/features/local/move-data';
 import { SessionSetting } from '@/features/local/session-setting';
@@ -59,6 +61,7 @@ export function DiscoverPage() {
 
   if (!state) return <LocalLoading />;
   if (state.kind === 'first-start') return <FirstStart onDone={reload} />;
+  if (state.kind === 'locked') return <UnlockScreen nickname={state.nickname} onUnlocked={reload} />;
   if (state.kind === 'blocked') return <LocalBlocked code={state.code} />;
   return (
     <AssessmentProvider gender={state.rt.profile.gender}>
@@ -264,6 +267,7 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
       <footer className="flex flex-col gap-3 border-t pt-4">
         <h2 className="text-sm font-semibold">{jt('settings')}</h2>
         {!data.rt.device.persistent && <StorageWarning />}
+        <LockSetting onChanged={onChanged} />
         <StatsSetting />
         <SessionSetting />
         <MoveData />

@@ -25,7 +25,8 @@ anaBokra is an Egyptian career guidance app. Users answer questionnaires about t
 
 ### On the phone (never sent to anaBokra)
 Everything below is **encrypted on the device**:
-- profile (age band, stage, language, optional gender);
+- profile (nickname, age band, stage, language, optional gender);
+- if the user sets one, salted hashes of an app password and its recovery code (the password locks the app; it is optional and never sent);
 - questionnaire answers, scores, results and progress;
 - what the user accepted.
 

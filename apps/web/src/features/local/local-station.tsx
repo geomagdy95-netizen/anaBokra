@@ -26,7 +26,7 @@ export function LocalStation({ station }: { station: StationId }) {
     let alive = true;
     void (async () => {
       const data = await loadLocalAssessment(locale);
-      if (data.ok === 'results' || data.ok === 'first-start') return router.replace('/assessment');
+      if (data.ok === 'results' || data.ok === 'first-start' || data.ok === 'locked') return router.replace('/assessment');
       if (data.ok === false) return alive && setState({ error: data.code });
       const { rt, sessionId, progress } = data;
       const st = progress.stations.find((s) => s.id === station);

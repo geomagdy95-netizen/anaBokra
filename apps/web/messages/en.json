@@ -2111,7 +2111,7 @@
       "acceptTitle": "Before you start",
       "acceptPoints": {
         "p1": "Your answers and results stay on this device, encrypted. Nothing is sent to anaBokra: no account, no AI.",
-        "p2": "Anyone who can open the app on this device can see your results. You can delete everything at any time.",
+        "p2": "Anyone who can open the app on this device can see your results, unless you lock it with a password. You can delete everything at any time.",
         "p3": "Results are guidance to explore, not a diagnosis."
       },
       "acceptCheck": "I am 18 or older, I accept the Terms of Use and I have read the Privacy Policy (version {version}).",
@@ -2298,6 +2298,67 @@
       "stoppedNone": "Stopped. Nothing more will be sent. Answers already sent carry no key, so they can’t be picked out; they are deleted with the rest of the research data by 17 June 2027.",
       "deleteFailed": "Stopped, but we couldn’t reach anaBokra to delete the readiness answers sent from this phone. Try again when you’re online.",
       "retry": "Try deleting again"
+    },
+    "profile": {
+      "title": "Choose a nickname",
+      "nickname": "Nickname",
+      "nicknameHelp": "It stays on this phone. It doesn't have to be your real name.",
+      "lockTitle": "Lock the app with a password?",
+      "lockBody": "Optional. Without a password, anyone who can open the app on this phone can see your results.",
+      "lockCheck": "Yes, ask for a password when the app opens",
+      "password": "Password",
+      "passwordAgain": "Password again",
+      "passwordHelp": "At least {min} characters. It stays on this phone.",
+      "errors": {
+        "short": "At least {min} characters.",
+        "mismatch": "The two passwords don't match."
+      },
+      "save": "Save"
+    },
+    "recovery": {
+      "title": "Your recovery code",
+      "body": "If you forget your password, this code is the only way to reset it. Write it down or take a screenshot, and keep it somewhere safe. We can't recover it for you, because we never see it.",
+      "copy": "Copy",
+      "copied": "Copied",
+      "check": "I've saved my recovery code",
+      "continue": "Continue"
+    },
+    "unlock": {
+      "title": "Welcome back",
+      "titleNamed": "Welcome back, {name}",
+      "body": "Enter your password to open your island.",
+      "password": "Password",
+      "open": "Open",
+      "wrong": "That password isn't right.",
+      "waitSeconds": "Too many tries. Try again in {seconds} seconds.",
+      "waitMinutes": "Too many tries. Try again in {minutes} minutes.",
+      "forgot": "Forgot your password?",
+      "recoveryTitle": "Reset your password",
+      "recoveryCode": "Recovery code",
+      "newPassword": "New password",
+      "newPasswordAgain": "New password again",
+      "removeInstead": "Remove the password instead",
+      "reset": "Reset",
+      "recoveryWrong": "That recovery code isn't right.",
+      "back": "Back",
+      "lostTitle": "Lost your recovery code too?",
+      "lostBody": "Without the password or the recovery code, the only way on is to delete this profile and start again. If you saved a backup file, you can restore it afterwards."
+    },
+    "lock": {
+      "title": "Nickname and password",
+      "nickname": "Nickname",
+      "saveNickname": "Save",
+      "on": "The app asks for a password when it opens.",
+      "off": "No password: anyone who can open the app on this phone can see your results.",
+      "set": "Set a password",
+      "change": "Change password",
+      "remove": "Remove password",
+      "lockNow": "Lock now",
+      "current": "Current password",
+      "wrongCurrent": "That password isn't right.",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "lostCode": "Lost your recovery code? Change your password to get a new one."
     }
   },
   "Journey": {

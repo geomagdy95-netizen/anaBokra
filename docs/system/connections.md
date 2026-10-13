@@ -77,13 +77,14 @@ flowchart TB
 | Device key | AES-256, made on the phone, **non-extractable**, kept in a separate IndexedDB `anabokra-key` |
 | No IndexedDB (some private windows) | Falls back to memory; the journey page shows a storage warning; data is lost on reload |
 | Parent PIN | PBKDF2-SHA-256, 150,000 rounds, random salt; compared in constant time |
+| App password and recovery code (optional) | Same hashing as the parent PIN, kept in `profile.lock`. Locks the app; doesn't encrypt anything. Unlocked per tab (`sessionStorage`), until the tab closes or "Lock now". 5 wrong tries in a row, then a wait from 30 s, doubling, up to 15 min (`lib/local/lock.ts`) |
 
 **Keys in the store**
 
 | Key | Holds | Moves with a backup | Removed by "Delete all my data" |
 |---|---|---|---|
 | `active-profile` | Id of the profile in use | — | Yes |
-| `profile:{id}` | `LocalProfile`: age band, language, consent (versions, times, statistics and research choices), parent record, session code | Yes | Yes |
+| `profile:{id}` | `LocalProfile`: nickname, age band, language, consent (versions, times, statistics and research choices), parent record, session code, app lock | Yes, without the app lock | Yes |
 | `assessment:{id}` | Sessions, answers (with time taken), results, readiness checks, About you | Yes | Yes |
 | `stats:{id}` | Result ids already summarised | Yes | Yes |
 | `research:{id}` | Link code; result ids and readiness records already sent | Yes | Yes |

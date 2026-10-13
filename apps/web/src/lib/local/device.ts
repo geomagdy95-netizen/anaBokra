@@ -45,12 +45,26 @@ export interface GuardianRecord {
   pin: PinHash;
 }
 
+/**
+ * Optional app lock (lib/local/lock.ts): salted PBKDF2 hashes of the password and its recovery code,
+ * and wrong tries counted on the device. On the device only, encrypted with everything else.
+ */
+export interface LocalLock {
+  password: PinHash;
+  recovery: PinHash;
+  setAt: string;
+  failed: number;
+  /** No more tries before this time (after too many wrong ones). */
+  retryAt: string | null;
+}
+
 /** 18–20 is kept apart from 21+ because the Civil Code puts full capacity at 21 (open legal question). */
 export type AgeBand = 'under15' | '15-17' | '18-20' | '21-25' | '26plus';
 
 export interface LocalProfile {
   id: string;
   mode: DeviceMode;
+  /** Nickname chosen at first start; stays on the device (never in statistics or research data). */
   displayName: string | null;
   grade: number | null;
   track: string | null;
@@ -62,6 +76,8 @@ export interface LocalProfile {
   guardian: GuardianRecord | null;
   /** Pilot session, if one was joined. Optional: profiles made before sessions existed lack it. */
   event?: JoinedEvent | null;
+  /** App lock, if the user set a password. Optional: older profiles lack it. */
+  lock?: LocalLock | null;
   createdAt: string;
 }
 

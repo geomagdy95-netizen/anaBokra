@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { DeviceStore } from './device';
 import { demoStations } from './demo-answers';
 import { MemoryKv } from './kv';
+import { setPassword } from './lock';
 import { localRuntimeFor } from './runtime';
 import {
   BundleError,
@@ -95,6 +96,22 @@ describe('moving data between phones', () => {
     expect(await other.get(`journey:${profile.id}`)).toEqual({ v: 1, paths: { tech: { answers: { tech_day_1: 3 } } } });
     await new DeviceStore(other).deleteProfile(profile.id);
     expect(await other.get(`journey:${profile.id}`)).toBeUndefined();
+  });
+
+  it('keeps the nickname but leaves the app lock on the old phone', async () => {
+    const { kv, profile } = await deviceWithResult();
+    const device = new DeviceStore(kv);
+    await device.updateProfile(profile.id, { displayName: 'Sara' });
+    await setPassword(device, profile.id, 'sunrise7');
+    const bundle = await exportProfile(kv, profile.id);
+    expect(bundle.profile.lock).toBeNull();
+    expect(bundle.profile.displayName).toBe('Sara');
+    // A bundle from before this rule, still carrying a lock, restores without it.
+    const other = new MemoryKv();
+    await importProfile(other, { ...bundle, profile: { ...bundle.profile, lock: (await device.getProfile(profile.id))!.lock } });
+    expect((await new DeviceStore(other).getProfile(profile.id))!.lock).toBeNull();
+    // The old phone keeps its lock.
+    expect((await device.getProfile(profile.id))!.lock).toBeTruthy();
   });
 
   it('normalizes look-alike characters in typed codes', () => {

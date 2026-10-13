@@ -41,6 +41,10 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 | L9 | Restore my data (file or code) | first start | Built |
 | L10 | Main-page settings: anonymous statistics, university session, move to a new phone, delete all my data | `/assessment` footer | Built |
 | L11 | Storage warning (private window) | `/assessment` | Built |
+| L12 | Choose a nickname, and an optional password | first start, after acceptance (15–17: after the hand-back) | Built |
+| L13 | Your recovery code (shown once) | after setting or changing a password | Built |
+| L14 | Welcome back: unlock, or reset with the recovery code | `/journey`, `/journey/[path]` when locked | Built |
+| L15 | Settings: nickname and password (set, change, remove, lock now) | `/journey` settings | Built |
 
 ## I · Islands (Discover / Verify) *(proposed codes)*
 

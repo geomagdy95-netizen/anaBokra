@@ -10,14 +10,15 @@ import type { AgeBand, ConsentBasis, GuardianRecord } from '@/lib/local/device';
 
 import { GuardianConsent } from './guardian-consent';
 import { JoinSession } from './join-session';
+import { ProfileSetup } from './profile-setup';
 import { ResearchConsent } from './research-consent';
 import { RestoreData } from './restore-data';
 
 /** Versions stored with every on-device acceptance (docs/legal/consent-texts, privacy-policy). */
-export const CONSENT_TEXT_VERSION = 'consent-0.4-draft';
-export const POLICY_VERSION = '0.4-draft';
+export const CONSENT_TEXT_VERSION = 'consent-0.5-draft';
+export const POLICY_VERSION = '0.5-draft';
 
-type Step = 'age' | 'too-young' | 'hand-over' | 'guardian' | 'thanks' | 'accept' | 'restore' | 'session' | 'research';
+type Step = 'age' | 'too-young' | 'hand-over' | 'guardian' | 'thanks' | 'profile' | 'accept' | 'restore' | 'session' | 'research';
 const AGES = ['under15', '15-17', '18-20', '21-25', '26plus'] as const satisfies readonly AgeBand[];
 
 function Docs() {
@@ -75,7 +76,8 @@ async function createProfile(input: {
 
 /**
  * First start (consent-texts.en.md §1): an age question; adults accept for themselves; 15–17 need a
- * verified parent or guardian; under-15s are turned away. Nothing is saved before consent.
+ * verified parent or guardian; under-15s are turned away. Nothing is saved before consent. Then a
+ * nickname and an optional password (profile-setup.tsx); adults can then join a pilot session.
  */
 export function FirstStart({ onDone }: { onDone: () => void }) {
   const t = useTranslations('Local.firstStart');
@@ -171,12 +173,14 @@ export function FirstStart({ onDone }: { onDone: () => void }) {
         <section className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold">{t('thanks')}</h1>
           <div>
-            <Button size="lg" onClick={onDone}>
+            <Button size="lg" onClick={() => setStep('profile')}>
               {t('continue')}
             </Button>
           </div>
         </section>
       )}
+
+      {step === 'profile' && <ProfileSetup onDone={() => (age === '15-17' ? onDone() : setStep('session'))} />}
 
       {step === 'session' && (
         <section className="flex flex-col gap-3">
@@ -212,8 +216,8 @@ export function FirstStart({ onDone }: { onDone: () => void }) {
                 setSaving(true);
                 await createProfile({ ageBand: age, locale, basis: 'adult_self', stats });
                 setSaving(false);
-                // University pilot: adults can join a session (§2.2); the app works without one.
-                setStep('session');
+                // Then a nickname and an optional password; then adults can join a pilot session (§2.2).
+                setStep('profile');
               }}
             >
               {t('start')}

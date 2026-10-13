@@ -230,7 +230,7 @@ Stored locally (IndexedDB), in the same shapes as the future server tables so ph
 
 ```
 profiles            (id, display_name?, age_band, stage, faculty?, year?, gender?, locale,
-                     event_code?, consent)
+                     event_code?, consent, lock?)
 user_islands        (id, profile_id, island_id, parent_user_island_id?, state,
                      content_version_seen, unlocked_at, selected_at?, archived_at?, restored_at?)
                      unique (profile_id, island_id, parent_user_island_id)
@@ -260,6 +260,12 @@ xp_events           (profile_id, points, ref_type, ref_id, created_at)
 The upload endpoint accepts only these three record types, stores no IP address and no device identifier, and receives answer sets in shuffled batches.
 
 **Phase 2** moves the device tables to the server tables of the same names. That needs the PDPC license, a new consent and the server fixes noted in section 8.
+
+**Getting ready for accounts (decided 13 Oct 2026).** Launch stays without accounts: data on the phone, a local nickname and an optional password that locks the app (with a recovery code). To make accounts easy later:
+- The local profile id, nickname and data shapes are what an account would take over; `display_name` already exists on the server.
+- Creating an account will be a separate, consented step that uploads the local profile. Nothing moves to a server on its own.
+- The local password is never sent and never becomes the account password; accounts get their own sign-in.
+- The backup file and transfer code keep working without an account.
 
 ---
 

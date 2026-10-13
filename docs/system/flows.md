@@ -31,11 +31,13 @@ flowchart TD
     open(["Opens /assessment<br/>no profile on this phone"]) --> age{"How old are you?"}
     age -- "Under 15" --> young["Not yet: browse the career library<br/>nothing saved"]
     age -- "15–17" --> hand["Hand the phone to your parent"] --> parent["Parent consent<br/>(flow 2)"]
-    parent -- "I agree" --> thanks["Thank you, hand the phone back"] --> hub
+    parent -- "I agree" --> thanks["Thank you, hand the phone back"] --> nick
     parent -- "Not now" --> age
     age -- "18–20 / 21–25 / 26+" --> accept["Before you start<br/>required: terms + privacy<br/>optional: anonymous statistics"]
     accept -- "Start" --> made[("Profile created<br/>encrypted on the phone")]
-    made --> session{"Joining a session?<br/>(flow 7)"}
+    made --> nick["Nickname, and an optional password<br/>(recovery code shown once)"]
+    nick -- "15–17" --> hub
+    nick -- "18+" --> session{"Joining a session?<br/>(flow 7)"}
     session -- "Skip" --> hub
     session -- "Join, partner without research" --> hub
     session -- "Join, partner offers research" --> research{"Help us check the Arabic questions?"}
@@ -46,7 +48,8 @@ flowchart TD
 | Step | Screen | Saved on the phone | Sent |
 |---|---|---|---|
 | Age | Before we start | Nothing yet | — |
-| Acceptance (18+) | Before you start | Profile: age band, language, consent (text version `consent-0.4-draft`, policy version, time), statistics choice | — |
+| Acceptance (18+) | Before you start | Profile: age band, language, consent (text version `consent-0.5-draft`, policy version, time), statistics choice | — |
+| Nickname and password | Choose a nickname | Nickname; if a password is set, salted hashes of it and its recovery code | — |
 | Session code | Joining a session? | The session code and whether it offers research | The code, to check it ([flow 7](#7-pilot-session-code-and-research)) |
 | Research | Help us check the Arabic questions? | Research choice and time | — |
 
@@ -54,8 +57,9 @@ flowchart TD
 - The 18–20 band is kept apart from 21–25 because full legal capacity in Egypt is at 21. Whether 18–20 can accept for themselves is an open question for the lawyer.
 - Under 15: nothing is saved and the user is pointed to the career library.
 - The session-code and research steps appear only for adults.
+- **App lock:** with a password set, every later start shows the unlock screen first; no screen can read the profile's data until it's unlocked (`activeRuntime()` returns nothing). Unlocking lasts until the tab or app closes, or "Lock now" in Settings. "Forgot your password?" takes the recovery code and sets a new password (with a new code) or removes it. With neither, the user can only delete the profile (parent PIN for 15–17), then restore a backup if they have one. The app lock stays on the phone: backups and transfers carry the nickname but not the password, so a restored profile opens without one until a new password is set.
 
-**In the code:** `features/local/first-start.tsx`, `join-session.tsx`, `research-consent.tsx`, `restore-data.tsx`; `lib/local/device.ts` (`DeviceStore.createProfile`, `setConsent`).
+**In the code:** `features/local/first-start.tsx`, `profile-setup.tsx`, `unlock-screen.tsx`, `lock-setting.tsx`, `join-session.tsx`, `research-consent.tsx`, `restore-data.tsx`; `lib/local/device.ts` (`DeviceStore.createProfile`, `setConsent`), `lib/local/lock.ts`.
 
 ---
 

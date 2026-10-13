@@ -12,6 +12,7 @@ import { AssessmentProvider, useText } from '@/features/assessment/ui-context';
 import { ValuesStation } from '@/features/assessment/values-station';
 import type { ValuesPayload } from '@/features/assessment/types';
 import { FirstStart } from '@/features/local/first-start';
+import { UnlockScreen } from '@/features/local/unlock-screen';
 import { LocalBlocked, LocalLoading } from '@/features/local/local-states';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
@@ -43,6 +44,7 @@ export function VerifyPage({ pathId }: { pathId: string }) {
 
   if (!state) return <LocalLoading />;
   if (state.kind === 'first-start') return <FirstStart onDone={reload} />;
+  if (state.kind === 'locked') return <UnlockScreen nickname={state.nickname} onUnlocked={reload} />;
   if (state.kind === 'blocked') return <LocalBlocked code={state.code} />;
   return (
     <AssessmentProvider gender={state.rt.profile.gender}>

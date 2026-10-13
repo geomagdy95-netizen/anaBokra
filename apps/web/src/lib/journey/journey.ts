@@ -25,12 +25,16 @@ export interface JourneyData {
   hasResult: boolean;
 }
 
-export type JourneyLoad = { kind: 'first-start' } | { kind: 'blocked'; code: AssessmentErrorCode } | ({ kind: 'ready' } & JourneyData);
+export type JourneyLoad =
+  | { kind: 'first-start' }
+  | { kind: 'locked'; nickname: string | null }
+  | { kind: 'blocked'; code: AssessmentErrorCode } | ({ kind: 'ready' } & JourneyData);
 
 /** Everything the journey screens need, read from the phone. */
 export async function loadJourney(locale: Locale): Promise<JourneyLoad> {
   const data = await loadLocalAssessment(locale);
   if (data.ok === 'first-start') return { kind: 'first-start' };
+  if (data.ok === 'locked') return { kind: 'locked', nickname: data.nickname };
   if (data.ok === false) return { kind: 'blocked', code: data.code };
   const { rt } = data;
   const sessionId = data.ok === 'results' ? data.entry.sessionId : data.sessionId;

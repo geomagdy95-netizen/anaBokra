@@ -6,7 +6,7 @@
 
 # anaBokra Consent Texts (phase 1)
 
-**Text version:** consent-0.4-draft
+**Text version:** consent-0.5-draft (13 Oct 2026: optional password, 1.2 and 1.7)
 
 **Design rules for all screens** (for Product/Engineering)
 - All checkboxes are **unticked by default**. Required boxes must be ticked to continue. Optional choices never block anything (PDPL Art. 12).
@@ -29,7 +29,7 @@
 ### 1.2 Acceptance (18 and over)
 **Title:** Before you start
 - Your answers and results stay on this device, encrypted. Nothing is sent to anaBokra: no account, no AI.
-- Anyone who can open the app on this device can see your results. You can delete everything at any time.
+- Anyone who can open the app on this device can see your results, unless you lock it with a password. You can delete everything at any time.
 - Results are guidance to explore, not a diagnosis.
 - Links: [Privacy Policy] · [Your data, in short] · [Terms of Use]
 
@@ -103,6 +103,14 @@ On the new phone: *Restore from a backup file* → choose the file → passphras
 For 15–17, the parent makes this choice (1.3, box 4).
 
 ---
+
+### 1.7 Nickname and password
+Shown after acceptance (for 15–17, after the parent hands the phone back), and in Settings.
+- **Nickname:** "It stays on this phone. It doesn't have to be your real name."
+- **Lock the app with a password?** "Optional. Without a password, anyone who can open the app on this phone can see your results."
+- [ ] Yes, ask for a password when the app opens (at least 6 characters; it stays on this phone).
+- **Recovery code**, shown once: "If you forget your password, this code is the only way to reset it. Write it down or take a screenshot, and keep it somewhere safe. We can't recover it for you, because we never see it."
+- Only salted hashes of the password and the recovery code are kept, on the device. After 5 wrong tries in a row the app makes the user wait, longer each time. With neither the password nor the code, the only way on is to delete the profile (a 15–17 profile needs the parent PIN for that). The password stays on this phone: a backup file or transfer doesn't carry it (the backup has its own passphrase).
 
 ## 2. University pilot sessions
 
