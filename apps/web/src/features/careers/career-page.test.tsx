@@ -134,7 +134,7 @@ describe('CareerView', () => {
   it('renders a career with no page yet, in Arabic', () => {
     const missing = 'physician';
     view(missing, undefined, 'ar'); // as if the career had no authored page
-    expect(screen.getByTestId('lite-note').textContent).toMatch(/قريبًا/);
+    expect(screen.getByTestId('lite-note').textContent).toMatch(/جاية قريب/);
     expect(screen.getByRole('heading', { level: 1 }).textContent).toBe(careerById(missing)!.name.ar);
   });
 });

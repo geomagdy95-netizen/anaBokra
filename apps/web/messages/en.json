@@ -854,7 +854,7 @@
       "title": "Your profile",
       "summaryTitle": "In a few words",
       "summaryEmpty": "Your summary will appear once your matches are ready.",
-      "partial": "This result is based on the stations you finished. Finish the rest for a fuller picture.",
+      "partial": "This result is based on the parts you finished. Finish the rest for a fuller picture.",
       "hollandTitle": "Your Holland code",
       "hollandIntro": "Three interest types lead your profile, strongest first.",
       "hollandCode": "Holland code {code}",
@@ -1057,8 +1057,8 @@
         "brand": "anaBokra"
       }
     },
-    "notReady": "Finish at least one station first and your results will show up here.",
-    "toHub": "Back to my map"
+    "notReady": "Finish the Discover tasks and check your first path, and your results will show up here.",
+    "toHub": "Back to my island"
   },
   "Explore": {
     "nav": {
