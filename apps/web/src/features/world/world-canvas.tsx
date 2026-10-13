@@ -23,6 +23,7 @@ import { BRAND, MutedContext, SCENE } from './materials';
 import { Landmark } from './landmarks';
 import { GroupIcon, Logo3D } from './props';
 import { Flag, flagSpot, Garden, growthSpots } from './garden';
+import { Rocks } from './rocks';
 import { Backdrop, Clouds, Sea, SkyDome } from './scenery';
 import type { GroupId, IslandState, Selection } from './types';
 
@@ -343,15 +344,15 @@ function Lights({ shadows }: { shadows: boolean }) {
     cam.updateProjectionMatrix();
     l.shadow.bias = -0.0004;
     l.shadow.normalBias = 0.02;
-    l.shadow.radius = 4;
+    l.shadow.radius = 5;
   }, []);
   return (
     <>
-      <hemisphereLight args={['#FFFFFF', '#AE97E6', 0.95]} />
+      <hemisphereLight args={['#FFFFFF', '#A9B4E6', 0.85]} />
       <directionalLight
         ref={sun}
         position={[-12, 22, 14]}
-        intensity={2.3}
+        intensity={2.55}
         color="#FFECD9"
         castShadow={shadows}
         shadow-mapSize={[2048, 2048]}
@@ -422,6 +423,7 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
         />
       ))}
       <Garden spots={plants} shadows={shadows} animate={animate} />
+      <Rocks placements={PLACEMENTS} shadows={shadows} />
       {PLACEMENTS.filter((p) => states[p.id].checked).map((p) => (
         <Flag key={`f-${p.id}`} at={flagSpot(p)} animate={animate} />
       ))}

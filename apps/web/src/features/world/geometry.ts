@@ -5,14 +5,21 @@ import { ISLAND_TOP } from './layout';
 
 /** Island colours: pastel grass on top, a warm earth cliff, a sandy beach that fades into the sea. */
 export const ISLAND_COLORS = {
-  grass: '#BFE0A3',
-  grassEdge: '#A6D08C',
-  cliffTop: '#D9B98F',
-  cliff: '#C9A27A',
-  sand: '#F7E8C8',
-  wetSand: '#EAD6B0',
-  sea: '#CBBDF0',
+  grass: '#B9DD9C',
+  grassEdge: '#A2CC86',
+  cliffTop: '#D5B58C',
+  cliff: '#C59E78',
+  /** Rock layers in the cliff. */
+  rock: '#B48C69',
+  rockLight: '#D2B591',
+  sand: '#F5E5C3',
+  wetSand: '#E3CDA5',
+  sea: '#CFE4EC',
 } as const;
+
+/** Grass tones that drift across the plateau in soft patches. */
+const GRASS_DARK = new Color('#9FCB84');
+const GRASS_DRY = new Color('#CFE3A6');
 
 type ColorKey = keyof typeof ISLAND_COLORS;
 
@@ -24,6 +31,10 @@ interface Ring {
   color: ColorKey;
   /** 0..1 blend toward the sea colour (the shallows). */
   sea?: number;
+  /** Uneven rock: how far (world units) the ring is pushed in and out along the outline. */
+  rough?: number;
+  /** Small rises and dips in the grass (world units). */
+  relief?: number;
 }
 
 export interface IslandShape {
@@ -49,7 +60,7 @@ function hash(s: string): number {
 }
 
 /** Outline radius multiplier at angle a: a few seeded waves, never smaller than 1 where a bridge lands. */
-function outline(seed: string, wobble: number, landAt: number[]): (a: number) => number {
+export function outline(seed: string, wobble: number, landAt: number[]): (a: number) => number {
   let h = hash(seed);
   const next = () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0), (h % 10000) / 10000);
   const waves = [2, 3, 5, 7].map((k, i) => ({ k, phase: next() * Math.PI * 2, amp: wobble * [0.55, 0.45, 0.25, 0.12][i]! }));
@@ -74,12 +85,15 @@ export function islandGeometry({ seed, radius: R, top = ISLAND_TOP, beach = true
     ? [
         { r: 0, y: top + 0.05, color: 'grass' },
         { r: R * 0.45, y: top + 0.04, color: 'grass' },
-        { off: -0.45, y: top + 0.015, color: 'grass' },
+        { r: R * 0.68, y: top + 0.03, color: 'grass', relief: 0.03 },
+        { off: -0.45, y: top + 0.015, color: 'grass', relief: 0.02 },
         { off: -0.32, y: top, color: 'grassEdge' },
         { off: -0.27, y: top - 0.035, color: 'grassEdge' },
-        { off: -0.24, y: top - 0.09, color: 'cliffTop' },
-        { off: -0.19, y: 0.25, color: 'cliff' },
-        { off: -0.15, y: 0.16, color: 'cliff' },
+        { off: -0.24, y: top - 0.09, color: 'cliffTop', rough: 0.025 },
+        { off: -0.215, y: top - 0.17, color: 'rockLight', rough: 0.04 },
+        { off: -0.2, y: 0.3, color: 'rock', rough: 0.05 },
+        { off: -0.17, y: 0.22, color: 'cliff', rough: 0.045 },
+        { off: -0.14, y: 0.16, color: 'rock', rough: 0.035 },
         { off: -0.11, y: 0.125, color: 'sand' },
         { off: 0.1, y: 0.05, color: 'sand' },
         { off: 0.22, y: 0.0, color: 'wetSand' },
@@ -91,8 +105,9 @@ export function islandGeometry({ seed, radius: R, top = ISLAND_TOP, beach = true
         { r: R * 0.5, y: top + 0.03, color: 'grass' },
         { off: -0.3, y: top, color: 'grassEdge' },
         { off: -0.24, y: top - 0.035, color: 'grassEdge' },
-        { off: -0.2, y: top - 0.09, color: 'cliffTop' },
-        { off: -0.12, y: base + 0.02, color: 'cliff' },
+        { off: -0.2, y: top - 0.09, color: 'cliffTop', rough: 0.02 },
+        { off: -0.16, y: (top + base) / 2, color: 'rockLight', rough: 0.035 },
+        { off: -0.12, y: base + 0.02, color: 'rock', rough: 0.03 },
         { off: -0.08, y: base - 0.08, color: 'cliff' },
       ];
 
@@ -104,16 +119,28 @@ export function islandGeometry({ seed, radius: R, top = ISLAND_TOP, beach = true
   const c = new Color();
   // Gentle brightness speckle so large surfaces don't look flat.
   const speckle = (i: number, k: number) => ((hash(`${seed}:${i}:${k}`) % 1000) / 1000 - 0.5) * 0.035;
+  const h0 = (hash(seed) % 1000) / 159;
+  // Rock along the outline: a few sharp bumps of different sizes, different on every ring.
+  const rock = (a: number, k: number) =>
+    Math.sin(a * 13 + h0 + k * 1.9) * 0.5 + Math.sin(a * 29 + h0 * 2.3 + k) * 0.3 + Math.sin(a * 53 + k * 3.1) * 0.2;
+  // Soft patches over the plateau (world position, so neighbouring rings agree).
+  const patch = (x: number, z: number) => Math.sin(x * 1.7 + h0) * Math.sin(z * 1.9 - h0 * 0.7) + 0.5 * Math.sin((x + z) * 3.1 + h0 * 1.3);
 
   rings.forEach((ring, k) => {
     for (let i = 0; i < n; i++) {
       const a = (i / n) * Math.PI * 2;
-      const dist = ring.r !== undefined ? ring.r * (ring.r > 0 ? shape(a) * 0.98 : 1) : (R + ring.off!) * shape(a);
+      let dist = ring.r !== undefined ? ring.r * (ring.r > 0 ? shape(a) * 0.98 : 1) : (R + ring.off!) * shape(a);
+      if (ring.rough) dist += rock(a, k) * ring.rough;
       const idx = (k * n + i) * 3;
-      positions[idx] = Math.cos(a) * dist;
-      positions[idx + 1] = ring.y;
-      positions[idx + 2] = Math.sin(a) * dist;
+      const x = Math.cos(a) * dist;
+      const z = Math.sin(a) * dist;
+      const p = patch(x, z);
+      positions[idx] = x;
+      positions[idx + 1] = ring.y + (ring.relief ? p * ring.relief : 0);
+      positions[idx + 2] = z;
       c.copy(palette[ring.color]);
+      if (ring.color === 'grass' || ring.color === 'grassEdge') c.lerp(p > 0 ? GRASS_DRY : GRASS_DARK, Math.min(1, Math.abs(p)) * 0.45);
+      if (ring.rough) c.offsetHSL(0, -0.03, rock(a, k + 7) * 0.05);
       if (ring.sea) c.lerp(palette.sea, ring.sea);
       else c.offsetHSL(0, 0, speckle(i, k));
       colors.set([c.r, c.g, c.b], idx);

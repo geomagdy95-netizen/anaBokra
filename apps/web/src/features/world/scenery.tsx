@@ -48,8 +48,8 @@ export function SkyDome() {
   );
 }
 
-/** Sea colours: deeper lavender offshore, lighter shallows near the islands, white foam at the shore. */
-const SEA = { deep: '#AE97E6', mid: '#C2B1EF', shallow: '#E2D8FA', foam: '#FFFFFF', glint: '#F4EEFF' } as const;
+/** Sea colours: lavender offshore, periwinkle between the islands, clear turquoise shallows, white foam at the shore. */
+const SEA = { deep: '#A99BE3', mid: '#B6BBEE', shallow: '#C0DDE9', shore: '#E0EEF0', foam: '#FFFFFF', glint: '#F2F4FF' } as const;
 
 /**
  * The sea: a lit, shadow-receiving plane whose colour is worked out per pixel from the distance to the
@@ -64,6 +64,7 @@ export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: 
       uDeep: { value: new Color(SEA.deep) },
       uMid: { value: new Color(SEA.mid) },
       uShallow: { value: new Color(SEA.shallow) },
+      uShore: { value: new Color(SEA.shore) },
       uFoam: { value: new Color(SEA.foam) },
       uGlint: { value: new Color(SEA.glint) },
     }),
@@ -84,7 +85,7 @@ export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: 
 varying vec2 vSeaXZ;
 uniform float uTime;
 uniform vec3 uIslands[${islands.length}];
-uniform vec3 uDeep, uMid, uShallow, uFoam, uGlint;`,
+uniform vec3 uDeep, uMid, uShallow, uShore, uFoam, uGlint;`,
         )
         .replace(
           '#include <color_fragment>',
@@ -98,8 +99,9 @@ for (int i = 0; i < ${islands.length}; i++) {
 }
 // Offshore: mid to deep with distance from the archipelago centre.
 vec3 col = mix(uMid, uDeep, smoothstep(14.0, 26.0, length(vSeaXZ)));
-// Shallows around each island.
-col = mix(col, uShallow, 1.0 - smoothstep(0.0, 1.6, d));
+// Shallows around each island: turquoise, paler over the sand near the beach.
+col = mix(col, uShallow, (1.0 - smoothstep(0.15, 1.5, d)) * 0.85);
+col = mix(col, uShore, 1.0 - smoothstep(0.0, 0.45, d));
 // Slow drifting wave highlights.
 float w = sin(vSeaXZ.x * 0.85 + uTime * 0.45 + sin(vSeaXZ.y * 0.6 + uTime * 0.3) * 1.6)
         * sin(vSeaXZ.y * 0.75 - uTime * 0.38 + sin(vSeaXZ.x * 0.5) * 1.4);
