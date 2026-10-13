@@ -22,6 +22,8 @@ import tradesJson from '../paths/trades.json';
 /** "A day as…": a moment from the path's everyday work. Answer: 1 not for me, 2 OK, 3 sounds great. */
 export interface PathStoryItem {
   id: string;
+  /** Short heading for the question screen (a few words). */
+  title?: I18n;
   text: I18n;
   careers?: string[];
 }
@@ -29,6 +31,8 @@ export interface PathStoryItem {
 /** "The real deal": a trade-off. Answer: 0 = a, 1 = b. `path` is the side typical of this path. */
 export interface PathChoiceItem {
   id: string;
+  /** Short heading for the question screen (a few words). */
+  title?: I18n;
   a: I18n;
   b: I18n;
   path: 'a' | 'b';
@@ -38,6 +42,8 @@ export interface PathChoiceItem {
 /** "Try it": a work situation. Answer: the option index. `fit` is how typical a response is of the path (0–1). */
 export interface PathScenarioItem {
   id: string;
+  /** Short heading for the question screen (a few words). */
+  title?: I18n;
   type: 'scenario';
   text: I18n;
   options: { text: I18n; fit: number }[];
@@ -47,6 +53,8 @@ export interface PathScenarioItem {
 /** "Try it": a small puzzle, a taste test rather than a test. Answer: the option index. */
 export interface PathPuzzleItem {
   id: string;
+  /** Short heading for the question screen (a few words). */
+  title?: I18n;
   type: 'puzzle';
   text: I18n;
   options: I18n[];

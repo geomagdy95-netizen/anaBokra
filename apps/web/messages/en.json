@@ -2510,7 +2510,12 @@
       "later": "Not now",
       "thanks": "Thanks! This helps us make anaBokra better.",
       "error": "Couldn't save your answer. Try again."
-    }
+    },
+    "stepOf": "Step {current} of {total}",
+    "scenario": {
+      "prompt": "What would you do?"
+    },
+    "stepsTotal": "{total, plural, one {# step} other {# steps}}"
   },
   "DevPaths": {
     "title": "Path questions (preview)",

@@ -1,6 +1,7 @@
 'use client';
 
 import type { I18n } from '@anabokra/engine';
+import { Frown, Meh, Smile } from 'lucide-react';
 
 import { choiceBase, choiceIdle, choiceOn, useNumberFormat } from '@/features/assessment/primitives';
 import { SwipeCard } from '@/features/assessment/swipe-card';
@@ -134,39 +135,57 @@ export function SliderQuestion({ text, scale, value, onAnswer, disabled }: Answe
   );
 }
 
-function ThreeWay({ prompt, keys, emoji, value, onAnswer, testId }: Answerable & { prompt: string; keys: string; emoji: string[]; testId: string }) {
-  const jt = useJT();
+const row = 'flex min-h-14 w-full items-center gap-4 rounded-2xl px-4 py-3 text-start text-base font-semibold transition-colors active:scale-[0.99] disabled:opacity-60';
+const TONE = {
+  violet: 'bg-secondary text-foreground hover:bg-primary/15',
+  lilac: 'bg-secondary/55 text-foreground hover:bg-primary/15',
+  orange: 'bg-brand-orange-soft/20 text-foreground hover:bg-brand-orange-soft/35',
+};
+const ON = 'bg-primary text-primary-foreground shadow-md shadow-primary/25';
+
+/** Empty or filled answer circle, as in a radio list. */
+function Dot({ on }: { on: boolean }) {
   return (
-    <fieldset className="flex flex-col gap-2" data-testid={testId}>
-      <legend className="mb-2 text-sm text-muted-foreground">{prompt}</legend>
-      <div className="grid grid-cols-3 gap-2">
-        {[1, 2, 3].map((v, i) => (
-          <button
-            key={v}
-            type="button"
-            aria-pressed={value === v}
-            onClick={() => onAnswer(v)}
-            className={cn(choiceBase, 'h-full flex-col gap-1 py-3 text-center', value === v ? choiceOn : choiceIdle)}
-          >
-            <span aria-hidden="true" className="text-2xl">
-              {emoji[i]}
-            </span>
-            <span>{jt(`${keys}.${v}`)}</span>
-          </button>
-        ))}
-      </div>
+    <span aria-hidden="true" className={cn('flex size-7 shrink-0 items-center justify-center rounded-full border-2', on ? 'border-current' : 'border-foreground/45')}>
+      {on && <span className="size-3 rounded-full bg-current" />}
+    </span>
+  );
+}
+
+/** Three answers as rows, the warmest first, each with a face. Values are 1 (low) to 3 (high). */
+function ThreeWay({ prompt, keys, value, onAnswer, disabled, testId }: Answerable & { prompt: string; keys: string; testId: string }) {
+  const jt = useJT();
+  const rows = [
+    { v: 3, Icon: Smile, tone: TONE.violet },
+    { v: 2, Icon: Meh, tone: TONE.lilac },
+    { v: 1, Icon: Frown, tone: TONE.orange },
+  ];
+  return (
+    <fieldset className="flex flex-col gap-2.5" data-testid={testId} disabled={disabled}>
+      <legend className="mb-3 text-base font-bold text-foreground">{prompt}</legend>
+      {rows.map(({ v, Icon, tone }) => (
+        <button key={v} type="button" aria-pressed={value === v} onClick={() => onAnswer(v)} className={cn(row, value === v ? ON : tone)}>
+          <Icon aria-hidden="true" className="size-7 shrink-0" strokeWidth={1.6} />
+          <span>{jt(`${keys}.${v}`)}</span>
+        </button>
+      ))}
     </fieldset>
   );
 }
 
-/** "A day as…": a moment from the path; not for me / OK / sounds great. */
-export function StoryQuestion({ text, ...rest }: Answerable & { text: I18n }) {
-  const jt = useJT();
+/** The scene or situation under the heading: the main line without an item title, a lead-in with one. */
+function Body({ text, titled }: { text: I18n; titled?: boolean }) {
   const tx = useText();
+  return <p className={titled ? 'text-lg leading-relaxed text-muted-foreground' : 'text-xl font-semibold leading-snug text-foreground'}>{tx(text)}</p>;
+}
+
+/** "A day as…": a moment from the path; not for me / OK / sounds great. */
+export function StoryQuestion({ text, titled, ...rest }: Answerable & { text: I18n; titled?: boolean }) {
+  const jt = useJT();
   return (
-    <div className="flex flex-col gap-4">
-      <p className={cn(card, big, 'border-s-4 border-s-primary')}>{tx(text)}</p>
-      <ThreeWay {...rest} prompt={jt('story.prompt')} keys="story" emoji={['🙅', '🤷', '🤩']} testId="q-story" />
+    <div className="flex flex-col gap-5">
+      <Body text={text} titled={titled} />
+      <ThreeWay {...rest} prompt={jt('story.prompt')} keys="story" testId="q-story" />
     </div>
   );
 }
@@ -174,46 +193,52 @@ export function StoryQuestion({ text, ...rest }: Answerable & { text: I18n }) {
 /** "Did you enjoy that?" after each "Try it" item. */
 export function EnjoyQuestion(props: Answerable) {
   const jt = useJT();
-  return <ThreeWay {...props} prompt={jt('enjoy.prompt')} keys="enjoy" emoji={['😕', '🙂', '😍']} testId="q-enjoy" />;
+  return <ThreeWay {...props} prompt={jt('enjoy.prompt')} keys="enjoy" testId="q-enjoy" />;
 }
 
-/** "The real deal": this or that (0 = a, 1 = b). */
+/** "The real deal": this or that (0 = a, 1 = b), side by side. */
 export function ChoiceQuestion({ a, b, value, onAnswer, disabled }: Answerable & { a: I18n; b: I18n }) {
   const jt = useJT();
   const tx = useText();
-  const option = (v: 0 | 1, text: I18n) => (
+  const option = (v: 0 | 1, text: I18n, tone: string) => (
     <button
       type="button"
-      disabled={disabled}
       aria-pressed={value === v}
       onClick={() => onAnswer(v)}
-      className={cn(card, 'min-h-24 text-start text-lg font-semibold transition-colors', value === v ? 'border-primary bg-primary text-primary-foreground' : 'hover:bg-accent')}
+      className={cn('flex min-h-44 flex-col items-center justify-between gap-4 rounded-2xl p-4 text-center text-base font-semibold leading-snug transition-colors active:scale-[0.99]', value === v ? ON : tone)}
     >
-      {tx(text)}
+      <span className="flex flex-1 items-center">{tx(text)}</span>
+      <Dot on={value === v} />
     </button>
   );
   return (
-    <fieldset className="flex flex-col gap-2" data-testid="q-choice">
-      <legend className="mb-2 text-sm text-muted-foreground">{jt('choice.prompt')}</legend>
-      {option(0, a)}
-      <span className="self-center text-sm font-semibold text-muted-foreground">{jt('choice.or')}</span>
-      {option(1, b)}
+    <fieldset className="flex flex-col" data-testid="q-choice" disabled={disabled}>
+      <legend className="mb-3 text-base font-bold text-foreground">{jt('choice.prompt')}</legend>
+      <div className="grid grid-cols-2 gap-3">
+        {option(0, a, TONE.violet)}
+        {option(1, b, TONE.orange)}
+      </div>
     </fieldset>
   );
 }
 
 /** "Try it": a work situation with ways to respond. */
-export function ScenarioQuestion({ text, options, value, onAnswer, disabled }: Answerable & { text: I18n; options: I18n[] }) {
+export function ScenarioQuestion({ text, titled, options, value, onAnswer, disabled }: Answerable & { text: I18n; titled?: boolean; options: I18n[] }) {
+  const jt = useJT();
   const tx = useText();
   return (
-    <fieldset className="flex flex-col gap-3" data-testid="q-scenario" disabled={disabled}>
-      <legend className={cn(card, 'mb-2 text-lg font-semibold leading-snug')}>{tx(text)}</legend>
-      {options.map((o, i) => (
-        <button key={i} type="button" aria-pressed={value === i} onClick={() => onAnswer(i)} className={cn(choiceBase, 'justify-start py-3 text-start', value === i ? choiceOn : choiceIdle)}>
-          {tx(o)}
-        </button>
-      ))}
-    </fieldset>
+    <div className="flex flex-col gap-5">
+      <Body text={text} titled={titled} />
+      <fieldset className="flex flex-col gap-2.5" data-testid="q-scenario" disabled={disabled}>
+        <legend className="mb-3 text-base font-bold text-foreground">{jt('scenario.prompt')}</legend>
+        {options.map((o, i) => (
+          <button key={i} type="button" aria-pressed={value === i} onClick={() => onAnswer(i)} className={cn(row, 'justify-between', value === i ? ON : TONE.violet)}>
+            <span>{tx(o)}</span>
+            <Dot on={value === i} />
+          </button>
+        ))}
+      </fieldset>
+    </div>
   );
 }
 
@@ -223,16 +248,17 @@ export function PuzzleQuestion({
   options,
   answer,
   explain,
+  titled,
   value,
   onAnswer,
-}: Answerable & { text: I18n; options: I18n[]; answer: number; explain: I18n }) {
+}: Answerable & { text: I18n; titled?: boolean; options: I18n[]; answer: number; explain: I18n }) {
   const jt = useJT();
   const tx = useText();
   const revealed = value !== undefined;
   return (
-    <div className="flex flex-col gap-3" data-testid="q-puzzle">
-      <p className={cn(card, 'text-lg font-semibold leading-snug')}>🧩 {tx(text)}</p>
-      <div className="grid grid-cols-2 gap-2">
+    <div className="flex flex-col gap-4" data-testid="q-puzzle">
+      <Body text={text} titled={titled} />
+      <div className="grid grid-cols-2 gap-2.5">
         {options.map((o, i) => (
           <button
             key={i}
@@ -241,9 +267,8 @@ export function PuzzleQuestion({
             aria-pressed={value === i}
             onClick={() => onAnswer(i)}
             className={cn(
-              choiceBase,
-              'py-3',
-              revealed && i === answer ? 'border-primary bg-primary text-primary-foreground' : revealed && value === i ? 'border-dashed bg-muted' : choiceIdle,
+              'min-h-14 rounded-2xl px-3 py-3 text-base font-semibold transition-colors',
+              revealed && i === answer ? ON : revealed && value === i ? 'bg-muted text-muted-foreground line-through' : revealed ? 'bg-muted/60 text-muted-foreground' : TONE.violet,
             )}
           >
             {tx(o)}
@@ -251,7 +276,7 @@ export function PuzzleQuestion({
         ))}
       </div>
       {revealed && (
-        <div role="status" className="rounded-xl bg-muted p-3 text-sm" data-testid="puzzle-feedback">
+        <div role="status" className="rounded-2xl bg-brand-orange-soft/20 p-4 text-sm text-foreground" data-testid="puzzle-feedback">
           <p className="font-semibold">{value === answer ? jt('puzzle.right') : jt('puzzle.wrong', { answer: tx(options[answer]!) })}</p>
           <p className="mt-1">{tx(explain)}</p>
         </div>

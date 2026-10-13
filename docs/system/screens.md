@@ -60,7 +60,7 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 | I8 | Island sheet: status, bridge progress, careers, add to my map / remove, save, explore (Verify), review my answers | `/journey/map` | Built |
 | I9 | Saved: bookmarked paths, empty state | `/journey/saved` | Built |
 | I10 | Account: profile card, nickname and password, language, statistics, session, move phone, delete, legal links | `/journey/account` | Built |
-| I2 | A task: one question at a time, mixed formats | `/journey` | Built |
+| I2 | A task: one question at a time, mixed formats, as illustrated cards (picture on top with step dots, heading and answers below; a cover screen first). Pictures: [docs/art](../art/README.md); a placeholder until they exist | `/journey` | Built |
 | I3 | Task reward: "Your island grew", early guess or suggestions | `/journey` | Built |
 | I4 | Verify a path: values once, day, real deal, try it | `/journey/[path]` | Built (all 12 paths) |
 | I5 | Path result: band, reasons, worth keeping in mind, careers ranked | `/journey/[path]` | Built |

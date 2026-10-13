@@ -23,6 +23,7 @@ import { JourneyGate } from './journey-gate';
 import { JourneyMap } from './journey-map';
 import { discoverSteps, readinessSteps } from './steps';
 import { TaskRunner } from './task-runner';
+import { discoverArt } from '@/features/art/task-art';
 import { useJT } from './use-jt';
 
 const DAY = 86_400_000;
@@ -69,6 +70,7 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
         title={jt(running.phase === 'pre' ? 'readiness.baselineTitle' : 'readiness.followTitle')}
         intro={jt(running.phase === 'pre' ? 'readiness.baselineIntro' : 'readiness.followIntro')}
         steps={readinessSteps()}
+        art={['tasks/discover/readiness', ...discoverArt()]}
         initial={{}}
         onAnswer={async (step, value) => {
           collected.current[step.id] = value;
@@ -98,6 +100,7 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
       <TaskRunner
         title={`${jt('task', { n: nf.format(task.n) })} · ${jt(`taskTitles.${task.n}`)}`}
         steps={discoverSteps(task)}
+        art={discoverArt(task.n)}
         initial={data.answers}
         onAnswer={async (step, value, ms) => {
           if (!data.open || !('instrumentId' in step)) return false;

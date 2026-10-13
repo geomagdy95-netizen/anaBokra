@@ -163,7 +163,7 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 | 1 (13 Oct) | Discover: 10 tasks from the existing questions (`lib/journey/discover-plan.ts`), mixed formats (swipe, faces, slider), saved on the phone | **Built**, at `/journey` |
 | 1 | Short personality set (Mini-IPIP, 20 of the 50 items), scored when the full set isn't answered | **Built** (`personalityShort()`; result records `personalitySet`) |
 | 1 | Path suggestions: early guess after task 4, suggestions after task 8, group rank = average of the 3 best careers; "no path stands out" when interest answers are flat | **Built** (`previewSuggestions`, `rankGroups`) |
-| 1 | Verify question formats: story, this or that, scenario, puzzle with reveal, "did you enjoy that?" | **Built**; try them at `/dev/paths` |
+| 1 | Verify question formats: story, this or that, scenario, puzzle with reveal, "did you enjoy that?" | **Built**; try them at `/dev/paths`. Since 14 Oct shown as illustrated cards with a short heading per question (pictures being made: [docs/art](../art/README.md)) |
 | 1 | Verify content for all 12 paths, Arabic and English (8 added 14 Oct) | **Drafted**: `packages/content/paths/*.json`; review pack [docs/review/paths-review.md](../review/paths-review.md) |
 | 2 (13 Oct) | Verify: values once, the path's 3 tasks saved on the phone, result (draft weights 50/30/20, bands 0.65/0.45), reasons, realities turned down, careers re-ranked with cautions | **Built** at `/journey/[path]` (`lib/journey/verify.ts`) |
 | 2 | First full result made when Discover, values and a first path are done; statistics and research (opt-in) sent from it | **Built** (`maybeFinalize`) |

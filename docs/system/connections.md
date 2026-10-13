@@ -59,6 +59,7 @@ flowchart TB
 | `features/world/` | The island-world prototype (`/dev/world`). |
 | `lib/journey/` | Discover task plan and status. |
 | `features/journey/` | Discover page, task player, question formats, path preview. |
+| `features/art/` | Task pictures: which picture a screen shows (question, task, island, placeholder) from `manifest.json`, written by `pnpm --filter web art:build` ([docs/art](../art/README.md)). |
 | `lib/local/` | The on-device runtime: storage, encryption, profiles, repo, app lock, backup file, statistics and research senders. |
 | `lib/` | Shared schemas and helpers used on both sides: `stats-summary.ts`, `research.ts`, `data-mode.ts`. |
 | `server/` | Services behind the API: assessment, stats, research, and the phase 2 auth, consent, admin, careers and explore services. |

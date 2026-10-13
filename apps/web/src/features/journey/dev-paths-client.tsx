@@ -10,6 +10,7 @@ import { AssessmentProvider, useText } from '@/features/assessment/ui-context';
 import { cn } from '@/lib/utils';
 
 import { pathSteps } from './steps';
+import { pathArt } from '@/features/art/task-art';
 import { TaskRunner } from './task-runner';
 
 /**
@@ -38,7 +39,8 @@ function Inner() {
       <TaskRunner
         title={tx(task.title)}
         intro={tx(task.intro)}
-        steps={pathSteps(task)}
+        steps={pathSteps(task, pathId)}
+        art={pathArt(pathId, task.id)}
         initial={answers}
         onAnswer={async (step, value) => {
           setAnswers((a) => ({ ...a, [step.id]: value }));

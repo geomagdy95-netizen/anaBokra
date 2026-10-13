@@ -18,16 +18,16 @@ function task(t: PathTask): string[] {
   if (t.kind === 'story') {
     out.push('Answer: not for me (1) · OK (2) · sounds great (3). Measures: enjoyment of everyday activities.', '');
     out.push('| Id | English | Arabic | Applies to | Notes |', '|---|---|---|---|---|');
-    for (const i of t.items) out.push(`| ${i.id} | ${cell(i.text.en)} | ${ar(i.text)} | ${who(i.careers)} | |`);
+    for (const i of t.items) out.push(`| ${i.id} | ${i.title ? `**${cell(i.title.en)}**<br>` : ''}${cell(i.text.en)} | ${i.title ? `**${ar(i.title)}**<br>` : ''}${ar(i.text)} | ${who(i.careers)} | |`);
   } else if (t.kind === 'thisOrThat') {
     out.push('Answer: pick A or B. ★ = the side typical of this path. Measures: acceptance of the path\'s realities.', '');
     out.push('| Id | A | B | Applies to | Notes |', '|---|---|---|---|---|');
     for (const i of t.items)
-      out.push(`| ${i.id} | ${i.path === 'a' ? '★ ' : ''}${cell(i.a.en)}<br>${ar(i.a)} | ${i.path === 'b' ? '★ ' : ''}${cell(i.b.en)}<br>${ar(i.b)} | ${who(i.careers)} | |`);
+      out.push(`| ${i.id}${i.title ? `<br>*${cell(i.title.en)} · ${ar(i.title)}*` : ''} | ${i.path === 'a' ? '★ ' : ''}${cell(i.a.en)}<br>${ar(i.a)} | ${i.path === 'b' ? '★ ' : ''}${cell(i.b.en)}<br>${ar(i.b)} | ${who(i.careers)} | |`);
   } else {
     out.push('Each item is followed by "Did you enjoy that?" (not really 1 · kind of 2 · loved it 3). Measures: taste for the path\'s problems and work style. Puzzles are never graded.', '');
     for (const i of t.items) {
-      out.push(`**${i.id}** (${i.type}) · applies to: ${who(i.careers)}`, '', `- EN: ${i.text.en}`, `- AR: ${i.text.ar}${i.text.arF ? ` · *(f)* ${i.text.arF}` : ''}`, '');
+      out.push(`**${i.id}** (${i.type}) · applies to: ${who(i.careers)}`, '', ...(i.title ? [`Heading: ${i.title.en} · ${i.title.ar}${i.title.arF ? ` · *(f)* ${i.title.arF}` : ''}`, ''] : []), `- EN: ${i.text.en}`, `- AR: ${i.text.ar}${i.text.arF ? ` · *(f)* ${i.text.arF}` : ''}`, '');
       if (i.type === 'scenario') {
         out.push('| Option (EN) | Option (AR) | Fit (0–1) | Notes |', '|---|---|---|---|');
         for (const o of i.options) out.push(`| ${cell(o.text.en)} | ${ar(o.text)} | ${o.fit} | |`);

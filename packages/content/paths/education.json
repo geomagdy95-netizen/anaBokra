@@ -9,14 +9,14 @@
       "title": { "en": "A day in education and social work", "ar": "يوم في التعليم والعمل الاجتماعي" },
       "intro": { "en": "Moments from a typical day in education and social work. How does each one sound to you?", "ar": "لحظات من يوم عادي في التعليم والعمل الاجتماعي. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "education_day_1", "text": { "en": "Explaining the same idea three different ways until the whole class gets it.", "ar": "شرح نفس الفكرة بـ 3 طرق مختلفة لحد ما الفصل كله يفهم." }, "careers": ["teacher", "special_education_specialist"] },
-        { "id": "education_day_2", "text": { "en": "Marking 40 notebooks in the evening.", "ar": "تصحيح 40 كراسة بالليل." }, "careers": ["teacher"] },
-        { "id": "education_day_3", "text": { "en": "A child says a new word for the first time after months of sessions.", "ar": "طفل بيقول كلمة جديدة لأول مرة بعد شهور من الجلسات." }, "careers": ["special_education_specialist"] },
-        { "id": "education_day_4", "text": { "en": "A student comes to talk about pressure at home and doesn't know where to start.", "ar": "طالب جاي يتكلم عن ضغط في البيت ومش عارف يبدأ منين." }, "careers": ["school_counselor", "social_worker", "teacher"] },
-        { "id": "education_day_5", "text": { "en": "A home visit to a family to find out what support they need.", "ar": "زيارة لبيت أسرة لمعرفة محتاجين دعم إيه." }, "careers": ["social_worker"] },
-        { "id": "education_day_6", "text": { "en": "Translating a contract, and 20 minutes looking up one legal term.", "ar": "ترجمة عقد، و20 دقيقة بحث عن مصطلح قانوني واحد." }, "careers": ["translator"] },
-        { "id": "education_day_7", "text": { "en": "A parents' meeting: some are happy, some are angry.", "ar": "اجتماع أولياء أمور: فيه المبسوط وفيه الزعلان." }, "careers": ["teacher", "school_counselor", "special_education_specialist"] },
-        { "id": "education_day_8", "text": { "en": "Writing up a case so the next person can pick it up.", "ar": "كتابة تقرير عن حالة بحيث اللي بعدك يقدر يكمّل." }, "careers": ["social_worker", "school_counselor", "special_education_specialist"] }
+        { "id": "education_day_1", "title": { "en": "Three ways to explain", "ar": "3 طرق للشرح" }, "text": { "en": "Explaining the same idea three different ways until the whole class gets it.", "ar": "شرح نفس الفكرة بـ 3 طرق مختلفة لحد ما الفصل كله يفهم." }, "careers": ["teacher", "special_education_specialist"] },
+        { "id": "education_day_2", "title": { "en": "Forty notebooks", "ar": "40 كراسة" }, "text": { "en": "Marking 40 notebooks in the evening.", "ar": "تصحيح 40 كراسة بالليل." }, "careers": ["teacher"] },
+        { "id": "education_day_3", "title": { "en": "A first word", "ar": "أول كلمة" }, "text": { "en": "A child says a new word for the first time after months of sessions.", "ar": "طفل بيقول كلمة جديدة لأول مرة بعد شهور من الجلسات." }, "careers": ["special_education_specialist"] },
+        { "id": "education_day_4", "title": { "en": "Trouble at home", "ar": "مشاكل في البيت" }, "text": { "en": "A student comes to talk about pressure at home and doesn't know where to start.", "ar": "طالب جاي يتكلم عن ضغط في البيت ومش عارف يبدأ منين." }, "careers": ["school_counselor", "social_worker", "teacher"] },
+        { "id": "education_day_5", "title": { "en": "A home visit", "ar": "زيارة بيت" }, "text": { "en": "A home visit to a family to find out what support they need.", "ar": "زيارة لبيت أسرة لمعرفة محتاجين دعم إيه." }, "careers": ["social_worker"] },
+        { "id": "education_day_6", "title": { "en": "The right term", "ar": "المصطلح الصح" }, "text": { "en": "Translating a contract, and 20 minutes looking up one legal term.", "ar": "ترجمة عقد، و20 دقيقة بحث عن مصطلح قانوني واحد." }, "careers": ["translator"] },
+        { "id": "education_day_7", "title": { "en": "Parents' meeting", "ar": "اجتماع أولياء الأمور" }, "text": { "en": "A parents' meeting: some are happy, some are angry.", "ar": "اجتماع أولياء أمور: فيه المبسوط وفيه الزعلان." }, "careers": ["teacher", "school_counselor", "special_education_specialist"] },
+        { "id": "education_day_8", "title": { "en": "Writing it up", "ar": "كتابة التقرير" }, "text": { "en": "Writing up a case so the next person can pick it up.", "ar": "كتابة تقرير عن حالة بحيث اللي بعدك يقدر يكمّل." }, "careers": ["social_worker", "school_counselor", "special_education_specialist"] }
       ]
     },
     {
@@ -25,12 +25,12 @@
       "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
       "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
       "items": [
-        { "id": "education_real_1", "a": { "en": "Patience with slow progress", "ar": "صبر على تقدم بطيء" }, "b": { "en": "Quick, visible results", "ar": "نتايج سريعة وواضحة" }, "path": "a", "careers": ["teacher", "special_education_specialist", "school_counselor", "social_worker"] },
-        { "id": "education_real_2", "a": { "en": "Being with people and their problems most of the day", "ar": "تكون مع ناس ومشاكلهم أغلب اليوم", "arF": "تكوني مع ناس ومشاكلهم أغلب اليوم" }, "b": { "en": "Working mostly with things or data", "ar": "شغل أغلبه مع حاجات أو بيانات" }, "path": "a", "careers": ["teacher", "special_education_specialist", "school_counselor", "social_worker"] },
-        { "id": "education_real_3", "a": { "en": "Meaningful work with modest pay", "ar": "شغل ليه معنى بمرتب متواضع" }, "b": { "en": "Higher pay in work that means less to you", "ar": "مرتب أعلى في شغل بيفرق معاك أقل", "arF": "مرتب أعلى في شغل بيفرق معاكي أقل" }, "path": "a" },
-        { "id": "education_real_4", "a": { "en": "The school calendar and its holidays", "ar": "نظام السنة الدراسية وإجازاتها" }, "b": { "en": "Year-round work with flexible leave", "ar": "شغل طول السنة وإجازات مرنة" }, "path": "a", "careers": ["teacher", "special_education_specialist", "school_counselor"] },
-        { "id": "education_real_5", "a": { "en": "Hours alone with a text, choosing the right word", "ar": "ساعات لوحدك مع نص، بتختار الكلمة المظبوطة", "arF": "ساعات لوحدك مع نص، بتختاري الكلمة المظبوطة" }, "b": { "en": "Talking with people all day", "ar": "كلام مع ناس طول اليوم" }, "path": "a", "careers": ["translator"] },
-        { "id": "education_real_6", "a": { "en": "Hearing hard stories and carrying some of them home", "ar": "تسمع حكايات صعبة وبعضها يروح معاك البيت", "arF": "تسمعي حكايات صعبة وبعضها يروح معاكي البيت" }, "b": { "en": "Work you can forget as soon as you leave", "ar": "شغل تنساه أول ما تمشي", "arF": "شغل تنسيه أول ما تمشي" }, "path": "a", "careers": ["school_counselor", "social_worker", "special_education_specialist"] }
+        { "id": "education_real_1", "title": { "en": "The pace of progress", "ar": "سرعة التقدم" }, "a": { "en": "Patience with slow progress", "ar": "صبر على تقدم بطيء" }, "b": { "en": "Quick, visible results", "ar": "نتايج سريعة وواضحة" }, "path": "a", "careers": ["teacher", "special_education_specialist", "school_counselor", "social_worker"] },
+        { "id": "education_real_2", "title": { "en": "People or things", "ar": "ناس ولا حاجات" }, "a": { "en": "Being with people and their problems most of the day", "ar": "تكون مع ناس ومشاكلهم أغلب اليوم", "arF": "تكوني مع ناس ومشاكلهم أغلب اليوم" }, "b": { "en": "Working mostly with things or data", "ar": "شغل أغلبه مع حاجات أو بيانات" }, "path": "a", "careers": ["teacher", "special_education_specialist", "school_counselor", "social_worker"] },
+        { "id": "education_real_3", "title": { "en": "Meaning and money", "ar": "المعنى والفلوس" }, "a": { "en": "Meaningful work with modest pay", "ar": "شغل ليه معنى بمرتب متواضع" }, "b": { "en": "Higher pay in work that means less to you", "ar": "مرتب أعلى في شغل بيفرق معاك أقل", "arF": "مرتب أعلى في شغل بيفرق معاكي أقل" }, "path": "a" },
+        { "id": "education_real_4", "title": { "en": "Your calendar", "ar": "نظام السنة" }, "a": { "en": "The school calendar and its holidays", "ar": "نظام السنة الدراسية وإجازاتها" }, "b": { "en": "Year-round work with flexible leave", "ar": "شغل طول السنة وإجازات مرنة" }, "path": "a", "careers": ["teacher", "special_education_specialist", "school_counselor"] },
+        { "id": "education_real_5", "title": { "en": "Text or talk", "ar": "نص ولا كلام" }, "a": { "en": "Hours alone with a text, choosing the right word", "ar": "ساعات لوحدك مع نص، بتختار الكلمة المظبوطة", "arF": "ساعات لوحدك مع نص، بتختاري الكلمة المظبوطة" }, "b": { "en": "Talking with people all day", "ar": "كلام مع ناس طول اليوم" }, "path": "a", "careers": ["translator"] },
+        { "id": "education_real_6", "title": { "en": "After work", "ar": "بعد الشغل" }, "a": { "en": "Hearing hard stories and carrying some of them home", "ar": "تسمع حكايات صعبة وبعضها يروح معاك البيت", "arF": "تسمعي حكايات صعبة وبعضها يروح معاكي البيت" }, "b": { "en": "Work you can forget as soon as you leave", "ar": "شغل تنساه أول ما تمشي", "arF": "شغل تنسيه أول ما تمشي" }, "path": "a", "careers": ["school_counselor", "social_worker", "special_education_specialist"] }
       ]
     },
     {
@@ -41,6 +41,7 @@
       "items": [
         {
           "id": "education_try_1",
+          "title": { "en": "The noisy student", "ar": "الطالب اللي بيعمل دوشة" },
           "type": "scenario",
           "text": { "en": "A student keeps disrupting the class. You notice it always happens when it's time to read aloud.", "ar": "طالب بيعمل دوشة في الفصل على طول. وخدت بالك إنه بيعمل كده كل ما ييجي وقت القراية بصوت عالي.", "arF": "طالب بيعمل دوشة في الفصل على طول. وخدتي بالك إنه بيعمل كده كل ما ييجي وقت القراية بصوت عالي." },
           "options": [
@@ -53,6 +54,7 @@
         },
         {
           "id": "education_try_2",
+          "title": { "en": "A joke to translate", "ar": "نكتة للترجمة" },
           "type": "scenario",
           "text": { "en": "A sentence you're translating has a joke that won't work in Arabic.", "ar": "جملة في نص بتترجمه فيها نكتة مش هتتفهم بالعربي.", "arF": "جملة في نص بتترجميه فيها نكتة مش هتتفهم بالعربي." },
           "options": [
@@ -65,6 +67,7 @@
         },
         {
           "id": "education_try_3",
+          "title": { "en": "Groups of five", "ar": "مجموعات من 5" },
           "type": "puzzle",
           "text": { "en": "A class of 32 students is split into groups of at most 5. What is the smallest number of groups?", "ar": "فصل فيه 32 طالب هيتقسموا مجموعات، كل مجموعة 5 بالكتير. أقل عدد مجموعات كام؟" },
           "options": [{ "en": "5", "ar": "5" },{ "en": "6", "ar": "6" },{ "en": "7", "ar": "7" },{ "en": "8", "ar": "8" }],
@@ -73,6 +76,7 @@
         },
         {
           "id": "education_try_4",
+          "title": { "en": "The deadline", "ar": "آخر ميعاد" },
           "type": "puzzle",
           "text": { "en": "What is the best Arabic for 'The deadline is Friday'?", "ar": "إيه أحسن ترجمة لـ «The deadline is Friday»؟" },
           "options": [{ "en": "'The dead line is Friday' (word for word)", "ar": "الخط الميت يوم الجمعة" },{ "en": "'The last date is Friday'", "ar": "آخر ميعاد يوم الجمعة" },{ "en": "'The finish line is Friday'", "ar": "خط النهاية يوم الجمعة" }],

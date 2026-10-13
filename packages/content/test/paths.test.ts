@@ -69,6 +69,14 @@ describe('path (Verify) content', () => {
         }
       });
 
+      it('gives every item a short heading in both languages', () => {
+        for (const i of items as { id: string; title?: I18n }[]) {
+          bilingual(i.title, `${i.id}.title`);
+          expect(i.title!.en.length, `${i.id}.title too long`).toBeLessThanOrEqual(32);
+          expect(i.title!.ar.length, `${i.id}.title too long`).toBeLessThanOrEqual(32);
+        }
+      });
+
       it('touches every career in the group at least once', () => {
         const touched = new Set(items.flatMap((i) => i.careers ?? [...inGroup]));
         for (const c of inGroup) expect(touched, c).toContain(c);

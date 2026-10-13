@@ -4,3 +4,6 @@ node_modules/
 .env*
 !.env.example
 data/raw/
+
+# full-size task pictures (converted into public/art by `pnpm --filter web art:build`)
+apps/web/art-src/

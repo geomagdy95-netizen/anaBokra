@@ -7,6 +7,7 @@ import { useLocale } from 'next-intl';
 import { useEffect, useState, type ReactNode } from 'react';
 
 import { Button } from '@/components/ui/button';
+import { pathArt } from '@/features/art/task-art';
 import { useNumberFormat } from '@/features/assessment/primitives';
 import { useText } from '@/features/assessment/ui-context';
 import { ValuesStation } from '@/features/assessment/values-station';
@@ -71,7 +72,8 @@ function Verify({ data, pathId, onChanged }: { data: JourneyData; pathId: string
       <TaskRunner
         title={tx(running.task.title)}
         intro={tx(running.task.intro)}
-        steps={pathSteps(running.task)}
+        steps={pathSteps(running.task, pathId)}
+        art={pathArt(pathId, running.task.id)}
         initial={answers}
         onAnswer={async (step, value) => {
           try {
