@@ -93,12 +93,8 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 | **Recovery code** | 12 characters (`XXXX-XXXX-XXXX`) shown once when a password is set; resets a forgotten password. A new one comes with every new password. | Recovery code / رمز الاسترجاع | `newRecoveryCode` |
 | **Unlock screen** | Asks for the password before anything is shown; "Forgot your password?" leads to the recovery code. | Welcome back / أهلًا بيك تاني | `unlock-screen.tsx` |
 | **Age band** | Under 15, 15–17, 18–20, 21–25, 26+. 18–20 is kept apart because full legal capacity is at 21 (open legal question). | How old are you? | `AgeBand` |
-| **First start** | Everything before the first question: age, acceptance, parent consent, nickname and optional password, session code, research question. | Before you start / قبل البداية | `first-start.tsx` |
-| **Acceptance** | An adult's own agreement to the terms and privacy policy, ticked on the phone. | — | `ConsentBasis 'adult_self'` |
-| **Parent consent** (guardian consent) | For 15–17: the parent or legal guardian verifies their phone with a code, gives their national ID, agrees and sets a PIN. | Your permission for your child to use anaBokra / إذنكم باستخدام ابنكم/ابنتكم «أنا بكرة» | `guardian-consent.tsx`, `'guardian_verified'` |
-| **Hand-over** | The screen asking the 15–17-year-old to pass the phone to their parent. | — | step `hand-over` |
-| **National ID check** | Checks the 14-digit ID's format, century, birth date and governorate, and the parent's age (21+, and old enough to be the parent). Done on the phone; the ID never leaves it. | — | `lib/national-id.ts` |
-| **Parent PIN** | 4–6 digits set by the parent; needed to delete data or change settings on a 15–17 profile. Stored only as a salted hash. | Parent PIN / الرمز السري لولي الأمر | `lib/local/pin.ts` |
+| **First start** | Everything before the first question: age, acceptance, nickname and optional password, session code, research question. | Before you start / قبل البداية | `first-start.tsx` |
+| **Acceptance** | The user's own agreement to the terms and privacy policy, ticked on the phone: 18+, or 15–17 with their own wording (no parent step since 13 Oct 2026). | — | `ConsentBasis 'adult_self'`, `'teen_self'` |
 | **Consent texts** | The exact wording of every consent screen, with a version (now `consent-0.5-draft`). | — | `docs/legal/consent-texts.*.md`, `CONSENT_TEXT_VERSION` |
 
 ## 5. Data on the phone
@@ -112,10 +108,8 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 | **Delete all my data** | Removes the profile and everything stored for it from the phone. | Delete everything? / مسح كل حاجة؟ | `delete-data.tsx` |
 | **Backup file** | A file of the user's data locked with a passphrase they choose. | Backup file / ملف نسخة احتياطية | `.anabokra`, `sealWithPassphrase` |
 | **Passphrase** | What locks a backup file. Without it nobody can open the file, including us. | Passphrase / كلمة المرور | — |
-| **Transfer code** + **key** | Moving data directly: an 8-character code and a 16-character key. The data goes through our relay sealed; the key never reaches the server. | Transfer code / رمز نقل | `sealForTransfer`, `/api/transfer` |
-| **Relay** | The server part that holds sealed transfer data for up to 10 minutes or until it's collected. | — | `server/transfer/relay.ts` |
-| **Restore** | Bringing data in from a backup file or transfer code. Replaces the profile on this phone. | Restore my data / استرجاع بياناتي | `restore-data.tsx` |
-| **Bundle** | What a backup or transfer carries: profile, assessment data, and what was already sent. | — | `ProfileBundle` |
+| **Restore** | Bringing data in from a backup file. Replaces the profile on this phone. | Restore my data / استرجاع بياناتي | `restore-data.tsx` |
+| **Bundle** | What a backup file carries: profile (without the app lock), assessment data, path answers, and what was already sent. | — | `ProfileBundle` |
 
 ## 6. Statistics, pilot and research
 

@@ -8,13 +8,9 @@ import { localRuntimeFor } from './runtime';
 import {
   BundleError,
   exportProfile,
-  groupCode,
   importProfile,
-  normalizeCode,
-  openTransfer,
   openWithPassphrase,
   parseSealed,
-  sealForTransfer,
   sealWithPassphrase,
 } from './transfer';
 
@@ -66,16 +62,6 @@ describe('moving data between phones', () => {
     expect(() => parseSealed('not json')).toThrow(BundleError);
   });
 
-  it('opens a transfer with its key, typed loosely, and not with another key', async () => {
-    const { kv, profile } = await deviceWithResult();
-    const { sealed, key } = await sealForTransfer(await exportProfile(kv, profile.id));
-    expect(key).toMatch(/^[0-9A-HJKMNP-TV-Z]{16}$/);
-    const typed = groupCode(key).toLowerCase();
-    expect((await openTransfer(sealed, typed)).profile.id).toBe(profile.id);
-    const other = key.startsWith('0') ? `1${key.slice(1)}` : `0${key.slice(1)}`;
-    expect(await code(openTransfer(sealed, other))).toBe('wrong_secret');
-  });
-
   it('replaces the profile already on the receiving phone', async () => {
     const { kv, profile } = await deviceWithResult();
     const bundle = await exportProfile(kv, profile.id);
@@ -114,7 +100,4 @@ describe('moving data between phones', () => {
     expect((await device.getProfile(profile.id))!.lock).toBeTruthy();
   });
 
-  it('normalizes look-alike characters in typed codes', () => {
-    expect(normalizeCode('abcd-efgh ijkl-mnop')).toBe('ABCDEFGH1JK1MN0P');
-  });
 });

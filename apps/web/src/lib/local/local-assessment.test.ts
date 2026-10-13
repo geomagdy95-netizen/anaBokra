@@ -143,14 +143,13 @@ describe('assessment on the device', () => {
   });
 });
 
-describe('parent PIN', () => {
+describe('secret hashing (pin.ts)', () => {
   it('stores only a salted hash and checks it', async () => {
-    const { hashPin, verifyPin, isValidPin } = await import('./pin');
+    const { hashPin, verifyPin } = await import('./pin');
     const h = await hashPin('4821', 1000);
     expect(JSON.stringify(h)).not.toContain('4821');
     expect(await verifyPin('4821', h)).toBe(true);
     expect(await verifyPin('4822', h)).toBe(false);
     expect((await hashPin('4821', 1000)).hash).not.toBe(h.hash);
-    expect([isValidPin('123'), isValidPin('1234'), isValidPin('123456'), isValidPin('12a4')]).toEqual([false, true, true, false]);
   });
 });

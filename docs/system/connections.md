@@ -45,23 +45,23 @@ flowchart TB
     svcL --> repoL["LocalAssessmentRepo<br/>lib/local/assessment-repo.ts"]
     svcS --> repoS["SupabaseAssessmentRepo"]
     repoL --> kv["EncryptedKv → IndexedDbKv<br/>lib/local/kv.ts"]
-    features -- "fetch" --> p1api["app/api/{verify,transfer,stats,events,research}"]
-    p1api --> p1svc["server/{verify,transfer,stats,research}"]
+    features -- "fetch" --> p1api["app/api/{stats,events,research}"]
+    p1api --> p1svc["server/{stats,research}"]
 ```
 
 | Folder | Role |
 |---|---|
 | `app/[locale]/` | Pages in Arabic (`/ar`) and English (`/en`). Assessment pages branch to on-device components in local mode. |
 | `app/api/` | Route handlers only (Next.js allows nothing else to be exported from a route file). Shared helpers live in `server/*/http.ts`. |
-| `features/local/` | Phase 1 screens: first start, parent consent, journey and result wrappers, settings (statistics, session, move, delete), restore. |
+| `features/local/` | Phase 1 screens: first start, nickname and password setup, unlock screen, journey and result wrappers, settings (nickname and password, statistics, session, move, delete), restore. |
 | `features/assessment/`, `features/results/` | Station and results screens, shared by both modes. |
 | `features/path/` | The path map and the generated "your world" (3D with a 2D fallback). |
 | `features/world/` | The island-world prototype (`/dev/world`). |
 | `lib/journey/` | Discover task plan and status. |
 | `features/journey/` | Discover page, task player, question formats, path preview. |
-| `lib/local/` | The on-device runtime: storage, encryption, profiles, repo, PIN, transfer, statistics and research senders. |
-| `lib/` | Shared schemas and helpers used on both sides: `stats-summary.ts`, `research.ts`, `national-id.ts`, `data-mode.ts`. |
-| `server/` | Services behind the API: assessment, verify, transfer, stats, research, and the phase 2 auth, consent, admin, careers and explore services. |
+| `lib/local/` | The on-device runtime: storage, encryption, profiles, repo, app lock, backup file, statistics and research senders. |
+| `lib/` | Shared schemas and helpers used on both sides: `stats-summary.ts`, `research.ts`, `data-mode.ts`. |
+| `server/` | Services behind the API: assessment, stats, research, and the phase 2 auth, consent, admin, careers and explore services. |
 | `messages/{en,ar}.json` | All UI text. Arabic keys ending in `F` are the feminine forms. |
 
 **One assessment service, two places.** `createAssessmentService({ repo })` holds every rule (ownership, order, validation, scoring, retake). In local mode it runs in the browser over `LocalAssessmentRepo`; in server mode it runs on the server over Supabase. A rule changed there changes both modes.
@@ -76,15 +76,14 @@ flowchart TB
 | Encryption | Every value sealed with AES-256-GCM (random 12-byte IV per write) |
 | Device key | AES-256, made on the phone, **non-extractable**, kept in a separate IndexedDB `anabokra-key` |
 | No IndexedDB (some private windows) | Falls back to memory; the journey page shows a storage warning; data is lost on reload |
-| Parent PIN | PBKDF2-SHA-256, 150,000 rounds, random salt; compared in constant time |
-| App password and recovery code (optional) | Same hashing as the parent PIN, kept in `profile.lock`. Locks the app; doesn't encrypt anything. Unlocked per tab (`sessionStorage`), until the tab closes or "Lock now". 5 wrong tries in a row, then a wait from 30 s, doubling, up to 15 min (`lib/local/lock.ts`) |
+| App password and recovery code (optional) | PBKDF2-SHA-256, 150,000 rounds, random salt, compared in constant time (`lib/local/pin.ts`); kept in `profile.lock`. Locks the app; doesn't encrypt anything. Unlocked per tab (`sessionStorage`), until the tab closes or "Lock now". 5 wrong tries in a row, then a wait from 30 s, doubling, up to 15 min (`lib/local/lock.ts`) |
 
 **Keys in the store**
 
 | Key | Holds | Moves with a backup | Removed by "Delete all my data" |
 |---|---|---|---|
 | `active-profile` | Id of the profile in use | — | Yes |
-| `profile:{id}` | `LocalProfile`: nickname, age band, language, consent (versions, times, statistics and research choices), parent record, session code, app lock | Yes, without the app lock | Yes |
+| `profile:{id}` | `LocalProfile`: nickname, age band, language, consent (versions, times, statistics and research choices), session code, app lock | Yes, without the app lock | Yes |
 | `assessment:{id}` | Sessions, answers (with time taken), results, readiness checks, About you | Yes | Yes |
 | `stats:{id}` | Result ids already summarised | Yes | Yes |
 | `research:{id}` | Link code; result ids and readiness records already sent | Yes | Yes |
@@ -99,10 +98,6 @@ All are `POST` with JSON, same-origin only, and run on Node.js.
 
 | Endpoint | Called by | Receives | Keeps | Limits |
 |---|---|---|---|---|
-| `/api/verify/phone/request` | Parent consent | Phone number, language | 10 min: code hash, last 3 digits, attempts. Never the number. | 3 per number, 20 per address, per hour |
-| `/api/verify/phone/confirm` | Parent consent | Request id, code | Nothing after success | 5 tries per code |
-| `/api/transfer` | Move to a new phone | Sealed bundle (≤ 2 MB) | Sealed bundle, ≤ 10 min | 10 per address per hour |
-| `/api/transfer/claim` | Restore | 8-character code | Deletes the bundle on collection | 30 per address per hour |
 | `/api/stats` | Statistics sender | One summary (strict schema) | Row in `anon_stats` + arrival week | 30 per address per hour |
 | `/api/events/check` | Join a session | Session code | Nothing | 20 per address per hour |
 | `/api/research/answers` | Research sender | One answer set | Row in `research_answer_sets` + arrival week | 300 per address per hour |
@@ -133,10 +128,7 @@ All are `POST` with JSON, same-origin only, and run on Node.js.
 | Data | Leaves the phone? | Readable by anaBokra? | Identifies the person? | Kept |
 |---|---|---|---|---|
 | Answers, results, profile, About you | Never in readable form | No | — | On the phone until deleted |
-| Parent's national ID, name, PIN | Never | No | — | On the phone |
-| Parent's phone number (15–17) | Yes, to send the code | Briefly, in memory | Yes, briefly | Not stored |
 | Backup file | Only where the user saves it | No (passphrase) | — | Wherever the user keeps it |
-| Transfer bundle | Yes, sealed | No (key stays with the user) | — | ≤ 10 minutes |
 | Anonymous statistics (opt-in) | Yes | Yes | No | Kept |
 | Research answer sets (opt-in, pilot) | Yes | Yes | No | ≤ 17 Jun 2027 |
 | Research readiness records (opt-in, pilot) | Yes | Yes | Pseudonymous (link code only on the phone) | ≤ 17 Jun 2027, or until research is turned off |
@@ -160,7 +152,7 @@ How this is described to users: [privacy policy](../legal/privacy-policy.en.md) 
 | `ANTHROPIC_API_KEY` | AI explanations | Off (no AI in phase 1) |
 | `CONSENT_*`, `ASSESSMENT_*` | Phase 2 consent limits and development mocks | Phase 2 |
 
-The SMS sender for parent codes has no setting yet: it prints to the log in development and refuses in production until a provider is added.
+Phase 1 has no SMS and no relay (both removed on 13 Oct 2026), so it needs no settings for them.
 
 ---
 

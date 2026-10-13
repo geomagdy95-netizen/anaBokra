@@ -1,6 +1,6 @@
 # Guidance rules: results, rewards, the map and content
 
-Status: rules adopted 12 Oct 2026. They come from an outside review pack, kept only where it fits our design: ages 18–25 plus 15–17 with a parent, data on the phone, Discover and Verify, 12 path islands. They sit beside [discover-verify.md](discover-verify.md) and the [world spec](world-spec.md); where they differ, those two documents decide. Items marked *(psychologist)* need her review.
+Status: rules adopted 12 Oct 2026. They come from an outside review pack, kept only where it fits our design: ages 18–25 plus 15–17, data on the phone, Discover and Verify, 12 path islands. They sit beside [discover-verify.md](discover-verify.md) and the [world spec](world-spec.md); where they differ, those two documents decide. Items marked *(psychologist)* need her review.
 
 ## 1. What a result may say
 

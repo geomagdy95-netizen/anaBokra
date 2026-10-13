@@ -8,17 +8,18 @@ import type { PinHash } from './pin';
 export type DeviceMode = 'phone' | 'shared';
 
 /**
- * Why this profile may take the assessment (consent-texts.en.md §1): an adult accepted for themselves,
- * or (15–17) a parent or guardian verified their phone and gave their national ID.
+ * Why this profile may take the assessment (consent-texts.en.md §1): an adult (18+) or a 15–17-year-old
+ * accepted for themselves. Phase 1 has no parent step: no personal data reaches anaBokra (counsel
+ * agreed, 13 Oct 2026).
  */
-export type ConsentBasis = 'adult_self' | 'guardian_verified';
+export type ConsentBasis = 'adult_self' | 'teen_self';
 
 export interface DeviceConsent {
   basis: ConsentBasis;
   confirmedAt: string;
   textVersion: string;
   policyVersion: string;
-  /** Opt-in to anonymous statistics (§1.6); for 15–17 the parent decides. */
+  /** Opt-in to anonymous statistics (§1.6), chosen by the user. */
   stats?: boolean;
   /** Opt-in to research data at university sessions (§2.3, adults only), and when it was given. */
   research?: boolean;
@@ -31,18 +32,6 @@ export interface JoinedEvent {
   /** Whether that partner offers the research opt-in. */
   research: boolean;
   joinedAt: string;
-}
-
-/** The verified parent or guardian of a 15–17 profile. Kept on the device only, encrypted. */
-export interface GuardianRecord {
-  name: string;
-  relation: 'mother' | 'father' | 'legal_guardian';
-  /** Checked on the device (lib/national-id); never sent anywhere. */
-  nationalId: string;
-  /** Last 3 digits of the phone number verified by SMS code. */
-  phoneLast3: string;
-  phoneVerifiedAt: string;
-  pin: PinHash;
 }
 
 /**
@@ -73,7 +62,6 @@ export interface LocalProfile {
   locale: 'ar' | 'en';
   ageBand: AgeBand | null;
   consent: DeviceConsent | null;
-  guardian: GuardianRecord | null;
   /** Pilot session, if one was joined. Optional: profiles made before sessions existed lack it. */
   event?: JoinedEvent | null;
   /** App lock, if the user set a password. Optional: older profiles lack it. */
@@ -118,7 +106,6 @@ export class DeviceStore {
       locale: 'ar',
       ageBand: null,
       consent: null,
-      guardian: null,
       event: null,
       ...input,
       id: crypto.randomUUID(),

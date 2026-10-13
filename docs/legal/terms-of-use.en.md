@@ -1,12 +1,12 @@
 > **DRAFT — not legal advice — must be reviewed by Egyptian counsel before use.**
 >
-> [Square brackets] = placeholders. **[LAWYER]** = open legal question. This version covers **phase 1** (ages 18 and over, and 15–17 with a verified parent or guardian; no accounts; data encrypted on the device; no AI).
+> [Square brackets] = placeholders. **[LAWYER]** = open legal question. This version covers **phase 1** (ages 15 and over, each on their own; no accounts; data encrypted on the device; nothing personal sent to us; no AI).
 
 # anaBokra Terms of Use
 
-**Version:** 0.4-draft  **Effective date:** [date]
+**Version:** 0.6-draft  **Effective date:** [date]
 
-These terms are written in plain language. By using anaBokra you agree to them. If you are 15–17, your parent or legal guardian must also agree (see section 3).
+These terms are written in plain language. By using anaBokra you agree to them.
 
 ## 1. What anaBokra is
 anaBokra is a career guidance app operated by **[anaBokra legal entity name]** ("anaBokra", "we"). You answer questions about your interests, personality, work values and abilities. The app then suggests career groups and careers, and lets you explore the routes into them in Egypt on a map of islands. Your answers and results are kept **on your device**, not on our servers (see the Privacy Policy).
@@ -21,16 +21,15 @@ anaBokra is a career guidance app operated by **[anaBokra legal entity name]** (
 
 ## 3. Who can use anaBokra
 - **Age 18 and above:** may use anaBokra on their own. anaBokra is designed for students and recent graduates aged 18–25, and people over 25 are welcome too. **[LAWYER: the Civil Code (Art. 44) sets full civil capacity at 21; confirm that people aged 18–20 can accept these terms and consent for themselves.]**
-- **Ages 15–17:** only after a parent or legal guardian verifies their phone number with a code, gives their national ID number, name and relationship, declares they are the parent or legal guardian, and accepts these terms on the young person's behalf. The parent sets a PIN that is needed to delete data or change settings.
-- **Parents and guardians:** you confirm the details you give are true and that you are the young person's parent or legal guardian. Giving false details is your responsibility.
+- **Ages 15–17:** may use anaBokra on their own. We ask for no name, phone number or ID, and nothing personal reaches us. We encourage you to talk about your results with a parent or someone you trust.
 - **Under 15:** not permitted.
 
 ## 4. Your device and your data
 - There is no account. Your profile, answers and results are stored on the device you use.
-- You are responsible for who can use your device. Anyone who can open the app on it can see your results.
+- You are responsible for who can use your device. Anyone who can open the app on it can see your results, unless you lock the app with a password. If you forget the password and lose its recovery code, we cannot unlock it for you.
 - If you delete the app, clear your browser's site data, lose your phone or reset it, your results are gone. We cannot recover them because we never had them.
-- Your data is encrypted on the device. You can move it to a new phone with a passphrase-protected backup file or a one-time transfer code; keep your passphrase safe, because we cannot recover it.
-- You can delete everything at any time with *Delete all my data* (for 15–17, with the parent PIN).
+- Your data is encrypted on the device. You can move it to a new phone with a passphrase-protected backup file; keep your passphrase safe, because we cannot recover it.
+- You can delete everything at any time with *Delete all my data*.
 
 ## 5. Pilot sessions
 If you take part in an anaBokra session at your university or institute, taking part is voluntary and has no effect on your grades or standing there. You may skip any question or stop at any time. Sharing your answers for research is a separate, optional choice (see the Privacy Policy, section 5.3).

@@ -252,7 +252,7 @@ xp_events           (profile_id, points, ref_type, ref_id, created_at)
 | | Pilot session (own phone, event code) | Launch (own phone) |
 |---|---|---|
 | Profiles | One per device (a loaner phone holds one at a time and is cleared after the session) | One per device |
-| Before use | Age question; 18+ accept for themselves | Age question; 18+ accept; 15–17 need the parent flow (SMS code, national ID on the device, PIN); under-15s turned away |
+| Before use | Age question; 18+ accept for themselves | Age question; everyone 15+ accepts for themselves (no parent step since 13 Oct 2026); under-15s turned away |
 | Uploads | **Only with the user's opt-in:** anonymous statistics (with the event code); and research data: anonymous answer sets (no ID, no key; event code, age band, stage, language) and readiness pre/post linked by a random code made on the phone | **Only with opt-in** (parent decides for 15–17): anonymous statistics |
 | Results | In the app | In the app |
 | End | The user deletes on the device | The user deletes on the device |
@@ -265,7 +265,7 @@ The upload endpoint accepts only these three record types, stores no IP address 
 - The local profile id, nickname and data shapes are what an account would take over; `display_name` already exists on the server.
 - Creating an account will be a separate, consented step that uploads the local profile. Nothing moves to a server on its own.
 - The local password is never sent and never becomes the account password; accounts get their own sign-in.
-- The backup file and transfer code keep working without an account.
+- The backup file keeps working without an account.
 
 ---
 
@@ -296,12 +296,12 @@ Build:
 1. **Local store** (section 4.2) and the offline content cache. *Done: on-device store, profiles, repository; assessment pages run from the device.*
 2. **First start:** age question, acceptance for 18+, *Delete all my data*. *Done.*
 3. **Profile:** stage (school for 15–17, university with faculty and year, or graduate), replacing the old context questions (curriculum, track, expected score) for adults. *Done: the "About you" stop asks the stage first, then school questions or field of study (21 faculty groups) and year; each career is tagged with its usual fields (`packages/content/careers/study-fields.json`), and matches say whether a career builds on the user's field or means switching. The stage is sent with the anonymous statistics; the field and year are not.*
-4. **Encryption on the device** for everything stored (profile, answers, results, parent details). *Done (AES-GCM, non-extractable device key).*
-5. **Parent flow for 15–17:** SMS code to the parent's phone (verification service, number not stored), national ID checked on the device, declaration, parent PIN; PIN required to delete data or change settings. *Done; the SMS provider is still to choose (production refuses to send until one is added).*
-6. **Moving phones:** passphrase-protected backup file, and a transfer code through an end-to-end encrypted relay (≤ 10 min). *Done.*
+4. **Encryption on the device** for everything stored (profile, answers, results, app-lock hashes). *Done (AES-GCM, non-extractable device key).*
+5. ~~**Parent flow for 15–17**~~ *Removed 13 Oct 2026: 15–17 accept for themselves; no SMS, national ID or parent PIN.*
+6. **Moving phones:** passphrase-protected backup file. *Done. (The transfer code through a relay was removed on 13 Oct 2026.)*
 7. **Core island** with the four instruments as phases, the readiness check at the start and two weeks after results (in-app prompt), and the "clear and useful" rating right after results.
 8. **On-device scoring** with re-scoring after each instrument (1.4) and template-written explanations. *Scoring done; re-scoring per instrument to do.*
-9. **Anonymous statistics opt-in** (adults; parent decides for 15–17), **event code, research opt-in** at sessions, and *Settings → Research data*. *Done: statistics opt-in; session code (checked against `pilot_events`, after acceptance or later from the main page); research opt-in, shown only when the partner offers it, with a switch that stops uploads and deletes the readiness records sent from the phone. Still to do: the baseline readiness check before part 1 (only the check after results exists, so there is nothing to pair yet).*
+9. **Anonymous statistics opt-in** (each user decides, 15–17 included), **event code, research opt-in** at sessions, and *Settings → Research data*. *Done: statistics opt-in; session code (checked against `pilot_events`, after acceptance or later from the main page); research opt-in, shown only when the partner offers it, with a switch that stops uploads and deletes the readiness records sent from the phone. Still to do: the baseline readiness check before part 1 (only the check after results exists, so there is nothing to pair yet).*
 10. **Upload endpoint** for anonymous statistics, research answer sets and linked readiness records (4.3). *Done: statistics (`anon_stats`), research answer sets and readiness records (`research_answer_sets`, `research_readiness`), and deleting readiness records by link code.*
 11. **Group islands** seeded as fixed content: 3–5 written, the rest "coming soon"; career pages for all 82 careers.
 12. **2.5D map and list view**, connected to the real results.
@@ -313,11 +313,13 @@ Turned off for the pilot: accounts and WhatsApp sign-in, server consent flows, t
 ## 7. Open questions
 
 1. **Career-island cap:** is there a cap on active career islands inside a selected group (proposed: 3, set in the dashboard)?
-2. ~~Uploads at launch~~ *Decided 11 Oct: opt-in anonymous statistics for everyone; the parent decides for 15–17.*
+2. ~~Uploads at launch~~ *Decided 11 Oct: opt-in anonymous statistics for everyone (since 13 Oct, 15–17 decide for themselves).*
 3. **Group ranking:** is a group suggested by its best career fit (proposed) or by the average of its top careers? (Psychologist.)
 4. **Launch results card:** should the phone app let users save their results as an image or PDF?
 5. **Gender on the device:** keep it optional for Arabic grammar only (proposed), or drop it?
 6. **Crash reporting:** off, or on with no identifiers and no answers?
+
+**Decided (13 Oct 2026):** counsel agreed to phase 1. No accounts, a local nickname and an optional app password; no parent step for 15–17 (they accept for themselves); no SMS; moving phones by backup file only; nothing personal stored on or passed through the server; opt-in anonymous statistics and research data stay.
 
 **Decided (11 Oct 2026):** phase 1 is for ages 18–25 (students and recent graduates), plus 15–17 with a verified parent (SMS code + national ID on the device); data stays on the device, encrypted, with backup and transfer; anonymous statistics only with opt-in; the pilot runs at universities for adults.
 

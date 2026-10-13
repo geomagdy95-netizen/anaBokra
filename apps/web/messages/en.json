@@ -2102,12 +2102,6 @@
       "tooYoungBody": "The career library is open to browse in the meantime.",
       "browseCareers": "Career library",
       "back": "Back",
-      "handOverTitle": "Now it's your parent's or guardian's turn",
-      "handOverBody": "Please hand them this phone. They need to verify and agree before you start.",
-      "handOverButton": "I'm the parent or guardian",
-      "notNowDone": "No problem. Nothing has been saved. You can come back to this any time.",
-      "thanks": "Thank you. Please hand the phone back to your child.",
-      "continue": "Continue",
       "acceptTitle": "Before you start",
       "acceptPoints": {
         "p1": "Your answers and results stay on this device, encrypted. Nothing is sent to anaBokra: no account, no AI.",
@@ -2115,6 +2109,7 @@
         "p3": "Results are guidance to explore, not a diagnosis."
       },
       "acceptCheck": "I am 18 or older, I accept the Terms of Use and I have read the Privacy Policy (version {version}).",
+      "acceptCheckTeen": "I am 15–17 years old, I accept the Terms of Use and I have read the Privacy Policy (version {version}).",
       "statsCheck": "Optional: share anonymous statistics to help improve anaBokra. No name, phone number or anything that points to me.",
       "start": "Start",
       "docs": {
@@ -2130,125 +2125,32 @@
       "title": "Delete everything?",
       "body": "This removes your profile, answers, results, islands and points from this device. It can't be undone, and anaBokra can't recover them, because we never had them.",
       "confirm": "Delete everything",
-      "cancel": "Cancel",
-      "pinPrompt": "Parent PIN",
-      "pinWrong": "That PIN isn't right."
-    },
-    "guardian": {
-      "title": "Your permission for your child to use anaBokra",
-      "points": {
-        "p1": "anaBokra helps your child explore careers. They answer questions about their interests, personality, work values and abilities.",
-        "p2": "Everything stays on this device, encrypted. Answers, results and your details are not sent to anaBokra. No account, no AI.",
-        "p3": "To make sure a parent or guardian agrees, we ask you to verify your phone number with a code and to give your national ID number. Your ID number is checked and stored on this device only, encrypted, and is never sent to anaBokra. Your phone number is used only to send the code and is not kept.",
-        "p4": "You set a parent PIN. It is needed to delete data or change these settings.",
-        "p5": "Results are guidance, not a diagnosis, and are not used for any grade or admission."
-      },
-      "detailsTitle": "Your details",
-      "name": "Full name",
-      "relation": "Relationship",
-      "relations": {
-        "mother": "Mother",
-        "father": "Father",
-        "legal_guardian": "Legal guardian"
-      },
-      "nid": "National ID number (14 digits)",
-      "nidHelp": "Checked on this device and stored here only, encrypted. Never sent to anaBokra.",
-      "nidOk": "Valid national ID.",
-      "nidNeedsRelation": "Choose your relationship to check the ID.",
-      "nidErrors": {
-        "format": "The national ID must be 14 digits.",
-        "century": "This doesn't look like a valid national ID.",
-        "birth_date": "The date of birth in this ID isn't valid.",
-        "future": "The date of birth in this ID is in the future.",
-        "governorate": "The governorate code in this ID isn't valid.",
-        "too_young": "A parent or guardian must be 21 or older.",
-        "gap": "This ID doesn't match a parent of a 15–17-year-old. If you are the legal guardian, choose \"Legal guardian\"."
-      },
-      "phone": "Your mobile number",
-      "sendCode": "Send code",
-      "resend": "Send again",
-      "codeLabel": "6-digit code",
-      "verify": "Verify",
-      "phoneHelp": "Sent by SMS. Your number is not stored after verification.",
-      "verified": "Phone verified (number ending {last3}).",
-      "phoneErrors": {
-        "invalid_phone": "Please enter a valid mobile number.",
-        "rate_limited": "Too many attempts. Please wait a little and try again.",
-        "sms_unavailable": "SMS isn't available right now. Please try again later.",
-        "send_failed": "We couldn't send the code. Please try again.",
-        "invalid_code": "That code isn't right.",
-        "expired": "The code has expired. Please send a new one.",
-        "too_many_attempts": "Too many wrong codes. Please send a new one.",
-        "network": "No connection. Please check the internet and try again."
-      },
-      "tickTitle": "Please tick to confirm",
-      "checks": {
-        "c1": "I am this young person's parent or legal guardian, I am 21 or older, and the details above are true. I understand that giving false details is my responsibility.",
-        "c2": "I agree that my child uses anaBokra on this device, and that their answers and results, and my details, are saved on this device only, encrypted.",
-        "c3": "I have read the Terms of Use and the Privacy Policy (version {version}) and accept them on my child's behalf.",
-        "c4": "Optional: share anonymous statistics from my child's use to help improve anaBokra."
-      },
-      "pin": "Parent PIN (4–6 digits)",
-      "pinConfirm": "Enter the PIN again",
-      "pinHelp": "Needed to delete data or change these settings. Keep it to yourself.",
-      "pinMismatch": "The PINs must match and be 4–6 digits.",
-      "agree": "I agree",
-      "notNow": "Not now"
+      "cancel": "Cancel"
     },
     "move": {
       "open": "Move to a new phone",
       "title": "Move your data to a new phone",
-      "modes": {
-        "file": "Backup file",
-        "code": "Transfer code"
-      },
-      "intro": {
-        "file": "Save a file locked with a passphrase you choose. Without the passphrase, nobody can open it, including us.",
-        "code": "Get a one-time code and key. Your data is locked here first, passes through our server in a form we can't read, and is deleted after 10 minutes or once received."
-      },
-      "pin": "Parent PIN",
+      "intro": "Save a file locked with a passphrase you choose. Without the passphrase, nobody can open it, including us.",
       "passphrase": "Passphrase",
       "passphraseAgain": "Passphrase again",
       "passphraseHelp": "At least 8 characters. Keep it safe: we can't recover it.",
       "saveFile": "Save backup file",
       "saved": "Backup saved. On the new phone, choose \"Restore my data\" and open this file.",
-      "makeCode": "Create transfer code",
-      "codeIntro": "On the new phone, choose \"Restore my data\", then \"Transfer code\", and enter both within {minutes} minutes.",
-      "code": "Code",
-      "key": "Key",
-      "errors": {
-        "pin": "That PIN isn't right.",
-        "network": "No connection. Please try again.",
-        "too_large": "Your data is too large to transfer by code. Please use a backup file.",
-        "rate_limited": "Too many attempts. Please wait a little.",
-        "generic": "Something went wrong. Please try again."
-      },
+      "failed": "We couldn't make the backup file. Please try again.",
       "close": "Close"
     },
     "restore": {
       "title": "Restore my data",
-      "modes": {
-        "file": "Backup file",
-        "code": "Transfer code"
-      },
-      "intro": {
-        "file": "Open the backup file from your old phone and enter its passphrase.",
-        "code": "Enter the code and key shown on your old phone."
-      },
+      "intro": "Open the backup file from your old phone and enter its passphrase.",
       "file": "Backup file",
       "passphrase": "Passphrase",
-      "code": "Code",
-      "key": "Key",
       "replaces": "Any data already on this phone will be replaced.",
       "restore": "Restore",
       "back": "Back",
       "errors": {
-        "wrong_secret": "The passphrase or key isn't right.",
+        "wrong_secret": "That passphrase isn't right.",
         "not_a_backup": "This isn't an anaBokra backup file.",
         "unsupported_version": "This backup is from a newer version of anaBokra. Please update the app.",
-        "not_found": "That code has expired or was already used. Please create a new one on the old phone.",
-        "rate_limited": "Too many attempts. Please wait a little.",
-        "network": "No connection. Please try again.",
         "generic": "Something went wrong. Please try again."
       }
     },
@@ -2256,9 +2158,6 @@
       "title": "Anonymous statistics",
       "on": "On: one anonymous summary is sent when you finish.",
       "off": "Off: nothing is sent.",
-      "pin": "Parent PIN",
-      "confirm": "Confirm",
-      "pinWrong": "That PIN isn't right.",
       "what": "Age group, language, top interest areas and career groups, score ranges and how many parts were finished. No name, phone number, ID or exact time."
     },
     "session": {
@@ -2468,7 +2367,93 @@
     "settings": "Settings",
     "myProfile": "My results",
     "showTasks": "Show the 10 tasks",
-    "hideTasks": "Hide the tasks"
+    "hideTasks": "Hide the tasks",
+    "nav": {
+      "label": "Main",
+      "home": "Home",
+      "explore": "Explore",
+      "saved": "Saved",
+      "account": "Account"
+    },
+    "home": {
+      "hello": "Hi, {name}",
+      "subtitle": "Your island, your way",
+      "mapTitle": "Your map",
+      "openMap": "Open map",
+      "discoverTitle": "Discover yourself"
+    },
+    "explore": {
+      "title": "Explore fields of work",
+      "hint": {
+        "none": "Every field is open to explore",
+        "early": "Links change as you answer",
+        "suggested": "Suggested paths that fit you now"
+      },
+      "search": "Search for a field or a career…",
+      "clear": "Clear search",
+      "viewLabel": "View",
+      "view": {
+        "map": "Map",
+        "list": "List"
+      },
+      "me": "Me",
+      "updating": "Updating",
+      "noMap": "The 3D map isn't available on this device, so here's the list.",
+      "noResults": "Nothing matches your search. Try another word.",
+      "careersFound": "Careers",
+      "careers": "{count, plural, =0 {No careers yet} one {# career} other {# careers}}",
+      "progress": "{done} of {total} steps",
+      "bridge": "Your bridge",
+      "close": "Close",
+      "status": {
+        "neutral": "Open to explore",
+        "suggested": "Suggested for you",
+        "added": "Added by you",
+        "other": "Outside your current suggestions"
+      },
+      "legend": {
+        "neutral": "Open bridge",
+        "updating": "Updating",
+        "suggested": "Connected bridge",
+        "other": "Separate bridge",
+        "added": "Reopened bridge"
+      },
+      "sheet": {
+        "neutral": "This field is open to explore. You can add it to your map now.",
+        "suggested": "This field is among your suggestions from your answers.",
+        "added": "You added this field to your map yourself.",
+        "other": "This field is outside your current suggestions, but it's still open to explore. You can add it to your map or review your answers."
+      },
+      "actions": {
+        "add": "Add to my map",
+        "explore": "Explore this field",
+        "continue": "Continue exploring",
+        "remove": "Remove from my map",
+        "review": "Review my answers",
+        "save": "Save field",
+        "unsave": "Remove from saved"
+      },
+      "toast": {
+        "added": "Field added to your map",
+        "saved": "Field saved"
+      },
+      "disclaimer": "Results suggest directions; they don't decide your abilities."
+    },
+    "saved": {
+      "title": "Saved",
+      "subtitle": "Fields you want to come back to",
+      "emptyTitle": "Nothing saved yet",
+      "emptyBody": "Tap the bookmark on any island to keep it here.",
+      "goExplore": "Explore fields",
+      "open": "Open"
+    },
+    "account": {
+      "title": "My account",
+      "noName": "No nickname yet",
+      "onDevice": "Everything stays on this phone, encrypted",
+      "language": "Language",
+      "data": "Your data"
+    }
   },
   "DevPaths": {
     "title": "Path questions (preview)",

@@ -1,6 +1,6 @@
 # anaBokra
 
-Career discovery for young people in Egypt: four short questionnaires, career matches with plain explanations, and a career library, in Arabic and English. Phase 1 (ages 18–25, plus 15–17 with a verified parent) keeps everyone's data on their own phone, encrypted.
+Career discovery for young people in Egypt: four short questionnaires, career matches with plain explanations, and a career library, in Arabic and English. Phase 1 (ages 18–25, plus 15–17) keeps everyone's data on their own phone, encrypted.
 
 **Start with [docs/system](docs/system/README.md)**: the big picture, every user flow, how the parts connect, the screen index and our vocabulary.
 
