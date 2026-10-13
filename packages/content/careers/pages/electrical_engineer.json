@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You make sure electricity is generated, moved and used safely, from power stations to the wiring in a building.",
-      "ar": "تضمن أن الكهرباء تُولَّد وتنتقل وتُستخدم بأمان، من محطات التوليد إلى أسلاك المبنى."
+      "ar": "بتتأكد إن الكهربا بتتولّد وتتنقل وتتستخدم بأمان، من محطات التوليد لأسلاك المبنى."
     },
     "summary": {
       "en": "Electrical engineers design and maintain power systems, electrical installations, control panels and electronics. Egypt is investing in power and renewables, so there is work in utilities, factories, construction and energy companies. Study includes heavy math and physics.",
-      "ar": "المهندس الكهربائي يصمم ويصون نظم القوى والتركيبات الكهربائية ولوحات التحكم والإلكترونيات. تستثمر مصر في الكهرباء والطاقة المتجددة، فهناك عمل في الشركات الحكومية والمصانع والإنشاءات وشركات الطاقة. الدراسة فيها رياضيات وفيزياء كثيفة."
+      "ar": "المهندس الكهربائي بيصمم ويصون أنظمة القوى والتركيبات الكهربائية ولوحات التحكم والإلكترونيات. مصر بتستثمر في الكهربا والطاقة المتجددة، فيه شغل في شركات الكهربا والمصانع والإنشاءات وشركات الطاقة. والدراسة فيها رياضيات وفيزيا كتير."
     },
     "dayInLife": {
       "en": "You begin at a new residential tower, checking that cables, circuit breakers and earthing match the drawing. You measure the load on one panel and find that it is too close to its limit, so you update the design. Back in the office you use software to calculate cable sizes for the next floor. In the afternoon you meet the power company about connecting the building to the grid. You finish by writing a testing report that must be right, because people will live safely or not depending on it.",
-      "ar": "تبدأ في برج سكني جديد لتتأكد أن الكابلات والقواطع والتأريض تطابق المخطط. تقيس الحمل على إحدى اللوحات فتجده قريبًا جدًا من حده، فتعدّل التصميم. في المكتب تستخدم برنامجًا لحساب مقاسات الكابلات للدور التالي. بعد العصر تقابل شركة الكهرباء بشأن توصيل المبنى بالشبكة. وتنهي يومك بتقرير اختبار يجب أن يكون صحيحًا لأن سلامة الناس تعتمد عليه."
+      "ar": "بتبدأ في برج سكني جديد تتأكد إن الكابلات والقواطع والأرضي مطابقين للرسمة. تقيس الحمل على لوحة وتلاقيه قريب جدًا من حده، فتعدّل التصميم. في المكتب تستخدم برنامج يحسب مقاسات الكابلات للدور اللي بعده. بعد العصر تقابل شركة الكهربا عشان توصيل المبنى بالشبكة. وتقفل يومك بتقرير اختبار لازم يبقى مظبوط، لأن سلامة الناس اللي هتسكن معتمدة عليه."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Design electrical systems for buildings, factories or power networks.",
-        "ar": "تصمم نظمًا كهربائية للمباني أو المصانع أو شبكات القوى."
+        "ar": "بتصمم أنظمة كهربا للمباني أو المصانع أو شبكات القوى."
       },
       {
         "en": "Calculate loads, cables and protection devices.",
-        "ar": "تحسب الأحمال والكابلات وأجهزة الحماية."
+        "ar": "بتحسب الأحمال والكابلات وأجهزة الحماية."
       },
       {
         "en": "Supervise installation and test equipment before it is switched on.",
-        "ar": "تشرف على التركيب وتختبر المعدات قبل التشغيل."
+        "ar": "بتشرف على التركيب وتختبر المعدات قبل التشغيل."
       },
       {
         "en": "Maintain and troubleshoot motors, transformers and panels.",
-        "ar": "تصون المحركات والمحولات واللوحات وتحل أعطالها."
+        "ar": "بتصون الموتورات والمحولات واللوحات وتحل أعطالها."
       },
       {
         "en": "Work with PLCs and control systems in factories.",
-        "ar": "تعمل مع PLC ونظم التحكم في المصانع."
+        "ar": "بتشتغل على الـPLC وأنظمة التحكم في المصانع."
       },
       {
         "en": "Follow safety rules and write technical reports.",
-        "ar": "تلتزم بقواعد السلامة وتكتب التقارير الفنية."
+        "ar": "بتلتزم بقواعد السلامة وتكتب التقارير الفنية."
       }
     ],
     "environments": [
@@ -122,11 +122,11 @@
     "alternativeRoutes": [
       {
         "en": "The Egyptian-Japanese KOSEN and Elsewedy Technical Academy are practical routes into electrical work; technical institutes lead to technician roles.",
-        "ar": "كوسن المصري الياباني وأكاديمية السويدي التقنية مساران عمليان إلى العمل الكهربائي؛ والمعاهد الفنية تقود إلى أدوار الفنيين."
+        "ar": "كوسن المصري الياباني وأكاديمية السويدي التقنية طرق عملية لشغل الكهربا؛ والمعاهد الفنية بتوصّل لوظايف الفنيين."
       },
       {
         "en": "Renewable energy, mechatronics and automation are related options.",
-        "ar": "الطاقة المتجددة والميكاترونيكس والأتمتة خيارات قريبة."
+        "ar": "الطاقة المتجددة والميكاترونكس والأتمتة اختيارات قريبة."
       }
     ],
     "licensing": {
@@ -249,7 +249,7 @@
     ],
     "freelanceRemote": {
       "en": "Electrical design, drawings and load studies can be done freelance or remotely; installation and testing need you on site.",
-      "ar": "يمكن عمل التصميم الكهربائي والرسومات ودراسات الأحمال بنظام العمل الحر أو عن بعد؛ أما التركيب والاختبار فيتطلبان وجودك في الموقع."
+      "ar": "التصميم الكهربائي والرسومات ودراسات الأحمال ممكن يتعملوا فري لانس أو من البيت؛ أما التركيب والاختبار فلازم تكون في الموقع."
     },
     "regions": [
       {
@@ -269,66 +269,66 @@
   },
   "global": {
     "en": "Electrical engineers are in demand across the Gulf for construction, utilities and industry, and in Europe and North America for power and automation. Registration and experience requirements differ, and English (and sometimes German) matter.",
-    "ar": "المهندسون الكهربائيون مطلوبون في الخليج للإنشاءات والمرافق والصناعة، وفي أوروبا وأمريكا الشمالية للطاقة والأتمتة. تختلف شروط التسجيل والخبرة، والإنجليزية (وأحيانًا الألمانية) مهمة."
+    "ar": "المهندسين الكهربا مطلوبين في الخليج للإنشاءات والمرافق والصناعة، وفي أوروبا وأمريكا الشمالية للطاقة والأتمتة. شروط التسجيل والخبرة بتختلف، والإنجليزي (وأحيانًا الألماني) مهم."
   },
   "reality": {
     "pros": [
       {
         "en": "Essential, steady demand with energy and building projects",
-        "ar": "طلب أساسي ومستمر مع مشروعات الطاقة والبناء"
+        "ar": "طلب أساسي ومستمر مع مشاريع الطاقة والبنا"
       },
       {
         "en": "Several directions: power, control, electronics, renewables",
-        "ar": "اتجاهات متعددة: القوى والتحكم والإلكترونيات والطاقة المتجددة"
+        "ar": "اتجاهات كتير: قوى وتحكم وإلكترونيات وطاقة متجددة"
       },
       {
         "en": "Strong international mobility",
-        "ar": "قدرة جيدة على العمل دوليًا"
+        "ar": "فرص قوية للشغل برّه"
       }
     ],
     "challenges": [
       {
         "en": "Heavy math and theory in the degree",
-        "ar": "رياضيات ونظريات كثيفة في الدراسة"
+        "ar": "رياضيات ونظريات كتير في الدراسة"
       },
       {
         "en": "Electrical hazards require strict safety discipline",
-        "ar": "مخاطر الكهرباء تتطلب انضباطًا صارمًا في السلامة"
+        "ar": "خطر الكهربا محتاج التزام صارم بالسلامة"
       },
       {
         "en": "Starting pay is modest",
-        "ar": "الأجر في البداية متواضع"
+        "ar": "المرتب في الأول متواضع"
       },
       {
         "en": "Site conditions and tight schedules",
-        "ar": "ظروف الموقع ومواعيد ضيقة"
+        "ar": "ظروف المواقع ومواعيد ضيقة"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Electrical and electronics engineering are the same.",
-          "ar": "الهندسة الكهربائية والإلكترونية شيء واحد."
+          "ar": "الهندسة الكهربائية والإلكترونيات حاجة واحدة."
         },
         "fact": {
           "en": "Power engineering deals with large-scale electricity; electronics works with small circuits and signals. Faculties offer separate departments.",
-          "ar": "هندسة القوى تتعامل مع الكهرباء على نطاق كبير، والإلكترونيات مع دوائر صغيرة وإشارات. وتوفر الكليات أقسامًا منفصلة."
+          "ar": "هندسة القوى بتتعامل مع الكهربا على نطاق كبير، والإلكترونيات مع دواير صغيرة وإشارات. والكليات فيها أقسام منفصلة."
         }
       },
       {
         "myth": {
           "en": "You only need to be good at wiring.",
-          "ar": "يكفي أن تجيد التوصيلات."
+          "ar": "كفاية تكون شاطر في التوصيلات."
         },
         "fact": {
           "en": "The degree is about calculation, design and system thinking, and technicians do much of the wiring.",
-          "ar": "الدراسة عن الحساب والتصميم والتفكير النظامي، والفنيون ينفذون الكثير من التوصيلات."
+          "ar": "الدراسة عن الحساب والتصميم والتفكير في المنظومة كلها، والفنيين هما اللي بيعملوا أغلب التوصيلات."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Office design roles are regular; utility, plant and site jobs may include shifts and emergency call-outs.",
-      "ar": "أدوار تصميم المكتب منتظمة؛ ووظائف شركات الكهرباء والمصانع والمواقع قد تشمل ورديات واستدعاءات طارئة."
+      "ar": "شغل التصميم في المكتب منتظم؛ وشغل شركات الكهربا والمصانع والمواقع ممكن يبقى فيه شيفتات واستدعاءات طوارئ."
     }
   },
   "progression": {

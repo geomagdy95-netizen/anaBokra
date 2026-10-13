@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You make apps and websites easy, clear and pleasant to use, by understanding the people who use them.",
-      "ar": "تجعل التطبيقات والمواقع سهلة وواضحة وممتعة الاستخدام عبر فهم الناس الذين يستخدمونها."
+      "ar": "بتخلّي الأبلكيشنز والمواقع سهلة وواضحة ومريحة، لأنك فاهم الناس اللي بتستخدمها."
     },
     "summary": {
       "en": "UX designers research users, design flows and screens, and test them with real people. There is no single degree for it in Egypt: designers come from applied arts, fine arts, computing, psychology or self-study. A portfolio matters more than the certificate.",
-      "ar": "مصمم تجربة المستخدم يبحث في المستخدمين ويصمم المسارات والشاشات ويختبرها مع ناس حقيقيين. لا توجد في مصر شهادة واحدة لهذا الدور: يأتي المصممون من الفنون التطبيقية أو الجميلة أو الحاسبات أو علم النفس أو التعلم الذاتي. محفظة الأعمال أهم من الشهادة."
+      "ar": "مصمم تجربة المستخدم (UX) بيبحث في المستخدمين، ويصمم المسارات والشاشات، ويختبرها مع ناس حقيقيين. مفيش في مصر شهادة واحدة للدور ده: المصممين جايين من الفنون التطبيقية أو الجميلة أو الحاسبات أو علم النفس أو التعلم الذاتي. والبورتفوليو أهم من الشهادة."
     },
     "dayInLife": {
       "en": "You start the day with a call with five users trying a prototype of a bill-payment app. You watch where they get stuck and take notes without helping. After lunch you share findings with the team and sketch a simpler version of the confusing screen in Figma. Then you work with a developer to make sure the design can be built, and with a writer to improve the Arabic text. Before leaving you update the design system so every button and color stays consistent.",
-      "ar": "تبدأ اليوم باتصال مع خمسة مستخدمين يجربون نموذجًا أوليًا لتطبيق دفع الفواتير. تراقب أين يتعثرون وتدوّن الملاحظات دون أن تساعد. بعد الغداء تشارك الفريق ما وجدته وترسم في Figma نسخة أبسط من الشاشة المربكة. ثم تعمل مع مطور للتأكد من إمكانية التنفيذ ومع كاتب لتحسين النص العربي. قبل أن تغادر تحدّث نظام التصميم لتبقى كل الأزرار والألوان متسقة."
+      "ar": "بتبدأ اليوم بكول مع خمس مستخدمين بيجرّبوا نموذج أولي لأبلكيشن دفع فواتير. تتفرج هما بيقفوا فين، وتكتب ملاحظات من غير ما تساعدهم. بعد الغدا تشارك الفريق اللي لقيته، وترسم في Figma نسخة أبسط من الشاشة اللي ملخبطاهم. بعدين تشتغل مع مطوّر تتأكدوا إن التصميم ينفع يتنفّذ، ومع كاتب تحسّنوا الكلام العربي. وقبل ما تمشي تحدّث الديزاين سيستم عشان كل زرار ولون يفضلوا متناسقين."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Interview users and observe how they use products.",
-        "ar": "تجري مقابلات مع المستخدمين وتلاحظ كيف يستخدمون المنتجات."
+        "ar": "بتعمل مقابلات مع المستخدمين وتتفرج بيستخدموا المنتجات إزاي."
       },
       {
         "en": "Map user journeys and design flows and wireframes.",
-        "ar": "ترسم رحلات المستخدم وتصمم المسارات والإطارات السلكية."
+        "ar": "بترسم رحلات المستخدم وتصمم المسارات والوايرفريمز."
       },
       {
         "en": "Design screens and prototypes, including Arabic and right-to-left layouts.",
-        "ar": "تصمم الشاشات والنماذج الأولية بما فيها الواجهات العربية من اليمين لليسار."
+        "ar": "بتصمم الشاشات والنماذج الأولية، ومنها الواجهات العربي من اليمين للشمال."
       },
       {
         "en": "Test prototypes with users and improve them.",
-        "ar": "تختبر النماذج مع المستخدمين وتحسنها."
+        "ar": "بتختبر النماذج مع المستخدمين وتحسّنها."
       },
       {
         "en": "Build and maintain a design system.",
-        "ar": "تبني وتصون نظام تصميم."
+        "ar": "بتبني ديزاين سيستم وتحافظ عليه."
       },
       {
         "en": "Work with developers and product managers.",
-        "ar": "تعمل مع المطورين ومديري المنتج."
+        "ar": "بتشتغل مع المطورين ومديرين المنتج."
       }
     ],
     "environments": [
@@ -120,11 +120,11 @@
     "alternativeRoutes": [
       {
         "en": "Google UX Design Certificate (Google Career Certificates scholarships are offered in the MENA region), Coursera, Route, GOMYCODE and local bootcamps teach UX in a few months.",
-        "ar": "شهادة جوجل لتصميم تجربة المستخدم (تتوفر منح شهادات جوجل المهنية في المنطقة) وCoursera وRoute وGOMYCODE ومعسكرات محلية تعلم التجربة في بضعة أشهر."
+        "ar": "شهادة جوجل لتصميم تجربة المستخدم (فيه منح لشهادات جوجل المهنية في المنطقة) وCoursera وRoute وGOMYCODE وبوت كامبس محلية بتعلّم الـUX في كام شهر."
       },
       {
         "en": "Graphic designers, developers or psychology graduates often move into UX by building case studies.",
-        "ar": "كثيرًا ما ينتقل مصممو الجرافيك والمطورون وخريجو علم النفس إلى التجربة ببناء دراسات حالة."
+        "ar": "مصممين الجرافيك والمطورين وخريجين علم النفس كتير بينقلوا للـUX عن طريق إنهم يعملوا دراسات حالة."
       }
     ],
     "licensing": null
@@ -244,7 +244,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelancing and remote UX/UI work is common, especially for Gulf and international clients. Many designers start with UI projects before moving to full UX research roles. A strong portfolio and English are key, and Arabic interface skills set you apart.",
-      "ar": "العمل الحر وعن بعد في التصميم شائع خاصة لعملاء الخليج والعملاء الدوليين. يبدأ كثير من المصممين بمشروعات الواجهات قبل الانتقال إلى أدوار بحث المستخدم الكاملة. والمحفظة القوية والإنجليزية مفتاحان، ومهارة الواجهات العربية تميزك."
+      "ar": "الفري لانس والشغل من البيت في الـUX/UI منتشرين، خصوصًا لعملاء الخليج والعملاء الدوليين. مصممين كتير بيبدأوا بمشاريع واجهات قبل ما ينقلوا لأدوار بحث المستخدم الكاملة. البورتفوليو القوي والإنجليزي أساسيين، ومهارة الواجهات العربي بتميّزك."
     },
     "regions": [
       {
@@ -265,39 +265,39 @@
   },
   "global": {
     "en": "UX designers are hired in the Gulf and worldwide, often remotely. Entry-level positions are competitive abroad, so experience, a portfolio and English matter most.",
-    "ar": "يُوظف مصممو تجربة المستخدم في الخليج والعالم، غالبًا عن بعد. والوظائف المبتدئة تنافسية في الخارج، لذا فالخبرة والمحفظة والإنجليزية أهم ما تحتاجه."
+    "ar": "مصممين الـUX بيتعيّنوا في الخليج والعالم، وكتير من بعيد. ووظايف المبتدئين برّه فيها منافسة، فالخبرة والبورتفوليو والإنجليزي هما أهم حاجة."
   },
   "reality": {
     "pros": [
       {
         "en": "Creative and analytical at the same time",
-        "ar": "إبداعي وتحليلي معًا"
+        "ar": "إبداعي وتحليلي في نفس الوقت"
       },
       {
         "en": "Multiple entry routes, including non-degree ones",
-        "ar": "مسارات دخول متعددة منها ما لا يتطلب شهادة"
+        "ar": "طرق دخول كتير، منها اللي مش محتاج شهادة"
       },
       {
         "en": "Remote and freelance options",
-        "ar": "خيارات للعمل عن بعد والعمل الحر"
+        "ar": "فرص شغل من البيت وفري لانس"
       }
     ],
     "challenges": [
       {
         "en": "Many beginners compete for junior jobs",
-        "ar": "كثير من المبتدئين يتنافسون على الوظائف الأولى"
+        "ar": "مبتدئين كتير بيتنافسوا على أول وظايف"
       },
       {
         "en": "Design decisions are often questioned or overruled by business needs",
-        "ar": "قرارات التصميم كثيرًا ما تُناقش أو تُرفض لاعتبارات الأعمال"
+        "ar": "قرارات التصميم كتير بتتناقش أو بتترفض عشان اعتبارات البيزنس"
       },
       {
         "en": "Some companies confuse UX with just making things look nice",
-        "ar": "بعض الشركات تخلط بين التجربة وجعل الأشياء جميلة فقط"
+        "ar": "فيه شركات بتخلط بين الـUX وإنك تخلّي الحاجة شكلها حلو وبس"
       },
       {
         "en": "AI tools are changing production tasks; research and judgement are what stay valuable",
-        "ar": "أدوات الذكاء الاصطناعي تغير مهام الإنتاج؛ وما يبقى ذا قيمة هو البحث والحكم"
+        "ar": "أدوات الذكاء الاصطناعي بتغيّر مهام التنفيذ؛ واللي بيفضل ليه قيمة هو البحث والتقدير"
       }
     ],
     "myths": [
@@ -308,23 +308,23 @@
         },
         "fact": {
           "en": "Graphic design focuses on visual communication; UX focuses on how a product works for people, including research and testing.",
-          "ar": "الجرافيك يركز على التواصل البصري، والتجربة تركز على كيف يعمل المنتج للناس بما فيه البحث والاختبار."
+          "ar": "الجرافيك مركّز على التواصل بالصورة، والـUX مركّز على المنتج بيشتغل للناس إزاي، ومنه البحث والاختبار."
         }
       },
       {
         "myth": {
           "en": "You must code to be a UX designer.",
-          "ar": "يجب أن تبرمج لتكون مصمم تجربة."
+          "ar": "لازم تبرمج عشان تبقى مصمم UX."
         },
         "fact": {
           "en": "Coding is not required, but understanding how things are built helps you design realistic solutions.",
-          "ar": "البرمجة ليست شرطًا، لكن فهم كيفية بناء الأشياء يساعدك على تصميم حلول واقعية."
+          "ar": "البرمجة مش شرط، بس فهمك الحاجات بتتبني إزاي بيساعدك تصمم حلول واقعية."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Generally good with regular hours; deadlines before launches and client feedback cycles can add pressure. Freelancers control their time but must manage steady income.",
-      "ar": "جيدة عمومًا بساعات منتظمة؛ ومواعيد قبل الإطلاق وجولات ملاحظات العملاء قد تضيف ضغطًا. والمستقلون يتحكمون في وقتهم لكن عليهم إدارة دخل منتظم."
+      "ar": "كويس عمومًا بمواعيد منتظمة؛ والمواعيد قبل الإطلاق ودورات ملاحظات العملاء ممكن يزوّدوا الضغط. والفري لانسرز بيتحكموا في وقتهم بس لازم يديروا دخلهم."
     }
   },
   "progression": {

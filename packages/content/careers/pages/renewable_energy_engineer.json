@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help turn Egypt's sun and wind into clean electricity.",
-      "ar": "تساعد في تحويل شمس مصر ورياحها إلى كهرباء نظيفة."
+      "ar": "بتساعد تحوّل شمس مصر ورياحها لكهربا نضيفة."
     },
     "summary": {
       "en": "Renewable energy engineers design, build and run solar, wind and related power systems. Egypt aims to produce 42% of its electricity from renewables by 2030, and 2025 was a record year for renewable output. There is no single \"renewable engineering\" license; most people study electrical, mechanical or energy engineering and specialize.",
-      "ar": "مهندس الطاقة المتجددة يصمم ويبني ويشغّل أنظمة الطاقة الشمسية والرياح وما يرتبط بها. تستهدف مصر إنتاج 42% من كهرباءها من مصادر متجددة بحلول 2030، وكان 2025 عامًا قياسيًا للإنتاج المتجدد. لا توجد رخصة مستقلة لـ«هندسة الطاقة المتجددة»؛ وأغلب الناس يدرسون الكهرباء أو الميكانيكا أو هندسة الطاقة ثم يتخصصون."
+      "ar": "مهندس الطاقة المتجددة بيصمم ويبني ويشغّل أنظمة الطاقة الشمسية والرياح وما يرتبط بيها. مصر مستهدفة تطلّع 42% من كهربتها من مصادر متجددة بحلول 2030، و2025 كانت سنة قياسية للإنتاج المتجدد. مفيش رخصة لوحدها اسمها «هندسة طاقة متجددة»؛ أغلب الناس بيدرسوا كهربا أو ميكانيكا أو هندسة طاقة ويتخصصوا."
     },
     "dayInLife": {
       "en": "You start the morning at a solar plant in Upper Egypt, checking the output of each row of panels on your tablet. One section produces less than expected, so you walk the site and find shading from a new fence. In the afternoon you work in the office on the design of a rooftop solar system for a factory, calculating panels, inverter size and expected savings. You finish by sending a short report to the client, in clear language, showing how many months it takes to pay back.",
-      "ar": "تبدأ الصباح في محطة شمسية بالصعيد وتراجع إنتاج كل صف ألواح على التابلت. أحد الأقسام ينتج أقل من المتوقع، فتتجول في الموقع وتجد ظلًا من سور جديد. بعد الظهر تعمل في المكتب على تصميم نظام شمسي لسطح مصنع، فتحسب عدد الألواح وحجم العاكس والوفر المتوقع. وتنهي اليوم بتقرير قصير للعميل بلغة واضحة يبين كم شهرًا يحتاج لاسترداد الاستثمار."
+      "ar": "بتبدأ الصبح في محطة شمسية في الصعيد، وتراجع إنتاج كل صف ألواح على التابلت. فيه جزء بيطلّع أقل من المتوقع، فتلف في الموقع وتلاقي ضل من سور جديد. بعد الضهر تشتغل في المكتب على تصميم نظام شمسي لسطح مصنع، وتحسب عدد الألواح وحجم الإنفرتر والتوفير المتوقع. وتقفل اليوم بتقرير قصير للعميل بلغة واضحة يوضّح محتاج كام شهر عشان يرجّع فلوسه."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Survey sites and estimate sun or wind resources.",
-        "ar": "تفحص المواقع وتقدّر موارد الشمس أو الرياح."
+        "ar": "بتكشف على المواقع وتقدّر موارد الشمس أو الرياح."
       },
       {
         "en": "Design solar PV, wind or hybrid systems, including cables, inverters and storage.",
-        "ar": "تصمم أنظمة شمسية أو رياح أو هجينة تشمل الكابلات والعاكسات والتخزين."
+        "ar": "بتصمم أنظمة شمسية أو رياح أو هايبرد، فيها الكابلات والإنفرترات والتخزين."
       },
       {
         "en": "Prepare technical and financial studies for clients.",
-        "ar": "تعد دراسات فنية ومالية للعملاء."
+        "ar": "بتجهّز دراسات فنية ومالية للعملاء."
       },
       {
         "en": "Supervise installation, testing and connection to the grid.",
-        "ar": "تشرف على التركيب والاختبار والربط بالشبكة."
+        "ar": "بتشرف على التركيب والاختبار والربط بالشبكة."
       },
       {
         "en": "Monitor performance and fix underperforming plants.",
-        "ar": "تراقب الأداء وتعالج المحطات ضعيفة الإنتاج."
+        "ar": "بتراقب الأداء وتعالج المحطات اللي إنتاجها ضعيف."
       },
       {
         "en": "Follow standards, permits and safety rules.",
-        "ar": "تلتزم بالمعايير والتراخيص وقواعد السلامة."
+        "ar": "بتلتزم بالمعايير والتراخيص وقواعد السلامة."
       }
     ],
     "environments": [
@@ -118,11 +118,11 @@
     "alternativeRoutes": [
       {
         "en": "The Egyptian-Japanese KOSEN and technical institutes train technicians in solar and electrical installation.",
-        "ar": "كوسن المصري الياباني والمعاهد الفنية تدرب فنيين على تركيب الأنظمة الشمسية والكهربائية."
+        "ar": "كوسن المصري الياباني والمعاهد الفنية بيدرّبوا فنيين على تركيب الأنظمة الشمسية والكهربا."
       },
       {
         "en": "Short solar design courses can add a specialization after an electrical or mechanical degree.",
-        "ar": "دورات قصيرة في تصميم الطاقة الشمسية تضيف تخصصًا بعد درجة الكهرباء أو الميكانيكا."
+        "ar": "كورسات قصيرة في تصميم الطاقة الشمسية بتضيف تخصص بعد شهادة كهربا أو ميكانيكا."
       }
     ],
     "licensing": {
@@ -232,7 +232,7 @@
     ],
     "freelanceRemote": {
       "en": "Solar design studies and remote monitoring can be freelance or remote; installation is on site. Small solar installation businesses are growing.",
-      "ar": "يمكن عمل دراسات التصميم الشمسي والمراقبة عن بعد أو بنظام حر؛ والتركيب في الموقع. وتنمو شركات التركيب الشمسي الصغيرة."
+      "ar": "دراسات التصميم الشمسي والمراقبة ممكن يتعملوا فري لانس أو من البيت؛ والتركيب في الموقع. وشركات التركيب الشمسي الصغيرة بتكبر."
     },
     "regions": [
       {
@@ -254,66 +254,66 @@
   },
   "global": {
     "en": "Renewable energy is one of the fastest-growing fields in the Gulf, Africa and Europe, and Egyptian engineers work on projects abroad. Egypt's own targets of 42% renewable electricity by 2030 and large new solar proposals create local demand too, but targets are intentions and projects can slip.",
-    "ar": "الطاقة المتجددة من أسرع المجالات نموًا في الخليج وأفريقيا وأوروبا، ويعمل مهندسون مصريون في مشروعات بالخارج. كما أن أهداف مصر بنسبة 42% كهرباء متجددة بحلول 2030 ومقترحات المحطات الشمسية الكبيرة تخلق طلبًا محليًا، لكن الأهداف نوايا وقد تتأخر المشروعات."
+    "ar": "الطاقة المتجددة من أسرع المجالات نموًا في الخليج وأفريقيا وأوروبا، ومهندسين مصريين بيشتغلوا في مشاريع برّه. وكمان أهداف مصر (42% كهربا متجددة بحلول 2030) ومقترحات المحطات الشمسية الكبيرة بتعمل طلب محلي، بس الأهداف نوايا والمشاريع ممكن تتأخر."
   },
   "reality": {
     "pros": [
       {
         "en": "Work that supports Egypt's energy future and clean air",
-        "ar": "عمل يدعم مستقبل الطاقة في مصر والهواء النظيف"
+        "ar": "شغل بيدعم مستقبل الطاقة في مصر والهوا النضيف"
       },
       {
         "en": "Growing sector: 35.19 TWh renewable output in 2025, up 28%",
-        "ar": "قطاع متنامٍ: إنتاج متجدد 35.19 تيراوات ساعة في 2025 بزيادة 28%"
+        "ar": "قطاع بيكبر: إنتاج متجدد 35.19 تيراوات ساعة في 2025، بزيادة 28%"
       },
       {
         "en": "Skills are in demand worldwide",
-        "ar": "المهارات مطلوبة عالميًا"
+        "ar": "المهارات مطلوبة في العالم كله"
       }
     ],
     "challenges": [
       {
         "en": "Targets can change and projects take years to materialize",
-        "ar": "الأهداف قد تتغير والمشروعات تحتاج سنوات للتنفيذ"
+        "ar": "الأهداف ممكن تتغير والمشاريع بتاخد سنين عشان تتنفّذ"
       },
       {
         "en": "Sites are often remote, hot and windy",
-        "ar": "المواقع غالبًا نائية وحارة وعاصفة"
+        "ar": "المواقع غالبًا بعيدة وحر وفيها رياح"
       },
       {
         "en": "Few jobs have the title \"renewable engineer\" so you start from a general degree",
-        "ar": "قليل من الوظائف يحمل مسمى «مهندس طاقة متجددة» فتبدأ من شهادة عامة"
+        "ar": "وظايف قليلة اسمها «مهندس طاقة متجددة»، فبتبدأ من شهادة عامة"
       },
       {
         "en": "Still competing with fossil fuels for investment",
-        "ar": "ما زال هناك تنافس مع الوقود الأحفوري على الاستثمار"
+        "ar": "لسه فيه منافسة مع الوقود الأحفوري على الاستثمار"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Renewables are a hobby field with no real jobs.",
-          "ar": "الطاقة المتجددة مجال هواية بلا وظائف حقيقية."
+          "ar": "الطاقة المتجددة مجال هواية ومفيهوش شغل حقيقي."
         },
         "fact": {
           "en": "Utility-scale plants, rooftop systems and storage need many engineers, and Egypt has large capacity targets.",
-          "ar": "المحطات الكبيرة وأنظمة الأسطح والتخزين تحتاج مهندسين كثيرين، ولدى مصر أهداف سعة كبيرة."
+          "ar": "المحطات الكبيرة وأنظمة الأسطح والتخزين محتاجين مهندسين كتير، ومصر عندها أهداف سعة كبيرة."
         }
       },
       {
         "myth": {
           "en": "You can only work with solar panels.",
-          "ar": "تعمل فقط في الألواح الشمسية."
+          "ar": "هتشتغل في الألواح الشمسية وبس."
         },
         "fact": {
           "en": "Roles also include wind, grid integration, storage, green hydrogen, energy efficiency and finance.",
-          "ar": "تشمل الأدوار الرياح وربط الشبكة والتخزين والهيدروجين الأخضر وكفاءة الطاقة والتمويل."
+          "ar": "الأدوار كمان فيها الرياح وربط الشبكة والتخزين والهيدروجين الأخضر وكفاءة الطاقة والتمويل."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Design roles are regular; commissioning and site work can mean travel and long days in hot conditions.",
-      "ar": "أدوار التصميم منتظمة؛ والتشغيل وعمل الموقع قد يعني سفرًا وأيامًا طويلة في طقس حار."
+      "ar": "شغل التصميم منتظم؛ والتشغيل وشغل الموقع ممكن يعني سفر وأيام طويلة في الحر."
     }
   },
   "progression": {

@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You turn sound into something people feel.",
-      "ar": "تحوّل الصوت إلى شيء يشعر به الناس."
+      "ar": "بتحوّل الصوت لحاجة الناس بتحسها."
     },
     "summary": {
       "en": "Musicians perform, compose, arrange and teach music. Some play in orchestras and bands, others sing, produce songs on a computer or teach students. It takes years of practice, and many musicians combine several kinds of work such as performing, teaching and studio sessions.",
-      "ar": "الموسيقي يؤدي ويؤلف ويوزّع ويعلّم الموسيقى. يعزف بعضهم في الأوركسترا والفرق، ويغني آخرون، أو ينتجون الأغاني على الكمبيوتر أو يعلّمون الطلاب. يتطلب الأمر سنوات من التدريب، ويجمع كثير من الموسيقيين بين أنواع عدة من العمل مثل الأداء والتدريس وجلسات الاستوديو."
+      "ar": "الموسيقي بيعزف ويغني ويلحّن ويوزّع ويعلّم الموسيقى. فيه اللي بيعزفوا في أوركسترا وفرق، وفيه اللي بيغنوا، أو بيعملوا أغاني على الكمبيوتر، أو بيدرّسوا. الموضوع محتاج سنين تمرين، وموسيقيين كتير بيجمعوا بين أكتر من نوع شغل، زي الحفلات والتدريس وجلسات الاستوديو."
     },
     "dayInLife": {
       "en": "You practise your instrument for two hours in the morning, working slowly on a hard passage. In the afternoon you teach a lesson to a young student, and then you rehearse with your band for the weekend concert. At night you perform or record a track in a small studio.",
-      "ar": "تتدرب على آلتك ساعتين في الصباح وتعمل ببطء على مقطع صعب. بعد الظهر تعطي درسًا لطالب صغير ثم تتمرن مع فرقتك لحفل نهاية الأسبوع. في الليل تعزف في حفل أو تسجل مقطوعة في استوديو صغير."
+      "ar": "بتتمرّن على آلتك ساعتين الصبح، وتشتغل على مهلك على حتة صعبة. بعد الضهر تدّي درس لطالب صغير، وبعدين تعمل بروفة مع فرقتك لحفلة آخر الأسبوع. وبالليل تعزف في حفلة أو تسجّل تراك في استوديو صغير."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Practise your instrument or voice every day.",
-        "ar": "تتدرب على آلتك أو صوتك كل يوم."
+        "ar": "بتتمرّن على آلتك أو صوتك كل يوم."
       },
       {
         "en": "Rehearse and perform alone or with a group.",
-        "ar": "تتمرن وتؤدي منفردًا أو مع فرقة."
+        "ar": "بتعمل بروفات وتعزف لوحدك أو مع فرقة."
       },
       {
         "en": "Compose, arrange or produce music, often with software.",
-        "ar": "تؤلف أو توزّع أو تنتج الموسيقى غالبًا بالبرامج."
+        "ar": "بتلحّن أو توزّع أو تنتج موسيقى، وغالبًا بالبرامج."
       },
       {
         "en": "Record in studios.",
-        "ar": "تسجل في الاستوديوهات."
+        "ar": "بتسجّل في الاستوديوهات."
       },
       {
         "en": "Teach music and manage your own bookings.",
-        "ar": "تعلّم الموسيقى وتدير حجوزاتك."
+        "ar": "بتعلّم موسيقى وتدير حجوزاتك بنفسك."
       }
     ],
     "environments": [
@@ -103,11 +103,11 @@
     "alternativeRoutes": [
       {
         "en": "Start young: music classes such as those at the Cairo Opera House Talents Development Center, then specialise.",
-        "ar": "ابدأ مبكرًا: دروس الموسيقى مثل مركز تنمية المواهب بدار الأوبرا ثم تخصص."
+        "ar": "ابدأ بدري: دروس موسيقى زي مركز تنمية المواهب في دار الأوبرا، وبعدين اتخصص."
       },
       {
         "en": "Private teachers, bands and online lessons, with a recorded portfolio of your performances.",
-        "ar": "معلمون خصوصيون وفرق ودروس عبر الإنترنت مع تسجيلات لأدائك."
+        "ar": "مدرسين خصوصي وفرق ودروس أونلاين، ومعاها تسجيلات لأدائك."
       }
     ],
     "licensing": {

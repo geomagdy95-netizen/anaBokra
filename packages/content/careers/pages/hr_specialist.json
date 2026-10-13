@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You help a company find, grow and look after its people.",
-      "ar": "تساعد الشركة على إيجاد موظفيها وتنميتهم والعناية بهم."
+      "ar": "بتساعد الشركة تلاقي ناسها وتكبّرهم وتاخد بالها منهم."
     },
     "summary": {
       "en": "HR specialists handle hiring, training, salaries and the daily needs of employees. They connect managers and staff, and they help build a fair and healthy workplace. The role needs good listening, careful records and knowledge of labour rules.",
-      "ar": "أخصائي الموارد البشرية يتولى التوظيف والتدريب والرواتب واحتياجات الموظفين اليومية. يربط بين المديرين والعاملين ويساعد في بناء مكان عمل عادل وصحي. يحتاج الدور إلى الاستماع الجيد والسجلات الدقيقة ومعرفة قواعد العمل."
+      "ar": "أخصائي الموارد البشرية (HR) بيتولّى التوظيف والتدريب والمرتبات واحتياجات الموظفين اليومية. بيربط بين المديرين والموظفين، وبيساعد يبني مكان شغل عادل وصحي. الدور محتاج سماع كويس وسجلات دقيقة ومعرفة بقوانين العمل."
     },
     "dayInLife": {
       "en": "You open the day by reading job applications for a vacancy and calling three candidates for interviews. After that you meet an employee who is worried about her contract and explain the company policy. In the afternoon you prepare the attendance sheet for payroll and plan a training day for new staff.",
-      "ar": "تبدأ اليوم بقراءة طلبات وظيفة شاغرة وتتصل بثلاثة مرشحين لمقابلات. بعدها تقابل موظفة قلقة بشأن عقدها وتشرح لها سياسة الشركة. بعد الظهر تجهّز كشف الحضور للمرتبات وتخطط ليوم تدريب للموظفين الجدد."
+      "ar": "بتبدأ اليوم بقراية طلبات لوظيفة فاضية وتكلّم تلات مرشحين لمقابلات. بعدها تقابل موظفة قلقانة بخصوص عقدها وتشرح لها سياسة الشركة. بعد الضهر تجهّز كشف الحضور للمرتبات وتخطط ليوم تدريب للموظفين الجداد."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Write job ads, screen applicants and interview candidates.",
-        "ar": "تكتب إعلانات الوظائف وتفرز المتقدمين وتجري المقابلات."
+        "ar": "بتكتب إعلانات الوظايف، وتفرز المتقدمين، وتعمل المقابلات."
       },
       {
         "en": "Prepare contracts and keep employee records.",
-        "ar": "تجهّز العقود وتحتفظ بسجلات الموظفين."
+        "ar": "بتجهّز العقود وتحتفظ بسجلات الموظفين."
       },
       {
         "en": "Organise training and help new employees settle in.",
-        "ar": "تنظم التدريب وتساعد الموظفين الجدد على الاندماج."
+        "ar": "بتنظّم التدريب وتساعد الموظفين الجداد يندمجوا."
       },
       {
         "en": "Support payroll, attendance and benefits.",
-        "ar": "تدعم المرتبات والحضور والمزايا."
+        "ar": "بتساعد في المرتبات والحضور والمزايا."
       },
       {
         "en": "Listen to employees' concerns and help solve conflicts.",
-        "ar": "تستمع لمشكلات الموظفين وتساعد في حل الخلافات."
+        "ar": "بتسمع مشاكل الموظفين وتساعد في حل الخلافات."
       }
     ],
     "environments": [
@@ -116,11 +116,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as an HR assistant, recruiter or administrator after a commercial diploma or degree.",
-        "ar": "البدء كمساعد موارد بشرية أو مسؤول توظيف أو إداري بعد دبلوم تجاري أو درجة جامعية."
+        "ar": "تبدأ مساعد HR أو مسؤول توظيف أو إداري بعد دبلوم تجاري أو شهادة جامعية."
       },
       {
         "en": "HR diplomas and international certificates (for example CIPD), taken alongside work.",
-        "ar": "دبلومات الموارد البشرية وشهادات دولية (مثل CIPD) تؤخذ أثناء العمل."
+        "ar": "دبلومات موارد بشرية وشهادات دولية (زي CIPD) تاخدها وإنت بتشتغل."
       }
     ],
     "licensing": null

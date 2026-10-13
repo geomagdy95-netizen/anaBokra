@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help people and companies save, borrow and grow their money safely.",
-      "ar": "تساعد الناس والشركات على الادخار والاقتراض وتنمية أموالهم بأمان."
+      "ar": "بتساعد الناس والشركات يحوّشوا ويستلفوا ويكبّروا فلوسهم بأمان."
     },
     "summary": {
       "en": "Bankers work with customers on accounts, loans, cards and investments, and they manage risk for the bank. Egypt has a system of around 36 banks and a push toward digital payments, so the roles are changing from counter service to advice, risk and technology. Many large banks run training programs for fresh graduates.",
-      "ar": "يعمل المصرفي مع العملاء على الحسابات والقروض والبطاقات والاستثمار، ويدير مخاطر البنك. في مصر نظام مصرفي من نحو 36 بنكًا وتوجه قوي نحو المدفوعات الرقمية، فتتحول الأدوار من خدمة الشباك إلى النصيحة والمخاطر والتكنولوجيا. وتقدم بنوك كبيرة برامج تدريب لحديثي التخرج."
+      "ar": "المصرفي بيشتغل مع العملاء على الحسابات والقروض والكروت والاستثمار، وبيدير مخاطر البنك. مصر فيها حوالي 36 بنك وفيه توجّه قوي للدفع الرقمي، فالأدوار بتتحوّل من خدمة الشباك للنصيحة والمخاطر والتكنولوجيا. وبنوك كبيرة كتير عندها برامج تدريب لحديثي التخرج."
     },
     "dayInLife": {
       "en": "You arrive before the branch opens and review the list of customers you need to call. A small shop owner comes in to ask for a loan to buy new equipment. You listen, collect his documents and check his sales and debts. You explain the interest rate and the monthly payment in simple words and tell him honestly what the bank needs from him. After lunch you help an elderly customer set up the bank's mobile app. Before closing you record your meetings in the system and send the loan file to the credit team.",
-      "ar": "تصل قبل فتح الفرع وتراجع قائمة العملاء الذين ستتصل بهم. يأتي صاحب محل صغير ليطلب قرضًا لشراء معدات جديدة. تستمع إليه وتجمع أوراقه وتفحص مبيعاته وديونه. تشرح له سعر الفائدة والقسط الشهري بكلمات بسيطة وتقول له بصراحة ما يحتاجه البنك منه. بعد الغداء تساعد عميلًا كبير السن في تشغيل تطبيق البنك على موبايله. قبل الإغلاق تسجل اجتماعاتك في النظام وترسل ملف القرض إلى فريق الائتمان."
+      "ar": "بتوصل قبل ما الفرع يفتح وتراجع لستة العملاء اللي هتكلمهم. صاحب محل صغير بيجي يطلب قرض يشتري بيه معدات جديدة. تسمعه وتجمع ورقه وتشوف مبيعاته وديونه. تشرح له سعر الفايدة والقسط الشهري بكلام بسيط، وتقول له بصراحة البنك محتاج منه إيه. بعد الغدا تساعد عميل كبير في السن يشغّل أبلكيشن البنك على موبايله. وقبل القفل تسجّل مقابلاتك على السيستم وتبعت ملف القرض لفريق الائتمان."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Open accounts and explain products such as savings, cards and loans.",
-        "ar": "تفتح الحسابات وتشرح المنتجات مثل الادخار والبطاقات والقروض."
+        "ar": "بتفتح الحسابات وتشرح المنتجات زي التوفير والكروت والقروض."
       },
       {
         "en": "Check customers' documents and income before approving credit.",
-        "ar": "تفحص أوراق العملاء ودخلهم قبل الموافقة على الائتمان."
+        "ar": "بتراجع ورق العملاء ودخلهم قبل الموافقة على الائتمان."
       },
       {
         "en": "Advise customers and companies on saving, borrowing and payments.",
-        "ar": "تنصح العملاء والشركات في الادخار والاقتراض والمدفوعات."
+        "ar": "بتنصح العملاء والشركات في التوفير والاقتراض والمدفوعات."
       },
       {
         "en": "Follow anti-fraud and anti-money-laundering rules carefully.",
-        "ar": "تلتزم بدقة بقواعد مكافحة الاحتيال وغسل الأموال."
+        "ar": "بتلتزم بدقة بقواعد مكافحة الاحتيال وغسيل الأموال."
       },
       {
         "en": "Help customers use digital banking and mobile wallets.",
-        "ar": "تساعد العملاء على استخدام الخدمات المصرفية الرقمية والمحافظ الإلكترونية."
+        "ar": "بتساعد العملاء يستخدموا البنك الرقمي والمحافظ الإلكترونية."
       },
       {
         "en": "Meet sales targets while treating customers fairly.",
-        "ar": "تحقق أهداف المبيعات مع معاملة العملاء بإنصاف."
+        "ar": "بتحقق تارجت المبيعات وإنت بتعامل العملاء بعدل."
       }
     ],
     "environments": [
@@ -119,15 +119,15 @@
     "alternativeRoutes": [
       {
         "en": "Fresh-graduate programs at banks and at the Egyptian Banking Institute (EBI), which the Central Bank's training arm runs with Pearson/Edexcel and Scotland's Chartered Banking Institute; banks may hire participants.",
-        "ar": "برامج حديثي التخرج في البنوك وفي المعهد المصرفي المصري (EBI)، الذراع التدريبية للبنك المركزي، بالتعاون مع Pearson/Edexcel ومعهد المصرفيين القانونيين في اسكتلندا؛ وقد توظف البنوك المشاركين."
+        "ar": "برامج حديثي التخرج في البنوك وفي المعهد المصرفي المصري (EBI)، ذراع التدريب بتاع البنك المركزي، بالتعاون مع Pearson/Edexcel ومعهد المصرفيين القانونيين في اسكتلندا؛ والبنوك ممكن تعيّن المشاركين."
       },
       {
         "en": "Start in a call centre or customer-service role and move to branch or corporate roles.",
-        "ar": "ابدأ في مركز اتصال أو خدمة عملاء ثم انتقل لوظائف الفروع أو الشركات."
+        "ar": "ابدأ في كول سنتر أو خدمة عملاء، وبعدين انقل لشغل الفروع أو عملاء الشركات."
       },
       {
         "en": "Technical commercial diplomas can lead to teller or clerk roles, with limited promotion without a degree.",
-        "ar": "الدبلومات التجارية الفنية قد تؤدي لوظائف صراف أو كاتب، مع فرص ترقية محدودة دون شهادة جامعية."
+        "ar": "الدبلومات التجارية الفنية ممكن توصّلك لوظيفة صرّاف أو كاتب، بس الترقية محدودة من غير شهادة جامعية."
       }
     ],
     "licensing": {
@@ -263,7 +263,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance work is rare for bankers because banking is regulated. Some digital banking, risk and compliance work can be done from home inside a bank, and fintech startups may offer flexible roles.",
-      "ar": "العمل الحر نادر للمصرفيين لأن العمل المصرفي منظَّم. بعض أعمال الخدمات الرقمية والمخاطر والامتثال تُنجز من البيت داخل البنك، وقد تقدم شركات التكنولوجيا المالية أدوارًا مرنة."
+      "ar": "الفري لانس نادر للمصرفيين لأن شغل البنوك متنظّم بقوانين. فيه شغل في البنك الرقمي والمخاطر والامتثال ممكن يتعمل من البيت جوه البنك، وشركات التكنولوجيا المالية ممكن تديك أدوار مرنة."
     },
     "regions": [
       {
@@ -282,7 +282,7 @@
   },
   "global": {
     "en": "Egyptian bankers work in Gulf banks, especially in Saudi Arabia, the UAE, Kuwait and Qatar, usually after some years of experience. Roles that require customer languages, compliance or corporate banking skills are in demand. Compare salary, housing and contract terms carefully.",
-    "ar": "يعمل مصرفيون مصريون في بنوك الخليج، خاصة السعودية والإمارات والكويت وقطر، غالبًا بعد سنوات من الخبرة. الوظائف التي تحتاج لغات أو امتثالًا أو خبرة في الشركات مطلوبة. قارن الراتب والسكن وشروط العقد بعناية."
+    "ar": "فيه مصرفيين مصريين بيشتغلوا في بنوك الخليج، خصوصًا السعودية والإمارات والكويت وقطر، وغالبًا بعد كام سنة خبرة. الوظايف اللي محتاجة لغات أو امتثال أو خبرة في عملاء الشركات مطلوبة. قارن المرتب والسكن وشروط العقد كويس."
   },
   "reality": {
     "pros": [
@@ -296,58 +296,58 @@
       },
       {
         "en": "You learn how money and business work",
-        "ar": "تتعلم كيف يعمل المال والأعمال"
+        "ar": "بتتعلم الفلوس والبيزنس بيشتغلوا إزاي"
       }
     ],
     "challenges": [
       {
         "en": "Sales targets can be stressful",
-        "ar": "أهداف المبيعات قد تكون مرهقة"
+        "ar": "تارجت المبيعات ممكن يبقى مرهق"
       },
       {
         "en": "Routine teller jobs are shrinking because of digital banking",
-        "ar": "وظائف الصراف الروتينية تتناقص بسبب الخدمات الرقمية"
+        "ar": "وظايف الصرّاف الروتينية بتقل بسبب البنك الرقمي"
       },
       {
         "en": "Strict rules mean a lot of paperwork",
-        "ar": "القواعد الصارمة تعني أوراقًا كثيرة"
+        "ar": "القواعد الصارمة معناها ورق كتير"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Banking is only for commerce graduates.",
-          "ar": "العمل بالبنوك لخريجي التجارة فقط."
+          "ar": "شغل البنوك لخريجين التجارة بس."
         },
         "fact": {
           "en": "Banks also hire engineers, IT and language graduates for different roles.",
-          "ar": "البنوك توظف خريجي الهندسة وتكنولوجيا المعلومات واللغات في أدوار مختلفة."
+          "ar": "البنوك كمان بتشغّل خريجين هندسة وتكنولوجيا معلومات ولغات في أدوار مختلفة."
         }
       },
       {
         "myth": {
           "en": "Everything is online now, so banks do not need people.",
-          "ar": "كل شيء صار أونلاين فلا حاجة لموظفين."
+          "ar": "كل حاجة بقت أونلاين، فالبنوك مش محتاجة ناس."
         },
         "fact": {
           "en": "Routine tasks are going digital, but advice, risk, compliance and business clients still need people.",
-          "ar": "المهام الروتينية تتحول رقميًا، لكن النصيحة والمخاطر والامتثال وعملاء الأعمال ما زالوا يحتاجون بشرًا."
+          "ar": "الشغل الروتيني بيتحوّل رقمي، بس النصيحة والمخاطر والامتثال وعملاء الشركات لسه محتاجين بني آدمين."
         }
       },
       {
         "myth": {
           "en": "Bank jobs are easy because the hours are fixed.",
-          "ar": "وظيفة البنك سهلة لأن ساعاتها ثابتة."
+          "ar": "شغل البنك سهل عشان مواعيده ثابتة."
         },
         "fact": {
           "en": "Hours are set, but accuracy, regulation and customer pressure make it demanding.",
-          "ar": "الساعات ثابتة، لكن الدقة والتنظيم وضغط العملاء تجعلها متطلبة."
+          "ar": "المواعيد ثابتة، بس الدقة واللوائح وضغط العملاء بيخلّوه شغل متعب."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Usually fixed weekday hours. Branch managers and sales teams may stay late near targets or month-end.",
-      "ar": "ساعات ثابتة غالبًا في أيام الأسبوع. قد يتأخر مديرو الفروع وفرق المبيعات قرب الأهداف ونهاية الشهر."
+      "ar": "غالبًا مواعيد ثابتة في أيام الأسبوع. مديرين الفروع وفرق المبيعات ممكن يتأخروا قرب التارجت أو آخر الشهر."
     }
   },
   "progression": {

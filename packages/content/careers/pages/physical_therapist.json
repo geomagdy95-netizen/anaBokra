@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help people move again after injury, surgery or illness, one exercise at a time.",
-      "ar": "تساعد الناس على الحركة من جديد بعد إصابة أو جراحة أو مرض، تمرينًا بعد تمرين."
+      "ar": "بتساعد الناس يرجعوا يتحركوا بعد إصابة أو عملية أو مرض، تمرين ورا تمرين."
     },
     "summary": {
       "en": "Physical therapists assess how the body moves and design exercise and hands-on treatment to reduce pain and restore function. In Egypt you study at a Faculty of Physical Therapy, complete an internship year and register with the syndicate. Work is varied: sports, neurology, children, orthopedics.",
-      "ar": "أخصائي العلاج الطبيعي يقيّم حركة الجسم ويصمم تمارين وعلاجًا يدويًا لتخفيف الألم واستعادة الوظيفة. في مصر تدرس في كلية العلاج الطبيعي وتقضي سنة امتياز وتسجّل في النقابة. العمل متنوع: رياضة وأعصاب وأطفال وعظام."
+      "ar": "أخصائي العلاج الطبيعي بيقيّم الجسم بيتحرك إزاي، ويصمم تمارين وعلاج يدوي يقلّل الوجع ويرجّع الحركة. في مصر بتدرس في كلية العلاج الطبيعي، وتعمل سنة امتياز، وتتسجّل في النقابة. والشغل متنوع: رياضة وأعصاب وأطفال وعظام."
     },
     "dayInLife": {
       "en": "You start at 9 a.m. in a rehab clinic with a teenager recovering from a knee ligament injury. You test his range of motion, adjust his exercises and show him how to do them safely at home. Next comes a woman after a stroke: you help her practice standing and walking with support. Between sessions you write progress notes and set small goals for the week. In the afternoon a footballer arrives with a sore hamstring and you treat it with manual techniques and a plan for returning to play. By evening your hands and back are tired, but you saw real progress today.",
-      "ar": "تبدأ في التاسعة صباحًا في عيادة تأهيل مع مراهق يتعافى من إصابة في رباط الركبة. تختبر مدى حركته وتعدّل تمارينه وتريه كيف يؤديها بأمان في البيت. ثم تأتي سيدة بعد جلطة دماغية: تساعدها على التدرب على الوقوف والمشي بمساعدة. وبين الجلسات تكتب ملاحظات التقدم وتضع أهدافًا صغيرة للأسبوع. بعد العصر يصل لاعب كرة بشد في العضلة الخلفية للفخذ فتعالجه بتقنيات يدوية وخطة للعودة إلى الملعب. في المساء تكون يداك وظهرك متعبين، لكنك رأيت تقدمًا حقيقيًا اليوم."
+      "ar": "بتبدأ الساعة 9 الصبح في عيادة تأهيل مع شاب بيتعافى من إصابة في رباط الركبة. تختبر مدى حركته، وتعدّل تمارينه، وتوريه يعملها إزاي بأمان في البيت. بعده تيجي ست بعد جلطة: تساعدها تتمرّن على الوقوف والمشي بمساعدة. وبين الجلسات تكتب ملاحظات التقدم وتحط أهداف صغيرة للأسبوع. بعد العصر يوصل لاعب كورة عنده شد في العضلة الخلفية، فتعالجه بتقنيات يدوية وخطة يرجع بيها للملعب. وبالليل إيديك وضهرك بيبقوا تعبانين، بس شفت تقدم حقيقي النهارده."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Assess a patient's posture, strength, movement and pain.",
-        "ar": "تقيّم وضعية المريض وقوته وحركته وألمه."
+        "ar": "بتقيّم وقفة المريض وقوته وحركته ووجعه."
       },
       {
         "en": "Design an exercise and treatment plan for each person.",
-        "ar": "تصمم خطة تمارين وعلاج لكل شخص."
+        "ar": "بتصمم خطة تمارين وعلاج لكل شخص."
       },
       {
         "en": "Use hands-on techniques, electrotherapy, heat, cold and ultrasound.",
-        "ar": "تستخدم تقنيات يدوية وعلاجًا كهربائيًا وحرارة وبرودة وموجات فوق صوتية."
+        "ar": "بتستخدم تقنيات يدوية وعلاج كهربائي وحرارة وتلج وموجات فوق صوتية."
       },
       {
         "en": "Teach patients exercises and ways to prevent re-injury.",
-        "ar": "تعلّم المرضى التمارين وطرق منع تكرار الإصابة."
+        "ar": "بتعلّم المرضى التمارين وإزاي يمنعوا الإصابة ترجع."
       },
       {
         "en": "Record progress and adjust the plan.",
-        "ar": "تسجّل التقدم وتعدّل الخطة."
+        "ar": "بتسجّل التقدم وتعدّل الخطة."
       },
       {
         "en": "Work with doctors, surgeons and families on rehabilitation goals.",
-        "ar": "تعمل مع الأطباء والجراحين والأسر على أهداف التأهيل."
+        "ar": "بتشتغل مع الدكاترة والجراحين والأهالي على أهداف التأهيل."
       }
     ],
     "environments": [
@@ -115,11 +115,11 @@
     "alternativeRoutes": [
       {
         "en": "Occupational therapy, sports science, nursing or clinical nutrition lead to nearby rehab and health roles.",
-        "ar": "العلاج الوظيفي وعلوم الرياضة والتمريض والتغذية العلاجية تقود إلى أدوار قريبة في التأهيل والصحة."
+        "ar": "العلاج الوظيفي وعلوم الرياضة والتمريض والتغذية العلاجية بيوصّلوا لأدوار قريبة في التأهيل والصحة."
       },
       {
         "en": "After graduating, short courses in manual therapy, sports rehab, pediatrics or neurology deepen your specialty.",
-        "ar": "بعد التخرج تعمّق تخصصك بدورات قصيرة في العلاج اليدوي وتأهيل الرياضيين والأطفال والأعصاب."
+        "ar": "بعد التخرج عمّق تخصصك بكورسات قصيرة في العلاج اليدوي وتأهيل الرياضيين والأطفال والأعصاب."
       }
     ],
     "licensing": {
@@ -238,7 +238,7 @@
     ],
     "freelanceRemote": {
       "en": "Many therapists run home-visit services or rent clinic hours. Online exercise coaching exists but hands-on treatment cannot be done remotely.",
-      "ar": "كثير من الأخصائيين يقدمون زيارات منزلية أو يستأجرون ساعات في عيادة. التدريب عبر الإنترنت موجود لكن العلاج اليدوي لا يتم عن بعد."
+      "ar": "أخصائيين كتير بيعملوا زيارات منزلية أو بيأجّروا ساعات في عيادة. التدريب أونلاين موجود، بس العلاج اليدوي ما ينفعش من بعيد."
     },
     "regions": [
       {
@@ -254,66 +254,66 @@
   },
   "global": {
     "en": "Egyptian physical therapists work in the Gulf after local licensing exams, and some move to Europe or North America, which need credential evaluation and exams. English and a postgraduate specialty help.",
-    "ar": "يعمل أخصائيو العلاج الطبيعي المصريون في الخليج بعد امتحانات الترخيص المحلية، وينتقل بعضهم إلى أوروبا وأمريكا الشمالية حيث يلزم تقييم الشهادة وامتحانات. تساعد الإنجليزية والتخصص بعد التخرج."
+    "ar": "أخصائيين العلاج الطبيعي المصريين بيشتغلوا في الخليج بعد امتحانات الترخيص هناك، وفيه اللي بيسافروا أوروبا أو أمريكا الشمالية، ودول محتاجين تقييم للشهادة وامتحانات. الإنجليزي والتخصص بعد التخرج بيساعدوا."
   },
   "reality": {
     "pros": [
       {
         "en": "See patients improve over weeks and months",
-        "ar": "ترى مرضاك يتحسنون خلال أسابيع وشهور"
+        "ar": "بتشوف مرضاك بيتحسنوا على مدار أسابيع وشهور"
       },
       {
         "en": "Active, hands-on work rather than desk work",
-        "ar": "عمل نشط وعملي لا مكتبي"
+        "ar": "شغل نشيط وعملي، مش على مكتب"
       },
       {
         "en": "Can open your own clinic or work with athletes",
-        "ar": "يمكنك فتح عيادتك أو العمل مع الرياضيين"
+        "ar": "تقدر تفتح عيادتك أو تشتغل مع الرياضيين"
       }
     ],
     "challenges": [
       {
         "en": "Pay is modest at the start",
-        "ar": "الأجر متواضع في البداية"
+        "ar": "المرتب في الأول متواضع"
       },
       {
         "en": "Physically tiring and risk of back or wrist strain",
-        "ar": "عمل مرهق جسديًا وخطر إجهاد الظهر والمعصم"
+        "ar": "شغل متعب جسديًا وممكن يجهد ضهرك أو رسغك"
       },
       {
         "en": "Many graduates compete for jobs in big cities",
-        "ar": "كثرة الخريجين تعني منافسة في المدن الكبرى"
+        "ar": "خريجين كتير بيتنافسوا على الشغل في المدن الكبيرة"
       },
       {
         "en": "Public understanding of the profession is still growing",
-        "ar": "فهم الناس للمهنة ما زال يتطور"
+        "ar": "فهم الناس للمهنة لسه بيتطور"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Physical therapy is just massage.",
-          "ar": "العلاج الطبيعي مجرد مساج."
+          "ar": "العلاج الطبيعي يعني مساج وبس."
         },
         "fact": {
           "en": "It is an evidence-based health profession with assessment, exercise science, neurology and orthopedics.",
-          "ar": "هي مهنة صحية مبنية على الأدلة وفيها تقييم وعلوم تمارين وأعصاب وعظام."
+          "ar": "دي مهنة صحية مبنية على الأدلة، فيها تقييم وعلوم تمارين وأعصاب وعظام."
         }
       },
       {
         "myth": {
           "en": "It is only for athletes.",
-          "ar": "هو للرياضيين فقط."
+          "ar": "ده للرياضيين بس."
         },
         "fact": {
           "en": "Most patients are children with developmental needs, stroke survivors, older adults and people after surgery.",
-          "ar": "أغلب المرضى أطفال لديهم احتياجات نمائية وناجون من الجلطات وكبار سن ومرضى بعد الجراحة."
+          "ar": "أغلب المرضى أطفال عندهم احتياجات في النمو، وناس عدّوا من جلطات، وكبار سن، ومرضى بعد عمليات."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Generally good: appointment-based days and few emergencies. Private practice may mean evenings and weekends.",
-      "ar": "جيدة عمومًا: أيام بمواعيد وطوارئ قليلة. العمل الخاص قد يعني مساءً وعطلات."
+      "ar": "كويس عمومًا: أيام بمواعيد وطوارئ قليلة. والشغل الخاص ممكن يعني بالليل وفي الإجازات."
     }
   },
   "progression": {

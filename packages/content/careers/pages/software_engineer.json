@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You build the apps and systems people use every day, and you can do it for companies anywhere in the world.",
-      "ar": "تبني التطبيقات والنظم التي يستخدمها الناس كل يوم، ويمكنك فعل ذلك لشركات في أي مكان في العالم."
+      "ar": "بتبني الأبلكيشنز والأنظمة اللي الناس بتستخدمها كل يوم، وتقدر تعمل ده لشركات في أي حتة في العالم."
     },
     "summary": {
       "en": "Software engineers design, write, test and maintain software, from mobile apps to banking systems. Egypt's digital exports reached about USD 7.4 billion in 2025 and many companies hire locally or remotely. You can get in through a computing degree, an engineering degree or strong self-study plus a bootcamp.",
-      "ar": "مهندس البرمجيات يصمم البرمجيات ويكتبها ويختبرها ويصونها، من تطبيقات الموبايل إلى النظم البنكية. بلغت صادرات مصر الرقمية نحو 7.4 مليار دولار في 2025 وتوظف شركات كثيرة محليًا أو عن بعد. يمكنك الدخول بشهادة حوسبة أو هندسة أو بتعلم ذاتي قوي مع معسكر تدريبي."
+      "ar": "مهندس البرمجيات بيصمم البرامج ويكتبها ويختبرها ويصونها، من أبلكيشنز الموبايل لأنظمة البنوك. صادرات مصر الرقمية وصلت حوالي 7.4 مليار دولار في 2025، وشركات كتير بتعيّن هنا أو من بعيد. تقدر تدخل بشهادة حاسبات أو هندسة، أو بتعلّم ذاتي قوي ومعاه بوت كامب."
     },
     "dayInLife": {
       "en": "You start with a short team meeting where everyone says what they are working on. Then you fix a bug where a payment screen freezes on older phones, and write a test so it never comes back. After lunch you review a teammate's code and suggest a clearer way to write one function. Later you pair with a designer to build a new onboarding screen. Before leaving you write a few notes in the ticket so tomorrow's you will know where you stopped.",
-      "ar": "تبدأ باجتماع قصير يذكر فيه كل فرد ما يعمل عليه. ثم تصلح خللًا يجمّد شاشة الدفع على الهواتف القديمة، وتكتب اختبارًا حتى لا يعود. بعد الغداء تراجع كود زميل وتقترح طريقة أوضح لكتابة دالة. لاحقًا تعمل مع مصمم على شاشة ترحيب جديدة. قبل أن تغادر تكتب ملاحظات في المهمة ليعرف «أنت» غدًا أين توقفت."
+      "ar": "بتبدأ باجتماع قصير كل واحد بيقول فيه شغال على إيه. بعدين تصلّح باج بيخلّي شاشة الدفع تهنّج على الموبايلات القديمة، وتكتب تست عشان ما يرجعش تاني. بعد الغدا تراجع كود زميل وتقترح طريقة أوضح لكتابة فانكشن. بعدها تشتغل مع مصمم على شاشة ترحيب جديدة. وقبل ما تمشي تكتب كام ملاحظة في التاسك عشان «إنت» بتاع بكرة يعرف وقفت فين."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Turn requirements into designs and working code.",
-        "ar": "تحول المتطلبات إلى تصميمات وكود يعمل."
+        "ar": "بتحوّل المتطلبات لتصميمات وكود شغال."
       },
       {
         "en": "Write and run tests to find and prevent bugs.",
-        "ar": "تكتب وتشغّل اختبارات لاكتشاف الأخطاء ومنعها."
+        "ar": "بتكتب وتشغّل تستات عشان تلاقي الأخطاء وتمنعها."
       },
       {
         "en": "Review teammates' code and discuss improvements.",
-        "ar": "تراجع كود زملائك وتناقش التحسينات."
+        "ar": "بتراجع كود زمايلك وتتناقشوا في التحسينات."
       },
       {
         "en": "Fix problems in live systems and improve performance.",
-        "ar": "تصلح مشكلات الأنظمة الحية وتحسن الأداء."
+        "ar": "بتصلّح مشاكل الأنظمة الشغالة وتحسّن الأداء."
       },
       {
         "en": "Work with designers, product managers and testers.",
-        "ar": "تعمل مع المصممين ومديري المنتج والمختبرين."
+        "ar": "بتشتغل مع المصممين ومديرين المنتج والمختبرين."
       },
       {
         "en": "Keep learning new tools, languages and frameworks.",
-        "ar": "تواصل تعلم أدوات ولغات وأطر جديدة."
+        "ar": "بتفضل تتعلم أدوات ولغات وفريمووركس جديدة."
       }
     ],
     "environments": [
@@ -127,15 +127,15 @@
     "alternativeRoutes": [
       {
         "en": "Programs such as ITI (9-month professional program for graduates), DEPI, and bootcamps like Route, Sprints, GOMYCODE and 3C can take you from beginner to job-ready; check admission rules and costs.",
-        "ar": "برامج مثل ITI (برنامج مهني مدته 9 أشهر للخريجين) وDEPI ومعسكرات مثل Route وSprints وGOMYCODE وC3 تنقلك من مبتدئ إلى جاهز للعمل؛ راجع شروط القبول والتكلفة."
+        "ar": "برامج زي ITI (برنامج مهني 9 شهور للخريجين) وDEPI وبوت كامبس زي Route وSprints وGOMYCODE وC3 بتنقلك من مبتدئ لجاهز للشغل؛ راجع شروط القبول والتكلفة."
       },
       {
         "en": "Many Egyptian developers are self-taught or switched from other degrees, but a degree helps with employer filters and with moving abroad.",
-        "ar": "كثير من المبرمجين في مصر تعلموا ذاتيًا أو تحولوا من تخصصات أخرى، لكن الشهادة تساعد في فلاتر الشركات وفي الانتقال للخارج."
+        "ar": "مبرمجين كتير في مصر اتعلموا لوحدهم أو حوّلوا من تخصصات تانية، بس الشهادة بتساعد في فلاتر الشركات وفي السفر."
       },
       {
         "en": "Applied technology (ICT) schools offer a vocational route into IT and programming.",
-        "ar": "مدارس التكنولوجيا التطبيقية (ICT) تقدم مسارًا فنيًا إلى تقنية المعلومات والبرمجة."
+        "ar": "مدارس التكنولوجيا التطبيقية (ICT) بتقدّم طريق فني لتكنولوجيا المعلومات والبرمجة."
       }
     ],
     "licensing": null
@@ -255,7 +255,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelancing and remote work for foreign clients is common in software, and some juniors earn far more remotely than locally. It needs good English, discipline and a proven portfolio, and you must manage taxes and irregular income yourself.",
-      "ar": "العمل الحر والعمل عن بعد لعملاء أجانب شائع في البرمجة، وبعض المبتدئين يكسبون عن بعد أكثر بكثير من السوق المحلي. يتطلب إنجليزية جيدة وانضباطًا ومحفظة أعمال، وعليك أن تدير الضرائب والدخل غير المنتظم بنفسك."
+      "ar": "الفري لانس والشغل من البيت لعملاء برّه منتشرين في البرمجة، وفيه مبتدئين بيكسبوا من بعيد أكتر بكتير من السوق المحلي. محتاج إنجليزي كويس والتزام وبورتفوليو، ولازم تدير الضرائب والدخل المش منتظم بنفسك."
     },
     "regions": [
       {
@@ -288,76 +288,76 @@
   },
   "global": {
     "en": "Egyptian developers work in the Gulf, Europe and North America, and many work remotely for foreign companies while living in Egypt. Gulf and EU visas, English or German skills and strong portfolios matter. Hiring in tech can slow in downturns, so keep learning.",
-    "ar": "يعمل المبرمجون المصريون في الخليج وأوروبا وأمريكا الشمالية، ويعمل كثيرون عن بعد لشركات أجنبية وهم في مصر. تهم تأشيرات الخليج والاتحاد الأوروبي ومهارات الإنجليزية أو الألمانية ومحافظ الأعمال القوية. قد يتباطأ التوظيف التقني في فترات الركود، فواصل التعلم."
+    "ar": "المبرمجين المصريين بيشتغلوا في الخليج وأوروبا وأمريكا الشمالية، وكتير بيشتغلوا من البيت لشركات برّه وهم في مصر. فيزا الخليج والاتحاد الأوروبي والإنجليزي أو الألماني والبورتفوليو القوي حاجات مهمة. والتعيين في التكنولوجيا ممكن يهدى في فترات الركود، فخليك بتتعلم."
   },
   "reality": {
     "pros": [
       {
         "en": "High demand and good growth in pay",
-        "ar": "طلب مرتفع ونمو جيد في الأجر"
+        "ar": "طلب عالي ومرتب بيكبر كويس"
       },
       {
         "en": "Remote and international options",
-        "ar": "خيارات للعمل عن بعد ودوليًا"
+        "ar": "فرص شغل من البيت ومع شركات برّه"
       },
       {
         "en": "Entry routes beyond a degree, including bootcamps and self-study",
-        "ar": "مسارات دخول أخرى غير الشهادة، منها المعسكرات والتعلم الذاتي"
+        "ar": "طرق دخول غير الشهادة، منها البوت كامبس والتعلم الذاتي"
       }
     ],
     "challenges": [
       {
         "en": "Entry-level competition is strong, with many graduates",
-        "ar": "منافسة قوية على وظائف المبتدئين مع كثرة الخريجين"
+        "ar": "منافسة جامدة على وظايف المبتدئين مع خريجين كتير"
       },
       {
         "en": "You must keep learning as tools change",
-        "ar": "عليك أن تواصل التعلم مع تغير الأدوات"
+        "ar": "لازم تفضل تتعلم لأن الأدوات بتتغير"
       },
       {
         "en": "Long hours near deadlines and sitting for many hours",
-        "ar": "ساعات طويلة قرب المواعيد وجلوس لساعات كثيرة"
+        "ar": "ساعات طويلة قرب الديدلاينز وقعدة كتير"
       },
       {
         "en": "AI tools are changing parts of the job, so understanding fundamentals matters more",
-        "ar": "أدوات الذكاء الاصطناعي تغير أجزاء من الوظيفة، فأساسيات الفهم أهم"
+        "ar": "أدوات الذكاء الاصطناعي بتغيّر أجزاء من الشغل، ففهم الأساسيات بقى أهم"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "You need to be a math genius to code.",
-          "ar": "تحتاج أن تكون عبقريًا في الرياضيات لتبرمج."
+          "ar": "لازم تكون عبقري رياضيات عشان تبرمج."
         },
         "fact": {
           "en": "Most programming needs logic and problem-solving more than advanced math.",
-          "ar": "معظم البرمجة تحتاج منطقًا وحلًا للمشكلات أكثر من رياضيات متقدمة."
+          "ar": "أغلب البرمجة محتاجة منطق وحل مشاكل أكتر من رياضيات متقدمة."
         }
       },
       {
         "myth": {
           "en": "AI will replace all programmers.",
-          "ar": "الذكاء الاصطناعي سيستبدل كل المبرمجين."
+          "ar": "الذكاء الاصطناعي هياخد مكان كل المبرمجين."
         },
         "fact": {
           "en": "AI tools speed up coding, but engineers who understand systems, requirements and quality are still needed. Learn to use AI as a tool.",
-          "ar": "أدوات الذكاء الاصطناعي تسرّع كتابة الكود، لكن المهندسين الذين يفهمون النظم والمتطلبات والجودة ما زالوا مطلوبين. تعلّم استخدامها كأداة."
+          "ar": "أدوات الذكاء الاصطناعي بتسرّع كتابة الكود، بس المهندسين اللي فاهمين الأنظمة والمتطلبات والجودة لسه مطلوبين. اتعلم تستخدمها كأداة."
         }
       },
       {
         "myth": {
           "en": "It is a job for men only.",
-          "ar": "هي وظيفة للرجال فقط."
+          "ar": "دي شغلانة للرجالة بس."
         },
         "fact": {
           "en": "Women work across Egyptian tech teams, and many programs welcome all genders.",
-          "ar": "تعمل النساء في فرق التقنية المصرية وكثير من البرامج ترحب بالجميع."
+          "ar": "البنات بيشتغلوا في فرق التكنولوجيا المصرية، وبرامج كتير بترحب بالكل."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Usually good with flexible or hybrid hours, but release dates and on-call duty can make some weeks intense. Remote work needs boundaries so work does not fill your day.",
-      "ar": "غالبًا جيدة مع ساعات مرنة أو هجينة، لكن مواعيد الإصدار والمناوبة قد تجعل بعض الأسابيع مزدحمة. العمل عن بعد يحتاج حدودًا حتى لا يملأ العمل يومك."
+      "ar": "غالبًا كويس بمواعيد مرنة أو هايبرد، بس مواعيد الإصدار والأون كول ممكن يخلّوا بعض الأسابيع زحمة. والشغل من البيت محتاج حدود عشان الشغل ما ياكلش يومك."
     }
   },
   "progression": {

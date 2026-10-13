@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You help people eat in a way that protects their health.",
-      "ar": "تساعد الناس على أن يأكلوا بطريقة تحمي صحتهم."
+      "ar": "بتساعد الناس ياكلوا بطريقة تحمي صحتهم."
     },
     "summary": {
       "en": "Clinical nutritionists assess what patients eat and design diet plans to help manage illnesses such as diabetes, high blood pressure or weight problems. They work with doctors and nurses in hospitals and clinics, and they also teach families about healthy habits. The work mixes science with a lot of talking and encouragement.",
-      "ar": "أخصائي التغذية العلاجية يقيّم ما يأكله المرضى ويصمم لهم أنظمة غذائية تساعد في التعامل مع أمراض مثل السكري وارتفاع الضغط ومشكلات الوزن. يعمل مع الأطباء والممرضين في المستشفيات والعيادات، ويعلّم الأسر عادات صحية. العمل يجمع بين العلم والكثير من الحديث والتشجيع."
+      "ar": "أخصائي التغذية العلاجية بيقيّم المرضى بياكلوا إيه وبيعملهم أنظمة أكل تساعدهم مع أمراض زي السكر والضغط ومشاكل الوزن. بيشتغل مع الدكاترة والتمريض في المستشفيات والعيادات، وكمان بيعلّم الأسر عادات صحية. الشغل بيجمع بين العلم وكلام وتشجيع كتير."
     },
     "dayInLife": {
       "en": "You start by reviewing the files and lab results of the patients you will see. In the clinic you ask a patient about their meals, check their weight and test results, and explain a simple plan that fits their budget and food habits. In the afternoon you meet a family to explain a diet for a child with diabetes, then you write your notes and follow up on patients you saw last week.",
-      "ar": "تبدأ يومك بمراجعة ملفات المرضى ونتائج تحاليلهم. في العيادة تسأل المريض عن وجباته وتتابع وزنه ونتائجه، وتشرح له خطة بسيطة تناسب ميزانيته وعاداته الغذائية. بعد الظهر تقابل أسرة لتشرح حمية لطفل مصاب بالسكري، ثم تكتب ملاحظاتك وتتابع مرضى قابلتهم الأسبوع الماضي."
+      "ar": "بتبدأ يومك بمراجعة ملفات المرضى ونتايج تحاليلهم. في العيادة تسأل المريض عن أكله، وتتابع وزنه ونتايجه، وتشرح له خطة بسيطة تناسب ميزانيته وعاداته في الأكل. بعد الضهر تقابل أسرة تشرح لهم نظام أكل لطفل عنده سكر، وبعدين تكتب ملاحظاتك وتتابع مرضى شفتهم الأسبوع اللي فات."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Assess patients' eating habits, weight and test results.",
-        "ar": "تقيّم عادات المرضى الغذائية ووزنهم ونتائج تحاليلهم."
+        "ar": "بتقيّم عادات المرضى في الأكل ووزنهم ونتايج تحاليلهم."
       },
       {
         "en": "Design diet plans for conditions such as diabetes, heart disease and obesity.",
-        "ar": "تصمم أنظمة غذائية لحالات مثل السكري وأمراض القلب والسمنة."
+        "ar": "بتعمل أنظمة أكل لحالات زي السكر وأمراض القلب والسمنة."
       },
       {
         "en": "Explain food choices and preparation in simple words, respecting each family's habits and beliefs.",
-        "ar": "تشرح اختيار الطعام وتحضيره بكلمات بسيطة مع احترام عادات كل أسرة ومعتقداتها."
+        "ar": "بتشرح اختيار الأكل وتحضيره بكلام بسيط، وبتحترم عادات كل أسرة ومعتقداتها."
       },
       {
         "en": "Follow up on progress and adjust the plan.",
-        "ar": "تتابع تقدم المريض وتعدّل الخطة."
+        "ar": "بتتابع تقدم المريض وتعدّل الخطة."
       },
       {
         "en": "Work with doctors and nurses as part of the care team.",
-        "ar": "تعمل مع الأطباء والممرضين ضمن فريق الرعاية."
+        "ar": "بتشتغل مع الدكاترة والتمريض كجزء من فريق الرعاية."
       }
     ],
     "environments": [
@@ -101,11 +101,11 @@
     "alternativeRoutes": [
       {
         "en": "A degree in a related science (for example biology, biochemistry or food science), followed by a diploma or master's in clinical nutrition.",
-        "ar": "درجة جامعية في علم قريب (مثل الأحياء أو الكيمياء الحيوية أو علوم الأغذية) ثم دبلوم أو ماجستير في التغذية العلاجية."
+        "ar": "شهادة في علم قريب (زي الأحياء أو الكيميا الحيوية أو علوم الأغذية)، وبعدين دبلومة أو ماجستير في التغذية العلاجية."
       },
       {
         "en": "Short courses and international certificates in sports or clinical nutrition can add skills but do not replace a degree.",
-        "ar": "الدورات القصيرة والشهادات الدولية في تغذية الرياضيين أو التغذية العلاجية تضيف مهارات لكنها لا تغني عن الدرجة الجامعية."
+        "ar": "الكورسات القصيرة والشهادات الدولية في تغذية الرياضيين أو التغذية العلاجية بتزوّد مهاراتك، بس ما بتغنيش عن الشهادة الجامعية."
       }
     ],
     "licensing": {
@@ -136,7 +136,7 @@
       },
       {
         "en": "Opening your own nutrition clinic",
-        "ar": "فتح عيادة تغذية خاصة"
+        "ar": "تفتح عيادة تغذية بتاعتك"
       }
     ]
   },

@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You build and maintain the machines that keep patients alive.",
-      "ar": "أنت من يصنع ويصون الأجهزة التي تبقي المرضى على قيد الحياة."
+      "ar": "إنت اللي بتعمل وبتصون الأجهزة اللي بتحافظ على حياة المرضى."
     },
     "summary": {
       "en": "Biomedical engineers design, test and maintain medical equipment such as monitors, ventilators, imaging machines and prosthetics. They sit between engineering and medicine, working with doctors and nurses. Hospitals depend on them to keep devices safe and working.",
-      "ar": "المهندس الطبي الحيوي يصمم الأجهزة الطبية ويختبرها ويصونها، مثل أجهزة المراقبة والتنفس الصناعي والأشعة والأطراف الصناعية. يقف بين الهندسة والطب ويتعاون مع الأطباء والممرضين. وتعتمد المستشفيات عليه لإبقاء الأجهزة آمنة وتعمل."
+      "ar": "المهندس الطبي الحيوي بيصمم الأجهزة الطبية ويختبرها ويصونها، زي أجهزة المراقبة والتنفس الصناعي والأشعة والأطراف الصناعية. هو في النص بين الهندسة والطب، وبيشتغل مع الدكاترة والتمريض. والمستشفيات معتمدة عليه عشان الأجهزة تفضل آمنة وشغالة."
     },
     "dayInLife": {
       "en": "A nurse reports that a patient monitor is showing odd readings, so you go to the ward, test it, and find a faulty sensor. You replace it, calibrate the device and write it in the maintenance log. Later you meet a doctor who wants to buy a new machine and compare two models with them. You end the day checking the schedule of safety tests for the whole department.",
-      "ar": "تبلّغك ممرضة بأن جهاز مراقبة المريض يعطي قراءات غريبة، فتذهب إلى القسم وتختبره وتكتشف حساسًا معطلًا. تستبدله وتعايره وتدوّن ذلك في سجل الصيانة. لاحقًا تجلس مع طبيب يريد شراء جهاز جديد وتقارنان بين طرازين. وتنهي يومك بمراجعة جدول اختبارات السلامة لكل القسم."
+      "ar": "ممرضة بتبلّغك إن جهاز مراقبة مريض بيطلّع قراءات غريبة، فتروح القسم وتختبره وتلاقي حساس بايظ. تغيّره وتعاير الجهاز وتكتب ده في سجل الصيانة. بعدها تقعد مع دكتور عايز يشتري جهاز جديد وتقارنوا بين موديلين. وتقفل يومك بمراجعة جدول اختبارات السلامة للقسم كله."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Install, test and calibrate medical devices.",
-        "ar": "تركّب الأجهزة الطبية وتختبرها وتعايرها."
+        "ar": "بتركّب الأجهزة الطبية وتختبرها وتعايرها."
       },
       {
         "en": "Repair equipment and run preventive maintenance.",
-        "ar": "تصلح الأجهزة وتجري الصيانة الوقائية."
+        "ar": "بتصلّح الأجهزة وتعمل الصيانة الوقائية."
       },
       {
         "en": "Train doctors and nurses to use devices safely.",
-        "ar": "تدرّب الأطباء والممرضين على استخدام الأجهزة بأمان."
+        "ar": "بتدرّب الدكاترة والتمريض يستخدموا الأجهزة بأمان."
       },
       {
         "en": "Help choose and buy new equipment.",
-        "ar": "تساعد في اختيار الأجهزة الجديدة وشرائها."
+        "ar": "بتساعد في اختيار الأجهزة الجديدة وشرائها."
       },
       {
         "en": "Design or improve devices and software with research or product teams.",
-        "ar": "تصمم أو تحسّن أجهزة وبرامج مع فرق الأبحاث أو المنتجات."
+        "ar": "بتصمم أو تحسّن أجهزة وبرامج مع فرق الأبحاث أو المنتجات."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "Electronics or electrical engineering, then a diploma or master's in biomedical engineering.",
-        "ar": "هندسة إلكترونيات أو كهرباء ثم دبلوم أو ماجستير في الهندسة الطبية الحيوية."
+        "ar": "هندسة إلكترونيات أو كهربا، وبعدين دبلومة أو ماجستير في الهندسة الطبية الحيوية."
       },
       {
         "en": "Technical institute diploma in medical equipment, then work as a technician and study further part-time.",
-        "ar": "دبلوم معهد فني في الأجهزة الطبية ثم العمل كفني مع استكمال الدراسة."
+        "ar": "دبلوم معهد فني في الأجهزة الطبية، وبعدين تشتغل فني وتكمّل دراستك جنب الشغل."
       }
     ],
     "licensing": {

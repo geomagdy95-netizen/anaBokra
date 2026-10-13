@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You guide machines that cut metal to the width of a hair.",
-      "ar": "توجّه ماكينات تقطع المعدن بدقة تقارب سُمك الشعرة."
+      "ar": "بتوجّه مكن بيقطع المعدن بدقة قد سُمك الشعرة."
     },
     "summary": {
       "en": "CNC machine operators set up and run computer-controlled machines that cut and shape metal, plastic or wood parts. They read drawings, load programs, measure the parts and fix small problems. Accuracy and patience are key, and experienced operators can move on to programming.",
-      "ar": "مشغّل ماكينات CNC يجهّز ويشغّل ماكينات تتحكم فيها الحواسيب لقطع وتشكيل قطع المعدن أو البلاستيك أو الخشب. يقرأ الرسومات ويحمّل البرامج ويقيس القطع ويصلح المشكلات الصغيرة. الدقة والصبر أساسيان، ويمكن للمشغّل الخبير أن ينتقل إلى البرمجة."
+      "ar": "مشغّل مكن الـCNC بيجهّز ويشغّل مكن بيتحكم فيه كمبيوتر عشان يقطع ويشكّل قطع معدن أو بلاستيك أو خشب. بيقرا الرسومات، ويحمّل البرامج، ويقيس القطع، ويصلّح المشاكل الصغيرة. الدقة والصبر أساس الشغلانة، والمشغّل اللي عنده خبرة ممكن ينقل للبرمجة."
     },
     "dayInLife": {
       "en": "You read the drawing of today's part and load the metal into the machine. You select the program, set the tools and run the first part slowly. Then you measure it with a caliper to check it matches the drawing. If it is right, the machine runs the batch while you check tools and clean chips.",
-      "ar": "تقرأ رسم قطعة اليوم وتحمّل المعدن في الماكينة. تختار البرنامج وتضبط الأدوات وتشغّل أول قطعة ببطء. ثم تقيسها بالقدمة لتتأكد أنها مطابقة للرسم. وإن كانت سليمة تعمل الماكينة على الدفعة بينما تفحص الأدوات وتنظف البرادة."
+      "ar": "بتقرا رسمة قطعة النهارده وتركّب المعدن في المكنة. تختار البرنامج، وتظبط العدّة، وتشغّل أول قطعة على مهلها. بعدين تقيسها بالقدمة تتأكد إنها مطابقة للرسمة. لو مظبوطة المكنة تكمّل الدفعة، وإنت تكشف على العدّة وتنضّف الرايش."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Read technical drawings and choose the right tools.",
-        "ar": "تقرأ الرسومات الفنية وتختار الأدوات المناسبة."
+        "ar": "بتقرا الرسومات الفنية وتختار العدّة المناسبة."
       },
       {
         "en": "Load programs and set up CNC machines.",
-        "ar": "تحمّل البرامج وتجهّز ماكينات CNC."
+        "ar": "بتحمّل البرامج وتجهّز مكن الـCNC."
       },
       {
         "en": "Run the machine and watch for problems.",
-        "ar": "تشغّل الماكينة وتراقب المشكلات."
+        "ar": "بتشغّل المكنة وتاخد بالك من أي مشكلة."
       },
       {
         "en": "Measure finished parts to meet tolerances.",
-        "ar": "تقيس القطع المنتهية لتطابق التفاوتات."
+        "ar": "بتقيس القطع الجاهزة عشان تبقى في حدود السماح."
       },
       {
         "en": "Maintain tools and follow workshop safety rules.",
-        "ar": "تصون الأدوات وتلتزم بقواعد السلامة في الورشة."
+        "ar": "بتصون العدّة وتلتزم بقواعد السلامة في الورشة."
       }
     ],
     "environments": [
@@ -103,11 +103,11 @@
     "alternativeRoutes": [
       {
         "en": "Productivity and Vocational Training Department (PVTD) centres, with machining and turning trades.",
-        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني بحرف الخراطة والتشغيل."
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني، وفيها صنعة الخراطة والتشغيل."
       },
       {
         "en": "Start as a helper in a machining workshop and train on CNC machines on the job.",
-        "ar": "البدء كمساعد في ورشة تشغيل والتدرب على ماكينات CNC أثناء العمل."
+        "ar": "تبدأ مساعد في ورشة خراطة وتتدرّب على مكن الـCNC من الشغل."
       }
     ],
     "licensing": {
@@ -138,7 +138,7 @@
       },
       {
         "en": "Opening your own machining workshop",
-        "ar": "فتح ورشة تشغيل خاصة"
+        "ar": "تفتح ورشة خراطة بتاعتك"
       }
     ]
   },

@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You serve and protect the country as an officer, with training and discipline.",
-      "ar": "تخدم الوطن وتحميه كضابط بتدريب وانضباط."
+      "ar": "بتخدم البلد وتحميها كضابط، بتدريب وانضباط."
     },
     "summary": {
       "en": "Police and armed forces officers lead teams that keep public order or defend the country. You enter right after Thanaweya Amma through the Police Academy or the Military College, each with its own application, tests and conditions. It is a public service career with strict rules, a demanding schedule and a strong team culture; this page describes the official routes only.",
-      "ar": "ضباط الشرطة والقوات المسلحة يقودون فرقًا تحفظ النظام العام أو تدافع عن الوطن. تدخل مباشرة بعد الثانوية العامة عبر أكاديمية الشرطة أو الكلية الحربية، ولكل منهما تقديمه واختباراته وشروطه. هي وظيفة خدمة عامة بقواعد صارمة وجدول مطالب وروح فريق قوية، وتوضح هذه الصفحة المسارات الرسمية فقط."
+      "ar": "ضباط الشرطة والقوات المسلحة بيقودوا فرق بتحافظ على النظام العام أو بتدافع عن البلد. بتدخل على طول بعد الثانوية العامة عن طريق أكاديمية الشرطة أو الكلية الحربية، وكل واحدة ليها تقديمها واختباراتها وشروطها. ودي وظيفة خدمة عامة بقواعد صارمة وجدول متعب وروح فريق قوية؛ والصفحة دي بتشرح الطرق الرسمية بس."
     },
     "dayInLife": {
       "en": "Days differ a lot by unit and rank. As a young officer you might start with physical training in the morning, then a briefing on the day's duties. You lead a small team, check that equipment and procedures are correct, and write reports. Part of the week is training in tactics, law and first aid. You may be on duty at night or on a holiday. Throughout, you follow orders within the law and look after the people in your team.",
-      "ar": "تختلف الأيام كثيرًا حسب الوحدة والرتبة. كضابط شاب قد تبدأ بالتدريب البدني صباحًا ثم إحاطة بمهام اليوم. تقود فريقًا صغيرًا وتتأكد من سلامة المعدات والإجراءات وتكتب التقارير. جزء من الأسبوع تدريب على التكتيكات والقانون والإسعافات الأولية. قد تكون في الخدمة ليلًا أو في عطلة. وفي كل ذلك تنفذ الأوامر في حدود القانون وترعى أفراد فريقك."
+      "ar": "الأيام بتختلف جدًا حسب الوحدة والرتبة. كضابط صغير ممكن تبدأ بالتدريب البدني الصبح، وبعدين بريفينج بمهام اليوم. بتقود فريق صغير، وتتأكد إن المعدات والإجراءات مظبوطة، وتكتب التقارير. جزء من الأسبوع تدريب على التكتيكات والقانون والإسعافات الأولية. وممكن تبقى في الخدمة بالليل أو في إجازة. وفي كل ده بتنفّذ الأوامر في حدود القانون وبتاخد بالك من أفراد فريقك."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Lead a team and give clear instructions.",
-        "ar": "تقود فريقًا وتعطي تعليمات واضحة."
+        "ar": "بتقود فريق وتدّي تعليمات واضحة."
       },
       {
         "en": "Police: protect public safety, prevent and investigate crime, and manage traffic and security at events.",
-        "ar": "الشرطة: حماية الأمن العام ومنع الجريمة والتحقيق فيها وتنظيم المرور والأمن في الفعاليات."
+        "ar": "الشرطة: حماية الأمن العام، ومنع الجريمة والتحقيق فيها، وتنظيم المرور والأمن في الفعاليات."
       },
       {
         "en": "Armed forces: train, maintain readiness and carry out duties assigned by the command, which differ by branch and specialty.",
-        "ar": "القوات المسلحة: التدريب والحفاظ على الجاهزية وتنفيذ المهام التي تحددها القيادة، وتختلف حسب السلاح والتخصص."
+        "ar": "القوات المسلحة: التدريب والحفاظ على الجاهزية وتنفيذ المهام اللي القيادة بتحددها، وبتختلف حسب السلاح والتخصص."
       },
       {
         "en": "Write reports and follow procedures and the law.",
-        "ar": "كتابة التقارير واتباع الإجراءات والقانون."
+        "ar": "بتكتب التقارير وتمشي على الإجراءات والقانون."
       },
       {
         "en": "Train in physical fitness, first aid, weapons safety and communication.",
-        "ar": "التدريب على اللياقة والإسعافات الأولية وسلامة الأسلحة والتواصل."
+        "ar": "بتتدرب على اللياقة والإسعافات الأولية وسلامة السلاح والتواصل."
       },
       {
         "en": "Look after the welfare and discipline of your team.",
-        "ar": "رعاية أفراد فريقك وانضباطهم."
+        "ar": "بتاخد بالك من أفراد فريقك وانضباطهم."
       }
     ],
     "environments": [
@@ -111,15 +111,15 @@
     "alternativeRoutes": [
       {
         "en": "University graduates can apply as specialist officers in some announcements (for example lawyers, doctors, engineers), according to each announcement.",
-        "ar": "يمكن لخريجي الجامعات التقدم كضباط متخصصين في بعض الإعلانات (مثل الحقوقيين والأطباء والمهندسين) بحسب كل إعلان."
+        "ar": "خريجين الجامعات ممكن يقدّموا كضباط متخصصين في بعض الإعلانات (زي الحقوقيين والدكاترة والمهندسين)، حسب كل إعلان."
       },
       {
         "en": "Technical military institutes and sports schools listed in Armed Forces announcements lead to non-commissioned or technical careers.",
-        "ar": "المعاهد الفنية العسكرية والمدارس الرياضية المعلنة تقود إلى مسارات فنية وضباط صف."
+        "ar": "المعاهد الفنية العسكرية والمدارس الرياضية اللي بتتعلن بتوصّل لمسارات فنية وضباط صف."
       },
       {
         "en": "Civilian security careers: private security management, emergency management and civil protection.",
-        "ar": "مسارات أمنية مدنية: إدارة الأمن الخاص وإدارة الطوارئ والحماية المدنية."
+        "ar": "طرق أمنية مدنية: إدارة الأمن الخاص، وإدارة الطوارئ، والحماية المدنية."
       }
     ],
     "licensing": {
@@ -217,6 +217,10 @@
   },
   "marketEgypt": {
     "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "No citable salary figure was found. Officers are paid on official scales that depend on rank and allowances, and we did not find a current published scale, so no number is given.",
+      "ar": "لم نعثر على رقم راتب يمكن الاستشهاد به. يتقاضى الضباط رواتب وفق جداول رسمية تعتمد على الرتبة والبدلات، ولم نجد جدولًا منشورًا حديثًا، لذلك لا نقدم رقمًا."
+    },
     "demand": "medium",
     "employers": [
       {
@@ -233,8 +237,8 @@
       }
     ],
     "freelanceRemote": {
-      "en": "Salary: No citable salary figure was found. Officers are paid on official scales that depend on rank and allowances, and we did not find a current published scale. No number is given. Not applicable during service. After service, some officers work in security consulting, training or management.",
-      "ar": "الراتب: لم نعثر على رقم راتب يمكن الاستشهاد به. يتقاضى الضباط رواتب وفق جداول رسمية تعتمد على الرتبة والبدلات، ولم نجد جدولًا منشورًا حديثًا. لذلك لا نقدم رقمًا. لا ينطبق أثناء الخدمة. بعد الخدمة يعمل بعض الضباط في الاستشارات الأمنية والتدريب والإدارة."
+      "en": "Not applicable during service. After service, some officers work in security consulting, training or management.",
+      "ar": "ما ينفعش وإنت في الخدمة. وبعد الخدمة فيه ضباط بيشتغلوا في الاستشارات الأمنية والتدريب والإدارة."
     },
     "regions": [
       {
@@ -250,17 +254,17 @@
   },
   "global": {
     "en": "Officers serve in Egypt, with some training courses, missions and postings abroad (for example in international peacekeeping or attaché roles) decided by the institution. After retirement, security, management and training experience can be used in the Gulf and in companies, but the career itself is within the Egyptian state.",
-    "ar": "يخدم الضباط في مصر، مع دورات تدريبية وبعثات وتعيينات خارجية أحيانًا (مثل قوات حفظ السلام أو الملحقين) تقررها المؤسسة. بعد التقاعد يمكن استخدام الخبرة في الأمن والإدارة والتدريب في الخليج وفي الشركات، لكن المهنة نفسها داخل الدولة المصرية."
+    "ar": "الضباط بيخدموا في مصر، ومعاها أحيانًا دورات تدريبية وبعثات وتعيينات برّه (زي قوات حفظ السلام أو الملحقين) المؤسسة هي اللي بتقررها. بعد التقاعد خبرة الأمن والإدارة والتدريب ممكن تتستخدم في الخليج وفي الشركات، بس المهنة نفسها جوه الدولة المصرية."
   },
   "reality": {
     "pros": [
       {
         "en": "Clear structure, training and responsibility from a young age",
-        "ar": "هيكل واضح وتدريب ومسؤولية من سن مبكرة"
+        "ar": "نظام واضح وتدريب ومسؤولية من سن صغير"
       },
       {
         "en": "A sense of purpose in serving the country",
-        "ar": "إحساس بالهدف في خدمة الوطن"
+        "ar": "إحساس بالهدف في خدمة البلد"
       },
       {
         "en": "Stable career with defined ranks",
@@ -270,52 +274,52 @@
     "challenges": [
       {
         "en": "Strict discipline, possible night duty and postings far from home",
-        "ar": "انضباط صارم وقد توجد مناوبات ليلية وتعيينات بعيدة عن البيت"
+        "ar": "انضباط صارم، وممكن نبطشيات بالليل وتعيينات بعيد عن البيت"
       },
       {
         "en": "Demanding physical and medical standards, with strict entry conditions such as age, family status and height",
-        "ar": "معايير بدنية وطبية صعبة وشروط دخول صارمة مثل السن والحالة الاجتماعية والطول"
+        "ar": "معايير بدنية وطبية صعبة، وشروط دخول صارمة زي السن والحالة الاجتماعية والطول"
       },
       {
         "en": "Risk and stress in some duties, and limits on personal freedom during service",
-        "ar": "مخاطر وضغوط في بعض المهام وقيود على الحرية الشخصية أثناء الخدمة"
+        "ar": "مخاطر وضغوط في بعض المهام، وقيود على حريتك الشخصية وإنت في الخدمة"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Only the physically strongest are accepted.",
-          "ar": "يُقبل الأقوى بدنيًا فقط."
+          "ar": "بيقبلوا الأقوى جسمانيًا بس."
         },
         "fact": {
           "en": "Fitness matters, but selection also checks medical status, psychology, aptitude and interview.",
-          "ar": "اللياقة مهمة، لكن الاختيار يفحص أيضًا الحالة الطبية والنفسية والقدرات والمقابلة."
+          "ar": "اللياقة مهمة، بس الاختيار كمان بيكشف على الحالة الطبية والنفسية والقدرات والمقابلة."
         }
       },
       {
         "myth": {
           "en": "A high Thanaweya Amma score guarantees admission.",
-          "ar": "المجموع العالي يضمن القبول."
+          "ar": "المجموع العالي بيضمن القبول."
         },
         "fact": {
           "en": "The minimum score only lets you sit the tests. Seats are limited and the other stages decide.",
-          "ar": "المجموع الأدنى يسمح لك بدخول الاختبارات فقط. المقاعد محدودة والمراحل الأخرى تحسم."
+          "ar": "الحد الأدنى للمجموع بيدخّلك الاختبارات بس. الأماكن محدودة والمراحل التانية هي اللي بتحسم."
         }
       },
       {
         "myth": {
           "en": "The job is the same in the police and the army.",
-          "ar": "الوظيفة واحدة في الشرطة والجيش."
+          "ar": "الشغل واحد في الشرطة والجيش."
         },
         "fact": {
           "en": "They are different institutions with different missions, training and rules.",
-          "ar": "هما مؤسستان مختلفتان بمهام وتدريب وقواعد مختلفة."
+          "ar": "دول مؤسستين مختلفتين بمهام وتدريب وقواعد مختلفة."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Hours depend on unit and duty. Shifts, night duty and postings away from family are common, especially early in the career.",
-      "ar": "تعتمد الساعات على الوحدة والمهمة. المناوبات والخدمة الليلية والبعد عن الأسرة شائعة، خاصة في بداية المسيرة."
+      "ar": "المواعيد بتعتمد على الوحدة والمهمة. النبطشيات والخدمة بالليل والبعد عن العيلة حاجات منتشرة، خصوصًا في أول المشوار."
     }
   },
   "progression": {

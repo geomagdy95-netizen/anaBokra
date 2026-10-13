@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You make food safer, tastier and longer-lasting.",
-      "ar": "تجعل الطعام أكثر أمانًا ولذة وأطول صلاحية."
+      "ar": "بتخلّي الأكل أأمن وأطعم ويعيش أطول."
     },
     "summary": {
       "en": "Food scientists study what food is made of and how it changes, then develop new products and check quality and safety. They work in factories, labs and research centres. Egypt has a large food industry, so there are many places where this knowledge is used.",
-      "ar": "عالم الأغذية يدرس مكونات الطعام وكيف يتغير، ثم يطوّر منتجات جديدة ويفحص الجودة والسلامة. يعمل في المصانع والمعامل ومراكز الأبحاث. وفي مصر صناعة أغذية كبيرة، لذلك توجد أماكن كثيرة تستخدم هذه المعرفة."
+      "ar": "عالم الأغذية بيدرس الأكل معمول من إيه وبيتغير إزاي، وبعدين بيطوّر منتجات جديدة ويفحص الجودة والسلامة. بيشتغل في المصانع والمعامل ومراكز الأبحاث. ومصر فيها صناعة أغذية كبيرة، فيه أماكن كتير بتستخدم المعرفة دي."
     },
     "dayInLife": {
       "en": "You test a batch of yoghurt in the lab: acidity, taste and bacteria count. One sample looks different, so you check the production record. After that you try a new recipe with less sugar and ask colleagues to taste it. Before leaving, you write the results and update the quality report.",
-      "ar": "تختبر دفعة زبادي في المعمل: الحموضة والطعم وعدد البكتيريا. إحدى العينات تبدو مختلفة فتراجع سجل الإنتاج. بعد ذلك تجرب وصفة جديدة بسكر أقل وتطلب من زملائك تذوقها. قبل المغادرة تكتب النتائج وتحدّث تقرير الجودة."
+      "ar": "بتختبر دفعة زبادي في المعمل: الحموضة والطعم وعدد البكتيريا. فيه عينة شكلها مختلف، فتراجع سجل الإنتاج. بعدها تجرّب وصفة جديدة بسكر أقل وتطلب من زمايلك يدوقوها. وقبل ما تمشي تكتب النتايج وتحدّث تقرير الجودة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Test food samples for quality, nutrition and safety.",
-        "ar": "تختبر عينات الغذاء للجودة والتغذية والسلامة."
+        "ar": "بتختبر عينات الأكل للجودة والتغذية والسلامة."
       },
       {
         "en": "Develop new products and improve recipes.",
-        "ar": "تطوّر منتجات جديدة وتحسّن الوصفات."
+        "ar": "بتطوّر منتجات جديدة وتحسّن الوصفات."
       },
       {
         "en": "Check that production follows hygiene and safety rules.",
-        "ar": "تتأكد أن الإنتاج يلتزم بقواعد النظافة والسلامة."
+        "ar": "بتتأكد إن الإنتاج ماشي على قواعد النضافة والسلامة."
       },
       {
         "en": "Study shelf life, packaging and storage.",
-        "ar": "تدرس مدة الصلاحية والتعبئة والتخزين."
+        "ar": "بتدرس مدة الصلاحية والتعبئة والتخزين."
       },
       {
         "en": "Write reports and work with production and marketing teams.",
-        "ar": "تكتب التقارير وتتعاون مع فرق الإنتاج والتسويق."
+        "ar": "بتكتب التقارير وتشتغل مع فرق الإنتاج والتسويق."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Technical agricultural or industrial school, then work in a food factory lab and continue studying.",
-        "ar": "مدرسة فنية زراعية أو صناعية ثم العمل في معمل مصنع أغذية واستكمال الدراسة."
+        "ar": "مدرسة فنية زراعية أو صناعية، وبعدين تشتغل في معمل مصنع أغذية وتكمّل دراستك."
       },
       {
         "en": "Short courses in food safety (HACCP, ISO 22000) add skills but do not replace a degree.",
-        "ar": "دورات قصيرة في سلامة الغذاء (HACCP وISO 22000) تضيف مهارات لكنها لا تغني عن الدرجة."
+        "ar": "كورسات قصيرة في سلامة الغذاء (HACCP وISO 22000) بتزوّد مهاراتك، بس ما بتغنيش عن الشهادة."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Starting a food business",
-        "ar": "بدء مشروع أغذية"
+        "ar": "تبدأ مشروع أكل بتاعك"
       }
     ]
   },

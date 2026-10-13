@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You turn raw materials into products people use every day.",
-      "ar": "تحوّل المواد الخام إلى منتجات يستخدمها الناس كل يوم."
+      "ar": "بتحوّل المواد الخام لمنتجات الناس بتستخدمها كل يوم."
     },
     "summary": {
       "en": "Chemical engineers design and run the processes that make fuel, plastics, fertilizer, medicine, food and many other products. They use chemistry, physics and maths to make production safe, efficient and clean. Egypt has many plants and refineries where this work happens.",
-      "ar": "المهندس الكيميائي يصمم ويشغّل العمليات التي تنتج الوقود والبلاستيك والأسمدة والدواء والغذاء ومنتجات كثيرة غيرها. يستخدم الكيمياء والفيزياء والرياضيات ليجعل الإنتاج آمنًا وكفؤًا ونظيفًا. وفي مصر مصانع ومعامل تكرير كثيرة يتم فيها هذا العمل."
+      "ar": "المهندس الكيميائي بيصمم ويشغّل العمليات اللي بتطلّع الوقود والبلاستيك والسماد والدوا والأكل ومنتجات تانية كتير. بيستخدم الكيميا والفيزيا والرياضيات عشان يخلّي الإنتاج آمن وكفء ونضيف. ومصر فيها مصانع ومعامل تكرير كتير بيتعمل فيها الشغل ده."
     },
     "dayInLife": {
       "en": "You walk through the plant and check temperatures, pressures and flow on the control screens. One reactor is producing less than planned, so you review the data with the operators and suggest a small change. After lunch you join a safety meeting, then work on a report that compares two ways to cut energy use. Safety checks come before everything else.",
-      "ar": "تتجول في المصنع وتتابع درجات الحرارة والضغط والتدفق على شاشات التحكم. أحد المفاعلات ينتج أقل من المخطط، فتراجع البيانات مع المشغّلين وتقترح تعديلًا صغيرًا. بعد الغداء تحضر اجتماع السلامة، ثم تعمل على تقرير يقارن طريقتين لتقليل استهلاك الطاقة. فحوصات السلامة تأتي قبل أي شيء."
+      "ar": "بتلف في المصنع وتتابع الحرارة والضغط والتدفق على شاشات التحكم. فيه مفاعل بيطلّع أقل من المخطط، فتراجع البيانات مع المشغّلين وتقترح تعديل صغير. بعد الغدا تحضر اجتماع السلامة، وبعدين تشتغل على تقرير بيقارن بين طريقتين لتقليل استهلاك الطاقة. فحوصات السلامة قبل أي حاجة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Design and improve production processes and equipment.",
-        "ar": "تصمم عمليات الإنتاج والمعدات وتحسّنها."
+        "ar": "بتصمم عمليات الإنتاج والمعدات وتحسّنها."
       },
       {
         "en": "Monitor plant data and fix problems that reduce quality or output.",
-        "ar": "تتابع بيانات المصنع وتحل المشكلات التي تقلل الجودة أو الإنتاج."
+        "ar": "بتتابع بيانات المصنع وتحل المشاكل اللي بتقلّل الجودة أو الإنتاج."
       },
       {
         "en": "Test new materials and methods in the lab or small pilot plants.",
-        "ar": "تختبر مواد وطرقًا جديدة في المعمل أو في وحدات تجريبية صغيرة."
+        "ar": "بتجرّب مواد وطرق جديدة في المعمل أو في وحدات تجريبية صغيرة."
       },
       {
         "en": "Make sure processes follow safety and environmental rules.",
-        "ar": "تتأكد من التزام العمليات بقواعد السلامة والبيئة."
+        "ar": "بتتأكد إن العمليات ماشية على قواعد السلامة والبيئة."
       },
       {
         "en": "Estimate costs and write technical reports.",
-        "ar": "تقدّر التكاليف وتكتب التقارير الفنية."
+        "ar": "بتقدّر التكاليف وتكتب التقارير الفنية."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Industrial technical secondary school or technical institute, then work as a plant technician while you study part-time for a degree.",
-        "ar": "الثانوية الفنية الصناعية أو المعهد الفني ثم العمل كفني في مصنع مع استكمال الدراسة الجامعية."
+        "ar": "الثانوي الفني الصناعي أو معهد فني، وبعدين تشتغل فني في مصنع وإنت بتكمّل الجامعة."
       },
       {
         "en": "A degree in chemistry, then a master's or training in process engineering.",
-        "ar": "درجة في الكيمياء ثم ماجستير أو تدريب في هندسة العمليات."
+        "ar": "شهادة في الكيميا، وبعدين ماجستير أو تدريب في هندسة العمليات."
       }
     ],
     "licensing": {

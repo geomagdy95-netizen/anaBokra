@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You treat animals, from pets to farm livestock, and protect people from diseases that pass from animals.",
-      "ar": "تعالج الحيوانات من القطط والكلاب إلى مواشي المزارع، وتحمي الناس من الأمراض التي تنتقل من الحيوان."
+      "ar": "بتعالج الحيوانات، من القطط والكلاب لمواشي المزارع، وبتحمي الناس من الأمراض اللي بتنتقل من الحيوانات."
     },
     "summary": {
       "en": "Veterinarians diagnose and treat animals, vaccinate herds, and help keep food safe. In Egypt you study five years in a Faculty of Veterinary Medicine. Most work is with livestock and poultry outside the big cities; pet clinics are growing in Cairo, Giza and Alexandria.",
-      "ar": "الطبيب البيطري يشخّص الحيوانات ويعالجها ويطعّم القطعان ويساعد في سلامة الغذاء. في مصر تدرس خمس سنوات في كلية الطب البيطري. معظم العمل مع الماشية والدواجن خارج المدن الكبرى، وتنمو عيادات الحيوانات الأليفة في القاهرة والجيزة والإسكندرية."
+      "ar": "الدكتور البيطري بيشخّص الحيوانات ويعالجها، ويطعّم القطعان، ويساعد في سلامة الأكل. في مصر بتدرس خمس سنين في كلية الطب البيطري. أغلب الشغل مع المواشي والدواجن برّه المدن الكبيرة، وعيادات الحيوانات الأليفة بتكبر في القاهرة والجيزة وإسكندرية."
     },
     "dayInLife": {
       "en": "You leave early for a dairy farm in the Delta where a cow has stopped eating. You examine her, take a blood sample, and explain the treatment to the farmer. Then you vaccinate calves and write the records. In the afternoon you open your small clinic in town: a cat with a swollen paw, a dog due for its rabies shot. You clean your instruments, answer a worried owner on the phone, and fill in the day's notes before going home with a bit of mud on your boots.",
-      "ar": "تخرج مبكرًا إلى مزرعة ألبان في الدلتا حيث توقفت بقرة عن الأكل. تفحصها وتأخذ عينة دم وتشرح العلاج للمزارع. ثم تطعّم العجول وتدوّن السجلات. بعد الظهر تفتح عيادتك الصغيرة في البلدة: قطة بقدم متورمة وكلب يحتاج حقنة السعار. تنظف أدواتك وترد على صاحب قلق في الهاتف وتكمل ملاحظات اليوم ثم تعود إلى البيت وفي حذائك بعض الطين."
+      "ar": "بتخرج بدري لمزرعة ألبان في الدلتا، فيها بقرة بطّلت تاكل. تكشف عليها، وتاخد عينة دم، وتشرح العلاج للمزارع. بعدين تطعّم العجول وتكتب السجلات. بعد الضهر تفتح عيادتك الصغيرة في البلد: قطة رجلها وارمة، وكلب ميعاد حقنة السعار بتاعته جه. تنضّف أدواتك، وترد على صاحب حيوان قلقان في التليفون، وتكمّل ملاحظات اليوم، وتروّح وفي الجزمة شوية طين."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Examine sick or injured animals and diagnose the problem.",
-        "ar": "تفحص الحيوانات المريضة أو المصابة وتشخّص المشكلة."
+        "ar": "بتكشف على الحيوانات التعبانة أو المتعورة وتشخّص المشكلة."
       },
       {
         "en": "Treat with medicine, wound care or surgery.",
-        "ar": "تعالج بالأدوية أو العناية بالجروح أو الجراحة."
+        "ar": "بتعالج بالأدوية أو العناية بالجروح أو الجراحة."
       },
       {
         "en": "Vaccinate animals and run disease prevention programs on farms.",
-        "ar": "تطعّم الحيوانات وتنفذ برامج الوقاية من الأمراض في المزارع."
+        "ar": "بتطعّم الحيوانات وتنفّذ برامج الوقاية من الأمراض في المزارع."
       },
       {
         "en": "Advise owners and farmers on feeding, breeding and hygiene.",
-        "ar": "تنصح أصحاب الحيوانات والمزارعين بالتغذية والتربية والنظافة."
+        "ar": "بتنصح أصحاب الحيوانات والمزارعين في الأكل والتربية والنضافة."
       },
       {
         "en": "Inspect meat, milk and animal products for food safety.",
-        "ar": "تفحص اللحوم والألبان والمنتجات الحيوانية لضمان سلامة الغذاء."
+        "ar": "بتفحص اللحوم والألبان والمنتجات الحيوانية عشان سلامة الأكل."
       },
       {
         "en": "Report and help control diseases that can spread to people.",
-        "ar": "تبلغ عن الأمراض التي قد تنتقل للإنسان وتساعد في السيطرة عليها."
+        "ar": "بتبلّغ عن الأمراض اللي ممكن تنتقل للبني آدمين وتساعد تسيطروا عليها."
       }
     ],
     "environments": [
@@ -110,11 +110,11 @@
     "alternativeRoutes": [
       {
         "en": "Agricultural science, animal production, food science or biotechnology lead to nearby careers with animals and food.",
-        "ar": "العلوم الزراعية والإنتاج الحيواني وعلوم الأغذية والتكنولوجيا الحيوية تقود إلى مهن قريبة من الحيوان والغذاء."
+        "ar": "العلوم الزراعية والإنتاج الحيواني وعلوم الأغذية والتكنولوجيا الحيوية بيوصّلوا لمهن قريبة من الحيوانات والأكل."
       },
       {
         "en": "Postgraduate degrees open research, lab and specialist hospital roles.",
-        "ar": "الدراسات العليا تفتح أبواب البحث والمعامل والمستشفيات المتخصصة."
+        "ar": "الدراسات العليا بتفتح أبواب البحث والمعامل والمستشفيات المتخصصة."
       }
     ],
     "licensing": {
@@ -237,7 +237,7 @@
     ],
     "freelanceRemote": {
       "en": "Many vets run their own clinic or visit farms on a fee basis. Online consultation is limited because animals must be examined in person.",
-      "ar": "كثير من البيطريين يديرون عيادتهم أو يزورون المزارع بالأجر. الاستشارة عن بعد محدودة لأن الحيوان يحتاج فحصًا مباشرًا."
+      "ar": "بيطريين كتير بيديروا عيادتهم أو بيزوروا المزارع بالأجر. الاستشارة من بعيد محدودة، لأن الحيوان لازم يتكشف عليه بنفسك."
     },
     "regions": [
       {
@@ -253,66 +253,66 @@
   },
   "global": {
     "en": "Veterinary skills are in demand in the Gulf for livestock, racing and companion animals, but each country has its own license. Moving to Europe, Canada or the US generally means entrance exams and further study.",
-    "ar": "المهارات البيطرية مطلوبة في الخليج للماشية والسباقات والحيوانات الأليفة، ولكل بلد ترخيصه. الانتقال إلى أوروبا أو كندا أو أمريكا يعني عادة امتحانات قبول ودراسة إضافية."
+    "ar": "المهارات البيطرية مطلوبة في الخليج للمواشي والسباقات والحيوانات الأليفة، وكل بلد ليها ترخيصها. السفر لأوروبا أو كندا أو أمريكا غالبًا معناه امتحانات قبول ودراسة زيادة."
   },
   "reality": {
     "pros": [
       {
         "en": "Working with animals every day",
-        "ar": "العمل مع الحيوانات كل يوم"
+        "ar": "بتشتغل مع الحيوانات كل يوم"
       },
       {
         "en": "Important role in food safety and public health",
-        "ar": "دور مهم في سلامة الغذاء والصحة العامة"
+        "ar": "دور مهم في سلامة الأكل والصحة العامة"
       },
       {
         "en": "Chance to open your own clinic",
-        "ar": "فرصة لفتح عيادتك الخاصة"
+        "ar": "فرصة تفتح عيادتك"
       }
     ],
     "challenges": [
       {
         "en": "Pay in the public sector and in rural practice is modest",
-        "ar": "الأجر متواضع في القطاع الحكومي وفي الريف"
+        "ar": "المرتب متواضع في الحكومة وفي الريف"
       },
       {
         "en": "Physically demanding work, sometimes dirty and early",
-        "ar": "عمل مرهق جسديًا وأحيانًا متسخ ومبكر"
+        "ar": "شغل متعب جسديًا، وأحيانًا وسخ وبدري"
       },
       {
         "en": "Risk of bites, scratches and animal diseases",
-        "ar": "خطر العض والخدش وأمراض الحيوان"
+        "ar": "خطر العض والخربشة وأمراض الحيوانات"
       },
       {
         "en": "Hard moments when animals cannot be saved",
-        "ar": "لحظات صعبة حين لا يمكن إنقاذ الحيوان"
+        "ar": "لحظات صعبة لما الحيوان ما يتنقذش"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Vets only treat cats and dogs.",
-          "ar": "البيطري يعالج القطط والكلاب فقط."
+          "ar": "البيطري بيعالج قطط وكلاب بس."
         },
         "fact": {
           "en": "Most Egyptian vets work with livestock, poultry, fish, horses and food safety.",
-          "ar": "أغلب البيطريين في مصر يعملون مع الماشية والدواجن والأسماك والخيول وسلامة الغذاء."
+          "ar": "أغلب البيطريين في مصر بيشتغلوا مع المواشي والدواجن والأسماك والخيول وسلامة الأكل."
         }
       },
       {
         "myth": {
           "en": "It is a lesser option than human medicine.",
-          "ar": "هي أقل شأنًا من الطب البشري."
+          "ar": "البيطري أقل من الطب البشري."
         },
         "fact": {
           "en": "It is a full science degree with surgery, pharmacology and public health, and it protects human health too.",
-          "ar": "هي شهادة علمية كاملة فيها جراحة وأدوية وصحة عامة وتحمي صحة الإنسان أيضًا."
+          "ar": "دي شهادة علمية كاملة فيها جراحة وأدوية وصحة عامة، وبتحمي صحة البني آدمين كمان."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Depends on your path. Farm and emergency work can start early and run late; clinic work and lab jobs are steadier.",
-      "ar": "تعتمد على مسارك. عمل المزارع والطوارئ قد يبدأ مبكرًا وينتهي متأخرًا؛ أما العيادة والمعمل فأكثر انتظامًا."
+      "ar": "بيعتمد على طريقك. شغل المزارع والطوارئ ممكن يبدأ بدري ويخلص متأخر؛ أما العيادة والمعمل فأنتظم."
     }
   },
   "progression": {

@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help people understand their feelings and thoughts, and build ways to cope and heal.",
-      "ar": "تساعد الناس على فهم مشاعرهم وأفكارهم وتبني معهم طرقًا للتعامل والتعافي."
+      "ar": "بتساعد الناس يفهموا مشاعرهم وأفكارهم، وتبني معاهم طرق يتعاملوا ويتعافوا بيها."
     },
     "summary": {
       "en": "Clinical psychologists assess emotional and behavioral difficulties and help people through therapy. In Egypt you usually study psychology in a Faculty of Arts, then add postgraduate clinical training. The field is growing but rules for licensing psychologists are still developing, so choose your training carefully.",
-      "ar": "الأخصائي النفسي الإكلينيكي يقيّم الصعوبات الانفعالية والسلوكية ويساعد الناس بالعلاج النفسي. في مصر تدرس غالبًا علم النفس في كلية الآداب ثم تضيف تدريبًا إكلينيكيًا في الدراسات العليا. المجال ينمو لكن قواعد ترخيص الأخصائيين النفسيين ما زالت تتطور، فاختر تدريبك بعناية."
+      "ar": "الأخصائي النفسي الإكلينيكي بيقيّم الصعوبات النفسية والسلوكية وبيساعد الناس بالعلاج النفسي. في مصر غالبًا بتدرس علم النفس في كلية الآداب، وبعدين تضيف تدريب إكلينيكي في الدراسات العليا. المجال بيكبر بس قواعد ترخيص الأخصائيين النفسيين لسه بتتطور، فاختار تدريبك كويس."
     },
     "dayInLife": {
       "en": "You arrive at a mental health clinic at 10 a.m. and read notes about a teenager who feels very anxious before exams. In your session you listen first, then teach her a breathing exercise and ask her to track her thoughts this week. After lunch you give a short assessment to a child whose teacher worries about attention. You write a clear report for the parents and the school. You also meet your supervisor to discuss a difficult case, because good therapists keep learning. You finish by writing notes and keeping everything confidential.",
-      "ar": "تصل إلى عيادة الصحة النفسية في العاشرة وتقرأ ملاحظات عن مراهقة تقلق كثيرًا قبل الامتحانات. في الجلسة تستمع أولًا ثم تعلمها تمرين تنفس وتطلب منها تتبع أفكارها هذا الأسبوع. بعد الغداء تجري تقييمًا قصيرًا لطفل تقلق معلمته من انتباهه، وتكتب تقريرًا واضحًا للوالدين والمدرسة. وتلتقي بمشرفك لمناقشة حالة صعبة لأن المعالج الجيد يتعلم دائمًا. وتنهي يومك بكتابة الملاحظات والمحافظة على السرية الكاملة."
+      "ar": "بتوصل عيادة الصحة النفسية الساعة 10 وتقرا ملاحظات عن بنت في سن المراهقة بتقلق جدًا قبل الامتحانات. في الجلسة بتسمع الأول، وبعدين تعلّمها تمرين تنفس وتطلب منها تتابع أفكارها الأسبوع ده. بعد الغدا تعمل تقييم قصير لطفل المدرّسة قلقانة على انتباهه، وتكتب تقرير واضح للأهل والمدرسة. وكمان تقابل المشرف بتاعك تتناقشوا في حالة صعبة، لأن المعالج الكويس بيفضل يتعلم. وتقفل يومك بكتابة الملاحظات والحفاظ على السرية كاملة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Interview clients and use tests to assess mood, anxiety, attention and behavior.",
-        "ar": "تجري مقابلات مع العملاء وتستخدم الاختبارات لتقييم المزاج والقلق والانتباه والسلوك."
+        "ar": "بتعمل مقابلات مع العملاء وتستخدم اختبارات عشان تقيّم المزاج والقلق والانتباه والسلوك."
       },
       {
         "en": "Plan and run therapy sessions such as cognitive behavioral therapy.",
-        "ar": "تخطط وتجري جلسات علاج نفسي مثل العلاج المعرفي السلوكي."
+        "ar": "بتخطط وتعمل جلسات علاج نفسي زي العلاج المعرفي السلوكي."
       },
       {
         "en": "Work with psychiatrists, doctors, teachers and families.",
-        "ar": "تتعاون مع الأطباء النفسيين والأطباء والمعلمين والأسر."
+        "ar": "بتتعاون مع الدكاترة النفسيين والدكاترة والمدرسين والأسر."
       },
       {
         "en": "Assess risk and respond to crises safely.",
-        "ar": "تقيّم الخطورة وتتعامل مع الأزمات بأمان."
+        "ar": "بتقيّم الخطورة وتتعامل مع الأزمات بأمان."
       },
       {
         "en": "Write reports and keep confidential records.",
-        "ar": "تكتب التقارير وتحتفظ بسجلات سرية."
+        "ar": "بتكتب التقارير وتحتفظ بسجلات سرية."
       },
       {
         "en": "Teach coping skills and run groups or workshops.",
-        "ar": "تعلّم مهارات التعامل وتقدم مجموعات وورش عمل."
+        "ar": "بتعلّم مهارات التعامل وتعمل مجموعات وورش."
       }
     ],
     "environments": [
@@ -114,11 +114,11 @@
     "alternativeRoutes": [
       {
         "en": "A medical degree followed by psychiatry training is a different profession: psychiatrists are regulated doctors who can prescribe medicine.",
-        "ar": "الدراسة الطبية ثم التدريب في الطب النفسي مهنة مختلفة: الطبيب النفسي طبيب منظم قانونيًا ويمكنه وصف الدواء."
+        "ar": "إنك تدرس طب وبعدين تتدرّب في الطب النفسي ده مهنة مختلفة: الدكتور النفسي طبيب منظّم بالقانون ويقدر يكتب دوا."
       },
       {
         "en": "School counseling, special education or social work also use psychology skills with a shorter route.",
-        "ar": "الإرشاد المدرسي والتربية الخاصة والعمل الاجتماعي تستخدم مهارات علم النفس بمسار أقصر."
+        "ar": "الإرشاد المدرسي والتربية الخاصة والخدمة الاجتماعية بيستخدموا مهارات علم النفس بطريق أقصر."
       }
     ],
     "licensing": {
@@ -224,7 +224,7 @@
     ],
     "freelanceRemote": {
       "en": "Private practice and online therapy sessions are growing, which allows flexible work, but clients must be protected by ethical practice, supervision and clear rules on who may treat which conditions.",
-      "ar": "العمل الخاص والجلسات عبر الإنترنت في نمو مما يتيح مرونة، لكن يجب حماية العملاء بممارسة أخلاقية وإشراف وقواعد واضحة لمن يحق له علاج أي الحالات."
+      "ar": "الشغل الخاص والجلسات الأونلاين بيكبروا، وده بيدي مرونة، بس لازم العملاء يتحموا بممارسة أخلاقية وإشراف وقواعد واضحة مين يقدر يعالج أنهي حالات."
     },
     "regions": [
       {
@@ -244,66 +244,66 @@
   },
   "global": {
     "en": "Psychologists are in demand worldwide, and Arabic-speaking therapists are needed in the Gulf and in Arabic-speaking communities abroad. But to practice you normally need local licensing, a recognized master's or doctorate and supervised hours, so plan postgraduate study abroad early.",
-    "ar": "الأخصائيون النفسيون مطلوبون عالميًا، والمعالجون الناطقون بالعربية مطلوبون في الخليج وفي الجاليات العربية بالخارج. لكن الممارسة تتطلب عادة ترخيصًا محليًا وماجستيرًا أو دكتوراه معترفًا بها وساعات إشراف، فخطط للدراسات العليا بالخارج مبكرًا."
+    "ar": "الأخصائيين النفسيين مطلوبين في العالم كله، والمعالجين اللي بيتكلموا عربي مطلوبين في الخليج وفي الجاليات العربية برّه. بس عشان تمارس غالبًا محتاج ترخيص محلي وماجستير أو دكتوراه معترف بيها وساعات إشراف، فخطط للدراسات العليا برّه من بدري."
   },
   "reality": {
     "pros": [
       {
         "en": "Meaningful work helping people through difficult times",
-        "ar": "عمل ذو معنى في مساعدة الناس في أوقات صعبة"
+        "ar": "شغل ليه معنى: بتساعد الناس في أوقات صعبة"
       },
       {
         "en": "Growing public awareness of mental health",
-        "ar": "وعي عام متزايد بالصحة النفسية"
+        "ar": "الوعي بالصحة النفسية بيزيد"
       },
       {
         "en": "Flexible settings: clinic, school, online",
-        "ar": "بيئات مرنة: عيادة ومدرسة وإنترنت"
+        "ar": "أماكن شغل مرنة: عيادة ومدرسة وأونلاين"
       }
     ],
     "challenges": [
       {
         "en": "Training takes time and postgraduate study is usually needed",
-        "ar": "التدريب يحتاج وقتًا وغالبًا دراسات عليا"
+        "ar": "التدريب بياخد وقت وغالبًا محتاج دراسات عليا"
       },
       {
         "en": "Licensing rules are still evolving, which creates uncertainty",
-        "ar": "قواعد الترخيص ما زالت تتطور مما يخلق عدم يقين"
+        "ar": "قواعد الترخيص لسه بتتطور، وده بيعمل حالة عدم وضوح"
       },
       {
         "en": "Stigma around mental health can make clients hesitant",
-        "ar": "الوصمة حول الصحة النفسية قد تجعل العملاء مترددين"
+        "ar": "الوصمة حوالين الصحة النفسية ممكن تخلّي العملاء مترددين"
       },
       {
         "en": "Emotionally heavy work needs supervision and self-care",
-        "ar": "عمل ثقيل نفسيًا يحتاج إشرافًا وعناية بالنفس"
+        "ar": "شغل تقيل نفسيًا ومحتاج إشراف وإنك تاخد بالك من نفسك"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Psychologists and psychiatrists are the same.",
-          "ar": "الأخصائي النفسي والطبيب النفسي شيء واحد."
+          "ar": "الأخصائي النفسي والدكتور النفسي حاجة واحدة."
         },
         "fact": {
           "en": "Psychiatrists are medical doctors who can prescribe medicine; psychologists are trained in assessment and therapy and cannot prescribe.",
-          "ar": "الطبيب النفسي طبيب بشري يصف الدواء، والأخصائي النفسي مدرّب على التقييم والعلاج النفسي ولا يصف الدواء."
+          "ar": "الدكتور النفسي طبيب بشري يقدر يكتب دوا؛ والأخصائي النفسي متدرّب على التقييم والعلاج النفسي وما بيكتبش دوا."
         }
       },
       {
         "myth": {
           "en": "Going to therapy means you are weak.",
-          "ar": "الذهاب للعلاج يعني أنك ضعيف."
+          "ar": "إنك تروح لعلاج نفسي يعني إنك ضعيف."
         },
         "fact": {
           "en": "Seeking help is a sign of strength, and therapy works for ordinary life problems too.",
-          "ar": "طلب المساعدة علامة قوة، والعلاج النفسي يفيد في مشكلات الحياة العادية أيضًا."
+          "ar": "طلب المساعدة علامة قوة، والعلاج النفسي بيفيد في مشاكل الحياة العادية كمان."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Often good in private practice because you set appointment times, but evenings are popular with clients. The emotional load needs breaks and supervision.",
-      "ar": "غالبًا جيدة في العمل الخاص لأنك تحدد المواعيد، لكن العملاء يفضلون المساء. والعبء النفسي يحتاج راحة وإشرافًا."
+      "ar": "غالبًا كويس في الشغل الخاص لأنك بتحدد المواعيد، بس العملاء بيفضّلوا بالليل. والضغط النفسي محتاج راحة وإشراف."
     }
   },
   "progression": {

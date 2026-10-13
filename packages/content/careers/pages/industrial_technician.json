@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You keep the machines of factories running and smart.",
-      "ar": "تُبقي آلات المصانع تعمل بذكاء."
+      "ar": "بتخلّي مكن المصانع شغال وذكي."
     },
     "summary": {
       "en": "Industrial and mechatronics technicians install, adjust and repair machines that combine mechanics, electricity and control systems. They work in factories and production lines where a stopped machine costs money. Technical schools and training programs prepare many students for this work.",
-      "ar": "فنيو الصناعة والميكاترونكس يركّبون ويضبطون ويصلحون آلات تجمع بين الميكانيكا والكهرباء وأنظمة التحكم. يعملون في المصانع وخطوط الإنتاج حيث يكلّف توقف الآلة مالًا. وتعد المدارس الفنية وبرامج التدريب كثيرًا من الطلاب لهذا العمل."
+      "ar": "فنيين الصناعة والميكاترونكس بيركّبوا ويظبطوا ويصلّحوا مكن بيجمع بين الميكانيكا والكهربا وأنظمة التحكم. بيشتغلوا في المصانع وخطوط الإنتاج، حيث وقفة المكنة بتكلّف فلوس. والمدارس الفنية وبرامج التدريب بتجهّز طلبة كتير للشغل ده."
     },
     "dayInLife": {
       "en": "A packing machine on the line has stopped. You check the sensors, the motor and the control panel, and find a worn belt. You replace it, restart the machine and watch it for a few minutes. Later you do the planned maintenance of another machine and fill in the maintenance record.",
-      "ar": "توقفت ماكينة تعبئة على الخط. تفحص الحساسات والموتور ولوحة التحكم وتجد سيرًا مهترئًا. تستبدله وتعيد تشغيل الماكينة وتراقبها دقائق. لاحقًا تجري الصيانة المخططة لماكينة أخرى وتملأ سجل الصيانة."
+      "ar": "مكنة تعبئة على الخط وقفت. تكشف على الحساسات والموتور ولوحة التحكم، وتلاقي سير دايب. تغيّره، وتشغّل المكنة تاني، وتراقبها كام دقيقة. بعدها تعمل الصيانة المخططة لمكنة تانية وتملا سجل الصيانة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Install and adjust machines and automatic systems.",
-        "ar": "تركّب الماكينات والأنظمة الآلية وتضبطها."
+        "ar": "بتركّب المكن والأنظمة الأوتوماتيك وتظبطها."
       },
       {
         "en": "Find and repair mechanical and electrical faults.",
-        "ar": "تكتشف الأعطال الميكانيكية والكهربائية وتصلحها."
+        "ar": "بتلاقي الأعطال الميكانيكية والكهربا وتصلّحها."
       },
       {
         "en": "Do regular maintenance to avoid breakdowns.",
-        "ar": "تجري الصيانة الدورية لتفادي الأعطال."
+        "ar": "بتعمل صيانة دورية عشان تمنع الأعطال."
       },
       {
         "en": "Read technical drawings and manuals.",
-        "ar": "تقرأ الرسومات الفنية والكتيبات."
+        "ar": "بتقرا الرسومات الفنية والكتالوجات."
       },
       {
         "en": "Record work and follow safety rules.",
-        "ar": "تسجّل العمل وتلتزم بقواعد السلامة."
+        "ar": "بتسجّل الشغل وتلتزم بقواعد السلامة."
       }
     ],
     "environments": [
@@ -103,11 +103,11 @@
     "alternativeRoutes": [
       {
         "en": "Productivity and Vocational Training Department (PVTD) centres, with trade courses in mechanics and electricity.",
-        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني بدورات الميكانيكا والكهرباء."
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني، وفيها كورسات ميكانيكا وكهربا."
       },
       {
         "en": "Start as a maintenance helper in a factory and add courses in PLC and automation.",
-        "ar": "البدء كمساعد صيانة في مصنع وإضافة دورات PLC والأتمتة."
+        "ar": "تبدأ مساعد صيانة في مصنع وتضيف كورسات PLC وأتمتة."
       }
     ],
     "licensing": {
@@ -138,7 +138,7 @@
       },
       {
         "en": "Further study toward engineering",
-        "ar": "استكمال الدراسة نحو الهندسة"
+        "ar": "تكمّل دراسة ناحية الهندسة"
       }
     ]
   },

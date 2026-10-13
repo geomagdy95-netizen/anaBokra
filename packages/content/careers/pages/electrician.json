@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You bring power safely to homes, factories and cities.",
-      "ar": "تجلب الكهرباء بأمان إلى البيوت والمصانع والمدن."
+      "ar": "بتوصّل الكهربا بأمان للبيوت والمصانع والمدن."
     },
     "summary": {
       "en": "Electricians install, test and repair wiring, panels, lights and electrical machines in buildings and factories. The work is hands-on and needs strict safety habits. It is a skill that is needed everywhere and a starting point for specialised and technical careers.",
-      "ar": "الكهربائي يركّب ويختبر ويصلح الأسلاك واللوحات والإضاءة والآلات الكهربائية في المباني والمصانع. العمل يدوي ويتطلب التزامًا صارمًا بالسلامة. وهي مهارة مطلوبة في كل مكان ونقطة بداية لمهن فنية متخصصة."
+      "ar": "الكهربائي بيركّب ويختبر ويصلّح الأسلاك واللوحات والإضاءة والمكن الكهربا في المباني والمصانع. الشغل بإيدك ومحتاج التزام صارم بالسلامة. ودي مهارة مطلوبة في كل حتة، وبداية لمهن فنية متخصصة."
     },
     "dayInLife": {
       "en": "You read the drawing of a new apartment and plan where the cables will run. You pull wires, fix sockets and connect the main panel while following safety rules. A fault in another flat needs a test with a meter, and you find a loose connection. At the end of the day you tidy tools and note what is left for tomorrow.",
-      "ar": "تقرأ مخطط شقة جديدة وتخطط مسار الكابلات. تسحب الأسلاك وتثبت الأفياش وتوصّل اللوحة الرئيسية وأنت تلتزم بقواعد السلامة. عطل في شقة أخرى يحتاج فحصًا بجهاز القياس فتجد توصيلة مفكوكة. في نهاية اليوم ترتب أدواتك وتدوّن ما بقي للغد."
+      "ar": "بتقرا رسمة شقة جديدة وتخطط الكابلات هتمشي فين. تسحب السلك، وتركّب البرايز، وتوصّل اللوحة الرئيسية وإنت ملتزم بقواعد السلامة. فيه عطل في شقة تانية محتاج تقيس بالجهاز، فتلاقي وصلة سايبة. وفي آخر اليوم تلم عدّتك وتكتب اللي فاضل لبكرة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Read wiring drawings and plan installations.",
-        "ar": "تقرأ مخططات التمديدات وتخطط التركيبات."
+        "ar": "بتقرا رسومات التمديدات وتخطط التركيبات."
       },
       {
         "en": "Install cables, sockets, lights and panels.",
-        "ar": "تركّب الكابلات والأفياش والإضاءة واللوحات."
+        "ar": "بتركّب الكابلات والبرايز والإضاءة واللوحات."
       },
       {
         "en": "Test circuits with meters and find faults.",
-        "ar": "تختبر الدوائر بأجهزة القياس وتكتشف الأعطال."
+        "ar": "بتختبر الدواير بأجهزة القياس وتلاقي الأعطال."
       },
       {
         "en": "Repair and maintain electrical systems and motors.",
-        "ar": "تصلح وتصون الأنظمة الكهربائية والمحركات."
+        "ar": "بتصلّح وتصون الأنظمة الكهربا والموتورات."
       },
       {
         "en": "Follow safety rules and codes at all times.",
-        "ar": "تلتزم بقواعد السلامة والكودات دائمًا."
+        "ar": "بتلتزم بقواعد السلامة والكودات على طول."
       }
     ],
     "environments": [
@@ -103,11 +103,11 @@
     "alternativeRoutes": [
       {
         "en": "Productivity and Vocational Training Department (PVTD) centres, with a three-year program and adult trade courses.",
-        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني (برنامج ثلاث سنوات ودورات حرف للكبار)."
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني (برنامج تلات سنين وكورسات صنعة للكبار)."
       },
       {
         "en": "Learn on the job as a helper with an experienced electrician, then take skill courses.",
-        "ar": "التعلم أثناء العمل كمساعد مع كهربائي خبير ثم أخذ دورات مهارية."
+        "ar": "تتعلم من الشغل كمساعد مع كهربائي عنده خبرة، وبعدين تاخد كورسات مهارات."
       }
     ],
     "licensing": {
@@ -138,7 +138,7 @@
       },
       {
         "en": "Further study toward engineering",
-        "ar": "استكمال الدراسة نحو الهندسة"
+        "ar": "تكمّل دراسة ناحية الهندسة"
       }
     ]
   },

@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You design clothes people will wear and love.",
-      "ar": "تصمم ملابس سيرتديها الناس ويحبونها."
+      "ar": "بتصمم هدوم الناس هتلبسها وتحبها."
     },
     "summary": {
       "en": "Fashion designers create clothing and accessories: they sketch ideas, choose fabrics, make patterns and oversee the first samples. Some work for factories and brands, and others build their own label. Creativity must be matched with an understanding of cost, sizes and what customers will buy.",
-      "ar": "مصمم الأزياء يبتكر الملابس والإكسسوارات: يرسم الأفكار ويختار الأقمشة ويصنع الباترون ويتابع العينات الأولى. يعمل بعضهم لدى المصانع والعلامات، ويبني آخرون علامتهم الخاصة. ويجب أن تقترن الموهبة بفهم التكلفة والمقاسات وما يشتريه العملاء."
+      "ar": "مصمم الأزياء بيعمل الهدوم والإكسسوارات: بيرسم الأفكار، ويختار الأقمشة، ويعمل الباترون، ويتابع أول عينات. فيه اللي بيشتغلوا مع مصانع وبراندات، وفيه اللي بيبنوا براند بتاعهم. والموهبة لازم يكون معاها فهم للتكلفة والمقاسات والعملاء هيشتروا إيه."
     },
     "dayInLife": {
       "en": "You start with a sketch for a new dress and pick fabric samples to match. At the workshop you check the pattern with the pattern maker and try the first sample on a model. A small mistake in the sleeve means you mark the change and send it back. In the afternoon you meet a supplier about prices and update your collection plan.",
-      "ar": "تبدأ برسم فستان جديد وتختار عينات الأقمشة المناسبة. في الورشة تراجع الباترون مع صانع الباترون وتجرب العينة الأولى على موديل. خطأ صغير في الكم يجعلك تعلّم التعديل وتعيدها. بعد الظهر تقابل مورّدًا لمناقشة الأسعار وتحدّث خطة تشكيلتك."
+      "ar": "بتبدأ برسمة فستان جديد وتختار عينات قماش تناسبه. في الورشة تراجع الباترون مع الباترونيست وتجرّب أول عينة على موديل. فيه غلطة صغيرة في الكم، فتعلّم التعديل وترجّعها. بعد الضهر تقابل مورّد تتكلموا في الأسعار، وتحدّث خطة الكولكشن بتاعك."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Research trends and sketch design ideas.",
-        "ar": "تبحث الاتجاهات وترسم أفكار التصميم."
+        "ar": "بتدرس التريندات وترسم أفكار التصميم."
       },
       {
         "en": "Choose fabrics, colours and trims.",
-        "ar": "تختار الأقمشة والألوان والإكسسوارات."
+        "ar": "بتختار الأقمشة والألوان والإكسسوارات."
       },
       {
         "en": "Make or supervise patterns and sample garments.",
-        "ar": "تصنع أو تشرف على الباترون والعينات."
+        "ar": "بتعمل أو تشرف على الباترون والعينات."
       },
       {
         "en": "Work with factories and workshops on production and cost.",
-        "ar": "تعمل مع المصانع والورش على الإنتاج والتكلفة."
+        "ar": "بتشتغل مع المصانع والورش على الإنتاج والتكلفة."
       },
       {
         "en": "Present collections to buyers and customers.",
-        "ar": "تعرض التشكيلات على التجار والعملاء."
+        "ar": "بتعرض الكولكشنز على التجار والعملاء."
       }
     ],
     "environments": [
@@ -108,11 +108,11 @@
     "alternativeRoutes": [
       {
         "en": "Learn pattern making and sewing in a workshop or vocational course, then build your own label.",
-        "ar": "تعلم الباترون والخياطة في ورشة أو دورة مهنية ثم ابنِ علامتك."
+        "ar": "اتعلم الباترون والخياطة في ورشة أو كورس مهني، وبعدين ابني البراند بتاعك."
       },
       {
         "en": "Fashion courses and diplomas, plus a portfolio of finished pieces.",
-        "ar": "دورات ودبلومات الأزياء مع ملف بقطع منفذة."
+        "ar": "كورسات ودبلومات أزياء، ومعاها بورتفوليو بقطع خلّصتها."
       }
     ],
     "licensing": null
@@ -140,7 +140,7 @@
       },
       {
         "en": "Starting your own label",
-        "ar": "إطلاق علامتك الخاصة"
+        "ar": "تطلّع براند بتاعك"
       }
     ]
   },

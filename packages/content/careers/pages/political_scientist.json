@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You study how power, states and decisions shape people's lives.",
-      "ar": "تدرس كيف تؤثر السلطة والدول والقرارات في حياة الناس."
+      "ar": "بتدرس السلطة والدول والقرارات بتأثر على حياة الناس إزاي."
     },
     "summary": {
       "en": "Political scientists research governments, public policy, elections and international relations. They read, collect data, write and explain what is happening and why. They work in universities, research centres, media, government and international organisations.",
-      "ar": "الباحث في العلوم السياسية يدرس الحكومات والسياسات العامة والانتخابات والعلاقات الدولية. يقرأ ويجمع البيانات ويكتب ويشرح ما يحدث ولماذا. يعمل في الجامعات ومراكز الأبحاث والإعلام والجهات الحكومية والمنظمات الدولية."
+      "ar": "الباحث في العلوم السياسية بيدرس الحكومات والسياسات العامة والانتخابات والعلاقات الدولية. بيقرا، ويجمع بيانات، ويكتب، ويشرح إيه اللي بيحصل وليه. وبيشتغل في الجامعات ومراكز الأبحاث والإعلام والجهات الحكومية والمنظمات الدولية."
     },
     "dayInLife": {
       "en": "You read a new law and a few reports in the morning. You then collect data on how citizens voted in several regions and compare it with older elections. After lunch you meet your team, discuss the results and begin writing a short policy brief that explains them in clear language for a decision-maker.",
-      "ar": "تقرأ صباحًا قانونًا جديدًا وبعض التقارير. ثم تجمع بيانات عن تصويت المواطنين في عدة مناطق وتقارنها بانتخابات سابقة. بعد الغداء تجتمع بفريقك وتناقش النتائج وتبدأ كتابة ورقة سياسات قصيرة تشرحها بلغة واضحة لصاحب القرار."
+      "ar": "الصبح بتقرا قانون جديد وكام تقرير. بعدين تجمع بيانات عن المواطنين صوّتوا إزاي في كذا منطقة وتقارنها بانتخابات قبل كده. بعد الغدا تقعد مع فريقك تناقشوا النتايج، وتبدأ تكتب ورقة سياسات قصيرة بتشرحها بلغة واضحة لصاحب القرار."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Research political systems, laws, policies and events.",
-        "ar": "تبحث في النظم السياسية والقوانين والسياسات والأحداث."
+        "ar": "بتبحث في الأنظمة السياسية والقوانين والسياسات والأحداث."
       },
       {
         "en": "Collect and analyse data with surveys, statistics and case studies.",
-        "ar": "تجمع البيانات وتحللها بالاستبيانات والإحصاء ودراسات الحالة."
+        "ar": "بتجمع البيانات وتحلّلها بالاستبيانات والإحصاء ودراسات الحالة."
       },
       {
         "en": "Write reports, articles and policy briefs.",
-        "ar": "تكتب التقارير والمقالات وأوراق السياسات."
+        "ar": "بتكتب التقارير والمقالات وأوراق السياسات."
       },
       {
         "en": "Advise organisations on public policy or international issues.",
-        "ar": "تقدم المشورة للمؤسسات حول السياسات العامة أو القضايا الدولية."
+        "ar": "بتنصح المؤسسات في السياسات العامة أو القضايا الدولية."
       },
       {
         "en": "Teach and present findings in seminars or the media.",
-        "ar": "تدرّس وتعرض النتائج في الندوات أو الإعلام."
+        "ar": "بتدرّس وتعرض نتايجك في الندوات أو الإعلام."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "A degree in law, economics, history or media, followed by a master's in political science.",
-        "ar": "درجة في القانون أو الاقتصاد أو التاريخ أو الإعلام ثم ماجستير في العلوم السياسية."
+        "ar": "شهادة في القانون أو الاقتصاد أو التاريخ أو الإعلام، وبعدين ماجستير في العلوم السياسية."
       },
       {
         "en": "Start in a research centre or NGO as a research assistant while you study.",
-        "ar": "البدء في مركز أبحاث أو منظمة أهلية كمساعد باحث أثناء الدراسة."
+        "ar": "تبدأ في مركز أبحاث أو جمعية أهلية كمساعد باحث وإنت بتدرس."
       }
     ],
     "licensing": null

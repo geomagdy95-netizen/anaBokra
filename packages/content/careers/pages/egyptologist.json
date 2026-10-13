@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You uncover and protect the story of Egypt's ancient past.",
-      "ar": "تكتشف قصة ماضي مصر القديم وتحميها."
+      "ar": "بتكشف حكاية ماضي مصر القديم وبتحميها."
     },
     "summary": {
       "en": "Archaeologists and Egyptologists excavate sites, study objects and texts, restore and protect monuments, and teach others about them. In Egypt you usually study in a Faculty of Archaeology, then work with the Ministry of Tourism and Antiquities, museums, universities or foreign missions. Jobs are limited and often connected to government hiring, but Egypt's record tourism and big museums keep the field visible.",
-      "ar": "عالم الآثار وعالم المصريات يحفر المواقع ويدرس القطع والنصوص ويرمم الآثار ويحميها ويعلّم الآخرين عنها. في مصر تدرس عادةً في كلية الآثار ثم تعمل مع وزارة السياحة والآثار أو المتاحف أو الجامعات أو البعثات الأجنبية. الوظائف محدودة وترتبط غالبًا بالتعيين الحكومي، لكن السياحة القياسية في مصر والمتاحف الكبرى تبقي المجال حاضرًا."
+      "ar": "عالم الآثار والمصريات بيحفر المواقع، ويدرس القطع والنصوص، ويرمّم الآثار ويحميها، ويعلّم الناس عنها. في مصر غالبًا بتدرس في كلية الآثار، وبعدين تشتغل مع وزارة السياحة والآثار أو المتاحف أو الجامعات أو البعثات الأجنبية. الوظايف محدودة وغالبًا مرتبطة بالتعيين الحكومي، بس أرقام السياحة القياسية والمتاحف الكبيرة مخلّية المجال في الصورة."
     },
     "dayInLife": {
       "en": "During an excavation season you wake up early and walk to the site with your team. You carefully brush the sand from a small pottery piece and photograph it before it is moved. You draw the layer of earth where it was found, because the place of a find is as important as the object. At noon you work in the shade, cleaning and labelling pieces. In the evening you write the day's notes and update the site database. Outside the season you work in a museum or lab, study texts and write reports.",
-      "ar": "في موسم الحفائر تصحو مبكرًا وتمشي مع فريقك إلى الموقع. تزيل الرمل برفق عن قطعة فخار صغيرة وتصوّرها قبل نقلها. ترسم طبقة التربة التي وُجدت فيها لأن مكان العثور لا يقل أهمية عن القطعة. عند الظهر تعمل في الظل بتنظيف القطع ووضع بطاقات لها. وفي المساء تكتب ملاحظات اليوم وتحدّث قاعدة بيانات الموقع. وخارج الموسم تعمل في متحف أو معمل وتدرس النصوص وتكتب التقارير."
+      "ar": "في موسم الحفاير بتصحى بدري وتمشي مع فريقك للموقع. تشيل الرملة بالراحة من على حتة فخار صغيرة وتصوّرها قبل ما تتنقل. ترسم طبقة التراب اللي لقيتها فيها، لأن مكان اللقية مهم قد اللقية نفسها. الضهر تشتغل في الضل: تنضّف القطع وتحط لها كروت. وبالليل تكتب ملاحظات اليوم وتحدّث قاعدة بيانات الموقع. وبرّه الموسم بتشتغل في متحف أو معمل، وتدرس النصوص وتكتب التقارير."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Excavate, survey and record archaeological sites.",
-        "ar": "تحفر المواقع الأثرية وتمسحها وتسجلها."
+        "ar": "بتحفر المواقع الأثرية وتمسحها وتسجّلها."
       },
       {
         "en": "Clean, document, photograph and catalogue finds.",
-        "ar": "تنظف القطع وتوثقها وتصورها وتفهرسها."
+        "ar": "بتنضّف القطع وتوثّقها وتصوّرها وتفهرسها."
       },
       {
         "en": "Read and study hieroglyphic, hieratic, Greek, Coptic or Arabic texts.",
-        "ar": "تقرأ وتدرس نصوصًا بالهيروغليفية والهيراطيقية واليونانية والقبطية والعربية."
+        "ar": "بتقرا وتدرس نصوص بالهيروغليفي والهيراطيقي واليوناني والقبطي والعربي."
       },
       {
         "en": "Help conserve and restore monuments and objects with conservators.",
-        "ar": "تساعد في صيانة الآثار وترميمها مع المرممين."
+        "ar": "بتساعد في صيانة الآثار والقطع وترميمها مع المرمّمين."
       },
       {
         "en": "Write reports and research papers and present findings.",
-        "ar": "تكتب التقارير والأبحاث وتعرض النتائج."
+        "ar": "بتكتب التقارير والأبحاث وتعرض اللي اكتشفته."
       },
       {
         "en": "Teach visitors and students and work in museums.",
-        "ar": "تعلّم الزوار والطلاب وتعمل في المتاحف."
+        "ar": "بتعلّم الزوار والطلبة وبتشتغل في المتاحف."
       }
     ],
     "environments": [
@@ -116,15 +116,15 @@
     "alternativeRoutes": [
       {
         "en": "Postgraduate study (master's and PhD) in Egyptology or archaeology is the normal route to research and university teaching.",
-        "ar": "الدراسات العليا (ماجستير ودكتوراه) في المصريات أو الآثار هي الطريق المعتاد للبحث والتدريس الجامعي."
+        "ar": "الدراسات العليا (ماجستير ودكتوراه) في المصريات أو الآثار هي الطريق المعتاد للبحث والتدريس في الجامعة."
       },
       {
         "en": "Volunteer or train on excavation seasons and museum projects.",
-        "ar": "التطوع أو التدريب في مواسم الحفائر ومشروعات المتاحف."
+        "ar": "اتطوع أو اتدرّب في مواسم الحفاير ومشاريع المتاحف."
       },
       {
         "en": "A degree in conservation, chemistry, geology or computing can lead to scientific or technical roles in archaeology.",
-        "ar": "شهادة في الترميم أو الكيمياء أو الجيولوجيا أو الحاسب تؤدي إلى أدوار علمية وتقنية في الآثار."
+        "ar": "شهادة في الترميم أو الكيميا أو الجيولوجيا أو الحاسبات ممكن توصّلك لأدوار علمية وتقنية في الآثار."
       }
     ],
     "licensing": {
@@ -268,7 +268,7 @@
     ],
     "freelanceRemote": {
       "en": "Archaeological fieldwork cannot be done remotely. Freelance work includes tour guiding (with a license), writing, translation, heritage education and documentary consulting. Record visitor numbers in 2025 (about 19 million) support heritage tourism jobs.",
-      "ar": "العمل الميداني الأثري لا يمكن أداؤه عن بُعد. العمل الحر يشمل الإرشاد السياحي (بترخيص) والكتابة والترجمة والتعليم التراثي والاستشارات للأفلام الوثائقية. أرقام الزوار القياسية في 2025 (نحو 19 مليونًا) تدعم وظائف السياحة التراثية."
+      "ar": "الشغل الميداني في الآثار ما ينفعش من البيت. الفري لانس فيه الإرشاد السياحي (بترخيص) والكتابة والترجمة والتعليم التراثي والاستشارات للأفلام الوثائقية. وأرقام الزوار القياسية في 2025 (حوالي 19 مليون) بتدعم وظايف السياحة التراثية."
     },
     "regions": [
       {
@@ -291,72 +291,72 @@
   },
   "global": {
     "en": "Egyptologists work in universities and museums abroad, such as the British Museum, the Louvre and US and European universities, usually with a PhD and strong languages. Foreign missions hire Egyptian archaeologists for fieldwork. Competition is high, so scholarships and postgraduate study abroad are the usual path.",
-    "ar": "يعمل علماء المصريات في جامعات ومتاحف في الخارج مثل المتحف البريطاني واللوفر وجامعات أمريكية وأوروبية، غالبًا بدكتوراه ولغات قوية. وتستعين البعثات الأجنبية بأثريين مصريين للعمل الميداني. المنافسة عالية، والمنح والدراسات العليا بالخارج هي الطريق المعتاد."
+    "ar": "علماء المصريات بيشتغلوا في جامعات ومتاحف برّه زي المتحف البريطاني واللوفر وجامعات أمريكية وأوروبية، وغالبًا بدكتوراه ولغات قوية. والبعثات الأجنبية بتستعين بأثريين مصريين في الشغل الميداني. المنافسة عالية، فالمنح والدراسات العليا برّه هي الطريق المعتاد."
   },
   "reality": {
     "pros": [
       {
         "en": "Work with the most famous history in the world",
-        "ar": "العمل مع أشهر تاريخ في العالم"
+        "ar": "بتشتغل مع أشهر تاريخ في العالم"
       },
       {
         "en": "A mix of fieldwork, lab and writing",
-        "ar": "مزيج من العمل الميداني والمعمل والكتابة"
+        "ar": "خليط من الشغل الميداني والمعمل والكتابة"
       },
       {
         "en": "Pride in protecting heritage",
-        "ar": "الفخر بحماية التراث"
+        "ar": "فخر إنك بتحمي التراث"
       }
     ],
     "challenges": [
       {
         "en": "Few permanent posts, and government hiring can be slow",
-        "ar": "وظائف دائمة قليلة والتعيين الحكومي قد يكون بطيئًا"
+        "ar": "وظايف ثابتة قليلة، والتعيين الحكومي ممكن يبقى بطيء"
       },
       {
         "en": "Modest pay at the start and hard conditions in the field",
-        "ar": "أجر متواضع في البداية وظروف صعبة في الميدان"
+        "ar": "مرتب متواضع في الأول وظروف صعبة في الميدان"
       },
       {
         "en": "Long study (postgraduate) needed for research roles",
-        "ar": "دراسة طويلة (دراسات عليا) مطلوبة لوظائف البحث"
+        "ar": "دراسة طويلة (دراسات عليا) لوظايف البحث"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Archaeologists spend their days finding treasure.",
-          "ar": "علماء الآثار يقضون أيامهم في العثور على كنوز."
+          "ar": "علماء الآثار بيقضّوا يومهم يلاقوا كنوز."
         },
         "fact": {
           "en": "Most of the work is slow: careful digging, recording, cleaning and writing. Discoveries come from patient work.",
-          "ar": "معظم العمل بطيء: حفر دقيق وتسجيل وتنظيف وكتابة. الاكتشافات تأتي من العمل الصبور."
+          "ar": "أغلب الشغل بطيء: حفر بدقة وتسجيل وتنضيف وكتابة. والاكتشافات بتيجي من الشغل الصبور."
         }
       },
       {
         "myth": {
           "en": "Only foreigners discover Egypt's antiquities.",
-          "ar": "الأجانب فقط يكتشفون آثار مصر."
+          "ar": "الأجانب بس هما اللي بيكتشفوا آثار مصر."
         },
         "fact": {
           "en": "Egyptian archaeologists lead many excavations and discoveries, and Egyptian teams are central to the work.",
-          "ar": "يقود الأثريون المصريون حفائر واكتشافات كثيرة، والفرق المصرية محور العمل."
+          "ar": "الأثريين المصريين بيقودوا حفاير واكتشافات كتير، والفرق المصرية في قلب الشغل."
         }
       },
       {
         "myth": {
           "en": "Archaeology means only reading hieroglyphs.",
-          "ar": "علم الآثار يعني قراءة الهيروغليفية فقط."
+          "ar": "علم الآثار يعني قراية الهيروغليفي وبس."
         },
         "fact": {
           "en": "It also uses science, mapping, drawing, photography and conservation, and covers all periods.",
-          "ar": "يستخدم أيضًا العلوم والخرائط والرسم والتصوير والترميم، ويشمل كل العصور."
+          "ar": "فيه كمان علوم وخرايط ورسم وتصوير وترميم، وبيغطي كل العصور."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Field seasons are intense and far from home for weeks. Museum and university roles are closer to regular hours.",
-      "ar": "مواسم الحفر مكثفة وبعيدة عن البيت أسابيع. وظائف المتاحف والجامعات أقرب لساعات منتظمة."
+      "ar": "مواسم الحفر مكثفة وبعيدة عن البيت لأسابيع. وظايف المتاحف والجامعات مواعيدها أقرب للانتظام."
     }
   },
   "progression": {

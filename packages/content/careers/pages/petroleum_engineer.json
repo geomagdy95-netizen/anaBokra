@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help bring oil and natural gas from deep underground to the surface safely and efficiently.",
-      "ar": "تساعد في إخراج البترول والغاز الطبيعي من أعماق الأرض إلى السطح بأمان وكفاءة."
+      "ar": "بتساعد تطلّع البترول والغاز الطبيعي من عمق الأرض لفوق بأمان وكفاءة."
     },
     "summary": {
       "en": "Petroleum engineers design wells, study reservoirs, and plan how to produce oil and gas. Egypt is a long-time producer and a gas hub, but the sector has been through a hard period of falling output and has only recently turned back to growth. Jobs are well paid in many companies, though they can mean remote desert or offshore work.",
-      "ar": "مهندس البترول يصمم الآبار ويدرس المكامن ويخطط كيفية إنتاج البترول والغاز. مصر منتج قديم ومركز للغاز، لكن القطاع مر بفترة صعبة من تراجع الإنتاج ولم يعد للنمو إلا مؤخرًا. الوظائف في كثير من الشركات جيدة الأجر، لكنها قد تعني العمل في الصحراء أو البحر."
+      "ar": "مهندس البترول بيصمم الآبار، ويدرس المكامن، ويخطط إزاي البترول والغاز يتطلّعوا. مصر منتج قديم ومركز للغاز، بس القطاع عدّى بفترة صعبة الإنتاج فيها كان بيقل، ولسه راجع للنمو قريب. الوظايف في شركات كتير مرتبها كويس، بس ممكن تعني شغل في الصحرا أو في البحر."
     },
     "dayInLife": {
       "en": "On a rotation in the Western Desert, you start at 6 a.m. at the well site. The drilling crew reports a change in pressure, so you check the data with the geologist and adjust the plan. Later you review production numbers for a gas well and see a small decline you need to explain. In the afternoon you join a safety meeting, because mistakes in this industry can be costly and dangerous. You write the daily report and then rest in the camp until the next shift, usually ten days on and a few days off.",
-      "ar": "في فترة عمل بالصحراء الغربية تبدأ في السادسة صباحًا في موقع البئر. يبلّغ طاقم الحفر عن تغير في الضغط، فتراجع البيانات مع الجيولوجي وتعدّل الخطة. لاحقًا تراجع أرقام إنتاج بئر غاز فتلاحظ هبوطًا بسيطًا عليك تفسيره. بعد العصر تحضر اجتماع سلامة لأن الأخطاء في هذه الصناعة مكلفة وخطرة. تكتب التقرير اليومي ثم ترتاح في المعسكر حتى الوردية التالية، وغالبًا ما يكون النظام عشرة أيام عمل وبضعة أيام إجازة."
+      "ar": "في روتيشن في الصحرا الغربية بتبدأ الساعة 6 الصبح في موقع البير. طاقم الحفر بيبلّغ عن تغيير في الضغط، فتراجع البيانات مع الجيولوجي وتعدّل الخطة. بعدها تراجع أرقام إنتاج بير غاز وتلاقي نزول بسيط لازم تفسّره. بعد العصر تحضر اجتماع سلامة، لأن الغلط في الصناعة دي مكلّف وخطير. تكتب التقرير اليومي وترتاح في الكامب لحد الشيفت الجاي، وغالبًا النظام عشر أيام شغل وكام يوم إجازة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Study reservoir and well data to estimate how much oil or gas can be produced.",
-        "ar": "تدرس بيانات المكمن والبئر لتقدير كمية البترول أو الغاز القابلة للإنتاج."
+        "ar": "بتدرس بيانات المكمن والبير عشان تقدّر قد إيه بترول أو غاز ممكن يطلع."
       },
       {
         "en": "Plan and monitor drilling programs with geologists and contractors.",
-        "ar": "تخطط وتتابع برامج الحفر مع الجيولوجيين والمقاولين."
+        "ar": "بتخطط وتتابع برامج الحفر مع الجيولوجيين والمقاولين."
       },
       {
         "en": "Design well completion and stimulation to increase production.",
-        "ar": "تصمم إكمال الآبار وتحفيزها لزيادة الإنتاج."
+        "ar": "بتصمم إكمال الآبار وتحفيزها عشان الإنتاج يزيد."
       },
       {
         "en": "Monitor production rates and plan workovers.",
-        "ar": "تراقب معدلات الإنتاج وتخطط عمليات الصيانة والتدخل بالآبار."
+        "ar": "بتراقب معدلات الإنتاج وتخطط عمليات الصيانة والتدخل في الآبار."
       },
       {
         "en": "Estimate costs and economics of projects.",
-        "ar": "تقدر تكاليف المشروعات وجدواها الاقتصادية."
+        "ar": "بتقدّر تكاليف المشاريع وجدواها الاقتصادية."
       },
       {
         "en": "Follow health, safety and environment rules on site.",
-        "ar": "تتبع قواعد الصحة والسلامة والبيئة في الموقع."
+        "ar": "بتمشي على قواعد الصحة والسلامة والبيئة في الموقع."
       }
     ],
     "environments": [
@@ -122,11 +122,11 @@
     "alternativeRoutes": [
       {
         "en": "Geology, chemical engineering and mechanical engineering are all routes into oil and gas companies.",
-        "ar": "الجيولوجيا والهندسة الكيميائية والميكانيكية كلها مسارات إلى شركات البترول والغاز."
+        "ar": "الجيولوجيا والهندسة الكيميائية والميكانيكية كلهم طرق لشركات البترول والغاز."
       },
       {
         "en": "Technical oil and petroleum institutes train technicians for field work.",
-        "ar": "معاهد البترول الفنية تدرب فنيين للعمل الميداني."
+        "ar": "معاهد البترول الفنية بتدرّب فنيين للشغل الميداني."
       }
     ],
     "licensing": {
@@ -232,7 +232,7 @@
     ],
     "freelanceRemote": {
       "en": "Most work is tied to company assets and field sites, so freelancing is limited; some consulting and data analysis can be remote after you gain experience.",
-      "ar": "معظم العمل مرتبط بأصول الشركات ومواقعها، فالعمل الحر محدود؛ ويمكن لبعض الاستشارات وتحليل البيانات أن تتم عن بعد بعد اكتساب الخبرة."
+      "ar": "أغلب الشغل مرتبط بأصول الشركات ومواقعها، فالفري لانس محدود؛ وشوية استشارات وتحليل بيانات ممكن يتعملوا من البيت بعد ما تاخد خبرة."
     },
     "regions": [
       {
@@ -256,66 +256,66 @@
   },
   "global": {
     "en": "Egyptian petroleum engineers have long worked in the Gulf, Libya, Iraq and elsewhere. Global oil and gas hiring is cyclical and the world is shifting toward lower-carbon energy, so build skills that move into gas, data and renewables.",
-    "ar": "عمل مهندسو البترول المصريون طويلًا في الخليج وليبيا والعراق وغيرها. التوظيف عالميًا في البترول والغاز دوري والعالم يتجه إلى طاقة أقل كربونًا، فابنِ مهارات تنتقل إلى الغاز والبيانات والطاقة المتجددة."
+    "ar": "مهندسين البترول المصريين اشتغلوا كتير في الخليج وليبيا والعراق وغيرهم. التعيين في البترول والغاز في العالم بيطلع وينزل، والعالم رايح ناحية طاقة كربونها أقل، فابني مهارات تنقل معاك للغاز والبيانات والطاقة المتجددة."
   },
   "reality": {
     "pros": [
       {
         "en": "Rewarding technical challenges and global industry",
-        "ar": "تحديات تقنية مجزية وصناعة عالمية"
+        "ar": "تحديات فنية بتستاهل وصناعة عالمية"
       },
       {
         "en": "Often better pay than many engineering fields",
-        "ar": "غالبًا أجر أفضل من كثير من مجالات الهندسة"
+        "ar": "غالبًا مرتب أحسن من مجالات هندسة كتير"
       },
       {
         "en": "Recent government efforts to repay arrears and drill more wells are encouraging",
-        "ar": "جهود حكومية حديثة لسداد المستحقات وحفر آبار أكثر مشجعة"
+        "ar": "مجهودات حكومية جديدة لسداد المستحقات وحفر آبار أكتر بتشجّع"
       }
     ],
     "challenges": [
       {
         "en": "Remote work locations and rotation schedules away from family",
-        "ar": "مواقع نائية ونظام مناوبات بعيدًا عن الأسرة"
+        "ar": "أماكن شغل بعيدة ونظام روتيشن بعيد عن العيلة"
       },
       {
         "en": "Oil prices and company budgets make hiring cyclical",
-        "ar": "أسعار البترول وميزانيات الشركات تجعل التوظيف دوريًا"
+        "ar": "أسعار البترول وميزانيات الشركات بتخلّي التعيين يطلع وينزل"
       },
       {
         "en": "Egypt's oil and gas sector shrank for more than two years before recently returning to growth",
-        "ar": "قطاع البترول والغاز في مصر انكمش أكثر من عامين قبل أن يعود مؤخرًا للنمو"
+        "ar": "قطاع البترول والغاز في مصر انكمش أكتر من سنتين قبل ما يرجع ينمو قريب"
       },
       {
         "en": "Long-term shift to low-carbon energy changes the field",
-        "ar": "التحول طويل المدى نحو الطاقة منخفضة الكربون يغيّر المجال"
+        "ar": "التحول على المدى الطويل للطاقة قليلة الكربون بيغيّر المجال"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Petroleum engineers spend all their time on rigs.",
-          "ar": "مهندس البترول يقضي وقته كله على المنصات."
+          "ar": "مهندسين البترول وقتهم كله على الحفارات."
         },
         "fact": {
           "en": "Many work in offices with data, models and economics; field time depends on the role.",
-          "ar": "كثير منهم يعمل في المكاتب على البيانات والنماذج والاقتصاديات؛ ووقت الميدان يعتمد على الوظيفة."
+          "ar": "كتير منهم بيشتغلوا في مكاتب على البيانات والنماذج والاقتصاديات؛ ووقت الميدان بيعتمد على الوظيفة."
         }
       },
       {
         "myth": {
           "en": "The oil sector is guaranteed to boom forever.",
-          "ar": "قطاع البترول سيزدهر للأبد."
+          "ar": "قطاع البترول هيفضل مزدهر على طول."
         },
         "fact": {
           "en": "It goes through cycles, so keep skills flexible and consider related fields like gas, energy and data.",
-          "ar": "يمر بدورات، فأبقِ مهاراتك مرنة وفكّر في مجالات قريبة مثل الغاز والطاقة والبيانات."
+          "ar": "بيعدّي بدورات، فخلّي مهاراتك مرنة وفكّر في مجالات قريبة زي الغاز والطاقة والبيانات."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Field rotations (for example weeks on, days off) can strain family life, while office roles in Cairo are more regular.",
-      "ar": "نظام المناوبات الميدانية (أسابيع عمل ثم أيام إجازة) قد يرهق الحياة الأسرية، أما وظائف المكاتب في القاهرة فأكثر انتظامًا."
+      "ar": "الروتيشن الميداني (أسابيع شغل وبعدها أيام إجازة) ممكن يتعب حياة العيلة، أما شغل المكاتب في القاهرة فأنتظم."
     }
   },
   "progression": {

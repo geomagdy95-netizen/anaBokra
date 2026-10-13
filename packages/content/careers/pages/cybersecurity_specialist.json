@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You protect people, companies and countries from hackers, scams and data theft.",
-      "ar": "تحمي الناس والشركات والدول من الهاكرز والاحتيال وسرقة البيانات."
+      "ar": "بتحمي الناس والشركات والدول من الهاكرز والنصب وسرقة البيانات."
     },
     "summary": {
       "en": "Cybersecurity specialists defend networks, systems and data, find weaknesses before attackers do, and respond when something goes wrong. Egypt adopted a National Cybersecurity Strategy 2023-2027 and runs training programs for young people. It is a field where curiosity and ethics matter as much as technical skill.",
-      "ar": "متخصص الأمن السيبراني يدافع عن الشبكات والنظم والبيانات ويكتشف الثغرات قبل المهاجمين ويتصرف حين يحدث خلل. اعتمدت مصر الاستراتيجية الوطنية للأمن السيبراني 2023-2027 وتدير برامج تدريب للشباب. هو مجال تهم فيه الفضول والأخلاق قدر المهارة التقنية."
+      "ar": "متخصص الأمن السيبراني بيدافع عن الشبكات والأنظمة والبيانات، وبيلاقي الثغرات قبل المهاجمين، وبيتصرف لما حاجة تحصل. مصر اعتمدت الاستراتيجية الوطنية للأمن السيبراني 2023-2027 وعندها برامج تدريب للشباب. وده مجال الفضول والأخلاق فيه مهمين قد المهارة التقنية."
     },
     "dayInLife": {
       "en": "You start by checking alerts on the security dashboard overnight. One login from an unusual country looks suspicious, so you lock the account and ask the user to reset the password. Later you test a company's website with the owner's permission and find a weak spot that could expose customer data, and you write a clear report. In the afternoon you run a short awareness session for staff about phishing messages. You finish by updating the incident log so that nothing is forgotten.",
-      "ar": "تبدأ بفحص تنبيهات لوحة الأمان خلال الليل. دخول من دولة غير معتادة يبدو مريبًا، فتغلق الحساب وتطلب من المستخدم تغيير كلمة المرور. لاحقًا تختبر موقع شركة بإذن صاحبها وتجد ثغرة قد تكشف بيانات العملاء، وتكتب تقريرًا واضحًا. بعد الظهر تقدم جلسة توعية قصيرة للموظفين عن رسائل التصيد. وتنهي يومك بتحديث سجل الحوادث حتى لا يُنسى شيء."
+      "ar": "بتبدأ بمراجعة تنبيهات داشبورد الأمان من بالليل. فيه تسجيل دخول من دولة غريبة شكله مريب، فتقفل الحساب وتطلب من صاحبه يغيّر الباسورد. بعدها تختبر موقع شركة بإذن صاحبها، وتلاقي ثغرة ممكن تكشف بيانات العملاء، وتكتب تقرير واضح. بعد الضهر تعمل جلسة توعية قصيرة للموظفين عن رسايل التصيد. وتقفل يومك بتحديث سجل الحوادث عشان مفيش حاجة تتنسي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Monitor systems and networks for attacks and unusual activity.",
-        "ar": "تراقب النظم والشبكات بحثًا عن هجمات ونشاط غير معتاد."
+        "ar": "بتراقب الأنظمة والشبكات وتدوّر على هجمات أو نشاط غريب."
       },
       {
         "en": "Test systems for weaknesses with permission (penetration testing).",
-        "ar": "تختبر النظم بحثًا عن الثغرات بإذن (اختبار الاختراق)."
+        "ar": "بتختبر الأنظمة وتدوّر على الثغرات بإذن (اختبار الاختراق)."
       },
       {
         "en": "Respond to incidents: contain, investigate and recover.",
-        "ar": "تستجيب للحوادث: تحتوي وتحقق وتستعيد."
+        "ar": "بتتعامل مع الحوادث: تحاصرها وتحقق فيها وترجّع الأنظمة."
       },
       {
         "en": "Set up protections such as firewalls, access controls and encryption.",
-        "ar": "تعد وسائل الحماية مثل الجدران النارية وضوابط الدخول والتشفير."
+        "ar": "بتجهّز وسائل الحماية زي الفايروول وصلاحيات الدخول والتشفير."
       },
       {
         "en": "Train staff to avoid phishing and scams.",
-        "ar": "تدرب الموظفين على تجنب التصيد والاحتيال."
+        "ar": "بتدرّب الموظفين يتجنبوا التصيد والنصب."
       },
       {
         "en": "Follow laws and standards, and write security reports.",
-        "ar": "تتبع القوانين والمعايير وتكتب تقارير الأمن."
+        "ar": "بتمشي على القوانين والمعايير وتكتب تقارير الأمن."
       }
     ],
     "environments": [
@@ -127,15 +127,15 @@
     "alternativeRoutes": [
       {
         "en": "Networking and IT support roles are common starting points before specializing in security.",
-        "ar": "أدوار الشبكات والدعم الفني نقطة بداية شائعة قبل التخصص في الأمن."
+        "ar": "شغل الشبكات والدعم الفني بداية منتشرة قبل ما تتخصص في الأمن."
       },
       {
         "en": "Programs such as NTI, ITI, DEPI, Cisco Networking Academy, Orange Digital Center and Sprints offer cybersecurity tracks; check current availability.",
-        "ar": "برامج مثل NTI وITI وDEPI وأكاديمية سيسكو للشبكات ومركز أورنج الرقمي وSprints تقدم مسارات في الأمن السيبراني؛ راجع المتاح حاليًا."
+        "ar": "برامج زي NTI وITI وDEPI وأكاديمية سيسكو للشبكات ومركز أورنج الرقمي وSprints فيها مسارات أمن سيبراني؛ اتأكد من المتاح دلوقتي."
       },
       {
         "en": "Practice legally on platforms such as Hack The Box, TryHackMe and CTF competitions.",
-        "ar": "تدرب بشكل قانوني على منصات مثل Hack The Box وTryHackMe ومسابقات CTF."
+        "ar": "اتمرّن بشكل قانوني على منصات زي Hack The Box وTryHackMe ومسابقات CTF."
       }
     ],
     "licensing": {
@@ -266,7 +266,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance work includes legal bug bounty programs, penetration testing for small businesses and security audits. Remote work is possible for monitoring and consulting. Always work only with written permission; unauthorized testing is a crime under Law 175 of 2018.",
-      "ar": "يشمل العمل الحر برامج مكافآت الثغرات القانونية واختبار الاختراق للشركات الصغيرة وتدقيق الأمن. والعمل عن بعد ممكن للمراقبة والاستشارات. اعمل دائمًا بإذن مكتوب فقط؛ فالاختبار بلا إذن جريمة بموجب القانون 175 لسنة 2018."
+      "ar": "الفري لانس فيه برامج مكافآت الثغرات القانونية، واختبار الاختراق للشركات الصغيرة، وتدقيق الأمن. والشغل من البيت ممكن في المراقبة والاستشارات. اشتغل دايمًا بإذن مكتوب بس؛ الاختبار من غير إذن جريمة بالقانون 175 لسنة 2018."
     },
     "regions": [
       {
@@ -292,35 +292,35 @@
   },
   "global": {
     "en": "Cybersecurity professionals are short worldwide, and the Gulf in particular is investing heavily. Certifications such as Security+, OSCP and CISSP are recognized across borders; some government and defense jobs abroad need citizenship or clearance, which Egyptians generally do not have.",
-    "ar": "متخصصو الأمن السيبراني ناقصون عالميًا، والخليج يستثمر بقوة. وشهادات مثل Security+ وOSCP وCISSP معترف بها عبر الحدود؛ وبعض وظائف الحكومة والدفاع بالخارج تتطلب جنسية أو تصريحًا أمنيًا لا يتوفر عادة للمصريين."
+    "ar": "متخصصين الأمن السيبراني ناقصين في العالم كله، والخليج بالذات بيستثمر جامد. شهادات زي Security+ وOSCP وCISSP معترف بيها في كل حتة؛ بس فيه وظايف حكومة ودفاع برّه محتاجة جنسية أو تصريح أمني، ودول غالبًا مش متاحين للمصريين."
   },
   "reality": {
     "pros": [
       {
         "en": "Global shortage of skilled people and growing national investment",
-        "ar": "نقص عالمي في المهرة واستثمار وطني متنامٍ"
+        "ar": "نقص في الناس الشاطرة في العالم كله واستثمار قومي بيكبر"
       },
       {
         "en": "Constant learning and challenge",
-        "ar": "تعلم مستمر وتحدٍّ دائم"
+        "ar": "تعلّم مستمر وتحدّي على طول"
       },
       {
         "en": "Many routes in: networking, software, SOC, consulting",
-        "ar": "مسارات دخول كثيرة: الشبكات والبرمجة ومراكز العمليات والاستشارات"
+        "ar": "طرق دخول كتير: الشبكات والبرمجة ومراكز المراقبة والاستشارات"
       }
     ],
     "challenges": [
       {
         "en": "Stress during attacks, with night and weekend on-call duty",
-        "ar": "ضغط أثناء الهجمات مع مناوبات ليلية وعطلات"
+        "ar": "ضغط وقت الهجمات، ومناوبات بالليل وفي الإجازات"
       },
       {
         "en": "Needs strong foundations in networking and systems",
-        "ar": "يحتاج أساسًا قويًا في الشبكات والنظم"
+        "ar": "محتاج أساس قوي في الشبكات والأنظمة"
       },
       {
         "en": "Entry-level security jobs can be hard to find; many start in IT support",
-        "ar": "وظائف الأمن المبتدئة قد يصعب إيجادها؛ وكثيرون يبدأون في الدعم الفني"
+        "ar": "وظايف الأمن للمبتدئين صعب تلاقيها؛ وكتير بيبدأوا في الدعم الفني"
       },
       {
         "en": "Legal and ethical limits are strict",
@@ -331,27 +331,27 @@
       {
         "myth": {
           "en": "Cybersecurity is like the hacker movies.",
-          "ar": "الأمن السيبراني مثل أفلام الهاكرز."
+          "ar": "الأمن السيبراني زي أفلام الهاكرز."
         },
         "fact": {
           "en": "Most work is careful monitoring, documentation, configuration and teaching, not dramatic breaking in.",
-          "ar": "معظم العمل مراقبة دقيقة وتوثيق وإعداد وتعليم، لا اقتحام درامي."
+          "ar": "أغلب الشغل مراقبة دقيقة وتوثيق وإعدادات وتعليم، مش اقتحام زي الأفلام."
         }
       },
       {
         "myth": {
           "en": "You must learn hacking before anything else.",
-          "ar": "يجب أن تتعلم الاختراق قبل أي شيء."
+          "ar": "لازم تتعلم الاختراق قبل أي حاجة."
         },
         "fact": {
           "en": "Start with networking, operating systems and basic programming; hacking skills build on these.",
-          "ar": "ابدأ بالشبكات ونظم التشغيل والبرمجة الأساسية؛ فمهارات الاختراق تُبنى عليها."
+          "ar": "ابدأ بالشبكات وأنظمة التشغيل والبرمجة الأساسية؛ مهارات الاختراق بتتبني عليهم."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Normal hours in many consulting roles; SOC roles often use shifts and incident response may mean night calls.",
-      "ar": "ساعات عادية في كثير من أدوار الاستشارات؛ وأدوار مراكز العمليات تعتمد غالبًا الورديات وقد تعني الاستجابة للحوادث مكالمات ليلية."
+      "ar": "مواعيد عادية في شغل استشارات كتير؛ ومراكز المراقبة غالبًا شغلها بالشيفتات، والتعامل مع الحوادث ممكن يعني مكالمات بالليل."
     }
   },
   "progression": {

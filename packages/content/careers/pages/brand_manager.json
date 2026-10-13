@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You shape how people feel about a product.",
-      "ar": "أنت من يصنع شعور الناس تجاه المنتج."
+      "ar": "إنت اللي بتصنع إحساس الناس ناحية المنتج."
     },
     "summary": {
       "en": "Brand managers guide a brand: what it stands for, how it looks and how it talks to customers. They plan campaigns, watch sales and work with advertising agencies, designers and sales teams. Many reach this role after starting in marketing.",
-      "ar": "مدير العلامة التجارية يقود علامة: ما تمثله وكيف تبدو وكيف تخاطب العملاء. يخطط الحملات ويتابع المبيعات ويعمل مع وكالات الإعلان والمصممين وفرق البيع. ويصل كثيرون إلى هذا الدور بعد البداية في التسويق."
+      "ar": "مدير البراند بيقود علامة تجارية: بتمثّل إيه، وشكلها إيه، وبتكلّم العملاء إزاي. بيخطط الحملات، ويتابع المبيعات، ويشتغل مع وكالات الإعلان والمصممين وفرق البيع. وناس كتير بيوصلوا للدور ده بعد ما يبدأوا في التسويق."
     },
     "dayInLife": {
       "en": "You start by checking last week's sales and social media results for your product. Then you meet the agency to approve the design of a new advert. After lunch you review a customer survey to see what people like or dislike. Before leaving you update your budget and plan the next campaign.",
-      "ar": "تبدأ بمراجعة مبيعات الأسبوع الماضي ونتائج مواقع التواصل لمنتجك. ثم تجتمع مع الوكالة لاعتماد تصميم إعلان جديد. بعد الغداء تراجع استبيان العملاء لتعرف ما يعجبهم وما لا يعجبهم. قبل المغادرة تحدّث ميزانيتك وتخطط للحملة القادمة."
+      "ar": "بتبدأ بمراجعة مبيعات الأسبوع اللي فات ونتايج السوشيال ميديا بتاعة منتجك. بعدين تقعد مع الوكالة توافق على تصميم إعلان جديد. بعد الغدا تراجع استبيان العملاء تعرف إيه اللي عاجبهم وإيه اللي مش عاجبهم. وقبل ما تمشي تحدّث الميزانية وتخطط للحملة الجاية."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Define the brand's message, look and audience.",
-        "ar": "تحدد رسالة العلامة وشكلها وجمهورها."
+        "ar": "بتحدد رسالة البراند وشكله وجمهوره."
       },
       {
         "en": "Plan and manage advertising and promotion campaigns.",
-        "ar": "تخطط حملات الإعلان والترويج وتديرها."
+        "ar": "بتخطط حملات الإعلان والترويج وتديرها."
       },
       {
         "en": "Study customers, competitors and sales results.",
-        "ar": "تدرس العملاء والمنافسين ونتائج المبيعات."
+        "ar": "بتدرس العملاء والمنافسين ونتايج المبيعات."
       },
       {
         "en": "Manage the marketing budget.",
-        "ar": "تدير ميزانية التسويق."
+        "ar": "بتدير ميزانية التسويق."
       },
       {
         "en": "Work with agencies, designers and sales teams.",
-        "ar": "تعمل مع الوكالات والمصممين وفرق البيع."
+        "ar": "بتشتغل مع الوكالات والمصممين وفرق البيع."
       }
     ],
     "environments": [
@@ -110,11 +110,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a marketing assistant or agency junior, then grow into brand work.",
-        "ar": "البدء كمساعد تسويق أو مبتدئ في وكالة ثم التدرج إلى إدارة العلامات."
+        "ar": "تبدأ مساعد تسويق أو جونيور في وكالة، وبعدين تكبر لحد شغل البراند."
       },
       {
         "en": "Marketing diplomas and certificates alongside a degree or job.",
-        "ar": "دبلومات وشهادات التسويق مع الدراسة الجامعية أو العمل."
+        "ar": "دبلومات وشهادات تسويق جنب الجامعة أو الشغل."
       }
     ],
     "licensing": null
@@ -143,7 +143,7 @@
       },
       {
         "en": "Starting your own brand",
-        "ar": "إطلاق علامتك الخاصة"
+        "ar": "تطلّع براند بتاعك"
       }
     ]
   },

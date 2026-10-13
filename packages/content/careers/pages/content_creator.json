@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You turn ideas into videos, posts and stories people want to watch.",
-      "ar": "تحوّل الأفكار إلى فيديوهات ومنشورات وقصص يريد الناس مشاهدتها."
+      "ar": "بتحوّل الأفكار لفيديوهات وبوستات وستوريز الناس عايزة تتفرج عليها."
     },
     "summary": {
       "en": "Content creators make videos, photos, podcasts and posts for platforms such as YouTube, TikTok and Instagram, for themselves or for brands. They need ideas, basic production skills and patience, because growing an audience takes time. Income can vary a lot, so many also work for companies or freelance.",
-      "ar": "صانع المحتوى ينتج فيديوهات وصورًا وبودكاست ومنشورات لمنصات مثل يوتيوب وتيك توك وإنستجرام، لنفسه أو للعلامات التجارية. يحتاج إلى أفكار ومهارات إنتاج أساسية وصبر، فبناء الجمهور يستغرق وقتًا. قد يتفاوت الدخل كثيرًا، ولذلك يعمل كثيرون أيضًا مع شركات أو كعمل حر."
+      "ar": "صانع المحتوى بيعمل فيديوهات وصور وبودكاست وبوستات لمنصات زي يوتيوب وتيك توك وإنستجرام، لنفسه أو للبراندات. محتاج أفكار ومهارات إنتاج أساسية وصبر، عشان بناء جمهور بياخد وقت. الدخل ممكن يطلع وينزل كتير، فناس كتير بيشتغلوا كمان مع شركات أو فري لانس."
     },
     "dayInLife": {
       "en": "You plan the week's content with a simple calendar. Today you shoot a short video, using natural light and a phone on a small tripod, then edit it on your laptop and add subtitles. In the afternoon you reply to comments and look at which of your videos people watched until the end. In the evening you write ideas for tomorrow.",
-      "ar": "تخطط محتوى الأسبوع بتقويم بسيط. اليوم تصوّر فيديو قصيرًا بضوء طبيعي وهاتف على حامل صغير، ثم تحرره على اللابتوب وتضيف الترجمة. بعد الظهر ترد على التعليقات وترى أي فيديوهاتك شاهدها الناس حتى النهاية. وفي المساء تكتب أفكار الغد."
+      "ar": "بتخطط محتوى الأسبوع على كالندر بسيط. النهارده تصوّر فيديو قصير بنور طبيعي وموبايل على حامل صغير، وبعدين تعمله مونتاج على اللابتوب وتحط ترجمة. بعد الضهر ترد على الكومنتات وتشوف أنهي فيديوهات الناس كمّلوها للآخر. وبالليل تكتب أفكار بكرة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Come up with ideas and plan content for a chosen audience.",
-        "ar": "تفكر في الأفكار وتخطط المحتوى لجمهور محدد."
+        "ar": "بتطلّع أفكار وتخطط محتوى لجمهور معيّن."
       },
       {
         "en": "Shoot, record and edit videos, photos or audio.",
-        "ar": "تصوّر وتسجّل وتحرر الفيديو أو الصور أو الصوت."
+        "ar": "بتصوّر وتسجّل وتعمل مونتاج للفيديو أو الصور أو الصوت."
       },
       {
         "en": "Write captions, scripts and titles.",
-        "ar": "تكتب التعليقات والسيناريوهات والعناوين."
+        "ar": "بتكتب الكابشنز والسكريبتات والعناوين."
       },
       {
         "en": "Publish regularly and answer your audience.",
-        "ar": "تنشر بانتظام وترد على جمهورك."
+        "ar": "بتنشر بانتظام وترد على جمهورك."
       },
       {
         "en": "Study the numbers and work with brands on paid content.",
-        "ar": "تدرس الأرقام وتعمل مع العلامات على المحتوى المدفوع."
+        "ar": "بتدرس الأرقام وتشتغل مع البراندات على المحتوى المدفوع."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Start now: publish on a free platform, learn editing and writing, and build a portfolio.",
-        "ar": "ابدأ الآن: انشر على منصة مجانية وتعلم المونتاج والكتابة وابنِ ملف أعمال."
+        "ar": "ابدأ دلوقتي: انشر على منصة ببلاش، واتعلم المونتاج والكتابة، واعمل بورتفوليو."
       },
       {
         "en": "Work in a brand or agency content team to learn the professional side while you build your own channel.",
-        "ar": "اعمل في فريق محتوى بعلامة أو وكالة لتتعلم الجانب المهني بينما تبني قناتك."
+        "ar": "اشتغل في فريق محتوى عند براند أو وكالة تتعلم الجانب المهني، وإنت بتبني قناتك."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Teaching or training others online",
-        "ar": "التعليم أو التدريب عبر الإنترنت"
+        "ar": "تعلّم أو تدرّب غيرك أونلاين"
       }
     ]
   },

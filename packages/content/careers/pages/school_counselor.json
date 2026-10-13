@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You help students find their way, in school and in life.",
-      "ar": "تساعد الطلاب على إيجاد طريقهم في المدرسة وفي الحياة."
+      "ar": "بتساعد الطلبة يلاقوا طريقهم، في الدراسة وفي الحياة."
     },
     "summary": {
       "en": "School and career counsellors support students with study problems, feelings, friendships and decisions about the future. They listen, give guidance, help students understand their interests and choices, and work with parents and teachers. A calm manner and good judgment are essential.",
-      "ar": "المرشد الطلابي والمهني يدعم الطلاب في مشكلات الدراسة والمشاعر والصداقات وقرارات المستقبل. يستمع ويقدّم التوجيه ويساعد الطلاب على فهم ميولهم وخياراتهم ويتعاون مع الأهالي والمعلمين. الهدوء وحسن التقدير أمران أساسيان."
+      "ar": "المرشد الطلابي والمهني بيساعد الطلبة في مشاكل المذاكرة والمشاعر والصحاب وقرارات المستقبل. بيسمع، ويوجّه، ويساعد الطلبة يفهموا ميولهم واختياراتهم، وبيشتغل مع الأهالي والمدرسين. والهدوء والتقدير السليم أساسيين."
     },
     "dayInLife": {
       "en": "Before the first lesson a student comes to you worried about exams. You listen, then help her make a study plan. Later you run a class session about choosing a university track, and then you meet two parents about their son's behaviour. In the afternoon you review the students' interest test results and update your private notes.",
-      "ar": "قبل الحصة الأولى تأتيك طالبة قلقة من الامتحانات. تستمع إليها ثم تساعدها في وضع خطة مذاكرة. لاحقًا تقدم حصة لفصل عن اختيار المسار الجامعي، ثم تقابل ولي أمر عن سلوك ابنهما. بعد الظهر تراجع نتائج اختبارات الميول وتحدّث ملاحظاتك الخاصة."
+      "ar": "قبل أول حصة طالبة بتيجي لك قلقانة من الامتحانات. تسمعها، وبعدين تساعدها تعمل خطة مذاكرة. بعدها تعمل حصة لفصل عن اختيار المسار الجامعي، وبعدين تقابل أب وأم عن تصرفات ابنهم. بعد الضهر تراجع نتايج اختبارات الميول وتحدّث ملاحظاتك الخاصة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Meet students one-to-one and in groups to listen and guide.",
-        "ar": "تقابل الطلاب فرديًا وجماعيًا للاستماع والتوجيه."
+        "ar": "بتقابل الطلبة لوحدهم وفي مجموعات عشان تسمع وتوجّه."
       },
       {
         "en": "Help students with study habits and exam stress.",
-        "ar": "تساعد الطلاب في عادات المذاكرة وضغط الامتحانات."
+        "ar": "بتساعد الطلبة في عادات المذاكرة وضغط الامتحانات."
       },
       {
         "en": "Guide students through career and university choices.",
-        "ar": "تقود الطلاب خلال خيارات المهنة والجامعة."
+        "ar": "بتمشي مع الطلبة في اختيارات المهنة والجامعة."
       },
       {
         "en": "Work with parents and teachers on students' needs.",
-        "ar": "تتعاون مع الأهالي والمعلمين حول احتياجات الطلاب."
+        "ar": "بتشتغل مع الأهالي والمدرسين على احتياجات الطلبة."
       },
       {
         "en": "Refer serious problems to specialists and keep records private.",
-        "ar": "تحيل المشكلات الجادة إلى المتخصصين وتحافظ على سرية السجلات."
+        "ar": "بتحوّل المشاكل الكبيرة للمتخصصين وتحافظ على سرية السجلات."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "A degree in psychology, sociology or education, then a diploma in school or career counselling.",
-        "ar": "درجة في علم النفس أو الاجتماع أو التربية ثم دبلوم في الإرشاد المدرسي أو المهني."
+        "ar": "شهادة في علم النفس أو الاجتماع أو التربية، وبعدين دبلومة في الإرشاد المدرسي أو المهني."
       },
       {
         "en": "Work as a teacher or social specialist, then train as a counsellor.",
-        "ar": "العمل كمعلم أو أخصائي اجتماعي ثم التدرب كمرشد."
+        "ar": "تشتغل مدرس أو أخصائي اجتماعي، وبعدين تتدرّب كمرشد."
       }
     ],
     "licensing": {

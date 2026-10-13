@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You shape the rooms where people live, work and relax.",
-      "ar": "تشكّل الغرف التي يعيش فيها الناس ويعملون ويرتاحون."
+      "ar": "بتشكّل الأوض اللي الناس بتعيش وتشتغل وترتاح فيها."
     },
     "summary": {
       "en": "Interior designers plan how a space looks and works: layout, colours, furniture, lighting and materials. They draw plans, choose materials and work with clients and builders. A good designer mixes creativity with practical measurements and budget.",
-      "ar": "مصمم الديكور الداخلي يخطط كيف يبدو المكان وكيف يعمل: التوزيع والألوان والأثاث والإضاءة والخامات. يرسم المخططات ويختار الخامات ويعمل مع العملاء والمقاولين. المصمم الجيد يجمع بين الإبداع والقياسات العملية والميزانية."
+      "ar": "مصمم الديكور الداخلي بيخطط المكان شكله إيه وبيشتغل إزاي: التوزيع والألوان والعفش والإضاءة والخامات. بيرسم المخططات، ويختار الخامات، ويشتغل مع العملاء والمقاولين. والمصمم الشاطر بيجمع بين الإبداع والمقاسات العملية والميزانية."
     },
     "dayInLife": {
       "en": "You visit a client's apartment and take measurements while listening to how the family uses each room. Back at the office you draw the plan on the computer and make a 3D picture. After lunch you choose fabrics and tiles with a supplier and check the price. Before you leave you send the client a mood board and the next step.",
-      "ar": "تزور شقة عميل وتأخذ القياسات وأنت تستمع لكيفية استخدام الأسرة لكل غرفة. في المكتب ترسم المخطط على الكمبيوتر وتعمل صورة ثلاثية الأبعاد. بعد الغداء تختار الأقمشة والبلاط مع مورّد وتراجع السعر. قبل المغادرة ترسل للعميل لوحة الأفكار والخطوة التالية."
+      "ar": "بتزور شقة عميل وتاخد المقاسات وإنت بتسمع العيلة بتستخدم كل أوضة إزاي. في المكتب ترسم المخطط على الكمبيوتر وتعمل صورة 3D. بعد الغدا تختار القماش والسيراميك مع مورّد وتراجع السعر. وقبل ما تمشي تبعت للعميل لوحة الأفكار والخطوة الجاية."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Meet clients and understand their needs and budget.",
-        "ar": "تقابل العملاء وتفهم احتياجاتهم وميزانيتهم."
+        "ar": "بتقابل العملاء وتفهم احتياجاتهم وميزانيتهم."
       },
       {
         "en": "Draw layouts and 3D images of the design.",
-        "ar": "ترسم المخططات والصور ثلاثية الأبعاد للتصميم."
+        "ar": "بترسم مخططات التوزيع وصور 3D للتصميم."
       },
       {
         "en": "Choose colours, furniture, lighting and materials.",
-        "ar": "تختار الألوان والأثاث والإضاءة والخامات."
+        "ar": "بتختار الألوان والعفش والإضاءة والخامات."
       },
       {
         "en": "Prepare drawings and cost lists for builders and suppliers.",
-        "ar": "تجهّز الرسومات وقوائم التكلفة للمقاولين والموردين."
+        "ar": "بتجهّز الرسومات وقوايم التكلفة للمقاولين والموردين."
       },
       {
         "en": "Visit the site and check the work is done as designed.",
-        "ar": "تزور الموقع وتتأكد أن التنفيذ يطابق التصميم."
+        "ar": "بتنزل الموقع تتأكد إن التنفيذ مطابق للتصميم."
       }
     ],
     "environments": [
@@ -110,11 +110,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a CAD drafter or assistant designer in a studio or fit-out company, then grow with a portfolio.",
-        "ar": "البدء كرسام CAD أو مساعد مصمم في استوديو أو شركة تشطيبات ثم التقدم بملف الأعمال."
+        "ar": "تبدأ رسام CAD أو مساعد مصمم في استوديو أو شركة تشطيبات، وتكبر بالبورتفوليو."
       },
       {
         "en": "Short diplomas and software courses next to another design or engineering degree.",
-        "ar": "دبلومات قصيرة ودورات برامج بجانب درجة أخرى في التصميم أو الهندسة."
+        "ar": "دبلومات قصيرة وكورسات برامج جنب شهادة تانية في التصميم أو الهندسة."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Opening your own design studio",
-        "ar": "فتح استوديو تصميم خاص"
+        "ar": "تفتح استوديو تصميم بتاعك"
       }
     ]
   },

@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help Egypt grow more food with less water.",
-      "ar": "تساعد مصر على إنتاج غذاء أكثر بمياه أقل."
+      "ar": "بتساعد مصر تزرع أكل أكتر بمية أقل."
     },
     "summary": {
       "en": "Agricultural engineers (agronomists) advise farms and companies on crops, soil, irrigation, plant protection and post-harvest handling. Water is limited in Egypt, so water-saving irrigation, export quality and new farming technology are growing needs. Many jobs are in farms and export companies, sometimes far from the city, and pay at the start is modest.",
-      "ar": "المهندس الزراعي ينصح المزارع والشركات في المحاصيل والتربة والري ووقاية النبات والتعامل مع المحصول بعد الحصاد. المياه محدودة في مصر، فالري الموفر للمياه وجودة التصدير وتقنيات الزراعة الحديثة احتياجات متنامية. كثير من الوظائف في المزارع وشركات التصدير وأحيانًا بعيدًا عن المدينة، والأجر في البداية متواضع."
+      "ar": "المهندس الزراعي بينصح المزارع والشركات في المحاصيل والتربة والري ووقاية النبات والتعامل مع المحصول بعد الحصاد. المية في مصر محدودة، فالري اللي بيوفّر مية وجودة التصدير وتكنولوجيا الزراعة الحديثة احتياجات بتكبر. شغل كتير بيبقى في المزارع وشركات التصدير، وساعات بعيد عن المدينة، والمرتب في الأول بيبقى متواضع."
     },
     "dayInLife": {
       "en": "You drive to a vegetable farm early in the morning, walk through the rows, check for pests and take a soil sample. The drip irrigation in one corner is blocked, so you show the workers how to clean it. You record what you found in a phone app and update the fertiliser plan. At noon you explain to the farm owner why the plants in one field look yellow. In the afternoon you check a packing station to make sure the produce meets export rules, and you finish with a written report for the next visit.",
-      "ar": "تسافر إلى مزرعة خضار مبكرًا وتمشي بين الصفوف وتفحص الآفات وتأخذ عينة تربة. الري بالتنقيط في ركن من المزرعة مسدود، فتعلّم العمال كيف ينظفونه. تسجل ما وجدته في تطبيق على الموبايل وتحدّث خطة التسميد. عند الظهر تشرح لصاحب المزرعة لماذا تبدو النباتات صفراء في حقل معين. بعد الظهر تفحص محطة تعبئة لتتأكد أن المحصول يطابق شروط التصدير، وتنهي اليوم بتقرير مكتوب للزيارة القادمة."
+      "ar": "بتسافر بدري لمزرعة خضار، وتمشي بين الصفوف تكشف على الآفات وتاخد عينة تربة. الري بالتنقيط في ركن من المزرعة مسدود، فتوري العمال ينضفوه إزاي. تسجّل اللي لقيته على أبلكيشن في الموبايل وتحدّث خطة التسميد. الضهر تشرح لصاحب المزرعة ليه الزرع في غيط معين باين أصفر. بعد الضهر تكشف على محطة تعبئة تتأكد إن المحصول مطابق لشروط التصدير، وتقفل اليوم بتقرير مكتوب للزيارة الجاية."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Advise farmers on crops, planting dates, fertiliser and irrigation.",
-        "ar": "تنصح المزارعين في المحاصيل ومواعيد الزراعة والتسميد والري."
+        "ar": "بتنصح المزارعين في المحاصيل ومواعيد الزراعة والتسميد والري."
       },
       {
         "en": "Test soil and water and design irrigation (drip and sprinkler) systems.",
-        "ar": "تحلل التربة والمياه وتصمم أنظمة الري (بالتنقيط والرش)."
+        "ar": "بتحلّل التربة والمية وتصمم أنظمة الري (بالتنقيط والرش)."
       },
       {
         "en": "Find and control pests and plant diseases, using safe methods and the right pesticide amounts.",
-        "ar": "تكتشف الآفات والأمراض النباتية وتكافحها بطرق آمنة وكميات مبيدات صحيحة."
+        "ar": "بتكتشف الآفات وأمراض النبات وتقاومها بطرق آمنة وبكميات مبيدات مظبوطة."
       },
       {
         "en": "Check produce quality and export standards, packing and cold chain.",
-        "ar": "تراقب جودة المحصول ومعايير التصدير والتعبئة وسلسلة التبريد."
+        "ar": "بتراقب جودة المحصول ومعايير التصدير والتعبئة وسلسلة التبريد."
       },
       {
         "en": "Use sensors, drones and farm records to make decisions.",
-        "ar": "تستخدم المستشعرات والطائرات المسيّرة وسجلات المزرعة في اتخاذ القرار."
+        "ar": "بتستخدم الحساسات والدرونز وسجلات المزرعة عشان تاخد قرارات."
       },
       {
         "en": "Train farm workers and write reports for owners and authorities.",
-        "ar": "تدرب عمال المزرعة وتكتب تقارير لأصحاب المزارع والجهات المختصة."
+        "ar": "بتدرّب عمال المزرعة وتكتب تقارير لأصحاب المزارع والجهات المختصة."
       }
     ],
     "environments": [
@@ -119,15 +119,15 @@
     "alternativeRoutes": [
       {
         "en": "Agricultural technical secondary school diplomas lead to technician-level jobs, with a chance to continue to higher studies.",
-        "ar": "دبلومات المدارس الثانوية الفنية الزراعية تؤدي إلى وظائف فنية مع فرصة استكمال الدراسة العليا."
+        "ar": "دبلومات الثانوي الفني الزراعي بتوصّل لوظايف فنية، مع فرصة إنك تكمّل دراسة أعلى."
       },
       {
         "en": "Syndicate training courses and certificates for graduates and technicians in specific agricultural professions.",
-        "ar": "دورات وشهادات النقابة للخريجين والفنيين في مهن زراعية محددة."
+        "ar": "دورات وشهادات النقابة للخريجين والفنيين في مهن زراعية معينة."
       },
       {
         "en": "Postgraduate study in irrigation, plant protection, food safety or agribusiness for advanced roles.",
-        "ar": "دراسات عليا في الري أو وقاية النبات أو سلامة الغذاء أو الأعمال الزراعية لوظائف متقدمة."
+        "ar": "دراسات عليا في الري أو وقاية النبات أو سلامة الغذاء أو البيزنس الزراعي للوظايف المتقدمة."
       }
     ],
     "licensing": {
@@ -271,7 +271,7 @@
     ],
     "freelanceRemote": {
       "en": "Farm advisory work is local, but consultants can serve several farms and use apps and remote sensing for part of the work. Agritech startups for marketplaces, advice and irrigation sensors are growing but small. Farming is changing toward higher-skill, higher-value roles, while total farm jobs are likely stable or slowly falling as a share of employment.",
-      "ar": "العمل الاستشاري للمزارع محلي، لكن يمكن للمستشار خدمة عدة مزارع واستخدام التطبيقات والاستشعار عن بُعد في جزء من العمل. الشركات الناشئة في التقنية الزراعية (أسواق ونصائح ومستشعرات ري) تنمو لكنها صغيرة. تتجه الزراعة نحو وظائف أعلى مهارة وقيمة، بينما يُرجَّح استقرار إجمالي وظائف المزارع أو انخفاضها ببطء كنسبة من التشغيل."
+      "ar": "الاستشارات الزراعية شغل محلي، بس المستشار ممكن يخدم كذا مزرعة ويستخدم الأبلكيشنز والاستشعار عن بعد في جزء من الشغل. الشركات الناشئة في التكنولوجيا الزراعية (أسواق ونصايح وحساسات ري) بتكبر بس لسه صغيرة. الزراعة رايحة ناحية وظايف محتاجة مهارة وقيمة أعلى، وفي نفس الوقت غالبًا إجمالي شغل المزارع هيفضل ثابت أو هيقل ببطء كنسبة من التشغيل."
     },
     "regions": [
       {
@@ -291,72 +291,72 @@
   },
   "global": {
     "en": "Gulf countries import Egyptian produce and hire agricultural engineers and technicians. International agricultural companies and organisations (FAO and others) recruit specialists in irrigation, food security and quality. Experience in export farming and good English are strengths for work abroad.",
-    "ar": "تستورد دول الخليج المنتجات المصرية وتوظف مهندسين وفنيين زراعيين. وتوظف الشركات الزراعية الدولية والمنظمات (مثل الفاو وغيرها) متخصصين في الري والأمن الغذائي والجودة. الخبرة في مزارع التصدير والإنجليزية الجيدة نقاط قوة للعمل بالخارج."
+    "ar": "دول الخليج بتستورد المنتجات المصرية وبتشغّل مهندسين وفنيين زراعيين. والشركات الزراعية الدولية والمنظمات (زي الفاو وغيرها) بتعيّن متخصصين في الري والأمن الغذائي والجودة. الخبرة في مزارع التصدير والإنجليزي الكويس نقط قوة لو عايز تشتغل برّه."
   },
   "reality": {
     "pros": [
       {
         "en": "Practical, outdoor work that feeds people",
-        "ar": "عمل عملي في الهواء الطلق يطعم الناس"
+        "ar": "شغل عملي في الهوا الطلق بيأكّل الناس"
       },
       {
         "en": "Growing needs: water-saving irrigation, export quality and agritech",
-        "ar": "احتياجات متنامية: الري الموفر للمياه وجودة التصدير والتقنية الزراعية"
+        "ar": "احتياجات بتكبر: ري بيوفّر مية، وجودة تصدير، وتكنولوجيا زراعية"
       },
       {
         "en": "Chance to run your own farm or consultancy later",
-        "ar": "فرصة لإدارة مزرعتك أو مكتب استشارات لاحقًا"
+        "ar": "فرصة إنك تدير مزرعتك أو مكتب استشارات بتاعك بعدين"
       }
     ],
     "challenges": [
       {
         "en": "Entry pay is modest and some farms are far from cities",
-        "ar": "الأجر في البداية متواضع وبعض المزارع بعيدة عن المدن"
+        "ar": "المرتب في الأول متواضع وفيه مزارع بعيدة عن المدن"
       },
       {
         "en": "Work in heat, dust and long days in the field",
-        "ar": "العمل في الحر والغبار وأيام طويلة في الحقل"
+        "ar": "شغل في الحر والتراب وأيام طويلة في الغيط"
       },
       {
         "en": "Water scarcity, climate and price changes affect farms and jobs",
-        "ar": "ندرة المياه والمناخ وتغير الأسعار تؤثر على المزارع والوظائف"
+        "ar": "قلة المية والمناخ وتغيّر الأسعار بيأثروا على المزارع والشغل"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Agriculture is only traditional farming.",
-          "ar": "الزراعة زراعة تقليدية فقط."
+          "ar": "الزراعة يعني زراعة تقليدية وبس."
         },
         "fact": {
           "en": "Modern agriculture uses irrigation engineering, sensors, drones, food safety and data.",
-          "ar": "الزراعة الحديثة تستخدم هندسة الري والمستشعرات والطائرات المسيّرة وسلامة الغذاء والبيانات."
+          "ar": "الزراعة الحديثة فيها هندسة ري وحساسات ودرونز وسلامة غذاء وبيانات."
         }
       },
       {
         "myth": {
           "en": "Only students with low scores study agriculture.",
-          "ar": "كلية الزراعة لمن مجموعهم منخفض فقط."
+          "ar": "كلية الزراعة للي مجموعهم قليل بس."
         },
         "fact": {
           "en": "Agriculture is a science field with real demand for skilled graduates, and good graduates have strong options.",
-          "ar": "الزراعة مجال علمي به طلب حقيقي على الخريجين المهرة، وللخريج المتميز خيارات قوية."
+          "ar": "الزراعة مجال علمي عليه طلب حقيقي للخريجين الشاطرين، والخريج المتميز قدامه اختيارات قوية."
         }
       },
       {
         "myth": {
           "en": "Agricultural engineers must live in the village forever.",
-          "ar": "المهندس الزراعي يعيش في القرية طوال عمره."
+          "ar": "المهندس الزراعي لازم يعيش في القرية طول عمره."
         },
         "fact": {
           "en": "Many work in companies, labs, packing stations and offices in cities, or move into agribusiness and consulting.",
-          "ar": "كثيرون يعملون في شركات ومعامل ومحطات تعبئة ومكاتب بالمدن، أو ينتقلون إلى الأعمال الزراعية والاستشارات."
+          "ar": "ناس كتير بيشتغلوا في شركات ومعامل ومحطات تعبئة ومكاتب في المدن، أو بينقلوا للبيزنس الزراعي والاستشارات."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Field days start early, and harvest seasons are busy. Office and lab roles have more regular hours. Travel between farms is common.",
-      "ar": "أيام الحقل تبدأ مبكرًا ومواسم الحصاد مزدحمة. وظائف المكاتب والمعامل أكثر انتظامًا. والتنقل بين المزارع شائع."
+      "ar": "أيام الغيط بتبدأ بدري، ومواسم الحصاد بتبقى زحمة. شغل المكاتب والمعامل مواعيده أنتظم. والتنقل بين المزارع حاجة عادية."
     }
   },
   "progression": {

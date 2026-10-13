@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You are the voice of a brand on social media.",
-      "ar": "أنت صوت العلامة التجارية على السوشيال ميديا."
+      "ar": "إنت صوت البراند على السوشيال ميديا."
     },
     "summary": {
       "en": "Social media managers plan, publish and monitor a brand's posts on platforms like Facebook, Instagram, TikTok and LinkedIn. They write, coordinate designs, answer followers and measure what works. Almost every company now needs one, and the skills can be learned partly by practice.",
-      "ar": "مدير السوشيال ميديا يخطط وينشر ويتابع منشورات العلامة التجارية على منصات مثل فيسبوك وإنستجرام وتيك توك ولينكدإن. يكتب وينسق التصميمات ويرد على المتابعين ويقيس ما ينجح. تحتاج تقريبًا كل شركة الآن إلى واحد، ويمكن تعلم جزء من المهارات بالممارسة."
+      "ar": "مدير السوشيال ميديا بيخطط وينشر ويتابع بوستات البراند على منصات زي فيسبوك وإنستجرام وتيك توك ولينكدإن. بيكتب، وينسّق التصميمات، ويرد على المتابعين، ويقيس إيه اللي بينجح. تقريبًا كل شركة دلوقتي محتاجة واحد، وجزء من المهارات بيتعلم بالممارسة."
     },
     "dayInLife": {
       "en": "You check the comments and messages from the night and answer what you can. Then you finish the week's post calendar and send designs to the designer. At noon you launch a small paid ad, and in the afternoon you look at the numbers: which posts people liked and which they skipped. You end the day by writing next week's ideas.",
-      "ar": "تراجع تعليقات ورسائل الليل وترد على ما تستطيع. ثم تنهي تقويم منشورات الأسبوع وترسل التصميمات للمصمم. عند الظهر تطلق إعلانًا مدفوعًا صغيرًا، وبعد الظهر تنظر في الأرقام: أي المنشورات أعجبت الناس وأيها تجاهلوه. تنهي اليوم بكتابة أفكار الأسبوع القادم."
+      "ar": "بتراجع كومنتات ورسايل بالليل وترد على اللي تقدر عليه. بعدين تخلّص كالندر بوستات الأسبوع وتبعت التصميمات للمصمم. الضهر تطلّع إعلان مدفوع صغير، وبعد الضهر تبص على الأرقام: أنهي بوستات الناس حبتها وأنهي عدّوها. وتقفل اليوم بكتابة أفكار الأسبوع الجاي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan a content calendar and write posts.",
-        "ar": "تخطط تقويم المحتوى وتكتب المنشورات."
+        "ar": "بتخطط كالندر المحتوى وتكتب البوستات."
       },
       {
         "en": "Work with designers and video makers.",
-        "ar": "تعمل مع المصممين وصناع الفيديو."
+        "ar": "بتشتغل مع المصممين وصناع الفيديو."
       },
       {
         "en": "Reply to comments and messages and manage the community.",
-        "ar": "ترد على التعليقات والرسائل وتدير المجتمع."
+        "ar": "بترد على الكومنتات والرسايل وتدير المجتمع."
       },
       {
         "en": "Run paid ads and track results.",
-        "ar": "تدير الإعلانات المدفوعة وتتابع نتائجها."
+        "ar": "بتشغّل الإعلانات المدفوعة وتتابع نتايجها."
       },
       {
         "en": "Report to managers and adjust the plan.",
-        "ar": "ترفع تقارير للمديرين وتعدّل الخطة."
+        "ar": "بتعمل تقارير للمديرين وتعدّل الخطة."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a community manager or content assistant, even part-time while studying.",
-        "ar": "البدء كمدير مجتمع أو مساعد محتوى حتى لو بدوام جزئي أثناء الدراسة."
+        "ar": "تبدأ كوميونيتي مانجر أو مساعد محتوى، حتى لو بارت تايم وإنت بتدرس."
       },
       {
         "en": "Free and paid marketing courses plus a portfolio of accounts you managed.",
-        "ar": "دورات تسويق مجانية ومدفوعة مع ملف بحسابات أدرتها."
+        "ar": "كورسات تسويق ببلاش ومدفوعة، ومعاها بورتفوليو بحسابات أدرتها."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Freelance or agency ownership",
-        "ar": "العمل الحر أو امتلاك وكالة"
+        "ar": "فري لانس أو وكالة بتاعتك"
       }
     ]
   },

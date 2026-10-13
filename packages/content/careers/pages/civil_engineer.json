@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You design and build the roads, bridges, buildings and water systems people use every day.",
-      "ar": "تصمم وتبني الطرق والكباري والمباني وشبكات المياه التي يستخدمها الناس كل يوم."
+      "ar": "بتصمم وتبني الطرق والكباري والمباني وشبكات المية اللي الناس بتستخدمها كل يوم."
     },
     "summary": {
       "en": "Civil engineers plan, design and supervise construction and infrastructure. Egypt has many large building and transport projects, so there is work on site and in design offices. The job mixes calculation, drawing and managing people, and early years often mean long days on construction sites.",
-      "ar": "المهندس المدني يخطط ويصمم ويشرف على الإنشاءات والبنية التحتية. في مصر مشروعات كبيرة للمباني والنقل، فهناك عمل في المواقع ومكاتب التصميم. الوظيفة تمزج الحسابات والرسم وإدارة الناس، وغالبًا ما تعني سنواتها الأولى أيامًا طويلة في مواقع البناء."
+      "ar": "المهندس المدني بيخطط ويصمم ويشرف على الإنشاءات والبنية التحتية. مصر فيها مشاريع مباني ونقل كبيرة، فيه شغل في المواقع وفي مكاتب التصميم. الشغلانة بتجمع بين الحسابات والرسم وإدارة الناس، وأول سنين غالبًا معناها أيام طويلة في مواقع البنا."
     },
     "dayInLife": {
       "en": "You reach the site at 7 a.m. with your helmet and drawings. The foreman asks about the reinforcement in a column, so you check the drawing and measure the bars. You test the concrete delivery and note the slump result. Later you meet the contractor to discuss a delay caused by materials arriving late. Back in the site office you update the progress report and check a design calculation on your laptop. It is hot and dusty, but at the end of the week you can point at something that was not there before.",
-      "ar": "تصل إلى الموقع في السابعة صباحًا بخوذتك والمخططات. يسألك رئيس العمال عن حديد التسليح في عمود، فتراجع المخطط وتقيس الأسياخ. تختبر خرسانة التوريد وتسجّل نتيجة الهبوط. ثم تجتمع مع المقاول لمناقشة تأخير بسبب وصول المواد متأخرة. وفي مكتب الموقع تحدّث تقرير التقدم وتراجع حسابًا تصميميًا على لابتوبك. الجو حار ومتربّ، لكنك في نهاية الأسبوع تشير إلى شيء لم يكن موجودًا من قبل."
+      "ar": "بتوصل الموقع الساعة 7 الصبح بالخوذة والرسومات. الريّس يسألك على حديد التسليح في عمود، فتراجع الرسمة وتقيس الأسياخ. تختبر الخرسانة اللي وصلت وتسجّل نتيجة الهبوط. بعدها تقعد مع المقاول تتكلموا في تأخير بسبب إن المواد وصلت متأخر. وفي مكتب الموقع تحدّث تقرير التقدم وتراجع حسبة تصميم على اللابتوب. الجو حر وتراب، بس في آخر الأسبوع بتشاور على حاجة ما كانتش موجودة قبل كده."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Design structures such as foundations, slabs, bridges and roads using engineering calculations and codes.",
-        "ar": "تصمم منشآت مثل الأساسات والبلاطات والكباري والطرق باستخدام الحسابات الهندسية والأكواد."
+        "ar": "بتصمم منشآت زي الأساسات والبلاطات والكباري والطرق بالحسابات الهندسية والأكواد."
       },
       {
         "en": "Prepare drawings and quantities with CAD and BIM software.",
-        "ar": "تعد المخططات والكميات ببرامج CAD وBIM."
+        "ar": "بتجهّز الرسومات والكميات ببرامج CAD وBIM."
       },
       {
         "en": "Supervise construction on site and check quality and safety.",
-        "ar": "تشرف على التنفيذ في الموقع وتراجع الجودة والسلامة."
+        "ar": "بتشرف على التنفيذ في الموقع وتراجع الجودة والسلامة."
       },
       {
         "en": "Plan schedules and budgets and coordinate contractors and suppliers.",
-        "ar": "تخطط الجداول والميزانيات وتنسق بين المقاولين والموردين."
+        "ar": "بتخطط المواعيد والميزانيات وتنسّق بين المقاولين والموردين."
       },
       {
         "en": "Test soil and materials such as concrete and steel.",
-        "ar": "تختبر التربة والمواد مثل الخرسانة والحديد."
+        "ar": "بتختبر التربة والمواد زي الخرسانة والحديد."
       },
       {
         "en": "Prepare reports and obtain approvals from authorities.",
-        "ar": "تعد التقارير وتحصل على الموافقات من الجهات."
+        "ar": "بتجهّز التقارير وتطلّع الموافقات من الجهات."
       }
     ],
     "environments": [
@@ -122,11 +122,11 @@
     "alternativeRoutes": [
       {
         "en": "Higher technological institutes and technical colleges give a shorter technician or technologist route into construction.",
-        "ar": "المعاهد العليا التكنولوجية والكليات التقنية تتيح مسارًا أقصر لفني أو تكنولوجي في الإنشاءات."
+        "ar": "المعاهد العليا التكنولوجية والكليات التكنولوجية بتديك طريق أقصر كفني أو تكنولوجي في الإنشاءات."
       },
       {
         "en": "Architecture, quantity surveying and construction management are related paths.",
-        "ar": "العمارة وحصر الكميات وإدارة المشروعات الإنشائية مسارات قريبة."
+        "ar": "العمارة وحصر الكميات وإدارة المشاريع الإنشائية مسارات قريبة."
       }
     ],
     "licensing": {
@@ -253,7 +253,7 @@
     ],
     "freelanceRemote": {
       "en": "Design work, drawings and estimating can be done as a freelancer or small consultancy, including remote work for Gulf clients. Site supervision itself must be done in person.",
-      "ar": "يمكن عمل التصميم والرسومات وتقدير التكاليف كمستقل أو مكتب استشاري صغير، ومنها العمل عن بعد لعملاء في الخليج. أما الإشراف على الموقع فيتم حضوريًا."
+      "ar": "التصميم والرسومات وحساب التكاليف ممكن يتعملوا فري لانس أو من مكتب استشاري صغير، ومنهم شغل من البيت لعملاء في الخليج. أما الإشراف على الموقع فلازم بنفسك."
     },
     "regions": [
       {
@@ -273,66 +273,66 @@
   },
   "global": {
     "en": "Civil engineers from Egypt work in Saudi Arabia, the UAE, Qatar and Kuwait on large construction and infrastructure projects. Some Gulf countries require registration with a local engineering council and a minimum experience, so plan your first years of site experience. The syndicate's membership helps.",
-    "ar": "يعمل المهندسون المدنيون المصريون في السعودية والإمارات وقطر والكويت على مشروعات إنشاء وبنية تحتية كبيرة. بعض دول الخليج تشترط التسجيل في مجلس هندسي محلي وحدًا أدنى من الخبرة، فخطط لسنواتك الأولى في الموقع. وعضوية النقابة تفيد."
+    "ar": "المهندسين المدنيين المصريين بيشتغلوا في السعودية والإمارات وقطر والكويت في مشاريع إنشاء وبنية تحتية كبيرة. فيه دول خليجية بتشترط تسجيل في مجلس هندسي محلي وحد أدنى من الخبرة، فخطط لأول سنين خبرتك في الموقع. وعضوية النقابة بتفرق."
   },
   "reality": {
     "pros": [
       {
         "en": "Visible results: you help build real things",
-        "ar": "نتائج مرئية: تساهم في بناء أشياء حقيقية"
+        "ar": "نتيجة شغلك قدام عينك: بتساهم في بنا حاجات حقيقية"
       },
       {
         "en": "Many mega-projects and steady demand for engineers",
-        "ar": "مشروعات ضخمة كثيرة وطلب مستمر على المهندسين"
+        "ar": "مشاريع ضخمة كتير وطلب مستمر على المهندسين"
       },
       {
         "en": "Routes to management or to starting your own contracting or consulting office",
-        "ar": "مسارات إلى الإدارة أو لتأسيس مكتب مقاولات أو استشارات"
+        "ar": "طرق للإدارة أو إنك تفتح مكتب مقاولات أو استشارات بتاعك"
       }
     ],
     "challenges": [
       {
         "en": "Hot, dusty sites and long hours, especially at first",
-        "ar": "مواقع حارة ومتربة وساعات طويلة خاصة في البداية"
+        "ar": "مواقع حر وتراب وساعات طويلة، خصوصًا في الأول"
       },
       {
         "en": "Starting pay is modest compared with the workload",
-        "ar": "الأجر في البداية متواضع مقارنة بالعبء"
+        "ar": "المرتب في الأول متواضع قصاد حجم الشغل"
       },
       {
         "en": "Work depends on the construction and real estate cycle",
-        "ar": "العمل يتأثر بدورة قطاعي الإنشاءات والعقارات"
+        "ar": "الشغل بيتأثر بدورة سوق الإنشاءات والعقارات"
       },
       {
         "en": "Safety responsibility is serious",
-        "ar": "مسؤولية السلامة جسيمة"
+        "ar": "مسؤولية السلامة كبيرة جدًا"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Civil engineers only work on site in helmets.",
-          "ar": "المهندس المدني يعمل فقط في الموقع بالخوذة."
+          "ar": "المهندس المدني بيشتغل في الموقع بالخوذة وبس."
         },
         "fact": {
           "en": "Many work in design, planning, estimating or consulting offices using software.",
-          "ar": "كثير منهم يعمل في التصميم والتخطيط وتقدير التكاليف والاستشارات بالبرامج."
+          "ar": "كتير منهم بيشتغلوا في التصميم والتخطيط وحساب التكاليف والاستشارات على البرامج."
         }
       },
       {
         "myth": {
           "en": "Civil engineering is a field for men only.",
-          "ar": "الهندسة المدنية للرجال فقط."
+          "ar": "الهندسة المدنية للرجالة بس."
         },
         "fact": {
           "en": "Women study and work as civil engineers in Egypt, in design, supervision and management.",
-          "ar": "تدرس النساء الهندسة المدنية وتعملن بها في مصر في التصميم والإشراف والإدارة."
+          "ar": "البنات بيدرسوا الهندسة المدنية وبيشتغلوا فيها في مصر، في التصميم والإشراف والإدارة."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Site roles can mean 10-hour days, six days a week, and travel. Office design roles are steadier. It usually improves as you move into senior or office-based roles.",
-      "ar": "أدوار الموقع قد تعني ١٠ ساعات يوميًا وستة أيام أسبوعيًا مع سفر. أدوار التصميم المكتبية أكثر انتظامًا. وتتحسن عادة مع الانتقال إلى أدوار أقدم أو مكتبية."
+      "ar": "شغل الموقع ممكن يبقى 10 ساعات في اليوم وستة أيام في الأسبوع، ومعاه سفر. شغل التصميم في المكتب أنتظم. وغالبًا بيتحسن لما تكبر في الخبرة أو تنقل لشغل مكتبي."
     }
   },
   "progression": {

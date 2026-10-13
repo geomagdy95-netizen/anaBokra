@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You work out what is wrong with a person and help them get better, with one of the longest training paths in Egypt.",
-      "ar": "تعرف ما الذي يؤلم الإنسان وتساعده على التحسن، عبر واحد من أطول مسارات التعليم في مصر."
+      "ar": "بتعرف الإنسان تعبان من إيه وبتساعده يتحسن، من خلال واحد من أطول طرق الدراسة في مصر."
     },
     "summary": {
       "en": "Physicians diagnose illness, treat patients, and guide families through hard decisions. In Egypt the path is six years of study, a compulsory internship year, then years of specialist training. It is meaningful work, but the training is long and the early pay in public hospitals is low.",
-      "ar": "الطبيب يشخّص المرض ويعالج المرضى ويرافق الأسر في قرارات صعبة. في مصر المسار ست سنوات دراسة، ثم سنة امتياز إجبارية، ثم سنوات تخصص. العمل ذو معنى كبير، لكن التدريب طويل والأجر في بدايته بالمستشفيات الحكومية منخفض."
+      "ar": "الدكتور بيشخّص المرض، ويعالج المرضى، ويقف جنب الأهالي في قرارات صعبة. في مصر الطريق ست سنين دراسة، وبعدين سنة امتياز إجبارية، وبعدين سنين تخصص. الشغل ليه معنى كبير، بس التدريب طويل والمرتب في الأول في المستشفيات الحكومية قليل."
     },
     "dayInLife": {
       "en": "You arrive at the university hospital at 8 a.m. and join the morning round, where the team reviews each patient on the ward. You examine a man with chest pain, read his ECG and blood tests, and talk through the plan with your senior. Later you clerk new patients in the emergency room and write careful notes, because everything you write may be read by the next doctor. In the afternoon you explain a diagnosis to a worried family in simple words. Some days you stay on a night shift and sleep in short pieces. By evening you are tired, but you remember the patient who walked out of the hospital that day.",
-      "ar": "تصل إلى المستشفى الجامعي في الثامنة صباحًا وتنضم إلى الجولة الصباحية، حيث يراجع الفريق كل مريض في القسم. تفحص رجلًا يشكو من ألم في الصدر وتقرأ رسم القلب وتحاليل الدم، ثم تناقش الخطة مع الطبيب الأقدم. بعد ذلك تستقبل مرضى جددًا في الطوارئ وتكتب ملاحظاتك بدقة، لأن ما تكتبه سيقرؤه الطبيب التالي. بعد الظهر تشرح لأسرة قلقة التشخيص بكلمات بسيطة. وفي بعض الأيام تبقى في مناوبة ليلية وتنام على فترات قصيرة. في المساء تكون متعبًا، لكنك تتذكر المريض الذي غادر المستشفى على قدميه اليوم."
+      "ar": "بتوصل المستشفى الجامعي الساعة 8 الصبح وتنضم للمرور الصباحي، والفريق بيراجع كل مريض في القسم. تكشف على راجل عنده وجع في صدره، وتقرا رسم القلب وتحاليل الدم، وتناقش الخطة مع الدكتور الأكبر. بعدها تستقبل مرضى جداد في الطوارئ وتكتب ملاحظاتك بدقة، لأن اللي بتكتبه الدكتور اللي بعدك هيقراه. بعد الضهر تشرح لعيلة قلقانة التشخيص بكلام بسيط. وفيه أيام بتبات نوبتجية وتنام على فترات قصيرة. بالليل بتبقى تعبان، بس فاكر المريض اللي خرج من المستشفى على رجليه النهارده."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Take a patient's history and examine them to find the likely cause of their symptoms.",
-        "ar": "تأخذ التاريخ المرضي للمريض وتفحصه لتعرف السبب المحتمل لأعراضه."
+        "ar": "بتاخد التاريخ المرضي وتكشف على المريض عشان تعرف السبب المحتمل لأعراضه."
       },
       {
         "en": "Order and read tests such as blood work, X-rays, ultrasound and ECG.",
-        "ar": "تطلب التحاليل والفحوصات مثل تحاليل الدم والأشعة والسونار ورسم القلب وتقرأ نتائجها."
+        "ar": "بتطلب التحاليل والفحوصات زي تحاليل الدم والأشعة والسونار ورسم القلب وتقرا نتايجها."
       },
       {
         "en": "Prescribe medicine and treatments, and follow how the patient responds.",
-        "ar": "تصف الأدوية والعلاجات وتتابع استجابة المريض لها."
+        "ar": "بتكتب الأدوية والعلاجات وتتابع المريض بيستجيب إزاي."
       },
       {
         "en": "Manage long-term illnesses such as diabetes, high blood pressure and asthma.",
-        "ar": "تتابع الأمراض المزمنة مثل السكري وضغط الدم والربو."
+        "ar": "بتتابع الأمراض المزمنة زي السكر والضغط والربو."
       },
       {
         "en": "Explain diagnoses and options to patients and families in clear, honest language.",
-        "ar": "تشرح التشخيص والخيارات للمرضى وأسرهم بلغة واضحة وصادقة."
+        "ar": "بتشرح التشخيص والاختيارات للمرضى وأهاليهم بكلام واضح وصادق."
       },
       {
         "en": "Keep accurate medical records and work with nurses, pharmacists and other specialists.",
-        "ar": "تحتفظ بسجلات طبية دقيقة وتعمل مع التمريض والصيادلة وباقي التخصصات."
+        "ar": "بتحتفظ بسجلات طبية دقيقة وتشتغل مع التمريض والصيادلة وباقي التخصصات."
       }
     ],
     "environments": [
@@ -118,15 +118,15 @@
     "alternativeRoutes": [
       {
         "en": "If your marks fall just short, Dentistry, Pharmacy or Physical Therapy keep you in patient care and have slightly lower minimums.",
-        "ar": "إذا كان مجموعك أقل قليلًا من الطب، فطب الأسنان أو الصيدلة أو العلاج الطبيعي تُبقيك في رعاية المرضى وحدودها الدنيا أقل قليلًا."
+        "ar": "لو مجموعك أقل شوية من الطب، طب الأسنان أو الصيدلة أو العلاج الطبيعي بيخلّوك في رعاية المرضى وحدودهم الدنيا أقل شوية."
       },
       {
         "en": "Clinical nutrition, medical laboratory science and biomedical engineering are health careers that do not need a medical degree.",
-        "ar": "التغذية العلاجية وعلوم المعامل الطبية والهندسة الطبية الحيوية مهن صحية لا تتطلب شهادة طب."
+        "ar": "التغذية العلاجية وعلوم المعامل الطبية والهندسة الطبية الحيوية مهن صحية ما محتاجاش شهادة طب."
       },
       {
         "en": "Some students study medicine abroad or at a private university; compare total cost and make sure the degree is recognized in Egypt before you commit.",
-        "ar": "يدرس بعض الطلاب الطب في الخارج أو في جامعة خاصة؛ قارن التكلفة الكاملة وتأكد من اعتراف مصر بالشهادة قبل القرار."
+        "ar": "فيه طلبة بيدرسوا طب برّه أو في جامعة خاصة؛ قارن التكلفة كلها واتأكد إن مصر بتعترف بالشهادة قبل ما تقرر."
       }
     ],
     "licensing": {
@@ -261,7 +261,7 @@
     ],
     "freelanceRemote": {
       "en": "Most doctors keep a hospital post and add private clinic hours; this is common and legal once you are licensed. Telemedicine is growing but does not replace examining patients in person for most specialties.",
-      "ar": "يحتفظ معظم الأطباء بوظيفة في مستشفى ويضيفون ساعات في عيادة خاصة، وهذا شائع ومسموح بعد الترخيص. الطب عن بعد ينمو لكنه لا يحل محل فحص المريض وجهًا لوجه في أغلب التخصصات."
+      "ar": "أغلب الدكاترة بيحتفظوا بوظيفة في مستشفى ويضيفوا ساعات في عيادة خاصة، وده منتشر ومسموح بعد الترخيص. الطب عن بعد بيكبر، بس ما بياخدش مكان الكشف وش لوش في أغلب التخصصات."
     },
     "regions": [
       {
@@ -281,7 +281,7 @@
   },
   "global": {
     "en": "Egyptian doctors are in demand in the Gulf, the UK, Germany, Canada and the US. The Egyptian Medical Syndicate says only about 38% of licensed Egyptian doctors work inside Egypt, and about 7,000 emigrated in 2023 (Egyptian Streets, 2025). Moving abroad usually needs exams (PLAB, USMLE, Saudi or UAE licensing), strong English or German, and a few years of postgraduate training. A bill to require new doctors to stay in Egypt for some years was proposed, so check the current rules.",
-    "ar": "الأطباء المصريون مطلوبون في الخليج وبريطانيا وألمانيا وكندا وأمريكا. تقول نقابة الأطباء إن نحو 38% فقط من الأطباء المرخصين يعملون داخل مصر، وإن نحو 7000 سافروا في 2023 (Egyptian Streets، 2025). السفر يتطلب عادة امتحانات (PLAB أو USMLE أو ترخيص السعودية أو الإمارات) ولغة إنجليزية أو ألمانية جيدة وبضع سنوات من التدريب بعد التخرج. وقد اقتُرح مشروع قانون يلزم الأطباء الجدد بالبقاء في مصر عدة سنوات، فراجع القواعد الحالية."
+    "ar": "الدكاترة المصريين مطلوبين في الخليج وبريطانيا وألمانيا وكندا وأمريكا. نقابة الأطباء بتقول إن حوالي 38% بس من الدكاترة المرخصين بيشتغلوا جوه مصر، وإن حوالي 7000 سافروا في 2023 (Egyptian Streets، 2025). السفر غالبًا محتاج امتحانات (PLAB أو USMLE أو ترخيص السعودية أو الإمارات) وإنجليزي أو ألماني كويس وكام سنة تدريب بعد التخرج. واتقدّم مشروع قانون يلزم الدكاترة الجداد يفضلوا في مصر كام سنة، فراجع القواعد الحالية."
   },
   "reality": {
     "pros": [
@@ -291,70 +291,70 @@
       },
       {
         "en": "Respect in the community and many routes to specialize",
-        "ar": "احترام في المجتمع وطرق كثيرة للتخصص"
+        "ar": "احترام في المجتمع وطرق كتير للتخصص"
       },
       {
         "en": "Strong demand at home and abroad",
-        "ar": "طلب قوي داخل مصر وخارجها"
+        "ar": "طلب قوي جوه مصر وبرّه"
       },
       {
         "en": "Private practice can bring high income later in your career",
-        "ar": "العيادة الخاصة قد تحقق دخلًا مرتفعًا في مرحلة لاحقة"
+        "ar": "العيادة الخاصة ممكن تجيب دخل عالي في مرحلة بعدين"
       }
     ],
     "challenges": [
       {
         "en": "Very long training: six years, internship, then specialty years",
-        "ar": "تدريب طويل جدًا: ست سنوات ثم امتياز ثم سنوات التخصص"
+        "ar": "تدريب طويل جدًا: ست سنين، وبعدين امتياز، وبعدين سنين التخصص"
       },
       {
         "en": "Low pay in the early years, especially in public hospitals",
-        "ar": "أجر منخفض في السنوات الأولى خصوصًا في المستشفيات الحكومية"
+        "ar": "مرتب قليل في أول سنين، خصوصًا في المستشفيات الحكومية"
       },
       {
         "en": "Long shifts, heavy patient loads and sometimes poor equipment or security",
-        "ar": "مناوبات طويلة وأعداد كبيرة من المرضى وأحيانًا نقص في المعدات أو الأمان"
+        "ar": "نوبتجيات طويلة ومرضى كتير، وأحيانًا نقص في المعدات أو الأمان"
       },
       {
         "en": "Emotional weight of losing patients and delivering bad news",
-        "ar": "ثقل نفسي من فقدان المرضى وإبلاغ الأخبار السيئة"
+        "ar": "تقل نفسي من خسارة مرضى وإنك تبلّغ أخبار وحشة"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Doctors in Egypt are all rich.",
-          "ar": "كل الأطباء في مصر أغنياء."
+          "ar": "كل الدكاترة في مصر أغنيا."
         },
         "fact": {
           "en": "Early-career doctors, especially in public hospitals, earn little; high incomes usually come after years of specialist work and private practice.",
-          "ar": "الأطباء في بداية حياتهم، خاصة في المستشفيات الحكومية، يكسبون القليل؛ والدخل المرتفع يأتي غالبًا بعد سنوات من التخصص والعمل الخاص."
+          "ar": "الدكاترة في أول طريقهم، خصوصًا في المستشفيات الحكومية، بيكسبوا قليل؛ والدخل العالي غالبًا بييجي بعد سنين تخصص وشغل خاص."
         }
       },
       {
         "myth": {
           "en": "You need a perfect personality or a family of doctors to succeed.",
-          "ar": "تحتاج إلى شخصية مثالية أو عائلة من الأطباء لتنجح."
+          "ar": "لازم شخصية مثالية أو عيلة كلها دكاترة عشان تنجح."
         },
         "fact": {
           "en": "Discipline, curiosity and care for people matter more. Many successful doctors are the first in their family.",
-          "ar": "الانضباط والفضول والاهتمام بالناس أهم. كثير من الأطباء الناجحين هم الأوائل في أسرهم."
+          "ar": "الانضباط والفضول والاهتمام بالناس أهم. دكاترة ناجحين كتير هما أول دكاترة في عيلتهم."
         }
       },
       {
         "myth": {
           "en": "Only the highest scorers can ever work in health.",
-          "ar": "لا يعمل في المجال الصحي إلا أصحاب أعلى المجاميع."
+          "ar": "المجال الصحي لأصحاب أعلى المجاميع بس."
         },
         "fact": {
           "en": "Pharmacy, physical therapy, nursing, lab science and nutrition are also real health careers with their own minimums.",
-          "ar": "الصيدلة والعلاج الطبيعي والتمريض وعلوم المعامل والتغذية مهن صحية حقيقية لها حدودها الدنيا."
+          "ar": "الصيدلة والعلاج الطبيعي والتمريض وعلوم المعامل والتغذية مهن صحية حقيقية ليها حدودها الدنيا."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Poor in training: night shifts, weekends and exams take most of your time. It improves with seniority and by choosing a specialty with more predictable hours, but emergencies never fully stop.",
-      "ar": "ضعيف أثناء التدريب: المناوبات الليلية والإجازات والامتحانات تأخذ معظم وقتك. يتحسن مع الأقدمية واختيار تخصص بمواعيد أكثر انتظامًا، لكن الطوارئ لا تتوقف تمامًا."
+      "ar": "ضعيف وقت التدريب: النوبتجيات بالليل والإجازات والامتحانات بياخدوا أغلب وقتك. بيتحسن مع الأقدمية ومع اختيار تخصص مواعيده أنتظم، بس الطوارئ ما بتقفش خالص."
     }
   },
   "progression": {

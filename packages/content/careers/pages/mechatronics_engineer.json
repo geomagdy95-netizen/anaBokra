@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You combine mechanics, electronics and programming to build robots and smart machines.",
-      "ar": "تجمع الميكانيكا والإلكترونيات والبرمجة لتبني الروبوتات والآلات الذكية."
+      "ar": "بتجمع الميكانيكا والإلكترونيات والبرمجة عشان تبني روبوتات ومكن ذكي."
     },
     "summary": {
       "en": "Mechatronics engineers design systems where machines, sensors and software work together, like robotic arms, automated production lines and smart devices. In Egypt there is usually no separate mechatronics faculty, so you often study mechanical, electrical or a robotics/automation program and specialize. It is a good fit if you like both building and coding.",
-      "ar": "مهندس الميكاترونيكس يصمم نظمًا تعمل فيها الآلات والحساسات والبرمجيات معًا، مثل الأذرع الروبوتية وخطوط الإنتاج الآلية والأجهزة الذكية. في مصر غالبًا لا توجد كلية ميكاترونيكس مستقلة، فتدرس عادة الميكانيكا أو الكهرباء أو برنامج روبوتات وأتمتة ثم تتخصص. مناسب إن كنت تحب البناء والبرمجة معًا."
+      "ar": "مهندس الميكاترونكس بيصمم أنظمة بيشتغل فيها المكن والحساسات والبرامج مع بعض، زي الأذرع الروبوتية وخطوط الإنتاج الأوتوماتيك والأجهزة الذكية. في مصر غالبًا مفيش كلية ميكاترونكس لوحدها، فبتدرس ميكانيكا أو كهربا أو برنامج روبوتات وأتمتة وتتخصص. مناسب ليك لو بتحب البنا والبرمجة مع بعض."
     },
     "dayInLife": {
       "en": "In the morning you test a small robotic arm that should sort bottles by color, and it keeps missing the green ones. You check the camera settings and adjust the code. Later you meet a factory manager who wants to automate packing, and you explain which sensors and controllers could do it. After lunch you solder a new sensor board and update the PLC program. At the end you document the wiring so another technician can maintain it.",
-      "ar": "في الصباح تختبر ذراعًا روبوتية صغيرة يفترض أن تفرز الزجاجات حسب اللون، لكنها تخطئ في الأخضر. تفحص إعدادات الكاميرا وتعدل الكود. لاحقًا تقابل مدير مصنع يريد أتمتة التعبئة، فتشرح له أي حساسات ومتحكمات تؤدي ذلك. بعد الغداء تلحم لوحة حساس جديدة وتحدّث برنامج PLC. وفي النهاية توثق التوصيلات ليتمكن فني آخر من صيانتها."
+      "ar": "الصبح بتختبر دراع روبوت صغير المفروض يفرز الإزايز حسب اللون، بس بيغلط في الأخضر. تكشف على إعدادات الكاميرا وتعدّل الكود. بعدها تقابل مدير مصنع عايز يعمل أتمتة للتعبئة، فتشرح له أنهي حساسات ومتحكمات تعمل كده. بعد الغدا تلحم بوردة حساس جديدة وتحدّث برنامج الـPLC. وفي الآخر توثّق التوصيلات عشان فني تاني يقدر يصونها."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Design mechanical parts and mount sensors and actuators.",
-        "ar": "تصمم الأجزاء الميكانيكية وتركّب الحساسات والمحركات."
+        "ar": "بتصمم الأجزاء الميكانيكية وتركّب الحساسات والمحركات."
       },
       {
         "en": "Program microcontrollers, PLCs and robot controllers.",
-        "ar": "تبرمج المتحكمات الدقيقة وPLC ومتحكمات الروبوت."
+        "ar": "بتبرمج المتحكمات الدقيقة والـPLC ومتحكمات الروبوت."
       },
       {
         "en": "Build and test prototypes of automated systems.",
-        "ar": "تبني وتختبر نماذج أولية لنظم آلية."
+        "ar": "بتبني وتختبر نماذج أولية لأنظمة أوتوماتيك."
       },
       {
         "en": "Integrate machine vision and control algorithms.",
-        "ar": "تدمج الرؤية الآلية وخوارزميات التحكم."
+        "ar": "بتدمج الرؤية الآلية وخوارزميات التحكم."
       },
       {
         "en": "Install and maintain automated production lines.",
-        "ar": "تركّب وتصون خطوط الإنتاج الآلية."
+        "ar": "بتركّب وتصون خطوط الإنتاج الأوتوماتيك."
       },
       {
         "en": "Write documentation and train operators.",
-        "ar": "تكتب التوثيق وتدرب المشغلين."
+        "ar": "بتكتب التوثيق وتدرّب المشغّلين."
       }
     ],
     "environments": [
@@ -122,15 +122,15 @@
     "alternativeRoutes": [
       {
         "en": "The Egyptian-Japanese KOSEN program trains practical engineers in mechatronics-style fields.",
-        "ar": "برنامج كوسن المصري الياباني يعدّ مهندسين عمليين في مجالات قريبة من الميكاترونيكس."
+        "ar": "برنامج كوسن المصري الياباني بيجهّز مهندسين عمليين في مجالات قريبة من الميكاترونكس."
       },
       {
         "en": "Applied technology schools and technical institutes offer technician routes in automation and CNC.",
-        "ar": "مدارس التكنولوجيا التطبيقية والمعاهد الفنية تقدم مسارات فنية في الأتمتة وCNC."
+        "ar": "مدارس التكنولوجيا التطبيقية والمعاهد الفنية فيها مسارات فنية في الأتمتة والـCNC."
       },
       {
         "en": "Start with a maker space or Fab Lab and online courses while studying.",
-        "ar": "ابدأ بمساحة صناع أو Fab Lab ودورات إلكترونية أثناء الدراسة."
+        "ar": "ابدأ من مكان للميكرز أو Fab Lab وكورسات أونلاين وإنت بتدرس."
       }
     ],
     "licensing": {
@@ -240,7 +240,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance prototyping, PLC programming and design work exist, and some automation support can be done remotely, but hardware work needs access to equipment.",
-      "ar": "يوجد عمل حر في النمذجة وبرمجة PLC والتصميم، ويمكن تقديم بعض دعم الأتمتة عن بعد، لكن عمل العتاد يحتاج إلى معدات."
+      "ar": "فيه فري لانس في عمل النماذج وبرمجة الـPLC والتصميم، وشوية من دعم الأتمتة ممكن يتعمل من البيت، بس شغل الهاردوير محتاج معدات."
     },
     "regions": [
       {
@@ -263,66 +263,66 @@
   },
   "global": {
     "en": "Mechatronics and automation skills are valued in Germany, the Gulf and other industrial markets. Strong English, project portfolios and PLC or robotics certifications help; some countries require equivalency of the degree.",
-    "ar": "مهارات الميكاترونيكس والأتمتة مقدّرة في ألمانيا والخليج وأسواق صناعية أخرى. تساعد الإنجليزية القوية وملف المشروعات وشهادات PLC أو الروبوتات؛ وبعض الدول تشترط معادلة الشهادة."
+    "ar": "مهارات الميكاترونكس والأتمتة ليها قيمة في ألمانيا والخليج وأسواق صناعية تانية. الإنجليزي القوي وبورتفوليو المشاريع وشهادات الـPLC أو الروبوتات بيساعدوا؛ وفيه دول بتشترط معادلة الشهادة."
   },
   "reality": {
     "pros": [
       {
         "en": "Exciting mix of building and coding",
-        "ar": "مزيج ممتع من البناء والبرمجة"
+        "ar": "خليط ممتع من البنا والبرمجة"
       },
       {
         "en": "Automation is expanding in factories",
-        "ar": "الأتمتة تتوسع في المصانع"
+        "ar": "الأتمتة بتتوسع في المصانع"
       },
       {
         "en": "Easy to start learning with cheap boards and kits",
-        "ar": "سهل أن تبدأ التعلم بلوحات وعُدد رخيصة"
+        "ar": "سهل تبدأ تتعلم ببوردات وكيتس رخيصة"
       }
     ],
     "challenges": [
       {
         "en": "Few jobs are called \"mechatronics\" so you have to look under automation or maintenance titles",
-        "ar": "قليل من الوظائف تسمى «ميكاترونيكس» فعليك البحث تحت مسميات الأتمتة والصيانة"
+        "ar": "وظايف قليلة اسمها «ميكاترونكس»، فلازم تدوّر تحت أسامي الأتمتة والصيانة"
       },
       {
         "en": "Broad skills take time to build",
-        "ar": "المهارات الواسعة تحتاج وقتًا لبنائها"
+        "ar": "المهارات الواسعة بتاخد وقت عشان تتبني"
       },
       {
         "en": "Hardware prototypes need a lab and budget",
-        "ar": "نماذج العتاد تحتاج معملًا وميزانية"
+        "ar": "نماذج الهاردوير محتاجة معمل وميزانية"
       },
       {
         "en": "Startup roles may have less job security",
-        "ar": "وظائف الشركات الناشئة قد تكون أقل أمانًا"
+        "ar": "وظايف الشركات الناشئة ممكن تبقى أقل أمان"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Mechatronics means building humanoid robots.",
-          "ar": "الميكاترونيكس يعني بناء روبوتات بشرية."
+          "ar": "الميكاترونكس يعني تبني روبوتات شبه البني آدمين."
         },
         "fact": {
           "en": "Most jobs involve automation in factories, sensors, machines and control systems.",
-          "ar": "معظم الوظائف تتعلق بأتمتة المصانع والحساسات والآلات ونظم التحكم."
+          "ar": "أغلب الوظايف في أتمتة المصانع والحساسات والمكن وأنظمة التحكم."
         }
       },
       {
         "myth": {
           "en": "You need an expensive lab to start.",
-          "ar": "تحتاج معملًا باهظًا لتبدأ."
+          "ar": "محتاج معمل غالي عشان تبدأ."
         },
         "fact": {
           "en": "Low-cost boards, simulators and maker spaces are enough to build a portfolio.",
-          "ar": "لوحات منخفضة التكلفة ومحاكيات ومساحات الصناع تكفي لبناء ملف أعمال."
+          "ar": "بوردات رخيصة وبرامج محاكاة وأماكن الميكرز كفاية تبني بيها بورتفوليو."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Mostly regular office or factory hours, with extra effort around commissioning deadlines or breakdowns.",
-      "ar": "غالبًا ساعات مكتب أو مصنع منتظمة، مع جهد إضافي قرب مواعيد التشغيل أو الأعطال."
+      "ar": "غالبًا مواعيد مكتب أو مصنع منتظمة، مع مجهود زيادة قرب مواعيد التشغيل أو الأعطال."
     }
   },
   "progression": {

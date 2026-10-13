@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You build systems that learn, see, read and talk, and put them to work in real products.",
-      "ar": "تبني أنظمة تتعلم وترى وتقرأ وتتحدث، وتضعها في خدمة منتجات حقيقية."
+      "ar": "بتبني أنظمة بتتعلم وبتشوف وبتقرا وبتتكلم، وبتخليها تشتغل جوه منتجات حقيقية."
     },
     "summary": {
       "en": "AI engineers design, train and deploy machine-learning systems, such as image recognition, language tools and recommendation engines. Egypt launched the second edition of its National AI Strategy (2025-2030), which aims to train more than 30,000 AI specialists and build over 250 AI startups, but these are goals, not guarantees. You need strong programming and math.",
-      "ar": "مهندس الذكاء الاصطناعي يصمم ويدرّب وينشر أنظمة تعلم آلي مثل التعرف على الصور وأدوات اللغة ومحركات التوصية. أطلقت مصر الإصدار الثاني من استراتيجيتها الوطنية للذكاء الاصطناعي (2025-2030) وتستهدف تدريب أكثر من 30 ألف متخصص وإنشاء أكثر من 250 شركة ناشئة، لكنها أهداف لا ضمانات. تحتاج برمجة ورياضيات قوية."
+      "ar": "مهندس الذكاء الاصطناعي بيصمم ويدرّب وينشر أنظمة تعلم آلي، زي التعرف على الصور وأدوات اللغة ومحركات الترشيحات. مصر أطلقت الإصدار التاني من الاستراتيجية الوطنية للذكاء الاصطناعي (2025-2030)، وهدفها تدريب أكتر من 30 ألف متخصص وإنشاء أكتر من 250 شركة ناشئة، بس دي أهداف مش ضمانات. محتاج برمجة ورياضيات قوية."
     },
     "dayInLife": {
       "en": "You start by checking a model that reads Arabic receipts and notice it fails on blurry photos. You look at examples, add more training data and retrain it overnight. In the afternoon you work with a software engineer to connect the model to an app, making it fast enough for phones. You also test for unfair or wrong answers, because the system will be used by real people. At the end of the day you write your experiments in a log so the team knows what worked and what did not.",
-      "ar": "تبدأ بفحص نموذج يقرأ الإيصالات العربية وتلاحظ أنه يفشل مع الصور غير الواضحة. تنظر في أمثلة وتضيف بيانات تدريب وتعيد تدريبه طوال الليل. بعد الظهر تعمل مع مهندس برمجيات لربط النموذج بتطبيق وجعله سريعًا بما يكفي للهواتف. وتختبر الإجابات غير العادلة أو الخاطئة لأن الناس سيستخدمون النظام. في نهاية اليوم تدوّن تجاربك في سجل ليعرف الفريق ما نجح وما لم ينجح."
+      "ar": "بتبدأ يومك بالكشف على نموذج بيقرا الإيصالات العربي، وتلاحظ إنه بيفشل مع الصور المهزوزة. تبص على أمثلة، وتزوّد بيانات تدريب، وتسيبه يتدرّب من جديد طول الليل. بعد الضهر تشتغل مع مهندس برمجيات تربطوا النموذج بأبلكيشن وتخلوه سريع كفاية للموبايلات. وكمان تختبره عشان تمسك الإجابات الغلط أو اللي فيها ظلم، لأن ناس حقيقيين هيستخدموا النظام. وفي آخر اليوم تكتب تجاربك في سجل عشان الفريق يعرف إيه اللي نفع وإيه اللي ما نفعش."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Prepare datasets and design experiments for training models.",
-        "ar": "تجهز مجموعات البيانات وتصمم تجارب تدريب النماذج."
+        "ar": "بتجهّز مجموعات البيانات وتصمم تجارب تدريب النماذج."
       },
       {
         "en": "Train, evaluate and improve machine-learning and deep-learning models.",
-        "ar": "تدرب وتقيّم وتحسّن نماذج التعلم الآلي والتعلم العميق."
+        "ar": "بتدرّب وتقيّم وتحسّن نماذج التعلم الآلي والتعلم العميق."
       },
       {
         "en": "Use or adapt existing large language and vision models.",
-        "ar": "تستخدم أو تكيّف نماذج لغوية وبصرية كبيرة موجودة."
+        "ar": "بتستخدم أو تعدّل نماذج لغة وصور كبيرة موجودة."
       },
       {
         "en": "Deploy models into apps and services, and monitor them.",
-        "ar": "تنشر النماذج في التطبيقات والخدمات وتراقبها."
+        "ar": "بتنشر النماذج جوه الأبلكيشنز والخدمات وتراقبها."
       },
       {
         "en": "Test for errors, bias and safety issues.",
-        "ar": "تختبر الأخطاء والتحيز ومشكلات الأمان."
+        "ar": "بتختبر الأخطاء والتحيّز ومشاكل الأمان."
       },
       {
         "en": "Work with software, data and product teams.",
-        "ar": "تعمل مع فرق البرمجيات والبيانات والمنتج."
+        "ar": "بتشتغل مع فرق البرمجة والبيانات والمنتج."
       }
     ],
     "environments": [
@@ -123,11 +123,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a software engineer or data analyst, then specialize in machine learning through projects and short programs (ITI, DEPI, Microsoft, Huawei, Sprints, 3C).",
-        "ar": "ابدأ كمهندس برمجيات أو محلل بيانات ثم تخصص في التعلم الآلي عبر المشروعات والبرامج القصيرة (ITI وDEPI ومايكروسوفت وهواوي وSprints وC3)."
+        "ar": "ابدأ مهندس برمجيات أو محلل بيانات، وبعدين اتخصص في التعلم الآلي من خلال المشاريع والبرامج القصيرة (ITI وDEPI ومايكروسوفت وهواوي وSprints وC3)."
       },
       {
         "en": "A master's degree in AI or machine learning (in Egypt or abroad) is a common next step for research-heavy roles.",
-        "ar": "الماجستير في الذكاء الاصطناعي أو التعلم الآلي (في مصر أو الخارج) خطوة شائعة للوظائف البحثية."
+        "ar": "الماجستير في الذكاء الاصطناعي أو التعلم الآلي (في مصر أو برّه) خطوة منتشرة للوظايف البحثية."
       }
     ],
     "licensing": null
@@ -234,7 +234,7 @@
     ],
     "freelanceRemote": {
       "en": "Remote work is common, from building chatbots to computer vision projects for foreign clients. Entry is competitive, and you should have a few real projects to show.",
-      "ar": "العمل عن بعد شائع، من بناء روبوتات المحادثة إلى مشروعات الرؤية الحاسوبية لعملاء أجانب. والدخول تنافسي، ولا بد من بضعة مشروعات حقيقية لتعرضها."
+      "ar": "الشغل من البيت منتشر، من بناء الشات بوت لمشاريع الرؤية بالكمبيوتر لعملاء برّه. الدخول فيه منافسة، ولازم يبقى عندك كام مشروع حقيقي تعرضهم."
     },
     "regions": [
       {
@@ -261,66 +261,66 @@
   },
   "global": {
     "en": "AI engineers are in demand worldwide, and the Gulf is investing heavily in AI. Research and senior roles often need a master's or PhD, a strong portfolio or published work. Competition is global, so show real projects rather than only course certificates.",
-    "ar": "مهندسو الذكاء الاصطناعي مطلوبون عالميًا، والخليج يستثمر بقوة في الذكاء الاصطناعي. تحتاج الوظائف البحثية والعليا غالبًا ماجستيرًا أو دكتوراه أو محفظة قوية أو أبحاثًا منشورة. المنافسة عالمية فاعرض مشروعات حقيقية لا شهادات دورات فقط."
+    "ar": "مهندسين الذكاء الاصطناعي مطلوبين في العالم كله، والخليج بيستثمر جامد في الذكاء الاصطناعي. الوظايف البحثية والكبيرة غالبًا محتاجة ماجستير أو دكتوراه أو بورتفوليو قوي أو أبحاث منشورة. المنافسة عالمية، فاعرض مشاريع حقيقية مش شهادات كورسات بس."
   },
   "reality": {
     "pros": [
       {
         "en": "Frontier field with fast progress",
-        "ar": "مجال متقدم وسريع التطور"
+        "ar": "مجال في المقدمة وبيتطور بسرعة"
       },
       {
         "en": "Strong national support, training programs and corporate partnerships",
-        "ar": "دعم وطني قوي وبرامج تدريب وشراكات مع الشركات"
+        "ar": "دعم قومي قوي وبرامج تدريب وشراكات مع الشركات"
       },
       {
         "en": "Remote and international options",
-        "ar": "خيارات للعمل عن بعد ودوليًا"
+        "ar": "فرص شغل من البيت ومع شركات برّه"
       }
     ],
     "challenges": [
       {
         "en": "Needs strong math and programming, and it takes years to master",
-        "ar": "يحتاج رياضيات وبرمجة قوية ويستغرق سنوات للإتقان"
+        "ar": "محتاج رياضيات وبرمجة قوية، والإتقان بياخد سنين"
       },
       {
         "en": "Tools and best practices change every few months",
-        "ar": "الأدوات وأفضل الممارسات تتغير كل بضعة أشهر"
+        "ar": "الأدوات وأحسن الطرق بتتغير كل كام شهر"
       },
       {
         "en": "Compute and data are costly, and entry-level roles are limited",
-        "ar": "الحوسبة والبيانات مكلفتان والوظائف المبتدئة محدودة"
+        "ar": "الحوسبة والبيانات غاليين، ووظايف المبتدئين قليلة"
       },
       {
         "en": "AI hype can mislead; real systems are harder than demos",
-        "ar": "ضجيج الذكاء الاصطناعي قد يضلل؛ والنظم الحقيقية أصعب من العروض"
+        "ar": "الهوجة اللي حوالين الذكاء الاصطناعي ممكن تضلّل؛ الأنظمة الحقيقية أصعب من العروض"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "AI engineering means just calling ChatGPT.",
-          "ar": "هندسة الذكاء الاصطناعي تعني استدعاء ChatGPT فقط."
+          "ar": "هندسة الذكاء الاصطناعي يعني تنادي ChatGPT وخلاص."
         },
         "fact": {
           "en": "Using APIs is one part; you also need data, evaluation, deployment, cost control and understanding why models fail.",
-          "ar": "استخدام الواجهات جزء؛ وتحتاج أيضًا البيانات والتقييم والنشر وضبط التكلفة وفهم أسباب فشل النماذج."
+          "ar": "استخدام الـAPIs جزء من الشغل؛ ومحتاج كمان بيانات وتقييم ونشر وتحكم في التكلفة، وتفهم النماذج بتفشل ليه."
         }
       },
       {
         "myth": {
           "en": "AI will take all tech jobs, so there is no point.",
-          "ar": "الذكاء الاصطناعي سيأخذ كل وظائف التقنية فلا فائدة."
+          "ar": "الذكاء الاصطناعي هياخد كل وظايف التكنولوجيا، فمفيش فايدة."
         },
         "fact": {
           "en": "AI changes tasks, but people who build and supervise it are in demand. Learning fundamentals protects you.",
-          "ar": "يغيّر الذكاء الاصطناعي المهام، لكن من يبنونه ويشرفون عليه مطلوبون. وتعلم الأساسيات يحميك."
+          "ar": "الذكاء الاصطناعي بيغيّر المهام، بس اللي بيبنوه وبيشرفوا عليه مطلوبين. وتعلّم الأساسيات بيحميك."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Mostly regular, flexible and often remote-friendly, with intense periods before launches or when models need retraining.",
-      "ar": "غالبًا منتظمة ومرنة وصديقة للعمل عن بعد، مع فترات ضغط قبل الإطلاق أو عند إعادة تدريب النماذج."
+      "ar": "غالبًا منتظم ومرن وينفع من البيت، مع فترات ضغط قبل الإطلاق أو لما النماذج تحتاج تتدرّب من جديد."
     }
   },
   "progression": {

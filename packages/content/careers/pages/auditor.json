@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You check that the numbers a company shows are the truth.",
-      "ar": "تتأكد أن الأرقام التي تعرضها الشركة هي الحقيقة."
+      "ar": "بتتأكد إن الأرقام اللي الشركة بتعرضها هي الحقيقة."
     },
     "summary": {
       "en": "Auditors examine a company's accounts and records to check that they are correct and follow the rules, then report what they find. Their independent opinion helps banks, investors and the government trust the numbers. Most start in an audit firm and learn many businesses quickly.",
-      "ar": "المراجع يفحص حسابات الشركة وسجلاتها ليتأكد أنها صحيحة وتتبع القواعد، ثم يكتب تقريرًا بما وجد. رأيه المستقل يجعل البنوك والمستثمرين والحكومة تثق في الأرقام. يبدأ معظم المراجعين في مكتب مراجعة ويتعلمون أنشطة تجارية كثيرة بسرعة."
+      "ar": "المراجع بيفحص حسابات الشركة وسجلاتها عشان يتأكد إنها صح وماشية على القواعد، وبعدين يكتب تقرير باللي لقاه. رأيه المستقل بيخلّي البنوك والمستثمرين والحكومة يثقوا في الأرقام. أغلب المراجعين بيبدأوا في مكتب مراجعة وبيتعلموا أنواع بيزنس كتير بسرعة."
     },
     "dayInLife": {
       "en": "You arrive at a client's office with your team and ask for the bank statements and invoices for a sample of transactions. You match them with the books and find a payment with no invoice. You ask the client's accountant about it, write down the answer and mark it for your senior to review. Back at the office you update the working papers that record every check you did.",
-      "ar": "تصل مع فريقك إلى مكتب العميل وتطلب كشوف البنك والفواتير لعينة من العمليات. تطابقها مع الدفاتر وتجد مدفوعات بلا فاتورة. تسأل محاسب العميل عنها وتكتب الإجابة وتعلّمها لمراجعة رئيسك. وفي المكتب تحدّث أوراق العمل التي تسجّل كل فحص أجريته."
+      "ar": "بتوصل مكتب العميل مع فريقك وتطلب كشوف البنك والفواتير لعينة من العمليات. تطابقها على الدفاتر وتلاقي مبلغ مدفوع من غير فاتورة. تسأل محاسب العميل عنه، وتكتب الرد، وتعلّم عليه عشان رئيسك يراجعه. وفي المكتب تحدّث أوراق العمل اللي بتسجّل كل فحص عملته."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan audit work and choose what to test.",
-        "ar": "تخطط أعمال المراجعة وتختار ما سيُفحص."
+        "ar": "بتخطط شغل المراجعة وتختار هتفحص إيه."
       },
       {
         "en": "Check records, invoices and bank statements against the accounts.",
-        "ar": "تطابق السجلات والفواتير وكشوف البنك مع الحسابات."
+        "ar": "بتطابق السجلات والفواتير وكشوف البنك على الحسابات."
       },
       {
         "en": "Look for mistakes, missing documents and signs of fraud.",
-        "ar": "تبحث عن الأخطاء والمستندات الناقصة وعلامات الاحتيال."
+        "ar": "بتدوّر على الأخطاء والمستندات الناقصة وعلامات الاحتيال."
       },
       {
         "en": "Write reports and discuss findings with management.",
-        "ar": "تكتب التقارير وتناقش النتائج مع الإدارة."
+        "ar": "بتكتب التقارير وتناقش اللي لقيته مع الإدارة."
       },
       {
         "en": "Keep clients' information confidential.",
-        "ar": "تحافظ على سرية معلومات العملاء."
+        "ar": "بتحافظ على سرية معلومات العملاء."
       }
     ],
     "environments": [
@@ -111,15 +111,15 @@
     "alternativeRoutes": [
       {
         "en": "Technical commercial diploma, then work as an accounts clerk while studying part-time for a degree.",
-        "ar": "دبلوم تجاري فني ثم العمل كمحاسب مساعد مع استكمال الدراسة الجامعية."
+        "ar": "دبلوم تجاري فني، وبعدين تشتغل محاسب مساعد وإنت بتكمّل الجامعة."
       },
       {
         "en": "Professional qualifications such as ACCA can be studied alongside or after a degree.",
-        "ar": "مؤهلات مهنية مثل ACCA يمكن دراستها مع الدراسة الجامعية أو بعدها."
+        "ar": "مؤهلات مهنية زي ACCA ممكن تدرسها مع الجامعة أو بعدها."
       },
       {
         "en": "Training years in an audit firm after graduation count toward professional membership.",
-        "ar": "سنوات التدريب في مكتب مراجعة بعد التخرج تُحسب في العضوية المهنية."
+        "ar": "سنين التدريب في مكتب مراجعة بعد التخرج بتتحسب في العضوية المهنية."
       }
     ],
     "licensing": {

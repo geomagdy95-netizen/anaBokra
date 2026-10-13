@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You make sure hundreds of guests feel welcome, safe and well cared for.",
-      "ar": "تضمن أن مئات الضيوف يشعرون بالترحيب والأمان والرعاية."
+      "ar": "بتتأكد إن مئات الضيوف حاسين بالترحيب والأمان والاهتمام."
     },
     "summary": {
       "en": "Hotel managers run a hotel or a department of one: rooms, food and drink, front office, sales and maintenance. Egypt's tourism hit a record of about 19 million visitors in 2025 and hotel capacity is growing, so hospitality is a major employer, especially on the Red Sea and in Cairo, Luxor and Aswan. Most managers start in entry-level jobs and rise over years.",
-      "ar": "مدير الفندق يدير فندقًا أو قسمًا فيه: الغرف والطعام والشراب والاستقبال والمبيعات والصيانة. بلغت السياحة في مصر رقمًا قياسيًا نحو 19 مليون زائر في 2025 وطاقة الفنادق تنمو، فالضيافة جهة عمل كبيرة خاصة في البحر الأحمر والقاهرة والأقصر وأسوان. معظم المديرين يبدأون في وظائف مبتدئة ويترقون على مدى سنوات."
+      "ar": "مدير الفندق بيدير فندق أو قسم فيه: الغرف والأكل والشرب والاستقبال والمبيعات والصيانة. السياحة في مصر وصلت رقم قياسي حوالي 19 مليون زائر في 2025 وطاقة الفنادق بتكبر، فالضيافة بتشغّل ناس كتير، خصوصًا في البحر الأحمر والقاهرة والأقصر وأسوان. وأغلب المديرين بيبدأوا في وظايف مبتدئين وبيترقّوا على مدار سنين."
     },
     "dayInLife": {
       "en": "You walk through the lobby at eight to see how the night went and to greet early guests. A group arrives earlier than planned, so you ask housekeeping to prepare their rooms first. In the morning meeting you check occupancy, complaints and the day's events with each department head. At noon a guest is upset about noise, so you listen, apologise and offer a quiet room. In the afternoon you review prices and sales reports with the revenue team. Late in the evening you check the restaurant and thank the night staff before you leave.",
-      "ar": "تمر على الاستقبال في الثامنة لترى كيف مرت الليلة وتستقبل الضيوف المبكرين. وصلت مجموعة قبل الموعد، فتطلب من الإشراف الداخلي تجهيز غرفهم أولًا. في اجتماع الصباح تراجع الإشغال والشكاوى وفعاليات اليوم مع رؤساء الأقسام. عند الظهر ينزعج ضيف من الضوضاء، فتستمع إليه وتعتذر وتعرض عليه غرفة هادئة. بعد الظهر تراجع الأسعار وتقارير المبيعات مع فريق الإيرادات. في آخر المساء تمر على المطعم وتشكر موظفي الليل قبل أن تنصرف."
+      "ar": "بتلف على الاستقبال الساعة 8 تشوف الليلة عدّت إزاي وتستقبل الضيوف اللي جم بدري. مجموعة وصلت قبل ميعادها، فتطلب من الهاوس كيبينج يجهّزوا غرفهم الأول. في اجتماع الصبح تراجع الإشغال والشكاوي وفعاليات اليوم مع رؤساء الأقسام. الضهر ضيف متضايق من الدوشة، فتسمعه وتعتذر وتعرض عليه أوضة هادية. بعد الضهر تراجع الأسعار وتقارير المبيعات مع فريق الإيرادات. وآخر الليل تعدّي على المطعم وتشكر موظفين الليل قبل ما تمشي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Lead and schedule staff in front office, housekeeping, food and beverage and maintenance.",
-        "ar": "تقود الموظفين وتضع جداولهم في الاستقبال والإشراف الداخلي والأغذية والمشروبات والصيانة."
+        "ar": "بتقود الموظفين وتعمل جداولهم في الاستقبال والهاوس كيبينج والأكل والشرب والصيانة."
       },
       {
         "en": "Make sure guests' needs and complaints are handled quickly and politely.",
-        "ar": "تضمن معالجة احتياجات الضيوف وشكاواهم بسرعة وأدب."
+        "ar": "بتتأكد إن طلبات الضيوف وشكاويهم بتتحل بسرعة وبذوق."
       },
       {
         "en": "Manage budgets, prices, occupancy and revenue.",
-        "ar": "تدير الميزانيات والأسعار والإشغال والإيرادات."
+        "ar": "بتدير الميزانيات والأسعار والإشغال والإيرادات."
       },
       {
         "en": "Work with sales, travel agencies and online booking sites.",
-        "ar": "تعمل مع المبيعات ووكالات السفر ومواقع الحجز."
+        "ar": "بتشتغل مع المبيعات ووكالات السفر ومواقع الحجز."
       },
       {
         "en": "Keep the hotel safe, clean and following health and safety rules.",
-        "ar": "تحافظ على أمان الفندق ونظافته والتزامه بقواعد الصحة والسلامة."
+        "ar": "بتحافظ على الفندق آمن ونضيف وماشي على قواعد الصحة والسلامة."
       },
       {
         "en": "Hire, train and motivate a diverse team.",
-        "ar": "توظف فريقًا متنوعًا وتدربه وتحفزه."
+        "ar": "بتعيّن فريق متنوع وتدرّبه وتحفّزه."
       }
     ],
     "environments": [
@@ -118,15 +118,15 @@
     "alternativeRoutes": [
       {
         "en": "Start as a receptionist, waiter or trainee in a hotel and move up through departments. Many managers did this.",
-        "ar": "ابدأ موظف استقبال أو ويتر أو متدربًا في فندق وترقَّ عبر الأقسام. كثير من المديرين فعلوا ذلك."
+        "ar": "ابدأ ريسبشنيست أو ويتر أو متدرّب في فندق، واترقّى من قسم لقسم. مديرين كتير عملوا كده."
       },
       {
         "en": "Hospitality training programs run by NGOs and hotel chains, such as EFE Egypt.",
-        "ar": "برامج تدريب الضيافة التي تنفذها المنظمات الأهلية وسلاسل الفنادق مثل EFE Egypt."
+        "ar": "برامج تدريب الضيافة اللي بتعملها الجمعيات الأهلية وسلاسل الفنادق، زي EFE Egypt."
       },
       {
         "en": "Any degree plus hotel internships and hospitality diplomas can also lead to management.",
-        "ar": "أي شهادة مع تدريب فندقي ودبلومات ضيافة يمكن أن تقود للإدارة أيضًا."
+        "ar": "أي شهادة ومعاها تدريب في فنادق ودبلومات ضيافة ممكن توصّلك للإدارة برضه."
       }
     ],
     "licensing": {
@@ -273,7 +273,7 @@
     ],
     "freelanceRemote": {
       "en": "Hotel management is done on site, but consulting, revenue management and online travel sales can be remote. Some managers open guesthouses or boutique hotels in places such as Siwa, Dahab and Fayoum.",
-      "ar": "إدارة الفنادق تتم في الموقع، لكن الاستشارات وإدارة الإيرادات والمبيعات السياحية عبر الإنترنت قد تكون عن بُعد. يفتح بعض المديرين بيوت ضيافة أو فنادق بوتيك في أماكن مثل سيوة ودهب والفيوم."
+      "ar": "إدارة الفنادق بتتعمل في المكان نفسه، بس الاستشارات وإدارة الإيرادات ومبيعات السفر الأونلاين ممكن تبقى من البيت. وفيه مديرين بيفتحوا بيوت ضيافة أو فنادق بوتيك في أماكن زي سيوة ودهب والفيوم."
     },
     "regions": [
       {
@@ -305,72 +305,72 @@
   },
   "global": {
     "en": "Hospitality is a global career. Egyptian hotel professionals work in Gulf hotels, cruise ships and international chains, and chains often move managers between countries. Languages and a recognised hospitality diploma help. Check contracts, housing and working hours carefully.",
-    "ar": "الضيافة مهنة عالمية. يعمل المتخصصون المصريون في فنادق الخليج والسفن السياحية والسلاسل الدولية، وتنقل السلاسل مديريها بين الدول غالبًا. اللغات ودبلوم ضيافة معترف به تساعد. افحص العقود والسكن وساعات العمل بعناية."
+    "ar": "الضيافة مهنة عالمية. المصريين في المجال بيشتغلوا في فنادق الخليج والسفن السياحية والسلاسل الدولية، والسلاسل غالبًا بتنقل مديرينها بين الدول. اللغات ودبلومة ضيافة معترف بيها بيساعدوا. افحص العقد والسكن ومواعيد الشغل كويس."
   },
   "reality": {
     "pros": [
       {
         "en": "Clear steps from junior roles to management",
-        "ar": "خطوات واضحة من الوظائف المبتدئة إلى الإدارة"
+        "ar": "خطوات واضحة من وظايف المبتدئين للإدارة"
       },
       {
         "en": "Meeting people from many cultures",
-        "ar": "لقاء أشخاص من ثقافات كثيرة"
+        "ar": "بتقابل ناس من ثقافات كتير"
       },
       {
         "en": "Jobs in many tourist cities and abroad",
-        "ar": "وظائف في مدن سياحية كثيرة وفي الخارج"
+        "ar": "شغل في مدن سياحية كتير وبرّه"
       }
     ],
     "challenges": [
       {
         "en": "Long shifts, weekends and holidays",
-        "ar": "مناوبات طويلة وعطلات أسبوعية وأعياد"
+        "ar": "شيفتات طويلة وشغل في الإجازات والأعياد"
       },
       {
         "en": "Tourism depends on regional events and seasons",
-        "ar": "السياحة تتأثر بالأحداث الإقليمية والمواسم"
+        "ar": "السياحة بتتأثر بأحداث المنطقة والمواسم"
       },
       {
         "en": "Early-career pay is modest and you may live far from home",
-        "ar": "راتب بداية المسيرة متواضع وقد تعيش بعيدًا عن بيتك"
+        "ar": "مرتب أول المشوار متواضع، وممكن تعيش بعيد عن بيتك"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Hotel work is only serving guests.",
-          "ar": "العمل في الفنادق هو خدمة الضيوف فقط."
+          "ar": "شغل الفنادق يعني خدمة الضيوف وبس."
         },
         "fact": {
           "en": "Managers also handle finance, sales, staff, safety and technology.",
-          "ar": "المديرون يتعاملون أيضًا مع المالية والمبيعات والموظفين والسلامة والتكنولوجيا."
+          "ar": "المديرين كمان بيتعاملوا مع الفلوس والمبيعات والموظفين والسلامة والتكنولوجيا."
         }
       },
       {
         "myth": {
           "en": "You need to be rich or know someone to manage a hotel.",
-          "ar": "تحتاج أن تكون غنيًا أو تعرف أحدًا لإدارة فندق."
+          "ar": "لازم تبقى غني أو تعرف حد عشان تدير فندق."
         },
         "fact": {
           "en": "Most managers rose from entry jobs. Performance, languages and reliability count most.",
-          "ar": "معظم المديرين ترقوا من وظائف مبتدئة. الأداء واللغات والاعتمادية أهم شيء."
+          "ar": "أغلب المديرين اترقّوا من وظايف مبتدئين. الأداء واللغات والالتزام هما الأهم."
         }
       },
       {
         "myth": {
           "en": "Online booking means hotels need fewer people.",
-          "ar": "الحجز الإلكتروني يعني أن الفنادق تحتاج موظفين أقل."
+          "ar": "الحجز الأونلاين معناه إن الفنادق محتاجة ناس أقل."
         },
         "fact": {
           "en": "Booking is automated, but guest experience, operations and revenue decisions still need people.",
-          "ar": "الحجز أصبح آليًا، لكن تجربة الضيف والتشغيل وقرارات الإيرادات ما زالت تحتاج بشرًا."
+          "ar": "الحجز بقى أوتوماتيك، بس تجربة الضيف والتشغيل وقرارات الإيرادات لسه محتاجين بني آدمين."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Demanding. Hotels run 24 hours, so managers work shifts, weekends and holidays and may be called in emergencies. Work-life balance improves in senior or corporate roles.",
-      "ar": "متطلب. الفنادق تعمل 24 ساعة، فيعمل المديرون في مناوبات وعطلات وقد يُستدعون في الطوارئ. يتحسن التوازن في المناصب العليا أو الإدارية."
+      "ar": "متعب. الفنادق شغالة 24 ساعة، فالمديرين بيشتغلوا شيفتات وإجازات وأعياد، وممكن يتطلبوا في الطوارئ. والتوازن بيتحسن في المناصب الكبيرة أو الإدارية."
     }
   },
   "progression": {
@@ -419,7 +419,7 @@
       },
       {
         "en": "Opening your own guesthouse or restaurant",
-        "ar": "فتح بيت ضيافة أو مطعم خاص"
+        "ar": "تفتح بيت ضيافة أو مطعم بتاعك"
       }
     ]
   },

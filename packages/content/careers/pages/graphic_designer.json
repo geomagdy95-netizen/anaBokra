@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You make ideas visible with colour, shape and type.",
-      "ar": "تجعل الأفكار مرئية بالألوان والأشكال والخطوط."
+      "ar": "بتخلّي الأفكار تتشاف بالألوان والأشكال والخطوط."
     },
     "summary": {
       "en": "Graphic designers create logos, posters, social media designs, packaging and layouts that help people understand a message or recognise a brand. Most work is project-based and freelance-friendly, and your portfolio matters more than your degree. AI image tools are changing routine work, so taste, ideas and direction are worth more every year.",
-      "ar": "مصمم الجرافيك يصنع الشعارات والبوسترات وتصميمات السوشيال ميديا والعبوات والتنسيقات التي تساعد الناس على فهم رسالة أو التعرف على علامة. معظم العمل بنظام المشروعات ويناسب العمل الحر، وملف أعمالك أهم من شهادتك. أدوات الصور بالذكاء الاصطناعي تغيّر الأعمال الروتينية، فيزداد كل عام وزن الذوق والفكرة والتوجيه."
+      "ar": "مصمم الجرافيك بيعمل اللوجوهات والبوسترات وتصميمات السوشيال ميديا والعبوات والتنسيقات اللي بتساعد الناس تفهم رسالة أو تعرف براند. أغلب الشغل بالمشروع وينفع فري لانس، والبورتفوليو أهم من شهادتك. أدوات الصور بالذكاء الاصطناعي بتغيّر الشغل الروتيني، فالذوق والفكرة والتوجيه قيمتهم بتزيد كل سنة."
     },
     "dayInLife": {
       "en": "You open an email from a client who owns a small bakery and wants a new logo and a menu. You sketch four ideas on paper, then pick two and build them on the computer. You test the colours on a printed sample because screens can look different from paper. After a quick call, the client says the text is too small, so you adjust it. In the afternoon you create a set of social media posts for another client and keep the same style across them. You export all files in the right sizes and save the project for next time.",
-      "ar": "تفتح رسالة من عميل يملك مخبزًا صغيرًا ويريد شعارًا جديدًا وقائمة طعام. ترسم أربع أفكار على الورق ثم تختار فكرتين وتنفذهما على الكمبيوتر. تجرّب الألوان على نسخة مطبوعة لأن الشاشة قد تختلف عن الورق. بعد مكالمة قصيرة يقول العميل إن الكتابة صغيرة، فتعدّلها. بعد الظهر تصمم مجموعة منشورات سوشيال ميديا لعميل آخر وتحافظ على نفس الأسلوب فيها. تُخرج كل الملفات بالمقاسات الصحيحة وتحفظ المشروع للمرة القادمة."
+      "ar": "بتفتح إيميل من عميل عنده مخبز صغير وعايز لوجو جديد ومنيو. ترسم أربع أفكار على ورق، وتختار اتنين وتنفذهم على الكمبيوتر. تجرّب الألوان على نسخة مطبوعة، لأن الشاشة ممكن تفرق عن الورق. بعد مكالمة سريعة العميل يقول إن الكلام صغير، فتكبّره. بعد الضهر تصمم مجموعة بوستات سوشيال لعميل تاني وتحافظ على نفس الستايل فيهم. تطلّع كل الملفات بالمقاسات الصح وتحفظ المشروع للمرة الجاية."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Understand the client's goal and audience before you design.",
-        "ar": "تفهم هدف العميل وجمهوره قبل أن تصمم."
+        "ar": "بتفهم هدف العميل وجمهوره قبل ما تصمم."
       },
       {
         "en": "Sketch ideas and build logos, posters, social posts, brochures and packaging.",
-        "ar": "ترسم الأفكار وتنفذ الشعارات والبوسترات ومنشورات السوشيال والبروشورات والعبوات."
+        "ar": "بترسم الأفكار وتنفّذ لوجوهات وبوسترات وبوستات سوشيال وبروشورات وعبوات."
       },
       {
         "en": "Choose colours, fonts and images that fit the brand, including Arabic typography.",
-        "ar": "تختار الألوان والخطوط والصور المناسبة للعلامة، ومنها الخط العربي."
+        "ar": "بتختار الألوان والخطوط والصور اللي تناسب البراند، ومنها الخط العربي."
       },
       {
         "en": "Prepare files for print and digital with the right sizes and colour modes.",
-        "ar": "تجهّز الملفات للطباعة والنشر الرقمي بالمقاسات وأنظمة الألوان الصحيحة."
+        "ar": "بتجهّز الملفات للطباعة والديجيتال بالمقاسات وأنظمة الألوان الصح."
       },
       {
         "en": "Present your work, listen to feedback and revise.",
-        "ar": "تعرض عملك وتستمع للملاحظات وتعدّل."
+        "ar": "بتعرض شغلك وتسمع الملاحظات وتعدّل."
       },
       {
         "en": "Keep a portfolio and manage deadlines and invoices if you freelance.",
-        "ar": "تحافظ على ملف أعمالك وتدير المواعيد والفواتير إذا كنت تعمل حرًا."
+        "ar": "بتحافظ على البورتفوليو وتدير المواعيد والفواتير لو بتشتغل فري لانس."
       }
     ],
     "environments": [
@@ -120,15 +120,15 @@
     "alternativeRoutes": [
       {
         "en": "Teach yourself with online courses and real projects, then build a portfolio on Behance. Many designers work without a design degree.",
-        "ar": "تعلّم بنفسك بدورات على الإنترنت ومشروعات حقيقية ثم ابنِ ملف أعمالك على Behance. يعمل مصممون كثيرون بلا شهادة تصميم."
+        "ar": "اتعلم لوحدك بكورسات أونلاين ومشاريع حقيقية، وبعدين اعمل بورتفوليو على Behance. مصممين كتير بيشتغلوا من غير شهادة تصميم."
       },
       {
         "en": "Courses at AUC School of Continuing Education and other design centres.",
-        "ar": "دورات في مركز التعليم المستمر بالجامعة الأمريكية بالقاهرة ومراكز تصميم أخرى."
+        "ar": "كورسات في مركز التعليم المستمر بالجامعة الأمريكية بالقاهرة ومراكز تصميم تانية."
       },
       {
         "en": "Internship at a studio or agency, then junior designer.",
-        "ar": "تدريب في استوديو أو وكالة ثم العمل مصممًا مبتدئًا."
+        "ar": "تدريب في استوديو أو وكالة، وبعدين تشتغل مصمم جونيور."
       }
     ],
     "licensing": null
@@ -271,7 +271,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance is very common, and many Egyptian designers sell logos, social designs and brand kits to clients in Egypt, the Gulf and abroad. Competition on freelance platforms is high and some work is paid at low rates, so a clear style and specialty such as motion or UI helps.",
-      "ar": "العمل الحر شائع جدًا، ويبيع كثير من المصممين المصريين الشعارات وتصميمات السوشيال وهويات العلامات لعملاء في مصر والخليج والخارج. المنافسة على منصات العمل الحر عالية وبعض الأعمال بأسعار منخفضة، فيفيد أسلوب واضح وتخصص مثل الموشن أو تصميم الواجهات."
+      "ar": "الفري لانس منتشر جدًا، ومصممين مصريين كتير بيبيعوا لوجوهات وتصميمات سوشيال وهويات براند لعملاء في مصر والخليج وبرّه. المنافسة على منصات الفري لانس عالية وفيه شغل بأسعار قليلة، فالستايل الواضح والتخصص زي الموشن أو تصميم الواجهات بيفرقوا."
     },
     "regions": [
       {
@@ -294,72 +294,72 @@
   },
   "global": {
     "en": "Designers with a strong portfolio get remote work from Gulf, European and American clients, and Gulf agencies hire Egyptian designers on site. Arabic typography and Middle East brand knowledge are real strengths. Work permits and contracts differ by country.",
-    "ar": "يحصل المصممون أصحاب ملف الأعمال القوي على عمل عن بُعد من عملاء في الخليج وأوروبا وأمريكا، وتوظف وكالات خليجية مصممين مصريين في الموقع. الخط العربي ومعرفة علامات الشرق الأوسط نقطتا قوة حقيقيتان. تختلف تصاريح العمل والعقود بين الدول."
+    "ar": "المصممين اللي عندهم بورتفوليو قوي بيلاقوا شغل من البيت لعملاء في الخليج وأوروبا وأمريكا، ووكالات خليجية بتعيّن مصممين مصريين هناك. الخط العربي ومعرفة براندات الشرق الأوسط نقط قوة حقيقية. وتصاريح الشغل والعقود بتختلف من بلد للتانية."
   },
   "reality": {
     "pros": [
       {
         "en": "You can start with a laptop and free learning",
-        "ar": "تستطيع أن تبدأ بلابتوب وتعلم مجاني"
+        "ar": "تقدر تبدأ بلابتوب وتعلّم ببلاش"
       },
       {
         "en": "Creative work and visible results",
-        "ar": "عمل إبداعي ونتائج تراها بعينك"
+        "ar": "شغل إبداعي ونتيجته قدام عينك"
       },
       {
         "en": "Freelance and remote options",
-        "ar": "فرص للعمل الحر وعن بُعد"
+        "ar": "فرص فري لانس وشغل من البيت"
       }
     ],
     "challenges": [
       {
         "en": "Pay can be low at the start and freelance income is irregular",
-        "ar": "الأجر قد يكون منخفضًا في البداية والدخل الحر غير منتظم"
+        "ar": "المرتب ممكن يبقى قليل في الأول والدخل الفري لانس مش منتظم"
       },
       {
         "en": "AI tools are replacing routine layout and image work",
-        "ar": "أدوات الذكاء الاصطناعي تحل محل أعمال التنسيق والصور الروتينية"
+        "ar": "أدوات الذكاء الاصطناعي بتاخد مكان شغل التنسيق والصور الروتيني"
       },
       {
         "en": "Clients often ask for many revisions",
-        "ar": "العملاء يطلبون تعديلات كثيرة غالبًا"
+        "ar": "العملاء غالبًا بيطلبوا تعديلات كتير"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "A designer just knows Photoshop.",
-          "ar": "المصمم هو من يعرف الفوتوشوب فقط."
+          "ar": "المصمم هو اللي بيعرف فوتوشوب وبس."
         },
         "fact": {
           "en": "Tools are the easy part. Good designers solve communication problems with ideas.",
-          "ar": "الأدوات هي الجزء السهل. المصمم الجيد يحل مشكلات التواصل بأفكار."
+          "ar": "الأدوات هي الجزء السهل. المصمم الشاطر بيحل مشاكل التواصل بالأفكار."
         }
       },
       {
         "myth": {
           "en": "AI means designers are finished.",
-          "ar": "الذكاء الاصطناعي يعني نهاية المصممين."
+          "ar": "الذكاء الاصطناعي يعني المصممين خلصوا."
         },
         "fact": {
           "en": "AI makes routine images cheap. Designers who direct ideas, understand brands and keep a clear style are still needed.",
-          "ar": "الذكاء الاصطناعي يجعل الصور الروتينية رخيصة. ما زال المصممون الذين يوجهون الأفكار ويفهمون العلامات ولهم أسلوب واضح مطلوبين."
+          "ar": "الذكاء الاصطناعي بيخلّي الصور الروتينية رخيصة. بس المصممين اللي بيوجّهوا الأفكار وفاهمين البراندات وليهم ستايل واضح لسه مطلوبين."
         }
       },
       {
         "myth": {
           "en": "You must study art for years first.",
-          "ar": "لازم تدرس الفن سنوات أولًا."
+          "ar": "لازم تدرس فن سنين الأول."
         },
         "fact": {
           "en": "A degree helps, but many designers get hired on the strength of their portfolio.",
-          "ar": "الشهادة تساعد، لكن مصممين كثيرين يُوظَّفون بسبب قوة ملف أعمالهم."
+          "ar": "الشهادة بتساعد، بس مصممين كتير بيتعيّنوا بقوة البورتفوليو بتاعهم."
         }
       }
     ],
     "workLifeBalance": {
       "en": "In-house jobs have regular hours. Freelancers choose their hours but may work evenings and weekends to meet client deadlines.",
-      "ar": "الوظائف داخل الشركات بساعات منتظمة. المستقلون يختارون ساعاتهم لكن قد يعملون مساءً وفي العطلات لمواعيد العملاء."
+      "ar": "الشغل في الشركات مواعيده منتظمة. والفري لانسرز بيختاروا مواعيدهم، بس ممكن يشتغلوا بالليل وفي الإجازات عشان مواعيد العملاء."
     }
   },
   "progression": {

@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You turn an idea in your head into a world other people can play.",
-      "ar": "تحوّل فكرة في رأسك إلى عالم يلعبه الآخرون."
+      "ar": "بتحوّل فكرة في دماغك لعالم الناس تلعب فيه."
     },
     "summary": {
       "en": "Game developers write the code, build the tools and tune the rules behind video and mobile games. Egypt has a big player base (press reports say about 31 million gamers), but local studios are still few and small, so many developers also build apps or work remotely for foreign studios. The job mixes programming, maths and creativity.",
-      "ar": "مطوّر الألعاب يكتب الكود ويبني الأدوات ويضبط القواعد التي تقوم عليها ألعاب الفيديو والموبايل. في مصر عدد كبير من اللاعبين (تقول الصحافة إن عددهم نحو 31 مليونًا)، لكن الاستوديوهات المحلية ما زالت قليلة وصغيرة، فيعمل كثير من المطورين أيضًا في التطبيقات أو عن بُعد لاستوديوهات أجنبية. الوظيفة تجمع بين البرمجة والرياضيات والخيال."
+      "ar": "مطوّر الألعاب بيكتب الكود ويبني الأدوات ويظبط القواعد اللي ورا ألعاب الفيديو والموبايل. مصر فيها عدد لاعبين كبير (الصحافة بتقول حوالي 31 مليون)، بس الاستوديوهات المحلية لسه قليلة وصغيرة، فمطورين كتير بيعملوا أبلكيشنز كمان أو بيشتغلوا من البيت لاستوديوهات برّه. الشغلانة بتجمع بين البرمجة والرياضيات والخيال."
     },
     "dayInLife": {
       "en": "You start by checking the bug list from last night's test. A player's character gets stuck in a wall on level three, so you track down the code that handles movement and fix it. After a short team meeting you work with the artist to make a new enemy move smoothly, then tweak its speed again and again until the fight feels fair. In the afternoon you test the game on an old phone because many players use cheap devices. Before you leave you save your work to the shared project and write notes for tomorrow.",
-      "ar": "تبدأ يومك بقائمة الأخطاء التي وجدها المختبرون أمس. شخصية اللاعب تعلق في الحائط في المرحلة الثالثة، فتبحث عن الكود المسؤول عن الحركة وتصلحه. بعد اجتماع قصير مع الفريق تعمل مع الفنان حتى تتحرك شخصية العدو الجديدة بسلاسة، ثم تغيّر سرعتها مرة بعد مرة حتى يصبح القتال عادلًا. بعد الظهر تجرّب اللعبة على موبايل قديم لأن كثيرًا من اللاعبين يستخدمون أجهزة رخيصة. قبل أن تنصرف تحفظ عملك في المشروع المشترك وتكتب ملاحظات لباكر."
+      "ar": "بتبدأ يومك بلستة الأخطاء اللي المختبرين لقوها امبارح. شخصية اللاعب بتعلق في الحيطة في المرحلة التالتة، فتدوّر على الكود المسؤول عن الحركة وتصلّحه. بعد اجتماع قصير مع الفريق تشتغل مع الرسام لحد ما العدو الجديد يتحرك بسلاسة، وتغيّر سرعته مرة ورا مرة لحد ما القتال يبقى عادل. بعد الضهر تجرّب اللعبة على موبايل قديم، لأن لاعبين كتير معاهم أجهزة رخيصة. وقبل ما تمشي تحفظ شغلك في المشروع المشترك وتكتب ملاحظات لبكرة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Write gameplay code: movement, controls, scoring, enemy behaviour and menus.",
-        "ar": "تكتب كود اللعب: الحركة والتحكم والنقاط وسلوك الأعداء والقوائم."
+        "ar": "بتكتب كود اللعب: الحركة والتحكم والنقط وتصرفات الأعداء والقوايم."
       },
       {
         "en": "Design game rules, levels and difficulty, and test them with real players.",
-        "ar": "تصمم قواعد اللعبة والمراحل ومستوى الصعوبة وتجرّبها مع لاعبين حقيقيين."
+        "ar": "بتصمم قواعد اللعبة والمراحل والصعوبة وتجرّبها مع لاعبين حقيقيين."
       },
       {
         "en": "Find and fix bugs, and make the game run smoothly on cheap phones and old computers.",
-        "ar": "تكتشف الأخطاء وتصلحها وتجعل اللعبة تعمل بسلاسة على الموبايلات الرخيصة والأجهزة القديمة."
+        "ar": "بتلاقي الأخطاء وتصلّحها، وتخلّي اللعبة شغالة بسلاسة على الموبايلات الرخيصة والأجهزة القديمة."
       },
       {
         "en": "Work with artists, sound designers and writers to bring their work into the game.",
-        "ar": "تعمل مع الفنانين ومصممي الصوت والكتّاب لإدخال أعمالهم في اللعبة."
+        "ar": "بتشتغل مع الرسامين ومصممين الصوت والكتّاب عشان تدخّل شغلهم في اللعبة."
       },
       {
         "en": "Publish the game on stores such as Google Play, the App Store or Steam and release updates.",
-        "ar": "تنشر اللعبة على متاجر مثل جوجل بلاي وآب ستور وستيم وتُصدر التحديثات."
+        "ar": "بتنشر اللعبة على متاجر زي جوجل بلاي وآب ستور وستيم وتطلّع تحديثات."
       },
       {
         "en": "Read player reviews and data, then improve the game.",
-        "ar": "تقرأ آراء اللاعبين وبيانات اللعب ثم تحسّن اللعبة."
+        "ar": "بتقرا آراء اللاعبين وبيانات اللعب وتحسّن اللعبة."
       }
     ],
     "environments": [
@@ -118,15 +118,15 @@
     "alternativeRoutes": [
       {
         "en": "Teach yourself with free engines and online courses, then build a portfolio of small finished games. Many studios care more about your games than your degree.",
-        "ar": "تعلّم بنفسك بمحركات مجانية ودورات على الإنترنت، ثم ابنِ ملف أعمال من ألعاب صغيرة مكتملة. كثير من الاستوديوهات تهتم بألعابك أكثر من شهادتك."
+        "ar": "اتعلم لوحدك بمحركات ببلاش وكورسات أونلاين، وبعدين اعمل بورتفوليو من ألعاب صغيرة كاملة. استوديوهات كتير بتهتم بألعابك أكتر من شهادتك."
       },
       {
         "en": "Coding schools open to under-18s, such as 3C Coding School and iSchool, which teach game programming from a young age.",
-        "ar": "مدارس برمجة تقبل من هم أقل من 18 سنة مثل 3C Coding School وiSchool وتعلّم برمجة الألعاب من سن صغيرة."
+        "ar": "مدارس برمجة بتقبل اللي أقل من 18 سنة، زي 3C Coding School وiSchool، وبتعلّم برمجة الألعاب من سن صغير."
       },
       {
         "en": "After graduation: the ITI 9-month program or bootcamps (graduates only) to strengthen software skills.",
-        "ar": "بعد التخرج: برنامج ITI مدته 9 شهور أو معسكرات تدريب (للخريجين فقط) لتقوية مهارات البرمجة."
+        "ar": "بعد التخرج: برنامج ITI (9 شهور) أو بوت كامبس (للخريجين بس) عشان تقوّي مهارات البرمجة."
       }
     ],
     "licensing": null
@@ -255,7 +255,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance and remote work are common: small games, game prototypes, game ports and bug fixing for clients abroad. Income can be irregular at first. A newly formed industry group, Assembly Games Egypt (2026), aims to connect studios and developers.",
-      "ar": "العمل الحر وعن بُعد شائع: ألعاب صغيرة ونماذج أولية ونقل ألعاب بين المنصات وإصلاح أخطاء لعملاء في الخارج. قد يكون الدخل غير منتظم في البداية. وتأسست في 2026 جمعية Assembly Games Egypt لتجمع الاستوديوهات والمطورين."
+      "ar": "الفري لانس والشغل من البيت منتشرين: ألعاب صغيرة، ونماذج أولية، ونقل ألعاب بين المنصات، وتصليح أخطاء لعملاء برّه. الدخل ممكن يبقى مش منتظم في الأول. وفي 2026 اتأسست Assembly Games Egypt عشان تجمع الاستوديوهات والمطورين."
     },
     "regions": [
       {
@@ -281,72 +281,72 @@
   },
   "global": {
     "en": "Game studios in Europe, North America and the Gulf hire developers remotely, and Egyptian developers work on international titles. Gulf governments, especially Saudi Arabia, have announced large gaming investments, which may open more jobs in the region, but check each offer carefully. Moving abroad usually needs a degree plus a strong portfolio and English.",
-    "ar": "تستعين استوديوهات في أوروبا وأمريكا الشمالية والخليج بمطورين عن بُعد، ويعمل مطورون مصريون في ألعاب عالمية. أعلنت حكومات خليجية، خاصة السعودية، استثمارات كبيرة في الألعاب، وقد يفتح ذلك وظائف أكثر في المنطقة، لكن افحص كل عرض بعناية. السفر للعمل في الخارج يحتاج عادةً شهادة جامعية وملف أعمال قويًا وإنجليزية جيدة."
+    "ar": "استوديوهات في أوروبا وأمريكا الشمالية والخليج بتعيّن مطورين من بعيد، ومطورين مصريين بيشتغلوا على ألعاب عالمية. حكومات خليجية، خصوصًا السعودية، أعلنت استثمارات كبيرة في الألعاب، وده ممكن يفتح شغل أكتر في المنطقة، بس افحص كل عرض كويس. والسفر للشغل برّه غالبًا محتاج شهادة جامعية وبورتفوليو قوي وإنجليزي كويس."
   },
   "reality": {
     "pros": [
       {
         "en": "You can see people enjoy something you built",
-        "ar": "ترى الناس تستمتع بشيء صنعته بيدك"
+        "ar": "بتشوف الناس مستمتعة بحاجة إنت عملتها"
       },
       {
         "en": "Skills transfer to apps, simulation, ads and general software jobs",
-        "ar": "مهاراتك تنفع في التطبيقات والمحاكاة والإعلانات ووظائف البرمجة عمومًا"
+        "ar": "مهاراتك تنفع في الأبلكيشنز والمحاكاة والإعلانات والبرمجة عمومًا"
       },
       {
         "en": "Remote and freelance options exist",
-        "ar": "توجد فرص عمل عن بُعد وحر"
+        "ar": "فيه فرص شغل من البيت وفري لانس"
       }
     ],
     "challenges": [
       {
         "en": "Few local studios, so the first job can be hard to find",
-        "ar": "الاستوديوهات المحلية قليلة، فقد يصعب إيجاد أول وظيفة"
+        "ar": "الاستوديوهات المحلية قليلة، فأول شغلانة ممكن تبقى صعبة"
       },
       {
         "en": "Deadlines before a release can mean long hours",
-        "ar": "المواعيد النهائية قبل الإصدار قد تعني ساعات عمل طويلة"
+        "ar": "المواعيد قبل الإصدار ممكن تعني ساعات طويلة"
       },
       {
         "en": "Many people try to enter the field, so a portfolio is essential",
-        "ar": "كثيرون يحاولون دخول المجال، فملف الأعمال ضروري"
+        "ar": "ناس كتير عايزين يدخلوا المجال، فالبورتفوليو أساسي"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Playing games all day makes you a game developer.",
-          "ar": "اللعب طوال اليوم يجعلك مطور ألعاب."
+          "ar": "إنك تلعب طول اليوم بيخليك مطوّر ألعاب."
         },
         "fact": {
           "en": "Playing helps you understand games, but the job is mostly programming, testing and fixing problems.",
-          "ar": "اللعب يساعدك على فهم الألعاب، لكن الوظيفة في معظمها برمجة واختبار وحل مشكلات."
+          "ar": "اللعب بيساعدك تفهم الألعاب، بس الشغلانة أغلبها برمجة واختبار وحل مشاكل."
         }
       },
       {
         "myth": {
           "en": "You must be a maths genius.",
-          "ar": "لازم تكون عبقريًا في الرياضيات."
+          "ar": "لازم تكون عبقري رياضيات."
         },
         "fact": {
           "en": "You need solid school maths and logic. Patience and practice matter more than genius.",
-          "ar": "تحتاج رياضيات المدرسة ومنطقًا جيدًا. الصبر والتدريب أهم من العبقرية."
+          "ar": "محتاج رياضيات المدرسة ومنطق كويس. الصبر والتمرين أهم من العبقرية."
         }
       },
       {
         "myth": {
           "en": "Games are a risky career with no other options.",
-          "ar": "الألعاب مجال خطير بلا بدائل."
+          "ar": "الألعاب مجال مخاطرة ومالوش بديل."
         },
         "fact": {
           "en": "The same skills are used in apps, simulations and software, so you can switch if the games market is slow.",
-          "ar": "نفس المهارات تُستخدم في التطبيقات والمحاكاة والبرمجيات، فتستطيع التحول إذا كان سوق الألعاب بطيئًا."
+          "ar": "نفس المهارات بتتستخدم في الأبلكيشنز والمحاكاة والبرامج، فتقدر تحوّل لو سوق الألعاب هادي."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Usually normal hours, but the weeks before a release can be intense. Remote work gives flexibility.",
-      "ar": "غالبًا ساعات عمل عادية، لكن الأسابيع التي تسبق الإصدار قد تكون مكثفة. العمل عن بُعد يعطي مرونة."
+      "ar": "غالبًا مواعيد عادية، بس الأسابيع اللي قبل الإصدار ممكن تبقى مكثفة. والشغل من البيت بيدي مرونة."
     }
   },
   "progression": {

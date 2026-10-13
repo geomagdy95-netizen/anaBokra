@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You represent Egypt abroad and build relationships between countries.",
-      "ar": "تمثل مصر في الخارج وتبني العلاقات بين الدول."
+      "ar": "بتمثّل مصر برّه وبتبني العلاقات بين الدول."
     },
     "summary": {
       "en": "Diplomats work for the Ministry of Foreign Affairs. They follow political and economic events, negotiate, help Egyptians abroad and write reports for decision makers. You enter by passing the Ministry's official attaché competition, which tests languages, international law, economics and politics.",
-      "ar": "الدبلوماسيون يعملون في وزارة الخارجية. يتابعون الأحداث السياسية والاقتصادية ويتفاوضون ويساعدون المصريين في الخارج ويكتبون تقارير لمتخذي القرار. تدخل المهنة بعد اجتياز مسابقة الملحقين الرسمية للوزارة التي تختبر اللغات والقانون الدولي والاقتصاد والسياسة."
+      "ar": "الدبلوماسيين بيشتغلوا في وزارة الخارجية. بيتابعوا الأحداث السياسية والاقتصادية، وبيتفاوضوا، وبيساعدوا المصريين برّه، وبيكتبوا تقارير لصناع القرار. بتدخل المهنة لما تنجح في مسابقة الملحقين الرسمية بتاعة الوزارة، وهي بتختبر اللغات والقانون الدولي والاقتصاد والسياسة."
     },
     "dayInLife": {
       "en": "At an embassy you start by reading the local news and your country's instructions from Cairo. You write a short report on a new trade law in the host country. A citizen calls because he lost his passport, so you explain the steps for an emergency document. Later you attend a meeting with officials of the host country and take careful notes. In the evening you may go to a cultural event, which is also part of the work, because relationships matter. Back in the office you send your report in clear, short language.",
-      "ar": "في السفارة تبدأ بقراءة أخبار البلد المضيف وتعليمات القاهرة. تكتب تقريرًا قصيرًا عن قانون تجاري جديد في البلد المضيف. يتصل بك مواطن فقد جواز سفره فتشرح له خطوات استخراج وثيقة طارئة. لاحقًا تحضر اجتماعًا مع مسؤولين من البلد المضيف وتدوّن ملاحظات دقيقة. في المساء قد تذهب إلى فعالية ثقافية وهي جزء من العمل لأن العلاقات مهمة. وفي المكتب ترسل تقريرك بلغة واضحة ومختصرة."
+      "ar": "في السفارة بتبدأ بقراية أخبار البلد اللي إنت فيه والتعليمات اللي جاية من القاهرة. تكتب تقرير قصير عن قانون تجاري جديد هناك. مواطن يكلّمك عشان ضاع منه الباسبور، فتشرح له خطوات استخراج وثيقة طوارئ. بعدها تحضر اجتماع مع مسؤولين من البلد وتكتب ملاحظات دقيقة. بالليل ممكن تروح فعالية ثقافية، ودي جزء من الشغل لأن العلاقات مهمة. وفي المكتب تبعت تقريرك بلغة واضحة ومختصرة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Follow political, economic and cultural developments and write reports.",
-        "ar": "تتابع التطورات السياسية والاقتصادية والثقافية وتكتب التقارير."
+        "ar": "بتتابع التطورات السياسية والاقتصادية والثقافية وتكتب التقارير."
       },
       {
         "en": "Take part in negotiations and meetings with other governments and organisations.",
-        "ar": "تشارك في المفاوضات والاجتماعات مع حكومات ومنظمات أخرى."
+        "ar": "بتشارك في المفاوضات والاجتماعات مع حكومات ومنظمات تانية."
       },
       {
         "en": "Help Egyptian citizens abroad with documents and emergencies (consular work).",
-        "ar": "تساعد المواطنين المصريين في الخارج في الوثائق والطوارئ (العمل القنصلي)."
+        "ar": "بتساعد المصريين برّه في الورق والطوارئ (الشغل القنصلي)."
       },
       {
         "en": "Promote trade, investment, tourism and cultural exchange.",
-        "ar": "تروّج للتجارة والاستثمار والسياحة والتبادل الثقافي."
+        "ar": "بتروّج للتجارة والاستثمار والسياحة والتبادل الثقافي."
       },
       {
         "en": "Prepare speeches, briefs and agreements.",
-        "ar": "تعدّ الخطابات والمذكرات والاتفاقات."
+        "ar": "بتجهّز الخطابات والمذكرات والاتفاقيات."
       },
       {
         "en": "Work in Cairo and abroad, moving between posts every few years.",
-        "ar": "تعمل في القاهرة وفي الخارج وتنتقل بين الأماكن كل بضع سنوات."
+        "ar": "بتشتغل في القاهرة وبرّه، وبتنقل من مكان لمكان كل كام سنة."
       }
     ],
     "environments": [
@@ -117,15 +117,15 @@
     "alternativeRoutes": [
       {
         "en": "Any university degree from a recognised university can be enough to apply, so some diplomats come from commerce, arts or other faculties; foreign degrees need equivalence from the Supreme Council of Universities.",
-        "ar": "قد تكفي أي شهادة جامعية من جامعة معترف بها للتقدم، فيأتي بعض الدبلوماسيين من التجارة والآداب وكليات أخرى؛ والشهادات الأجنبية تحتاج معادلة من المجلس الأعلى للجامعات."
+        "ar": "أي شهادة من جامعة معترف بيها ممكن تكفي عشان تتقدّم، فيه دبلوماسيين جايين من التجارة والآداب وكليات تانية؛ والشهادات الأجنبية محتاجة معادلة من المجلس الأعلى للجامعات."
       },
       {
         "en": "A master's degree in international relations, law or economics strengthens your preparation for the exams.",
-        "ar": "ماجستير في العلاقات الدولية أو القانون أو الاقتصاد يقوي استعدادك للامتحانات."
+        "ar": "ماجستير في العلاقات الدولية أو القانون أو الاقتصاد بيقوّي استعدادك للامتحانات."
       },
       {
         "en": "Other jobs in the field: international organisations, research centres, NGOs, trade and investment bodies.",
-        "ar": "وظائف أخرى في المجال: المنظمات الدولية ومراكز الأبحاث والمنظمات الأهلية وهيئات التجارة والاستثمار."
+        "ar": "وظايف تانية في نفس المجال: المنظمات الدولية ومراكز الأبحاث والجمعيات الأهلية وهيئات التجارة والاستثمار."
       }
     ],
     "licensing": {
@@ -231,6 +231,10 @@
   },
   "marketEgypt": {
     "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "No citable salary figure was found. Diplomatic pay follows official scales and allowances for posts abroad that we could not verify, so no number is given.",
+      "ar": "لم نعثر على رقم راتب يمكن الاستشهاد به. يتبع أجر الدبلوماسيين جداول رسمية وبدلات للعمل بالخارج لم نتمكن من التحقق منها، لذلك لا نقدم رقمًا."
+    },
     "demand": "low",
     "employers": [
       {
@@ -247,8 +251,8 @@
       }
     ],
     "freelanceRemote": {
-      "en": "Salary: No citable salary figure was found. Diplomatic pay follows official scales and allowances for posts abroad that we could not verify. No number is given. Not applicable for diplomatic posts, which are full-time government positions. Related work as an analyst or consultant can be done freelance.",
-      "ar": "الراتب: لم نعثر على رقم راتب يمكن الاستشهاد به. يتبع أجر الدبلوماسيين جداول رسمية وبدلات للعمل بالخارج لم نتمكن من التحقق منها. لذلك لا نقدم رقمًا. لا ينطبق على الوظائف الدبلوماسية فهي وظائف حكومية بدوام كامل. أما العمل المرتبط كمحلل أو مستشار فيمكن أداؤه عملًا حرًا."
+      "en": "Not applicable for diplomatic posts, which are full-time government positions. Related work as an analyst or consultant can be done freelance.",
+      "ar": "ما ينفعش في الوظايف الدبلوماسية، لأنها وظايف حكومية بدوام كامل. أما الشغل القريب منها كمحلل أو مستشار فممكن يتعمل فري لانس."
     },
     "regions": [
       {
@@ -265,72 +269,72 @@
   },
   "global": {
     "en": "The job itself is abroad: you serve in embassies and missions around the world, and families often move with you. After a diplomatic career, people move to international organisations, universities and consultancies. Entry is only through the Egyptian state, so other countries' diplomatic services recruit their own citizens.",
-    "ar": "الوظيفة نفسها في الخارج: تخدم في سفارات وبعثات حول العالم، وغالبًا تنتقل الأسرة معك. وبعد المسيرة الدبلوماسية ينتقل بعض الناس إلى المنظمات الدولية والجامعات وشركات الاستشارات. الدخول عبر الدولة المصرية فقط، فالسلك الدبلوماسي في الدول الأخرى يوظف مواطنيه."
+    "ar": "الشغلانة نفسها برّه: بتخدم في سفارات وبعثات حوالين العالم، وغالبًا العيلة بتسافر معاك. وبعد المشوار الدبلوماسي فيه ناس بينقلوا للمنظمات الدولية والجامعات وشركات الاستشارات. الدخول من الدولة المصرية بس، وكل دولة تانية بتعيّن مواطنيها في السلك الدبلوماسي بتاعها."
   },
   "reality": {
     "pros": [
       {
         "en": "Living and working in different countries",
-        "ar": "العيش والعمل في بلدان مختلفة"
+        "ar": "إنك تعيش وتشتغل في بلاد مختلفة"
       },
       {
         "en": "Meaningful public service",
-        "ar": "خدمة عامة ذات معنى"
+        "ar": "خدمة عامة ليها معنى"
       },
       {
         "en": "Learning languages and cultures",
-        "ar": "تعلم اللغات والثقافات"
+        "ar": "بتتعلم لغات وثقافات"
       }
     ],
     "challenges": [
       {
         "en": "Few places and a hard multi-stage exam",
-        "ar": "عدد الأماكن قليل والامتحان صعب ومتعدد المراحل"
+        "ar": "الأماكن قليلة والامتحان صعب وعلى كذا مرحلة"
       },
       {
         "en": "Moving every few years is hard on families and friendships",
-        "ar": "الانتقال كل بضع سنوات صعب على الأسرة والصداقات"
+        "ar": "النقل كل كام سنة صعب على العيلة والصحاب"
       },
       {
         "en": "Posts can be far away or in difficult places",
-        "ar": "قد تكون أماكن التعيين بعيدة أو صعبة"
+        "ar": "أماكن التعيين ممكن تبقى بعيدة أو صعبة"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Diplomats mostly go to parties.",
-          "ar": "الدبلوماسيون يذهبون للحفلات في الغالب."
+          "ar": "الدبلوماسيين أغلب وقتهم في الحفلات."
         },
         "fact": {
           "en": "Events are part of building relations, but most work is reading, writing reports, negotiating and helping citizens.",
-          "ar": "الفعاليات جزء من بناء العلاقات، لكن معظم العمل قراءة وكتابة تقارير وتفاوض ومساعدة المواطنين."
+          "ar": "الفعاليات جزء من بناء العلاقات، بس أغلب الشغل قراية وكتابة تقارير وتفاوض ومساعدة المواطنين."
         }
       },
       {
         "myth": {
           "en": "You must study political science to join.",
-          "ar": "لازم تدرس العلوم السياسية."
+          "ar": "لازم تدرس علوم سياسية عشان تدخل."
         },
         "fact": {
           "en": "Graduates of different faculties apply. What counts is passing the exams, which you can prepare for.",
-          "ar": "يتقدم خريجو كليات مختلفة. المهم اجتياز الامتحانات ويمكن الاستعداد لها."
+          "ar": "بيتقدّم خريجين من كليات مختلفة. المهم إنك تنجح في الامتحانات، وده حاجة تقدر تستعد لها."
         }
       },
       {
         "myth": {
           "en": "Knowing English is enough.",
-          "ar": "يكفي أن تعرف الإنجليزية."
+          "ar": "الإنجليزي لوحده كفاية."
         },
         "fact": {
           "en": "The exam requires Arabic and two foreign languages at a high level.",
-          "ar": "الامتحان يتطلب العربية ولغتين أجنبيتين بمستوى عالٍ."
+          "ar": "الامتحان محتاج عربي ولغتين أجنبيتين بمستوى عالي."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Hours vary. Cairo posts are closer to office hours. Posts abroad can include evenings, weekends and emergencies, and family life changes with each move.",
-      "ar": "تختلف الساعات. العمل في القاهرة أقرب لساعات المكتب. وفي الخارج قد يشمل المساء والعطلات والطوارئ، وتتغير الحياة الأسرية مع كل انتقال."
+      "ar": "المواعيد بتختلف. الشغل في القاهرة أقرب لمواعيد المكتب. وبرّه ممكن يبقى فيه سهر وإجازات وطوارئ، وحياة العيلة بتتغير مع كل نقل."
     }
   },
   "progression": {

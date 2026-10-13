@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You solve business problems for organisations that ask for help.",
-      "ar": "تحل مشكلات الأعمال لجهات تطلب المساعدة."
+      "ar": "بتحل مشاكل البيزنس لجهات طالبة مساعدة."
     },
     "summary": {
       "en": "Management consultants study how an organisation works, find what is not working and recommend changes. They collect data, interview people and present clear advice to leaders. Most start as analysts in consulting firms, where the pace is fast and the learning is quick.",
-      "ar": "استشاري الإدارة يدرس كيف تعمل المؤسسة ويكتشف ما لا يعمل جيدًا ويوصي بالتغييرات. يجمع البيانات ويقابل الناس ويعرض نصيحة واضحة على القيادات. يبدأ معظمهم محللين في شركات الاستشارات حيث الإيقاع سريع والتعلم أسرع."
+      "ar": "استشاري الإدارة بيدرس المؤسسة بتشتغل إزاي، ويلاقي إيه اللي مش ماشي كويس، ويقترح تغييرات. بيجمع بيانات، ويقابل الناس، ويعرض نصيحة واضحة على القيادات. أغلبهم بيبدأوا محللين في شركات الاستشارات، والإيقاع هناك سريع والتعلم أسرع."
     },
     "dayInLife": {
       "en": "Your team is helping a retailer lower its costs. You spend the morning in a spreadsheet, finding which stores lose money. At noon you interview a store manager to understand why. In the afternoon you turn the findings into three simple slides and practise how to present them. In the evening you often continue the work to meet the deadline.",
-      "ar": "فريقك يساعد شركة تجزئة على خفض تكاليفها. تقضي الصباح في جدول بيانات تبحث عن الفروع الخاسرة. وعند الظهر تقابل مدير فرع لتفهم السبب. بعد الظهر تحوّل النتائج إلى ثلاث شرائح بسيطة وتتدرب على عرضها. وفي المساء غالبًا تواصل العمل لتلحق بالموعد النهائي."
+      "ar": "فريقك بيساعد شركة تجزئة تقلّل تكاليفها. بتقضي الصبح على شيت بتدوّر على الفروع الخسرانة. الضهر تقابل مدير فرع تفهم السبب. بعد الضهر تحوّل النتايج لتلات سلايدز بسيطة وتتمرّن تعرضها إزاي. وبالليل غالبًا بتكمّل شغل عشان تلحق الديدلاين."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Define the client's problem and plan how to study it.",
-        "ar": "تحدد مشكلة العميل وتخطط لدراستها."
+        "ar": "بتحدد مشكلة العميل وتخطط هتدرسها إزاي."
       },
       {
         "en": "Collect and analyse data and interview staff.",
-        "ar": "تجمع البيانات وتحللها وتقابل العاملين."
+        "ar": "بتجمع البيانات وتحلّلها وتقابل الموظفين."
       },
       {
         "en": "Build recommendations and a business case.",
-        "ar": "تبني التوصيات وجدوى العمل."
+        "ar": "بتبني التوصيات ودراسة الجدوى."
       },
       {
         "en": "Present findings to managers in clear, short slides.",
-        "ar": "تعرض النتائج على المديرين في شرائح واضحة ومختصرة."
+        "ar": "بتعرض النتايج على المديرين في سلايدز واضحة وقصيرة."
       },
       {
         "en": "Help the client put the changes into practice.",
-        "ar": "تساعد العميل على تنفيذ التغييرات."
+        "ar": "بتساعد العميل ينفّذ التغييرات."
       }
     ],
     "environments": [
@@ -117,11 +117,11 @@
     "alternativeRoutes": [
       {
         "en": "Start in a company job (finance, operations or marketing), then move into consulting after gaining experience.",
-        "ar": "البدء في وظيفة بشركة (مالية أو عمليات أو تسويق) ثم الانتقال للاستشارات بعد اكتساب الخبرة."
+        "ar": "تبدأ في وظيفة في شركة (مالية أو عمليات أو تسويق)، وبعدين تنقل للاستشارات بعد ما تاخد خبرة."
       },
       {
         "en": "A master's degree in business or a related field can help, but strong analysis and communication matter most.",
-        "ar": "ماجستير في إدارة الأعمال أو مجال قريب قد يساعد، لكن التحليل القوي والتواصل هما الأهم."
+        "ar": "ماجستير في إدارة الأعمال أو مجال قريب ممكن يساعد، بس التحليل القوي والتواصل هما الأهم."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Starting your own business",
-        "ar": "بدء مشروعك الخاص"
+        "ar": "تبدأ مشروعك الخاص"
       },
       {
         "en": "Private equity and investment",

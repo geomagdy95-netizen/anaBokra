@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You turn ingredients into meals people remember.",
-      "ar": "تحوّل المكونات إلى وجبات لا ينساها الناس."
+      "ar": "بتحوّل المكونات لأكلات الناس ما بتنساهاش."
     },
     "summary": {
       "en": "Chefs plan menus, cook, manage a kitchen team and make sure food is safe and tasty. Work is fast, hot and often late in the day, and most chefs start as kitchen assistants and move up with skill. Hotels, restaurants and catering companies all hire cooks.",
-      "ar": "الشيف يخطط قوائم الطعام ويطبخ ويدير فريق المطبخ ويضمن أن الطعام آمن ولذيذ. العمل سريع وحار وغالبًا في ساعات متأخرة، ويبدأ معظم الشيفات مساعدين في المطبخ ثم يترقون بالمهارة. وتوظف الفنادق والمطاعم وشركات التموين الطهاة."
+      "ar": "الشيف بيخطط المنيو ويطبخ ويدير فريق المطبخ ويتأكد إن الأكل آمن وطعمه حلو. الشغل سريع وحر وغالبًا لحد وقت متأخر، وأغلب الشيفات بيبدأوا مساعدين في المطبخ وبيترقّوا بشطارتهم. والفنادق والمطاعم وشركات التموين كلها بتشغّل طباخين."
     },
     "dayInLife": {
       "en": "You arrive in the afternoon and check the ingredients delivered today. With your team you prepare sauces and chop vegetables before service. When the restaurant opens, orders come in quickly: you cook, taste, plate and keep the kitchen clean and calm. After closing you count the stock and plan tomorrow's menu.",
-      "ar": "تصل بعد الظهر وتفحص المكونات التي وصلت اليوم. مع فريقك تجهّز الصلصات وتقطع الخضار قبل بدء الخدمة. حين يفتح المطعم تنهال الطلبات: تطبخ وتتذوق وتقدّم وتحافظ على نظافة المطبخ وهدوئه. بعد الإغلاق تعدّ المخزون وتخطط قائمة الغد."
+      "ar": "بتوصل بعد الضهر وتكشف على المكونات اللي وصلت النهارده. مع فريقك تجهّزوا الصوصات وتقطّعوا الخضار قبل الخدمة. أول ما المطعم يفتح الأوردرات بتنزل ورا بعض: تطبخ وتدوق وتغرف وتحافظ على المطبخ نضيف وهادي. وبعد القفل تعد المخزون وتخطط منيو بكرة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan menus and recipes and control food cost.",
-        "ar": "تخطط القوائم والوصفات وتتحكم في تكلفة الطعام."
+        "ar": "بتخطط المنيو والوصفات وتتحكم في تكلفة الأكل."
       },
       {
         "en": "Prepare and cook dishes to a consistent standard.",
-        "ar": "تحضّر الأطباق وتطبخها بمستوى ثابت."
+        "ar": "بتحضّر الأطباق وتطبخها بنفس المستوى كل مرة."
       },
       {
         "en": "Lead and train kitchen staff.",
-        "ar": "تقود فريق المطبخ وتدربه."
+        "ar": "بتقود فريق المطبخ وتدرّبه."
       },
       {
         "en": "Follow food safety and hygiene rules.",
-        "ar": "تلتزم بقواعد سلامة الغذاء والنظافة."
+        "ar": "بتلتزم بقواعد سلامة الغذاء والنضافة."
       },
       {
         "en": "Order ingredients and manage stock.",
-        "ar": "تطلب المكونات وتدير المخزون."
+        "ar": "بتطلب المكونات وتدير المخزون."
       }
     ],
     "environments": [
@@ -110,15 +110,15 @@
     "alternativeRoutes": [
       {
         "en": "Start as a kitchen assistant or commis chef and learn on the job in a hotel or restaurant.",
-        "ar": "البدء كمساعد مطبخ أو طاهٍ مبتدئ والتعلم أثناء العمل في فندق أو مطعم."
+        "ar": "تبدأ مساعد مطبخ أو كومي، وتتعلم من الشغل في فندق أو مطعم."
       },
       {
         "en": "Culinary courses, such as those at Noqoush Culinary Academy or the Egyptian Chefs Association.",
-        "ar": "دورات الطهي مثل أكاديمية نقوش للطهي أو الجمعية المصرية للطهاة."
+        "ar": "كورسات طبخ، زي أكاديمية نقوش للطهي أو الجمعية المصرية للطهاة."
       },
       {
         "en": "Hotel technical secondary school before work or further study.",
-        "ar": "الثانوية الفنية الفندقية قبل العمل أو استكمال الدراسة."
+        "ar": "الثانوي الفني الفندقي قبل الشغل أو تكملة الدراسة."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Food business or catering of your own",
-        "ar": "مشروع أغذية أو تموين خاص"
+        "ar": "مشروع أكل أو تموين بتاعك"
       },
       {
         "en": "Food product development",

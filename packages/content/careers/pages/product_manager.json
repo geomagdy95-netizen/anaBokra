@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You decide what gets built, and why.",
-      "ar": "أنت من يقرر ما الذي يُبنى ولماذا."
+      "ar": "إنت اللي بتقرر هيتبني إيه، وليه."
     },
     "summary": {
       "en": "Product managers guide a digital product such as an app or a website. They talk to users, set priorities and work with designers and developers so the team builds the right thing. It is a role you usually reach after some experience in tech, design or business.",
-      "ar": "مدير المنتج يقود منتجًا رقميًا مثل تطبيق أو موقع. يتحدث مع المستخدمين ويحدد الأولويات ويعمل مع المصممين والمبرمجين لكي يبني الفريق الشيء الصحيح. وهو دور تصل إليه عادة بعد خبرة في التقنية أو التصميم أو الأعمال."
+      "ar": "مدير المنتج بيقود منتج رقمي زي أبلكيشن أو موقع. بيتكلم مع المستخدمين، ويحدد الأولويات، ويشتغل مع المصممين والمبرمجين عشان الفريق يبني الحاجة الصح. وده دور غالبًا بتوصله بعد خبرة في التكنولوجيا أو التصميم أو البيزنس."
     },
     "dayInLife": {
       "en": "You begin by reading user feedback and checking how many people used last week's new feature. In a meeting with the developers and the designer you decide which of five ideas to build first. Then you write a clear description of the next feature, answer questions from the team, and prepare a short update for management.",
-      "ar": "تبدأ بقراءة آراء المستخدمين ومعرفة كم شخصًا استخدم الميزة الجديدة الأسبوع الماضي. في اجتماع مع المبرمجين والمصمم تقرر أي أفكار من خمس تُبنى أولًا. ثم تكتب وصفًا واضحًا للميزة القادمة وتجيب عن أسئلة الفريق وتجهّز تحديثًا قصيرًا للإدارة."
+      "ar": "بتبدأ بقراية آراء المستخدمين وتشوف كام واحد استخدم الفيتشر الجديدة الأسبوع اللي فات. في اجتماع مع المبرمجين والمصمم تقرروا أنهي فكرة من خمسة تتبني الأول. بعدين تكتب وصف واضح للفيتشر الجاية، وترد على أسئلة الفريق، وتجهّز أبديت قصير للإدارة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Talk to users and study data to understand their problems.",
-        "ar": "تتحدث مع المستخدمين وتدرس البيانات لتفهم مشكلاتهم."
+        "ar": "بتتكلم مع المستخدمين وتدرس البيانات عشان تفهم مشاكلهم."
       },
       {
         "en": "Decide priorities and write clear requirements.",
-        "ar": "تحدد الأولويات وتكتب المتطلبات بوضوح."
+        "ar": "بتحدد الأولويات وتكتب المتطلبات بوضوح."
       },
       {
         "en": "Work with designers and developers to plan and launch features.",
-        "ar": "تعمل مع المصممين والمبرمجين لتخطيط الميزات وإطلاقها."
+        "ar": "بتشتغل مع المصممين والمبرمجين تخططوا الفيتشرز وتطلّعوها."
       },
       {
         "en": "Track results and adjust the plan.",
-        "ar": "تتابع النتائج وتعدّل الخطة."
+        "ar": "بتتابع النتايج وتعدّل الخطة."
       },
       {
         "en": "Share progress with managers and customers.",
-        "ar": "تشارك التقدم مع المديرين والعملاء."
+        "ar": "بتشارك التقدم مع المديرين والعملاء."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a developer, designer, analyst or marketer in a product team, then move into product management.",
-        "ar": "البدء كمبرمج أو مصمم أو محلل أو مسوّق في فريق منتج ثم الانتقال إلى إدارة المنتجات."
+        "ar": "تبدأ مبرمج أو مصمم أو محلل أو مسوّق في فريق منتج، وبعدين تنقل لإدارة المنتجات."
       },
       {
         "en": "Short courses and certificates in product management can help, but experience matters most.",
-        "ar": "الدورات القصيرة وشهادات إدارة المنتجات تساعد، لكن الخبرة هي الأهم."
+        "ar": "الكورسات القصيرة وشهادات إدارة المنتجات بتساعد، بس الخبرة هي الأهم."
       }
     ],
     "licensing": null

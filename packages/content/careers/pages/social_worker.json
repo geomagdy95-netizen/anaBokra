@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You stand with people when life becomes difficult.",
-      "ar": "تقف مع الناس حين تصبح الحياة صعبة."
+      "ar": "بتقف جنب الناس لما الدنيا تصعب."
     },
     "summary": {
       "en": "Social workers help individuals, families and communities facing poverty, illness, violence, disability or other problems. They listen, assess needs, connect people with services and help them build a way forward. The work is meaningful but can be emotionally demanding.",
-      "ar": "الأخصائي الاجتماعي يساعد الأفراد والأسر والمجتمعات التي تواجه الفقر أو المرض أو العنف أو الإعاقة أو غيرها من المشكلات. يستمع ويقيّم الاحتياجات ويربط الناس بالخدمات ويساعدهم على إيجاد طريق للمستقبل. عمل ذو معنى لكنه قد يكون مرهقًا عاطفيًا."
+      "ar": "الأخصائي الاجتماعي بيساعد ناس وأسر ومجتمعات بيواجهوا فقر أو مرض أو عنف أو إعاقة أو مشاكل تانية. بيسمع، ويقيّم الاحتياجات، ويوصّل الناس بالخدمات، ويساعدهم يلاقوا طريق لقدّام. شغل ليه معنى، بس ممكن يبقى متعب نفسيًا."
     },
     "dayInLife": {
       "en": "You visit a family whose father lost his job, listen to their situation and check which support programs fit them. Back at the office you write the case notes and call a hospital about a child who needs follow-up. In the afternoon you run a small group meeting for mothers, then plan next week's visits.",
-      "ar": "تزور أسرة فقد الأب عمله وتستمع لحالتها وتتحقق من برامج الدعم المناسبة. في المكتب تكتب ملاحظات الحالة وتتصل بمستشفى بخصوص طفل يحتاج متابعة. بعد الظهر تدير لقاء صغيرًا للأمهات ثم تخطط زيارات الأسبوع القادم."
+      "ar": "بتزور أسرة الأب فيها فقد شغله، وتسمع ظروفهم، وتشوف أنهي برامج دعم تناسبهم. في المكتب تكتب ملاحظات الحالة وتكلّم مستشفى بخصوص طفل محتاج متابعة. بعد الضهر تدير لقاء صغير للأمهات، وبعدين تخطط زيارات الأسبوع الجاي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Meet individuals and families and assess their needs.",
-        "ar": "تقابل الأفراد والأسر وتقيّم احتياجاتهم."
+        "ar": "بتقابل الأفراد والأسر وتقيّم احتياجاتهم."
       },
       {
         "en": "Connect people with services such as health, education and aid.",
-        "ar": "تربط الناس بخدمات مثل الصحة والتعليم والمساعدات."
+        "ar": "بتوصّل الناس بخدمات زي الصحة والتعليم والمساعدات."
       },
       {
         "en": "Support people through personal and family problems.",
-        "ar": "تدعم الناس في مشكلاتهم الشخصية والأسرية."
+        "ar": "بتدعم الناس في مشاكلهم الشخصية والعيلية."
       },
       {
         "en": "Run group sessions and community projects.",
-        "ar": "تدير جلسات جماعية ومشروعات مجتمعية."
+        "ar": "بتدير جلسات جماعية ومشاريع مجتمعية."
       },
       {
         "en": "Keep case records and follow up on progress.",
-        "ar": "تحتفظ بسجلات الحالات وتتابع التقدم."
+        "ar": "بتحتفظ بسجلات الحالات وتتابع التقدم."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "Volunteer first with an NGO or charity to see if the work suits you.",
-        "ar": "ابدأ بالتطوع في منظمة أهلية أو جمعية خيرية لترى إن كان العمل يناسبك."
+        "ar": "ابدأ بالتطوع في جمعية أهلية أو خيرية، تشوف الشغل ده مناسب ليك ولا لأ."
       },
       {
         "en": "A related degree (psychology, sociology), then training courses in case work and counselling.",
-        "ar": "درجة قريبة (علم النفس أو الاجتماع) ثم دورات تدريبية في دراسة الحالة والإرشاد."
+        "ar": "شهادة قريبة (علم نفس أو اجتماع)، وبعدين كورسات تدريب في دراسة الحالة والإرشاد."
       }
     ],
     "licensing": {

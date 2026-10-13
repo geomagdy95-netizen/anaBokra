@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You take the pictures that let doctors see inside the body.",
-      "ar": "أنت من يلتقط الصور التي تتيح للأطباء رؤية داخل الجسم."
+      "ar": "إنت اللي بتصوّر الصور اللي بتخلّي الدكاترة يشوفوا جوه الجسم."
     },
     "summary": {
       "en": "Radiology technologists operate X-ray, CT, MRI and ultrasound machines to produce images that doctors use for diagnosis. They position patients, protect them from radiation, and make sure the images are clear. The job combines technology with patient care.",
-      "ar": "أخصائي الأشعة يشغّل أجهزة الأشعة السينية والمقطعية والرنين المغناطيسي والسونار لإنتاج صور يعتمد عليها الأطباء في التشخيص. يضع المريض في الوضع الصحيح ويحميه من الإشعاع ويتأكد من وضوح الصور. تجمع المهنة بين التكنولوجيا ورعاية المرضى."
+      "ar": "أخصائي الأشعة بيشغّل أجهزة الأشعة العادية والمقطعية والرنين والسونار عشان يطلّع صور الدكاترة بيعتمدوا عليها في التشخيص. بيظبط وضع المريض، ويحميه من الإشعاع، ويتأكد إن الصور واضحة. والمهنة بتجمع بين التكنولوجيا ورعاية المرضى."
     },
     "dayInLife": {
       "en": "You check the machine and read the day's requests. A patient arrives for a chest X-ray; you explain what will happen, position them and take the image. Next is a child who is nervous, so you speak gently and make it quick. You review each image to be sure it is clear enough for the radiologist, record the examination, and follow the radiation safety rules all day.",
-      "ar": "تفحص الجهاز وتقرأ طلبات اليوم. يصل مريض لأشعة على الصدر؛ تشرح له ما سيحدث وتضعه في الوضع الصحيح وتلتقط الصورة. بعده طفل قلق، فتتحدث معه بلطف وتنجز الأشعة بسرعة. تراجع كل صورة لتتأكد أنها واضحة بما يكفي لطبيب الأشعة، وتسجّل الفحص، وتلتزم بقواعد الوقاية من الإشعاع طوال اليوم."
+      "ar": "بتكشف على الجهاز وتقرا طلبات اليوم. مريض بييجي يعمل أشعة على الصدر؛ تشرح له هيحصل إيه، وتظبط وضعه، وتصوّر. بعده طفل قلقان، فتكلّمه بالراحة وتخلّص بسرعة. تراجع كل صورة تتأكد إنها واضحة كفاية لدكتور الأشعة، وتسجّل الفحص، وتلتزم بقواعد الوقاية من الإشعاع طول اليوم."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Explain the examination to patients and prepare them for it.",
-        "ar": "تشرح الفحص للمرضى وتجهّزهم له."
+        "ar": "بتشرح الفحص للمرضى وتجهّزهم له."
       },
       {
         "en": "Position patients and operate X-ray, CT or other imaging equipment.",
-        "ar": "تضع المرضى في الوضع الصحيح وتشغّل أجهزة الأشعة السينية أو المقطعية أو غيرها."
+        "ar": "بتظبط وضع المرضى وتشغّل أجهزة الأشعة العادية أو المقطعية أو غيرها."
       },
       {
         "en": "Protect patients and staff from radiation using shields and safe settings.",
-        "ar": "تحمي المرضى والعاملين من الإشعاع بالواقيات والإعدادات الآمنة."
+        "ar": "بتحمي المرضى والعاملين من الإشعاع بالواقيات والإعدادات الآمنة."
       },
       {
         "en": "Check image quality and repeat when needed.",
-        "ar": "تتحقق من جودة الصور وتعيدها عند الحاجة."
+        "ar": "بتتأكد من جودة الصور وتعيدها لو لازم."
       },
       {
         "en": "Keep patient records and maintain equipment with the engineers.",
-        "ar": "تحتفظ بسجلات المرضى وتتابع صيانة الأجهزة مع المهندسين."
+        "ar": "بتحتفظ بسجلات المرضى وتتابع صيانة الأجهزة مع المهندسين."
       }
     ],
     "environments": [
@@ -103,11 +103,11 @@
     "alternativeRoutes": [
       {
         "en": "Technical health institute diploma in radiology, then work in a hospital and continue to a bachelor's degree later.",
-        "ar": "دبلوم المعهد الفني الصحي في الأشعة ثم العمل في مستشفى واستكمال البكالوريوس لاحقًا."
+        "ar": "دبلوم المعهد الفني الصحي قسم أشعة، وبعدين تشتغل في مستشفى وتكمّل البكالوريوس بعدين."
       },
       {
         "en": "Specialize later in CT, MRI, ultrasound or radiotherapy.",
-        "ar": "التخصص لاحقًا في الأشعة المقطعية أو الرنين أو السونار أو العلاج الإشعاعي."
+        "ar": "تتخصص بعدين في الأشعة المقطعية أو الرنين أو السونار أو العلاج الإشعاعي."
       }
     ],
     "licensing": {

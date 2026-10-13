@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You are the medicine expert: you make sure every prescription is right, safe and understood.",
-      "ar": "أنت خبير الدواء: تتأكد أن كل وصفة صحيحة وآمنة ومفهومة."
+      "ar": "إنت خبير الدوا: بتتأكد إن كل روشتة صح وآمنة ومفهومة."
     },
     "summary": {
       "en": "Pharmacists dispense medicine, check doses and interactions, and advise patients. In Egypt you can work in community pharmacies, hospitals, drug factories or sales and regulation. The profession is going through changes: a compulsory training year and a national licensing exam now apply.",
-      "ar": "الصيدلي يصرف الدواء ويراجع الجرعات والتداخلات وينصح المرضى. في مصر يمكنك العمل في الصيدليات والمستشفيات ومصانع الأدوية والمبيعات والجهات الرقابية. والمهنة تمر بتغييرات: فهناك الآن سنة تدريب إجبارية وامتحان ترخيص وطني."
+      "ar": "الصيدلي بيصرف الدوا، ويراجع الجرعات والتداخلات، وينصح المرضى. في مصر تقدر تشتغل في الصيدليات والمستشفيات ومصانع الدوا والمبيعات والجهات الرقابية. والمهنة بتعدّي بتغييرات: بقى فيه سنة تدريب إجبارية وامتحان ترخيص قومي."
     },
     "dayInLife": {
       "en": "You open the pharmacy at 9 a.m. and check the stock and the expiry dates. A customer hands you a prescription with two medicines that should not be taken together, so you call the doctor and fix it. An older woman asks why her blood pressure tablets look different, and you explain that it is the same medicine from another company. At midday you prepare an order from the distributor and file the narcotics register. In the afternoon you guide a young man on how to take antibiotics properly. You close with your numbers checked and everything labeled.",
-      "ar": "تفتح الصيدلية في التاسعة صباحًا وتراجع المخزون وتواريخ الصلاحية. يعطيك زبون روشتة فيها دواءان لا يصح تناولهما معًا، فتتصل بالطبيب وتصحح الأمر. تسألك سيدة كبيرة لماذا يبدو دواء الضغط مختلفًا، فتشرح أنه الدواء نفسه من شركة أخرى. عند الظهر تجهز طلبية من شركة التوزيع وتسجّل دفتر المخدرات. بعد العصر ترشد شابًا إلى الطريقة الصحيحة لتناول المضاد الحيوي. وتغلق وقد راجعت أرقامك وكل شيء موسوم بوضوح."
+      "ar": "بتفتح الصيدلية الساعة 9 الصبح وتراجع المخزون وتواريخ الصلاحية. زبون يديك روشتة فيها دواين ما ينفعش يتاخدوا مع بعض، فتكلّم الدكتور وتصلّحها. ست كبيرة تسألك ليه دوا الضغط شكله مختلف، فتشرح لها إنه نفس الدوا من شركة تانية. الضهر تجهّز طلبية من شركة التوزيع وتسجّل دفتر المخدرات. بعد العصر تفهّم شاب ياخد المضاد الحيوي صح إزاي. وتقفل وإنت راجعت أرقامك وكل حاجة متعلّم عليها بوضوح."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Check prescriptions for correct dose, timing and possible interactions.",
-        "ar": "تراجع الروشتات للتأكد من الجرعة والتوقيت والتداخلات المحتملة."
+        "ar": "بتراجع الروشتات تتأكد من الجرعة والمواعيد والتداخلات اللي ممكن تحصل."
       },
       {
         "en": "Dispense medicines and explain how to take them.",
-        "ar": "تصرف الأدوية وتشرح طريقة تناولها."
+        "ar": "بتصرف الأدوية وتشرح تتاخد إزاي."
       },
       {
         "en": "Advise patients on side effects, storage and safe use of over-the-counter medicines.",
-        "ar": "تنصح المرضى بشأن الآثار الجانبية والتخزين والاستخدام الآمن للأدوية بدون روشتة."
+        "ar": "بتنصح المرضى في الأعراض الجانبية والتخزين والاستخدام الآمن للأدوية اللي من غير روشتة."
       },
       {
         "en": "Manage stock, expiry dates, controlled drugs and records.",
-        "ar": "تدير المخزون وتواريخ الصلاحية والأدوية المراقبة والسجلات."
+        "ar": "بتدير المخزون وتواريخ الصلاحية والأدوية المراقبة والسجلات."
       },
       {
         "en": "In hospitals, prepare and monitor treatments with the medical team (clinical pharmacy).",
-        "ar": "في المستشفيات تجهز العلاجات وتتابعها مع الفريق الطبي (الصيدلة الإكلينيكية)."
+        "ar": "في المستشفيات بتجهّز العلاجات وتتابعها مع الفريق الطبي (الصيدلة الإكلينيكية)."
       },
       {
         "en": "In industry, help test, make and control the quality of medicines.",
-        "ar": "في الصناعة تساعد في اختبار الأدوية وتصنيعها ومراقبة جودتها."
+        "ar": "في الصناعة بتساعد في اختبار الأدوية وتصنيعها ومراقبة جودتها."
       }
     ],
     "environments": [
@@ -118,11 +118,11 @@
     "alternativeRoutes": [
       {
         "en": "Pharm-D (clinical pharmacy) programs last longer than the five-year bachelor and focus on patient care in hospitals.",
-        "ar": "برامج Pharm-D (الصيدلة الإكلينيكية) أطول من البكالوريوس ذي الخمس سنوات وتركز على رعاية المرضى في المستشفيات."
+        "ar": "برامج Pharm-D (الصيدلة الإكلينيكية) أطول من البكالوريوس الخمس سنين، ومركّزة على رعاية المرضى في المستشفيات."
       },
       {
         "en": "Medical laboratory science, clinical nutrition and biotechnology are related science paths with different entry requirements.",
-        "ar": "علوم المعامل الطبية والتغذية العلاجية والتكنولوجيا الحيوية مسارات علمية قريبة بشروط قبول مختلفة."
+        "ar": "علوم المعامل الطبية والتغذية العلاجية والتكنولوجيا الحيوية طرق علمية قريبة بشروط قبول مختلفة."
       }
     ],
     "licensing": {
@@ -245,7 +245,7 @@
     ],
     "freelanceRemote": {
       "en": "Dispensing must be done in person in a licensed pharmacy. Some pharmacists do part-time shifts across pharmacies, write medical content, or consult for companies on registration and quality.",
-      "ar": "صرف الدواء يتم حضوريًا في صيدلية مرخصة. يعمل بعض الصيادلة بنظام الورديات في صيدليات متعددة، أو يكتبون محتوى طبيًا، أو يقدمون استشارات للشركات في التسجيل والجودة."
+      "ar": "صرف الدوا لازم يتعمل بنفسك في صيدلية مرخصة. فيه صيادلة بيشتغلوا شيفتات في كذا صيدلية، أو بيكتبوا محتوى طبي، أو بيعملوا استشارات للشركات في التسجيل والجودة."
     },
     "regions": [
       {
@@ -265,66 +265,66 @@
   },
   "global": {
     "en": "Egyptian pharmacists work in the Gulf after passing local licensing exams, and some move to Europe, Canada or the US, which require further exams. Clinical pharmacy training and English strengthen your options abroad.",
-    "ar": "يعمل الصيادلة المصريون في الخليج بعد اجتياز امتحانات الترخيص المحلية، وينتقل بعضهم إلى أوروبا وكندا وأمريكا حيث تلزم امتحانات إضافية. التدريب في الصيدلة الإكلينيكية والإنجليزية الجيدة يقويان فرصك في الخارج."
+    "ar": "الصيادلة المصريين بيشتغلوا في الخليج بعد ما ينجحوا في امتحانات الترخيص هناك، وفيه اللي بيسافروا أوروبا أو كندا أو أمريكا، ودول محتاجين امتحانات زيادة. التدريب في الصيدلة الإكلينيكية والإنجليزي الكويس بيقوّوا فرصك برّه."
   },
   "reality": {
     "pros": [
       {
         "en": "Many career directions: community, hospital, industry, regulation, sales",
-        "ar": "اتجاهات مهنية كثيرة: الصيدليات والمستشفيات والصناعة والرقابة والمبيعات"
+        "ar": "اتجاهات كتير: الصيدليات والمستشفيات والصناعة والرقابة والمبيعات"
       },
       {
         "en": "Easier to get started than some health careers, and you can own a pharmacy",
-        "ar": "بداية أسهل من بعض المهن الصحية، ويمكنك امتلاك صيدلية"
+        "ar": "البداية أسهل من مهن صحية تانية، وتقدر تملك صيدلية"
       },
       {
         "en": "Respected expertise that people rely on daily",
-        "ar": "خبرة محترمة يعتمد عليها الناس يوميًا"
+        "ar": "خبرة محترمة الناس معتمدة عليها كل يوم"
       }
     ],
     "challenges": [
       {
         "en": "Changing rules for training and licensing add uncertainty for new graduates",
-        "ar": "تغيّر قواعد التدريب والترخيص يضيف عدم يقين للخريجين الجدد"
+        "ar": "تغيير قواعد التدريب والترخيص بيخلّي الصورة مش واضحة للخريجين الجداد"
       },
       {
         "en": "Pay in community pharmacies can be modest and shifts long",
-        "ar": "الأجر في الصيدليات العامة قد يكون متواضعًا والورديات طويلة"
+        "ar": "المرتب في الصيدليات ممكن يبقى متواضع والشيفتات طويلة"
       },
       {
         "en": "Competition from many graduates and from pharmacy chains",
-        "ar": "منافسة من كثرة الخريجين وسلاسل الصيدليات"
+        "ar": "منافسة من خريجين كتير ومن سلاسل الصيدليات"
       },
       {
         "en": "Responsibility: dispensing errors can have serious consequences",
-        "ar": "مسؤولية كبيرة: أخطاء الصرف قد تكون لها عواقب جسيمة"
+        "ar": "مسؤولية كبيرة: غلطة في الصرف ممكن تبقى عواقبها خطيرة"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "A pharmacist only counts tablets and sells medicine.",
-          "ar": "الصيدلي يعد الأقراص ويبيع الدواء فقط."
+          "ar": "الصيدلي بيعد البرشام ويبيع الدوا وبس."
         },
         "fact": {
           "en": "Pharmacists check safety, prevent harmful interactions, advise patients, and work in factories, hospitals and regulation too.",
-          "ar": "الصيدلي يراجع السلامة ويمنع التداخلات الضارة وينصح المرضى ويعمل أيضًا في المصانع والمستشفيات والرقابة."
+          "ar": "الصيدلي بيراجع السلامة، ويمنع التداخلات الضارة، وينصح المرضى، وكمان بيشتغل في المصانع والمستشفيات والرقابة."
         }
       },
       {
         "myth": {
           "en": "Pharmacy is easy compared to medicine.",
-          "ar": "الصيدلة سهلة مقارنة بالطب."
+          "ar": "الصيدلة سهلة جنب الطب."
         },
         "fact": {
           "en": "It is a demanding science degree with chemistry, pharmacology and many exams, and the Tansik minimum is high.",
-          "ar": "هي دراسة علمية صعبة فيها كيمياء وعلم أدوية وامتحانات كثيرة، والحد الأدنى للتنسيق مرتفع."
+          "ar": "دي دراسة علمية صعبة فيها كيميا وعلم أدوية وامتحانات كتير، والحد الأدنى في التنسيق عالي."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Reasonable if you work set shifts, though community pharmacies often run long hours including evenings and weekends. Industry jobs usually follow office or factory hours.",
-      "ar": "معقولة إذا عملت بورديات ثابتة، لكن الصيدليات العامة تعمل غالبًا ساعات طويلة تشمل المساء والعطلات. وظائف الصناعة تتبع عادة مواعيد المكاتب أو المصانع."
+      "ar": "معقول لو بتشتغل بشيفتات ثابتة، بس الصيدليات غالبًا شغالة ساعات طويلة فيها بالليل والإجازات. وشغل الصناعة غالبًا بمواعيد مكاتب أو مصانع."
     }
   },
   "progression": {

@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You help young people learn, and you can change how they see themselves.",
-      "ar": "تساعد الشباب على التعلم، وقد تغيّر نظرتهم لأنفسهم."
+      "ar": "بتساعد الشباب يتعلموا، وممكن تغيّر نظرتهم لنفسهم."
     },
     "summary": {
       "en": "Teachers plan lessons, explain subjects, assess students and support their growth. Egypt has a reported teacher shortage and large school cohorts, so there is steady demand, especially for maths, science, English and technical subjects. Pay in public schools is modest, which is a real challenge, and many teachers also give private lessons or work in private and international schools.",
-      "ar": "المعلم يخطط الدروس ويشرح المواد ويقيّم الطلاب ويدعم نموهم. في مصر عجز مُعلن في المعلمين وأعداد كبيرة من تلاميذ المدارس، فالطلب مستمر خاصة في الرياضيات والعلوم والإنجليزية والمواد الفنية. الأجر في المدارس الحكومية متواضع وهذا تحدٍّ حقيقي، ويعطي كثير من المعلمين دروسًا خصوصية أو يعملون في المدارس الخاصة والدولية."
+      "ar": "المدرّس بيخطط الدروس، ويشرح المواد، ويقيّم الطلبة، ويدعم نموهم. مصر فيها عجز معلن في المدرسين وأعداد طلبة كبيرة، فالطلب مستمر، خصوصًا في الرياضيات والعلوم والإنجليزي والمواد الفنية. المرتب في المدارس الحكومية متواضع وده تحدي حقيقي، ومدرسين كتير بيدّوا دروس خصوصية أو بيشتغلوا في المدارس الخاصة والدولية."
     },
     "dayInLife": {
       "en": "You arrive before the bell and check your plan for the day. In the first class you explain fractions with real examples from the school canteen. You notice that one student is quiet and struggling, so you speak to him after the lesson and find out he needs glasses. Between classes you mark homework and talk to a parent. In the afternoon you attend a short meeting about exam dates. At home you spend an hour preparing tomorrow's activity, because a good lesson needs preparation.",
-      "ar": "تصل قبل الجرس وتراجع خطة يومك. في الحصة الأولى تشرح الكسور بأمثلة من كافتيريا المدرسة. تلاحظ أن طالبًا هادئًا ويواجه صعوبة، فتتحدث معه بعد الحصة وتعرف أنه يحتاج نظارة. بين الحصص تصحح الواجبات وتتحدث مع ولي أمر. بعد الظهر تحضر اجتماعًا قصيرًا عن مواعيد الامتحانات. وفي البيت تقضي ساعة في تحضير نشاط الغد لأن الحصة الجيدة تحتاج تحضيرًا."
+      "ar": "بتوصل قبل الجرس وتراجع خطة يومك. في أول حصة تشرح الكسور بأمثلة من كافيتريا المدرسة. تلاحظ إن فيه طالب ساكت وبيتعب، فتكلّمه بعد الحصة وتعرف إنه محتاج نضارة. بين الحصص تصحح الواجبات وتتكلم مع ولي أمر. بعد الضهر تحضر اجتماع قصير عن مواعيد الامتحانات. وفي البيت تقضي ساعة تحضّر نشاط بكرة، لأن الحصة الحلوة محتاجة تحضير."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan lessons that match the curriculum and the level of your students.",
-        "ar": "تخطط دروسًا تناسب المنهج ومستوى طلابك."
+        "ar": "بتخطط دروس تناسب المنهج ومستوى طلبتك."
       },
       {
         "en": "Explain ideas clearly and use examples, activities and technology.",
-        "ar": "تشرح الأفكار بوضوح وتستخدم الأمثلة والأنشطة والتكنولوجيا."
+        "ar": "بتشرح الأفكار بوضوح وتستخدم أمثلة وأنشطة وتكنولوجيا."
       },
       {
         "en": "Set and mark homework and exams, and give feedback.",
-        "ar": "تضع الواجبات والامتحانات وتصححها وتعطي ملاحظات."
+        "ar": "بتحط الواجبات والامتحانات وتصححها وتدّي ملاحظات."
       },
       {
         "en": "Manage the classroom and support students who struggle or are shy.",
-        "ar": "تدير الفصل وتدعم الطلاب المتعثرين أو الخجولين."
+        "ar": "بتدير الفصل وتدعم الطلبة اللي بيتعبوا أو المكسوفين."
       },
       {
         "en": "Talk with parents and work with the school counsellor.",
-        "ar": "تتحدث مع أولياء الأمور وتتعاون مع الأخصائي الاجتماعي أو المرشد."
+        "ar": "بتتكلم مع أولياء الأمور وتشتغل مع الأخصائي الاجتماعي أو المرشد."
       },
       {
         "en": "Keep learning new methods and subject knowledge.",
-        "ar": "تواصل تعلم أساليب جديدة ومعرفة أعمق بمادتك."
+        "ar": "بتفضل تتعلم طرق جديدة وتعمّق معرفتك بمادتك."
       }
     ],
     "environments": [
@@ -115,15 +115,15 @@
     "alternativeRoutes": [
       {
         "en": "Degree in your subject plus an education diploma or the teacher qualification programs of the Ministry.",
-        "ar": "شهادة في مادتك مع دبلوم تربوي أو برامج تأهيل المعلمين التابعة للوزارة."
+        "ar": "شهادة في مادتك ومعاها دبلوم تربوي أو برامج تأهيل المدرسين بتاعة الوزارة."
       },
       {
         "en": "Teaching English or other languages with certificates such as CELTA or TEFL, in language centres and private schools.",
-        "ar": "تدريس الإنجليزية أو لغات أخرى بشهادات مثل CELTA أو TEFL في مراكز اللغات والمدارس الخاصة."
+        "ar": "تدريس الإنجليزي أو لغات تانية بشهادات زي CELTA أو TEFL في مراكز اللغات والمدارس الخاصة."
       },
       {
         "en": "Teaching assistant roles and training centres, then a formal qualification.",
-        "ar": "العمل مساعد معلم أو في مراكز التدريب ثم الحصول على مؤهل رسمي."
+        "ar": "تشتغل مساعد مدرس أو في مراكز تدريب، وبعدين تاخد مؤهل رسمي."
       }
     ],
     "licensing": {
@@ -273,7 +273,7 @@
     ],
     "freelanceRemote": {
       "en": "Online teaching and tutoring are growing, including teaching Arabic and school subjects to students abroad. Private lessons are a large, mostly informal market. Egypt reported appointing a record 43,000 teachers ahead of the 2026 school year and a large teacher deficit, but public pay and budgets limit hiring speed.",
-      "ar": "التدريس عبر الإنترنت والدروس الخصوصية في نمو، ومنها تدريس العربية والمواد الدراسية لطلاب في الخارج. الدروس الخصوصية سوق كبير غير رسمي في معظمه. أُعلن تعيين رقم قياسي بلغ 43 ألف معلم قبل العام الدراسي 2026 مع عجز كبير في المعلمين، لكن الأجور والميزانيات الحكومية تحد من سرعة التوظيف."
+      "ar": "التدريس أونلاين والدروس الخصوصية بيكبروا، ومنهم تدريس العربي والمواد الدراسية لطلبة برّه. والدروس الخصوصية سوق كبير وأغلبه غير رسمي. اتعلن تعيين رقم قياسي 43 ألف مدرس قبل سنة 2026 الدراسية مع عجز كبير في المدرسين، بس المرتبات والميزانيات الحكومية بتبطّأ التعيين."
     },
     "regions": [
       {
@@ -294,17 +294,17 @@
   },
   "global": {
     "en": "Gulf countries have long recruited Egyptian teachers, and international schools hire teachers with English and international qualifications. Online teaching can serve students anywhere. Salaries and contracts abroad vary, so check them carefully.",
-    "ar": "ظلت دول الخليج تستقطب المعلمين المصريين، وتوظف المدارس الدولية معلمين بالإنجليزية ومؤهلات دولية. يمكن للتدريس عبر الإنترنت أن يخدم طلابًا في أي مكان. تتفاوت الرواتب والعقود في الخارج فافحصها بعناية."
+    "ar": "دول الخليج من زمان بتعيّن مدرسين مصريين، والمدارس الدولية بتعيّن مدرسين بالإنجليزي ومؤهلات دولية. والتدريس أونلاين ممكن يخدم طلبة في أي حتة. المرتبات والعقود برّه بتختلف، فافحصها كويس."
   },
   "reality": {
     "pros": [
       {
         "en": "Meaningful work that shapes young people",
-        "ar": "عمل ذو معنى يشكّل الشباب"
+        "ar": "شغل ليه معنى بيشكّل الشباب"
       },
       {
         "en": "Steady demand and many school types",
-        "ar": "طلب مستمر وأنواع كثيرة من المدارس"
+        "ar": "طلب مستمر وأنواع مدارس كتير"
       },
       {
         "en": "Holidays and a clear daily rhythm",
@@ -314,11 +314,11 @@
     "challenges": [
       {
         "en": "Public school pay is modest and classes can be crowded",
-        "ar": "راتب المدارس الحكومية متواضع والفصول قد تكون مزدحمة"
+        "ar": "مرتب المدارس الحكومية متواضع والفصول ممكن تبقى زحمة"
       },
       {
         "en": "Heavy workload outside lesson time, such as preparing and marking",
-        "ar": "عبء عمل كبير خارج الحصص مثل التحضير والتصحيح"
+        "ar": "شغل كتير برّه الحصص، زي التحضير والتصحيح"
       },
       {
         "en": "Pressure from exams and from parents",
@@ -329,37 +329,37 @@
       {
         "myth": {
           "en": "Teaching is easy and has short hours.",
-          "ar": "التدريس سهل وساعاته قصيرة."
+          "ar": "التدريس سهل ومواعيده قصيرة."
         },
         "fact": {
           "en": "Lessons are only part of the day. Preparing, marking and caring for students takes a lot of extra time.",
-          "ar": "الحصص جزء من اليوم فقط. التحضير والتصحيح ورعاية الطلاب يأخذ وقتًا إضافيًا كبيرًا."
+          "ar": "الحصص جزء من اليوم بس. التحضير والتصحيح والاهتمام بالطلبة بياخدوا وقت زيادة كبير."
         }
       },
       {
         "myth": {
           "en": "Only people who failed to get into other faculties become teachers.",
-          "ar": "المعلمون هم من لم يدخلوا كليات أخرى."
+          "ar": "المدرسين هما اللي ما دخلوش كليات تانية."
         },
         "fact": {
           "en": "Good teachers choose the job because they like explaining and helping. Great teachers make a big difference.",
-          "ar": "المعلمون الجيدون يختارون المهنة لأنهم يحبون الشرح والمساعدة. والمعلم الممتاز يصنع فرقًا كبيرًا."
+          "ar": "المدرسين الكويسين بيختاروا المهنة عشان بيحبوا يشرحوا ويساعدوا. والمدرس الممتاز بيفرق جامد."
         }
       },
       {
         "myth": {
           "en": "AI will replace teachers.",
-          "ar": "الذكاء الاصطناعي سيحل محل المعلمين."
+          "ar": "الذكاء الاصطناعي هياخد مكان المدرسين."
         },
         "fact": {
           "en": "AI helps with planning and practice, but children need a person who knows and encourages them.",
-          "ar": "الذكاء الاصطناعي يساعد في التخطيط والتدريب، لكن الأطفال يحتاجون شخصًا يعرفهم ويشجعهم."
+          "ar": "الذكاء الاصطناعي بيساعد في التخطيط والتمرين، بس الأطفال محتاجين بني آدم يعرفهم ويشجعهم."
         }
       }
     ],
     "workLifeBalance": {
       "en": "School hours are regular and there are long holidays, but evenings go to preparation and marking, and many teachers add private lessons.",
-      "ar": "ساعات المدرسة منتظمة والإجازات طويلة، لكن المساء يذهب للتحضير والتصحيح، ويضيف كثير من المعلمين دروسًا خصوصية."
+      "ar": "مواعيد المدرسة منتظمة والإجازات طويلة، بس الليل بيروح في التحضير والتصحيح، ومدرسين كتير بيضيفوا دروس خصوصية."
     }
   },
   "progression": {

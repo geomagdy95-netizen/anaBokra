@@ -7,46 +7,46 @@
   "snapshot": {
     "hook": {
       "en": "You fix teeth and relieve pain, with hands as steady as a craftsperson and a patient manner.",
-      "ar": "تعالج الأسنان وتخفف الألم بيد ثابتة كيد الحِرَفي وبأسلوب صبور مع المرضى."
+      "ar": "بتعالج السنان وبتريّح الوجع، بإيد ثابتة زي الصنايعي وطولة بال مع المرضى."
     },
     "summary": {
       "en": "Dentists prevent and treat problems of the teeth, gums and mouth. In Egypt you study five years, do a compulsory internship year, then register with the syndicate. Many dentists run their own clinic, so you also become a small-business owner.",
-      "ar": "طبيب الأسنان يمنع مشكلات الأسنان واللثة والفم ويعالجها. في مصر تدرس خمس سنوات ثم تقضي سنة امتياز إجبارية وتسجّل في النقابة. كثير من الأطباء يديرون عيادتهم الخاصة، فتصبح أيضًا صاحب مشروع صغير."
+      "ar": "دكتور السنان بيمنع مشاكل السنان واللثة والبق وبيعالجها. في مصر بتدرس خمس سنين، وبعدين سنة امتياز إجبارية، وبعدين تتسجّل في النقابة. دكاترة كتير بيديروا عيادتهم الخاصة، فبتبقى كمان صاحب مشروع صغير."
     },
     "dayInLife": {
       "en": "You start your clinic at 10 a.m. with a child who is scared of the chair, so you show the tools first and speak slowly. Next you clean and fill a cavity, checking the X-ray on the screen. At noon you plan a crown for another patient and send the details to the dental lab. In the afternoon you explain to an older patient how to look after new dentures. Between patients you sterilize instruments and answer messages from your assistant about bookings. You finish at 8 p.m., a little tired in the back and shoulders, with a good feeling that people left without pain.",
-      "ar": "تفتح العيادة في العاشرة صباحًا باستقبال طفل يخاف من الكرسي، فتُريه الأدوات أولًا وتتحدث ببطء. بعدها تنظف سنًا وتحشو تسوسًا وأنت تراجع صورة الأشعة على الشاشة. عند الظهر تخطط لتركيبة لمريض آخر وترسل تفاصيلها لمعمل الأسنان. بعد العصر تشرح لمريض كبير في السن كيف يعتني بطقم أسنانه الجديد. وبين المرضى تعقّم الأدوات وترد على رسائل المساعد بشأن المواعيد. تنتهي في الثامنة مساءً بتعب خفيف في الظهر والكتفين، ومعك شعور طيب لأن الناس خرجوا بلا ألم."
+      "ar": "بتفتح العيادة الساعة 10 الصبح بطفل خايف من الكرسي، فتوريه الأدوات الأول وتتكلم بالراحة. بعده تنضّف سنة وتحشي تسوّس وإنت بتراجع الأشعة على الشاشة. الضهر تخطط لطربوش لمريض تاني وتبعت تفاصيله لمعمل السنان. بعد العصر تشرح لمريض كبير في السن يحافظ إزاي على طقم سنانه الجديد. وبين المرضى تعقّم الأدوات وترد على رسايل المساعد عن المواعيد. تخلّص الساعة 8 بالليل بشوية تعب في ضهرك وكتافك، وإحساس حلو إن الناس خرجت من غير وجع."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Examine teeth and gums and read dental X-rays to find problems early.",
-        "ar": "تفحص الأسنان واللثة وتقرأ أشعة الأسنان لاكتشاف المشكلات مبكرًا."
+        "ar": "بتكشف على السنان واللثة وتقرا أشعة السنان عشان تلاقي المشاكل بدري."
       },
       {
         "en": "Remove decay, fill cavities and perform root canal treatment.",
-        "ar": "تزيل التسوس وتحشو الأسنان وتعالج العصب."
+        "ar": "بتشيل التسوّس وتحشي السنان وتعالج العصب."
       },
       {
         "en": "Give local anesthesia and manage pain and anxiety.",
-        "ar": "تعطي البنج الموضعي وتتحكم في الألم والخوف."
+        "ar": "بتدّي بنج موضعي وتتحكم في الوجع والخوف."
       },
       {
         "en": "Make and fit crowns, bridges, dentures and implants, often with a dental lab.",
-        "ar": "تصنع وتركّب التيجان والجسور وأطقم الأسنان والزرعات، غالبًا بالتعاون مع معمل أسنان."
+        "ar": "بتعمل وتركّب الطرابيش والكباري وأطقم السنان والزرعات، وغالبًا مع معمل سنان."
       },
       {
         "en": "Treat gum disease and extract teeth when needed.",
-        "ar": "تعالج أمراض اللثة وتخلع الأسنان عند الحاجة."
+        "ar": "بتعالج أمراض اللثة وتخلع السنان لما يكون لازم."
       },
       {
         "en": "Teach patients and parents how to prevent decay.",
-        "ar": "ترشد المرضى وأولياء الأمور إلى كيفية الوقاية من التسوس."
+        "ar": "بتعلّم المرضى والأهالي إزاي يمنعوا التسوّس."
       },
       {
         "en": "Follow infection control rules and keep patient records.",
-        "ar": "تلتزم بقواعد مكافحة العدوى وتحتفظ بسجلات المرضى."
+        "ar": "بتلتزم بقواعد مكافحة العدوى وتحتفظ بسجلات المرضى."
       }
     ],
     "environments": [
@@ -122,11 +122,11 @@
     "alternativeRoutes": [
       {
         "en": "Dental technology and dental assistant diplomas let you work in dentistry with a shorter path, but they are not the same as being a dentist.",
-        "ar": "دبلومات فني الأسنان ومساعد طبيب الأسنان تتيح العمل في المجال بمسار أقصر، لكنها لا تساوي أن تكون طبيب أسنان."
+        "ar": "دبلومات فني الأسنان ومساعد دكتور الأسنان بتخليك تشتغل في المجال بطريق أقصر، بس مش زي إنك تبقى دكتور سنان."
       },
       {
         "en": "Pharmacy, physical therapy and medicine are nearby health options if your marks or interests change.",
-        "ar": "الصيدلة والعلاج الطبيعي والطب خيارات صحية قريبة إذا تغيّر مجموعك أو اهتمامك."
+        "ar": "الصيدلة والعلاج الطبيعي والطب اختيارات صحية قريبة لو مجموعك أو اهتمامك اتغيّر."
       }
     ],
     "licensing": {
@@ -253,7 +253,7 @@
     ],
     "freelanceRemote": {
       "en": "Dentistry cannot be done remotely, but many dentists work as independent practitioners, sharing clinics or working part-time across several centers.",
-      "ar": "لا يمكن ممارسة طب الأسنان عن بعد، لكن كثيرًا من الأطباء يعملون بشكل مستقل، فيشاركون العيادات أو يعملون بدوام جزئي في عدة مراكز."
+      "ar": "طب الأسنان ما ينفعش من البيت، بس دكاترة كتير بيشتغلوا لحسابهم: بيشاركوا في عيادات أو بيشتغلوا بارت تايم في كذا مركز."
     },
     "regions": [
       {
@@ -273,70 +273,70 @@
   },
   "global": {
     "en": "Egyptian dentists can work in the Gulf after passing local licensing exams (for example in Saudi Arabia or the UAE), and some move to the UK, Canada or the US, which usually need extra exams and sometimes extra years of study. Check each country's regulator before planning; requirements are strict and change.",
-    "ar": "يعمل أطباء الأسنان المصريون في الخليج بعد اجتياز امتحانات الترخيص المحلية (مثل السعودية والإمارات)، وينتقل بعضهم إلى بريطانيا وكندا وأمريكا حيث تلزم عادة امتحانات إضافية وأحيانًا سنوات دراسة إضافية. راجع الجهة المنظمة في كل دولة قبل التخطيط لأن الشروط صارمة وتتغير."
+    "ar": "دكاترة السنان المصريين يقدروا يشتغلوا في الخليج بعد ما ينجحوا في امتحانات الترخيص المحلية (زي السعودية أو الإمارات)، وفيه اللي بيسافروا بريطانيا أو كندا أو أمريكا، ودول غالبًا محتاجين امتحانات زيادة وأحيانًا سنين دراسة زيادة. راجع الجهة المنظِّمة في كل بلد قبل ما تخطط؛ الشروط صارمة وبتتغير."
   },
   "reality": {
     "pros": [
       {
         "en": "You can open your own clinic and be your own boss",
-        "ar": "يمكنك فتح عيادتك الخاصة وتكون مديرًا لنفسك"
+        "ar": "تقدر تفتح عيادتك وتبقى مدير نفسك"
       },
       {
         "en": "Shorter than medicine, with a clear skill you can see and feel",
-        "ar": "أقصر من الطب، ومهارة واضحة تراها وتشعر بنتيجتها"
+        "ar": "أقصر من الطب، ومهارة واضحة بتشوف وتحس نتيجتها"
       },
       {
         "en": "Regular hours compared to hospital medicine",
-        "ar": "مواعيد أكثر انتظامًا مقارنة بطب المستشفيات"
+        "ar": "مواعيد أنتظم من شغل المستشفيات"
       },
       {
         "en": "Room to specialize in cosmetic, children's, implant or orthodontic care",
-        "ar": "مساحة للتخصص في التجميل أو الأطفال أو الزرعات أو التقويم"
+        "ar": "مساحة تتخصص في التجميل أو الأطفال أو الزرعات أو التقويم"
       }
     ],
     "challenges": [
       {
         "en": "Setting up a clinic needs a lot of money for equipment",
-        "ar": "تجهيز العيادة يحتاج مبلغًا كبيرًا للأجهزة"
+        "ar": "تجهيز العيادة محتاج فلوس كتير للأجهزة"
       },
       {
         "en": "Many graduates each year means competition in big cities",
-        "ar": "كثرة الخريجين كل سنة تعني منافسة في المدن الكبرى"
+        "ar": "خريجين كتير كل سنة، يعني منافسة في المدن الكبيرة"
       },
       {
         "en": "Physical strain on the back, neck and eyes",
-        "ar": "إجهاد جسدي للظهر والرقبة والعين"
+        "ar": "تعب جسدي في الضهر والرقبة والعين"
       },
       {
         "en": "Patients who are afraid of dentists can be demanding",
-        "ar": "مرضى يخافون من طبيب الأسنان قد يكونون صعبي التعامل"
+        "ar": "المرضى اللي خايفين من دكتور السنان ممكن يبقى التعامل معاهم صعب"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Dentistry is only for people who could not get into medicine.",
-          "ar": "طب الأسنان لمن لم يلتحق بالطب."
+          "ar": "طب الأسنان للي ما دخلوش طب."
         },
         "fact": {
           "en": "It is a separate profession with its own skills, specialties and a high Tansik minimum.",
-          "ar": "مهنة مستقلة لها مهاراتها وتخصصاتها وحدها الأدنى مرتفع في التنسيق."
+          "ar": "دي مهنة مستقلة ليها مهاراتها وتخصصاتها، وحدها الأدنى في التنسيق عالي."
         }
       },
       {
         "myth": {
           "en": "Every dentist earns a lot immediately.",
-          "ar": "كل طبيب أسنان يكسب كثيرًا فورًا."
+          "ar": "أي دكتور سنان بيكسب كتير من أول يوم."
         },
         "fact": {
           "en": "Building a patient base takes time, and the cost of equipment is high at the start.",
-          "ar": "بناء قاعدة مرضى يحتاج وقتًا وتكلفة الأجهزة مرتفعة في البداية."
+          "ar": "بناء قاعدة مرضى بياخد وقت، وتكلفة الأجهزة عالية في الأول."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Better than hospital medicine: clinic hours are usually fixed and emergencies are fewer. As a clinic owner you also handle accounts, staff and marketing, which can stretch your day.",
-      "ar": "أفضل من طب المستشفيات: ساعات العيادة ثابتة غالبًا والطوارئ أقل. وكصاحب عيادة ستتولى أيضًا الحسابات والفريق والتسويق، وقد يطول يومك."
+      "ar": "أحسن من شغل المستشفيات: مواعيد العيادة غالبًا ثابتة والطوارئ أقل. وكصاحب عيادة هتشيل كمان الحسابات والفريق والتسويق، وده ممكن يطوّل يومك."
     }
   },
   "progression": {

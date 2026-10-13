@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You spot a problem, build something to fix it and make a business out of it.",
-      "ar": "ترى مشكلة وتبني شيئًا يحلها وتصنع منه مشروعًا."
+      "ar": "بتشوف مشكلة، وتبني حاجة تحلّها، وتعمل منها مشروع."
     },
     "summary": {
       "en": "Entrepreneurs start and run businesses, from a small shop to a technology startup. They find customers, raise money, build a team and keep going when things go wrong. There is no required degree and no guaranteed salary, so this path rewards learning fast and taking careful risks.",
-      "ar": "رائد الأعمال يؤسس مشروعًا ويديره، من محل صغير إلى شركة تكنولوجيا ناشئة. يبحث عن العملاء ويدبّر التمويل ويبني فريقًا ويستمر حين تسوء الأمور. لا توجد شهادة مطلوبة ولا راتب مضمون، فهذا الطريق يكافئ من يتعلم بسرعة ويخاطر بحساب."
+      "ar": "رائد الأعمال بيأسس مشروع ويديره، من محل صغير لشركة تكنولوجيا ناشئة. بيدوّر على عملاء، ويدبّر تمويل، ويبني فريق، ويكمّل لما الدنيا تبوظ. مفيش شهادة مطلوبة ولا مرتب مضمون، فالطريق ده بيكافئ اللي بيتعلم بسرعة وبيخاطر بحساب."
     },
     "dayInLife": {
       "en": "You wake up and check last night's orders and messages from customers. A delivery is late, so you call the courier and apologise to the client. At noon you meet a possible investor and explain your numbers, and you are asked a hard question you cannot answer, so you note it to research. In the afternoon you work with your small team on a new product idea and test it with five customers. In the evening you do the accounts yourself because there is no one else yet. Some weeks go very well, others do not, and you learn from both.",
-      "ar": "تصحو وتراجع طلبات الليلة الماضية ورسائل العملاء. شحنة تأخرت، فتتصل بشركة التوصيل وتعتذر للعميل. في الظهر تقابل مستثمرًا محتملًا وتشرح له أرقامك، ويسألك سؤالًا صعبًا لا تعرف إجابته فتدوّنه لتبحث عنه. بعد الظهر تعمل مع فريقك الصغير على فكرة منتج جديد وتجرّبها مع خمسة عملاء. في المساء تراجع الحسابات بنفسك لأنه لا يوجد أحد غيرك بعد. بعض الأسابيع تسير جيدًا وبعضها لا، وتتعلم من الاثنين."
+      "ar": "بتصحى وتراجع أوردرات امبارح ورسايل العملاء. شحنة اتأخرت، فتكلّم شركة الشحن وتعتذر للعميل. الضهر تقابل مستثمر محتمل وتشرح له أرقامك، ويسألك سؤال صعب مش عارف إجابته، فتكتبه عشان تدوّر عليه. بعد الضهر تشتغل مع فريقك الصغير على فكرة منتج جديد وتجرّبوها مع خمس عملاء. وبالليل تراجع الحسابات بنفسك لأن لسه مفيش حد غيرك. فيه أسابيع بتمشي حلو وأسابيع لأ، وبتتعلم من الاتنين."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Find a real customer problem and test your idea cheaply before spending a lot.",
-        "ar": "تبحث عن مشكلة حقيقية عند العملاء وتجرّب فكرتك بتكلفة قليلة قبل أن تنفق كثيرًا."
+        "ar": "بتدوّر على مشكلة حقيقية عند العملاء وتجرّب فكرتك بتكلفة قليلة قبل ما تصرف كتير."
       },
       {
         "en": "Make or choose the product or service and decide its price.",
-        "ar": "تصنع المنتج أو الخدمة أو تختارها وتحدد سعرها."
+        "ar": "بتعمل المنتج أو الخدمة أو تختارها وتحدد سعرها."
       },
       {
         "en": "Sell, market and talk to customers every week.",
-        "ar": "تبيع وتسوّق وتتحدث مع العملاء كل أسبوع."
+        "ar": "بتبيع وتسوّق وتتكلم مع العملاء كل أسبوع."
       },
       {
         "en": "Manage cash, costs, taxes and legal registration.",
-        "ar": "تدير السيولة والتكاليف والضرائب والتسجيل القانوني."
+        "ar": "بتدير الكاش والتكاليف والضرائب والتسجيل القانوني."
       },
       {
         "en": "Hire, train and lead a team, and also do many tasks yourself at the start.",
-        "ar": "تُوظّف وتدرّب وتقود فريقًا، وتؤدي بنفسك مهامّ كثيرة في البداية."
+        "ar": "بتعيّن وتدرّب وتقود فريق، وكمان بتعمل حاجات كتير بنفسك في الأول."
       },
       {
         "en": "Look for money from savings, family, grants, competitions or investors.",
-        "ar": "تبحث عن تمويل من المدخرات أو الأسرة أو المنح أو المسابقات أو المستثمرين."
+        "ar": "بتدوّر على فلوس من تحويشك أو العيلة أو المنح أو المسابقات أو المستثمرين."
       }
     ],
     "environments": [
@@ -119,15 +119,15 @@
     "alternativeRoutes": [
       {
         "en": "Start small while you study: sell a product, offer a service or run a school project and learn from real customers.",
-        "ar": "ابدأ صغيرًا وأنت تدرس: بِع منتجًا أو قدّم خدمة أو أدر مشروعًا مدرسيًا وتعلّم من عملاء حقيقيين."
+        "ar": "ابدأ صغير وإنت بتدرس: بيع منتج، أو قدّم خدمة، أو اعمل مشروع مع زمايلك، واتعلم من عملاء حقيقيين."
       },
       {
         "en": "Join incubators and accelerators such as Flat6Labs or the Technology Innovation and Entrepreneurship Center (TIEC) once you are old enough and have a team.",
-        "ar": "انضم لحاضنات ومسرّعات مثل Flat6Labs أو مركز تنمية الابتكار وريادة الأعمال التكنولوجي (TIEC) حين تكبر ويكون لديك فريق."
+        "ar": "انضم لحاضنات ومسرّعات زي Flat6Labs أو مركز الإبداع التكنولوجي وريادة الأعمال (TIEC) لما يبقى عندك فريق."
       },
       {
         "en": "Work a few years in a startup or a family business to learn how real companies run.",
-        "ar": "اعمل بضع سنوات في شركة ناشئة أو مشروع عائلي لتتعلم كيف تعمل الشركات الحقيقية."
+        "ar": "اشتغل كام سنة في شركة ناشئة أو بيزنس عيلة عشان تتعلم الشركات الحقيقية بتشتغل إزاي."
       }
     ],
     "licensing": {
@@ -229,6 +229,10 @@
   },
   "marketEgypt": {
     "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "No reliable salary figure exists. Entrepreneurs have no fixed pay: income depends on the business and can be zero in the first months or years. Paylab has no entrepreneur title, so no number is given here.",
+      "ar": "لا يوجد رقم موثوق للراتب. رائد الأعمال ليس له أجر ثابت: دخله يعتمد على المشروع وقد يكون صفرًا في الشهور أو السنوات الأولى. لا يوجد مسمى رائد أعمال في Paylab، لذلك لا نذكر رقمًا."
+    },
     "demand": "medium",
     "employers": [
       {
@@ -249,8 +253,8 @@
       }
     ],
     "freelanceRemote": {
-      "en": "Salary: No reliable salary figure exists. Entrepreneurs have no fixed pay: income depends on the business and can be zero in the first months or years. Paylab has no entrepreneur title, so no number is given here. Most entrepreneurs combine online selling, social media and platforms to reach customers beyond their town. Many start part-time with freelance work or a small online shop while keeping other income. Startup funding in Egypt was reported at over USD 595 million in 2025, but only a small share of founders get venture money.",
-      "ar": "الراتب: لا يوجد رقم موثوق للراتب. رائد الأعمال ليس له أجر ثابت: دخله يعتمد على المشروع وقد يكون صفرًا في الشهور أو السنوات الأولى. لا يوجد مسمى رائد أعمال في Paylab، لذلك لا نذكر رقمًا. معظم رواد الأعمال يجمعون بين البيع عبر الإنترنت ووسائل التواصل والمنصات للوصول لعملاء خارج مدينتهم. ويبدأ كثيرون بدوام جزئي بعمل حر أو متجر إلكتروني صغير مع الاحتفاظ بدخل آخر. أُفيد بأن تمويل الشركات الناشئة في مصر تجاوز 595 مليون دولار في 2025، لكن نسبة قليلة من المؤسسين تحصل على تمويل استثماري."
+      "en": "Most entrepreneurs combine online selling, social media and platforms to reach customers beyond their town. Many start part-time with freelance work or a small online shop while keeping other income. Startup funding in Egypt was reported at over USD 595 million in 2025, but only a small share of founders get venture money.",
+      "ar": "أغلب رواد الأعمال بيجمعوا بين البيع أونلاين والسوشيال ميديا والمنصات عشان يوصلوا لعملاء برّه مدينتهم. وكتير بيبدأوا بارت تايم بفري لانس أو متجر أونلاين صغير وهم محتفظين بدخل تاني. اتقال إن تمويل الشركات الناشئة في مصر عدّى 595 مليون دولار في 2025، بس نسبة قليلة من المؤسسين بتاخد تمويل استثماري."
     },
     "regions": [
       {
@@ -272,72 +276,72 @@
   },
   "global": {
     "en": "Egyptian founders sell to the Gulf, Africa and Europe, and some move their company abroad to raise money or reach larger markets. Gulf governments run startup programs, but each has its own rules, so check carefully. Starting in Egypt and growing across the region is a common path.",
-    "ar": "يبيع المؤسسون المصريون في الخليج وأفريقيا وأوروبا، وينقل بعضهم شركته للخارج لجمع التمويل أو الوصول لأسواق أكبر. تدير حكومات خليجية برامج للشركات الناشئة، ولكل منها قواعده، فتحقق منها جيدًا. البدء من مصر ثم التوسع في المنطقة مسار شائع."
+    "ar": "المؤسسين المصريين بيبيعوا في الخليج وأفريقيا وأوروبا، وفيه اللي بينقل شركته برّه عشان يجمع تمويل أو يوصل لأسواق أكبر. حكومات خليجية عندها برامج للشركات الناشئة، وكل واحدة ليها قواعدها، فاتأكد كويس. وإنك تبدأ من مصر وتكبر في المنطقة طريق منتشر."
   },
   "reality": {
     "pros": [
       {
         "en": "You decide what to build and how to work",
-        "ar": "تقرر ماذا تبني وكيف تعمل"
+        "ar": "إنت اللي بتقرر تبني إيه وتشتغل إزاي"
       },
       {
         "en": "You learn many skills quickly",
-        "ar": "تتعلم مهارات كثيرة بسرعة"
+        "ar": "بتتعلم مهارات كتير بسرعة"
       },
       {
         "en": "Possible to create jobs for others and grow your income",
-        "ar": "يمكنك خلق وظائف للآخرين وزيادة دخلك"
+        "ar": "ممكن تفتح باب شغل لغيرك وتكبّر دخلك"
       }
     ],
     "challenges": [
       {
         "en": "Income is uncertain and many new businesses close in the first years",
-        "ar": "الدخل غير مضمون وكثير من المشروعات الجديدة تُغلق في السنوات الأولى"
+        "ar": "الدخل مش مضمون، ومشاريع جديدة كتير بتقفل في أول سنين"
       },
       {
         "en": "You carry financial risk, so start small and protect your savings",
-        "ar": "تتحمل مخاطرة مالية، فابدأ صغيرًا واحمِ مدخراتك"
+        "ar": "إنت شايل المخاطرة المالية، فابدأ صغير واحمي تحويشك"
       },
       {
         "en": "Access to funding, rules and taxes can be confusing",
-        "ar": "الوصول للتمويل والقواعد والضرائب قد يكون محيرًا"
+        "ar": "التمويل والقواعد والضرائب ممكن يلخبطوك"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "You need a lot of money to start.",
-          "ar": "تحتاج مبلغًا كبيرًا لتبدأ."
+          "ar": "محتاج فلوس كتير عشان تبدأ."
         },
         "fact": {
           "en": "Many businesses start with a small test, such as selling online or offering a service before spending on a shop.",
-          "ar": "كثير من المشروعات تبدأ باختبار صغير مثل البيع على الإنترنت أو تقديم خدمة قبل إنفاق مال على محل."
+          "ar": "مشاريع كتير بتبدأ بتجربة صغيرة، زي إنك تبيع أونلاين أو تقدّم خدمة قبل ما تصرف على محل."
         }
       },
       {
         "myth": {
           "en": "Entrepreneurs are born, not made.",
-          "ar": "رائد الأعمال يُولد ولا يُصنع."
+          "ar": "رائد الأعمال بيتولد كده، ما بيتعملش."
         },
         "fact": {
           "en": "Selling, money management and leadership can be learned and practised.",
-          "ar": "البيع وإدارة المال والقيادة مهارات تُتعلم وتُمارس."
+          "ar": "البيع وإدارة الفلوس والقيادة مهارات بتتعلم وبتتمرّن عليها."
         }
       },
       {
         "myth": {
           "en": "Dropping out of school is the way to succeed.",
-          "ar": "ترك الدراسة هو طريق النجاح."
+          "ar": "إنك تسيب الدراسة هو طريق النجاح."
         },
         "fact": {
           "en": "A few famous founders did, but most successful founders studied, worked and learned first. Education gives you options.",
-          "ar": "فعلها قلة من المشهورين، لكن معظم المؤسسين الناجحين درسوا وعملوا وتعلموا أولًا. التعليم يمنحك خيارات."
+          "ar": "كام واحد مشهور عملوها، بس أغلب المؤسسين الناجحين درسوا واشتغلوا واتعلموا الأول. والتعليم بيفتح لك اختيارات."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Often irregular. The first years may mean long hours and mixing work with home life. It improves as the business grows and you hire help.",
-      "ar": "غالبًا غير منتظم. السنوات الأولى قد تعني ساعات طويلة واختلاط العمل بالبيت. يتحسن الوضع مع نمو المشروع وتوظيف مساعدين."
+      "ar": "غالبًا مش منتظم. أول سنين ممكن تبقى ساعات طويلة والشغل داخل في البيت. وبيتحسن لما المشروع يكبر وتجيب ناس تساعدك."
     }
   },
   "progression": {

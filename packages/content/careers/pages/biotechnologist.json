@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You work with living cells to make medicines, food and cleaner industries.",
-      "ar": "تعمل مع الخلايا الحية لصنع الأدوية والغذاء وصناعات أنظف."
+      "ar": "بتشتغل مع الخلايا الحية عشان تعمل أدوية وأكل وصناعات أنضف."
     },
     "summary": {
       "en": "Biologists and biotechnologists study living things and use them to develop vaccines, medicines, diagnostic tests, better crops and food. Egypt plans a large Vaccine City and biotechnology push, and its pharma industry is moving toward biological medicines, so applied roles are growing. Academic research posts are limited and usually need a master's degree or PhD.",
-      "ar": "عالم الأحياء وخبير التقنية الحيوية يدرس الكائنات الحية ويستخدمها لتطوير اللقاحات والأدوية والفحوص التشخيصية ومحاصيل وأغذية أفضل. تخطط مصر لمدينة لقاحات كبيرة ودفعة في التقنية الحيوية، وصناعة الدواء تتجه نحو الأدوية البيولوجية، فالأدوار التطبيقية تنمو. أما وظائف البحث الأكاديمي فمحدودة وتحتاج غالبًا ماجستير أو دكتوراه."
+      "ar": "عالم الأحياء وخبير التكنولوجيا الحيوية بيدرس الكائنات الحية وبيستخدمها عشان يطوّر لقاحات وأدوية وتحاليل تشخيص ومحاصيل وأكل أحسن. مصر بتخطط لمدينة لقاحات كبيرة ودفعة في التكنولوجيا الحيوية، وصناعة الدوا رايحة ناحية الأدوية البيولوجية، فالأدوار التطبيقية بتكبر. أما وظايف البحث في الجامعة فقليلة وغالبًا محتاجة ماجستير أو دكتوراه."
     },
     "dayInLife": {
       "en": "You start by wearing your lab coat and checking the cells you grew last week. You prepare a new sample, measure small amounts of liquid carefully and label every tube. You run a test and wait for the machine to give the data. While waiting you read a scientific paper and write notes in your lab book. After lunch you meet your supervisor to discuss why one result is different. You repeat the test the next day, because science needs repeating and checking.",
-      "ar": "تبدأ بارتداء معطف المعمل وفحص الخلايا التي زرعتها الأسبوع الماضي. تجهز عينة جديدة وتقيس كميات صغيرة من السوائل بدقة وتكتب بطاقة لكل أنبوب. تجري اختبارًا وتنتظر الجهاز ليعطي البيانات. وأثناء الانتظار تقرأ بحثًا علميًا وتدوّن ملاحظات في دفتر المعمل. بعد الغداء تقابل المشرف لمناقشة سبب اختلاف نتيجة واحدة. وتعيد الاختبار في اليوم التالي لأن العلم يحتاج تكرارًا وتحققًا."
+      "ar": "بتبدأ يومك بالبالطو وتكشف على الخلايا اللي زرعتها الأسبوع اللي فات. تجهّز عينة جديدة، وتقيس كميات صغيرة من السوايل بدقة، وتكتب اسم على كل أنبوبة. تعمل اختبار وتستنى الجهاز يطلّع البيانات. وإنت مستني تقرا بحث علمي وتكتب ملاحظات في كشكول المعمل. بعد الغدا تقابل المشرف تتناقشوا ليه نتيجة واحدة طالعة مختلفة. وتعيد الاختبار تاني يوم، عشان العلم محتاج تكرار وتأكيد."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Grow and study cells, microbes or plants in the lab.",
-        "ar": "تزرع وتدرس الخلايا أو الميكروبات أو النباتات في المعمل."
+        "ar": "بتزرع وتدرس الخلايا أو الميكروبات أو النباتات في المعمل."
       },
       {
         "en": "Run experiments and tests such as DNA analysis (PCR) and culture tests.",
-        "ar": "تجري تجارب واختبارات مثل تحليل الـDNA (PCR) والزراعات."
+        "ar": "بتعمل تجارب واختبارات زي تحليل الـDNA (PCR) والمزارع."
       },
       {
         "en": "Record results carefully and analyse data with statistics.",
-        "ar": "تسجل النتائج بدقة وتحلل البيانات إحصائيًا."
+        "ar": "بتسجّل النتايج بدقة وتحلّل البيانات بالإحصاء."
       },
       {
         "en": "Help develop and test products such as vaccines, biological medicines and diagnostic kits.",
-        "ar": "تساعد في تطوير واختبار منتجات مثل اللقاحات والأدوية البيولوجية وأطقم التشخيص."
+        "ar": "بتساعد في تطوير واختبار منتجات زي اللقاحات والأدوية البيولوجية وأطقم التشخيص."
       },
       {
         "en": "Follow safety and quality rules (biosafety, good laboratory practice).",
-        "ar": "تتبع قواعد السلامة والجودة (الأمان الحيوي وممارسات المعمل الجيدة)."
+        "ar": "بتمشي على قواعد السلامة والجودة (الأمان الحيوي وممارسات المعمل السليمة)."
       },
       {
         "en": "Write reports and papers and present results.",
-        "ar": "تكتب التقارير والأبحاث وتعرض النتائج."
+        "ar": "بتكتب التقارير والأبحاث وتعرض النتايج."
       }
     ],
     "environments": [
@@ -122,15 +122,15 @@
     "alternativeRoutes": [
       {
         "en": "A bachelor's degree in biology or biotechnology followed by a master's degree and PhD for research and university posts.",
-        "ar": "بكالوريوس في الأحياء أو التقنية الحيوية ثم ماجستير ودكتوراه لوظائف البحث والجامعة."
+        "ar": "بكالوريوس في الأحياء أو التكنولوجيا الحيوية، وبعدين ماجستير ودكتوراه لوظايف البحث والجامعة."
       },
       {
         "en": "Scholarships and graduate study abroad are a common way into advanced research.",
-        "ar": "المنح والدراسات العليا بالخارج طريق شائع للبحث المتقدم."
+        "ar": "المنح والدراسات العليا برّه طريق منتشر للبحث المتقدم."
       },
       {
         "en": "Diplomas and short courses in quality control, bioinformatics or pharmaceutical manufacturing after graduation.",
-        "ar": "دبلومات ودورات قصيرة في مراقبة الجودة أو المعلوماتية الحيوية أو التصنيع الدوائي بعد التخرج."
+        "ar": "دبلومات وكورسات قصيرة في مراقبة الجودة أو المعلوماتية الحيوية أو التصنيع الدوائي بعد التخرج."
       }
     ],
     "licensing": {
@@ -274,7 +274,7 @@
     ],
     "freelanceRemote": {
       "en": "Lab work cannot be done remotely. Freelance work is limited to scientific writing, data analysis, bioinformatics and consulting. Egypt aims to produce 140 million human vaccine doses a year by 2030 under its Vaccine City project, with investments of about EGP 12 billion, which may create applied jobs if delivered.",
-      "ar": "لا يمكن أداء عمل المعمل عن بُعد. العمل الحر يقتصر على الكتابة العلمية وتحليل البيانات والمعلوماتية الحيوية والاستشارات. تستهدف مصر إنتاج 140 مليون جرعة لقاح بشري سنويًا بحلول 2030 ضمن مشروع مدينة اللقاحات باستثمارات نحو 12 مليار جنيه، وقد يخلق ذلك وظائف تطبيقية إذا نُفذ."
+      "ar": "شغل المعمل ما ينفعش يتعمل من البيت. الفري لانس محدود في الكتابة العلمية وتحليل البيانات والمعلوماتية الحيوية والاستشارات. مصر مستهدفة تنتج 140 مليون جرعة لقاح بشري في السنة بحلول 2030 في مشروع مدينة اللقاحات، باستثمارات حوالي 12 مليار جنيه، وده ممكن يعمل وظايف تطبيقية لو اتنفّذ."
     },
     "regions": [
       {
@@ -294,72 +294,72 @@
   },
   "global": {
     "en": "Many Egyptian scientists build careers abroad through graduate study and research positions in Europe, North America and the Gulf. Pharma and biotech firms hire scientists with a master's or PhD. Competition for scholarships and posts is strong, so strong English and research experience matter.",
-    "ar": "يبني علماء مصريون كثيرون مسيرتهم في الخارج عبر الدراسات العليا ووظائف البحث في أوروبا وأمريكا الشمالية والخليج. وتوظف شركات الأدوية والتقنية الحيوية علماء بماجستير أو دكتوراه. المنافسة على المنح والوظائف قوية، فالإنجليزية القوية والخبرة البحثية مهمتان."
+    "ar": "علماء مصريين كتير بيبنوا مستقبلهم برّه عن طريق الدراسات العليا ووظايف البحث في أوروبا وأمريكا الشمالية والخليج. شركات الدوا والتكنولوجيا الحيوية بتعيّن علماء معاهم ماجستير أو دكتوراه. المنافسة على المنح والوظايف جامدة، فالإنجليزي القوي والخبرة البحثية مهمين."
   },
   "reality": {
     "pros": [
       {
         "en": "Contribute to health, food and the environment",
-        "ar": "تسهم في الصحة والغذاء والبيئة"
+        "ar": "بتساهم في الصحة والأكل والبيئة"
       },
       {
         "en": "Growing applied fields such as vaccines and biologics",
-        "ar": "مجالات تطبيقية متنامية مثل اللقاحات والأدوية البيولوجية"
+        "ar": "مجالات تطبيقية بتكبر زي اللقاحات والأدوية البيولوجية"
       },
       {
         "en": "Skills are respected and useful abroad",
-        "ar": "المهارات محترمة ومفيدة في الخارج"
+        "ar": "مهاراتك محترمة وتنفع برّه"
       }
     ],
     "challenges": [
       {
         "en": "Few well-paid jobs for bachelor's graduates; many need a master's or PhD",
-        "ar": "وظائف جيدة الأجر قليلة لحملة البكالوريوس؛ وكثير منها يحتاج ماجستير أو دكتوراه"
+        "ar": "الوظايف اللي مرتبها كويس قليلة لخريجين البكالوريوس؛ وكتير منها محتاج ماجستير أو دكتوراه"
       },
       {
         "en": "Research funding is limited and academic posts are scarce",
-        "ar": "تمويل البحث محدود والوظائف الأكاديمية نادرة"
+        "ar": "تمويل البحث محدود والوظايف في الجامعة نادرة"
       },
       {
         "en": "Lab work can be slow and experiments often fail",
-        "ar": "عمل المعمل قد يكون بطيئًا والتجارب تفشل كثيرًا"
+        "ar": "شغل المعمل ممكن يبقى بطيء والتجارب بتفشل كتير"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Biotechnology is only about genetic modification of food.",
-          "ar": "التقنية الحيوية هي تعديل الغذاء وراثيًا فقط."
+          "ar": "التكنولوجيا الحيوية يعني تعديل الأكل وراثيًا وبس."
         },
         "fact": {
           "en": "It covers vaccines, medicines, diagnostics, enzymes, environment, agriculture and more.",
-          "ar": "تشمل اللقاحات والأدوية والتشخيص والإنزيمات والبيئة والزراعة وغيرها."
+          "ar": "فيها لقاحات وأدوية وتشخيص وإنزيمات وبيئة وزراعة وحاجات تانية."
         }
       },
       {
         "myth": {
           "en": "You must go to medical or pharmacy school to work in this field.",
-          "ar": "لازم تدخل الطب أو الصيدلة للعمل في هذا المجال."
+          "ar": "لازم تدخل طب أو صيدلة عشان تشتغل في المجال ده."
         },
         "fact": {
           "en": "Science, biotechnology, agriculture and other faculties also lead to this career.",
-          "ar": "كليات العلوم والتقنية الحيوية والزراعة وغيرها تقود إلى هذه المهنة أيضًا."
+          "ar": "كليات العلوم والتكنولوجيا الحيوية والزراعة وغيرها بتوصّل للمهنة دي كمان."
         }
       },
       {
         "myth": {
           "en": "AI will replace lab scientists.",
-          "ar": "الذكاء الاصطناعي سيحل محل علماء المعامل."
+          "ar": "الذكاء الاصطناعي هياخد مكان علماء المعامل."
         },
         "fact": {
           "en": "AI speeds up data and design, but experiments, judgment and quality work still need scientists. Learning data skills makes you stronger.",
-          "ar": "الذكاء الاصطناعي يسرّع البيانات والتصميم، لكن التجارب والحكم والجودة ما زالت تحتاج علماء. وتعلّم مهارات البيانات يقويك."
+          "ar": "الذكاء الاصطناعي بيسرّع البيانات والتصميم، بس التجارب والتقدير والجودة لسه محتاجين علماء. ولو اتعلمت مهارات البيانات هتبقى أقوى."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Mostly regular lab hours. Some experiments need weekend or evening checks. Academic careers can involve long study years.",
-      "ar": "ساعات معمل منتظمة غالبًا. بعض التجارب تحتاج متابعة في العطلات أو المساء. والمسيرة الأكاديمية قد تتطلب سنوات دراسة طويلة."
+      "ar": "غالبًا مواعيد معمل منتظمة. فيه تجارب محتاجة متابعة في الإجازات أو بالليل. والطريق الأكاديمي ممكن ياخد سنين دراسة طويلة."
     }
   },
   "progression": {

@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You use maths to put a price on the future.",
-      "ar": "تستخدم الرياضيات لتضع سعرًا للمستقبل."
+      "ar": "بتستخدم الرياضيات عشان تحط سعر للمستقبل."
     },
     "summary": {
       "en": "Actuaries use statistics and maths to measure risk, mostly for insurance companies, pension funds and banks. They estimate how likely events like accidents or illness are, and how much money should be set aside to pay for them. It is a demanding profession with long professional exams, and few people do it in Egypt.",
-      "ar": "الخبير الاكتواري يستخدم الإحصاء والرياضيات لقياس المخاطر، وغالبًا لشركات التأمين وصناديق المعاشات والبنوك. يقدّر احتمال أحداث مثل الحوادث أو المرض، وكم من المال يجب تخصيصه لتغطيتها. مهنة تتطلب جهدًا وامتحانات مهنية طويلة، وعدد العاملين فيها محدود."
+      "ar": "الخبير الاكتواري بيستخدم الإحصاء والرياضيات عشان يقيس المخاطر، وغالبًا لشركات التأمين وصناديق المعاشات والبنوك. بيقدّر احتمال حاجات زي الحوادث أو المرض، وقد إيه فلوس لازم تتحط على جنب عشان تغطيها. مهنة صعبة وامتحاناتها المهنية طويلة، وقليلين اللي بيشتغلوها في مصر."
     },
     "dayInLife": {
       "en": "You open a data file with thousands of insurance policies and check how many claims came last year. You build a model in a spreadsheet or statistics program to estimate next year's claims, then compare it with the premium the company charges. After lunch you explain your results to the product manager in simple words, and then study for your next professional exam in the evening.",
-      "ar": "تفتح ملف بيانات به آلاف وثائق التأمين وتفحص عدد المطالبات في العام الماضي. تبني نموذجًا في جدول بيانات أو برنامج إحصاء لتقدير مطالبات العام القادم، ثم تقارنه بالقسط الذي تحصّله الشركة. بعد الغداء تشرح نتائجك لمدير المنتج بكلمات بسيطة، وفي المساء تذاكر لامتحانك المهني القادم."
+      "ar": "بتفتح ملف بيانات فيه آلاف وثائق التأمين وتشوف كام مطالبة جت السنة اللي فاتت. تبني نموذج في جدول بيانات أو برنامج إحصاء تقدّر بيه مطالبات السنة الجاية، وبعدين تقارنه بالقسط اللي الشركة بتاخده. بعد الغدا تشرح نتايجك لمدير المنتج بكلام بسيط، وبالليل تذاكر لامتحانك المهني الجاي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Collect and analyse data about claims, deaths, illness and other risks.",
-        "ar": "تجمع وتحلل بيانات المطالبات والوفيات والمرض والمخاطر الأخرى."
+        "ar": "بتجمع وتحلّل بيانات المطالبات والوفيات والمرض والمخاطر التانية."
       },
       {
         "en": "Build models to estimate future costs.",
-        "ar": "تبني نماذج لتقدير التكاليف المستقبلية."
+        "ar": "بتبني نماذج تقدّر بيها التكاليف الجاية."
       },
       {
         "en": "Help set prices for insurance and pension products.",
-        "ar": "تساعد في تسعير منتجات التأمين والمعاشات."
+        "ar": "بتساعد في تسعير منتجات التأمين والمعاشات."
       },
       {
         "en": "Estimate the reserves a company must hold.",
-        "ar": "تقدّر الاحتياطيات التي يجب أن تحتفظ بها الشركة."
+        "ar": "بتقدّر الاحتياطي اللي الشركة لازم تحتفظ بيه."
       },
       {
         "en": "Explain findings to managers and regulators.",
-        "ar": "تشرح النتائج للمديرين والجهات الرقابية."
+        "ar": "بتشرح النتايج للمديرين والجهات الرقابية."
       }
     ],
     "environments": [
@@ -103,11 +103,11 @@
     "alternativeRoutes": [
       {
         "en": "A maths, statistics or economics degree, then professional actuarial exams taken alongside work.",
-        "ar": "درجة في الرياضيات أو الإحصاء أو الاقتصاد ثم الامتحانات الاكتوارية المهنية أثناء العمل."
+        "ar": "شهادة في الرياضيات أو الإحصاء أو الاقتصاد، وبعدين الامتحانات الاكتوارية المهنية وإنت بتشتغل."
       },
       {
         "en": "Start in an insurance company in a data or pricing role and study for the exams there.",
-        "ar": "البدء في شركة تأمين بوظيفة بيانات أو تسعير ودراسة الامتحانات هناك."
+        "ar": "تبدأ في شركة تأمين في وظيفة بيانات أو تسعير وتذاكر للامتحانات هناك."
       }
     ],
     "licensing": {

@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You run the business side of farming and food.",
-      "ar": "تدير الجانب التجاري للزراعة والغذاء."
+      "ar": "إنت اللي بتدير الجانب التجاري من الزراعة والأكل."
     },
     "summary": {
       "en": "Agribusiness managers run farms, packing houses, input suppliers or food-trading companies. They plan crops and costs, manage workers, sell products and follow prices and rules. Egypt has a big agricultural sector and exports, so good managers who combine farm knowledge with business skills are valuable.",
-      "ar": "مدير الأعمال الزراعية يدير المزارع أو محطات التعبئة أو موردي مستلزمات الإنتاج أو شركات تجارة الأغذية. يخطط المحاصيل والتكاليف ويدير العمال ويبيع المنتجات ويتابع الأسعار واللوائح. في مصر قطاع زراعي كبير وصادرات، لذلك يقدَّر المدير الذي يجمع بين معرفة المزرعة ومهارات الأعمال."
+      "ar": "مدير الأعمال الزراعية بيدير المزارع أو محطات التعبئة أو موردين مستلزمات الإنتاج أو شركات تجارة الأغذية. بيخطط المحاصيل والتكاليف، ويدير العمال، ويبيع المنتجات، ويتابع الأسعار واللوائح. مصر فيها قطاع زراعي كبير وصادرات، فالمدير اللي يجمع بين فهم المزرعة ومهارات البيزنس مطلوب."
     },
     "dayInLife": {
       "en": "You walk through the farm in the morning with the foreman and check the irrigation and the harvest. Then you call two traders to compare prices for the week's tomatoes. At the office you update the cost sheet, pay the workers' wages and approve an order of fertilizer. In the evening you plan next week's work.",
-      "ar": "تتجول في المزرعة صباحًا مع المشرف وتتفقد الري والحصاد. ثم تتصل بتاجرين لمقارنة أسعار طماطم الأسبوع. في المكتب تحدّث جدول التكاليف وتصرف أجور العمال وتعتمد طلب أسمدة. وفي المساء تخطط عمل الأسبوع القادم."
+      "ar": "الصبح بتلف في المزرعة مع الريّس وتشوف الري والحصاد. بعدين تكلّم تاجرين تقارن أسعار طماطم الأسبوع. في المكتب تحدّث شيت التكاليف، وتصرف يوميات العمال، وتوافق على طلبية سماد. وبالليل تخطط شغل الأسبوع الجاي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan crops, inputs and production for the season.",
-        "ar": "تخطط المحاصيل والمستلزمات والإنتاج للموسم."
+        "ar": "بتخطط المحاصيل والمستلزمات والإنتاج للموسم."
       },
       {
         "en": "Manage workers, equipment and daily operations.",
-        "ar": "تدير العمال والمعدات والعمليات اليومية."
+        "ar": "بتدير العمال والمعدات والشغل اليومي."
       },
       {
         "en": "Track costs, prices and profit.",
-        "ar": "تتابع التكاليف والأسعار والربح."
+        "ar": "بتتابع التكاليف والأسعار والمكسب."
       },
       {
         "en": "Sell products to traders, factories or exporters.",
-        "ar": "تبيع المنتجات للتجار أو المصانع أو المصدّرين."
+        "ar": "بتبيع المنتجات للتجار أو المصانع أو المصدّرين."
       },
       {
         "en": "Follow quality, safety and environmental rules.",
-        "ar": "تلتزم بقواعد الجودة والسلامة والبيئة."
+        "ar": "بتلتزم بقواعد الجودة والسلامة والبيئة."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Grow up in or work on a farm, then add business training and a degree part-time.",
-        "ar": "النشأة في مزرعة أو العمل بها ثم إضافة تدريب أعمال ودرجة بدوام جزئي."
+        "ar": "تكون متربي في مزرعة أو بتشتغل فيها، وبعدين تضيف تدريب في البيزنس وشهادة وإنت بتشتغل."
       },
       {
         "en": "Start in an agricultural company as a sales or supervisor role and grow into management.",
-        "ar": "البدء في شركة زراعية بوظيفة مبيعات أو إشراف والتدرج إلى الإدارة."
+        "ar": "تبدأ في شركة زراعية في وظيفة مبيعات أو إشراف وتكبر لحد ما توصل للإدارة."
       }
     ],
     "licensing": null
@@ -142,7 +142,7 @@
       },
       {
         "en": "Starting your own farm business",
-        "ar": "بدء مشروع زراعي خاص"
+        "ar": "تبدأ مشروع زراعي بتاعك"
       }
     ]
   },

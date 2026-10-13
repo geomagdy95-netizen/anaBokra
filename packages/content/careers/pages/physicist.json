@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You search for the rules that explain how the universe works.",
-      "ar": "تبحث عن القواعد التي تفسر كيف يعمل الكون."
+      "ar": "بتدوّر على القواعد اللي بتفسّر الكون بيشتغل إزاي."
     },
     "summary": {
       "en": "Physicists study matter, energy, light and motion, using maths, experiments and computer models. Some work in pure research, while many apply physics in technology, medicine, energy and industry. A physics degree also builds strong skills in problem solving and data that employers value.",
-      "ar": "الفيزيائي يدرس المادة والطاقة والضوء والحركة باستخدام الرياضيات والتجارب والنماذج الحاسوبية. يعمل بعضهم في البحث البحت، ويطبق كثيرون الفيزياء في التكنولوجيا والطب والطاقة والصناعة. وتبني درجة الفيزياء مهارات قوية في حل المشكلات والبيانات يقدّرها أصحاب العمل."
+      "ar": "الفيزيائي بيدرس المادة والطاقة والضوء والحركة بالرياضيات والتجارب ونماذج الكمبيوتر. فيه اللي بيشتغلوا في البحث البحت، وكتير بيطبّقوا الفيزيا في التكنولوجيا والطب والطاقة والصناعة. وشهادة الفيزيا كمان بتبني مهارات قوية في حل المشاكل والبيانات، وأصحاب الشغل بيقدّروها."
     },
     "dayInLife": {
       "en": "You set up an experiment in the lab to measure how a material reacts to light. While it runs, you write code to analyse the readings and plot them. In the afternoon you discuss the results with your supervisor and read a new paper on a similar problem. The plan for tomorrow includes improving the setup.",
-      "ar": "تجهّز تجربة في المعمل لقياس تفاعل مادة مع الضوء. وأثناء التشغيل تكتب كودًا لتحليل القراءات ورسمها. بعد الظهر تناقش النتائج مع المشرف وتقرأ بحثًا جديدًا عن مشكلة مشابهة. وتتضمن خطة الغد تحسين التجهيز."
+      "ar": "بتجهّز تجربة في المعمل تقيس بيها مادة بتتفاعل مع الضوء إزاي. وهي شغالة تكتب كود يحلّل القراءات ويرسمها. بعد الضهر تناقش النتايج مع المشرف وتقرا بحث جديد عن مشكلة شبهها. وخطة بكرة فيها تحسين التجهيز."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Design and run experiments, and measure results carefully.",
-        "ar": "تصمم التجارب وتجريها وتقيس النتائج بدقة."
+        "ar": "بتصمم التجارب وتعملها وتقيس النتايج بدقة."
       },
       {
         "en": "Build mathematical and computer models.",
-        "ar": "تبني نماذج رياضية وحاسوبية."
+        "ar": "بتبني نماذج رياضية ونماذج على الكمبيوتر."
       },
       {
         "en": "Analyse data and test ideas against evidence.",
-        "ar": "تحلل البيانات وتختبر الأفكار بالأدلة."
+        "ar": "بتحلّل البيانات وتختبر الأفكار بالأدلة."
       },
       {
         "en": "Write papers and reports and present findings.",
-        "ar": "تكتب الأبحاث والتقارير وتعرض النتائج."
+        "ar": "بتكتب الأبحاث والتقارير وتعرض النتايج."
       },
       {
         "en": "Apply physics in technology, medicine or industry.",
-        "ar": "تطبق الفيزياء في التكنولوجيا أو الطب أو الصناعة."
+        "ar": "بتطبّق الفيزيا في التكنولوجيا أو الطب أو الصناعة."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "A physics degree followed by training in programming or data analysis opens many tech jobs.",
-        "ar": "درجة في الفيزياء ثم تدريب في البرمجة أو تحليل البيانات تفتح وظائف تقنية كثيرة."
+        "ar": "شهادة فيزيا وبعدها تدريب في البرمجة أو تحليل البيانات بيفتحوا وظايف تكنولوجيا كتير."
       },
       {
         "en": "A master's and PhD are needed for research careers.",
-        "ar": "الماجستير والدكتوراه مطلوبان للمسارات البحثية."
+        "ar": "الماجستير والدكتوراه مطلوبين لطريق البحث."
       }
     ],
     "licensing": {

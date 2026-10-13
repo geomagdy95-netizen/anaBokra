@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You fly hundreds of people safely across the sky.",
-      "ar": "تطير بمئات الأشخاص بأمان عبر السماء."
+      "ar": "بتطير بمئات الناس بأمان في السما."
     },
     "summary": {
       "en": "Airline pilots fly passenger and cargo aircraft, following strict procedures and working as a team with the co-pilot and cabin crew. Becoming a pilot takes years of training, a very high medical standard and a lot of money or a company or military sponsorship. In Egypt the main routes are EgyptAir's trainee pilot recruitment (for graduates), approved flight schools, or the Air Force.",
-      "ar": "الطيار التجاري يقود طائرات الركاب والشحن ملتزمًا بإجراءات صارمة ويعمل كفريق مع مساعد الطيار وطاقم الضيافة. يحتاج أن تصبح طيارًا سنوات من التدريب ومعيارًا طبيًا عاليًا جدًا ومالًا كثيرًا أو رعاية من شركة أو من القوات المسلحة. في مصر المسارات الرئيسية: استقبال مصر للطيران طيارين متدربين (للخريجين) أو مدارس طيران معتمدة أو القوات الجوية."
+      "ar": "الطيار التجاري بيقود طيارات الركاب والشحن، وبيلتزم بإجراءات صارمة، وبيشتغل كفريق مع مساعد الطيار وطاقم الضيافة. عشان تبقى طيار محتاج سنين تدريب، ومعيار طبي عالي جدًا، وفلوس كتير أو رعاية من شركة أو من القوات المسلحة. في مصر الطرق الأساسية: قبول مصر للطيران لطيارين متدربين (للخريجين)، أو مدارس طيران معتمدة، أو القوات الجوية."
     },
     "dayInLife": {
       "en": "You arrive at the airport two hours before departure and read the weather, the route and the aircraft notes with the co-pilot. You check the plane, then brief the cabin crew. During the flight, the autopilot does much of the flying, but you watch the instruments, talk to air traffic control and take decisions if the weather changes. Landing is the most careful part, and you follow a checklist even though you have done it many times. After landing you write a short report and rest before the next flight. Some days start at night or end in another country.",
-      "ar": "تصل المطار قبل الإقلاع بساعتين وتقرأ حالة الطقس والمسار وملاحظات الطائرة مع مساعد الطيار. تفحص الطائرة ثم تعطي إحاطة لطاقم الضيافة. أثناء الرحلة يقوم الطيار الآلي بجزء كبير من القيادة، لكنك تراقب الأجهزة وتتحدث مع المراقبة الجوية وتتخذ قرارات إذا تغير الطقس. الهبوط هو الجزء الأدق، وتتبع قائمة الفحص رغم أنك فعلتها مرات كثيرة. بعد الهبوط تكتب تقريرًا قصيرًا وترتاح قبل الرحلة التالية. بعض الأيام تبدأ ليلًا أو تنتهي في بلد آخر."
+      "ar": "بتوصل المطار قبل الإقلاع بساعتين وتقرا الطقس والمسار وملاحظات الطيارة مع مساعد الطيار. تكشف على الطيارة، وبعدين تدّي بريفينج لطاقم الضيافة. في الرحلة الطيار الآلي بيعمل جزء كبير من القيادة، بس إنت بتراقب الأجهزة، وبتكلّم المراقبة الجوية، وبتاخد قرارات لو الطقس اتغير. الهبوط أدق جزء، وبتمشي على قايمة الفحص حتى لو عملتها مرات كتير. بعد الهبوط تكتب تقرير قصير وترتاح قبل الرحلة الجاية. وفيه أيام بتبدأ بالليل أو بتخلص في بلد تانية."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan flights: weather, route, fuel and weight.",
-        "ar": "تخطط الرحلات: الطقس والمسار والوقود والوزن."
+        "ar": "بتخطط الرحلات: الطقس والمسار والوقود والوزن."
       },
       {
         "en": "Check the aircraft and systems before every flight.",
-        "ar": "تفحص الطائرة وأنظمتها قبل كل رحلة."
+        "ar": "بتكشف على الطيارة وأنظمتها قبل كل رحلة."
       },
       {
         "en": "Fly the aircraft, manually and with automation, and monitor instruments.",
-        "ar": "تقود الطائرة يدويًا وبالأنظمة الآلية وتراقب الأجهزة."
+        "ar": "بتقود الطيارة يدوي وبالأنظمة الأوتوماتيك وتراقب الأجهزة."
       },
       {
         "en": "Communicate with air traffic control and the cabin crew.",
-        "ar": "تتواصل مع المراقبة الجوية وطاقم الضيافة."
+        "ar": "بتتواصل مع المراقبة الجوية وطاقم الضيافة."
       },
       {
         "en": "Handle emergencies by following trained procedures.",
-        "ar": "تتعامل مع الطوارئ باتباع إجراءات مدربة عليها."
+        "ar": "بتتعامل مع الطوارئ بالإجراءات اللي اتدربت عليها."
       },
       {
         "en": "Train regularly in simulators and pass medical and proficiency checks.",
-        "ar": "تتدرب باستمرار في المحاكيات وتجتاز الفحوص الطبية واختبارات الكفاءة."
+        "ar": "بتتدرب على طول في المحاكيات وتعدّي الكشوفات الطبية واختبارات الكفاءة."
       }
     ],
     "environments": [
@@ -110,19 +110,19 @@
     "alternativeRoutes": [
       {
         "en": "EgyptAir trainee pilots: EgyptAir has announced recruitment of trainee pilots for graduates. In the announcement we reviewed, applicants needed a bachelor's degree in a suitable field with at least Good, age up to 30 at the closing date, excellent English, a valid Class 1 aviation medical certificate, and to pass the company's tests at their own cost. Both men and women could apply.",
-        "ar": "طيارون متدربون في مصر للطيران: أعلنت مصر للطيران قبول طيارين متدربين من الخريجين. في الإعلان الذي راجعناه كان مطلوبًا بكالوريوس في تخصص مناسب بتقدير جيد على الأقل وسن لا يزيد على 30 سنة عند إغلاق باب التقديم وإنجليزية ممتازة وشهادة طبية سارية من الدرجة الأولى للطيران واجتياز اختبارات الشركة على نفقة المتقدم. وكان التقديم متاحًا للرجال والنساء."
+        "ar": "طيارين متدربين في مصر للطيران: مصر للطيران أعلنت عن قبول طيارين متدربين من الخريجين. في الإعلان اللي راجعناه كان مطلوب بكالوريوس في تخصص مناسب بتقدير جيد على الأقل، والسن ما يزيدش عن 30 سنة وقت قفل التقديم، وإنجليزي ممتاز، وشهادة طبية سارية درجة أولى للطيران، وإنك تنجح في اختبارات الشركة على حسابك. والتقديم كان متاح للرجالة والستات."
       },
       {
         "en": "Approved flight schools (ECAA-approved) for private (PPL) and commercial (CPL) licences. Third-party guides give minimum ages of 17 for PPL and 18 for CPL, and estimate total costs in the millions of EGP, so confirm prices with the schools.",
-        "ar": "مدارس طيران معتمدة (من سلطة الطيران المدني) لرخصتي الطيار الخاص (PPL) والتجاري (CPL). تذكر أدلة من جهات خارجية سنًا أدنى 17 لـPPL و18 لـCPL وتقدّر التكلفة الكلية بملايين الجنيهات، فتأكد من الأسعار مع المدارس."
+        "ar": "مدارس طيران معتمدة (من سلطة الطيران المدني) لرخصة الطيار الخاص (PPL) والتجاري (CPL). أدلة من جهات خارجية بتقول إن أقل سن 17 للـPPL و18 للـCPL، وبتقدّر التكلفة الكلية بملايين الجنيهات، فاتأكد من الأسعار مع المدارس."
       },
       {
         "en": "Air Force route: the Egyptian Air College trains officer pilots for the Air Force after Thanaweya Amma.",
-        "ar": "مسار القوات الجوية: تدرّب الكلية الجوية المصرية ضباط الطيران للقوات الجوية بعد الثانوية العامة."
+        "ar": "طريق القوات الجوية: الكلية الجوية المصرية بتخرّج ضباط طيارين للقوات الجوية بعد الثانوية العامة."
       },
       {
         "en": "Related aviation careers if the medical standard or cost blocks you: air traffic control, aircraft maintenance, dispatch and cabin crew.",
-        "ar": "مهن طيران مرتبطة إذا منعك المعيار الطبي أو التكلفة: المراقبة الجوية وصيانة الطائرات وتنسيق الرحلات وطاقم الضيافة."
+        "ar": "مهن طيران قريبة لو المعيار الطبي أو التكلفة وقفوا قدامك: المراقبة الجوية، وصيانة الطيارات، وتنسيق الرحلات، وطاقم الضيافة."
       }
     ],
     "licensing": {
@@ -266,7 +266,7 @@
     ],
     "freelanceRemote": {
       "en": "Not applicable in the usual sense. Pilots are employed by airlines. Instructors in flight schools and contract pilots exist, but cannot work remotely.",
-      "ar": "لا ينطبق بالمعنى المعتاد. الطيارون يعملون لدى شركات الطيران. يوجد مدربون في مدارس الطيران وطيارون بعقود لكن لا يمكن العمل عن بُعد."
+      "ar": "ما ينفعش بالمعنى المعتاد. الطيارين بيشتغلوا عند شركات الطيران. فيه مدربين في مدارس الطيران وطيارين بعقود، بس ما ينفعش الشغل من البيت."
     },
     "regions": [
       {
@@ -284,72 +284,72 @@
   },
   "global": {
     "en": "Pilots are among the most mobile professionals. Egyptian pilots fly for Gulf airlines and others, and a licence from ECAA is recognised under ICAO rules, though each airline and country sets its own requirements and checks. Hiring follows the global airline cycle, so demand can rise and fall.",
-    "ar": "الطيارون من أكثر المهنيين قدرة على التنقل. يطير طيارون مصريون لدى شركات خليجية وغيرها، ورخصة سلطة الطيران المدني معترف بها وفق قواعد ICAO، لكن لكل شركة ودولة شروطها واختباراتها. يتبع التوظيف دورة الطيران العالمية، فقد يرتفع الطلب وينخفض."
+    "ar": "الطيارين من أكتر المهنيين اللي بيتنقلوا بسهولة. طيارين مصريين بيطيروا لشركات خليجية وغيرها، ورخصة سلطة الطيران المدني معترف بيها حسب قواعد ICAO، بس كل شركة ودولة ليها شروطها واختباراتها. والتعيين ماشي مع دورة الطيران في العالم، فالطلب بيطلع وينزل."
   },
   "reality": {
     "pros": [
       {
         "en": "Responsible, respected job with global travel",
-        "ar": "وظيفة مسؤولة ومحترمة مع سفر حول العالم"
+        "ar": "شغلانة مسؤولة ومحترمة وفيها سفر حوالين العالم"
       },
       {
         "en": "Strong pay in many airlines and a clear career ladder",
-        "ar": "راتب جيد في شركات طيران كثيرة وسلّم وظيفي واضح"
+        "ar": "مرتب كويس في شركات طيران كتير وسلّم وظيفي واضح"
       },
       {
         "en": "Skills recognised internationally",
-        "ar": "مهارات معترف بها دوليًا"
+        "ar": "مهارات معترف بيها دوليًا"
       }
     ],
     "challenges": [
       {
         "en": "Training is expensive and long, and a job is not guaranteed",
-        "ar": "التدريب مكلف وطويل والوظيفة غير مضمونة"
+        "ar": "التدريب غالي وطويل والوظيفة مش مضمونة"
       },
       {
         "en": "You must keep a strict medical standard; a health issue can end a career",
-        "ar": "يجب الحفاظ على معيار طبي صارم؛ ومشكلة صحية قد تنهي المسيرة"
+        "ar": "لازم تحافظ على معيار طبي صارم؛ ومشكلة صحية ممكن تنهي المشوار"
       },
       {
         "en": "Irregular hours, jet lag and time away from home",
-        "ar": "ساعات غير منتظمة وإرهاق السفر والبعد عن البيت"
+        "ar": "مواعيد مش منتظمة وإرهاق فرق التوقيت وبُعد عن البيت"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "The autopilot flies the plane so pilots do little.",
-          "ar": "الطيار الآلي يقود الطائرة فالطيار لا يفعل شيئًا."
+          "ar": "الطيار الآلي هو اللي بيسوق، فالطيار مش بيعمل حاجة."
         },
         "fact": {
           "en": "Pilots monitor, plan and decide, and they take over in problems. Training for rare emergencies is the core of the job.",
-          "ar": "الطيارون يراقبون ويخططون ويقررون ويتولون القيادة عند المشكلات. والتدريب على الطوارئ النادرة جوهر الوظيفة."
+          "ar": "الطيارين بيراقبوا ويخططوا ويقرروا، وبيمسكوا القيادة لما تحصل مشكلة. والتدريب على الطوارئ النادرة هو قلب الشغلانة."
         }
       },
       {
         "myth": {
           "en": "You must have perfect eyesight with no glasses.",
-          "ar": "لازم نظر ممتاز بدون نظارة."
+          "ar": "لازم نظرك يبقى ممتاز ومن غير نضارة."
         },
         "fact": {
           "en": "Standards are strict but not always no-glasses. Medical rules specify what is allowed, so get checked early by an aviation doctor.",
-          "ar": "المعايير صارمة لكنها لا تعني دائمًا منع النظارة. القواعد الطبية تحدد المسموح، فافحص مبكرًا عند طبيب طيران."
+          "ar": "المعايير صارمة، بس مش دايمًا معناها ممنوع النضارة. القواعد الطبية بتحدد المسموح، فاكشف بدري عند دكتور طيران."
         }
       },
       {
         "myth": {
           "en": "Pilots are only men.",
-          "ar": "الطيارون رجال فقط."
+          "ar": "الطيارين رجالة بس."
         },
         "fact": {
           "en": "Airline recruitment announcements are open to both men and women, and there are women pilots in Egypt and worldwide.",
-          "ar": "إعلانات التوظيف في شركات الطيران مفتوحة للرجال والنساء، وهناك طيارات في مصر والعالم."
+          "ar": "إعلانات التوظيف في شركات الطيران مفتوحة للرجالة والستات، وفيه طيارات ستات في مصر والعالم."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Rosters change monthly and include nights, weekends and holidays. Time off comes in blocks, but jet lag and time away are real. Planning family life takes effort.",
-      "ar": "تتغير الجداول شهريًا وتشمل ليالي وعطلات أسبوعية وأعيادًا. تأتي الإجازات في كتل، لكن إرهاق السفر والبعد حقيقيان. وتخطيط الحياة الأسرية يحتاج جهدًا."
+      "ar": "الجداول بتتغير كل شهر وفيها ليالي وإجازات وأعياد. الإجازات بتيجي على بعضها، بس إرهاق السفر والبعد حقيقيين. وتخطيط حياة العيلة محتاج مجهود."
     }
   },
   "progression": {

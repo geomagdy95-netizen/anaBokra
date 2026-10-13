@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You keep passengers safe and comfortable, thousands of feet in the air.",
-      "ar": "تحافظ على أمان الركاب وراحتهم على ارتفاعات شاهقة."
+      "ar": "بتحافظ على أمان الركاب وراحتهم وإنتوا فوق السحاب."
     },
     "summary": {
       "en": "Flight attendants check safety equipment, welcome passengers, serve meals and handle emergencies on board. Safety is the main job, and service comes second. The work means irregular hours, time away from home and many different people.",
-      "ar": "مضيف الطيران يفحص معدات السلامة ويستقبل الركاب ويقدم الوجبات ويتعامل مع الطوارئ على متن الطائرة. السلامة هي المهمة الأولى والخدمة ثانية. يعني العمل ساعات غير منتظمة وغيابًا عن البيت والتعامل مع أنواع كثيرة من الناس."
+      "ar": "المضيف الجوي بيكشف على معدات السلامة، ويستقبل الركاب، ويقدّم الوجبات، ويتعامل مع الطوارئ في الطيارة. السلامة هي الشغل الأساسي، والخدمة بعدها. والشغلانة معناها مواعيد مش منتظمة، ووقت بعيد عن البيت، وناس كتير ومختلفين."
     },
     "dayInLife": {
       "en": "Before the flight you attend a briefing, check the emergency equipment and the food on board. As passengers enter, you welcome them and help with bags. In the air you demonstrate the safety rules, serve meals and respond when someone feels unwell. After landing you say goodbye to passengers and complete your report.",
-      "ar": "قبل الرحلة تحضر الإحاطة وتفحص معدات الطوارئ والطعام على متن الطائرة. عند صعود الركاب ترحب بهم وتساعدهم بالحقائب. في الجو تشرح قواعد السلامة وتقدم الوجبات وتتدخل حين يشعر أحدهم بتوعك. بعد الهبوط تودع الركاب وتكمل تقريرك."
+      "ar": "قبل الرحلة بتحضر البريفينج وتكشف على معدات الطوارئ والأكل اللي في الطيارة. والركاب داخلين ترحّب بيهم وتساعدهم في الشنط. في الجو تشرح قواعد السلامة وتقدّم الوجبات وتتدخل لو حد تعبان. وبعد الهبوط تودّع الركاب وتكمّل تقريرك."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Check safety and emergency equipment before each flight.",
-        "ar": "تفحص معدات السلامة والطوارئ قبل كل رحلة."
+        "ar": "بتكشف على معدات السلامة والطوارئ قبل كل رحلة."
       },
       {
         "en": "Welcome passengers and show them to their seats.",
-        "ar": "ترحب بالركاب وترشدهم إلى مقاعدهم."
+        "ar": "بترحّب بالركاب وتوصّلهم لكراسيهم."
       },
       {
         "en": "Explain safety rules and act in emergencies.",
-        "ar": "تشرح قواعد السلامة وتتصرف في الطوارئ."
+        "ar": "بتشرح قواعد السلامة وتتصرف في الطوارئ."
       },
       {
         "en": "Serve food and drinks and look after passengers' needs.",
-        "ar": "تقدم الطعام والمشروبات وتلبي احتياجات الركاب."
+        "ar": "بتقدّم الأكل والمشروبات وتهتم باحتياجات الركاب."
       },
       {
         "en": "Give first aid and write flight reports.",
-        "ar": "تقدم الإسعافات الأولية وتكتب تقارير الرحلة."
+        "ar": "بتعمل إسعافات أولية وتكتب تقارير الرحلة."
       }
     ],
     "environments": [
@@ -106,11 +106,11 @@
     "alternativeRoutes": [
       {
         "en": "Apply directly to an airline, which gives its own training course before you fly.",
-        "ar": "التقديم مباشرة إلى شركة الطيران التي تقدم دورتها التدريبية قبل أن تعمل."
+        "ar": "تقدّم على طول لشركة طيران، وهي بتديك كورس التدريب بتاعها قبل ما تطير."
       },
       {
         "en": "Work first in hotels, customer service or ground services to build language and service skills.",
-        "ar": "العمل أولًا في الفنادق أو خدمة العملاء أو الخدمات الأرضية لبناء مهارات اللغة والخدمة."
+        "ar": "تشتغل الأول في الفنادق أو خدمة العملاء أو الخدمات الأرضية عشان تبني مهارات اللغة والخدمة."
       }
     ],
     "licensing": {

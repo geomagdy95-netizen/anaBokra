@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You freeze moments that people want to remember.",
-      "ar": "تثبّت لحظات يريد الناس تذكرها."
+      "ar": "بتثبّت لحظات الناس عايزة تفتكرها."
     },
     "summary": {
       "en": "Photographers capture images of people, events, products, places and news. They choose light, angles and moments, then edit the photos. Many work for themselves, so business skills, such as finding clients and pricing, are as important as the camera.",
-      "ar": "المصور يلتقط صور الناس والمناسبات والمنتجات والأماكن والأخبار. يختار الإضاءة والزوايا واللحظات ثم يحرر الصور. يعمل كثيرون لحسابهم الخاص، فمهارات الأعمال مثل إيجاد العملاء والتسعير مهمة مثل الكاميرا."
+      "ar": "المصوّر بيصوّر الناس والمناسبات والمنتجات والأماكن والأخبار. بيختار الإضاءة والزوايا واللحظات، وبعدين يعدّل الصور. كتير منهم بيشتغلوا لحسابهم، فمهارات البيزنس زي إنك تلاقي عملاء وتسعّر مهمة قد الكاميرا."
     },
     "dayInLife": {
       "en": "You prepare the camera and lens for a wedding that starts at noon. At the venue you check the light and shoot portraits, then follow the event and catch the special moments. At night you copy the files, back them up and start choosing the best pictures. The next morning you edit and send a preview to the client.",
-      "ar": "تجهّز الكاميرا والعدسة لحفل زفاف يبدأ عند الظهر. في القاعة تفحص الإضاءة وتصوّر البورتريهات ثم تتابع الحفل وتلتقط اللحظات المميزة. في الليل تنسخ الملفات وتحفظ نسخة احتياطية وتبدأ اختيار أفضل الصور. وفي الصباح التالي تحرر وترسل معاينة للعميل."
+      "ar": "بتجهّز الكاميرا والعدسة لفرح بيبدأ الضهر. في القاعة تشوف الإضاءة وتصوّر البورتريهات، وبعدين تتابع الفرح وتلقط اللحظات المميزة. بالليل تنقل الملفات وتعمل نسخة احتياطية وتبدأ تختار أحسن الصور. وتاني يوم الصبح تعدّل وتبعت للعميل عينة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan shoots and set up lighting and equipment.",
-        "ar": "تخطط جلسات التصوير وتجهّز الإضاءة والمعدات."
+        "ar": "بتخطط جلسات التصوير وتجهّز الإضاءة والمعدات."
       },
       {
         "en": "Direct people and choose angles and moments.",
-        "ar": "توجّه الأشخاص وتختار الزوايا واللحظات."
+        "ar": "بتوجّه الناس وتختار الزوايا واللحظات."
       },
       {
         "en": "Edit and retouch photos on a computer.",
-        "ar": "تحرر الصور وتعالجها على الكمبيوتر."
+        "ar": "بتعدّل الصور وتعمل لها ريتاتش على الكمبيوتر."
       },
       {
         "en": "Store and deliver files to clients.",
-        "ar": "تخزن الملفات وتسلمها للعملاء."
+        "ar": "بتخزّن الملفات وتسلّمها للعملاء."
       },
       {
         "en": "Find clients, quote prices and keep a portfolio.",
-        "ar": "تبحث عن العملاء وتحدد الأسعار وتحتفظ بملف أعمال."
+        "ar": "بتدوّر على عملاء وتحدد الأسعار وتحافظ على البورتفوليو."
       }
     ],
     "environments": [
@@ -108,11 +108,11 @@
     "alternativeRoutes": [
       {
         "en": "Learn by assisting a working photographer and shooting your own projects.",
-        "ar": "التعلم بمساعدة مصور محترف وتصوير مشاريعك الخاصة."
+        "ar": "تتعلم وإنت بتساعد مصوّر محترف، وتصوّر مشاريعك الخاصة."
       },
       {
         "en": "Photography courses and workshops, plus an online portfolio.",
-        "ar": "دورات وورش التصوير مع ملف أعمال على الإنترنت."
+        "ar": "كورسات وورش تصوير، ومعاها بورتفوليو أونلاين."
       }
     ],
     "licensing": null

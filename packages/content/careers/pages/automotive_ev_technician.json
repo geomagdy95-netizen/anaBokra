@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You keep cars running, including the new electric ones.",
-      "ar": "تُبقي السيارات تعمل، ومنها السيارات الكهربائية الجديدة."
+      "ar": "بتخلّي العربيات شغالة، ومنها العربيات الكهربا الجديدة."
     },
     "summary": {
       "en": "Automotive technicians inspect, diagnose and repair cars, from engines and brakes to electronics. More cars now use computers and batteries, so technicians who understand electrical and hybrid or electric systems will be needed more. The work is practical and always changing.",
-      "ar": "فني السيارات يفحص السيارات ويشخص أعطالها ويصلحها، من المحركات والفرامل إلى الإلكترونيات. تعتمد سيارات أكثر الآن على الكمبيوتر والبطاريات، لذلك سيزيد الطلب على الفنيين الذين يفهمون الأنظمة الكهربائية والهجينة والكهربائية. العمل عملي ومتجدد باستمرار."
+      "ar": "فني العربيات بيكشف على العربيات ويشخّص أعطالها ويصلّحها، من الموتور والفرامل للإلكترونيات. عربيات أكتر بقت معتمدة على كمبيوتر وبطاريات، فالفنيين اللي فاهمين الكهربا والأنظمة الهايبرد والكهربا هيبقى عليهم طلب أكتر. الشغل عملي وبيتجدد على طول."
     },
     "dayInLife": {
       "en": "A car arrives with a warning light on. You connect a diagnostic scanner, read the code and find a faulty sensor. You replace the part, clear the code and test drive the car. Then you service another car: oil, filters and brakes. You explain the work to the customer and write the job card.",
-      "ar": "تصل سيارة وإنذار ما مضاء. توصّل جهاز الفحص وتقرأ الكود وتكتشف حساسًا معطلًا. تستبدل القطعة وتمسح الكود وتجرب السيارة. ثم تجري صيانة لسيارة أخرى: زيت ومرشحات وفرامل. تشرح الأعمال للعميل وتكتب بطاقة الشغل."
+      "ar": "عربية بتوصل ولمبة تحذير منوّرة. توصّل جهاز الفحص وتقرا الكود وتلاقي حساس بايظ. تغيّر القطعة وتمسح الكود وتجرّب العربية. بعدين تعمل صيانة لعربية تانية: زيت وفلاتر وفرامل. تشرح للزبون عملت إيه وتكتب كارت الشغل."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Inspect cars and find faults using scanners and tests.",
-        "ar": "تفحص السيارات وتكتشف الأعطال بأجهزة الفحص والاختبارات."
+        "ar": "بتكشف على العربيات وتلاقي الأعطال بأجهزة الفحص والاختبارات."
       },
       {
         "en": "Repair engines, brakes, suspension and electrical parts.",
-        "ar": "تصلح المحركات والفرامل والتعليق والأجزاء الكهربائية."
+        "ar": "بتصلّح الموتور والفرامل والعفشة والأجزاء الكهربا."
       },
       {
         "en": "Do regular service and replace worn parts.",
-        "ar": "تجري الصيانة الدورية وتستبدل القطع المستهلكة."
+        "ar": "بتعمل الصيانة الدورية وتغيّر القطع اللي استهلكت."
       },
       {
         "en": "Work safely on hybrid and electric systems with the right training.",
-        "ar": "تعمل بأمان على الأنظمة الهجينة والكهربائية بالتدريب المناسب."
+        "ar": "بتشتغل بأمان على الأنظمة الهايبرد والكهربا بعد التدريب المناسب."
       },
       {
         "en": "Explain problems and costs to customers.",
-        "ar": "تشرح المشكلات والتكاليف للعملاء."
+        "ar": "بتشرح المشاكل والتكاليف للزباين."
       }
     ],
     "environments": [
@@ -99,11 +99,11 @@
     "alternativeRoutes": [
       {
         "en": "Productivity and Vocational Training Department (PVTD) centres, with trade courses in vehicle repair.",
-        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني بدورات إصلاح المركبات."
+        "ar": "مراكز مصلحة الكفاية الإنتاجية والتدريب المهني، وفيها كورسات صنعة في إصلاح العربيات."
       },
       {
         "en": "Learn in a garage as an assistant, then take manufacturer training courses, including electric vehicle courses.",
-        "ar": "التعلم في ورشة كمساعد ثم أخذ دورات المصنّعين ومنها دورات السيارات الكهربائية."
+        "ar": "تتعلم في ورشة كمساعد، وبعدين تاخد كورسات الشركات المصنّعة، ومنها كورسات العربيات الكهربا."
       }
     ],
     "licensing": {
@@ -130,11 +130,11 @@
       },
       {
         "en": "Opening your own garage",
-        "ar": "فتح ورشة خاصة"
+        "ar": "تفتح ورشة بتاعتك"
       },
       {
         "en": "Further study toward mechanical engineering",
-        "ar": "استكمال الدراسة نحو الهندسة الميكانيكية"
+        "ar": "تكمّل دراسة ناحية الهندسة الميكانيكية"
       }
     ]
   },

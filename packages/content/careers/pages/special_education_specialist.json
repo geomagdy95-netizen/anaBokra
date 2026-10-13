@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You help every child learn in the way that works for them.",
-      "ar": "تساعد كل طفل على التعلم بالطريقة التي تناسبه."
+      "ar": "بتساعد كل طفل يتعلم بالطريقة اللي تناسبه."
     },
     "summary": {
       "en": "Special education specialists teach and support children with learning difficulties, autism, speech or hearing problems, or other needs. They assess each child, build an individual plan and work closely with families and teachers. Patience and warmth matter as much as technical skill.",
-      "ar": "أخصائي التربية الخاصة يعلّم ويدعم الأطفال ذوي صعوبات التعلم أو التوحد أو مشكلات النطق أو السمع أو احتياجات أخرى. يقيّم كل طفل ويضع خطة فردية ويعمل بقرب مع الأسر والمعلمين. الصبر والدفء مهمان بقدر المهارة الفنية."
+      "ar": "أخصائي التربية الخاصة بيعلّم ويدعم أطفال عندهم صعوبات تعلم أو توحد أو مشاكل في النطق أو السمع أو احتياجات تانية. بيقيّم كل طفل، ويعمل خطة فردية، ويشتغل قريب من الأهالي والمدرسين. والصبر والحنية مهمين قد المهارة الفنية."
     },
     "dayInLife": {
       "en": "You greet each child by name and start with a short routine they know. In a one-to-one session you use pictures and games to help a boy practise words. Later you work with a small group on reading, then meet a mother to show her an activity she can repeat at home. At the end of the day you write progress notes for each child.",
-      "ar": "تحيّي كل طفل باسمه وتبدأ بروتين قصير يعرفه. في جلسة فردية تستخدم الصور والألعاب لمساعدة ولد على التدرب على الكلمات. لاحقًا تعمل مع مجموعة صغيرة على القراءة، ثم تقابل أمًّا لتريها نشاطًا يمكنها تكراره في البيت. في نهاية اليوم تكتب ملاحظات التقدم لكل طفل."
+      "ar": "بتسلّم على كل طفل باسمه وتبدأ بروتين قصير هو عارفه. في جلسة فردية تستخدم صور وألعاب تساعد ولد يتمرّن على الكلام. بعدها تشتغل مع مجموعة صغيرة على القراية، وبعدين تقابل أم توريها نشاط تقدر تكرّره في البيت. وفي آخر اليوم تكتب ملاحظات التقدم لكل طفل."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Assess each child's strengths and needs.",
-        "ar": "تقيّم نقاط قوة كل طفل واحتياجاته."
+        "ar": "بتقيّم نقط قوة كل طفل واحتياجاته."
       },
       {
         "en": "Write and follow an individual learning plan.",
-        "ar": "تكتب خطة تعلم فردية وتتابع تنفيذها."
+        "ar": "بتكتب خطة تعلم فردية وتتابع تنفيذها."
       },
       {
         "en": "Teach with games, pictures, repetition and simple steps.",
-        "ar": "تعلّم بالألعاب والصور والتكرار والخطوات البسيطة."
+        "ar": "بتعلّم بالألعاب والصور والتكرار والخطوات البسيطة."
       },
       {
         "en": "Work with parents, teachers and therapists.",
-        "ar": "تتعاون مع الأهالي والمعلمين والمعالجين."
+        "ar": "بتشتغل مع الأهالي والمدرسين والمعالجين."
       },
       {
         "en": "Record progress and adjust the plan.",
-        "ar": "تسجّل التقدم وتعدّل الخطة."
+        "ar": "بتسجّل التقدم وتعدّل الخطة."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "A degree in education, psychology or a related field, followed by a diploma in special education.",
-        "ar": "درجة في التربية أو علم النفس أو مجال قريب ثم دبلوم في التربية الخاصة."
+        "ar": "شهادة في التربية أو علم النفس أو مجال قريب، وبعدين دبلومة في التربية الخاصة."
       },
       {
         "en": "Start as a teaching assistant or shadow teacher in a center, then complete your studies.",
-        "ar": "البدء كمساعد معلم أو مرافق ظل في مركز ثم استكمال الدراسة."
+        "ar": "تبدأ مساعد مدرس أو شادو تيتشر في مركز، وبعدين تكمّل دراستك."
       }
     ],
     "licensing": {

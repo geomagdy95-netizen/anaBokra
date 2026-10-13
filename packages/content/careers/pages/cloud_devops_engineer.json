@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You keep the internet services people rely on running day and night.",
-      "ar": "أنت من يُبقي خدمات الإنترنت التي يعتمد عليها الناس تعمل ليلًا ونهارًا."
+      "ar": "إنت اللي بتخلّي خدمات النت اللي الناس معتمدة عليها شغالة ليل ونهار."
     },
     "summary": {
       "en": "Cloud and DevOps engineers set up and look after the servers, networks and tools that run websites and apps. They automate the work of releasing software and make sure systems stay fast, secure and available. Almost every company that uses software needs this skill.",
-      "ar": "مهندس السحابة وDevOps يجهّز ويرعى الخوادم والشبكات والأدوات التي تشغّل المواقع والتطبيقات. يؤتمت عملية إطلاق البرمجيات ويضمن أن تبقى الأنظمة سريعة وآمنة ومتاحة. وتحتاج هذه المهارة تقريبًا كل شركة تستخدم البرمجيات."
+      "ar": "مهندس الكلاود والـDevOps بيجهّز ويرعى السيرفرات والشبكات والأدوات اللي بتشغّل المواقع والأبلكيشنز. بيعمل أتمتة لإطلاق البرامج، وبيتأكد إن الأنظمة تفضل سريعة وآمنة ومتاحة. وتقريبًا كل شركة بتستخدم برامج محتاجة المهارة دي."
     },
     "dayInLife": {
       "en": "You check the dashboards first thing: all services are green except one that is slow. You find the reason in the logs, change a setting and watch the speed recover. Then you improve the automatic pipeline that deploys new code, so developers can release faster. In the afternoon you review the cloud bill and shut down servers nobody is using.",
-      "ar": "تفتح لوحات المتابعة أول شيء: كل الخدمات سليمة عدا واحدة بطيئة. تجد السبب في سجلات النظام وتغيّر إعدادًا وتراقب السرعة وهي تعود. ثم تحسّن خط النشر الآلي للكود الجديد ليتمكن المبرمجون من الإطلاق أسرع. بعد الظهر تراجع فاتورة السحابة وتغلق الخوادم التي لا يستخدمها أحد."
+      "ar": "أول حاجة بتبص على الداشبوردز: كل الخدمات تمام ما عدا واحدة بطيئة. تلاقي السبب في اللوجز، تغيّر إعداد، وتتابع السرعة وهي بترجع. بعدين تحسّن الـpipeline اللي بينشر الكود الجديد أوتوماتيك، عشان المبرمجين يطلّعوا أسرع. بعد الضهر تراجع فاتورة الكلاود وتقفل السيرفرات اللي محدش بيستخدمها."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Set up and manage servers and networks in the cloud.",
-        "ar": "تجهّز وتدير الخوادم والشبكات على السحابة."
+        "ar": "بتجهّز وتدير السيرفرات والشبكات على الكلاود."
       },
       {
         "en": "Automate building, testing and releasing software.",
-        "ar": "تؤتمت بناء البرمجيات واختبارها وإطلاقها."
+        "ar": "بتعمل أتمتة لبناء البرامج واختبارها وإطلاقها."
       },
       {
         "en": "Watch systems and respond when something fails.",
-        "ar": "تراقب الأنظمة وتتصرف عند حدوث عطل."
+        "ar": "بتراقب الأنظمة وتتصرف لما حاجة تقع."
       },
       {
         "en": "Keep systems secure and backed up.",
-        "ar": "تحافظ على أمان الأنظمة وعلى النسخ الاحتياطية."
+        "ar": "بتحافظ على أمان الأنظمة والنسخ الاحتياطية."
       },
       {
         "en": "Control cloud costs.",
-        "ar": "تتحكم في تكاليف السحابة."
+        "ar": "بتتحكم في تكاليف الكلاود."
       }
     ],
     "environments": [
@@ -110,11 +110,11 @@
     "alternativeRoutes": [
       {
         "en": "Start in IT support or as a system or network administrator, then move to cloud with certificates.",
-        "ar": "البدء في الدعم الفني أو إدارة الأنظمة والشبكات ثم الانتقال إلى السحابة بالشهادات."
+        "ar": "تبدأ في الدعم الفني أو إدارة الأنظمة والشبكات، وبعدين تنقل للكلاود بالشهادات."
       },
       {
         "en": "Training programs and bootcamps such as ITI, DEPI or vendor academies, plus cloud certificates.",
-        "ar": "برامج التدريب والمعسكرات مثل ITI وDEPI وأكاديميات الشركات، مع شهادات السحابة."
+        "ar": "برامج تدريب وبوت كامبس زي ITI وDEPI وأكاديميات الشركات، ومعاها شهادات الكلاود."
       }
     ],
     "licensing": null
@@ -143,7 +143,7 @@
       },
       {
         "en": "Remote work for international companies",
-        "ar": "العمل عن بُعد لشركات دولية"
+        "ar": "شغل من البيت لشركات برّه"
       }
     ]
   },

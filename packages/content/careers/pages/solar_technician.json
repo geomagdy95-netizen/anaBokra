@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You put the sun to work.",
-      "ar": "تجعل الشمس تعمل لصالح الناس."
+      "ar": "بتخلّي الشمس تشتغل لصالح الناس."
     },
     "summary": {
       "en": "Solar technicians install, connect and maintain solar panels on roofs, farms and power plants. They work outdoors, often at height, and follow strict electrical safety rules. Egypt has strong sunshine and growing interest in solar power, so this skill is expected to be useful.",
-      "ar": "فني الطاقة الشمسية يركّب الألواح الشمسية ويوصّلها ويصونها على الأسطح والمزارع ومحطات الكهرباء. يعمل في الهواء الطلق وغالبًا على ارتفاع، ويلتزم بقواعد السلامة الكهربائية الصارمة. في مصر شمس قوية واهتمام متزايد بالطاقة الشمسية، لذلك يُتوقع أن تكون هذه المهارة مفيدة."
+      "ar": "فني الطاقة الشمسية بيركّب الألواح الشمسية ويوصّلها ويصونها على الأسطح والمزارع ومحطات الكهربا. بيشتغل في الهوا الطلق، وغالبًا على ارتفاع، وبيلتزم بقواعد سلامة الكهربا الصارمة. مصر فيها شمس قوية واهتمام بالطاقة الشمسية بيزيد، فالمهارة دي متوقع تبقى مطلوبة."
     },
     "dayInLife": {
       "en": "You arrive at a rooftop early, before the heat. With your team you fix the frames, place the panels and connect the cables to the inverter. You wear a harness and gloves all day. You then test the system with a meter, record the voltage and show the owner how the app displays the power.",
-      "ar": "تصل إلى سطح مبنى مبكرًا قبل الحر. مع فريقك تثبّت الهياكل وتضع الألواح وتوصل الكابلات بالإنفرتر. ترتدي حزام الأمان والقفازات طوال اليوم. ثم تختبر النظام بجهاز القياس وتسجل الجهد وتري المالك كيف يعرض التطبيق الطاقة."
+      "ar": "بتوصل سطح مبنى بدري قبل الحر. مع فريقك تثبّتوا الشاسيهات، وتحطوا الألواح، وتوصّلوا الكابلات بالإنفرتر. لابس حزام الأمان والجوانتي طول اليوم. وبعدين تختبر السيستم بالجهاز، وتسجّل الفولت، وتوري صاحب البيت الأبلكيشن بيعرض الطاقة إزاي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Read plans and prepare roofs or ground sites.",
-        "ar": "تقرأ المخططات وتجهّز الأسطح أو المواقع الأرضية."
+        "ar": "بتقرا المخططات وتجهّز الأسطح أو المواقع الأرضية."
       },
       {
         "en": "Fix panels and mounting frames safely.",
-        "ar": "تثبّت الألواح والهياكل بأمان."
+        "ar": "بتثبّت الألواح والشاسيهات بأمان."
       },
       {
         "en": "Connect panels, inverters and batteries.",
-        "ar": "توصّل الألواح والإنفرتر والبطاريات."
+        "ar": "بتوصّل الألواح والإنفرتر والبطاريات."
       },
       {
         "en": "Test and maintain systems and clean panels.",
-        "ar": "تختبر الأنظمة وتصونها وتنظف الألواح."
+        "ar": "بتختبر الأنظمة وتصونها وتنضّف الألواح."
       },
       {
         "en": "Follow electrical and height safety rules.",
-        "ar": "تلتزم بقواعد السلامة الكهربائية والعمل على الارتفاعات."
+        "ar": "بتلتزم بقواعد سلامة الكهربا والشغل على ارتفاع."
       }
     ],
     "environments": [
@@ -99,11 +99,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as an electrician, then take solar training courses.",
-        "ar": "البدء ككهربائي ثم أخذ دورات الطاقة الشمسية."
+        "ar": "تبدأ كهربائي، وبعدين تاخد كورسات طاقة شمسية."
       },
       {
         "en": "Learn on the job as a helper in a solar installation company and add certificates.",
-        "ar": "التعلم أثناء العمل كمساعد في شركة تركيب طاقة شمسية وإضافة الشهادات."
+        "ar": "تتعلم من الشغل كمساعد في شركة تركيب طاقة شمسية وتضيف شهادات."
       }
     ],
     "licensing": {
@@ -130,11 +130,11 @@
       },
       {
         "en": "Starting your own installation business",
-        "ar": "بدء عمل تركيب خاص"
+        "ar": "تبدأ شغل تركيب بتاعك"
       },
       {
         "en": "Further study toward renewable energy engineering",
-        "ar": "استكمال الدراسة نحو هندسة الطاقة المتجددة"
+        "ar": "تكمّل دراسة ناحية هندسة الطاقة المتجددة"
       }
     ]
   },

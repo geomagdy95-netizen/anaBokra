@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You make drawings and models come alive.",
-      "ar": "تجعل الرسومات والمجسمات تنبض بالحياة."
+      "ar": "بتخلّي الرسومات والمجسمات تتحرك وتعيش."
     },
     "summary": {
       "en": "Animators and 3D artists create moving pictures, characters and worlds for cartoons, ads, games, films and online videos. The work combines drawing skill, patience and software knowledge. A strong portfolio often matters more than a certificate.",
-      "ar": "فنان الأنيميشن وثلاثي الأبعاد يصنع صورًا متحركة وشخصيات وعوالم للرسوم المتحركة والإعلانات والألعاب والأفلام والفيديوهات. يجمع العمل بين مهارة الرسم والصبر ومعرفة البرامج. وملف الأعمال القوي غالبًا يهم أكثر من الشهادة."
+      "ar": "فنان الأنيميشن والـ3D بيعمل صور متحركة وشخصيات وعوالم للكرتون والإعلانات والألعاب والأفلام وفيديوهات النت. الشغل بيجمع بين مهارة الرسم والصبر وفهم البرامج. والبورتفوليو القوي غالبًا أهم من الشهادة."
     },
     "dayInLife": {
       "en": "You open the storyboard and animate a character walking, changing the timing until the movement feels natural. After a coffee you model a prop in 3D and add texture. The director gives you notes about the last scene, so you change the facial expression and send it again. Before you leave, you save and label all your files for the team.",
-      "ar": "تفتح اللوحة القصصية وتحرّك شخصية تمشي وتعدّل التوقيت حتى تبدو الحركة طبيعية. بعد القهوة تصمم مجسمًا ثلاثي الأبعاد وتضيف عليه الخامة. يعطيك المخرج ملاحظات على المشهد الأخير فتغيّر تعبير الوجه وترسله ثانية. قبل أن تغادر تحفظ ملفاتك وتسميها لأجل الفريق."
+      "ar": "بتفتح الستوري بورد وتحرّك شخصية ماشية، وتظبط التوقيت لحد ما الحركة تبان طبيعية. بعد القهوة تعمل مجسم 3D لحاجة في المشهد وتحط عليه الخامة. المخرج يديك ملاحظات على المشهد اللي فات، فتغيّر تعبير الوش وتبعته تاني. وقبل ما تمشي تحفظ ملفاتك وتسمّيها عشان الفريق."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Draw storyboards and design characters and environments.",
-        "ar": "ترسم اللوحات القصصية وتصمم الشخصيات والبيئات."
+        "ar": "بترسم الستوري بورد وتصمم الشخصيات والأماكن."
       },
       {
         "en": "Build 3D models and add textures and lights.",
-        "ar": "تبني نماذج ثلاثية الأبعاد وتضيف الخامات والإضاءة."
+        "ar": "بتبني موديلات 3D وتحط الخامات والإضاءة."
       },
       {
         "en": "Animate characters and objects frame by frame or with tools.",
-        "ar": "تحرك الشخصيات والأجسام إطارًا بإطار أو بالأدوات."
+        "ar": "بتحرّك الشخصيات والأجسام فريم بفريم أو بالأدوات."
       },
       {
         "en": "Add effects and finish scenes for film, ads or games.",
-        "ar": "تضيف المؤثرات وتنهي المشاهد للأفلام والإعلانات والألعاب."
+        "ar": "بتضيف المؤثرات وتقفل المشاهد للأفلام أو الإعلانات أو الألعاب."
       },
       {
         "en": "Work with directors, editors and developers to match their notes.",
-        "ar": "تعمل مع المخرجين والمونتيرين والمبرمجين وتنفذ ملاحظاتهم."
+        "ar": "بتشتغل مع المخرجين والمونتيرين والمبرمجين وتنفّذ ملاحظاتهم."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Self-study with free tutorials and build a demo reel of short animations.",
-        "ar": "التعلم الذاتي بدروس مجانية وبناء عرض (ديمو ريل) لرسوم قصيرة."
+        "ar": "تتعلم لوحدك من دروس ببلاش وتعمل ديمو ريل فيه أنيميشنز قصيرة."
       },
       {
         "en": "Specialist animation schools and diplomas, such as Nayzak Animation School, for 2D/3D skills.",
-        "ar": "مدارس ودبلومات الأنيميشن مثل مدرسة نايزك لمهارات 2D/3D."
+        "ar": "مدارس ودبلومات الأنيميشن المتخصصة، زي مدرسة نيزك، لمهارات الـ2D والـ3D."
       }
     ],
     "licensing": null
@@ -141,7 +141,7 @@
       },
       {
         "en": "Freelance illustration or 3D work",
-        "ar": "الرسم التوضيحي أو أعمال 3D كعمل حر"
+        "ar": "رسم توضيحي أو شغل 3D فري لانس"
       }
     ]
   },

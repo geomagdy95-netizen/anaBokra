@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You protect air, water and land from harm.",
-      "ar": "تحمي الهواء والماء والأرض من الأذى."
+      "ar": "بتحمي الهوا والمية والأرض من الضرر."
     },
     "summary": {
       "en": "Environmental scientists study pollution, water, soil, waste and climate, and help companies and governments reduce harm to nature. They collect samples, test them in labs and recommend solutions. Egypt's water, desert, Nile and industrial growth make this an important field.",
-      "ar": "عالم البيئة يدرس التلوث والمياه والتربة والمخلفات والمناخ ويساعد الشركات والحكومات على تقليل الضرر الواقع على الطبيعة. يجمع العينات ويختبرها في المعامل ويوصي بالحلول. وتجعل المياه والصحراء والنيل والنمو الصناعي في مصر هذا المجال مهمًا."
+      "ar": "عالم البيئة بيدرس التلوث والمية والتربة والمخلفات والمناخ، وبيساعد الشركات والحكومات يقلّلوا الضرر على الطبيعة. بيجمع عينات ويختبرها في المعامل ويقترح حلول. والمية والصحرا والنيل والنمو الصناعي في مصر مخلّيين المجال ده مهم."
     },
     "dayInLife": {
       "en": "You go to a factory with your team to collect samples of wastewater. In the lab you test them and compare the numbers with the allowed limits. After lunch you map the data and write a short report showing where the problem is. The last hour you meet the factory's manager to explain a cheaper way to clean the water.",
-      "ar": "تذهب مع فريقك إلى مصنع لجمع عينات من مياه الصرف. في المعمل تختبرها وتقارن الأرقام بالحدود المسموح بها. بعد الغداء ترسم البيانات على الخريطة وتكتب تقريرًا قصيرًا يوضح مكان المشكلة. وفي الساعة الأخيرة تقابل مدير المصنع لتشرح له طريقة أرخص لتنقية المياه."
+      "ar": "بتروح مع فريقك مصنع تجمعوا عينات من مية الصرف. في المعمل تختبرها وتقارن الأرقام بالحدود المسموح بيها. بعد الغدا تحط البيانات على خريطة وتكتب تقرير قصير يوضّح المشكلة فين. وفي آخر ساعة تقابل مدير المصنع تشرح له طريقة أرخص ينضّف بيها المية."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Collect samples of air, water or soil in the field.",
-        "ar": "تجمع عينات الهواء أو الماء أو التربة من الميدان."
+        "ar": "بتجمع عينات هوا أو مية أو تربة من الميدان."
       },
       {
         "en": "Test samples in the lab and analyse the data.",
-        "ar": "تختبر العينات في المعمل وتحلل البيانات."
+        "ar": "بتختبر العينات في المعمل وتحلّل البيانات."
       },
       {
         "en": "Check whether a project or factory follows environmental rules.",
-        "ar": "تفحص التزام المشروع أو المصنع بالقواعد البيئية."
+        "ar": "بتشوف المشروع أو المصنع ملتزم بالقواعد البيئية ولا لأ."
       },
       {
         "en": "Recommend ways to cut pollution, waste and energy use.",
-        "ar": "توصي بطرق لتقليل التلوث والمخلفات واستهلاك الطاقة."
+        "ar": "بتقترح طرق تقلّل التلوث والمخلفات واستهلاك الطاقة."
       },
       {
         "en": "Write reports and explain findings to managers and communities.",
-        "ar": "تكتب التقارير وتشرح النتائج للمديرين والمجتمعات."
+        "ar": "بتكتب التقارير وتشرح النتايج للمديرين والناس في المنطقة."
       }
     ],
     "environments": [
@@ -108,11 +108,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a lab or field technician with a technical diploma and continue to a degree.",
-        "ar": "البدء كفني معمل أو ميدان بدبلوم فني ثم استكمال الدراسة الجامعية."
+        "ar": "تبدأ فني معمل أو ميدان بدبلوم فني وتكمّل الجامعة."
       },
       {
         "en": "A master's in environmental science or management after a related degree.",
-        "ar": "ماجستير في علوم البيئة أو إدارتها بعد درجة قريبة."
+        "ar": "ماجستير في علوم البيئة أو إدارتها بعد شهادة قريبة."
       }
     ],
     "licensing": {

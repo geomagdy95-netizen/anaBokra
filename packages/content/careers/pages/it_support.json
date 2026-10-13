@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "When something stops working, you are the one who fixes it.",
-      "ar": "حين يتوقف شيء عن العمل، أنت من يصلحه."
+      "ar": "لما حاجة تقف، إنت اللي بتصلّحها."
     },
     "summary": {
       "en": "IT support specialists help people and companies with computers, networks, printers and software problems. They answer questions, install and repair systems, and keep offices running. It is one of the easiest ways to start in technology and a good first step toward networking, cloud or security.",
-      "ar": "أخصائي الدعم الفني يساعد الأفراد والشركات في مشكلات الكمبيوتر والشبكات والطابعات والبرامج. يجيب عن الأسئلة ويركّب الأنظمة ويصلحها ويُبقي المكاتب تعمل. وهي من أسهل طرق البدء في التكنولوجيا وخطوة جيدة نحو الشبكات والسحابة والأمان."
+      "ar": "أخصائي الدعم الفني بيساعد الناس والشركات في مشاكل الكمبيوتر والشبكات والطابعات والبرامج. بيرد على الأسئلة، ويركّب الأنظمة ويصلّحها، ويخلّي المكاتب شغالة. ودي من أسهل طرق البداية في التكنولوجيا، وخطوة كويسة ناحية الشبكات والكلاود والأمن."
     },
     "dayInLife": {
       "en": "The first call of the day is from an employee who cannot log in. You check the account, reset the password and explain how to keep it safe. Then you set up a new laptop for a colleague, find out why the office printer stopped working, and update the antivirus on several computers. You record every problem in the ticket system and note what fixed it.",
-      "ar": "أول مكالمة في اليوم من موظف لا يستطيع تسجيل الدخول. تفحص حسابه وتعيد ضبط كلمة المرور وتشرح له كيف يحميها. ثم تجهّز لابتوبًا جديدًا لزميل، وتعرف سبب توقف طابعة المكتب، وتحدّث برنامج الحماية على عدة أجهزة. تسجّل كل مشكلة في نظام التذاكر وتدوّن ما أصلحها."
+      "ar": "أول مكالمة في اليوم من موظف مش عارف يعمل لوج إن. تكشف على حسابه، وتعمل ريسيت للباسورد، وتشرح له يحميه إزاي. بعدين تجهّز لابتوب جديد لزميل، وتعرف طابعة المكتب وقفت ليه، وتحدّث الأنتي فايرس على كذا جهاز. وتسجّل كل مشكلة على سيستم التذاكر وتكتب إيه اللي حلّها."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Answer users' questions by phone, chat or in person.",
-        "ar": "تجيب عن أسئلة المستخدمين بالهاتف أو الدردشة أو شخصيًا."
+        "ar": "بترد على أسئلة المستخدمين بالتليفون أو الشات أو وش لوش."
       },
       {
         "en": "Install, set up and repair computers, printers and software.",
-        "ar": "تركّب وتجهّز وتصلح الكمبيوترات والطابعات والبرامج."
+        "ar": "بتركّب وتجهّز وتصلّح الكمبيوترات والطابعات والبرامج."
       },
       {
         "en": "Manage user accounts and passwords.",
-        "ar": "تدير حسابات المستخدمين وكلمات المرور."
+        "ar": "بتدير حسابات المستخدمين والباسوردات."
       },
       {
         "en": "Fix basic network and internet problems.",
-        "ar": "تصلح مشكلات الشبكة والإنترنت الأساسية."
+        "ar": "بتصلّح مشاكل الشبكة والنت الأساسية."
       },
       {
         "en": "Record problems and solutions in a ticket system.",
-        "ar": "تسجّل المشكلات وحلولها في نظام التذاكر."
+        "ar": "بتسجّل المشاكل وحلولها على سيستم التذاكر."
       }
     ],
     "environments": [
@@ -111,11 +111,11 @@
     "alternativeRoutes": [
       {
         "en": "Technical secondary school or WE Schools of Applied Technology (ICT), then entry-level support jobs.",
-        "ar": "الثانوية الفنية أو مدارس WE للتكنولوجيا التطبيقية (ICT) ثم وظائف الدعم المبتدئة."
+        "ar": "الثانوي الفني أو مدارس WE للتكنولوجيا التطبيقية (ICT)، وبعدين وظايف دعم للمبتدئين."
       },
       {
         "en": "Vendor academy courses and certificates such as Cisco, Huawei or CompTIA, with hands-on practice.",
-        "ar": "دورات أكاديميات الشركات وشهاداتها مثل Cisco وHuawei وCompTIA مع تدريب عملي."
+        "ar": "كورسات وشهادات أكاديميات الشركات زي Cisco وHuawei وCompTIA، مع تدريب عملي."
       }
     ],
     "licensing": null

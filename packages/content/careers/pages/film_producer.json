@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You bring stories to the screen, from the first idea to the final cut.",
-      "ar": "تجلب القصص إلى الشاشة، من الفكرة الأولى حتى المونتاج النهائي."
+      "ar": "بتطلّع الحكايات على الشاشة، من أول فكرة لحد المونتاج النهائي."
     },
     "summary": {
       "en": "Producers and directors turn ideas into films, series, adverts and online videos. Producers manage money, people and schedules; directors guide the creative look and the actors. It is a competitive field where you learn mostly by working on sets and building a portfolio.",
-      "ar": "المنتجون والمخرجون يحوّلون الأفكار إلى أفلام ومسلسلات وإعلانات وفيديوهات على الإنترنت. المنتج يدير المال والناس والجداول، والمخرج يقود الشكل الإبداعي والممثلين. مجال تنافسي نتعلم فيه غالبًا من العمل في مواقع التصوير وبناء ملف أعمال."
+      "ar": "المنتجين والمخرجين بيحوّلوا الأفكار لأفلام ومسلسلات وإعلانات وفيديوهات على النت. المنتج بيدير الفلوس والناس والمواعيد، والمخرج بيقود الشكل الإبداعي والممثلين. مجال فيه منافسة، وأغلب التعلم فيه من الشغل في اللوكيشنز وبناء بورتفوليو."
     },
     "dayInLife": {
       "en": "On a shooting day you arrive before the crew and check the schedule. As a director you talk to the actors about the scene and decide where to put the camera; as a producer you check the budget and permits for tomorrow's location. When filming ends you watch the day's footage and plan what is left to shoot.",
-      "ar": "في يوم التصوير تصل قبل الطاقم وتراجع الجدول. كمخرج تتحدث مع الممثلين عن المشهد وتقرر مكان الكاميرا؛ وكمنتج تراجع ميزانية وتصاريح موقع الغد. عند انتهاء التصوير تشاهد لقطات اليوم وتخطط لما بقي."
+      "ar": "في يوم التصوير بتوصل قبل الطاقم وتراجع الجدول. كمخرج بتتكلم مع الممثلين عن المشهد وتقرر الكاميرا تتحط فين؛ وكمنتج بتراجع ميزانية وتصاريح لوكيشن بكرة. ولما التصوير يخلص تتفرج على لقطات اليوم وتخطط للي فاضل."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Develop ideas and scripts and find funding.",
-        "ar": "تطور الأفكار والسيناريوهات وتبحث عن التمويل."
+        "ar": "بتطوّر الأفكار والسيناريوهات وتدوّر على تمويل."
       },
       {
         "en": "Plan budgets, schedules, locations and permits.",
-        "ar": "تخطط الميزانيات والجداول والمواقع والتصاريح."
+        "ar": "بتخطط الميزانيات والمواعيد واللوكيشنز والتصاريح."
       },
       {
         "en": "Hire and lead the cast and crew.",
-        "ar": "تختار الممثلين والطاقم وتقودهم."
+        "ar": "بتختار الممثلين والطاقم وتقودهم."
       },
       {
         "en": "Direct the performances and the look of each scene.",
-        "ar": "تخرج الأداء وشكل كل مشهد."
+        "ar": "بتوجّه أداء الممثلين وشكل كل مشهد."
       },
       {
         "en": "Supervise editing, sound and the final delivery.",
-        "ar": "تشرف على المونتاج والصوت والتسليم النهائي."
+        "ar": "بتشرف على المونتاج والصوت والتسليم النهائي."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a runner or assistant on sets, in a production company or an advert house, and grow with experience.",
-        "ar": "البدء كمساعد في مواقع التصوير أو شركات الإنتاج أو الإعلانات والترقي بالخبرة."
+        "ar": "تبدأ رانر أو مساعد في اللوكيشنز أو في شركة إنتاج أو شركة إعلانات، وتكبر بالخبرة."
       },
       {
         "en": "Short filmmaking courses and making your own short films for a portfolio.",
-        "ar": "دورات قصيرة في صناعة الأفلام وإنتاج أفلام قصيرة لك لبناء ملف الأعمال."
+        "ar": "كورسات قصيرة في صناعة الأفلام، وإنك تعمل أفلام قصيرة بتاعتك للبورتفوليو."
       }
     ],
     "licensing": {

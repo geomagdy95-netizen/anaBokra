@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You read the story of the Earth in rocks.",
-      "ar": "تقرأ قصة الأرض في الصخور."
+      "ar": "بتقرا حكاية الأرض في الصخور."
     },
     "summary": {
       "en": "Geologists study rocks, minerals, water and the structure of the Earth. They help find oil, gas, minerals and groundwater, and check that land is safe for building. Fieldwork in the desert and in the mountains is a big part of the job.",
-      "ar": "الجيولوجي يدرس الصخور والمعادن والمياه وتركيب الأرض. يساعد في العثور على البترول والغاز والمعادن والمياه الجوفية، ويتأكد أن الأرض آمنة للبناء. والعمل الميداني في الصحراء والجبال جزء كبير من المهنة."
+      "ar": "الجيولوجي بيدرس الصخور والمعادن والمية وتركيب الأرض. بيساعد يلاقوا بترول وغاز ومعادن ومية جوفية، وبيتأكد إن الأرض آمنة للبنا. والشغل الميداني في الصحرا والجبال جزء كبير من المهنة."
     },
     "dayInLife": {
       "en": "You wake early to drive into the desert with your team. At a site you study the rock layers, take samples and mark them on a map. In the evening you look at the samples under a microscope and compare them with older records. The next day you draw a map and write a short report about what the site might contain.",
-      "ar": "تستيقظ مبكرًا وتسافر مع فريقك إلى الصحراء. في الموقع تدرس طبقات الصخور وتأخذ العينات وتعلّمها على الخريطة. في المساء تفحص العينات بالميكروسكوب وتقارنها بسجلات قديمة. وفي اليوم التالي ترسم الخريطة وتكتب تقريرًا قصيرًا عما قد يحويه الموقع."
+      "ar": "بتصحى بدري وتسافر مع فريقك للصحرا. في الموقع تدرس طبقات الصخور وتاخد عينات وتعلّمها على الخريطة. بالليل تبص على العينات تحت الميكروسكوب وتقارنها بسجلات قديمة. وتاني يوم ترسم الخريطة وتكتب تقرير قصير عن اللي ممكن يكون في الموقع."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Do fieldwork: study rocks and collect samples.",
-        "ar": "تعمل ميدانيًا: تدرس الصخور وتجمع العينات."
+        "ar": "بتشتغل في الميدان: تدرس الصخور وتجمع عينات."
       },
       {
         "en": "Make geological maps and interpret data.",
-        "ar": "تعدّ الخرائط الجيولوجية وتفسّر البيانات."
+        "ar": "بتعمل خرايط جيولوجية وتفسّر البيانات."
       },
       {
         "en": "Test samples in labs.",
-        "ar": "تختبر العينات في المعامل."
+        "ar": "بتختبر العينات في المعامل."
       },
       {
         "en": "Help find oil, gas, minerals and groundwater.",
-        "ar": "تساعد في اكتشاف البترول والغاز والمعادن والمياه الجوفية."
+        "ar": "بتساعد تلاقوا بترول وغاز ومعادن ومية جوفية."
       },
       {
         "en": "Advise on the safety of land for construction and mining.",
-        "ar": "تقدم المشورة حول سلامة الأرض للبناء والتعدين."
+        "ar": "بتنصح في سلامة الأرض للبنا والتعدين."
       }
     ],
     "environments": [
@@ -108,11 +108,11 @@
     "alternativeRoutes": [
       {
         "en": "A master's degree in a specialty such as petroleum geology or hydrogeology.",
-        "ar": "ماجستير في تخصص مثل جيولوجيا البترول أو الجيولوجيا المائية."
+        "ar": "ماجستير في تخصص زي جيولوجيا البترول أو الجيولوجيا المائية."
       },
       {
         "en": "Start as a field assistant or lab technician in a company and grow with training.",
-        "ar": "البدء كمساعد ميداني أو فني معمل في شركة والتقدم بالتدريب."
+        "ar": "تبدأ مساعد ميداني أو فني معمل في شركة وتكبر بالتدريب."
       }
     ],
     "licensing": {

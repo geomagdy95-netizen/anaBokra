@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You decide, in the name of the law, what is fair when people disagree.",
-      "ar": "تحكم باسم القانون بما هو عادل حين يختلف الناس."
+      "ar": "بتحكم باسم القانون بالعدل لما الناس يختلفوا."
     },
     "summary": {
       "en": "Judges and prosecutors are public servants in the judicial bodies. Prosecutors investigate crimes and bring cases, and judges hear the evidence and issue rulings. In Egypt you enter through official appointment competitions open to law graduates, which are announced for specific graduating classes, not through a normal job application.",
-      "ar": "القضاة وأعضاء النيابة موظفون عموميون في الجهات القضائية. تحقق النيابة في الجرائم وترفع الدعاوى، ويستمع القاضي إلى الأدلة ويصدر الأحكام. في مصر يكون الدخول عبر مسابقات تعيين رسمية مفتوحة لخريجي الحقوق وتُعلن لدفعات تخرج محددة، وليس بطلب توظيف عادي."
+      "ar": "القضاة وأعضاء النيابة موظفين عموميين في الجهات القضائية. النيابة بتحقق في الجرايم وبترفع القضايا، والقاضي بيسمع الأدلة وبيحكم. في مصر الدخول بيبقى عن طريق مسابقات تعيين رسمية لخريجين الحقوق، بتتعلن لدفعات تخرج معينة، مش بطلب توظيف عادي."
     },
     "dayInLife": {
       "en": "As an assistant prosecutor, you start your day by reading new case files from the police. You question a witness and write the record carefully, because every word will be read later. You decide what evidence is missing and ask for it. In the afternoon you attend a court session and present the case file. At the end of the day you read the law again for a difficult issue and write down your decision with reasons. The role needs calm, accuracy and the ability to stay fair even when the case is upsetting.",
-      "ar": "كمعاون نيابة تبدأ يومك بقراءة ملفات القضايا الجديدة من الشرطة. تستجوب شاهدًا وتكتب المحضر بدقة لأن كل كلمة ستُقرأ لاحقًا. تحدد الأدلة الناقصة وتطلبها. بعد الظهر تحضر جلسة في المحكمة وتعرض ملف القضية. في آخر اليوم تعيد قراءة القانون في مسألة صعبة وتكتب قرارك بأسبابه. الدور يحتاج هدوءًا ودقة وقدرة على البقاء عادلًا حتى لو كانت القضية مؤلمة."
+      "ar": "كمعاون نيابة بتبدأ يومك بقراية ملفات القضايا الجديدة اللي جاية من الشرطة. تسأل شاهد وتكتب المحضر بدقة، لأن كل كلمة هتتقري بعدين. تحدد الأدلة الناقصة وتطلبها. بعد الضهر تحضر جلسة في المحكمة وتعرض ملف القضية. وفي آخر اليوم تقرا القانون تاني في مسألة صعبة وتكتب قرارك بأسبابه. الدور محتاج هدوء ودقة وإنك تفضل عادل حتى لو القضية موجعة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Prosecutors: investigate crimes, question suspects and witnesses and decide whether to bring a case.",
-        "ar": "أعضاء النيابة: يحققون في الجرائم ويستجوبون المتهمين والشهود ويقررون رفع الدعوى أو لا."
+        "ar": "النيابة: بيحققوا في الجرايم، ويسألوا المتهمين والشهود، ويقرروا ترفع القضية ولا لأ."
       },
       {
         "en": "Judges: listen to both sides, study the evidence and the law and write reasoned rulings.",
-        "ar": "القضاة: يستمعون للطرفين ويدرسون الأدلة والقانون ويكتبون أحكامًا مسببة."
+        "ar": "القضاة: بيسمعوا الطرفين، ويدرسوا الأدلة والقانون، ويكتبوا أحكام مسبّبة."
       },
       {
         "en": "Make sure procedures are followed and the rights of all parties are respected.",
-        "ar": "يتأكدون من اتباع الإجراءات واحترام حقوق جميع الأطراف."
+        "ar": "بيتأكدوا إن الإجراءات ماشية صح وحقوق كل الأطراف محترمة."
       },
       {
         "en": "Write official records, decisions and judgments carefully.",
-        "ar": "يكتبون المحاضر والقرارات والأحكام بدقة."
+        "ar": "بيكتبوا المحاضر والقرارات والأحكام بدقة."
       },
       {
         "en": "Study new laws and court principles continuously.",
-        "ar": "يدرسون القوانين الجديدة ومبادئ المحاكم باستمرار."
+        "ar": "بيدرسوا القوانين الجديدة ومبادئ المحاكم على طول."
       },
       {
         "en": "Keep case details confidential and stay impartial.",
-        "ar": "يحافظون على سرية تفاصيل القضايا ويلتزمون بالحياد."
+        "ar": "بيحافظوا على سرية تفاصيل القضايا ويلتزموا بالحياد."
       }
     ],
     "environments": [
@@ -112,15 +112,15 @@
     "alternativeRoutes": [
       {
         "en": "Official competitions open only to law (and some Sharia and police) graduates, announced for specific graduating classes. There is no private route.",
-        "ar": "مسابقات رسمية مفتوحة لخريجي الحقوق (وبعض خريجي الشريعة والشرطة) تُعلن لدفعات تخرج محددة. لا يوجد طريق خاص."
+        "ar": "مسابقات رسمية لخريجين الحقوق بس (وبعض خريجين الشريعة والشرطة)، بتتعلن لدفعات تخرج معينة. مفيش طريق خاص."
       },
       {
         "en": "Many people first work as lawyers or legal researchers and keep their grades strong for the next announcement, but check the age limit.",
-        "ar": "كثيرون يعملون محامين أو باحثين قانونيين ويحافظون على تقديراتهم لانتظار الإعلان القادم، لكن انتبه لحد السن."
+        "ar": "ناس كتير بيشتغلوا الأول محامين أو باحثين قانونيين ويحافظوا على تقديراتهم لحد الإعلان الجاي، بس خلّي بالك من حد السن."
       },
       {
         "en": "If you do not enter the judiciary, legal departments in the state, companies and the bar are other legal careers.",
-        "ar": "إن لم تدخل القضاء فالإدارات القانونية في الدولة والشركات والمحاماة مسارات قانونية أخرى."
+        "ar": "لو ما دخلتش القضاء، الإدارات القانونية في الدولة والشركات والمحاماة طرق قانونية تانية."
       }
     ],
     "licensing": {
@@ -213,6 +213,10 @@
   },
   "marketEgypt": {
     "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "No citable salary figure was found. Judicial salaries follow official pay scales set by law for each rank, and we did not find a current official scale to cite. Paylab lists prosecutor roles but does not reflect the judicial pay scale, so no number is given. Ask the judicial body for official information.",
+      "ar": "لم نعثر على رقم راتب يمكن الاستشهاد به. تتبع مرتبات القضاة جداول رسمية يحددها القانون لكل درجة، ولم نجد جدولًا رسميًا حديثًا للاستشهاد به. يذكر Paylab وظائف نيابة لكنه لا يعبّر عن جدول الأجور القضائي، لذلك لا نقدم رقمًا. اسأل الجهة القضائية للحصول على معلومات رسمية."
+    },
     "demand": "low",
     "employers": [
       {
@@ -233,8 +237,8 @@
       }
     ],
     "freelanceRemote": {
-      "en": "Salary: No citable salary figure was found. Judicial salaries follow official pay scales set by law for each rank, and we did not find a current official scale to cite. Paylab lists prosecutor roles but does not reflect the judicial pay scale, so no number is given. Ask the judicial body for official information. Not applicable: judicial posts are full-time public positions and cannot be done as freelance or remotely.",
-      "ar": "الراتب: لم نعثر على رقم راتب يمكن الاستشهاد به. تتبع مرتبات القضاة جداول رسمية يحددها القانون لكل درجة، ولم نجد جدولًا رسميًا حديثًا للاستشهاد به. يذكر Paylab وظائف نيابة لكنه لا يعبّر عن جدول الأجور القضائي، لذلك لا نقدم رقمًا. اسأل الجهة القضائية للحصول على معلومات رسمية. لا ينطبق: الوظائف القضائية وظائف عامة بدوام كامل ولا تُؤدَّى عملًا حرًا أو عن بُعد."
+      "en": "Not applicable: judicial posts are full-time public positions and cannot be done as freelance or remotely.",
+      "ar": "ما ينفعش: الوظايف القضائية وظايف عامة بدوام كامل، وما بتتعملش فري لانس ولا من البيت."
     },
     "regions": [
       {
@@ -246,13 +250,13 @@
   },
   "global": {
     "en": "Judicial posts are national, so there is no direct way to move abroad as a judge. Egyptian legal experience can help in international arbitration, international organisations and some Gulf legal systems that recruit Arab legal experts, usually after leaving the judiciary or through secondment rules. Check each case with the authorities.",
-    "ar": "الوظائف القضائية وطنية، فلا توجد طريقة مباشرة للانتقال للخارج كقاضٍ. قد تفيد الخبرة القانونية المصرية في التحكيم الدولي والمنظمات الدولية وبعض الأنظمة القانونية الخليجية التي تستعين بخبراء قانون عرب، غالبًا بعد ترك القضاء أو بحسب قواعد الإعارة. اسأل الجهات المختصة في كل حالة."
+    "ar": "الوظايف القضائية وطنية، فمفيش طريق مباشر إنك تشتغل قاضي برّه. الخبرة القانونية المصرية ممكن تفيد في التحكيم الدولي والمنظمات الدولية وبعض الأنظمة القانونية في الخليج اللي بتستعين بخبراء قانون عرب، وغالبًا بعد ترك القضاء أو حسب قواعد الإعارة. اسأل الجهات المختصة في كل حالة."
   },
   "reality": {
     "pros": [
       {
         "en": "A role with high responsibility and respect in society",
-        "ar": "دور بمسؤولية كبيرة ومكانة في المجتمع"
+        "ar": "دور مسؤوليته كبيرة ومكانته في المجتمع عالية"
       },
       {
         "en": "Stable public career with clear rank progression",
@@ -260,58 +264,58 @@
       },
       {
         "en": "Work that directly affects people's rights",
-        "ar": "عمل يمس حقوق الناس مباشرة"
+        "ar": "شغل بيأثر على حقوق الناس مباشرة"
       }
     ],
     "challenges": [
       {
         "en": "Very competitive entry and strict conditions, including age limits and an interview",
-        "ar": "دخول شديد التنافس وشروط صارمة منها السن والمقابلة"
+        "ar": "الدخول فيه منافسة جامدة وشروط صارمة، منها السن والمقابلة"
       },
       {
         "en": "Heavy caseload and emotional weight of serious cases",
-        "ar": "عدد قضايا كبير وعبء نفسي من القضايا الخطيرة"
+        "ar": "قضايا كتير وتقل نفسي من القضايا الخطيرة"
       },
       {
         "en": "Postings may be far from home, and personal activity is limited by the duty of impartiality",
-        "ar": "قد يكون التعيين بعيدًا عن بيتك، وحياد الوظيفة يقيّد بعض أنشطتك الشخصية"
+        "ar": "التعيين ممكن يبقى بعيد عن بيتك، والحياد بيقيّد شوية من أنشطتك الشخصية"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Judges decide only by their own feelings.",
-          "ar": "القاضي يحكم بمشاعره فقط."
+          "ar": "القاضي بيحكم بمشاعره وبس."
         },
         "fact": {
           "en": "Judges must follow the law and give written reasons that higher courts can review.",
-          "ar": "على القاضي أن يتبع القانون ويكتب أسبابًا يمكن أن تراجعها محاكم أعلى."
+          "ar": "القاضي لازم يمشي على القانون ويكتب أسباب ممكن محاكم أعلى تراجعها."
         }
       },
       {
         "myth": {
           "en": "You can apply any time you wish.",
-          "ar": "تستطيع التقديم في أي وقت."
+          "ar": "تقدر تقدّم في أي وقت."
         },
         "fact": {
           "en": "Competitions open only when the body announces them for specific graduating classes, with age and grade conditions.",
-          "ar": "المسابقات لا تُفتح إلا عندما تعلنها الجهة لدفعات تخرج محددة بشروط للسن والتقدير."
+          "ar": "المسابقات ما بتتفتحش غير لما الجهة تعلنها لدفعات تخرج معينة، بشروط في السن والتقدير."
         }
       },
       {
         "myth": {
           "en": "Judges and prosecutors do the same job.",
-          "ar": "القضاة وأعضاء النيابة وظيفتهم واحدة."
+          "ar": "القضاة والنيابة شغلهم واحد."
         },
         "fact": {
           "en": "Prosecutors investigate and bring cases. Judges hear both sides and decide. They are different roles within the judicial system.",
-          "ar": "النيابة تحقق وترفع الدعوى. القاضي يسمع الطرفين ويحكم. هما دوران مختلفان داخل المنظومة القضائية."
+          "ar": "النيابة بتحقق وبترفع القضية. والقاضي بيسمع الطرفين وبيحكم. دول دورين مختلفين جوه المنظومة القضائية."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Office and court hours are regular, but on-call duty for urgent investigations and heavy workloads can extend the day. Moving between governorates may affect family life.",
-      "ar": "ساعات المكتب والمحكمة منتظمة، لكن المناوبات للتحقيقات العاجلة وكثرة القضايا قد تطيل اليوم. والانتقال بين المحافظات قد يؤثر على الحياة الأسرية."
+      "ar": "مواعيد المكتب والمحكمة منتظمة، بس مناوبات التحقيقات العاجلة وكتر القضايا ممكن يطوّلوا اليوم. والنقل بين المحافظات ممكن يأثر على حياة العيلة."
     }
   },
   "progression": {

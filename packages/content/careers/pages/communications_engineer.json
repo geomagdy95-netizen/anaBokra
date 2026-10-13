@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You build the networks that carry calls, internet and data across Egypt and the world.",
-      "ar": "تبني الشبكات التي تنقل المكالمات والإنترنت والبيانات عبر مصر والعالم."
+      "ar": "بتبني الشبكات اللي بتنقل المكالمات والنت والبيانات في مصر والعالم."
     },
     "summary": {
       "en": "Communications engineers design, install and optimize mobile, fiber and wireless networks and the electronics behind them. Egypt launched 5G in 2025 and sells growing digital services, so telecom operators, equipment vendors and data centers need engineers. The degree mixes electronics, signals and programming.",
-      "ar": "مهندس الاتصالات يصمم ويركّب ويحسّن شبكات المحمول والألياف والاتصال اللاسلكي والإلكترونيات خلفها. أطلقت مصر الجيل الخامس في 2025 وتنمو خدماتها الرقمية، فتحتاج شركات الاتصالات وموردو المعدات ومراكز البيانات إلى مهندسين. تجمع الدراسة الإلكترونيات والإشارات والبرمجة."
+      "ar": "مهندس الاتصالات بيصمم ويركّب ويحسّن شبكات الموبايل والفايبر والوايرلس والإلكترونيات اللي وراها. مصر أطلقت الجيل الخامس في 2025 وخدماتها الرقمية بتكبر، فشركات الاتصالات وموردين المعدات ومراكز البيانات محتاجين مهندسين. والدراسة بتجمع بين الإلكترونيات والإشارات والبرمجة."
     },
     "dayInLife": {
       "en": "You start the day looking at a dashboard of cell towers in your area, where one site shows weak signal. You analyse the data and see interference from a neighbouring antenna, so you change its tilt remotely. After lunch you travel with a field team to a new site to test fiber links and check the radio equipment. Back at the desk you plan the capacity for a stadium that will host a big match, because thousands of phones will connect at once. At the end of the day you write the change log carefully so the night team can see what you did.",
-      "ar": "تبدأ يومك بلوحة مراقبة لأبراج الشبكة في منطقتك، وأحد المواقع إشارته ضعيفة. تحلل البيانات فتجد تداخلًا من هوائي مجاور، فتغيّر ميله عن بعد. بعد الغداء تسافر مع فريق ميداني إلى موقع جديد لاختبار وصلات الألياف وفحص أجهزة الراديو. وعند مكتبك تخطط سعة الشبكة لاستاد سيستضيف مباراة كبيرة لأن آلاف الهواتف ستتصل معًا. وفي النهاية تكتب سجل التغييرات بعناية ليعرف فريق الليل ما فعلت."
+      "ar": "بتبدأ يومك بداشبورد أبراج الشبكة في منطقتك، وفيه موقع إشارته ضعيفة. تحلّل البيانات وتلاقي تداخل من أنتينا جنبه، فتغيّر ميلها عن بعد. بعد الغدا تسافر مع فريق ميداني لموقع جديد تختبروا وصلات الفايبر وتكشفوا على أجهزة الراديو. وعلى مكتبك تخطط سعة الشبكة لاستاد عليه ماتش كبير، عشان آلاف الموبايلات هتتصل في نفس الوقت. وفي الآخر تكتب سجل التغييرات بالتفصيل عشان فريق الليل يعرف إنت عملت إيه."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Plan and design wireless, fiber and core network systems.",
-        "ar": "تخطط وتصمم نظم الشبكات اللاسلكية والألياف والنواة."
+        "ar": "بتخطط وتصمم أنظمة الشبكات اللاسلكية والفايبر والنواة."
       },
       {
         "en": "Install, test and commission antennas, radios and network equipment.",
-        "ar": "تركّب وتختبر وتشغّل الهوائيات وأجهزة الراديو ومعدات الشبكة."
+        "ar": "بتركّب وتختبر وتشغّل الأنتينات وأجهزة الراديو ومعدات الشبكة."
       },
       {
         "en": "Monitor network performance and fix faults.",
-        "ar": "تراقب أداء الشبكة وتصلح الأعطال."
+        "ar": "بتراقب أداء الشبكة وتصلّح الأعطال."
       },
       {
         "en": "Optimize coverage, speed and capacity.",
-        "ar": "تحسّن التغطية والسرعة والسعة."
+        "ar": "بتحسّن التغطية والسرعة والسعة."
       },
       {
         "en": "Work with software, cloud and security teams.",
-        "ar": "تعمل مع فرق البرمجيات والسحابة والأمن."
+        "ar": "بتشتغل مع فرق البرمجة والكلاود والأمن."
       },
       {
         "en": "Document designs and follow regulations and standards.",
-        "ar": "توثق التصميمات وتتبع اللوائح والمعايير."
+        "ar": "بتوثّق التصميمات وتمشي على اللوائح والمعايير."
       }
     ],
     "environments": [
@@ -122,15 +122,15 @@
     "alternativeRoutes": [
       {
         "en": "The National Telecommunication Institute (NTI) runs postgraduate and professional training for telecom graduates.",
-        "ar": "يقدم المعهد القومي للاتصالات تدريبًا مهنيًا ودراسات عليا لخريجي الاتصالات."
+        "ar": "المعهد القومي للاتصالات (NTI) بيقدّم دراسات عليا وتدريب مهني لخريجين الاتصالات."
       },
       {
         "en": "Applied technology schools in ICT and vendor academies (Cisco, Huawei) are shorter routes into network technician roles.",
-        "ar": "مدارس التكنولوجيا التطبيقية في الاتصالات وأكاديميات الشركات (سيسكو وهواوي) مسارات أقصر إلى أدوار فنيي الشبكات."
+        "ar": "مدارس التكنولوجيا التطبيقية في الاتصالات وأكاديميات الشركات (سيسكو وهواوي) طرق أقصر لوظايف فني الشبكات."
       },
       {
         "en": "Computer science or software engineering can lead to network software roles.",
-        "ar": "علوم الحاسب أو هندسة البرمجيات قد تقود إلى وظائف برمجيات الشبكات."
+        "ar": "علوم الحاسب أو هندسة البرمجيات ممكن يوصّلوك لوظايف برامج الشبكات."
       }
     ],
     "licensing": {
@@ -240,7 +240,7 @@
     ],
     "freelanceRemote": {
       "en": "Network design, monitoring and software automation can be done remotely for some employers, while installation and field testing are on site. Freelancing is less common than in software.",
-      "ar": "يمكن عمل تصميم الشبكات ومراقبتها وأتمتتها عن بعد لدى بعض الجهات، أما التركيب والاختبار الميداني فمواقعي. والعمل الحر أقل شيوعًا منه في البرمجة."
+      "ar": "تصميم الشبكات ومراقبتها وأتمتتها ممكن يتعملوا من البيت عند بعض الجهات، أما التركيب والاختبار الميداني فلازم في الموقع. والفري لانس أقل انتشارًا من البرمجة."
     },
     "regions": [
       {
@@ -269,66 +269,66 @@
   },
   "global": {
     "en": "Telecom engineers are needed in the Gulf, where 5G and fiber are expanding, and with vendors worldwide. Experience with major vendor equipment and certifications such as CCNA make relocation easier.",
-    "ar": "مهندسو الاتصالات مطلوبون في الخليج حيث يتوسع الجيل الخامس والألياف، ولدى الموردين حول العالم. وتسهل الخبرة بمعدات الموردين الكبار وشهادات مثل CCNA الانتقال للخارج."
+    "ar": "مهندسين الاتصالات مطلوبين في الخليج، حيث الجيل الخامس والفايبر بيتوسعوا، وعند الموردين في العالم كله. الخبرة على معدات الموردين الكبار وشهادات زي CCNA بتسهّل السفر."
   },
   "reality": {
     "pros": [
       {
         "en": "Egypt rolled out 5G in 2025 and digital services are growing",
-        "ar": "أطلقت مصر الجيل الخامس في 2025 والخدمات الرقمية تنمو"
+        "ar": "مصر أطلقت الجيل الخامس في 2025 والخدمات الرقمية بتكبر"
       },
       {
         "en": "Skills transfer between telecom, IT and cloud",
-        "ar": "المهارات تنتقل بين الاتصالات وتقنية المعلومات والسحابة"
+        "ar": "مهاراتك بتنفع بين الاتصالات وتكنولوجيا المعلومات والكلاود"
       },
       {
         "en": "Strong vendor certifications and training programs exist",
-        "ar": "توجد شهادات وبرامج تدريب قوية لدى الموردين"
+        "ar": "فيه شهادات وبرامج تدريب قوية عند الموردين"
       }
     ],
     "challenges": [
       {
         "en": "Tough degree with signals, electromagnetics and math",
-        "ar": "دراسة صعبة فيها الإشارات والكهرومغناطيسية والرياضيات"
+        "ar": "دراسة صعبة فيها إشارات وكهرومغناطيسية ورياضيات"
       },
       {
         "en": "Network faults can require night or emergency work",
-        "ar": "أعطال الشبكة قد تتطلب عملًا ليليًا أو طارئًا"
+        "ar": "أعطال الشبكة ممكن تحتاج شغل بالليل أو طوارئ"
       },
       {
         "en": "Technology changes quickly, so learning never stops",
-        "ar": "التقنية تتغير بسرعة فلا يتوقف التعلم"
+        "ar": "التكنولوجيا بتتغير بسرعة، فالتعلم ما بيقفش"
       },
       {
         "en": "Some jobs are field-based and physically demanding",
-        "ar": "بعض الوظائف ميدانية وتتطلب جهدًا بدنيًا"
+        "ar": "فيه وظايف ميدانية ومتعبة جسديًا"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Telecom is only about mobile towers.",
-          "ar": "الاتصالات مجرد أبراج محمول."
+          "ar": "الاتصالات يعني أبراج موبايل وبس."
         },
         "fact": {
           "en": "It includes fiber, data centers, satellite, internet services and software for networks.",
-          "ar": "تشمل الألياف ومراكز البيانات والأقمار الصناعية وخدمات الإنترنت وبرمجيات الشبكات."
+          "ar": "فيها فايبر ومراكز بيانات وأقمار صناعية وخدمات نت وبرامج للشبكات."
         }
       },
       {
         "myth": {
           "en": "AI will make network engineers unnecessary.",
-          "ar": "الذكاء الاصطناعي سيلغي الحاجة لمهندسي الشبكات."
+          "ar": "الذكاء الاصطناعي هيخلّي مهندسين الشبكات مالهمش لازمة."
         },
         "fact": {
           "en": "Automation changes tasks, but engineers who understand networks and can script and use AI tools remain needed.",
-          "ar": "الأتمتة تغيّر المهام، لكن المهندسين الذين يفهمون الشبكات ويكتبون سكربتات ويستخدمون أدوات الذكاء الاصطناعي يبقون مطلوبين."
+          "ar": "الأتمتة بتغيّر المهام، بس المهندسين اللي فاهمين الشبكات وبيكتبوا سكريبتات وبيستخدموا أدوات الذكاء الاصطناعي هيفضلوا مطلوبين."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Office roles are regular, while operations and field roles may require on-call duty and travel. Mid-career managers often move to more predictable planning roles.",
-      "ar": "أدوار المكتب منتظمة، أما العمليات والميدان فقد تتطلب مناوبة وسفرًا. وينتقل المديرون في منتصف المسار غالبًا إلى أدوار تخطيط أكثر انتظامًا."
+      "ar": "شغل المكتب منتظم، أما التشغيل والميدان فممكن يحتاجوا مناوبات وسفر. وفي نص المشوار المديرين غالبًا بينقلوا لشغل تخطيط مواعيده أوضح."
     }
   },
   "progression": {

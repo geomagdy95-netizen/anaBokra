@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You find the story hidden in data and help organizations make better decisions.",
-      "ar": "تجد القصة المخبأة في البيانات وتساعد المؤسسات على اتخاذ قرارات أفضل."
+      "ar": "بتلاقي الحكاية المستخبية في البيانات وبتساعد المؤسسات تاخد قرارات أحسن."
     },
     "summary": {
       "en": "Data scientists collect, clean and analyze data, build predictive models and explain the results to non-experts. In Egypt banks, telecoms, e-commerce and government use data more every year. The job needs statistics, programming and clear communication.",
-      "ar": "عالم البيانات يجمع البيانات وينظفها ويحللها ويبني نماذج تنبؤية ويشرح النتائج لغير المتخصصين. في مصر تستخدم البنوك والاتصالات والتجارة الإلكترونية والحكومة البيانات أكثر كل عام. تحتاج الوظيفة إحصاءً وبرمجة وتواصلًا واضحًا."
+      "ar": "عالم البيانات بيجمع البيانات وينضّفها ويحلّلها، ويبني نماذج بتتوقع، ويشرح النتايج للناس اللي مش متخصصة. في مصر البنوك والاتصالات والتجارة الإلكترونية والحكومة بيستخدموا البيانات أكتر كل سنة. الشغلانة محتاجة إحصاء وبرمجة وتواصل واضح."
     },
     "dayInLife": {
       "en": "You open a dataset of customer orders and notice that many dates are missing, so you clean them first. Then you build a simple model to predict which customers may stop buying and test how accurate it is. In the afternoon you meet the marketing team and show a chart in plain language: which customers to contact and why. You also discuss limits honestly, because the model is not perfect. Before leaving you save your notebook and write how you got the results so a colleague can repeat it.",
-      "ar": "تفتح بيانات طلبات العملاء وتلاحظ أن كثيرًا من التواريخ ناقصة، فتنظفها أولًا. ثم تبني نموذجًا بسيطًا يتوقع أي العملاء قد يتوقفون عن الشراء وتختبر دقته. بعد الظهر تقابل فريق التسويق وتعرض رسمًا بلغة بسيطة: أي العملاء نتواصل معهم ولماذا. وتناقش حدود النموذج بصدق لأنه ليس مثاليًا. قبل أن تغادر تحفظ دفترك وتكتب كيف وصلت للنتائج ليعيدها زميل."
+      "ar": "بتفتح بيانات أوردرات العملاء وتلاحظ إن تواريخ كتير ناقصة، فتنضّفها الأول. بعدين تبني نموذج بسيط يتوقع أنهي عملاء ممكن يبطّلوا يشتروا، وتختبر دقته. بعد الضهر تقابل فريق التسويق وتعرض رسم بكلام بسيط: نكلّم أنهي عملاء وليه. وتتكلم بصراحة عن حدود النموذج لأنه مش مثالي. وقبل ما تمشي تحفظ النوت بوك وتكتب وصلت للنتايج إزاي عشان زميلك يقدر يعيدها."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Collect and clean data from databases, files and APIs.",
-        "ar": "تجمع البيانات وتنظفها من قواعد البيانات والملفات وواجهات البرمجة."
+        "ar": "بتجمع البيانات وتنضّفها من قواعد البيانات والملفات والـAPIs."
       },
       {
         "en": "Explore data with statistics and charts to find patterns.",
-        "ar": "تستكشف البيانات بالإحصاء والرسوم لإيجاد الأنماط."
+        "ar": "بتستكشف البيانات بالإحصاء والرسوم عشان تلاقي الأنماط."
       },
       {
         "en": "Build and test machine-learning models for prediction or classification.",
-        "ar": "تبني وتختبر نماذج تعلم آلي للتنبؤ أو التصنيف."
+        "ar": "بتبني وتختبر نماذج تعلم آلي للتوقع أو التصنيف."
       },
       {
         "en": "Create dashboards and reports for decision makers.",
-        "ar": "تنشئ لوحات وتقارير لصناع القرار."
+        "ar": "بتعمل داشبوردز وتقارير لصناع القرار."
       },
       {
         "en": "Check that results are fair, accurate and not misleading.",
-        "ar": "تتأكد أن النتائج عادلة ودقيقة وغير مضللة."
+        "ar": "بتتأكد إن النتايج عادلة ودقيقة ومش مضللة."
       },
       {
         "en": "Work with engineers to put models into use.",
-        "ar": "تعمل مع المهندسين لإدخال النماذج في الاستخدام."
+        "ar": "بتشتغل مع المهندسين عشان النماذج تدخل الاستخدام."
       }
     ],
     "environments": [
@@ -127,15 +127,15 @@
     "alternativeRoutes": [
       {
         "en": "Statistics, mathematics or economics degrees plus programming skills are a common route.",
-        "ar": "درجات الإحصاء أو الرياضيات أو الاقتصاد مع مهارات البرمجة طريق شائع."
+        "ar": "شهادة إحصاء أو رياضيات أو اقتصاد ومعاها مهارات برمجة طريق منتشر."
       },
       {
         "en": "Programs such as ITI, DEPI, Egypt FWD, Route, GOMYCODE and the Microsoft/Huawei academies teach data skills quickly.",
-        "ar": "برامج مثل ITI وDEPI وEgypt FWD وRoute وGOMYCODE وأكاديميات مايكروسوفت وهواوي تعلم مهارات البيانات سريعًا."
+        "ar": "برامج زي ITI وDEPI وEgypt FWD وRoute وGOMYCODE وأكاديميات مايكروسوفت وهواوي بتعلّم مهارات البيانات بسرعة."
       },
       {
         "en": "Start as a data analyst, then move to data science as you build modelling skills.",
-        "ar": "ابدأ كمحلل بيانات ثم انتقل إلى علم البيانات مع بناء مهارات النمذجة."
+        "ar": "ابدأ محلل بيانات، وبعدين انقل لعلم البيانات وإنت بتبني مهارات النمذجة."
       }
     ],
     "licensing": null
@@ -255,7 +255,7 @@
     ],
     "freelanceRemote": {
       "en": "Data analysis and dashboard projects are widely available remotely, and some data scientists work for foreign companies from Egypt. Freelance projects usually start with analytics and reporting before modelling.",
-      "ar": "مشروعات تحليل البيانات واللوحات متاحة كثيرًا عن بعد، ويعمل بعض علماء البيانات لشركات أجنبية من مصر. وتبدأ المشروعات الحرة عادة بالتحليلات والتقارير قبل النمذجة."
+      "ar": "مشاريع تحليل البيانات والداشبوردز متاحة كتير من البيت، وفيه علماء بيانات بيشتغلوا لشركات برّه وهم في مصر. والمشاريع الفري لانس غالبًا بتبدأ بالتحليلات والتقارير قبل بناء النماذج."
     },
     "regions": [
       {
@@ -284,66 +284,66 @@
   },
   "global": {
     "en": "Data scientists are in demand across the Gulf, Europe and the US, often through remote hiring. Competition is high at senior level, and employers want evidence of real projects and strong fundamentals in math, statistics and programming.",
-    "ar": "علماء البيانات مطلوبون في الخليج وأوروبا وأمريكا، غالبًا بالتوظيف عن بعد. المنافسة عالية في المستويات العليا، وتريد الشركات دليلًا على مشروعات حقيقية وأساسيات قوية في الرياضيات والإحصاء والبرمجة."
+    "ar": "علماء البيانات مطلوبين في الخليج وأوروبا وأمريكا، وكتير بالتعيين من بعيد. المنافسة عالية في المستويات الكبيرة، والشركات عايزة تشوف مشاريع حقيقية وأساسيات قوية في الرياضيات والإحصاء والبرمجة."
   },
   "reality": {
     "pros": [
       {
         "en": "Interesting problems across many industries",
-        "ar": "مشكلات شيقة في صناعات كثيرة"
+        "ar": "مشاكل ممتعة في صناعات كتير"
       },
       {
         "en": "Strong pay potential and remote options",
-        "ar": "إمكانية أجر قوي وخيارات عن بعد"
+        "ar": "مرتبات ممكن تبقى قوية وفرص شغل من البيت"
       },
       {
         "en": "Skills combine tech, math and business",
-        "ar": "مهارات تجمع التقنية والرياضيات والأعمال"
+        "ar": "مهارات بتجمع بين التكنولوجيا والرياضيات والبيزنس"
       }
     ],
     "challenges": [
       {
         "en": "Much of the work is cleaning data, not building models",
-        "ar": "جزء كبير من العمل تنظيف بيانات لا بناء نماذج"
+        "ar": "جزء كبير من الشغل تنضيف بيانات، مش بناء نماذج"
       },
       {
         "en": "Entry-level data science jobs are scarce; many start as analysts",
-        "ar": "وظائف علم البيانات للمبتدئين قليلة؛ وكثيرون يبدأون كمحللين"
+        "ar": "وظايف علم البيانات للمبتدئين قليلة؛ وكتير بيبدأوا محللين"
       },
       {
         "en": "Tools change fast and AI automates parts of the work",
-        "ar": "الأدوات تتغير بسرعة والذكاء الاصطناعي يؤتمت أجزاء من العمل"
+        "ar": "الأدوات بتتغير بسرعة والذكاء الاصطناعي بيعمل أتمتة لأجزاء من الشغل"
       },
       {
         "en": "Data quality in Egypt can be poor or scattered",
-        "ar": "جودة البيانات في مصر قد تكون ضعيفة أو متفرقة"
+        "ar": "جودة البيانات في مصر ممكن تبقى ضعيفة أو متفرقة"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Data science is only building AI models.",
-          "ar": "علم البيانات يعني بناء نماذج ذكاء اصطناعي فقط."
+          "ar": "علم البيانات يعني بناء نماذج ذكاء اصطناعي وبس."
         },
         "fact": {
           "en": "Most of it is understanding the problem, preparing data and communicating results.",
-          "ar": "أغلبه فهم المشكلة وتجهيز البيانات وتوصيل النتائج."
+          "ar": "أغلبه فهم المشكلة وتجهيز البيانات وتوصيل النتايج."
         }
       },
       {
         "myth": {
           "en": "You need a PhD.",
-          "ar": "تحتاج دكتوراه."
+          "ar": "لازم دكتوراه."
         },
         "fact": {
           "en": "Many roles ask for a bachelor's degree plus strong projects, though research roles prefer postgraduate study.",
-          "ar": "كثير من الوظائف تطلب بكالوريوس مع مشروعات قوية، بينما تفضل وظائف البحث الدراسات العليا."
+          "ar": "وظايف كتير بتطلب بكالوريوس ومعاه مشاريع قوية، بس وظايف البحث بتفضّل الدراسات العليا."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Usually standard office or hybrid hours, with crunch time near reporting deadlines or launches.",
-      "ar": "غالبًا ساعات مكتب أو هجينة معتادة، مع ضغط قرب مواعيد التقارير أو الإطلاق."
+      "ar": "غالبًا مواعيد مكتب عادية أو هايبرد، مع ضغط قرب مواعيد التقارير أو الإطلاق."
     }
   },
   "progression": {

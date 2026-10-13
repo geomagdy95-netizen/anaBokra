@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You design and fix the machines that move, heat, cool and make things.",
-      "ar": "تصمم وتصلح الآلات التي تتحرك وتسخن وتبرد وتصنع الأشياء."
+      "ar": "بتصمم وتصلّح المكن اللي بيتحرك وبيسخّن وبيبرّد وبيصنّع الحاجات."
     },
     "summary": {
       "en": "Mechanical engineers work on engines, pumps, air conditioning, production lines and power plants. In Egypt they are needed in factories, building services (HVAC), oil and gas and maintenance. It is a broad degree, so you can specialize later.",
-      "ar": "المهندس الميكانيكي يعمل على المحركات والمضخات والتكييف وخطوط الإنتاج ومحطات الطاقة. في مصر هو مطلوب في المصانع وخدمات المباني (التكييف) والبترول والغاز والصيانة. الدراسة واسعة فيمكنك التخصص لاحقًا."
+      "ar": "المهندس الميكانيكي بيشتغل على الموتورات والطلمبات والتكييف وخطوط الإنتاج ومحطات الكهربا. في مصر مطلوب في المصانع وخدمات المباني (التكييف) والبترول والغاز والصيانة. والدراسة واسعة، فتقدر تتخصص بعدين."
     },
     "dayInLife": {
       "en": "At 8 a.m. you walk through a bottling factory to check why one machine keeps stopping. You read the sensor data, spot that a bearing is overheating and plan its replacement. Late morning you sit with the maintenance team and agree a schedule that will not stop production. After lunch you work in the office on a CAD drawing for a new conveyor guard, then calculate the load on its supports. Before leaving you update the maintenance log so the next shift knows what you did.",
-      "ar": "في الثامنة تتجول في مصنع تعبئة لتعرف لماذا تتوقف إحدى الماكينات باستمرار. تقرأ بيانات الحساسات وتكتشف أن رولمان بلي يسخن فتخطط لاستبداله. قبل الظهر تجلس مع فريق الصيانة وتتفقون على جدول لا يوقف الإنتاج. وبعد الغداء تعمل في المكتب على رسم CAD لحاجز حماية جديد للسير الناقل ثم تحسب الأحمال على دعاماته. قبل أن تغادر تحدّث سجل الصيانة ليعرف الفريق التالي ما فعلته."
+      "ar": "الساعة 8 بتلف في مصنع تعبئة تشوف ليه مكنة بتقف كل شوية. تقرا بيانات الحساسات، وتلاحظ إن رولمان بلي بيسخن، فتخطط تغيّره. قبل الضهر تقعد مع فريق الصيانة وتتفقوا على جدول ما يوقفش الإنتاج. بعد الغدا تشتغل في المكتب على رسمة CAD لحاجز حماية جديد للسير، وتحسب الأحمال على الدعامات بتاعته. وقبل ما تمشي تحدّث سجل الصيانة عشان الشيفت اللي بعدك يعرف إنت عملت إيه."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Design mechanical parts, machines and systems using CAD and calculations.",
-        "ar": "تصمم أجزاءً وآلات وأنظمة ميكانيكية بالـ CAD والحسابات."
+        "ar": "بتصمم أجزاء ومكن وأنظمة ميكانيكية بالـCAD والحسابات."
       },
       {
         "en": "Analyze heat, fluids, stress and vibration to make designs safe and efficient.",
-        "ar": "تحلل الحرارة والموائع والإجهاد والاهتزاز لجعل التصميم آمنًا وكفؤًا."
+        "ar": "بتحلّل الحرارة والموائع والإجهاد والاهتزاز عشان التصميم يبقى آمن وكفء."
       },
       {
         "en": "Plan and supervise installation of equipment, pipes and air conditioning.",
-        "ar": "تخطط وتشرف على تركيب المعدات والمواسير والتكييف."
+        "ar": "بتخطط وتشرف على تركيب المعدات والمواسير والتكييف."
       },
       {
         "en": "Maintain and troubleshoot plant equipment to reduce breakdowns.",
-        "ar": "تصون معدات المصنع وتحل أعطالها لتقليل التوقفات."
+        "ar": "بتصون معدات المصنع وتحل أعطالها عشان التوقفات تقل."
       },
       {
         "en": "Test prototypes and check quality and standards.",
-        "ar": "تختبر النماذج وتراجع الجودة والمعايير."
+        "ar": "بتختبر النماذج وتراجع الجودة والمعايير."
       },
       {
         "en": "Estimate costs and write technical reports.",
-        "ar": "تقدر التكاليف وتكتب التقارير الفنية."
+        "ar": "بتقدّر التكاليف وتكتب التقارير الفنية."
       }
     ],
     "environments": [
@@ -122,11 +122,11 @@
     "alternativeRoutes": [
       {
         "en": "Technical institutes and applied technology schools offer technician paths in maintenance and production, and the Egyptian-Japanese KOSEN program targets practical engineering.",
-        "ar": "المعاهد الفنية ومدارس التكنولوجيا التطبيقية تقدم مسارات فنية في الصيانة والإنتاج، وبرنامج كوسن المصري الياباني يركز على الهندسة التطبيقية."
+        "ar": "المعاهد الفنية ومدارس التكنولوجيا التطبيقية فيها مسارات فنية في الصيانة والإنتاج، وبرنامج كوسن المصري الياباني مركّز على الهندسة التطبيقية."
       },
       {
         "en": "Mechatronics and industrial engineering are close alternatives.",
-        "ar": "الميكاترونيكس والهندسة الصناعية بدائل قريبة."
+        "ar": "الميكاترونكس والهندسة الصناعية بدايل قريبة."
       }
     ],
     "licensing": {
@@ -249,7 +249,7 @@
     ],
     "freelanceRemote": {
       "en": "Design drafting, CAD and technical consulting can be freelance or remote, but plant work and installation need you on site.",
-      "ar": "الرسم والتصميم بالـ CAD والاستشارات الفنية يمكن أن تتم بنظام العمل الحر أو عن بعد، أما عمل المصنع والتركيبات فيتطلب وجودك في الموقع."
+      "ar": "الرسم والتصميم بالـCAD والاستشارات الفنية ممكن يتعملوا فري لانس أو من البيت، أما شغل المصانع والتركيبات فلازم تكون في الموقع."
     },
     "regions": [
       {
@@ -267,66 +267,66 @@
   },
   "global": {
     "en": "Mechanical engineers are wanted in the Gulf for building services, plants and maintenance, and elsewhere in manufacturing and energy. Gulf engineering councils usually require registration and experience; a good record in a recognized plant helps.",
-    "ar": "المهندسون الميكانيكيون مطلوبون في الخليج لخدمات المباني والمصانع والصيانة، وفي التصنيع والطاقة بدول أخرى. تشترط مجالس الهندسة الخليجية التسجيل والخبرة عادة؛ وتساعد خبرة جيدة في مصنع معروف."
+    "ar": "المهندسين الميكانيكا مطلوبين في الخليج لخدمات المباني والمصانع والصيانة، وفي دول تانية في التصنيع والطاقة. مجالس الهندسة في الخليج غالبًا بتشترط تسجيل وخبرة؛ والخبرة الكويسة في مصنع معروف بتساعد."
   },
   "reality": {
     "pros": [
       {
         "en": "Broad degree that opens many industries",
-        "ar": "دراسة واسعة تفتح صناعات كثيرة"
+        "ar": "دراسة واسعة بتفتح صناعات كتير"
       },
       {
         "en": "Practical, hands-on problem solving",
-        "ar": "حل مشكلات عملي وملموس"
+        "ar": "حل مشاكل عملي تقدر تلمسه"
       },
       {
         "en": "Strong link to Egypt's industrial and energy growth",
-        "ar": "ارتباط قوي بنمو الصناعة والطاقة في مصر"
+        "ar": "مرتبطة جامد بنمو الصناعة والطاقة في مصر"
       }
     ],
     "challenges": [
       {
         "en": "Factory sites can be hot, noisy and far from the city",
-        "ar": "مواقع المصانع قد تكون حارة وصاخبة وبعيدة عن المدينة"
+        "ar": "مواقع المصانع ممكن تبقى حر ودوشة وبعيدة عن المدينة"
       },
       {
         "en": "Starting pay is modest",
-        "ar": "الأجر في البداية متواضع"
+        "ar": "المرتب في الأول متواضع"
       },
       {
         "en": "Shift work or on-call maintenance in some roles",
-        "ar": "ورديات أو مناوبة صيانة في بعض الوظائف"
+        "ar": "شيفتات أو مناوبات صيانة في بعض الوظايف"
       },
       {
         "en": "Competition from many engineering graduates",
-        "ar": "منافسة من كثرة خريجي الهندسة"
+        "ar": "منافسة من خريجين هندسة كتير"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Mechanical engineers just fix cars.",
-          "ar": "المهندس الميكانيكي يصلح السيارات فقط."
+          "ar": "المهندس الميكانيكي بيصلّح عربيات وبس."
         },
         "fact": {
           "en": "They design air-conditioning, power plants, pumps, machines and production lines too.",
-          "ar": "يصمم أيضًا التكييف ومحطات الكهرباء والمضخات والآلات وخطوط الإنتاج."
+          "ar": "كمان بيصمم التكييف ومحطات الكهربا والطلمبات والمكن وخطوط الإنتاج."
         }
       },
       {
         "myth": {
           "en": "It is only for men.",
-          "ar": "هي للرجال فقط."
+          "ar": "دي للرجالة بس."
         },
         "fact": {
           "en": "Women work in design, quality, HVAC and plant roles; workplaces differ, so look for supportive employers.",
-          "ar": "تعمل النساء في التصميم والجودة والتكييف والمصانع؛ وتختلف بيئات العمل فابحث عن جهات داعمة."
+          "ar": "البنات بيشتغلوا في التصميم والجودة والتكييف والمصانع؛ وبيئات الشغل بتختلف، فدوّر على أماكن داعمة."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Office and design roles are steady. Plant and maintenance roles may require shifts or call-outs.",
-      "ar": "أدوار المكتب والتصميم منتظمة. أدوار المصانع والصيانة قد تتطلب ورديات أو استدعاءً."
+      "ar": "شغل المكتب والتصميم منتظم. شغل المصانع والصيانة ممكن يحتاج شيفتات أو استدعاء."
     }
   },
   "progression": {

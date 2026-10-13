@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You explore what things are made of and how they change.",
-      "ar": "تستكشف مما تتكون الأشياء وكيف تتغير."
+      "ar": "بتكتشف الحاجات معمولة من إيه وبتتغير إزاي."
     },
     "summary": {
       "en": "Chemists study substances and how they react, then use that knowledge to test quality, develop new materials and solve problems. They work in labs in factories, hospitals, food and medicine companies and research centres. Careful measuring, safety and patience are the core of the job.",
-      "ar": "الكيميائي يدرس المواد وتفاعلاتها ثم يستخدم المعرفة في اختبار الجودة وتطوير مواد جديدة وحل المشكلات. يعمل في معامل المصانع والمستشفيات وشركات الأغذية والأدوية ومراكز الأبحاث. القياس الدقيق والسلامة والصبر هي أساس المهنة."
+      "ar": "الكيميائي بيدرس المواد وتفاعلاتها، وبعدين بيستخدم المعرفة دي في اختبار الجودة وتطوير مواد جديدة وحل المشاكل. بيشتغل في معامل المصانع والمستشفيات وشركات الأكل والدوا ومراكز الأبحاث. القياس الدقيق والسلامة والصبر هما أساس المهنة."
     },
     "dayInLife": {
       "en": "You put on your lab coat and glasses and prepare solutions for a test. You run a sample through the instrument, record the numbers and compare them with the standard. One result is off, so you repeat the test to be sure. In the afternoon you write the report and clean the equipment according to the safety rules.",
-      "ar": "ترتدي معطف المعمل والنظارة وتجهّز محاليل لاختبار. تمرر عينة على الجهاز وتسجل الأرقام وتقارنها بالمعيار. نتيجة واحدة غير مطابقة فتعيد الاختبار لتتأكد. بعد الظهر تكتب التقرير وتنظف الأدوات وفق قواعد السلامة."
+      "ar": "بتلبس البالطو والنضارة وتجهّز محاليل لاختبار. تحط عينة على الجهاز، وتسجّل الأرقام، وتقارنها بالمعيار. فيه نتيجة مش مظبوطة، فتعيد الاختبار عشان تتأكد. بعد الضهر تكتب التقرير وتنضّف الأدوات حسب قواعد السلامة."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Prepare samples and run chemical tests.",
-        "ar": "تجهّز العينات وتجري الاختبارات الكيميائية."
+        "ar": "بتجهّز العينات وتعمل الاختبارات الكيميائية."
       },
       {
         "en": "Use instruments to measure and identify substances.",
-        "ar": "تستخدم الأجهزة لقياس المواد وتحديدها."
+        "ar": "بتستخدم الأجهزة عشان تقيس المواد وتعرف هي إيه."
       },
       {
         "en": "Check product quality against standards.",
-        "ar": "تفحص جودة المنتجات مقارنة بالمعايير."
+        "ar": "بتفحص جودة المنتجات وتقارنها بالمعايير."
       },
       {
         "en": "Develop and improve materials and processes.",
-        "ar": "تطور المواد والعمليات وتحسّنها."
+        "ar": "بتطوّر المواد والعمليات وتحسّنها."
       },
       {
         "en": "Record results, write reports and follow safety rules.",
-        "ar": "تسجّل النتائج وتكتب التقارير وتلتزم بقواعد السلامة."
+        "ar": "بتسجّل النتايج وتكتب التقارير وتلتزم بقواعد السلامة."
       }
     ],
     "environments": [
@@ -109,11 +109,11 @@
     "alternativeRoutes": [
       {
         "en": "Technical institute or industrial school diploma to start as a lab technician, continuing to a degree later.",
-        "ar": "دبلوم معهد فني أو مدرسة صناعية للبدء كفني معمل ثم استكمال الدراسة الجامعية."
+        "ar": "دبلوم معهد فني أو مدرسة صناعية تبدأ بيه فني معمل، وبعدين تكمّل الجامعة."
       },
       {
         "en": "A master's degree opens research and specialist positions.",
-        "ar": "الماجستير يفتح وظائف البحث والتخصص."
+        "ar": "الماجستير بيفتح وظايف البحث والتخصص."
       }
     ],
     "licensing": {

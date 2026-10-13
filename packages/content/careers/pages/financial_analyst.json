@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You read the numbers to tell a company, or an investor, what to do next.",
-      "ar": "تقرأ الأرقام لتقول لشركة أو مستثمر ماذا يفعل بعد ذلك."
+      "ar": "بتقرا الأرقام عشان تقول لشركة أو مستثمر يعمل إيه بعد كده."
     },
     "summary": {
       "en": "Financial analysts study a company's results, its market and the economy to judge if an investment or project is a good idea. They build spreadsheets and models and write short reports for managers or investors. Jobs are in banks, investment firms, large companies and fintech, and they ask for strong Excel, English and a professional exam such as CFA over time.",
-      "ar": "المحلل المالي يدرس نتائج الشركة وسوقها والاقتصاد ليحكم إن كان الاستثمار أو المشروع فكرة جيدة. يبني جداول ونماذج ويكتب تقارير قصيرة للمديرين أو المستثمرين. الوظائف في البنوك وشركات الاستثمار والشركات الكبرى والتكنولوجيا المالية، وتطلب إكسل قويًا وإنجليزية جيدة وامتحانًا مهنيًا مثل CFA مع الوقت."
+      "ar": "المحلل المالي بيدرس نتايج الشركة وسوقها والاقتصاد عشان يحكم الاستثمار أو المشروع فكرة كويسة ولا لأ. بيبني شيتات ونماذج ويكتب تقارير قصيرة للمديرين أو المستثمرين. الوظايف في البنوك وشركات الاستثمار والشركات الكبيرة والتكنولوجيا المالية، وبتطلب إكسل قوي وإنجليزي كويس، ومع الوقت امتحان مهني زي CFA."
     },
     "dayInLife": {
       "en": "In the morning you check news about interest rates and the dollar rate, because they affect your companies. Then you update a spreadsheet model with the latest quarterly results from a listed company. You compare its profit with its competitors and notice that its debt is growing fast. You write a one-page note for your manager explaining the risk. After lunch you join a meeting about a new project and show how much money it could make under good and bad scenarios. Before you leave you check that every number in your report has a source.",
-      "ar": "في الصباح تتابع أخبار أسعار الفائدة وسعر الدولار لأنها تؤثر في الشركات التي تتابعها. ثم تحدّث نموذجًا في جدول بيانات بأحدث نتائج ربع سنوية لشركة مقيدة في البورصة. تقارن أرباحها بمنافسيها وتلاحظ أن ديونها تزيد بسرعة. تكتب لمديرك مذكرة من صفحة واحدة تشرح الخطر. بعد الغداء تحضر اجتماعًا عن مشروع جديد وتعرض كم يمكن أن يربح في السيناريو الجيد والسيئ. قبل أن تنصرف تتأكد أن لكل رقم في تقريرك مصدرًا."
+      "ar": "الصبح بتتابع أخبار الفايدة وسعر الدولار، لأنهم بيأثروا على الشركات اللي بتتابعها. بعدين تحدّث نموذج في شيت بآخر نتايج ربع سنوية لشركة في البورصة. تقارن أرباحها بالمنافسين وتلاحظ إن ديونها بتزيد بسرعة. تكتب لمديرك مذكرة صفحة واحدة تشرح الخطر. بعد الغدا تحضر اجتماع عن مشروع جديد وتعرض ممكن يكسب قد إيه في السيناريو الحلو والوحش. وقبل ما تمشي تتأكد إن كل رقم في تقريرك ليه مصدر."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Collect and clean financial data from reports, markets and company records.",
-        "ar": "تجمع البيانات المالية وتنظّفها من التقارير والأسواق وسجلات الشركات."
+        "ar": "بتجمع البيانات المالية وتنضّفها من التقارير والأسواق وسجلات الشركات."
       },
       {
         "en": "Build spreadsheet models to forecast revenue, costs and cash.",
-        "ar": "تبني نماذج في جداول البيانات للتنبؤ بالإيرادات والتكاليف والسيولة."
+        "ar": "بتبني نماذج في الشيتات تتوقع بيها الإيرادات والتكاليف والكاش."
       },
       {
         "en": "Value companies and projects and compare investment options.",
-        "ar": "تقيّم الشركات والمشروعات وتقارن بين فرص الاستثمار."
+        "ar": "بتقيّم الشركات والمشاريع وتقارن بين فرص الاستثمار."
       },
       {
         "en": "Study risks such as interest rates, exchange rates and debt.",
-        "ar": "تدرس المخاطر مثل أسعار الفائدة وأسعار الصرف والديون."
+        "ar": "بتدرس المخاطر زي الفايدة وسعر الصرف والديون."
       },
       {
         "en": "Write short reports and present findings to managers or clients.",
-        "ar": "تكتب تقارير قصيرة وتعرض النتائج على المديرين أو العملاء."
+        "ar": "بتكتب تقارير قصيرة وتعرض النتايج على المديرين أو العملاء."
       },
       {
         "en": "Track results after decisions to see if the forecasts were right.",
-        "ar": "تتابع النتائج بعد القرارات لتعرف إن كانت توقعاتك صحيحة."
+        "ar": "بتتابع النتايج بعد القرارات تشوف توقعاتك كانت صح ولا لأ."
       }
     ],
     "environments": [
@@ -119,15 +119,15 @@
     "alternativeRoutes": [
       {
         "en": "Start as an accountant or credit analyst and move into analysis after one or two years.",
-        "ar": "ابدأ محاسبًا أو محلل ائتمان ثم انتقل للتحليل بعد سنة أو سنتين."
+        "ar": "ابدأ محاسب أو محلل ائتمان، وبعدين انقل للتحليل بعد سنة أو سنتين."
       },
       {
         "en": "Study CFA or similar exams while you work, using free online lessons first.",
-        "ar": "ادرس امتحانات CFA أو ما يشابهها أثناء العمل، وابدأ بالدروس المجانية على الإنترنت."
+        "ar": "ذاكر CFA أو امتحانات شبهها وإنت بتشتغل، وابدأ بالدروس المجانية على النت."
       },
       {
         "en": "A data or science degree plus finance courses can also work, because employers value data skills.",
-        "ar": "شهادة في البيانات أو العلوم مع كورسات مالية تصلح أيضًا، لأن أصحاب العمل يقدّرون مهارات البيانات."
+        "ar": "شهادة في البيانات أو العلوم ومعاها كورسات مالية تنفع برضه، لأن أصحاب الشغل بيقدّروا مهارات البيانات."
       }
     ],
     "licensing": {
@@ -267,7 +267,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance financial modelling and business plans for startups are possible, and some roles in regional finance centres can be remote. Most junior roles are in offices.",
-      "ar": "النمذجة المالية الحرة وخطط الأعمال للشركات الناشئة ممكنة، وبعض وظائف المراكز المالية الإقليمية قد تكون عن بُعد. معظم الوظائف المبتدئة في المكاتب."
+      "ar": "النمذجة المالية وخطط البيزنس للشركات الناشئة ممكن تتعمل فري لانس، وفيه وظايف في المراكز المالية في المنطقة ممكن تبقى من البيت. أغلب وظايف المبتدئين في المكاتب."
     },
     "regions": [
       {
@@ -287,35 +287,35 @@
   },
   "global": {
     "en": "Financial analysts with CFA or strong experience are recruited in the Gulf financial centres (Dubai, Abu Dhabi, Riyadh, Doha) and in London and other hubs. Entry roles abroad are competitive, so most people first build two to four years of experience in Egypt. Check visa rules and the full package.",
-    "ar": "يُطلب المحللون الماليون الحاصلون على CFA أو الذين لديهم خبرة قوية في المراكز المالية الخليجية (دبي وأبوظبي والرياض والدوحة) ولندن ومراكز أخرى. الوظائف المبتدئة في الخارج تنافسية، لذلك يبني معظم الناس خبرة سنتين إلى أربع في مصر أولًا. راجع شروط التأشيرة والعرض كاملًا."
+    "ar": "المحللين الماليين اللي معاهم CFA أو خبرة قوية مطلوبين في المراكز المالية في الخليج (دبي وأبوظبي والرياض والدوحة) ولندن ومراكز تانية. وظايف المبتدئين برّه فيها منافسة، فأغلب الناس بيبنوا خبرة من سنتين لأربعة في مصر الأول. راجع شروط الفيزا والعرض كله."
   },
   "reality": {
     "pros": [
       {
         "en": "Interesting mix of numbers, news and decision-making",
-        "ar": "مزيج ممتع من الأرقام والأخبار واتخاذ القرار"
+        "ar": "خليط ممتع من الأرقام والأخبار والقرارات"
       },
       {
         "en": "Strong pay growth with experience and qualifications",
-        "ar": "نمو جيد في الدخل مع الخبرة والمؤهلات"
+        "ar": "دخلك بيكبر كويس مع الخبرة والمؤهلات"
       },
       {
         "en": "Skills are used in many industries",
-        "ar": "المهارات تُستخدم في صناعات كثيرة"
+        "ar": "مهاراتك بتتستخدم في صناعات كتير"
       }
     ],
     "challenges": [
       {
         "en": "Competitive entry with few openings for fresh graduates",
-        "ar": "دخول تنافسي وفرص قليلة لحديثي التخرج"
+        "ar": "الدخول فيه منافسة والفرص لحديثي التخرج قليلة"
       },
       {
         "en": "Professional exams like CFA take years and cost money",
-        "ar": "امتحانات مثل CFA تستغرق سنوات وتكلف مالًا"
+        "ar": "امتحانات زي CFA بتاخد سنين وبتكلّف فلوس"
       },
       {
         "en": "Market shocks and exchange-rate swings make forecasts uncertain",
-        "ar": "صدمات السوق وتقلب سعر الصرف تجعل التوقعات غير مؤكدة"
+        "ar": "صدمات السوق وتقلّب سعر الصرف بيخلّوا التوقعات مش أكيدة"
       }
     ],
     "myths": [
@@ -326,33 +326,33 @@
         },
         "fact": {
           "en": "Commerce, engineering and science graduates also become analysts if they learn finance and Excel.",
-          "ar": "خريجو التجارة والهندسة والعلوم يصبحون محللين أيضًا إذا تعلموا المالية وإكسل."
+          "ar": "خريجين التجارة والهندسة والعلوم كمان بيبقوا محللين لو اتعلموا المالية والإكسل."
         }
       },
       {
         "myth": {
           "en": "Analysts can predict the market.",
-          "ar": "المحلل يتوقع السوق بدقة."
+          "ar": "المحلل بيتوقع السوق بالظبط."
         },
         "fact": {
           "en": "They estimate scenarios and risks. Nobody predicts markets perfectly.",
-          "ar": "هم يقدّرون سيناريوهات ومخاطر. لا أحد يتنبأ بالسوق بدقة كاملة."
+          "ar": "المحللين بيقدّروا سيناريوهات ومخاطر. محدش بيتوقع السوق بالظبط."
         }
       },
       {
         "myth": {
           "en": "AI will make analysts unnecessary.",
-          "ar": "الذكاء الاصطناعي سيلغي المحللين."
+          "ar": "الذكاء الاصطناعي هيلغي المحللين."
         },
         "fact": {
           "en": "AI speeds up data work, but judgment and explaining choices to people still matter.",
-          "ar": "الذكاء الاصطناعي يسرّع العمل على البيانات، لكن الحكم السليم وشرح القرارات للناس ما زالا مهمين."
+          "ar": "الذكاء الاصطناعي بيسرّع شغل البيانات، بس التقدير السليم وإنك تشرح القرارات للناس لسه مهمين."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Normal office hours most of the time, with long days around results season and deals.",
-      "ar": "ساعات مكتبية عادية في أغلب الوقت، مع أيام طويلة في مواسم النتائج والصفقات."
+      "ar": "مواعيد مكتب عادية أغلب الوقت، مع أيام طويلة في مواسم النتايج والصفقات."
     }
   },
   "progression": {
@@ -401,7 +401,7 @@
       },
       {
         "en": "Running your own business",
-        "ar": "إدارة مشروعك الخاص"
+        "ar": "تدير مشروعك الخاص"
       }
     ]
   },

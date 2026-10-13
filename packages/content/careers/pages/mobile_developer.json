@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You build the apps that live in everyone's pocket.",
-      "ar": "أنت من يبني التطبيقات التي في جيب كل شخص."
+      "ar": "إنت اللي بتبني الأبلكيشنز اللي في جيب كل واحد."
     },
     "summary": {
       "en": "Mobile developers design and program apps for Android and iPhone, from banking and delivery apps to games and learning tools. They turn an idea and a design into something that works smoothly on a small screen. Egyptian companies and foreign clients both hire for this skill, and you can start learning it at home.",
-      "ar": "مطور تطبيقات الموبايل يصمم ويبرمج تطبيقات أندرويد وآيفون، من تطبيقات البنوك والتوصيل إلى الألعاب وأدوات التعلم. يحوّل الفكرة والتصميم إلى شيء يعمل بسلاسة على شاشة صغيرة. تطلب هذه المهارة شركات مصرية وعملاء من الخارج، ويمكنك أن تبدأ تعلمها من البيت."
+      "ar": "مطوّر تطبيقات الموبايل بيصمم ويبرمج أبلكيشنز أندرويد وآيفون، من أبلكيشنز البنوك والتوصيل للألعاب وأدوات التعلم. بيحوّل الفكرة والتصميم لحاجة شغالة بسلاسة على شاشة صغيرة. شركات مصرية وعملاء برّه بيطلبوا المهارة دي، وتقدر تبدأ تتعلمها من البيت."
     },
     "dayInLife": {
       "en": "You start the day with a short team meeting, then pick a task: a new payment screen. You write the code, run the app on a phone and notice the button is hidden on small screens, so you fix the layout. After lunch you review a teammate's code, fix two bugs reported by users and release a small update for testing.",
-      "ar": "تبدأ اليوم باجتماع قصير مع الفريق، ثم تأخذ مهمة: شاشة دفع جديدة. تكتب الكود وتجرب التطبيق على الهاتف فتلاحظ أن الزر يختفي في الشاشات الصغيرة، فتصلح التصميم. بعد الغداء تراجع كود زميل، وتصلح خطأين أبلغ عنهما المستخدمون، وتطلق تحديثًا صغيرًا للاختبار."
+      "ar": "بتبدأ اليوم باجتماع قصير مع الفريق، وبعدين تاخد تاسك: شاشة دفع جديدة. تكتب الكود وتجرّب الأبلكيشن على الموبايل، وتلاحظ إن الزرار بيستخبى في الشاشات الصغيرة، فتصلّح التصميم. بعد الغدا تراجع كود زميل، وتصلّح غلطتين المستخدمين بلّغوا عنهم، وتطلّع تحديث صغير للاختبار."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Write the code for Android or iOS apps (or one codebase for both).",
-        "ar": "تكتب كود تطبيقات أندرويد أو iOS (أو كودًا واحدًا للاثنين)."
+        "ar": "بتكتب كود أبلكيشنز أندرويد أو iOS (أو كود واحد للاتنين)."
       },
       {
         "en": "Turn designs into working screens that are fast and easy to use.",
-        "ar": "تحوّل التصميمات إلى شاشات تعمل بسرعة وسهولة."
+        "ar": "بتحوّل التصميمات لشاشات شغالة سريعة وسهلة."
       },
       {
         "en": "Connect the app to servers, payments and other services.",
-        "ar": "تربط التطبيق بالخوادم والدفع والخدمات الأخرى."
+        "ar": "بتربط الأبلكيشن بالسيرفرات والدفع والخدمات التانية."
       },
       {
         "en": "Test the app, find bugs and fix them.",
-        "ar": "تختبر التطبيق وتكتشف الأخطاء وتصلحها."
+        "ar": "بتختبر الأبلكيشن وتلاقي الأخطاء وتصلّحها."
       },
       {
         "en": "Publish and update apps in the app stores.",
-        "ar": "تنشر التطبيقات وتحدّثها في متاجر التطبيقات."
+        "ar": "بتنشر الأبلكيشنز وتحدّثها على المتاجر."
       }
     ],
     "environments": [
@@ -110,11 +110,11 @@
     "alternativeRoutes": [
       {
         "en": "Intensive coding bootcamps or national training programs for graduates, such as ITI or DEPI.",
-        "ar": "معسكرات البرمجة المكثفة أو برامج التدريب الوطنية للخريجين مثل ITI وDEPI."
+        "ar": "بوت كامبس برمجة مكثفة أو برامج تدريب قومية للخريجين زي ITI وDEPI."
       },
       {
         "en": "Self-study with free courses plus a portfolio of small apps you built.",
-        "ar": "التعلم الذاتي بدورات مجانية مع ملف أعمال لتطبيقات صغيرة بنيتها."
+        "ar": "تتعلم لوحدك بكورسات ببلاش، ومعاها بورتفوليو أبلكيشنز صغيرة عملتها."
       }
     ],
     "licensing": null
@@ -143,7 +143,7 @@
       },
       {
         "en": "Freelance app development",
-        "ar": "تطوير التطبيقات كعمل حر"
+        "ar": "تطوير أبلكيشنز فري لانس"
       }
     ]
   },

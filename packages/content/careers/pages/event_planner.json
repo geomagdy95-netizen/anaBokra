@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You make sure a big day goes perfectly.",
-      "ar": "تضمن أن يمر اليوم الكبير على أكمل وجه."
+      "ar": "بتتأكد إن اليوم الكبير يعدّي على أكمل وجه."
     },
     "summary": {
       "en": "Event planners organise weddings, conferences, concerts and company parties. They manage the budget, places, suppliers and schedule, and solve problems on the day. The job needs organisation, calm under pressure and good people skills.",
-      "ar": "منظم الفعاليات ينظم حفلات الزفاف والمؤتمرات والحفلات الموسيقية وفعاليات الشركات. يدير الميزانية والأماكن والموردين والجدول ويحل المشكلات يوم الحدث. يحتاج العمل إلى التنظيم والهدوء تحت الضغط ومهارات التعامل مع الناس."
+      "ar": "منظّم الإيفنتات بينظّم الأفراح والمؤتمرات والحفلات وإيفنتات الشركات. بيدير الميزانية والأماكن والموردين والجدول، وبيحل المشاكل يوم الحدث. الشغل محتاج تنظيم وهدوء تحت الضغط وشطارة في التعامل مع الناس."
     },
     "dayInLife": {
       "en": "Today is a conference day. You arrive early, check the hall, the screens and the registration desk. Speakers arrive, one microphone fails and you replace it within minutes. During the event you keep the schedule moving and answer guests' questions. Afterwards you pay suppliers and begin preparing the report for the client.",
-      "ar": "اليوم يوم مؤتمر. تصل مبكرًا وتفحص القاعة والشاشات ومكتب التسجيل. يصل المتحدثون ويتعطل ميكروفون فتستبدله خلال دقائق. أثناء الحدث تُبقي الجدول يمضي وتجيب عن أسئلة الضيوف. بعدها تسدد للموردين وتبدأ تجهيز تقرير العميل."
+      "ar": "النهارده يوم مؤتمر. بتوصل بدري وتكشف على القاعة والشاشات ومكتب التسجيل. المتحدثين بيوصلوا، وميكروفون يبوظ، فتغيّره في دقايق. وإنت في الحدث بتخلّي الجدول ماشي وترد على أسئلة الضيوف. وبعدها تدفع للموردين وتبدأ تجهّز تقرير العميل."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Meet clients and understand what they want and can spend.",
-        "ar": "تقابل العملاء وتفهم ما يريدونه وما يمكنهم إنفاقه."
+        "ar": "بتقابل العملاء وتفهم هما عايزين إيه ويقدروا يصرفوا قد إيه."
       },
       {
         "en": "Book venues, caterers, decorators and entertainers.",
-        "ar": "تحجز القاعات والتموين والديكور والفقرات الترفيهية."
+        "ar": "بتحجز القاعات والكيترينج والديكور والفقرات."
       },
       {
         "en": "Prepare budgets and schedules.",
-        "ar": "تعدّ الميزانيات والجداول."
+        "ar": "بتجهّز الميزانيات والجداول."
       },
       {
         "en": "Coordinate the team and solve problems on the event day.",
-        "ar": "تنسق الفريق وتحل المشكلات يوم الحدث."
+        "ar": "بتنسّق الفريق وتحل المشاكل يوم الحدث."
       },
       {
         "en": "Collect feedback and close payments.",
-        "ar": "تجمع آراء الحضور وتنهي المدفوعات."
+        "ar": "بتجمع آراء الحضور وتقفل المدفوعات."
       }
     ],
     "environments": [
@@ -110,11 +110,11 @@
     "alternativeRoutes": [
       {
         "en": "Start by helping an event company, a hotel banquet team or student activities, then take bigger roles.",
-        "ar": "البدء بمساعدة شركة فعاليات أو فريق ولائم في فندق أو أنشطة طلابية ثم تولي مهام أكبر."
+        "ar": "تبدأ تساعد شركة إيفنتات أو فريق الحفلات في فندق أو الأنشطة الطلابية، وبعدين تاخد مهام أكبر."
       },
       {
         "en": "Short courses in event management, plus a portfolio of events you helped to organise.",
-        "ar": "دورات قصيرة في إدارة الفعاليات مع ملف بفعاليات شاركت في تنظيمها."
+        "ar": "كورسات قصيرة في إدارة الإيفنتات، ومعاها بورتفوليو بإيفنتات ساعدت في تنظيمها."
       }
     ],
     "licensing": null
@@ -143,7 +143,7 @@
       },
       {
         "en": "Opening your own event company",
-        "ar": "فتح شركة فعاليات خاصة"
+        "ar": "تفتح شركة إيفنتات بتاعتك"
       }
     ]
   },

@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You help an organisation build trust with the public.",
-      "ar": "تساعد المؤسسة على بناء ثقة الجمهور."
+      "ar": "بتساعد المؤسسة تبني ثقة الناس فيها."
     },
     "summary": {
       "en": "Public relations specialists manage how an organisation speaks to the public, the press and its own staff. They write press releases, organise events and prepare answers for difficult questions. Good writing and calm communication are central.",
-      "ar": "أخصائي العلاقات العامة يدير كيف تخاطب المؤسسة الجمهور والصحافة وموظفيها. يكتب البيانات الصحفية وينظم الفعاليات ويجهّز الإجابات عن الأسئلة الصعبة. الكتابة الجيدة والتواصل الهادئ محوران أساسيان."
+      "ar": "أخصائي العلاقات العامة بيدير المؤسسة بتكلّم الناس والصحافة وموظفينها إزاي. بيكتب البيانات الصحفية، وينظّم الفعاليات، ويجهّز ردود على الأسئلة الصعبة. والكتابة الكويسة والتواصل الهادي هما الأساس."
     },
     "dayInLife": {
       "en": "You read the news first to see what is being said about your company. You then write a short press release about a new product and send it to journalists you know. After lunch you prepare the manager for a TV interview, practising likely questions. Later you plan the guest list and schedule for next week's event.",
-      "ar": "تقرأ الأخبار أولًا لترى ما يُقال عن شركتك. ثم تكتب بيانًا صحفيًا قصيرًا عن منتج جديد وترسله إلى صحفيين تعرفهم. بعد الغداء تجهّز المدير لمقابلة تلفزيونية وتتدرب على الأسئلة المحتملة. لاحقًا تخطط قائمة الضيوف وجدول فعالية الأسبوع القادم."
+      "ar": "بتقرا الأخبار الأول تشوف بيتقال إيه عن شركتك. بعدين تكتب بيان صحفي قصير عن منتج جديد وتبعته لصحفيين تعرفهم. بعد الغدا تجهّز المدير لمقابلة في التليفزيون وتتمرنوا على الأسئلة المتوقعة. وبعدها تخطط لستة الضيوف وجدول فعالية الأسبوع الجاي."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Write press releases, speeches and statements.",
-        "ar": "تكتب البيانات الصحفية والكلمات والتصريحات."
+        "ar": "بتكتب البيانات الصحفية والكلمات والتصريحات."
       },
       {
         "en": "Build relationships with journalists and media.",
-        "ar": "تبني علاقات مع الصحفيين ووسائل الإعلام."
+        "ar": "بتبني علاقات مع الصحفيين ووسائل الإعلام."
       },
       {
         "en": "Organise events, press conferences and visits.",
-        "ar": "تنظم الفعاليات والمؤتمرات الصحفية والزيارات."
+        "ar": "بتنظّم الفعاليات والمؤتمرات الصحفية والزيارات."
       },
       {
         "en": "Monitor news and social media about the organisation.",
-        "ar": "تتابع الأخبار والتواصل الاجتماعي عن المؤسسة."
+        "ar": "بتتابع الأخبار والسوشيال عن المؤسسة."
       },
       {
         "en": "Prepare managers for interviews and handle crises calmly.",
-        "ar": "تجهّز المديرين للمقابلات وتتعامل مع الأزمات بهدوء."
+        "ar": "بتجهّز المديرين للمقابلات وتتعامل مع الأزمات بهدوء."
       }
     ],
     "environments": [
@@ -107,11 +107,11 @@
     "alternativeRoutes": [
       {
         "en": "Start as a PR assistant, in a communications department or as an event or media coordinator.",
-        "ar": "البدء كمساعد علاقات عامة أو في إدارة الاتصال أو كمنسق فعاليات أو إعلام."
+        "ar": "تبدأ مساعد علاقات عامة، أو في إدارة الاتصال، أو منسق فعاليات أو إعلام."
       },
       {
         "en": "Short courses in writing, communication and digital PR next to a degree in any field.",
-        "ar": "دورات قصيرة في الكتابة والاتصال والعلاقات العامة الرقمية بجانب درجة في أي مجال."
+        "ar": "كورسات قصيرة في الكتابة والاتصال والعلاقات العامة الرقمية جنب شهادة في أي مجال."
       }
     ],
     "licensing": null

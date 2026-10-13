@@ -7,42 +7,42 @@
   "snapshot": {
     "hook": {
       "en": "You shape the spaces where people live, work and meet, mixing creativity with engineering.",
-      "ar": "تشكّل الأماكن التي يعيش فيها الناس ويعملون ويلتقون، وتجمع الإبداع مع الهندسة."
+      "ar": "بتشكّل الأماكن اللي الناس بتعيش وتشتغل وتتقابل فيها، وبتجمع بين الإبداع والهندسة."
     },
     "summary": {
       "en": "Architects design buildings and public spaces, from houses to schools to city districts. In Egypt you can study architecture in a Faculty of Engineering or a Faculty of Fine Arts, and the path usually includes drawing and design studios. The work is creative but needs patience with clients, regulations and deadlines.",
-      "ar": "المعماري يصمم المباني والأماكن العامة من البيوت إلى المدارس وأحياء المدن. في مصر يمكنك دراسة العمارة في كلية الهندسة أو كلية الفنون الجميلة، ويشمل المسار عادة مراسم الرسم والتصميم. العمل إبداعي لكنه يحتاج صبرًا مع العملاء واللوائح والمواعيد."
+      "ar": "المعماري بيصمم المباني والأماكن العامة، من البيوت للمدارس لأحياء كاملة. في مصر تقدر تدرس عمارة في كلية الهندسة أو كلية الفنون الجميلة، والدراسة فيها عادةً مراسم رسم وتصميم. الشغل إبداعي بس محتاج صبر مع العملاء واللوائح والمواعيد."
     },
     "dayInLife": {
       "en": "You start in the design office, where a client wants a bigger kitchen without losing the balcony. You sketch three options, then model one in 3D. After lunch you visit a site to check that the walls match the drawings, and notice a door in the wrong place. You call the contractor and agree a fix. In the evening you prepare the drawings to submit to the local authority for a building permit. It is a long day, but you enjoy seeing how a line on paper turns into a building.",
-      "ar": "تبدأ في مكتب التصميم حيث يريد العميل مطبخًا أكبر دون أن يفقد الشرفة. ترسم ثلاثة خيارات ثم تصنع نموذجًا ثلاثي الأبعاد لأحدها. بعد الغداء تزور موقعًا لتتأكد أن الجدران تطابق المخططات، وتلاحظ بابًا في مكان خاطئ. تتصل بالمقاول وتتفقان على الحل. في المساء تجهز المخططات لتقديمها للحي للحصول على ترخيص البناء. يوم طويل، لكنك تستمتع برؤية الخط على الورق يتحول إلى مبنى."
+      "ar": "بتبدأ في مكتب التصميم، وعميل عايز مطبخ أكبر من غير ما يخسر البلكونة. ترسم تلات اختيارات وتعمل موديل 3D لواحد منهم. بعد الغدا تروح موقع تتأكد إن الحيطان مطابقة للرسومات، وتلاحظ باب في مكان غلط. تكلّم المقاول وتتفقوا على حل. وبالليل تجهّز الرسومات عشان تتقدّم للحي وتطلع رخصة البنا. يوم طويل، بس بتستمتع وإنت شايف خط على ورق بيتحوّل لمبنى."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Meet clients to understand needs, budget and site.",
-        "ar": "تلتقي العملاء لفهم احتياجاتهم وميزانيتهم وموقعهم."
+        "ar": "بتقابل العملاء عشان تفهم احتياجاتهم وميزانيتهم والأرض."
       },
       {
         "en": "Develop concept sketches, plans, sections and 3D models.",
-        "ar": "تضع رسومات فكرية ومساقط وقطاعات ونماذج ثلاثية الأبعاد."
+        "ar": "بتعمل اسكتشات للفكرة ومساقط وقطاعات وموديلات 3D."
       },
       {
         "en": "Prepare construction drawings and specifications.",
-        "ar": "تعد المخططات التنفيذية والمواصفات."
+        "ar": "بتجهّز الرسومات التنفيذية والمواصفات."
       },
       {
         "en": "Coordinate with structural, electrical and mechanical engineers.",
-        "ar": "تنسق مع مهندسي الإنشاءات والكهرباء والميكانيكا."
+        "ar": "بتنسّق مع مهندسين الإنشاءات والكهربا والميكانيكا."
       },
       {
         "en": "Visit sites to check that work follows the design.",
-        "ar": "تزور المواقع لتتأكد أن التنفيذ يتبع التصميم."
+        "ar": "بتنزل المواقع تتأكد إن التنفيذ ماشي على التصميم."
       },
       {
         "en": "Submit drawings and follow building permits and codes.",
-        "ar": "تقدم المخططات وتتابع تراخيص البناء والاشتراطات."
+        "ar": "بتقدّم الرسومات وتتابع رخص البنا والاشتراطات."
       }
     ],
     "environments": [
@@ -122,7 +122,7 @@
       },
       {
         "en": "Short courses in Revit, rendering and BIM, for example at the AUC School of Continuing Education, can strengthen your skills.",
-        "ar": "دورات قصيرة في ريفيت والتصيير وBIM، مثل مركز التعليم المستمر بالجامعة الأمريكية، تقوّي مهاراتك."
+        "ar": "كورسات قصيرة في ريفيت والرندر والـBIM، زي اللي في مركز التعليم المستمر بالجامعة الأمريكية، بتقوّي مهاراتك."
       }
     ],
     "licensing": {
@@ -241,7 +241,7 @@
     ],
     "freelanceRemote": {
       "en": "Freelance design work (houses, interiors, renders) is common, and remote work for Gulf clients exists, but clients may pay late and compete on price.",
-      "ar": "العمل الحر في التصميم (بيوت وداخلي وتصيير) شائع، وهناك عمل عن بعد لعملاء الخليج، لكن العملاء قد يتأخرون في الدفع ويتنافسون على السعر."
+      "ar": "الفري لانس في التصميم (بيوت وديكور ورندر) منتشر، وفيه شغل من البيت لعملاء في الخليج، بس العملاء ممكن يتأخروا في الدفع ويفاصلوا في السعر."
     },
     "regions": [
       {
@@ -259,66 +259,66 @@
   },
   "global": {
     "en": "Egyptian architects work in the Gulf, especially the UAE and Saudi Arabia, and in international firms; some Gulf countries require local registration and minimum experience. A strong portfolio and software skills matter more than the certificate alone.",
-    "ar": "يعمل المعماريون المصريون في الخليج وخاصة الإمارات والسعودية وفي شركات دولية؛ وبعض دول الخليج تشترط تسجيلًا محليًا وحدًا أدنى من الخبرة. وتُهم محفظة الأعمال ومهارات البرامج أكثر من الشهادة وحدها."
+    "ar": "المعماريين المصريين بيشتغلوا في الخليج، خصوصًا الإمارات والسعودية، وفي شركات دولية؛ وفيه دول خليجية بتشترط تسجيل محلي وحد أدنى من الخبرة. البورتفوليو القوي ومهارات البرامج أهم من الشهادة لوحدها."
   },
   "reality": {
     "pros": [
       {
         "en": "Creative work with lasting results",
-        "ar": "عمل إبداعي بنتائج دائمة"
+        "ar": "شغل إبداعي ونتيجته بتفضل موجودة"
       },
       {
         "en": "Mix of design, technical and people skills",
-        "ar": "مزيج من التصميم والتقنية ومهارات التعامل"
+        "ar": "خليط من التصميم والشغل الفني والتعامل مع الناس"
       },
       {
         "en": "Freelance and own-office possibilities",
-        "ar": "إمكانية العمل الحر وفتح مكتب خاص"
+        "ar": "ممكن تشتغل فري لانس أو تفتح مكتب بتاعك"
       }
     ],
     "challenges": [
       {
         "en": "Pay is often modest in the first years",
-        "ar": "الأجر غالبًا متواضع في السنوات الأولى"
+        "ar": "المرتب غالبًا متواضع في أول سنين"
       },
       {
         "en": "Deadline crunches and demanding clients",
-        "ar": "ضغط المواعيد وعملاء كثيرو المطالب"
+        "ar": "ضغط مواعيد التسليم وعملاء طلباتهم كتير"
       },
       {
         "en": "Work follows the real estate market cycle",
-        "ar": "العمل يتبع دورة سوق العقارات"
+        "ar": "الشغل ماشي مع دورة سوق العقارات"
       },
       {
         "en": "Long study with many hours in studios",
-        "ar": "دراسة طويلة وساعات كثيرة في المراسم"
+        "ar": "دراسة طويلة وساعات كتير في المراسم"
       }
     ],
     "myths": [
       {
         "myth": {
           "en": "Architects just draw pretty buildings.",
-          "ar": "المعماري يرسم مباني جميلة فقط."
+          "ar": "المعماري بيرسم مباني حلوة وبس."
         },
         "fact": {
           "en": "Much of the job is codes, structure coordination, costs and site details.",
-          "ar": "جزء كبير من العمل اشتراطات وتنسيق إنشائي وتكاليف وتفاصيل تنفيذ."
+          "ar": "جزء كبير من الشغل اشتراطات وتنسيق مع الإنشائي وتكاليف وتفاصيل تنفيذ."
         }
       },
       {
         "myth": {
           "en": "You must be a great artist.",
-          "ar": "يجب أن تكون فنانًا عظيمًا."
+          "ar": "لازم تكون فنان عظيم."
         },
         "fact": {
           "en": "Drawing skills help, but design thinking, logic and persistence can be learned.",
-          "ar": "مهارة الرسم تفيد لكن التفكير التصميمي والمنطق والمثابرة يمكن تعلمها."
+          "ar": "مهارة الرسم بتساعد، بس التفكير التصميمي والمنطق والمثابرة حاجات بتتعلم."
         }
       }
     ],
     "workLifeBalance": {
       "en": "Mixed: studio deadlines can mean late nights, but project timing is often predictable. Own-office architects control their hours but also carry business risk.",
-      "ar": "متفاوتة: مواعيد التسليم قد تعني سهرًا، لكن إيقاع المشروعات غالبًا متوقع. وصاحب المكتب يتحكم في ساعاته لكنه يتحمل مخاطرة تجارية."
+      "ar": "بتختلف: مواعيد التسليم ممكن تعني سهر، بس إيقاع المشاريع غالبًا متوقع. وصاحب المكتب بيتحكم في مواعيده، بس شايل مخاطرة البيزنس."
     }
   },
   "progression": {

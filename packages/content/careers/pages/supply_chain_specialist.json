@@ -7,38 +7,38 @@
   "snapshot": {
     "hook": {
       "en": "You make sure the right goods arrive at the right place at the right time.",
-      "ar": "تتأكد أن البضاعة الصحيحة تصل إلى المكان الصحيح في الوقت الصحيح."
+      "ar": "بتتأكد إن البضاعة الصح توصل المكان الصح في الوقت الصح."
     },
     "summary": {
       "en": "Supply chain specialists plan and manage how products move from suppliers to factories, warehouses and customers. They balance cost, speed and stock so shelves are never empty and storage is never wasted. Egypt's ports, factories and growing online shopping make this a busy field.",
-      "ar": "أخصائي سلاسل الإمداد يخطط ويدير حركة المنتجات من الموردين إلى المصانع والمخازن والعملاء. يوازن بين التكلفة والسرعة والمخزون فلا تفرغ الرفوف ولا يُهدر التخزين. وتجعل الموانئ والمصانع المصرية والتسوق الإلكتروني المتنامي هذا المجال نشطًا."
+      "ar": "أخصائي سلاسل الإمداد بيخطط ويدير حركة المنتجات من الموردين للمصانع والمخازن والعملاء. بيوازن بين التكلفة والسرعة والمخزون، فالرفوف ما تفضاش والتخزين ما يتهدرش. والموانئ والمصانع المصرية والتسوق الأونلاين اللي بيكبر مخلّيين المجال ده مليان شغل."
     },
     "dayInLife": {
       "en": "You check which products are running low and compare it with the sales forecast. A supplier says a shipment will be late, so you call another supplier and ask for a quick delivery. Then you meet the warehouse team to rearrange the storage and review the transport cost for the week. In the evening you update the report for your manager.",
-      "ar": "تفحص أي المنتجات قاربت على النفاد وتقارنها بتوقعات المبيعات. يخبرك مورّد أن شحنة ستتأخر، فتتصل بمورّد آخر وتطلب توريدًا سريعًا. ثم تجتمع بفريق المخزن لإعادة ترتيب التخزين ومراجعة تكلفة النقل هذا الأسبوع. وفي المساء تحدّث التقرير لمديرك."
+      "ar": "بتشوف أنهي منتجات قربت تخلص وتقارنها بتوقعات المبيعات. مورّد يقول لك إن شحنة هتتأخر، فتكلّم مورّد تاني وتطلب توريد سريع. بعدين تقعد مع فريق المخزن تعيدوا ترتيب التخزين وتراجعوا تكلفة النقل الأسبوع ده. وبالليل تحدّث التقرير لمديرك."
     }
   },
   "whatYouDo": {
     "tasks": [
       {
         "en": "Forecast demand and plan how much to buy and store.",
-        "ar": "تتوقع الطلب وتخطط كمية الشراء والتخزين."
+        "ar": "بتتوقع الطلب وتخطط هتشتري وتخزّن قد إيه."
       },
       {
         "en": "Choose and manage suppliers and negotiate prices.",
-        "ar": "تختار الموردين وتدير التعامل معهم وتتفاوض على الأسعار."
+        "ar": "بتختار الموردين وتتعامل معاهم وتفاصل في الأسعار."
       },
       {
         "en": "Organise transport, customs paperwork and deliveries.",
-        "ar": "تنظم النقل والمستندات الجمركية والتسليم."
+        "ar": "بتنظّم النقل وورق الجمارك والتسليم."
       },
       {
         "en": "Track stock levels in warehouses.",
-        "ar": "تتابع مستويات المخزون في المخازن."
+        "ar": "بتتابع مستويات المخزون في المخازن."
       },
       {
         "en": "Solve delays and reduce costs.",
-        "ar": "تحل التأخيرات وتخفض التكاليف."
+        "ar": "بتحل التأخيرات وتقلّل التكاليف."
       }
     ],
     "environments": [
@@ -112,11 +112,11 @@
     "alternativeRoutes": [
       {
         "en": "Start in a warehouse, purchasing or shipping job after a commercial diploma or degree, then move up.",
-        "ar": "البدء بوظيفة في المخازن أو المشتريات أو الشحن بعد دبلوم تجاري أو درجة جامعية ثم الترقي."
+        "ar": "تبدأ في وظيفة في المخازن أو المشتريات أو الشحن بعد دبلوم تجاري أو شهادة جامعية، وبعدين تترقّى."
       },
       {
         "en": "International certificates in supply chain or logistics, taken alongside work.",
-        "ar": "شهادات دولية في سلاسل الإمداد أو اللوجستيات تؤخذ أثناء العمل."
+        "ar": "شهادات دولية في سلاسل الإمداد أو اللوجستيات تاخدها وإنت بتشتغل."
       }
     ],
     "licensing": null
@@ -144,7 +144,7 @@
       },
       {
         "en": "Starting a trading or distribution business",
-        "ar": "بدء عمل تجاري أو توزيع"
+        "ar": "تبدأ بيزنس تجارة أو توزيع"
       }
     ]
   },
