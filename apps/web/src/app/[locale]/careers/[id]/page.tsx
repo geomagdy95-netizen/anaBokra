@@ -7,7 +7,9 @@ import { CareerView } from '@/features/careers/career-view';
 import { PersonalProvider } from '@/features/careers/personal-context';
 import { CareersShell } from '@/features/careers/shell';
 import type { Locale } from '@/features/careers/types';
+import { AppShell } from '@/features/journey/app-shell';
 import { routing } from '@/i18n/routing';
+import { DATA_MODE } from '@/lib/data-mode';
 import { getCareerPage } from '@/server/content/career-pages';
 import { siteUrl } from '@/server/careers/site';
 
@@ -45,7 +47,11 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/careers/
   };
 }
 
-/** F2. Statically generated per career and locale; personalised parts (fit, favorite) load on the client. */
+/**
+ * F2. Statically generated per career and locale; personalised parts (fit, favorite) load on the client.
+ * Phase 1 shows it inside the app shell (opened from Explore, Verify and the results), without the
+ * career list around it.
+ */
 export default async function CareerPageRoute({ params }: PageProps<'/[locale]/careers/[id]'>) {
   const { locale, id } = await params;
   setRequestLocale(locale);
@@ -53,13 +59,21 @@ export default async function CareerPageRoute({ params }: PageProps<'/[locale]/c
   if (!career) notFound();
   const page = getCareerPage(id);
   const industry = industryById(page?.industryId ?? career.cluster);
+  const cluster = clusters.find((c) => c.id === career.cluster);
+
+  if (DATA_MODE === 'local')
+    return (
+      <AppShell tab="explore" back="/journey/map" backToPrevious testId="career-screen">
+        <CareerView career={career} cluster={cluster} page={page} industry={industry} path={`/careers/${id}`} framed />
+      </AppShell>
+    );
 
   return (
     <CareersShell>
       <PersonalProvider>
         <CareerView
           career={career}
-          cluster={clusters.find((c) => c.id === career.cluster)}
+          cluster={cluster}
           page={page}
           industry={industry}
           path={`/careers/${id}`}

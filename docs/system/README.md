@@ -81,7 +81,7 @@ The same code runs in two modes, chosen by `NEXT_PUBLIC_DATA_MODE`:
 | `local` (default) | Phase 1: pilot (Nov–Dec 2026) and launch (16 Jan 2027) | On the phone, encrypted | None |
 | `server` | Phase 2, after the licence and permits | Supabase (Postgres with row-level security) | WhatsApp sign-in, parent and school consent |
 
-The assessment pages check the mode first and use the on-device runtime in `local` mode. Several other pages (career fit, favorites, explore "for you", account) still assume `server` mode. They're listed in [flows.md, known gaps](flows.md#known-gaps).
+The assessment pages check the mode first and use the on-device runtime in `local` mode. The pages that still assume `server` mode (career list, favorites, explore, account) redirect to `/journey` in `local` mode, and the career page hides its fit, favorite and compare parts ([screens.md](screens.md)).
 
 ## Phase 1 at a glance
 

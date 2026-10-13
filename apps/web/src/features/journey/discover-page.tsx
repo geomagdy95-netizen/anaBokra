@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import { ProgressBar, useNumberFormat } from '@/features/assessment/primitives';
 import { useText } from '@/features/assessment/ui-context';
 import { StorageWarning } from '@/features/local/local-states';
+import { InstallHint } from '@/features/pwa/install-hint';
 import { Link } from '@/i18n/navigation';
 import { discoverPlan } from '@/lib/journey/discover-plan';
 import { FOLLOW_UP_DAYS, maybeFinalize, type JourneyData } from '@/lib/journey/journey';
@@ -142,6 +143,7 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
     >
       <div className="flex flex-col gap-5">
         {!data.rt.device.persistent && <StorageWarning />}
+        <InstallHint dismissible />
 
         <section className="overflow-hidden rounded-3xl bg-brand-lavender shadow-sm" data-testid="home-map">
           <JourneyMap data={data} />

@@ -5,7 +5,7 @@ import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
 import { BandBar } from './band-bar';
-import { card, chip, h2, linkCls, mutedP } from './ui';
+import { card, chip, h2, linkCls, mutedP, pill } from './ui';
 import { useRT } from './use-rt';
 import { SECTIONS, type Section, type SectionItem } from './view';
 
@@ -13,16 +13,19 @@ export function SectionDetail({
   section,
   items,
   suits,
+  title = true,
 }: {
   section: Section;
   items: SectionItem[];
   suits: { careerId: string; name: string; fit: number }[];
+  /** False when the screen frame already shows the section name. */
+  title?: boolean;
 }) {
   const rt = useRT();
   const nf = new Intl.NumberFormat(useLocale(), { maximumFractionDigits: 0 });
   return (
     <div className="flex flex-col gap-5" data-testid="section-detail">
-      <h1 className="text-3xl font-semibold">{rt(`sections.${section}`)}</h1>
+      {title && <h1 className="text-2xl font-bold">{rt(`sections.${section}`)}</h1>}
       {items.length === 0 ? <p>{rt('detail.notAvailable')}</p> : null}
       <ul className="flex flex-col gap-4">
         {items.map((it) => (
@@ -56,9 +59,9 @@ export function SectionDetail({
         {suits.length === 0 ? (
           <p className={mutedP}>{rt('detail.noSuits')}</p>
         ) : (
-          <ul className="mt-3 flex flex-col gap-2">
+          <ul className="mt-2 flex flex-col">
             {suits.map((c) => (
-              <li key={c.careerId} className="flex items-center justify-between gap-3">
+              <li key={c.careerId} className="flex min-h-11 items-center justify-between gap-3">
                 <Link href={`/careers/${c.careerId}`} className={linkCls}>
                   {c.name}
                 </Link>
@@ -75,7 +78,7 @@ export function SectionDetail({
 
       <nav aria-label={rt('detail.others')} className="flex flex-wrap gap-2">
         {SECTIONS.filter((s) => s !== section).map((s) => (
-          <Link key={s} href={`/assessment/result/${s}`} className={`${chip} hover:bg-accent`}>
+          <Link key={s} href={`/assessment/result/${s}`} className={pill}>
             {rt(`sections.${s}`)}
           </Link>
         ))}

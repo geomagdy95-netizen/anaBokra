@@ -386,7 +386,6 @@ Every journey screen sits in one shell: a top bar and four tabs, **Home · Explo
 
 | Gap | Effect | Where |
 |---|---|---|
-| Career page "fit" panel, favorites, explore "for you", account still call server endpoints | In phase 1 they show "Sign in and take the assessment" or nothing | `features/careers/personal-context.tsx`, `features/explore/personal-context.tsx`, `/account` |
 | Rate limits are kept in memory | Fine on one server; lost on restart; not shared across servers | `server/research`, `server/stats` |
 | Readiness follow-up timing is a placeholder (7 days) | Must be settled against the 17 Dec data freeze | `FOLLOW_UP_DAYS` |
 | Statistics and research uploads don't yet include Verify (paths and bands, path answers) | The pilot report can't show path results yet | `stats-summary.ts`, `lib/research.ts` |
@@ -395,5 +394,4 @@ Every journey screen sits in one shell: a top bar and four tabs, **Home · Explo
 | School admission data (tracks, minimum scores, costs) not loaded | School context flags never fire | `CareerEgyptContext` |
 | Abilities performance (ICAR) items not supplied | Strengths rests on self-ratings only | `abilities.json` |
 | Island world not connected to results | Prototype only | Flow 12 |
-| Developer pages (`/dev/local`, `/dev/world`, `/dev/path`, `/dev/engine`) are reachable in production | Anyone could open the demo runner and its "Wipe this device" button | `app/[locale]/dev/*` |
 | "Strengths" names two different things | Confusing on the results page | [glossary §9](glossary.md#9-naming-issues-to-settle) |

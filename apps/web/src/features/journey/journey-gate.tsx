@@ -6,6 +6,7 @@ import { useCallback, useEffect, useState, type ReactNode } from 'react';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
 import { FirstStart } from '@/features/local/first-start';
 import { LocalBlocked, LocalLoading } from '@/features/local/local-states';
+import { keepStoredData } from '@/features/pwa/pwa-setup';
 import { UnlockScreen } from '@/features/local/unlock-screen';
 import type { Locale } from '@/i18n/routing';
 import { loadJourney, type JourneyData, type JourneyLoad } from '@/lib/journey/journey';
@@ -13,7 +14,7 @@ import { loadJourney, type JourneyData, type JourneyLoad } from '@/lib/journey/j
 /**
  * Loads the journey from the phone for any tab, and shows what has to come first: first start, the
  * unlock screen, or a refusal. Opt-in uploads that couldn't be sent earlier are retried on load (both
- * skip when there's nothing new).
+ * skip when there's nothing new), and the browser is asked to keep the app's storage.
  */
 export function JourneyGate({ children }: { children: (data: JourneyData, reload: () => void) => ReactNode }) {
   const locale = useLocale() as Locale;
@@ -27,6 +28,7 @@ export function JourneyGate({ children }: { children: (data: JourneyData, reload
       if (!alive) return;
       setState(s);
       if (s.kind === 'ready') {
+        keepStoredData();
         void import('@/lib/local/stats').then(({ syncStats }) => syncStats(s.rt));
         void import('@/lib/local/research').then(({ syncResearch }) => syncResearch(s.rt));
       }

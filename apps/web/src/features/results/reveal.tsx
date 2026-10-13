@@ -34,7 +34,7 @@ export function Reveal({ profile, onContinue }: { profile: WorldProfile; onConti
 
   return (
     <section aria-label={rt('reveal.label')} className="flex flex-1 flex-col gap-4" data-testid="reveal" data-playing={playing}>
-      <div className="relative min-h-[55dvh] flex-1 overflow-hidden rounded-xl border bg-muted">
+      <div className="relative min-h-[55dvh] flex-1 overflow-hidden rounded-3xl bg-muted shadow-sm ring-1 ring-border/70">
         {r.ready ? (
           <PathView
             world={world}
@@ -61,7 +61,7 @@ export function Reveal({ profile, onContinue }: { profile: WorldProfile; onConti
       <div role="status" aria-live="polite" className="flex flex-col items-center gap-3 text-center">
         {!playing && r.ready ? (
           <>
-            <h1 className="text-3xl font-semibold" data-testid="reveal-caption">
+            <h1 className="text-2xl font-bold" data-testid="reveal-caption">
               {rt('reveal.caption')}
             </h1>
             <p className="max-w-prose text-muted-foreground">{rt('reveal.sub')}</p>

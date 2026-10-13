@@ -6,10 +6,10 @@ import type { CareerMatch } from '@anabokra/engine';
 import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
-import { LocaleSwitcher } from '@/components/locale-switcher';
 import { Button } from '@/components/ui/button';
 import { FinalizeRunner } from '@/features/assessment/finalize-runner';
-import { AssessmentProvider } from '@/features/assessment/ui-context';
+import { AppShell } from '@/features/journey/app-shell';
+import { JourneyGate } from '@/features/journey/journey-gate';
 import { assembleResultView, matchesToExplain } from '@/features/results/assemble';
 import { genderedT } from '@/features/results/gendered';
 import { ResultsFlow } from '@/features/results/results-flow';
@@ -17,7 +17,8 @@ import { SectionDetail } from '@/features/results/section-detail';
 import { buildProfileView, careersForSection, sectionItems, type RawResult, type ResultView, type Section } from '@/features/results/view';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
-import { activeRuntime, type LocalRuntime } from '@/lib/local/runtime';
+import type { JourneyData } from '@/lib/journey/journey';
+import type { LocalRuntime } from '@/lib/local/runtime';
 import { AssessmentError } from '@/server/assessment/errors';
 
 import { loadLocalAssessment } from './load';
@@ -36,27 +37,32 @@ function viewOf(result: RawResult, lang: Locale, gender: Gender): ResultView {
 type State =
   | { kind: 'loading' }
   | { kind: 'blocked'; code: string }
-  | { kind: 'finalizing'; sessionId: string; gender: Gender }
-  | { kind: 'none'; gender: Gender }
-  | { kind: 'result'; gender: Gender; view: ResultView; interests: Record<'R' | 'I' | 'A' | 'S' | 'E' | 'C', number>; readinessDone: boolean; partial: boolean };
+  | { kind: 'finalizing'; sessionId: string }
+  | { kind: 'none' }
+  | { kind: 'result'; view: ResultView; interests: Record<'R' | 'I' | 'A' | 'S' | 'E' | 'C', number>; readinessDone: boolean; partial: boolean };
 
-/** /assessment/result in phase 1: finalize on the device if needed, then reveal -> readiness -> profile. */
+/**
+ * /assessment/result in phase 1: finalize on the device if needed, then reveal -> readiness -> profile.
+ * The journey gate comes first, so a locked profile asks for the password like every other tab.
+ */
 export function LocalResult({ sessionId }: { sessionId?: string }) {
+  return <JourneyGate>{(data) => <Result rt={data.rt} sessionId={sessionId} />}</JourneyGate>;
+}
+
+function Result({ rt, sessionId }: { rt: LocalRuntime; sessionId?: string }) {
   const locale = useLocale() as Locale;
   const t = useTranslations('Results');
   const [state, setState] = useState<State>({ kind: 'loading' });
+  const gender: Gender = rt.profile.gender;
 
   useEffect(() => {
     let alive = true;
     void (async () => {
-      const rt = await activeRuntime();
-      if (!rt) return alive && setState({ kind: 'none', gender: null });
-      const gender = rt.profile.gender;
       const entry = sessionId ? null : await rt.service.getEntryState(rt.userId);
       if (entry?.kind === 'open') {
         const open = await loadLocalAssessment(locale);
         if (open.ok === false) return alive && setState({ kind: 'blocked', code: open.code });
-        if (open.ok === true && open.progress.canFinalize) return alive && setState({ kind: 'finalizing', sessionId: open.sessionId, gender });
+        if (open.ok === true && open.progress.canFinalize) return alive && setState({ kind: 'finalizing', sessionId: open.sessionId });
       }
       let result: Awaited<ReturnType<LocalRuntime['service']['getLatestResult']>> = null;
       try {
@@ -64,12 +70,11 @@ export function LocalResult({ sessionId }: { sessionId?: string }) {
       } catch (e) {
         if (!(e instanceof AssessmentError)) throw e;
       }
-      if (!result) return alive && setState({ kind: 'none', gender });
+      if (!result) return alive && setState({ kind: 'none' });
       const readinessDone = await rt.service.hasPostReadiness(rt.userId, result.sessionId);
       if (!alive) return;
       setState({
         kind: 'result',
-        gender,
         view: viewOf(result, locale, gender),
         interests: (result.scores.interests ?? {}) as Record<'R' | 'I' | 'A' | 'S' | 'E' | 'C', number>,
         readinessDone,
@@ -79,88 +84,83 @@ export function LocalResult({ sessionId }: { sessionId?: string }) {
     return () => {
       alive = false;
     };
-  }, [locale, sessionId]);
+  }, [rt, locale, sessionId, gender]);
 
   if (state.kind === 'loading') return <LocalLoading />;
   if (state.kind === 'blocked') return <LocalBlocked code={state.code} />;
-  const tr = (key: string) => genderedT(t as never, locale, state.gender, key);
+  const tr = (key: string) => genderedT(t as never, locale, gender, key);
   const rd = instruments.readiness;
 
   return (
-    <AssessmentProvider gender={state.gender}>
-      <main className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-5 px-4 py-6 sm:px-6">
-        <header className="flex items-center justify-between gap-3">
-          <Link href="/assessment" className="tap-link">
-            {tr('back')}
-          </Link>
-          <LocaleSwitcher />
-        </header>
+    <AppShell tab="home" title={tr('overview.title')} back="/journey" testId="result-screen">
+      {state.kind === 'result' ? (
+        <div data-testid="result" className="flex flex-col pt-1">
+          <ResultsFlow
+            view={state.view}
+            worldProfile={{ interests: state.interests }}
+            fresh={Boolean(sessionId)}
+            readinessDone={state.readinessDone}
+            readiness={{ items: rd.items.map((i) => ({ id: i.id, text: i.text })), labels: rd.responseScale.labels, min: rd.responseScale.min }}
+            partial={state.partial}
+            share={false}
+            title={false}
+          />
+        </div>
+      ) : state.kind === 'finalizing' ? (
+        <FinalizeRunner sessionId={state.sessionId} />
+      ) : (
+        <NotReady text={tr('notReady')} cta={tr('toHub')} />
+      )}
+    </AppShell>
+  );
+}
 
-        {state.kind === 'result' ? (
-          <div data-testid="result" className="flex flex-1 flex-col">
-            <ResultsFlow
-              view={state.view}
-              worldProfile={{ interests: state.interests }}
-              fresh={Boolean(sessionId)}
-              readinessDone={state.readinessDone}
-              readiness={{ items: rd.items.map((i) => ({ id: i.id, text: i.text })), labels: rd.responseScale.labels, min: rd.responseScale.min }}
-              partial={state.partial}
-              share={false}
-            />
-          </div>
-        ) : state.kind === 'finalizing' ? (
-          <FinalizeRunner sessionId={state.sessionId} />
-        ) : (
-          <div className="flex flex-col items-start gap-3">
-            <p>{tr('notReady')}</p>
-            <Button asChild>
-              <Link href="/assessment">{tr('toHub')}</Link>
-            </Button>
-          </div>
-        )}
-      </main>
-    </AssessmentProvider>
+function NotReady({ text, cta }: { text: string; cta: string }) {
+  return (
+    <section className="surface mt-4 flex flex-col items-center gap-4 p-6 text-center" data-testid="result-not-ready">
+      <p>{text}</p>
+      <Button asChild size="lg">
+        <Link href="/journey">{cta}</Link>
+      </Button>
+    </section>
   );
 }
 
 /** /assessment/result/[section] in phase 1. */
 export function LocalResultSection({ section }: { section: Section }) {
+  return <JourneyGate>{(data) => <ResultSection data={data} section={section} />}</JourneyGate>;
+}
+
+function ResultSection({ data, section }: { data: JourneyData; section: Section }) {
   const locale = useLocale() as Locale;
   const t = useTranslations('Results');
-  const [state, setState] = useState<{ gender: Gender; result: RawResult | null } | null>(null);
+  const { rt } = data;
+  const [result, setResult] = useState<RawResult | null | undefined>(undefined);
 
   useEffect(() => {
     let alive = true;
-    void activeRuntime().then(async (rt) => {
-      const result = rt ? await rt.service.getLatestResult(rt.userId) : null;
-      if (alive) setState({ gender: rt?.profile.gender ?? null, result });
-    });
+    void rt.service.getLatestResult(rt.userId).then((r) => alive && setResult(r));
     return () => {
       alive = false;
     };
-  }, []);
+  }, [rt]);
 
-  if (!state) return <LocalLoading />;
-  const tr = (key: string) => genderedT(t as never, locale, state.gender, key);
+  if (result === undefined) return <LocalLoading />;
+  const tr = (key: string) => genderedT(t as never, locale, rt.profile.gender, key);
   return (
-    <AssessmentProvider gender={state.gender}>
-      <main className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-5 px-4 py-6 sm:px-6">
-        <header className="flex items-center justify-between gap-3">
-          <Link href="/assessment/result" className="tap-link">
-            {tr('backToResults')}
-          </Link>
-          <LocaleSwitcher />
-        </header>
-        {state.result ? (
+    <AppShell tab="home" title={tr(`sections.${section}`)} back="/assessment/result" testId="result-section-screen">
+      {result ? (
+        <div className="pt-1">
           <SectionDetail
             section={section}
-            items={sectionItems(buildProfileView(state.result.scores), section)}
-            suits={careersForSection(state.result.matches, section, locale)}
+            items={sectionItems(buildProfileView(result.scores), section)}
+            suits={careersForSection(result.matches, section, locale)}
+            title={false}
           />
-        ) : (
-          <p>{tr('notReady')}</p>
-        )}
-      </main>
-    </AssessmentProvider>
+        </div>
+      ) : (
+        <NotReady text={tr('notReady')} cta={tr('toHub')} />
+      )}
+    </AppShell>
   );
 }

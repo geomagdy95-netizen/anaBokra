@@ -2,6 +2,10 @@
 
 Every screen and route, by **screen code**. The letter is the area; the number is the screen. The codes come from the original screen list and survive in code comments. Codes marked *proposed* are new: the phase 1 on-device screens never had codes. Routes start with `/ar` or `/en`.
 
+**Phase 1 (local mode) shows only the app and the pages it links to**, all in one phone layout: the app shell (T0) with its top bar and bottom tabs. The phase 2 and parked screens below redirect to `/journey` (`src/lib/hidden-routes.ts`); they come back with `NEXT_PUBLIC_DATA_MODE=server`. Developer pages are hidden from every production build.
+
+**Installed app (PWA).** `manifest.webmanifest` starts the installed app at `/journey` (next-intl picks the language). The service worker (`src/app/sw.js/route.ts`, new version on every build) caches the app tabs and their files on install, and every other page and file the first time it loads, so the app opens without internet once it has been loaded. Home and Account show "Add to your home screen" (a button on Chrome / Android, the Share steps on iPhone), and the app asks the browser to keep its storage once there is a profile.
+
 | Area | Letter |
 |---|---|
 | Public site | A |
@@ -20,11 +24,11 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 
 | Code | Screen | Route | Status |
 |---|---|---|---|
-| A1 | Landing | `/` | Built |
-| A2–A4 | Teaser: intro, 12 interest cards, RIASEC preview, "save my result" | `/try` | Built (answers stay in the browser) |
-| A5 | For parents | `/parents` | Built, describes phase 2 routes |
-| A6 | For schools | `/schools` | Built; school offer parked |
-| A8 | Legal pages (privacy, terms, "Your data, in short") | `/legal/[doc]` | Built (drafts from `docs/legal`) |
+| A1 | Landing | `/` | Built. Phase 1: one column, one "Start" button to `/journey` (`Public.start` texts) |
+| A2–A4 | Teaser: intro, 12 interest cards, RIASEC preview, "save my result" | `/try` | Built (answers stay in the browser); hidden in phase 1 |
+| A5 | For parents | `/parents` | Built, describes phase 2 routes; hidden in phase 1 |
+| A6 | For schools | `/schools` | Built; school offer parked; hidden in phase 1 |
+| A8 | Legal pages (privacy, terms, "Your data, in short") | `/legal/[doc]` | Built (drafts from `docs/legal`). Phase 1: in the app shell (Account tab) |
 
 ## L · Phase 1 on-device screens *(proposed codes)*
 
@@ -81,7 +85,7 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 
 | Code | Screen | Route | Status |
 |---|---|---|---|
-| E1 | Reveal: "This is your world" | `/assessment/result` | Built |
+| E1 | Reveal: "This is your world" | `/assessment/result` | Built. Phase 1: E1–E5 sit in the app shell (Home tab) behind the journey gate (first start, unlock) |
 | E2 | One last check (readiness) | `/assessment/result` | Built, gaps ([flow 9](flows.md#9-readiness-check)) |
 | E3 | Overview | `/assessment/result` | Built |
 | E4 | One part in detail (holland, bigFive, values, abilities) | `/assessment/result/[section]` | Built |
@@ -92,12 +96,14 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 
 | Code | Screen | Route | Status |
 |---|---|---|---|
-| F1 | All careers: filter, search, sort | `/careers` | Built (fit % needs server mode) |
-| F2 | One career | `/careers/[id]` | Built (fit panel needs server mode) |
-| F4 | Compare 2–3 careers | `/careers/compare` | Built |
+| F1 | All careers: filter, search, sort | `/careers` | Built (fit % needs server mode); hidden in phase 1 |
+| F2 | One career | `/careers/[id]` | Built (fit panel needs server mode). Phase 1: in the app shell (Explore tab), opened from Explore, Verify and the results; no favorite, fit or compare |
+| F4 | Compare 2–3 careers | `/careers/compare` | Built; hidden in phase 1 |
 | F5 | Saved careers | `/careers/favorites` | Phase 2 |
 
 ## G · Explore
+
+All hidden in phase 1 (the Explore tab is the island map, I7).
 
 | Code | Screen | Route | Status |
 |---|---|---|---|
@@ -111,6 +117,8 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 
 ## B and J · Accounts, parents, schools (phase 2)
 
+All hidden in phase 1.
+
 | Code | Screen | Route | Status |
 |---|---|---|---|
 | — | Sign in, enter code | `/login`, `/verify` | Phase 2 |
@@ -122,6 +130,8 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 | J8 | Withdraw a permission | `/family/settings` | Phase 2 |
 
 ## K · Admin (phase 2)
+
+All hidden in phase 1.
 
 | Code | Screen | Route |
 |---|---|---|
@@ -139,8 +149,8 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 
 | Page | What | Note |
 |---|---|---|
-| `/dev/local` | On-device check: demo assessment, fill four stations, wipe | Not hidden in production yet |
-| `/dev/world` | Island-world prototype (MX: islands) | Not hidden in production yet |
-| `/dev/path` | Path-map prototype (MX-18) | Not hidden in production yet |
-| `/dev/engine` | Engine and content smoke test | Not hidden in production yet |
-| `/dev/paths` | Try the draft Verify tasks for the 4 pilot paths (nothing saved) | Not hidden in production yet |
+| `/dev/local` | On-device check: demo assessment, fill four stations, wipe | Hidden in production builds |
+| `/dev/world` | Island-world prototype (MX: islands) | Hidden in production builds |
+| `/dev/path` | Path-map prototype (MX-18) | Hidden in production builds |
+| `/dev/engine` | Engine and content smoke test | Hidden in production builds |
+| `/dev/paths` | Try the draft Verify tasks for the 4 pilot paths (nothing saved) | Hidden in production builds |

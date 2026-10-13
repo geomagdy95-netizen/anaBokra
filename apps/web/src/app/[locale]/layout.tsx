@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
+import { PwaSetup } from '@/features/pwa/pwa-setup';
 import { dirOf, routing } from '@/i18n/routing';
 import '@/styles/globals.css';
 
@@ -46,6 +47,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<'/[
     <html lang={locale} dir={dirOf(locale)} data-theme="light" className={`${arabic.variable} ${latin.variable}`}>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <PwaSetup />
       </body>
     </html>
   );

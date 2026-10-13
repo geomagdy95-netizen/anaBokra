@@ -66,7 +66,7 @@ export function PathSection({ path, providerIds }: { path: NonNullable<CareerPag
 
   return (
     <div className="space-y-6">
-      <dl className="grid gap-3 sm:grid-cols-2">
+      <dl className="grid gap-3 @lg:grid-cols-2">
         {path.studyYears ? (
           <div>
             <dt className="text-sm text-muted-foreground">{t('studyYears')}</dt>
@@ -91,7 +91,7 @@ export function PathSection({ path, providerIds }: { path: NonNullable<CareerPag
       {programs.length ? (
         <div className="space-y-3">
           <SubHeading>{t('programs')}</SubHeading>
-          <ul className="grid gap-3 md:grid-cols-2">
+          <ul className="grid gap-3 @2xl:grid-cols-2">
             {programs.map((p) => (
               <ProgramRow key={p.id} program={p} />
             ))}
@@ -130,7 +130,7 @@ export function PathSection({ path, providerIds }: { path: NonNullable<CareerPag
       {providers.length ? (
         <div className="space-y-3">
           <SubHeading>{t('providers')}</SubHeading>
-          <ul className="grid gap-3 md:grid-cols-2">
+          <ul className="grid gap-3 @2xl:grid-cols-2">
             {providers.map((p) => (
               <li key={p.id} className={`${cardClass} space-y-1`} data-testid="provider">
                 <h4 className="font-semibold">{p.name[locale]}</h4>

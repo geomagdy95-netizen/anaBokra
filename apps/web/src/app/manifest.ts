@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 
-// Placeholder PWA manifest. No service worker yet. Not localized: Arabic is the default locale.
+// PWA manifest; the service worker is app/sw.js. Not localized: Arabic is the default locale. The
+// installed app opens the app itself, in the language the user last chose (next-intl redirects /journey).
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'أنا بكرة — anaBokra',
@@ -8,7 +9,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'اكتشف المهنة المناسبة ليك',
     lang: 'ar',
     dir: 'rtl',
-    start_url: '/ar',
+    id: '/journey',
+    start_url: '/journey',
     scope: '/',
     display: 'standalone',
     background_color: '#FCFAF3',

@@ -31,7 +31,7 @@ export function MatchCard({ m, index }: { m: MatchView; index?: number }) {
           </h3>
           <p className={mutedP}>{m.cluster}</p>
         </div>
-        <p className="shrink-0 rounded-md bg-primary px-2 py-1 text-sm font-semibold tabular-nums text-primary-foreground" data-testid="fit">
+        <p className="shrink-0 rounded-full bg-primary px-3 py-1 text-sm font-semibold tabular-nums text-primary-foreground" data-testid="fit">
           {rt('matches.fit', { n: nf.format(m.fit) })}
         </p>
       </header>
@@ -55,7 +55,7 @@ export function MatchCard({ m, index }: { m: MatchView; index?: number }) {
           </ul>
         </div>
       )}
-      <Link href={`/careers/${m.careerId}`} className={`${linkCls} mt-auto text-sm font-medium`}>
+      <Link href={`/careers/${m.careerId}`} className="tap-link mt-auto">
         {rt('matches.view')}
         <span className="sr-only"> {m.name}</span>
       </Link>
@@ -97,7 +97,7 @@ function Carousel({ items }: { items: MatchView[] }) {
         className="relative flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
       >
         {items.map((m) => (
-          <li key={m.careerId} className="w-[80%] shrink-0 snap-start sm:w-[22rem]" aria-roledescription="slide">
+          <li key={m.careerId} className="w-[85%] shrink-0 snap-start" aria-roledescription="slide">
             <span className={`${chip} mb-2`}>{rt('matches.surpriseBadge')}</span>
             <MatchCard m={m} />
           </li>
@@ -122,7 +122,7 @@ export function Matches({ top, more, surprising }: { top: MatchView[]; more: Mat
         {top.length === 0 ? (
           <p>{rt('matches.empty')}</p>
         ) : (
-          <ol className="grid gap-3 md:grid-cols-2">
+          <ol className="grid gap-3">
             {top.map((m, i) => (
               <li key={m.careerId}>
                 <MatchCard m={m} index={i} />
@@ -143,7 +143,7 @@ export function Matches({ top, more, surprising }: { top: MatchView[]; more: Mat
             <h2 className={h2}>{rt('matches.moreTitle')}</h2>
             <ol className="mt-3 flex flex-col gap-2" start={top.length + 1}>
               {more.map((m, i) => (
-                <li key={m.careerId} className="flex items-center justify-between gap-3 rounded-lg border bg-card px-3 py-2">
+                <li key={m.careerId} className="surface flex min-h-14 items-center justify-between gap-3 py-2">
                   <span className="min-w-0">
                     <Link href={`/careers/${m.careerId}`} className={linkCls}>
                       <span className="tabular-nums">{nf.format(top.length + i + 1)}. </span>

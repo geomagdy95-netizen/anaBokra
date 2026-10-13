@@ -5,9 +5,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
+import { AppShell } from '@/features/journey/app-shell';
 import { markdownToHtml } from '@/features/public/markdown';
 import { LEGAL_DOCS, PublicShell, type LegalDoc } from '@/features/public/shell';
 import { routing } from '@/i18n/routing';
+import { DATA_MODE } from '@/lib/data-mode';
 
 export const dynamicParams = false;
 
@@ -30,13 +32,24 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/legal/[d
   return { title: t(`docs.${doc}`), robots: { index: false } };
 }
 
-/** A8 legal pages, rendered from docs/legal (drafts until counsel review). */
+/**
+ * A8 legal pages, rendered from docs/legal (drafts until counsel review). Phase 1 opens them from
+ * Account, so they sit in the app shell; back returns to the screen they were opened from.
+ */
 export default async function LegalPage({ params }: PageProps<'/[locale]/legal/[doc]'>) {
   const { locale, doc } = await params;
   if (!isDoc(doc)) notFound();
   setRequestLocale(locale);
   const t = await getTranslations('Public.shell');
   const html = await load(doc, locale);
+
+  if (DATA_MODE === 'local')
+    return (
+      <AppShell tab="account" title={t(`docs.${doc}`)} back="/journey/account" backToPrevious testId="legal">
+        {/* markdownToHtml escapes all text and only allows http(s)/mailto/# links. */}
+        <article className="legal surface break-words" dangerouslySetInnerHTML={{ __html: html }} />
+      </AppShell>
+    );
 
   return (
     <PublicShell>

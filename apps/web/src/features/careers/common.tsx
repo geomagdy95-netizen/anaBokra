@@ -18,8 +18,8 @@ export function BulletList({ items, locale, className }: { items: Bilingual[] | 
 
 export function Section({ id, title, children }: { id: string; title: string; children: ReactNode }) {
   return (
-    <section id={id} aria-labelledby={`${id}-title`} className="scroll-mt-20 space-y-4">
-      <h2 id={`${id}-title`} className="text-2xl font-semibold">
+    <section id={id} aria-labelledby={`${id}-title`} className="scroll-mt-32 space-y-4">
+      <h2 id={`${id}-title`} className="text-xl font-bold">
         {title}
       </h2>
       {children}

@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
 import { BandBar } from './band-bar';
-import { card, chip, h2, linkCls, mutedP } from './ui';
+import { card, chip, h2, mutedP } from './ui';
 import { useRT } from './use-rt';
 import type { ProfileView } from './view';
 
@@ -20,7 +20,7 @@ export function ProfileOverview({ view, summary, partial }: { view: ProfileView;
   const rt = useRT();
   const tr = useTranslations('Riasec');
   const detail = (k: keyof typeof SECTION_HREF) => (
-    <Link href={SECTION_HREF[k]} className={linkCls}>
+    <Link href={SECTION_HREF[k]} className="tap-link">
       {rt('overview.seeDetail')}
     </Link>
   );
@@ -50,7 +50,7 @@ export function ProfileOverview({ view, summary, partial }: { view: ProfileView;
           <p className="text-3xl font-semibold tracking-widest" dir="ltr" aria-label={rt('overview.hollandCode', { code: view.hollandCode.split('').join(' ') })}>
             {view.hollandCode}
           </p>
-          <ol className="grid gap-3 sm:grid-cols-3">
+          <ol className="grid gap-3">
             {view.types.map((t) => (
               <li key={t.id} className={card} data-testid="type-card">
                 <p className="flex items-center gap-2">

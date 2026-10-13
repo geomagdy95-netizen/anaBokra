@@ -6,6 +6,7 @@ import { HeroWorld } from '@/features/public/hero-world';
 import { PublicShell } from '@/features/public/shell';
 import { Link } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
+import { DATA_MODE } from '@/lib/data-mode';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<'/[locale]'>): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'Public.landing' });
+  const t = await getTranslations({ locale, namespace: DATA_MODE === 'local' ? 'Public.start' : 'Public.landing' });
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
@@ -24,10 +25,14 @@ export async function generateMetadata({ params }: PageProps<'/[locale]'>): Prom
 const STEPS = ['discover', 'match', 'act'] as const;
 const FAQ = ['science', 'time', 'cost', 'privacy', 'parents'] as const;
 
+const START_STEPS = ['discover', 'verify', 'careers'] as const;
+const START_FAQ = ['time', 'privacy', 'who', 'science', 'cost'] as const;
+
 /** A1 landing page. */
 export default async function HomePage({ params }: PageProps<'/[locale]'>) {
   const { locale } = await params;
   setRequestLocale(locale);
+  if (DATA_MODE === 'local') return <StartPage />;
   const t = await getTranslations('Public.landing');
 
   return (
@@ -52,7 +57,9 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
             ))}
           </ul>
         </div>
-        <HeroWorld label={t('heroAlt')} />
+        <div className="overflow-hidden rounded-3xl shadow-sm ring-1 ring-border/70">
+          <HeroWorld label={t('heroAlt')} />
+        </div>
       </section>
 
       <section className="mt-16" aria-labelledby="how">
@@ -100,6 +107,65 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
           ))}
         </div>
       </section>
+    </PublicShell>
+  );
+}
+
+/** A1 in phase 1: one column for the phone and one way in, the app (`/journey`). */
+async function StartPage() {
+  const t = await getTranslations('Public.start');
+  return (
+    <PublicShell>
+      <section className="flex flex-col gap-5 pt-2">
+        <h1 className="text-3xl font-bold leading-tight text-brand-ink">{t('headline')}</h1>
+        <p className="text-lg text-muted-foreground">{t('subhead')}</p>
+        <div className="flex flex-col gap-2">
+          <Button asChild size="lg" className="w-full" data-testid="start">
+            <Link href="/journey">{t('cta')}</Link>
+          </Button>
+          <p className="text-center text-sm text-muted-foreground">{t('ctaHint')}</p>
+        </div>
+        <div className="overflow-hidden rounded-3xl shadow-sm ring-1 ring-border/70">
+          <HeroWorld label={t('heroAlt')} />
+        </div>
+      </section>
+
+      <section className="mt-10" aria-labelledby="how">
+        <h2 id="how" className="mb-4 text-xl font-bold">
+          {t('howTitle')}
+        </h2>
+        <ol className="flex flex-col gap-3">
+          {START_STEPS.map((s, i) => (
+            <li key={s} className="surface flex gap-4">
+              <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-base font-bold text-primary-foreground">{i + 1}</span>
+              <div>
+                <h3 className="font-bold">{t(`steps.${s}.title`)}</h3>
+                <p className="text-sm text-muted-foreground">{t(`steps.${s}.body`)}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section className="mt-10" aria-labelledby="faq">
+        <h2 id="faq" className="mb-4 text-xl font-bold">
+          {t('faqTitle')}
+        </h2>
+        <div className="surface divide-y divide-border p-0">
+          {START_FAQ.map((q) => (
+            <details key={q} className="group px-4">
+              <summary className="flex min-h-14 cursor-pointer items-center font-semibold">{t(`faq.${q}.q`)}</summary>
+              <p className="pb-4 text-sm text-muted-foreground">{t(`faq.${q}.a`)}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <div className="mt-10">
+        <Button asChild size="lg" className="w-full">
+          <Link href="/journey">{t('cta')}</Link>
+        </Button>
+      </div>
     </PublicShell>
   );
 }

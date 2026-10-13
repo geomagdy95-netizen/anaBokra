@@ -114,14 +114,9 @@ export function FirstStart({ onDone }: { onDone: () => void }) {
         <section className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold">{t('tooYoungTitle')}</h1>
           <p>{t('tooYoungBody')}</p>
-          <div className="flex gap-2">
-            <Button asChild>
-              <Link href="/careers">{t('browseCareers')}</Link>
-            </Button>
-            <Button variant="outline" onClick={() => setStep('age')}>
-              {t('back')}
-            </Button>
-          </div>
+          <Button variant="outline" className="self-start" onClick={() => setStep('age')}>
+            {t('back')}
+          </Button>
         </section>
       )}
 

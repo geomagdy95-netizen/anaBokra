@@ -10,6 +10,7 @@ import { LockSetting } from '@/features/local/lock-setting';
 import { MoveData } from '@/features/local/move-data';
 import { SessionSetting } from '@/features/local/session-setting';
 import { StatsSetting } from '@/features/local/stats-setting';
+import { InstallHint } from '@/features/pwa/install-hint';
 import { Link } from '@/i18n/navigation';
 import type { JourneyData } from '@/lib/journey/journey';
 
@@ -51,6 +52,7 @@ function Account({ data, onChanged }: { data: JourneyData; onChanged: () => void
         </section>
 
         {!data.rt.device.persistent && <StorageWarning />}
+        <InstallHint />
 
         <LockSetting onChanged={onChanged} />
 

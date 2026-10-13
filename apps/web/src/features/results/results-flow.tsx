@@ -24,6 +24,7 @@ export function ResultsFlow({
   readiness,
   partial,
   share = true,
+  title = true,
 }: {
   view: ResultView;
   worldProfile: WorldProfile;
@@ -33,6 +34,8 @@ export function ResultsFlow({
   partial: boolean;
   /** The share card is rendered on the server from the stored result, so phase 1 (data on the device) hides it. */
   share?: boolean;
+  /** False when the screen frame already shows the title (phase 1 app shell). */
+  title?: boolean;
 }) {
   const rt = useRT();
   const [stage, setStage] = useState<Stage>(fresh ? 'reveal' : 'main');
@@ -59,7 +62,7 @@ export function ResultsFlow({
 
   return (
     <div className="flex flex-col gap-8">
-      <h1 className="text-3xl font-semibold">{rt('overview.title')}</h1>
+      {title && <h1 className="text-2xl font-bold">{rt('overview.title')}</h1>}
       {!done && !dismissed ? (
         <ReadinessCheck sessionId={view.sessionId} instrument={readiness} onDone={finishReadiness} onSkip={skipReadiness} />
       ) : null}

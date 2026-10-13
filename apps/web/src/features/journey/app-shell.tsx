@@ -1,9 +1,9 @@
 'use client';
 
 import { Bookmark, ChevronLeft, Compass, House, UserRound } from 'lucide-react';
-import type { ReactNode } from 'react';
+import { useEffect, type MouseEvent, type ReactNode } from 'react';
 
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { cn } from '@/lib/utils';
 
 import { useJT } from './use-jt';
@@ -49,6 +49,45 @@ export function TabBar({ tab }: { tab: Tab }) {
   );
 }
 
+// Screens shown since the page loaded. More than one means the user got here inside the app, so
+// "back" can return to the screen they came from.
+let screensSeen = 0;
+let lastPath: string | null = null;
+
+function useTrackScreen() {
+  const path = usePathname();
+  useEffect(() => {
+    if (path === lastPath) return;
+    lastPath = path;
+    screensSeen += 1;
+  }, [path]);
+}
+
+/** Counts a screen that isn't framed by AppShell (the public pages), so "back" from a legal page returns there. */
+export function ScreenTracker() {
+  useTrackScreen();
+  return null;
+}
+
+/**
+ * Round back link for the top bar. With `previous`, it goes back in history when the user came from
+ * another screen of the app (a career opened from Explore, Verify or the results), and to `href` otherwise.
+ */
+function BackLink({ href, previous }: { href: string; previous: boolean }) {
+  const jt = useJT();
+  const router = useRouter();
+  const onClick = (e: MouseEvent) => {
+    if (!previous || screensSeen < 2) return;
+    e.preventDefault();
+    router.back();
+  };
+  return (
+    <Link href={href} onClick={onClick} aria-label={jt(href === '/journey' && !previous ? 'back' : 'backPrevious')} className="grid size-11 shrink-0 place-items-center rounded-full bg-card shadow-sm ring-1 ring-border/70 hover:bg-secondary" data-testid="back">
+      <ChevronLeft className="size-5 rtl:rotate-180" aria-hidden />
+    </Link>
+  );
+}
+
 /**
  * Screen frame for the journey tabs: a top bar (optional back link, title, trailing action) and the
  * tab bar. `fill` gives the content the whole height between them (the Explore map).
@@ -58,6 +97,7 @@ export function AppShell({
   title,
   subtitle,
   back,
+  backToPrevious = false,
   leading,
   action,
   fill = false,
@@ -68,21 +108,19 @@ export function AppShell({
   title?: ReactNode;
   subtitle?: ReactNode;
   back?: string;
+  /** The back link returns to the previous screen when there is one (see BackLink). */
+  backToPrevious?: boolean;
   leading?: ReactNode;
   action?: ReactNode;
   fill?: boolean;
   children: ReactNode;
   testId?: string;
 }) {
-  const jt = useJT();
+  useTrackScreen();
   return (
     <div className={cn('mx-auto flex w-full max-w-md flex-col bg-background', fill ? 'h-dvh overflow-hidden' : 'min-h-dvh')} data-testid={testId}>
       <header className="sticky top-0 z-30 flex items-center gap-3 bg-background/90 px-4 pb-3 pt-[max(env(safe-area-inset-top),0.75rem)] backdrop-blur">
-        {back && (
-          <Link href={back} aria-label={jt('back')} className="grid size-11 shrink-0 place-items-center rounded-full bg-card shadow-sm ring-1 ring-border/70 hover:bg-secondary">
-            <ChevronLeft className="size-5 rtl:rotate-180" aria-hidden />
-          </Link>
-        )}
+        {back && <BackLink href={back} previous={backToPrevious} />}
         {leading}
         <div className="min-w-0 flex-1">
           {title && <h1 className="truncate text-xl font-bold text-brand-ink dark:text-foreground">{title}</h1>}

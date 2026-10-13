@@ -11,7 +11,7 @@ import { PRESETS } from '@/features/path/presets';
 export function HeroWorld({ label }: { label: string }) {
   const world = useMemo(() => generateWorld(PRESETS.creative, 'landing'), []);
   return (
-    <div className="aspect-[4/3] overflow-hidden rounded-xl border bg-muted/30">
+    <div className="aspect-[4/3] overflow-hidden bg-muted/30">
       <PathSvg world={world} progress={2} focus={null} onFocus={() => {}} palette={DEFAULT_PALETTE} label={label} />
     </div>
   );

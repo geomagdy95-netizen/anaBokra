@@ -1857,6 +1857,53 @@
         }
       }
     },
+    "start": {
+      "metaTitle": "anaBokra — find the career that fits you",
+      "metaDescription": "Short, fun tasks show what you enjoy and what you're good at. Then check the career paths that suit you. Free, no account, on your phone.",
+      "headline": "Find the career that fits you.",
+      "subhead": "Short, fun tasks show what you enjoy and what you're good at. Then check the paths that suit you and the careers inside them.",
+      "cta": "Start",
+      "ctaHint": "Free · no account · on your phone",
+      "heroAlt": "An example world: a path through a landscape shaped by someone’s interests.",
+      "howTitle": "How it works",
+      "steps": {
+        "discover": {
+          "title": "Discover",
+          "body": "Ten short tasks on your own island, a minute or two each, about what you enjoy, your strengths and how you work."
+        },
+        "verify": {
+          "title": "Check a path",
+          "body": "The career groups closest to you light up. Try a group's tasks to see whether it really fits you, and why."
+        },
+        "careers": {
+          "title": "See the careers",
+          "body": "Read what each career is like in Egypt: the work itself, the study that leads to it and the job market."
+        }
+      },
+      "faqTitle": "Questions",
+      "faq": {
+        "time": {
+          "q": "How long does it take?",
+          "a": "Each task takes a minute or two. Do one, stop, and come back whenever you like. Your answers are saved as you go."
+        },
+        "privacy": {
+          "q": "Who sees my answers?",
+          "a": "Only you. Your answers and results stay on your phone, encrypted. There's no account, and nothing personal is sent to anaBokra."
+        },
+        "who": {
+          "q": "Who is it for?",
+          "a": "Anyone aged 15 to 25 who is thinking about what to study or which career to aim for."
+        },
+        "science": {
+          "q": "Is this scientific?",
+          "a": "We use established questionnaires (O*NET interests and IPIP personality traits) that we are adapting and testing with young Egyptians. Results are guidance, not a diagnosis."
+        },
+        "cost": {
+          "q": "Is it free?",
+          "a": "Yes."
+        }
+      }
+    },
     "teaser": {
       "metaTitle": "Try anaBokra in 3 minutes",
       "metaDescription": "12 quick questions to preview your interest profile.",
@@ -2290,6 +2337,7 @@
     "next": "Next",
     "previous": "Previous",
     "back": "Back to my island",
+    "backPrevious": "Back",
     "close": "Close",
     "story": {
       "prompt": "How does that sound?",
@@ -2461,5 +2509,14 @@
     "pick": "Path",
     "task": "Task",
     "answers": "Answers"
+  },
+  "Pwa": {
+    "title": "Add anaBokra to your home screen",
+    "body": "It opens like an app and works without internet.",
+    "install": "Add to home screen",
+    "iosSteps": "Tap Share <share></share>, then “Add to Home Screen”.",
+    "iosKeep": "On iPhone, this also stops Safari from clearing your answers if you don't open the app for a while.",
+    "shareButton": "Share",
+    "dismiss": "Not now"
   }
 }

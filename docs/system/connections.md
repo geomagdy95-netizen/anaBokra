@@ -171,4 +171,4 @@ Phase 1 has no SMS and no relay (both removed on 13 Oct 2026), so it needs no se
 | `/en/dev/paths` | Try the draft Verify tasks |
 | `pnpm --filter @anabokra/content export:paths` | Regenerates the psychologist's review pack `docs/review/paths-review.md` |
 
-**The dev pages are not hidden in production yet** (see [known gaps](flows.md#known-gaps)). Before launch they should return 404 outside development.
+**The dev pages are hidden in production builds**: they redirect to `/journey` (`src/lib/hidden-routes.ts`).

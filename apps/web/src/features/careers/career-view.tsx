@@ -1,8 +1,9 @@
-import { SUPPORT_EMAIL } from '@/lib/site';
 import { careerById, type Career, type Cluster, type Industry } from '@anabokra/content';
 import { useLocale, useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
+import { DATA_MODE } from '@/lib/data-mode';
+import { SUPPORT_EMAIL } from '@/lib/site';
 
 import { BulletList, pick, Section, SubHeading } from './common';
 import { FavoriteButton } from './favorite-button';
@@ -11,7 +12,7 @@ import { OutlookSection } from './outlook-section';
 import { PathSection } from './path-section';
 import { MarketSection } from './salary';
 import { ShareButton } from './share-button';
-import { badgeClass, cardClass, linkClass } from './ui';
+import { badgeClass, cardClass, chipClass, linkClass } from './ui';
 import type { CareerPage, Locale } from './types';
 
 
@@ -23,14 +24,21 @@ export interface CareerViewProps {
   industry: Industry | undefined;
   /** Public path of this page without locale, for the sign-in return and the report link. */
   path: string;
+  /**
+   * Inside the phase 1 app shell: its sticky top bar sits above the section chips, and its back link
+   * replaces the link to the career list.
+   */
+  framed?: boolean;
 }
 
 /** F2 body: every section is rendered only when its data exists, so lite pages degrade to what they have. */
-export function CareerView({ career, cluster, page, industry, path }: CareerViewProps) {
+export function CareerView({ career, cluster, page, industry, path, framed = false }: CareerViewProps) {
   const t = useTranslations('Careers');
   const locale = useLocale() as Locale;
   const name = career.name[locale];
   const full = page?.depth === 'full';
+  // Favorites, fit and compare need an account (phase 2); phase 1 keeps everything on the phone.
+  const server = DATA_MODE === 'server';
 
   const hasOverview = Boolean(page?.snapshot || page?.whatYouDo);
   const hasMarket = Boolean(page?.marketEgypt || page?.global);
@@ -54,14 +62,16 @@ export function CareerView({ career, cluster, page, industry, path }: CareerView
   const reportHref = `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(`${t('report.subject')}: ${career.id}`)}&body=${encodeURIComponent(path)}`;
 
   return (
-    <article className="space-y-8">
+    <article className="@container space-y-8">
       <header className="space-y-4">
-        <Link href="/careers" className={linkClass}>
-          {t('page.back')}
-        </Link>
+        {!framed && (
+          <Link href="/careers" className={linkClass}>
+            {t('page.back')}
+          </Link>
+        )}
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold leading-tight">{name}</h1>
+            <h1 className="text-2xl font-bold leading-tight">{name}</h1>
             <ul className="flex flex-wrap gap-2" aria-label={t('card.facts')}>
               {cluster ? <li className={badgeClass}>{cluster.name[locale]}</li> : null}
               <li className={badgeClass}>
@@ -77,26 +87,31 @@ export function CareerView({ career, cluster, page, industry, path }: CareerView
             {page?.snapshot?.hook ? <p className="max-w-prose text-lg text-muted-foreground">{pick(page.snapshot.hook, locale)}</p> : null}
           </div>
           <div className="flex flex-wrap items-start gap-2">
-            <FavoriteButton careerId={career.id} name={name} nextPath={path} />
+            {server && <FavoriteButton careerId={career.id} name={name} nextPath={path} />}
             <ShareButton title={name} />
-            <Link href={`/careers/compare?ids=${career.id}`} className={`${linkClass} self-center text-sm`}>
-              {t('page.compare')}
-            </Link>
+            {server && (
+              <Link href={`/careers/compare?ids=${career.id}`} className={`${linkClass} self-center text-sm`}>
+                {t('page.compare')}
+              </Link>
+            )}
           </div>
         </div>
-        <FitPanel careerId={career.id} />
+        {server && <FitPanel careerId={career.id} />}
         {!full ? (
-          <p role="note" className="rounded-lg border border-dashed bg-accent/40 p-3 text-sm" data-testid="lite-note">
+          <p role="note" className="rounded-2xl border border-dashed bg-accent/40 p-3 text-sm" data-testid="lite-note">
             {t(page ? 'page.liteNote' : 'page.noPageNote')}
           </p>
         ) : null}
       </header>
 
-      <nav aria-label={t('page.sections')} className="sticky top-0 z-10 -mx-1 overflow-x-auto bg-background/95 px-1 py-2 backdrop-blur">
+      <nav
+        aria-label={t('page.sections')}
+        className={`sticky z-10 -mx-1 overflow-x-auto bg-background/95 px-1 py-2 backdrop-blur ${framed ? 'top-[calc(max(env(safe-area-inset-top),0.75rem)+3.5rem)]' : 'top-0'}`}
+      >
         <ul className="flex gap-2 whitespace-nowrap">
           {nav.map((n) => (
             <li key={n.id}>
-              <a href={`#${n.id}`} className="inline-flex h-9 items-center rounded-md border px-3 text-sm hover:bg-accent focus-visible:ring-[3px] focus-visible:ring-ring/50 outline-none">
+              <a href={`#${n.id}`} className={chipClass}>
                 {t(`sections.${n.id}`)}
               </a>
             </li>
@@ -194,7 +209,7 @@ export function CareerView({ career, cluster, page, industry, path }: CareerView
 
       {page?.reality ? (
         <Section id="reality" title={t('sections.reality')}>
-          <div className="grid gap-4 md:grid-cols-2">
+          <div className="grid gap-4 @2xl:grid-cols-2">
             {page.reality.pros?.length ? (
               <div className={`${cardClass} space-y-2`}>
                 <SubHeading>{t('reality.pros')}</SubHeading>
@@ -254,7 +269,7 @@ export function CareerView({ career, cluster, page, industry, path }: CareerView
               <ul className="flex flex-wrap gap-2">
                 {related.map((c) => (
                   <li key={c.id}>
-                    <Link href={`/careers/${c.id}`} className="inline-flex h-9 items-center rounded-md border px-3 text-sm hover:bg-accent focus-visible:ring-[3px] focus-visible:ring-ring/50 outline-none">
+                    <Link href={`/careers/${c.id}`} className={chipClass}>
                       {c.name[locale]}
                     </Link>
                   </li>
