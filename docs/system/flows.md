@@ -5,7 +5,7 @@ Each flow in phase 1 (on-device mode), step by step, with a diagram, what is sto
 | # | Flow | Status |
 |---|---|---|
 | 1 | [First start](#1-first-start) | Built |
-| 2 | [Parent consent (15–17)](#2-parent-consent-1517) | Built, gaps |
+| 2 | [Parent consent (15–17)](#2-parent-consent-1517) | Removed 13 Oct 2026 |
 | 3 | [The journey and its stations](#3-the-journey-and-its-stations) | Built |
 | 4 | [About you](#4-about-you) | Built |
 | 5 | [Finishing and scoring](#5-finishing-and-scoring) | Built |
@@ -18,22 +18,20 @@ Each flow in phase 1 (on-device mode), step by step, with a diagram, what is sto
 | 12 | [Island world](#12-island-world) | Prototype / Designed |
 | 13 | [Phase 2 flows](#13-phase-2-flows-server-mode) | Phase 2 |
 | 14 | [Discover and Verify (replacing the stations)](#14-discover-and-verify) | Built (Discover), Prototype (Verify) |
+| 15 | [The tabs](#15-the-tabs) | Built |
 | — | [Known gaps](#known-gaps) | — |
 
 ---
 
 ## 1. First start
 
-**Who:** anyone opening `/assessment` on a phone with no profile yet. **Nothing is saved until the user (or their parent) agrees.**
+**Who:** anyone opening `/journey` (or `/assessment`, which redirects there) on a phone with no profile yet. **Nothing is saved until the user accepts.**
 
 ```mermaid
 flowchart TD
-    open(["Opens /assessment<br/>no profile on this phone"]) --> age{"How old are you?"}
+    open(["Opens /journey<br/>no profile on this phone"]) --> age{"How old are you?"}
     age -- "Under 15" --> young["Not yet: browse the career library<br/>nothing saved"]
-    age -- "15–17" --> hand["Hand the phone to your parent"] --> parent["Parent consent<br/>(flow 2)"]
-    parent -- "I agree" --> thanks["Thank you, hand the phone back"] --> nick
-    parent -- "Not now" --> age
-    age -- "18–20 / 21–25 / 26+" --> accept["Before you start<br/>required: terms + privacy<br/>optional: anonymous statistics"]
+    age -- "15–17 / 18–20 / 21–25 / 26+" --> accept["Before you start<br/>required: terms + privacy (15–17 tick their own wording)<br/>optional: anonymous statistics"]
     accept -- "Start" --> made[("Profile created<br/>encrypted on the phone")]
     made --> nick["Nickname, and an optional password<br/>(recovery code shown once)"]
     nick -- "15–17" --> hub
@@ -42,22 +40,22 @@ flowchart TD
     session -- "Join, partner without research" --> hub
     session -- "Join, partner offers research" --> research{"Help us check the Arabic questions?"}
     research -- "Yes / No" --> hub(["Journey page<br/>(flow 3)"])
-    age -. "Restore my data" .-> restore["Backup file or transfer code<br/>(flow 10)"] -.-> hub
+    age -. "Restore my data" .-> restore["Backup file<br/>(flow 10)"] -.-> hub
 ```
 
 | Step | Screen | Saved on the phone | Sent |
 |---|---|---|---|
 | Age | Before we start | Nothing yet | — |
-| Acceptance (18+) | Before you start | Profile: age band, language, consent (text version `consent-0.5-draft`, policy version, time), statistics choice | — |
+| Acceptance (15+) | Before you start | Profile: age band, language, consent (basis `adult_self` or `teen_self`, text version `consent-0.6-draft`, policy version, time), statistics choice | — |
 | Nickname and password | Choose a nickname | Nickname; if a password is set, salted hashes of it and its recovery code | — |
 | Session code | Joining a session? | The session code and whether it offers research | The code, to check it ([flow 7](#7-pilot-session-code-and-research)) |
 | Research | Help us check the Arabic questions? | Research choice and time | — |
 
 **Rules**
-- The 18–20 band is kept apart from 21–25 because full legal capacity in Egypt is at 21. Whether 18–20 can accept for themselves is an open question for the lawyer.
+- Everyone 15 or older accepts for themselves. There is no parent step: nothing personal reaches anaBokra (counsel agreed, 13 Oct 2026). The 18–20 band stays separate from 21–25.
 - Under 15: nothing is saved and the user is pointed to the career library.
 - The session-code and research steps appear only for adults.
-- **App lock:** with a password set, every later start shows the unlock screen first; no screen can read the profile's data until it's unlocked (`activeRuntime()` returns nothing). Unlocking lasts until the tab or app closes, or "Lock now" in Settings. "Forgot your password?" takes the recovery code and sets a new password (with a new code) or removes it. With neither, the user can only delete the profile (parent PIN for 15–17), then restore a backup if they have one. The app lock stays on the phone: backups and transfers carry the nickname but not the password, so a restored profile opens without one until a new password is set.
+- **App lock:** with a password set, every later start shows the unlock screen first; no screen can read the profile's data until it's unlocked (`activeRuntime()` returns nothing). Unlocking lasts until the tab or app closes, or "Lock now" in Settings. "Forgot your password?" takes the recovery code and sets a new password (with a new code) or removes it. With neither, the user can only delete the profile, then restore a backup if they have one. The app lock stays on the phone: backups carry the nickname but not the password, so a restored profile opens without one until a new password is set.
 
 **In the code:** `features/local/first-start.tsx`, `profile-setup.tsx`, `unlock-screen.tsx`, `lock-setting.tsx`, `join-session.tsx`, `research-consent.tsx`, `restore-data.tsx`; `lib/local/device.ts` (`DeviceStore.createProfile`, `setConsent`), `lib/local/lock.ts`.
 
@@ -65,45 +63,7 @@ flowchart TD
 
 ## 2. Parent consent (15–17)
 
-**Who:** the parent or legal guardian, on the young person's phone, right after the hand-over screen.
-
-```mermaid
-sequenceDiagram
-    actor P as Parent
-    participant App as App on the phone
-    participant V as anaBokra server<br/>/api/verify/phone
-    participant S as SMS provider
-
-    P->>App: Name, relationship (mother / father / legal guardian)
-    P->>App: National ID (14 digits)
-    App->>App: Check ID: format, century, birth date, governorate,<br/>parent 21+ and old enough to be the parent<br/>(ID stays on the phone)
-    P->>App: Mobile number, "Send code"
-    App->>V: request {phone}
-    V->>S: SMS with a 6-digit code
-    V-->>App: requestId, last 3 digits (number not kept)
-    P->>App: Enters the code
-    App->>V: confirm {requestId, code}
-    V-->>App: verified (last 3 digits, time)
-    P->>App: Ticks 3 required boxes (+ optional statistics)
-    P->>App: Parent PIN, twice
-    App->>App: Save profile (15–17, guardian record, PIN hash), encrypted
-    App-->>P: "Thank you. Please hand the phone back."
-```
-
-| Kept on the phone (encrypted) | Kept on the server | Never kept |
-|---|---|---|
-| Parent name, relationship, national ID, last 3 digits of the number, time verified, PIN hash, choices | During the 10 minutes only: a hash of the code, the last 3 digits, attempt count; rate-limit counters keyed by a hash of the number | The phone number |
-
-**Rules**
-- The code expires after 10 minutes. 5 wrong tries end the check. Limits: 3 codes per number and 20 per network address per hour.
-- Mothers and fathers must be at least 15 years older than a 15-year-old would be; legal guardians are exempt from the age gap. Every parent must be 21 or older.
-- The ID's check digit is **not** checked: we found no official rule. An ID check shows the person is an adult; it can't prove they are the parent. The declaration (box 1) covers that.
-- The parent PIN is needed to delete data, change the statistics choice, or move the data.
-- "Not now" saves nothing.
-
-**Gaps:** no SMS provider is chosen yet. In development the code is printed in the server log; in production sending is refused until an Egyptian provider is added (`server/verify/sms.ts`).
-
-**In the code:** `features/local/guardian-consent.tsx`, `lib/national-id.ts`, `lib/local/pin.ts`, `server/verify/*`, `app/api/verify/phone/{request,confirm}`.
+**Removed on 13 Oct 2026.** 15–17-year-olds now accept for themselves ([flow 1](#1-first-start)); there is no SMS code, national ID or parent PIN, and nothing personal reaches anaBokra. The earlier flow is in git history (before commit removing `features/local/guardian-consent.tsx`).
 
 ---
 
@@ -263,7 +223,7 @@ stateDiagram-v2
 **Rules**
 - Codes are 3–20 letters, digits or dashes; one code per partner session. Lower case, spaces and Arabic digits are accepted (`demo ١` → `DEMO-1`). Each code has dates when it can be entered.
 - Research is offered only if that partner allows it (some may need an approval first), only to adults, and uploads stop after 17 June 2027.
-- Each answer set and readiness record is sent once. The link code and the record of what was sent move with a backup or transfer.
+- Each answer set and readiness record is sent once. The link code and the record of what was sent move with a backup file.
 - Turning research off deletes the readiness records sent with the phone's link code. Answer sets carry no code, so they can't be picked out; they are deleted with all research data by 17 June 2027.
 - Check limits: 20 code checks per network address per hour; 300 uploads.
 
@@ -275,7 +235,7 @@ stateDiagram-v2
 
 ## 8. Anonymous statistics
 
-**Who:** users who ticked "Share anonymous statistics" (the parent decides for 15–17). It can be changed under **Anonymous statistics** on the main page; 15–17 need the parent PIN.
+**Who:** users who ticked "Share anonymous statistics" (15–17 decide for themselves). It can be changed under **Anonymous statistics** in Settings.
 
 ```mermaid
 sequenceDiagram
@@ -326,36 +286,25 @@ flowchart LR
 
 ## 10. Moving to a new phone
 
-Under **Move to a new phone** on the main page (15–17 need the parent PIN). On the new phone: **Restore my data** at first start.
+Under **Move to a new phone** in Settings on my island. On the new phone: **Restore my data** at first start. The file never passes through anaBokra (the transfer code through a server relay was removed on 13 Oct 2026).
 
 ```mermaid
 flowchart TB
-    subgraph A["Option A · Backup file"]
-        a1["Old phone: choose a passphrase (twice)"] --> a2["Seal: PBKDF2 310,000 rounds → AES-256-GCM"]
-        a2 --> a3["Save or share the .anabokra file"]
-        a3 --> a4["New phone: pick the file + passphrase"]
-    end
-    subgraph B["Option B · Transfer code"]
-        b1["Old phone: make a random 16-character key"] --> b2["Seal with the key (HKDF → AES-256-GCM)"]
-        b2 --> b3["Send sealed data to the relay<br/>get an 8-character code"]
-        b3 --> b4["Show code + key on screen"]
-        b4 --> b5["New phone: code + key<br/>collect from relay (once), open with the key"]
-    end
+    a1["Old phone: choose a passphrase (twice, 8+ characters)"] --> a2["Seal: PBKDF2 310,000 rounds → AES-256-GCM"]
+    a2 --> a3["Save or share the .anabokra file"]
+    a3 --> a4["New phone: pick the file + passphrase"]
     a4 --> done[("Profile restored<br/>replaces this phone's profile")]
-    b5 --> done
 ```
 
-**What moves (the bundle):** the profile (including any parent record), all assessment data (answers, results, readiness, About you), and what was already sent (statistics, research, link code).
+**What moves (the bundle):** the profile (nickname included, app lock left behind), all assessment data (answers, results, readiness, About you), path (Verify) answers and results, and what was already sent (statistics, research, link code).
 
-**Relay rules:** it holds only sealed data it can't read; up to 2 MB; deleted after 10 minutes or once collected; 10 sends and 30 collections per network address per hour. The key never reaches the server.
-
-**In the code:** `lib/local/transfer.ts`, `features/local/{move-data,restore-data}.tsx`, `server/transfer/*`, `app/api/transfer{,/claim}`.
+**In the code:** `lib/local/transfer.ts`, `features/local/{move-data,restore-data}.tsx`.
 
 ---
 
 ## 11. Delete all my data
 
-**Delete everything?** on the main page (15–17 need the parent PIN). It removes the profile and everything stored for it (`profile:`, `assessment:`, `stats:`, `research:` keys) and returns to first start. Data already sent can't be removed this way: anonymous statistics and answer sets can't be traced to a person. Readiness records sent for research are deleted by turning research off first ([flow 7](#7-pilot-session-code-and-research)).
+**Delete everything?** in Settings on my island (and on the unlock screen, for a forgotten password). It removes the profile and everything stored for it (`profile:`, `assessment:`, `stats:`, `research:`, `journey:` keys) and returns to first start. Data already sent can't be removed this way: anonymous statistics and answer sets can't be traced to a person. Readiness records sent for research are deleted by turning research off first ([flow 7](#7-pilot-session-code-and-research)).
 
 `wipeAll` (developer page only) also throws away the device key.
 
@@ -414,17 +363,35 @@ flowchart LR
 
 **The stored result** is made once Discover, values and a first path are all done; opt-in statistics and research are sent from it. **Readiness:** baseline before task 1, follow-up 7 days after the first path result (placeholder timing).
 
+## 15. The tabs
+
+Every journey screen sits in one shell: a top bar and four tabs, **Home · Explore · Saved · Account** (in Arabic the first tab is on the right). Each tab loads the journey from the phone through the same gate, so first start, the unlock screen and refusals behave the same everywhere (`features/journey/journey-gate.tsx`, `app-shell.tsx`).
+
+| Tab | Route | What it holds |
+|---|---|---|
+| Home | `/journey` | Greeting with the nickname, a map preview (only the user's suggested and added paths are labelled; tapping it opens Explore), readiness checks, Discover tasks, suggested and checked paths |
+| Explore | `/journey/map` | The island map or a list, search over fields and careers, the bridge legend, and the island sheet |
+| Saved | `/journey/saved` | Paths bookmarked from the island sheet |
+| Account | `/journey/account` | Nickname and password, language, anonymous statistics, university session, move to a new phone, delete all my data, legal links |
+
+**Light only, and touch targets.** The app is always light, whatever the phone's setting (`data-theme="light"`, `color-scheme: light`). Every tappable control is at least 44px (buttons 48px by default; `tap-link`, `field`, `surface` and `switch` in `styles/globals.css`); map labels get an invisible 44px tap area; text fields use 16px text so iOS doesn't zoom in.
+
+**Island sheet actions:** *Add to my map* (paths outside the suggestions, or before results) turns the bridge orange; *Remove from my map* undoes it. *Save* bookmarks the path. *Explore this field* opens Verify once suggestions exist and the path has content; otherwise the sheet says why. Career chips open the career pages. *Review my answers* opens the results.
+
+**Stored on the phone:** the journey record (`journey:{id}`) gains `added` and `saved` lists; they move with a backup file and are deleted with the profile. Nothing is sent.
+
+---
+
 ## Known gaps
 
 | Gap | Effect | Where |
 |---|---|---|
 | Career page "fit" panel, favorites, explore "for you", account still call server endpoints | In phase 1 they show "Sign in and take the assessment" or nothing | `features/careers/personal-context.tsx`, `features/explore/personal-context.tsx`, `/account` |
+| Rate limits are kept in memory | Fine on one server; lost on restart; not shared across servers | `server/research`, `server/stats` |
 | Readiness follow-up timing is a placeholder (7 days) | Must be settled against the 17 Dec data freeze | `FOLLOW_UP_DAYS` |
 | Statistics and research uploads don't yet include Verify (paths and bands, path answers) | The pilot report can't show path results yet | `stats-summary.ts`, `lib/research.ts` |
 | "Clear and useful" rating not built | Pilot plan measure missing | Pilot plan, world spec §6 item 7 |
 | Gender not asked in phase 1 | Arabic always uses the masculine form | First start |
-| No SMS provider | 15–17 can't verify a parent in production | `server/verify/sms.ts` |
-| Relay, code checks and rate limits are kept in memory | Fine on one server; lost on restart; not shared across servers | `server/transfer`, `server/verify`, `server/research` |
 | School admission data (tracks, minimum scores, costs) not loaded | School context flags never fire | `CareerEgyptContext` |
 | Abilities performance (ICAR) items not supplied | Strengths rests on self-ratings only | `abilities.json` |
 | Island world not connected to results | Prototype only | Flow 12 |

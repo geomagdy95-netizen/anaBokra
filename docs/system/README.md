@@ -2,7 +2,7 @@
 
 Status: as built on 12 Oct 2026 (commit `ad0031f` and later). Owner: founder. Update this folder in the same change as the code it describes.
 
-anaBokra («أنا بكرة», "me tomorrow") helps young people in Egypt explore careers. In phase 1 it serves **ages 18–25 (students and recent graduates)**, plus **15–17 with a verified parent**. A user answers four short questionnaires on their own phone, sees what they enjoy, how they work, what they value and what they're good at, and gets career matches with plain explanations. Everything they enter stays **on their phone, encrypted**.
+anaBokra («أنا بكرة», "me tomorrow") helps young people in Egypt explore careers. In phase 1 it serves **ages 18–25 (students and recent graduates)**, plus **15–17**, who accept for themselves (no parent step since 13 Oct 2026). A user answers four short questionnaires on their own phone, sees what they enjoy, how they work, what they value and what they're good at, and gets career matches with plain explanations. Everything they enter stays **on their phone, encrypted**.
 
 ## What's in this folder
 
@@ -50,8 +50,6 @@ flowchart LR
 
     subgraph server["anaBokra server (planned: OVH)"]
         pages["Pages and content<br/>(static, no personal data)"]
-        verify["Phone code check<br/>/api/verify/phone"]
-        relay["Transfer relay<br/>/api/transfer"]
         stats["Anonymous statistics<br/>/api/stats"]
         research["Pilot sessions and research<br/>/api/events, /api/research"]
         db[("Database<br/>anon_stats, pilot_events,<br/>research_answer_sets,<br/>research_readiness")]
@@ -59,24 +57,20 @@ flowchart LR
         research --> db
     end
 
-    sms["SMS provider<br/>(Egyptian, not chosen yet)"]
-
     ui -- "load pages" --> pages
-    ui -- "15-17 only: parent's number, briefly" --> verify --> sms
-    ui -- "moving phones: data we can't read" --> relay
     ui -- "opt-in: one coarse summary per result" --> stats
     ui -- "pilot, opt-in: answers without ID;<br/>readiness with a random code" --> research
 ```
 
-**The rule behind the picture:** answers, results, the profile and the parent's details never leave the phone in readable form. Only four things cross the network:
-1. The parent's phone number, briefly, to send a code (15–17 only).
-2. A sealed copy of the data when moving phones, which the server can't open.
-3. Anonymous statistics, only with an opt-in.
-4. Research data at pilot sessions, only with an opt-in.
+**The rule behind the picture:** no personal data is stored on the server or passes through it. Answers, results and the profile never leave the phone (a backup file goes wherever the user saves it). Only two things reach the server, both opt-in:
+1. Anonymous statistics.
+2. Research data at pilot sessions.
+
+(The parent's phone code and the transfer-code relay were removed on 13 Oct 2026.)
 
 [connections.md](connections.md#what-crosses-the-network) lists exactly what each one carries.
 
-Whether this design needs a licence from Egypt's Personal Data Protection Centre is **for the lawyer to decide** ([lawyer brief](../legal/lawyer-brief.md), P1). These documents never claim that encryption or local storage removes that need.
+Whether this design needs a licence from Egypt's Personal Data Protection Centre was for the lawyer to decide. **Counsel agreed to the phase 1 design on 13 Oct 2026** (as reported by the founder; written confirmation to be filed with the [lawyer brief](../legal/lawyer-brief.md)). These documents still never claim that encryption or local storage on its own removes that need.
 
 ## Two data modes
 
@@ -93,13 +87,15 @@ The assessment pages check the mode first and use the on-device runtime in `loca
 
 | Area | Status |
 |---|---|
-| First start: age question, adult acceptance, parent consent for 15–17 | Built |
+| First start: age question, acceptance (18+, and 15–17 for themselves), nickname and optional password | Built |
 | Discover (10 short tasks on my island) and Verify (4 paths), replacing the five stations | Built |
-| Island map on my island from real progress | Built (3D devices; lists everywhere) |
+| Island map from real progress: Home map card, and the Explore tab with list, search, legend and island sheet | Built (3D devices; lists everywhere) |
+| App shell with brand theme and logo: Home · Explore · Saved · Account tabs | Built |
+| Add a path to my map (orange bridge) and save paths (Saved tab), both on the phone | Built |
 | Results: reveal, profile, career matches with explanations | Built |
 | Readiness check | Built: baseline before Discover, follow-up after the first path (timing to settle) |
 | Encryption on the phone, delete my data | Built |
-| Moving phones: backup file, transfer code | Built |
+| Moving phones: backup file | Built |
 | Anonymous statistics (opt-in) | Built |
 | Pilot session code, research opt-in | Built |
 | Island world beyond paths (L2–L4: career plans) | Designed in the world spec |

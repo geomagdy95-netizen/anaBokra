@@ -22,10 +22,9 @@ const latin = IBM_Plex_Sans({
 });
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#0f766e' },
-    { media: '(prefers-color-scheme: dark)', color: '#0b1220' },
-  ],
+  // The app is light whatever the phone's setting (tokens.css).
+  themeColor: '#FCFAF3',
+  colorScheme: 'light',
 };
 
 export function generateStaticParams() {
@@ -44,7 +43,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<'/[
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} dir={dirOf(locale)} className={`${arabic.variable} ${latin.variable}`}>
+    <html lang={locale} dir={dirOf(locale)} data-theme="light" className={`${arabic.variable} ${latin.variable}`}>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>

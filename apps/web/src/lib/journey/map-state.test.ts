@@ -30,6 +30,12 @@ describe('island states from progress', () => {
     expect(s.law).toMatchObject({ relation: 'other', bridge: 'broken' });
   });
 
+  it('shows a path the user added to their map as added, even untouched', () => {
+    const s = islandStates(preview('suggested'), { v: 1, paths: {}, added: ['law'] });
+    expect(s.law).toMatchObject({ relation: 'added', bridge: 'connected' });
+    expect(s.media).toMatchObject({ relation: 'other', bridge: 'broken' });
+  });
+
   it('suggests nothing when interests are flat', () => {
     const s = islandStates(preview('suggested', true), { v: 1, paths: {} });
     expect(Object.values(s).some((x) => x.relation === 'suggested')).toBe(false);

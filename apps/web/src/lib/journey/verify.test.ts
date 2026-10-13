@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 
 import { MemoryKv } from '@/lib/local/kv';
 
-import { bandFor, readJourney, saveVerifyAnswer, saveVerifyResult, scoreVerify, taskDone, taskItemIds } from './verify';
+import { bandFor, readJourney, saveVerifyAnswer, saveVerifyResult, scoreVerify, setInList, taskDone, taskItemIds } from './verify';
 
 const health = paths.health!;
 const [day, real, tryIt] = health.tasks;
@@ -73,5 +73,18 @@ describe('Verify storage', () => {
     expect(doc.paths.health!.answers).toEqual({ health_day_1: 3, health_day_2: 1 });
     expect(doc.paths.health!.result!.pathId).toBe('health');
     expect((await readJourney(kv, 'other')).paths).toEqual({});
+  });
+});
+
+describe('added and saved paths', () => {
+  it('adds once, removes, and keeps the lists apart', async () => {
+    const kv = new MemoryKv();
+    expect(await setInList(kv, 'p1', 'added', 'law', true)).toEqual(['law']);
+    expect(await setInList(kv, 'p1', 'added', 'law', true)).toEqual(['law']);
+    expect(await setInList(kv, 'p1', 'saved', 'tech', true)).toEqual(['tech']);
+    await saveVerifyAnswer(kv, 'p1', 'health', 'health_day_1', 3);
+    expect(await setInList(kv, 'p1', 'added', 'law', false)).toEqual([]);
+    const doc = await readJourney(kv, 'p1');
+    expect(doc).toMatchObject({ added: [], saved: ['tech'], paths: { health: { answers: { health_day_1: 3 } } } });
   });
 });

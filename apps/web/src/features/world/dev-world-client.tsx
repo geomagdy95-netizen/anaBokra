@@ -7,6 +7,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 import { useRenderer } from '../path/capabilities';
+import { BridgeSwatch } from './bridge-swatch';
 import { ProfileSheet } from './profile-sheet';
 import { addToMap, profileFor, scenarioStates } from './scenarios';
 import { GROUP_ORDER, SCENARIOS, type GroupId, type GroupInfo, type IslandState, type Relation, type Scenario, type Selection } from './types';
@@ -31,24 +32,6 @@ function LogoMark({ className }: { className?: string }) {
       <path fill="#FB9D5D" d="M408 208C253.333 208 253.333 429 408 429V208Z" />
     </svg>
   );
-}
-
-/** Small bridge swatch for the legend and list rows. */
-function BridgeSwatch({ relation, broken = false }: { relation: Relation; broken?: boolean }) {
-  const color = relation === 'suggested' ? '#8B45DA' : relation === 'added' ? '#FF9A55' : '#E2CDA9';
-  if (broken)
-    return (
-      <span className="flex items-center gap-1" aria-hidden>
-        <span className="h-2 w-3 rounded-sm bg-[#E5DACB]" />
-        <span className="flex gap-0.5">
-          {[0, 1, 2].map((i) => (
-            <span key={i} className="size-1 rounded-full bg-[#9D73DB]" />
-          ))}
-        </span>
-        <span className="h-2 w-3 rounded-sm bg-[#E5DACB]" />
-      </span>
-    );
-  return <span className="h-2 w-10 rounded-full" style={{ background: color, boxShadow: relation === 'neutral' ? undefined : `0 0 10px ${color}` }} aria-hidden />;
 }
 
 export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {

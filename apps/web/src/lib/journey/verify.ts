@@ -50,6 +50,10 @@ export interface PathRecord {
 export interface JourneyDoc {
   v: 1;
   paths: Record<string, PathRecord>;
+  /** Paths outside the suggestions that the user added to their map themselves (orange bridge). */
+  added?: string[];
+  /** Paths the user bookmarked (the Saved tab). */
+  saved?: string[];
 }
 
 export const journeyKey = (profileId: string) => `journey:${profileId}`;
@@ -71,6 +75,15 @@ export async function saveVerifyResult(kv: KvStore, profileId: string, result: V
   const rec = doc.paths[result.pathId] ?? { answers: {} };
   doc.paths[result.pathId] = { ...rec, result };
   await kv.set(journeyKey(profileId), doc);
+}
+
+/** Adds a path to, or removes it from, one of the user's lists on the phone; returns the new list. */
+export async function setInList(kv: KvStore, profileId: string, list: 'added' | 'saved', pathId: string, on: boolean): Promise<string[]> {
+  const doc = await readJourney(kv, profileId);
+  const current = doc[list] ?? [];
+  const next = on ? (current.includes(pathId) ? current : [...current, pathId]) : current.filter((id) => id !== pathId);
+  await kv.set(journeyKey(profileId), { ...doc, [list]: next });
+  return next;
 }
 
 /** The ids a task needs answered ("Try it" items each have a follow-up enjoy answer). */

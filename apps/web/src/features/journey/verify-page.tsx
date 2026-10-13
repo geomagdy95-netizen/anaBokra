@@ -4,23 +4,22 @@ import { careerById, clusters, pathById, type PathContent, type PathTask } from 
 import type { I18n } from '@anabokra/engine';
 import { Check, X } from 'lucide-react';
 import { useLocale } from 'next-intl';
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { useNumberFormat } from '@/features/assessment/primitives';
-import { AssessmentProvider, useText } from '@/features/assessment/ui-context';
+import { useText } from '@/features/assessment/ui-context';
 import { ValuesStation } from '@/features/assessment/values-station';
 import type { ValuesPayload } from '@/features/assessment/types';
-import { FirstStart } from '@/features/local/first-start';
-import { UnlockScreen } from '@/features/local/unlock-screen';
-import { LocalBlocked, LocalLoading } from '@/features/local/local-states';
 import { Link } from '@/i18n/navigation';
-import type { Locale } from '@/i18n/routing';
-import { loadJourney, maybeFinalize, type JourneyData, type JourneyLoad } from '@/lib/journey/journey';
+import { maybeFinalize, type JourneyData } from '@/lib/journey/journey';
 import { saveVerifyAnswer, saveVerifyResult, scoreVerify, taskDone, type VerifyResult } from '@/lib/journey/verify';
 import { cn } from '@/lib/utils';
 import { stationPayload } from '@/server/assessment/station-payload';
 
+import { AppShell } from './app-shell';
+import { JourneyGate } from './journey-gate';
+import { LocalLoading } from '@/features/local/local-states';
 import { pathSteps } from './steps';
 import { TaskRunner } from './task-runner';
 import { useJT } from './use-jt';
@@ -30,27 +29,7 @@ import { useJT } from './use-jt';
  * then "fits well / partly / worth rethinking" with reasons and the path's careers ranked.
  */
 export function VerifyPage({ pathId }: { pathId: string }) {
-  const locale = useLocale() as Locale;
-  const [state, setState] = useState<JourneyLoad | null>(null);
-  const [version, setVersion] = useState(0);
-  const reload = useCallback(() => setVersion((v) => v + 1), []);
-  useEffect(() => {
-    let alive = true;
-    void loadJourney(locale).then((s) => alive && setState(s));
-    return () => {
-      alive = false;
-    };
-  }, [locale, version]);
-
-  if (!state) return <LocalLoading />;
-  if (state.kind === 'first-start') return <FirstStart onDone={reload} />;
-  if (state.kind === 'locked') return <UnlockScreen nickname={state.nickname} onUnlocked={reload} />;
-  if (state.kind === 'blocked') return <LocalBlocked code={state.code} />;
-  return (
-    <AssessmentProvider gender={state.rt.profile.gender}>
-      <Verify data={state} pathId={pathId} onChanged={reload} />
-    </AssessmentProvider>
-  );
+  return <JourneyGate>{(data, reload) => <Verify data={data} pathId={pathId} onChanged={reload} />}</JourneyGate>;
 }
 
 type Running = { kind: 'values' } | { kind: 'task'; task: PathTask } | null;
@@ -66,29 +45,23 @@ function Verify({ data, pathId, onChanged }: { data: JourneyData; pathId: string
   const [showResult, setShowResult] = useState(Boolean(rec?.result));
   const groupName = group ? tx(group.name) : pathId;
 
-  const header = (
-    <header className="flex items-start justify-between gap-3">
-      <div>
-        <p className="text-sm font-medium text-primary">{jt('verify.eyebrow')}</p>
-        <h1 className="text-2xl font-semibold">{groupName}</h1>
+  const frame = (testId: string, children: ReactNode, extra?: Record<string, string>) => (
+    <AppShell tab="explore" back="/journey/map" title={groupName} subtitle={jt('verify.eyebrow')} testId={testId}>
+      <div className="flex flex-col gap-5" {...extra}>
+        {children}
       </div>
-      <Button asChild variant="ghost" size="icon" aria-label={jt('back')}>
-        <Link href="/journey">
-          <X className="size-5" />
-        </Link>
-      </Button>
-    </header>
+    </AppShell>
   );
 
   if (!path || data.preview.stage !== 'suggested')
-    return (
-      <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 py-6" data-testid="verify-unavailable">
-        {header}
-        <p className="rounded-xl bg-muted p-4 text-sm">{!path ? jt('verify.noContent') : jt('verify.notReady')}</p>
+    return frame(
+      'verify-unavailable',
+      <>
+        <p className="rounded-2xl bg-secondary p-4 text-sm">{!path ? jt('verify.noContent') : jt('verify.notReady')}</p>
         <Button asChild variant="outline">
-          <Link href="/journey">{jt('back')}</Link>
+          <Link href="/journey/map">{jt('back')}</Link>
         </Button>
-      </main>
+      </>,
     );
 
   if (running?.kind === 'values') return <ValuesTask data={data} onDone={() => (setRunning(null), onChanged())} />;
@@ -118,7 +91,7 @@ function Verify({ data, pathId, onChanged }: { data: JourneyData; pathId: string
       />
     );
 
-  if (showResult && rec?.result) return <Result path={path} result={rec.result} header={header} onAgain={() => setShowResult(false)} />;
+  if (showResult && rec?.result) return frame('verify-result-page', <Result path={path} result={rec.result} onAgain={() => setShowResult(false)} />, { 'data-band': rec.result.band });
 
   const tasksDone = path.tasks.map((t) => taskDone(t, answers));
   const allDone = data.valuesDone && tasksDone.every(Boolean);
@@ -138,9 +111,9 @@ function Verify({ data, pathId, onChanged }: { data: JourneyData; pathId: string
   ];
   const next = steps.findIndex((s) => !s.done);
 
-  return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 py-6" data-testid="verify">
-      {header}
+  return frame(
+    'verify',
+    <>
       <p className="text-sm text-muted-foreground">{jt('verify.intro')}</p>
       <ol className="flex flex-col gap-2">
         {steps.map((s, i) => (
@@ -179,7 +152,7 @@ function Verify({ data, pathId, onChanged }: { data: JourneyData; pathId: string
           {jt('verify.result')}
         </Button>
       )}
-    </main>
+    </>,
   );
 }
 
@@ -228,7 +201,7 @@ function ValuesTask({ data, onDone }: { data: JourneyData; onDone: () => void })
 const BAND_STYLE = { fitsWell: 'border-primary bg-primary/10', fitsPartly: 'border-amber-500/60 bg-amber-50 dark:bg-amber-950/30', rethink: 'border-muted-foreground/30 bg-muted' };
 const BAND_ICON = { fitsWell: '🌟', fitsPartly: '🧭', rethink: '🤔' };
 
-function Result({ path, result, header, onAgain }: { path: PathContent; result: VerifyResult; header: React.ReactNode; onAgain: () => void }) {
+function Result({ path, result, onAgain }: { path: PathContent; result: VerifyResult; onAgain: () => void }) {
   const jt = useJT();
   const tx = useText();
   const nf = useNumberFormat();
@@ -243,8 +216,7 @@ function Result({ path, result, header, onAgain }: { path: PathContent; result: 
   };
 
   return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 py-6" data-testid="verify-result-page" data-band={result.band}>
-      {header}
+    <>
       <section className={cn('rounded-2xl border-2 p-5', BAND_STYLE[result.band])}>
         <p aria-hidden="true" className="text-4xl">
           {BAND_ICON[result.band]}
@@ -307,7 +279,7 @@ function Result({ path, result, header, onAgain }: { path: PathContent; result: 
                   <span className="tabular-nums">{nf.format(i + 1)}. </span>
                   {careerName(c.careerId)}
                 </p>
-                <Link href={`/careers/${c.careerId}`} className="shrink-0 text-xs text-primary underline underline-offset-4">
+                <Link href={`/careers/${c.careerId}`} className="tap-link shrink-0 text-xs">
                   {jt('verify.openCareer')}
                 </Link>
               </div>
@@ -327,12 +299,12 @@ function Result({ path, result, header, onAgain }: { path: PathContent; result: 
       <p className="text-xs text-muted-foreground">{jt('verify.disclaimer')}</p>
       <div className="flex flex-wrap gap-2">
         <Button asChild>
-          <Link href="/journey">{jt('verify.other')}</Link>
+          <Link href="/journey/map">{jt('verify.other')}</Link>
         </Button>
         <Button variant="outline" onClick={onAgain}>
           {jt('verify.again')}
         </Button>
       </div>
-    </main>
+    </>
   );
 }

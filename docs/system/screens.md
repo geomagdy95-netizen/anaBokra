@@ -32,25 +32,30 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 |---|---|---|---|
 | L1 | Age question | `/assessment`, first start | Built |
 | L2 | Under 15: not yet | first start | Built |
-| L3 | Hand the phone to your parent | first start | Built |
-| L4 | Parent consent (name, ID, phone code, ticks, PIN) | first start | Built |
-| L5 | Thank you, hand the phone back | first start | Built |
-| L6 | Before you start (adult acceptance) | first start | Built |
+| L3 | ~~Hand the phone to your parent~~ | — | Removed 13 Oct 2026 |
+| L4 | ~~Parent consent~~ | — | Removed 13 Oct 2026 |
+| L5 | ~~Thank you, hand the phone back~~ | — | Removed 13 Oct 2026 |
+| L6 | Before you start (acceptance: 18+, or 15–17 with their own wording) | first start | Built |
 | L7 | Joining a session? | first start, and main page | Built |
 | L8 | Help us check the Arabic questions? | after L7 if offered, and main page | Built |
-| L9 | Restore my data (file or code) | first start | Built |
-| L10 | Main-page settings: anonymous statistics, university session, move to a new phone, delete all my data | `/assessment` footer | Built |
+| L9 | Restore my data (backup file) | first start | Built |
+| L10 | Settings on my island: nickname and password, anonymous statistics, university session, move to a new phone (backup file), delete all my data | `/journey` footer | Built |
 | L11 | Storage warning (private window) | `/assessment` | Built |
 | L12 | Choose a nickname, and an optional password | first start, after acceptance (15–17: after the hand-back) | Built |
 | L13 | Your recovery code (shown once) | after setting or changing a password | Built |
-| L14 | Welcome back: unlock, or reset with the recovery code | `/journey`, `/journey/[path]` when locked | Built |
-| L15 | Settings: nickname and password (set, change, remove, lock now) | `/journey` settings | Built |
+| L14 | Welcome back: unlock, or reset with the recovery code | any journey tab when locked | Built |
+| L15 | Settings: nickname and password (set, change, remove, lock now) | `/journey/account` | Built |
 
 ## I · Islands (Discover / Verify) *(proposed codes)*
 
 | Code | Screen | Route | Status |
 |---|---|---|---|
-| I1 | My island: map, readiness, Discover tasks, suggested and checked paths, settings | `/journey` (and `/assessment` redirects here) | Built |
+| T0 | App shell: top bar and bottom tabs (Home · Explore · Saved · Account) | every journey screen | Built |
+| I1 | Home (my island): greeting, map card, readiness, Discover tasks, suggested and checked paths | `/journey` (and `/assessment` redirects here) | Built |
+| I7 | Explore: full map or list, search (fields and careers), legend, toast | `/journey/map` (`?island=` opens a sheet) | Built |
+| I8 | Island sheet: status, bridge progress, careers, add to my map / remove, save, explore (Verify), review my answers | `/journey/map` | Built |
+| I9 | Saved: bookmarked paths, empty state | `/journey/saved` | Built |
+| I10 | Account: profile card, nickname and password, language, statistics, session, move phone, delete, legal links | `/journey/account` | Built |
 | I2 | A task: one question at a time, mixed formats | `/journey` | Built |
 | I3 | Task reward: "Your island grew", early guess or suggestions | `/journey` | Built |
 | I4 | Verify a path: values once, day, real deal, try it | `/journey/[path]` | Built (4 paths; others say "opens soon") |

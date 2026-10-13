@@ -1,30 +1,24 @@
 'use client';
 
 import { careerById, clusters, pathById } from '@anabokra/content';
-import { Check, ChevronRight, Lock } from 'lucide-react';
+import { Check, ChevronRight, Lock, Map as MapIcon } from 'lucide-react';
 import { useLocale } from 'next-intl';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 
+import { LogoMark } from '@/components/brand/logo';
 import { Button } from '@/components/ui/button';
-import { LocaleSwitcher } from '@/components/locale-switcher';
 import { ProgressBar, useNumberFormat } from '@/features/assessment/primitives';
-import { AssessmentProvider, useText } from '@/features/assessment/ui-context';
-import { DeleteMyData } from '@/features/local/delete-data';
-import { LockSetting } from '@/features/local/lock-setting';
-import { FirstStart } from '@/features/local/first-start';
-import { UnlockScreen } from '@/features/local/unlock-screen';
-import { LocalBlocked, LocalLoading, StorageWarning } from '@/features/local/local-states';
-import { MoveData } from '@/features/local/move-data';
-import { SessionSetting } from '@/features/local/session-setting';
-import { StatsSetting } from '@/features/local/stats-setting';
+import { useText } from '@/features/assessment/ui-context';
+import { StorageWarning } from '@/features/local/local-states';
 import { Link } from '@/i18n/navigation';
-import type { Locale } from '@/i18n/routing';
 import { discoverPlan } from '@/lib/journey/discover-plan';
-import { FOLLOW_UP_DAYS, loadJourney, maybeFinalize, type JourneyData, type JourneyLoad } from '@/lib/journey/journey';
+import { FOLLOW_UP_DAYS, maybeFinalize, type JourneyData } from '@/lib/journey/journey';
 import type { VerifyBand } from '@/lib/journey/verify';
 import { cn } from '@/lib/utils';
 import type { Preview } from '@/server/assessment/scoring';
 
+import { AccountButton, AppShell } from './app-shell';
+import { JourneyGate } from './journey-gate';
 import { JourneyMap } from './journey-map';
 import { discoverSteps, readinessSteps } from './steps';
 import { TaskRunner } from './task-runner';
@@ -33,41 +27,13 @@ import { useJT } from './use-jt';
 const DAY = 86_400_000;
 
 /**
- * My island (docs/product/discover-verify.md): the map, the readiness check before Discover, the ten
- * Discover tasks, suggested paths (each opens Verify), checked paths with their band, a follow-up
- * readiness check later, and the settings. Everything is read from and saved on the phone.
+ * Home: my island (docs/product/discover-verify.md). The map card (opens Explore), the readiness check
+ * before Discover, the ten Discover tasks, suggested paths (each opens Verify), checked paths with their
+ * band, and a follow-up readiness check later. Settings live in the Account tab. Everything is read from
+ * and saved on the phone.
  */
 export function DiscoverPage() {
-  const locale = useLocale() as Locale;
-  const [state, setState] = useState<JourneyLoad | null>(null);
-  const [version, setVersion] = useState(0);
-  const reload = useCallback(() => setVersion((v) => v + 1), []);
-
-  useEffect(() => {
-    let alive = true;
-    void loadJourney(locale).then((s) => {
-      if (!alive) return;
-      setState(s);
-      // Retry opt-in uploads that couldn't be sent earlier (e.g. offline). Both skip when there's nothing new.
-      if (s.kind === 'ready') {
-        void import('@/lib/local/stats').then(({ syncStats }) => syncStats(s.rt));
-        void import('@/lib/local/research').then(({ syncResearch }) => syncResearch(s.rt));
-      }
-    });
-    return () => {
-      alive = false;
-    };
-  }, [locale, version]);
-
-  if (!state) return <LocalLoading />;
-  if (state.kind === 'first-start') return <FirstStart onDone={reload} />;
-  if (state.kind === 'locked') return <UnlockScreen nickname={state.nickname} onUnlocked={reload} />;
-  if (state.kind === 'blocked') return <LocalBlocked code={state.code} />;
-  return (
-    <AssessmentProvider gender={state.rt.profile.gender}>
-      <Island data={state} onChanged={reload} />
-    </AssessmentProvider>
-  );
+  return <JourneyGate>{(data, reload) => <Island data={data} onChanged={reload} />}</JourneyGate>;
 }
 
 type Running = { kind: 'task'; n: number } | { kind: 'readiness'; phase: 'pre' | 'post' } | null;
@@ -109,7 +75,11 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
         }}
         onDone={async () => {
           try {
-            await data.rt.service.saveReadiness(data.rt.userId, { phase: running.phase, sessionId: data.sessionId, answers: collected.current });
+            await data.rt.service.saveReadiness(data.rt.userId, {
+              phase: running.phase,
+              sessionId: data.sessionId,
+              answers: collected.current,
+            });
             void import('@/lib/local/research').then(({ syncResearch }) => syncResearch(data.rt));
           } finally {
             setRunning(null);
@@ -131,14 +101,22 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
         onAnswer={async (step, value, ms) => {
           if (!data.open || !('instrumentId' in step)) return false;
           try {
-            await data.rt.service.saveResponses(data.rt.userId, { sessionId: data.sessionId, station: step.instrumentId, responses: [{ itemId: step.id, value, ms }] });
+            await data.rt.service.saveResponses(data.rt.userId, {
+              sessionId: data.sessionId,
+              station: step.instrumentId,
+              responses: [{ itemId: step.id, value, ms }],
+            });
             return true;
           } catch {
             return false;
           }
         }}
         onDone={async () => {
-          setReward(await data.rt.service.preview(data.rt.userId, { sessionId: data.sessionId }));
+          setReward(
+            await data.rt.service.preview(data.rt.userId, {
+              sessionId: data.sessionId,
+            }),
+          );
           await maybeFinalize(data);
           setRunning(null);
           onChanged();
@@ -154,126 +132,143 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
   if (reward) return <Reward preview={reward} done={status.doneCount} onBack={() => setReward(null)} />;
 
   return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 py-6" data-testid="discover">
-      <header className="flex items-start justify-between gap-3">
-        <div>
-          <p className="text-sm font-medium text-primary">{jt('discover')}</p>
-          <h1 className="text-2xl font-semibold">{jt('title')}</h1>
-        </div>
-        <LocaleSwitcher />
-      </header>
+    <AppShell
+      tab="home"
+      leading={<LogoMark className="h-10" />}
+      title={data.rt.profile.displayName ? jt('home.hello', { name: data.rt.profile.displayName }) : jt('title')}
+      subtitle={jt('home.subtitle')}
+      action={<AccountButton />}
+      testId="discover"
+    >
+      <div className="flex flex-col gap-5">
+        {!data.rt.device.persistent && <StorageWarning />}
 
-      <JourneyMap data={data} />
-
-      {offerBaseline && (
-        <section className="rounded-2xl border-2 border-primary p-4" data-testid="baseline">
-          <h2 className="font-semibold">{jt('readiness.baselineTitle')}</h2>
-          <p className="mt-1 text-sm text-muted-foreground">{jt('readiness.baselineIntro')}</p>
-          <div className="mt-3 flex gap-2">
-            <Button
-              onClick={() => {
-                collected.current = {};
-                setRunning({ kind: 'readiness', phase: 'pre' });
-              }}
-              data-testid="baseline-start"
-            >
-              {jt('readiness.start')}
-            </Button>
-            <Button variant="ghost" onClick={() => setSkippedBaseline(true)}>
-              {jt('readiness.skip')}
+        <section className="overflow-hidden rounded-3xl bg-brand-lavender shadow-sm" data-testid="home-map">
+          <JourneyMap data={data} />
+          <div className="flex items-center gap-3 bg-card/90 p-4">
+            <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-secondary text-primary">
+              <MapIcon className="size-5" aria-hidden />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="font-bold">{jt('home.mapTitle')}</p>
+              <p className="text-xs text-muted-foreground">{jt(`explore.hint.${data.preview.flat ? 'none' : data.preview.stage}`)}</p>
+            </div>
+            <Button asChild size="sm" data-testid="open-map">
+              <Link href="/journey/map">{jt('home.openMap')}</Link>
             </Button>
           </div>
         </section>
-      )}
 
-      {offerFollowUp && (
-        <section className="rounded-2xl border-2 border-primary p-4" data-testid="follow-up">
-          <h2 className="font-semibold">{jt('readiness.followTitle')}</h2>
-          <p className="mt-1 text-sm text-muted-foreground">{jt('readiness.followIntro')}</p>
-          <Button
-            className="mt-3"
-            onClick={() => {
-              collected.current = {};
-              setRunning({ kind: 'readiness', phase: 'post' });
-            }}
-            data-testid="follow-up-start"
-          >
-            {jt('readiness.start')}
-          </Button>
-        </section>
-      )}
-
-      {data.preview.stage !== 'none' && <Suggestions preview={data.preview} results={bandsOf(data)} />}
-
-      <section className="flex flex-col gap-2">
-        <p className="text-sm text-muted-foreground">{jt('intro')}</p>
-        <ProgressBar value={status.doneCount} max={plan.length} label={jt('title')} />
-        <p className="text-xs text-muted-foreground tabular-nums">{jt('progress', { done: nf.format(status.doneCount), total: nf.format(plan.length) })}</p>
-        {status.next === null && (
-          <button type="button" className="self-start text-sm text-primary underline underline-offset-4" onClick={() => setShowTasks((v) => !v)} data-testid="toggle-tasks">
-            {jt(showTasks ? 'hideTasks' : 'showTasks')}
-          </button>
+        {offerBaseline && (
+          <section className="rounded-3xl border-2 border-brand-orange-soft bg-accent p-5" data-testid="baseline">
+            <h2 className="font-semibold">{jt('readiness.baselineTitle')}</h2>
+            <p className="mt-1 text-sm text-muted-foreground">{jt('readiness.baselineIntro')}</p>
+            <div className="mt-3 flex gap-2">
+              <Button
+                onClick={() => {
+                  collected.current = {};
+                  setRunning({ kind: 'readiness', phase: 'pre' });
+                }}
+                data-testid="baseline-start"
+              >
+                {jt('readiness.start')}
+              </Button>
+              <Button variant="ghost" onClick={() => setSkippedBaseline(true)}>
+                {jt('readiness.skip')}
+              </Button>
+            </div>
+          </section>
         )}
-        <ol className={cn('flex flex-col gap-2', status.next === null && !showTasks && 'hidden')} data-testid="discover-tasks">
-          {plan.map((task, i) => {
-            const done = status.done[i]!;
-            const next = status.next === task.n;
-            const locked = !done && !next;
-            const minutes = Math.max(1, Math.round((task.items.length * 8) / 60));
-            return (
-              <li key={task.n}>
-                <button
-                  type="button"
-                  disabled={locked || !data.open || offerBaseline}
-                  onClick={() => setRunning({ kind: 'task', n: task.n })}
-                  className={cn(
-                    'flex w-full items-center gap-3 rounded-2xl border p-3 text-start transition-colors',
-                    next ? 'border-primary bg-primary/5 shadow-sm' : done ? 'bg-card' : 'bg-muted/40 opacity-70',
-                  )}
-                  data-testid={`task-${task.n}`}
-                  data-state={done ? 'done' : next ? 'next' : 'locked'}
-                >
-                  <span
+
+        {offerFollowUp && (
+          <section className="rounded-3xl border-2 border-brand-orange-soft bg-accent p-5" data-testid="follow-up">
+            <h2 className="font-semibold">{jt('readiness.followTitle')}</h2>
+            <p className="mt-1 text-sm text-muted-foreground">{jt('readiness.followIntro')}</p>
+            <Button
+              className="mt-3"
+              onClick={() => {
+                collected.current = {};
+                setRunning({ kind: 'readiness', phase: 'post' });
+              }}
+              data-testid="follow-up-start"
+            >
+              {jt('readiness.start')}
+            </Button>
+          </section>
+        )}
+
+        {data.preview.stage !== 'none' && <Suggestions preview={data.preview} results={bandsOf(data)} />}
+
+        <section className="flex flex-col gap-3 rounded-3xl bg-card p-5 shadow-sm">
+          <h2 className="text-lg font-bold">{jt('home.discoverTitle')}</h2>
+          <p className="text-sm text-muted-foreground">{jt('intro')}</p>
+          <ProgressBar value={status.doneCount} max={plan.length} label={jt('title')} />
+          <p className="text-xs text-muted-foreground tabular-nums">
+            {jt('progress', {
+              done: nf.format(status.doneCount),
+              total: nf.format(plan.length),
+            })}
+          </p>
+          {status.next === null && (
+            <button type="button" className="tap-link self-start" onClick={() => setShowTasks((v) => !v)} data-testid="toggle-tasks">
+              {jt(showTasks ? 'hideTasks' : 'showTasks')}
+            </button>
+          )}
+          <ol className={cn('flex flex-col gap-2', status.next === null && !showTasks && 'hidden')} data-testid="discover-tasks">
+            {plan.map((task, i) => {
+              const done = status.done[i]!;
+              const next = status.next === task.n;
+              const locked = !done && !next;
+              const minutes = Math.max(1, Math.round((task.items.length * 8) / 60));
+              return (
+                <li key={task.n}>
+                  <button
+                    type="button"
+                    disabled={locked || !data.open || offerBaseline}
+                    onClick={() => setRunning({ kind: 'task', n: task.n })}
                     className={cn(
-                      'flex size-9 shrink-0 items-center justify-center rounded-full text-sm font-semibold tabular-nums',
-                      done ? 'bg-primary text-primary-foreground' : next ? 'border-2 border-primary text-primary' : 'bg-muted text-muted-foreground',
+                      'flex w-full items-center gap-3 rounded-2xl border p-3 text-start transition-colors',
+                      next ? 'border-primary bg-secondary shadow-sm' : done ? 'bg-card' : 'border-transparent bg-muted/50 opacity-70',
                     )}
-                    aria-hidden="true"
+                    data-testid={`task-${task.n}`}
+                    data-state={done ? 'done' : next ? 'next' : 'locked'}
                   >
-                    {done ? <Check className="size-4" /> : locked ? <Lock className="size-4" /> : nf.format(task.n)}
-                  </span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block font-medium">
-                      {jt('task', { n: nf.format(task.n) })} · {jt(`taskTitles.${task.n}`)}
+                    <span
+                      className={cn(
+                        'flex size-9 shrink-0 items-center justify-center rounded-full text-sm font-semibold tabular-nums',
+                        done ? 'bg-primary text-primary-foreground' : next ? 'border-2 border-primary text-primary' : 'bg-muted text-muted-foreground',
+                      )}
+                      aria-hidden="true"
+                    >
+                      {done ? <Check className="size-4" /> : locked ? <Lock className="size-4" /> : nf.format(task.n)}
                     </span>
-                    <span className="block text-xs text-muted-foreground">
-                      {jt('taskMeta', { count: nf.format(task.items.length), min: nf.format(minutes) })} · {jt(`state.${done ? 'done' : next ? 'next' : 'locked'}`)}
+                    <span className="min-w-0 flex-1">
+                      <span className="block font-medium">
+                        {jt('task', { n: nf.format(task.n) })} · {jt(`taskTitles.${task.n}`)}
+                      </span>
+                      <span className="block text-xs text-muted-foreground">
+                        {jt('taskMeta', {
+                          count: nf.format(task.items.length),
+                          min: nf.format(minutes),
+                        })}{' '}
+                        · {jt(`state.${done ? 'done' : next ? 'next' : 'locked'}`)}
+                      </span>
                     </span>
-                  </span>
-                  {next && !offerBaseline && <span className="rounded-full bg-primary px-3 py-1 text-sm font-medium text-primary-foreground">{jt('start')}</span>}
-                </button>
-              </li>
-            );
-          })}
-        </ol>
-      </section>
+                    {next && !offerBaseline && <span className="rounded-full bg-primary px-3 py-1 text-sm font-medium text-primary-foreground">{jt('start')}</span>}
+                  </button>
+                </li>
+              );
+            })}
+          </ol>
+        </section>
 
-      {data.hasResult && (
-        <Button asChild variant="outline">
-          <Link href="/assessment/result">{jt('myProfile')}</Link>
-        </Button>
-      )}
-
-      <footer className="flex flex-col gap-3 border-t pt-4">
-        <h2 className="text-sm font-semibold">{jt('settings')}</h2>
-        {!data.rt.device.persistent && <StorageWarning />}
-        <LockSetting onChanged={onChanged} />
-        <StatsSetting />
-        <SessionSetting />
-        <MoveData />
-        <DeleteMyData onDeleted={onChanged} />
-      </footer>
-    </main>
+        {data.hasResult && (
+          <Button asChild variant="outline">
+            <Link href="/assessment/result">{jt('myProfile')}</Link>
+          </Button>
+        )}
+      </div>
+    </AppShell>
   );
 }
 
@@ -285,14 +280,17 @@ function Suggestions({ preview, results = {} }: { preview: Preview; results?: Re
   const jt = useJT();
   const tx = useText();
   const locale = useLocale();
-  const list = new Intl.ListFormat(locale, { style: 'narrow', type: 'conjunction' });
+  const list = new Intl.ListFormat(locale, {
+    style: 'narrow',
+    type: 'conjunction',
+  });
   const early = preview.stage === 'early';
   const top = preview.groups.slice(0, 3);
   // Paths checked outside the top 3 are listed too.
   const extra = preview.groups.filter((g) => results[g.cluster] && !top.includes(g));
   return (
     <section
-      className={cn('rounded-2xl border p-4', early ? 'border-dashed' : 'border-primary bg-primary/5')}
+      className={cn('rounded-3xl border-2 p-5', early ? 'border-dashed border-brand-violet-soft/50 bg-card' : 'border-primary/40 bg-secondary')}
       data-testid="suggestions"
       data-stage={preview.stage}
     >
@@ -338,11 +336,11 @@ function Suggestions({ preview, results = {} }: { preview: Preview; results?: Re
             return (
               <li key={g.cluster} data-testid="suggested-path" data-path={g.cluster}>
                 {canVerify ? (
-                  <Link href={`/journey/${g.cluster}`} className="flex items-center gap-2 rounded-xl border bg-card p-3 hover:border-primary">
+                  <Link href={`/journey/${g.cluster}`} className="flex items-center gap-2 rounded-2xl bg-card p-3 shadow-sm hover:shadow-md">
                     {body}
                   </Link>
                 ) : (
-                  <div className={cn('flex items-center gap-2 rounded-xl border bg-card p-3', early && 'opacity-80')}>{body}</div>
+                  <div className={cn('flex items-center gap-2 rounded-2xl bg-card p-3 shadow-sm', early && 'opacity-80')}>{body}</div>
                 )}
               </li>
             );
@@ -362,7 +360,12 @@ function Reward({ preview, done, onBack }: { preview: Preview; done: number; onB
         🏝️
       </p>
       <h1 className="text-center text-2xl font-semibold">{jt('reward.title')}</h1>
-      <p className="text-center text-sm text-muted-foreground tabular-nums">{jt('progress', { done: nf.format(done), total: nf.format(discoverPlan().length) })}</p>
+      <p className="text-center text-sm text-muted-foreground tabular-nums">
+        {jt('progress', {
+          done: nf.format(done),
+          total: nf.format(discoverPlan().length),
+        })}
+      </p>
       {preview.stage === 'none' ? <p className="rounded-xl bg-muted p-4 text-sm">{jt('reward.none')}</p> : <Suggestions preview={preview} />}
       <Button size="lg" onClick={onBack} data-testid="reward-back">
         {jt('back')}

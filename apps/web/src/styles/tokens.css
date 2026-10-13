@@ -1,18 +1,20 @@
 /*
  * anaBokra design tokens.
  *
- * PLACEHOLDER VALUES ONLY. The founder will supply the real brand (palette,
- * typography, radii, motion). Replace the values in this file; component code
- * only ever references the variable names, so nothing else should need to change.
+ * Brand palette from the logo and the reference boards (13 Oct 2026): plum ink #360847,
+ * orange #FB9D5D, violet actions, cream paper and a lavender world. Component code only
+ * references the variable names (and the brand-* utilities in globals.css).
  *
- * Theming: light is the default; dark applies via prefers-color-scheme, and an
- * explicit [data-theme="light"|"dark"] on <html> always wins over the OS setting.
+ * Theming: the app is light (founder decision, 13 Oct 2026), whatever the phone's setting. A dark
+ * palette stays defined for an explicit [data-theme="dark"] on <html>, but nothing turns it on yet.
  * Color names follow the shadcn/ui semantic convention so shadcn components work as-is.
  */
 
 :root {
+  color-scheme: light;
+
   /* Radius */
-  --radius: 0.625rem;
+  --radius: 1rem;
 
   /* Spacing scale (named steps for use outside Tailwind utilities) */
   --space-1: 0.25rem;
@@ -57,73 +59,62 @@
   --path-region-e: #d0645a;
   --path-region-c: #7fa384;
 
-  /* Colors: light (placeholder palette) */
-  --background: oklch(0.99 0.003 95);
-  --foreground: oklch(0.2 0.02 260);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0.02 260);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0.02 260);
-  --primary: oklch(0.5 0.12 190);
-  --primary-foreground: oklch(0.99 0.003 95);
-  --secondary: oklch(0.96 0.01 95);
-  --secondary-foreground: oklch(0.25 0.02 260);
-  --muted: oklch(0.96 0.005 95);
-  --muted-foreground: oklch(0.5 0.02 260);
-  --accent: oklch(0.94 0.04 80);
-  --accent-foreground: oklch(0.25 0.02 260);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.91 0.005 95);
-  --input: oklch(0.91 0.005 95);
-  --ring: oklch(0.5 0.12 190);
+  /* Brand (theme-independent) */
+  --brand-ink: #360847;
+  --brand-plum: #291137;
+  --brand-violet: #7025b5;
+  --brand-violet-soft: #8b45da;
+  --brand-orange: #fb9d5d;
+  --brand-orange-soft: #ffa366;
+  --brand-cream: #fcfaf3;
+  --brand-lavender: #efe9fb;
+  --brand-lilac: #f1ebfa;
+  --brand-success: #3f9f7a;
+
+  /* Colors: light */
+  --background: #fcfaf3;
+  --foreground: #291137;
+  --card: #ffffff;
+  --card-foreground: #291137;
+  --popover: #ffffff;
+  --popover-foreground: #291137;
+  --primary: #7025b5;
+  --primary-foreground: #ffffff;
+  --secondary: #f1ebfa;
+  --secondary-foreground: #360847;
+  --muted: #f4f0ea;
+  --muted-foreground: #6f5f7a;
+  --accent: #fff0e4;
+  --accent-foreground: #360847;
+  --destructive: #c7362b;
+  --border: #e9e1ef;
+  --input: #e2d8ea;
+  --ring: #8b45da;
 }
 
 :root[lang="ar"] {
   --font-body: var(--font-body-arabic);
 }
 
-/* Dark: follows the OS unless the page is explicitly forced to light */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --background: oklch(0.17 0.015 260);
-    --foreground: oklch(0.96 0.005 95);
-    --card: oklch(0.22 0.015 260);
-    --card-foreground: oklch(0.96 0.005 95);
-    --popover: oklch(0.22 0.015 260);
-    --popover-foreground: oklch(0.96 0.005 95);
-    --primary: oklch(0.72 0.12 190);
-    --primary-foreground: oklch(0.17 0.015 260);
-    --secondary: oklch(0.27 0.015 260);
-    --secondary-foreground: oklch(0.96 0.005 95);
-    --muted: oklch(0.27 0.015 260);
-    --muted-foreground: oklch(0.7 0.02 260);
-    --accent: oklch(0.3 0.04 80);
-    --accent-foreground: oklch(0.96 0.005 95);
-    --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 12%);
-    --input: oklch(1 0 0 / 16%);
-    --ring: oklch(0.72 0.12 190);
-  }
-}
-
-/* Dark: explicit opt-in (same values as above) */
+/* Dark: explicit opt-in only ([data-theme="dark"] on <html>). Not used yet: the app ships light. */
 :root[data-theme="dark"] {
-  --background: oklch(0.17 0.015 260);
-  --foreground: oklch(0.96 0.005 95);
-  --card: oklch(0.22 0.015 260);
-  --card-foreground: oklch(0.96 0.005 95);
-  --popover: oklch(0.22 0.015 260);
-  --popover-foreground: oklch(0.96 0.005 95);
-  --primary: oklch(0.72 0.12 190);
-  --primary-foreground: oklch(0.17 0.015 260);
-  --secondary: oklch(0.27 0.015 260);
-  --secondary-foreground: oklch(0.96 0.005 95);
-  --muted: oklch(0.27 0.015 260);
-  --muted-foreground: oklch(0.7 0.02 260);
-  --accent: oklch(0.3 0.04 80);
-  --accent-foreground: oklch(0.96 0.005 95);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 12%);
-  --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.72 0.12 190);
+  color-scheme: dark;
+  --background: #1b0c24;
+  --foreground: #f4eefa;
+  --card: #26132f;
+  --card-foreground: #f4eefa;
+  --popover: #26132f;
+  --popover-foreground: #f4eefa;
+  --primary: #b98cf0;
+  --primary-foreground: #1b0c24;
+  --secondary: #33203e;
+  --secondary-foreground: #f4eefa;
+  --muted: #2c1937;
+  --muted-foreground: #bba9c8;
+  --accent: #3d2534;
+  --accent-foreground: #ffd9bd;
+  --destructive: #ff8a7a;
+  --border: rgb(255 255 255 / 12%);
+  --input: rgb(255 255 255 / 16%);
+  --ring: #b98cf0;
 }
