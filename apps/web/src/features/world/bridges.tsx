@@ -10,13 +10,17 @@ import { BRAND, SCENE, toy } from './materials';
 import type { BridgeMode, Relation } from './types';
 import { useWorldTheme } from './theme';
 
-/** Rail = how the group relates to the user. Planks = how much of the bridge (phases) is built. */
+/**
+ * A wooden rope bridge. Rope = how the group relates to the user (violet suggested, apricot added).
+ * Planks = how much of the bridge (phases) is built: finished planks are dark oiled wood, the rest pale.
+ */
 const STYLE: Record<Relation, { rail: string; railGlow: number; plank: string; plankDone: string; glow: string | null }> = {
-  neutral: { rail: '#E2CDA9', railGlow: 0, plank: SCENE.plank, plankDone: '#F1CF95', glow: null },
-  suggested: { rail: '#8B45DA', railGlow: 0.45, plank: '#EFE4FC', plankDone: '#B184EE', glow: BRAND.violet },
-  added: { rail: '#FF9A55', railGlow: 0.4, plank: '#FFE8D6', plankDone: '#FFBE8E', glow: BRAND.apricot },
-  other: { rail: '#E5DACB', railGlow: 0, plank: '#F1EBE1', plankDone: '#E9DCC8', glow: null },
+  neutral: { rail: '#6E4B2D', railGlow: 0, plank: '#D9C4A3', plankDone: '#A8703E', glow: null },
+  suggested: { rail: '#8B45DA', railGlow: 0.45, plank: '#DCC7AA', plankDone: '#A8703E', glow: BRAND.violet },
+  added: { rail: '#FF8A3D', railGlow: 0.4, plank: '#DCC7AA', plankDone: '#A8703E', glow: BRAND.apricot },
+  other: { rail: '#8C7B6A', railGlow: 0, plank: '#D6CCBE', plankDone: '#B49A7C', glow: null },
 };
+const WOOD = '#7A5232';
 
 /** Visible plank ranges along the bridge (0..1). A broken bridge keeps only the two stubs. */
 function ranges(mode: BridgeMode): [number, number][] {
@@ -80,6 +84,7 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
     if (!mesh) return;
     const base = new Color(style.plank);
     const fin = new Color(style.plankDone);
+    const grain = new Color();
     planks.forEach((p, i) => {
       bridgePoint(ends, p.t, tmp);
       bridgePoint(ends, Math.min(1, p.t + 0.01), tmp2);
@@ -87,7 +92,8 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
       dummy.lookAt(tmp2);
       dummy.updateMatrix();
       mesh.setMatrixAt(i, dummy.matrix);
-      mesh.setColorAt(i, p.done ? fin : base);
+      // Each plank a slightly different board.
+      mesh.setColorAt(i, grain.copy(p.done ? fin : base).offsetHSL(0, 0, (((i * 7919) % 13) / 13 - 0.5) * 0.08));
     });
     mesh.count = planks.length;
     mesh.instanceMatrix.needsUpdate = true;
@@ -98,17 +104,25 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
   const rails = useMemo(() => {
     const dir = new Vector3().subVectors(ends.end, ends.start).setY(0).normalize();
     const side = new Vector3(-dir.z, 0, dir.x);
+    // Ropes hang between posts: highest at each post, sagging in between.
+    const stops = [0, 1, ...Array.from({ length: Math.max(0, total - 1) }, (_, k) => (k + 1) / total), 0.16, 0.8].sort((x, y) => x - y);
     return visible.flatMap(([a, b]) =>
       [-0.47, 0.47].map((off) => {
         const pts: Vector3[] = [];
-        for (let i = 0; i <= 12; i++) {
-          const p = bridgePoint(ends, a + ((b - a) * i) / 12, new Vector3());
-          pts.push(p.addScaledVector(side, off).setY(p.y + 0.2));
-        }
+        const span = stops.filter((t) => t >= a - 1e-6 && t <= b + 1e-6);
+        for (let s = 0; s < span.length - 1; s++)
+          for (let i = 0; i < 8; i++) {
+            const u = i / 8;
+            const t = span[s]! + (span[s + 1]! - span[s]!) * u;
+            const p = bridgePoint(ends, t, new Vector3());
+            pts.push(p.addScaledVector(side, off).setY(p.y + 0.3 - Math.sin(Math.PI * u) * 0.09));
+          }
+        const end = bridgePoint(ends, span[span.length - 1]!, new Vector3()).addScaledVector(side, off);
+        pts.push(end.setY(end.y + 0.3));
         return new CatmullRomCurve3(pts);
       }),
     );
-  }, [ends, visible]);
+  }, [ends, visible, total]);
 
   const posts = useMemo(() => {
     const dir = new Vector3().subVectors(ends.end, ends.start).setY(0).normalize();
@@ -145,7 +159,8 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
   );
   useEffect(() => () => (glow?.dispose(), glowMat?.dispose()), [glow, glowMat]);
 
-  const railMat = toy(style.rail, false, { glow: style.railGlow * bridgeGlow, rough: 0.35 });
+  const railMat = toy(style.rail, false, { glow: style.railGlow * bridgeGlow, rough: 0.8 });
+  const woodMat = toy(WOOD, false, { rough: 0.85 });
   const plankMat = useMemo(() => toy('#FFFFFF', false, { rough: 0.7 }), []);
   const dotMat = toy(mode === 'updating' ? SCENE.lilac : '#B99BE8', false, { glow: mode === 'updating' ? 0.35 : 0.15 });
 
@@ -154,13 +169,24 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
       <instancedMesh ref={plankRef} args={[roundedBox(0.98, 0.07, 0.19, 0.03), plankMat, n]} castShadow={shadows} receiveShadow={shadows} frustumCulled={false} />
       {rails.map((curve, i) => (
         <mesh key={i} material={railMat} castShadow={shadows}>
-          <tubeGeometry args={[curve, 24, 0.045, 8, false]} />
+          <tubeGeometry args={[curve, 48, 0.022, 6, false]} />
         </mesh>
       ))}
       {posts.map((p, i) => (
-        <mesh key={i} position={[p.x, p.y + 0.1, p.z]} material={railMat} castShadow={shadows}>
-          <cylinderGeometry args={[0.05, 0.06, 0.24, 10]} />
-        </mesh>
+        <group key={i}>
+          <mesh position={[p.x, p.y + 0.17, p.z]} material={woodMat} castShadow={shadows}>
+            <boxGeometry args={[0.07, 0.36, 0.07]} />
+          </mesh>
+          <mesh position={[p.x, p.y + 0.37, p.z]} material={railMat}>
+            <sphereGeometry args={[0.035, 8, 6]} />
+          </mesh>
+          {/* Out over the water, posts run down into the sea as piles. */}
+          {p.y > ISLAND_TOP + 0.05 && (
+            <mesh position={[p.x, (p.y - 0.15) / 2, p.z]} material={woodMat} castShadow={shadows}>
+              <boxGeometry args={[0.08, p.y + 0.15, 0.08]} />
+            </mesh>
+          )}
+        </group>
       ))}
       {dots.length > 0 && (
         <group ref={dotGroup}>

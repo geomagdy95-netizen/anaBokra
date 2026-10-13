@@ -20,6 +20,7 @@ export const ISLAND_COLORS = {
 /** Grass tones that drift across the plateau in soft patches. */
 const GRASS_DARK = new Color('#9FCB84');
 const GRASS_DRY = new Color('#CFE3A6');
+const DIRT = new Color('#DCC59C');
 
 type ColorKey = keyof typeof ISLAND_COLORS;
 
@@ -139,7 +140,11 @@ export function islandGeometry({ seed, radius: R, top = ISLAND_TOP, beach = true
       positions[idx + 1] = ring.y + (ring.relief ? p * ring.relief : 0);
       positions[idx + 2] = z;
       c.copy(palette[ring.color]);
-      if (ring.color === 'grass' || ring.color === 'grassEdge') c.lerp(p > 0 ? GRASS_DRY : GRASS_DARK, Math.min(1, Math.abs(p)) * 0.45);
+      if (ring.color === 'grass' || ring.color === 'grassEdge') {
+        c.lerp(p > 0 ? GRASS_DRY : GRASS_DARK, Math.min(1, Math.abs(p)) * 0.45);
+        // Bare sandy ground shows through in the dips, as on a real hilltop.
+        if (p < -0.55) c.lerp(DIRT, Math.min(1, (-p - 0.55) * 2.2) * 0.8);
+      }
       if (ring.rough) c.offsetHSL(0, -0.03, rock(a, k + 7) * 0.05);
       if (ring.sea) c.lerp(palette.sea, ring.sea);
       else c.offsetHSL(0, 0, speckle(i, k));
@@ -211,32 +216,6 @@ export function bubbleShape(w: number, h: number, r: number): Shape {
   s.quadraticCurveTo(x, y + h, x, y + h - r);
   s.lineTo(x, y + r);
   s.quadraticCurveTo(x, y, x + r, y);
-  return s;
-}
-
-/** U-shaped arch ("window of possibility"), open at the bottom. */
-export function archShape(w: number, h: number, wall: number): Shape {
-  const r = w / 2;
-  const ir = r - wall;
-  const s = new Shape();
-  s.moveTo(-r, 0);
-  s.lineTo(-r, h - r);
-  s.absarc(0, h - r, r, Math.PI, 0, true);
-  s.lineTo(r, 0);
-  s.lineTo(ir, 0);
-  s.lineTo(ir, h - r);
-  s.absarc(0, h - r, ir, 0, Math.PI, false);
-  s.lineTo(-ir, 0);
-  s.lineTo(-r, 0);
-  return s;
-}
-
-/** Half disc whose flat side faces left: the apricot sun inside the logo window. */
-export function halfDiscShape(r: number): Shape {
-  const s = new Shape();
-  s.moveTo(0, -r);
-  s.absarc(0, 0, r, -Math.PI / 2, Math.PI / 2, false);
-  s.lineTo(0, -r);
   return s;
 }
 

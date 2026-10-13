@@ -172,7 +172,7 @@ export function Lanterns({ placements, shadows }: { placements: IslandPlacement[
     [lights],
   );
   useEffect(() => () => haloMat.dispose(), [haloMat]);
-  const post = toy('#5B3A8C', false, { rough: 0.5 });
+  const post = toy('#5A3D26', false, { rough: 0.8 });
   const bulb = toy(lights.color, false, { glow: lights.glow });
   return (
     <>

@@ -6,7 +6,6 @@ import {
   BackSide,
   BufferAttribute,
   Color,
-  ExtrudeGeometry,
   MeshStandardMaterial,
   Object3D,
   SphereGeometry,
@@ -16,9 +15,7 @@ import {
 } from 'three';
 
 import { hashSeed, mulberry32 } from '../path/rng';
-import { archShape, halfDiscShape } from './geometry';
 import { ISLAND_RADIUS, WORLD_EXTENT, type XZ } from './layout';
-import { BRAND, SCENE, toy } from './materials';
 import { useWorldTheme } from './theme';
 
 const dummy = new Object3D();
@@ -77,7 +74,7 @@ export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: 
     [islands, SEA],
   );
   const mat = useMemo(() => {
-    const m = new MeshStandardMaterial({ roughness: 0.6, metalness: 0 });
+    const m = new MeshStandardMaterial({ roughness: 0.3, metalness: 0 });
     m.userData.uTime = uniforms.uTime;
     m.onBeforeCompile = (shader) => {
       Object.assign(shader.uniforms, uniforms);
@@ -95,6 +92,21 @@ uniform vec3 uDeep, uMid, uShallow, uShore, uFoam, uGlint;
 uniform float uFoamStrength, uGlintStrength;`,
         )
         .replace(
+          '#include <normal_fragment_maps>',
+          `#include <normal_fragment_maps>
+// Small moving waves: the slope of a few crossing sine swells tilts the normal, so the sun glitters.
+vec2 q = vSeaXZ;
+float t = uTime;
+vec2 g = vec2(0.0);
+g += vec2(0.8, 0.6) * cos(dot(q, vec2(0.8, 0.6)) * 3.1 + t * 1.3) * 0.14;
+g += vec2(-0.5, 0.86) * cos(dot(q, vec2(-0.5, 0.86)) * 4.7 - t * 1.7) * 0.1;
+g += vec2(0.95, -0.3) * cos(dot(q, vec2(0.95, -0.3)) * 7.9 + t * 2.3) * 0.07;
+g += vec2(-0.2, -0.98) * cos(dot(q, vec2(-0.2, -0.98)) * 12.3 - t * 2.9) * 0.045;
+// Calmer toward the horizon, where steep ripples would only show as streaks.
+g *= 1.0 - smoothstep(12.0, 28.0, length(q)) * 0.85;
+normal = normalize((viewMatrix * vec4(normalize(vec3(-g.x, 1.0, -g.y)), 0.0)).xyz);`,
+        )
+        .replace(
           '#include <color_fragment>',
           `#include <color_fragment>
 float d = 1e5;
@@ -109,14 +121,19 @@ vec3 col = mix(uMid, uDeep, smoothstep(14.0, 26.0, length(vSeaXZ)));
 // Shallows around each island: turquoise, paler over the sand near the beach.
 col = mix(col, uShallow, (1.0 - smoothstep(0.15, 1.5, d)) * 0.85);
 col = mix(col, uShore, 1.0 - smoothstep(0.0, 0.45, d));
+// Rocks and weed on the sea floor show through the shallows as darker, soft patches.
+float floorN = sin(vSeaXZ.x * 2.3 + sin(vSeaXZ.y * 1.7) * 2.0) * sin(vSeaXZ.y * 2.9 + sin(vSeaXZ.x * 1.3) * 1.5);
+col *= 1.0 - smoothstep(0.1, 0.9, floorN) * 0.22 * (1.0 - smoothstep(0.2, 1.8, d));
 // Slow drifting wave highlights.
 float w = sin(vSeaXZ.x * 0.85 + uTime * 0.45 + sin(vSeaXZ.y * 0.6 + uTime * 0.3) * 1.6)
         * sin(vSeaXZ.y * 0.75 - uTime * 0.38 + sin(vSeaXZ.x * 0.5) * 1.4);
-col = mix(col, uGlint, smoothstep(0.72, 0.98, w) * uGlintStrength * smoothstep(0.4, 2.0, d));
+col = mix(col, uGlint, smoothstep(0.72, 0.98, w) * uGlintStrength * smoothstep(0.4, 2.0, d) * (1.0 - smoothstep(10.0, 22.0, length(vSeaXZ))));
 // Foam line lapping at the shore, a little uneven along the beach, and a fainter second line.
-float lap = 0.18 + 0.1 * sin(uTime * 1.1 + ang * 3.0) + 0.05 * sin(ang * 7.0);
-float foam = 1.0 - smoothstep(0.0, 0.1, abs(d - lap));
-foam += (1.0 - smoothstep(0.0, 0.12, abs(d - lap - 0.38))) * 0.35 * (0.5 + 0.5 * sin(uTime * 1.1 + ang * 3.0 + 1.5));
+// Foam breaks against the rocks: thickest at the waterline, torn into patches along the shore.
+float lap = 0.05 + 0.06 * sin(uTime * 1.1 + ang * 3.0);
+float torn = smoothstep(-0.2, 0.6, sin(ang * 11.0 + uTime * 0.6) * sin(ang * 5.0 - uTime * 0.4 + vSeaXZ.x));
+float foam = (1.0 - smoothstep(0.0, 0.16, d - lap)) * (0.55 + 0.45 * torn);
+foam += (1.0 - smoothstep(0.0, 0.07, abs(d - lap - 0.3))) * 0.3 * torn;
 col = mix(col, uFoam, clamp(foam, 0.0, 1.0) * uFoamStrength);
 diffuseColor.rgb = col;`,
         );
@@ -164,8 +181,9 @@ function cloudPuffs(islands: { pos: XZ; dir: XZ }[], density: number): Puff[] {
     const r = WORLD_EXTENT + 4 + rng() * 14;
     clump(Math.cos(a) * r, Math.sin(a) * r, 1.4 + rng() * 1.6, 6, -0.2);
   }
-  // Small banks hugging the outer side of some islands.
+  // Small banks hugging the outer side of a few islands.
   islands.forEach((isl, i) => {
+    if (density < 0.8) return;
     if (rng() > 0.55 * density + 0.2) return;
     const off = ISLAND_RADIUS + 0.7;
     const side = (rng() - 0.5) * 2.2;
@@ -202,79 +220,3 @@ export function Clouds({ islands, density, animate }: { islands: { pos: XZ; dir:
   });
   return <instancedMesh ref={ref} args={[geo, mat, puffs.length]} frustumCulled={false} />;
 }
-
-// --- Background: brand "windows of possibility" -------------------------------
-
-interface Window {
-  x: number;
-  z: number;
-  rot: number;
-  w: number;
-  h: number;
-  color: string;
-  sun: boolean;
-}
-
-function backdrop(): Window[] {
-  const rng = mulberry32(hashSeed('backdrop'));
-  const palette = [SCENE.lavender, SCENE.lilac, BRAND.ivory, '#B892EC', BRAND.violet];
-  const out: Window[] = [];
-  const n = 16;
-  for (let i = 0; i < n; i++) {
-    const a = (i / n) * Math.PI * 2 + (rng() - 0.5) * 0.25;
-    const r = WORLD_EXTENT + 9 + rng() * 12;
-    const x = Math.cos(a) * r;
-    const z = Math.sin(a) * r;
-    out.push({
-      x,
-      z,
-      rot: Math.atan2(-x, -z),
-      w: 2.2 + rng() * 2.2,
-      h: 3.2 + rng() * 4.5,
-      color: palette[Math.floor(rng() * palette.length)]!,
-      sun: rng() < 0.4,
-    });
-  }
-  return out;
-}
-
-function Arch({ w: win }: { w: Window }) {
-  const geo = useMemo(() => {
-    const g = new ExtrudeGeometry(archShape(win.w, win.h, win.w * 0.2), {
-      depth: 1.2,
-      bevelEnabled: true,
-      bevelThickness: 0.12,
-      bevelSize: 0.12,
-      bevelSegments: 3,
-      curveSegments: 24,
-    });
-    g.translate(0, -0.6, -0.6);
-    return g;
-  }, [win.w, win.h]);
-  const sun = useMemo(() => {
-    if (!win.sun) return null;
-    const r = win.w * 0.28;
-    const g = new ExtrudeGeometry(halfDiscShape(r), { depth: 0.3, bevelEnabled: true, bevelThickness: 0.06, bevelSize: 0.06, bevelSegments: 2, curveSegments: 24 });
-    g.translate(-r * 0.3, r + 0.1 - 0.6, -0.15);
-    return g;
-  }, [win.sun, win.w]);
-  useEffect(() => () => (geo.dispose(), sun?.dispose()), [geo, sun]);
-  return (
-    <group position={[win.x, 0, win.z]} rotation={[0, win.rot, 0]}>
-      <mesh geometry={geo} material={toy(win.color, false, { rough: 0.7 })} />
-      {sun && <mesh geometry={sun} material={toy(BRAND.apricot, false, { rough: 0.6, glow: 0.15 })} />}
-    </group>
-  );
-}
-
-export function Backdrop() {
-  const items = useMemo(() => backdrop(), []);
-  return (
-    <>
-      {items.map((w, i) => (
-        <Arch key={i} w={w} />
-      ))}
-    </>
-  );
-}
-

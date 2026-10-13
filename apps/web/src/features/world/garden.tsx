@@ -5,7 +5,6 @@ import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
 import {
   BufferAttribute,
   Color,
-  ConeGeometry,
   CylinderGeometry,
   DoubleSide,
   IcosahedronGeometry,
@@ -21,7 +20,7 @@ import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 import { hashSeed, mulberry32 } from '../path/rng';
 import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, LANDMARK_CLEARANCE, landmarkOffset, ON_WATER, type IslandPlacement, type XZ } from './layout';
-import { BRAND, muteColor, SCENE, toy } from './materials';
+import { BRAND, muteColor, toy } from './materials';
 
 /**
  * Islands grow with progress (docs/product/world-spec.md: the core "keeps growing"; each path island
@@ -51,20 +50,38 @@ function merged(parts: [BufferGeometry, string][]): BufferGeometry {
   return out;
 }
 
-export function pineGeometry(): BufferGeometry {
+/** A Mediterranean cypress: a tall, narrow flame of dark green over a short trunk. */
+export function cypressGeometry(): BufferGeometry {
+  const leaf = (r: number, h: number, y: number, hex: string, x = 0, z = 0): [BufferGeometry, string] => [
+    new IcosahedronGeometry(1, 1).scale(r, h, r).translate(x, y, z),
+    hex,
+  ];
   return merged([
-    [new CylinderGeometry(0.045, 0.06, 0.26, 6).translate(0, 0.13, 0), SCENE.trunk],
-    [new ConeGeometry(0.27, 0.5, 7).translate(0, 0.45, 0), SCENE.treeDark],
-    [new ConeGeometry(0.2, 0.4, 7).translate(0, 0.74, 0), SCENE.tree],
+    [new CylinderGeometry(0.03, 0.045, 0.2, 6).translate(0, 0.1, 0), '#6B4A30'],
+    leaf(0.17, 0.42, 0.52, '#3F6B3A'),
+    leaf(0.13, 0.32, 0.86, '#4C7C42', 0.02, 0.02),
+    leaf(0.08, 0.2, 1.12, '#5A8A4A', -0.01, 0),
+  ]);
+}
+
+/** A round-crowned olive-like tree: a crooked trunk under a few clumps of silvery green. */
+export function oliveGeometry(): BufferGeometry {
+  const clump = (r: number, x: number, y: number, z: number, hex: string): [BufferGeometry, string] => [new IcosahedronGeometry(r, 1).scale(1, 0.78, 1).translate(x, y, z), hex];
+  return merged([
+    [new CylinderGeometry(0.035, 0.06, 0.42, 6).rotateZ(0.12).translate(0.02, 0.21, 0), '#7A5838'],
+    clump(0.24, 0, 0.55, 0, '#6E9455'),
+    clump(0.18, 0.2, 0.5, 0.06, '#7FA35F'),
+    clump(0.17, -0.18, 0.52, -0.05, '#5F8749'),
+    clump(0.15, 0.04, 0.72, 0.1, '#8BAE68'),
   ]);
 }
 
 /** A round, slightly lumpy bush made of three blobs. */
 function bushGeometry(): BufferGeometry {
   return merged([
-    [new IcosahedronGeometry(0.17, 1).scale(1, 0.8, 1).translate(0, 0.12, 0), '#8DBF72'],
-    [new IcosahedronGeometry(0.13, 1).scale(1, 0.8, 1).translate(0.14, 0.09, 0.03), '#7FB566'],
-    [new IcosahedronGeometry(0.12, 1).scale(1, 0.8, 1).translate(-0.12, 0.08, -0.04), '#9BC97F'],
+    [new IcosahedronGeometry(0.17, 1).scale(1, 0.8, 1).translate(0, 0.12, 0), '#6F9A52'],
+    [new IcosahedronGeometry(0.13, 1).scale(1, 0.8, 1).translate(0.14, 0.09, 0.03), '#5F8A47'],
+    [new IcosahedronGeometry(0.12, 1).scale(1, 0.8, 1).translate(-0.12, 0.08, -0.04), '#82AA60'],
   ]);
 }
 
@@ -260,12 +277,16 @@ function Plants({ spots, geometry, shadows, animate, tinted }: { spots: GrowthSp
 }
 
 export function Garden({ spots, shadows, animate }: { spots: GrowthSpot[]; shadows: boolean; animate: boolean }) {
-  const geos = useMemo(() => ({ tree: pineGeometry(), bush: bushGeometry(), flower: flowerGeometry() }), []);
+  const geos = useMemo(() => ({ cypress: cypressGeometry(), olive: oliveGeometry(), bush: bushGeometry(), flower: flowerGeometry() }), []);
   useEffect(() => () => Object.values(geos).forEach((g) => g.dispose()), [geos]);
   const by = (kind: GrowthKind) => spots.filter((s) => s.kind === kind);
+  // Trees alternate between cypresses and olives (by their stable key, so a tree never changes kind).
+  const trees = by('tree');
+  const isCypress = (s: GrowthSpot) => hashSeed(s.key) % 2 === 0;
   return (
     <>
-      <Plants spots={by('tree')} geometry={geos.tree} shadows={shadows} animate={animate} tinted={false} />
+      <Plants spots={trees.filter(isCypress)} geometry={geos.cypress} shadows={shadows} animate={animate} tinted={false} />
+      <Plants spots={trees.filter((s) => !isCypress(s))} geometry={geos.olive} shadows={shadows} animate={animate} tinted={false} />
       <Plants spots={by('bush')} geometry={geos.bush} shadows={shadows} animate={animate} tinted={false} />
       <Plants spots={by('flower')} geometry={geos.flower} shadows={false} animate={animate} tinted />
     </>

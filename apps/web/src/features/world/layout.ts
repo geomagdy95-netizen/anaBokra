@@ -4,7 +4,7 @@ import { GROUP_ORDER, type GroupId } from './types';
 export const CORE_RADIUS = 3.2;
 export const ISLAND_RADIUS = 2.05;
 /** Height of an island's top surface above the sea. */
-export const ISLAND_TOP = 0.5;
+export const ISLAND_TOP = 0.8;
 /** Islands alternate between two ring radii so the archipelago doesn't look machine-made. */
 const RING = [10.4, 11.6] as const;
 

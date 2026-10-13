@@ -14,6 +14,12 @@ import {
   type PerspectiveCamera,
 } from 'three';
 import { MapControls } from 'three/addons/controls/MapControls.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { HorizontalTiltShiftShader } from 'three/addons/shaders/HorizontalTiltShiftShader.js';
+import { VerticalTiltShiftShader } from 'three/addons/shaders/VerticalTiltShiftShader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 import { Bridge, bridgeEnds } from './bridges';
@@ -24,8 +30,8 @@ import { Landmark } from './landmarks';
 import { GroupIcon, Logo3D } from './props';
 import { Flag, flagSpot, Garden, growthSpots } from './garden';
 import { Lanterns, Motes, Stars } from './atmosphere';
-import { Rocks } from './rocks';
-import { Backdrop, Clouds, Sea, SkyDome } from './scenery';
+import { Cliffs } from './cliffs';
+import { Clouds, Sea, SkyDome } from './scenery';
 import { MoodContext, moodAt, useWorldTheme, type WorldMood } from './theme';
 import type { GroupId, IslandState, Selection } from './types';
 
@@ -89,7 +95,7 @@ function Island({
 }) {
   const muted = state.relation === 'other';
   const geo = useMemo(
-    () => islandGeometry({ seed: placement.id, radius: ISLAND_RADIUS, landAt: [Math.atan2(-placement.dir[1], -placement.dir[0])] }),
+    () => islandGeometry({ seed: placement.id, radius: ISLAND_RADIUS, beach: false, base: -0.3, landAt: [Math.atan2(-placement.dir[1], -placement.dir[0])] }),
     [placement],
   );
   const mat = useMemo(
@@ -165,7 +171,7 @@ function SelectionRing({ radius, color }: { radius: number; color: string }) {
 
 function CoreIsland({ shadows, selected, onSelect, animate }: { shadows: boolean; selected: boolean; onSelect: () => void; animate: boolean }) {
   // Bridges land all around the core, so its outline only wanders a little.
-  const base = useMemo(() => islandGeometry({ seed: 'core', radius: CORE_RADIUS, wobble: 0.025, segments: 128 }), []);
+  const base = useMemo(() => islandGeometry({ seed: 'core', radius: CORE_RADIUS, beach: false, base: -0.3, wobble: 0.025, segments: 128 }), []);
   const tierTop = ISLAND_TOP + 0.34;
   const tier = useMemo(() => islandGeometry({ seed: 'core-tier', radius: 2.05, top: tierTop, beach: false, wobble: 0.05, segments: 112 }), [tierTop]);
   const mat = useMemo(() => new MeshStandardMaterial({ vertexColors: true, roughness: 0.85 }), []);
@@ -314,6 +320,48 @@ function LabelProjector({ labels }: { labels: Map<string, HTMLElement> }) {
   return null;
 }
 
+// --- Miniature look ---------------------------------------------------------------
+
+/**
+ * Tilt-shift: the top and bottom of the view go softly out of focus, so the archipelago reads as a
+ * small model on a table. High quality only (two extra full-screen passes).
+ */
+function TiltShift() {
+  const get = useThree((s) => s.get);
+  const size = useThree((s) => s.size);
+  const composer = useRef<EffectComposer | null>(null);
+  useEffect(() => {
+    const { gl, scene, camera } = get();
+    const c = new EffectComposer(gl);
+    c.addPass(new RenderPass(scene, camera));
+    c.addPass(new ShaderPass(HorizontalTiltShiftShader));
+    c.addPass(new ShaderPass(VerticalTiltShiftShader));
+    c.addPass(new OutputPass());
+    composer.current = c;
+    return () => {
+      c.dispose();
+      composer.current = null;
+    };
+  }, [get]);
+  useEffect(() => {
+    const c = composer.current;
+    if (!c) return;
+    c.setPixelRatio(get().gl.getPixelRatio());
+    c.setSize(size.width, size.height);
+    const [, h, v] = c.passes as ShaderPass[];
+    h!.uniforms.h!.value = 2.4 / size.width;
+    v!.uniforms.v!.value = 2.4 / size.height;
+    // Focus a little below the middle, where the map sits above the legend.
+    h!.uniforms.r!.value = 0.48;
+    v!.uniforms.r!.value = 0.48;
+  }, [get, size]);
+  useFrame(({ gl, scene, camera }) => {
+    if (composer.current) composer.current.render();
+    else gl.render(scene, camera);
+  }, 1);
+  return null;
+}
+
 // --- Scene --------------------------------------------------------------------
 
 function Environment() {
@@ -376,11 +424,12 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
     [states, coreGrowth],
   );
 
-  // Where each island meets the water (its beach runs about 0.24 past the radius).
+  // Where each island meets the water: the outer face of its bottom ring of boulders.
   const shores = useMemo(
-    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS + 0.24 }, ...PLACEMENTS.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.24 }))],
+    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS + 0.32 }, ...PLACEMENTS.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.32 }))],
     [],
   );
+  const muted = useMemo(() => Object.fromEntries(PLACEMENTS.map((p) => [p.id, states[p.id].relation === 'other'])), [states]);
 
   return (
     <>
@@ -391,8 +440,7 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
       <SkyDome />
       {theme.stars && <Stars animate={animate} />}
       <Sea shadows={shadows} islands={shores} animate={animate} />
-      <Clouds islands={PLACEMENTS} density={quality === 'high' ? 1 : 0.5} animate={animate} />
-      <Backdrop />
+      <Clouds islands={PLACEMENTS} density={theme.cloud.amount * (quality === 'high' ? 1 : 0.6)} animate={animate} />
       <CoreIsland shadows={shadows} selected={selected === 'core'} onSelect={() => onSelect('core')} animate={animate} />
       {PLACEMENTS.map((p) => {
         const s = states[p.id];
@@ -424,13 +472,14 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
         />
       ))}
       <Garden spots={plants} shadows={shadows} animate={animate} />
-      <Rocks placements={PLACEMENTS} shadows={shadows} />
+      <Cliffs placements={PLACEMENTS} muted={muted} quality={quality} shadows={shadows} />
       <Lanterns placements={PLACEMENTS} shadows={shadows} />
       {quality === 'high' && <Motes placements={PLACEMENTS} animate={animate} />}
       {PLACEMENTS.filter((p) => states[p.id].checked).map((p) => (
         <Flag key={`f-${p.id}`} at={flagSpot(p)} animate={animate} />
       ))}
       <Rig focus={selected} animate={animate} />
+      {quality === 'high' && <TiltShift />}
       <LabelProjector labels={labels} />
     </>
   );

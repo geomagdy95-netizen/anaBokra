@@ -23,7 +23,8 @@ export interface WorldTheme {
   /** Back light that outlines islands and props. */
   rim: { color: string; intensity: number; position: [number, number, number] };
   env: number;
-  cloud: { color: string; emissive: string; glow: number };
+  /** `amount` scales how many cloud banks ring the horizon (0–1). */
+  cloud: { color: string; emissive: string; glow: number; amount: number };
   /** Lit windows, beacons and lanterns. */
   lights: { color: string; glow: number };
   /** How strongly bridges glow. */
@@ -36,12 +37,12 @@ export const WORLD_THEMES: Record<WorldMood, WorldTheme> = {
   day: {
     sky: { top: '#8C78E3', mid: '#D8B4E8', horizon: '#FFD9B8' },
     fog: { color: '#F7DCCB', near: 46, far: 118 },
-    sea: { deep: '#7F6FD8', mid: '#9E9BEA', shallow: '#9FD6E2', shore: '#E6F2EC', foam: '#FFFFFF', glint: '#FFE3B5', foamStrength: 0.8, glintStrength: 0.55 },
-    hemi: { sky: '#FFF0DE', ground: '#9483D9', intensity: 0.8 },
-    sun: { color: '#FFC992', intensity: 2.7, position: [-16, 15, 11] },
-    rim: { color: '#FF9EC4', intensity: 0.7, position: [12, 9, -14] },
+    sea: { deep: '#0E5C73', mid: '#13808F', shallow: '#2FB8B2', shore: '#86E0CF', foam: '#FFFFFF', glint: '#FFF0CF', foamStrength: 0.85, glintStrength: 0.25 },
+    hemi: { sky: '#FFF2E2', ground: '#5E8C8C', intensity: 0.85 },
+    sun: { color: '#FFD3A0', intensity: 3.1, position: [-17, 14, 9] },
+    rim: { color: '#FFE0C2', intensity: 0.6, position: [12, 9, -14] },
     env: 0.35,
-    cloud: { color: '#FFFFFF', emissive: '#FFE3D2', glow: 0.32 },
+    cloud: { color: '#FFFFFF', emissive: '#FFF1E6', glow: 0.4, amount: 0.3 },
     lights: { color: '#FFD27A', glow: 0.2 },
     bridgeGlow: 1,
     stars: false,
@@ -55,7 +56,7 @@ export const WORLD_THEMES: Record<WorldMood, WorldTheme> = {
     sun: { color: '#A9BCFF', intensity: 1.15, position: [14, 18, 8] },
     rim: { color: '#7C5CFF', intensity: 0.9, position: [-12, 8, -14] },
     env: 0.16,
-    cloud: { color: '#3A2D78', emissive: '#2B2066', glow: 0.55 },
+    cloud: { color: '#3A2D78', emissive: '#2B2066', glow: 0.55, amount: 0.45 },
     lights: { color: '#FFC66B', glow: 1.6 },
     bridgeGlow: 1.9,
     stars: true,
