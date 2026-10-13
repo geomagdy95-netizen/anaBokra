@@ -87,7 +87,7 @@ export function LockSetting({ onChanged }: { onChanged: () => void }) {
   if (!loaded) return null;
   if (mode === 'code' && code)
     return (
-      <div className="rounded-xl border p-3">
+      <div className="surface">
         <RecoveryCodeCard
           code={code}
           onDone={() => {
@@ -102,8 +102,8 @@ export function LockSetting({ onChanged }: { onChanged: () => void }) {
   const canApply = (!needsCurrent || current.length > 0) && (mode === 'remove' || next !== null);
 
   return (
-    <div className="flex flex-col gap-3 rounded-xl border p-3 text-sm" data-testid="lock-setting">
-      <p className="font-medium">{t('title')}</p>
+    <div className="surface flex flex-col gap-3 text-sm" data-testid="lock-setting">
+      <p className="font-semibold">{t('title')}</p>
 
       <div className="flex items-end gap-2">
         <label className="flex flex-1 flex-col gap-1">

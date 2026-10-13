@@ -97,12 +97,12 @@ export function TaskRunner({ title, intro, steps, initial, onAnswer, onDone, onC
         </p>
       )}
 
-      <footer className="mt-auto flex items-center justify-between gap-2">
-        <Button variant="ghost" disabled={index === 0 || busy} onClick={() => setIndex(index - 1)} className="gap-1" aria-label={jt('previous')}>
-          <ArrowLeft className="size-4 rtl:rotate-180" />
+      <footer className="sticky bottom-0 mt-auto flex items-center gap-3 bg-background/95 pb-[max(env(safe-area-inset-bottom),0.5rem)] pt-2 backdrop-blur">
+        <Button variant="outline" size="icon" disabled={index === 0 || busy} onClick={() => setIndex(index - 1)} className="size-14 rounded-2xl" aria-label={jt('previous')}>
+          <ArrowLeft className="size-5 rtl:rotate-180" />
         </Button>
         {value !== undefined && (
-          <Button onClick={advance} disabled={busy} data-testid="task-next">
+          <Button size="lg" onClick={advance} disabled={busy} className="flex-1" data-testid="task-next">
             {jt('next')}
           </Button>
         )}

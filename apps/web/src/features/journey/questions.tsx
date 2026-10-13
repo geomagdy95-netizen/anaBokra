@@ -16,7 +16,7 @@ import { useJT } from './use-jt';
  * questions keep their 1–5 scale and only change how they look; the path formats are our own.
  */
 
-const card = 'rounded-2xl border bg-card p-5 text-card-foreground shadow-sm';
+const card = 'rounded-3xl bg-card p-5 text-card-foreground shadow-sm ring-1 ring-border/70';
 const big = 'text-xl font-semibold leading-snug sm:text-2xl';
 
 interface Answerable {
@@ -50,7 +50,7 @@ export function SwipeQuestion({ text, scale, value, onAnswer, disabled }: Answer
               disabled={disabled}
               aria-pressed={value === v}
               onClick={() => onAnswer(v)}
-              className={cn(choiceBase, 'h-full flex-col px-1 text-center text-[0.7rem] leading-tight', value === v ? choiceOn : choiceIdle)}
+              className={cn(choiceBase, 'h-full min-h-16 flex-col gap-0.5 px-1 text-center text-xs leading-tight', value === v ? choiceOn : choiceIdle)}
             >
               <span className="text-base font-semibold tabular-nums">{nf.format(v)}</span>
               <span>{label}</span>
@@ -81,7 +81,7 @@ export function FacesQuestion({ text, scale, value, onAnswer, disabled, prompt }
               type="button"
               aria-pressed={value === v}
               onClick={() => onAnswer(v)}
-              className={cn(choiceBase, 'h-full flex-col gap-1 px-1 text-center text-[0.7rem] leading-tight', value === v ? choiceOn : choiceIdle)}
+              className={cn(choiceBase, 'h-full min-h-20 flex-col gap-1 px-1 text-center text-xs leading-tight', value === v ? choiceOn : choiceIdle)}
             >
               <span aria-hidden="true" className="text-2xl">
                 {FACES[i] ?? '•'}

@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import type { JoinedEvent } from '@/lib/local/device';
 import { normalizeEventCode } from '@/lib/research';
 
-const field = 'w-full rounded-xl border bg-background px-3 py-2.5 text-base outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50';
+const field = 'field';
 const ERRORS = ['invalid', 'unknown_event', 'event_closed', 'rate_limited', 'network'];
 
 /** Checks a session code with the server and saves it on the active profile. */

@@ -2,13 +2,15 @@
 
 import { useTranslations } from 'next-intl';
 
+import { LogoMark } from '@/components/brand/logo';
 import { LocaleSwitcher } from '@/components/locale-switcher';
 
 export function LocalLoading() {
   const t = useTranslations('Local');
   return (
-    <main className="mx-auto flex min-h-dvh w-full max-w-md items-center justify-center px-4" aria-busy>
-      <p role="status" className="text-muted-foreground">
+    <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col items-center justify-center gap-4 px-4" aria-busy>
+      <LogoMark className="h-14 motion-safe:animate-pulse" />
+      <p role="status" className="text-sm text-muted-foreground">
         {t('loading')}
       </p>
     </main>

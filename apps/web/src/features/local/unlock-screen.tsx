@@ -1,8 +1,9 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
 
+import { Logo } from '@/components/brand/logo';
 import { LocaleSwitcher } from '@/components/locale-switcher';
 import { Button } from '@/components/ui/button';
 import type { DeviceStore } from '@/lib/local/device';
@@ -32,6 +33,7 @@ export async function withActiveLock<T>(fn: (lock: typeof Lock, device: DeviceSt
  */
 export function UnlockScreen({ nickname, onUnlocked }: { nickname: string | null; onUnlocked: () => void }) {
   const t = useTranslations('Local.unlock');
+  const locale = useLocale() as 'ar' | 'en';
   const waitText = useWaitText();
   const [mode, setMode] = useState<'password' | 'recovery' | 'new-code'>('password');
   const [password, setPassword] = useState('');
@@ -66,7 +68,8 @@ export function UnlockScreen({ nickname, onUnlocked }: { nickname: string | null
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 py-8" data-testid="unlock">
-      <header className="flex justify-end">
+      <header className="flex items-center justify-between gap-3">
+        <Logo locale={locale} className="h-11" />
         <LocaleSwitcher />
       </header>
 
@@ -114,7 +117,7 @@ export function UnlockScreen({ nickname, onUnlocked }: { nickname: string | null
               setError(null);
               setMode('recovery');
             }}
-            className="self-start text-sm text-primary underline underline-offset-4"
+            className="tap-link self-start"
           >
             {t('forgot')}
           </button>

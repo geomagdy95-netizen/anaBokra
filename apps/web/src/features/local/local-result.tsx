@@ -90,7 +90,7 @@ export function LocalResult({ sessionId }: { sessionId?: string }) {
     <AssessmentProvider gender={state.gender}>
       <main className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-5 px-4 py-6 sm:px-6">
         <header className="flex items-center justify-between gap-3">
-          <Link href="/assessment" className="text-sm text-primary underline-offset-4 hover:underline">
+          <Link href="/assessment" className="tap-link">
             {tr('back')}
           </Link>
           <LocaleSwitcher />
@@ -146,7 +146,7 @@ export function LocalResultSection({ section }: { section: Section }) {
     <AssessmentProvider gender={state.gender}>
       <main className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-5 px-4 py-6 sm:px-6">
         <header className="flex items-center justify-between gap-3">
-          <Link href="/assessment/result" className="text-sm text-primary underline-offset-4 hover:underline">
+          <Link href="/assessment/result" className="tap-link">
             {tr('backToResults')}
           </Link>
           <LocaleSwitcher />

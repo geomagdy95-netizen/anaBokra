@@ -24,6 +24,16 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-plum: var(--brand-plum);
+  --color-brand-violet: var(--brand-violet);
+  --color-brand-violet-soft: var(--brand-violet-soft);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-orange-soft: var(--brand-orange-soft);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-lavender: var(--brand-lavender);
+  --color-brand-lilac: var(--brand-lilac);
+  --color-brand-success: var(--brand-success);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -39,6 +49,24 @@
   body {
     @apply bg-background text-foreground font-sans antialiased;
   }
+}
+
+/*
+ * Shared UI pieces for the phone screens. Touch targets are at least 44px (Apple HIG; WCAG 2.5.5 AAA),
+ * and text fields use 16px text so iOS Safari doesn't zoom in on focus.
+ */
+@utility tap-link {
+  @apply inline-flex min-h-11 items-center gap-1 rounded-lg text-sm font-semibold text-primary underline-offset-4 hover:underline focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-none;
+}
+@utility field {
+  @apply h-12 w-full rounded-xl border border-input bg-background px-4 text-base outline-none placeholder:text-muted-foreground focus-visible:border-primary focus-visible:ring-[3px] focus-visible:ring-ring/40;
+}
+@utility surface {
+  @apply rounded-2xl bg-card p-4 text-card-foreground shadow-sm ring-1 ring-border/70;
+}
+/* 56×32 visually; the ::after extends the touch area to 64×48. */
+@utility switch {
+  @apply relative inline-flex h-8 w-14 shrink-0 items-center rounded-full transition-colors focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-none disabled:opacity-50 after:absolute after:-inset-x-1 after:-inset-y-2 after:content-[''];
 }
 
 /*

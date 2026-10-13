@@ -12,9 +12,10 @@ import { useAT } from './ui-context';
 /** Solid, visible keyboard focus (the shadcn default ring is too faint for AA non-text contrast). */
 export const FOCUS = 'outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring';
 
-export const choiceBase = `inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-3 py-2 text-sm font-medium transition-colors ${FOCUS}`;
-export const choiceIdle = 'bg-card text-card-foreground hover:bg-accent hover:text-accent-foreground';
-export const choiceOn = 'border-primary bg-primary text-primary-foreground';
+/** Answer buttons: at least 48px tall, the whole tile is the touch target. */
+export const choiceBase = `inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border px-3 py-2 text-sm font-medium transition-colors active:scale-[0.98] ${FOCUS}`;
+export const choiceIdle = 'border-input bg-card text-card-foreground hover:border-primary/50 hover:bg-secondary';
+export const choiceOn = 'border-primary bg-primary text-primary-foreground shadow-md shadow-primary/25';
 
 export function useNumberFormat() {
   const locale = useLocale();

@@ -53,10 +53,10 @@ export function ProfileSetup({ onDone }: { onDone: () => void }) {
         <span className="text-xs text-muted-foreground">{t('nicknameHelp')}</span>
       </label>
 
-      <div className="flex flex-col gap-3 rounded-xl border p-3">
+      <div className="surface flex flex-col gap-3">
         <p className="font-medium">{t('lockTitle')}</p>
         <p className="text-sm text-muted-foreground">{t('lockBody')}</p>
-        <label className="flex items-start gap-3 text-sm">
+        <label className="flex min-h-11 items-center gap-3 text-sm">
           <input type="checkbox" className="mt-0.5 size-5 shrink-0 accent-[var(--primary)]" checked={wantLock} onChange={(e) => setWantLock(e.target.checked)} data-testid="want-lock" />
           <span>{t('lockCheck')}</span>
         </label>

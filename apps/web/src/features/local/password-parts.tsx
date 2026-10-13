@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { MIN_PASSWORD, isValidPassword, normalizePassword } from '@/lib/local/lock';
 
-export const inputClass = 'w-full rounded-xl border bg-background px-3 py-2';
+export const inputClass = 'field';
 
 /** A new password typed twice. `value` is the password once both match and it's long enough, else null. */
 export function NewPasswordFields({ onChange, labels }: { onChange: (value: string | null) => void; labels?: { password: string; again: string } }) {
@@ -66,7 +66,7 @@ export function RecoveryCodeCard({ code, onDone }: { code: string; onDone: () =>
           {t(copied ? 'copied' : 'copy')}
         </Button>
       </div>
-      <label className="flex items-start gap-3 rounded-xl border p-3 text-sm has-[:checked]:border-primary">
+      <label className="flex min-h-12 items-start gap-3 rounded-2xl border border-input bg-card p-4 text-sm has-[:checked]:border-primary has-[:checked]:bg-secondary">
         <input type="checkbox" className="mt-0.5 size-5 shrink-0 accent-[var(--primary)]" checked={saved} onChange={(e) => setSaved(e.target.checked)} data-testid="recovery-saved" />
         <span>{t('check')}</span>
       </label>

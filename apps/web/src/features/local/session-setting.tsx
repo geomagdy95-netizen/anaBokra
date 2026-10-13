@@ -68,7 +68,7 @@ export function SessionSetting() {
   };
 
   return (
-    <div className="flex flex-col gap-3 rounded-xl border p-3 text-sm" data-testid="session-setting">
+    <div className="surface flex flex-col gap-3 text-sm" data-testid="session-setting">
       <div>
         <p className="font-medium">{t('settingTitle')}</p>
         <p className="text-xs text-muted-foreground" data-testid="session-current">
@@ -77,7 +77,7 @@ export function SessionSetting() {
       </div>
 
       {!event && mode === 'view' && (
-        <button className="self-start text-primary underline underline-offset-4" onClick={() => setMode('join')} data-testid="session-open">
+        <button className="tap-link self-start" onClick={() => setMode('join')} data-testid="session-open">
           {t('open')}
         </button>
       )}
@@ -112,10 +112,10 @@ export function SessionSetting() {
             aria-label={tr('switchLabel')}
             disabled={busy}
             onClick={() => (researchOn ? void turnOff() : setMode('ask'))}
-            className={`relative h-7 w-12 shrink-0 rounded-full transition-colors disabled:opacity-50 ${researchOn ? 'bg-primary' : 'bg-muted-foreground/30'}`}
+            className={`switch ${researchOn ? 'bg-primary' : 'bg-muted-foreground/30'}`}
             data-testid="research-switch"
           >
-            <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-all ${researchOn ? 'start-6' : 'start-1'}`} />
+            <span className={`absolute top-1 size-6 rounded-full bg-white shadow transition-all ${researchOn ? 'start-7' : 'start-1'}`} />
           </button>
         </div>
       )}
@@ -124,7 +124,7 @@ export function SessionSetting() {
         <div role="status" className="flex flex-col gap-2 rounded-lg bg-muted p-2 text-xs" data-testid="research-note">
           <p>{tr(note)}</p>
           {note === 'deleteFailed' && (
-            <button className="self-start text-primary underline underline-offset-4" disabled={busy} onClick={() => void turnOff()}>
+            <button className="tap-link self-start" disabled={busy} onClick={() => void turnOff()}>
               {tr('retry')}
             </button>
           )}
@@ -132,7 +132,7 @@ export function SessionSetting() {
       )}
 
       {event && mode === 'view' && (
-        <button className="self-start text-xs text-muted-foreground underline underline-offset-4" disabled={busy} onClick={() => void leave()} data-testid="session-leave">
+        <button className="tap-link self-start text-xs text-muted-foreground" disabled={busy} onClick={() => void leave()} data-testid="session-leave">
           {t('leave')}
         </button>
       )}
