@@ -6,7 +6,7 @@
 
 # anaBokra Privacy Policy
 
-**Version:** 0.6-draft  **Effective date:** [date]  **Language:** English (an Arabic version exists; if they differ, [the Arabic version prevails — LAWYER])
+**Version:** 0.7-draft  **Effective date:** [date]  **Language:** English (an Arabic version exists; if they differ, [the Arabic version prevails — LAWYER])
 
 A short version is in *Your data, in short*. This policy is the full version.
 
@@ -54,10 +54,10 @@ The app downloads its content (questions, careers, islands, routes) from our ser
 We do **not** use analytics, advertising tools or crash-reporting tools that send data about you [Engineering to confirm].
 
 ### 5.2 Anonymous statistics (only if you agree)
-If you agree, the app sends **one anonymous summary** when an assessment is finished: age band, stage, language, top interest areas and career groups, score bands, and how many parts were completed. If you entered a pilot event code, the summary carries it. It never includes a name, phone number, ID number, device identifier or exact time, and it cannot be traced back to you. You can turn it off at any time in Settings. **[LAWYER: confirm that these summaries are anonymous and outside the PDPL, including for 15–17.]**
+If you agree, the app sends **anonymous records**: **one summary** when an assessment is finished (age band, stage, language, top interest areas and career groups, score bands, and how many parts were completed); **one record for each career path you check** (the path and its band: fits well, partly, or worth rethinking); and, if you answer it, **your 1–5 rating** of whether your results were clear and useful. Each record carries only your age band, stage, language and, if you entered one, the pilot event code. None includes a name, phone number, ID number, device identifier or exact time; the records cannot be linked to each other, and cannot be traced back to you. You can turn it off at any time in Settings. **[LAWYER: confirm that these summaries are anonymous and outside the PDPL, including for 15–17.]**
 
 ### 5.3 Research data at pilot sessions (only if you agree)
-At a university pilot session, adults can also choose to send their **individual answers without any name or ID** (tagged with the event code, age band, stage and language), and their readiness answers before and after linked by a **random code made on the phone**, so the change can be measured. **[LAWYER: the linked readiness data is pseudonymous.]** We keep this data until the research analysis is finished, and **no later than 17 June 2027**. Group statistics may be kept. You can stop at any time in the app (*University session*): nothing more is sent, and the readiness answers sent from your phone are deleted using its random code. The individual answers carry no code, so they cannot be picked out; they are deleted with the rest of the research data.
+At a university pilot session, adults can also choose to send their **individual answers without any name or ID** (tagged with the event code, age band, stage and language), including the answers to each path they check with that path's score parts and band, and their readiness answers before and after linked by a **random code made on the phone**, so the change can be measured. **[LAWYER: the linked readiness data is pseudonymous.]** We keep this data until the research analysis is finished, and **no later than 17 June 2027**. Group statistics may be kept. You can stop at any time in the app (*University session*): nothing more is sent, and the readiness answers sent from your phone are deleted using its random code. The individual answers carry no code, so they cannot be picked out; they are deleted with the rest of the research data.
 
 ### 5.4 Moving to a new phone
 Your data is locked with a passphrase you choose and saved as a **backup file on your device**. You carry it to the new phone yourself; it never passes through us.

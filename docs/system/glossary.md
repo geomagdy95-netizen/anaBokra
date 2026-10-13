@@ -115,7 +115,7 @@ The words we use for anaBokra's parts, in product talk, on screen (English and t
 
 | Term | Meaning | On screen (EN / AR) | In the code |
 |---|---|---|---|
-| **Anonymous statistics** | With opt-in: one coarse summary per result (age band, stage, language, top areas and groups, bands, completion, session code). No ID, no time. | Anonymous statistics / إحصاءات من غير هوية | `stats-summary.ts`, `/api/stats`, `anon_stats` |
+| **Anonymous statistics** | With opt-in: one coarse summary per result (age band, stage, language, top areas and groups, bands, completion, session code), one record per checked path (path and band) and the results rating. No ID, no time, not linked to each other. | Anonymous statistics / إحصاءات من غير هوية | `stats-summary.ts`, `/api/stats`, `anon_stats`, `anon_path_checks`, `anon_ratings` |
 | **Pilot** | The university pilot, 15 Nov – 10 Dec 2026. See [pilot plan](../gtm/pilot-plan.md). | — | — |
 | **Partner** | A university running pilot sessions with us. | — | `pilot_events.partner` |
 | **Pilot session** (event) | One partner session, about 60 minutes. Not the same as an assessment session. | University session / جلسة الجامعة | `PilotEvent` |

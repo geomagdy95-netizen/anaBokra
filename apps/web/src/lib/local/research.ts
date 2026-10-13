@@ -1,7 +1,8 @@
 import { instruments } from '@anabokra/content';
 import { STAGES } from '@anabokra/engine';
 
-import { researchAnswerSetSchema, researchReadinessSchema, type ResearchAnswerSet, type ResearchReadiness } from '@/lib/research';
+import { readJourney } from '@/lib/journey/verify';
+import { researchAnswerSetSchema, researchPathSetSchema, researchReadinessSchema, type ResearchAnswerSet, type ResearchReadiness } from '@/lib/research';
 
 import type { LocalProfile } from './device';
 import type { LocalRuntime } from './runtime';
@@ -11,12 +12,14 @@ import { randomCode } from './transfer';
  * Research uploads from this phone (consent-texts §2.3), only for an adult who joined a pilot session
  * that offers research and said yes. Kept on the device, deleted with the profile:
  * - `linkCode`: random, made here; pairs the before and after readiness answers. Never on an answer set.
- * - what was already sent, so each answer set and readiness record goes once.
+ * - what was already sent, so each answer set, path answer set and readiness record goes once.
  */
 export interface ResearchState {
   linkCode: string;
   sentResults: string[];
   sentReadiness: string[];
+  /** Paths whose answers were sent (the first result of each). Missing on phones from before 13 Oct. */
+  sentPaths?: string[];
 }
 
 export const researchKey = (profileId: string) => `research:${profileId}`;
@@ -52,8 +55,9 @@ type Outcome = 'sent' | 'skipped' | 'failed';
 const inflight = new Map<string, Promise<Outcome>>();
 
 /**
- * Sends what has not been sent yet: the answer set of the latest result, and each readiness check.
- * Called after a result, after a readiness check and when the hub opens. Never throws.
+ * Sends what has not been sent yet: the answer set of the latest result, each checked path's answers
+ * and each readiness check. Called after a result, after a readiness check and when a journey tab
+ * opens. Never throws.
  */
 export function syncResearch(rt: LocalRuntime, post: Post = postJson): Promise<Outcome> {
   const running = inflight.get(rt.userId);
@@ -77,6 +81,30 @@ async function syncOnce(rt: LocalRuntime, post: Post): Promise<Outcome> {
       const set = await buildAnswerSet(rt, profile, result);
       if (await post('/api/research/answers', set)) {
         state.sentResults.push(result.id);
+        await kv.set(researchKey(rt.userId), state);
+        sent = true;
+      } else failed = true;
+    }
+
+    const rawStage = (result?.context as { stage?: unknown } | null | undefined)?.stage;
+    const journey = await readJourney(kv, rt.userId);
+    for (const [pathId, rec] of Object.entries(journey.paths)) {
+      const r = rec.result;
+      if (!r || (state.sentPaths ?? []).includes(pathId)) continue;
+      const set = researchPathSetSchema.parse({
+        v: 1,
+        eventCode: profile.event.code,
+        ageBand: profile.ageBand,
+        stage: STAGES.find((s) => s === rawStage) ?? null,
+        locale: profile.locale,
+        pathId,
+        version: r.version,
+        answers: rec.answers,
+        components: r.components,
+        band: r.band,
+      });
+      if (await post('/api/research/paths', set)) {
+        state.sentPaths = [...(state.sentPaths ?? []), pathId];
         await kv.set(researchKey(rt.userId), state);
         sent = true;
       } else failed = true;

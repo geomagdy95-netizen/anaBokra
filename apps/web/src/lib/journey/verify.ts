@@ -54,6 +54,8 @@ export interface JourneyDoc {
   added?: string[];
   /** Paths the user bookmarked (the Saved tab). */
   saved?: string[];
+  /** "My results were clear and useful" (pilot plan §7), 1–5, asked once after the first path result. */
+  rating?: { value: number; at: string };
 }
 
 export const journeyKey = (profileId: string) => `journey:${profileId}`;
@@ -84,6 +86,31 @@ export async function setInList(kv: KvStore, profileId: string, list: 'added' | 
   const next = on ? (current.includes(pathId) ? current : [...current, pathId]) : current.filter((id) => id !== pathId);
   await kv.set(journeyKey(profileId), { ...doc, [list]: next });
   return next;
+}
+
+export async function saveRating(kv: KvStore, profileId: string, value: number, now = new Date()): Promise<void> {
+  if (!Number.isInteger(value) || value < 1 || value > 5) throw new Error('rating_out_of_range');
+  const doc = await readJourney(kv, profileId);
+  await kv.set(journeyKey(profileId), { ...doc, rating: { value, at: now.toISOString() } });
+}
+
+/**
+ * Whether `value` is an answer this path's item allows (story and "did you enjoy that?" 1–3,
+ * this-or-that 0–1, scenario and puzzle an option index). Used to check research uploads.
+ */
+export function pathAnswerAllowed(path: PathContent, itemId: string, value: number): boolean {
+  if (!Number.isInteger(value)) return false;
+  for (const task of path.tasks) {
+    for (const item of task.items) {
+      if (task.kind === 'story' && item.id === itemId) return value >= 1 && value <= 3;
+      if (task.kind === 'thisOrThat' && item.id === itemId) return value === 0 || value === 1;
+      if (task.kind === 'tryIt') {
+        if (enjoyId(item.id) === itemId) return value >= 1 && value <= 3;
+        if (item.id === itemId) return value >= 0 && value < (item as { options: unknown[] }).options.length;
+      }
+    }
+  }
+  return false;
 }
 
 /** The ids a task needs answered ("Try it" items each have a follow-up enjoy answer). */

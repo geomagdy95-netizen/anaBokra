@@ -223,7 +223,7 @@ stateDiagram-v2
 **Rules**
 - Codes are 3–20 letters, digits or dashes; one code per partner session. Lower case, spaces and Arabic digits are accepted (`demo ١` → `DEMO-1`). Each code has dates when it can be entered.
 - Research is offered only if that partner allows it (some may need an approval first), only to adults, and uploads stop after 17 June 2027.
-- Each answer set and readiness record is sent once. The link code and the record of what was sent move with a backup file.
+- Each answer set, path answer set (one per checked path) and readiness record is sent once. The link code and the record of what was sent move with a backup file.
 - Turning research off deletes the readiness records sent with the phone's link code. Answer sets carry no code, so they can't be picked out; they are deleted with all research data by 17 June 2027.
 - Check limits: 20 code checks per network address per hour; 300 uploads.
 
@@ -241,19 +241,23 @@ stateDiagram-v2
 sequenceDiagram
     participant App as App on the phone
     participant API as /api/stats
-    participant DB as anon_stats
-    Note over App: A result is made, or the journey page opens
-    App->>App: Opted in? Latest result not sent yet?
-    App->>App: Build the summary: age band, stage, language,<br/>parts completed, top 3 interests / groups / values,<br/>low-mid-high bands, session code
-    App->>API: POST summary
+    participant DB as anon_stats, anon_path_checks, anon_ratings
+    Note over App: A result is made, the rating is given, or a journey tab opens
+    App->>App: Opted in? What hasn't been sent yet?
+    App->>App: Summary: age band, stage, language,<br/>parts completed, top 3 interests / groups / values,<br/>low-mid-high bands, session code
+    App->>App: Each checked path: the path and its band
+    App->>App: The results rating (1–5), if given
+    App->>API: POST each record
     API->>API: Accept exactly these fields, nothing else
     API->>DB: Store with the arrival week only (no IP, no time)
-    App->>App: Remember the result id as sent
+    App->>App: Remember each record as sent
 ```
 
-**Rules:** one summary per result. If the phone is offline, it's sent the next time the journey page opens. Overlapping triggers share one send. At most 30 per network address per hour.
+**Rules:** one summary per result, one record per checked path (its first result; checking it again sends nothing), one rating. Records carry the same age band, stage, language and session code, and nothing that links them to each other. If the phone is offline, they're sent the next time a journey tab opens; a failed record doesn't hold up the others. Overlapping triggers share one send. At most 300 per network address per hour (a session shares one university address).
 
-**In the code:** `lib/stats-summary.ts`, `lib/local/stats.ts`, `server/stats/*`, `features/local/stats-setting.tsx`, migration `20261011000001_anon_stats.sql`.
+**The results rating** ("My results were clear and useful", 1–5, pilot target 4) is asked on the first path result and at the end of the profile until answered. It's kept in the journey record on the phone either way.
+
+**In the code:** `lib/stats-summary.ts`, `lib/local/stats.ts`, `server/stats/*`, `features/local/stats-setting.tsx`, `features/journey/rating-card.tsx`, migrations `20261011000001_anon_stats.sql` and `20261013000001_anon_paths_ratings.sql`.
 
 ---
 
@@ -388,8 +392,6 @@ Every journey screen sits in one shell: a top bar and four tabs, **Home · Explo
 |---|---|---|
 | Rate limits are kept in memory | Fine on one server; lost on restart; not shared across servers | `server/research`, `server/stats` |
 | Readiness follow-up timing is a placeholder (7 days) | Must be settled against the 17 Dec data freeze | `FOLLOW_UP_DAYS` |
-| Statistics and research uploads don't yet include Verify (paths and bands, path answers) | The pilot report can't show path results yet | `stats-summary.ts`, `lib/research.ts` |
-| "Clear and useful" rating not built | Pilot plan measure missing | Pilot plan, world spec §6 item 7 |
 | Gender not asked in phase 1 | Arabic always uses the masculine form | First start |
 | School admission data (tracks, minimum scores, costs) not loaded | School context flags never fire | `CareerEgyptContext` |
 | Abilities performance (ICAR) items not supplied | Strengths rests on self-ratings only | `abilities.json` |

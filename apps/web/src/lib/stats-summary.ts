@@ -2,37 +2,66 @@ import { ABILITY_DOMAINS, BIG_FIVE, RIASEC, WORK_VALUES } from '@anabokra/engine
 import { z } from 'zod';
 
 /**
- * The anonymous statistics summary (consent-texts §1.6): one per finished result, sent only with the
- * user's opt-in (the parent's for 15–17). Deliberately coarse: bands instead of scores, top-3 lists,
- * no identifiers, no time. The server accepts exactly these fields and nothing else.
+ * Anonymous statistics (consent-texts §1.6), sent only with the user's opt-in. Three kinds of record,
+ * none linkable to the others or to the user:
+ * - the summary: one per finished result. Deliberately coarse: bands instead of scores, top-3 lists;
+ * - a checked path: one per path the user verified (its first result), with its band only;
+ * - the results rating: "my results were clear and useful", 1–5, once (pilot plan §7).
+ * No identifiers, no time. The server accepts exactly these fields and nothing else.
  */
 
 const band = z.enum(['low', 'mid', 'high']);
 const bandsOf = <T extends readonly [string, ...string[]]>(keys: T) => z.partialRecord(z.enum(keys), band);
+const groupId = z.string().regex(/^[a-z][a-z0-9_]{1,40}$/);
 
-export const statsSummarySchema = z.strictObject({
+/** Who sent it, as coarsely as the summary says it. */
+const sender = {
   v: z.literal(1),
   ageBand: z.enum(['15-17', '18-20', '21-25', '26plus']),
   stage: z.enum(['school', 'university', 'graduate']).nullable(),
   locale: z.enum(['ar', 'en']),
+  /** Pilot session code, if the user entered one. */
+  eventCode: z
+    .string()
+    .regex(/^[A-Z0-9-]{3,20}$/)
+    .nullable(),
+};
+
+export const statsSummarySchema = z.strictObject({
+  ...sender,
   /** Parts of the assessment that were scored (0–4). */
   completion: z.number().int().min(0).max(4),
   topInterests: z.array(z.enum(RIASEC)).max(3),
-  topGroups: z.array(z.string().regex(/^[a-z][a-z0-9_]{1,40}$/)).max(3),
+  topGroups: z.array(groupId).max(3),
   topValues: z.array(z.enum(WORK_VALUES)).max(3),
   bands: z.strictObject({
     interests: bandsOf(RIASEC),
     personality: bandsOf(BIG_FIVE),
     abilities: bandsOf(ABILITY_DOMAINS),
   }),
-  /** Pilot session code, if the user entered one. */
-  eventCode: z
-    .string()
-    .regex(/^[A-Z0-9-]{3,20}$/)
-    .nullable(),
 });
 
+export const statsPathSchema = z.strictObject({
+  ...sender,
+  kind: z.literal('path'),
+  group: groupId,
+  band: z.enum(['fitsWell', 'fitsPartly', 'rethink']),
+});
+
+export const statsRatingSchema = z.strictObject({
+  ...sender,
+  kind: z.literal('rating'),
+  rating: z.number().int().min(1).max(5),
+});
+
+/** Anything the phone may send to /api/stats. */
+export const statsUploadSchema = z.union([statsSummarySchema, statsPathSchema, statsRatingSchema]);
+
 export type StatsSummary = z.infer<typeof statsSummarySchema>;
+export type StatsPath = z.infer<typeof statsPathSchema>;
+export type StatsRating = z.infer<typeof statsRatingSchema>;
+export type StatsUpload = z.infer<typeof statsUploadSchema>;
+export type StatsSender = Pick<StatsSummary, 'v' | 'ageBand' | 'stage' | 'locale' | 'eventCode'>;
 export type StatsBand = z.infer<typeof band>;
 
 export const toBand = (v: number): StatsBand => (v < 1 / 3 ? 'low' : v < 2 / 3 ? 'mid' : 'high');

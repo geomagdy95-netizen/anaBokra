@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
+import { checkPath } from '@/lib/journey/test-paths';
 import { LINK_CODE, normalizeEventCode } from '@/lib/research';
 import { MemoryEventStore, type PilotEvent } from '@/server/research/events';
 import { ResearchFailure, ResearchService } from '@/server/research/service';
@@ -23,6 +24,7 @@ function server(events: PilotEvent[] = [{ code: 'CU-FCI-1', partner: 'Cairo FCI'
     try {
       if (path.endsWith('/answers')) await svc.submitAnswerSet(body, 'ip');
       else if (path.endsWith('/readiness')) await svc.submitReadiness(body, 'ip');
+      else if (path.endsWith('/paths')) await svc.submitPathSet(body, 'ip');
       else await svc.forget(body, 'ip');
       return true;
     } catch {
@@ -173,5 +175,36 @@ describe('research uploads from the phone', () => {
     expect((await other.get<ResearchState>(researchKey(profile.id)))?.linkCode).toBe(
       (await kv.get<ResearchState>(researchKey(profile.id)))?.linkCode,
     );
+  });
+});
+
+describe('checked paths in research', () => {
+  it("sends each checked path's answers once, with no key", async () => {
+    const { store, post } = server();
+    const { kv, rt, profile } = await phone();
+    const tech = await checkPath(kv, profile.id, 'tech');
+    expect(await syncResearch(rt, post)).toBe('sent');
+    expect(store.pathSets).toHaveLength(1);
+    expect(store.pathSets[0]).toMatchObject({ eventCode: 'CU-FCI-1', ageBand: '21-25', stage: 'university', pathId: 'tech', answers: tech.answers, band: tech.result.band, components: tech.result.components });
+    const state = (await kv.get<ResearchState>(researchKey(profile.id)))!;
+    expect(JSON.stringify(store.pathSets)).not.toContain(state.linkCode);
+    expect(state.sentPaths).toEqual(['tech']);
+
+    expect(await syncResearch(rt, post)).toBe('skipped');
+    await checkPath(kv, profile.id, 'health');
+    await syncResearch(rt, post);
+    expect(store.pathSets.map((p) => p.pathId)).toEqual(['tech', 'health']);
+  });
+
+  it('rejects answers that are not items of that path, or values the item does not allow', async () => {
+    const { svc } = server();
+    const { kv, profile } = await phone();
+    const { answers, result } = await checkPath(kv, profile.id, 'tech');
+    const ok = { v: 1, eventCode: 'CU-FCI-1', ageBand: '21-25', stage: null, locale: 'ar', pathId: 'tech', version: result.version, answers, components: result.components, band: result.band };
+    await expect(svc.submitPathSet(ok, 'ip')).resolves.toBeUndefined();
+    await expect(svc.submitPathSet({ ...ok, answers: { ...answers, tech_day_1: 7 } }, 'ip')).rejects.toMatchObject({ code: 'invalid' });
+    await expect(svc.submitPathSet({ ...ok, answers: { health_day_1: 2 } }, 'ip')).rejects.toMatchObject({ code: 'invalid' });
+    await expect(svc.submitPathSet({ ...ok, pathId: 'law' }, 'ip')).rejects.toMatchObject({ code: 'invalid' });
+    await expect(svc.submitPathSet({ ...ok, linkCode: 'x' }, 'ip')).rejects.toMatchObject({ code: 'invalid' });
   });
 });

@@ -98,9 +98,10 @@ All are `POST` with JSON, same-origin only, and run on Node.js.
 
 | Endpoint | Called by | Receives | Keeps | Limits |
 |---|---|---|---|---|
-| `/api/stats` | Statistics sender | One summary (strict schema) | Row in `anon_stats` + arrival week | 30 per address per hour |
+| `/api/stats` | Statistics sender | One record (strict schema): a summary, a checked path, or the results rating | Row in `anon_stats`, `anon_path_checks` or `anon_ratings` + arrival week | 300 per address per hour |
 | `/api/events/check` | Join a session | Session code | Nothing | 20 per address per hour |
 | `/api/research/answers` | Research sender | One answer set | Row in `research_answer_sets` + arrival week | 300 per address per hour |
+| `/api/research/paths` | Research sender | One checked path's answers, version, score parts and band | Row in `research_path_sets` + arrival week | Same |
 | `/api/research/readiness` | Research sender | Link code, phase, answers | Row in `research_readiness` (one per link code and phase) | Same |
 | `/api/research/forget` | Turning research off | Link code | Deletes that code's readiness rows | Same |
 
@@ -115,8 +116,11 @@ All are `POST` with JSON, same-origin only, and run on Node.js.
 | Table | Migration | Contents |
 |---|---|---|
 | `anon_stats` | `20261011000001` | Anonymous summaries: week, age band, stage, language, completion, top 3 lists, bands, session code |
+| `anon_path_checks` | `20261013000001` | One per checked path: week, age band, stage, language, session code, path, band |
+| `anon_ratings` | `20261013000001` | "My results were clear and useful": week, age band, stage, language, session code, rating 1–5 |
 | `pilot_events` | `20261012000001` | Session code, partner, research offered, open and close dates |
 | `research_answer_sets` | `20261012000001` | Week, session code, age band, stage, language, versions, answers, values ranking, delete-by date |
+| `research_path_sets` | `20261013000001` | One per checked path: week, session code, age band, stage, language, path, content version, answers, score parts, band, delete-by date |
 | `research_readiness` | `20261012000001` | Link code + phase (key), week, session code, version, language, answers, delete-by date |
 
 **Phase 2 schema** (migrations `20261009000001`–`12`, `20261011000002`): profiles and roles; consent (`consent_invites`, `consents`, `parent_links`, organisations, join codes); assessment (`assessment_sessions`, `responses`, `results`, `readiness_checks`, `instrument_versions`, `instrument_keys`); content (`clusters`, `careers`, `career_country_data`, `industries`, `institutions`, `programs`, `opportunities`, review queue); engagement (`favorites`, `saved_opportunities`, `roadmaps`, `milestones`, XP, achievements, weekly goals, notifications); platform (`feature_flags`, `app_settings`, `audit_log`, `ai_generations`, counselors, subscriptions, bookings). See `supabase/README.md`.

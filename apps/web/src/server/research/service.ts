@@ -1,6 +1,7 @@
-import { instruments } from '@anabokra/content';
+import { instruments, pathById } from '@anabokra/content';
 
-import { normalizeEventCode, RESEARCH_DELETE_BY, researchAnswerSetSchema, researchForgetSchema, researchReadinessSchema } from '@/lib/research';
+import { pathAnswerAllowed } from '@/lib/journey/verify';
+import { normalizeEventCode, RESEARCH_DELETE_BY, researchAnswerSetSchema, researchForgetSchema, researchPathSetSchema, researchReadinessSchema } from '@/lib/research';
 
 import { stationItems } from '../assessment/items';
 import { createRateLimiter, type RateLimiter } from '../rate-limit';
@@ -78,6 +79,15 @@ export class ResearchService {
     if (!parsed.success || !answersValid(parsed.data.answers)) throw new ResearchFailure('invalid');
     await this.admit(parsed.data.eventCode, ip);
     await this.save(() => this.store.addAnswerSet({ ...parsed.data, receivedWeek: isoWeek(new Date(this.now())) }));
+  }
+
+  /** A checked path's answers: every answer must be an item of that path, with a value it allows. */
+  async submitPathSet(body: unknown, ip: string): Promise<void> {
+    const parsed = researchPathSetSchema.safeParse(body);
+    const path = parsed.success ? pathById(parsed.data.pathId) : undefined;
+    if (!parsed.success || !path || !Object.entries(parsed.data.answers).every(([id, v]) => pathAnswerAllowed(path, id, v))) throw new ResearchFailure('invalid');
+    await this.admit(parsed.data.eventCode, ip);
+    await this.save(() => this.store.addPathSet({ ...parsed.data, receivedWeek: isoWeek(new Date(this.now())) }));
   }
 
   async submitReadiness(body: unknown, ip: string): Promise<void> {

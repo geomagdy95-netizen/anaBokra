@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import { FinalizeRunner } from '@/features/assessment/finalize-runner';
 import { AppShell } from '@/features/journey/app-shell';
 import { JourneyGate } from '@/features/journey/journey-gate';
+import { RatingCard } from '@/features/journey/rating-card';
 import { assembleResultView, matchesToExplain } from '@/features/results/assemble';
 import { genderedT } from '@/features/results/gendered';
 import { ResultsFlow } from '@/features/results/results-flow';
@@ -46,10 +47,11 @@ type State =
  * The journey gate comes first, so a locked profile asks for the password like every other tab.
  */
 export function LocalResult({ sessionId }: { sessionId?: string }) {
-  return <JourneyGate>{(data) => <Result rt={data.rt} sessionId={sessionId} />}</JourneyGate>;
+  return <JourneyGate>{(data) => <Result data={data} sessionId={sessionId} />}</JourneyGate>;
 }
 
-function Result({ rt, sessionId }: { rt: LocalRuntime; sessionId?: string }) {
+function Result({ data, sessionId }: { data: JourneyData; sessionId?: string }) {
+  const { rt } = data;
   const locale = useLocale() as Locale;
   const t = useTranslations('Results');
   const [state, setState] = useState<State>({ kind: 'loading' });
@@ -104,6 +106,8 @@ function Result({ rt, sessionId }: { rt: LocalRuntime; sessionId?: string }) {
             partial={state.partial}
             share={false}
             title={false}
+            // No reload after rating: it would rebuild the runtime and replay this page; the card thanks in place.
+            after={<RatingCard data={data} onChanged={() => {}} />}
           />
         </div>
       ) : state.kind === 'finalizing' ? (

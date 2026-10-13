@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 
-import { buildStatsSummary, statsSummarySchema } from '@/lib/stats-summary';
+import { checkPath } from '@/lib/journey/test-paths';
+import { saveRating } from '@/lib/journey/verify';
+import { buildStatsSummary, statsSummarySchema, statsUploadSchema } from '@/lib/stats-summary';
 import { isoWeek } from '@/server/stats/store';
 import { StatsFailure, StatsService } from '@/server/stats/service';
 import { MemoryStatsStore } from '@/server/stats/store';
@@ -88,6 +90,66 @@ describe('sending', () => {
   });
 });
 
+describe('checked paths and the results rating', () => {
+  it('sends one record per checked path and one rating, once each, with nothing identifying', async () => {
+    const { kv, rt, profile, result } = await finished({ stats: true, context: { stage: 'university' } });
+    await checkPath(kv, profile.id, 'tech');
+    await checkPath(kv, profile.id, 'health');
+    await saveRating(kv, profile.id, 4);
+    const posted: Record<string, unknown>[] = [];
+    const post = async (s: unknown) => (posted.push(s as Record<string, unknown>), true);
+    expect(await syncStats(rt, post)).toBe('sent');
+    expect(posted.map((p) => p.kind ?? 'summary')).toEqual(['summary', 'path', 'path', 'rating']);
+    expect(posted.filter((p) => p.kind === 'path').map((p) => p.group)).toEqual(['tech', 'health']);
+    expect(posted.find((p) => p.kind === 'rating')).toEqual({ v: 1, kind: 'rating', rating: 4, ageBand: '18-20', stage: 'university', locale: 'ar', eventCode: null });
+    for (const p of posted) expect(statsUploadSchema.safeParse(p).success).toBe(true);
+    const text = JSON.stringify(posted);
+    for (const secret of [profile.id, result.sessionId, result.id]) expect(text).not.toContain(secret);
+    expect(text).not.toMatch(/"fit"|"at"|"answers"|"components"/);
+
+    expect(await syncStats(rt, post)).toBe('skipped');
+    await checkPath(kv, profile.id, 'business');
+    expect(await syncStats(rt, post)).toBe('sent');
+    expect(posted).toHaveLength(5);
+  });
+
+  it('sends a path checked again only once, and nothing without the opt-in', async () => {
+    const yes = await finished({ stats: true });
+    await checkPath(yes.kv, yes.profile.id, 'tech');
+    const posted: unknown[] = [];
+    await syncStats(yes.rt, async (s) => (posted.push(s), true));
+    await checkPath(yes.kv, yes.profile.id, 'tech');
+    expect(await syncStats(yes.rt, async (s) => (posted.push(s), true))).toBe('skipped');
+    expect(posted).toHaveLength(2);
+
+    const no = await finished({ stats: false });
+    await checkPath(no.kv, no.profile.id, 'tech');
+    await saveRating(no.kv, no.profile.id, 5);
+    expect(await syncStats(no.rt, async () => true)).toBe('skipped');
+  });
+
+  it('keeps going after one failed record and retries it later', async () => {
+    const { kv, rt, profile } = await finished({ stats: true });
+    await checkPath(kv, profile.id, 'tech');
+    await saveRating(kv, profile.id, 3);
+    const posted: Record<string, unknown>[] = [];
+    expect(await syncStats(rt, async (s) => ((s as { kind?: string }).kind === 'path' ? false : (posted.push(s as Record<string, unknown>), true)))).toBe('failed');
+    expect(posted.map((p) => p.kind ?? 'summary')).toEqual(['summary', 'rating']);
+    expect(await syncStats(rt, async (s) => (posted.push(s as Record<string, unknown>), true))).toBe('sent');
+    expect(posted.map((p) => p.kind ?? 'summary')).toEqual(['summary', 'rating', 'path']);
+  });
+
+  it('rejects malformed path and rating records', () => {
+    const sender = { v: 1, ageBand: '21-25', stage: null, locale: 'en', eventCode: 'CU-FCI-1' };
+    expect(statsUploadSchema.safeParse({ ...sender, kind: 'path', group: 'tech', band: 'fitsWell' }).success).toBe(true);
+    expect(statsUploadSchema.safeParse({ ...sender, kind: 'path', group: 'tech', band: 'great' }).success).toBe(false);
+    expect(statsUploadSchema.safeParse({ ...sender, kind: 'path', group: 'tech', band: 'fitsWell', fit: 0.7 }).success).toBe(false);
+    expect(statsUploadSchema.safeParse({ ...sender, kind: 'rating', rating: 5 }).success).toBe(true);
+    for (const rating of [0, 6, 3.5]) expect(statsUploadSchema.safeParse({ ...sender, kind: 'rating', rating }).success).toBe(false);
+    expect(statsUploadSchema.safeParse({ ...sender, kind: 'rating', rating: 4, group: 'tech' }).success).toBe(false);
+  });
+});
+
 describe('stats service', () => {
   it('stores a valid summary with only the week it arrived, and rate-limits', async () => {
     const store = new MemoryStatsStore();
@@ -97,6 +159,18 @@ describe('stats service', () => {
     expect(store.records).toEqual([{ ...summary, receivedWeek: '2026-W41' }]);
     await expect(svc.submit(summary, 'ip')).rejects.toMatchObject({ code: 'rate_limited' });
     await expect(svc.submit({ hello: 1 }, 'other')).rejects.toBeInstanceOf(StatsFailure);
+  });
+
+  it('stores path and rating records as they came, with the week', async () => {
+    const store = new MemoryStatsStore();
+    const svc = new StatsService(store, () => Date.UTC(2026, 10, 20, 9));
+    const sender = { v: 1, ageBand: '18-20', stage: 'university', locale: 'ar', eventCode: 'CU-FCI-1' } as const;
+    await svc.submit({ ...sender, kind: 'path', group: 'health', band: 'fitsPartly' }, 'ip');
+    await svc.submit({ ...sender, kind: 'rating', rating: 5 }, 'ip');
+    expect(store.records).toEqual([
+      { ...sender, kind: 'path', group: 'health', band: 'fitsPartly', receivedWeek: '2026-W47' },
+      { ...sender, kind: 'rating', rating: 5, receivedWeek: '2026-W47' },
+    ]);
   });
 
   it('computes ISO weeks across year boundaries', () => {

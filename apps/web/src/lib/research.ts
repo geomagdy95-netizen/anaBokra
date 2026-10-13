@@ -7,6 +7,8 @@ import { z } from 'zod';
  *
  * - Answer sets: one per finished result, with no name, no ID and no key; tagged only with the event
  *   code, age band, stage and language. They cannot be linked to anything else.
+ * - Path answer sets: the same, one per checked path (Verify): the path's answers, its version and the
+ *   draft score parts and band, so the psychologist can set the weights and cut-offs. No key either.
  * - Readiness records: the "how ready do you feel" answers, tagged with a random link code made on the
  *   phone so the before and after answers can be paired. The link code is never on an answer set.
  */
@@ -46,6 +48,22 @@ export const researchAnswerSetSchema = z.strictObject({
   valuesRanking: z.array(z.enum(WORK_VALUES)).max(WORK_VALUES.length),
 });
 
+const share = z.number().min(0).max(1);
+
+export const researchPathSetSchema = z.strictObject({
+  v: z.literal(1),
+  eventCode,
+  ageBand: z.enum(['18-20', '21-25', '26plus']),
+  stage: z.enum(STAGES).nullable(),
+  locale: z.enum(['ar', 'en']),
+  pathId: z.string().regex(/^[a-z][a-z0-9_]{1,40}$/),
+  version: z.string().max(32),
+  answers,
+  /** The draft score parts (0–1) and band the user was shown. */
+  components: z.strictObject({ profile: share, activities: share, realities: share }),
+  band: z.enum(['fitsWell', 'fitsPartly', 'rethink']),
+});
+
 export const researchReadinessSchema = z.strictObject({
   v: z.literal(1),
   eventCode,
@@ -60,4 +78,5 @@ export const researchReadinessSchema = z.strictObject({
 export const researchForgetSchema = z.strictObject({ linkCode: z.string().regex(LINK_CODE) });
 
 export type ResearchAnswerSet = z.infer<typeof researchAnswerSetSchema>;
+export type ResearchPathSet = z.infer<typeof researchPathSetSchema>;
 export type ResearchReadiness = z.infer<typeof researchReadinessSchema>;

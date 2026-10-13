@@ -2203,7 +2203,7 @@
     },
     "stats": {
       "title": "Anonymous statistics",
-      "on": "On: one anonymous summary is sent when you finish.",
+      "on": "On: when you finish, an anonymous summary is sent, plus how each path you check came out and your rating of the results.",
       "off": "Off: nothing is sent.",
       "what": "Age group, language, top interest areas and career groups, score ranges and how many parts were finished. No name, phone number, ID or exact time."
     },
@@ -2501,6 +2501,15 @@
       "onDevice": "Everything stays on this phone, encrypted",
       "language": "Language",
       "data": "Your data"
+    },
+    "rating": {
+      "title": "One quick question",
+      "question": "“My results were clear and useful.” How much do you agree?",
+      "privacy": "Your answer stays on this phone. It's sent, without anything that identifies you, only if you agreed to share anonymous statistics.",
+      "send": "Send",
+      "later": "Not now",
+      "thanks": "Thanks! This helps us make anaBokra better.",
+      "error": "Couldn't save your answer. Try again."
     }
   },
   "DevPaths": {

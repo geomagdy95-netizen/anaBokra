@@ -8,7 +8,7 @@ export const runtime = 'nodejs';
 
 const STATUS = { invalid: 400, rate_limited: 429, store_failed: 503 } as const;
 
-/** One anonymous summary (consent-texts §1.6). Nothing identifying is accepted or logged. */
+/** One anonymous record: summary, checked path or results rating (consent-texts §1.6). Nothing identifying is accepted or logged. */
 export async function POST(request: Request) {
   if (!sameOrigin(request)) return apiError('forbidden');
   const body = await request.json().catch(() => null);

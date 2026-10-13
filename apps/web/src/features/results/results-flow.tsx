@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 
 import { Button } from '@/components/ui/button';
 import type { WorldProfile } from '@/features/path/types';
@@ -25,6 +25,7 @@ export function ResultsFlow({
   partial,
   share = true,
   title = true,
+  after,
 }: {
   view: ResultView;
   worldProfile: WorldProfile;
@@ -36,6 +37,8 @@ export function ResultsFlow({
   share?: boolean;
   /** False when the screen frame already shows the title (phase 1 app shell). */
   title?: boolean;
+  /** Shown at the end of the main view (phase 1: the results rating). */
+  after?: ReactNode;
 }) {
   const rt = useRT();
   const [stage, setStage] = useState<Stage>(fresh ? 'reveal' : 'main');
@@ -69,6 +72,7 @@ export function ResultsFlow({
       <ProfileOverview view={view} summary={view.summary} partial={partial} />
       <Matches top={view.top} more={view.more} surprising={view.surprising} />
       {share && <SharePanel />}
+      {after}
       <div>
         <Button type="button" variant="ghost" onClick={() => setStage('reveal')} data-testid="replay-reveal">
           {rt('reveal.replay')}

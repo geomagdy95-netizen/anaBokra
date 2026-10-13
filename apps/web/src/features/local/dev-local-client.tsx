@@ -3,6 +3,8 @@
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
+import { CONSENT_TEXT_VERSION, POLICY_VERSION } from './first-start';
+
 interface Snapshot {
   persistent: boolean;
   profiles: number;
@@ -59,7 +61,7 @@ export function DevLocalClient() {
       let profile = activeId ? await device.getProfile(activeId) : null;
       if (!profile?.consent) {
         profile = await device.createProfile({ mode: 'phone', ageBand: '21-25' });
-        profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: 'consent-0.6-draft', policyVersion: '0.6-draft' });
+        profile = await device.setConsent(profile.id, { basis: 'adult_self', textVersion: CONSENT_TEXT_VERSION, policyVersion: POLICY_VERSION });
         await device.setActiveId(profile.id);
       }
       const rt = localRuntimeFor(kv, profile);

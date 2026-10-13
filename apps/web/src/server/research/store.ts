@@ -1,12 +1,14 @@
-import type { ResearchAnswerSet, ResearchReadiness } from '@/lib/research';
+import type { ResearchAnswerSet, ResearchPathSet, ResearchReadiness } from '@/lib/research';
 
 /** What is kept: the upload plus the ISO week it arrived in. No IP address, exact time or user id. */
 export type AnswerSetRecord = ResearchAnswerSet & { receivedWeek: string };
+export type PathSetRecord = ResearchPathSet & { receivedWeek: string };
 export type ReadinessResearchRecord = ResearchReadiness & { receivedWeek: string };
 
 export interface ResearchStore {
   readonly name: string;
   addAnswerSet(r: AnswerSetRecord): Promise<void>;
+  addPathSet(r: PathSetRecord): Promise<void>;
   /** One record per (link code, phase): a resend replaces it. */
   upsertReadiness(r: ReadinessResearchRecord): Promise<void>;
   /** Deletes the readiness records sent with this link code; returns how many. */
@@ -16,9 +18,13 @@ export interface ResearchStore {
 export class MemoryResearchStore implements ResearchStore {
   readonly name = 'memory';
   readonly answerSets: AnswerSetRecord[] = [];
+  readonly pathSets: PathSetRecord[] = [];
   readonly readiness: ReadinessResearchRecord[] = [];
   async addAnswerSet(r: AnswerSetRecord) {
     this.answerSets.push(structuredClone(r));
+  }
+  async addPathSet(r: PathSetRecord) {
+    this.pathSets.push(structuredClone(r));
   }
   async upsertReadiness(r: ReadinessResearchRecord) {
     const i = this.readiness.findIndex((x) => x.linkCode === r.linkCode && x.phase === r.phase);
@@ -34,7 +40,7 @@ export class MemoryResearchStore implements ResearchStore {
 
 type Result = PromiseLike<{ error: unknown; count?: number | null }>;
 export interface ResearchClient {
-  from(t: 'research_answer_sets'): { insert(row: Record<string, unknown>): Result };
+  from(t: 'research_answer_sets' | 'research_path_sets'): { insert(row: Record<string, unknown>): Result };
   from(t: 'research_readiness'): {
     upsert(row: Record<string, unknown>, opts: { onConflict: string }): Result;
     delete(opts: { count: 'exact' }): { eq(c: string, v: string): Result };
@@ -55,6 +61,21 @@ export class SupabaseResearchStore implements ResearchStore {
       versions: r.versions,
       answers: r.answers,
       values_ranking: r.valuesRanking,
+    });
+    if (error) throw new Error('research_store_failed');
+  }
+  async addPathSet(r: PathSetRecord) {
+    const { error } = await this.client.from('research_path_sets').insert({
+      received_week: r.receivedWeek,
+      event_code: r.eventCode,
+      age_band: r.ageBand,
+      stage: r.stage,
+      locale: r.locale,
+      path_id: r.pathId,
+      version: r.version,
+      answers: r.answers,
+      components: r.components,
+      band: r.band,
     });
     if (error) throw new Error('research_store_failed');
   }

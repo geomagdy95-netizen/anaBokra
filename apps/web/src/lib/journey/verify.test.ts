@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 
 import { MemoryKv } from '@/lib/local/kv';
 
-import { bandFor, readJourney, saveVerifyAnswer, saveVerifyResult, scoreVerify, setInList, taskDone, taskItemIds } from './verify';
+import { bandFor, pathAnswerAllowed, readJourney, saveRating, saveVerifyAnswer, saveVerifyResult, scoreVerify, setInList, taskDone, taskItemIds } from './verify';
 
 const health = paths.health!;
 const [day, real, tryIt] = health.tasks;
@@ -86,5 +86,34 @@ describe('added and saved paths', () => {
     expect(await setInList(kv, 'p1', 'added', 'law', false)).toEqual([]);
     const doc = await readJourney(kv, 'p1');
     expect(doc).toMatchObject({ added: [], saved: ['tech'], paths: { health: { answers: { health_day_1: 3 } } } });
+  });
+});
+
+describe('results rating', () => {
+  it('keeps one rating from 1 to 5 in the journey record', async () => {
+    const kv = new MemoryKv();
+    await saveRating(kv, 'p1', 4, new Date('2026-11-20T10:00:00Z'));
+    expect((await readJourney(kv, 'p1')).rating).toEqual({ value: 4, at: '2026-11-20T10:00:00.000Z' });
+    await expect(saveRating(kv, 'p1', 6)).rejects.toThrow();
+    await expect(saveRating(kv, 'p1', 0)).rejects.toThrow();
+  });
+});
+
+describe('allowed path answers', () => {
+  it('follows each item type', () => {
+    const tech = paths.tech!;
+    const story = tech.tasks.find((t) => t.kind === 'story')!.items[0]!;
+    const choice = tech.tasks.find((t) => t.kind === 'thisOrThat')!.items[0]!;
+    const tryItem = tech.tasks.find((t) => t.kind === 'tryIt')!.items[0] as { id: string; options: unknown[] };
+    expect([1, 2, 3].every((v) => pathAnswerAllowed(tech, story.id, v))).toBe(true);
+    expect(pathAnswerAllowed(tech, story.id, 0)).toBe(false);
+    expect(pathAnswerAllowed(tech, choice.id, 1)).toBe(true);
+    expect(pathAnswerAllowed(tech, choice.id, 2)).toBe(false);
+    expect(pathAnswerAllowed(tech, tryItem.id, tryItem.options.length - 1)).toBe(true);
+    expect(pathAnswerAllowed(tech, tryItem.id, tryItem.options.length)).toBe(false);
+    expect(pathAnswerAllowed(tech, enjoyId(tryItem.id), 3)).toBe(true);
+    expect(pathAnswerAllowed(tech, enjoyId(tryItem.id), 4)).toBe(false);
+    expect(pathAnswerAllowed(tech, 'nope', 1)).toBe(false);
+    expect(pathAnswerAllowed(tech, story.id, 1.5)).toBe(false);
   });
 });

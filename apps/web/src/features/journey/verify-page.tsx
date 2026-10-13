@@ -20,6 +20,7 @@ import { stationPayload } from '@/server/assessment/station-payload';
 import { AppShell } from './app-shell';
 import { JourneyGate } from './journey-gate';
 import { LocalLoading } from '@/features/local/local-states';
+import { RatingCard } from './rating-card';
 import { pathSteps } from './steps';
 import { TaskRunner } from './task-runner';
 import { useJT } from './use-jt';
@@ -91,7 +92,12 @@ function Verify({ data, pathId, onChanged }: { data: JourneyData; pathId: string
       />
     );
 
-  if (showResult && rec?.result) return frame('verify-result-page', <Result path={path} result={rec.result} onAgain={() => setShowResult(false)} />, { 'data-band': rec.result.band });
+  if (showResult && rec?.result)
+    return frame(
+      'verify-result-page',
+      <Result path={path} result={rec.result} onAgain={() => setShowResult(false)} rating={<RatingCard data={data} onChanged={onChanged} />} />,
+      { 'data-band': rec.result.band },
+    );
 
   const tasksDone = path.tasks.map((t) => taskDone(t, answers));
   const allDone = data.valuesDone && tasksDone.every(Boolean);
@@ -201,7 +207,7 @@ function ValuesTask({ data, onDone }: { data: JourneyData; onDone: () => void })
 const BAND_STYLE = { fitsWell: 'border-primary bg-primary/10', fitsPartly: 'border-amber-500/60 bg-amber-50 dark:bg-amber-950/30', rethink: 'border-muted-foreground/30 bg-muted' };
 const BAND_ICON = { fitsWell: '🌟', fitsPartly: '🧭', rethink: '🤔' };
 
-function Result({ path, result, onAgain }: { path: PathContent; result: VerifyResult; onAgain: () => void }) {
+function Result({ path, result, onAgain, rating }: { path: PathContent; result: VerifyResult; onAgain: () => void; rating: ReactNode }) {
   const jt = useJT();
   const tx = useText();
   const nf = useNumberFormat();
@@ -268,6 +274,8 @@ function Result({ path, result, onAgain }: { path: PathContent; result: VerifyRe
           </ul>
         </section>
       )}
+
+      {rating}
 
       <section>
         <h3 className="text-sm font-semibold">{jt('verify.careers')}</h3>

@@ -52,7 +52,7 @@ flowchart LR
         pages["Pages and content<br/>(static, no personal data)"]
         stats["Anonymous statistics<br/>/api/stats"]
         research["Pilot sessions and research<br/>/api/events, /api/research"]
-        db[("Database<br/>anon_stats, pilot_events,<br/>research_answer_sets,<br/>research_readiness")]
+        db[("Database<br/>anon_stats, anon_path_checks,<br/>anon_ratings, pilot_events,<br/>research_answer_sets, research_path_sets,<br/>research_readiness")]
         stats --> db
         research --> db
     end

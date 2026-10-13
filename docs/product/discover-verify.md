@@ -162,7 +162,7 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 | 2 | Readiness baseline before task 1 (task 1 waits for it unless skipped); follow-up offered 7 days after the first path result | **Built**; the 7 days is a placeholder until the timing is decided |
 | 2 | Island map on my island from real progress (suggested paths glow; tapping a path opens Verify); 3D only, the lists cover phones without it | **Built** (`journey-map.tsx`, `map-state.ts`) |
 | 2 | `/assessment` redirects to `/journey`; settings (statistics, session, move, delete) moved there; old station hub removed | **Built** |
-| 3 | Statistics summary adds verified paths and bands; research answer sets add path answers | To do (schemas unchanged so far) |
+| 3 (13 Oct) | Statistics add one record per checked path (band) and the results rating; research adds one answer set per checked path (answers, score parts, band) | **Built** (`anon_path_checks`, `anon_ratings`, `research_path_sets`) |
 | 3 | Map labels can overlap on small screens (suggested ones now stay on top) | To polish |
 | 3 | Psychologist's edits, phone testing, docs and consent texts | To do |
 

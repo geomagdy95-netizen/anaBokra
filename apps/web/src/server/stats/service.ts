@@ -1,4 +1,4 @@
-import { statsSummarySchema } from '@/lib/stats-summary';
+import { statsUploadSchema } from '@/lib/stats-summary';
 
 import { createRateLimiter, type RateLimiter } from '../rate-limit';
 import { isoWeek, MemoryStatsStore, type StatsStore } from './store';
@@ -14,19 +14,23 @@ export class StatsFailure extends Error {
   }
 }
 
-/** Accepts one anonymous summary: validates it strictly, rate-limits by IP (in memory only), stores it. */
+/**
+ * Accepts one anonymous record (summary, checked path or results rating): validates it strictly,
+ * rate-limits by IP (in memory only), stores it.
+ */
 export class StatsService {
   private limiter: RateLimiter;
   constructor(
     readonly store: StatsStore,
     private readonly now: () => number = Date.now,
-    perIpPerHour = 30,
+    // A whole session can share one university IP, and each person sends a few records.
+    perIpPerHour = 300,
   ) {
     this.limiter = createRateLimiter({ limit: perIpPerHour, windowMs: 60 * 60 * 1000, now: this.now });
   }
 
   async submit(body: unknown, ip: string): Promise<void> {
-    const parsed = statsSummarySchema.safeParse(body);
+    const parsed = statsUploadSchema.safeParse(body);
     if (!parsed.success) throw new StatsFailure('invalid');
     const limit = await this.limiter.consume(`ip:${ip}`);
     if (!limit.allowed) throw new StatsFailure('rate_limited', limit.retryAfterSec);
