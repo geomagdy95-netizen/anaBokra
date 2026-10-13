@@ -18,8 +18,9 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 import { Bridge, bridgeEnds } from './bridges';
 import { bridgePoint, islandGeometry } from './geometry';
-import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, WORLD_EXTENT, islandPlacements, type IslandPlacement } from './layout';
+import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, WATER_SPOT, WORLD_EXTENT, islandPlacements, landmarkOffset, ON_WATER, type IslandPlacement } from './layout';
 import { BRAND, MutedContext, SCENE } from './materials';
+import { Landmark } from './landmarks';
 import { GroupIcon, Logo3D } from './props';
 import { Flag, flagSpot, Garden, growthSpots } from './garden';
 import { Backdrop, Clouds, Sea, SkyDome } from './scenery';
@@ -60,6 +61,10 @@ export function labelAnchors(): { islands: Record<GroupId, Vector3>; bridges: Re
 }
 const ANCHORS = labelAnchors();
 
+/** The group icon stands at the front of its island, the landmark behind it; both must read from afar. */
+const ICON_SCALE = 1.0;
+const LANDMARK_SCALE = 1.2;
+
 // --- Islands ------------------------------------------------------------------
 
 function Island({
@@ -90,6 +95,7 @@ function Island({
 
   const root = useRef<Group>(null);
   const icon = useRef<Group>(null);
+  const lm = landmarkOffset(placement);
   useLayoutEffect(() => {
     root.current?.traverse((o) => {
       if ('isMesh' in o && o.isMesh) {
@@ -101,7 +107,7 @@ function Island({
   useFrame(({ clock }, dt) => {
     const g = icon.current;
     if (!g) return;
-    const target = selected ? 1.36 : 1.22;
+    const target = selected ? ICON_SCALE * 1.12 : ICON_SCALE;
     const s = g.scale.x + (target - g.scale.x) * Math.min(1, dt * 8);
     g.scale.setScalar(s);
     g.position.y = ISLAND_TOP + (animate && selected ? Math.abs(Math.sin(clock.elapsedTime * 2.4)) * 0.12 : 0);
@@ -123,9 +129,19 @@ function Island({
     >
       <mesh geometry={geo} material={mat} />
       <MutedContext.Provider value={muted}>
-        <group ref={icon} position={[0, ISLAND_TOP, -0.1]} scale={1.22}>
+        <group ref={icon} position={[0, ISLAND_TOP, 0.3]} scale={ICON_SCALE}>
           <GroupIcon id={placement.id} />
         </group>
+        {ON_WATER.has(placement.id) ? (
+          <group position={[WATER_SPOT[0], 0, WATER_SPOT[1]]} rotation={[0, -0.6, 0]}>
+            <Landmark id={placement.id} />
+          </group>
+        ) : (
+          // Turned a little toward the camera from the side it stands on.
+          <group position={[lm[0], ISLAND_TOP, lm[1]]} rotation={[0, -lm[0] * 0.35, 0]} scale={LANDMARK_SCALE}>
+            <Landmark id={placement.id} />
+          </group>
+        )}
       </MutedContext.Provider>
       {selected && <SelectionRing radius={ISLAND_RADIUS} color={BRAND.violet} />}
     </group>

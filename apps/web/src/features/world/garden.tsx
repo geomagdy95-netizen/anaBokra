@@ -20,7 +20,7 @@ import {
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 import { hashSeed, mulberry32 } from '../path/rng';
-import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, type IslandPlacement, type XZ } from './layout';
+import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, LANDMARK_CLEARANCE, landmarkOffset, ON_WATER, type IslandPlacement, type XZ } from './layout';
 import { BRAND, muteColor, SCENE, toy } from './materials';
 
 /**
@@ -117,7 +117,7 @@ function spotsOn(
   kind: GrowthKind,
   count: number,
   taken: { x: number; z: number }[],
-  { avoid = [], front = 0.55 }: { avoid?: number[]; front?: number } = {},
+  { avoid = [], front = 0.55, blocked = [] }: { avoid?: number[]; front?: number; blocked?: { x: number; z: number; r: number }[] } = {},
 ): Omit<GrowthSpot, 'muted' | 'y'>[] {
   const rng = mulberry32(hashSeed(`${seed}:${kind}`));
   const gap = kind === 'tree' ? 0.42 : kind === 'bush' ? 0.34 : 0.26;
@@ -135,6 +135,7 @@ function spotsOn(
     const x = center[0] + Math.cos(a) * r;
     const z = center[1] + Math.sin(a) * r;
     if (taken.some((t) => Math.hypot(t.x - x, t.z - z) < gap)) continue;
+    if (blocked.some((b) => Math.hypot(b.x - x, b.z - z) < b.r)) continue;
     taken.push({ x, z });
     out.push({ key: `${seed}:${kind}:${out.length}`, kind, x, z, s, rot, color });
   }
@@ -168,13 +169,15 @@ export function growthSpots(
     const n = growthCounts(isl.growth);
     const taken: { x: number; z: number }[] = [];
     const landing = Math.atan2(-p.dir[1], -p.dir[0]);
+    const lm = landmarkOffset(p);
+    const blocked = ON_WATER.has(p.id) ? [] : [{ x: p.pos[0] + lm[0], z: p.pos[1] + lm[1], r: LANDMARK_CLEARANCE }];
     // Trees on the rim, bushes and flowers between the rim and the landmark.
     const plateau = { min: ISLAND_RADIUS * 0.52, max: ISLAND_RADIUS * 0.74 };
     const inner = { min: ISLAND_RADIUS * 0.42, max: ISLAND_RADIUS * 0.72 };
     const all = [
-      ...spotsOn(p.id, p.pos, plateau, 'tree', MAX.tree, taken, { avoid: [landing] }),
-      ...spotsOn(p.id, p.pos, inner, 'bush', MAX.bush, taken, { avoid: [landing] }),
-      ...spotsOn(p.id, p.pos, inner, 'flower', MAX.flower, taken, { avoid: [landing] }),
+      ...spotsOn(p.id, p.pos, plateau, 'tree', MAX.tree, taken, { avoid: [landing], blocked }),
+      ...spotsOn(p.id, p.pos, inner, 'bush', MAX.bush, taken, { avoid: [landing], blocked }),
+      ...spotsOn(p.id, p.pos, inner, 'flower', MAX.flower, taken, { avoid: [landing], blocked }),
     ];
     for (const kind of ['tree', 'bush', 'flower'] as const)
       all.filter((s) => s.kind === kind).slice(0, n[kind]).forEach((s) => out.push({ ...s, y: ISLAND_TOP, muted: isl.muted }));

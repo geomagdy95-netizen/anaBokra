@@ -28,7 +28,7 @@ import type { GroupId } from './types';
 
 type MeshProps = Omit<ThreeElements['mesh'], 'args'>;
 
-const C = {
+export const C = {
   violet: BRAND.violet,
   apricot: BRAND.apricot,
   plum: '#3B1A55',
@@ -42,12 +42,12 @@ const C = {
   green: SCENE.tree,
 };
 
-function RBox({ size, r = 0.06, color, o, ...rest }: MeshProps & { size: [number, number, number]; r?: number; color: string; o?: ToyOptions }) {
+export function RBox({ size, r = 0.06, color, o, ...rest }: MeshProps & { size: [number, number, number]; r?: number; color: string; o?: ToyOptions }) {
   const m = useToy();
   return <mesh geometry={roundedBox(size[0], size[1], size[2], r)} material={m(color, o)} {...rest} />;
 }
 
-function Extruded({ shape, depth, bevel = 0.025, color, o, ...rest }: MeshProps & { shape: Shape; depth: number; bevel?: number; color: string; o?: ToyOptions }) {
+export function Extruded({ shape, depth, bevel = 0.025, color, o, ...rest }: MeshProps & { shape: Shape; depth: number; bevel?: number; color: string; o?: ToyOptions }) {
   const m = useToy();
   const geo = useMemo(() => {
     const g = new ExtrudeGeometry(shape, {
@@ -65,7 +65,7 @@ function Extruded({ shape, depth, bevel = 0.025, color, o, ...rest }: MeshProps 
   return <mesh geometry={geo} material={m(color, o)} {...rest} />;
 }
 
-function Tube({ points, radius, color, closed = false, ...rest }: MeshProps & { points: [number, number, number][]; radius: number; color: string; closed?: boolean }) {
+export function Tube({ points, radius, color, closed = false, ...rest }: MeshProps & { points: [number, number, number][]; radius: number; color: string; closed?: boolean }) {
   const m = useToy();
   const curve = useMemo(() => new CatmullRomCurve3(points.map((p) => new Vector3(...p)), closed), [points, closed]);
   return (
@@ -76,7 +76,7 @@ function Tube({ points, radius, color, closed = false, ...rest }: MeshProps & { 
 }
 
 /** Gentle idle bob for floating parts. */
-function Bob({ children, amp = 0.05, speed = 1.2, phase = 0 }: { children: ReactNode; amp?: number; speed?: number; phase?: number }) {
+export function Bob({ children, amp = 0.05, speed = 1.2, phase = 0 }: { children: ReactNode; amp?: number; speed?: number; phase?: number }) {
   const ref = useRef<Group>(null);
   useFrame(({ clock }) => {
     if (ref.current) ref.current.position.y = Math.sin(clock.elapsedTime * speed + phase) * amp;
