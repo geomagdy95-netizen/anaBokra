@@ -1,0 +1,85 @@
+{
+  "id": "agriculture",
+  "version": "0.1.0-draft",
+  "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in agriculture and food", "ar": "يوم في الزراعة والغذاء" },
+      "intro": { "en": "Moments from a typical day in agriculture and food. How does each one sound to you?", "ar": "لحظات من يوم عادي في الزراعة والغذاء. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "agriculture_day_1", "text": { "en": "Walking a field at sunrise to check the crop and the irrigation.", "ar": "لفّة في الغيط مع طلوع الشمس لمتابعة الزرع والري." }, "careers": ["agricultural_engineer", "agribusiness_manager"] },
+        { "id": "agriculture_day_2", "text": { "en": "Testing samples in a food lab to make sure a product is safe.", "ar": "تحليل عينات في معمل أغذية للتأكد إن المنتج آمن." }, "careers": ["food_scientist"] },
+        { "id": "agriculture_day_3", "text": { "en": "Designing a drip irrigation system to save water.", "ar": "تصميم شبكة ري بالتنقيط لتوفير المية." }, "careers": ["agricultural_engineer"] },
+        { "id": "agriculture_day_4", "text": { "en": "Negotiating a price for a whole harvest with a buyer.", "ar": "تفاوض على سعر محصول كامل مع تاجر." }, "careers": ["agribusiness_manager"] },
+        { "id": "agriculture_day_5", "text": { "en": "Developing a new snack recipe that keeps longer on the shelf.", "ar": "تطوير وصفة سناك جديدة تعيش أكتر على الرف." }, "careers": ["food_scientist"] },
+        { "id": "agriculture_day_6", "text": { "en": "Explaining a new seed variety to farmers who prefer the old one.", "ar": "شرح صنف تقاوي جديد لمزارعين بيفضّلوا القديم." }, "careers": ["agricultural_engineer", "agribusiness_manager"] },
+        { "id": "agriculture_day_7", "text": { "en": "Watching a factory line where thousands of packs pass every hour.", "ar": "متابعة خط مصنع بيعدّي عليه آلاف العبوات كل ساعة." }, "careers": ["food_scientist", "agricultural_engineer"] }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "agriculture_real_1", "a": { "en": "Working outdoors in the countryside, often far from the city", "ar": "شغل برّه في الريف، وغالبًا بعيد عن المدينة" }, "b": { "en": "Working in a city office", "ar": "شغل في مكتب في المدينة" }, "path": "a", "careers": ["agricultural_engineer", "agribusiness_manager"] },
+        { "id": "agriculture_real_2", "a": { "en": "Weather and seasons you can't control", "ar": "طقس ومواسم مش في إيدك" }, "b": { "en": "Work where everything is planned", "ar": "شغل كل حاجة فيه متخططة" }, "path": "a", "careers": ["agricultural_engineer", "agribusiness_manager"] },
+        { "id": "agriculture_real_3", "a": { "en": "Strict food safety rules and inspections", "ar": "قواعد سلامة غذاء صارمة وتفتيش" }, "b": { "en": "Few rules to follow", "ar": "قواعد قليلة" }, "path": "a", "careers": ["food_scientist", "agribusiness_manager"] },
+        { "id": "agriculture_real_4", "a": { "en": "Early starts: fields and factories begin at dawn", "ar": "صحيان بدري: الغيطان والمصانع بتبدأ من الفجر" }, "b": { "en": "A day that starts at ten", "ar": "يوم بيبدأ الساعة 10" }, "path": "a" },
+        { "id": "agriculture_real_5", "a": { "en": "Work that feeds people", "ar": "شغل بيأكّل الناس" }, "b": { "en": "Work far from everyday life", "ar": "شغل بعيد عن الحياة اليومية" }, "path": "a" },
+        { "id": "agriculture_real_6", "a": { "en": "A mix of science, business and selling", "ar": "خلطة بين العلم والبيزنس والبيع" }, "b": { "en": "Pure science without the business side", "ar": "علم بس من غير جانب البيزنس" }, "path": "a", "careers": ["agribusiness_manager", "food_scientist"] }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from agriculture and food. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل الزراعة والغذاء. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل الزراعة والغذاء. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "agriculture_try_1",
+          "type": "scenario",
+          "text": { "en": "Farmers you work with lose part of their crop to a new pest.", "ar": "مزارعين بتشتغل معاهم خسروا جزء من محصولهم بسبب آفة جديدة.", "arF": "مزارعين بتشتغلي معاهم خسروا جزء من محصولهم بسبب آفة جديدة." },
+          "options": [
+            { "text": { "en": "Take samples to identify the pest, then advise on treatment", "ar": "آخد عينات أعرف الآفة إيه، وبعدين أنصحهم بالعلاج" }, "fit": 1 },
+            { "text": { "en": "Ask the agricultural extension office or a university lab", "ar": "أسأل الإرشاد الزراعي أو معمل في الجامعة" }, "fit": 0.8 },
+            { "text": { "en": "Tell them to spray whatever pesticide they have", "ar": "أقولهم يرشّوا أي مبيد عندهم" }, "fit": 0.1 },
+            { "text": { "en": "Wait for next season", "ar": "أستنى الموسم الجاي" }, "fit": 0 }
+          ],
+          "careers": ["agricultural_engineer", "agribusiness_manager"]
+        },
+        {
+          "id": "agriculture_try_2",
+          "type": "scenario",
+          "text": { "en": "A test shows one batch of a product may be unsafe, and the truck is about to leave.", "ar": "تحليل بيقول إن تشغيلة من المنتج ممكن تكون مش آمنة، والعربية خلاص طالعة." },
+          "options": [
+            { "text": { "en": "Stop the truck and hold the batch until a second test", "ar": "أوقف العربية وأحجز التشغيلة لحد تحليل تاني" }, "fit": 1 },
+            { "text": { "en": "Tell the quality manager immediately", "ar": "أبلّغ مدير الجودة فورًا" }, "fit": 0.9 },
+            { "text": { "en": "Send it and check the next batch more carefully", "ar": "أبعتها وأدقق في التشغيلة الجاية" }, "fit": 0.1 },
+            { "text": { "en": "Let it go: it's probably fine", "ar": "أسيبها تمشي: غالبًا سليمة" }, "fit": 0 }
+          ],
+          "careers": ["food_scientist", "agribusiness_manager"]
+        },
+        {
+          "id": "agriculture_try_3",
+          "type": "puzzle",
+          "text": { "en": "A feddan is about 4,200 m². A farm covers 21,000 m². About how many feddans is that?", "ar": "الفدان حوالي 4200 متر مربع. مزرعة مساحتها 21000 متر مربع. يعني حوالي كام فدان؟" },
+          "options": [{ "en": "4", "ar": "4" },{ "en": "5", "ar": "5" },{ "en": "6", "ar": "6" },{ "en": "50", "ar": "50" }],
+          "answer": 1,
+          "explain": { "en": "21,000 ÷ 4,200 = 5. Land in Egypt is measured in feddans, so this sum comes up all the time.", "ar": "21000 ÷ 4200 = 5. الأرض في مصر بتتقاس بالفدان، فالحسبة دي بتتكرر على طول." }
+        },
+        {
+          "id": "agriculture_try_4",
+          "type": "puzzle",
+          "text": { "en": "Suppose drip irrigation uses 40% less water than flooding. A field takes 1,000 m³ by flooding. How much by drip?", "ar": "افترض إن الري بالتنقيط بيوفر 40% من مية الري بالغمر. غيط بياخد 1000 متر مكعب بالغمر. هياخد كام بالتنقيط؟", "arF": "افترضي إن الري بالتنقيط بيوفر 40% من مية الري بالغمر. غيط بياخد 1000 متر مكعب بالغمر. هياخد كام بالتنقيط؟" },
+          "options": [{ "en": "400 m³", "ar": "400 متر مكعب" },{ "en": "600 m³", "ar": "600 متر مكعب" },{ "en": "960 m³", "ar": "960 متر مكعب" },{ "en": "1,400 m³", "ar": "1400 متر مكعب" }],
+          "answer": 1,
+          "explain": { "en": "40% of 1,000 is 400, so 1,000 − 400 = 600. Saving water is one of the biggest jobs in Egyptian farming.", "ar": "40% من 1000 = 400، يعني 1000 − 400 = 600. توفير المية من أكبر المهام في الزراعة في مصر." },
+          "careers": ["agricultural_engineer"]
+        }
+      ]
+    }
+  ]
+}

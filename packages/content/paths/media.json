@@ -1,0 +1,85 @@
+{
+  "id": "media",
+  "version": "0.1.0-draft",
+  "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in marketing and media", "ar": "يوم في التسويق والإعلام" },
+      "intro": { "en": "Moments from a typical day in marketing and media. How does each one sound to you?", "ar": "لحظات من يوم عادي في التسويق والإعلام. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "media_day_1", "text": { "en": "Checking how yesterday's post did and deciding what to change.", "ar": "متابعة البوست بتاع امبارح عمل إيه، وتحديد إيه اللي يتغيّر." }, "careers": ["social_media_manager", "digital_marketer", "content_creator"] },
+        { "id": "media_day_2", "text": { "en": "A story breaks: one hour to check the facts and write it up.", "ar": "خبر لسه طالع: ساعة واحدة للتأكد من المعلومات وكتابته." }, "careers": ["journalist"] },
+        { "id": "media_day_3", "text": { "en": "A brainstorm for a campaign with the team, with lots of ideas thrown away.", "ar": "جلسة أفكار لحملة مع الفريق، وأفكار كتير بتترمي." }, "careers": ["brand_manager", "digital_marketer", "pr_specialist"] },
+        { "id": "media_day_4", "text": { "en": "Filming the same 30-second video ten times until it feels right.", "ar": "تصوير نفس الفيديو اللي مدته 30 ثانية 10 مرات لحد ما يبان مظبوط." }, "careers": ["content_creator", "film_producer"] },
+        { "id": "media_day_5", "text": { "en": "A long day on set, keeping 40 people on schedule.", "ar": "يوم تصوير طويل في اللوكيشن، و40 فرد لازم يمشوا على الجدول." }, "careers": ["film_producer"] },
+        { "id": "media_day_6", "text": { "en": "Calmly answering angry comments on the brand's page.", "ar": "الرد بهدوء على تعليقات زعلانة على صفحة البراند." }, "careers": ["social_media_manager", "pr_specialist", "brand_manager"] },
+        { "id": "media_day_7", "text": { "en": "Calling journalists to get a company's news covered.", "ar": "اتصالات بصحفيين عشان أخبار الشركة تتنشر." }, "careers": ["pr_specialist"] },
+        { "id": "media_day_8", "text": { "en": "Reading a dashboard of numbers to see which ads are worth the money.", "ar": "قراية داشبورد أرقام لمعرفة أنهي إعلان يستاهل فلوسه." }, "careers": ["digital_marketer", "brand_manager"] }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "media_real_1", "a": { "en": "Always online, following what people are talking about", "ar": "أونلاين على طول، بتتابع الناس بتتكلم في إيه", "arF": "أونلاين على طول، بتتابعي الناس بتتكلم في إيه" }, "b": { "en": "Switching off from the news after work", "ar": "تفصل عن الأخبار بعد الشغل", "arF": "تفصلي عن الأخبار بعد الشغل" }, "path": "a" },
+        { "id": "media_real_2", "a": { "en": "Your work judged in public through likes and comments", "ar": "شغلك بيتحكم عليه قدام الناس باللايكات والتعليقات" }, "b": { "en": "Work that only your manager sees", "ar": "شغل مديرك بس اللي بيشوفه" }, "path": "a", "careers": ["content_creator", "social_media_manager", "journalist", "digital_marketer"] },
+        { "id": "media_real_3", "a": { "en": "Fast deadlines: today, not next week", "ar": "مواعيد سريعة: النهارده مش الأسبوع الجاي" }, "b": { "en": "Long projects with time to think", "ar": "مشاريع طويلة فيها وقت للتفكير" }, "path": "a", "careers": ["journalist", "social_media_manager", "pr_specialist", "content_creator"] },
+        { "id": "media_real_4", "a": { "en": "Platforms and trends that change every few months", "ar": "منصات وترندات بتتغير كل كام شهر" }, "b": { "en": "Tools that stay the same for years", "ar": "أدوات ثابتة لسنين" }, "path": "a" },
+        { "id": "media_real_5", "a": { "en": "Persuading people with words and images", "ar": "إقناع الناس بالكلام والصور" }, "b": { "en": "Giving the facts and leaving the decision to them", "ar": "عرض الحقايق وترك القرار ليهم" }, "path": "a", "careers": ["digital_marketer", "brand_manager", "pr_specialist", "content_creator", "social_media_manager"] },
+        { "id": "media_real_6", "a": { "en": "Long, irregular days on shoots and stories", "ar": "أيام طويلة ومواعيد مش منتظمة في التصوير والتغطيات" }, "b": { "en": "Regular office hours", "ar": "مواعيد مكتب منتظمة" }, "path": "a", "careers": ["film_producer", "content_creator", "journalist"] }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from marketing and media. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل التسويق والإعلام. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل التسويق والإعلام. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "media_try_1",
+          "type": "scenario",
+          "text": { "en": "A post from your brand gets angry comments because people misunderstood it.", "ar": "بوست للبراند جاله تعليقات زعلانة عشان الناس فهموه غلط." },
+          "options": [
+            { "text": { "en": "Reply quickly and clearly, explaining what was meant", "ar": "أرد بسرعة ووضوح وأشرح كان المقصود إيه" }, "fit": 1 },
+            { "text": { "en": "Check with my manager, then post a short clarification", "ar": "أرجع لمديري وبعدين أنزّل توضيح قصير" }, "fit": 0.8 },
+            { "text": { "en": "Delete the comments", "ar": "أمسح التعليقات" }, "fit": 0.1 },
+            { "text": { "en": "Ignore it: it'll pass", "ar": "أطنّش: هتعدي" }, "fit": 0.2 }
+          ],
+          "careers": ["social_media_manager", "pr_specialist", "brand_manager", "digital_marketer"]
+        },
+        {
+          "id": "media_try_2",
+          "type": "scenario",
+          "text": { "en": "You get an exciting piece of news from one source only.", "ar": "وصلك خبر مثير من مصدر واحد بس." },
+          "options": [
+            { "text": { "en": "Look for a second source before publishing", "ar": "أدور على مصدر تاني قبل النشر" }, "fit": 1 },
+            { "text": { "en": "Contact the people the story is about for their side", "ar": "أكلّم الناس اللي الخبر عنهم وآخد ردهم" }, "fit": 0.9 },
+            { "text": { "en": "Publish it fast, before anyone else does", "ar": "أنشره بسرعة قبل غيري" }, "fit": 0.1 },
+            { "text": { "en": "Drop the story", "ar": "أسيب الخبر خالص" }, "fit": 0.3 }
+          ],
+          "careers": ["journalist", "content_creator", "film_producer"]
+        },
+        {
+          "id": "media_try_3",
+          "type": "puzzle",
+          "text": { "en": "An ad was seen by 20,000 people and 400 of them clicked it. What is the click rate?", "ar": "إعلان شافه 20000 شخص، و400 منهم ضغطوا عليه. نسبة الضغط كام؟" },
+          "options": [{ "en": "0.2%", "ar": "0.2%" },{ "en": "2%", "ar": "2%" },{ "en": "4%", "ar": "4%" },{ "en": "20%", "ar": "20%" }],
+          "answer": 1,
+          "explain": { "en": "400 ÷ 20,000 = 0.02, which is 2%. Marketers read numbers like this every day to decide where the money goes.", "ar": "400 ÷ 20000 = 0.02، يعني 2%. أهل التسويق بيقروا أرقام زي دي كل يوم عشان يقرروا الفلوس تروح فين." }
+        },
+        {
+          "id": "media_try_4",
+          "type": "puzzle",
+          "text": { "en": "Which headline tells readers the most?", "ar": "أنهي عنوان بيقول للقارئ أكتر معلومة؟" },
+          "options": [{ "en": "Important transport news", "ar": "خبر مهم عن المواصلات" },{ "en": "New bus line in Tanta starts on Saturday", "ar": "خط أتوبيس جديد في طنطا يبدأ يوم السبت" },{ "en": "You won't believe what happened in Tanta!", "ar": "مش هتصدق اللي حصل في طنطا!" }],
+          "answer": 1,
+          "explain": { "en": "The second says what, where and when. A good headline informs; it doesn't just tease.", "ar": "التاني بيقول إيه وفين وإمتى. العنوان الكويس بيدّي معلومة، مش بس بيشوّق." }
+        }
+      ]
+    }
+  ]
+}

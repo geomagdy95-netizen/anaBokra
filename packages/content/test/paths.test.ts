@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { I18n } from '@anabokra/engine';
-import { careers, paths } from '../src';
+import { careers, clusters, paths } from '../src';
 
 const bilingual = (t: I18n | undefined, where: string) => {
   expect(t?.en?.trim(), `${where} en`).toBeTruthy();
@@ -9,8 +9,8 @@ const bilingual = (t: I18n | undefined, where: string) => {
 };
 
 describe('path (Verify) content', () => {
-  it('has the four pilot paths', () => {
-    expect(Object.keys(paths).sort()).toEqual(['business', 'engineering', 'health', 'tech']);
+  it('has a path for every career group', () => {
+    expect(Object.keys(paths).sort()).toEqual(clusters.map((c) => c.id).sort());
   });
 
   for (const path of Object.values(paths)) {

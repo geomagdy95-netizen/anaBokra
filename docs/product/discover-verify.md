@@ -10,7 +10,7 @@ Status: design, decided by the founder on 12 Oct 2026; for psychologist review. 
 | Step 1: **Discover** | On the user's own island. A general assessment of **interests, strengths and key personality traits** that **suggests paths** |
 | Step 2: **Verify** | On a path island. **Path-specific tasks**, plus personal questions **asked once** and reused, that check whether the path fits |
 | Task size | **5–10 questions**, **mixed question types**, meant to be fun and make users curious |
-| Pilot | **Both steps**, with Verify ready for **4 paths**: Technology & Data, Business & Finance, Engineering, Health & Medicine |
+| Pilot | **Both steps**, with Verify ready for **all 12 paths** (the first 4, Technology & Data, Business & Finance, Engineering, Health & Medicine, on 12 Oct; the other 8 on 14 Oct) |
 | Path content | Drafted by Claude in Arabic and English, **reviewed and approved by the psychologist** |
 | Shorter questionnaires | Ask the psychologist about shorter published versions (section 8) |
 
@@ -107,7 +107,7 @@ flowchart LR
 - **Realities can point to specific careers.** For example, "You'd rather not do night shifts: common for doctors and nurses, rarer for pharmacists in industry or lab scientists." Each reality question is tagged with the careers it applies to, so it adjusts those careers' order without removing any.
 - **Re-verifying** later (after more answers, or a change of mind) replaces the path result; the old one stays in history.
 
-## 6. Content to write (pilot: 4 paths)
+## 6. Content to write (pilot: all 12 paths)
 
 For each path: about 6 story moments, 6 this-or-that pairs, 2 scenarios and 2 puzzles, about 16 items, in Arabic (with feminine forms) and English, each tagged with what it measures and the careers it applies to. Source material: the career pages in `packages/content/careers/pages` (tasks, routes, Egypt market).
 
@@ -117,6 +117,14 @@ For each path: about 6 story moments, 6 this-or-that pairs, 2 scenarios and 2 pu
 | Business & Finance | 9 (accountant, auditor, banker, financial analyst, actuary, management consultant, entrepreneur, HR, supply chain) |
 | Engineering | 10 (civil, architect, mechanical, electrical, communications, mechatronics, petroleum, chemical, biomedical, renewable energy) |
 | Health & Medicine | 10 (physician, dentist, pharmacist, nurse, physical therapist, clinical nutritionist, medical lab, radiology, clinical psychologist, veterinarian) |
+| Marketing & Media | 7 (digital marketer, brand manager, content creator, journalist, PR, film producer, social media manager) |
+| Creative & Design | 6 (graphic, interior and fashion designer, 3D animator, photographer, musician) |
+| Law & Public Service | 5 (lawyer, judge/prosecutor, diplomat, political scientist, police/military officer) |
+| Education & Social | 5 (teacher, special education, school counselor, social worker, translator) |
+| Science & Research | 6 (biotechnologist, chemist, physicist, environmental scientist, geologist, Egyptologist) |
+| Tourism & Hospitality | 6 (tour guide, hotel manager, chef, event planner, flight attendant, pilot) |
+| Skilled Trades & Technical | 5 (electrician, automotive/EV technician, solar technician, industrial technician, CNC operator) |
+| Agriculture & Food | 3 (agricultural engineer, food scientist, agribusiness manager) |
 
 Path questions are **drafts until the psychologist approves them**. In the pilot, the research answer sets (opt-in) include them, so their behaviour can be checked.
 
@@ -138,7 +146,7 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 1. **Short personality set:** use the **Mini-IPIP** (20 items, 4 per trait)? To our knowledge its items come from the IPIP-50 we already use. Please confirm the item list, and whether 4 items per trait is enough for path verification.
 2. **Interests:** keep all 60, or use a shorter published version if one suits?
 3. **Values:** is the 21-card sort, asked once at the first path, the right place?
-4. **Path items:** review and edit the drafts for the 4 paths (wording, cultural fit, what each item measures).
+4. **Path items:** review and edit the drafts for the 12 paths (wording, cultural fit, what each item measures).
 5. **Path fit:** the draft weights (50 / 30 / 20) and band cut-offs (0.65 / 0.45).
 6. **Early guess after task 4:** acceptable, if clearly labelled as early?
 7. **Readiness statements:** reword for 18–25 (see [system flows §9](../system/flows.md#9-readiness-check)).
@@ -156,7 +164,7 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 | 1 | Short personality set (Mini-IPIP, 20 of the 50 items), scored when the full set isn't answered | **Built** (`personalityShort()`; result records `personalitySet`) |
 | 1 | Path suggestions: early guess after task 4, suggestions after task 8, group rank = average of the 3 best careers; "no path stands out" when interest answers are flat | **Built** (`previewSuggestions`, `rankGroups`) |
 | 1 | Verify question formats: story, this or that, scenario, puzzle with reveal, "did you enjoy that?" | **Built**; try them at `/dev/paths` |
-| 1 | Verify content for 4 paths, Arabic and English | **Drafted**: `packages/content/paths/*.json`; review pack [docs/review/paths-review.md](../review/paths-review.md) |
+| 1 | Verify content for all 12 paths, Arabic and English (8 added 14 Oct) | **Drafted**: `packages/content/paths/*.json`; review pack [docs/review/paths-review.md](../review/paths-review.md) |
 | 2 (13 Oct) | Verify: values once, the path's 3 tasks saved on the phone, result (draft weights 50/30/20, bands 0.65/0.45), reasons, realities turned down, careers re-ranked with cautions | **Built** at `/journey/[path]` (`lib/journey/verify.ts`) |
 | 2 | First full result made when Discover, values and a first path are done; statistics and research (opt-in) sent from it | **Built** (`maybeFinalize`) |
 | 2 | Readiness baseline before task 1 (task 1 waits for it unless skipped); follow-up offered 7 days after the first path result | **Built**; the 7 days is a placeholder until the timing is decided |

@@ -1,9 +1,17 @@
 import type { I18n } from '@anabokra/engine';
 
+import agricultureJson from '../paths/agriculture.json';
 import businessJson from '../paths/business.json';
+import creativeJson from '../paths/creative.json';
+import educationJson from '../paths/education.json';
 import engineeringJson from '../paths/engineering.json';
 import healthJson from '../paths/health.json';
+import lawJson from '../paths/law.json';
+import mediaJson from '../paths/media.json';
+import scienceJson from '../paths/science.json';
 import techJson from '../paths/tech.json';
+import tourismJson from '../paths/tourism.json';
+import tradesJson from '../paths/trades.json';
 
 /**
  * Verify content for path (career-group) islands (docs/product/discover-verify.md §5). Drafts until
@@ -64,7 +72,10 @@ export interface PathContent {
 export const enjoyId = (itemId: string) => `${itemId}_enjoy`;
 
 export const paths: Record<string, PathContent> = Object.fromEntries(
-  [techJson, businessJson, engineeringJson, healthJson].map((p) => [p.id, p as unknown as PathContent]),
+  [
+    techJson, businessJson, engineeringJson, healthJson, mediaJson, creativeJson,
+    lawJson, educationJson, scienceJson, tourismJson, tradesJson, agricultureJson,
+  ].map((p) => [p.id, p as unknown as PathContent]),
 );
 
 export const pathById = (id: string): PathContent | undefined => paths[id];

@@ -1,0 +1,87 @@
+{
+  "id": "tourism",
+  "version": "0.1.0-draft",
+  "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in tourism and hospitality", "ar": "يوم في السياحة والضيافة" },
+      "intro": { "en": "Moments from a typical day in tourism and hospitality. How does each one sound to you?", "ar": "لحظات من يوم عادي في السياحة والضيافة. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "tourism_day_1", "text": { "en": "Leading a group of 25 tourists around Karnak and telling its story.", "ar": "قيادة مجموعة 25 سايح في الكرنك وحكاية تاريخه." }, "careers": ["tour_guide"] },
+        { "id": "tourism_day_2", "text": { "en": "120 orders at once in a hot kitchen, and everything has to go out on time.", "ar": "120 أوردر مرة واحدة في مطبخ حر، وكل حاجة لازم تطلع في وقتها." }, "careers": ["chef"] },
+        { "id": "tourism_day_3", "text": { "en": "A guest at reception is upset because their room isn't ready.", "ar": "ضيف في الريسبشن متضايق عشان أوضته لسه مش جاهزة." }, "careers": ["hotel_manager"] },
+        { "id": "tourism_day_4", "text": { "en": "The night before a wedding: checking 50 details on a list.", "ar": "الليلة اللي قبل الفرح: مراجعة 50 تفصيلة في ليستة." }, "careers": ["event_planner"] },
+        { "id": "tourism_day_5", "text": { "en": "Four flights in one day, greeting the last passenger like the first.", "ar": "4 رحلات في يوم واحد، والابتسامة لآخر راكب زي أول واحد." }, "careers": ["flight_attendant"] },
+        { "id": "tourism_day_6", "text": { "en": "Checking the weather and the plane carefully before a flight.", "ar": "مراجعة الطقس والطيارة بدقة قبل الرحلة." }, "careers": ["pilot"] },
+        { "id": "tourism_day_7", "text": { "en": "Working on Eid and holidays, while everyone else is off.", "ar": "شغل في العيد والإجازات، والكل أجازة." } },
+        { "id": "tourism_day_8", "text": { "en": "Switching between three languages with guests in one afternoon.", "ar": "كلام بـ 3 لغات مع الضيوف في عصرية واحدة." }, "careers": ["tour_guide", "hotel_manager", "flight_attendant"] }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "tourism_real_1", "a": { "en": "Working while others are on holiday", "ar": "تشتغل وغيرك في أجازة", "arF": "تشتغلي وغيرك في أجازة" }, "b": { "en": "Being off on public holidays", "ar": "أجازة في الأعياد والمناسبات" }, "path": "a" },
+        { "id": "tourism_real_2", "a": { "en": "Staying friendly and polite even when a guest is rude", "ar": "تفضل مبتسم ومؤدب حتى لو الضيف قليل الذوق", "arF": "تفضلي مبتسمة ومؤدبة حتى لو الضيف قليل الذوق" }, "b": { "en": "Work with little contact with the public", "ar": "شغل فيه تعامل قليل مع الجمهور" }, "path": "a", "careers": ["tour_guide", "hotel_manager", "flight_attendant", "event_planner"] },
+        { "id": "tourism_real_3", "a": { "en": "Income that depends on the tourist season and tips", "ar": "دخل بيعتمد على موسم السياحة والتيبس" }, "b": { "en": "The same income all year", "ar": "نفس الدخل طول السنة" }, "path": "a", "careers": ["tour_guide", "hotel_manager", "chef"] },
+        { "id": "tourism_real_4", "a": { "en": "Standing and on the move most of the day", "ar": "واقف وبتتحرك أغلب اليوم", "arF": "واقفة وبتتحركي أغلب اليوم" }, "b": { "en": "Sitting at a desk", "ar": "قاعد على مكتب", "arF": "قاعدة على مكتب" }, "path": "a", "careers": ["chef", "tour_guide", "flight_attendant", "event_planner", "hotel_manager"] },
+        { "id": "tourism_real_5", "a": { "en": "Sleeping in another city several nights a month", "ar": "تبات في مدينة تانية كذا ليلة في الشهر", "arF": "تباتي في مدينة تانية كذا ليلة في الشهر" }, "b": { "en": "Home every night", "ar": "في البيت كل ليلة" }, "path": "a", "careers": ["pilot", "flight_attendant", "tour_guide"] },
+        { "id": "tourism_real_6", "a": { "en": "Strict medical checks and long training before you start", "ar": "كشف طبي صارم وتدريب طويل قبل ما تبدأ", "arF": "كشف طبي صارم وتدريب طويل قبل ما تبدأي" }, "b": { "en": "Starting quickly and learning on the job", "ar": "بداية سريعة والتعلم في الشغل" }, "path": "a", "careers": ["pilot", "flight_attendant"] }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from tourism and hospitality. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل السياحة والضيافة. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل السياحة والضيافة. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "tourism_try_1",
+          "type": "scenario",
+          "text": { "en": "A tourist in your group feels unwell in the heat at a temple.", "ar": "سايح من مجموعتك تعب من الحر في المعبد." },
+          "options": [
+            { "text": { "en": "Get them into the shade with water, and call for medical help if needed", "ar": "أقعّده في الضل وأديله مية، وأطلب مساعدة طبية لو محتاج" }, "fit": 1 },
+            { "text": { "en": "Ask another guide to watch the group while I help", "ar": "أطلب من مرشد تاني ياخد باله من المجموعة وأنا بساعده" }, "fit": 0.8 },
+            { "text": { "en": "End the tour for everyone", "ar": "ألغي الجولة للكل" }, "fit": 0.3 },
+            { "text": { "en": "Carry on: they'll catch up", "ar": "أكمّل الجولة: هيلحقنا" }, "fit": 0 }
+          ],
+          "careers": ["tour_guide", "hotel_manager", "flight_attendant", "event_planner"]
+        },
+        {
+          "id": "tourism_try_2",
+          "type": "scenario",
+          "text": { "en": "Two hours before a wedding dinner, the bakery calls: the cake is ruined.", "ar": "قبل عشا الفرح بساعتين، محل الحلويات بيتصل: التورتة باظت." },
+          "options": [
+            { "text": { "en": "Call other bakeries straight away and find a replacement", "ar": "أكلّم محلات تانية على طول وألاقي بديل" }, "fit": 1 },
+            { "text": { "en": "Ask the hotel kitchen for a dessert table instead", "ar": "أطلب من مطبخ الفندق ترابيزة حلويات بدالها" }, "fit": 0.9 },
+            { "text": { "en": "Tell the couple and let them decide", "ar": "أقول للعروسين وأسيبهم يقرروا" }, "fit": 0.4 },
+            { "text": { "en": "Say nothing and hope no one notices", "ar": "أسكت وأتمنى محدش ياخد باله" }, "fit": 0 }
+          ],
+          "careers": ["event_planner", "chef", "hotel_manager"]
+        },
+        {
+          "id": "tourism_try_3",
+          "type": "puzzle",
+          "text": { "en": "A flight leaves Cairo at 10 a.m. and takes 5 hours to reach London. London is 2 hours behind Cairo. What time is it in London when the plane lands?", "ar": "طيارة طالعة من القاهرة الساعة 10 الصبح ورايحة لندن في 5 ساعات. لندن متأخرة عن القاهرة ساعتين. الساعة كام في لندن لما الطيارة توصل؟" },
+          "options": [{ "en": "11 a.m.", "ar": "11 الصبح" },{ "en": "1 p.m.", "ar": "1 الضهر" },{ "en": "3 p.m.", "ar": "3 العصر" },{ "en": "5 p.m.", "ar": "5 العصر" }],
+          "answer": 1,
+          "explain": { "en": "It's 3 p.m. in Cairo on landing, which is 1 p.m. in London. Crews and guides work across time zones all the time.", "ar": "الطيارة بتوصل الساعة 3 بتوقيت القاهرة، يعني 1 الضهر في لندن. أطقم الطيران والمرشدين بيتعاملوا مع فرق التوقيت على طول." },
+          "careers": ["pilot", "flight_attendant", "tour_guide"]
+        },
+        {
+          "id": "tourism_try_4",
+          "type": "puzzle",
+          "text": { "en": "A recipe for 4 people needs 300 g of rice. How much for 10 people?", "ar": "وصفة لـ 4 أشخاص محتاجة 300 جرام رز. محتاجين كام لـ 10 أشخاص؟" },
+          "options": [{ "en": "600 g", "ar": "600 جرام" },{ "en": "700 g", "ar": "700 جرام" },{ "en": "750 g", "ar": "750 جرام" },{ "en": "1 kg", "ar": "1 كيلو" }],
+          "answer": 2,
+          "explain": { "en": "300 ÷ 4 = 75 g per person, × 10 = 750 g. Kitchens and events scale quantities like this every day.", "ar": "300 ÷ 4 = 75 جرام للفرد، × 10 = 750 جرام. المطابخ والحفلات بتحسب الكميات كده كل يوم." },
+          "careers": ["chef", "hotel_manager", "event_planner"]
+        }
+      ]
+    }
+  ]
+}

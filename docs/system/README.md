@@ -88,7 +88,7 @@ The assessment pages check the mode first and use the on-device runtime in `loca
 | Area | Status |
 |---|---|
 | First start: age question, acceptance (18+, and 15–17 for themselves), nickname and optional password | Built |
-| Discover (10 short tasks on my island) and Verify (4 paths), replacing the five stations | Built |
+| Discover (10 short tasks on my island) and Verify (all 12 paths), replacing the five stations | Built |
 | Island map from real progress: Home map card, and the Explore tab with list, search, legend and island sheet | Built (3D devices; lists everywhere) |
 | App shell with brand theme and logo: Home · Explore · Saved · Account tabs | Built |
 | Add a path to my map (orange bridge) and save paths (Saved tab), both on the phone | Built |

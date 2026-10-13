@@ -1,0 +1,86 @@
+{
+  "id": "science",
+  "version": "0.1.0-draft",
+  "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in science and research", "ar": "يوم في العلوم والبحث" },
+      "intro": { "en": "Moments from a typical day in science and research. How does each one sound to you?", "ar": "لحظات من يوم عادي في العلوم والبحث. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "science_day_1", "text": { "en": "An experiment fails for the third time and the hunt for the reason begins.", "ar": "تجربة فشلت للمرة التالتة، ويبدأ التدوير على السبب." }, "careers": ["biotechnologist", "chemist", "physicist"] },
+        { "id": "science_day_2", "text": { "en": "Writing every step in a lab notebook so someone else can repeat it.", "ar": "كتابة كل خطوة في كشكول المعمل بحيث حد تاني يقدر يكررها." }, "careers": ["biotechnologist", "chemist", "physicist"] },
+        { "id": "science_day_3", "text": { "en": "A week in the Eastern Desert collecting rock samples.", "ar": "أسبوع في الصحرا الشرقية لجمع عينات صخور." }, "careers": ["geologist"] },
+        { "id": "science_day_4", "text": { "en": "Measuring the water in a canal and comparing it with safe limits.", "ar": "قياس جودة المية في ترعة ومقارنتها بالحدود الآمنة." }, "careers": ["environmental_scientist", "chemist"] },
+        { "id": "science_day_5", "text": { "en": "Reading hieroglyphs on a tomb wall, one sign at a time.", "ar": "قراية هيروغليفي على حيطة مقبرة، علامة علامة." }, "careers": ["egyptologist"] },
+        { "id": "science_day_6", "text": { "en": "Hours at a computer analysing the data from an experiment.", "ar": "ساعات قدام الكمبيوتر لتحليل بيانات تجربة." }, "careers": ["physicist", "biotechnologist", "environmental_scientist"] },
+        { "id": "science_day_7", "text": { "en": "Presenting your results at a conference and answering hard questions.", "ar": "عرض نتايجك في مؤتمر والرد على أسئلة صعبة." } },
+        { "id": "science_day_8", "text": { "en": "Weeks of reading what others have published before starting.", "ar": "أسابيع قراية في أبحاث غيرك قبل البداية." } }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "science_real_1", "a": { "en": "Years of postgraduate study (master's, PhD)", "ar": "سنين دراسات عليا (ماجستير ودكتوراه)" }, "b": { "en": "Starting work right after graduating", "ar": "تشتغل على طول بعد التخرج", "arF": "تشتغلي على طول بعد التخرج" }, "path": "a", "careers": ["biotechnologist", "physicist", "egyptologist", "environmental_scientist"] },
+        { "id": "science_real_2", "a": { "en": "Experiments that fail more often than they work", "ar": "تجارب بتفشل أكتر ما بتنجح" }, "b": { "en": "Tasks with a clear, certain result", "ar": "مهام نتيجتها واضحة ومضمونة" }, "path": "a", "careers": ["biotechnologist", "chemist", "physicist"] },
+        { "id": "science_real_3", "a": { "en": "Fieldwork in deserts and remote sites", "ar": "شغل ميداني في الصحرا وأماكن بعيدة" }, "b": { "en": "Always working in a city office", "ar": "شغل دايمًا في مكتب في المدينة" }, "path": "a", "careers": ["geologist", "environmental_scientist", "egyptologist"] },
+        { "id": "science_real_4", "a": { "en": "Answers that can take years", "ar": "إجابات ممكن تاخد سنين" }, "b": { "en": "Results you see this week", "ar": "نتايج تشوفها الأسبوع ده", "arF": "نتايج تشوفيها الأسبوع ده" }, "path": "a" },
+        { "id": "science_real_5", "a": { "en": "A modest academic salary with freedom to research", "ar": "مرتب جامعة متواضع مع حرية في البحث" }, "b": { "en": "A higher salary with tasks set for you", "ar": "مرتب أعلى ومهام متحددة ليك", "arF": "مرتب أعلى ومهام متحددة ليكي" }, "path": "a", "careers": ["physicist", "egyptologist", "biotechnologist"] },
+        { "id": "science_real_6", "a": { "en": "Careful rules for safety and record-keeping", "ar": "قواعد دقيقة للسلامة والتسجيل" }, "b": { "en": "Working however you like", "ar": "شغل على مزاجك" }, "path": "a", "careers": ["chemist", "biotechnologist", "environmental_scientist"] }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from science and research. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل العلوم والبحث. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل العلوم والبحث. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "science_try_1",
+          "type": "scenario",
+          "text": { "en": "Your result is different from what a well-known study found.", "ar": "النتيجة بتاعتك مختلفة عن اللي لقاه بحث مشهور." },
+          "options": [
+            { "text": { "en": "Repeat the experiment carefully to check", "ar": "أعيد التجربة بدقة عشان أتأكد" }, "fit": 1 },
+            { "text": { "en": "Look for a difference between my method and theirs", "ar": "أدور على فرق بين طريقتي وطريقتهم" }, "fit": 0.9 },
+            { "text": { "en": "Assume I made a mistake and drop it", "ar": "أفترض إني غلطت وأسيب الموضوع" }, "fit": 0.2 },
+            { "text": { "en": "Change my numbers to match", "ar": "أغيّر أرقامي عشان تطابق" }, "fit": 0 }
+          ]
+        },
+        {
+          "id": "science_try_2",
+          "type": "scenario",
+          "text": { "en": "A factory near a village says its waste is safe. The villagers say their animals are getting sick.", "ar": "مصنع جنب قرية بيقول إن مخلفاته آمنة، وأهل القرية بيقولوا إن البهايم بتعيا." },
+          "options": [
+            { "text": { "en": "Take water and soil samples and test them", "ar": "آخد عينات مية وتربة وأحللها" }, "fit": 1 },
+            { "text": { "en": "Talk to both sides and collect what each knows", "ar": "أتكلم مع الطرفين وأجمع اللي كل واحد يعرفه" }, "fit": 0.7 },
+            { "text": { "en": "Trust the factory's report", "ar": "أصدّق تقرير المصنع" }, "fit": 0.1 },
+            { "text": { "en": "Post about it online straight away", "ar": "أنشر عن الموضوع أونلاين على طول" }, "fit": 0.2 }
+          ],
+          "careers": ["environmental_scientist", "chemist", "geologist", "biotechnologist"]
+        },
+        {
+          "id": "science_try_3",
+          "type": "puzzle",
+          "text": { "en": "You mix 1 cup of juice concentrate with 4 cups of water. What fraction of the drink is concentrate?", "ar": "خلطت كوباية عصير مركّز مع 4 كوبايات مية. المركّز قد إيه من المشروب كله؟", "arF": "خلطتي كوباية عصير مركّز مع 4 كوبايات مية. المركّز قد إيه من المشروب كله؟" },
+          "options": [{ "en": "A quarter", "ar": "الربع" },{ "en": "A fifth", "ar": "الخُمس" },{ "en": "A third", "ar": "التلت" }],
+          "answer": 1,
+          "explain": { "en": "There are 5 cups in all and 1 is concentrate: one fifth. Chemists and lab scientists work out dilutions like this every day.", "ar": "المشروب كله 5 كوبايات، منهم واحدة مركّز: يعني الخُمس. الكيميائيين وأهل المعامل بيحسبوا التخفيف ده كل يوم." },
+          "careers": ["chemist", "biotechnologist", "environmental_scientist"]
+        },
+        {
+          "id": "science_try_4",
+          "type": "puzzle",
+          "text": { "en": "A radioactive sample loses half its mass every 10 years. Starting with 80 grams, how much is left after 30 years?", "ar": "عينة مشعة بتفقد نص وزنها كل 10 سنين. لو بدأنا بـ 80 جرام، هيفضل كام بعد 30 سنة؟" },
+          "options": [{ "en": "40 g", "ar": "40 جرام" },{ "en": "20 g", "ar": "20 جرام" },{ "en": "10 g", "ar": "10 جرام" },{ "en": "0 g", "ar": "0 جرام" }],
+          "answer": 2,
+          "explain": { "en": "Three halvings: 80, 40, 20, 10. Half-lives like this are how scientists date rocks and ancient objects.", "ar": "3 مرات نص: 80، 40، 20، 10. بالطريقة دي العلماء بيحددوا عمر الصخور والآثار القديمة." },
+          "careers": ["physicist", "geologist", "egyptologist"]
+        }
+      ]
+    }
+  ]
+}

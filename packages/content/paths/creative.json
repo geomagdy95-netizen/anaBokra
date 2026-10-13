@@ -1,0 +1,85 @@
+{
+  "id": "creative",
+  "version": "0.1.0-draft",
+  "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": { "en": "A day in creative work and design", "ar": "يوم في الإبداع والتصميم" },
+      "intro": { "en": "Moments from a typical day in creative work and design. How does each one sound to you?", "ar": "لحظات من يوم عادي في الإبداع والتصميم. كل لحظة شكلها إيه بالنسبالك؟" },
+      "items": [
+        { "id": "creative_day_1", "text": { "en": "A client says 'make it stand out' and you need to work out what they really mean.", "ar": "عميل بيقول «عايزه يلفت النظر»، والمطلوب فهم يقصد إيه بالظبط." }, "careers": ["graphic_designer", "interior_designer", "fashion_designer"] },
+        { "id": "creative_day_2", "text": { "en": "Three hours adjusting one animation so a character's walk looks natural.", "ar": "3 ساعات تظبيط في حركة واحدة عشان مشية الشخصية تبان طبيعية." }, "careers": ["animator_3d_artist"] },
+        { "id": "creative_day_3", "text": { "en": "Measuring a flat and imagining how living there could feel.", "ar": "قياس شقة وتخيّل الحياة فيها ممكن تبقى عاملة إزاي." }, "careers": ["interior_designer"] },
+        { "id": "creative_day_4", "text": { "en": "A fitting: pinning fabric on a model and fixing what doesn't fall right.", "ar": "بروفة: تثبيت القماش بالدبابيس على موديل وتظبيط اللي مش نازل مظبوط." }, "careers": ["fashion_designer"] },
+        { "id": "creative_day_5", "text": { "en": "A wedding from 6 p.m. to 2 a.m., camera in hand.", "ar": "فرح من 6 المغرب لـ 2 بالليل والكاميرا في إيدك." }, "careers": ["photographer"] },
+        { "id": "creative_day_6", "text": { "en": "Practising the same passage until it's right, then playing it live.", "ar": "تمرين على نفس الجزء لحد ما يظبط، وبعدين عزفه قدام جمهور." }, "careers": ["musician"] },
+        { "id": "creative_day_7", "text": { "en": "Showing your work and hearing honest criticism.", "ar": "عرض شغلك وسماع نقد صريح." } },
+        { "id": "creative_day_8", "text": { "en": "Designing a logo: 20 versions before choosing one.", "ar": "تصميم لوجو: 20 نسخة قبل اختيار واحدة." }, "careers": ["graphic_designer"] }
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
+      "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
+      "items": [
+        { "id": "creative_real_1", "a": { "en": "Income that changes from month to month", "ar": "دخل بيتغير من شهر لشهر" }, "b": { "en": "A fixed monthly salary", "ar": "مرتب ثابت كل شهر" }, "path": "a", "careers": ["photographer", "musician", "fashion_designer", "graphic_designer"] },
+        { "id": "creative_real_2", "a": { "en": "Your taste is the product", "ar": "ذوقك هو المنتج" }, "b": { "en": "Following clear instructions", "ar": "إنك تمشي على تعليمات واضحة" }, "path": "a" },
+        { "id": "creative_real_3", "a": { "en": "A portfolio that matters more than your degree", "ar": "بورتفوليو أهم من شهادتك" }, "b": { "en": "A degree that decides where you can work", "ar": "شهادة هي اللي بتحدد تشتغل فين", "arF": "شهادة هي اللي بتحدد تشتغلي فين" }, "path": "a" },
+        { "id": "creative_real_4", "a": { "en": "Changing your work again and again for a client", "ar": "تغيّر شغلك تاني وتالت عشان العميل", "arF": "تغيّري شغلك تاني وتالت عشان العميل" }, "b": { "en": "Doing it once, your own way", "ar": "تعمله مرة واحدة على طريقتك", "arF": "تعمليه مرة واحدة على طريقتك" }, "path": "a", "careers": ["graphic_designer", "interior_designer", "fashion_designer", "animator_3d_artist", "photographer"] },
+        { "id": "creative_real_5", "a": { "en": "Evenings and weekends at events and shows", "ar": "سهرات وإجازات في مناسبات وحفلات" }, "b": { "en": "Free evenings and weekends", "ar": "الليل والإجازات فاضيين" }, "path": "a", "careers": ["photographer", "musician"] },
+        { "id": "creative_real_6", "a": { "en": "Long hours alone at a computer", "ar": "ساعات طويلة لوحدك على الكمبيوتر" }, "b": { "en": "Out and about with people", "ar": "برّه مع الناس" }, "path": "a", "careers": ["graphic_designer", "animator_3d_artist"] }
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": { "en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك" },
+      "intro": { "en": "Two real situations and two small puzzles from creative work. There's no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من الشغل الإبداعي. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من الشغل الإبداعي. مفيش درجات: قوليلنا بس عجبك ولا لأ." },
+      "items": [
+        {
+          "id": "creative_try_1",
+          "type": "scenario",
+          "text": { "en": "Two days before the deadline, a client says they don't like the design you love.", "ar": "قبل التسليم بيومين، العميل بيقول إن التصميم اللي إنت بتحبه مش عاجبه.", "arF": "قبل التسليم بيومين، العميل بيقول إن التصميم اللي إنتي بتحبيه مش عاجبه." },
+          "options": [
+            { "text": { "en": "Ask exactly what they don't like, then adjust", "ar": "أسأله بالظبط إيه اللي مش عاجبه، وأعدّل" }, "fit": 1 },
+            { "text": { "en": "Make two quick new options for them to choose from", "ar": "أعمل اختيارين جداد بسرعة يختار منهم" }, "fit": 0.8 },
+            { "text": { "en": "Explain why my design is better and keep it", "ar": "أشرح ليه تصميمي أحسن وأسيبه زي ما هو" }, "fit": 0.3 },
+            { "text": { "en": "Drop the project", "ar": "أسيب المشروع" }, "fit": 0 }
+          ],
+          "careers": ["graphic_designer", "interior_designer", "fashion_designer", "animator_3d_artist", "photographer"]
+        },
+        {
+          "id": "creative_try_2",
+          "type": "scenario",
+          "text": { "en": "You have a free week with no client work.", "ar": "عندك أسبوع فاضي من غير شغل لعملاء." },
+          "options": [
+            { "text": { "en": "Start a personal project to try a new style", "ar": "أبدأ مشروع شخصي أجرب فيه ستايل جديد" }, "fit": 1 },
+            { "text": { "en": "Update my portfolio", "ar": "أحدّث البورتفوليو بتاعي" }, "fit": 0.8 },
+            { "text": { "en": "Take a course in a new tool or technique", "ar": "آخد كورس في أداة أو تكنيك جديد" }, "fit": 0.7 },
+            { "text": { "en": "Rest and wait for clients to call", "ar": "أرتاح وأستنى العملاء يكلموني" }, "fit": 0.2 }
+          ]
+        },
+        {
+          "id": "creative_try_3",
+          "type": "puzzle",
+          "text": { "en": "Which two paint colours mix to make green?", "ar": "أنهي لونين بوية لو اتخلطوا يطلعوا أخضر؟" },
+          "options": [{ "en": "Red and yellow", "ar": "أحمر وأصفر" },{ "en": "Blue and yellow", "ar": "أزرق وأصفر" },{ "en": "Red and blue", "ar": "أحمر وأزرق" }],
+          "answer": 1,
+          "explain": { "en": "Blue and yellow make green; red and yellow make orange; red and blue make purple. Mixing colour is basic for designers and artists.", "ar": "الأزرق والأصفر بيطلعوا أخضر، والأحمر والأصفر برتقاني، والأحمر والأزرق بنفسجي. خلط الألوان أساس عند المصممين والفنانين." }
+        },
+        {
+          "id": "creative_try_4",
+          "type": "puzzle",
+          "text": { "en": "On a 1:50 floor plan, a wall measures 8 cm. How long is the real wall?", "ar": "في رسم شقة بمقياس 1:50، حيطة طولها 8 سم. طولها الحقيقي كام؟" },
+          "options": [{ "en": "40 cm", "ar": "40 سم" },{ "en": "4 m", "ar": "4 متر" },{ "en": "40 m", "ar": "40 متر" },{ "en": "8 m", "ar": "8 متر" }],
+          "answer": 1,
+          "explain": { "en": "8 cm × 50 = 400 cm, which is 4 metres. Interior designers move between plans and real rooms all day.", "ar": "8 سم × 50 = 400 سم، يعني 4 متر. مصممين الديكور بيتنقلوا بين الرسم والأوض الحقيقية طول اليوم." },
+          "careers": ["interior_designer"]
+        }
+      ]
+    }
+  ]
+}
