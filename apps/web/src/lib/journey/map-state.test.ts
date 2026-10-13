@@ -2,7 +2,9 @@ import { describe, expect, it } from 'vitest';
 
 import type { Preview } from '@/server/assessment/scoring';
 
-import { islandStates } from './map-state';
+import { paths } from '@anabokra/content';
+
+import { coreGrowth, islandStates } from './map-state';
 
 const preview = (stage: Preview['stage'], flat = false): Preview => ({
   stage,
@@ -39,5 +41,24 @@ describe('island states from progress', () => {
   it('suggests nothing when interests are flat', () => {
     const s = islandStates(preview('suggested', true), { v: 1, paths: {} });
     expect(Object.values(s).some((x) => x.relation === 'suggested')).toBe(false);
+  });
+});
+
+describe('island growth', () => {
+  it('grows with Verify tasks and is full, with a flag, once the path is checked', () => {
+    const fresh = islandStates(preview('suggested'), { v: 1, paths: {} });
+    expect(fresh.tech).toMatchObject({ growth: 0, checked: false });
+    const tech = paths.tech!;
+    const day = tech.tasks.find((t) => t.kind === 'story')!;
+    const half = islandStates(preview('suggested'), { v: 1, paths: { tech: { answers: Object.fromEntries(day.items.map((i) => [i.id, 2])) } } });
+    expect(half.tech!.growth).toBeCloseTo(0.25);
+    const done = islandStates(preview('suggested'), { v: 1, paths: { tech: { answers: {}, result: { band: 'fitsWell' } as never } } });
+    expect(done.tech).toMatchObject({ growth: 1, checked: true });
+  });
+
+  it('grows the core one step per Discover task', () => {
+    expect(coreGrowth(0)).toBe(0);
+    expect(coreGrowth(5)).toBe(0.5);
+    expect(coreGrowth(12)).toBe(1);
   });
 });

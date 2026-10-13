@@ -6,23 +6,19 @@ import {
   BackSide,
   BufferAttribute,
   Color,
-  ConeGeometry,
-  CylinderGeometry,
   ExtrudeGeometry,
   MeshStandardMaterial,
   Object3D,
   SphereGeometry,
   Vector3,
-  type BufferGeometry,
   type InstancedMesh,
   type Mesh,
 } from 'three';
-import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 import { hashSeed, mulberry32 } from '../path/rng';
 import { archShape, halfDiscShape } from './geometry';
-import { ISLAND_RADIUS, ISLAND_TOP, WORLD_EXTENT, type XZ } from './layout';
-import { BRAND, muteColor, SCENE, toy } from './materials';
+import { ISLAND_RADIUS, WORLD_EXTENT, type XZ } from './layout';
+import { BRAND, SCENE, toy } from './materials';
 
 const dummy = new Object3D();
 
@@ -195,80 +191,6 @@ export function Clouds({ islands, density, animate }: { islands: { pos: XZ; dir:
     if (animate) place(clock.elapsedTime);
   });
   return <instancedMesh ref={ref} args={[geo, mat, puffs.length]} frustumCulled={false} />;
-}
-
-// --- Trees --------------------------------------------------------------------
-
-function pineGeometry(): BufferGeometry {
-  const parts: [BufferGeometry, string][] = [
-    [new CylinderGeometry(0.045, 0.06, 0.26, 6).translate(0, 0.13, 0), SCENE.trunk],
-    [new ConeGeometry(0.27, 0.5, 7).translate(0, 0.45, 0), SCENE.treeDark],
-    [new ConeGeometry(0.2, 0.4, 7).translate(0, 0.74, 0), SCENE.tree],
-  ];
-  const colored = parts.map(([g, hex]) => {
-    const c = new Color(hex);
-    const n = g.getAttribute('position').count;
-    const arr = new Float32Array(n * 3);
-    for (let i = 0; i < n; i++) arr.set([c.r, c.g, c.b], i * 3);
-    g.setAttribute('color', new BufferAttribute(arr, 3));
-    return g;
-  });
-  const merged = mergeGeometries(colored)!;
-  colored.forEach((g) => g.dispose());
-  return merged;
-}
-
-export interface TreeSpot {
-  x: number;
-  z: number;
-  s: number;
-  rot: number;
-  muted: boolean;
-}
-
-/** Pines around the rim of an island, keeping the front (label side) and the centre (icon) clear. */
-export function treesFor(seedKey: string, center: XZ, radius: number, count: number, muted: boolean): TreeSpot[] {
-  const rng = mulberry32(hashSeed(seedKey));
-  const out: TreeSpot[] = [];
-  let guard = 0;
-  while (out.length < count && guard++ < 200) {
-    const a = rng() * Math.PI * 2;
-    // Skip the front sector, facing the camera (+z), where the label sits.
-    const frontness = Math.sin(a);
-    if (frontness > 0.55) continue;
-    // Inside the plateau (it ends about 0.3 inside the radius, a little less where the outline dips).
-    const r = radius * (0.52 + rng() * 0.22);
-    const x = center[0] + Math.cos(a) * r;
-    const z = center[1] + Math.sin(a) * r;
-    if (out.some((t) => Math.hypot(t.x - x, t.z - z) < 0.42)) continue;
-    out.push({ x, z, s: 0.75 + rng() * 0.5, rot: rng() * Math.PI, muted });
-  }
-  return out;
-}
-
-export function Trees({ spots, shadows }: { spots: TreeSpot[]; shadows: boolean }) {
-  const ref = useRef<InstancedMesh>(null);
-  const geo = useMemo(() => pineGeometry(), []);
-  const mat = useMemo(() => new MeshStandardMaterial({ vertexColors: true, roughness: 0.8 }), []);
-  useEffect(() => () => (geo.dispose(), mat.dispose()), [geo, mat]);
-  useLayoutEffect(() => {
-    const mesh = ref.current;
-    if (!mesh) return;
-    const normal = new Color('#ffffff');
-    const muted = muteColor('#ffffff').multiplyScalar(0.95);
-    spots.forEach((t, i) => {
-      dummy.position.set(t.x, ISLAND_TOP, t.z);
-      dummy.rotation.set(0, t.rot, 0);
-      dummy.scale.setScalar(t.s);
-      dummy.updateMatrix();
-      mesh.setMatrixAt(i, dummy.matrix);
-      mesh.setColorAt(i, t.muted ? muted : normal);
-    });
-    mesh.count = spots.length;
-    mesh.instanceMatrix.needsUpdate = true;
-    if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
-  }, [spots]);
-  return <instancedMesh ref={ref} args={[geo, mat, 200]} castShadow={shadows} receiveShadow={shadows} frustumCulled={false} />;
 }
 
 // --- Background: brand "windows of possibility" -------------------------------

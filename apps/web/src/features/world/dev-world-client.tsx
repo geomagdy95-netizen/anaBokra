@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 import { useRenderer } from '../path/capabilities';
 import { BridgeSwatch } from './bridge-swatch';
 import { ProfileSheet } from './profile-sheet';
-import { addToMap, profileFor, scenarioStates } from './scenarios';
+import { addToMap, profileFor, scenarioCoreGrowth, scenarioStates } from './scenarios';
 import { GROUP_ORDER, SCENARIOS, type GroupId, type GroupInfo, type IslandState, type Relation, type Scenario, type Selection } from './types';
 import type { Quality } from './world-canvas';
 
@@ -150,6 +150,7 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
           <>
             <WorldCanvas
               states={states}
+              coreGrowth={scenarioCoreGrowth(scenario)}
               selected={selected}
               onSelect={setSelected}
               quality={effectiveQuality}

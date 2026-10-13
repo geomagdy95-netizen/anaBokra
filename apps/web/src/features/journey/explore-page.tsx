@@ -14,7 +14,7 @@ import { GROUP_ORDER, type GroupId, type IslandState, type Relation, type Select
 import type { Quality } from '@/features/world/world-canvas';
 import { Link, useRouter } from '@/i18n/navigation';
 import type { JourneyData } from '@/lib/journey/journey';
-import { islandStates } from '@/lib/journey/map-state';
+import { coreGrowth, islandStates } from '@/lib/journey/map-state';
 import { setInList } from '@/lib/journey/verify';
 import { cn } from '@/lib/utils';
 
@@ -159,7 +159,16 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
         <div className="relative min-h-0 flex-1 overflow-hidden rounded-t-3xl bg-brand-lavender">
           {showMap ? (
             <>
-              <WorldCanvas states={states} selected={selected} onSelect={open} quality={quality} reducedMotion={r.reducedMotion} labels={labels} onError={r.reportFailure} />
+              <WorldCanvas
+                states={states}
+                coreGrowth={coreGrowth(data.discover.doneCount)}
+                selected={selected}
+                onSelect={open}
+                quality={quality}
+                reducedMotion={r.reducedMotion}
+                labels={labels}
+                onError={r.reportFailure}
+              />
               <div className="pointer-events-none absolute inset-0 overflow-hidden">
                 {GROUP_ORDER.map((id) => {
                   const s = states[id];

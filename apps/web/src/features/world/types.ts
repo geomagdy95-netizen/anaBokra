@@ -60,6 +60,10 @@ export interface IslandState {
   /** Bridge progress: finished phases out of total. */
   done: number;
   total: number;
+  /** 0–1: how far the island has grown (trees, bushes, flowers). Full when missing. */
+  growth?: number;
+  /** The user checked this path (Verify result): the island flies a small flag. */
+  checked?: boolean;
 }
 
 /** What the user tapped: a group island, or the core island (their profile). */

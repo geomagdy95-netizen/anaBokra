@@ -10,7 +10,7 @@ import { GROUP_ORDER, type GroupId } from '@/features/world/types';
 import type { Quality } from '@/features/world/world-canvas';
 import { Link } from '@/i18n/navigation';
 import type { JourneyData } from '@/lib/journey/journey';
-import { islandStates } from '@/lib/journey/map-state';
+import { coreGrowth, islandStates } from '@/lib/journey/map-state';
 import { cn } from '@/lib/utils';
 
 import { useJT } from './use-jt';
@@ -51,7 +51,16 @@ export function JourneyMap({ data }: { data: JourneyData }) {
 
   return (
     <section className="relative h-[34dvh] min-h-[220px] overflow-hidden bg-brand-lavender" data-testid="journey-map">
-      <WorldCanvas states={states} selected={null} onSelect={() => {}} quality={quality} reducedMotion={r.reducedMotion} labels={labels} onError={r.reportFailure} />
+      <WorldCanvas
+        states={states}
+        coreGrowth={coreGrowth(data.discover.doneCount)}
+        selected={null}
+        onSelect={() => {}}
+        quality={quality}
+        reducedMotion={r.reducedMotion}
+        labels={labels}
+        onError={r.reportFailure}
+      />
       <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
         {shown.map((id) => (
           <span

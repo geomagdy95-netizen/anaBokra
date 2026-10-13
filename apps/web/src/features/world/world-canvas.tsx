@@ -21,7 +21,8 @@ import { bridgePoint, islandGeometry } from './geometry';
 import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, WORLD_EXTENT, islandPlacements, type IslandPlacement } from './layout';
 import { BRAND, MutedContext, SCENE } from './materials';
 import { GroupIcon, Logo3D } from './props';
-import { Backdrop, Clouds, Sea, SkyDome, Trees, treesFor } from './scenery';
+import { Flag, flagSpot, Garden, growthSpots } from './garden';
+import { Backdrop, Clouds, Sea, SkyDome } from './scenery';
 import type { GroupId, IslandState, Selection } from './types';
 
 export type Quality = 'high' | 'low';
@@ -40,6 +41,8 @@ export interface WorldCanvasProps {
   reducedMotion: boolean;
   /** DOM label elements by anchor key; the canvas moves them to follow their anchors. */
   labels: Map<string, HTMLElement>;
+  /** 0–1: how far the core island (the user) has grown, from Discover. Full when missing. */
+  coreGrowth?: number;
   onError?: () => void;
 }
 
@@ -342,16 +345,19 @@ function Lights({ shadows }: { shadows: boolean }) {
   );
 }
 
-function Scene({ states, selected, onSelect, quality, reducedMotion, labels }: WorldCanvasProps) {
+function Scene({ states, selected, onSelect, quality, reducedMotion, labels, coreGrowth = 1 }: WorldCanvasProps) {
   const shadows = quality === 'high';
   const animate = !reducedMotion;
 
-  const trees = useMemo(() => {
-    const spots = PLACEMENTS.flatMap((p) => treesFor(p.id, p.pos, ISLAND_RADIUS, 5, states[p.id].relation === 'other'));
-    // The core keeps a ring of trees around its tier.
-    const core = treesFor('core', [0, 0], CORE_RADIUS, 9, false).filter((t) => Math.hypot(t.x, t.z) > 2.25);
-    return [...spots, ...core];
-  }, [states]);
+  const plants = useMemo(
+    () =>
+      growthSpots(
+        PLACEMENTS,
+        Object.fromEntries(PLACEMENTS.map((p) => [p.id, { growth: states[p.id].growth ?? 1, muted: states[p.id].relation === 'other' }])),
+        coreGrowth,
+      ),
+    [states, coreGrowth],
+  );
 
   // Where each island meets the water (its beach runs about 0.24 past the radius).
   const shores = useMemo(
@@ -399,7 +405,10 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels }: W
           shadows={shadows}
         />
       ))}
-      <Trees spots={trees} shadows={shadows} />
+      <Garden spots={plants} shadows={shadows} animate={animate} />
+      {PLACEMENTS.filter((p) => states[p.id].checked).map((p) => (
+        <Flag key={`f-${p.id}`} at={flagSpot(p)} animate={animate} />
+      ))}
       <Rig focus={selected} animate={animate} />
       <LabelProjector labels={labels} />
     </>
