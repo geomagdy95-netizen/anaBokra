@@ -1,7 +1,7 @@
 'use client';
 
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber';
-import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import {
   Color,
   MeshStandardMaterial,
@@ -19,12 +19,14 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { Bridge, bridgeEnds } from './bridges';
 import { bridgePoint, islandGeometry } from './geometry';
 import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, WATER_SPOT, WORLD_EXTENT, islandPlacements, landmarkOffset, ON_WATER, type IslandPlacement } from './layout';
-import { BRAND, MutedContext, SCENE } from './materials';
+import { BRAND, MutedContext } from './materials';
 import { Landmark } from './landmarks';
 import { GroupIcon, Logo3D } from './props';
 import { Flag, flagSpot, Garden, growthSpots } from './garden';
+import { Lanterns, Motes, Stars } from './atmosphere';
 import { Rocks } from './rocks';
 import { Backdrop, Clouds, Sea, SkyDome } from './scenery';
+import { MoodContext, moodAt, useWorldTheme, type WorldMood } from './theme';
 import type { GroupId, IslandState, Selection } from './types';
 
 export type Quality = 'high' | 'low';
@@ -45,6 +47,8 @@ export interface WorldCanvasProps {
   labels: Map<string, HTMLElement>;
   /** 0–1: how far the core island (the user) has grown, from Discover. Full when missing. */
   coreGrowth?: number;
+  /** Day (golden hour) or night. Follows the user's clock when missing. */
+  mood?: WorldMood;
   onError?: () => void;
 }
 
@@ -314,22 +318,24 @@ function LabelProjector({ labels }: { labels: Map<string, HTMLElement> }) {
 
 function Environment() {
   const get = useThree((s) => s.get);
+  const { env: intensity } = useWorldTheme();
   useEffect(() => {
     const { gl, scene } = get();
     const pmrem = new PMREMGenerator(gl);
     const env = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
     scene.environment = env;
-    scene.environmentIntensity = 0.38;
+    scene.environmentIntensity = intensity;
     return () => {
       scene.environment = null;
       env.dispose();
       pmrem.dispose();
     };
-  }, [get]);
+  }, [get, intensity]);
   return null;
 }
 
 function Lights({ shadows }: { shadows: boolean }) {
+  const { hemi, sun: s, rim } = useWorldTheme();
   const sun = useRef<DirectionalLight>(null);
   useLayoutEffect(() => {
     const l = sun.current;
@@ -348,21 +354,15 @@ function Lights({ shadows }: { shadows: boolean }) {
   }, []);
   return (
     <>
-      <hemisphereLight args={['#FFFFFF', '#A9B4E6', 0.85]} />
-      <directionalLight
-        ref={sun}
-        position={[-12, 22, 14]}
-        intensity={2.55}
-        color="#FFECD9"
-        castShadow={shadows}
-        shadow-mapSize={[2048, 2048]}
-      />
-      <directionalLight position={[10, 8, -12]} intensity={0.35} color="#D9C8FF" />
+      <hemisphereLight args={[hemi.sky, hemi.ground, hemi.intensity]} />
+      <directionalLight ref={sun} position={s.position} intensity={s.intensity} color={s.color} castShadow={shadows} shadow-mapSize={[2048, 2048]} />
+      <directionalLight position={rim.position} intensity={rim.intensity} color={rim.color} />
     </>
   );
 }
 
 function Scene({ states, selected, onSelect, quality, reducedMotion, labels, coreGrowth = 1 }: WorldCanvasProps) {
+  const theme = useWorldTheme();
   const shadows = quality === 'high';
   const animate = !reducedMotion;
 
@@ -384,11 +384,12 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
 
   return (
     <>
-      <color attach="background" args={[SCENE.horizon]} />
-      <fog attach="fog" args={[new Color(SCENE.horizon), 48, 120]} />
+      <color attach="background" args={[theme.sky.horizon]} />
+      <fog attach="fog" args={[new Color(theme.fog.color), theme.fog.near, theme.fog.far]} />
       <Environment />
       <Lights shadows={shadows} />
       <SkyDome />
+      {theme.stars && <Stars animate={animate} />}
       <Sea shadows={shadows} islands={shores} animate={animate} />
       <Clouds islands={PLACEMENTS} density={quality === 'high' ? 1 : 0.5} animate={animate} />
       <Backdrop />
@@ -424,6 +425,8 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
       ))}
       <Garden spots={plants} shadows={shadows} animate={animate} />
       <Rocks placements={PLACEMENTS} shadows={shadows} />
+      <Lanterns placements={PLACEMENTS} shadows={shadows} />
+      {quality === 'high' && <Motes placements={PLACEMENTS} animate={animate} />}
       {PLACEMENTS.filter((p) => states[p.id].checked).map((p) => (
         <Flag key={`f-${p.id}`} at={flagSpot(p)} animate={animate} />
       ))}
@@ -435,6 +438,9 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
 
 export default function WorldCanvas(props: WorldCanvasProps) {
   const high = props.quality === 'high';
+  // Read the clock once per mount: the world doesn't flip while someone is looking at it.
+  const [clockMood] = useState(() => moodAt(new Date()));
+  const mood = props.mood ?? clockMood;
   // Unmounting the canvas (e.g. switching to the list) also loses the context; only report losses while mounted.
   const mounted = useRef(true);
   useEffect(() => {
@@ -463,7 +469,9 @@ export default function WorldCanvas(props: WorldCanvasProps) {
       }}
       style={{ touchAction: 'none' }}
     >
-      <Scene {...props} />
+      <MoodContext.Provider value={mood}>
+        <Scene {...props} />
+      </MoodContext.Provider>
     </Canvas>
   );
 }

@@ -11,6 +11,7 @@ import { BridgeSwatch } from './bridge-swatch';
 import { ProfileSheet } from './profile-sheet';
 import { addToMap, profileFor, scenarioCoreGrowth, scenarioStates } from './scenarios';
 import { GROUP_ORDER, SCENARIOS, type GroupId, type GroupInfo, type IslandState, type Relation, type Scenario, type Selection } from './types';
+import type { WorldMood } from './theme';
 import type { Quality } from './world-canvas';
 
 // The three.js stack stays behind this dynamic import: not in the first-load bundle, never SSR'd.
@@ -44,6 +45,7 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
   const [selected, setSelected] = useState<Selection | null>(null);
   const [view, setView] = useState<'map' | 'list'>('map');
   const [quality, setQuality] = useState<Quality | null>(null);
+  const [mood, setMood] = useState<WorldMood>('day');
   const [toast, setToast] = useState(false);
   // DOM labels by anchor key; the canvas moves them every frame to follow their islands.
   const [labels] = useState(() => new Map<string, HTMLElement>());
@@ -131,7 +133,18 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
             {t(`scenarios.${s}`)}
           </button>
         ))}
-        <span className="ms-auto text-xs text-[#291137]/60">{t('quality')}</span>
+        <span className="ms-auto text-xs text-[#291137]/60">{t('mood')}</span>
+        {(['day', 'night'] as const).map((m) => (
+          <button
+            key={m}
+            onClick={() => setMood(m)}
+            aria-pressed={mood === m}
+            className={cn('min-h-8 rounded-full border px-3', mood === m ? 'border-[#291137] bg-[#291137] text-white' : 'border-[#291137]/20 bg-white')}
+          >
+            {t(`moods.${m}`)}
+          </button>
+        ))}
+        <span className="text-xs text-[#291137]/60">{t('quality')}</span>
         {(['high', 'low'] as const).map((q) => (
           <button
             key={q}
@@ -154,6 +167,7 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
               selected={selected}
               onSelect={setSelected}
               quality={effectiveQuality}
+              mood={mood}
               reducedMotion={r.reducedMotion}
               labels={labels}
               onError={r.reportFailure}

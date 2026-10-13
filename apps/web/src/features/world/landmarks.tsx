@@ -6,6 +6,7 @@ import { Shape, type Group, type Mesh, type MeshStandardMaterial } from 'three';
 
 import { useToy } from './materials';
 import { Bob, C, Extruded, RBox } from './props';
+import { useWorldTheme } from './theme';
 import type { GroupId } from './types';
 
 /**
@@ -54,11 +55,13 @@ function Blink({ position, color = C.apricot, speed = 1.6 }: { position: [number
   const m = useToy();
   const ref = useRef<Mesh>(null);
   // Its own copy of the shared toy material, since the glow changes every frame.
+  const { lights } = useWorldTheme();
   const mat = useMemo(() => m(color, { glow: 0.6 }).clone(), [m, color]);
   useEffect(() => () => mat.dispose(), [mat]);
+  const boost = Math.max(1, lights.glow);
   useFrame(({ clock }) => {
     const own = ref.current?.material as MeshStandardMaterial | undefined;
-    if (own) own.emissiveIntensity = 0.3 + 0.7 * Math.max(0, Math.sin(clock.elapsedTime * speed));
+    if (own) own.emissiveIntensity = (0.3 + 0.7 * Math.max(0, Math.sin(clock.elapsedTime * speed))) * boost;
   });
   return (
     <mesh ref={ref} position={position} material={mat}>
@@ -69,10 +72,17 @@ function Blink({ position, color = C.apricot, speed = 1.6 }: { position: [number
 
 /** Rows of windows on a facade facing +z. */
 function Windows({ cols, rows, w, h, x0, y0, z, dx, dy, color = C.lavender }: { cols: number; rows: number; w: number; h: number; x0: number; y0: number; z: number; dx: number; dy: number; color?: string }) {
+  // At night most windows are lit warm; a few stay dark so the building looks lived in.
+  const { lights } = useWorldTheme();
+  const night = lights.glow > 0.5;
   const out: ReactNode[] = [];
   for (let r = 0; r < rows; r++)
-    for (let c = 0; c < cols; c++)
-      out.push(<RBox key={`${r}-${c}`} size={[w, h, 0.03]} r={0.012} color={color} o={{ glow: 0.15 }} position={[x0 + c * dx, y0 + r * dy, z]} />);
+    for (let c = 0; c < cols; c++) {
+      const lit = night && (r * 7 + c * 3) % 5 !== 0;
+      out.push(
+        <RBox key={`${r}-${c}`} size={[w, h, 0.03]} r={0.012} color={lit ? lights.color : color} o={{ glow: lit ? lights.glow * 0.7 : 0.15 }} position={[x0 + c * dx, y0 + r * dy, z]} />,
+      );
+    }
   return <>{out}</>;
 }
 

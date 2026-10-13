@@ -2115,6 +2115,11 @@
       "edit": "Edit my profile",
       "note": "These results guide your exploration; they are not a judgement of you.",
       "islandsUpdating": "Your suggestions are updating as you answer."
+    },
+    "mood": "Time",
+    "moods": {
+      "day": "Day",
+      "night": "Night"
     }
   },
   "DevLocal": {

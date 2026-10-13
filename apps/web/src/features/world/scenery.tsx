@@ -19,27 +19,32 @@ import { hashSeed, mulberry32 } from '../path/rng';
 import { archShape, halfDiscShape } from './geometry';
 import { ISLAND_RADIUS, WORLD_EXTENT, type XZ } from './layout';
 import { BRAND, SCENE, toy } from './materials';
+import { useWorldTheme } from './theme';
 
 const dummy = new Object3D();
 
 // --- Sky and sea --------------------------------------------------------------
 
 export function SkyDome() {
+  const { sky } = useWorldTheme();
   const geo = useMemo(() => {
     const g = new SphereGeometry(160, 32, 16);
     const pos = g.getAttribute('position');
-    const top = new Color(SCENE.skyTop);
-    const horizon = new Color(SCENE.horizon);
+    const top = new Color(sky.top);
+    const mid = new Color(sky.mid);
+    const horizon = new Color(sky.horizon);
     const c = new Color();
     const colors = new Float32Array(pos.count * 3);
     for (let i = 0; i < pos.count; i++) {
       const t = Math.min(1, Math.max(0, pos.getY(i) / 90));
-      c.copy(horizon).lerp(top, Math.pow(t, 0.7));
+      // Horizon glow low down, the middle band, then the zenith.
+      if (t < 0.25) c.copy(horizon).lerp(mid, t / 0.25);
+      else c.copy(mid).lerp(top, Math.pow((t - 0.25) / 0.75, 0.8));
       colors.set([c.r, c.g, c.b], i * 3);
     }
     g.setAttribute('color', new BufferAttribute(colors, 3));
     return g;
-  }, []);
+  }, [sky]);
   useEffect(() => () => geo.dispose(), [geo]);
   return (
     <mesh geometry={geo} renderOrder={-1}>
@@ -48,8 +53,6 @@ export function SkyDome() {
   );
 }
 
-/** Sea colours: lavender offshore, periwinkle between the islands, clear turquoise shallows, white foam at the shore. */
-const SEA = { deep: '#A99BE3', mid: '#B6BBEE', shallow: '#C0DDE9', shore: '#E0EEF0', foam: '#FFFFFF', glint: '#F2F4FF' } as const;
 
 /**
  * The sea: a lit, shadow-receiving plane whose colour is worked out per pixel from the distance to the
@@ -57,6 +60,7 @@ const SEA = { deep: '#A99BE3', mid: '#B6BBEE', shallow: '#C0DDE9', shore: '#E0EE
  * `islands` are circles (x, z, radius at the waterline).
  */
 export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: { pos: XZ; radius: number }[]; animate: boolean }) {
+  const { sea: SEA } = useWorldTheme();
   const uniforms = useMemo(
     () => ({
       uTime: { value: 0 },
@@ -67,8 +71,10 @@ export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: 
       uShore: { value: new Color(SEA.shore) },
       uFoam: { value: new Color(SEA.foam) },
       uGlint: { value: new Color(SEA.glint) },
+      uFoamStrength: { value: SEA.foamStrength },
+      uGlintStrength: { value: SEA.glintStrength },
     }),
-    [islands],
+    [islands, SEA],
   );
   const mat = useMemo(() => {
     const m = new MeshStandardMaterial({ roughness: 0.6, metalness: 0 });
@@ -85,7 +91,8 @@ export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: 
 varying vec2 vSeaXZ;
 uniform float uTime;
 uniform vec3 uIslands[${islands.length}];
-uniform vec3 uDeep, uMid, uShallow, uShore, uFoam, uGlint;`,
+uniform vec3 uDeep, uMid, uShallow, uShore, uFoam, uGlint;
+uniform float uFoamStrength, uGlintStrength;`,
         )
         .replace(
           '#include <color_fragment>',
@@ -105,12 +112,12 @@ col = mix(col, uShore, 1.0 - smoothstep(0.0, 0.45, d));
 // Slow drifting wave highlights.
 float w = sin(vSeaXZ.x * 0.85 + uTime * 0.45 + sin(vSeaXZ.y * 0.6 + uTime * 0.3) * 1.6)
         * sin(vSeaXZ.y * 0.75 - uTime * 0.38 + sin(vSeaXZ.x * 0.5) * 1.4);
-col = mix(col, uGlint, smoothstep(0.72, 0.98, w) * 0.35 * smoothstep(0.4, 2.0, d));
+col = mix(col, uGlint, smoothstep(0.72, 0.98, w) * uGlintStrength * smoothstep(0.4, 2.0, d));
 // Foam line lapping at the shore, a little uneven along the beach, and a fainter second line.
 float lap = 0.18 + 0.1 * sin(uTime * 1.1 + ang * 3.0) + 0.05 * sin(ang * 7.0);
 float foam = 1.0 - smoothstep(0.0, 0.1, abs(d - lap));
 foam += (1.0 - smoothstep(0.0, 0.12, abs(d - lap - 0.38))) * 0.35 * (0.5 + 0.5 * sin(uTime * 1.1 + ang * 3.0 + 1.5));
-col = mix(col, uFoam, clamp(foam, 0.0, 1.0) * 0.75);
+col = mix(col, uFoam, clamp(foam, 0.0, 1.0) * uFoamStrength);
 diffuseColor.rgb = col;`,
         );
     };
@@ -174,7 +181,8 @@ export function Clouds({ islands, density, animate }: { islands: { pos: XZ; dir:
   const puffs = useMemo(() => cloudPuffs(islands, density), [islands, density]);
   const ref = useRef<InstancedMesh>(null);
   const geo = useMemo(() => new SphereGeometry(1, 20, 14), []);
-  const mat = useMemo(() => new MeshStandardMaterial({ color: SCENE.cloud, roughness: 1, emissive: '#F1EDFF', emissiveIntensity: 0.3 }), []);
+  const { cloud } = useWorldTheme();
+  const mat = useMemo(() => new MeshStandardMaterial({ color: cloud.color, roughness: 1, emissive: cloud.emissive, emissiveIntensity: cloud.glow }), [cloud]);
   useEffect(() => () => (geo.dispose(), mat.dispose()), [geo, mat]);
 
   const place = (t: number) => {

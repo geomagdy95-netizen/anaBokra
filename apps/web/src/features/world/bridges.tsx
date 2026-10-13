@@ -8,6 +8,7 @@ import { bridgePoint, roundedBox, stripGeometry, type BridgeEnds } from './geome
 import { ISLAND_TOP, type XZ } from './layout';
 import { BRAND, SCENE, toy } from './materials';
 import type { BridgeMode, Relation } from './types';
+import { useWorldTheme } from './theme';
 
 /** Rail = how the group relates to the user. Planks = how much of the bridge (phases) is built. */
 const STYLE: Record<Relation, { rail: string; railGlow: number; plank: string; plankDone: string; glow: string | null }> = {
@@ -136,14 +137,15 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
     });
   });
 
+  const { bridgeGlow } = useWorldTheme();
   const glow = useMemo(() => (style.glow && mode === 'connected' ? stripGeometry(ends, 1.9, 0, 1) : null), [style.glow, mode, ends]);
   const glowMat = useMemo(
-    () => (style.glow ? new MeshBasicMaterial({ color: style.glow, transparent: true, opacity: 0.28, blending: AdditiveBlending, depthWrite: false }) : null),
-    [style.glow],
+    () => (style.glow ? new MeshBasicMaterial({ color: style.glow, transparent: true, opacity: Math.min(0.6, 0.28 * bridgeGlow), blending: AdditiveBlending, depthWrite: false }) : null),
+    [style.glow, bridgeGlow],
   );
   useEffect(() => () => (glow?.dispose(), glowMat?.dispose()), [glow, glowMat]);
 
-  const railMat = toy(style.rail, false, { glow: style.railGlow, rough: 0.35 });
+  const railMat = toy(style.rail, false, { glow: style.railGlow * bridgeGlow, rough: 0.35 });
   const plankMat = useMemo(() => toy('#FFFFFF', false, { rough: 0.7 }), []);
   const dotMat = toy(mode === 'updating' ? SCENE.lilac : '#B99BE8', false, { glow: mode === 'updating' ? 0.35 : 0.15 });
 
