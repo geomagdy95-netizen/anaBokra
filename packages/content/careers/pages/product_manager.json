@@ -2,8 +2,8 @@
   "id": "product_manager",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You decide what gets built, and why.",
@@ -116,6 +116,167 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "User research and interviews",
+        "ar": "أبحاث المستخدمين والمقابلات"
+      },
+      {
+        "en": "Writing requirements and user stories",
+        "ar": "كتابة المتطلبات وقصص المستخدم"
+      },
+      {
+        "en": "Product analytics and experiments",
+        "ar": "تحليلات المنتج والتجارب"
+      },
+      {
+        "en": "Agile delivery and roadmaps",
+        "ar": "طرق Agile وخرائط الطريق"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Saying no and setting priorities",
+        "ar": "إنك تقول لأ وتحدد الأولويات"
+      },
+      {
+        "en": "Communicating with engineers, designers and business",
+        "ar": "التواصل مع المهندسين والمصممين والبيزنس"
+      },
+      {
+        "en": "Curiosity about users",
+        "ar": "الفضول ناحية المستخدمين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: tech teams and tools",
+        "ar": "الإنجليزية: فرق التكنولوجيا والأدوات"
+      },
+      {
+        "en": "Arabic: local users and markets",
+        "ar": "العربية: المستخدمون والأسواق المحلية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Product School: free resources",
+        "url": "https://productschool.com/resources",
+        "free": true
+      },
+      {
+        "title": "Coursera: digital product management courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 15262,
+        "max": 72550
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology/it-product-manager?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"IT Product Manager\". Paylab's own figure for someone with 5 years of experience is about 73,710 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «IT Product Manager» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 73,710 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Tech startups and fintech",
+        "ar": "الشركات الناشئة والتكنولوجيا المالية"
+      },
+      {
+        "en": "E-commerce and delivery platforms",
+        "ar": "منصات التجارة الإلكترونية والتوصيل"
+      },
+      {
+        "en": "Banks and telecoms building digital products",
+        "ar": "البنوك والاتصالات اللي بتبني منتجات رقمية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Product roles are usually full-time, but many are hybrid or remote, including for Gulf and international startups.",
+      "ar": "وظايف المنتج غالبًا بدوام كامل، بس كتير منها هايبرد أو من البيت، ومنها لشركات ناشئة في الخليج وبرّه."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Remote for regional companies",
+        "ar": "من البيت لشركات في المنطقة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Product managers with Egyptian and Gulf market experience are hired across the region, and remote roles with international startups exist.",
+    "ar": "مديرين المنتج اللي عندهم خبرة في السوق المصري والخليجي مطلوبين في المنطقة كلها، وفيه وظايف من البيت مع شركات ناشئة دولية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Shape what gets built",
+        "ar": "بتشكّل إيه اللي بيتبني"
+      },
+      {
+        "en": "Strong pay growth",
+        "ar": "مرتب بيكبر كويس"
+      },
+      {
+        "en": "Mix of tech, design and business",
+        "ar": "خليط من التكنولوجيا والتصميم والبيزنس"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Hard to get as a first job",
+        "ar": "صعب تاخدها كأول شغلانة"
+      },
+      {
+        "en": "Responsibility without direct authority",
+        "ar": "مسؤولية من غير سلطة مباشرة"
+      },
+      {
+        "en": "Constant trade-offs and pressure",
+        "ar": "موازنات وضغط على طول"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Product managers are the boss of the team.",
+          "ar": "مدير المنتج هو مدير الفريق."
+        },
+        "fact": {
+          "en": "They lead by influence; engineers and designers do not report to them.",
+          "ar": "بيقودوا بالإقناع؛ والمهندسين والمصممين مش تابعين لهم."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need to code.",
+          "ar": "لازم تبرمج."
+        },
+        "fact": {
+          "en": "Understanding tech helps, but coding is not required.",
+          "ar": "فهم التكنولوجيا بيساعد، بس البرمجة مش شرط."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually office or hybrid hours; meetings and launches can make days long.",
+      "ar": "غالبًا مواعيد مكتب أو هايبرد؛ والاجتماعات والإطلاقات ممكن يطوّلوا اليوم."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "software_engineer",
@@ -165,6 +326,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: IT Product Manager salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/information-technology/it-product-manager?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

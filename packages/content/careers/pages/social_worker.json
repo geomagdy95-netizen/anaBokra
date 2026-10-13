@@ -2,8 +2,8 @@
   "id": "social_worker",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You stand with people when life becomes difficult.",
@@ -119,6 +119,167 @@
       "ar": "يُعيَّن الأخصائيون الاجتماعيون في المدارس والمستشفيات والجهات الحكومية عادة بمؤهل مناسب، وقد ينضم بعضهم إلى نقابة للمهن الاجتماعية. تختلف القواعد حسب جهة العمل، فتأكد من جهة عملك ووزارة التضامن الاجتماعي."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Case assessment and follow-up",
+        "ar": "تقييم الحالات ومتابعتها"
+      },
+      {
+        "en": "Knowing services and how to refer",
+        "ar": "معرفة الخدمات وإزاي تحوّل"
+      },
+      {
+        "en": "Case records and reports",
+        "ar": "سجلات الحالات والتقارير"
+      },
+      {
+        "en": "Child protection basics",
+        "ar": "أساسيات حماية الطفل"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Empathy without judging",
+        "ar": "التعاطف من غير أحكام"
+      },
+      {
+        "en": "Firm boundaries",
+        "ar": "حدود واضحة"
+      },
+      {
+        "en": "Staying steady with hard stories",
+        "ar": "الثبات قدام الحكايات الصعبة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: families and communities",
+        "ar": "العربية: الأسر والمجتمعات"
+      },
+      {
+        "en": "English: international NGOs and reports",
+        "ar": "الإنجليزية: المنظمات الدولية والتقارير"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "UNICEF Agora: free child protection courses",
+        "url": "https://agora.unicef.org",
+        "free": true
+      },
+      {
+        "title": "IFSW: what social work is",
+        "url": "https://www.ifsw.org/what-is-social-work/global-definition-of-social-work/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 7567,
+        "max": 20629
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/caseworker?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Caseworker\". Paylab's own figure for someone with 5 years of experience is about 13,663 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Caseworker» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 13,663 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Schools and hospitals",
+        "ar": "المدارس والمستشفيات"
+      },
+      {
+        "en": "Ministry of Social Solidarity programmes",
+        "ar": "برامج وزارة التضامن الاجتماعي"
+      },
+      {
+        "en": "NGOs and international organisations",
+        "ar": "الجمعيات الأهلية والمنظمات الدولية"
+      },
+      {
+        "en": "Care homes and rehabilitation centres",
+        "ar": "دور الرعاية ومراكز التأهيل"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly employed work on site or in the field. Project contracts with NGOs are common.",
+      "ar": "غالبًا شغل بوظيفة في المكان أو في الميدان. وعقود المشاريع مع الجمعيات الأهلية منتشرة."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "International organisations working with refugees and communities in the region hire Arabic-speaking social workers and case managers.",
+    "ar": "المنظمات الدولية اللي بتشتغل مع اللاجئين والمجتمعات في المنطقة بتعيّن أخصائيين اجتماعيين ومديرين حالات بيتكلموا عربي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Direct help to people who need it",
+        "ar": "مساعدة مباشرة لناس محتاجاها"
+      },
+      {
+        "en": "Jobs in every governorate",
+        "ar": "وظايف في كل المحافظات"
+      },
+      {
+        "en": "Paths into NGO and programme management",
+        "ar": "طرق لإدارة المشاريع في المنظمات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Emotionally heavy work",
+        "ar": "شغل تقيل نفسيًا"
+      },
+      {
+        "en": "Limited resources for big needs",
+        "ar": "إمكانيات قليلة قدام احتياجات كبيرة"
+      },
+      {
+        "en": "Lots of paperwork",
+        "ar": "ورق كتير"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Social workers just hand out aid.",
+          "ar": "الأخصائي الاجتماعي بيوزع مساعدات وبس."
+        },
+        "fact": {
+          "en": "They assess needs, follow cases and connect people to services.",
+          "ar": "بيقيّموا الاحتياجات ويتابعوا الحالات ويوصّلوا الناس للخدمات."
+        }
+      },
+      {
+        "myth": {
+          "en": "Anyone kind can do it.",
+          "ar": "أي حد طيب يقدر يعملها."
+        },
+        "fact": {
+          "en": "It needs training, methods and clear ethics.",
+          "ar": "محتاجة تدريب وأساليب وأخلاقيات واضحة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office or field hours; urgent cases sometimes need extra time.",
+      "ar": "مواعيد مكتب أو ميدان؛ والحالات العاجلة أحيانًا محتاجة وقت زيادة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "school_counselor",
@@ -163,6 +324,11 @@
       "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
       "url": "https://amwalalghad.com/fcdc",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Caseworker salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/caseworker?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

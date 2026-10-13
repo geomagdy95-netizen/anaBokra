@@ -2,8 +2,8 @@
   "id": "school_counselor",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You help students find their way, in school and in life.",
@@ -117,6 +117,154 @@
     "licensing": {
       "en": "School counsellors in government schools are appointed through the Ministry of Education, and private and international schools set their own hiring rules. Egypt has no single licence that we can confirm for counsellors, so check the current requirements with the Ministry of Education and your school.",
       "ar": "يُعيَّن المرشدون في المدارس الحكومية عبر وزارة التربية والتعليم، وتضع المدارس الخاصة والدولية شروط توظيفها. لا نستطيع تأكيد رخصة موحدة للمرشدين في مصر، فتأكد من الشروط الحالية لدى وزارة التربية والتعليم ومدرستك."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Counselling and listening techniques",
+        "ar": "أساليب الإرشاد والإنصات"
+      },
+      {
+        "en": "Child and adolescent development",
+        "ar": "نمو الطفل والمراهق"
+      },
+      {
+        "en": "Career and study guidance",
+        "ar": "التوجيه الدراسي والمهني"
+      },
+      {
+        "en": "Spotting risk and referring safely",
+        "ar": "ملاحظة الخطر والتحويل بأمان"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and warmth with students",
+        "ar": "الصبر والدفء مع الطلاب"
+      },
+      {
+        "en": "Keeping confidences",
+        "ar": "حفظ الأسرار"
+      },
+      {
+        "en": "Working with parents and teachers",
+        "ar": "الشغل مع الأهالي والمدرسين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: students and families",
+        "ar": "العربية: الطلاب والأسر"
+      },
+      {
+        "en": "English: international schools and training material",
+        "ar": "الإنجليزية: المدارس الدولية ومواد التدريب"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "ASCA: school counseling resources",
+        "url": "https://www.schoolcounselor.org",
+        "free": true
+      },
+      {
+        "title": "WHO: mental health of adolescents",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt has no job page with data for school counselors, so we do not show a number. Pay differs a lot between public schools, private and international schools, and NGOs.",
+      "ar": "لا تتوفر في Paylab مصر بيانات لمسمى الأخصائي النفسي أو الاجتماعي المدرسي، لذلك لا نعرض رقمًا. ويختلف الأجر كثيرًا بين المدارس الحكومية والخاصة والدولية والجمعيات الأهلية."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Public schools",
+        "ar": "المدارس الحكومية"
+      },
+      {
+        "en": "Private and international schools",
+        "ar": "المدارس الخاصة والدولية"
+      },
+      {
+        "en": "NGOs and youth programmes",
+        "ar": "الجمعيات الأهلية وبرامج الشباب"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "The job is school-based. Some counselors add private sessions or online study and career guidance.",
+      "ar": "الشغل جوّه المدرسة. وفيه أخصائيين بيزوّدوا جلسات خاصة أو توجيه دراسي ومهني أونلاين."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "International and Gulf schools hire Arabic-speaking counselors, usually with a psychology or counselling degree and good English.",
+    "ar": "المدارس الدولية ومدارس الخليج بتعيّن أخصائيين بيتكلموا عربي، غالبًا بشهادة في علم النفس أو الإرشاد وإنجليزي كويس."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Real impact on young people",
+        "ar": "تأثير حقيقي على الشباب الصغير"
+      },
+      {
+        "en": "School calendar and holidays",
+        "ar": "نظام السنة الدراسية والإجازات"
+      },
+      {
+        "en": "Growing attention to student wellbeing",
+        "ar": "اهتمام بيزيد بصحة الطلاب النفسية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Many students for one counselor",
+        "ar": "طلاب كتير على أخصائي واحد"
+      },
+      {
+        "en": "Emotionally heavy cases",
+        "ar": "حالات تقيلة نفسيًا"
+      },
+      {
+        "en": "Paperwork and non-counselling tasks",
+        "ar": "ورق ومهام بعيدة عن الإرشاد"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "The counselor only handles discipline.",
+          "ar": "الأخصائي بيتعامل مع العقاب بس."
+        },
+        "fact": {
+          "en": "The role is support, guidance and wellbeing.",
+          "ar": "الدور دعم وتوجيه وصحة نفسية."
+        }
+      },
+      {
+        "myth": {
+          "en": "Seeing the counselor means something is wrong with you.",
+          "ar": "لو رحت للأخصائي يبقى فيك حاجة غلط."
+        },
+        "fact": {
+          "en": "Students visit for study, career and everyday worries too.",
+          "ar": "الطلاب بيروحوا عشان المذاكرة والمستقبل والقلق العادي كمان."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "School hours and holidays; some cases follow you home in your head.",
+      "ar": "مواعيد المدرسة والإجازات؛ وبعض الحالات بتفضل في دماغك بعد الشغل."
     }
   },
   "progression": {

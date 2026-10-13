@@ -2,8 +2,8 @@
   "id": "hr_specialist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You help a company find, grow and look after its people.",
@@ -125,6 +125,177 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Recruitment and interviewing",
+        "ar": "التوظيف وعمل المقابلات"
+      },
+      {
+        "en": "Egyptian labour law basics",
+        "ar": "أساسيات قانون العمل المصري"
+      },
+      {
+        "en": "Payroll, social insurance and HR systems",
+        "ar": "المرتبات والتأمينات الاجتماعية وأنظمة الموارد البشرية"
+      },
+      {
+        "en": "Training and performance processes",
+        "ar": "عمليات التدريب وتقييم الأداء"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Listening and keeping confidences",
+        "ar": "الاستماع وحفظ الأسرار"
+      },
+      {
+        "en": "Fairness and firmness",
+        "ar": "العدل والحزم"
+      },
+      {
+        "en": "Organised record keeping",
+        "ar": "تنظيم السجلات"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: employees, contracts and authorities",
+        "ar": "العربية: الموظفون والعقود والجهات الرسمية"
+      },
+      {
+        "en": "English: multinational companies and HR systems",
+        "ar": "الإنجليزية: الشركات متعددة الجنسيات وأنظمة الموارد البشرية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "CIPD or SHRM certificates",
+        "ar": "شهادات CIPD أو SHRM"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "CIPD: HR knowledge",
+        "url": "https://www.cipd.org",
+        "free": true
+      },
+      {
+        "title": "SHRM: HR resources",
+        "url": "https://www.shrm.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10391,
+        "max": 37861
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/human-resources/hr-officer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"HR Officer\". Paylab's own figure for someone with 5 years of experience is about 31,007 EGP. The survey has 27 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «HR Officer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 31,007 جنيهًا. يضم الاستبيان 27 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Companies in every sector",
+        "ar": "شركات في كل القطاعات"
+      },
+      {
+        "en": "Recruitment agencies",
+        "ar": "شركات التوظيف"
+      },
+      {
+        "en": "Outsourcing and call centres",
+        "ar": "الأوتسورسنج ومراكز الاتصال"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance recruiting and HR consulting for small companies exist, and some HR work is remote. Most roles are in-house.",
+      "ar": "فيه فري لانس في التوظيف واستشارات الـHR للشركات الصغيرة، وشوية من شغل الـHR بيتعمل من البيت. وأغلب الوظايف جوه الشركات."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Industrial cities",
+        "ar": "المدن الصناعية"
+      }
+    ]
+  },
+  "global": {
+    "en": "HR professionals work across the Gulf, especially in companies with many Arabic-speaking staff. Gulf labour law and certificates such as CIPD help.",
+    "ar": "متخصصين الموارد البشرية بيشتغلوا في الخليج كله، خصوصًا في الشركات اللي فيها موظفين كتير بيتكلموا عربي. ومعرفة قوانين العمل هناك وشهادات زي CIPD بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Every company needs HR",
+        "ar": "كل شركة محتاجة HR"
+      },
+      {
+        "en": "Work with people, not only papers",
+        "ar": "شغل مع الناس، مش ورق وبس"
+      },
+      {
+        "en": "Many specialties: recruitment, pay, training",
+        "ar": "تخصصات كتير: توظيف ومرتبات وتدريب"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Handling conflicts and difficult news",
+        "ar": "التعامل مع الخلافات والأخبار الصعبة"
+      },
+      {
+        "en": "Pressure from managers and employees at once",
+        "ar": "ضغط من المديرين والموظفين في نفس الوقت"
+      },
+      {
+        "en": "Routine admin can be heavy",
+        "ar": "الشغل الإداري الروتيني ممكن يبقى كتير"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "HR just hires and fires.",
+          "ar": "الـHR بيعيّن ويرفد وبس."
+        },
+        "fact": {
+          "en": "HR also handles pay, training, culture and wellbeing.",
+          "ar": "الـHR كمان مسؤول عن المرتبات والتدريب وثقافة الشغل وراحة الموظفين."
+        }
+      },
+      {
+        "myth": {
+          "en": "HR is an easy job.",
+          "ar": "الـHR شغلانة سهلة."
+        },
+        "fact": {
+          "en": "It needs law knowledge, numbers and difficult conversations.",
+          "ar": "محتاجة معرفة بالقانون وأرقام ومحادثات صعبة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular office hours, with busy periods at payroll time and during hiring drives.",
+      "ar": "غالبًا مواعيد مكتب منتظمة، مع فترات زحمة وقت المرتبات وحملات التعيين."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "management_consultant",
@@ -173,6 +344,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: HR Officer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/human-resources/hr-officer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

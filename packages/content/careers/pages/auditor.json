@@ -2,8 +2,8 @@
   "id": "auditor",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You check that the numbers a company shows are the truth.",
@@ -127,6 +127,190 @@
       "ar": "توقيع تقارير المراجعة يتطلب القيد كمراقب حسابات لدى الجهات المختصة، وتدخل فيه عضوية جمعية المحاسبين والمراجعين المصرية (ESAA) ونقابة التجاريين. للجمعية امتحان وتشترط خبرة تحت إشراف. قد تتغير القواعد، فتأكد من الشروط الحالية من وزارة المالية والهيئة العامة للرقابة المالية والجمعية."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Auditing standards and internal controls",
+        "ar": "معايير المراجعة والرقابة الداخلية"
+      },
+      {
+        "en": "Financial accounting and IFRS",
+        "ar": "المحاسبة المالية ومعايير IFRS"
+      },
+      {
+        "en": "Excel and data sampling",
+        "ar": "إكسل وأخذ العينات من البيانات"
+      },
+      {
+        "en": "Egyptian tax and company rules",
+        "ar": "قواعد الضرائب والشركات في مصر"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Professional scepticism and honesty",
+        "ar": "الشك المهني والأمانة"
+      },
+      {
+        "en": "Clear writing of findings",
+        "ar": "كتابة النتائج بوضوح"
+      },
+      {
+        "en": "Working with clients without losing independence",
+        "ar": "التعامل مع العملاء من غير ما تفقد استقلالك"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: audit firms, standards and reports",
+        "ar": "الإنجليزية: مكاتب المراجعة والمعايير والتقارير"
+      },
+      {
+        "en": "Arabic: local clients and official papers",
+        "ar": "العربية: العملاء المحليون والأوراق الرسمية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ACCA",
+        "ar": "ACCA (جمعية المحاسبين القانونيين المعتمدين)"
+      },
+      {
+        "en": "CIA (Certified Internal Auditor)",
+        "ar": "CIA (المراجع الداخلي المعتمد)"
+      },
+      {
+        "en": "ESAA membership for audit practice in Egypt",
+        "ar": "عضوية ESAA لمزاولة المراجعة في مصر"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "The Institute of Internal Auditors",
+        "url": "https://www.theiia.org",
+        "free": true
+      },
+      {
+        "title": "ACCA: careers in audit",
+        "url": "https://www.accaglobal.com",
+        "free": true
+      },
+      {
+        "title": "AccountingCoach: free accounting basics",
+        "url": "https://www.accountingcoach.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9911,
+        "max": 42097
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy/auditor?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Auditor\". Paylab's own figure for someone with 5 years of experience is about 35,046 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Auditor» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 35,046 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Audit firms, including the large international networks",
+        "ar": "مكاتب المراجعة ومنها الشبكات الدولية الكبيرة"
+      },
+      {
+        "en": "Internal audit departments in companies and banks",
+        "ar": "إدارات المراجعة الداخلية في الشركات والبنوك"
+      },
+      {
+        "en": "Government audit bodies",
+        "ar": "جهات الرقابة الحكومية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Signing audit reports needs a licensed office, so most auditors are employed. Experienced auditors can consult on internal controls and some review work is done remotely.",
+      "ar": "توقيع تقارير المراجعة محتاج مكتب مرخص، فأغلب المراجعين بيشتغلوا موظفين. واللي عنده خبرة يقدر يعمل استشارات في الرقابة الداخلية، وشوية من شغل المراجعة بيتعمل من بعيد."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Industrial cities",
+        "ar": "المدن الصناعية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Audit skills travel well: international firms move staff between offices, and Gulf companies hire Egyptian auditors, especially with ACCA or CIA.",
+    "ar": "مهارات المراجعة بتسافر بسهولة: الشركات الدولية بتنقل موظفينها بين المكاتب، وشركات الخليج بتعيّن مراجعين مصريين، خصوصًا اللي معاهم ACCA أو CIA."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You learn how many businesses work, fast",
+        "ar": "بتتعلم بيزنسات كتير بتشتغل إزاي، وبسرعة"
+      },
+      {
+        "en": "Clear career ladder in audit firms",
+        "ar": "سلّم وظيفي واضح في مكاتب المراجعة"
+      },
+      {
+        "en": "Strong base for finance roles later",
+        "ar": "أساس قوي لوظايف مالية بعدين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Busy season means long hours",
+        "ar": "موسم الزحمة معناه ساعات طويلة"
+      },
+      {
+        "en": "Travel to clients and pressure from deadlines",
+        "ar": "تنقل للعملاء وضغط مواعيد"
+      },
+      {
+        "en": "Routine checks are being automated",
+        "ar": "الفحوصات الروتينية بتتحول لأتمتة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Auditors are there to catch people.",
+          "ar": "المراجع جاي يمسك الناس."
+        },
+        "fact": {
+          "en": "Auditors check that numbers are fair and help companies fix weak controls.",
+          "ar": "المراجع بيتأكد إن الأرقام سليمة وبيساعد الشركات تصلّح نقط الضعف."
+        }
+      },
+      {
+        "myth": {
+          "en": "Audit is the same as accounting.",
+          "ar": "المراجعة هي هي المحاسبة."
+        },
+        "fact": {
+          "en": "Accountants prepare the numbers; auditors check them independently.",
+          "ar": "المحاسب بيجهّز الأرقام؛ والمراجع بيفحصها بشكل مستقل."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Hard in busy season (the first months of the year for year-end audits), calmer after. Internal audit roles are usually steadier.",
+      "ar": "صعب في موسم الزحمة (أول شهور السنة لمراجعات آخر السنة)، وأهدى بعده. والمراجعة الداخلية غالبًا أنتظم."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "accountant",
@@ -180,6 +364,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Auditor salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy/auditor?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

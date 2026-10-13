@@ -2,8 +2,8 @@
   "id": "geologist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You read the story of the Earth in rocks.",
@@ -120,6 +120,175 @@
       "ar": "العاملون في المعامل والصناعة يحتاجون عادة إلى درجة علمية، ويمكن لخريجي كليات العلوم الانضمام إلى نقابة المهن العلمية. وتختلف شروط الوظائف المحددة، فتأكد من النقابة وجهة العمل."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Field mapping and sampling",
+        "ar": "الخرائط الميدانية وأخذ العينات"
+      },
+      {
+        "en": "Rock and mineral identification",
+        "ar": "التعرف على الصخور والمعادن"
+      },
+      {
+        "en": "GIS and geological software",
+        "ar": "نظم المعلومات الجغرافية والبرامج الجيولوجية"
+      },
+      {
+        "en": "Groundwater or petroleum geology (by specialty)",
+        "ar": "المياه الجوفية أو جيولوجيا البترول (حسب التخصص)"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Endurance for desert fieldwork",
+        "ar": "التحمل للشغل الميداني في الصحرا"
+      },
+      {
+        "en": "Careful observation",
+        "ar": "الملاحظة الدقيقة"
+      },
+      {
+        "en": "Clear reports and maps",
+        "ar": "تقارير وخرائط واضحة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: reports, software and oil companies",
+        "ar": "الإنجليزية: التقارير والبرامج وشركات البترول"
+      },
+      {
+        "en": "Arabic: field teams and local authorities",
+        "ar": "العربية: الفرق الميدانية والجهات المحلية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "USGS: geology education",
+        "url": "https://www.usgs.gov",
+        "free": true
+      },
+      {
+        "title": "MIT OpenCourseWare: Earth sciences",
+        "url": "https://ocw.mit.edu",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9595,
+        "max": 33110
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/construction-real-estate/geologist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Geologist\". Paylab's own figure for someone with 5 years of experience is about 27,837 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Geologist» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 27,837 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Oil and gas companies",
+        "ar": "شركات البترول والغاز"
+      },
+      {
+        "en": "Mining and quarrying companies",
+        "ar": "شركات التعدين والمحاجر"
+      },
+      {
+        "en": "Geotechnical and construction firms",
+        "ar": "الشركات الجيوتقنية والإنشاءات"
+      },
+      {
+        "en": "Groundwater and government survey bodies",
+        "ar": "جهات المياه الجوفية والمساحة الحكومية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Fieldwork is with companies on site. Experienced geologists consult for construction and groundwater projects.",
+      "ar": "الشغل الميداني مع الشركات في المكان. والجيولوجيين اللي عندهم خبرة بيعملوا استشارات لمشاريع الإنشاءات والمية الجوفية."
+    },
+    "regions": [
+      {
+        "en": "Western Desert and Gulf of Suez",
+        "ar": "الصحرا الغربية وخليج السويس"
+      },
+      {
+        "en": "Eastern Desert (mining)",
+        "ar": "الصحرا الشرقية (التعدين)"
+      },
+      {
+        "en": "Greater Cairo offices",
+        "ar": "مكاتب القاهرة الكبرى"
+      }
+    ]
+  },
+  "global": {
+    "en": "Geologists with oil, mining or groundwater experience work in the Gulf, Africa and beyond. A master’s and software skills help.",
+    "ar": "الجيولوجيين اللي عندهم خبرة في البترول أو التعدين أو المية الجوفية بيشتغلوا في الخليج وأفريقيا وغيرهم. والماجستير ومهارات البرامج بيساعدوا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Outdoor work and exploration",
+        "ar": "شغل في الهوا الطلق واستكشاف"
+      },
+      {
+        "en": "Several industries need geologists",
+        "ar": "صناعات كتير محتاجة جيولوجيين"
+      },
+      {
+        "en": "Path into water and environment roles",
+        "ar": "طريق لوظايف المية والبيئة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Remote desert sites for weeks",
+        "ar": "مواقع بعيدة في الصحرا لأسابيع"
+      },
+      {
+        "en": "Hiring follows oil and mining cycles",
+        "ar": "التعيين ماشي مع دورات البترول والتعدين"
+      },
+      {
+        "en": "Research jobs need postgraduate study",
+        "ar": "وظايف البحث محتاجة دراسات عليا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Geology is only about rocks.",
+          "ar": "الجيولوجيا يعني صخور وبس."
+        },
+        "fact": {
+          "en": "It also covers water, oil, minerals, earthquakes and building safety.",
+          "ar": "فيها كمان المية والبترول والمعادن والزلازل وسلامة المباني."
+        }
+      },
+      {
+        "myth": {
+          "en": "Geologists only work in oil.",
+          "ar": "الجيولوجي بيشتغل في البترول بس."
+        },
+        "fact": {
+          "en": "Construction, mining, water and environment all hire geologists.",
+          "ar": "الإنشاءات والتعدين والمية والبيئة كلهم بيعيّنوا جيولوجيين."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Field rotations away from home, balanced by office periods in the city.",
+      "ar": "روتيشن ميداني بعيد عن البيت، يقابله فترات مكتب في المدينة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "petroleum_engineer",
@@ -159,6 +328,11 @@
       "title": "My Next Move (O*NET): Geologist",
       "url": "https://www.mynextmove.org/profile/summary/19-2042.00",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Geologist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/construction-real-estate/geologist?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

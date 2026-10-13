@@ -2,8 +2,8 @@
   "id": "it_support",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "When something stops working, you are the one who fixes it.",
@@ -120,6 +120,186 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Windows, macOS and basic Linux",
+        "ar": "ويندوز وماك وأساسيات لينكس"
+      },
+      {
+        "en": "Networking basics (IP, Wi-Fi, routers)",
+        "ar": "أساسيات الشبكات (IP والواي فاي والراوتر)"
+      },
+      {
+        "en": "Hardware and printer troubleshooting",
+        "ar": "حل مشاكل الأجهزة والطابعات"
+      },
+      {
+        "en": "User accounts and Microsoft 365",
+        "ar": "حسابات المستخدمين ومايكروسوفت 365"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience with users who are stressed",
+        "ar": "الصبر مع المستخدمين المضغوطين"
+      },
+      {
+        "en": "Explaining tech simply",
+        "ar": "شرح التكنولوجيا ببساطة"
+      },
+      {
+        "en": "Logging every ticket",
+        "ar": "تسجيل كل تذكرة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: systems, documentation and certificates",
+        "ar": "الإنجليزية: الأنظمة والتوثيق والشهادات"
+      },
+      {
+        "en": "Arabic: users and colleagues",
+        "ar": "العربية: المستخدمون والزملاء"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "CompTIA A+",
+        "ar": "CompTIA A+ (شهادة الدعم الفني)"
+      },
+      {
+        "en": "Google IT Support Certificate",
+        "ar": "شهادة جوجل للدعم الفني"
+      },
+      {
+        "en": "Cisco CCNA (next step)",
+        "ar": "Cisco CCNA (خطوة تالية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "CompTIA: IT fundamentals",
+        "url": "https://www.comptia.org",
+        "free": true
+      },
+      {
+        "title": "Cisco Networking Academy: free courses",
+        "url": "https://www.netacad.com",
+        "free": true
+      },
+      {
+        "title": "Microsoft Learn",
+        "url": "https://learn.microsoft.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10293,
+        "max": 28978
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology/it-technical-support-specialist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"IT/Technical Support Specialist\". Paylab's own figure for someone with 5 years of experience is about 21,808 EGP. The survey has 40 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «IT/Technical Support Specialist» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 21,808 جنيهًا. يضم الاستبيان 40 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Companies of every size (IT departments)",
+        "ar": "الشركات بكل أحجامها (إدارات تكنولوجيا المعلومات)"
+      },
+      {
+        "en": "Outsourcing companies and call centres",
+        "ar": "شركات الأوتسورسنج ومراكز الاتصال"
+      },
+      {
+        "en": "Schools, universities and hospitals",
+        "ar": "المدارس والجامعات والمستشفيات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Some support is remote, and outsourcing companies serve foreign clients from Egypt. Freelance home and small-office support exists.",
+      "ar": "جزء من الدعم بيتعمل من بعيد، وشركات الأوتسورسنج بتخدم عملاء برّه من مصر. وفيه فري لانس لدعم البيوت والمكاتب الصغيرة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria and other large cities",
+        "ar": "الإسكندرية والمدن الكبيرة التانية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Support skills plus certificates lead to jobs in the Gulf and to remote support roles for international companies. Many move on to networking, cloud or security.",
+    "ar": "مهارات الدعم ومعاها شهادات بتوصّل لشغل في الخليج ولوظايف دعم من بعيد لشركات دولية. وكتير بيكمّلوا للشبكات أو الكلاود أو الأمن."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Easy entry into tech",
+        "ar": "دخول سهل للتكنولوجيا"
+      },
+      {
+        "en": "Every company needs it",
+        "ar": "كل شركة محتاجاه"
+      },
+      {
+        "en": "Clear next steps into networking, cloud or security",
+        "ar": "خطوات واضحة للشبكات أو الكلاود أو الأمن"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Repetitive tickets",
+        "ar": "تذاكر متكررة"
+      },
+      {
+        "en": "Users are often stressed or impatient",
+        "ar": "المستخدمين غالبًا متوترين أو مستعجلين"
+      },
+      {
+        "en": "Pay is lower than other tech roles at first",
+        "ar": "المرتب أقل من وظايف تكنولوجيا تانية في الأول"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "IT support is a dead end.",
+          "ar": "الدعم الفني ملوش مستقبل."
+        },
+        "fact": {
+          "en": "It is a common first step toward networking, cloud and security.",
+          "ar": "ده أول خطوة منتشرة للشبكات والكلاود والأمن."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a computer science degree.",
+          "ar": "لازم شهادة حاسبات."
+        },
+        "fact": {
+          "en": "Certificates and hands-on skill are often enough to start.",
+          "ar": "الشهادات والمهارة العملية غالبًا كفاية عشان تبدأ."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually office hours or shifts; some roles cover nights for 24-hour support.",
+      "ar": "غالبًا مواعيد مكتب أو شيفتات؛ وفيه وظايف بتغطي الليل للدعم 24 ساعة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "cloud_devops_engineer",
@@ -173,6 +353,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: IT/Technical Support Specialist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/information-technology/it-technical-support-specialist?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

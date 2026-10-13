@@ -2,8 +2,8 @@
   "id": "musician",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You turn sound into something people feel.",
@@ -115,6 +115,171 @@
       "ar": "الموسيقيون الذين يؤدون بشكل احترافي في مصر يحتاجون عادة إلى القيد في نقابة المهن الموسيقية. المتطلبات والفئات تتغير، فاسأل النقابة عن القواعد الحالية."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Instrument or voice technique",
+        "ar": "تقنية العزف أو الغنا"
+      },
+      {
+        "en": "Music theory and reading notation",
+        "ar": "نظريات الموسيقى وقراءة النوتة"
+      },
+      {
+        "en": "Recording and music software",
+        "ar": "التسجيل وبرامج الموسيقى"
+      },
+      {
+        "en": "Arranging and composing",
+        "ar": "التوزيع والتلحين"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Daily practice discipline",
+        "ar": "الالتزام بالتمرين كل يوم"
+      },
+      {
+        "en": "Performing under pressure",
+        "ar": "الأداء تحت الضغط"
+      },
+      {
+        "en": "Building a network and managing bookings",
+        "ar": "بناء العلاقات وإدارة الحجوزات"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: local audiences and productions",
+        "ar": "العربية: الجمهور والإنتاج المحلي"
+      },
+      {
+        "en": "English: international collaborations and platforms",
+        "ar": "الإنجليزية: التعاون الدولي والمنصات"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "musictheory.net: free lessons",
+        "url": "https://www.musictheory.net",
+        "free": true
+      },
+      {
+        "title": "Cairo Opera House",
+        "url": "https://www.cairoopera.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9174,
+        "max": 24306
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/arts-culture?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Orchestra Musician\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Orchestra Musician»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Orchestras and ensembles",
+        "ar": "الأوركسترات والفرق"
+      },
+      {
+        "en": "Studios, ads and film music",
+        "ar": "الاستوديوهات والإعلانات وموسيقى الأفلام"
+      },
+      {
+        "en": "Music schools and private teaching",
+        "ar": "مدارس الموسيقى والدروس الخصوصية"
+      },
+      {
+        "en": "Hotels, events and weddings",
+        "ar": "الفنادق والفعاليات والأفراح"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most musicians are freelance and combine performing, teaching and studio sessions. Online lessons and releasing music on platforms add income.",
+      "ar": "أغلب الموسيقيين فري لانس وبيجمعوا بين الحفلات والتدريس وجلسات الاستوديو. والدروس أونلاين ونشر الموسيقى على المنصات بيزوّدوا الدخل."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria and tourist cities",
+        "ar": "الإسكندرية والمدن السياحية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Musicians build careers abroad through scholarships, festivals and online audiences; Gulf hotels and events also hire performers.",
+    "ar": "الموسيقيين بيبنوا مشوارهم برّه عن طريق المنح والمهرجانات والجمهور أونلاين؛ وفنادق وفعاليات الخليج كمان بتعيّن عازفين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Doing what you love",
+        "ar": "بتعمل اللي بتحبه"
+      },
+      {
+        "en": "Many ways to earn: performing, teaching, recording",
+        "ar": "طرق كتير للكسب: حفلات وتدريس وتسجيل"
+      },
+      {
+        "en": "Online platforms reach audiences anywhere",
+        "ar": "المنصات بتوصّلك لجمهور في أي حتة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Income is irregular",
+        "ar": "الدخل مش منتظم"
+      },
+      {
+        "en": "Years of practice before steady work",
+        "ar": "سنين تمرين قبل الشغل الثابت"
+      },
+      {
+        "en": "Late nights and travel",
+        "ar": "سهر وسفر"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You must be born talented.",
+          "ar": "لازم تتولد موهوب."
+        },
+        "fact": {
+          "en": "Regular, focused practice matters more than early talent.",
+          "ar": "التمرين المنتظم والمركّز أهم من الموهبة بدري."
+        }
+      },
+      {
+        "myth": {
+          "en": "Musicians can only earn as stars.",
+          "ar": "الموسيقي ما بيكسبش غير لو بقى نجم."
+        },
+        "fact": {
+          "en": "Most earn from teaching, sessions, events and media work.",
+          "ar": "أغلبهم بيكسبوا من التدريس والجلسات والفعاليات وشغل الإعلام."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Irregular: rehearsals by day, performances at night and on weekends.",
+      "ar": "مش منتظم: بروفات بالنهار وحفلات بالليل وفي الإجازات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "film_producer",
@@ -158,6 +323,11 @@
       "title": "Cairo Opera House: Talents Development Center",
       "url": "https://www.cairoopera.org",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Orchestra Musician salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/arts-culture?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

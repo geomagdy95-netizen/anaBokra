@@ -2,8 +2,8 @@
   "id": "industrial_technician",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You keep the machines of factories running and smart.",
@@ -115,6 +115,173 @@
       "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Mechanical and electrical maintenance",
+        "ar": "الصيانة الميكانيكية والكهربائية"
+      },
+      {
+        "en": "Sensors, PLCs and control panels",
+        "ar": "الحساسات والـPLC ولوحات التحكم"
+      },
+      {
+        "en": "Pneumatics and hydraulics",
+        "ar": "الهوائيات والهيدروليك"
+      },
+      {
+        "en": "Reading drawings and manuals",
+        "ar": "قراءة الرسومات والكتالوجات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm fault-finding when a line stops",
+        "ar": "تتبّع العطل بهدوء لما الخط يقف"
+      },
+      {
+        "en": "Safety discipline",
+        "ar": "الالتزام بالسلامة"
+      },
+      {
+        "en": "Keeping clear maintenance records",
+        "ar": "تسجيل الصيانة بوضوح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: factory teams",
+        "ar": "العربية: فرق المصنع"
+      },
+      {
+        "en": "Basic English: machine manuals and PLC software",
+        "ar": "إنجليزية أساسية: كتالوجات المكن وبرامج الـPLC"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "PLC and automation courses (for example Siemens)",
+        "ar": "دورات PLC وأتمتة (مثل سيمنز)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "All About Circuits: free electronics basics",
+        "url": "https://www.allaboutcircuits.com",
+        "free": true
+      },
+      {
+        "title": "Siemens SITRAIN: automation training",
+        "url": "https://www.siemens.com/sitrain",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10662,
+        "max": 22973
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/car-industry/mechatronics-technician?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Mechatronics Technician\". Paylab's own figure for someone with 5 years of experience is about 17,568 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Mechatronics Technician» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 17,568 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Factories with production lines",
+        "ar": "المصانع اللي فيها خطوط إنتاج"
+      },
+      {
+        "en": "Food, pharma and packaging plants",
+        "ar": "مصانع الأغذية والأدوية والتغليف"
+      },
+      {
+        "en": "Machine suppliers and service companies",
+        "ar": "موردو المكن وشركات الصيانة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Work is in factories on site. Experienced technicians do contract maintenance or start small service businesses.",
+      "ar": "الشغل في المصانع في المكان نفسه. والفنيين اللي عندهم خبرة بيعملوا صيانة بعقود أو بيبدأوا شغل خدمة صغير."
+    },
+    "regions": [
+      {
+        "en": "10th of Ramadan, 6th of October, Sadat City and other industrial cities",
+        "ar": "العاشر من رمضان و6 أكتوبر ومدينة السادات والمدن الصناعية التانية"
+      },
+      {
+        "en": "Alexandria (Borg El Arab)",
+        "ar": "الإسكندرية (برج العرب)"
+      }
+    ]
+  },
+  "global": {
+    "en": "Factories in the Gulf and Europe need maintenance and automation technicians; PLC skills and recognised certificates help.",
+    "ar": "المصانع في الخليج وأوروبا محتاجة فنيين صيانة وأتمتة؛ ومهارات الـPLC والشهادات المعترف بيها بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Factories always need maintenance",
+        "ar": "المصانع دايمًا محتاجة صيانة"
+      },
+      {
+        "en": "Automation skills are growing in value",
+        "ar": "مهارات الأتمتة قيمتها بتزيد"
+      },
+      {
+        "en": "Path to engineering with further study",
+        "ar": "طريق للهندسة لو كمّلت دراسة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Shifts and urgent breakdowns",
+        "ar": "شيفتات وأعطال عاجلة"
+      },
+      {
+        "en": "Noise, heat and physical work",
+        "ar": "دوشة وحر وشغل جسدي"
+      },
+      {
+        "en": "Factories are often far from cities",
+        "ar": "المصانع غالبًا بعيدة عن المدن"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Technicians just fix what engineers design.",
+          "ar": "الفني بيصلّح اللي المهندس صممه وبس."
+        },
+        "fact": {
+          "en": "Good technicians keep lines running and often suggest the best improvements.",
+          "ar": "الفني الشاطر بيخلّي الخطوط شغالة وكتير بيقترح أحسن التحسينات."
+        }
+      },
+      {
+        "myth": {
+          "en": "Automation removes technician jobs.",
+          "ar": "الأتمتة بتلغي شغل الفنيين."
+        },
+        "fact": {
+          "en": "Automated lines need skilled technicians to keep them working.",
+          "ar": "الخطوط الأوتوماتيك محتاجة فنيين شاطرين عشان تفضل شغالة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shift work is common, with call-outs when a line stops.",
+      "ar": "الشيفتات منتشرة، ومعاها استدعاءات لما الخط يقف."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "mechatronics_engineer",
@@ -168,6 +335,11 @@
       "title": "JICA Egypt: Egyptian-Japanese KOSEN",
       "url": "https://www.jica.go.jp/egypt/english/activities/activity12.html",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Mechatronics Technician salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/car-industry/mechatronics-technician?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

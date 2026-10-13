@@ -2,8 +2,8 @@
   "id": "environmental_scientist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You protect air, water and land from harm.",
@@ -120,6 +120,177 @@
       "ar": "دراسات التأثير البيئي والرصد للمشروعات في مصر تنظمها الجهات البيئية، وقد يحتاج الاستشاريون إلى القيد لديها. القواعد تتغير، فتأكد من وزارة البيئة وجهة العمل."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Sampling air, water and soil",
+        "ar": "أخذ عينات الهوا والمية والتربة"
+      },
+      {
+        "en": "Lab analysis and data interpretation",
+        "ar": "التحليل المعملي وتفسير البيانات"
+      },
+      {
+        "en": "Environmental impact assessment",
+        "ar": "تقييم الأثر البيئي"
+      },
+      {
+        "en": "GIS and maps",
+        "ar": "نظم المعلومات الجغرافية والخرائط"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Explaining findings to companies and communities",
+        "ar": "شرح النتائج للشركات والناس"
+      },
+      {
+        "en": "Persistence with fieldwork",
+        "ar": "المثابرة في الشغل الميداني"
+      },
+      {
+        "en": "Honest reporting",
+        "ar": "الأمانة في التقارير"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: reports, standards and international projects",
+        "ar": "الإنجليزية: التقارير والمعايير والمشروعات الدولية"
+      },
+      {
+        "en": "Arabic: local authorities and communities",
+        "ar": "العربية: الجهات المحلية والمجتمعات"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ISO 14001 environmental management courses",
+        "ar": "دورات ISO 14001 للإدارة البيئية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "UN CC:Learn: free climate courses",
+        "url": "https://unccelearn.org",
+        "free": true
+      },
+      {
+        "title": "UNEP: environment topics",
+        "url": "https://www.unep.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11057,
+        "max": 23309
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/water-management-forestry-environment/environmentalist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Environmentalist\". Paylab's own figure for someone with 5 years of experience is about 18,895 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Environmentalist» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 18,895 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Environmental consulting firms",
+        "ar": "مكاتب الاستشارات البيئية"
+      },
+      {
+        "en": "Factories (environment, health and safety departments)",
+        "ar": "المصانع (إدارات البيئة والصحة والسلامة)"
+      },
+      {
+        "en": "Government environmental bodies",
+        "ar": "الجهات البيئية الحكومية"
+      },
+      {
+        "en": "International projects and NGOs",
+        "ar": "المشروعات الدولية والجمعيات الأهلية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Consulting on impact studies and sustainability reports can be freelance, and some data and report work is remote. Fieldwork is on site.",
+      "ar": "الاستشارات في دراسات الأثر وتقارير الاستدامة ممكن تبقى فري لانس، وشوية من شغل البيانات والتقارير بيتعمل من البيت. والشغل الميداني في المكان."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Industrial zones and the Canal area",
+        "ar": "المناطق الصناعية ومنطقة القناة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Sustainability and climate roles are growing worldwide, and international organisations hire environmental specialists, usually with a master’s and good English.",
+    "ar": "وظايف الاستدامة والمناخ بتكبر في العالم كله، والمنظمات الدولية بتعيّن متخصصين في البيئة، غالبًا بماجستير وإنجليزي كويس."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work that protects people and nature",
+        "ar": "شغل بيحمي الناس والطبيعة"
+      },
+      {
+        "en": "Mix of field, lab and office",
+        "ar": "خليط من الميدان والمعمل والمكتب"
+      },
+      {
+        "en": "Sustainability roles in companies are growing",
+        "ar": "وظايف الاستدامة في الشركات بتكبر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Fewer jobs than in bigger science fields",
+        "ar": "وظايف أقل من مجالات علمية أكبر"
+      },
+      {
+        "en": "Findings can be unwelcome to clients",
+        "ar": "النتايج ممكن ما تعجبش العملاء"
+      },
+      {
+        "en": "Fieldwork in heat and dirty sites",
+        "ar": "شغل ميداني في الحر ومواقع ملوثة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Environmental work is only volunteering.",
+          "ar": "شغل البيئة تطوع وبس."
+        },
+        "fact": {
+          "en": "Companies must meet environmental rules and pay for studies and monitoring.",
+          "ar": "الشركات لازم تلتزم بقواعد البيئة وبتدفع للدراسات والمراقبة."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is all about planting trees.",
+          "ar": "الموضوع كله زرع شجر."
+        },
+        "fact": {
+          "en": "Most work is measuring pollution, water and waste and reducing harm.",
+          "ar": "أغلب الشغل قياس التلوث والمية والمخلفات وتقليل الضرر."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly office or lab hours, with trips for fieldwork.",
+      "ar": "غالبًا مواعيد مكتب أو معمل، مع رحلات للشغل الميداني."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "chemist",
@@ -164,6 +335,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Environmentalist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/water-management-forestry-environment/environmentalist?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "id": "event_planner",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You make sure a big day goes perfectly.",
@@ -119,6 +119,167 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Budgets and supplier contracts",
+        "ar": "الميزانيات وعقود الموردين"
+      },
+      {
+        "en": "Timelines, run-of-show and logistics",
+        "ar": "الجداول الزمنية وتسلسل الفعالية واللوجستيات"
+      },
+      {
+        "en": "Venue, sound and stage basics",
+        "ar": "أساسيات القاعات والصوت والمسرح"
+      },
+      {
+        "en": "Event promotion and registration tools",
+        "ar": "الترويج للفعاليات وأدوات التسجيل"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Staying calm when things go wrong",
+        "ar": "الهدوء لما الدنيا تبوظ"
+      },
+      {
+        "en": "Negotiating with suppliers",
+        "ar": "التفاوض مع الموردين"
+      },
+      {
+        "en": "Looking after people",
+        "ar": "الاهتمام بالناس"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: suppliers, venues and local clients",
+        "ar": "العربية: الموردون والقاعات والعملاء المحليون"
+      },
+      {
+        "en": "English: corporate clients and international events",
+        "ar": "الإنجليزية: عملاء الشركات والفعاليات الدولية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Coursera: event planning courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      },
+      {
+        "title": "Eventbrite: event planning guides",
+        "url": "https://www.eventbrite.com/blog/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11020,
+        "max": 33001
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/management/event-manager?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Event Manager\". Paylab's own figure for someone with 5 years of experience is about 26,628 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Event Manager» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 26,628 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Event and wedding planning companies",
+        "ar": "شركات تنظيم الفعاليات والأفراح"
+      },
+      {
+        "en": "Hotels (banquets and conferences)",
+        "ar": "الفنادق (الحفلات والمؤتمرات)"
+      },
+      {
+        "en": "Marketing agencies and companies",
+        "ar": "وكالات التسويق والشركات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance planners and small agencies are common, especially for weddings and private events. Work comes in seasons and depends on your network.",
+      "ar": "المنظمين الفري لانس والوكالات الصغيرة منتشرين، خصوصًا في الأفراح والمناسبات الخاصة. والشغل بييجي في مواسم وبيعتمد على علاقاتك."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Red Sea resorts and Alexandria",
+        "ar": "منتجعات البحر الأحمر والإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "The Gulf hosts many large events and hires Egyptian event staff. Experience with conferences and big brands helps.",
+    "ar": "الخليج فيه فعاليات كبيرة كتير وبيعيّن ناس مصريين في المجال. والخبرة في المؤتمرات والبراندات الكبيرة بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Every event is different",
+        "ar": "كل فعالية مختلفة"
+      },
+      {
+        "en": "You see the result on the day",
+        "ar": "بتشوف النتيجة في نفس اليوم"
+      },
+      {
+        "en": "You can start your own company",
+        "ar": "تقدر تبدأ شركة بتاعتك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long days and last-minute problems",
+        "ar": "أيام طويلة ومشاكل آخر لحظة"
+      },
+      {
+        "en": "Work on weekends and evenings",
+        "ar": "شغل في الإجازات وبالليل"
+      },
+      {
+        "en": "Income depends on seasons",
+        "ar": "الدخل بيعتمد على المواسم"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Event planning is just parties.",
+          "ar": "تنظيم الفعاليات يعني حفلات."
+        },
+        "fact": {
+          "en": "Conferences, launches and exhibitions need serious planning and budgets.",
+          "ar": "المؤتمرات والإطلاقات والمعارض محتاجة تخطيط جد وميزانيات."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a special degree.",
+          "ar": "لازم شهادة معينة."
+        },
+        "fact": {
+          "en": "Experience and a portfolio of events matter most.",
+          "ar": "الخبرة وبورتفوليو الفعاليات هما الأهم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Irregular: quiet planning weeks, then very long event days and weekends.",
+      "ar": "مش منتظم: أسابيع تخطيط هادية، وبعدين أيام فعاليات طويلة جدًا وإجازات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "hotel_manager",
@@ -168,6 +329,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Event Manager salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/management/event-manager?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

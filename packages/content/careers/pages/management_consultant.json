@@ -2,8 +2,8 @@
   "id": "management_consultant",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You solve business problems for organisations that ask for help.",
@@ -125,6 +125,162 @@
       }
     ],
     "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Structured problem solving",
+        "ar": "حل المشاكل بطريقة منظمة"
+      },
+      {
+        "en": "Excel modelling and data analysis",
+        "ar": "النماذج على إكسل وتحليل البيانات"
+      },
+      {
+        "en": "Slide writing and storytelling with numbers",
+        "ar": "كتابة السلايدز والحكي بالأرقام"
+      },
+      {
+        "en": "Basic finance and operations",
+        "ar": "أساسيات المالية والعمليات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Clear, confident communication",
+        "ar": "تواصل واضح وواثق"
+      },
+      {
+        "en": "Working fast in teams",
+        "ar": "الشغل بسرعة في فرق"
+      },
+      {
+        "en": "Handling senior clients",
+        "ar": "التعامل مع عملاء كبار"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: most firms work in English",
+        "ar": "الإنجليزية: أغلب الشركات بتشتغل بيها"
+      },
+      {
+        "en": "Arabic: local and government clients",
+        "ar": "العربية: العملاء المحليون والحكوميون"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "McKinsey Insights: free articles",
+        "url": "https://www.mckinsey.com/featured-insights",
+        "free": true
+      },
+      {
+        "title": "Coursera: business strategy courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt has only a general \"Consultant\" title, not one for management consultants, so we do not show a number. Pay differs a lot between international firms, local firms and in-house strategy roles.",
+      "ar": "لا يضم Paylab مصر إلا مسمى «استشاري» العام، لا مسمى لاستشاري الإدارة، لذلك لا نعرض رقمًا. ويختلف الأجر كثيرًا بين الشركات الدولية والمحلية ووظائف الاستراتيجية داخل الشركات."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "International consulting firms",
+        "ar": "شركات الاستشارات الدولية"
+      },
+      {
+        "en": "Local consulting firms",
+        "ar": "شركات الاستشارات المحلية"
+      },
+      {
+        "en": "Strategy teams in large companies",
+        "ar": "فرق الاستراتيجية في الشركات الكبيرة"
+      },
+      {
+        "en": "Development agencies and government programs",
+        "ar": "جهات التنمية والبرامج الحكومية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Independent consulting is common after some years in a firm or industry. Analysis and slide work can be remote.",
+      "ar": "الاستشارات المستقلة منتشرة بعد كام سنة في شركة أو صناعة. وشغل التحليل والسلايدز ممكن يتعمل من البيت."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Gulf projects (with travel)",
+        "ar": "مشروعات الخليج (مع سفر)"
+      }
+    ]
+  },
+  "global": {
+    "en": "Consultants in Cairo offices often work on Gulf projects, and international firms move staff between offices. An MBA can help later.",
+    "ar": "الاستشاريين في مكاتب القاهرة غالبًا بيشتغلوا على مشروعات في الخليج، والشركات الدولية بتنقل موظفينها بين المكاتب. والـMBA ممكن تساعد بعدين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Learn many industries quickly",
+        "ar": "بتتعلم صناعات كتير بسرعة"
+      },
+      {
+        "en": "Strong exit options into companies",
+        "ar": "فرص قوية تنقل لشركات بعدين"
+      },
+      {
+        "en": "Work on big decisions",
+        "ar": "شغل على قرارات كبيرة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Very long hours and travel",
+        "ar": "ساعات طويلة جدًا وسفر"
+      },
+      {
+        "en": "Highly competitive hiring",
+        "ar": "التعيين فيه منافسة جامدة"
+      },
+      {
+        "en": "Pressure to deliver fast",
+        "ar": "ضغط إنك تسلّم بسرعة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Consultants just make slides.",
+          "ar": "الاستشاري بيعمل سلايدز وبس."
+        },
+        "fact": {
+          "en": "Slides show the result of research, analysis and talking to many people.",
+          "ar": "السلايدز بتعرض نتيجة بحث وتحليل وكلام مع ناس كتير."
+        }
+      },
+      {
+        "myth": {
+          "en": "Only business graduates get in.",
+          "ar": "خريجين التجارة بس اللي بيدخلوا."
+        },
+        "fact": {
+          "en": "Firms hire engineers, economists and others who show strong problem solving.",
+          "ar": "الشركات بتعيّن مهندسين واقتصاديين وغيرهم لو عندهم مهارة حل مشاكل قوية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Demanding: long project weeks and travel; it varies between firms.",
+      "ar": "متعب: أسابيع مشروعات طويلة وسفر؛ وبيختلف من شركة للتانية."
+    }
   },
   "progression": {
     "relatedCareerIds": [

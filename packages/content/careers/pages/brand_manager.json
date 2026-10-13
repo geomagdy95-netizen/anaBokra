@@ -2,8 +2,8 @@
   "id": "brand_manager",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You shape how people feel about a product.",
@@ -119,6 +119,167 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Market and consumer research",
+        "ar": "أبحاث السوق والمستهلك"
+      },
+      {
+        "en": "Campaign planning and media budgets",
+        "ar": "تخطيط الحملات وميزانيات الإعلان"
+      },
+      {
+        "en": "Reading sales and digital analytics",
+        "ar": "قراءة أرقام المبيعات والتحليلات الرقمية"
+      },
+      {
+        "en": "Briefing agencies and designers",
+        "ar": "كتابة البريف للوكالات والمصممين"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Clear communication and persuasion",
+        "ar": "التواصل الواضح والإقناع"
+      },
+      {
+        "en": "Working across sales, marketing and agencies",
+        "ar": "الشغل بين المبيعات والتسويق والوكالات"
+      },
+      {
+        "en": "Good taste with respect for data",
+        "ar": "ذوق كويس مع احترام للأرقام"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: multinational companies and agencies",
+        "ar": "الإنجليزية: الشركات متعددة الجنسيات والوكالات"
+      },
+      {
+        "en": "Arabic, including Egyptian slang: messages that connect with local customers",
+        "ar": "العربية ومنها العامية المصرية: رسائل توصل للعميل المحلي"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "HubSpot Academy: free marketing courses",
+        "url": "https://academy.hubspot.com",
+        "free": true
+      },
+      {
+        "title": "Google Skillshop: free ad training",
+        "url": "https://skillshop.withgoogle.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 22679,
+        "max": 73557
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/management/brand-manager?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Brand Manager\". Paylab's own figure for someone with 5 years of experience is about 51,865 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Brand Manager» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 51,865 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Fast-moving consumer goods companies",
+        "ar": "شركات السلع الاستهلاكية سريعة الحركة"
+      },
+      {
+        "en": "Telecom, banks and retail chains",
+        "ar": "الاتصالات والبنوك وسلاسل التجزئة"
+      },
+      {
+        "en": "Advertising and branding agencies",
+        "ar": "وكالات الإعلان وبناء العلامات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Brand management is usually a full-time company role. Brand strategy and consulting for small businesses can be freelance, and some planning work is remote.",
+      "ar": "إدارة البراند غالبًا وظيفة بدوام كامل في شركة. واستراتيجية البراند والاستشارات للمشاريع الصغيرة ممكن تبقى فري لانس، وشوية من شغل التخطيط بيتعمل من البيت."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Multinational companies move brand managers between countries, and Gulf brands hire Egyptian marketers who understand Arab audiences.",
+    "ar": "الشركات متعددة الجنسيات بتنقل مديرين البراند بين الدول، وبراندات الخليج بتعيّن مسوّقين مصريين فاهمين الجمهور العربي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Mix of creativity, data and business",
+        "ar": "خليط من الإبداع والأرقام والبيزنس"
+      },
+      {
+        "en": "You see your campaigns everywhere",
+        "ar": "بتشوف حملاتك في كل حتة"
+      },
+      {
+        "en": "Strong path to marketing leadership",
+        "ar": "طريق قوي لقيادة التسويق"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "You usually reach the role after a few years in marketing",
+        "ar": "غالبًا بتوصل للدور بعد كام سنة في التسويق"
+      },
+      {
+        "en": "Pressure from sales targets",
+        "ar": "ضغط من تارجت المبيعات"
+      },
+      {
+        "en": "Many people compete for few senior roles",
+        "ar": "ناس كتير بتتنافس على أماكن كبيرة قليلة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Brand managers just make ads look nice.",
+          "ar": "مدير البراند بيخلّي الإعلانات شكلها حلو وبس."
+        },
+        "fact": {
+          "en": "They decide what the brand stands for, set prices and budgets and answer for sales.",
+          "ar": "بيقرر البراند بيمثّل إيه، وبيحدد الأسعار والميزانيات، ومسؤول عن المبيعات."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a marketing degree.",
+          "ar": "لازم شهادة تسويق."
+        },
+        "fact": {
+          "en": "Commerce, engineering and arts graduates move into brand roles through marketing jobs.",
+          "ar": "خريجين تجارة وهندسة وآداب بيدخلوا البراند عن طريق وظايف التسويق."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours with busy weeks around launches and Ramadan campaigns.",
+      "ar": "مواعيد مكتب مع أسابيع زحمة قرب الإطلاقات وحملات رمضان."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "digital_marketer",
@@ -168,6 +329,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Brand Manager salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/management/brand-manager?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

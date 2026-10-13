@@ -2,8 +2,8 @@
   "id": "content_creator",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You turn ideas into videos, posts and stories people want to watch.",
@@ -117,6 +117,163 @@
       }
     ],
     "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Video shooting and editing",
+        "ar": "تصوير ومونتاج الفيديو"
+      },
+      {
+        "en": "Writing scripts, captions and hooks",
+        "ar": "كتابة السكريبت والكابشن والجملة اللي تشد"
+      },
+      {
+        "en": "Reading platform analytics",
+        "ar": "قراءة إحصائيات المنصات"
+      },
+      {
+        "en": "Basic design and thumbnails",
+        "ar": "تصميم أساسي والصور المصغّرة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Consistency over months",
+        "ar": "الاستمرار شهور"
+      },
+      {
+        "en": "Handling criticism calmly",
+        "ar": "التعامل مع النقد بهدوء"
+      },
+      {
+        "en": "Honesty with your audience about paid content",
+        "ar": "الصراحة مع جمهورك في المحتوى المدفوع"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic, including Egyptian slang, for a local audience",
+        "ar": "العربية ومنها العامية المصرية للجمهور المحلي"
+      },
+      {
+        "en": "English opens international audiences and brands",
+        "ar": "الإنجليزية بتفتح جمهور وبراندات دولية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "YouTube Creators: free lessons",
+        "url": "https://www.youtube.com/creators",
+        "free": true
+      },
+      {
+        "title": "HubSpot Academy: content marketing",
+        "url": "https://academy.hubspot.com",
+        "free": true
+      },
+      {
+        "title": "Canva Design School",
+        "url": "https://www.canva.com/design-school/",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Content creators rarely have a fixed salary: income comes from brands, platforms and clients, and it varies a lot. Paylab Egypt has no figure for this role, so we do not show a number.",
+      "ar": "صانع المحتوى نادرًا ما يكون له راتب ثابت: يأتي الدخل من العلامات التجارية والمنصات والعملاء، ويتفاوت كثيرًا. ولا يضم Paylab مصر رقمًا لهذا الدور، لذلك لا نعرض رقمًا."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Self-employed, with brand deals",
+        "ar": "شغل لحسابك مع صفقات البراندات"
+      },
+      {
+        "en": "Brands and agencies with in-house content teams",
+        "ar": "براندات ووكالات عندها فرق محتوى"
+      },
+      {
+        "en": "Media and digital publishers",
+        "ar": "الإعلام والناشرين الرقميين"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most creators are self-employed: income comes from brand deals, platform payouts and making content for clients. It can take a long time to earn steadily, so many keep another job at first.",
+      "ar": "أغلب صناع المحتوى بيشتغلوا لحسابهم: الدخل بييجي من صفقات البراندات وأرباح المنصات وعمل محتوى لعملاء. وممكن ياخد وقت طويل لحد ما الدخل يثبت، فكتير بيحتفظوا بشغلانة تانية في الأول."
+    },
+    "regions": [
+      {
+        "en": "Anywhere with a phone and internet",
+        "ar": "أي مكان فيه موبايل ونت"
+      },
+      {
+        "en": "Agencies mostly in Greater Cairo",
+        "ar": "الوكالات أغلبها في القاهرة الكبرى"
+      }
+    ]
+  },
+  "global": {
+    "en": "Arabic content reaches viewers across the region, and Gulf brands work with Egyptian creators. Skills in editing and storytelling also lead to agency jobs abroad.",
+    "ar": "المحتوى العربي بيوصل لمشاهدين في المنطقة كلها، وبراندات الخليج بتتعامل مع صناع محتوى مصريين. ومهارات المونتاج والحكي بتوصّل كمان لشغل في وكالات برّه."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Low cost to start",
+        "ar": "البداية تكلفتها قليلة"
+      },
+      {
+        "en": "Your own voice and ideas",
+        "ar": "صوتك وأفكارك إنت"
+      },
+      {
+        "en": "Skills useful in marketing jobs",
+        "ar": "مهارات بتنفع في وظايف التسويق"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Income is uncertain and can take years to build",
+        "ar": "الدخل مش مضمون وممكن ياخد سنين يتبني"
+      },
+      {
+        "en": "Algorithms change without warning",
+        "ar": "الخوارزميات بتتغير من غير إنذار"
+      },
+      {
+        "en": "Online criticism and pressure to post often",
+        "ar": "نقد على النت وضغط إنك تنشر كتير"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Going viral once means success.",
+          "ar": "لو فيديو ضرب مرة يبقى نجحت."
+        },
+        "fact": {
+          "en": "Steady growth comes from consistent, useful content over time.",
+          "ar": "النمو الثابت بييجي من محتوى مفيد ومستمر على مدار وقت."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need expensive equipment.",
+          "ar": "محتاج معدات غالية."
+        },
+        "fact": {
+          "en": "A phone, good light and clear sound are enough to start.",
+          "ar": "موبايل ونور كويس وصوت واضح كفاية في الأول."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "You set your hours, but the work can spill into evenings and weekends, and it is easy to never switch off.",
+      "ar": "إنت بتحدد مواعيدك، بس الشغل ممكن يدخل في الليل والإجازات، وسهل إنك ما تفصلش أبدًا."
+    }
   },
   "progression": {
     "relatedCareerIds": [

@@ -2,8 +2,8 @@
   "id": "clinical_nutritionist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You help people eat in a way that protects their health.",
@@ -111,6 +111,162 @@
     "licensing": {
       "en": "Working in hospitals and clinics normally requires a relevant university degree, and the rules for licensing health professions in Egypt keep changing. Check the current requirements with the Ministry of Health and the Faculty you choose.",
       "ar": "العمل في المستشفيات والعيادات يتطلب عادة مؤهلًا جامعيًا مناسبًا، وقواعد ترخيص المهن الصحية في مصر تتغير باستمرار. تأكد من الشروط الحالية من وزارة الصحة ومن الكلية التي تختارها."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Clinical nutrition for diseases such as diabetes and kidney disease",
+        "ar": "التغذية العلاجية لأمراض مثل السكري وأمراض الكلى"
+      },
+      {
+        "en": "Assessing diet, weight and lab results",
+        "ar": "تقييم النظام الغذائي والوزن ونتائج التحاليل"
+      },
+      {
+        "en": "Building meal plans that fit local food and budgets",
+        "ar": "بناء أنظمة أكل تناسب الأكل المحلي والميزانية"
+      },
+      {
+        "en": "Food safety basics",
+        "ar": "أساسيات سلامة الغذاء"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Listening without judging",
+        "ar": "الاستماع من غير أحكام"
+      },
+      {
+        "en": "Motivating people to change habits",
+        "ar": "تحفيز الناس على تغيير عاداتهم"
+      },
+      {
+        "en": "Working in a medical team",
+        "ar": "الشغل ضمن فريق طبي"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: patients and families",
+        "ar": "العربية: المرضى وأسرهم"
+      },
+      {
+        "en": "English: medical guidelines and research",
+        "ar": "الإنجليزية: الإرشادات الطبية والأبحاث"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "WHO: nutrition",
+        "url": "https://www.who.int/health-topics/nutrition",
+        "free": true
+      },
+      {
+        "title": "Coursera: nutrition and health courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt lists only a \"Nutrition Assistant\" title, which is a different, lower role, so we do not show a number for clinical nutritionists. Pay differs between hospitals and private clinics.",
+      "ar": "لا يضم Paylab مصر إلا مسمى «مساعد تغذية»، وهو دور مختلف وأقل، لذلك لا نعرض رقمًا لأخصائي التغذية العلاجية. ويختلف الأجر بين المستشفيات والعيادات الخاصة."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Hospitals and dialysis centres",
+        "ar": "المستشفيات ومراكز الغسيل الكلوي"
+      },
+      {
+        "en": "Private nutrition and obesity clinics",
+        "ar": "عيادات التغذية والسمنة الخاصة"
+      },
+      {
+        "en": "Gyms and sports clubs",
+        "ar": "الجيمات والنوادي الرياضية"
+      },
+      {
+        "en": "Food companies",
+        "ar": "شركات الأغذية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many nutritionists run private clinics or online consultations and diet plans. Online work needs care: serious medical cases should be seen with a doctor.",
+      "ar": "أخصائيين تغذية كتير بيفتحوا عيادات خاصة أو بيعملوا استشارات وأنظمة أكل أونلاين. والشغل أونلاين محتاج حرص: الحالات الطبية الخطيرة لازم تتابع مع دكتور."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria and other large cities",
+        "ar": "الإسكندرية والمدن الكبيرة التانية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf hospitals and clinics hire nutritionists, usually with a licence exam and a few years of experience.",
+    "ar": "مستشفيات وعيادات الخليج بتعيّن أخصائيين تغذية، غالبًا بامتحان ترخيص وكام سنة خبرة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Helps people live healthier lives",
+        "ar": "بتساعد الناس يعيشوا أصح"
+      },
+      {
+        "en": "Growing interest in diet and fitness",
+        "ar": "اهتمام بيزيد بالأكل الصحي واللياقة"
+      },
+      {
+        "en": "Private practice is possible",
+        "ar": "الشغل الخاص ممكن"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Competition from unqualified \"diet coaches\" online",
+        "ar": "منافسة من «كوتشات دايت» مش متأهلين على النت"
+      },
+      {
+        "en": "Patients may not follow the plan",
+        "ar": "المرضى ممكن ما يلتزموش بالخطة"
+      },
+      {
+        "en": "Hospital pay can be modest",
+        "ar": "مرتب المستشفيات ممكن يبقى متواضع"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Nutrition is only about losing weight.",
+          "ar": "التغذية يعني تخسيس وبس."
+        },
+        "fact": {
+          "en": "Clinical nutrition treats diseases such as diabetes, kidney disease and malnutrition.",
+          "ar": "التغذية العلاجية بتعالج أمراض زي السكر والكلى وسوء التغذية."
+        }
+      },
+      {
+        "myth": {
+          "en": "Anyone with a course can give diets.",
+          "ar": "أي حد معاه كورس يقدر يعمل دايت."
+        },
+        "fact": {
+          "en": "Patients with illnesses need a qualified nutritionist working with doctors.",
+          "ar": "المرضى محتاجين أخصائي متأهّل بيشتغل مع الدكاترة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Hospital roles follow shifts; clinics often work evenings when patients are free.",
+      "ar": "شغل المستشفيات بالشيفتات؛ والعيادات غالبًا بالليل لما المرضى يبقوا فاضيين."
     }
   },
   "progression": {

@@ -2,8 +2,8 @@
   "id": "supply_chain_specialist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You make sure the right goods arrive at the right place at the right time.",
@@ -121,6 +121,177 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Planning stock and demand",
+        "ar": "تخطيط المخزون والطلب"
+      },
+      {
+        "en": "Purchasing and supplier management",
+        "ar": "المشتريات وإدارة الموردين"
+      },
+      {
+        "en": "Excel and ERP systems (e.g. SAP)",
+        "ar": "Excel وأنظمة ERP (زي SAP)"
+      },
+      {
+        "en": "Shipping, customs and warehousing basics",
+        "ar": "أساسيات الشحن والجمارك والمخازن"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Solving problems under time pressure",
+        "ar": "حل المشاكل تحت ضغط الوقت"
+      },
+      {
+        "en": "Negotiation",
+        "ar": "التفاوض"
+      },
+      {
+        "en": "Coordination across teams",
+        "ar": "التنسيق بين الفرق"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: suppliers, systems and shipping documents",
+        "ar": "الإنجليزية: الموردون والأنظمة ومستندات الشحن"
+      },
+      {
+        "en": "Arabic: local suppliers, drivers and warehouses",
+        "ar": "العربية: الموردون المحليون والسائقون والمخازن"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "APICS / ASCM or CIPS (later in your career)",
+        "ar": "APICS / ASCM أو CIPS (في مرحلة لاحقة)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "ASCM: supply chain resources",
+        "url": "https://www.ascm.org",
+        "free": true
+      },
+      {
+        "title": "Coursera: supply chain courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12169,
+        "max": 37672
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/transport-haulage-logistics?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Supply Chain Specialist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Supply Chain Specialist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Food and consumer goods companies",
+        "ar": "شركات الأغذية والسلع الاستهلاكية"
+      },
+      {
+        "en": "Logistics and shipping companies",
+        "ar": "شركات اللوجستيات والشحن"
+      },
+      {
+        "en": "Pharma and manufacturing",
+        "ar": "الأدوية والتصنيع"
+      },
+      {
+        "en": "E-commerce and retail",
+        "ar": "التجارة الإلكترونية والتجزئة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly full-time jobs. Planning and analysis roles are sometimes hybrid.",
+      "ar": "غالبًا وظايف بدوام كامل. ووظايف التخطيط والتحليل أحيانًا هايبرد."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Industrial zones and ports (Alexandria, Suez Canal)",
+        "ar": "المناطق الصناعية والموانئ (الإسكندرية وقناة السويس)"
+      }
+    ]
+  },
+  "global": {
+    "en": "Supply chain skills are in demand in the Gulf, where logistics hubs are growing; SAP and English help a lot.",
+    "ar": "مهارات سلاسل الإمداد مطلوبة في الخليج، اللي مراكز اللوجستيات فيه بتكبر؛ وSAP والإنجليزي بيفرقوا جامد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Needed in almost every industry",
+        "ar": "مطلوب في كل الصناعات تقريبًا"
+      },
+      {
+        "en": "Clear path from coordinator to manager",
+        "ar": "طريق واضح من منسق لمدير"
+      },
+      {
+        "en": "Mix of numbers and people",
+        "ar": "خليط من الأرقام والناس"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Delays and shortages land on you",
+        "ar": "التأخير والنقص بيقع عليك"
+      },
+      {
+        "en": "Pressure around imports and prices",
+        "ar": "ضغط حوالين الاستيراد والأسعار"
+      },
+      {
+        "en": "Long days at month end",
+        "ar": "أيام طويلة آخر الشهر"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Supply chain is just warehouses and trucks.",
+          "ar": "سلاسل الإمداد يعني مخازن وعربيات وبس."
+        },
+        "fact": {
+          "en": "Much of the work is planning, data and negotiation.",
+          "ar": "أغلب الشغل تخطيط وبيانات وتفاوض."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a specific degree.",
+          "ar": "لازم شهادة معينة."
+        },
+        "fact": {
+          "en": "Commerce, engineering and many other graduates enter the field.",
+          "ar": "خريجين تجارة وهندسة وتخصصات تانية كتير بيدخلوا المجال."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours with busy peaks; problems with shipments do not wait.",
+      "ar": "مواعيد مكتب مع فترات زحمة؛ ومشاكل الشحنات ما بتستناش."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "management_consultant",
@@ -169,6 +340,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Supply Chain Specialist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/transport-haulage-logistics?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

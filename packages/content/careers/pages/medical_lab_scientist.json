@@ -2,8 +2,8 @@
   "id": "medical_lab_scientist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "Behind most diagnoses is someone who ran the test.",
@@ -117,6 +117,173 @@
       "ar": "العمل في تحليل عينات المرضى تنظمه وزارة الصحة، والترخيص أو النقابة المطلوبة يعتمدان على مؤهلك. القواعد تتغير، فتأكد من وزارة الصحة ومن كليتك."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Haematology, chemistry and microbiology testing",
+        "ar": "تحاليل الدم والكيمياء والميكروبيولوجي"
+      },
+      {
+        "en": "Running and calibrating analysers",
+        "ar": "تشغيل أجهزة التحليل ومعايرتها"
+      },
+      {
+        "en": "Quality control in the lab",
+        "ar": "مراقبة الجودة في المعمل"
+      },
+      {
+        "en": "Biosafety and infection control",
+        "ar": "الأمان الحيوي ومكافحة العدوى"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Accuracy under pressure",
+        "ar": "الدقة تحت الضغط"
+      },
+      {
+        "en": "Clear, fast reporting of urgent results",
+        "ar": "تبليغ النتايج العاجلة بسرعة ووضوح"
+      },
+      {
+        "en": "Teamwork with doctors and nurses",
+        "ar": "الشغل مع الدكاترة والتمريض"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: test names, reports and analysers",
+        "ar": "الإنجليزية: أسماء التحاليل والتقارير والأجهزة"
+      },
+      {
+        "en": "Arabic: patients and colleagues",
+        "ar": "العربية: المرضى والزملاء"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Lab quality and accreditation courses (ISO 15189)",
+        "ar": "دورات جودة واعتماد المعامل (ISO 15189)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Lab Tests Online: what tests measure",
+        "url": "https://www.testing.com",
+        "free": true
+      },
+      {
+        "title": "WHO: laboratory quality management",
+        "url": "https://www.who.int/publications/i/item/9789241548274",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9310,
+        "max": 18363
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/medical-laboratory-technician?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Medical Laboratory Technician\". Paylab's own figure for someone with 5 years of experience is about 13,620 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Medical Laboratory Technician» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 13,620 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Hospital laboratories",
+        "ar": "معامل المستشفيات"
+      },
+      {
+        "en": "Private lab chains",
+        "ar": "سلاسل المعامل الخاصة"
+      },
+      {
+        "en": "Blood banks and research centres",
+        "ar": "بنوك الدم ومراكز الأبحاث"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Lab work is on site. Some specialists do home sample collection or shifts in more than one lab.",
+      "ar": "شغل المعمل في المكان نفسه. وفيه متخصصين بيعملوا سحب عينات من البيوت أو شيفتات في أكتر من معمل."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      },
+      {
+        "en": "Larger private labs in big cities",
+        "ar": "المعامل الخاصة الكبيرة في المدن الكبيرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf hospitals and labs hire lab specialists after licence exams; experience with automated analysers helps.",
+    "ar": "مستشفيات ومعامل الخليج بتعيّن أخصائيين معامل بعد امتحانات الترخيص؛ والخبرة على أجهزة التحليل الأوتوماتيك بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Every hospital and town needs labs",
+        "ar": "كل مستشفى وكل بلد محتاجة معامل"
+      },
+      {
+        "en": "Science that guides treatment",
+        "ar": "علم بيوجّه العلاج"
+      },
+      {
+        "en": "Clear specialties to grow into",
+        "ar": "تخصصات واضحة تكبر فيها"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Night and weekend shifts",
+        "ar": "شيفتات بالليل وفي الإجازات"
+      },
+      {
+        "en": "Handling infectious samples",
+        "ar": "التعامل مع عينات معدية"
+      },
+      {
+        "en": "Pay is modest at first",
+        "ar": "المرتب متواضع في الأول"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Machines do all the work now.",
+          "ar": "الأجهزة بتعمل كل الشغل دلوقتي."
+        },
+        "fact": {
+          "en": "Specialists check quality, spot wrong results and run tests machines cannot.",
+          "ar": "الأخصائيين بيراجعوا الجودة ويمسكوا النتايج الغلط ويعملوا تحاليل الأجهزة ما بتعملهاش."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is a job without contact with people.",
+          "ar": "شغلانة من غير تعامل مع ناس."
+        },
+        "fact": {
+          "en": "Collecting samples and calling doctors with urgent results are part of it.",
+          "ar": "سحب العينات وتبليغ الدكاترة بالنتايج العاجلة جزء منها."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shift work in hospitals; private labs often run long hours including evenings.",
+      "ar": "شيفتات في المستشفيات؛ والمعامل الخاصة غالبًا شغالة ساعات طويلة ومنها بالليل."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "pharmacist",
@@ -160,6 +327,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Medical Laboratory Technician salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/medical-laboratory-technician?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "id": "special_education_specialist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You help every child learn in the way that works for them.",
@@ -119,6 +119,167 @@
       "ar": "التدريس في المدارس الحكومية يكون عبر تعيينات وزارة التربية والتعليم، وتضع المراكز الخاصة والمدارس الخاصة شروط توظيفها. وتعمل مصر على تطوير منظومة ترخيص للمعلمين ومهن تعليمية أخرى، فتأكد من القواعد الحالية لدى وزارة التربية والتعليم والمركز الذي تريد العمل فيه."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Individual education plans",
+        "ar": "الخطط التعليمية الفردية"
+      },
+      {
+        "en": "Teaching methods for different needs (autism, learning difficulties)",
+        "ar": "طرق تدريس لاحتياجات مختلفة (توحد وصعوبات تعلم)"
+      },
+      {
+        "en": "Observing and recording progress",
+        "ar": "الملاحظة وتسجيل التقدم"
+      },
+      {
+        "en": "Behaviour support",
+        "ar": "دعم السلوك"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Very high patience",
+        "ar": "صبر عالي جدًا"
+      },
+      {
+        "en": "Celebrating small steps",
+        "ar": "الفرحة بالخطوات الصغيرة"
+      },
+      {
+        "en": "Working closely with families",
+        "ar": "الشغل قريب من الأسر"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: children and families",
+        "ar": "العربية: الأطفال والأسر"
+      },
+      {
+        "en": "English: training, assessments and international schools",
+        "ar": "الإنجليزية: التدريب والتقييمات والمدارس الدولية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Understood.org: learning and thinking differences",
+        "url": "https://www.understood.org",
+        "free": true
+      },
+      {
+        "title": "UNICEF: inclusive education",
+        "url": "https://www.unicef.org/education/inclusive-education",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11269,
+        "max": 19245
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research/special-needs-teacher?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Special Needs Teacher\". Paylab's own figure for someone with 5 years of experience is about 18,037 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Special Needs Teacher» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 18,037 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Special education and therapy centres",
+        "ar": "مراكز التربية الخاصة والتأهيل"
+      },
+      {
+        "en": "Inclusive private and international schools",
+        "ar": "المدارس الخاصة والدولية اللي فيها دمج"
+      },
+      {
+        "en": "Shadow teaching with families",
+        "ar": "شادو تيتشر مع الأسر"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Home sessions and shadow teaching are common, and many specialists combine a centre job with private sessions.",
+      "ar": "الجلسات في البيت والشادو تيتشر منتشرين، وأخصائيين كتير بيجمعوا بين شغل في مركز وجلسات خاصة."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria",
+        "ar": "القاهرة الكبرى والإسكندرية"
+      },
+      {
+        "en": "Growing in other cities",
+        "ar": "بتكبر في مدن تانية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf schools and centres hire Arabic-speaking special education specialists, especially with recognised training.",
+    "ar": "مدارس ومراكز الخليج بتعيّن أخصائيين تربية خاصة بيتكلموا عربي، خصوصًا اللي عندهم تدريب معترف بيه."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Deep, visible impact on a child",
+        "ar": "تأثير عميق وواضح على الطفل"
+      },
+      {
+        "en": "Demand is growing",
+        "ar": "الطلب بيزيد"
+      },
+      {
+        "en": "Private sessions add income",
+        "ar": "الجلسات الخاصة بتزوّد الدخل"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Progress can be slow",
+        "ar": "التقدم ممكن يكون بطيء"
+      },
+      {
+        "en": "Emotionally and physically tiring",
+        "ar": "متعب نفسيًا وجسديًا"
+      },
+      {
+        "en": "Quality of training varies a lot",
+        "ar": "جودة التدريب بتختلف كتير"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "These children cannot learn.",
+          "ar": "الأطفال دول مش بيتعلموا."
+        },
+        "fact": {
+          "en": "With the right methods, every child can make progress.",
+          "ar": "بالطرق الصح كل طفل يقدر يتقدم."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is the same as babysitting.",
+          "ar": "دي زي جليسة الأطفال."
+        },
+        "fact": {
+          "en": "It is planned teaching with goals and measurement.",
+          "ar": "ده تدريس مخطط بأهداف وقياس."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Centre or school hours, plus evening home sessions for many.",
+      "ar": "مواعيد المركز أو المدرسة، وكتير بيزوّدوا جلسات في البيوت بالليل."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "teacher",
@@ -167,6 +328,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Special Needs Teacher salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/education-science-research/special-needs-teacher?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

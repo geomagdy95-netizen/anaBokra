@@ -2,8 +2,8 @@
   "id": "cloud_devops_engineer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You keep the internet services people rely on running day and night.",
@@ -119,6 +119,186 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Linux, networking and scripting (Bash or Python)",
+        "ar": "لينكس والشبكات والسكريبتات (Bash أو Python)"
+      },
+      {
+        "en": "Cloud platforms such as AWS, Azure or Google Cloud",
+        "ar": "منصات الكلاود مثل AWS وAzure وGoogle Cloud"
+      },
+      {
+        "en": "Containers and CI/CD (Docker, Kubernetes, pipelines)",
+        "ar": "الحاويات وCI/CD (Docker وKubernetes وخطوط النشر)"
+      },
+      {
+        "en": "Monitoring, security and cost control",
+        "ar": "المراقبة والأمن والتحكم في التكلفة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Staying calm during outages",
+        "ar": "الهدوء وقت الأعطال"
+      },
+      {
+        "en": "Writing clear documentation",
+        "ar": "كتابة توثيق واضح"
+      },
+      {
+        "en": "Working with developers and security teams",
+        "ar": "الشغل مع المبرمجين وفرق الأمن"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: documentation, tools and international teams",
+        "ar": "الإنجليزية: التوثيق والأدوات والفرق الدولية"
+      },
+      {
+        "en": "Arabic: local teams",
+        "ar": "العربية: الفرق المحلية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "AWS, Azure or Google Cloud certificates",
+        "ar": "شهادات AWS أو Azure أو Google Cloud"
+      },
+      {
+        "en": "Kubernetes certificates (CKA)",
+        "ar": "شهادات Kubernetes (CKA)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "AWS Skill Builder: free cloud training",
+        "url": "https://skillbuilder.aws",
+        "free": true
+      },
+      {
+        "title": "Microsoft Learn: Azure fundamentals",
+        "url": "https://learn.microsoft.com",
+        "free": true
+      },
+      {
+        "title": "The Linux Foundation: free courses",
+        "url": "https://training.linuxfoundation.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 15874,
+        "max": 80830
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology/devops-engineer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"DevOps Engineer\". Paylab's own figure for someone with 5 years of experience is about 75,116 EGP. The survey has 27 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «DevOps Engineer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 75,116 جنيهًا. يضم الاستبيان 27 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Software and tech companies",
+        "ar": "شركات البرمجيات والتكنولوجيا"
+      },
+      {
+        "en": "Banks, telecoms and e-commerce",
+        "ar": "البنوك والاتصالات والتجارة الإلكترونية"
+      },
+      {
+        "en": "Outsourcing companies serving foreign clients",
+        "ar": "شركات الأوتسورسنج اللي بتخدم عملاء برّه"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Remote work is common, including for foreign companies. Freelance cloud setup and cost reviews exist, but most roles are full-time because systems need constant care.",
+      "ar": "الشغل من البيت منتشر، ومنه لشركات برّه. وفيه فري لانس في تجهيز الكلاود ومراجعة التكاليف، بس أغلب الوظايف بدوام كامل لأن الأنظمة محتاجة متابعة على طول."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo (including Smart Village and New Cairo)",
+        "ar": "القاهرة الكبرى (ومنها القرية الذكية والقاهرة الجديدة)"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Remote for foreign companies",
+        "ar": "عن بعد لشركات برّه"
+      }
+    ]
+  },
+  "global": {
+    "en": "Cloud and DevOps skills are in demand worldwide and certificates are recognised everywhere. Many Egyptians work remotely for European, Gulf and US companies.",
+    "ar": "مهارات الكلاود والـDevOps مطلوبة في العالم كله، والشهادات معترف بيها في كل حتة. ومصريين كتير بيشتغلوا من البيت لشركات أوروبية وخليجية وأمريكية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Strong demand and pay growth",
+        "ar": "طلب قوي ومرتب بيكبر"
+      },
+      {
+        "en": "Remote and international options",
+        "ar": "فرص شغل من البيت ومع شركات برّه"
+      },
+      {
+        "en": "You can start from IT support",
+        "ar": "تقدر تبدأ من الدعم الفني"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "On-call nights when systems fail",
+        "ar": "مناوبات بالليل لما الأنظمة تقع"
+      },
+      {
+        "en": "Tools change fast",
+        "ar": "الأدوات بتتغير بسرعة"
+      },
+      {
+        "en": "Few true entry-level roles",
+        "ar": "وظايف المبتدئين الحقيقية قليلة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "DevOps is just a job title for system admins.",
+          "ar": "الـDevOps مجرد اسم جديد لمسؤول الأنظمة."
+        },
+        "fact": {
+          "en": "It joins development and operations through automation, testing and shared responsibility.",
+          "ar": "بيربط التطوير بالتشغيل عن طريق الأتمتة والاختبار والمسؤولية المشتركة."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a computer science degree.",
+          "ar": "لازم شهادة علوم حاسب."
+        },
+        "fact": {
+          "en": "Many start from networking or support and learn cloud with certificates and projects.",
+          "ar": "كتير بيبدأوا من الشبكات أو الدعم الفني ويتعلموا الكلاود بالشهادات والمشاريع."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually regular or hybrid hours, with on-call weeks and late releases.",
+      "ar": "غالبًا مواعيد منتظمة أو هايبرد، مع أسابيع أون كول وإطلاقات متأخرة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "software_engineer",
@@ -168,6 +348,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: DevOps Engineer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/information-technology/devops-engineer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

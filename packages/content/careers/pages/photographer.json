@@ -2,8 +2,8 @@
   "id": "photographer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You freeze moments that people want to remember.",
@@ -117,6 +117,171 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Light, composition and camera settings",
+        "ar": "الإضاءة والتكوين وإعدادات الكاميرا"
+      },
+      {
+        "en": "Editing in Lightroom or Photoshop",
+        "ar": "التعديل على Lightroom أو Photoshop"
+      },
+      {
+        "en": "Studio and flash lighting",
+        "ar": "إضاءة الاستوديو والفلاش"
+      },
+      {
+        "en": "File management and backups",
+        "ar": "تنظيم الملفات والنسخ الاحتياطي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Directing people so they feel at ease",
+        "ar": "توجيه الناس بحيث يكونوا مرتاحين"
+      },
+      {
+        "en": "Business skills: pricing and finding clients",
+        "ar": "مهارات البيزنس: التسعير وإيجاد العملاء"
+      },
+      {
+        "en": "Reliability on important days",
+        "ar": "إنك تكون موجود ويتعتمد عليك في الأيام المهمة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: local clients and events",
+        "ar": "العربية: العملاء المحليون والمناسبات"
+      },
+      {
+        "en": "English: stock sites, brands and foreign clients",
+        "ar": "الإنجليزية: مواقع الصور والبراندات والعملاء الأجانب"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Cambridge in Colour: free photography tutorials",
+        "url": "https://www.cambridgeincolour.com/tutorials.htm",
+        "free": true
+      },
+      {
+        "title": "Adobe: Lightroom Classic learn & support",
+        "url": "https://helpx.adobe.com/support/lightroom-classic.html",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8430,
+        "max": 22342
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/arts-culture/photographer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Photographer\". Paylab's own figure for someone with 5 years of experience is about 17,743 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Photographer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 17,743 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Self-employed (weddings, events, portraits)",
+        "ar": "لحسابك (أفراح ومناسبات وبورتريه)"
+      },
+      {
+        "en": "Studios and advertising agencies",
+        "ar": "الاستوديوهات ووكالات الإعلان"
+      },
+      {
+        "en": "E-commerce and product brands",
+        "ar": "التجارة الإلكترونية وبراندات المنتجات"
+      },
+      {
+        "en": "News and media outlets",
+        "ar": "المؤسسات الإخبارية والإعلامية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most photographers are freelance. Product photography for online shops, events and weddings provide steady work, and some sell images on stock sites.",
+      "ar": "أغلب المصورين فري لانس. وتصوير المنتجات للمتاجر الأونلاين والمناسبات والأفراح بيدّي شغل ثابت، وفيه اللي بيبيع صور على مواقع الصور."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      },
+      {
+        "en": "Most commercial work in Greater Cairo",
+        "ar": "أغلب الشغل التجاري في القاهرة الكبرى"
+      }
+    ]
+  },
+  "global": {
+    "en": "Photography is portfolio-driven and global; Egyptian photographers work for Gulf brands and international clients, and travel photography can open doors abroad.",
+    "ar": "التصوير بيعتمد على البورتفوليو وعالمي؛ ومصورين مصريين بيشتغلوا لبراندات خليجية وعملاء دوليين، وتصوير السفر ممكن يفتح أبواب برّه."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative work and flexible hours",
+        "ar": "شغل إبداعي ومواعيد مرنة"
+      },
+      {
+        "en": "Low cost to start compared with many businesses",
+        "ar": "البداية تكلفتها قليلة جنب بيزنسات كتير"
+      },
+      {
+        "en": "Many niches: weddings, food, products, sport",
+        "ar": "مجالات كتير: أفراح وأكل ومنتجات ورياضة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Irregular income",
+        "ar": "دخل مش منتظم"
+      },
+      {
+        "en": "Equipment is expensive to upgrade",
+        "ar": "تحديث المعدات غالي"
+      },
+      {
+        "en": "Strong competition and low prices",
+        "ar": "منافسة جامدة وأسعار قليلة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A good camera makes a good photographer.",
+          "ar": "الكاميرا الحلوة بتعمل مصور حلو."
+        },
+        "fact": {
+          "en": "Light, timing and editing matter more than the camera.",
+          "ar": "الإضاءة والتوقيت والتعديل أهم من الكاميرا."
+        }
+      },
+      {
+        "myth": {
+          "en": "Phones killed photography jobs.",
+          "ar": "الموبايلات موّتت شغل التصوير."
+        },
+        "fact": {
+          "en": "Brands and events still pay for professional quality and reliability.",
+          "ar": "البراندات والمناسبات لسه بتدفع للجودة الاحترافية والالتزام."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Weekends and evenings are busy (events), and editing happens late. You set your own schedule otherwise.",
+      "ar": "الإجازات والليل زحمة (مناسبات)، والتعديل بيتعمل متأخر. وغير كده بتحدد جدولك بنفسك."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "film_producer",
@@ -165,6 +330,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Photographer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/arts-culture/photographer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

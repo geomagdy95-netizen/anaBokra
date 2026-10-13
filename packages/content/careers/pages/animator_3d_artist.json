@@ -2,8 +2,8 @@
   "id": "animator_3d_artist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You make drawings and models come alive.",
@@ -117,6 +117,167 @@
       }
     ],
     "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Drawing, storyboarding and timing",
+        "ar": "الرسم والستوري بورد والتوقيت"
+      },
+      {
+        "en": "3D modelling, texturing and lighting",
+        "ar": "النمذجة ثلاثية الأبعاد والخامات والإضاءة"
+      },
+      {
+        "en": "Character animation and rigging",
+        "ar": "تحريك الشخصيات والريجنج"
+      },
+      {
+        "en": "Software such as Blender, Maya or After Effects",
+        "ar": "برامج مثل Blender أو Maya أو After Effects"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Taking feedback and revising",
+        "ar": "تقبّل الملاحظات والتعديل"
+      },
+      {
+        "en": "Patience with detailed work",
+        "ar": "الصبر على التفاصيل"
+      },
+      {
+        "en": "Working to deadlines in a team",
+        "ar": "الالتزام بالمواعيد مع فريق"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: software, tutorials and foreign clients",
+        "ar": "الإنجليزية: البرامج والدروس والعملاء الأجانب"
+      },
+      {
+        "en": "Arabic: local agencies and productions",
+        "ar": "العربية: الوكالات والإنتاج المحلي"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Blender: free tutorials",
+        "url": "https://www.blender.org/support/tutorials/",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Pixar in a Box",
+        "url": "https://www.khanacademy.org/computing/pixar",
+        "free": true
+      },
+      {
+        "title": "Behance: browse animation portfolios",
+        "url": "https://www.behance.net",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt does not publish a figure for animators or 3D artists (its \"VFX artist\" title has no data), so we do not show a number. Pay varies widely between studios, agencies and freelance projects.",
+      "ar": "لا ينشر Paylab مصر رقمًا لفناني الأنيميشن أو ثلاثي الأبعاد (ومسمى «VFX artist» بلا بيانات)، لذلك لا نعرض رقمًا. ويختلف الأجر كثيرًا بين الاستوديوهات والوكالات والمشروعات الحرة."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Animation and post-production studios",
+        "ar": "استوديوهات الأنيميشن وما بعد الإنتاج"
+      },
+      {
+        "en": "Advertising agencies",
+        "ar": "وكالات الإعلان"
+      },
+      {
+        "en": "Game studios",
+        "ar": "استوديوهات الألعاب"
+      },
+      {
+        "en": "TV channels and online platforms",
+        "ar": "القنوات التلفزيونية والمنصات الرقمية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance and remote work are very common: ads, explainer videos, game assets and social media content for clients in Egypt, the Gulf and abroad. Income can be irregular.",
+      "ar": "الفري لانس والشغل من البيت منتشرين جدًا: إعلانات، وفيديوهات شرح، وعناصر ألعاب، ومحتوى سوشيال لعملاء في مصر والخليج وبرّه. والدخل ممكن يبقى مش منتظم."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Remote, for clients anywhere",
+        "ar": "عن بعد لعملاء في أي مكان"
+      }
+    ]
+  },
+  "global": {
+    "en": "Animation is a global, portfolio-driven field. Gulf studios and international companies hire remotely, and a strong demo reel matters more than where you studied.",
+    "ar": "الأنيميشن مجال عالمي بيعتمد على البورتفوليو. استوديوهات في الخليج وشركات دولية بتعيّن من بعيد، والديمو ريل القوي أهم من إنت درست فين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative work people see on screens",
+        "ar": "شغل إبداعي الناس بتشوفه على الشاشات"
+      },
+      {
+        "en": "You can start learning for free",
+        "ar": "تقدر تبدأ تتعلم ببلاش"
+      },
+      {
+        "en": "Remote work is possible",
+        "ar": "الشغل من البيت ممكن"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Competition is strong and early pay can be low",
+        "ar": "المنافسة جامدة والمرتب في الأول ممكن يبقى قليل"
+      },
+      {
+        "en": "Many revisions and tight deadlines",
+        "ar": "تعديلات كتير ومواعيد ضيقة"
+      },
+      {
+        "en": "AI tools are changing routine tasks",
+        "ar": "أدوات الذكاء الاصطناعي بتغيّر الشغل الروتيني"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You need an expensive computer to start.",
+          "ar": "محتاج كمبيوتر غالي عشان تبدأ."
+        },
+        "fact": {
+          "en": "Free software like Blender runs on ordinary laptops for learning.",
+          "ar": "برامج ببلاش زي Blender بتشتغل على لابتوب عادي في التعلم."
+        }
+      },
+      {
+        "myth": {
+          "en": "Animation is just for cartoons.",
+          "ar": "الأنيميشن للكرتون بس."
+        },
+        "fact": {
+          "en": "It is used in ads, games, architecture, education and medicine too.",
+          "ar": "بيتستخدم في الإعلانات والألعاب والعمارة والتعليم والطب كمان."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Studio jobs have office hours with busy periods before deliveries. Freelancers set their own hours but often work late near deadlines.",
+      "ar": "شغل الاستوديوهات بمواعيد مكتب مع فترات ضغط قبل التسليم. والفري لانسرز بيحددوا مواعيدهم بس كتير بيسهروا قرب الديدلاين."
+    }
   },
   "progression": {
     "relatedCareerIds": [

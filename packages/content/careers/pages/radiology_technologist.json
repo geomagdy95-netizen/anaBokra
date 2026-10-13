@@ -2,8 +2,8 @@
   "id": "radiology_technologist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You take the pictures that let doctors see inside the body.",
@@ -115,6 +115,173 @@
       "ar": "العمل بالإشعاع تحكمه قواعد الأمان الإشعاعي في مصر، وتحتاج أقسام الأشعة إلى موافقات من الجهات المختصة. الترخيص الذي تحتاجه شخصيًا يعتمد على مؤهلك وجهة عملك، فتأكد من وزارة الصحة ومن كليتك."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Patient positioning for X-ray, CT and MRI",
+        "ar": "وضع المريض للأشعة العادية والمقطعية والرنين"
+      },
+      {
+        "en": "Radiation protection",
+        "ar": "الوقاية من الإشعاع"
+      },
+      {
+        "en": "Image quality checks",
+        "ar": "فحص جودة الصور"
+      },
+      {
+        "en": "PACS and imaging systems",
+        "ar": "نظام PACS وأنظمة التصوير"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calming nervous patients and children",
+        "ar": "تهدئة المرضى القلقانين والأطفال"
+      },
+      {
+        "en": "Working quickly and safely",
+        "ar": "الشغل بسرعة وأمان"
+      },
+      {
+        "en": "Teamwork with radiologists",
+        "ar": "الشغل مع دكاترة الأشعة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: patients",
+        "ar": "العربية: المرضى"
+      },
+      {
+        "en": "English: requests, reports and machine software",
+        "ar": "الإنجليزية: الطلبات والتقارير وبرامج الأجهزة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Radiation safety and modality courses (CT, MRI)",
+        "ar": "دورات الوقاية من الإشعاع والتخصص (مقطعية ورنين)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Radiopaedia: free radiology reference",
+        "url": "https://radiopaedia.org",
+        "free": true
+      },
+      {
+        "title": "IAEA: radiation protection of patients",
+        "url": "https://www.iaea.org/resources/rpop",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9928,
+        "max": 23576
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/radiographer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Radiographer\". Paylab's own figure for someone with 5 years of experience is about 17,490 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Radiographer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 17,490 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Public and private hospitals",
+        "ar": "المستشفيات الحكومية والخاصة"
+      },
+      {
+        "en": "Radiology centres and chains",
+        "ar": "مراكز وسلاسل الأشعة"
+      },
+      {
+        "en": "Medical equipment companies (application specialists)",
+        "ar": "شركات الأجهزة الطبية (أخصائي تطبيقات)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Imaging is done on site. Many technologists work shifts in more than one centre.",
+      "ar": "الأشعة بتتعمل في المكان نفسه. وأخصائيين كتير بيشتغلوا شيفتات في أكتر من مركز."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      },
+      {
+        "en": "More CT and MRI jobs in big cities",
+        "ar": "وظايف مقطعية ورنين أكتر في المدن الكبيرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf hospitals hire radiology technologists after licence exams; CT and MRI experience raises demand.",
+    "ar": "مستشفيات الخليج بتعيّن أخصائيين أشعة بعد امتحانات الترخيص؛ والخبرة في المقطعية والرنين بتزوّد الطلب."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "High-tech work with patients",
+        "ar": "شغل فيه تكنولوجيا عالية مع المرضى"
+      },
+      {
+        "en": "Needed in every hospital",
+        "ar": "مطلوب في كل مستشفى"
+      },
+      {
+        "en": "Specialties that raise your value",
+        "ar": "تخصصات بتزوّد قيمتك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Night and weekend shifts",
+        "ar": "شيفتات بالليل وفي الإجازات"
+      },
+      {
+        "en": "Radiation safety must never slip",
+        "ar": "الوقاية من الإشعاع ما ينفعش تتهاون"
+      },
+      {
+        "en": "Busy, physical days",
+        "ar": "أيام زحمة ومتعبة جسديًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Radiology staff just press a button.",
+          "ar": "أخصائي الأشعة بيدوس على زرار وبس."
+        },
+        "fact": {
+          "en": "Positioning, settings and safety decide whether the image is useful.",
+          "ar": "وضع المريض والإعدادات والسلامة هما اللي بيحددوا الصورة تنفع ولا لأ."
+        }
+      },
+      {
+        "myth": {
+          "en": "The radiation is always dangerous for staff.",
+          "ar": "الإشعاع دايمًا خطر على العاملين."
+        },
+        "fact": {
+          "en": "With proper shielding and rules, exposure is kept low and monitored.",
+          "ar": "بالواقيات والقواعد المظبوطة التعرّض بيفضل قليل وبيتراقب."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shift work; private centres often run late into the evening.",
+      "ar": "شغل بالشيفتات؛ والمراكز الخاصة غالبًا بتفضل شغالة لآخر الليل."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "biomedical_engineer",
@@ -158,6 +325,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Radiographer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/radiographer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "id": "pr_specialist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You help an organisation build trust with the public.",
@@ -116,6 +116,163 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Writing press releases and statements",
+        "ar": "كتابة البيانات والتصريحات الصحفية"
+      },
+      {
+        "en": "Media relations and monitoring",
+        "ar": "العلاقات الإعلامية والمتابعة"
+      },
+      {
+        "en": "Crisis communication",
+        "ar": "التواصل وقت الأزمات"
+      },
+      {
+        "en": "Event and campaign planning",
+        "ar": "تخطيط الفعاليات والحملات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm under pressure",
+        "ar": "الهدوء تحت الضغط"
+      },
+      {
+        "en": "Building trust with journalists",
+        "ar": "بناء ثقة مع الصحفيين"
+      },
+      {
+        "en": "Judgement about what to say and when",
+        "ar": "تقدير تقول إيه وإمتى"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: local media and statements",
+        "ar": "العربية: الإعلام المحلي والبيانات"
+      },
+      {
+        "en": "English: multinational companies and international media",
+        "ar": "الإنجليزية: الشركات متعددة الجنسيات والإعلام الدولي"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "CIPR: PR resources",
+        "url": "https://www.cipr.co.uk",
+        "free": true
+      },
+      {
+        "title": "HubSpot Academy: content and communication",
+        "url": "https://academy.hubspot.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10890,
+        "max": 33603
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr/pr-manager?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"PR Manager\". Paylab's own figure for someone with 5 years of experience is about 27,450 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «PR Manager» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 27,450 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "PR and communications agencies",
+        "ar": "وكالات العلاقات العامة والاتصال"
+      },
+      {
+        "en": "Corporate communication departments",
+        "ar": "إدارات الاتصال في الشركات"
+      },
+      {
+        "en": "Government bodies and NGOs",
+        "ar": "الجهات الحكومية والجمعيات الأهلية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance writing, media monitoring and event support are common. Senior PR advisers often consult independently.",
+      "ar": "الكتابة الفري لانس ومتابعة الإعلام ودعم الفعاليات منتشرين. ومستشارين العلاقات العامة الكبار كتير بيشتغلوا استشاريين مستقلين."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf companies and agencies hire Arabic PR specialists, and international agencies value bilingual writers.",
+    "ar": "شركات ووكالات الخليج بتعيّن متخصصين علاقات عامة بالعربي، والوكالات الدولية بتقدّر اللي بيكتبوا بلغتين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Varied work with media and events",
+        "ar": "شغل متنوع مع الإعلام والفعاليات"
+      },
+      {
+        "en": "Writing and communication skills that transfer",
+        "ar": "مهارات كتابة وتواصل بتنفع في كل حتة"
+      },
+      {
+        "en": "Path to corporate communication leadership",
+        "ar": "طريق لقيادة الاتصال في الشركات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Crises can hit at any hour",
+        "ar": "الأزمات ممكن تيجي في أي ساعة"
+      },
+      {
+        "en": "Results are hard to measure",
+        "ar": "النتايج صعب تتقاس"
+      },
+      {
+        "en": "Agency life can be hectic",
+        "ar": "شغل الوكالات ممكن يبقى مرهق"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "PR is about hiding the truth.",
+          "ar": "العلاقات العامة يعني تخبّي الحقيقة."
+        },
+        "fact": {
+          "en": "Good PR builds trust through clear, honest communication.",
+          "ar": "العلاقات العامة الكويسة بتبني ثقة بتواصل واضح وصادق."
+        }
+      },
+      {
+        "myth": {
+          "en": "PR is just parties and events.",
+          "ar": "العلاقات العامة حفلات وفعاليات وبس."
+        },
+        "fact": {
+          "en": "Most of the work is writing, planning and media relations.",
+          "ar": "أغلب الشغل كتابة وتخطيط وعلاقات إعلامية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours most days, with late work around launches, events and crises.",
+      "ar": "مواعيد مكتب أغلب الأيام، مع شغل متأخر قرب الإطلاقات والفعاليات والأزمات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "journalist",
@@ -165,6 +322,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: PR Manager salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr/pr-manager?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

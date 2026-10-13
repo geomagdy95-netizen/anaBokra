@@ -2,8 +2,8 @@
   "id": "flight_attendant",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You keep passengers safe and comfortable, thousands of feet in the air.",
@@ -118,6 +118,169 @@
       "ar": "تشترط شركات الطيران تدريبًا معتمدًا على السلامة والطوارئ وفحصًا طبيًا قبل أن تعمل. شروط السن والطول والصحة والسباحة واللغة تضعها كل شركة وسلطة الطيران المدني، فتأكد من القواعد الحالية لدى الشركة."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Safety and emergency procedures",
+        "ar": "إجراءات السلامة والطوارئ"
+      },
+      {
+        "en": "First aid",
+        "ar": "الإسعافات الأولية"
+      },
+      {
+        "en": "Service standards on board",
+        "ar": "معايير الخدمة على الطيارة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm under stress",
+        "ar": "الهدوء تحت الضغط"
+      },
+      {
+        "en": "Friendly, patient service",
+        "ar": "خدمة ودودة وصبورة"
+      },
+      {
+        "en": "Teamwork with the crew",
+        "ar": "الشغل كفريق مع الطاقم"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: required by airlines",
+        "ar": "الإنجليزية: مطلوبة من شركات الطيران"
+      },
+      {
+        "en": "Arabic and any third language are a plus",
+        "ar": "العربية وأي لغة تالتة ميزة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "The airline’s own cabin crew training and licence",
+        "ar": "تدريب طاقم الضيافة والترخيص من شركة الطيران نفسها"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "IATA: aviation training",
+        "url": "https://www.iata.org/en/training/",
+        "free": true
+      },
+      {
+        "title": "Red Cross: first aid information",
+        "url": "https://www.redcross.org/take-a-class/first-aid",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 14369,
+        "max": 24797
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business/flight-attendant?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Flight Attendant\". Paylab's own figure for someone with 5 years of experience is about 19,104 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Flight Attendant» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 19,104 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "National and private airlines",
+        "ar": "شركات الطيران الوطنية والخاصة"
+      },
+      {
+        "en": "Charter airlines serving tourist routes",
+        "ar": "شركات الطيران العارض لخطوط السياحة"
+      },
+      {
+        "en": "Gulf airlines",
+        "ar": "شركات طيران الخليج"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Not applicable: cabin crew are employed by airlines and work on board.",
+      "ar": "ما ينفعش: طاقم الضيافة موظفين عند شركات الطيران وشغلهم على الطيارة."
+    },
+    "regions": [
+      {
+        "en": "Cairo airport base",
+        "ar": "قاعدة مطار القاهرة"
+      },
+      {
+        "en": "Hurghada and Sharm El Sheikh for charter airlines",
+        "ar": "الغردقة وشرم الشيخ لشركات الطيران العارض"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf airlines recruit cabin crew from Egypt through open days. They usually set height, age and language requirements, and you live in their base city.",
+    "ar": "شركات طيران الخليج بتعيّن طاقم ضيافة من مصر في أيام توظيف مفتوحة. وغالبًا بيحطوا شروط للطول والسن واللغة، وبتعيش في المدينة اللي فيها قاعدتهم."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Travel and meeting people",
+        "ar": "سفر ومقابلة ناس"
+      },
+      {
+        "en": "Training provided by the airline",
+        "ar": "التدريب على حساب شركة الطيران"
+      },
+      {
+        "en": "Skills useful in hospitality later",
+        "ar": "مهارات بتنفع في الضيافة بعدين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Irregular hours, nights and jet lag",
+        "ar": "مواعيد مش منتظمة وليالي وإرهاق فرق التوقيت"
+      },
+      {
+        "en": "Physical demands and strict appearance rules",
+        "ar": "مجهود جسدي وقواعد صارمة للمظهر"
+      },
+      {
+        "en": "Time away from family",
+        "ar": "بُعد عن العيلة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Flight attendants just serve food.",
+          "ar": "المضيف بيقدّم أكل وبس."
+        },
+        "fact": {
+          "en": "Their main job is safety; service comes second.",
+          "ar": "شغلهم الأساسي السلامة؛ والخدمة بعدها."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is a holiday job.",
+          "ar": "الشغلانة دي فسحة."
+        },
+        "fact": {
+          "en": "Layovers are short and the work is tiring.",
+          "ar": "فترات التوقف قصيرة والشغل متعب."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Rosters change every month and include nights and holidays; days off come in blocks.",
+      "ar": "الجداول بتتغير كل شهر وفيها ليالي وأعياد؛ والإجازات بتيجي على بعضها."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "pilot",
@@ -166,6 +329,11 @@
       "title": "Amwal Al Ghad: Tansik phase 1 minimums 2025, literary faculties (modern system)",
       "url": "https://amwalalghad.com/fcdc",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Flight Attendant salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business/flight-attendant?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

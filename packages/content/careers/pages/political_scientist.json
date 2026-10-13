@@ -2,8 +2,8 @@
   "id": "political_scientist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You study how power, states and decisions shape people's lives.",
@@ -115,6 +115,158 @@
       }
     ],
     "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Research methods and surveys",
+        "ar": "مناهج البحث والاستبيانات"
+      },
+      {
+        "en": "Statistics and data tools",
+        "ar": "الإحصاء وأدوات البيانات"
+      },
+      {
+        "en": "Policy writing and briefs",
+        "ar": "كتابة السياسات والأوراق المختصرة"
+      },
+      {
+        "en": "Knowledge of political systems and international relations",
+        "ar": "معرفة الأنظمة السياسية والعلاقات الدولية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Balanced, careful judgement",
+        "ar": "تقدير متوازن ودقيق"
+      },
+      {
+        "en": "Clear writing for non-experts",
+        "ar": "كتابة واضحة لغير المتخصصين"
+      },
+      {
+        "en": "Reading widely and fast",
+        "ar": "قراية كتير وبسرعة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: local sources and audiences",
+        "ar": "العربية: المصادر والجمهور المحلي"
+      },
+      {
+        "en": "English (and French helps): research and international organisations",
+        "ar": "الإنجليزية (والفرنسية ميزة): الأبحاث والمنظمات الدولية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Coursera: political science and policy courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      },
+      {
+        "title": "edX: international relations courses",
+        "url": "https://www.edx.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for political scientists or policy analysts, so we do not show a number. Pay varies between universities, research centres, media and international organisations.",
+      "ar": "لا يضم Paylab مصر مسمى للباحثين في العلوم السياسية أو محللي السياسات، لذلك لا نعرض رقمًا. ويختلف الأجر بين الجامعات ومراكز الأبحاث والإعلام والمنظمات الدولية."
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Universities and research centres",
+        "ar": "الجامعات ومراكز الأبحاث"
+      },
+      {
+        "en": "International organisations and NGOs",
+        "ar": "المنظمات الدولية والجمعيات الأهلية"
+      },
+      {
+        "en": "Media and publishing",
+        "ar": "الإعلام والنشر"
+      },
+      {
+        "en": "Government bodies",
+        "ar": "الجهات الحكومية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance research, translation and writing for think tanks and media are common, and much of it can be done remotely.",
+      "ar": "البحث والترجمة والكتابة الفري لانس لمراكز الفكر والإعلام منتشرين، وأغلبه ممكن يتعمل من البيت."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      }
+    ]
+  },
+  "global": {
+    "en": "International organisations and research centres hire Arabic-speaking analysts; a master’s abroad and strong English are the usual route.",
+    "ar": "المنظمات الدولية ومراكز الأبحاث بتعيّن محللين بيتكلموا عربي؛ والطريق المعتاد ماجستير برّه وإنجليزي قوي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work on important public questions",
+        "ar": "شغل على قضايا عامة مهمة"
+      },
+      {
+        "en": "Strong writing and analysis skills",
+        "ar": "مهارات كتابة وتحليل قوية"
+      },
+      {
+        "en": "Doors into diplomacy and international work",
+        "ar": "أبواب للدبلوماسية والشغل الدولي"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few stable jobs; competition is high",
+        "ar": "وظايف ثابتة قليلة والمنافسة عالية"
+      },
+      {
+        "en": "Sensitive topics need care",
+        "ar": "المواضيع الحساسة محتاجة حرص"
+      },
+      {
+        "en": "Research careers need postgraduate study",
+        "ar": "البحث محتاج دراسات عليا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Political science means becoming a politician.",
+          "ar": "العلوم السياسية يعني تبقى سياسي."
+        },
+        "fact": {
+          "en": "Most graduates work in research, media, organisations and administration.",
+          "ar": "أغلب الخريجين بيشتغلوا في البحث والإعلام والمنظمات والإدارة."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is only for diplomats.",
+          "ar": "دي للدبلوماسيين بس."
+        },
+        "fact": {
+          "en": "Diplomacy is one path among many.",
+          "ar": "الدبلوماسية طريق من طرق كتير."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular hours; deadlines and current events can bring busy periods.",
+      "ar": "غالبًا مواعيد منتظمة؛ والمواعيد والأحداث الجارية ممكن تعمل فترات زحمة."
+    }
   },
   "progression": {
     "relatedCareerIds": [

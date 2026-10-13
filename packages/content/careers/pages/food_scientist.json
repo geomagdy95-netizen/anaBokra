@@ -2,8 +2,8 @@
   "id": "food_scientist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You make food safer, tastier and longer-lasting.",
@@ -118,6 +118,177 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Food chemistry and microbiology",
+        "ar": "كيمياء وميكروبيولوجيا الأغذية"
+      },
+      {
+        "en": "Quality control and lab testing",
+        "ar": "مراقبة الجودة والاختبارات المعملية"
+      },
+      {
+        "en": "Food safety systems (HACCP, ISO 22000)",
+        "ar": "أنظمة سلامة الغذاء (HACCP وISO 22000)"
+      },
+      {
+        "en": "Product development and sensory testing",
+        "ar": "تطوير المنتجات والتذوق"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      },
+      {
+        "en": "Working with production teams",
+        "ar": "الشغل مع فرق الإنتاج"
+      },
+      {
+        "en": "Clear reports",
+        "ar": "تقارير واضحة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: standards, specifications and export clients",
+        "ar": "الإنجليزية: المعايير والمواصفات وعملاء التصدير"
+      },
+      {
+        "en": "Arabic: factory teams and authorities",
+        "ar": "العربية: فرق المصنع والجهات الرسمية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "HACCP and ISO 22000 training",
+        "ar": "تدريب HACCP وISO 22000"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "FAO eLearning Academy: food safety",
+        "url": "https://elearning.fao.org",
+        "free": true
+      },
+      {
+        "title": "Institute of Food Technologists",
+        "url": "https://www.ift.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10328,
+        "max": 24023
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/agriculture-food-industry/food-technologist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Food Technologist\". Paylab's own figure for someone with 5 years of experience is about 18,089 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Food Technologist» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 18,089 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Food and beverage factories",
+        "ar": "مصانع الأغذية والمشروبات"
+      },
+      {
+        "en": "Dairy, bakery and snack companies",
+        "ar": "شركات الألبان والمخبوزات والسناكس"
+      },
+      {
+        "en": "Food safety and testing labs",
+        "ar": "معامل سلامة الأغذية والاختبار"
+      },
+      {
+        "en": "Food exporters",
+        "ar": "مصدّرو الأغذية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most roles are in factories and labs. Experienced specialists consult for small food businesses on safety and labelling.",
+      "ar": "أغلب الوظايف في المصانع والمعامل. واللي عنده خبرة بيعمل استشارات للمشاريع الصغيرة في السلامة وبيانات العبوة."
+    },
+    "regions": [
+      {
+        "en": "Industrial cities such as 10th of Ramadan, 6th of October and Sadat City",
+        "ar": "المدن الصناعية زي العاشر من رمضان و6 أكتوبر ومدينة السادات"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Food companies in the Gulf and international brands hire food scientists, especially with quality and safety certificates.",
+    "ar": "شركات الأغذية في الخليج والبراندات الدولية بتعيّن علماء أغذية، خصوصًا اللي معاهم شهادات جودة وسلامة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Large food industry in Egypt",
+        "ar": "صناعة أغذية كبيرة في مصر"
+      },
+      {
+        "en": "Mix of lab and creative product work",
+        "ar": "خليط من المعمل وتطوير المنتجات"
+      },
+      {
+        "en": "Clear path into quality management",
+        "ar": "طريق واضح لإدارة الجودة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Factories are often outside cities",
+        "ar": "المصانع غالبًا برّه المدن"
+      },
+      {
+        "en": "Shift work in production",
+        "ar": "شيفتات في الإنتاج"
+      },
+      {
+        "en": "Entry pay is modest",
+        "ar": "المرتب في الأول متواضع"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Food science is just cooking.",
+          "ar": "علوم الأغذية يعني طبخ."
+        },
+        "fact": {
+          "en": "It is chemistry, microbiology and engineering applied to food at scale.",
+          "ar": "دي كيميا وميكروبيولوجيا وهندسة على الأكل بكميات كبيرة."
+        }
+      },
+      {
+        "myth": {
+          "en": "Processed food is always unhealthy.",
+          "ar": "الأكل المصنّع دايمًا مضر."
+        },
+        "fact": {
+          "en": "Food scientists work to make it safer and, often, healthier.",
+          "ar": "علماء الأغذية بيشتغلوا يخلّوه أأمن وغالبًا أصح."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Regular hours in labs; production quality roles may run shifts.",
+      "ar": "مواعيد منتظمة في المعامل؛ ووظايف جودة الإنتاج ممكن تبقى بالشيفتات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "clinical_nutritionist",
@@ -167,6 +338,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Food Technologist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/agriculture-food-industry/food-technologist?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

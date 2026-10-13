@@ -2,8 +2,8 @@
   "id": "solar_technician",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You put the sun to work.",
@@ -109,6 +109,164 @@
     "licensing": {
       "en": "Most technician jobs ask for a technical diploma and practical skill rather than a licence, though some employers and tasks need skill-level or safety certificates. Check the current requirements with your employer and the Ministry of Manpower.",
       "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "DC and AC electrical basics",
+        "ar": "أساسيات الكهربا المستمرة والمترددة"
+      },
+      {
+        "en": "Installing panels, inverters and batteries",
+        "ar": "تركيب الألواح والإنفرتر والبطاريات"
+      },
+      {
+        "en": "Testing and fault finding",
+        "ar": "القياس واكتشاف الأعطال"
+      },
+      {
+        "en": "Working safely at height",
+        "ar": "الشغل بأمان على ارتفاع"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Careful, safety-first habits",
+        "ar": "عادات دقيقة والسلامة أولًا"
+      },
+      {
+        "en": "Teamwork on site",
+        "ar": "الشغل في فريق في الموقع"
+      },
+      {
+        "en": "Explaining the system to customers",
+        "ar": "شرح النظام للعميل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: site teams and customers",
+        "ar": "العربية: فرق الموقع والعملاء"
+      },
+      {
+        "en": "English: datasheets and inverter software",
+        "ar": "الإنجليزية: كتالوجات الأجهزة وبرامج الإنفرتر"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Solar PV installation courses (vocational centres or suppliers)",
+        "ar": "دورات تركيب الخلايا الشمسية (مراكز التدريب المهني أو الموردين)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "IRENA: renewable energy learning",
+        "url": "https://www.irena.org",
+        "free": true
+      },
+      {
+        "title": "Solar Energy International: free resources",
+        "url": "https://www.solarenergy.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for solar technicians, so we do not show a number. Pay depends on the company, the project size and whether you install, maintain or supervise.",
+      "ar": "لا يضم Paylab مصر مسمى لفني الطاقة الشمسية، لذلك لا نعرض رقمًا. ويعتمد الأجر على الشركة وحجم المشروع وطبيعة العمل: تركيب أو صيانة أو إشراف."
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Solar installation companies",
+        "ar": "شركات تركيب الطاقة الشمسية"
+      },
+      {
+        "en": "Large solar parks (e.g. Benban in Aswan)",
+        "ar": "محطات الطاقة الشمسية الكبيرة (زي بنبان في أسوان)"
+      },
+      {
+        "en": "Farms and factories using solar pumps and rooftops",
+        "ar": "المزارع والمصانع اللي بتستخدم طلمبات وأسطح شمسية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Experienced technicians often take small rooftop and farm pump jobs on their own.",
+      "ar": "الفنيين أصحاب الخبرة كتير بياخدوا شغلانات أسطح صغيرة وطلمبات مزارع لحسابهم."
+    },
+    "regions": [
+      {
+        "en": "Upper Egypt and the desert regions",
+        "ar": "الصعيد والمناطق الصحراوية"
+      },
+      {
+        "en": "Greater Cairo and new cities",
+        "ar": "القاهرة الكبرى والمدن الجديدة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Solar is growing fast in the Gulf and Africa, and trained technicians with project experience can find work there.",
+    "ar": "الطاقة الشمسية بتكبر بسرعة في الخليج وأفريقيا، والفنيين المدربين أصحاب الخبرة في المشاريع يقدروا يلاقوا شغل هناك."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "A growing field with a future",
+        "ar": "مجال بيكبر وليه مستقبل"
+      },
+      {
+        "en": "Practical, hands-on work",
+        "ar": "شغل عملي بإيدك"
+      },
+      {
+        "en": "Good path to your own business",
+        "ar": "طريق كويس لبيزنس بتاعك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Heat, sun and roofs",
+        "ar": "حر وشمس وأسطح"
+      },
+      {
+        "en": "Travel to remote sites",
+        "ar": "سفر لمواقع بعيدة"
+      },
+      {
+        "en": "Electrical risk if rules are ignored",
+        "ar": "خطر الكهربا لو القواعد اتهملت"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Solar panels need no maintenance.",
+          "ar": "الألواح الشمسية مش محتاجة صيانة."
+        },
+        "fact": {
+          "en": "Cleaning, checks and inverter care keep output high.",
+          "ar": "التنضيف والفحص والاهتمام بالإنفرتر بيحافظوا على الإنتاج."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need an engineering degree.",
+          "ar": "لازم شهادة هندسة."
+        },
+        "fact": {
+          "en": "Technical diplomas and practical courses are the usual way in.",
+          "ar": "الدبلومات الفنية والدورات العملية هما المدخل المعتاد."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Early starts to avoid the midday heat; site trips can mean days away.",
+      "ar": "بدري عشان تهرب من حر الضهر؛ وسفريات المواقع ممكن تعني أيام بعيد عن البيت."
     }
   },
   "progression": {

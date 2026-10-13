@@ -2,8 +2,8 @@
   "id": "chemical_engineer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You turn raw materials into products people use every day.",
@@ -121,6 +121,177 @@
       "ar": "يسجّل المهندسون في نقابة المهندسين، وهو مطلوب عادة لاعتماد التصميمات ولبعض الوظائف. المتطلبات تتغير، فتأكد من النقابة."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Mass and energy balances",
+        "ar": "موازين المادة والطاقة"
+      },
+      {
+        "en": "Process design and simulation software",
+        "ar": "تصميم العمليات وبرامج المحاكاة"
+      },
+      {
+        "en": "Process safety and environmental rules",
+        "ar": "سلامة العمليات والقواعد البيئية"
+      },
+      {
+        "en": "Data analysis and process control",
+        "ar": "تحليل البيانات والتحكم في العمليات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Problem solving on the plant floor",
+        "ar": "حل المشاكل في المصنع"
+      },
+      {
+        "en": "Working with operators and managers",
+        "ar": "الشغل مع المشغّلين والمديرين"
+      },
+      {
+        "en": "Safety-first discipline",
+        "ar": "الالتزام بالسلامة قبل أي حاجة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: technical documents and software",
+        "ar": "الإنجليزية: المستندات الفنية والبرامج"
+      },
+      {
+        "en": "Arabic: plant teams",
+        "ar": "العربية: فرق المصنع"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Process safety and quality courses (for example ISO-based)",
+        "ar": "دورات سلامة العمليات والجودة (مثل المبنية على ISO)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "LearnChemE: free chemical engineering videos",
+        "url": "https://learncheme.com",
+        "free": true
+      },
+      {
+        "title": "AIChE: American Institute of Chemical Engineers",
+        "url": "https://www.aiche.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12390,
+        "max": 24832
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/chemical-industry/chemical-engineer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Chemical Engineer\". Paylab's own figure for someone with 5 years of experience is about 19,190 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Chemical Engineer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 19,190 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Fertiliser and petrochemical plants",
+        "ar": "مصانع الأسمدة والبتروكيماويات"
+      },
+      {
+        "en": "Oil refineries and gas companies",
+        "ar": "معامل التكرير وشركات الغاز"
+      },
+      {
+        "en": "Food, pharmaceutical and detergent factories",
+        "ar": "مصانع الأغذية والأدوية والمنظفات"
+      },
+      {
+        "en": "Water treatment and environmental companies",
+        "ar": "شركات معالجة المية والبيئة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Plant work is on site. Experienced engineers can consult on process design, safety studies or energy saving.",
+      "ar": "شغل المصانع في المكان نفسه. واللي عنده خبرة يقدر يعمل استشارات في تصميم العمليات ودراسات السلامة وتوفير الطاقة."
+    },
+    "regions": [
+      {
+        "en": "Suez, Alexandria and the Canal cities",
+        "ar": "السويس والإسكندرية ومدن القناة"
+      },
+      {
+        "en": "Industrial zones around Cairo",
+        "ar": "المناطق الصناعية حوالين القاهرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf petrochemical and refining companies hire Egyptian chemical engineers, usually after a few years of plant experience.",
+    "ar": "شركات البتروكيماويات والتكرير في الخليج بتعيّن مهندسين كيميائيين مصريين، غالبًا بعد كام سنة خبرة في المصانع."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Many industries need the skill",
+        "ar": "صناعات كتير محتاجة المهارة دي"
+      },
+      {
+        "en": "Real impact on safety and the environment",
+        "ar": "تأثير حقيقي على السلامة والبيئة"
+      },
+      {
+        "en": "Path into energy and sustainability roles",
+        "ar": "طريق لوظايف الطاقة والاستدامة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Plants are often far from cities",
+        "ar": "المصانع غالبًا بعيدة عن المدن"
+      },
+      {
+        "en": "Shift work in some roles",
+        "ar": "شيفتات في بعض الوظايف"
+      },
+      {
+        "en": "Entry pay can be modest",
+        "ar": "المرتب في الأول ممكن يبقى متواضع"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Chemical engineers work in labs all day.",
+          "ar": "المهندس الكيميائي في المعمل طول اليوم."
+        },
+        "fact": {
+          "en": "Most work on production lines, design and safety, not bench chemistry.",
+          "ar": "أغلبهم بيشتغلوا على خطوط الإنتاج والتصميم والسلامة، مش تجارب المعمل."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is only for oil and gas.",
+          "ar": "ده للبترول والغاز بس."
+        },
+        "fact": {
+          "en": "Food, medicine, water and fertiliser all need chemical engineers.",
+          "ar": "الأكل والدوا والمية والسماد كلهم محتاجين مهندسين كيميائيين."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office and design roles are regular. Plant roles may include shifts and urgent call-outs.",
+      "ar": "شغل المكتب والتصميم منتظم. وشغل المصانع ممكن يبقى فيه شيفتات واستدعاءات عاجلة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "petroleum_engineer",
@@ -170,6 +341,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Chemical Engineer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/chemical-industry/chemical-engineer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

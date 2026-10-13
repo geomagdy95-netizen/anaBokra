@@ -2,8 +2,8 @@
   "id": "biomedical_engineer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You build and maintain the machines that keep patients alive.",
@@ -117,6 +117,164 @@
     "licensing": {
       "en": "Engineers register with the Engineers Syndicate, and hospitals set their own requirements for equipment staff. Rules change, so check with the syndicate and the employer.",
       "ar": "يسجّل المهندسون في نقابة المهندسين، وتضع المستشفيات شروطها الخاصة للعاملين على الأجهزة. القواعد تتغير، فتأكد من النقابة وجهة العمل."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Electronics and medical device principles",
+        "ar": "الإلكترونيات ومبادئ الأجهزة الطبية"
+      },
+      {
+        "en": "Calibration, testing and maintenance",
+        "ar": "المعايرة والاختبار والصيانة"
+      },
+      {
+        "en": "Safety standards for medical equipment",
+        "ar": "معايير السلامة للأجهزة الطبية"
+      },
+      {
+        "en": "Basic anatomy and physiology",
+        "ar": "أساسيات التشريح ووظائف الأعضاء"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm troubleshooting in hospitals",
+        "ar": "حل الأعطال بهدوء في المستشفيات"
+      },
+      {
+        "en": "Training doctors and nurses",
+        "ar": "تدريب الأطباء والتمريض"
+      },
+      {
+        "en": "Careful record keeping",
+        "ar": "الدقة في التسجيل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: device manuals and vendor training",
+        "ar": "الإنجليزية: كتالوجات الأجهزة وتدريب الموردين"
+      },
+      {
+        "en": "Arabic: hospital staff",
+        "ar": "العربية: العاملون في المستشفى"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Manufacturer training on specific devices",
+        "ar": "تدريب الشركات المصنّعة على أجهزة محددة"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "IEEE Engineering in Medicine and Biology Society",
+        "url": "https://www.embs.org",
+        "free": true
+      },
+      {
+        "title": "MIT OpenCourseWare: biomedical engineering courses",
+        "url": "https://ocw.mit.edu",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for biomedical or clinical engineers, so we do not show a number. Pay differs between hospitals, device companies and sales roles.",
+      "ar": "لا يضم Paylab مصر مسمى لمهندسي الأجهزة الطبية أو الهندسة الطبية الحيوية، لذلك لا نعرض رقمًا. ويختلف الأجر بين المستشفيات وشركات الأجهزة ووظائف المبيعات."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Public and private hospitals",
+        "ar": "المستشفيات الحكومية والخاصة"
+      },
+      {
+        "en": "Medical device importers and distributors",
+        "ar": "مستوردو وموزعو الأجهزة الطبية"
+      },
+      {
+        "en": "Device manufacturers and service companies",
+        "ar": "مصنّعو الأجهزة وشركات الصيانة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most work is employed and on site in hospitals or for device companies. Some experienced engineers do contract maintenance for clinics.",
+      "ar": "أغلب الشغل وظيفة وفي المكان، في المستشفيات أو مع شركات الأجهزة. وفيه مهندسين عندهم خبرة بيعملوا صيانة بعقود للعيادات."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria and other large cities with hospitals",
+        "ar": "الإسكندرية والمدن الكبيرة اللي فيها مستشفيات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Hospitals and device companies in the Gulf hire biomedical engineers, often after a few years of experience and vendor training.",
+    "ar": "المستشفيات وشركات الأجهزة في الخليج بتعيّن مهندسين طبيين، غالبًا بعد كام سنة خبرة وتدريب عند الموردين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Engineering that directly helps patients",
+        "ar": "هندسة بتساعد المرضى مباشرة"
+      },
+      {
+        "en": "Mix of hospital, lab and company work",
+        "ar": "خليط من المستشفى والمعمل والشركات"
+      },
+      {
+        "en": "Path into sales and application roles",
+        "ar": "طريق لوظايف المبيعات والتطبيقات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Urgent repairs when devices fail",
+        "ar": "تصليحات عاجلة لما الأجهزة تقع"
+      },
+      {
+        "en": "Fewer posts than in larger engineering fields",
+        "ar": "وظايف أقل من مجالات هندسة أكبر"
+      },
+      {
+        "en": "Responsibility for patient safety",
+        "ar": "مسؤولية سلامة المرضى"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "It is the same as being a doctor.",
+          "ar": "ده زي إنك تبقى دكتور."
+        },
+        "fact": {
+          "en": "You work with devices, not with diagnosis and treatment.",
+          "ar": "إنت بتشتغل على الأجهزة، مش التشخيص والعلاج."
+        }
+      },
+      {
+        "myth": {
+          "en": "The only jobs are in sales.",
+          "ar": "الشغل كله مبيعات."
+        },
+        "fact": {
+          "en": "There are maintenance, quality, training and design roles too.",
+          "ar": "فيه كمان صيانة وجودة وتدريب وتصميم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly day shifts, with on-call duty in some hospitals for urgent breakdowns.",
+      "ar": "غالبًا شيفتات نهار، مع مناوبة في بعض المستشفيات للأعطال العاجلة."
     }
   },
   "progression": {

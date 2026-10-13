@@ -2,8 +2,8 @@
   "id": "cnc_operator",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You guide machines that cut metal to the width of a hair.",
@@ -115,6 +115,167 @@
       "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Reading technical drawings and tolerances",
+        "ar": "قراءة الرسومات الفنية والتفاوتات"
+      },
+      {
+        "en": "Setting tools and work offsets",
+        "ar": "ضبط العُدد ونقاط الصفر"
+      },
+      {
+        "en": "Measuring with calipers and micrometers",
+        "ar": "القياس بالقدمة والميكرومتر"
+      },
+      {
+        "en": "Basic G-code and CAM",
+        "ar": "أساسيات G-code وبرامج CAM"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Precision and patience",
+        "ar": "الدقة والصبر"
+      },
+      {
+        "en": "Safety discipline around machines",
+        "ar": "الالتزام بالسلامة حوالين المكن"
+      },
+      {
+        "en": "Reporting problems early",
+        "ar": "التبليغ عن المشاكل بدري"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: workshop and supervisors",
+        "ar": "العربية: الورشة والمشرفون"
+      },
+      {
+        "en": "Basic English: machine screens and manuals",
+        "ar": "إنجليزية أساسية: شاشات المكن والكتالوجات"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Titans of CNC Academy: free machining lessons",
+        "url": "https://academy.titansofcnc.com",
+        "free": true
+      },
+      {
+        "title": "Autodesk: Fusion learning",
+        "url": "https://www.autodesk.com/learn",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9138,
+        "max": 24591
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/mechanical-engineering/cnc-machine-setter?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"CNC Machine Setter\". Paylab's own figure for someone with 5 years of experience is about 17,915 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «CNC Machine Setter» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 17,915 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Metal and machining workshops",
+        "ar": "ورش الخراطة والتشغيل"
+      },
+      {
+        "en": "Automotive and appliance parts factories",
+        "ar": "مصانع قطع غيار العربيات والأجهزة"
+      },
+      {
+        "en": "Mould and tool makers",
+        "ar": "مصنّعو الإسطمبات والعُدد"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Machining is done on site. Experienced machinists sometimes open small workshops that take orders from factories.",
+      "ar": "التشغيل بيتعمل في المكان نفسه. والصنايعية اللي عندهم خبرة أحيانًا بيفتحوا ورش صغيرة بتاخد شغل من المصانع."
+    },
+    "regions": [
+      {
+        "en": "10th of Ramadan, 6th of October and other industrial cities",
+        "ar": "العاشر من رمضان و6 أكتوبر والمدن الصناعية التانية"
+      },
+      {
+        "en": "Alexandria (Borg El Arab)",
+        "ar": "الإسكندرية (برج العرب)"
+      }
+    ]
+  },
+  "global": {
+    "en": "CNC skills are wanted in Gulf factories and in Europe, where precise machining is a shortage trade. Programming skills raise your chances.",
+    "ar": "مهارات الـCNC مطلوبة في مصانع الخليج وفي أوروبا، حيث التشغيل الدقيق صنعة ناقصة. ومهارة البرمجة بتزوّد فرصك."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Skilled trade with a clear path to programming",
+        "ar": "صنعة ماهرة وطريقها واضح للبرمجة"
+      },
+      {
+        "en": "Factories need precise parts",
+        "ar": "المصانع محتاجة قطع دقيقة"
+      },
+      {
+        "en": "You see what you made",
+        "ar": "بتشوف اللي عملته بعينك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Noise, oil and standing for long hours",
+        "ar": "دوشة وزيت ووقوف لساعات"
+      },
+      {
+        "en": "Shift work",
+        "ar": "شيفتات"
+      },
+      {
+        "en": "Mistakes are costly",
+        "ar": "الغلطة غالية"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "The machine does everything.",
+          "ar": "المكنة بتعمل كل حاجة."
+        },
+        "fact": {
+          "en": "The operator sets it up, checks every part and stops problems before they waste metal.",
+          "ar": "المشغّل بيظبطها ويفحص كل قطعة ويوقف المشاكل قبل ما تضيّع خامة."
+        }
+      },
+      {
+        "myth": {
+          "en": "It is a dead-end job.",
+          "ar": "شغلانة ملهاش مستقبل."
+        },
+        "fact": {
+          "en": "Operators move into programming, quality or supervision.",
+          "ar": "المشغّلين بينقلوا للبرمجة أو الجودة أو الإشراف."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Fixed shifts, often including nights in larger factories.",
+      "ar": "شيفتات ثابتة، وغالبًا فيها ليل في المصانع الكبيرة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "industrial_technician",
@@ -168,6 +329,11 @@
       "title": "Fab Lab Egypt",
       "url": "https://fablabegypt.com",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: CNC Machine Setter salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/mechanical-engineering/cnc-machine-setter?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

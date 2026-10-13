@@ -2,8 +2,8 @@
   "id": "electrician",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You bring power safely to homes, factories and cities.",
@@ -115,6 +115,173 @@
       "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "House and building wiring",
+        "ar": "تمديدات البيوت والمباني"
+      },
+      {
+        "en": "Panels, breakers and earthing",
+        "ar": "اللوحات والقواطع والتأريض"
+      },
+      {
+        "en": "Testing with meters and finding faults",
+        "ar": "القياس بالأجهزة وتتبّع الأعطال"
+      },
+      {
+        "en": "Motors and industrial controls (for factory work)",
+        "ar": "الموتورات والتحكم الصناعي (لشغل المصانع)"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Strict safety habits",
+        "ar": "عادات سلامة صارمة"
+      },
+      {
+        "en": "Honesty with customers",
+        "ar": "الأمانة مع الزباين"
+      },
+      {
+        "en": "Neat, reliable work",
+        "ar": "شغل نضيف ويتعتمد عليه"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: customers, contractors and site teams",
+        "ar": "العربية: الزبائن والمقاولون وفرق المواقع"
+      },
+      {
+        "en": "Basic English: drawings and equipment labels",
+        "ar": "إنجليزية أساسية: الرسومات وبيانات المعدات"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Vocational training certificates (for example PVTD)",
+        "ar": "شهادات التدريب المهني (مثل مصلحة الكفاية الإنتاجية)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "All About Circuits: free electricity basics",
+        "url": "https://www.allaboutcircuits.com",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Electrical engineering",
+        "url": "https://www.khanacademy.org/science/electrical-engineering",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10353,
+        "max": 20609
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/electrical-power-engineering/electrician?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Electrician\". Paylab's own figure for someone with 5 years of experience is about 15,793 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Electrician» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 15,793 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Construction contractors",
+        "ar": "مقاولين الإنشاءات"
+      },
+      {
+        "en": "Factories and maintenance companies",
+        "ar": "المصانع وشركات الصيانة"
+      },
+      {
+        "en": "Self-employed home services",
+        "ar": "خدمات البيوت لحسابك"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many electricians work for themselves, taking home and shop jobs. Apps for home services help find customers. The work itself is on site.",
+      "ar": "كهربائية كتير بيشتغلوا لحسابهم في شغل البيوت والمحلات. وأبلكيشنز خدمات البيوت بتساعد تلاقي زباين. والشغل نفسه في المكان."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      },
+      {
+        "en": "New cities with construction",
+        "ar": "المدن الجديدة اللي فيها بنا"
+      }
+    ]
+  },
+  "global": {
+    "en": "Skilled electricians are in demand in the Gulf for construction and maintenance. Training certificates and solar or industrial skills help.",
+    "ar": "الكهربائية الشاطرين مطلوبين في الخليج للإنشاءات والصيانة. وشهادات التدريب ومهارات الطاقة الشمسية أو الصناعي بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Needed everywhere",
+        "ar": "مطلوب في كل حتة"
+      },
+      {
+        "en": "You can work for yourself",
+        "ar": "تقدر تشتغل لحسابك"
+      },
+      {
+        "en": "Path into solar and industrial work",
+        "ar": "طريق للطاقة الشمسية والشغل الصناعي"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Risk of electric shock without strict safety",
+        "ar": "خطر الكهربا من غير سلامة صارمة"
+      },
+      {
+        "en": "Physical work at height and in heat",
+        "ar": "شغل جسدي على ارتفاع وفي الحر"
+      },
+      {
+        "en": "Income can be irregular when self-employed",
+        "ar": "الدخل ممكن يبقى مش منتظم لو لحسابك"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Anyone can do wiring.",
+          "ar": "أي حد يقدر يعمل كهربا."
+        },
+        "fact": {
+          "en": "Wrong wiring causes fires; training and safety rules matter.",
+          "ar": "الكهربا الغلط بتعمل حرايق؛ التدريب وقواعد السلامة مهمين."
+        }
+      },
+      {
+        "myth": {
+          "en": "Electricians do not need maths.",
+          "ar": "الكهربائي مش محتاج حساب."
+        },
+        "fact": {
+          "en": "Loads, cable sizes and breakers all need calculation.",
+          "ar": "الأحمال ومقاسات الكابلات والقواطع كلها محتاجة حساب."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Site and factory jobs have set hours; self-employed electricians often work evenings and weekends.",
+      "ar": "شغل المواقع والمصانع بمواعيد ثابتة؛ والكهربائي اللي لحسابه غالبًا بيشتغل بالليل وفي الإجازات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "solar_technician",
@@ -163,6 +330,11 @@
       "title": "El Sewedy School of Applied Technology (Ministry of Education)",
       "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Electrician salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/electrical-power-engineering/electrician?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

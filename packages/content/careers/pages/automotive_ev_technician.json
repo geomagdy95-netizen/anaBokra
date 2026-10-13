@@ -2,8 +2,8 @@
   "id": "automotive_ev_technician",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You keep cars running, including the new electric ones.",
@@ -111,6 +111,177 @@
       "ar": "معظم وظائف الفنيين تطلب دبلومًا فنيًا ومهارة عملية وليس رخصة، لكن بعض جهات العمل والمهام تحتاج شهادات مستوى مهارة أو سلامة. تأكد من الشروط الحالية من جهة عملك ووزارة القوى العاملة."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Engine, brakes and suspension repair",
+        "ar": "إصلاح الموتور والفرامل والعفشة"
+      },
+      {
+        "en": "Car electrics and diagnostic scanners",
+        "ar": "كهربا العربيات وأجهزة الفحص"
+      },
+      {
+        "en": "Hybrid and electric vehicle safety (with training)",
+        "ar": "سلامة العربيات الهايبرد والكهربا (بتدريب)"
+      },
+      {
+        "en": "Reading service manuals",
+        "ar": "قراءة كتالوجات الصيانة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patient fault-finding",
+        "ar": "الصبر في تتبّع الأعطال"
+      },
+      {
+        "en": "Honesty with customers about costs",
+        "ar": "الصراحة مع الزباين في التكلفة"
+      },
+      {
+        "en": "Working safely and tidily",
+        "ar": "الشغل بأمان ونظام"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: customers and workshop",
+        "ar": "العربية: الزبائن والورشة"
+      },
+      {
+        "en": "Basic English: manuals and scanner menus",
+        "ar": "إنجليزية أساسية: الكتالوجات وقوائم أجهزة الفحص"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Manufacturer training courses, including EV safety",
+        "ar": "دورات الشركات المصنّعة ومنها سلامة العربيات الكهربا"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "ASE: what automotive technicians learn",
+        "url": "https://www.ase.com",
+        "free": true
+      },
+      {
+        "title": "All About Circuits: free electronics basics",
+        "url": "https://www.allaboutcircuits.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10114,
+        "max": 21853
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/car-industry/car-mechanic?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Car Mechanic\". Paylab's own figure for someone with 5 years of experience is about 16,413 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Car Mechanic» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 16,413 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Authorised dealer service centres",
+        "ar": "مراكز خدمة الوكلاء المعتمدين"
+      },
+      {
+        "en": "Independent workshops",
+        "ar": "الورش المستقلة"
+      },
+      {
+        "en": "Fleet and transport companies",
+        "ar": "شركات النقل والأساطيل"
+      },
+      {
+        "en": "Car assembly plants",
+        "ar": "مصانع تجميع العربيات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many technicians work in or open their own workshop. Mobile repair and diagnostics are growing. The work itself is hands-on and on site.",
+      "ar": "فنيين كتير بيشتغلوا في ورشة أو بيفتحوا ورشة بتاعتهم. والتصليح والفحص المتنقل بيكبروا. والشغل نفسه بإيدك وفي المكان."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      },
+      {
+        "en": "Greater Cairo and Alexandria for dealer centres",
+        "ar": "القاهرة الكبرى والإسكندرية لمراكز الوكلاء"
+      }
+    ]
+  },
+  "global": {
+    "en": "Skilled technicians find work in the Gulf, especially with dealer training certificates. Electric vehicle skills are in demand where EV sales are growing.",
+    "ar": "الفنيين الشاطرين بيلاقوا شغل في الخليج، خصوصًا اللي معاهم شهادات تدريب الوكلاء. ومهارات العربيات الكهربا مطلوبة في البلاد اللي مبيعاتها بتكبر."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Practical skill needed everywhere",
+        "ar": "مهارة عملية مطلوبة في كل حتة"
+      },
+      {
+        "en": "Chance to open your own workshop",
+        "ar": "فرصة تفتح ورشة بتاعتك"
+      },
+      {
+        "en": "New technology keeps the work interesting",
+        "ar": "التكنولوجيا الجديدة بتخلّي الشغل ممتع"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Physical work, heat and dirt",
+        "ar": "شغل جسدي وحر ووساخة"
+      },
+      {
+        "en": "Pay starts modest",
+        "ar": "المرتب بيبدأ متواضع"
+      },
+      {
+        "en": "You must keep learning new systems",
+        "ar": "لازم تفضل تتعلم أنظمة جديدة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Mechanics just need strength.",
+          "ar": "الميكانيكي محتاج قوة وبس."
+        },
+        "fact": {
+          "en": "Modern cars need electronics, diagnostics and careful reading.",
+          "ar": "العربيات الحديثة محتاجة إلكترونيات وأجهزة فحص وقراية دقيقة."
+        }
+      },
+      {
+        "myth": {
+          "en": "Electric cars will end mechanic jobs.",
+          "ar": "العربيات الكهربا هتنهي شغل الميكانيكية."
+        },
+        "fact": {
+          "en": "They need fewer oil changes but new skills in batteries and electronics.",
+          "ar": "محتاجة تغيير زيت أقل، بس مهارات جديدة في البطاريات والإلكترونيات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Workshop hours are long, often six days a week. Dealer centres usually have set shifts.",
+      "ar": "مواعيد الورش طويلة، وغالبًا ستة أيام في الأسبوع. ومراكز الوكلاء غالبًا بشيفتات ثابتة."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "electrician",
@@ -159,6 +330,11 @@
       "title": "El Sewedy School of Applied Technology (Ministry of Education)",
       "url": "https://moe.gov.eg/en/what-s-on/news/el-sewedy-school-of-applied-technology",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Car Mechanic salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/car-industry/car-mechanic?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

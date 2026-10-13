@@ -2,8 +2,8 @@
   "id": "social_media_manager",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You are the voice of a brand on social media.",
@@ -118,6 +118,173 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Content planning and calendars",
+        "ar": "تخطيط المحتوى وجداول النشر"
+      },
+      {
+        "en": "Writing captions and short scripts",
+        "ar": "كتابة الكابشن والسكريبتات القصيرة"
+      },
+      {
+        "en": "Platform analytics and paid ads",
+        "ar": "تحليلات المنصات والإعلانات الممولة"
+      },
+      {
+        "en": "Basic design and video editing",
+        "ar": "تصميم ومونتاج أساسي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Following trends quickly",
+        "ar": "متابعة الترندات بسرعة"
+      },
+      {
+        "en": "Handling comments and complaints calmly",
+        "ar": "التعامل مع التعليقات والشكاوى بهدوء"
+      },
+      {
+        "en": "Working with clients and designers",
+        "ar": "الشغل مع العملاء والمصممين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic (Egyptian and formal): most local audiences",
+        "ar": "العربية (المصرية والفصحى): أغلب الجمهور المحلي"
+      },
+      {
+        "en": "English: brands, tools and regional clients",
+        "ar": "الإنجليزية: البراندات والأدوات والعملاء في المنطقة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Meta Blueprint or Google ads certificates",
+        "ar": "شهادات Meta Blueprint أو Google للإعلانات"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Meta Blueprint: free courses",
+        "url": "https://www.facebook.com/business/learn",
+        "free": true
+      },
+      {
+        "title": "HubSpot Academy: social media marketing",
+        "url": "https://academy.hubspot.com",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 5195,
+        "max": 19972
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr/social-media-specialist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Social media specialist\". Paylab's own figure for someone with 5 years of experience is about 15,451 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Social media specialist» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 15,451 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Digital marketing agencies",
+        "ar": "وكالات التسويق الرقمي"
+      },
+      {
+        "en": "Brands, restaurants and shops",
+        "ar": "البراندات والمطاعم والمحلات"
+      },
+      {
+        "en": "Media companies and creators",
+        "ar": "شركات الإعلام وصنّاع المحتوى"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Very common as freelance: many manage pages for several small businesses at once, often fully remote.",
+      "ar": "منتشرة جدًا كفري لانس: ناس كتير بتدير صفحات لكذا بيزنس صغير في نفس الوقت، وغالبًا من البيت بالكامل."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo and Alexandria",
+        "ar": "القاهرة الكبرى والإسكندرية"
+      },
+      {
+        "en": "Remote from anywhere",
+        "ar": "من البيت من أي مكان"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf brands and agencies hire Egyptian social media managers, often remotely, because of Arabic content skills.",
+    "ar": "براندات ووكالات الخليج بتعيّن مديرين سوشيال ميديا مصريين، وغالبًا من البيت، عشان مهارة المحتوى العربي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Easy to start and build a portfolio",
+        "ar": "سهل تبدأ وتعمل بورتفوليو"
+      },
+      {
+        "en": "Creative and fast-moving",
+        "ar": "إبداعي وسريع"
+      },
+      {
+        "en": "Remote and freelance options",
+        "ar": "فرص من البيت وفري لانس"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Always online, even on weekends",
+        "ar": "أونلاين على طول حتى في الإجازات"
+      },
+      {
+        "en": "Algorithms change often",
+        "ar": "الخوارزميات بتتغير كتير"
+      },
+      {
+        "en": "Many beginners push prices down",
+        "ar": "مبتدئين كتير بيقللوا الأسعار"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "It is just posting on Facebook.",
+          "ar": "دي مجرد نشر على فيسبوك."
+        },
+        "fact": {
+          "en": "It involves strategy, writing, ads and reading numbers.",
+          "ar": "فيها استراتيجية وكتابة وإعلانات وقراية أرقام."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need many followers yourself.",
+          "ar": "لازم يكون عندك متابعين كتير."
+        },
+        "fact": {
+          "en": "Clients care about results for their pages, not yours.",
+          "ar": "العملاء يهمهم النتايج على صفحاتهم، مش صفحتك."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Flexible but always on call; campaigns and crises can take evenings.",
+      "ar": "مرن بس دايمًا متاح؛ والحملات والأزمات ممكن تاخد الليل."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "digital_marketer",
@@ -167,6 +334,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Social media specialist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/marketing-advertising-pr/social-media-specialist?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

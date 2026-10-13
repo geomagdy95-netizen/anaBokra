@@ -2,8 +2,8 @@
   "id": "fashion_designer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You design clothes people will wear and love.",
@@ -117,6 +117,167 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Sketching and design development",
+        "ar": "الاسكتش وتطوير التصميم"
+      },
+      {
+        "en": "Pattern making and grading",
+        "ar": "عمل الباترون والتدريج"
+      },
+      {
+        "en": "Fabrics and garment construction",
+        "ar": "الأقمشة وتنفيذ الملابس"
+      },
+      {
+        "en": "Costing and working with factories",
+        "ar": "حساب التكلفة والشغل مع المصانع"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Following trends while keeping your own style",
+        "ar": "متابعة التريندات مع الحفاظ على ستايلك"
+      },
+      {
+        "en": "Taking feedback from buyers",
+        "ar": "تقبّل ملاحظات المشترين"
+      },
+      {
+        "en": "Managing time to collection deadlines",
+        "ar": "تنظيم الوقت لمواعيد الكولكشن"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: workshops and local customers",
+        "ar": "العربية: الورش والعملاء المحليون"
+      },
+      {
+        "en": "English: suppliers, brands and fashion media",
+        "ar": "الإنجليزية: الموردون والبراندات وإعلام الموضة"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Coursera: fashion and design courses",
+        "url": "https://www.coursera.org",
+        "free": true
+      },
+      {
+        "title": "Behance: fashion portfolios",
+        "url": "https://www.behance.net",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10359,
+        "max": 20062
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/textile-leather-apparel-industry/fashion-designer-pattern-cutter?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Fashion Designer, Pattern Cutter\". Paylab's own figure for someone with 5 years of experience is about 15,421 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Fashion Designer, Pattern Cutter» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 15,421 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Garment factories and exporters",
+        "ar": "مصانع الملابس والمصدّرون"
+      },
+      {
+        "en": "Local fashion brands and retailers",
+        "ar": "البراندات والمحلات المحلية"
+      },
+      {
+        "en": "Own label or atelier",
+        "ar": "براند أو أتيليه بتاعك"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many designers run small labels or take custom orders and sell online. Some design for factories as freelancers.",
+      "ar": "مصممين كتير بيديروا براندات صغيرة أو بياخدوا طلبات خاصة وبيبيعوا أونلاين. وفيه اللي بيصمموا لمصانع فري لانس."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Textile hubs such as Mahalla, Alexandria and 10th of Ramadan",
+        "ar": "مراكز النسيج زي المحلة والإسكندرية والعاشر من رمضان"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egypt’s garment exports connect designers with international brands. Working abroad usually needs a strong portfolio and experience with a known label.",
+    "ar": "صادرات الملابس المصرية بتوصّل المصممين ببراندات دولية. والشغل برّه غالبًا محتاج بورتفوليو قوي وخبرة مع براند معروف."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative work people wear",
+        "ar": "شغل إبداعي الناس بتلبسه"
+      },
+      {
+        "en": "You can start a small brand",
+        "ar": "تقدر تبدأ براند صغير"
+      },
+      {
+        "en": "Local textile industry to work with",
+        "ar": "صناعة نسيج محلية تشتغل معاها"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Early pay is modest",
+        "ar": "المرتب في الأول متواضع"
+      },
+      {
+        "en": "Running a brand needs money and business skills",
+        "ar": "إدارة براند محتاجة فلوس ومهارات بيزنس"
+      },
+      {
+        "en": "Fast trends and copying",
+        "ar": "تريندات سريعة ونسخ"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Fashion design is only drawing.",
+          "ar": "تصميم الأزياء رسم وبس."
+        },
+        "fact": {
+          "en": "Patterns, fabrics, costs and production are most of the job.",
+          "ar": "الباترون والأقمشة والتكلفة والإنتاج هما أغلب الشغل."
+        }
+      },
+      {
+        "myth": {
+          "en": "Only famous designers earn.",
+          "ar": "المشاهير بس اللي بيكسبوا."
+        },
+        "fact": {
+          "en": "Factories and brands need many designers behind the scenes.",
+          "ar": "المصانع والبراندات محتاجين مصممين كتير ورا الكواليس."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Regular hours in factories; long days before collections and shows.",
+      "ar": "مواعيد منتظمة في المصانع؛ وأيام طويلة قبل الكولكشنز والعروض."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "graphic_designer",
@@ -155,6 +316,11 @@
       "title": "My Next Move (O*NET): Fashion Designer",
       "url": "https://www.mynextmove.org/profile/summary/27-1022.00",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Fashion Designer, Pattern Cutter salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/textile-leather-apparel-industry/fashion-designer-pattern-cutter?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

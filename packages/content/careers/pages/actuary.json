@@ -2,8 +2,8 @@
   "id": "actuary",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You use maths to put a price on the future.",
@@ -115,6 +115,190 @@
       "ar": "المؤهلات الاكتوارية المهنية تأتي من هيئات دولية مثل معهد وكلية الاكتواريين (بريطانيا) أو جمعية الاكتواريين (أمريكا) عبر سلسلة امتحانات. وتشرف الهيئة العامة للرقابة المالية على التأمين في مصر، فراجع قواعدها الحالية بشأن من يحق له توقيع التقارير الاكتوارية."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Probability and statistics",
+        "ar": "الاحتمالات والإحصاء"
+      },
+      {
+        "en": "Financial mathematics and present-value calculations",
+        "ar": "الرياضيات المالية وحسابات القيمة الحالية"
+      },
+      {
+        "en": "Excel modelling",
+        "ar": "بناء النماذج على إكسل"
+      },
+      {
+        "en": "Programming for data (R, Python or SQL)",
+        "ar": "البرمجة للبيانات (R أو Python أو SQL)"
+      },
+      {
+        "en": "Insurance and pension products",
+        "ar": "منتجات التأمين والمعاشات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience for long, careful work",
+        "ar": "الصبر على الشغل الطويل الدقيق"
+      },
+      {
+        "en": "Explaining numbers to non-specialists",
+        "ar": "شرح الأرقام لغير المتخصصين"
+      },
+      {
+        "en": "Discipline to study for exams while working",
+        "ar": "الالتزام بالمذاكرة للامتحانات مع الشغل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: exam material, software and reports",
+        "ar": "الإنجليزية: مواد الامتحانات والبرامج والتقارير"
+      },
+      {
+        "en": "Arabic: local clients and regulators",
+        "ar": "العربية: العملاء المحليون والجهات الرقابية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Society of Actuaries (SOA) exams",
+        "ar": "امتحانات جمعية الخبراء الاكتواريين (SOA)"
+      },
+      {
+        "en": "Institute and Faculty of Actuaries (IFoA) exams",
+        "ar": "امتحانات معهد وكلية الخبراء الاكتواريين (IFoA)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Society of Actuaries: what actuaries do",
+        "url": "https://www.soa.org",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Statistics and probability",
+        "url": "https://www.khanacademy.org/math/statistics-probability",
+        "free": true
+      },
+      {
+        "title": "Institute and Faculty of Actuaries",
+        "url": "https://www.actuaries.org.uk",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12917,
+        "max": 44340
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/insurance/actuary?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Actuary\". Paylab's own figure for someone with 5 years of experience is about 39,594 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Actuary» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 39,594 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Insurance companies (life and general)",
+        "ar": "شركات التأمين (الحياة والممتلكات)"
+      },
+      {
+        "en": "Pension and social insurance funds",
+        "ar": "صناديق المعاشات والتأمينات الاجتماعية"
+      },
+      {
+        "en": "Banks and consulting firms",
+        "ar": "البنوك وشركات الاستشارات"
+      },
+      {
+        "en": "Financial regulators",
+        "ar": "الجهات الرقابية المالية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most actuaries are employed full-time. Experienced actuaries can consult for smaller insurers or funds, and some modelling work can be done remotely.",
+      "ar": "أغلب الخبراء الاكتواريين بيشتغلوا بدوام كامل. واللي عنده خبرة يقدر يعمل استشارات لشركات تأمين أو صناديق أصغر، وشوية من شغل النماذج ممكن يتعمل من البيت."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Actuarial exams such as SOA and IFoA are recognised internationally, and the Gulf insurance market hires actuaries. Moving abroad usually needs several exams passed and a few years of experience.",
+    "ar": "امتحانات زي SOA وIFoA معترف بيها دوليًا، وسوق التأمين في الخليج بيعيّن خبراء اكتواريين. السفر غالبًا محتاج إنك تكون عدّيت كذا امتحان ومعاك كام سنة خبرة."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Rare skill, so qualified people stand out",
+        "ar": "مهارة نادرة، فاللي متأهّل بيبان"
+      },
+      {
+        "en": "Clear exam ladder that shows your level",
+        "ar": "سلّم امتحانات واضح بيبيّن مستواك"
+      },
+      {
+        "en": "Skills move into data science and risk",
+        "ar": "مهاراتك بتنقل لعلم البيانات والمخاطر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Exams take years and can be expensive",
+        "ar": "الامتحانات بتاخد سنين وممكن تبقى غالية"
+      },
+      {
+        "en": "Few employers in Egypt, mostly in Cairo",
+        "ar": "أصحاب الشغل قليلين في مصر، وأغلبهم في القاهرة"
+      },
+      {
+        "en": "Long hours studying after work",
+        "ar": "ساعات مذاكرة طويلة بعد الشغل"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Actuaries only do boring calculations.",
+          "ar": "الخبير الاكتواري بيعمل حسابات مملة وبس."
+        },
+        "fact": {
+          "en": "They build models, judge risks and explain decisions that affect millions of people.",
+          "ar": "بيبني نماذج ويقدّر مخاطر ويشرح قرارات بتأثر على ملايين الناس."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a maths degree to start.",
+          "ar": "لازم شهادة رياضيات عشان تبدأ."
+        },
+        "fact": {
+          "en": "Maths, statistics, commerce or engineering graduates can start if they pass the exams.",
+          "ar": "خريجين الرياضيات والإحصاء والتجارة والهندسة يقدروا يبدأوا لو نجحوا في الامتحانات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours are usually regular, but exam seasons mean studying in the evenings and at weekends.",
+      "ar": "مواعيد المكتب غالبًا منتظمة، بس مواسم الامتحانات معناها مذاكرة بالليل وفي الإجازات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "financial_analyst",
@@ -163,6 +347,11 @@
       "title": "Society of Actuaries",
       "url": "https://www.soa.org",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Actuary salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/insurance/actuary?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

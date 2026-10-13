@@ -2,8 +2,8 @@
   "id": "interior_designer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You shape the rooms where people live, work and relax.",
@@ -119,6 +119,176 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Space planning and measured drawings",
+        "ar": "تخطيط المساحات والرسومات بالمقاسات"
+      },
+      {
+        "en": "AutoCAD, SketchUp and 3D rendering",
+        "ar": "أوتوكاد وسكتش أب والرندر ثلاثي الأبعاد"
+      },
+      {
+        "en": "Materials, lighting and furniture",
+        "ar": "الخامات والإضاءة والأثاث"
+      },
+      {
+        "en": "Bills of quantities and site follow-up",
+        "ar": "حصر الكميات ومتابعة التنفيذ"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Listening to what clients really need",
+        "ar": "فهم العميل محتاج إيه بجد"
+      },
+      {
+        "en": "Managing budgets and expectations",
+        "ar": "إدارة الميزانية والتوقعات"
+      },
+      {
+        "en": "Working with contractors on site",
+        "ar": "الشغل مع المقاولين في الموقع"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: clients, workshops and contractors",
+        "ar": "العربية: العملاء والورش والمقاولون"
+      },
+      {
+        "en": "English: software, suppliers and Gulf clients",
+        "ar": "الإنجليزية: البرامج والموردون وعملاء الخليج"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "SketchUp: free learning",
+        "url": "https://www.sketchup.com/learn",
+        "free": true
+      },
+      {
+        "title": "Autodesk: AutoCAD learning",
+        "url": "https://www.autodesk.com/learn",
+        "free": true
+      },
+      {
+        "title": "Behance: interior design portfolios",
+        "url": "https://www.behance.net",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8637,
+        "max": 26970
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/construction-real-estate/interior-designer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Interior Designer\". Paylab's own figure for someone with 5 years of experience is about 25,655 EGP. The survey has 32 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Interior Designer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 25,655 جنيهًا. يضم الاستبيان 32 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Interior design studios",
+        "ar": "استوديوهات التصميم الداخلي"
+      },
+      {
+        "en": "Fit-out and finishing companies",
+        "ar": "شركات التشطيبات"
+      },
+      {
+        "en": "Real estate developers",
+        "ar": "شركات التطوير العقاري"
+      },
+      {
+        "en": "Furniture companies",
+        "ar": "شركات الأثاث"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance design for homes and shops is very common, and many designers work remotely on 3D designs for Gulf clients. Site follow-up must be done in person.",
+      "ar": "الفري لانس في تصميم البيوت والمحلات منتشر جدًا، ومصممين كتير بيشتغلوا من البيت على تصميمات 3D لعملاء في الخليج. ومتابعة التنفيذ لازم بنفسك."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo, including the new cities",
+        "ar": "القاهرة الكبرى ومنها المدن الجديدة"
+      },
+      {
+        "en": "North Coast and Red Sea projects",
+        "ar": "مشروعات الساحل الشمالي والبحر الأحمر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf design firms and developers hire Egyptian interior designers, and remote 3D work for clients abroad is common. A strong portfolio matters most.",
+    "ar": "مكاتب التصميم والمطورين في الخليج بيعيّنوا مصممين ديكور مصريين، والشغل من البيت على 3D لعملاء برّه منتشر. والبورتفوليو القوي هو الأهم."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative work you can visit",
+        "ar": "شغل إبداعي تقدر تزوره"
+      },
+      {
+        "en": "Freelance and own-studio options",
+        "ar": "فرص فري لانس واستوديو بتاعك"
+      },
+      {
+        "en": "Real estate projects keep demand going",
+        "ar": "مشروعات العقارات بتخلّي الطلب مستمر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Clients change their minds often",
+        "ar": "العملاء بيغيّروا رأيهم كتير"
+      },
+      {
+        "en": "Contractors may not follow the design",
+        "ar": "المقاول ممكن ما يمشيش على التصميم"
+      },
+      {
+        "en": "Work follows the property market",
+        "ar": "الشغل ماشي مع سوق العقارات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Interior design is just choosing colours.",
+          "ar": "الديكور يعني اختيار ألوان."
+        },
+        "fact": {
+          "en": "It includes layouts, lighting, materials, costs and site supervision.",
+          "ar": "فيه توزيع وإضاءة وخامات وتكاليف ومتابعة تنفيذ."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must study architecture first.",
+          "ar": "لازم تدرس عمارة الأول."
+        },
+        "fact": {
+          "en": "Many come from applied or fine arts, or learn through courses and practice.",
+          "ar": "كتير جايين من الفنون التطبيقية أو الجميلة، أو اتعلموا بالكورسات والممارسة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Studio hours plus site visits; deadlines before handovers can mean late nights.",
+      "ar": "مواعيد استوديو مع زيارات مواقع؛ والمواعيد قبل التسليم ممكن تعني سهر."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "architect",
@@ -167,6 +337,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Interior Designer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/construction-real-estate/interior-designer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

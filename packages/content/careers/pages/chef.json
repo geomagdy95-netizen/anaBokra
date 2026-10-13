@@ -2,8 +2,8 @@
   "id": "chef",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You turn ingredients into meals people remember.",
@@ -123,6 +123,181 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Cooking techniques and knife skills",
+        "ar": "تقنيات الطبخ ومهارات السكين"
+      },
+      {
+        "en": "Food safety and hygiene (HACCP basics)",
+        "ar": "سلامة الغذاء والنظافة (أساسيات HACCP)"
+      },
+      {
+        "en": "Menu planning and food costing",
+        "ar": "تخطيط المنيو وحساب تكلفة الأكل"
+      },
+      {
+        "en": "Stock control and ordering",
+        "ar": "متابعة المخزون والطلبيات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Staying calm in a busy kitchen",
+        "ar": "الهدوء في مطبخ زحمة"
+      },
+      {
+        "en": "Leading and training a team",
+        "ar": "قيادة الفريق وتدريبه"
+      },
+      {
+        "en": "Consistency and attention to detail",
+        "ar": "الثبات والانتباه للتفاصيل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: kitchen team and suppliers",
+        "ar": "العربية: فريق المطبخ والموردون"
+      },
+      {
+        "en": "English: hotel kitchens, recipes and international guests",
+        "ar": "الإنجليزية: مطابخ الفنادق والوصفات والضيوف الأجانب"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Food safety certificate (HACCP-based)",
+        "ar": "شهادة سلامة غذاء (مبنية على HACCP)"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "WHO: food safety",
+        "url": "https://www.who.int/health-topics/food-safety",
+        "free": true
+      },
+      {
+        "title": "FAO eLearning Academy: food safety courses",
+        "url": "https://elearning.fao.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12402,
+        "max": 35279
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business/chef?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Chef\". Paylab's own figure for someone with 5 years of experience is about 33,189 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Chef» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 33,189 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Hotels and resorts",
+        "ar": "الفنادق والمنتجعات"
+      },
+      {
+        "en": "Restaurants and cafés",
+        "ar": "المطاعم والكافيهات"
+      },
+      {
+        "en": "Catering companies and cloud kitchens",
+        "ar": "شركات التموين والمطابخ السحابية"
+      },
+      {
+        "en": "Cruise ships",
+        "ar": "السفن السياحية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Many chefs start home kitchens, catering or online food businesses. Private chef work and cooking classes are growing.",
+      "ar": "شيفات كتير بيبدأوا مطبخ من البيت أو كيترينج أو بيزنس أكل أونلاين. وشغل الشيف الخاص وكورسات الطبخ بيكبروا."
+    },
+    "regions": [
+      {
+        "en": "Red Sea and South Sinai resorts",
+        "ar": "منتجعات البحر الأحمر وجنوب سيناء"
+      },
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Luxor, Aswan and Alexandria",
+        "ar": "الأقصر وأسوان والإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Kitchen skills travel well: Gulf hotels, cruise lines and international chains hire Egyptian chefs, and experience in a known hotel helps.",
+    "ar": "مهارات المطبخ بتسافر بسهولة: فنادق الخليج والسفن السياحية والسلاسل الدولية بتعيّن شيفات مصريين، والخبرة في فندق معروف بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative, hands-on work",
+        "ar": "شغل إبداعي بإيدك"
+      },
+      {
+        "en": "Clear path from assistant to head chef",
+        "ar": "طريق واضح من مساعد لشيف رئيسي"
+      },
+      {
+        "en": "Chance to open your own food business",
+        "ar": "فرصة تفتح بيزنس أكل بتاعك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long, hot shifts on your feet",
+        "ar": "شيفتات طويلة وحر وواقف على رجلك"
+      },
+      {
+        "en": "Work on holidays and evenings",
+        "ar": "شغل في الإجازات وبالليل"
+      },
+      {
+        "en": "Tourism slumps affect hotel jobs",
+        "ar": "ركود السياحة بيأثر على شغل الفنادق"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Cooking is easy if you like food.",
+          "ar": "الطبخ سهل لو بتحب الأكل."
+        },
+        "fact": {
+          "en": "Professional kitchens need speed, safety rules and costing, not only taste.",
+          "ar": "المطابخ المحترفة محتاجة سرعة وقواعد سلامة وحساب تكلفة، مش طعم وبس."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need a culinary school to start.",
+          "ar": "لازم مدرسة طبخ عشان تبدأ."
+        },
+        "fact": {
+          "en": "Many chefs start as kitchen assistants and learn on the job.",
+          "ar": "شيفات كتير بيبدأوا مساعدين في المطبخ وبيتعلموا من الشغل."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Demanding: evenings, weekends and holidays are peak times. Resort jobs may mean living away from home.",
+      "ar": "متعب: الليل والإجازات والأعياد هي وقت الذروة. وشغل المنتجعات ممكن يعني إنك تعيش بعيد عن البيت."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "hotel_manager",
@@ -181,6 +356,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Chef salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business/chef?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

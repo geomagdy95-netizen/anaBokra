@@ -2,8 +2,8 @@
   "id": "physicist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You search for the rules that explain how the universe works.",
@@ -119,6 +119,162 @@
     "licensing": {
       "en": "Scientists working in labs and industry usually need a science degree, and graduates of science faculties can join the scientific professions syndicate. Requirements for particular jobs differ, so check with the syndicate and your employer.",
       "ar": "العاملون في المعامل والصناعة يحتاجون عادة إلى درجة علمية، ويمكن لخريجي كليات العلوم الانضمام إلى نقابة المهن العلمية. وتختلف شروط الوظائف المحددة، فتأكد من النقابة وجهة العمل."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Mathematics and physics fundamentals",
+        "ar": "أساسيات الرياضيات والفيزيا"
+      },
+      {
+        "en": "Lab measurement and error analysis",
+        "ar": "القياس المعملي وتحليل الخطأ"
+      },
+      {
+        "en": "Programming (Python) and data analysis",
+        "ar": "البرمجة (Python) وتحليل البيانات"
+      },
+      {
+        "en": "Scientific writing",
+        "ar": "الكتابة العلمية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience with hard problems",
+        "ar": "الصبر على المسائل الصعبة"
+      },
+      {
+        "en": "Curiosity and careful reasoning",
+        "ar": "الفضول والتفكير الدقيق"
+      },
+      {
+        "en": "Explaining ideas simply",
+        "ar": "شرح الأفكار ببساطة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: research papers and conferences",
+        "ar": "الإنجليزية: الأبحاث والمؤتمرات"
+      },
+      {
+        "en": "Arabic: teaching and local institutions",
+        "ar": "العربية: التدريس والمؤسسات المحلية"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "MIT OpenCourseWare: Physics",
+        "url": "https://ocw.mit.edu",
+        "free": true
+      },
+      {
+        "title": "PhET: free physics simulations",
+        "url": "https://phet.colorado.edu",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for physicists, so we do not show a number. Physics graduates are paid very differently depending on whether they teach, research, or work in tech, energy or medical physics.",
+      "ar": "لا يضم Paylab مصر مسمى للفيزيائيين، لذلك لا نعرض رقمًا. ويختلف أجر خريجي الفيزياء كثيرًا حسب عملهم في التدريس أو البحث أو التكنولوجيا أو الطاقة أو الفيزياء الطبية."
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Universities and research centres",
+        "ar": "الجامعات ومراكز الأبحاث"
+      },
+      {
+        "en": "Schools and private teaching",
+        "ar": "المدارس والدروس الخصوصية"
+      },
+      {
+        "en": "Hospitals (medical physics, with further training)",
+        "ar": "المستشفيات (الفيزياء الطبية، بتدريب إضافي)"
+      },
+      {
+        "en": "Tech, energy and data companies",
+        "ar": "شركات التكنولوجيا والطاقة والبيانات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Research and lab work are on site. Teaching, tutoring and data analysis can be freelance or remote.",
+      "ar": "شغل البحث والمعمل في المكان نفسه. والتدريس والدروس وتحليل البيانات ممكن يبقوا فري لانس أو من البيت."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "University cities across Egypt",
+        "ar": "المدن الجامعية في مصر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Many Egyptian physicists build careers abroad through master’s and PhD scholarships in Europe, North America and Asia.",
+    "ar": "فيزيائيين مصريين كتير بيبنوا مشوارهم برّه عن طريق منح الماجستير والدكتوراه في أوروبا وأمريكا الشمالية وآسيا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Deep problem-solving skills that transfer",
+        "ar": "مهارات حل مشاكل عميقة بتنفع في كل حتة"
+      },
+      {
+        "en": "Doors into tech, data and energy",
+        "ar": "أبواب للتكنولوجيا والبيانات والطاقة"
+      },
+      {
+        "en": "Research careers abroad",
+        "ar": "مشوار بحثي برّه"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few physics jobs by title in Egypt",
+        "ar": "وظايف قليلة باسم «فيزيائي» في مصر"
+      },
+      {
+        "en": "Research needs years of postgraduate study",
+        "ar": "البحث محتاج سنين دراسات عليا"
+      },
+      {
+        "en": "Academic pay is modest",
+        "ar": "مرتبات الجامعة متواضعة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Physics only leads to teaching.",
+          "ar": "الفيزيا بتوصّل للتدريس بس."
+        },
+        "fact": {
+          "en": "Physics graduates work in data, tech, energy and medicine too.",
+          "ar": "خريجين الفيزيا بيشتغلوا في البيانات والتكنولوجيا والطاقة والطب كمان."
+        }
+      },
+      {
+        "myth": {
+          "en": "You must be a genius.",
+          "ar": "لازم تكون عبقري."
+        },
+        "fact": {
+          "en": "Steady work and good habits matter more than genius.",
+          "ar": "الشغل المستمر والعادات الكويسة أهم من العبقرية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Regular academic hours, with intense periods around experiments and deadlines.",
+      "ar": "مواعيد جامعة منتظمة، مع فترات مكثفة قرب التجارب والمواعيد."
     }
   },
   "progression": {

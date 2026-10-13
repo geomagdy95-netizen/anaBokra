@@ -2,8 +2,8 @@
   "id": "agribusiness_manager",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You run the business side of farming and food.",
@@ -117,6 +117,168 @@
       }
     ],
     "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Crop and livestock basics",
+        "ar": "أساسيات المحاصيل والإنتاج الحيواني"
+      },
+      {
+        "en": "Costing, budgets and simple accounting",
+        "ar": "حساب التكاليف والميزانيات والمحاسبة البسيطة"
+      },
+      {
+        "en": "Sales, contracts and export rules",
+        "ar": "المبيعات والعقود وقواعد التصدير"
+      },
+      {
+        "en": "Managing workers and equipment",
+        "ar": "إدارة العمال والمعدات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Negotiating with traders and suppliers",
+        "ar": "التفاوض مع التجار والموردين"
+      },
+      {
+        "en": "Making decisions under weather and price risk",
+        "ar": "اتخاذ القرار وسط مخاطر الطقس والأسعار"
+      },
+      {
+        "en": "Leading teams in the field",
+        "ar": "قيادة الفرق في الحقل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: workers, farmers and local traders",
+        "ar": "العربية: العمال والمزارعون والتجار المحليون"
+      },
+      {
+        "en": "English: export buyers and certification standards",
+        "ar": "الإنجليزية: المشترون في الخارج ومعايير الاعتماد"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "GLOBALG.A.P. awareness for export farms",
+        "ar": "التعرف على معيار GLOBALG.A.P. لمزارع التصدير"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "FAO eLearning Academy",
+        "url": "https://elearning.fao.org",
+        "free": true
+      },
+      {
+        "title": "GLOBALG.A.P.: what the standard covers",
+        "url": "https://www.globalgap.org",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "salaryNote": {
+      "en": "We did not find a Paylab job title that matches farm or agribusiness managers in Egypt, so we do not show a number. Pay depends a lot on the size of the farm or company and on profit.",
+      "ar": "لم نجد في Paylab مسمى وظيفيًا يطابق مديري المزارع أو الأعمال الزراعية في مصر، لذلك لا نعرض رقمًا. ويعتمد الأجر كثيرًا على حجم المزرعة أو الشركة وعلى الربح."
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Large farms and agricultural companies",
+        "ar": "المزارع الكبيرة والشركات الزراعية"
+      },
+      {
+        "en": "Packing houses and exporters",
+        "ar": "محطات التعبئة والمصدّرون"
+      },
+      {
+        "en": "Seed, fertiliser and equipment suppliers",
+        "ar": "موردو البذور والأسمدة والمعدات"
+      },
+      {
+        "en": "Food processing companies",
+        "ar": "شركات تصنيع الأغذية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Management is on site, but some people run their own small farm or trading business, and farm consulting can serve several clients.",
+      "ar": "الإدارة بتبقى في المكان نفسه، بس فيه ناس بتدير مزرعة صغيرة أو تجارة بتاعتها، والاستشارات الزراعية ممكن تخدم كذا عميل."
+    },
+    "regions": [
+      {
+        "en": "The Delta and Nile Valley governorates",
+        "ar": "محافظات الدلتا ووادي النيل"
+      },
+      {
+        "en": "New reclaimed lands west of the Delta and in Upper Egypt",
+        "ar": "الأراضي المستصلحة غرب الدلتا وفي الصعيد"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf and African agribusiness companies hire managers with export and large-farm experience. Knowing international quality standards helps.",
+    "ar": "شركات الزراعة في الخليج وأفريقيا بتعيّن مديرين عندهم خبرة في التصدير والمزارع الكبيرة. ومعرفة معايير الجودة الدولية بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Mix of field work and business decisions",
+        "ar": "خليط من شغل الغيط وقرارات البيزنس"
+      },
+      {
+        "en": "Egypt exports a lot of fresh produce",
+        "ar": "مصر بتصدّر كمية كبيرة من الخضار والفاكهة"
+      },
+      {
+        "en": "Chance to build your own business",
+        "ar": "فرصة تبني بيزنس بتاعك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Weather, water and prices can change results fast",
+        "ar": "الطقس والمية والأسعار ممكن يغيّروا النتايج بسرعة"
+      },
+      {
+        "en": "Farms are often far from cities",
+        "ar": "المزارع غالبًا بعيدة عن المدن"
+      },
+      {
+        "en": "Long days in harvest season",
+        "ar": "أيام طويلة في موسم الحصاد"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Farming is only for people from farming families.",
+          "ar": "الزراعة للي من عيلات فلاحين بس."
+        },
+        "fact": {
+          "en": "Many managers come from agriculture or business faculties and learn the field on the job.",
+          "ar": "مديرين كتير جايين من كليات الزراعة أو التجارة واتعلموا الشغل في الغيط."
+        }
+      },
+      {
+        "myth": {
+          "en": "Agribusiness pays nothing.",
+          "ar": "البيزنس الزراعي ما بيكسبش."
+        },
+        "fact": {
+          "en": "Export farms and food companies can pay well; small farms are riskier.",
+          "ar": "مزارع التصدير وشركات الأغذية ممكن تدفع كويس؛ والمزارع الصغيرة مخاطرتها أكبر."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Seasonal: busy during planting and harvest, calmer between seasons. Travel between farms is common.",
+      "ar": "موسمي: زحمة في الزراعة والحصاد، وأهدى بين المواسم. والتنقل بين المزارع حاجة عادية."
+    }
   },
   "progression": {
     "relatedCareerIds": [

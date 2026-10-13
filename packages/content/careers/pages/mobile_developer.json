@@ -2,8 +2,8 @@
   "id": "mobile_developer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You build the apps that live in everyone's pocket.",
@@ -119,6 +119,180 @@
     ],
     "licensing": null
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Kotlin for Android or Swift for iOS",
+        "ar": "Kotlin لأندرويد أو Swift لآيفون"
+      },
+      {
+        "en": "Cross-platform frameworks such as Flutter or React Native",
+        "ar": "أطر متعددة المنصات زي Flutter أو React Native"
+      },
+      {
+        "en": "APIs, data storage and payments",
+        "ar": "الـAPIs وتخزين البيانات والدفع"
+      },
+      {
+        "en": "Testing and publishing to app stores",
+        "ar": "الاختبار والنشر على المتاجر"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Caring about the user’s experience",
+        "ar": "الاهتمام بتجربة المستخدم"
+      },
+      {
+        "en": "Teamwork with designers and backend developers",
+        "ar": "الشغل مع المصممين ومطوري الباك إند"
+      },
+      {
+        "en": "Learning new tools steadily",
+        "ar": "تعلّم أدوات جديدة على طول"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: documentation, code and remote teams",
+        "ar": "الإنجليزية: التوثيق والكود والفرق البعيدة"
+      },
+      {
+        "en": "Arabic: local products and right-to-left layouts",
+        "ar": "العربية: المنتجات المحلية والواجهات من اليمين للشمال"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Android Developers: free courses",
+        "url": "https://developer.android.com/courses",
+        "free": true
+      },
+      {
+        "title": "Apple Developer: Swift tutorials",
+        "url": "https://developer.apple.com/tutorials/app-dev-training",
+        "free": true
+      },
+      {
+        "title": "Flutter: free documentation and codelabs",
+        "url": "https://docs.flutter.dev",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 13348,
+        "max": 69543
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology/android-developer?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Android Developer\". Paylab's own figure for someone with 5 years of experience is about 68,396 EGP. The survey has 23 verified respondents for this job title. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Android Developer» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 68,396 جنيهًا. يضم الاستبيان 23 مشاركًا موثقًا لهذه الوظيفة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Startups, fintech and delivery apps",
+        "ar": "الشركات الناشئة والتكنولوجيا المالية وأبلكيشنز التوصيل"
+      },
+      {
+        "en": "Software houses and agencies",
+        "ar": "شركات البرمجيات والوكالات"
+      },
+      {
+        "en": "Banks and telecoms",
+        "ar": "البنوك والاتصالات"
+      },
+      {
+        "en": "Foreign companies hiring remotely",
+        "ar": "شركات برّه بتعيّن من بعيد"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Freelance app projects and remote jobs for foreign clients are common. A portfolio of published apps helps you win them.",
+      "ar": "مشروعات الأبلكيشنز الفري لانس والوظايف من البيت لعملاء برّه منتشرة. وبورتفوليو أبلكيشنز منشورة بيساعدك تكسبها."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+      },
+      {
+        "en": "Remote",
+        "ar": "من البيت"
+      }
+    ]
+  },
+  "global": {
+    "en": "Mobile skills are in demand worldwide; many Egyptian developers work remotely for Gulf, European and US companies.",
+    "ar": "مهارات الموبايل مطلوبة في العالم كله؛ ومطورين مصريين كتير بيشتغلوا من البيت لشركات خليجية وأوروبية وأمريكية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Your work is in people’s pockets",
+        "ar": "شغلك في جيوب الناس"
+      },
+      {
+        "en": "Strong demand and remote options",
+        "ar": "طلب قوي وفرص شغل من البيت"
+      },
+      {
+        "en": "You can learn at home",
+        "ar": "تقدر تتعلم من البيت"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Many juniors compete for first jobs",
+        "ar": "جونيورز كتير بيتنافسوا على أول شغلانة"
+      },
+      {
+        "en": "Platforms and frameworks change often",
+        "ar": "المنصات والأطر بتتغير كتير"
+      },
+      {
+        "en": "Long hours before releases",
+        "ar": "ساعات طويلة قبل الإصدارات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You need a Mac to start.",
+          "ar": "لازم ماك عشان تبدأ."
+        },
+        "fact": {
+          "en": "Android and Flutter work on Windows; you need a Mac mainly for iOS publishing.",
+          "ar": "أندرويد وFlutter بيشتغلوا على ويندوز؛ والماك محتاجه أساسًا لنشر iOS."
+        }
+      },
+      {
+        "myth": {
+          "en": "Apps are easy to build.",
+          "ar": "الأبلكيشنز سهلة."
+        },
+        "fact": {
+          "en": "Making them fast, secure and reliable takes real skill.",
+          "ar": "إنك تخليها سريعة وآمنة ويتعتمد عليها محتاج مهارة حقيقية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Usually flexible or hybrid hours, with crunch before launches.",
+      "ar": "غالبًا مواعيد مرنة أو هايبرد، مع ضغط قبل الإطلاقات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "software_engineer",
@@ -168,6 +342,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Android Developer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/information-technology/android-developer?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

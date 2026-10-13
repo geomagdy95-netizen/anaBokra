@@ -2,8 +2,8 @@
   "id": "chemist",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You explore what things are made of and how they change.",
@@ -121,6 +121,177 @@
       "ar": "العاملون في المعامل والصناعة يحتاجون عادة إلى درجة علمية، ويمكن لخريجي كليات العلوم الانضمام إلى نقابة المهن العلمية. وتختلف شروط الوظائف المحددة، فتأكد من النقابة وجهة العمل."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Analytical chemistry and lab techniques",
+        "ar": "الكيمياء التحليلية وتقنيات المعمل"
+      },
+      {
+        "en": "Instruments such as HPLC, GC and spectroscopy",
+        "ar": "أجهزة مثل HPLC وGC والتحليل الطيفي"
+      },
+      {
+        "en": "Quality control and good laboratory practice",
+        "ar": "مراقبة الجودة وممارسات المعمل السليمة"
+      },
+      {
+        "en": "Data recording and basic statistics",
+        "ar": "تسجيل البيانات والإحصاء الأساسي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Precision and patience",
+        "ar": "الدقة والصبر"
+      },
+      {
+        "en": "Following procedures exactly",
+        "ar": "الالتزام بالإجراءات بالحرف"
+      },
+      {
+        "en": "Clear reporting",
+        "ar": "كتابة التقارير بوضوح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English: methods, standards and instrument software",
+        "ar": "الإنجليزية: طرق التحليل والمعايير وبرامج الأجهزة"
+      },
+      {
+        "en": "Arabic: lab and production teams",
+        "ar": "العربية: فرق المعمل والإنتاج"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ISO 17025 and quality courses",
+        "ar": "دورات ISO 17025 والجودة"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Royal Society of Chemistry: education resources",
+        "url": "https://edu.rsc.org",
+        "free": true
+      },
+      {
+        "title": "Khan Academy: Chemistry",
+        "url": "https://www.khanacademy.org/science/chemistry",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10203,
+        "max": 25133
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/chemical-industry/chemist?lang=en",
+      "note": {
+        "en": "Paylab Egypt shows one gross monthly band for all experience levels (the range that 80% of survey respondents report), so we show it under \"mid\"; junior and senior pay are not published separately. Figures are for the Paylab job title \"Chemist\". Paylab's own figure for someone with 5 years of experience is about 19,068 EGP. The survey has fewer than 20 verified respondents for this job title, so the sample is small. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر نطاقًا واحدًا للراتب الشهري الإجمالي لكل مستويات الخبرة (النطاق الذي يذكره 80% من المشاركين في الاستبيان)، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة. الأرقام لمسمى «Chemist» في Paylab. رقم Paylab لمن لديه 5 سنوات خبرة نحو 19,068 جنيهًا. يضم الاستبيان أقل من 20 مشاركًا موثقًا لهذه الوظيفة، فالعينة صغيرة. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Pharmaceutical and cosmetics factories",
+        "ar": "مصانع الأدوية ومستحضرات التجميل"
+      },
+      {
+        "en": "Food and beverage companies",
+        "ar": "شركات الأغذية والمشروبات"
+      },
+      {
+        "en": "Petrochemical, fertiliser and paint plants",
+        "ar": "مصانع البتروكيماويات والأسمدة والدهانات"
+      },
+      {
+        "en": "Testing labs and research centres",
+        "ar": "معامل الاختبار ومراكز الأبحاث"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Lab work is on site. Some chemists offer consulting, technical writing or training once they have experience.",
+      "ar": "شغل المعمل في المكان نفسه. وفيه كيميائيين بيعملوا استشارات أو كتابة فنية أو تدريب بعد ما ياخدوا خبرة."
+    },
+    "regions": [
+      {
+        "en": "Industrial zones in Greater Cairo",
+        "ar": "المناطق الصناعية في القاهرة الكبرى"
+      },
+      {
+        "en": "Alexandria and Suez",
+        "ar": "الإسكندرية والسويس"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf industries and labs hire chemists, and a master’s or PhD opens research posts abroad. Experience with standard instruments helps.",
+    "ar": "الصناعات والمعامل في الخليج بتعيّن كيميائيين، والماجستير أو الدكتوراه بيفتحوا وظايف بحث برّه. والخبرة على الأجهزة المعروفة بتساعد."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work in many industries",
+        "ar": "شغل في صناعات كتير"
+      },
+      {
+        "en": "Clear path into quality roles",
+        "ar": "طريق واضح لوظايف الجودة"
+      },
+      {
+        "en": "Science you use every day",
+        "ar": "علم بتستخدمه كل يوم"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Routine testing can feel repetitive",
+        "ar": "الاختبارات الروتينية ممكن تبقى متكررة"
+      },
+      {
+        "en": "Exposure to chemicals needs strict safety",
+        "ar": "التعامل مع الكيماويات محتاج سلامة صارمة"
+      },
+      {
+        "en": "Entry pay is modest",
+        "ar": "المرتب في الأول متواضع"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Chemists only mix things in tubes.",
+          "ar": "الكيميائي بيخلط حاجات في أنابيب وبس."
+        },
+        "fact": {
+          "en": "Much of the work is measuring, checking quality and recording data.",
+          "ar": "جزء كبير من الشغل قياس وفحص جودة وتسجيل بيانات."
+        }
+      },
+      {
+        "myth": {
+          "en": "Science graduates only become teachers.",
+          "ar": "خريجين العلوم بيبقوا مدرسين بس."
+        },
+        "fact": {
+          "en": "Factories and labs hire many science graduates.",
+          "ar": "المصانع والمعامل بتعيّن خريجين علوم كتير."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly regular lab hours; factories may run shifts.",
+      "ar": "غالبًا مواعيد معمل منتظمة؛ والمصانع ممكن تشتغل بشيفتات."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "chemical_engineer",
@@ -160,6 +331,11 @@
       "title": "My Next Move (O*NET): Chemist",
       "url": "https://www.mynextmove.org/profile/summary/19-2031.00",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Chemist salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/chemical-industry/chemist?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }

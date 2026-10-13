@@ -2,8 +2,8 @@
   "id": "film_producer",
   "version": "1.0.0-draft",
   "status": "draft",
-  "lastReviewedAt": "2026-10-09",
-  "depth": "lite",
+  "lastReviewedAt": "2026-10-14",
+  "depth": "full",
   "snapshot": {
     "hook": {
       "en": "You bring stories to the screen, from the first idea to the final cut.",
@@ -121,6 +121,167 @@
       "ar": "التصوير في الأماكن العامة وعرض الأفلام في مصر يحتاجان عادة إلى تصاريح وموافقات من الجهات المختصة، وينضم كثير من العاملين في السينما إلى نقابة المهن السينمائية. القواعد تتغير، فتأكد من الشروط الحالية قبل التصوير أو النشر."
     }
   },
+  "skills": {
+    "hard": [
+      {
+        "en": "Scripts, shot lists and storytelling",
+        "ar": "السيناريو وقوائم اللقطات والحكي"
+      },
+      {
+        "en": "Budgets, schedules and permits",
+        "ar": "الميزانيات والجداول والتصاريح"
+      },
+      {
+        "en": "Directing actors and camera",
+        "ar": "توجيه الممثلين والكاميرا"
+      },
+      {
+        "en": "Editing and post-production basics",
+        "ar": "أساسيات المونتاج وما بعد الإنتاج"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leading a crew under pressure",
+        "ar": "قيادة طاقم تحت ضغط"
+      },
+      {
+        "en": "Negotiating with clients and funders",
+        "ar": "التفاوض مع العملاء والممولين"
+      },
+      {
+        "en": "Solving problems on set quickly",
+        "ar": "حل المشاكل في اللوكيشن بسرعة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic: local productions and crews",
+        "ar": "العربية: الإنتاج المحلي والطواقم"
+      },
+      {
+        "en": "English: festivals, co-productions and international clients",
+        "ar": "الإنجليزية: المهرجانات والإنتاج المشترك والعملاء الدوليون"
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "No Film School: free filmmaking articles",
+        "url": "https://nofilmschool.com",
+        "free": true
+      },
+      {
+        "title": "Blackmagic Design: free DaVinci Resolve training",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 18003,
+        "max": 36507
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Producer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Producer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Production companies for film, TV and series",
+        "ar": "شركات إنتاج الأفلام والتليفزيون والمسلسلات"
+      },
+      {
+        "en": "Advertising production houses",
+        "ar": "شركات إنتاج الإعلانات"
+      },
+      {
+        "en": "TV channels and streaming platforms",
+        "ar": "القنوات ومنصات البث"
+      },
+      {
+        "en": "Brands and agencies making online video",
+        "ar": "البراندات والوكالات اللي بتعمل فيديو أونلاين"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Most film and video work is project-based and freelance: you are hired for a production, then move to the next. Building a network and a reel is essential.",
+      "ar": "أغلب شغل الأفلام والفيديو بالمشروع وفري لانس: بيتطلبوك لإنتاج، وبعدين تنقل للي بعده. وبناء العلاقات والريل حاجة أساسية."
+    },
+    "regions": [
+      {
+        "en": "Greater Cairo",
+        "ar": "القاهرة الكبرى"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egypt is a major Arab producer of film and series, and Gulf platforms and productions hire Egyptian crews. Festivals and co-productions open international work.",
+    "ar": "مصر من أكبر منتجي الأفلام والمسلسلات في العالم العربي، ومنصات وإنتاجات خليجية بتعيّن طواقم مصرية. والمهرجانات والإنتاج المشترك بيفتحوا شغل دولي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative work that reaches many people",
+        "ar": "شغل إبداعي بيوصل لناس كتير"
+      },
+      {
+        "en": "Every project is different",
+        "ar": "كل مشروع مختلف"
+      },
+      {
+        "en": "Strong local industry",
+        "ar": "صناعة محلية قوية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Irregular income between projects",
+        "ar": "دخل مش منتظم بين المشاريع"
+      },
+      {
+        "en": "Very long shooting days",
+        "ar": "أيام تصوير طويلة جدًا"
+      },
+      {
+        "en": "Hard to break in without contacts",
+        "ar": "الدخول صعب من غير علاقات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Directors only shout \"action\".",
+          "ar": "المخرج بيقول «أكشن» وبس."
+        },
+        "fact": {
+          "en": "Most of the work is preparation, planning and editing.",
+          "ar": "أغلب الشغل تحضير وتخطيط ومونتاج."
+        }
+      },
+      {
+        "myth": {
+          "en": "You need film school to start.",
+          "ar": "لازم معهد سينما عشان تبدأ."
+        },
+        "fact": {
+          "en": "Many start as runners or assistants and learn on set.",
+          "ar": "كتير بيبدأوا رانر أو مساعدين وبيتعلموا في اللوكيشن."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Very irregular: intense shooting periods with 12-hour days, then quiet weeks.",
+      "ar": "مش منتظم خالص: فترات تصوير مكثفة بأيام 12 ساعة، وبعدين أسابيع هادية."
+    }
+  },
   "progression": {
     "relatedCareerIds": [
       "content_creator",
@@ -170,6 +331,11 @@
       "title": "Al-Ain: Ministry of Higher Education minimum percentages for private and ahleya universities 2025/26",
       "url": "https://al-ain.com/article/university-admission-2025",
       "accessed": "2026-10-09"
+    },
+    {
+      "title": "Paylab Egypt: Producer salaries",
+      "url": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media?lang=en",
+      "accessed": "2026-10-14"
     }
   ]
 }
