@@ -1,6 +1,6 @@
 # Games instead of some questions: prototypes
 
-Status: **prototypes**, 14 Oct 2026, for the psychologist. Try them on a phone at `/en/dev/games` or `/ar/dev/games` (dev builds only). Nothing is saved, and nothing feeds results yet.
+Status: **prototypes**, 14–15 Oct 2026, for the psychologist. Try them on a phone at `/en/dev/games` or `/ar/dev/games` (dev builds only). Nothing is saved, and nothing feeds results yet.
 
 ## Why
 
@@ -10,7 +10,7 @@ A first session asks about 140 answers. Games can't replace everything:
 - **Traits such as patience, persistence, risk and planning: games help, but only as extras.** How someone plays one game predicts how they behave in general only loosely. We show it as "how you played", never as a label, and keep the personality questions.
 - **Interests and values: games can't help.** Liking something is a preference, so we have to ask. These remain the strongest guide to field fit. They can be shortened instead (a validated short form of the interest profiler, to confirm).
 
-## The two prototypes
+## The five prototypes
 
 ### 1. Pattern logic (reasoning)
 
@@ -30,6 +30,30 @@ A first session asks about 140 answers. Games can't replace everything:
 | Measures | Times they chose to wait, waits completed, waits given up and how far they got, longest wait completed, decision time per round, fish caught. |
 | Player sees | How many fish they caught. |
 
+### 3. Quick numbers (number sense)
+
+| | |
+|---|---|
+| What the player does | Number patterns and short sums with a "?" to fill; four options. Practice item with feedback, then eight items. No words, so Arabic and English players see the same thing (maths reads left to right in both). |
+| Items | Generated: level 1, an adding sequence; level 2, a doubling or alternating sequence; level 3, a percentage of an amount; level 4, a sequence whose steps grow, or a two-step sum (a × b − c). Wrong options are real slips (doing the minus first, adding instead of subtracting, the previous step repeated). Tested on 300 seeds per level. |
+| Measures | As pattern logic: right answers by level, hardest level solved, times. |
+
+### 4. Turn the shape (spatial thinking)
+
+| | |
+|---|---|
+| What the player does | A shape made of squares; which of four is the same shape turned? The other three are its mirror image turned. Practice item with feedback, then eight items. |
+| Items | Random shapes of 4 to 7 squares with no symmetry at all (every turn looks different and none matches its mirror, so exactly one option can be right; tested on 150 seeds per level). |
+| Measures | As pattern logic. |
+
+### 5. Remember the path (working memory)
+
+| | |
+|---|---|
+| What the player does | Tiles on a 3×3 board light up one after another; tap them in the same order. Starts at 3 tiles and grows by one after each success; two misses in a row at the same length end the game (Corsi-style span). |
+| Measures | Span (longest path repeated), trials, right answers. |
+| Player sees | The longest path they remembered. |
+
 ## How we would check them (pilot)
 
 1. Players do the game **and** the existing questions (opt-in research data, as now).
@@ -39,7 +63,7 @@ A first session asks about 140 answers. Games can't replace everything:
 
 ## Questions for the psychologist
 
-1. Which abilities matter most for our 12 fields? Proposed next games: number sense, turning shapes (spatial), remembering sequences (working memory), quick sorting (attention).
+1. Do these four ability games (reasoning, number sense, spatial, working memory) cover what matters for our 12 fields? A quick-sorting attention game is possible, but speed tasks depend on the phone, so we left it out.
 2. Is "no clock" right for pattern logic, or should we use a soft time limit per item?
 3. Patience: are six rounds enough? Should the delays or the rewards change?
 4. How should game results be worded for players (strengths only; never "impatient")?

@@ -96,17 +96,18 @@ export function patternRun(seed: number): { practice: PatternItem; items: Patter
   };
 }
 
-export interface PatternAnswer {
+/** One answer in a choice game (pattern logic, quick numbers, turn the shape). */
+export interface ChoiceAnswer {
   level: number;
   correct: boolean;
   ms: number;
 }
 
 /**
- * What the run shows: how many were right overall and by level, the hardest level solved, and time
- * per item. For the pilot these are research measures only, never a mark shown as a number.
+ * What a choice game run shows: how many were right overall and by level, the hardest level solved,
+ * and time per item. For the pilot these are research measures only, never a mark shown as a number.
  */
-export function patternSummary(answers: PatternAnswer[]) {
+export function choiceSummary(answers: ChoiceAnswer[]) {
   const right = answers.filter((a) => a.correct);
   const byLevel = Object.fromEntries([1, 2, 3, 4].map((l) => [l, answers.filter((a) => a.level === l && a.correct).length]));
   const times = answers.map((a) => a.ms).sort((a, b) => a - b);

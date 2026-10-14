@@ -2564,18 +2564,9 @@
     "pattern": {
       "title": "Pattern logic",
       "how": "Each row of shapes follows a rule. Work out the rule and pick the shape that fits the empty square.",
-      "calm": "Take your time: there's no clock. It starts easy and gets harder.",
-      "practice": "Try a practice one",
-      "practiceLabel": "Practice",
-      "counter": "{n} of {total}",
       "ask": "Which one completes the grid?",
       "gridLabel": "A grid of shapes with the last square missing",
-      "optionsLabel": "Options",
-      "option": "Option {n}",
-      "right": "Right!",
-      "wrong": "Not quite. The one in green fits.",
       "explain": "Look across each row: something changes the same way every time. Check everything: how many, which shape, the colour and the fill.",
-      "start": "Start the 8 puzzles",
       "done": "{hardest, select, 0 {Done! These were tricky. Patterns are only one kind of strength.} other {Done! You solved patterns up to level {hardest} of 4.}}"
     },
     "patience": {
@@ -2595,17 +2586,60 @@
       "next": "Next round",
       "finish": "See my catch",
       "done": "You caught {fish, plural, one {# fish} other {# fish}}. Thanks for playing!"
+    },
+    "common": {
+      "calm": "Take your time: there's no clock. It starts easy and gets harder.",
+      "practice": "Try a practice one",
+      "practiceLabel": "Practice",
+      "counter": "{n} of {total}",
+      "right": "Right!",
+      "wrong": "Not quite. The one in green is right.",
+      "start": "Start the {n} puzzles",
+      "optionsLabel": "Options",
+      "option": "Option {n}"
+    },
+    "numbers": {
+      "title": "Quick numbers",
+      "how": "Each puzzle is a number pattern or a short sum. Work out what goes where the question mark is.",
+      "ask": "What replaces the “?”",
+      "explain": "Look at how each number changes to the next: the same step each time, a doubling, or a step that grows.",
+      "done": "{hardest, select, 0 {Done! Numbers are only one kind of strength.} other {Done! You solved number puzzles up to level {hardest} of 4.}}",
+      "doneF": "{hardest, select, 0 {Done! Numbers are only one kind of strength.} other {Done! You solved number puzzles up to level {hardest} of 4.}}"
+    },
+    "rotation": {
+      "title": "Turn the shape",
+      "how": "You see a shape made of squares. Only one of the four below is the same shape, just turned. The others are its mirror image.",
+      "ask": "Which one is the same shape turned?",
+      "targetLabel": "The shape to find",
+      "explain": "Turn the shape in your head. A mirror image looks close but can never match, however you turn it.",
+      "done": "{hardest, select, 0 {Done! Shapes are only one kind of strength.} other {Done! You turned shapes up to level {hardest} of 4.}}"
+    },
+    "memory": {
+      "title": "Remember the path",
+      "how": "Tiles light up one after another. Watch, then tap them in the same order. The path gets longer each time you get it right.",
+      "calm": "Two misses in a row at the same length end the game. No rush when tapping.",
+      "start": "Start",
+      "length": "Path of {n}",
+      "watch": "Watch…",
+      "yourTurn": "Your turn",
+      "right": "Right!",
+      "miss": "Missed that one",
+      "tile": "Tile {n}",
+      "done": "{span, select, 0 {Done! Memory games take practice, and this is only one kind of strength.} other {You remembered paths of up to {span} tiles. Nice!}}"
     }
   },
   "DevGames": {
     "title": "Game prototypes",
-    "intro": "Two short games to try on a phone. Nothing is saved; under each result you can see what the game measured.",
+    "intro": "Five short games to try on a phone. Nothing is saved; under each result you can see what the game measured.",
     "play": "Play",
     "close": "Close",
     "measured": "What the game measured (for the psychologist)",
     "measures": {
       "pattern": "Reasoning: 8 puzzles from easy to hard, about 2–3 minutes",
-      "patience": "Patience: 6 rounds, about 1 minute"
+      "patience": "Patience: 6 rounds, about 1 minute",
+      "numbers": "Number sense: 8 puzzles from easy to hard, about 2–3 minutes",
+      "rotation": "Spatial thinking: 8 shapes from easy to hard, about 2 minutes",
+      "memory": "Working memory: paths that grow from 3 tiles, about 2 minutes"
     }
   }
 }
