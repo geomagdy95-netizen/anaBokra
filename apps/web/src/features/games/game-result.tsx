@@ -33,9 +33,9 @@ function Ring({ value, max }: { value: number; max: number }) {
         <circle cx="40" cy="40" r={r} fill="none" stroke="var(--secondary)" strokeWidth="8" />
         <circle cx="40" cy="40" r={r} fill="none" stroke="var(--primary)" strokeWidth="8" strokeLinecap="round" strokeDasharray={c} strokeDashoffset={c * (1 - value / max)} />
       </svg>
-      <div className="absolute inset-0 grid place-items-center text-center leading-none">
+      <div className="absolute inset-0 flex flex-col items-center justify-center gap-0.5 text-center leading-none">
         <span className="text-2xl font-bold tabular-nums">{value}</span>
-        <span className="text-xs text-muted-foreground tabular-nums">/ {max}</span>
+        <span className="text-[11px] text-muted-foreground tabular-nums">/ {max}</span>
       </div>
     </div>
   );
