@@ -1,7 +1,7 @@
 'use client';
 
 import { careers, clusters, pathById } from '@anabokra/content';
-import { Bookmark, BookmarkCheck, Check, ChevronRight, List, Map as MapIcon, Search, X } from 'lucide-react';
+import { Bookmark, BookmarkCheck, Check, ChevronRight, List, Map as MapIcon, Move, Search, X } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import { useSearchParams } from 'next/navigation';
 import { useLocale } from 'next-intl';
@@ -10,15 +10,17 @@ import { useEffect, useMemo, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { useRenderer } from '@/features/path/capabilities';
 import { BridgeSwatch } from '@/features/world/bridge-swatch';
+import { IslandArtwork } from '@/features/world/island-artwork';
 import { GROUP_ORDER, type GroupId, type IslandState, type Relation, type Selection } from '@/features/world/types';
 import type { Quality } from '@/features/world/world-canvas';
 import { Link, useRouter } from '@/i18n/navigation';
 import type { JourneyData } from '@/lib/journey/journey';
 import { coreGrowth, islandStates } from '@/lib/journey/map-state';
-import { setInList } from '@/lib/journey/verify';
+import { setInList, setIslandPosition, setOnMap } from '@/lib/journey/verify';
 import { cn } from '@/lib/utils';
 
 import { AccountButton, AppShell } from './app-shell';
+import { FieldDetails, FieldIntro } from './field-about';
 import { JourneyGate } from './journey-gate';
 import { useJT } from './use-jt';
 
@@ -42,6 +44,7 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
   const params = useSearchParams();
   const r = useRenderer();
   const [view, setView] = useState<'map' | 'list'>('map');
+  const [arrange, setArrange] = useState(false);
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState<Selection | null>(() => {
     const id = params.get('island');
@@ -71,6 +74,7 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
   const showMap = canMap && view === 'map' && !q;
 
   const ordered = useMemo(() => [...GROUP_ORDER].sort((a, b) => RANK[states[a].relation] - RANK[states[b].relation]), [states]);
+  const onMapIds = useMemo(() => GROUP_ORDER.filter((id) => states[id].visible !== false).sort((a, b) => (states[a].slot ?? 0) - (states[b].slot ?? 0)), [states]);
   const matches = useMemo(() => {
     if (!q) return null;
     const hit = (s: string) => s.toLowerCase().includes(q);
@@ -90,6 +94,12 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
   const setList = async (list: 'added' | 'saved', id: GroupId, on: boolean, message?: string) => {
     await setInList(data.rt.device.kv, data.rt.userId, list, id, on);
     if (message) setToast(message);
+    onChanged();
+  };
+
+  const toggleOnMap = async (id: GroupId, on: boolean) => {
+    await setOnMap(data.rt.device.kv, data.rt.userId, id, on);
+    setToast(jt(on ? 'explore.toast.added' : 'explore.toast.removed'));
     onChanged();
   };
 
@@ -115,7 +125,10 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
               inputMode="search"
               enterKeyHint="search"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setArrange(false);
+              }}
               placeholder={jt('explore.search')}
               aria-label={jt('explore.search')}
               className="h-full min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-muted-foreground"
@@ -128,7 +141,7 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
             )}
           </label>
           {!q && (
-            <div className="flex shrink-0 rounded-full bg-card p-1 shadow-sm ring-1 ring-border/70" role="tablist" aria-label={jt('explore.viewLabel')}>
+            <div className="flex shrink-0 items-center gap-1 rounded-full bg-card p-1 shadow-sm ring-1 ring-border/70" role="tablist" aria-label={jt('explore.viewLabel')}>
               {(
                 [
                   ['map', MapIcon],
@@ -142,7 +155,10 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
                   aria-label={jt(`explore.view.${v}`)}
                   title={jt(`explore.view.${v}`)}
                   disabled={v === 'map' && !canMap}
-                  onClick={() => setView(v)}
+                  onClick={() => {
+                    setView(v);
+                    setArrange(false);
+                  }}
                   className={cn(
                     'grid size-11 place-items-center rounded-full transition-colors disabled:opacity-40',
                     view === v ? 'bg-primary text-primary-foreground shadow-sm' : 'text-foreground/70 hover:bg-secondary',
@@ -153,6 +169,20 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
                 </button>
               ))}
             </div>
+          )}
+          {showMap && (
+            <Button
+              type="button"
+              variant={arrange ? 'default' : 'outline'}
+              size="icon"
+              aria-label={jt(arrange ? 'explore.arrangeDone' : 'explore.arrange')}
+              title={jt(arrange ? 'explore.arrangeDone' : 'explore.arrange')}
+              aria-pressed={arrange}
+              onClick={() => setArrange((value) => !value)}
+              data-testid="arrange-map"
+            >
+              <Move className="size-5" aria-hidden />
+            </Button>
           )}
         </div>
 
@@ -167,10 +197,15 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
                 quality={quality}
                 reducedMotion={r.reducedMotion}
                 labels={labels}
+                positions={data.journey.positions as Partial<Record<GroupId, readonly [number, number]>>}
+                arrange={arrange}
+                onMove={(id, x, z) => {
+                  void setIslandPosition(data.rt.device.kv, data.rt.userId, id, x, z).then(onChanged);
+                }}
                 onError={r.reportFailure}
               />
               <div className="pointer-events-none absolute inset-0 overflow-hidden">
-                {GROUP_ORDER.map((id) => {
+                {GROUP_ORDER.filter((id) => states[id].visible !== false).map((id) => {
                   const s = states[id];
                   const isSel = selected === id;
                   return (
@@ -201,7 +236,7 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
                   <span className="size-2 rounded-full bg-brand-orange-soft" aria-hidden />
                   {jt('explore.me')}
                 </button>
-                {GROUP_ORDER.filter((id) => states[id].bridge === 'updating').map((id) => (
+                {GROUP_ORDER.filter((id) => states[id].visible !== false && states[id].bridge === 'updating').map((id) => (
                   <span
                     key={`b-${id}`}
                     ref={register(`bridge:${id}`)}
@@ -244,12 +279,27 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
               )}
             </div>
           ) : (
-            <ul className="h-full space-y-2 overflow-y-auto p-4 pb-40" data-testid="explore-list">
-              {!canMap && r.ready && <li className="rounded-2xl bg-card/80 p-3 text-sm">{jt('explore.noMap')}</li>}
-              {ordered.map((id) => (
-                <IslandRow key={id} id={id} state={states[id]} name={name(id)} careers={careersOf(id).length} onOpen={() => open(id)} />
-              ))}
-            </ul>
+            <div className="h-full overflow-y-auto p-4 pb-40" data-testid="explore-list">
+              {!canMap && r.ready && <p className="mb-2 rounded-2xl bg-card/80 p-3 text-sm">{jt('explore.noMap')}</p>}
+              {onMapIds.length > 0 && (
+                <>
+                  <h2 className="mb-2 text-sm font-semibold text-muted-foreground">{jt('explore.onMap')}</h2>
+                  <ul className="mb-5 space-y-2">
+                    {onMapIds.map((id) => (
+                      <IslandRow key={id} id={id} state={states[id]} name={name(id)} careers={careersOf(id).length} onOpen={() => open(id)} />
+                    ))}
+                  </ul>
+                </>
+              )}
+              <h2 className="mb-2 text-sm font-semibold text-muted-foreground">{jt(stage === 'none' && !onMapIds.length ? 'explore.allFields' : 'explore.moreFields')}</h2>
+              <ul className="space-y-2">
+                {ordered
+                  .filter((id) => states[id].visible === false)
+                  .map((id) => (
+                    <IslandRow key={id} id={id} state={states[id]} name={name(id)} careers={careersOf(id).length} onOpen={() => open(id)} />
+                  ))}
+              </ul>
+            </div>
           )}
 
           {toast && (
@@ -261,7 +311,7 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
             </div>
           )}
 
-          {!group && !matches && <Legend stage={stage} />}
+          {showMap && !group && !matches && <Legend stage={stage} arrange={arrange} />}
 
           {group && (
             <IslandSheet
@@ -270,9 +320,10 @@ function Explore({ data, onChanged }: { data: JourneyData; onChanged: () => void
               data={data}
               name={name(group)}
               saved={saved.includes(group)}
-              added={Boolean(data.journey.added?.includes(group))}
+              onMap={states[group].visible !== false}
+              canAdd={data.preview.stage !== 'none'}
               onClose={() => setSelected(null)}
-              onAdd={(on) => void setList('added', group, on, on ? jt('explore.toast.added') : undefined)}
+              onToggle={(on) => void toggleOnMap(group, on)}
               onSave={(on) => void setList('saved', group, on, on ? jt('explore.toast.saved') : undefined)}
             />
           )}
@@ -300,23 +351,21 @@ function IslandRow({ id, state, name, careers: count, onOpen }: { id: GroupId; s
   );
 }
 
-function Legend({ stage }: { stage: 'none' | 'early' | 'suggested' }) {
+function Legend({ stage, arrange }: { stage: 'none' | 'early' | 'suggested'; arrange: boolean }) {
   const jt = useJT();
+  // Only fields on the map are drawn, so there are no broken bridges to explain.
   const items: readonly (readonly [Relation | 'updating', boolean])[] =
     stage === 'suggested'
       ? [
           ['suggested', false],
-          ['other', true],
           ['added', false],
         ]
       : stage === 'early'
-        ? [
-            ['neutral', false],
-            ['updating', true],
-          ]
-        : [['neutral', false]];
+        ? [['updating', true]]
+        : [];
   return (
     <div className="absolute inset-x-3 bottom-3 z-20 rounded-2xl bg-card/90 p-3 shadow-lg backdrop-blur" data-testid="legend">
+      {stage === 'none' && <p className="text-xs font-medium">{jt('explore.onlyMe')}</p>}
       <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
         {items.map(([k, broken]) => (
           <div key={k} className="flex items-center gap-2">
@@ -326,6 +375,7 @@ function Legend({ stage }: { stage: 'none' | 'early' | 'suggested' }) {
         ))}
       </div>
       {stage === 'suggested' && <p className="mt-2 border-t border-border pt-2 text-[11px] text-muted-foreground">{jt('explore.disclaimer')}</p>}
+      {arrange && <p className="mt-2 border-t border-border pt-2 text-xs font-medium text-primary">{jt('explore.arrangeHint')}</p>}
     </div>
   );
 }
@@ -336,9 +386,10 @@ function IslandSheet({
   data,
   name,
   saved,
-  added,
+  onMap,
+  canAdd,
   onClose,
-  onAdd,
+  onToggle,
   onSave,
 }: {
   id: GroupId;
@@ -346,9 +397,12 @@ function IslandSheet({
   data: JourneyData;
   name: string;
   saved: boolean;
-  added: boolean;
+  /** On the user's map (a suggestion, added or started). */
+  onMap: boolean;
+  /** Fields can be added once the first suggestions exist. */
+  canAdd: boolean;
   onClose: () => void;
-  onAdd: (on: boolean) => void;
+  onToggle: (on: boolean) => void;
   onSave: (on: boolean) => void;
 }) {
   const jt = useJT();
@@ -365,6 +419,9 @@ function IslandSheet({
       data-testid="island-sheet"
     >
       <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-foreground/15" aria-hidden />
+      <div className="mb-3 flex h-36 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-[#FFF5E6] via-[#E6F1EE] to-[#EAE0F3]">
+        <IslandArtwork id={id} className="size-36" />
+      </div>
       <div className="flex items-start gap-3">
         <button
           onClick={() => onSave(!saved)}
@@ -384,6 +441,7 @@ function IslandSheet({
         </button>
       </div>
       <p className="mt-2 text-sm text-muted-foreground">{jt(`explore.sheet.${state.relation}`)}</p>
+      <FieldIntro id={id} />
 
       {hasPath && state.relation !== 'other' && state.relation !== 'neutral' && (
         <div className="mt-4">
@@ -415,8 +473,8 @@ function IslandSheet({
       )}
 
       <div className="mt-5 grid gap-2">
-        {(state.relation === 'other' || state.relation === 'neutral') && !added && (
-          <Button variant="accent" size="lg" onClick={() => onAdd(true)} data-testid="sheet-add">
+        {!onMap && canAdd && (
+          <Button variant="accent" size="lg" onClick={() => onToggle(true)} data-testid="sheet-add">
             {jt('explore.actions.add')}
           </Button>
         )}
@@ -432,8 +490,8 @@ function IslandSheet({
             {hasPath ? jt('verify.notReady') : jt('reward.verifySoon')}
           </p>
         )}
-        {added && (
-          <button onClick={() => onAdd(false)} className="tap-link justify-center text-muted-foreground">
+        {onMap && (
+          <button onClick={() => onToggle(false)} className="tap-link justify-center text-muted-foreground" data-testid="sheet-remove">
             {jt('explore.actions.remove')}
           </button>
         )}
@@ -443,6 +501,7 @@ function IslandSheet({
           </Link>
         )}
       </div>
+      <FieldDetails id={id} />
     </section>
   );
 }

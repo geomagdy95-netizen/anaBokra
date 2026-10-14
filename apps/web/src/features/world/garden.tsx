@@ -19,7 +19,7 @@ import {
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 import { hashSeed, mulberry32 } from '../path/rng';
-import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, LANDMARK_CLEARANCE, landmarkOffset, ON_WATER, type IslandPlacement, type XZ } from './layout';
+import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, LANDMARK_CLEARANCE, landmarkOffset, type IslandPlacement, type XZ } from './layout';
 import { BRAND, muteColor, toy } from './materials';
 
 /**
@@ -187,7 +187,7 @@ export function growthSpots(
     const taken: { x: number; z: number }[] = [];
     const landing = Math.atan2(-p.dir[1], -p.dir[0]);
     const lm = landmarkOffset(p);
-    const blocked = ON_WATER.has(p.id) ? [] : [{ x: p.pos[0] + lm[0], z: p.pos[1] + lm[1], r: LANDMARK_CLEARANCE }];
+    const blocked = [{ x: p.pos[0] + lm[0], z: p.pos[1] + lm[1], r: LANDMARK_CLEARANCE }];
     // Trees on the rim, bushes and flowers between the rim and the landmark.
     const plateau = { min: ISLAND_RADIUS * 0.52, max: ISLAND_RADIUS * 0.74 };
     const inner = { min: ISLAND_RADIUS * 0.42, max: ISLAND_RADIUS * 0.72 };

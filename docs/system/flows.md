@@ -374,15 +374,15 @@ Every journey screen sits in one shell: a top bar and four tabs, **Home · Explo
 | Tab | Route | What it holds |
 |---|---|---|
 | Home | `/journey` | Greeting with the nickname, a map preview (only the user's suggested and added paths are labelled; tapping it opens Explore), readiness checks, Discover tasks, suggested and checked paths |
-| Explore | `/journey/map` | The island map or a list, search over fields and careers, the bridge legend, and the island sheet |
+| Explore | `/journey/map` | The island map (only my island at first; then the 3 suggestions and fields the user added or started, each in the next free spot), a list ("On your map" / "More fields you can add"), search over fields and careers, the bridge legend, arranging islands by dragging, and the island sheet |
 | Saved | `/journey/saved` | Paths bookmarked from the island sheet |
 | Account | `/journey/account` | Nickname and password, language, anonymous statistics, university session, move to a new phone, delete all my data, legal links |
 
 **Light only, and touch targets.** The app is always light, whatever the phone's setting (`data-theme="light"`, `color-scheme: light`). Every tappable control is at least 44px (buttons 48px by default; `tap-link`, `field`, `surface` and `switch` in `styles/globals.css`); map labels get an invisible 44px tap area; text fields use 16px text so iOS doesn't zoom in.
 
-**Island sheet actions:** *Add to my map* (paths outside the suggestions, or before results) turns the bridge orange; *Remove from my map* undoes it. *Save* bookmarks the path. *Explore this field* opens Verify once suggestions exist and the path has content; otherwise the sheet says why. Career chips open the career pages. *Review my answers* opens the results.
+**Island sheet actions:** *Add to my map* (fields not on the map, once suggestions exist) puts the island on the map with an orange bridge; *Remove from my map* takes any field off it, suggestions included (answers kept, so adding it back restores it). *Save* bookmarks the path. *Explore this field* opens Verify once suggestions exist and the path has content; otherwise the sheet says why. Career chips open the career pages. *Review my answers* opens the results.
 
-**Stored on the phone:** the journey record (`journey:{id}`) gains `added` and `saved` lists; they move with a backup file and are deleted with the profile. Nothing is sent.
+**Stored on the phone:** the journey record (`journey:{id}`) gains `added`, `hidden` (taken off the map), `saved` and `positions` (dragged islands); they move with a backup file and are deleted with the profile. Nothing is sent.
 
 ---
 

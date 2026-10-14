@@ -31,7 +31,7 @@ type MeshProps = Omit<ThreeElements['mesh'], 'args'>;
 export const C = {
   violet: BRAND.violet,
   apricot: BRAND.apricot,
-  plum: '#3B1A55',
+  plum: '#624733',
   plumDark: BRAND.plum,
   ivory: BRAND.ivory,
   white: '#FFFFFF',

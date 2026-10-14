@@ -2115,11 +2115,6 @@
       "edit": "Edit my profile",
       "note": "These results guide your exploration; they are not a judgement of you.",
       "islandsUpdating": "Your suggestions are updating as you answer."
-    },
-    "mood": "Time",
-    "moods": {
-      "day": "Day",
-      "night": "Night"
     }
   },
   "DevLocal": {
@@ -2449,6 +2444,9 @@
         "map": "Map",
         "list": "List"
       },
+      "arrange": "Arrange islands",
+      "arrangeDone": "Finish arranging",
+      "arrangeHint": "Drag an island to move it, then tap the move button again to finish.",
       "me": "Me",
       "updating": "Updating",
       "noMap": "The 3D map isn't available on this device, so here's the list.",
@@ -2469,13 +2467,13 @@
         "updating": "Updating",
         "suggested": "Connected bridge",
         "other": "Separate bridge",
-        "added": "Reopened bridge"
+        "added": "Added by you"
       },
       "sheet": {
-        "neutral": "This field is open to explore. You can add it to your map now.",
+        "neutral": "Read about this field now. Once your island is built, your first suggestions appear and you can add any field to your map.",
         "suggested": "This field is among your suggestions from your answers.",
         "added": "You added this field to your map yourself.",
-        "other": "This field is outside your current suggestions, but it's still open to explore. You can add it to your map or review your answers."
+        "other": "This field isn't on your map. Add it if you'd like to explore it too."
       },
       "actions": {
         "add": "Add to my map",
@@ -2488,9 +2486,32 @@
       },
       "toast": {
         "added": "Field added to your map",
+        "removed": "Field removed from your map",
         "saved": "Field saved"
       },
-      "disclaimer": "Results suggest directions; they don't decide your abilities."
+      "disclaimer": "Results suggest directions; they don't decide your abilities.",
+      "about": {
+        "title": "About this field",
+        "what": "What it is",
+        "day": "A day in it",
+        "suits": "Who tends to enjoy it",
+        "egypt": "This field in Egypt",
+        "employers": "Who hires",
+        "freelance": "Freelance and startups",
+        "abroad": "Gulf and remote work",
+        "ai": "How AI is changing it",
+        "exposure": {
+          "low": "AI changes little here",
+          "medium": "AI changes some of the work",
+          "high": "AI changes a lot here"
+        },
+        "sources": "{count, plural, one {# source} other {# sources}}",
+        "asOf": "Checked {date}"
+      },
+      "onlyMe": "For now it's just your island. Finish its tasks and your first 3 suggested fields appear here.",
+      "onMap": "On your map",
+      "moreFields": "More fields you can add",
+      "allFields": "All fields"
     },
     "saved": {
       "title": "Saved",

@@ -1,12 +1,13 @@
 'use client';
 
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber';
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
 import {
   Color,
   MeshStandardMaterial,
   NeutralToneMapping,
   PMREMGenerator,
+  Plane,
   Vector3,
   type Camera,
   type DirectionalLight,
@@ -24,16 +25,17 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 import { Bridge, bridgeEnds } from './bridges';
 import { bridgePoint, islandGeometry } from './geometry';
-import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, WATER_SPOT, WORLD_EXTENT, islandPlacements, landmarkOffset, ON_WATER, type IslandPlacement } from './layout';
+import { ARRANGE_RING, CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, clearSpot, islandPlacements, landmarkOffset, mapExtent, type IslandPlacement, type XZ } from './layout';
 import { BRAND, MutedContext } from './materials';
 import { Landmark } from './landmarks';
-import { GroupIcon, Logo3D } from './props';
-import { Flag, flagSpot, Garden, growthSpots } from './garden';
-import { Lanterns, Motes, Stars } from './atmosphere';
+import { Logo3D, RBox, Tube } from './props';
+import { IslandSceneDetail } from './island-scene-details';
 import { Cliffs } from './cliffs';
+import { Flag, flagSpot, Garden, growthSpots } from './garden';
+import { Motes } from './atmosphere';
 import { Clouds, Sea, SkyDome } from './scenery';
-import { MoodContext, moodAt, useWorldTheme, type WorldMood } from './theme';
-import type { GroupId, IslandState, Selection } from './types';
+import { WORLD_THEME } from './theme';
+import { GROUP_ORDER, type GroupId, type IslandState, type Selection } from './types';
 
 export type Quality = 'high' | 'low';
 
@@ -51,32 +53,72 @@ export interface WorldCanvasProps {
   reducedMotion: boolean;
   /** DOM label elements by anchor key; the canvas moves them to follow their anchors. */
   labels: Map<string, HTMLElement>;
+  /** Stored custom X/Z coordinates for islands arranged by the user. */
+  positions?: Partial<Record<GroupId, XZ>>;
+  /** In arrange mode, drag an island to move it; map panning is paused. */
+  arrange?: boolean;
+  onMove?: (id: GroupId, x: number, z: number) => void;
   /** 0–1: how far the core island (the user) has grown, from Discover. Full when missing. */
   coreGrowth?: number;
-  /** Day (golden hour) or night. Follows the user's clock when missing. */
-  mood?: WorldMood;
   onError?: () => void;
 }
 
-const PLACEMENTS = islandPlacements();
-
 /** Where each label sits: island name at the front edge, "updating" tags at the middle of a bridge. */
-export function labelAnchors(): { islands: Record<GroupId, Vector3>; bridges: Record<GroupId, Vector3>; core: Vector3 } {
+export function labelAnchors(
+  positions?: Partial<Record<GroupId, XZ>>,
+  slots?: Partial<Record<GroupId, number>>,
+): { islands: Record<GroupId, Vector3>; bridges: Record<GroupId, Vector3>; core: Vector3 } {
+  const placements = islandPlacements(positions, slots);
   const islands = {} as Record<GroupId, Vector3>;
   const bridges = {} as Record<GroupId, Vector3>;
-  for (const p of PLACEMENTS) {
+  for (const p of placements) {
     islands[p.id] = new Vector3(p.pos[0], ISLAND_TOP + 0.1, p.pos[1] + ISLAND_RADIUS * 0.72);
     bridges[p.id] = bridgePoint(bridgeEnds([0, 0], CORE_RADIUS, p.pos, ISLAND_RADIUS), 0.5).setY(ISLAND_TOP + 0.9);
   }
   return { islands, bridges, core: new Vector3(0, ISLAND_TOP + 0.1, CORE_RADIUS * 0.8) };
 }
-const ANCHORS = labelAnchors();
-
-/** The group icon stands at the front of its island, the landmark behind it; both must read from afar. */
-const ICON_SCALE = 1.0;
-const LANDMARK_SCALE = 1.2;
 
 // --- Islands ------------------------------------------------------------------
+
+const LANDMARK_SCALE = 1.55;
+
+/** A small timber landing joins each island's footpath to its rope bridge. */
+function IslandLanding({ dir, shadows }: { dir: XZ; shadows: boolean }) {
+  const rotation = Math.atan2(-dir[0], -dir[1]);
+  const sideRails: [number, number, number][][] = [-1, 1].map((side) => [
+    [side * 0.39, 0.2, 1.48],
+    [side * 0.39, 0.14, 1.6],
+    [side * 0.39, 0.14, 1.75],
+    [side * 0.39, 0.2, 1.88],
+  ]);
+  return (
+    <group position={[0, ISLAND_TOP, 0]} rotation={[0, rotation, 0]}>
+      {Array.from({ length: 4 }, (_, i) => (
+        <RBox key={`step-${i}`} size={[0.84, 0.13, 0.23]} r={0.035} color={i % 2 ? '#C7A77C' : '#D8BD94'} position={[0, -0.045 - i * 0.085, 0.92 + i * 0.19]} />
+      ))}
+      {Array.from({ length: 4 }, (_, i) => (
+        <RBox key={`plank-${i}`} size={[0.82, 0.07, 0.19]} r={0.025} color={i % 2 ? '#C89058' : '#D9A56C'} position={[0, -0.34, 1.5 + i * 0.14]} />
+      ))}
+      {[1.55, 1.95].map((z) => (
+        <RBox key={`beam-${z}`} size={[1.02, 0.12, 0.16]} r={0.035} color="#815334" position={[0, -0.43, z]} />
+      ))}
+      {[-1, 1].flatMap((side) => [1.62, 1.91].map((z) => (
+        <mesh key={`pile-${side}-${z}`} position={[side * 0.37, -0.68, z]} castShadow={shadows}>
+          <cylinderGeometry args={[0.055, 0.075, 0.82, 8]} />
+          <meshStandardMaterial color="#795033" roughness={0.82} />
+        </mesh>
+      )))}
+      {[-1, 1].map((side) => (
+        <group key={`rail-${side}`}>
+          {[1.48, 1.88].map((z) => (
+            <RBox key={`post-${z}`} size={[0.075, 0.5, 0.075]} r={0.025} color="#805536" position={[side * 0.43, -0.09, z]} />
+          ))}
+          <Tube points={sideRails[side === -1 ? 0 : 1]!} radius={0.028} color="#9C6B42" />
+        </group>
+      ))}
+    </group>
+  );
+}
 
 function Island({
   placement,
@@ -85,6 +127,8 @@ function Island({
   onSelect,
   animate,
   shadows,
+  arrange,
+  onMove,
 }: {
   placement: IslandPlacement;
   state: IslandState;
@@ -92,12 +136,13 @@ function Island({
   onSelect: (id: GroupId) => void;
   animate: boolean;
   shadows: boolean;
+  arrange: boolean;
+  onMove?: (id: GroupId, x: number, z: number) => void;
 }) {
   const muted = state.relation === 'other';
-  const geo = useMemo(
-    () => islandGeometry({ seed: placement.id, radius: ISLAND_RADIUS, beach: false, base: -0.3, landAt: [Math.atan2(-placement.dir[1], -placement.dir[0])] }),
-    [placement],
-  );
+  const id = placement.id;
+  const landing = Math.atan2(-placement.dir[1], -placement.dir[0]);
+  const geo = useMemo(() => islandGeometry({ seed: id, radius: ISLAND_RADIUS, beach: false, base: -0.3, landAt: [landing] }), [id, landing]);
   const mat = useMemo(
     () => new MeshStandardMaterial({ vertexColors: true, roughness: 0.85, color: muted ? '#E5E1EC' : '#FFFFFF' }),
     [muted],
@@ -105,8 +150,12 @@ function Island({
   useEffect(() => () => (geo.dispose(), mat.dispose()), [geo, mat]);
 
   const root = useRef<Group>(null);
-  const icon = useRef<Group>(null);
+  const model = useRef<Group>(null);
+  const dragging = useRef(false);
+  const dragPlane = useMemo(() => new Plane(new Vector3(0, 1, 0), 0), []);
+  const dragPoint = useMemo(() => new Vector3(), []);
   const lm = landmarkOffset(placement);
+  const detailSide = GROUP_ORDER.indexOf(placement.id) % 2 ? 1 : -1;
   useLayoutEffect(() => {
     root.current?.traverse((o) => {
       if ('isMesh' in o && o.isMesh) {
@@ -116,12 +165,12 @@ function Island({
     });
   });
   useFrame(({ clock }, dt) => {
-    const g = icon.current;
+    const g = model.current;
     if (!g) return;
-    const target = selected ? ICON_SCALE * 1.12 : ICON_SCALE;
+    const target = selected ? 1.04 : 1;
     const s = g.scale.x + (target - g.scale.x) * Math.min(1, dt * 8);
     g.scale.setScalar(s);
-    g.position.y = ISLAND_TOP + (animate && selected ? Math.abs(Math.sin(clock.elapsedTime * 2.4)) * 0.12 : 0);
+    g.position.y = animate && selected ? Math.abs(Math.sin(clock.elapsedTime * 2.4)) * 0.08 : 0;
   });
 
   const click = (e: ThreeEvent<MouseEvent>) => {
@@ -130,27 +179,57 @@ function Island({
     onSelect(placement.id);
   };
 
+  const dragTo = (e: ThreeEvent<PointerEvent>) => {
+    if (!dragging.current || !root.current) return;
+    const point = e.ray.intersectPlane(dragPlane, dragPoint);
+    if (!point) return;
+    const distance = Math.hypot(point.x, point.z);
+    const radius = Math.max(ARRANGE_RING[0], Math.min(ARRANGE_RING[1], distance));
+    const scale = radius / (distance || 1);
+    root.current.position.set(point.x * scale, 0, point.z * scale);
+  };
+
+  const endDrag = (e: ThreeEvent<PointerEvent>) => {
+    if (!dragging.current) return;
+    dragging.current = false;
+    e.stopPropagation();
+    (e.target as unknown as { releasePointerCapture(pointerId: number): void }).releasePointerCapture(e.pointerId);
+    const pos = root.current?.position;
+    if (pos) onMove?.(placement.id, pos.x, pos.z);
+  };
+
   return (
     <group
       ref={root}
       position={[placement.pos[0], 0, placement.pos[1]]}
       onClick={click}
-      onPointerOver={() => (document.body.style.cursor = 'pointer')}
+      onPointerDown={(e) => {
+        if (!arrange) return;
+        e.stopPropagation();
+        dragging.current = true;
+        (e.target as unknown as { setPointerCapture(pointerId: number): void }).setPointerCapture(e.pointerId);
+      }}
+      onPointerMove={dragTo}
+      onPointerUp={endDrag}
+      onPointerCancel={endDrag}
+      onPointerOver={() => (document.body.style.cursor = arrange ? 'grab' : 'pointer')}
       onPointerOut={() => (document.body.style.cursor = '')}
     >
-      <mesh geometry={geo} material={mat} />
+      <mesh geometry={geo} material={mat} castShadow={shadows} receiveShadow={shadows} />
+      <IslandLanding dir={placement.dir} shadows={shadows} />
       <MutedContext.Provider value={muted}>
-        <group ref={icon} position={[0, ISLAND_TOP, 0.3]} scale={ICON_SCALE}>
-          <GroupIcon id={placement.id} />
-        </group>
-        {ON_WATER.has(placement.id) ? (
-          <group position={[WATER_SPOT[0], 0, WATER_SPOT[1]]} rotation={[0, -0.6, 0]}>
-            <Landmark id={placement.id} />
-          </group>
-        ) : (
-          // Turned a little toward the camera from the side it stands on.
+        <group ref={model}>
           <group position={[lm[0], ISLAND_TOP, lm[1]]} rotation={[0, -lm[0] * 0.35, 0]} scale={LANDMARK_SCALE}>
             <Landmark id={placement.id} />
+          </group>
+        </group>
+        {placement.id === 'tourism' ? (
+          <group position={[placement.dir[0] * (ISLAND_RADIUS + 0.48), 0, placement.dir[1] * (ISLAND_RADIUS + 0.48)]} rotation={[0, Math.atan2(placement.dir[0], placement.dir[1]), 0]} scale={0.86}>
+            <IslandSceneDetail id={placement.id} />
+          </group>
+        ) : (
+          <group position={[detailSide * 1.08, ISLAND_TOP, 0.1]} scale={0.88}>
+            <IslandSceneDetail id={placement.id} />
           </group>
         )}
       </MutedContext.Provider>
@@ -207,11 +286,14 @@ function CoreIsland({ shadows, selected, onSelect, animate }: { shadows: boolean
 
 // --- Camera -------------------------------------------------------------------
 
-function Rig({ focus, animate }: { focus: Selection | null; animate: boolean }) {
+function Rig({ focus, animate, arrange, placements, extent }: { focus: Selection | null; animate: boolean; arrange: boolean; placements: IslandPlacement[]; extent: number }) {
   const get = useThree((s) => s.get);
   const portrait = useThree((s) => s.size.width < s.size.height);
   const controls = useRef<MapControls | null>(null);
   const goal = useRef<Vector3 | null>(null);
+  const homeTarget = useRef(new Vector3(0, 0, 3));
+  const homeDistance = useRef(34);
+  const distanceGoal = useRef<number | null>(null);
 
   useEffect(() => {
     const { camera, gl, invalidate } = get();
@@ -233,40 +315,58 @@ function Rig({ focus, animate }: { focus: Selection | null; animate: boolean }) 
     };
   }, [get]);
 
+  useEffect(() => {
+    if (controls.current) controls.current.enabled = !arrange;
+  }, [arrange]);
+
   // Frame the whole archipelago (portrait screens start a little closer).
   useEffect(() => {
     const c = controls.current;
     if (!c) return;
-    frameWorld(c, get().camera as PerspectiveCamera, get().size, portrait);
+    homeDistance.current = frameWorld(c, get().camera as PerspectiveCamera, get().size, portrait, extent);
+    homeTarget.current.set(0, 0, portrait ? 2 : 3);
     get().invalidate();
-  }, [get, portrait]);
+  }, [get, portrait, extent]);
 
   useEffect(() => {
-    // Aim in front of the island so it sits above the details sheet.
-    const p = focus && focus !== 'core' ? PLACEMENTS.find((x) => x.id === focus) : undefined;
-    goal.current = focus === 'core' ? new Vector3(0, 0, 5) : p ? new Vector3(p.pos[0] * 0.85, 0, p.pos[1] * 0.85 + 5) : null;
+    // Bring a selected miniature close enough to read its building and props; restore the full map when closed.
+    const p = focus && focus !== 'core' ? placements.find((x) => x.id === focus) : undefined;
+    goal.current = focus === 'core' ? new Vector3(0, 0, 4.8) : p ? new Vector3(p.pos[0] * 0.85, 0, p.pos[1] * 0.85 + 4.6) : homeTarget.current.clone();
+    distanceGoal.current = focus ? (portrait ? 17.5 : 22) : homeDistance.current;
     get().invalidate();
-  }, [focus, get]);
+  }, [focus, get, placements, portrait]);
 
   useFrame((state) => {
     const c = controls.current;
     if (!c) return;
     if (goal.current && glide(c, state.camera, goal.current, animate ? 0.06 : 1)) goal.current = null;
     else if (goal.current) state.invalidate();
-    keepInBounds(c, state.camera);
+    if (distanceGoal.current !== null) {
+      const offset = state.camera.position.clone().sub(c.target);
+      const distance = offset.length();
+      const delta = distanceGoal.current - distance;
+      if (Math.abs(delta) < 0.025) distanceGoal.current = null;
+      else {
+        offset.setLength(distance + delta * (animate ? 0.06 : 1));
+        state.camera.position.copy(c.target).add(offset);
+        state.invalidate();
+      }
+    }
+    keepInBounds(c, state.camera, extent);
     c.update();
   });
   return null;
 }
 
-function frameWorld(c: MapControls, camera: PerspectiveCamera, size: { width: number; height: number }, portrait: boolean) {
+function frameWorld(c: MapControls, camera: PerspectiveCamera, size: { width: number; height: number }, portrait: boolean, extent: number): number {
   // Portrait phones get a wider lens and a steeper view (less sky), and start on the middle of the map.
   camera.fov = portrait ? 44 : 34;
   camera.updateProjectionMatrix();
   const aspect = size.width / size.height;
   const half = Math.tan((camera.fov * Math.PI) / 360);
-  const needW = (portrait ? WORLD_EXTENT * 0.62 : WORLD_EXTENT + 1.5) / (half * aspect);
-  const needH = (WORLD_EXTENT + 1) / half / 1.35;
+  // A full archipelago may crop at the sides on a phone; a small map (a few islands) fits whole.
+  const needW = (portrait ? extent * (extent < 14 ? 0.86 : 0.62) : extent + 1.5) / (half * aspect);
+  const needH = (extent + 1) / half / 1.35;
   const d = Math.min(64, Math.max(16, Math.max(needW, needH)));
   const polar = portrait ? 0.7 : 0.9;
   // Aim a little in front of the centre so the map sits above the legend panel.
@@ -274,6 +374,7 @@ function frameWorld(c: MapControls, camera: PerspectiveCamera, size: { width: nu
   camera.position.set(0, Math.cos(polar) * d, Math.sin(polar) * d + aim);
   c.target.set(0, 0, aim);
   c.update();
+  return d;
 }
 
 /** Moves target and camera together toward the goal. Returns true once arrived. */
@@ -284,11 +385,11 @@ function glide(c: MapControls, camera: { position: Vector3 }, goal: Vector3, k: 
   return delta.lengthSq() < 1e-5;
 }
 
-/** Keeps panning within the archipelago. */
-function keepInBounds(c: MapControls, camera: { position: Vector3 }) {
+/** Keeps panning within the islands on the map. */
+function keepInBounds(c: MapControls, camera: { position: Vector3 }, extent: number) {
   const t = c.target;
   const r = Math.hypot(t.x, t.z);
-  const max = WORLD_EXTENT * 0.9;
+  const max = Math.max(4, extent * 0.9);
   if (r <= max) return;
   const k = max / r - 1;
   const shift = new Vector3(t.x * k, 0, t.z * k);
@@ -309,11 +410,19 @@ function placeLabel(el: HTMLElement, anchor: Vector3, camera: Camera, size: { wi
   el.style.visibility = projected.z < 1 ? 'visible' : 'hidden';
 }
 
-function LabelProjector({ labels }: { labels: Map<string, HTMLElement> }) {
+function hideLabel(el: HTMLElement) {
+  el.style.visibility = 'hidden';
+}
+
+function LabelProjector({ labels, anchors, visible }: { labels: Map<string, HTMLElement>; anchors: ReturnType<typeof labelAnchors>; visible: ReadonlySet<GroupId> }) {
   useFrame(({ camera, size }) => {
     for (const [key, el] of labels) {
       const [kind, id] = key.split(':') as ['island' | 'bridge' | 'core', GroupId];
-      const anchor = kind === 'core' ? ANCHORS.core : kind === 'island' ? ANCHORS.islands[id] : ANCHORS.bridges[id];
+      if (kind !== 'core' && !visible.has(id)) {
+        hideLabel(el);
+        continue;
+      }
+      const anchor = kind === 'core' ? anchors.core : kind === 'island' ? anchors.islands[id] : anchors.bridges[id];
       if (anchor) placeLabel(el, anchor, camera, size);
     }
   });
@@ -366,7 +475,7 @@ function TiltShift() {
 
 function Environment() {
   const get = useThree((s) => s.get);
-  const { env: intensity } = useWorldTheme();
+  const { env: intensity } = WORLD_THEME;
   useEffect(() => {
     const { gl, scene } = get();
     const pmrem = new PMREMGenerator(gl);
@@ -383,7 +492,7 @@ function Environment() {
 }
 
 function Lights({ shadows }: { shadows: boolean }) {
-  const { hemi, sun: s, rim } = useWorldTheme();
+  const { hemi, sun: s, rim } = WORLD_THEME;
   const sun = useRef<DirectionalLight>(null);
   useLayoutEffect(() => {
     const l = sun.current;
@@ -409,28 +518,32 @@ function Lights({ shadows }: { shadows: boolean }) {
   );
 }
 
-function Scene({ states, selected, onSelect, quality, reducedMotion, labels, coreGrowth = 1 }: WorldCanvasProps) {
-  const theme = useWorldTheme();
+function Scene({ states, selected, onSelect, quality, reducedMotion, labels, coreGrowth = 1, arrange = false, positions, onMove }: WorldCanvasProps) {
+  const theme = WORLD_THEME;
   const shadows = quality === 'high';
   const animate = !reducedMotion;
+  const slots = useMemo(() => Object.fromEntries(Object.values(states).flatMap((s) => (s.slot !== undefined ? [[s.id, s.slot]] : []))) as Partial<Record<GroupId, number>>, [states]);
+  const placements = useMemo(() => islandPlacements(positions, slots), [positions, slots]);
+  const visiblePlacements = useMemo(() => placements.filter((p) => states[p.id].visible !== false), [placements, states]);
+  const anchors = useMemo(() => labelAnchors(positions, slots), [positions, slots]);
+  const visibleIds = useMemo(() => new Set(visiblePlacements.map((p) => p.id)), [visiblePlacements]);
 
   const plants = useMemo(
     () =>
       growthSpots(
-        PLACEMENTS,
-        Object.fromEntries(PLACEMENTS.map((p) => [p.id, { growth: states[p.id].growth ?? 1, muted: states[p.id].relation === 'other' }])),
+        visiblePlacements,
+        Object.fromEntries(visiblePlacements.map((p) => [p.id, { growth: states[p.id].growth ?? 1, muted: states[p.id].relation === 'other' }])),
         coreGrowth,
       ),
-    [states, coreGrowth],
+    [states, coreGrowth, visiblePlacements],
   );
 
   // Where each island meets the water: the outer face of its bottom ring of boulders.
   const shores = useMemo(
-    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS + 0.32 }, ...PLACEMENTS.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.32 }))],
-    [],
+    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS + 0.32 }, ...visiblePlacements.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.32 }))],
+    [visiblePlacements],
   );
-  const muted = useMemo(() => Object.fromEntries(PLACEMENTS.map((p) => [p.id, states[p.id].relation === 'other'])), [states]);
-
+  const muted = useMemo(() => Object.fromEntries(visiblePlacements.map((p) => [p.id, states[p.id].relation === 'other'])), [states, visiblePlacements]);
   return (
     <>
       <color attach="background" args={[theme.sky.horizon]} />
@@ -438,11 +551,10 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
       <Environment />
       <Lights shadows={shadows} />
       <SkyDome />
-      {theme.stars && <Stars animate={animate} />}
       <Sea shadows={shadows} islands={shores} animate={animate} />
-      <Clouds islands={PLACEMENTS} density={theme.cloud.amount * (quality === 'high' ? 1 : 0.6)} animate={animate} />
+      <Clouds islands={visiblePlacements} density={theme.cloud.amount * (quality === 'high' ? 1 : 0.6)} animate={animate} />
       <CoreIsland shadows={shadows} selected={selected === 'core'} onSelect={() => onSelect('core')} animate={animate} />
-      {PLACEMENTS.map((p) => {
+      {visiblePlacements.map((p) => {
         const s = states[p.id];
         return (
           <Bridge
@@ -460,7 +572,7 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
           />
         );
       })}
-      {PLACEMENTS.map((p) => (
+      {visiblePlacements.map((p) => (
         <Island
           key={p.id}
           placement={p}
@@ -469,27 +581,28 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
           onSelect={onSelect}
           animate={animate}
           shadows={shadows}
+          arrange={arrange}
+          onMove={(id, x, z) => {
+            const [cx, cz] = clearSpot(id, x, z, visiblePlacements);
+            onMove?.(id, cx, cz);
+          }}
         />
       ))}
       <Garden spots={plants} shadows={shadows} animate={animate} />
-      <Cliffs placements={PLACEMENTS} muted={muted} quality={quality} shadows={shadows} />
-      <Lanterns placements={PLACEMENTS} shadows={shadows} />
-      {quality === 'high' && <Motes placements={PLACEMENTS} animate={animate} />}
-      {PLACEMENTS.filter((p) => states[p.id].checked).map((p) => (
+      <Cliffs placements={visiblePlacements} muted={muted} quality={quality} shadows={shadows} />
+      {quality === 'high' && <Motes placements={visiblePlacements} animate={animate} />}
+      {visiblePlacements.filter((p) => states[p.id].checked).map((p) => (
         <Flag key={`f-${p.id}`} at={flagSpot(p)} animate={animate} />
       ))}
-      <Rig focus={selected} animate={animate} />
+      <Rig focus={selected === 'core' || (selected && visibleIds.has(selected)) ? selected : null} animate={animate} arrange={arrange} placements={visiblePlacements} extent={mapExtent(visiblePlacements)} />
       {quality === 'high' && <TiltShift />}
-      <LabelProjector labels={labels} />
+      <LabelProjector labels={labels} anchors={anchors} visible={visibleIds} />
     </>
   );
 }
 
 export default function WorldCanvas(props: WorldCanvasProps) {
   const high = props.quality === 'high';
-  // Read the clock once per mount: the world doesn't flip while someone is looking at it.
-  const [clockMood] = useState(() => moodAt(new Date()));
-  const mood = props.mood ?? clockMood;
   // Unmounting the canvas (e.g. switching to the list) also loses the context; only report losses while mounted.
   const mounted = useRef(true);
   useEffect(() => {
@@ -518,9 +631,7 @@ export default function WorldCanvas(props: WorldCanvasProps) {
       }}
       style={{ touchAction: 'none' }}
     >
-      <MoodContext.Provider value={mood}>
-        <Scene {...props} />
-      </MoodContext.Provider>
+      <Scene {...props} />
     </Canvas>
   );
 }

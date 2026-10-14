@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 
 import { MemoryKv } from '@/lib/local/kv';
 
-import { bandFor, pathAnswerAllowed, readJourney, saveRating, saveVerifyAnswer, saveVerifyResult, scoreVerify, setInList, taskDone, taskItemIds } from './verify';
+import { bandFor, pathAnswerAllowed, readJourney, saveRating, saveVerifyAnswer, saveVerifyResult, scoreVerify, setInList, setIslandPosition, setOnMap, taskDone, taskItemIds } from './verify';
 
 const health = paths.health!;
 const [day, real, tryIt] = health.tasks;
@@ -86,6 +86,33 @@ describe('added and saved paths', () => {
     expect(await setInList(kv, 'p1', 'added', 'law', false)).toEqual([]);
     const doc = await readJourney(kv, 'p1');
     expect(doc).toMatchObject({ added: [], saved: ['tech'], paths: { health: { answers: { health_day_1: 3 } } } });
+  });
+});
+
+describe('islands in the scene', () => {
+  it('adds a field to the map and takes it off again, keeping answers and saved', async () => {
+    const kv = new MemoryKv();
+    await saveVerifyAnswer(kv, 'p1', 'law', 'law_day_1', 3);
+    await setInList(kv, 'p1', 'saved', 'law', true);
+    await setOnMap(kv, 'p1', 'law', true);
+    await setOnMap(kv, 'p1', 'law', true);
+    expect(await readJourney(kv, 'p1')).toMatchObject({ added: ['law'], hidden: [] });
+    await setOnMap(kv, 'p1', 'law', false);
+    await setOnMap(kv, 'p1', 'law', false);
+    expect(await readJourney(kv, 'p1')).toMatchObject({ added: [], hidden: ['law'], saved: ['law'], paths: { law: { answers: { law_day_1: 3 } } } });
+    await setOnMap(kv, 'p1', 'law', true);
+    expect(await readJourney(kv, 'p1')).toMatchObject({ added: ['law'], hidden: [] });
+  });
+
+  it('keeps a moved island inside the archipelago ring', async () => {
+    const kv = new MemoryKv();
+    await setIslandPosition(kv, 'p1', 'tech', 1, 0);
+    await setIslandPosition(kv, 'p1', 'law', 0, -40);
+    await setIslandPosition(kv, 'p1', 'media', 8, 6);
+    const { positions } = await readJourney(kv, 'p1');
+    expect(Math.hypot(...positions!.tech!)).toBeCloseTo(6.2);
+    expect(positions!.law).toEqual([0, -14.5]);
+    expect(positions!.media).toEqual([8, 6]);
   });
 });
 

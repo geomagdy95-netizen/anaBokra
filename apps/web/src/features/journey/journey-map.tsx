@@ -38,8 +38,8 @@ export function JourneyMap({ data }: { data: JourneyData }) {
   const quality: Quality = r.reason === 'low-end' ? 'low' : 'high';
   const name = (id: GroupId) => clusters.find((c) => c.id === id)?.name[locale] ?? id;
   const shortName = (id: GroupId) => name(id).split(/ و| & /)[0]!;
-  const mine = GROUP_ORDER.filter((id) => states[id].relation === 'suggested' || states[id].relation === 'added');
-  const shown = mine.length ? mine : GROUP_ORDER;
+  // Only the user's own fields are on the map (none before the first suggestions).
+  const shown = GROUP_ORDER.filter((id) => states[id].visible !== false);
 
   const register = (key: string) => (el: HTMLElement | null) => {
     if (!el) return;
@@ -59,6 +59,7 @@ export function JourneyMap({ data }: { data: JourneyData }) {
         quality={quality}
         reducedMotion={r.reducedMotion}
         labels={labels}
+        positions={data.journey.positions as Partial<Record<GroupId, readonly [number, number]>>}
         onError={r.reportFailure}
       />
       <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>

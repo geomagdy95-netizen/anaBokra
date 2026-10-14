@@ -10,21 +10,26 @@ export function scenarioStates(scenario: Scenario): Record<GroupId, IslandState>
     return out;
   };
 
+  // As in the app: only the user's island first; then the three suggestions appear; fields the user
+  // adds join after them (slot = order of appearance).
+  for (const id of GROUP_ORDER) out[id] = { ...out[id], visible: false };
+  const show = (id: GroupId, slot: number, s: Partial<IslandState>) => (out[id] = { ...out[id], ...s, visible: true, slot });
+
   if (scenario === 'before') return grown();
 
   if (scenario === 'during') {
-    for (const id of ['health', 'engineering', 'law'] as const) out[id] = { ...out[id], bridge: 'updating' };
-    out.tech = { ...out.tech, done: 1 };
+    show('health', 0, { relation: 'suggested', bridge: 'updating' });
+    show('engineering', 1, { relation: 'suggested', bridge: 'updating' });
+    show('law', 2, { relation: 'suggested', bridge: 'updating' });
     return grown();
   }
 
-  // after / added: three suggested groups, the rest outside the current suggestions.
   for (const id of GROUP_ORDER) out[id] = { ...out[id], relation: 'other', bridge: 'broken' };
-  out.tech = { ...out.tech, relation: 'suggested', bridge: 'connected', done: 2 };
-  out.creative = { ...out.creative, relation: 'suggested', bridge: 'connected', done: 1 };
-  out.education = { ...out.education, relation: 'suggested', bridge: 'connected', done: 0 };
+  show('tech', 0, { relation: 'suggested', bridge: 'connected', done: 2 });
+  show('creative', 1, { relation: 'suggested', bridge: 'connected', done: 1 });
+  show('education', 2, { relation: 'suggested', bridge: 'connected', done: 0 });
   if (scenario === 'added') {
-    out.health = { ...out.health, relation: 'added', bridge: 'connected', done: 0 };
+    show('health', 3, { relation: 'added', bridge: 'connected', done: 0 });
     // By then the user has checked one path.
     out.tech = { ...out.tech, done: PHASES, checked: true };
   }

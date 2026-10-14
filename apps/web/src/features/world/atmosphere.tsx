@@ -6,22 +6,16 @@ import {
   AdditiveBlending,
   BufferAttribute,
   BufferGeometry,
-  CanvasTexture,
   Color,
   ShaderMaterial,
-  SpriteMaterial,
   type Points,
 } from 'three';
 
 import { hashSeed, mulberry32 } from '../path/rng';
 import { CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, type IslandPlacement } from './layout';
-import { toy } from './materials';
-import { useWorldTheme } from './theme';
+import { WORLD_THEME } from './theme';
 
-/**
- * Soft round points that drift and pulse: stars on the sky dome, golden dust by day, fireflies at
- * night. One draw call each; the motion runs in the vertex shader.
- */
+/** Soft round points that drift and pulse. One draw call; the motion runs in the vertex shader. */
 function pointsMaterial(color: string, opacity: number, attenuate: boolean): ShaderMaterial {
   return new ShaderMaterial({
     uniforms: { uTime: { value: 0 }, uColor: { value: new Color(color) }, uOpacity: { value: opacity } },
@@ -72,21 +66,6 @@ function pointsGeometry({ pos, size, phase, drift }: PointData): BufferGeometry 
   return g;
 }
 
-function starData(): PointData {
-  const rng = mulberry32(hashSeed('stars'));
-  const out: PointData = { pos: [], size: [], phase: [], drift: [] };
-  for (let i = 0; i < 420; i++) {
-    const a = rng() * Math.PI * 2;
-    const el = 0.12 + Math.pow(rng(), 0.7) * 1.35;
-    const r = 150;
-    out.pos.push(Math.cos(a) * Math.cos(el) * r, Math.sin(el) * r, Math.sin(a) * Math.cos(el) * r);
-    out.size.push(rng() < 0.08 ? 4.5 : 1.6 + rng() * 2);
-    out.phase.push(rng() * 20);
-    out.drift.push(0);
-  }
-  return out;
-}
-
 function moteData(placements: IslandPlacement[], count: number, size: number): PointData {
   const rng = mulberry32(hashSeed('motes'));
   const out: PointData = { pos: [], size: [], phase: [], drift: [] };
@@ -112,84 +91,13 @@ function useTicking(animate: boolean) {
   return ref;
 }
 
-/** Twinkling stars on the upper sky (night only). */
-export function Stars({ animate }: { animate: boolean }) {
-  const geo = useMemo(() => pointsGeometry(starData()), []);
-  useEffect(() => () => geo.dispose(), [geo]);
-  const mat = useMemo(() => {
-    const m = pointsMaterial('#FFF6E0', 1, false);
-    m.fog = false;
-    return m;
-  }, []);
-  useEffect(() => () => mat.dispose(), [mat]);
-  const ref = useTicking(animate);
-  return <points ref={ref} geometry={geo} material={mat} renderOrder={-1} frustumCulled={false} />;
-}
-
-/** Floating light motes around the islands: sunlit dust by day, fireflies at night. */
+/** Sunlit dust drifting around the islands. */
 export function Motes({ placements, animate }: { placements: IslandPlacement[]; animate: boolean }) {
-  const { motes } = useWorldTheme();
+  const { motes } = WORLD_THEME;
   const geo = useMemo(() => pointsGeometry(moteData(placements, motes.count, motes.size)), [placements, motes]);
   useEffect(() => () => geo.dispose(), [geo]);
   const mat = useMemo(() => pointsMaterial(motes.color, motes.opacity, true), [motes]);
   useEffect(() => () => mat.dispose(), [mat]);
   const ref = useTicking(animate);
   return <points ref={ref} geometry={geo} material={mat} frustumCulled={false} />;
-}
-
-let haloTexture: CanvasTexture | null = null;
-/** A soft radial glow, drawn once. */
-function halo(): CanvasTexture {
-  if (haloTexture) return haloTexture;
-  const c = document.createElement('canvas');
-  c.width = c.height = 64;
-  const g = c.getContext('2d')!;
-  const grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
-  grad.addColorStop(0, 'rgba(255,255,255,1)');
-  grad.addColorStop(0.25, 'rgba(255,255,255,0.45)');
-  grad.addColorStop(1, 'rgba(255,255,255,0)');
-  g.fillStyle = grad;
-  g.fillRect(0, 0, 64, 64);
-  haloTexture = new CanvasTexture(c);
-  return haloTexture;
-}
-
-/** A pair of lamp posts where each bridge lands on its island; their glow shows at night. */
-export function Lanterns({ placements, shadows }: { placements: IslandPlacement[]; shadows: boolean }) {
-  const { lights } = useWorldTheme();
-  const spots = useMemo(
-    () =>
-      placements.flatMap((p) => {
-        const toCore: [number, number] = [-p.dir[0], -p.dir[1]];
-        const side: [number, number] = [-toCore[1], toCore[0]];
-        const d = ISLAND_RADIUS - 0.42;
-        return [-1, 1].map((k) => [p.pos[0] + toCore[0] * d + side[0] * 0.42 * k, p.pos[1] + toCore[1] * d + side[1] * 0.42 * k] as const);
-      }),
-    [placements],
-  );
-  const haloMat = useMemo(
-    () => new SpriteMaterial({ map: halo(), color: lights.color, transparent: true, opacity: Math.min(1, lights.glow * 0.55), blending: AdditiveBlending, depthWrite: false }),
-    [lights],
-  );
-  useEffect(() => () => haloMat.dispose(), [haloMat]);
-  const post = toy('#5A3D26', false, { rough: 0.8 });
-  const bulb = toy(lights.color, false, { glow: lights.glow });
-  return (
-    <>
-      {spots.map(([x, z], i) => (
-        <group key={i} position={[x, ISLAND_TOP, z]}>
-          <mesh position={[0, 0.22, 0]} material={post} castShadow={shadows}>
-            <cylinderGeometry args={[0.022, 0.03, 0.44, 8]} />
-          </mesh>
-          <mesh position={[0, 0.48, 0]} material={post}>
-            <cylinderGeometry args={[0.07, 0.05, 0.04, 8]} />
-          </mesh>
-          <mesh position={[0, 0.53, 0]} material={bulb}>
-            <sphereGeometry args={[0.055, 12, 10]} />
-          </mesh>
-          {lights.glow > 0.5 && <sprite position={[0, 0.53, 0]} scale={0.7} material={haloMat} />}
-        </group>
-      ))}
-    </>
-  );
 }

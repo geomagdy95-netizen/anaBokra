@@ -8,7 +8,6 @@ import { bridgePoint, roundedBox, stripGeometry, type BridgeEnds } from './geome
 import { ISLAND_TOP, type XZ } from './layout';
 import { BRAND, SCENE, toy } from './materials';
 import type { BridgeMode, Relation } from './types';
-import { useWorldTheme } from './theme';
 
 /**
  * A wooden rope bridge. Rope = how the group relates to the user (violet suggested, apricot added).
@@ -53,11 +52,12 @@ export function bridgeEnds(from: XZ, fromRadius: number, to: XZ, toRadius: numbe
   const len = Math.hypot(dx, dz);
   const ux = dx / len;
   const uz = dz / len;
-  const y = ISLAND_TOP - 0.03;
+  // The bridge meets the lowered timber pier; stone steps climb from the landing to the plateau.
+  const y = 0.45;
   return {
     start: new Vector3(from[0] + ux * (fromRadius - 0.35), y, from[1] + uz * (fromRadius - 0.35)),
     end: new Vector3(to[0] - ux * (toRadius - 0.35), y, to[1] - uz * (toRadius - 0.35)),
-    arch: 0.32,
+    arch: 0.3,
   };
 }
 
@@ -151,15 +151,14 @@ export function Bridge({ from, fromRadius, to, toRadius, relation, mode, done, t
     });
   });
 
-  const { bridgeGlow } = useWorldTheme();
   const glow = useMemo(() => (style.glow && mode === 'connected' ? stripGeometry(ends, 1.9, 0, 1) : null), [style.glow, mode, ends]);
   const glowMat = useMemo(
-    () => (style.glow ? new MeshBasicMaterial({ color: style.glow, transparent: true, opacity: Math.min(0.6, 0.28 * bridgeGlow), blending: AdditiveBlending, depthWrite: false }) : null),
-    [style.glow, bridgeGlow],
+    () => (style.glow ? new MeshBasicMaterial({ color: style.glow, transparent: true, opacity: 0.28, blending: AdditiveBlending, depthWrite: false }) : null),
+    [style.glow],
   );
   useEffect(() => () => (glow?.dispose(), glowMat?.dispose()), [glow, glowMat]);
 
-  const railMat = toy(style.rail, false, { glow: style.railGlow * bridgeGlow, rough: 0.8 });
+  const railMat = toy(style.rail, false, { glow: style.railGlow, rough: 0.8 });
   const woodMat = toy(WOOD, false, { rough: 0.85 });
   const plankMat = useMemo(() => toy('#FFFFFF', false, { rough: 0.7 }), []);
   const dotMat = toy(mode === 'updating' ? SCENE.lilac : '#B99BE8', false, { glow: mode === 'updating' ? 0.35 : 0.15 });

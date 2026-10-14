@@ -6,7 +6,6 @@ import { Shape, type Group, type Mesh, type MeshStandardMaterial } from 'three';
 
 import { useToy } from './materials';
 import { Bob, C, Extruded, RBox } from './props';
-import { useWorldTheme } from './theme';
 import type { GroupId } from './types';
 
 /**
@@ -55,13 +54,11 @@ function Blink({ position, color = C.apricot, speed = 1.6 }: { position: [number
   const m = useToy();
   const ref = useRef<Mesh>(null);
   // Its own copy of the shared toy material, since the glow changes every frame.
-  const { lights } = useWorldTheme();
   const mat = useMemo(() => m(color, { glow: 0.6 }).clone(), [m, color]);
   useEffect(() => () => mat.dispose(), [mat]);
-  const boost = Math.max(1, lights.glow);
   useFrame(({ clock }) => {
     const own = ref.current?.material as MeshStandardMaterial | undefined;
-    if (own) own.emissiveIntensity = (0.3 + 0.7 * Math.max(0, Math.sin(clock.elapsedTime * speed))) * boost;
+    if (own) own.emissiveIntensity = 0.3 + 0.7 * Math.max(0, Math.sin(clock.elapsedTime * speed));
   });
   return (
     <mesh ref={ref} position={position} material={mat}>
@@ -72,34 +69,32 @@ function Blink({ position, color = C.apricot, speed = 1.6 }: { position: [number
 
 /** Rows of windows on a facade facing +z. */
 function Windows({ cols, rows, w, h, x0, y0, z, dx, dy, color = C.lavender }: { cols: number; rows: number; w: number; h: number; x0: number; y0: number; z: number; dx: number; dy: number; color?: string }) {
-  // At night most windows are lit warm; a few stay dark so the building looks lived in.
-  const { lights } = useWorldTheme();
-  const night = lights.glow > 0.5;
   const out: ReactNode[] = [];
   for (let r = 0; r < rows; r++)
-    for (let c = 0; c < cols; c++) {
-      const lit = night && (r * 7 + c * 3) % 5 !== 0;
-      out.push(
-        <RBox key={`${r}-${c}`} size={[w, h, 0.03]} r={0.012} color={lit ? lights.color : color} o={{ glow: lit ? lights.glow * 0.7 : 0.15 }} position={[x0 + c * dx, y0 + r * dy, z]} />,
-      );
-    }
+    for (let c = 0; c < cols; c++)
+      out.push(<RBox key={`${r}-${c}`} size={[w, h, 0.03]} r={0.012} color={color} o={{ glow: 0.15 }} position={[x0 + c * dx, y0 + r * dy, z]} />);
   return <>{out}</>;
 }
 
 // --- Landmarks ----------------------------------------------------------------
 
-/** Tech: a glassy office tower with an antenna. */
-function TechTower() {
+/** Tech: a small open-front digital studio with a desk, server rack and satellite link. */
+function TechStudio() {
   const m = useToy();
   return (
     <group>
-      <RBox size={[0.62, 1.25, 0.5]} r={0.06} color="#5B3A8C" position={[0, 0.625, 0]} />
-      <Windows cols={3} rows={5} w={0.13} h={0.12} x0={-0.17} y0={0.25} z={0.26} dx={0.17} dy={0.2} color="#B9A0F2" />
-      <RBox size={[0.68, 0.06, 0.56]} r={0.02} color={C.violet} position={[0, 1.27, 0]} />
-      <mesh position={[0.15, 1.55, 0]} material={m(C.ivory)}>
-        <cylinderGeometry args={[0.015, 0.02, 0.5, 6]} />
-      </mesh>
-      <Blink position={[0.15, 1.82, 0]} />
+      <RBox size={[1.32, 0.1, 0.86]} r={0.04} color={C.wood} position={[0, 0.05, 0]} />
+      <RBox size={[1.16, 0.77, 0.12]} r={0.03} color={C.ivory} position={[0, 0.48, -0.32]} />
+      <RBox size={[0.16, 0.72, 0.13]} r={0.025} color={C.wood} position={[-0.49, 0.43, 0.13]} />
+      <RBox size={[0.16, 0.72, 0.13]} r={0.025} color={C.wood} position={[0.49, 0.43, 0.13]} />
+      <RBox size={[1.22, 0.1, 0.98]} r={0.035} color={C.apricot} position={[0, 0.91, -0.04]} />
+      <RBox size={[0.94, 0.06, 0.64]} r={0.025} color={C.plum} position={[0, 0.38, 0.06]} />
+      <RBox size={[0.42, 0.045, 0.28]} r={0.012} color="#6D8E9D" position={[-0.16, 0.52, 0.05]} />
+      <RBox size={[0.07, 0.12, 0.06]} r={0.018} color={C.wood} position={[-0.16, 0.44, 0.05]} />
+      <RBox size={[0.28, 0.55, 0.22]} r={0.035} color={C.plum} position={[0.72, 0.29, -0.12]} />
+      {[0, 1, 2].map((i) => <RBox key={i} size={[0.2, 0.035, 0.025]} r={0.01} color={i === 1 ? C.apricot : C.lavender} position={[0.72, 0.12 + i * 0.14, 0.0]} />)}
+      <mesh position={[-0.8, 0.64, -0.08]} rotation={[0, 0, Math.PI / 2]} material={m(C.ivory)}><cylinderGeometry args={[0.19, 0.25, 0.08, 24]} /></mesh>
+      <mesh position={[-0.8, 0.64, -0.02]} rotation={[0, 0, Math.PI / 2]} material={m(C.lavender)}><circleGeometry args={[0.15, 24]} /></mesh>
     </group>
   );
 }
@@ -139,59 +134,42 @@ function Clinic() {
   );
 }
 
-/** Agriculture: a windmill whose sails turn. */
-function Windmill() {
-  const m = useToy();
-  const sails = useRef<Group>(null);
-  useFrame((_, dt) => {
-    if (sails.current) sails.current.rotation.z += dt * 0.6;
-  });
+/** Agriculture: a timber framed greenhouse with glass roof panels and seedling benches. */
+function Greenhouse() {
+  const glass = useToy();
   return (
     <group>
-      <mesh position={[0, 0.55, 0]} material={m(C.ivory)}>
-        <cylinderGeometry args={[0.2, 0.32, 1.1, 8]} />
-      </mesh>
-      <mesh position={[0, 1.2, 0]} material={m(C.apricot)}>
-        <coneGeometry args={[0.26, 0.3, 8]} />
-      </mesh>
-      <RBox size={[0.14, 0.24, 0.04]} r={0.03} color={C.plum} position={[0, 0.13, 0.3]} />
-      <group ref={sails} position={[0, 1.02, 0.24]}>
-        <mesh material={m(C.plumDark)}>
-          <sphereGeometry args={[0.06, 12, 8]} />
-        </mesh>
-        {[0, 1, 2, 3].map((i) => (
-          <group key={i} rotation={[0, 0, (i * Math.PI) / 2]}>
-            <RBox size={[0.03, 0.6, 0.02]} r={0.01} color={C.wood} position={[0, 0.32, 0]} />
-            <RBox size={[0.16, 0.46, 0.015]} r={0.01} color={C.ivory} position={[0.09, 0.38, 0.01]} />
-          </group>
-        ))}
-      </group>
+      <RBox size={[1.28, 0.12, 0.96]} r={0.035} color="#A8784C" position={[0, 0.06, 0]} />
+      <mesh position={[0, 0.48, 0]}><boxGeometry args={[1.12, 0.75, 0.78]} /><meshStandardMaterial color="#C4E5E3" transparent opacity={0.22} roughness={0.25} /></mesh>
+      <RBox size={[0.06, 0.82, 0.06]} r={0.02} color={C.wood} position={[-0.58, 0.45, -0.4]} />
+      <RBox size={[0.06, 0.82, 0.06]} r={0.02} color={C.wood} position={[0.58, 0.45, -0.4]} />
+      <RBox size={[0.06, 0.82, 0.06]} r={0.02} color={C.wood} position={[-0.58, 0.45, 0.4]} />
+      <RBox size={[0.06, 0.82, 0.06]} r={0.02} color={C.wood} position={[0.58, 0.45, 0.4]} />
+      <RBox size={[1.2, 0.05, 0.05]} r={0.015} color={C.wood} position={[0, 0.83, 0]} />
+      {[-0.39, 0, 0.39].map((x) => <RBox key={x} size={[0.045, 0.76, 0.045]} r={0.012} color={C.wood} position={[x, 0.42, -0.4]} />)}
+      <RBox size={[0.08, 0.88, 0.08]} r={0.02} color={C.wood} position={[0, 0.46, 0]} />
+      {[-0.25, 0.15].map((x) => <group key={x} position={[x, 0.2, 0.1]}>
+        <RBox size={[0.3, 0.08, 0.48]} r={0.025} color="#876042" position={[0, 0, 0]} />
+        {[-0.13, 0, 0.13].map((z) => <mesh key={z} position={[0, 0.13, z]} material={glass('#709B50')}><sphereGeometry args={[0.1, 10, 8]} /></mesh>)}
+      </group>)}
     </group>
   );
 }
 
-/** Tourism: a felucca (Nile sailing boat), bobbing on the water just off the beach. */
-function Felucca() {
+/** Tourism: a warm coastal guesthouse with a tiled roof and shaded front terrace. */
+function Guesthouse() {
   const m = useToy();
-  const boat = useRef<Group>(null);
-  useFrame(({ clock }) => {
-    const g = boat.current;
-    if (!g) return;
-    g.position.y = Math.sin(clock.elapsedTime * 1.3) * 0.03;
-    g.rotation.z = Math.sin(clock.elapsedTime * 1.1) * 0.05;
-  });
   return (
-    <group ref={boat}>
-      <mesh position={[0, 0.06, 0]} rotation={[0, 0, Math.PI]} scale={[1, 0.5, 0.42]} material={m(C.wood)}>
-        <sphereGeometry args={[0.5, 20, 10, 0, Math.PI * 2, 0, Math.PI / 2]} />
-      </mesh>
-      <RBox size={[0.9, 0.04, 0.36]} r={0.02} color="#C08F5F" position={[0, 0.06, 0]} />
-      <mesh position={[0.05, 0.6, 0]} rotation={[0, 0, -0.08]} material={m(C.plumDark)}>
-        <cylinderGeometry args={[0.018, 0.022, 1.1, 6]} />
-      </mesh>
-      <group position={[-0.3, 0.12, 0]} rotation={[0, 0, -0.08]}>
-        <Extruded shape={SHAPES.sail} depth={0.01} bevel={0.005} color={C.white} />
-      </group>
+    <group>
+      <RBox size={[1.22, 0.12, 0.86]} r={0.04} color={C.wood} position={[0, 0.06, 0]} />
+      <RBox size={[0.94, 0.72, 0.66]} r={0.07} color={C.ivory} position={[0, 0.48, -0.11]} />
+      <Extruded shape={SHAPES.schoolRoof} depth={0.82} bevel={0.035} color="#C96F3D" position={[0, 0.84, -0.1]} />
+      <RBox size={[0.52, 0.45, 0.08]} r={0.04} color="#6F8D93" position={[0, 0.38, 0.24]} />
+      <RBox size={[0.22, 0.38, 0.06]} r={0.035} color={C.wood} position={[0, 0.27, 0.29]} />
+      <RBox size={[0.9, 0.08, 0.56]} r={0.025} color={C.wood} position={[0, 0.74, 0.38]} />
+      {[-0.36, 0.36].map((x) => <RBox key={x} size={[0.07, 0.62, 0.07]} r={0.02} color="#815536" position={[x, 0.43, 0.58]} />)}
+      <RBox size={[0.95, 0.06, 0.08]} r={0.02} color="#815536" position={[0, 0.74, 0.58]} />
+      <mesh position={[0.31, 1.1, -0.1]} material={m(C.wood)}><cylinderGeometry args={[0.09, 0.12, 0.32, 8]} /></mesh>
     </group>
   );
 }
@@ -233,39 +211,42 @@ function Courthouse() {
   );
 }
 
-/** Business: an office block with a rooftop sign. */
+/** Business: a small professional office with a welcoming counter and a compact upper room. */
 function OfficeBlock() {
   return (
     <group>
-      <RBox size={[0.56, 1.0, 0.48]} r={0.05} color={C.ivory} position={[-0.2, 0.5, 0]} />
-      <RBox size={[0.42, 1.45, 0.44]} r={0.05} color={C.plum} position={[0.28, 0.725, -0.04]} />
-      <Windows cols={2} rows={4} w={0.15} h={0.12} x0={-0.32} y0={0.2} z={0.25} dx={0.24} dy={0.2} color={C.lavender} />
-      <Windows cols={2} rows={6} w={0.11} h={0.1} x0={0.2} y0={0.22} z={0.19} dx={0.16} dy={0.2} color="#B9A0F2" />
-      <RBox size={[0.36, 0.14, 0.04]} r={0.03} color={C.apricot} o={{ glow: 0.2 }} position={[0.28, 1.56, 0.0]} />
+      <RBox size={[1.22, 0.1, 0.82]} r={0.04} color={C.wood} position={[0, 0.05, 0]} />
+      <RBox size={[1.04, 0.74, 0.66]} r={0.06} color={C.ivory} position={[0, 0.47, -0.08]} />
+      <RBox size={[1.12, 0.12, 0.78]} r={0.035} color={C.apricot} position={[0, 0.88, -0.08]} />
+      <RBox size={[0.44, 0.38, 0.05]} r={0.035} color="#75969A" position={[-0.25, 0.49, 0.26]} />
+      <RBox size={[0.18, 0.35, 0.06]} r={0.03} color={C.wood} position={[0.36, 0.28, 0.28]} />
+      <RBox size={[0.52, 0.12, 0.3]} r={0.025} color={C.plum} position={[0.02, 0.27, 0.38]} />
+      <RBox size={[0.12, 0.2, 0.1]} r={0.02} color={C.apricot} position={[-0.04, 0.43, 0.36]} />
+      <RBox size={[0.72, 0.06, 0.14]} r={0.025} color="#855A37" position={[0, 0.78, 0.39]} />
+      {[-0.28, 0.28].map((x) => <RBox key={x} size={[0.06, 0.55, 0.06]} r={0.02} color="#855A37" position={[x, 0.48, 0.43]} />)}
+      <RBox size={[0.34, 0.16, 0.04]} r={0.03} color={C.violet} o={{ glow: 0.12 }} position={[0.35, 0.72, 0.28]} />
     </group>
   );
 }
 
-/** Media: a broadcast tower with a dish and a blinking light. */
-function BroadcastTower() {
+/** Media: a small soundstage with a desk, control panel, lights and a cyc wall. */
+function MediaStudio() {
   const m = useToy();
   return (
     <group>
-      {[-1, 1].map((s) => (
-        <mesh key={s} position={[s * 0.12, 0.75, 0]} rotation={[0, 0, s * 0.09]} material={m(C.ivory)}>
-          <cylinderGeometry args={[0.025, 0.03, 1.5, 6]} />
-        </mesh>
-      ))}
-      {[0.35, 0.75, 1.15].map((y) => (
-        <RBox key={y} size={[0.28 - y * 0.12, 0.03, 0.03]} r={0.01} color={C.violet} position={[0, y, 0]} />
-      ))}
-      <group position={[0.02, 1.0, 0.1]} rotation={[0.5, 0.4, 0]}>
-        <mesh material={m(C.white)}>
-          <sphereGeometry args={[0.2, 20, 10, 0, Math.PI * 2, 0, Math.PI / 3]} />
-        </mesh>
-      </group>
-      <RBox size={[0.36, 0.3, 0.3]} r={0.04} color={C.plum} position={[0.35, 0.15, 0.05]} />
-      <Blink position={[0, 1.55, 0]} />
+      <RBox size={[1.24, 0.09, 0.82]} r={0.035} color={C.wood} position={[0, 0.045, 0]} />
+      <RBox size={[1.04, 0.82, 0.1]} r={0.035} color="#6B4739" position={[0, 0.48, -0.34]} />
+      <RBox size={[0.13, 0.74, 0.12]} r={0.025} color={C.wood} position={[-0.52, 0.42, 0.02]} />
+      <RBox size={[0.13, 0.74, 0.12]} r={0.025} color={C.wood} position={[0.52, 0.42, 0.02]} />
+      <RBox size={[1.2, 0.1, 0.94]} r={0.03} color={C.plum} position={[0, 0.87, -0.05]} />
+      <RBox size={[0.72, 0.44, 0.035]} r={0.025} color="#334C50" position={[0, 0.57, -0.275]} />
+      <RBox size={[0.62, 0.05, 0.27]} r={0.02} color={C.wood} position={[0, 0.3, 0.05]} />
+      <RBox size={[0.66, 0.16, 0.3]} r={0.035} color={C.plumDark} position={[0, 0.41, 0.04]} />
+      {[-0.23, -0.08, 0.08, 0.23].map((x, i) => <RBox key={x} size={[0.1, 0.06, 0.03]} r={0.012} color={i === 2 ? C.apricot : C.lavender} position={[x, 0.45, 0.2]} />)}
+      <RBox size={[0.16, 0.1, 0.06]} r={0.02} color={C.apricot} o={{ glow: 0.25 }} position={[0.32, 0.69, 0.24]} />
+      <mesh position={[-0.4, 0.8, 0.45]} rotation={[Math.PI / 2, 0, 0]} material={m(C.ivory)}><circleGeometry args={[0.18, 24]} /></mesh>
+      <RBox size={[0.035, 0.28, 0.035]} r={0.01} color={C.wood} position={[-0.4, 0.63, 0.44]} />
+      <Blink position={[0.36, 0.95, 0.18]} color={C.apricot} speed={1.3} />
     </group>
   );
 }
@@ -347,15 +328,15 @@ function Workshop() {
 }
 
 const LANDMARKS: Record<GroupId, () => ReactNode> = {
-  tech: TechTower,
+  tech: TechStudio,
   science: Observatory,
   health: Clinic,
-  agriculture: Windmill,
-  tourism: Felucca,
+  agriculture: Greenhouse,
+  tourism: Guesthouse,
   education: School,
   law: Courthouse,
   business: OfficeBlock,
-  media: BroadcastTower,
+  media: MediaStudio,
   creative: Easel,
   engineering: Crane,
   trades: Workshop,

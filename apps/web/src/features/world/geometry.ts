@@ -5,12 +5,12 @@ import { ISLAND_TOP } from './layout';
 
 /** Island colours: pastel grass on top, a warm earth cliff, a sandy beach that fades into the sea. */
 export const ISLAND_COLORS = {
-  grass: '#B9DD9C',
-  grassEdge: '#A2CC86',
-  cliffTop: '#D5B58C',
-  cliff: '#C59E78',
+  grass: '#D0C39F',
+  grassEdge: '#BDA982',
+  cliffTop: '#D9B990',
+  cliff: '#C89B70',
   /** Rock layers in the cliff. */
-  rock: '#B48C69',
+  rock: '#AD805C',
   rockLight: '#D2B591',
   sand: '#F5E5C3',
   wetSand: '#E3CDA5',
@@ -18,9 +18,9 @@ export const ISLAND_COLORS = {
 } as const;
 
 /** Grass tones that drift across the plateau in soft patches. */
-const GRASS_DARK = new Color('#9FCB84');
-const GRASS_DRY = new Color('#CFE3A6');
-const DIRT = new Color('#DCC59C');
+const GRASS_DARK = new Color('#B4A47D');
+const GRASS_DRY = new Color('#DFD0AA');
+const DIRT = new Color('#C8A982');
 
 type ColorKey = keyof typeof ISLAND_COLORS;
 

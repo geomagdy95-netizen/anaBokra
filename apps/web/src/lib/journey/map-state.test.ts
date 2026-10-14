@@ -38,6 +38,23 @@ describe('island states from progress', () => {
     expect(s.media).toMatchObject({ relation: 'other', bridge: 'broken' });
   });
 
+  it('starts with only my island: no field on the map before suggestions', () => {
+    const s = islandStates(preview('none'), { v: 1, paths: {} });
+    expect(Object.values(s).every((x) => x.visible === false && x.slot === undefined)).toBe(true);
+  });
+
+  it('puts the 3 suggestions on the map, then fields the user adds or starts, in that order', () => {
+    const s = islandStates(preview('suggested'), { v: 1, paths: { health: { answers: { health_day_1: 3 } } }, added: ['law'] });
+    expect(['tech', 'science', 'engineering', 'law', 'health'].map((id) => s[id as keyof typeof s].slot)).toEqual([0, 1, 2, 3, 4]);
+    expect(s.media).toMatchObject({ visible: false, relation: 'other' });
+  });
+
+  it('keeps a field the user took off the map off it, and closes the gap', () => {
+    const s = islandStates(preview('suggested'), { v: 1, paths: {}, hidden: ['science'], added: ['law'] });
+    expect(s.science).toMatchObject({ relation: 'suggested', visible: false });
+    expect([s.tech.slot, s.engineering.slot, s.law.slot]).toEqual([0, 1, 2]);
+  });
+
   it('suggests nothing when interests are flat', () => {
     const s = islandStates(preview('suggested', true), { v: 1, paths: {} });
     expect(Object.values(s).some((x) => x.relation === 'suggested')).toBe(false);

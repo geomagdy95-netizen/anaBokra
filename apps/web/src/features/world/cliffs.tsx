@@ -39,9 +39,9 @@ function rockGeometry(seed: number): BufferGeometry {
   g.computeVertexNormals();
   const n = g.getAttribute('normal');
   const colors = new Float32Array(pos.count * 3);
-  const stone = new Color('#D6CEC2');
-  const dark = new Color('#8F887E');
-  const moss = new Color('#8A9A55');
+  const stone = new Color('#C9B99F');
+  const dark = new Color('#89765E');
+  const moss = new Color('#8D9254');
   const c = new Color();
   for (let i = 0; i < pos.count; i++) {
     const up = n.getY(i);
@@ -141,8 +141,8 @@ export function cliffBoulders(placements: IslandPlacement[], muted: Record<strin
   return islands.flatMap((isl) => [...ringBoulders(isl, layers), ...(isl.seed === 'core' ? [] : outcrops(isl, quality === 'high' ? 2 : 1))]);
 }
 
-const LIGHT = new Color('#FFFFFF');
-const SHADE = new Color('#D9CFC4');
+const LIGHT = new Color('#E8D3B0');
+const SHADE = new Color('#B68E65');
 
 export function Cliffs({ placements, muted, quality, shadows }: { placements: IslandPlacement[]; muted: Record<string, boolean>; quality: 'high' | 'low'; shadows: boolean }) {
   const boulders = useMemo(() => cliffBoulders(placements, muted, quality), [placements, muted, quality]);

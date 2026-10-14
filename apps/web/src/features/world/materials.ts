@@ -61,7 +61,7 @@ export function toy(hex: string, muted = false, o: ToyOptions = {}): MeshStandar
     const opacity = o.opacity ?? 1;
     m = new MeshStandardMaterial({
       color,
-      roughness: o.rough ?? 0.45,
+      roughness: o.rough ?? 0.72,
       metalness: 0,
       emissive: o.glow ? color.clone() : new Color(0x000000),
       emissiveIntensity: o.glow ?? 0,

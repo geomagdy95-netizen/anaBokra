@@ -1,5 +1,6 @@
 import { careers, enjoyId, type PathContent, type PathTask } from '@anabokra/content';
 
+import { ARRANGE_RING } from '@/features/world/layout';
 import type { KvStore } from '@/lib/local/kv';
 
 /**
@@ -50,8 +51,12 @@ export interface PathRecord {
 export interface JourneyDoc {
   v: 1;
   paths: Record<string, PathRecord>;
-  /** Paths outside the suggestions that the user added to their map themselves (orange bridge). */
+  /** Fields the user added to their map themselves (orange bridge). */
   added?: string[];
+  /** Fields the user took off their map (a suggestion they don't want there). Answers stay intact. */
+  hidden?: string[];
+  /** User-arranged island positions in world X/Z coordinates. */
+  positions?: Partial<Record<string, readonly [number, number]>>;
   /** Paths the user bookmarked (the Saved tab). */
   saved?: string[];
   /** "My results were clear and useful" (pilot plan §7), 1–5, asked once after the first path result. */
@@ -86,6 +91,34 @@ export async function setInList(kv: KvStore, profileId: string, list: 'added' | 
   const next = on ? (current.includes(pathId) ? current : [...current, pathId]) : current.filter((id) => id !== pathId);
   await kv.set(journeyKey(profileId), { ...doc, [list]: next });
   return next;
+}
+
+/**
+ * Puts a field on the user's map or takes it off. On: it joins "added" (unless it's already there) and
+ * leaves "hidden". Off: it leaves "added" and, so a suggestion or a started path also goes, joins
+ * "hidden". Answers, results and saved stay as they are, so adding it back restores it exactly.
+ */
+export async function setOnMap(kv: KvStore, profileId: string, pathId: string, on: boolean): Promise<void> {
+  const doc = await readJourney(kv, profileId);
+  const without = (list: string[] | undefined) => (list ?? []).filter((id) => id !== pathId);
+  await kv.set(journeyKey(profileId), {
+    ...doc,
+    added: on ? [...without(doc.added), pathId] : without(doc.added),
+    hidden: on ? without(doc.hidden) : [...without(doc.hidden), pathId],
+  });
+}
+
+/** Persists a moved island. Positions are kept inside the archipelago and away from the core. */
+export async function setIslandPosition(kv: KvStore, profileId: string, pathId: string, x: number, z: number): Promise<void> {
+  const distance = Math.hypot(x, z);
+  const [min, max] = ARRANGE_RING;
+  const radius = Math.max(min, Math.min(max, distance || min));
+  const scale = radius / (distance || 1);
+  const doc = await readJourney(kv, profileId);
+  await kv.set(journeyKey(profileId), {
+    ...doc,
+    positions: { ...doc.positions, [pathId]: [x * scale, z * scale] as const },
+  });
 }
 
 export async function saveRating(kv: KvStore, profileId: string, value: number, now = new Date()): Promise<void> {

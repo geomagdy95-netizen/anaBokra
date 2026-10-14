@@ -56,8 +56,8 @@ Every screen and route, by **screen code**. The letter is the area; the number i
 |---|---|---|---|
 | T0 | App shell: top bar and bottom tabs (Home · Explore · Saved · Account) | every journey screen | Built |
 | I1 | Home (my island): greeting, map card, readiness, Discover tasks, suggested and checked paths | `/journey` (and `/assessment` redirects here) | Built |
-| I7 | Explore: full map or list, search (fields and careers), legend, toast | `/journey/map` (`?island=` opens a sheet) | Built |
-| I8 | Island sheet: status, bridge progress, careers, add to my map / remove, save, explore (Verify), review my answers | `/journey/map` | Built |
+| I7 | Explore: map that starts with only my island and grows (3 suggestions, then fields the user adds), or list (on my map / more fields), search (fields and careers), arrange islands by dragging, legend, toast | `/journey/map` (`?island=` opens a sheet) | Built |
+| I8 | Island sheet: status, what the field is (intro: what it is, a day in it, who enjoys it), bridge progress, careers, add to my map / remove, save, explore (Verify), review my answers ; folded "About this field": the field in Egypt (outlook, who hires, freelance, Gulf and remote), how AI is changing it, sources | `/journey/map` | Built |
 | I9 | Saved: bookmarked paths, empty state | `/journey/saved` | Built |
 | I10 | Account: profile card, nickname and password, language, statistics, session, move phone, delete, legal links | `/journey/account` | Built |
 | I2 | A task: one question at a time, mixed formats, as illustrated cards (picture on top with step dots, heading and answers below; a cover screen first). Pictures: [docs/art](../art/README.md); a placeholder until they exist | `/journey` | Built |

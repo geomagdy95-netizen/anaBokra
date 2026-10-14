@@ -55,6 +55,10 @@ export type BridgeMode = 'connected' | 'updating' | 'broken';
 
 export interface IslandState {
   id: GroupId;
+  /** Whether the island is on the user's map. Missing means shown (the dev world shows all). */
+  visible?: boolean;
+  /** Its place round the core, in the order islands appeared on the map (see layout SLOT_ORDER). */
+  slot?: number;
   relation: Relation;
   bridge: BridgeMode;
   /** Bridge progress: finished phases out of total. */

@@ -273,7 +273,7 @@ The upload endpoint accepts only these three record types, stores no IP address 
 
 | Surface | Pilot (own phones, Nov 2026) | Launch (own phones, 16 Jan 2027) |
 |---|---|---|
-| World map | 3D "miniature diorama" (since 14 Oct): rocky islands on a turquoise sea, wooden rope bridges, cypress and olive trees, golden-hour day and a night mode (lanterns, lit windows, fireflies), soft tilt-shift on high quality; plus list view | Detailed landmark models per group, a character for "me", camera fly-through; list view kept |
+| World map | 3D "miniature diorama" (since 14 Oct): rocky islands on a turquoise sea, wooden rope bridges, cypress and olive trees, golden-hour daylight only (no night mode), soft tilt-shift on high quality; plus list view | Detailed landmark models per group, a character for "me", camera fly-through; list view kept |
 | Core island + details page | Yes | Yes |
 | L1 group islands | 3–5 fully written; the rest "coming soon" with career pages open | All 12 |
 | L2 career islands | Career pages only, bridges "coming soon" | 15+ with bridges; the rest career pages + "coming soon" |

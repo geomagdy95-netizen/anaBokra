@@ -9,9 +9,9 @@ import { cn } from '@/lib/utils';
 import { useRenderer } from '../path/capabilities';
 import { BridgeSwatch } from './bridge-swatch';
 import { ProfileSheet } from './profile-sheet';
+import { IslandArtwork } from './island-artwork';
 import { addToMap, profileFor, scenarioCoreGrowth, scenarioStates } from './scenarios';
 import { GROUP_ORDER, SCENARIOS, type GroupId, type GroupInfo, type IslandState, type Relation, type Scenario, type Selection } from './types';
-import type { WorldMood } from './theme';
 import type { Quality } from './world-canvas';
 
 // The three.js stack stays behind this dynamic import: not in the first-load bundle, never SSR'd.
@@ -45,7 +45,6 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
   const [selected, setSelected] = useState<Selection | null>(null);
   const [view, setView] = useState<'map' | 'list'>('map');
   const [quality, setQuality] = useState<Quality | null>(null);
-  const [mood, setMood] = useState<WorldMood>('day');
   const [toast, setToast] = useState(false);
   // DOM labels by anchor key; the canvas moves them every frame to follow their islands.
   const [labels] = useState(() => new Map<string, HTMLElement>());
@@ -133,18 +132,7 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
             {t(`scenarios.${s}`)}
           </button>
         ))}
-        <span className="ms-auto text-xs text-[#291137]/60">{t('mood')}</span>
-        {(['day', 'night'] as const).map((m) => (
-          <button
-            key={m}
-            onClick={() => setMood(m)}
-            aria-pressed={mood === m}
-            className={cn('min-h-8 rounded-full border px-3', mood === m ? 'border-[#291137] bg-[#291137] text-white' : 'border-[#291137]/20 bg-white')}
-          >
-            {t(`moods.${m}`)}
-          </button>
-        ))}
-        <span className="text-xs text-[#291137]/60">{t('quality')}</span>
+        <span className="ms-auto text-xs text-[#291137]/60">{t('quality')}</span>
         {(['high', 'low'] as const).map((q) => (
           <button
             key={q}
@@ -167,7 +155,6 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
               selected={selected}
               onSelect={setSelected}
               quality={effectiveQuality}
-              mood={mood}
               reducedMotion={r.reducedMotion}
               labels={labels}
               onError={r.reportFailure}
@@ -294,6 +281,9 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
             className="absolute inset-x-0 bottom-0 z-30 mx-auto max-w-xl rounded-t-3xl bg-white p-5 pb-6 shadow-[0_-12px_40px_rgba(41,17,55,0.18)]"
           >
             <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-[#291137]/15" aria-hidden />
+            <div className="mb-3 flex h-36 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-[#FFF5E6] via-[#E6F1EE] to-[#EAE0F3]">
+              <IslandArtwork id={group} className="size-36" />
+            </div>
             <div className="flex items-start gap-3">
               <div className="min-w-0 flex-1">
                 <h2 className="text-2xl font-bold" style={{ color: PLUM }}>

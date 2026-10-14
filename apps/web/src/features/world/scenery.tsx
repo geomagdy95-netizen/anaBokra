@@ -16,14 +16,14 @@ import {
 
 import { hashSeed, mulberry32 } from '../path/rng';
 import { ISLAND_RADIUS, WORLD_EXTENT, type XZ } from './layout';
-import { useWorldTheme } from './theme';
+import { WORLD_THEME } from './theme';
 
 const dummy = new Object3D();
 
 // --- Sky and sea --------------------------------------------------------------
 
 export function SkyDome() {
-  const { sky } = useWorldTheme();
+  const { sky } = WORLD_THEME;
   const geo = useMemo(() => {
     const g = new SphereGeometry(160, 32, 16);
     const pos = g.getAttribute('position');
@@ -57,7 +57,7 @@ export function SkyDome() {
  * `islands` are circles (x, z, radius at the waterline).
  */
 export function Sea({ shadows, islands, animate }: { shadows: boolean; islands: { pos: XZ; radius: number }[]; animate: boolean }) {
-  const { sea: SEA } = useWorldTheme();
+  const { sea: SEA } = WORLD_THEME;
   const uniforms = useMemo(
     () => ({
       uTime: { value: 0 },
@@ -174,14 +174,14 @@ function cloudPuffs(islands: { pos: XZ; dir: XZ }[], density: number): Puff[] {
       puffs.push({ x: cx + Math.cos(a) * r * 1.4, y: y + rng() * size * 0.35, z: cz + Math.sin(a) * r * 0.8, s: size * (0.55 + rng() * 0.6), phase });
     }
   };
-  // Horizon banks, beyond the islands.
+  // High horizon banks give the world a soft cloudline instead of leaving the sky empty.
   const banks = Math.round(30 * density);
   for (let i = 0; i < banks; i++) {
     const a = (i / banks) * Math.PI * 2 + rng() * 0.2;
     const r = WORLD_EXTENT + 4 + rng() * 14;
-    clump(Math.cos(a) * r, Math.sin(a) * r, 1.4 + rng() * 1.6, 6, -0.2);
+    clump(Math.cos(a) * r, Math.sin(a) * r, 1.4 + rng() * 1.6, 6, 5.5 + rng() * 2.2);
   }
-  // Small banks hugging the outer side of a few islands.
+  // A few lower, wispy banks add depth behind the islands without obscuring their landmarks.
   islands.forEach((isl, i) => {
     if (density < 0.8) return;
     if (rng() > 0.55 * density + 0.2) return;
@@ -189,8 +189,8 @@ function cloudPuffs(islands: { pos: XZ; dir: XZ }[], density: number): Puff[] {
     const side = (rng() - 0.5) * 2.2;
     const x = isl.pos[0] + isl.dir[0] * off - isl.dir[1] * side;
     const z = isl.pos[1] + isl.dir[1] * off + isl.dir[0] * side;
-    clump(x, z, 0.55 + rng() * 0.35, 4, -0.15);
-    if (i % 3 === 0) clump(x * 1.12, z * 1.12, 0.7, 4, -0.2);
+    clump(x, z, 0.55 + rng() * 0.35, 4, 3.8 + rng() * 1.2);
+    if (i % 3 === 0) clump(x * 1.12, z * 1.12, 0.7, 4, 4.2 + rng() * 1.4);
   });
   return puffs;
 }
@@ -199,7 +199,7 @@ export function Clouds({ islands, density, animate }: { islands: { pos: XZ; dir:
   const puffs = useMemo(() => cloudPuffs(islands, density), [islands, density]);
   const ref = useRef<InstancedMesh>(null);
   const geo = useMemo(() => new SphereGeometry(1, 20, 14), []);
-  const { cloud } = useWorldTheme();
+  const { cloud } = WORLD_THEME;
   const mat = useMemo(() => new MeshStandardMaterial({ color: cloud.color, roughness: 1, emissive: cloud.emissive, emissiveIntensity: cloud.glow }), [cloud]);
   useEffect(() => () => (geo.dispose(), mat.dispose()), [geo, mat]);
 
