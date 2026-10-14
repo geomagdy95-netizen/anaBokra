@@ -191,11 +191,18 @@ export interface AbilitiesResult {
   basis: Record<AbilityDomain, 'performance+self' | 'self' | 'performance'>;
 }
 
+/**
+ * Ability scores per domain. A measured score (performance items, or a game's standing among other
+ * players) is blended with the self-rating at `performanceWeight`; without one, the self-rating stands.
+ * `games` gives, per domain, the share of comparable players the user scored above (0–1), from the
+ * game norms (apps/web/src/features/games/score.ts); it is already norm-referenced, so it is used as is.
+ */
 export function scoreAbilities(
   instrument: AbilitiesInstrument,
   selfRatings: ItemResponse[],
   answers: { itemId: string; choice: number | null }[],
   norms?: Norms,
+  games: Partial<Record<AbilityDomain, number>> = {},
 ): AbilitiesResult | undefined {
   const { min, max } = instrument.selfRatingScale;
   const self = new Map(selfRatings.map((r) => [r.itemId, r.value]));
@@ -220,6 +227,8 @@ export function scoreAbilities(
       const n = norms?.scales[domain];
       perfScore = n && n.sd > 0 ? normalCdf((pct - n.mean) / n.sd) : pct;
     }
+    const game = games[domain];
+    if (game !== undefined && Number.isFinite(game)) perfScore = perfScore === undefined ? clamp01(game) : (perfScore + clamp01(game)) / 2;
 
     if (perfScore !== undefined && selfScore !== undefined) {
       const w = instrument.performanceWeight;

@@ -1,7 +1,7 @@
 'use client';
 
-import { Check } from 'lucide-react';
-import { useRef, useState, type ReactNode } from 'react';
+import { Check, Timer } from 'lucide-react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -11,6 +11,12 @@ import { useGT } from './use-gt';
 
 /** Milliseconds, for answer times (only ever read in event handlers). */
 const clock = () => performance.now();
+
+/** How the run ended: time used, and whether the clock ran out first. */
+export interface RunInfo {
+  timeMs: number;
+  timedOut: boolean;
+}
 
 export interface ChoiceItem {
   level: number;
@@ -29,6 +35,7 @@ export function ChoiceGame<I extends ChoiceItem>({
   prompt,
   option,
   columns = 4,
+  seconds,
   onDone,
 }: {
   game: string;
@@ -36,12 +43,35 @@ export function ChoiceGame<I extends ChoiceItem>({
   prompt: (item: I) => ReactNode;
   option: (o: I['options'][number]) => ReactNode;
   columns?: 2 | 4;
-  onDone: (answers: ChoiceAnswer[]) => void;
+  /** Time for all the items (the clock starts with the first real item, after the practice). */
+  seconds?: number;
+  onDone: (answers: ChoiceAnswer[], info: RunInfo) => void;
 }) {
   const gt = useGT();
   const [phase, setPhase] = useState<{ kind: 'intro' } | { kind: 'practice'; picked?: number } | { kind: 'item'; i: number }>({ kind: 'intro' });
   const answers = useRef<ChoiceAnswer[]>([]);
   const shownAt = useRef(0);
+  const startedAt = useRef(0);
+  const [left, setLeft] = useState(seconds ?? 0);
+  const running = phase.kind === 'item';
+  const done = useRef(onDone);
+  useEffect(() => {
+    done.current = onDone;
+  });
+
+  // The clock: ticks while the items are on screen; at zero the run ends with what was answered.
+  useEffect(() => {
+    if (!running || !seconds) return;
+    const h = window.setInterval(() => {
+      const remaining = Math.max(0, seconds - (clock() - startedAt.current) / 1000);
+      setLeft(Math.ceil(remaining));
+      if (remaining <= 0) {
+        window.clearInterval(h);
+        done.current(answers.current, { timeMs: seconds * 1000, timedOut: true });
+      }
+    }, 250);
+    return () => window.clearInterval(h);
+  }, [running, seconds]);
   const item = phase.kind === 'practice' ? run.practice : phase.kind === 'item' ? run.items[phase.i]! : null;
 
   const show = (next: typeof phase) => {
@@ -57,7 +87,7 @@ export function ChoiceGame<I extends ChoiceItem>({
     if (phase.kind !== 'item' || !item) return;
     answers.current.push({ level: item.level, correct: k === item.answer, ms: Math.round(clock() - shownAt.current) });
     if (phase.i + 1 < run.items.length) show({ kind: 'item', i: phase.i + 1 });
-    else onDone(answers.current);
+    else onDone(answers.current, { timeMs: Math.round(clock() - startedAt.current), timedOut: false });
   };
 
   if (phase.kind === 'intro' || !item)
@@ -76,8 +106,19 @@ export function ChoiceGame<I extends ChoiceItem>({
     <div className="flex flex-col gap-5" data-testid={`${game}-game`}>
       <div className="flex items-center justify-between gap-3 text-sm font-medium text-muted-foreground">
         <span>{phase.kind === 'practice' ? gt('common.practiceLabel') : gt('common.counter', { n: phase.kind === 'item' ? phase.i + 1 : 0, total: run.items.length })}</span>
-        <span className="text-end">{gt(`${game}.ask`)}</span>
+        {running && seconds ? (
+          <span
+            className={cn('flex items-center gap-1 rounded-full px-3 py-1 font-semibold tabular-nums', left <= 20 ? 'bg-brand-orange-soft/30 text-foreground' : 'bg-secondary')}
+            role="timer"
+            aria-label={gt('common.timeLeft', { s: left })}
+            data-testid={`${game}-timer`}
+          >
+            <Timer className="size-4" aria-hidden />
+            {Math.floor(left / 60)}:{String(left % 60).padStart(2, '0')}
+          </span>
+        ) : null}
       </div>
+      <p className="-mt-2 text-sm font-medium text-muted-foreground">{gt(`${game}.ask`)}</p>
       {prompt(item)}
       <div className={cn('grid gap-2', columns === 4 ? 'grid-cols-4' : 'grid-cols-2')} role="group" aria-label={gt('common.optionsLabel')}>
         {item.options.map((o, k) => {
@@ -108,7 +149,13 @@ export function ChoiceGame<I extends ChoiceItem>({
             {gt(phase.picked === item.answer ? 'common.right' : 'common.wrong')}
           </p>
           <p className="text-sm">{gt(`${game}.explain`)}</p>
-          <Button onClick={() => show({ kind: 'item', i: 0 })} data-testid={`${game}-start`}>
+          <Button
+            onClick={() => {
+              startedAt.current = clock();
+              show({ kind: 'item', i: 0 });
+            }}
+            data-testid={`${game}-start`}
+          >
             {gt('common.start', { n: run.items.length })}
           </Button>
         </div>

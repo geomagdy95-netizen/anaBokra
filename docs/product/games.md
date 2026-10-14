@@ -1,6 +1,6 @@
 # Games instead of some questions: prototypes
 
-Status: **prototypes**, 14–15 Oct 2026, for the psychologist. Try them on a phone at `/en/dev/games` or `/ar/dev/games` (dev builds only). Nothing is saved, and nothing feeds results yet.
+Status: **prototypes**, 14–15 Oct 2026, for the psychologist. Try them on a phone at `/en/dev/games` or `/ar/dev/games` (dev builds only). Nothing is saved, and nothing feeds results yet. A switch on the page previews the comparison with 1,000 sample players.
 
 ## Why
 
@@ -54,6 +54,14 @@ A first session asks about 140 answers. Games can't replace everything:
 | Measures | Span (longest path repeated), trials, right answers. |
 | Player sees | The longest path they remembered. |
 
+## Time, points and comparing with other players
+
+- **Time:** the three puzzle games have a clock for the whole game: pattern logic 3:00, quick numbers 2:30, turn the shape 2:00. It starts after the practice item. Puzzles left when time runs out count as not right. Remember the path has no clock (the path itself gets harder), and Gone fishing is about time already.
+- **Points:** a right answer earns as many points as its level (1 to 4; 20 at most). Remember the path scores the longest path repeated (0 to 9). Gone fishing has **no points and no ranking**: waiting longer isn't "better", so it shows how the player chose to play.
+- **Compared with other players:** the share of players who scored lower (ties count half), against players of the same age band when at least **100** of them have played, otherwise against everyone, otherwise not shown ("your place shows once 100 people have played"). Wording: "Top 10%", "Top 25%", "Top half", or "You scored higher than 62% of players". **Below a quarter there is no bare number**, only an encouraging line (the chart still shows where they are). Only a player's first play counts.
+- **Where the comparison comes from:** players who opted in to anonymous statistics send one record per game: game, version, points, age band (no identity, no exact time, like the other anonymous records). The server publishes only the counts of players per score (`/api/stats/norms`, table `anon_game_scores`, view `anon_game_norms`); the phone works out the place itself.
+- **In the assessment:** the place among other players (0 to 1) becomes the measured part of an ability: pattern logic → logical, quick numbers → numerical, turn the shape → spatial. The engine blends it with the self-rating at the instrument's performance weight (now 70% game, 30% self-rating), so the game counts more than the self-rating but doesn't replace it. Memory has no ability in the current model yet. Verbal, creative and manual stay self-rated. This switches on when the games join Discover and the comparison has 100 players.
+
 ## How we would check them (pilot)
 
 1. Players do the game **and** the existing questions (opt-in research data, as now).
@@ -64,7 +72,7 @@ A first session asks about 140 answers. Games can't replace everything:
 ## Questions for the psychologist
 
 1. Do these four ability games (reasoning, number sense, spatial, working memory) cover what matters for our 12 fields? A quick-sorting attention game is possible, but speed tasks depend on the phone, so we left it out.
-2. Is "no clock" right for pattern logic, or should we use a soft time limit per item?
+2. Are the time limits right (3:00, 2:30, 2:00 for 8 puzzles), and is a 70/30 blend of game and self-rating right?
 3. Patience: are six rounds enough? Should the delays or the rewards change?
-4. How should game results be worded for players (strengths only; never "impatient")?
+4. How should game results be worded? We show points, time, a "Top 10% / 25% / half" badge and a share above a quarter, and an encouraging line below it. Is showing a comparison to teenagers at all acceptable to you?
 5. Can the interest questions move to the validated short form (about 30 items instead of 60)? This ties to the O\*NET licence question.

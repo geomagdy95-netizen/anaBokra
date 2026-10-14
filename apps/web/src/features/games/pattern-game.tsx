@@ -3,7 +3,8 @@
 import { HelpCircle } from 'lucide-react';
 import { useMemo } from 'react';
 
-import { ChoiceGame } from './choice-game';
+import { ChoiceGame, type RunInfo } from './choice-game';
+import { TIME_LIMIT } from './score';
 import { patternRun, type ChoiceAnswer, type Figure } from './pattern';
 import { useGT } from './use-gt';
 
@@ -44,13 +45,14 @@ export function FigureView({ fig, className }: { fig: Figure; className?: string
 }
 
 /** Pattern logic, playable (see pattern.ts). */
-export function PatternGame({ seed, onDone }: { seed: number; onDone: (answers: ChoiceAnswer[]) => void }) {
+export function PatternGame({ seed, onDone }: { seed: number; onDone: (answers: ChoiceAnswer[], info: RunInfo) => void }) {
   const gt = useGT();
   const run = useMemo(() => patternRun(seed), [seed]);
   return (
     <ChoiceGame
       game="pattern"
       run={run}
+      seconds={TIME_LIMIT.pattern}
       onDone={onDone}
       prompt={(item) => (
         <div className="mx-auto grid w-full max-w-xs grid-cols-3 gap-2 rounded-3xl bg-secondary p-2" role="img" aria-label={gt('pattern.gridLabel')}>

@@ -130,6 +130,15 @@ describe('scoreAbilities', () => {
     expect(r.scores.numerical).toBeCloseTo(0.5);
     expect(r.basis.numerical).toBe('performance+self');
   });
+
+  it('uses a game standing among other players as the measured part', () => {
+    const w = abilitiesInstrument.performanceWeight;
+    // Rated themselves middling (0.5) but scored above 90% of players at the logic game.
+    const r = scoreAbilities(abilitiesInstrument, allSelf(3), [], undefined, { logical: 0.9 })!;
+    expect(r.scores.logical).toBeCloseTo(w * 0.9 + (1 - w) * 0.5);
+    expect(r.basis.logical).toBe('performance+self');
+    expect(r.basis.verbal).toBe('self');
+  });
 });
 
 describe('checkQuality', () => {

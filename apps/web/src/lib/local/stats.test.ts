@@ -173,6 +173,22 @@ describe('stats service', () => {
     ]);
   });
 
+  it('stores game scores and turns them into a score spread per game and age band', async () => {
+    const store = new MemoryStatsStore();
+    const svc = new StatsService(store, () => Date.UTC(2026, 9, 15, 9));
+    const sender = { v: 1 as const, stage: null, locale: 'ar' as const, eventCode: null };
+    await svc.submit({ ...sender, ageBand: '18-20', kind: 'game', game: 'pattern', gameVersion: 1, score: 12 }, 'ip');
+    await svc.submit({ ...sender, ageBand: '18-20', kind: 'game', game: 'pattern', gameVersion: 1, score: 12 }, 'ip');
+    await svc.submit({ ...sender, ageBand: '21-25', kind: 'game', game: 'pattern', gameVersion: 1, score: 3 }, 'ip');
+    const norms = await svc.norms();
+    expect(norms.pattern?.['18-20']).toEqual({ n: 2, counts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2] });
+    expect(norms.pattern?.all?.n).toBe(3);
+    expect(norms.pattern?.all?.counts[3]).toBe(1);
+    expect(statsUploadSchema.safeParse({ ...sender, ageBand: '18-20', kind: 'game', game: 'pattern', gameVersion: 1, score: 12, nickname: 'x' }).success).toBe(false);
+    expect(statsUploadSchema.safeParse({ ...sender, ageBand: '18-20', kind: 'game', game: 'patience', gameVersion: 1, score: 3 }).success).toBe(false);
+    expect(statsUploadSchema.safeParse({ ...sender, ageBand: '18-20', kind: 'game', game: 'pattern', gameVersion: 1, score: 21 }).success).toBe(false);
+  });
+
   it('computes ISO weeks across year boundaries', () => {
     expect(isoWeek(new Date(Date.UTC(2026, 0, 1)))).toBe('2026-W01');
     expect(isoWeek(new Date(Date.UTC(2027, 0, 1)))).toBe('2026-W53');

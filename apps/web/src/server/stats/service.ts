@@ -1,3 +1,4 @@
+import type { GameNorms } from '@/features/games/score';
 import { statsUploadSchema } from '@/lib/stats-summary';
 
 import { createRateLimiter, type RateLimiter } from '../rate-limit';
@@ -27,6 +28,15 @@ export class StatsService {
     perIpPerHour = 300,
   ) {
     this.limiter = createRateLimiter({ limit: perIpPerHour, windowMs: 60 * 60 * 1000, now: this.now });
+  }
+
+  /** The score spread per game, for comparisons; cached for an hour (it changes slowly). */
+  private normsCache: { at: number; norms: GameNorms } | null = null;
+  async norms(): Promise<GameNorms> {
+    if (this.normsCache && this.now() - this.normsCache.at < 60 * 60 * 1000) return this.normsCache.norms;
+    const norms = await this.store.gameNorms();
+    this.normsCache = { at: this.now(), norms };
+    return norms;
   }
 
   async submit(body: unknown, ip: string): Promise<void> {

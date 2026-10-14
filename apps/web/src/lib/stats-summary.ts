@@ -54,12 +54,25 @@ export const statsRatingSchema = z.strictObject({
   rating: z.number().int().min(1).max(5),
 });
 
+/**
+ * A game score, for the comparison with other players (docs/product/games.md): the game, its
+ * version (scores of different versions aren't compared) and the points. First play only.
+ */
+export const statsGameSchema = z.strictObject({
+  ...sender,
+  kind: z.literal('game'),
+  game: z.enum(['pattern', 'numbers', 'rotation', 'memory']),
+  gameVersion: z.literal(1),
+  score: z.number().int().min(0).max(20),
+});
+
 /** Anything the phone may send to /api/stats. */
-export const statsUploadSchema = z.union([statsSummarySchema, statsPathSchema, statsRatingSchema]);
+export const statsUploadSchema = z.union([statsSummarySchema, statsPathSchema, statsRatingSchema, statsGameSchema]);
 
 export type StatsSummary = z.infer<typeof statsSummarySchema>;
 export type StatsPath = z.infer<typeof statsPathSchema>;
 export type StatsRating = z.infer<typeof statsRatingSchema>;
+export type StatsGame = z.infer<typeof statsGameSchema>;
 export type StatsUpload = z.infer<typeof statsUploadSchema>;
 export type StatsSender = Pick<StatsSummary, 'v' | 'ageBand' | 'stage' | 'locale' | 'eventCode'>;
 export type StatsBand = z.infer<typeof band>;

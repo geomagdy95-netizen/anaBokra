@@ -4,6 +4,7 @@ import { memoryPath, memorySummary, nextLength } from './memory';
 import { numberItem } from './numbers';
 import { patienceSummary } from './patience';
 import { key, lopsided, mirror, rotationItem, turn } from './rotation';
+import { choicePoints, memoryPoints, normGroup, sampleNorms, standing, standingBand } from './score';
 import { FEATURES, PATTERN_LEVELS, patternItem, choiceSummary, patternRun, sameFigure } from './pattern';
 
 describe('pattern logic items', () => {
@@ -134,5 +135,39 @@ describe('remember the path', () => {
     expect(nextLength([{ length: 4, correct: false }, { length: 4, correct: false }])).toBeNull();
     expect(nextLength([{ length: 9, correct: true }])).toBeNull();
     expect(memorySummary([{ length: 3, correct: true }, { length: 4, correct: true }, { length: 5, correct: false }, { length: 5, correct: false }])).toEqual({ span: 4, trials: 4, correct: 2 });
+  });
+});
+
+describe('scores and standings', () => {
+  it('gives a right answer as many points as its level, and memory its span', () => {
+    expect(choicePoints([{ level: 1, correct: true, ms: 1 }, { level: 4, correct: true, ms: 1 }, { level: 3, correct: false, ms: 1 }])).toBe(5);
+    expect(memoryPoints([{ length: 3, correct: true }, { length: 4, correct: true }, { length: 5, correct: false }])).toBe(4);
+  });
+
+  it('places a score among players, counting ties as half', () => {
+    const hist = { n: 10, counts: [0, 2, 4, 4] };
+    expect(standing(1, hist)).toBeCloseTo(0.1);
+    expect(standing(2, hist)).toBeCloseTo(0.4);
+    expect(standing(3, hist)).toBeCloseTo(0.8);
+    expect(standing(20, hist)).toBeCloseTo(1);
+  });
+
+  it('only compares once enough players have played, preferring the same age band', () => {
+    const few = { n: 40, counts: [40] };
+    const many = { n: 500, counts: [500] };
+    expect(normGroup({ pattern: { '18-20': few, all: few } }, 'pattern', '18-20')).toBeNull();
+    expect(normGroup({ pattern: { '18-20': few, all: many } }, 'pattern', '18-20')?.scope).toBe('all');
+    expect(normGroup({ pattern: { '18-20': many, all: many } }, 'pattern', '18-20')?.scope).toBe('age');
+    expect(normGroup(null, 'pattern', null)).toBeNull();
+  });
+
+  it('names only the top bands', () => {
+    expect([0.95, 0.8, 0.6, 0.2].map(standingBand)).toEqual(['top10', 'top25', 'top50', 'onTheWay']);
+  });
+
+  it('makes sample players for previews', () => {
+    const s = sampleNorms();
+    expect(s.pattern?.all?.n).toBe(1000);
+    expect(s.pattern?.all?.counts.reduce((a, b) => a + b, 0)).toBe(1000);
   });
 });

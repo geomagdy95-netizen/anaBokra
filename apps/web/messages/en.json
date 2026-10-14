@@ -2596,7 +2596,8 @@
       "wrong": "Not quite. The one in green is right.",
       "start": "Start the {n} puzzles",
       "optionsLabel": "Options",
-      "option": "Option {n}"
+      "option": "Option {n}",
+      "timeLeft": "{s} seconds left"
     },
     "numbers": {
       "title": "Quick numbers",
@@ -2626,6 +2627,28 @@
       "miss": "Missed that one",
       "tile": "Tile {n}",
       "done": "{span, select, 0 {Done! Memory games take practice, and this is only one kind of strength.} other {You remembered paths of up to {span} tiles. Nice!}}"
+    },
+    "result": {
+      "points": "{points} of {max} points",
+      "time": "{used} of {limit}",
+      "timeUp": "Time was up before the last puzzles",
+      "byLevel": "Right answers by level",
+      "level": "Level {n}",
+      "othersTitle": "Compared with other players",
+      "betterThan": "You scored higher than {pct} of players.",
+      "betterThanAge": "You scored higher than {pct} of players your age.",
+      "band": {
+        "top10": "Top 10%",
+        "top25": "Top 25%",
+        "top50": "Top half"
+      },
+      "basedOn": "Based on {n} players.",
+      "onTheWay": "Strengths differ from game to game: try the others too.",
+      "notYet": "Your place among other players shows once {min} people have played this game.",
+      "patienceWaited": "You waited for the big fish in {waited} of {rounds} rounds.",
+      "patienceNoRank": "There's no better or worse here: this game shows how you like to play, so there's no ranking.",
+      "details": "Details for the psychologist",
+      "startingOut": "You're just getting started with this kind of puzzle; it gets easier with practice."
     }
   },
   "DevGames": {
@@ -2633,13 +2656,13 @@
     "intro": "Five short games to try on a phone. Nothing is saved; under each result you can see what the game measured.",
     "play": "Play",
     "close": "Close",
-    "measured": "What the game measured (for the psychologist)",
     "measures": {
       "pattern": "Reasoning: 8 puzzles from easy to hard, about 2–3 minutes",
       "patience": "Patience: 6 rounds, about 1 minute",
       "numbers": "Number sense: 8 puzzles from easy to hard, about 2–3 minutes",
       "rotation": "Spatial thinking: 8 shapes from easy to hard, about 2 minutes",
       "memory": "Working memory: paths that grow from 3 tiles, about 2 minutes"
-    }
+    },
+    "preview": "Preview the comparison with 1,000 sample players (no real players yet)"
   }
 }

@@ -2,18 +2,17 @@
 
 import { Brain, Calculator, Fish, Grid3x3, Shapes, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { LocaleSwitcher } from '@/components/locale-switcher';
 import { Button } from '@/components/ui/button';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
 
 import { MemoryGame, NumbersGame, RotationGame } from './ability-games';
-import { memorySummary, type MemoryTrial } from './memory';
-import { patienceSummary, type PatienceRound } from './patience';
+import { GameResult, type GameResultData } from './game-result';
 import { PatienceGame } from './patience-game';
-import { choiceSummary, type ChoiceAnswer } from './pattern';
 import { PatternGame } from './pattern-game';
+import { sampleNorms, type GameNorms } from './score';
 import { useGT } from './use-gt';
 
 /**
@@ -28,9 +27,7 @@ export function DevGamesClient() {
   );
 }
 
-type ChoiceId = 'pattern' | 'numbers' | 'rotation';
-type GameId = ChoiceId | 'memory' | 'patience';
-type Result = { game: ChoiceId; answers: ChoiceAnswer[] } | { game: 'memory'; trials: MemoryTrial[] } | { game: 'patience'; rounds: PatienceRound[] };
+type GameId = 'pattern' | 'numbers' | 'rotation' | 'memory' | 'patience';
 
 const GAMES: [GameId, typeof Brain][] = [
   ['pattern', Brain],
@@ -40,14 +37,33 @@ const GAMES: [GameId, typeof Brain][] = [
   ['patience', Fish],
 ];
 
+/** The score spread from the server (anonymous opt-in scores), or null when it can't be fetched. */
+function useServerNorms(): GameNorms | null {
+  const [norms, setNorms] = useState<GameNorms | null>(null);
+  useEffect(() => {
+    let alive = true;
+    fetch('/api/stats/norms')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j: { norms?: GameNorms } | null) => alive && setNorms(j?.norms ?? null))
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+  return norms;
+}
+
 function Inner() {
   const t = useTranslations('DevGames');
   const gt = useGT();
   const [playing, setPlaying] = useState<GameId | null>(null);
-  const [result, setResult] = useState<Result | null>(null);
+  const [result, setResult] = useState<GameResultData | null>(null);
+  const [preview, setPreview] = useState(true);
+  const serverNorms = useServerNorms();
+  const norms = preview ? sampleNorms() : serverNorms;
   // New items on each play, so the team can try many.
   const [seed, setSeed] = useState(1);
-  const finish = (r: Result) => {
+  const finish = (r: GameResultData) => {
     setResult(r);
     setPlaying(null);
   };
@@ -62,9 +78,9 @@ function Inner() {
           </Button>
         </header>
         <span aria-hidden="true" className="-mt-3 block h-1 w-10 rounded-full bg-brand-orange" />
-        {playing === 'pattern' && <PatternGame seed={seed} onDone={(answers) => finish({ game: 'pattern', answers })} />}
-        {playing === 'numbers' && <NumbersGame seed={seed} onDone={(answers) => finish({ game: 'numbers', answers })} />}
-        {playing === 'rotation' && <RotationGame seed={seed} onDone={(answers) => finish({ game: 'rotation', answers })} />}
+        {playing === 'pattern' && <PatternGame seed={seed} onDone={(answers, info) => finish({ game: 'pattern', answers, info })} />}
+        {playing === 'numbers' && <NumbersGame seed={seed} onDone={(answers, info) => finish({ game: 'numbers', answers, info })} />}
+        {playing === 'rotation' && <RotationGame seed={seed} onDone={(answers, info) => finish({ game: 'rotation', answers, info })} />}
         {playing === 'memory' && <MemoryGame seed={seed} onDone={(trials) => finish({ game: 'memory', trials })} />}
         {playing === 'patience' && <PatienceGame onDone={(rounds) => finish({ game: 'patience', rounds })} />}
       </main>
@@ -77,8 +93,12 @@ function Inner() {
         <LocaleSwitcher />
       </header>
       <p className="text-sm text-muted-foreground">{t('intro')}</p>
+      <label className="flex items-center gap-3 rounded-2xl bg-secondary p-3 text-sm">
+        <input type="checkbox" className="size-5 accent-[var(--primary)]" checked={preview} onChange={(e) => setPreview(e.target.checked)} data-testid="preview-norms" />
+        {t('preview')}
+      </label>
 
-      {result && <ResultCard result={result} />}
+      {result && <GameResult result={result} norms={norms} ageBand={null} />}
 
       <ul className="flex flex-col gap-3">
         {GAMES.map(([id, Icon]) => (
@@ -104,35 +124,5 @@ function Inner() {
         ))}
       </ul>
     </main>
-  );
-}
-
-/** What the player sees at the end (kind words, no score), and below it what the game measured. */
-function ResultCard({ result }: { result: Result }) {
-  const t = useTranslations('DevGames');
-  const gt = useGT();
-  const { summary, message, raw } =
-    result.game === 'memory'
-      ? (() => {
-          const s = memorySummary(result.trials);
-          return { summary: s, message: gt('memory.done', { span: s.span }), raw: result.trials };
-        })()
-      : result.game === 'patience'
-        ? (() => {
-            const s = patienceSummary(result.rounds);
-            return { summary: s, message: gt('patience.done', { fish: s.fish }), raw: result.rounds };
-          })()
-        : (() => {
-            const s = choiceSummary(result.answers);
-            return { summary: s, message: gt(`${result.game}.done`, { hardest: s.hardestSolved }), raw: result.answers };
-          })();
-  return (
-    <section className="flex flex-col gap-3 rounded-3xl bg-brand-orange-soft/15 p-4" data-testid="game-result">
-      <p className="font-semibold">{message}</p>
-      <h2 className="text-xs font-semibold text-muted-foreground">{t('measured')}</h2>
-      <pre className="overflow-x-auto rounded-xl bg-card p-3 text-xs" dir="ltr">
-        {JSON.stringify({ summary, raw }, null, 1)}
-      </pre>
-    </section>
   );
 }

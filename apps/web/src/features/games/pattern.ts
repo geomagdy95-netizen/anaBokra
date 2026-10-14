@@ -107,14 +107,16 @@ export interface ChoiceAnswer {
  * What a choice game run shows: how many were right overall and by level, the hardest level solved,
  * and time per item. For the pilot these are research measures only, never a mark shown as a number.
  */
-export function choiceSummary(answers: ChoiceAnswer[]) {
+/** `total` is how many items the run had (items left when time ran out count as not right). */
+export function choiceSummary(answers: ChoiceAnswer[], total = answers.length) {
   const right = answers.filter((a) => a.correct);
   const byLevel = Object.fromEntries([1, 2, 3, 4].map((l) => [l, answers.filter((a) => a.level === l && a.correct).length]));
   const times = answers.map((a) => a.ms).sort((a, b) => a - b);
   const median = times.length ? times[Math.floor(times.length / 2)]! : 0;
   return {
     correct: right.length,
-    total: answers.length,
+    total,
+    answered: answers.length,
     byLevel,
     hardestSolved: right.reduce((m, a) => Math.max(m, a.level), 0),
     medianMs: median,

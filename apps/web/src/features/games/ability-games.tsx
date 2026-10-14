@@ -5,23 +5,25 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
-import { ChoiceGame } from './choice-game';
+import { ChoiceGame, type RunInfo } from './choice-game';
 import { BOARD, memoryPath, nextLength, type MemoryTrial } from './memory';
 import { numberRun } from './numbers';
 import type { ChoiceAnswer } from './pattern';
 import { rotationRun, type Shape } from './rotation';
+import { TIME_LIMIT } from './score';
 import { useGT } from './use-gt';
 
 // --- Quick numbers --------------------------------------------------------------
 
 /** Quick numbers, playable (see numbers.ts). Maths reads left to right in both languages. */
-export function NumbersGame({ seed, onDone }: { seed: number; onDone: (answers: ChoiceAnswer[]) => void }) {
+export function NumbersGame({ seed, onDone }: { seed: number; onDone: (answers: ChoiceAnswer[], info: RunInfo) => void }) {
   const run = useMemo(() => numberRun(seed), [seed]);
   return (
     <ChoiceGame
       game="numbers"
       run={run}
       columns={2}
+      seconds={TIME_LIMIT.numbers}
       onDone={onDone}
       prompt={(item) => (
         <div dir="ltr" className="flex flex-wrap items-center justify-center gap-1.5 rounded-3xl bg-secondary px-3 py-5" data-testid="numbers-prompt">
@@ -66,13 +68,14 @@ export function ShapeView({ shape, className, color = '#7025B5' }: { shape: Shap
 }
 
 /** Turn the shape, playable (see rotation.ts). */
-export function RotationGame({ seed, onDone }: { seed: number; onDone: (answers: ChoiceAnswer[]) => void }) {
+export function RotationGame({ seed, onDone }: { seed: number; onDone: (answers: ChoiceAnswer[], info: RunInfo) => void }) {
   const gt = useGT();
   const run = useMemo(() => rotationRun(seed), [seed]);
   return (
     <ChoiceGame
       game="rotation"
       run={run}
+      seconds={TIME_LIMIT.rotation}
       onDone={onDone}
       prompt={(item) => (
         <div className="mx-auto grid size-40 place-items-center rounded-3xl bg-secondary p-3" role="img" aria-label={gt('rotation.targetLabel')}>
