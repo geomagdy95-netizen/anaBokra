@@ -1,16 +1,16 @@
 'use client';
 
-import { Clock, Trophy, Users } from 'lucide-react';
+import { Brain, Calculator, Clock, Fish, Grid3x3, Shapes, Users, type LucideIcon } from 'lucide-react';
 import { useLocale } from 'next-intl';
 
 import { cn } from '@/lib/utils';
 
 import type { RunInfo } from './choice-game';
 import type { MemoryTrial } from './memory';
-import type { PatienceRound } from './patience';
-import { patienceSummary } from './patience';
+import { MAX as MEMORY_MAX } from './memory';
+import { patienceSummary, type PatienceRound } from './patience';
 import { choiceSummary, type ChoiceAnswer } from './pattern';
-import { choicePoints, MAX_POINTS, memoryPoints, normGroup, standing, standingBand, TIME_LIMIT, type AgeBand, type GameNorms, type RankedGame } from './score';
+import { choicePoints, GAME_ABILITY, memoryPoints, normGroup, standing, standingBand, TIME_LIMIT, type AgeBand, type GameNorms, type RankedGame } from './score';
 import { useGT } from './use-gt';
 
 export type GameResultData =
@@ -18,12 +18,30 @@ export type GameResultData =
   | { game: 'memory'; trials: MemoryTrial[] }
   | { game: 'patience'; rounds: PatienceRound[] };
 
+export const GAME_ICON: Record<GameResultData['game'], LucideIcon> = { pattern: Brain, numbers: Calculator, rotation: Shapes, memory: Grid3x3, patience: Fish };
+
 const mmss = (ms: number) => {
   const s = Math.round(ms / 1000);
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 };
 
-/** A ring that fills with the share of points earned. */
+/** Points used for the comparison (harder puzzles count more), and the plain count shown to the player. */
+function scoreOf(result: Exclude<GameResultData, { game: 'patience' }>) {
+  if (result.game === 'memory') {
+    const span = memoryPoints(result.trials);
+    return { points: span, shown: span, of: MEMORY_MAX };
+  }
+  return { points: choicePoints(result.answers), shown: result.answers.filter((a) => a.correct).length, of: 8 };
+}
+
+/** Where the player stands among others, or null until enough have played. */
+export function placeOf(result: GameResultData, norms: GameNorms | null, ageBand: AgeBand | null) {
+  if (result.game === 'patience') return null;
+  const group = normGroup(norms, result.game, ageBand);
+  return group ? { p: standing(scoreOf(result).points, group.hist), n: group.hist.n, scope: group.scope } : null;
+}
+
+/** A ring filled with the share right. */
 function Ring({ value, max }: { value: number; max: number }) {
   const r = 34;
   const c = 2 * Math.PI * r;
@@ -41,22 +59,32 @@ function Ring({ value, max }: { value: number; max: number }) {
   );
 }
 
-/** How everyone scored, with the player's own score picked out. */
-function Spread({ counts, score }: { counts: number[]; score: number }) {
-  const top = Math.max(1, ...counts);
+/** A scale from lower to higher scores among other players, with the player's marker. */
+export function PlaceScale({ p, compact = false }: { p: number; compact?: boolean }) {
+  const gt = useGT();
   return (
-    <div className="flex h-16 items-end gap-0.5" dir="ltr" aria-hidden>
-      {counts.map((n, s) => (
-        <div key={s} className={cn('flex-1 rounded-t', s === score ? 'bg-primary' : 'bg-primary/20')} style={{ height: `${Math.max(4, (n / top) * 100)}%` }} />
-      ))}
+    <div className={cn('flex flex-col', compact ? 'gap-0.5' : 'gap-1')}>
+      <div className={cn('relative rounded-full bg-gradient-to-r from-primary/10 via-primary/25 to-primary/60 rtl:bg-gradient-to-l', compact ? 'h-2' : 'h-3')}>
+        <span className="absolute top-1/2 -translate-y-1/2" style={{ insetInlineStart: `calc(${p * 100}% - ${compact ? 7 : 10}px)` }}>
+          <span className={cn('block rounded-full border-2 border-white bg-primary shadow', compact ? 'size-3.5' : 'size-5')} />
+        </span>
+      </div>
+      {!compact && (
+        <div className="flex justify-between text-[11px] text-muted-foreground">
+          <span>{gt('result.lower')}</span>
+          <span>{gt('result.higher')}</span>
+        </div>
+      )}
     </div>
   );
 }
 
+const LEVEL_KEYS = ['easy', 'medium', 'hard', 'hardest'] as const;
+
 /**
- * What a player sees after a game: points and time, how they did by level, and how that compares
- * with other players (once enough have played). Patience has no points or rank: it shows how they
- * played. The raw measures stay folded away, for the psychologist.
+ * What a player sees after a game, in plain words: how many right (and time), how they did on easy
+ * to hardest puzzles, and where that puts them among other players (once enough have played).
+ * Patience has no score or place: it shows how they chose to play. Raw measures fold away.
  */
 export function GameResult({ result, norms, ageBand }: { result: GameResultData; norms: GameNorms | null; ageBand: AgeBand | null }) {
   const gt = useGT();
@@ -68,8 +96,9 @@ export function GameResult({ result, norms, ageBand }: { result: GameResultData;
     const s = patienceSummary(result.rounds);
     return (
       <section className="flex flex-col gap-4 rounded-3xl bg-card p-5 shadow-sm ring-1 ring-border/70" data-testid="game-result">
-        <p className="text-lg font-bold">{gt('patience.done', { fish: s.fish })}</p>
-        <p className="text-sm">{gt('result.patienceWaited', { waited: s.waitedToTheEnd, rounds: s.rounds })}</p>
+        <p className="text-xs font-semibold text-muted-foreground">{gt('patience.title')}</p>
+        <p className="text-lg font-bold">{gt('result.patienceWaited', { waited: s.waitedToTheEnd, rounds: s.rounds })}</p>
+        <p className="text-sm">{gt('patience.done', { fish: s.fish })}</p>
         <p className="rounded-2xl bg-secondary p-3 text-sm text-muted-foreground">{gt('result.patienceNoRank')}</p>
         <Raw data={{ summary: s, raw: result.rounds }} />
       </section>
@@ -77,20 +106,19 @@ export function GameResult({ result, norms, ageBand }: { result: GameResultData;
   }
 
   const game: RankedGame = result.game;
-  const points = result.game === 'memory' ? memoryPoints(result.trials) : choicePoints(result.answers);
-  const max = MAX_POINTS[game];
-  const group = normGroup(norms, game, ageBand);
-  const p = group ? standing(points, group.hist) : null;
+  const { points, shown, of } = scoreOf(result);
+  const place = placeOf(result, norms, ageBand);
   const choice = result.game === 'memory' ? null : choiceSummary(result.answers, 8);
   const limit = TIME_LIMIT[game];
+  const band = place ? standingBand(place.p) : null;
 
   return (
     <section className="flex flex-col gap-5 rounded-3xl bg-card p-5 shadow-sm ring-1 ring-border/70" data-testid="game-result">
       <div className="flex items-center gap-4">
-        <Ring value={points} max={max} />
+        <Ring value={shown} max={of} />
         <div className="min-w-0">
           <p className="text-xs font-semibold text-muted-foreground">{gt(`${game}.title`)}</p>
-          <p className="text-lg font-bold leading-snug">{gt('result.points', { points, max })}</p>
+          <p className="text-lg font-bold leading-snug">{result.game === 'memory' ? gt('result.longestPath', { n: shown }) : gt('result.right', { n: shown, of })}</p>
           {result.game !== 'memory' && limit ? (
             <p className="mt-1 flex items-center gap-1 text-sm text-muted-foreground tabular-nums">
               <Clock className="size-4" aria-hidden />
@@ -100,17 +128,22 @@ export function GameResult({ result, norms, ageBand }: { result: GameResultData;
         </div>
       </div>
 
-      {choice ? (
+      {choice && (
         <ul className="grid grid-cols-4 gap-2" aria-label={gt('result.byLevel')}>
-          {[1, 2, 3, 4].map((l) => (
-            <li key={l} className="rounded-2xl bg-secondary p-2 text-center">
-              <span className="block text-[11px] text-muted-foreground">{gt('result.level', { n: l })}</span>
-              <span className="text-base font-bold tabular-nums">{choice.byLevel[l] ?? 0}/2</span>
-            </li>
-          ))}
+          {LEVEL_KEYS.map((k, i) => {
+            const right = choice.byLevel[i + 1] ?? 0;
+            return (
+              <li key={k} className="flex flex-col items-center gap-1.5 rounded-2xl bg-secondary px-1 py-2" aria-label={gt('result.levelRight', { level: gt(`result.levels.${k}`), n: right })}>
+                <span className="text-[11px] text-muted-foreground">{gt(`result.levels.${k}`)}</span>
+                <span className="flex gap-1" aria-hidden>
+                  {[0, 1].map((d) => (
+                    <span key={d} className={cn('size-3 rounded-full', d < right ? 'bg-primary' : 'border-2 border-primary/30')} />
+                  ))}
+                </span>
+              </li>
+            );
+          })}
         </ul>
-      ) : (
-        <p className="rounded-2xl bg-secondary p-3 text-sm">{gt('memory.done', { span: points })}</p>
       )}
 
       <div className="flex flex-col gap-3 rounded-2xl bg-brand-orange-soft/15 p-4" data-testid="game-standing">
@@ -118,22 +151,13 @@ export function GameResult({ result, norms, ageBand }: { result: GameResultData;
           <Users className="size-4 text-primary" aria-hidden />
           {gt('result.othersTitle')}
         </p>
-        {group && p !== null ? (
+        {place && band ? (
           <>
-            <div className="flex items-center gap-3">
-              {standingBand(p) !== 'onTheWay' && (
-                <span className="flex items-center gap-1 rounded-full bg-primary px-3 py-1 text-sm font-bold text-primary-foreground">
-                  <Trophy className="size-4" aria-hidden />
-                  {gt(`result.band.${standingBand(p)}`)}
-                </span>
-              )}
-              {/* Below a quarter, no bare number: an encouraging line instead (the chart still shows where they are). */}
-              <p className="text-sm font-medium">{p < 0.25 ? gt('result.startingOut') : gt(group.scope === 'age' ? 'result.betterThanAge' : 'result.betterThan', { pct: pct.format(p) })}</p>
-            </div>
-            <Spread counts={group.hist.counts} score={points} />
+            <p className="text-base font-bold">{gt(`result.band.${band}`, { pct: pct.format(place.p) })}</p>
+            <PlaceScale p={place.p} />
             <p className="text-xs text-muted-foreground">
-              {gt('result.basedOn', { n: num.format(group.hist.n) })}
-              {standingBand(p) === 'onTheWay' ? ` ${gt('result.onTheWay')}` : ''}
+              {gt(place.scope === 'age' ? 'result.basedOnAge' : 'result.basedOn', { n: num.format(place.n) })}
+              {band === 'below' || band === 'middle' ? ` ${gt('result.oneView')}` : ''}
             </p>
           </>
         ) : (
@@ -142,6 +166,57 @@ export function GameResult({ result, norms, ageBand }: { result: GameResultData;
       </div>
 
       <Raw data={{ points, summary: choice ?? { span: points }, info: result.game === 'memory' ? null : result.info, raw: result.game === 'memory' ? result.trials : result.answers }} />
+    </section>
+  );
+}
+
+/**
+ * All the games together, as a player would see them on their island: one row per strength with
+ * its place among other players, and how the games count in the results.
+ */
+export function GamesSummary({ results, norms, ageBand }: { results: Partial<Record<GameResultData['game'], GameResultData>>; norms: GameNorms | null; ageBand: AgeBand | null }) {
+  const gt = useGT();
+  const order: GameResultData['game'][] = ['pattern', 'numbers', 'rotation', 'memory', 'patience'];
+  return (
+    <section className="flex flex-col gap-3 rounded-3xl bg-card p-5 shadow-sm ring-1 ring-border/70" data-testid="games-summary">
+      <h2 className="text-lg font-bold">{gt('summary.title')}</h2>
+      <ul className="flex flex-col gap-3">
+        {order.map((game) => {
+          const r = results[game];
+          const Icon = GAME_ICON[game];
+          const place = r ? placeOf(r, norms, ageBand) : null;
+          const counts = game !== 'patience' && Boolean(GAME_ABILITY[game]);
+          return (
+            <li key={game} className="flex items-center gap-3">
+              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-secondary text-primary">
+                <Icon className="size-5" aria-hidden />
+              </span>
+              <div className="min-w-0 flex-1">
+                <p className="text-sm font-semibold">
+                  {gt(`summary.strength.${game}`)}
+                  <span className="font-normal text-muted-foreground"> · {gt(`${game}.title`)}</span>
+                </p>
+                {!r ? (
+                  <p className="text-xs text-muted-foreground">{gt('summary.notPlayed')}</p>
+                ) : r.game === 'patience' ? (
+                  <p className="text-xs">{gt('summary.patience', { waited: patienceSummary(r.rounds).waitedToTheEnd, rounds: r.rounds.length })}</p>
+                ) : place ? (
+                  <div className="mt-1 flex items-center gap-2">
+                    <div className="flex-1">
+                      <PlaceScale p={place.p} compact />
+                    </div>
+                    <span className="shrink-0 text-xs font-medium">{gt(`summary.band.${standingBand(place.p)}`)}</span>
+                  </div>
+                ) : (
+                  <p className="text-xs text-muted-foreground">{gt('summary.noPlace')}</p>
+                )}
+                {r && !counts && game !== 'patience' && <p className="text-[11px] text-muted-foreground">{gt('summary.extra')}</p>}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+      <p className="rounded-2xl bg-secondary p-3 text-xs text-muted-foreground">{gt('summary.howItCounts')}</p>
     </section>
   );
 }

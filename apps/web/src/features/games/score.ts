@@ -57,9 +57,11 @@ export function standing(score: number, hist: ScoreHistogram): number {
   return Math.min(1, Math.max(0, (below + same / 2) / hist.n));
 }
 
-/** How a standing is put into words: never "bottom"; the top bands are named, the rest is a share. */
-export function standingBand(p: number): 'top10' | 'top25' | 'top50' | 'onTheWay' {
-  return p >= 0.9 ? 'top10' : p >= 0.75 ? 'top25' : p >= 0.5 ? 'top50' : 'onTheWay';
+export type StandingBand = 'top10' | 'top25' | 'aboveMiddle' | 'middle' | 'below';
+
+/** How a standing is put into words: honest and plain, never "bottom" or "last". */
+export function standingBand(p: number): StandingBand {
+  return p >= 0.9 ? 'top10' : p >= 0.75 ? 'top25' : p >= 0.5 ? 'aboveMiddle' : p >= 0.25 ? 'middle' : 'below';
 }
 
 /**

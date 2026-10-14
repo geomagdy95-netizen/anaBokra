@@ -2629,26 +2629,57 @@
       "done": "{span, select, 0 {Done! Memory games take practice, and this is only one kind of strength.} other {You remembered paths of up to {span} tiles. Nice!}}"
     },
     "result": {
-      "points": "{points} of {max} points",
-      "time": "{used} of {limit}",
-      "timeUp": "Time was up before the last puzzles",
-      "byLevel": "Right answers by level",
-      "level": "Level {n}",
-      "othersTitle": "Compared with other players",
-      "betterThan": "You scored higher than {pct} of players.",
-      "betterThanAge": "You scored higher than {pct} of players your age.",
-      "band": {
-        "top10": "Top 10%",
-        "top25": "Top 25%",
-        "top50": "Top half"
+      "right": "{n} of {of} right",
+      "longestPath": "Longest path: {n} tiles",
+      "time": "Took {used} of {limit}",
+      "timeUp": "Time ran out before the last puzzles",
+      "byLevel": "Right answers from easy to hardest",
+      "levels": {
+        "easy": "Easy",
+        "medium": "Medium",
+        "hard": "Hard",
+        "hardest": "Hardest"
       },
-      "basedOn": "Based on {n} players.",
-      "onTheWay": "Strengths differ from game to game: try the others too.",
+      "levelRight": "{level}: {n} of 2 right",
+      "othersTitle": "Compared with other players",
+      "lower": "Lower scores",
+      "higher": "Higher scores",
+      "band": {
+        "top10": "Among the top 10% of players",
+        "top25": "In the top 25% of players",
+        "aboveMiddle": "Above the middle: higher than {pct} of players",
+        "middle": "Around the middle of players",
+        "below": "Below most players this time"
+      },
+      "basedOn": "Compared with {n} players.",
+      "basedOnAge": "Compared with {n} players your age.",
+      "oneView": "One game is only one view of a strength.",
       "notYet": "Your place among other players shows once {min} people have played this game.",
       "patienceWaited": "You waited for the big fish in {waited} of {rounds} rounds.",
       "patienceNoRank": "There's no better or worse here: this game shows how you like to play, so there's no ranking.",
-      "details": "Details for the psychologist",
-      "startingOut": "You're just getting started with this kind of puzzle; it gets easier with practice."
+      "details": "Details for the psychologist"
+    },
+    "summary": {
+      "title": "Your strengths from the games",
+      "strength": {
+        "pattern": "Logic",
+        "numbers": "Numbers",
+        "rotation": "Spatial thinking",
+        "memory": "Memory",
+        "patience": "Patience"
+      },
+      "band": {
+        "top10": "Top 10%",
+        "top25": "Top 25%",
+        "aboveMiddle": "Above middle",
+        "middle": "Middle",
+        "below": "Below most"
+      },
+      "notPlayed": "Not played yet",
+      "noPlace": "Place shows once 100 people have played",
+      "patience": "Waited for the big fish {waited} of {rounds} times",
+      "extra": "Shown for you; not part of your results yet",
+      "howItCounts": "In your results, logic, numbers and spatial thinking count 70% from these games and 30% from how you rated yourself. Memory and patience are shown for you but don’t change your suggestions."
     }
   },
   "DevGames": {

@@ -161,8 +161,8 @@ describe('scores and standings', () => {
     expect(normGroup(null, 'pattern', null)).toBeNull();
   });
 
-  it('names only the top bands', () => {
-    expect([0.95, 0.8, 0.6, 0.2].map(standingBand)).toEqual(['top10', 'top25', 'top50', 'onTheWay']);
+  it('puts a place into five plain bands', () => {
+    expect([0.95, 0.8, 0.6, 0.3, 0.1].map(standingBand)).toEqual(['top10', 'top25', 'aboveMiddle', 'middle', 'below']);
   });
 
   it('makes sample players for previews', () => {

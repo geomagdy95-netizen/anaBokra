@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { AssessmentProvider } from '@/features/assessment/ui-context';
 
 import { MemoryGame, NumbersGame, RotationGame } from './ability-games';
-import { GameResult, type GameResultData } from './game-result';
+import { GameResult, GamesSummary, type GameResultData } from './game-result';
 import { PatienceGame } from './patience-game';
 import { PatternGame } from './pattern-game';
 import { sampleNorms, type GameNorms } from './score';
@@ -58,6 +58,8 @@ function Inner() {
   const gt = useGT();
   const [playing, setPlaying] = useState<GameId | null>(null);
   const [result, setResult] = useState<GameResultData | null>(null);
+  // The latest result of each game, for the summary of all games.
+  const [all, setAll] = useState<Partial<Record<GameId, GameResultData>>>({});
   const [preview, setPreview] = useState(true);
   const serverNorms = useServerNorms();
   const norms = preview ? sampleNorms() : serverNorms;
@@ -65,6 +67,7 @@ function Inner() {
   const [seed, setSeed] = useState(1);
   const finish = (r: GameResultData) => {
     setResult(r);
+    setAll((a) => ({ ...a, [r.game]: r }));
     setPlaying(null);
   };
 
@@ -99,6 +102,7 @@ function Inner() {
       </label>
 
       {result && <GameResult result={result} norms={norms} ageBand={null} />}
+      {Object.keys(all).length > 0 && <GamesSummary results={all} norms={norms} ageBand={null} />}
 
       <ul className="flex flex-col gap-3">
         {GAMES.map(([id, Icon]) => (
