@@ -2538,5 +2538,53 @@
     "iosKeep": "On iPhone, this also stops Safari from clearing your answers if you don't open the app for a while.",
     "shareButton": "Share",
     "dismiss": "Not now"
+  },
+  "Games": {
+    "pattern": {
+      "title": "Pattern logic",
+      "how": "Each row of shapes follows a rule. Work out the rule and pick the shape that fits the empty square.",
+      "calm": "Take your time: there's no clock. It starts easy and gets harder.",
+      "practice": "Try a practice one",
+      "practiceLabel": "Practice",
+      "counter": "{n} of {total}",
+      "ask": "Which one completes the grid?",
+      "gridLabel": "A grid of shapes with the last square missing",
+      "optionsLabel": "Options",
+      "option": "Option {n}",
+      "right": "Right!",
+      "wrong": "Not quite. The one in green fits.",
+      "explain": "Look across each row: something changes the same way every time. Check everything: how many, which shape, the colour and the fill.",
+      "start": "Start the 8 puzzles",
+      "done": "{hardest, select, 0 {Done! These were tricky. Patterns are only one kind of strength.} other {Done! You solved patterns up to level {hardest} of 4.}}"
+    },
+    "patience": {
+      "title": "Gone fishing",
+      "how": "Each round a small fish bites right away, or a big one comes if you wait a few seconds. Take whichever you like.",
+      "noWrong": "There's no right or wrong way to play.",
+      "start": "Start fishing",
+      "round": "Round {n} of {total}",
+      "basket": "{n} fish in your basket",
+      "offer": "A small fish is biting. A big one comes in {s, plural, one {# second} other {# seconds}}.",
+      "now": "Take the small fish now",
+      "wait": "Wait {s, plural, one {# second} other {# seconds}} for the big one",
+      "left": "{s, plural, one {# second} other {# seconds}} left",
+      "stop": "Take the small one instead",
+      "gotBig": "A big one! 3 fish.",
+      "gotSmall": "A small one: 1 fish.",
+      "next": "Next round",
+      "finish": "See my catch",
+      "done": "You caught {fish, plural, one {# fish} other {# fish}}. Thanks for playing!"
+    }
+  },
+  "DevGames": {
+    "title": "Game prototypes",
+    "intro": "Two short games to try on a phone. Nothing is saved; under each result you can see what the game measured.",
+    "play": "Play",
+    "close": "Close",
+    "measured": "What the game measured (for the psychologist)",
+    "measures": {
+      "pattern": "Reasoning: 8 puzzles from easy to hard, about 2–3 minutes",
+      "patience": "Patience: 6 rounds, about 1 minute"
+    }
   }
 }
