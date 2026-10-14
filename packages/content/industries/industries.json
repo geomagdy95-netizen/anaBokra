@@ -12,6 +12,20 @@
         "en": "Health & Medicine",
         "ar": "الصحة والطب"
       },
+      "intro": {
+        "what": {
+          "en": "Keeping people (and animals) healthy: preventing illness, finding out what is wrong and helping people recover.",
+          "ar": "إن الناس (والحيوانات) يفضلوا بصحة كويسة: الوقاية من المرض، ومعرفة إيه المشكلة، ومساعدة الناس يتعافوا."
+        },
+        "day": {
+          "en": "Seeing patients, running tests, giving treatment and working closely with a team, often in shifts.",
+          "ar": "كشف على مرضى، وتحاليل، وعلاج، وشغل قريب من فريق، وكتير بالشيفتات."
+        },
+        "suits": {
+          "en": "People who care about others, stay calm under pressure and are ready for long years of study.",
+          "ar": "الناس اللي بيهتموا بغيرهم، وبيفضلوا هاديين تحت الضغط، ومستعدين لسنين دراسة طويلة."
+        }
+      },
       "economy": {
         "gdpShare": {
           "value": 4.88,
@@ -267,6 +281,20 @@
         "en": "Engineering",
         "ar": "الهندسة"
       },
+      "intro": {
+        "what": {
+          "en": "Designing and building the things around us: buildings, machines, power, networks and factories.",
+          "ar": "تصميم وبناء الحاجات اللي حوالينا: مباني وماكينات وكهربا وشبكات ومصانع."
+        },
+        "day": {
+          "en": "Solving technical problems with maths and software, then checking the work on site or on the factory floor.",
+          "ar": "حل مشاكل فنية بالرياضيات والبرامج، وبعدين متابعة الشغل في الموقع أو في المصنع."
+        },
+        "suits": {
+          "en": "People who like maths and physics, want to know how things work and enjoy seeing their designs get built.",
+          "ar": "الناس اللي بيحبوا الرياضيات والفيزيا، وعايزين يفهموا الحاجات بتشتغل إزاي، ومبسوطين لما يشوفوا تصميمهم بيتبني."
+        }
+      },
       "economy": {
         "gdpShare": {
           "value": 14.5,
@@ -503,6 +531,20 @@
       "name": {
         "en": "Technology & Data",
         "ar": "التكنولوجيا والبيانات"
+      },
+      "intro": {
+        "what": {
+          "en": "Building software, apps and data systems, and keeping them running and safe.",
+          "ar": "بناء البرامج والتطبيقات وأنظمة البيانات، والحفاظ عليها شغالة وآمنة."
+        },
+        "day": {
+          "en": "Hours of focused screen work, short team meetings, fixing bugs and learning new tools all the time.",
+          "ar": "ساعات تركيز قدام الشاشة، واجتماعات قصيرة مع الفريق، وتصليح أخطاء، وتعلّم أدوات جديدة على طول."
+        },
+        "suits": {
+          "en": "People who like puzzles and logic, can learn on their own and are happy to prove themselves with projects.",
+          "ar": "الناس اللي بيحبوا الألغاز والمنطق، ويقدروا يتعلموا لوحدهم، ومبسوطين يثبتوا نفسهم بمشاريعهم."
+        }
       },
       "economy": {
         "gdpShare": {
@@ -749,6 +791,20 @@
         "en": "Business & Finance",
         "ar": "الأعمال والمال"
       },
+      "intro": {
+        "what": {
+          "en": "Making organisations work: money, numbers, people, supplies and new businesses.",
+          "ar": "إن الشركات والمؤسسات تشتغل كويس: فلوس وأرقام وناس وإمدادات وبيزنسات جديدة."
+        },
+        "day": {
+          "en": "Spreadsheets, reports and meetings: planning, checking numbers and deciding things with others.",
+          "ar": "جداول وتقارير واجتماعات: تخطيط، ومراجعة أرقام، وقرارات مع ناس تانية."
+        },
+        "suits": {
+          "en": "Organised people who are comfortable with numbers and like to see how decisions play out.",
+          "ar": "الناس المنظمين اللي مرتاحين مع الأرقام، وبيحبوا يشوفوا القرارات بتأثر إزاي."
+        }
+      },
       "economy": {
         "gdpShare": {
           "value": null,
@@ -970,6 +1026,20 @@
         "en": "Marketing & Media",
         "ar": "التسويق والإعلام"
       },
+      "intro": {
+        "what": {
+          "en": "Telling stories and getting messages across: news, ads, brands, social media and film.",
+          "ar": "حكاية القصص وتوصيل الرسائل: أخبار وإعلانات وبراندات وسوشيال ميديا وأفلام."
+        },
+        "day": {
+          "en": "Writing, filming and editing, following what people talk about and watching how the audience reacts.",
+          "ar": "كتابة وتصوير ومونتاج، ومتابعة الناس بتتكلم في إيه، ورد فعل الجمهور."
+        },
+        "suits": {
+          "en": "Curious people who love words or images, work fast and are fine with their work being judged in public.",
+          "ar": "الناس الفضوليين اللي بيحبوا الكلام أو الصورة، وسريعين، ومعندهمش مشكلة إن شغلهم يتحكم عليه قدام الناس."
+        }
+      },
       "economy": {
         "gdpShare": {
           "value": null,
@@ -1149,6 +1219,20 @@
       "name": {
         "en": "Creative & Design",
         "ar": "الإبداع والتصميم"
+      },
+      "intro": {
+        "what": {
+          "en": "Making things that look, feel or sound good: designs, spaces, clothes, animation, photos and music.",
+          "ar": "عمل حاجات شكلها أو إحساسها أو صوتها حلو: تصميمات وأماكن وهدوم وأنيميشن وصور وموسيقى."
+        },
+        "day": {
+          "en": "Sketching ideas, making many versions, showing them to clients and changing them again.",
+          "ar": "رسم أفكار، وعمل نسخ كتير، وعرضها على العملاء، وتعديلها تاني."
+        },
+        "suits": {
+          "en": "People with taste and patience, who keep practising and can take honest feedback.",
+          "ar": "الناس اللي عندهم ذوق وصبر، وبيفضلوا يتمرنوا، ويقدروا يسمعوا نقد صريح."
+        }
       },
       "economy": {
         "gdpShare": {
@@ -1336,6 +1420,20 @@
       "name": {
         "en": "Law & Public Service",
         "ar": "القانون والخدمة العامة"
+      },
+      "intro": {
+        "what": {
+          "en": "Rules, rights and the state: courts, contracts, security, diplomacy and public policy.",
+          "ar": "القواعد والحقوق والدولة: محاكم وعقود وأمن ودبلوماسية وسياسات عامة."
+        },
+        "day": {
+          "en": "Lots of reading and writing, careful arguments, meetings and, in some jobs, court or field work.",
+          "ar": "قراية وكتابة كتير، وحجج مدروسة، واجتماعات، وفي بعض الوظايف شغل في المحكمة أو في الميدان."
+        },
+        "suits": {
+          "en": "People who read closely, care about fairness and can stay steady in a conflict.",
+          "ar": "الناس اللي بيقروا بدقة، ويهمهم العدل، ويقدروا يفضلوا ثابتين وقت الخلافات."
+        }
       },
       "economy": {
         "gdpShare": {
@@ -1534,6 +1632,20 @@
       "name": {
         "en": "Education & Social",
         "ar": "التعليم والعمل الاجتماعي"
+      },
+      "intro": {
+        "what": {
+          "en": "Helping people learn and cope: teaching, special education, counselling, social work and translation.",
+          "ar": "مساعدة الناس يتعلموا ويتعاملوا مع ظروفهم: تدريس وتربية خاصة وإرشاد وعمل اجتماعي وترجمة."
+        },
+        "day": {
+          "en": "Explaining, listening, planning lessons or sessions and following each person's progress.",
+          "ar": "شرح، واستماع، وتخطيط دروس أو جلسات، ومتابعة تقدم كل شخص."
+        },
+        "suits": {
+          "en": "Patient people who are happy to see others progress, even slowly.",
+          "ar": "الناس الصبورين اللي بيفرحوا بتقدم غيرهم، حتى لو بطيء."
+        }
       },
       "economy": {
         "gdpShare": {
@@ -1741,6 +1853,20 @@
         "en": "Science & Research",
         "ar": "العلوم والبحث"
       },
+      "intro": {
+        "what": {
+          "en": "Finding out how the world works, from cells and chemicals to rocks, climate and ancient Egypt.",
+          "ar": "اكتشاف الدنيا بتشتغل إزاي، من الخلايا والكيميا للصخور والمناخ ومصر القديمة."
+        },
+        "day": {
+          "en": "Experiments, measurements and fieldwork, then hours of analysis, reading and writing up results.",
+          "ar": "تجارب وقياسات وشغل ميداني، وبعدها ساعات تحليل وقراية وكتابة نتايج."
+        },
+        "suits": {
+          "en": "Curious, careful people who can live with failed experiments and years of study.",
+          "ar": "الناس الفضوليين والدقيقين، اللي متقبلين إن التجارب تفشل وإن الدراسة تاخد سنين."
+        }
+      },
       "economy": {
         "gdpShare": {
           "value": 1.02,
@@ -1937,6 +2063,20 @@
       "name": {
         "en": "Tourism & Hospitality",
         "ar": "السياحة والضيافة"
+      },
+      "intro": {
+        "what": {
+          "en": "Looking after guests and travellers: tours, hotels, food, events and flights.",
+          "ar": "الاهتمام بالضيوف والمسافرين: جولات وفنادق وأكل وحفلات وطيران."
+        },
+        "day": {
+          "en": "On your feet with people, solving problems on the spot, often on holidays and in the evening.",
+          "ar": "وقوف مع الناس، وحل مشاكل في ساعتها، وكتير في الإجازات وبالليل."
+        },
+        "suits": {
+          "en": "Friendly, energetic people who like languages and making others feel welcome.",
+          "ar": "الناس الودودين والنشيطين اللي بيحبوا اللغات، وبيحبوا يخلّوا غيرهم يحس إنه مرحب بيه."
+        }
       },
       "economy": {
         "gdpShare": {
@@ -2169,6 +2309,20 @@
         "en": "Skilled Trades & Technical",
         "ar": "المهن الفنية والتقنية"
       },
+      "intro": {
+        "what": {
+          "en": "Installing, fixing and running real equipment: electricity, cars, solar power and factory machines.",
+          "ar": "تركيب وتصليح وتشغيل معدات حقيقية: كهربا وعربيات وطاقة شمسية وماكينات مصانع."
+        },
+        "day": {
+          "en": "Hands-on work with tools, finding faults, following safety rules and explaining the fix to customers.",
+          "ar": "شغل بالإيد والعدة، واكتشاف أعطال، والالتزام بقواعد السلامة، وشرح التصليح للعميل."
+        },
+        "suits": {
+          "en": "Practical people who like to see results the same day, and maybe run their own workshop one day.",
+          "ar": "الناس العمليين اللي بيحبوا يشوفوا نتيجة شغلهم في نفس اليوم، ويمكن يفتحوا ورشتهم في يوم من الأيام."
+        }
+      },
       "economy": {
         "gdpShare": {
           "value": null,
@@ -2397,6 +2551,20 @@
       "name": {
         "en": "Agriculture & Food",
         "ar": "الزراعة والغذاء"
+      },
+      "intro": {
+        "what": {
+          "en": "Growing food and making it safe to eat: farms, water, food factories and the trade between them.",
+          "ar": "زراعة الأكل وإنه يوصل آمن: مزارع ومية ومصانع أغذية والتجارة بينهم."
+        },
+        "day": {
+          "en": "Time in fields, labs or factories, early starts, and working with farmers, buyers and inspectors.",
+          "ar": "وقت في الغيطان أو المعامل أو المصانع، وصحيان بدري، وشغل مع مزارعين وتجار ومفتشين."
+        },
+        "suits": {
+          "en": "People who like science with a practical side, the outdoors and work that feeds people.",
+          "ar": "الناس اللي بيحبوا العلم اللي ليه جانب عملي، والطبيعة، والشغل اللي بيأكّل الناس."
+        }
       },
       "economy": {
         "gdpShare": {

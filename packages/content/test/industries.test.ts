@@ -58,6 +58,14 @@ describe('industries.json', () => {
       expect(isBilingual(c.economy.notes)).toBe(true);
     });
 
+    it('has a short, friendly intro: what it is, a day in it, who enjoys it', () => {
+      for (const k of ['what', 'day', 'suits']) {
+        expect(isBilingual(c.intro?.[k]), k).toBe(true);
+        expect(c.intro[k].en.length, `${k} too long`).toBeLessThanOrEqual(140);
+        expect(c.intro[k].ar, `${k} ar`).toMatch(/[\u0600-\u06FF]/);
+      }
+    });
+
     it('business, policy and technology are bilingual and non-empty', () => {
       for (const k of ['employers', 'startupFreelance', 'remoteGcc']) expect(isBilingual(c.business[k]), k).toBe(true);
       expect(c.policy.length).toBeGreaterThanOrEqual(1);

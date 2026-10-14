@@ -142,6 +142,10 @@ export interface IndustryOutlook {
 export interface Industry {
   id: string;
   name: Bilingual;
+  /** For young people: what the field is, a day in it, who tends to enjoy it. */
+  intro: { what: Bilingual; day: Bilingual; suits: Bilingual };
+  business: { employers: Bilingual; startupFreelance: Bilingual; remoteGcc: Bilingual };
+  technology: { exposure: 'low' | 'medium' | 'high'; summary: Bilingual; howChanging: Bilingual };
   outlook: IndustryOutlook;
   suggestedChanges: { name: Bilingual; momentum: 'rising' | 'steady' | 'fading' | string }[];
   sources: { id: string; title: string; url: string; publisher?: string; year?: number; accessed?: string }[];
@@ -151,6 +155,8 @@ export const programs = programsJson.programs as unknown as Program[];
 export const universities = universitiesJson.universities as unknown as University[];
 export const providers = providersJson.providers as unknown as Provider[];
 export const industries = industriesJson.clusters as unknown as Industry[];
+/** When the sector profiles were last checked (ISO date). */
+export const industriesAsOf: string = industriesJson.asOf;
 
 export const programById = (id: string) => programs.find((p) => p.id === id);
 export const universityById = (id: string) => universities.find((u) => u.id === id);
