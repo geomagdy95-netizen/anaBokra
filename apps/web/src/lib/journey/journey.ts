@@ -6,6 +6,7 @@ import type { Preview } from '@/server/assessment/scoring';
 import type { ReadinessRecord } from '@/server/assessment/types';
 
 import { discoverStatus } from './discover-plan';
+import { abilityStandings, cachedNorms, comparisonBand, playedGameSteps } from './games';
 import { readJourney, type JourneyDoc } from './verify';
 
 /** Days after the first path result before the follow-up readiness check is offered (pilot plan; to settle). */
@@ -38,11 +39,12 @@ export async function loadJourney(locale: Locale): Promise<JourneyLoad> {
   if (data.ok === false) return { kind: 'blocked', code: data.code };
   const { rt } = data;
   const sessionId = data.ok === 'results' ? data.entry.sessionId : data.sessionId;
-  const [resume, preview, progress, journey, readiness] = await Promise.all([
+  const journey = await readJourney(rt.device.kv, rt.userId);
+  const games = await gameStandingsFor(rt, journey);
+  const [resume, preview, progress, readiness] = await Promise.all([
     rt.service.getResume(rt.userId, { sessionId }),
-    rt.service.preview(rt.userId, { sessionId }),
+    rt.service.preview(rt.userId, { sessionId, ...(games ? { games } : {}) }),
     rt.service.getProgress(rt.userId, { sessionId }),
-    readJourney(rt.device.kv, rt.userId),
     rt.repo.listReadiness(),
   ]);
   const answers = Object.fromEntries(resume.responses.map((r) => [r.itemId, r.value]));
@@ -55,7 +57,7 @@ export async function loadJourney(locale: Locale): Promise<JourneyLoad> {
     preview,
     journey,
     readiness,
-    discover: discoverStatus(new Set(Object.keys(answers))),
+    discover: discoverStatus(new Set([...Object.keys(answers), ...playedGameSteps(journey)]), { gamesRequired: data.ok === true }),
     valuesDone: progress.stations.find((s) => s.id === 'values')?.done ?? false,
     hasResult: data.ok === 'results' || progress.hasResult,
   };
@@ -74,14 +76,25 @@ export async function maybeFinalize(
   const progress = await rt.service.getProgress(rt.userId, { sessionId });
   if (progress.hasResult || !progress.canFinalize) return false;
   const resume = await rt.service.getResume(rt.userId, { sessionId });
-  const discover = discoverStatus(new Set(resume.responses.map((r) => r.itemId)));
-  const values = progress.stations.find((s) => s.id === 'values')?.done ?? false;
   const journey = await readJourney(rt.device.kv, rt.userId);
+  const discover = discoverStatus(new Set([...resume.responses.map((r) => r.itemId), ...playedGameSteps(journey)]));
+  const values = progress.stations.find((s) => s.id === 'values')?.done ?? false;
   const checked = Object.values(journey.paths).some((p) => p.result);
   if (discover.next !== null || !values || !checked) return false;
-  await rt.service.finalize(rt.userId, { sessionId });
+  const games = await gameStandingsFor(rt, journey);
+  await rt.service.finalize(rt.userId, { sessionId, ...(games ? { games } : {}) });
   await send(rt);
   return true;
+}
+
+/**
+ * Where the user's games stand among other players, per ability, from the comparison table cached on
+ * the phone. Undefined when no game has enough players yet (then abilities use the self-ratings alone).
+ */
+export async function gameStandingsFor(rt: LocalRuntime, journey: JourneyDoc) {
+  if (!journey.games) return undefined;
+  const standings = abilityStandings(journey, await cachedNorms(rt.device.kv), comparisonBand(rt.profile.ageBand));
+  return Object.keys(standings).length ? standings : undefined;
 }
 
 /** Opt-in statistics and research for the new result; both never throw. */

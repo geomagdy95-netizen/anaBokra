@@ -3,18 +3,22 @@
 import { careerById, clusters, pathById } from '@anabokra/content';
 import { Check, ChevronRight, Lock, Map as MapIcon } from 'lucide-react';
 import { useLocale } from 'next-intl';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { LogoMark } from '@/components/brand/logo';
 import { Button } from '@/components/ui/button';
+import { GamesSummary } from '@/features/games/game-summary-card';
+import { useGT } from '@/features/games/use-gt';
+import type { GameNorms } from '@/features/games/score';
 import { ProgressBar, useNumberFormat } from '@/features/assessment/primitives';
 import { useText } from '@/features/assessment/ui-context';
 import { StorageWarning } from '@/features/local/local-states';
 import { InstallHint } from '@/features/pwa/install-hint';
 import { Link } from '@/i18n/navigation';
 import { discoverPlan } from '@/lib/journey/discover-plan';
-import { FOLLOW_UP_DAYS, maybeFinalize, type JourneyData } from '@/lib/journey/journey';
-import type { VerifyBand } from '@/lib/journey/verify';
+import { cachedNorms, comparisonBand, gameStepId, playedGameSteps, refreshNorms, saveGame } from '@/lib/journey/games';
+import { FOLLOW_UP_DAYS, gameStandingsFor, maybeFinalize, type JourneyData } from '@/lib/journey/journey';
+import { readJourney, type VerifyBand } from '@/lib/journey/verify';
 import { cn } from '@/lib/utils';
 import type { Preview } from '@/server/assessment/scoring';
 
@@ -42,9 +46,11 @@ type Running = { kind: 'task'; n: number } | { kind: 'readiness'; phase: 'pre' |
 
 function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void }) {
   const jt = useJT();
+  const gt = useGT();
   const nf = useNumberFormat();
   const plan = discoverPlan();
   const status = data.discover;
+  const played = new Set(playedGameSteps(data.journey));
   const [running, setRunning] = useState<Running>(null);
   const [reward, setReward] = useState<Preview | null>(null);
   const [skippedBaseline, setSkippedBaseline] = useState(false);
@@ -52,6 +58,16 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
   const [showTasks, setShowTasks] = useState(false);
   // Readiness answers are saved together at the end (the service needs all six at once).
   const collected = useRef<Record<string, number>>({});
+  // The comparison with other players: the copy on the phone, refreshed in the background.
+  const [norms, setNorms] = useState<GameNorms | null>(null);
+  useEffect(() => {
+    let alive = true;
+    void cachedNorms(data.rt.device.kv).then((n) => alive && n && setNorms(n));
+    void refreshNorms(data.rt.device.kv).then((n) => alive && n && setNorms(n));
+    return () => {
+      alive = false;
+    };
+  }, [data.rt]);
 
   const hasPre = data.readiness.some((r) => r.phase === 'pre');
   const hasPost = data.readiness.some((r) => r.phase === 'post');
@@ -101,8 +117,22 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
         title={`${jt('task', { n: nf.format(task.n) })} · ${jt(`taskTitles.${task.n}`)}`}
         steps={discoverSteps(task)}
         art={discoverArt(task.n)}
-        initial={data.answers}
+        initial={{ ...data.answers, ...Object.fromEntries(playedGameSteps(data.journey).map((id) => [id, 1])) }}
+        gameHost={{
+          norms,
+          ageBand: comparisonBand(data.rt.profile.ageBand),
+          save: async (game, record) => {
+            try {
+              await saveGame(data.rt.device.kv, data.rt.userId, game, record);
+              return true;
+            } catch {
+              return false;
+            }
+          },
+        }}
         onAnswer={async (step, value, ms) => {
+          // A game is kept by the game step itself (first full play); answering just moves on.
+          if (step.kind === 'game') return true;
           if (!data.open || !('instrumentId' in step)) return false;
           try {
             await data.rt.service.saveResponses(data.rt.userId, {
@@ -116,9 +146,11 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
           }
         }}
         onDone={async () => {
+          const games = await gameStandingsFor(data.rt, await readJourney(data.rt.device.kv, data.rt.userId));
           setReward(
             await data.rt.service.preview(data.rt.userId, {
               sessionId: data.sessionId,
+              ...(games ? { games } : {}),
             }),
           );
           await maybeFinalize(data);
@@ -224,12 +256,16 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
               const done = status.done[i]!;
               const next = status.next === task.n;
               const locked = !done && !next;
-              const minutes = Math.max(1, Math.round((task.items.length * 8) / 60));
+              // After the result, a game not played yet can still be played (it no longer changes the result).
+              const gameLeft = Boolean(task.game && !played.has(gameStepId(task.game)));
+              const extraGame = !data.open && gameLeft;
+              // About 8 seconds a question, plus about 2 minutes for a game.
+              const minutes = Math.max(1, Math.round((task.items.length * 8) / 60)) + (task.game ? 2 : 0);
               return (
                 <li key={task.n}>
                   <button
                     type="button"
-                    disabled={locked || !data.open || offerBaseline}
+                    disabled={extraGame ? false : locked || !data.open || offerBaseline}
                     onClick={() => setRunning({ kind: 'task', n: task.n })}
                     className={cn(
                       'flex w-full items-center gap-3 rounded-2xl border p-3 text-start transition-colors',
@@ -256,16 +292,21 @@ function Island({ data, onChanged }: { data: JourneyData; onChanged: () => void 
                           count: nf.format(task.items.length),
                           min: nf.format(minutes),
                         })}{' '}
-                        · {jt(`state.${done ? 'done' : next ? 'next' : 'locked'}`)}
+                        {task.game ? ` · ${jt('withGame', { name: gt(`${task.game}.title`) })}` : ''} · {jt(`state.${done ? 'done' : next ? 'next' : 'locked'}`)}
                       </span>
                     </span>
                     {next && !offerBaseline && <span className="rounded-full bg-primary px-3 py-1 text-sm font-medium text-primary-foreground">{jt('start')}</span>}
+                    {extraGame && <span className="shrink-0 rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-primary">{jt('playGame')}</span>}
                   </button>
                 </li>
               );
             })}
           </ol>
         </section>
+
+        {data.journey.games && Object.keys(data.journey.games).length > 0 && (
+          <GamesSummary records={data.journey.games} norms={norms} ageBand={comparisonBand(data.rt.profile.ageBand)} />
+        )}
 
         {data.hasResult && (
           <Button asChild variant="outline">

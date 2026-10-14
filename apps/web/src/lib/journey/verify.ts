@@ -3,6 +3,8 @@ import { careers, enjoyId, type PathContent, type PathTask } from '@anabokra/con
 import { ARRANGE_RING } from '@/features/world/layout';
 import type { KvStore } from '@/lib/local/kv';
 
+import type { GameId, GameRecord } from './games';
+
 /**
  * Verify (docs/product/discover-verify.md §5): answers to a path's own tasks, and the path result.
  * Kept on the phone, encrypted, under `journey:{profileId}`; deleted with the profile and moved with
@@ -61,6 +63,8 @@ export interface JourneyDoc {
   saved?: string[];
   /** "My results were clear and useful" (pilot plan §7), 1–5, asked once after the first path result. */
   rating?: { value: number; at: string };
+  /** First full play of each Discover game (lib/journey/games.ts). */
+  games?: Partial<Record<GameId, GameRecord>>;
 }
 
 export const journeyKey = (profileId: string) => `journey:${profileId}`;

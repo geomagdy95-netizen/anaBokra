@@ -6,7 +6,7 @@
 
 # anaBokra Consent Texts (phase 1)
 
-**Text version:** consent-0.7-draft (13 Oct 2026: no parent step, 15–17 accept for themselves; backup file only; optional password. 0.7: anonymous statistics also cover checked paths and the results rating; research covers path answers)
+**Text version:** consent-0.8-draft (13 Oct 2026: no parent step, 15–17 accept for themselves; backup file only; optional password. 0.7: anonymous statistics also cover checked paths and the results rating; research covers path answers. 0.8, 15 Oct: anonymous statistics also cover the first score in each Discover game, to compare players)
 
 **Design rules for all screens** (for Product/Engineering)
 - All checkboxes are **unticked by default**. Required boxes must be ticked to continue. Optional choices never block anything (PDPL Art. 12).
@@ -56,7 +56,7 @@ On the new phone: *Restore from a backup file* → choose the file → passphras
 The file never passes through anaBokra; the user carries it to the new phone. (The transfer code through our server was removed on 13 Oct 2026.)
 
 ### 1.6 Anonymous statistics (optional)
-"If you agree, the app sends anonymous records: one summary when an assessment is finished (age group, stage (student or graduate), language, the top interest areas and career groups, score bands, and how many parts were completed); for each career path you check, the path and how well it fits (fits well, partly, or worth rethinking); and, if you answer it, your 1–5 rating of whether your results were clear and useful. Each record carries only your age group, stage, language and session code (if you entered one). They never include a name, phone number, ID number, device identifier or exact time, can't be linked to each other, and can't be traced back to you. You can turn this off at any time in Settings."
+"If you agree, the app sends anonymous records: one summary when an assessment is finished (age group, stage (student or graduate), language, the top interest areas and career groups, score bands, and how many parts were completed); for each career path you check, the path and how well it fits (fits well, partly, or worth rethinking); if you answer it, your 1–5 rating of whether your results were clear and useful; and, for each game you play, your score the first time you play it (so players can see how they compare). Each record carries only your age group, stage, language and session code (if you entered one). They never include a name, phone number, ID number, device identifier or exact time, can't be linked to each other, and can't be traced back to you. You can turn this off at any time in Settings."
 Everyone 15 or older makes this choice themselves.
 
 ---

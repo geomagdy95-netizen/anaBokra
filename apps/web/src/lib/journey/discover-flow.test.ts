@@ -8,7 +8,10 @@ import { paths } from '@anabokra/content';
 
 import { demoStations } from '@/lib/local/demo-answers';
 
+import { sampleNorms } from '@/features/games/score';
+
 import { discoverPlan } from './discover-plan';
+import { DISCOVER_GAMES, saveGame } from './games';
 import { maybeFinalize } from './journey';
 import { readJourney, saveVerifyAnswer, saveVerifyResult, scoreVerify } from './verify';
 
@@ -92,12 +95,20 @@ describe('the first full result', () => {
     await saveVerifyAnswer(rt.device.kv, rt.userId, 'tech', 'tech_day_1', 3);
     const answers = (await readJourney(rt.device.kv, rt.userId)).paths.tech!.answers;
     await saveVerifyResult(rt.device.kv, rt.userId, scoreVerify(tech, answers, { groupFit: preview.groups.find((g) => g.cluster === 'tech')!.fit, careerFits: preview.fits }));
+    // Discover isn't finished until its games are played.
+    expect(await maybeFinalize(d, quiet)).toBe(false);
+
+    // Play the five games; with enough players to compare against, the logic game counts.
+    await rt.device.kv.set('games:norms', { at: Date.now(), norms: sampleNorms() });
+    for (const game of Object.values(DISCOVER_GAMES)) await saveGame(rt.device.kv, rt.userId, game, { at: new Date().toISOString(), points: 15, shown: 6, of: 8 });
     expect(await maybeFinalize(d, quiet)).toBe(true);
 
     const result = await rt.service.getLatestResult(rt.userId);
-    const derived = (result!.scores as { derived: { scoredStations: string[]; personalitySet: string } }).derived;
+    const derived = (result!.scores as { derived: { scoredStations: string[]; personalitySet: string; abilityBasis: Record<string, string>; gameStandings: Record<string, number> } }).derived;
     expect(derived.scoredStations).toEqual(['interests', 'personality', 'values', 'abilities']);
     expect(derived.personalitySet).toBe('short');
+    expect(derived.abilityBasis).toMatchObject({ logical: 'performance+self', numerical: 'performance+self', spatial: 'performance+self', verbal: 'self' });
+    expect(derived.gameStandings.logical).toBeGreaterThan(0.5);
     expect(await maybeFinalize(d, quiet)).toBe(false);
   });
 });

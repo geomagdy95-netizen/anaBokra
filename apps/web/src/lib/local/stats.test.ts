@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { checkPath } from '@/lib/journey/test-paths';
+import { saveGame } from '@/lib/journey/games';
 import { saveRating } from '@/lib/journey/verify';
 import { buildStatsSummary, statsSummarySchema, statsUploadSchema } from '@/lib/stats-summary';
 import { isoWeek } from '@/server/stats/store';
@@ -171,6 +172,18 @@ describe('stats service', () => {
       { ...sender, kind: 'path', group: 'health', band: 'fitsPartly', receivedWeek: '2026-W47' },
       { ...sender, kind: 'rating', rating: 5, receivedWeek: '2026-W47' },
     ]);
+  });
+
+  it('sends the first score of each ranked game once, with the opt-in, and never patience', async () => {
+    const { rt } = await finished({ stats: true });
+    await saveGame(rt.device.kv, rt.userId, 'pattern', { at: '2026-10-15T10:00:00Z', points: 13, shown: 6, of: 8 });
+    await saveGame(rt.device.kv, rt.userId, 'patience', { at: '2026-10-15T10:00:00Z', points: 0, shown: 3, of: 6 });
+    const sent: unknown[] = [];
+    await syncStats(rt, async (u) => (sent.push(u), true));
+    await syncStats(rt, async (u) => (sent.push(u), true));
+    const games = sent.filter((u) => (u as { kind?: string }).kind === 'game');
+    expect(games).toHaveLength(1);
+    expect(games[0]).toMatchObject({ v: 1, ageBand: '18-20', locale: 'ar', kind: 'game', game: 'pattern', gameVersion: 1, score: 13 });
   });
 
   it('stores game scores and turns them into a score spread per game and age band', async () => {

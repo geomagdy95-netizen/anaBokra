@@ -2203,7 +2203,7 @@
     },
     "stats": {
       "title": "Anonymous statistics",
-      "on": "On: when you finish, an anonymous summary is sent, plus how each path you check came out and your rating of the results.",
+      "on": "On: when you finish, an anonymous summary is sent, plus how each path you check came out, your rating of the results, and your first score in each game.",
       "off": "Off: nothing is sent.",
       "what": "Age group, language, top interest areas and career groups, score ranges and how many parts were finished. No name, phone number, ID or exact time."
     },
@@ -2541,7 +2541,9 @@
     "scenario": {
       "prompt": "What would you do?"
     },
-    "stepsTotal": "{total, plural, one {# step} other {# steps}}"
+    "stepsTotal": "{total, plural, one {# step} other {# steps}}",
+    "withGame": "+ game: {name}",
+    "playGame": "Play the game"
   },
   "DevPaths": {
     "title": "Path questions (preview)",
@@ -2588,7 +2590,7 @@
       "done": "You caught {fish, plural, one {# fish} other {# fish}}. Thanks for playing!"
     },
     "common": {
-      "calm": "Take your time: there's no clock. It starts easy and gets harder.",
+      "calm": "You have {time} for all the puzzles; the clock starts after the practice one. They start easy and get harder.",
       "practice": "Try a practice one",
       "practiceLabel": "Practice",
       "counter": "{n} of {total}",
@@ -2680,6 +2682,11 @@
       "patience": "Waited for the big fish {waited} of {rounds} times",
       "extra": "Shown for you; not part of your results yet",
       "howItCounts": "In your results, logic, numbers and spatial thinking count 70% from these games and 30% from how you rated yourself. Memory and patience are shown for you but don’t change your suggestions."
+    },
+    "discover": {
+      "played": "You've played this game already; only the first play counts.",
+      "continue": "Continue",
+      "saveFailed": "Couldn't save the game on this phone. Try again."
     }
   },
   "DevGames": {

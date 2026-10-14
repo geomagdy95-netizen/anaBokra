@@ -2,6 +2,7 @@ import { instruments, personalityShort } from '@anabokra/content';
 import { describe, expect, it } from 'vitest';
 
 import { DISCOVER_TASKS, discoverPlan, discoverStatus } from './discover-plan';
+import { gameStepId } from './games';
 
 describe('Discover plan', () => {
   const plan = discoverPlan();
@@ -39,6 +40,13 @@ describe('Discover plan', () => {
     expect(discoverStatus(new Set())).toEqual({ done: Array(10).fill(false), doneCount: 0, next: 1 });
     const first = new Set(plan[0]!.items.map((i) => i.id));
     expect(discoverStatus(first)).toMatchObject({ doneCount: 1, next: 2 });
-    expect(discoverStatus(new Set(all.map((i) => i.id)))).toMatchObject({ doneCount: 10, next: null });
+    // Tasks with a game aren't done until it's played.
+    const questions = new Set(all.map((i) => i.id));
+    expect(discoverStatus(questions)).toMatchObject({ doneCount: 5, next: 3 });
+    const games = plan.flatMap((t) => (t.game ? [gameStepId(t.game)] : []));
+    expect(games).toEqual(['game_pattern', 'game_numbers', 'game_patience', 'game_rotation', 'game_memory']);
+    expect(discoverStatus(new Set([...questions, ...games]))).toMatchObject({ doneCount: 10, next: null });
+    // Once a result exists, games are extras: a Discover finished before them stays finished.
+    expect(discoverStatus(questions, { gamesRequired: false })).toMatchObject({ doneCount: 10, next: null });
   });
 });

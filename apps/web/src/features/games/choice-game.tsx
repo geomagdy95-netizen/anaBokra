@@ -94,7 +94,7 @@ export function ChoiceGame<I extends ChoiceItem>({
     return (
       <div className="flex flex-col gap-4" data-testid={`${game}-intro`}>
         <p className="text-lg leading-relaxed">{gt(`${game}.how`)}</p>
-        <p className="text-sm text-muted-foreground">{gt('common.calm')}</p>
+        <p className="text-sm text-muted-foreground">{gt('common.calm', { time: `${Math.floor((seconds ?? 0) / 60)}:${String((seconds ?? 0) % 60).padStart(2, '0')}` })}</p>
         <Button size="lg" className="h-14 rounded-2xl text-base" onClick={() => show({ kind: 'practice' })} data-testid={`${game}-practice`}>
           {gt('common.practice')}
         </Button>

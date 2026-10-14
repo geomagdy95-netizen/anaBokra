@@ -28,6 +28,7 @@ flowchart LR
 ```
 
 - Only **my island** holds the general personal questions. Path islands hold questions about **that path**.
+- **Games in Discover (15 Oct).** Five short games end tasks 3, 5, 6, 7 and 9; abilities blend each game's place among other players with the self-rating once 100 have played ([games.md](games.md)).
 - **The map grows with the user (decided 14 Oct).** At first the map shows **only my island**. When suggestions appear, the **top 3 path islands** rise round it (bridges "updating" while it's an early guess). Other fields are not on the map: the user finds them in the list or search and **adds** them, and they join in the next free spot. A started or checked path always stays; the user can take any field off the map again (answers kept).
 - Users can verify any path, not only the suggested ones (the world spec cap of 3 active paths applies).
 - Nothing is a verdict. A path that "doesn't fit" is described as "worth rethinking", with reasons.

@@ -49,6 +49,13 @@ export const saveResponsesSchema = z.strictObject({
 
 export const sessionRefSchema = z.strictObject({ sessionId: uuid });
 
+/**
+ * Game standings for preview and finalize (docs/product/games.md): per measured ability, the share of
+ * comparable players the user's first play scored above (0–1). Only the abilities games measure.
+ */
+export const gameStandingsSchema = z.partialRecord(z.enum(['logical', 'numerical', 'spatial']), z.number().min(0).max(1));
+export const scoreRefSchema = z.strictObject({ sessionId: uuid, games: gameStandingsSchema.optional() });
+
 export const saveContextSchema = z.strictObject({ sessionId: uuid, context: contextSchema });
 
 export const completeStationSchema = z.strictObject({

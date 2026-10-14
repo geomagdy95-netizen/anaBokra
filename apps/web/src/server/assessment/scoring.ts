@@ -10,6 +10,7 @@ import {
   scoreValues,
   surprisingMatches,
   WORK_VALUES,
+  type AbilityDomain,
   type CareerForMatching,
   type CareerMatch,
   type GroupRank,
@@ -80,7 +81,8 @@ export function scoreValueCards(responses: ResponseRecord[], ranking?: string[])
   return scoreValues(inst, placements, valid.length ? valid : undefined);
 }
 
-export function scoreAbilityStation(responses: ResponseRecord[]) {
+/** Abilities from the self-ratings, with each game's standing (if any) as the measured part. */
+export function scoreAbilityStation(responses: ResponseRecord[], games: Partial<Record<AbilityDomain, number>> = {}) {
   const inst = abilitiesInstrument();
   const rs = forInstrument(responses, 'abilities');
   const selfIds = new Set(inst.selfRatings.map((s) => s.id));
@@ -88,6 +90,8 @@ export function scoreAbilityStation(responses: ResponseRecord[]) {
     inst,
     rs.filter((r) => selfIds.has(r.itemId)),
     rs.filter((r) => !selfIds.has(r.itemId)).map((r) => ({ itemId: r.itemId, choice: r.value })),
+    undefined,
+    games,
   );
 }
 
@@ -102,6 +106,8 @@ export interface ScoreSessionInput {
   careers?: CareerForMatching[];
   /** Instrument versions pinned on the session (stored in the result for traceability). */
   instrumentVersions?: Record<string, string>;
+  /** Game standings per ability (0–1), from the Discover games and the comparison with other players. */
+  games?: Partial<Record<AbilityDomain, number>>;
 }
 
 /**
@@ -114,7 +120,7 @@ export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
   const personalityScored = scorePersonalityWithSet(responses);
   const personality = personalityScored?.scores;
   const values = scoreValueCards(responses, input.valuesRanking);
-  const abilities = scoreAbilityStation(responses);
+  const abilities = scoreAbilityStation(responses, input.games);
   if (!interests && !personality && !values && !abilities) return undefined;
 
   const profile: UserProfile = {
@@ -175,6 +181,8 @@ export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
           : {}),
         ...(values ? { valuesRanking: values.ranking } : {}),
         ...(abilities ? { abilityBasis: abilities.basis } : {}),
+        // Where the Discover games stood among other players, when they counted (traceability).
+        ...(input.games && Object.keys(input.games).length ? { gameStandings: input.games } : {}),
         ...(personalityScored ? { personalitySet: personalityScored.set } : {}),
         instrumentVersions: versions,
         scoredStations: [
@@ -239,7 +247,12 @@ export const EARLY_GUESS_COVERAGE = 0.4;
  */
 export function previewSuggestions(
   responses: ResponseRecord[],
-  { valuesRanking, context, careers = allCareers }: { valuesRanking?: string[]; context?: UserContext; careers?: CareerForMatching[] } = {},
+  {
+    valuesRanking,
+    context,
+    careers = allCareers,
+    games,
+  }: { valuesRanking?: string[]; context?: UserContext; careers?: CareerForMatching[]; games?: Partial<Record<AbilityDomain, number>> } = {},
 ): Preview {
   const interests = scoreInterests(responses);
   const empty: Preview = { stage: 'none', groups: [], matches: [], fits: {}, interestCode: [], personalitySet: null, flat: false };
@@ -259,7 +272,7 @@ export function previewSuggestions(
     };
   }
   const personality = scorePersonalityWithSet(responses);
-  const abilities = scoreAbilityStation(responses);
+  const abilities = scoreAbilityStation(responses, games);
   const values = scoreValueCards(responses, valuesRanking);
   const profile: UserProfile = {
     interests: interests.scores,

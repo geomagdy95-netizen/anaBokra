@@ -1,7 +1,7 @@
 import { STAGES } from '@anabokra/engine';
 
 import { readJourney } from '@/lib/journey/verify';
-import { buildStatsSummary, statsPathSchema, statsRatingSchema, type StatsSender, type StatsSummary, type StatsUpload } from '@/lib/stats-summary';
+import { buildStatsSummary, statsPathSchema, statsGameSchema, statsRatingSchema, type StatsSender, type StatsSummary, type StatsUpload } from '@/lib/stats-summary';
 
 import type { LocalRuntime } from './runtime';
 
@@ -61,6 +61,10 @@ async function syncOnce(rt: LocalRuntime, post: Post): Promise<SyncOutcome> {
     for (const [group, rec] of Object.entries(journey.paths))
       if (rec.result) pending.push({ key: `path:${group}`, upload: () => statsPathSchema.parse({ ...sender, kind: 'path', group, band: rec.result!.band }) });
     if (journey.rating) pending.push({ key: 'rating', upload: () => statsRatingSchema.parse({ ...sender, kind: 'rating', rating: journey.rating!.value }) });
+    // First plays of the ranked games, for the comparison with other players (patience isn't ranked).
+    for (const [game, rec] of Object.entries(journey.games ?? {}))
+      if (game !== 'patience' && rec)
+        pending.push({ key: `game:${game}`, upload: () => statsGameSchema.parse({ ...sender, kind: 'game', game, gameVersion: 1, score: rec.points }) });
 
     const sent = (await kv.get<string[]>(statsKey(rt.userId))) ?? [];
     let outcome: SyncOutcome = 'skipped';

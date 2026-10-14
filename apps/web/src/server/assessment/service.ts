@@ -22,6 +22,7 @@ import {
   readinessSchema,
   saveContextSchema,
   saveResponsesSchema,
+  scoreRefSchema,
   sessionRefSchema,
   startSessionSchema,
 } from './schemas';
@@ -352,12 +353,12 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
    * nothing is stored and the session stays open. Own sessions only.
    */
   async function preview(userId: string, rawInput: unknown) {
-    const { sessionId } = parse(sessionRefSchema, rawInput);
+    const { sessionId, games } = parse(scoreRefSchema, rawInput);
     const s = await loadSession(userId, sessionId);
     const progress = progressOf(s);
     const responses = await repo.listResponses(s.id);
     const context = progress.context ?? (await repo.getUserContext(userId));
-    return previewSuggestions(responses, { valuesRanking: progress.valuesRanking, context });
+    return previewSuggestions(responses, { valuesRanking: progress.valuesRanking, context, games });
   }
 
   /**
@@ -435,7 +436,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
    * over the stations that exist; `coverage` < 1 says so.
    */
   async function finalize(userId: string, rawInput: unknown) {
-    const { sessionId } = parse(sessionRefSchema, rawInput);
+    const { sessionId, games } = parse(scoreRefSchema, rawInput);
     const s = await loadSession(userId, sessionId);
 
     let result = await repo.getResult(s.id);
@@ -452,6 +453,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
         valuesRanking: progress.valuesRanking,
         context,
         instrumentVersions: progress.instrumentVersions,
+        games,
       });
       if (!scored) throw new AssessmentError('insufficient_data', 'Not enough answers to produce a result');
       result = await repo.insertResult(scored);

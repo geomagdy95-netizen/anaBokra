@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import type { ArtChain } from '@/features/art/task-art';
 import { TaskArt } from '@/features/art/task-art-view';
+import { DiscoverGame, type GameHost } from '@/features/games/discover-game';
 import { useNumberFormat } from '@/features/assessment/primitives';
 import { useText } from '@/features/assessment/ui-context';
 import { cn } from '@/lib/utils';
@@ -26,6 +27,8 @@ export interface TaskRunnerProps {
   onAnswer: (step: Step, value: number, ms: number) => Promise<boolean>;
   onDone: () => void;
   onClose: () => void;
+  /** Needed when a step is a game (Discover): comparison data and where to keep the first play. */
+  gameHost?: GameHost;
 }
 
 /**
@@ -34,7 +37,7 @@ export interface TaskRunnerProps {
  * on by themselves; a puzzle waits on its reveal until "Next". Every answer is saved as it is given,
  * so leaving midway loses nothing.
  */
-export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone, onClose }: TaskRunnerProps) {
+export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone, onClose, gameHost }: TaskRunnerProps) {
   const jt = useJT();
   const tx = useText();
   const nf = useNumberFormat();
@@ -121,6 +124,7 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
               {step.kind === 'puzzle' && <PuzzleQuestion {...common} text={step.text} titled={Boolean(step.title)} options={step.options} answer={step.answer} explain={step.explain} />}
               {step.kind === 'enjoy' && <EnjoyQuestion {...common} />}
               {step.kind === 'agree' && <FacesQuestion {...common} text={step.text} scale={step.scale} prompt={jt('readiness.prompt')} />}
+              {step.kind === 'game' && gameHost && <DiscoverGame game={step.game} played={value !== undefined} host={gameHost} onContinue={() => void answer(1)} />}
             </div>
 
             {failed && (

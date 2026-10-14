@@ -27,7 +27,7 @@ You can use anaBokra on your own. We never ask for your name, phone number or ID
 | **Your university, at a pilot session** | Only a group report about everyone together, never your own results |
 
 ## Anonymous statistics, only if you say yes
-If you agree, the app sends one short summary when you finish (your age group, stage, language, top interest areas and career groups, and score ranges), how each career path you check came out, and your 1–5 rating of your results if you give one. **No name, no phone number, no ID, nothing that points to you.** You can turn it off in Settings. At university pilot sessions, adults can also choose to share their answers anonymously for research.
+If you agree, the app sends one short summary when you finish (your age group, stage, language, top interest areas and career groups, and score ranges), how each career path you check came out, your 1–5 rating of your results if you give one, and your first score in each game (to compare players). **No name, no phone number, no ID, nothing that points to you.** You can turn it off in Settings. At university pilot sessions, adults can also choose to share their answers anonymously for research.
 
 ## New phone?
 Save a **backup file** locked with a passphrase and open it on the new phone. It never passes through us, and we can't open it. Keep your passphrase safe; we can't recover it.

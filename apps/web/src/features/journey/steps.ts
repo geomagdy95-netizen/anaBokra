@@ -3,6 +3,7 @@ import type { I18n } from '@anabokra/engine';
 
 import { discoverArt, pathArt, type ArtChain } from '@/features/art/task-art';
 import type { DiscoverTask } from '@/lib/journey/discover-plan';
+import { gameStepId, type GameId } from '@/lib/journey/games';
 
 /**
  * One screen of a task. Discover steps are validated questions (their answer is the item's own
@@ -23,6 +24,8 @@ export type Step = (
   | { kind: 'enjoy'; id: string }
   /** Readiness statements, 1–5 agreement. */
   | { kind: 'agree'; id: string; text: I18n; scale: Scale }
+  /** A game played inside a Discover task (docs/product/games.md). Answered once it's played. */
+  | { kind: 'game'; id: string; game: GameId }
 ) & {
   /** Short heading for the screen (the task title is used without one). */
   title?: I18n;
@@ -38,7 +41,8 @@ const SCALES: Record<'interests' | 'personality' | 'abilities', Scale> = {
 
 export function discoverSteps(task: DiscoverTask): Step[] {
   const art = discoverArt(task.n);
-  return task.items.map((i) => ({ kind: i.format, id: i.id, instrumentId: i.instrumentId, text: i.text, scale: SCALES[i.instrumentId], art }));
+  const questions: Step[] = task.items.map((i) => ({ kind: i.format, id: i.id, instrumentId: i.instrumentId, text: i.text, scale: SCALES[i.instrumentId], art }));
+  return task.game ? [...questions, { kind: 'game', id: gameStepId(task.game), game: task.game, art }] : questions;
 }
 
 /** The six readiness statements (baseline before Discover, follow-up later). */

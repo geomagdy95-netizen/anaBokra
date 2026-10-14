@@ -1,6 +1,8 @@
 import { instruments, personalityShort } from '@anabokra/content';
 import { BIG_FIVE, RIASEC, type I18n } from '@anabokra/engine';
 
+import { DISCOVER_GAMES, gameStepId, type GameId } from './games';
+
 /**
  * Discover (docs/product/discover-verify.md §4): the general questions on the user's own island, in
  * 10 short tasks. The questions are the validated ones, unchanged; only their presentation varies:
@@ -25,6 +27,8 @@ export interface DiscoverTask {
   /** 1-based task number. */
   n: number;
   items: DiscoverItem[];
+  /** A game played after the questions (docs/product/games.md); the task is done once it's played. */
+  game?: GameId;
 }
 
 export const DISCOVER_TASKS = 10;
@@ -67,16 +71,21 @@ export function discoverPlan(): DiscoverTask[] {
     const items: DiscoverItem[] = [swipes[0]!, swipes[1]!, faces[0]!, swipes[2]!, sliders[0]!, swipes[3]!, swipes[4]!, faces[1]!, swipes[5]!];
     if (sliders[1]) items.push(sliders[1]);
     if (k === CHECK_TASK && check) items.splice(5, 0, { id: check.id, instrumentId: 'interests', format: 'swipe', text: check.text });
-    tasks.push({ n: k + 1, items: items.filter(Boolean) });
+    const game = DISCOVER_GAMES[k + 1];
+    tasks.push({ n: k + 1, items: items.filter(Boolean), ...(game ? { game } : {}) });
   }
   cache = tasks;
   return tasks;
 }
 
-/** Which tasks are done, given the ids answered so far. */
-export function discoverStatus(answered: ReadonlySet<string>) {
+/**
+ * Which tasks are done, given the ids answered so far (questions, and `game_<id>` for games played).
+ * Games count while the assessment is open; once a result exists they are optional extras, so a
+ * Discover finished before the games existed doesn't go backwards.
+ */
+export function discoverStatus(answered: ReadonlySet<string>, { gamesRequired = true }: { gamesRequired?: boolean } = {}) {
   const plan = discoverPlan();
-  const done = plan.map((t) => t.items.every((i) => answered.has(i.id)));
+  const done = plan.map((t) => t.items.every((i) => answered.has(i.id)) && (!gamesRequired || !t.game || answered.has(gameStepId(t.game))));
   const next = done.findIndex((d) => !d);
   return { done, doneCount: done.filter(Boolean).length, next: next === -1 ? null : next + 1 };
 }

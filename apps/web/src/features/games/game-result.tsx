@@ -3,6 +3,7 @@
 import { Brain, Calculator, Clock, Fish, Grid3x3, Shapes, Users, type LucideIcon } from 'lucide-react';
 import { useLocale } from 'next-intl';
 
+import type { GameRecord } from '@/lib/journey/games';
 import { cn } from '@/lib/utils';
 
 import type { RunInfo } from './choice-game';
@@ -32,6 +33,16 @@ function scoreOf(result: Exclude<GameResultData, { game: 'patience' }>) {
     return { points: span, shown: span, of: MEMORY_MAX };
   }
   return { points: choicePoints(result.answers), shown: result.answers.filter((a) => a.correct).length, of: 8 };
+}
+
+/** What is kept on the phone from a first full play (lib/journey/games.ts). */
+export function recordOf(result: GameResultData, at: string): GameRecord {
+  if (result.game === 'patience') {
+    const s = patienceSummary(result.rounds);
+    return { at, points: 0, shown: s.waitedToTheEnd, of: s.rounds };
+  }
+  const { points, shown, of } = scoreOf(result);
+  return { at, points, shown, of, ...(result.game === 'memory' ? {} : { timeMs: result.info.timeMs, timedOut: result.info.timedOut }) };
 }
 
 /** Where the player stands among others, or null until enough have played. */

@@ -15,7 +15,7 @@ import { ResearchConsent } from './research-consent';
 import { RestoreData } from './restore-data';
 
 /** Versions stored with every on-device acceptance (docs/legal/consent-texts, privacy-policy). */
-export const CONSENT_TEXT_VERSION = 'consent-0.7-draft';
+export const CONSENT_TEXT_VERSION = 'consent-0.8-draft';
 export const POLICY_VERSION = '0.7-draft';
 
 type Step = 'age' | 'too-young' | 'profile' | 'accept' | 'restore' | 'session' | 'research';
