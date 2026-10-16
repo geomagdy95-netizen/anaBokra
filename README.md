@@ -90,3 +90,4 @@ O*NET data © U.S. Department of Labor, Employment and Training Administration, 
 - [ ] Register with ICAR and select the 16 performance items.
 - [ ] Set the starting matching weights.
 - [ ] Decide how swipe gestures map onto the 1–5 answer scale.
+# anaBokra
