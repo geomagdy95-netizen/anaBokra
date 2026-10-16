@@ -92,3 +92,4 @@ O*NET data © U.S. Department of Labor, Employment and Training Administration, 
 - [ ] Decide how swipe gestures map onto the 1–5 answer scale.
 # anaBokra
 # anaBokra
+# anaBokra
