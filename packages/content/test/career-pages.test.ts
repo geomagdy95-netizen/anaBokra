@@ -17,6 +17,7 @@ const pages = readdirSync(dir)
   .map((f) => ({ file: f, page: JSON.parse(readFileSync(join(dir, f), 'utf8')) }));
 
 const ARABIC = /[؀-ۿ]/;
+const HURDLE_KINDS = ['grades', 'exam', 'interview', 'vetting', 'age', 'physical', 'license', 'membership', 'cost', 'time', 'experience', 'gender', 'location'];
 
 /** Every {en, ar} object anywhere in the page must have non-empty English and Arabic (with Arabic script). */
 function checkTexts(node: unknown, path: string, errors: string[]) {
@@ -67,6 +68,17 @@ describe('career pages', () => {
       for (const b of bands) {
         expect(b.min).toBeGreaterThan(0);
         expect(b.max).toBeGreaterThanOrEqual(b.min);
+      }
+    }
+
+    // Entry hurdles: what can stand in the way (grades, exams, interviews, checks, cost...), each sourced.
+    if (page.entry) {
+      expect(['open', 'moderate', 'competitive', 'very_competitive']).toContain(page.entry.level);
+      expect(page.entry.hurdles.length).toBeGreaterThan(0);
+      for (const h of page.entry.hurdles) {
+        expect(HURDLE_KINDS, h.kind).toContain(h.kind);
+        expect([1, 2, 3]).toContain(h.level);
+        expect(h.source, h.kind).toMatch(/^https:\/\//);
       }
     }
 

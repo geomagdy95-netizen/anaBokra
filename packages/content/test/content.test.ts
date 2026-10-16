@@ -53,9 +53,9 @@ describe('instruments', () => {
 });
 
 describe('careers', () => {
-  it('has 82 careers in known clusters with unique ids', () => {
-    expect(careers).toHaveLength(82);
-    expect(new Set(careers.map((c) => c.id)).size).toBe(82);
+  it('has 130 careers in known clusters with unique ids', () => {
+    expect(careers).toHaveLength(130);
+    expect(new Set(careers.map((c) => c.id)).size).toBe(130);
     const ids = new Set(clusters.map((c) => c.id));
     for (const c of careers) expect(ids.has(c.cluster), c.id).toBe(true);
   });

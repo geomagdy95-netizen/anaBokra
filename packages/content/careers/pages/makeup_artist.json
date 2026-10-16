@@ -1,0 +1,259 @@
+{
+  "id": "makeup_artist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "Your canvas is a face, and your audience is the camera.",
+      "ar": "لوحتك هي الوش، وجمهورك هو الكاميرا."
+    },
+    "summary": {
+      "en": "Makeup artists create looks for brides, events, photo shoots, TV, film and theatre, from natural makeup to special effects. In Egypt many work freelance and build a portfolio on social media; academies and international courses teach techniques, and film and TV work needs special-effects skills.",
+      "ar": "خبير المكياج بيعمل لوكات للعرايس والمناسبات وجلسات التصوير والتلفزيون والسينما والمسرح، من المكياج الطبيعي للمؤثرات الخاصة. في مصر ناس كتير بيشتغلوا فريلانس وبيبنوا شغلهم على السوشيال ميديا؛ والأكاديميات والكورسات الدولية بتعلّم التقنيات، وشغل السينما والتلفزيون محتاج مهارات المؤثرات."
+    },
+    "dayInLife": {
+      "en": "You wake at 6 for a bride's makeup at her home: a trial was done last week, so you work from your notes and photos. At noon you head to a studio where a brand is shooting an ad, and keep the model's look fresh under hot lights. In the evening you clean your brushes, restock your kit and post the bride's photos with her permission.",
+      "ar": "بتصحى الساعة 6 لمكياج عروسة في بيتها: البروفة اتعملت الأسبوع اللي فات، فبتشتغل من ملاحظاتك وصورك. الضهر بتروح استوديو براند بيصوّر إعلان، وبتحافظ على لوك الموديل تحت الإضاءة السخنة. بالليل بتنضف الفرش، بتكمّل أدواتك وبتنزّل صور العروسة بإذنها."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Design and apply makeup looks.",
+        "ar": "بتصمم وتحط لوكات المكياج."
+      },
+      {
+        "en": "Match products to skin and lighting.",
+        "ar": "بتختار المنتجات المناسبة للبشرة والإضاءة."
+      },
+      {
+        "en": "Keep tools and products hygienic.",
+        "ar": "بتحافظ على الأدوات والمنتجات نضيفة."
+      },
+      {
+        "en": "Work with photographers and directors.",
+        "ar": "بتشتغل مع المصورين والمخرجين."
+      },
+      {
+        "en": "Market yourself and manage bookings.",
+        "ar": "بتسوّق لنفسك وبتدير الحجوزات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Brides' homes, salons and venues",
+        "ar": "بيوت العرايس والصالونات والقاعات"
+      },
+      {
+        "en": "Studios, TV and film sets",
+        "ar": "الاستوديوهات وأماكن تصوير التلفزيون والسينما"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Brushes, palettes and kits",
+        "ar": "الفرش والباليتات والشنط"
+      },
+      {
+        "en": "Special-effects materials",
+        "ar": "مواد المؤثرات الخاصة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Makeup academies and international courses",
+        "ar": "أكاديميات المكياج والكورسات الدولية"
+      },
+      {
+        "en": "Faculties of Applied Arts or Fine Arts help for film and theatre",
+        "ar": "كليات الفنون التطبيقية أو الجميلة بتفيد للسينما والمسرح"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 1,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Colour theory and skin types",
+        "ar": "نظرية الألوان وأنواع البشرة"
+      },
+      {
+        "en": "Bridal and camera makeup",
+        "ar": "مكياج العرايس والكاميرا"
+      },
+      {
+        "en": "Special effects basics",
+        "ar": "أساسيات المؤثرات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Creativity",
+        "ar": "الإبداع"
+      },
+      {
+        "en": "Calm with nervous clients",
+        "ar": "الهدوء مع العملاء المتوترين"
+      },
+      {
+        "en": "Self-marketing",
+        "ar": "تسويق نفسك"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English for international brands and courses",
+        "ar": "العربي، والإنجليزي للبراندات والكورسات الدولية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 7487,
+        "max": 20220
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/arts-culture?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Make-Up Artist, Wigmaker\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Make-Up Artist, Wigmaker»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Freelance clients (brides, events)",
+        "ar": "عملاء فريلانس (عرايس ومناسبات)"
+      },
+      {
+        "en": "Salons, TV channels and production companies",
+        "ar": "الصالونات والقنوات وشركات الإنتاج"
+      },
+      {
+        "en": "Cosmetics brands",
+        "ar": "براندات مستحضرات التجميل"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; but you build clients online.",
+      "ar": "لأ؛ بس بتبني عملاءك أونلاين."
+    },
+    "regions": [
+      {
+        "en": "Every city; film and TV work mainly in Cairo",
+        "ar": "كل مدينة؛ وشغل السينما والتلفزيون أساسًا في القاهرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Freelance artists work for brides and productions in the Gulf.",
+    "ar": "الخبراء الفريلانس بيشتغلوا لعرايس وإنتاجات في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative, varied work",
+        "ar": "شغل مبدع ومتنوع"
+      },
+      {
+        "en": "Be your own boss",
+        "ar": "تبقى مدير نفسك"
+      },
+      {
+        "en": "Big events and sets",
+        "ar": "مناسبات كبيرة وأماكن تصوير"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Irregular income and seasons",
+        "ar": "دخل غير منتظم ومواسم"
+      },
+      {
+        "en": "Very early starts on wedding days",
+        "ar": "صحيان بدري جدًا في الأفراح"
+      },
+      {
+        "en": "Expensive kit to buy",
+        "ar": "الأدوات غالية"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Makeup artists just do pretty faces.",
+          "ar": "خبير المكياج بيعمل وشوش حلوة وبس."
+        },
+        "fact": {
+          "en": "Film and TV work includes ageing, wounds and characters that need technical skill.",
+          "ar": "شغل السينما والتلفزيون فيه تكبير سن وجروح وشخصيات محتاجة مهارة تقنية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Irregular: early mornings, long event days and quiet weeks.",
+      "ar": "غير منتظم: صحيان بدري وأيام مناسبات طويلة وأسابيع هادية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant artist",
+        "ar": "مساعد"
+      },
+      {
+        "en": "Makeup artist",
+        "ar": "خبير مكياج"
+      },
+      {
+        "en": "Senior, bridal or film specialist",
+        "ar": "خبير أول أو متخصص عرايس أو سينما"
+      },
+      {
+        "en": "Own brand, studio or academy",
+        "ar": "براند أو استوديو أو أكاديمية خاصة"
+      }
+    ],
+    "relatedCareerIds": [
+      "hairstylist",
+      "skincare_specialist",
+      "actor",
+      "photographer"
+    ],
+    "pivots": [
+      {
+        "en": "Beauty content creation",
+        "ar": "صناعة محتوى التجميل"
+      },
+      {
+        "en": "Cosmetics brand training",
+        "ar": "التدريب لبراندات التجميل"
+      }
+    ]
+  },
+  "industryId": "beauty",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Makeup Artists, Theatrical and Performance (39-5091.00)",
+      "url": "https://www.onetonline.org/link/summary/39-5091.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Hairdressers, Hairstylists, and Cosmetologists (39-5012.00)",
+      "url": "https://www.onetonline.org/link/summary/39-5012.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

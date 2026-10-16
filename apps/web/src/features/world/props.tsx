@@ -485,7 +485,8 @@ function Agriculture() {
   );
 }
 
-const ICONS: Record<GroupId, () => ReactNode> = {
+/** Icons for the first 12 groups; groups added later fall back to nothing (the icon is not used on the map). */
+const ICONS: Partial<Record<GroupId, () => ReactNode>> = {
   tech: Laptop,
   health: Health,
   engineering: Engineering,
@@ -502,7 +503,7 @@ const ICONS: Record<GroupId, () => ReactNode> = {
 
 export function GroupIcon({ id }: { id: GroupId }) {
   const Icon = ICONS[id];
-  return <Icon />;
+  return Icon ? <Icon /> : null;
 }
 
 // --- Logo (core island) -------------------------------------------------------

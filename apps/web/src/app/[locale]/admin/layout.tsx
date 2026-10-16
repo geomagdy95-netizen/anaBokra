@@ -23,6 +23,7 @@ const HREF: Record<AdminSection, string> = {
   flags: '/admin/flags',
   audit: '/admin/audit',
   system: '/admin/system',
+  insights: '/admin/insights',
 };
 
 /** K1 shell: only signed-in admins get past this; everyone else sees a 404. */

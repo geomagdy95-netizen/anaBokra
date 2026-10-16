@@ -443,5 +443,36 @@
       "url": "https://gate.ahram.org.eg/News/4951911.aspx",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "moderate",
+    "hurdles": [
+      {
+        "kind": "exam",
+        "level": 2,
+        "text": {
+          "en": "Public schools hire through national competitions run per governorate: computer-based tests in behaviour, languages, IT, teaching and your subject, then a medical exam and a drug test.",
+          "ar": "المدارس الحكومية بتعيّن عن طريق مسابقات قومية لكل محافظة: اختبارات على الكمبيوتر في السلوك واللغات والكمبيوتر والتربية ومادة التخصص، وبعدين كشف طبي وتحليل مخدرات."
+        },
+        "tip": {
+          "en": "The tests are public and repeat each round, so past questions are a good guide.",
+          "ar": "الاختبارات معروفة وبتتكرر كل مسابقة، فالأسئلة القديمة دليل كويس."
+        },
+        "source": "https://www.youm7.com/5848427"
+      },
+      {
+        "kind": "age",
+        "level": 1,
+        "text": {
+          "en": "There is an age limit for applicants (35 or 40 depending on the round).",
+          "ar": "فيه حد أقصى للسن (35 أو 40 حسب المسابقة)."
+        },
+        "tip": {
+          "en": "Private and international schools hire without the competition, often with better pay.",
+          "ar": "المدارس الخاصة والدولية بتعيّن من غير المسابقة، وغالبًا بمرتب أحسن."
+        },
+        "source": "https://www.youm7.com/story/2023/2/9/%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D9%88%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-40-%D8%B3%D9%86%D8%A9-%D8%AD%D8%AF%D8%A7-%D8%A3%D9%82%D8%B5%D9%89-%D9%84%D8%B3%D9%86-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%AF%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-30/6078031"
+      }
+    ]
+  }
 }

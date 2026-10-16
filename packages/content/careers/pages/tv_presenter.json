@@ -1,0 +1,264 @@
+{
+  "id": "tv_presenter",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You are the voice and face people trust every morning.",
+      "ar": "إنت الصوت والوش اللي الناس بتثق فيه كل صبح."
+    },
+    "summary": {
+      "en": "TV and radio presenters host programmes, interview guests, read news and keep audiences engaged, on air and increasingly on digital platforms and podcasts. In Egypt many come from Faculties of Mass Communication, and channels and radio stations hold auditions; strong Arabic, a clear voice and presence matter most.",
+      "ar": "مذيع التلفزيون والراديو بيقدّم البرامج، بيحاور الضيوف، بيقرا الأخبار وبيخلّي الجمهور مشدود، على الهوا وبشكل متزايد على المنصات الرقمية والبودكاست. في مصر كتير منهم من كليات الإعلام، والقنوات والإذاعات بتعمل اختبارات؛ والعربي القوي والصوت الواضح والحضور أهم حاجة."
+    },
+    "dayInLife": {
+      "en": "You arrive at 5 a.m. for a morning show. You read the briefing, meet the producer and prepare questions for a doctor and a young entrepreneur. You go live at 7, keep time with the director in your earpiece and handle a guest who runs late. After the show you record a short video for the channel's social media and plan tomorrow's topics.",
+      "ar": "بتوصل الساعة 5 الصبح لبرنامج صباحي. بتقرا الملخص، بتقابل المعد وبتحضّر أسئلة لدكتور ورائد أعمال شاب. بتطلع على الهوا الساعة 7، بتظبط الوقت مع المخرج في السماعة وبتتصرف لما ضيف يتأخر. بعد البرنامج بتسجل فيديو قصير لسوشيال ميديا القناة وبتخطط مواضيع بكرة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Present live and recorded programmes.",
+        "ar": "بتقدّم برامج على الهوا ومسجلة."
+      },
+      {
+        "en": "Interview guests.",
+        "ar": "بتحاور الضيوف."
+      },
+      {
+        "en": "Read news and scripts.",
+        "ar": "بتقرا الأخبار والسكريبتات."
+      },
+      {
+        "en": "Prepare topics with producers.",
+        "ar": "بتحضّر المواضيع مع المعدين."
+      },
+      {
+        "en": "Create content for digital platforms.",
+        "ar": "بتعمل محتوى للمنصات الرقمية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "TV studios and radio stations",
+        "ar": "استوديوهات التلفزيون والإذاعة"
+      },
+      {
+        "en": "Events and outdoor broadcasts",
+        "ar": "الفعاليات والبث الخارجي"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Microphone, earpiece and teleprompter",
+        "ar": "الميكروفون والسماعة والأوتوكيو"
+      },
+      {
+        "en": "Cameras and editing apps",
+        "ar": "الكاميرات وأبلكيشنز المونتاج"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Mass Communication (radio and TV)",
+        "ar": "كلية الإعلام (إذاعة وتلفزيون)"
+      },
+      {
+        "en": "Faculties of Arts or Alsun with presenting courses",
+        "ar": "كليات الآداب أو الألسن مع كورسات تقديم"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Radio and TV presenting workshops and auditions",
+        "ar": "ورش واختبارات التقديم الإذاعي والتلفزيوني"
+      },
+      {
+        "en": "Building an audience online first",
+        "ar": "بناء جمهور أونلاين الأول"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Presenting and voice",
+        "ar": "التقديم والصوت"
+      },
+      {
+        "en": "Interviewing",
+        "ar": "إدارة الحوار"
+      },
+      {
+        "en": "Basic production",
+        "ar": "أساسيات الإنتاج"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Confidence on air",
+        "ar": "الثقة على الهوا"
+      },
+      {
+        "en": "Quick thinking",
+        "ar": "سرعة البديهة"
+      },
+      {
+        "en": "Curiosity",
+        "ar": "الفضول"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Excellent Arabic (classical and Egyptian); English or French for some channels",
+        "ar": "عربي ممتاز (فصحى ومصري)، وإنجليزي أو فرنساوي لبعض القنوات"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8511,
+        "max": 19961
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/journalism-printing-arts-media?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Radio presenter and announcer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. Paylab lists \"TV Host and Announcer\" but shows no range for it. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Radio presenter and announcer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. يذكر Paylab مسمى «TV Host and Announcer» لكن بدون نطاق راتب. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "TV channels and radio stations",
+        "ar": "القنوات التلفزيونية والإذاعات"
+      },
+      {
+        "en": "Digital media platforms and podcasts",
+        "ar": "المنصات الرقمية والبودكاست"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Podcasts and online shows can be recorded anywhere.",
+      "ar": "البودكاست والبرامج الأونلاين ممكن تتسجل من أي حتة."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo",
+        "ar": "أساسًا القاهرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egyptian presenters work for Gulf and pan-Arab channels.",
+    "ar": "المذيعين المصريين بيشتغلوا في قنوات الخليج والقنوات العربية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Visible, exciting work",
+        "ar": "شغل ظاهر ومثير"
+      },
+      {
+        "en": "Meet interesting people",
+        "ar": "بتقابل ناس مميزة"
+      },
+      {
+        "en": "Digital platforms open new routes",
+        "ar": "المنصات الرقمية بتفتح طرق جديدة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Very competitive",
+        "ar": "تنافسي جدًا"
+      },
+      {
+        "en": "Early or late shows",
+        "ar": "برامج بدري جدًا أو متأخر"
+      },
+      {
+        "en": "Public criticism",
+        "ar": "انتقاد الناس"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Presenters just read what's written for them.",
+          "ar": "المذيع بيقرا اللي مكتوب له وبس."
+        },
+        "fact": {
+          "en": "Good presenters prepare deeply and handle surprises live.",
+          "ar": "المذيع الكويس بيحضّر كويس وبيتصرف في المفاجآت على الهوا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shifts tied to the show time, sometimes very early or late.",
+      "ar": "مواعيد مرتبطة بميعاد البرنامج، أحيانًا بدري جدًا أو متأخر."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Reporter or junior presenter",
+        "ar": "مراسل أو مذيع مبتدئ"
+      },
+      {
+        "en": "Presenter",
+        "ar": "مذيع"
+      },
+      {
+        "en": "Main show host",
+        "ar": "مقدم برنامج رئيسي"
+      },
+      {
+        "en": "Programme director or media personality",
+        "ar": "مدير برامج أو شخصية إعلامية"
+      }
+    ],
+    "relatedCareerIds": [
+      "journalist",
+      "actor",
+      "content_creator",
+      "pr_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Podcasting and digital content",
+        "ar": "البودكاست والمحتوى الرقمي"
+      },
+      {
+        "en": "Voice-over",
+        "ar": "التعليق الصوتي"
+      }
+    ]
+  },
+  "industryId": "performing",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Broadcast Announcers and Radio Disc Jockeys (27-3011.00)",
+      "url": "https://www.onetonline.org/link/summary/27-3011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - News Analysts, Reporters, and Journalists (27-3023.00)",
+      "url": "https://www.onetonline.org/link/summary/27-3023.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

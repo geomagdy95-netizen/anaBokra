@@ -1,6 +1,6 @@
 {
   "id": "science",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,14 +9,14 @@
       "title": { "en": "A day in science and research", "ar": "يوم في العلوم والبحث" },
       "intro": { "en": "Moments from a typical day in science and research. How does each one sound to you?", "ar": "لحظات من يوم عادي في العلوم والبحث. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "science_day_1", "title": { "en": "Third try", "ar": "المحاولة التالتة" }, "text": { "en": "An experiment fails for the third time and the hunt for the reason begins.", "ar": "تجربة فشلت للمرة التالتة، ويبدأ التدوير على السبب." }, "careers": ["biotechnologist", "chemist", "physicist"] },
-        { "id": "science_day_2", "title": { "en": "The lab notebook", "ar": "كشكول المعمل" }, "text": { "en": "Writing every step in a lab notebook so someone else can repeat it.", "ar": "كتابة كل خطوة في كشكول المعمل بحيث حد تاني يقدر يكررها." }, "careers": ["biotechnologist", "chemist", "physicist"] },
-        { "id": "science_day_3", "title": { "en": "A week in the desert", "ar": "أسبوع في الصحرا" }, "text": { "en": "A week in the Eastern Desert collecting rock samples.", "ar": "أسبوع في الصحرا الشرقية لجمع عينات صخور." }, "careers": ["geologist"] },
-        { "id": "science_day_4", "title": { "en": "Testing the water", "ar": "تحليل المية" }, "text": { "en": "Measuring the water in a canal and comparing it with safe limits.", "ar": "قياس جودة المية في ترعة ومقارنتها بالحدود الآمنة." }, "careers": ["environmental_scientist", "chemist"] },
-        { "id": "science_day_5", "title": { "en": "Reading the walls", "ar": "قراية الحيطان" }, "text": { "en": "Reading hieroglyphs on a tomb wall, one sign at a time.", "ar": "قراية هيروغليفي على حيطة مقبرة، علامة علامة." }, "careers": ["egyptologist"] },
-        { "id": "science_day_6", "title": { "en": "Hours of data", "ar": "ساعات بيانات" }, "text": { "en": "Hours at a computer analysing the data from an experiment.", "ar": "ساعات قدام الكمبيوتر لتحليل بيانات تجربة." }, "careers": ["physicist", "biotechnologist", "environmental_scientist"] },
-        { "id": "science_day_7", "title": { "en": "The conference", "ar": "المؤتمر" }, "text": { "en": "Presenting your results at a conference and answering hard questions.", "ar": "عرض نتايجك في مؤتمر والرد على أسئلة صعبة." } },
-        { "id": "science_day_8", "title": { "en": "Reading first", "ar": "القراية الأول" }, "text": { "en": "Weeks of reading what others have published before starting.", "ar": "أسابيع قراية في أبحاث غيرك قبل البداية." } }
+        { "id": "science_day_1", "title": { "en": "Third try", "ar": "المحاولة التالتة" }, "text": { "en": "An experiment fails for the third time and the hunt for the reason begins.", "ar": "تجربة فشلت للمرة التالتة، ولازم تدور على السبب من الأول.", "arF": "تجربة فشلت للمرة التالتة، ولازم تدوري على السبب من الأول." }, "careers": ["biotechnologist", "chemist", "physicist"] },
+        { "id": "science_day_2", "title": { "en": "The lab notebook", "ar": "كشكول المعمل" }, "text": { "en": "Writing every step in a lab notebook so someone else can repeat it.", "ar": "بتكتب كل خطوة في كشكول المعمل، علشان أي حد تاني يقدر يعيد التجربة بالظبط.", "arF": "بتكتبي كل خطوة في كشكول المعمل، علشان أي حد تاني يقدر يعيد التجربة بالظبط." }, "careers": ["biotechnologist", "chemist", "physicist"] },
+        { "id": "science_day_3", "title": { "en": "A week in the desert", "ar": "أسبوع في الصحرا" }, "text": { "en": "A week in the Eastern Desert collecting rock samples.", "ar": "أسبوع كامل في الصحرا الشرقية، بتجمع عينات صخور.", "arF": "أسبوع كامل في الصحرا الشرقية، بتجمعي عينات صخور." }, "careers": ["geologist"] },
+        { "id": "science_day_4", "title": { "en": "Testing the water", "ar": "تحليل المية" }, "text": { "en": "Measuring the water in a canal and comparing it with safe limits.", "ar": "بتقيس جودة المية في ترعة، وتشوف هي في الحدود الآمنة ولا لأ.", "arF": "بتقيسي جودة المية في ترعة، وتشوفي هي في الحدود الآمنة ولا لأ." }, "careers": ["environmental_scientist", "chemist"] },
+        { "id": "science_day_5", "title": { "en": "Reading the walls", "ar": "كتابة على الحيطان" }, "text": { "en": "Reading hieroglyphs on a tomb wall, one sign at a time.", "ar": "بتقرا كتابة هيروغليفي على حيطة مقبرة، علامة ورا علامة.", "arF": "بتقري كتابة هيروغليفي على حيطة مقبرة، علامة ورا علامة." }, "careers": ["egyptologist"] },
+        { "id": "science_day_6", "title": { "en": "Hours of data", "ar": "ساعات مع البيانات" }, "text": { "en": "Hours at a computer analysing the data from an experiment.", "ar": "ساعات قدام الكمبيوتر بتحلل بيانات تجربة.", "arF": "ساعات قدام الكمبيوتر بتحللي بيانات تجربة." }, "careers": ["physicist", "biotechnologist", "environmental_scientist"] },
+        { "id": "science_day_7", "title": { "en": "The conference", "ar": "المؤتمر" }, "text": { "en": "Presenting your results at a conference and answering hard questions.", "ar": "بتعرض نتايجك في مؤتمر، وبترد على أسئلة صعبة من الحضور.", "arF": "بتعرضي نتايجك في مؤتمر، وبتردي على أسئلة صعبة من الحضور." } },
+        { "id": "science_day_8", "title": { "en": "Reading first", "ar": "القراية الأول" }, "text": { "en": "Weeks of reading what others have published before starting.", "ar": "أسابيع بتقرا أبحاث غيرك قبل ما تبدأ بحثك.", "arF": "أسابيع بتقري أبحاث غيرك قبل ما تبدأي بحثك." } }
       ]
     },
     {
@@ -28,8 +28,8 @@
         { "id": "science_real_1", "title": { "en": "Years of study", "ar": "سنين الدراسة" }, "a": { "en": "Years of postgraduate study (master's, PhD)", "ar": "سنين دراسات عليا (ماجستير ودكتوراه)" }, "b": { "en": "Starting work right after graduating", "ar": "تشتغل على طول بعد التخرج", "arF": "تشتغلي على طول بعد التخرج" }, "path": "a", "careers": ["biotechnologist", "physicist", "egyptologist", "environmental_scientist"] },
         { "id": "science_real_2", "title": { "en": "Failure rate", "ar": "نسبة الفشل" }, "a": { "en": "Experiments that fail more often than they work", "ar": "تجارب بتفشل أكتر ما بتنجح" }, "b": { "en": "Tasks with a clear, certain result", "ar": "مهام نتيجتها واضحة ومضمونة" }, "path": "a", "careers": ["biotechnologist", "chemist", "physicist"] },
         { "id": "science_real_3", "title": { "en": "Field or office", "ar": "ميدان ولا مكتب" }, "a": { "en": "Fieldwork in deserts and remote sites", "ar": "شغل ميداني في الصحرا وأماكن بعيدة" }, "b": { "en": "Always working in a city office", "ar": "شغل دايمًا في مكتب في المدينة" }, "path": "a", "careers": ["geologist", "environmental_scientist", "egyptologist"] },
-        { "id": "science_real_4", "title": { "en": "How long answers take", "ar": "الإجابة بتاخد قد إيه" }, "a": { "en": "Answers that can take years", "ar": "إجابات ممكن تاخد سنين" }, "b": { "en": "Results you see this week", "ar": "نتايج تشوفها الأسبوع ده", "arF": "نتايج تشوفيها الأسبوع ده" }, "path": "a" },
-        { "id": "science_real_5", "title": { "en": "Freedom and pay", "ar": "الحرية والمرتب" }, "a": { "en": "A modest academic salary with freedom to research", "ar": "مرتب جامعة متواضع مع حرية في البحث" }, "b": { "en": "A higher salary with tasks set for you", "ar": "مرتب أعلى ومهام متحددة ليك", "arF": "مرتب أعلى ومهام متحددة ليكي" }, "path": "a", "careers": ["physicist", "egyptologist", "biotechnologist"] },
+        { "id": "science_real_4", "title": { "en": "How long answers take", "ar": "النتيجة بتاخد وقت قد إيه" }, "a": { "en": "Answers that can take years", "ar": "نتايج ممكن تاخد سنين" }, "b": { "en": "Results you see this week", "ar": "نتايج تشوفها الأسبوع ده", "arF": "نتايج تشوفيها الأسبوع ده" }, "path": "a" },
+        { "id": "science_real_5", "title": { "en": "Freedom and pay", "ar": "الحرية والمرتب" }, "a": { "en": "A modest academic salary with freedom to research", "ar": "مرتب متواضع في الجامعة، مع حرية تبحث في اللي يشدّك", "arF": "مرتب متواضع في الجامعة، مع حرية تبحثي في اللي يشدّك" }, "b": { "en": "A higher salary with tasks set for you", "ar": "مرتب أعلى ومهام متحددة ليك", "arF": "مرتب أعلى ومهام متحددة ليكي" }, "path": "a", "careers": ["physicist", "egyptologist", "biotechnologist"] },
         { "id": "science_real_6", "title": { "en": "Rules and records", "ar": "القواعد والتسجيل" }, "a": { "en": "Careful rules for safety and record-keeping", "ar": "قواعد دقيقة للسلامة والتسجيل" }, "b": { "en": "Working however you like", "ar": "شغل على مزاجك" }, "path": "a", "careers": ["chemist", "biotechnologist", "environmental_scientist"] }
       ]
     },
@@ -76,12 +76,12 @@
         },
         {
           "id": "science_try_4",
-          "title": { "en": "Half-life", "ar": "عمر النص" },
+          "title": { "en": "Half-life", "ar": "عمر النصف" },
           "type": "puzzle",
           "text": { "en": "A radioactive sample loses half its mass every 10 years. Starting with 80 grams, how much is left after 30 years?", "ar": "عينة مشعة بتفقد نص وزنها كل 10 سنين. لو بدأنا بـ 80 جرام، هيفضل كام بعد 30 سنة؟" },
           "options": [{ "en": "40 g", "ar": "40 جرام" },{ "en": "20 g", "ar": "20 جرام" },{ "en": "10 g", "ar": "10 جرام" },{ "en": "0 g", "ar": "0 جرام" }],
           "answer": 2,
-          "explain": { "en": "Three halvings: 80, 40, 20, 10. Half-lives like this are how scientists date rocks and ancient objects.", "ar": "3 مرات نص: 80، 40، 20، 10. بالطريقة دي العلماء بيحددوا عمر الصخور والآثار القديمة." },
+          "explain": { "en": "Three halvings: 80, 40, 20, 10. Half-lives like this are how scientists date rocks and ancient objects.", "ar": "بتتقسم نصين 3 مرات: 80، 40، 20، 10. بالطريقة دي العلماء بيحددوا عمر الصخور والآثار القديمة." },
           "careers": ["physicist", "geologist", "egyptologist"]
         }
       ]

@@ -10,6 +10,7 @@ export const SECTION_ROLES = {
   flags: ['super_admin'],
   audit: ['super_admin'],
   system: ['super_admin'],
+  insights: ['super_admin', 'analyst', 'assessment_lead'],
 } as const satisfies Record<string, readonly AdminRole[]>;
 export type AdminSection = keyof typeof SECTION_ROLES;
 

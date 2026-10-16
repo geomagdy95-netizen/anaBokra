@@ -413,5 +413,62 @@
       "url": "https://amwalalghad.com/fcdc",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "exam",
+        "level": 3,
+        "text": {
+          "en": "Written exams in Arabic, foreign languages, international law and organisations, and international economic and political relations. You need at least 60% in each paper, and posts go by final ranking.",
+          "ar": "امتحانات تحريرية في العربي واللغات الأجنبية والقانون الدولي والمنظمات الدولية والعلاقات الاقتصادية والسياسية الدولية. لازم 60% على الأقل في كل مادة، والتعيين بالترتيب النهائي."
+        },
+        "tip": {
+          "en": "Reading international news daily and practising essay writing in English and Arabic is the core preparation.",
+          "ar": "أهم استعداد: متابعة الأخبار الدولية كل يوم، والتمرين على كتابة المقالات بالإنجليزي والعربي."
+        },
+        "source": "https://gate.ahram.org.eg/News/4764349.aspx"
+      },
+      {
+        "kind": "interview",
+        "level": 2,
+        "text": {
+          "en": "Only those who pass the written exams sit the oral exam and aptitude tests.",
+          "ar": "اللي بينجح في التحريري بس هو اللي بيدخل الشفوي واختبار القدرات."
+        },
+        "tip": {
+          "en": "Debating clubs and Model UN train exactly the skills the oral exam looks for.",
+          "ar": "نوادي المناظرة ونماذج محاكاة الأمم المتحدة بتدرّب على نفس مهارات الشفوي."
+        },
+        "source": "https://gate.ahram.org.eg/News/4764349.aspx"
+      },
+      {
+        "kind": "age",
+        "level": 2,
+        "text": {
+          "en": "Applicants must be 21 to 27 years old.",
+          "ar": "سن المتقدم لازم يكون من 21 لـ 27 سنة."
+        },
+        "tip": {
+          "en": "The window is short, so many prepare during university.",
+          "ar": "الفرصة قصيرة، فكتير بيبدأوا يستعدوا وهم في الجامعة."
+        },
+        "source": "https://m.akhbarelyom.com/news/NewDetails/4771090/1/%D9%88%D8%B8%D9%8A%D9%81%D8%A9-%D9%85%D9%84%D8%AD%D9%82-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%B9%D8%AF-%D9%88%D8%A7%D9%84"
+      },
+      {
+        "kind": "vetting",
+        "level": 2,
+        "text": {
+          "en": "You and both parents must be Egyptian, you must not be married to a non-Egyptian, and you need a clean record and good reputation.",
+          "ar": "لازم تكون مصري من أبوين مصريين، ومتكونش متجوز من غير مصري، وسجلك نضيف وسمعتك كويسة."
+        },
+        "tip": {
+          "en": "These rules are fixed, so check them before investing years in preparation.",
+          "ar": "الشروط دي ثابتة، فالأحسن التأكد منها قبل سنين من الاستعداد."
+        },
+        "source": "https://m.akhbarelyom.com/news/NewDetails/4771090/1/%D9%88%D8%B8%D9%8A%D9%81%D8%A9-%D9%85%D9%84%D8%AD%D9%82-%D8%AF%D8%A8%D9%84%D9%88%D9%85%D8%A7%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%B9%D8%AF-%D9%88%D8%A7%D9%84"
+      }
+    ]
+  }
 }

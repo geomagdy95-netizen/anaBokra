@@ -25,7 +25,8 @@ const QUALITY = 72;
 
 const STYLE =
   'Warm, painterly digital illustration in a soft semi-realistic storybook style, gentle golden light, clean and uncluttered. ' +
-  'Set in Egypt today. Young Egyptian people aged 18 to 25, a natural mix of men and women, some women wearing hijab, modest everyday or work clothes. ' +
+  'Set in Egypt today. Young Egyptian people aged 18 to 25, modest contemporary everyday or work clothes. Across this complete image set, make about two thirds of the main subjects men and one third women; use men by default unless a scene specifies otherwise. ' +
+  'Keep scenes single-gender by default: a man alone or working with male colleagues, or a woman alone or with women colleagues. Do not stage casual mixed-gender groups, socializing, or close interaction. When a story truly needs both genders in a workplace, show a brief formal professional exchange with respectful space and no physical contact. Women may wear hijab where appropriate. Do not exclude women from any profession. ' +
   'Small accents of violet (#7025B5) and apricot (#FFA366) in clothes or objects; the rest in natural, warm colours. ' +
   'No readable text, letters, numbers, logos or signs anywhere. No watermark, no frame, no border. ' +
   'Square image. Keep the main subject in the middle; the top eighth stays calm (sky, wall or ceiling) because buttons sit there, and the bottom tenth will be covered.';
@@ -44,26 +45,32 @@ const SETTINGS = {
   tourism: 'Luxor temples, a Red Sea hotel lobby, a restaurant kitchen and an airport',
   trades: 'a workshop, a factory production line, a car service bay and a rooftop with solar panels',
   agriculture: 'green Nile Delta fields at sunrise, an irrigation canal, a greenhouse and a food lab',
+  sports: 'a youth club football pitch, a gym with weights and a stadium tunnel on match day',
+  transport: 'a container port on the Suez Canal, an airport apron with a control tower and a busy logistics warehouse',
+  beauty: 'a bright modern salon with mirrors and chairs, a calm spa treatment room and a skincare counter',
+  security: 'a fire station with a red engine, a civil protection training yard and a security control room with screens',
+  religion: 'a mosque courtyard and a church hall in an old Cairo neighbourhood, with a study circle and a community food drive',
+  performing: 'a theatre stage with warm lights, a rehearsal studio with mirrors and a TV studio set',
 };
 
 const TASK_SCENES = {
-  day: (s) => `A typical working moment in ${s}: people busy and focused, seen from close, inviting.`,
-  real: (s) => `A young person pausing to think about a big choice, with ${s} in the background; calm and honest, not dramatic.`,
-  try: (s) => `Hands-on: a young person trying the work for the first time in ${s}, supported by a colleague.`,
+  day: (s) => `A typical working moment in ${s}: one young Egyptian man focused on the work, or a small men-only team, seen from close, inviting.`,
+  real: (s) => `A young Egyptian man pausing to think about a big choice, with ${s} in the background; calm and honest, not dramatic.`,
+  try: (s) => `Hands-on: one young Egyptian man trying the work for the first time in ${s}, with a male colleague offering professional guidance.`,
 };
 
 const DISCOVER = {
-  cover: 'A young Egyptian standing on a small green island at sunrise, looking out at other islands across a calm lavender sea, curious and hopeful.',
-  readiness: 'A young Egyptian sitting on a rooftop in Cairo at golden hour with a notebook, thinking calmly about the future.',
-  1: 'Warm-up: friends laughing while stretching before a walk along the Nile corniche in the morning.',
-  2: 'What lights you up: a young person absorbed in a hobby they love, surrounded by small things they made.',
+  cover: 'A young Egyptian man standing on a small green island at sunrise, looking out at other islands across a calm lavender sea, curious and hopeful.',
+  readiness: 'A young Egyptian man sitting alone on a rooftop in Cairo at golden hour with a notebook, thinking calmly about the future.',
+  1: 'Warm-up: three young Egyptian men stretching together before a walk along the Nile corniche in the morning.',
+  2: 'What lights you up: a young Egyptian man absorbed in a hobby he loves, surrounded by small things he made.',
   3: 'Hands and minds: two hands building a small model next to an open notebook full of sketches.',
-  4: 'People and ideas: a small group of students talking around a café table, one explaining an idea with her hands.',
-  5: 'Your style: the same young person shown working three ways at once: alone with headphones, in a team, and outdoors.',
+  4: 'People and ideas: a small group of young Egyptian men talking around a café table, one explaining an idea with his hands.',
+  5: 'Your style: the same young Egyptian man shown working three ways at once: alone with headphones, in a men-only team, and outdoors.',
   6: 'Halfway there: a path across stepping stones over water, the far island in view, half the stones behind.',
-  7: 'A bit deeper: a young person looking into a clear tide pool full of colourful life.',
+  7: 'A bit deeper: a young Egyptian man looking into a clear tide pool full of colourful life.',
   8: 'Getting clearer: morning mist lifting over Nile fields, the far bank becoming visible.',
-  9: 'Almost there: a young person climbing the last steps up a sunny stairway, a view opening above.',
+  9: 'Almost there: a young Egyptian man climbing the last steps up a sunny stairway, a view opening above.',
   10: 'The last piece: hands placing the final piece into a colourful jigsaw map of islands.',
 };
 
@@ -81,17 +88,23 @@ function images() {
   const add = (key, priority, scene, uses) => list.push({ key, file: `art-src/${key}.png`, priority, uses, prompt: `${scene} ${STYLE}` });
   add('tasks/discover/cover', 1, DISCOVER.cover, 'My island: Discover tasks without their own picture');
   add('tasks/discover/readiness', 1, DISCOVER.readiness, 'Readiness check');
+  add(
+    'tasks/values/cover',
+    1,
+    'A young Egyptian sorting illustrated cards about what matters in work: helping people, learning, stability, creativity and teamwork, shown with simple objects and no words.',
+    'One-time Values card sort at the start of Verify',
+  );
   for (let n = 1; n <= 10; n++) add(`tasks/discover/task_${n}`, 1, DISCOVER[n], `Discover task ${n}`);
   const names = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(ROOT, 'packages/content/careers/catalog.json'), 'utf8')).clusters.map((c) => [c.id, c.name.en]));
   for (const p of readPaths()) {
     const s = SETTINGS[p.id] ?? p.id;
     const where = `Setting: ${names[p.id] ?? p.id} work in Egypt, ${s}.`;
-    add(`tasks/${p.id}/cover`, 1, `The world of ${s}, wide and welcoming, with two or three young people at work.`, `${p.id}: fallback for every task`);
+    add(`tasks/${p.id}/cover`, 1, `The world of ${s}, wide and welcoming, centred on one young Egyptian man at work or a small men-only team.`, `${p.id}: fallback for every task`);
     for (const t of p.tasks) add(`tasks/${p.id}/${t.id}`, 1, TASK_SCENES[t.id](s), `${p.id}: “${t.title.en}” cover and questions without their own picture`);
     for (const t of p.tasks)
       for (const i of t.items) {
-        if (t.id === 'day') add(`tasks/${p.id}/${i.id}`, 2, `Scene: ${i.text.en} ${where}`, `${p.id}: “${i.text.en}”`);
-        else if (t.id === 'try' && i.type === 'scenario') add(`tasks/${p.id}/${i.id}`, 2, `Scene: ${i.text.en} Show the moment just before anyone reacts. ${where}`, `${p.id}: “${i.text.en}”`);
+        if (t.id === 'day') add(`tasks/${p.id}/${i.id}`, 2, `Scene: ${i.text.en} Show one young Egyptian man as the central professional, with male colleagues only if needed. ${where}`, `${p.id}: “${i.text.en}”`);
+        else if (t.id === 'try' && i.type === 'scenario') add(`tasks/${p.id}/${i.id}`, 2, `Scene: ${i.text.en} Show a young Egyptian man in the moment just before anyone reacts; keep any colleagues male. ${where}`, `${p.id}: “${i.text.en}”`);
         else if (t.id === 'real') add(`tasks/${p.id}/${i.id}`, 3, `A quiet symbolic scene about this trade-off: ${i.a.en}, or ${i.b.en.charAt(0).toLowerCase() + i.b.en.slice(1)}. Show it without words. ${where}`, `${p.id}: trade-off ${i.id}`);
         else add(`tasks/${p.id}/${i.id}`, 3, `Close-up of hands working through a small practical problem (${i.text.en.replace(/\?$/, '')}); no visible numbers or text. ${where}`, `${p.id}: puzzle ${i.id}`);
       }

@@ -1,0 +1,273 @@
+{
+  "id": "industrial_engineer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You make factories, hospitals and warehouses work smarter, not harder.",
+      "ar": "بتخلّي المصانع والمستشفيات والمخازن تشتغل أذكى، مش أتعب."
+    },
+    "summary": {
+      "en": "Industrial engineers design and improve how work is done: production lines, layouts, schedules, quality systems and supply chains. They use data and process tools such as Lean and Six Sigma to cut waste, time and cost. In Egypt they work in factories, logistics, banks and consulting, and the degree is a separate department in many faculties of engineering.",
+      "ar": "المهندس الصناعي بيصمم ويحسّن طريقة الشغل: خطوط الإنتاج، ترتيب المكان، الجداول، أنظمة الجودة وسلاسل الإمداد. بيستخدم البيانات وأدوات زي Lean وSix Sigma علشان يقلل الهدر والوقت والتكلفة. في مصر بيشتغل في المصانع واللوجستيات والبنوك والاستشارات، والتخصص قسم مستقل في كليات هندسة كتير."
+    },
+    "dayInLife": {
+      "en": "The packaging line in a food factory is 15% below target. You spend the morning on the floor with a stopwatch, timing each step, and find the bottleneck at the labelling machine. You sketch a new layout that moves two stations closer together and calculate the gain. After lunch you present it to the production manager with the numbers, agree to test it on the night shift, and update the weekly quality report.",
+      "ar": "خط التعبئة في مصنع أغذية أقل من التارجت بـ15%. بتقضي الصبح على الأرض بساعة إيقاف، بتوقّت كل خطوة، وبتلاقي عنق الزجاجة عند ماكينة اللصق. بترسم ترتيب جديد بيقرّب محطتين من بعض وبتحسب المكسب. بعد الغدا بتعرضه على مدير الإنتاج بالأرقام، بتتفقوا تجربوه في الشيفت الليلي، وبتحدّث تقرير الجودة الأسبوعي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Study processes and measure time, cost and waste.",
+        "ar": "بتدرس العمليات وتقيس الوقت والتكلفة والهدر."
+      },
+      {
+        "en": "Design better layouts, schedules and workflows.",
+        "ar": "بتصمم ترتيب وجداول وطرق شغل أحسن."
+      },
+      {
+        "en": "Set up quality and performance indicators.",
+        "ar": "بتعمل مؤشرات للجودة والأداء."
+      },
+      {
+        "en": "Plan production and inventory.",
+        "ar": "بتخطط للإنتاج والمخزون."
+      },
+      {
+        "en": "Lead improvement projects with teams.",
+        "ar": "بتقود مشاريع تحسين مع الفرق."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Factories and production plants",
+        "ar": "المصانع ومحطات الإنتاج"
+      },
+      {
+        "en": "Warehouses, logistics and hospitals",
+        "ar": "المخازن واللوجستيات والمستشفيات"
+      },
+      {
+        "en": "Consulting and banks (operations)",
+        "ar": "الاستشارات والبنوك (العمليات)"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and statistics software",
+        "ar": "إكسل وبرامج الإحصاء"
+      },
+      {
+        "en": "ERP systems such as SAP",
+        "ar": "أنظمة ERP زي SAP"
+      },
+      {
+        "en": "Simulation and layout tools",
+        "ar": "أدوات المحاكاة والتصميم"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Industrial Engineering or Production department",
+        "ar": "كلية الهندسة، قسم هندسة صناعية أو إنتاج"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [],
+    "licensing": {
+      "en": "Engineers Syndicate registration.",
+      "ar": "التسجيل في نقابة المهندسين."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Operations research and statistics",
+        "ar": "بحوث العمليات والإحصاء"
+      },
+      {
+        "en": "Lean and Six Sigma methods",
+        "ar": "أساليب Lean وSix Sigma"
+      },
+      {
+        "en": "Production planning",
+        "ar": "تخطيط الإنتاج"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Systems thinking",
+        "ar": "التفكير المنظومي"
+      },
+      {
+        "en": "Convincing people to change habits",
+        "ar": "إقناع الناس يغيروا عاداتهم"
+      },
+      {
+        "en": "Teamwork",
+        "ar": "العمل الجماعي"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for systems and reports",
+        "ar": "الإنجليزي للأنظمة والتقارير"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Lean Six Sigma Green Belt",
+        "ar": "الحزام الأخضر Lean Six Sigma"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11524,
+        "max": 30824
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/production?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Process Engineer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Process Engineer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Food, pharmaceutical, automotive and textile factories",
+        "ar": "مصانع الأغذية والأدوية والسيارات والنسيج"
+      },
+      {
+        "en": "Logistics and e-commerce companies",
+        "ar": "شركات اللوجستيات والتجارة الإلكترونية"
+      },
+      {
+        "en": "Consulting firms",
+        "ar": "شركات الاستشارات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly on site; consulting and planning roles can be hybrid.",
+      "ar": "أغلبه في الموقع؛ والاستشارات والتخطيط ممكن تبقى هايبرد."
+    },
+    "regions": [
+      {
+        "en": "Industrial zones such as 10th of Ramadan, 6th of October, Sadat City and Borg El Arab",
+        "ar": "المناطق الصناعية زي العاشر من رمضان و6 أكتوبر ومدينة السادات وبرج العرب"
+      }
+    ]
+  },
+  "global": {
+    "en": "Process improvement and supply chain skills are valued in the Gulf and Europe.",
+    "ar": "مهارات تحسين العمليات وسلاسل الإمداد مطلوبة في الخليج وأوروبا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Works in almost any industry",
+        "ar": "بيشتغل في أي مجال تقريبًا"
+      },
+      {
+        "en": "Numbers-driven and practical",
+        "ar": "معتمد على الأرقام وعملي"
+      },
+      {
+        "en": "A route to operations management",
+        "ar": "طريق لإدارة العمليات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Resistance to change from workers and managers",
+        "ar": "مقاومة التغيير من العمال والمديرين"
+      },
+      {
+        "en": "Shift work in some factories",
+        "ar": "شيفتات في بعض المصانع"
+      },
+      {
+        "en": "Factories far from city centres",
+        "ar": "المصانع بعيدة عن وسط المدينة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Industrial engineering is just paperwork.",
+          "ar": "الهندسة الصناعية ورق وبس."
+        },
+        "fact": {
+          "en": "Most improvements start on the factory floor, watching and measuring real work.",
+          "ar": "أغلب التحسينات بتبدأ على أرض المصنع، بالملاحظة والقياس للشغل الحقيقي."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office and factory hours; some plants run shifts.",
+      "ar": "مواعيد مكتب ومصنع؛ وبعض المصانع شغالة شيفتات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior industrial or planning engineer",
+        "ar": "مهندس صناعي أو تخطيط مبتدئ"
+      },
+      {
+        "en": "Process improvement or quality engineer",
+        "ar": "مهندس تحسين عمليات أو جودة"
+      },
+      {
+        "en": "Operations or supply chain manager",
+        "ar": "مدير عمليات أو سلاسل إمداد"
+      },
+      {
+        "en": "Plant or operations director",
+        "ar": "مدير مصنع أو مدير عمليات"
+      }
+    ],
+    "relatedCareerIds": [
+      "mechanical_engineer",
+      "supply_chain_specialist",
+      "mechatronics_engineer",
+      "data_analyst"
+    ],
+    "pivots": [
+      {
+        "en": "Supply chain and logistics",
+        "ar": "سلاسل الإمداد واللوجستيات"
+      },
+      {
+        "en": "Data analysis or management consulting",
+        "ar": "تحليل البيانات أو الاستشارات الإدارية"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Industrial Engineers (17-2112.00)",
+      "url": "https://www.onetonline.org/link/summary/17-2112.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Manufacturing Engineers (17-2112.03)",
+      "url": "https://www.onetonline.org/link/summary/17-2112.03",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

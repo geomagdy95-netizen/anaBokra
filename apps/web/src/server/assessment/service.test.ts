@@ -385,7 +385,7 @@ describe('finalize', () => {
         "ai_engineer",
         "data_scientist",
         "physicist",
-        "geologist",
+        "epidemiologist",
       ]
     `);
   });
@@ -442,14 +442,67 @@ describe('finalize', () => {
   });
 
   it('flags rushed straight-lining without blocking the result', async () => {
-    const { svc } = setup();
+    const { svc, repo } = setup();
     const id = await startFull(svc);
+    // A session on the 1–5 scale (sessions from before the checklist).
+    const s = (await repo.getSession(ADULT, id))!;
+    await repo.updateSession(id, { progress: { ...(s.progress as object), formats: { interests: 'scale', values: 'cards' } }, lastActiveAt: s.lastActiveAt });
     const lazy = instruments.interests.items.map((it) => ({ itemId: it.id, value: it.attentionCheck ? 1 : 3, ms: 200 }));
     await svc.saveResponses(ADULT, { sessionId: id, station: 'interests', responses: lazy });
     const result = await svc.finalize(ADULT, { sessionId: id });
     expect((result.quality as { flags: string[] }).flags).toEqual(
       expect.arrayContaining(['straightLining', 'tooFast', 'attentionFailed']),
     );
+  });
+
+  it('on the checklist, flags tapping everything (low variance) but not long runs of untapped cards', async () => {
+    const { svc } = setup();
+    const lazyId = await startFull(svc);
+    const all = instruments.interests.items.map((it) => ({ itemId: it.id, value: it.attentionCheck ? 1 : 5, ms: 200 }));
+    await svc.saveResponses(ADULT, { sessionId: lazyId, station: 'interests', responses: all });
+    const lazy = await svc.finalize(ADULT, { sessionId: lazyId });
+    expect((lazy.quality as { flags: string[] }).flags).toEqual(expect.arrayContaining(['lowVariance', 'tooFast', 'attentionFailed']));
+    expect((lazy.scores as { derived: { answerFormats?: unknown } }).derived.answerFormats).toEqual({ interests: 'checklist', values: 'budget' });
+
+    const { svc: svc2 } = setup();
+    const id = await startFull(svc2);
+    // Likes only investigating and creating: long runs of untapped cards elsewhere.
+    const picky = instruments.interests.items.map((it) => ({ itemId: it.id, value: it.attentionCheck || it.scale === 'I' || it.scale === 'A' ? 5 : 1, ms: 3000 }));
+    await svc2.saveResponses(ADULT, { sessionId: id, station: 'interests', responses: picky });
+    const r = await svc2.finalize(ADULT, { sessionId: id });
+    expect((r.quality as { flags: string[] }).flags).toEqual([]);
+  });
+});
+
+describe('values budget', () => {
+  const coins = { vb_achievement: 3, vb_workingConditions: 2, vb_recognition: 0, vb_relationships: 4, vb_support: 0, vb_independence: 1 };
+  const rows = (c: Record<string, number>) => Object.entries(c).map(([itemId, value]) => ({ itemId, value }));
+
+  it('records the formats on a new session and scores values from the budget', async () => {
+    const { svc } = setup();
+    const id = await startFull(svc);
+    expect((await svc.getResume(ADULT, { sessionId: id })).formats).toEqual({ interests: 'checklist', values: 'budget' });
+    await svc.saveResponses(ADULT, { sessionId: id, station: 'values', responses: rows(coins) });
+    const done = await svc.completeStation(ADULT, { sessionId: id, station: 'values', valuesRanking: ['relationships', 'achievement', 'workingConditions'] });
+    expect(done.stations.find((st) => st.id === 'values')?.done).toBe(true);
+  });
+
+  it('rejects spending more than the coins, even across batches', async () => {
+    const { svc } = setup();
+    const id = await startFull(svc);
+    await svc.saveResponses(ADULT, { sessionId: id, station: 'values', responses: rows({ vb_achievement: 8 }) });
+    await expect(svc.saveResponses(ADULT, { sessionId: id, station: 'values', responses: rows({ vb_support: 3 }) })).rejects.toMatchObject({ code: 'invalid_value' });
+    await expect(svc.saveResponses(ADULT, { sessionId: id, station: 'values', responses: rows({ vb_support: 11 }) })).rejects.toMatchObject({ code: 'invalid_value' });
+  });
+
+  it('reports sessions from before formats were recorded as the original formats', async () => {
+    const { svc, repo } = setup();
+    const id = await startFull(svc);
+    const s = (await repo.getSession(ADULT, id))!;
+    const old = { ...(s.progress as Record<string, unknown>) };
+    delete old.formats;
+    await repo.updateSession(id, { progress: old as never, lastActiveAt: s.lastActiveAt });
+    expect((await svc.getResume(ADULT, { sessionId: id })).formats).toEqual({ interests: 'scale', values: 'cards' });
   });
 });
 

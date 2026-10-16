@@ -1,0 +1,254 @@
+{
+  "id": "sports_manager",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You run the business behind the game.",
+      "ar": "بتدير البيزنس اللي ورا اللعبة."
+    },
+    "summary": {
+      "en": "Sports managers run clubs, academies, federations, gyms and events: budgets, sponsors, players' contracts, facilities and marketing. In Egypt they work in clubs, the Ministry of Youth and Sports, federations, sports companies and agencies. A Physical Education or Commerce degree, often with a sports management diploma, is the usual route.",
+      "ar": "المدير الرياضي بيدير الأندية والأكاديميات والاتحادات والجيمات والبطولات: الميزانيات والرعاة وعقود اللاعبين والمنشآت والتسويق. في مصر بيشتغلوا في الأندية ووزارة الشباب والرياضة والاتحادات والشركات والوكالات الرياضية. الطريق المعتاد شهادة تربية رياضية أو تجارة، وغالبًا معاها دبلومة إدارة رياضية."
+    },
+    "dayInLife": {
+      "en": "Your academy hosts a tournament on Friday. In the morning you confirm referees, pitches and the ambulance, then call a sponsor about banners. At noon you review registrations and fees with the accountant. In the afternoon you negotiate a pitch-rental contract with a school and approve the social media plan. In the evening you walk the venue with the safety officer.",
+      "ar": "أكاديميتك بتنظم بطولة يوم الجمعة. الصبح بتأكد الحكام والملاعب والإسعاف، وبعدين تكلم راعي بخصوص البانرات. الضهر بتراجع التسجيلات والاشتراكات مع المحاسب. بعد الضهر بتتفاوض على عقد إيجار ملعب مع مدرسة وبتوافق على خطة السوشيال ميديا. بالليل بتلف في المكان مع مسؤول السلامة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan budgets and manage finances.",
+        "ar": "بتخطط الميزانيات وتدير الماليات."
+      },
+      {
+        "en": "Find and keep sponsors.",
+        "ar": "بتجيب رعاة وتحافظ عليهم."
+      },
+      {
+        "en": "Organise events and competitions.",
+        "ar": "بتنظم فعاليات وبطولات."
+      },
+      {
+        "en": "Manage staff, coaches and facilities.",
+        "ar": "بتدير الموظفين والمدربين والمنشآت."
+      },
+      {
+        "en": "Handle contracts and marketing.",
+        "ar": "بتتعامل مع العقود والتسويق."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Clubs, academies and federations",
+        "ar": "الأندية والأكاديميات والاتحادات"
+      },
+      {
+        "en": "Sports companies, gyms and event agencies",
+        "ar": "الشركات الرياضية والجيمات ووكالات الفعاليات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Spreadsheets and budgeting tools",
+        "ar": "الشيتات وأدوات الميزانية"
+      },
+      {
+        "en": "Event and membership software",
+        "ar": "برامج الفعاليات والعضويات"
+      },
+      {
+        "en": "Social media",
+        "ar": "السوشيال ميديا"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Physical Education (sports management)",
+        "ar": "كلية التربية الرياضية (الإدارة الرياضية)"
+      },
+      {
+        "en": "Faculty of Commerce with a sports management diploma",
+        "ar": "كلية التجارة مع دبلومة إدارة رياضية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Budgeting and contracts",
+        "ar": "الميزانيات والعقود"
+      },
+      {
+        "en": "Event management",
+        "ar": "إدارة الفعاليات"
+      },
+      {
+        "en": "Sports marketing",
+        "ar": "التسويق الرياضي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Negotiation",
+        "ar": "التفاوض"
+      },
+      {
+        "en": "Leadership",
+        "ar": "القيادة"
+      },
+      {
+        "en": "Calm under event pressure",
+        "ar": "الهدوء تحت ضغط الفعاليات"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for sponsors and international federations",
+        "ar": "الإنجليزي للرعاة والاتحادات الدولية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Sports clubs and federations",
+        "ar": "الأندية والاتحادات الرياضية"
+      },
+      {
+        "en": "Sports companies, gyms and event agencies",
+        "ar": "الشركات الرياضية والجيمات ووكالات الفعاليات"
+      },
+      {
+        "en": "Ministry of Youth and Sports",
+        "ar": "وزارة الشباب والرياضة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly in person; some marketing work can be hybrid.",
+      "ar": "أغلبه حضوري؛ وبعض شغل التسويق ممكن يبقى هايبرد."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo and Alexandria",
+        "ar": "أساسًا القاهرة وإسكندرية"
+      }
+    ],
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for sports managers, so we do not show a number. Pay differs a lot between big clubs, federations, private academies and sports companies.",
+      "ar": "لا يضم Paylab مصر مسمى لمديري الرياضة، لذلك لا نعرض رقمًا. يختلف الأجر كثيرًا بين الأندية الكبيرة والاتحادات والأكاديميات الخاصة وشركات الرياضة."
+    }
+  },
+  "global": {
+    "en": "The Gulf hosts big sports events and hires sports managers and event staff.",
+    "ar": "الخليج بيستضيف أحداث رياضية كبيرة وبيشغّل مديرين وموظفين فعاليات رياضية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work close to sport without playing",
+        "ar": "شغل قريب من الرياضة من غير ما تلعب"
+      },
+      {
+        "en": "Variety: money, people and events",
+        "ar": "تنوع: فلوس وناس وفعاليات"
+      },
+      {
+        "en": "Growing sports business",
+        "ar": "بيزنس رياضي بيكبر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Weekend and evening events",
+        "ar": "فعاليات في الإجازات وبالليل"
+      },
+      {
+        "en": "Limited budgets in many clubs",
+        "ar": "ميزانيات محدودة في أندية كتير"
+      },
+      {
+        "en": "Pressure when results or events go wrong",
+        "ar": "ضغط لما النتايج أو الفعاليات تبوظ"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Sports management is just being a fan with a title.",
+          "ar": "الإدارة الرياضية مجرد مشجع بلقب."
+        },
+        "fact": {
+          "en": "It is business work: budgets, contracts, sponsors and safety.",
+          "ar": "ده شغل بيزنس: ميزانيات وعقود ورعاة وسلامة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office days plus busy event weekends.",
+      "ar": "أيام مكتب مع إجازات زحمة بالفعاليات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Sports administrator or event coordinator",
+        "ar": "إداري رياضي أو منسق فعاليات"
+      },
+      {
+        "en": "Academy or facility manager",
+        "ar": "مدير أكاديمية أو منشأة"
+      },
+      {
+        "en": "Club or federation director",
+        "ar": "مدير نادي أو اتحاد"
+      },
+      {
+        "en": "Chief executive of a club or sports company",
+        "ar": "رئيس تنفيذي لنادي أو شركة رياضية"
+      }
+    ],
+    "relatedCareerIds": [
+      "sports_coach",
+      "event_planner",
+      "athlete",
+      "entrepreneur"
+    ],
+    "pivots": [
+      {
+        "en": "Event planning",
+        "ar": "تنظيم الفعاليات"
+      },
+      {
+        "en": "Sports marketing and media",
+        "ar": "التسويق والإعلام الرياضي"
+      }
+    ]
+  },
+  "industryId": "sports",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Agents and Business Managers of Artists, Performers, and Athletes (13-1011.00)",
+      "url": "https://www.onetonline.org/link/summary/13-1011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Entertainment and Recreation Managers, Except Gambling (11-9072.00)",
+      "url": "https://www.onetonline.org/link/summary/11-9072.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "welder",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You join steel that holds up bridges, ships and factories.",
+      "ar": "بتلحم الحديد اللي شايل الكباري والسفن والمصانع."
+    },
+    "summary": {
+      "en": "Welders and metal fabricators cut, shape and join metal to build structures, pipelines, tanks, gates and machine parts. Certified welders who can pass tests on pipes and pressure vessels are in demand in Egypt's construction, oil and gas, shipbuilding and factories, and abroad. Technical schools, vocational centres and international certificates are the route.",
+      "ar": "اللحّام ومشغّل المعادن بيقطع ويشكّل ويلحم المعادن علشان يبني منشآت ومواسير وخزانات وبوابات وأجزاء ماكينات. اللحّامين المعتمدين اللي بينجحوا في اختبارات المواسير وأوعية الضغط مطلوبين في المقاولات والبترول والغاز وبناء السفن والمصانع في مصر وبرّه. المدارس الفنية ومراكز التدريب المهني والشهادات الدولية هي الطريق."
+    },
+    "dayInLife": {
+      "en": "On a pipeline project you put on your helmet and gloves and check the welding procedure for today's joints. You prepare the pipe ends, set the machine and lay the root pass, then the filling passes, keeping your hand steady for over an hour. The inspector checks your weld with an X-ray test; it passes. In the afternoon you fabricate supports from steel plate in the workshop and clean your area before leaving.",
+      "ar": "في مشروع خط مواسير بتلبس الخوذة والجوانتي وبتراجع إجراء اللحام لوصلات النهارده. بتجهز أطراف الماسورة، بتظبط الماكينة وبتعمل أول طبقة، وبعدين طبقات الملء، وإيدك ثابتة أكتر من ساعة. المفتش بيفحص اللحام بالأشعة؛ وبيعدّي. بعد الضهر بتصنّع دعامات من ألواح حديد في الورشة وبتنضّف مكانك قبل ما تمشي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Read drawings and welding procedures.",
+        "ar": "بتقرا الرسومات وإجراءات اللحام."
+      },
+      {
+        "en": "Cut and prepare metal parts.",
+        "ar": "بتقطع وتجهز أجزاء المعادن."
+      },
+      {
+        "en": "Weld with arc, MIG or TIG methods.",
+        "ar": "بتلحم بالقوس أو MIG أو TIG."
+      },
+      {
+        "en": "Check welds and fix defects.",
+        "ar": "بتفحص اللحام وتصلح العيوب."
+      },
+      {
+        "en": "Follow strict safety rules.",
+        "ar": "بتطبق قواعد سلامة صارمة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Construction and pipeline sites",
+        "ar": "مواقع البناء وخطوط المواسير"
+      },
+      {
+        "en": "Workshops, factories and shipyards",
+        "ar": "الورش والمصانع وأحواض السفن"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Welding machines (SMAW, MIG, TIG)",
+        "ar": "ماكينات اللحام (قوس، MIG، TIG)"
+      },
+      {
+        "en": "Grinders and cutting torches",
+        "ar": "الصواريخ وشعلة القطع"
+      },
+      {
+        "en": "Protective gear",
+        "ar": "معدات الحماية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Technical secondary schools (metalwork, welding)",
+        "ar": "المدارس الثانوية الفنية (تشغيل معادن، لحام)"
+      },
+      {
+        "en": "Vocational training centres and applied technology schools",
+        "ar": "مراكز التدريب المهني ومدارس التكنولوجيا التطبيقية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Apprenticeship in a workshop",
+        "ar": "تتعلم في ورشة"
+      },
+      {
+        "en": "Certification courses in pipe welding",
+        "ar": "كورسات شهادات لحام المواسير"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Welding techniques and positions",
+        "ar": "طرق ووضعيات اللحام"
+      },
+      {
+        "en": "Reading drawings",
+        "ar": "قراية الرسومات"
+      },
+      {
+        "en": "Metal properties",
+        "ar": "خصائص المعادن"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Steady concentration",
+        "ar": "تركيز ثابت"
+      },
+      {
+        "en": "Discipline with safety",
+        "ar": "الالتزام بالسلامة"
+      },
+      {
+        "en": "Pride in quality",
+        "ar": "الفخر بالجودة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English helps with international certificates and projects",
+        "ar": "العربي، والإنجليزي بيساعد في الشهادات والمشاريع الدولية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Welder qualification tests (for example to ASME or AWS standards)",
+        "ar": "اختبارات تأهيل اللحامين (زي معايير ASME أو AWS)"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10553,
+        "max": 21977
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/mechanical-engineering?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Welder\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Welder»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Construction and steel structure companies",
+        "ar": "شركات المقاولات والهياكل المعدنية"
+      },
+      {
+        "en": "Oil, gas and petrochemical contractors",
+        "ar": "مقاولين البترول والغاز والبتروكيماويات"
+      },
+      {
+        "en": "Shipyards and factories",
+        "ar": "أحواض السفن والمصانع"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; it is hands-on.",
+      "ar": "لأ؛ شغل إيد."
+    },
+    "regions": [
+      {
+        "en": "Industrial zones, Suez, Alexandria and project sites",
+        "ar": "المناطق الصناعية والسويس وإسكندرية ومواقع المشاريع"
+      }
+    ]
+  },
+  "global": {
+    "en": "Certified welders are hired in the Gulf and on international projects, often with higher pay.",
+    "ar": "اللحّامين المعتمدين مطلوبين في الخليج والمشاريع الدولية، وغالبًا بمرتب أعلى."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Strong demand for certified welders",
+        "ar": "طلب قوي على المعتمدين"
+      },
+      {
+        "en": "Pay rises with certifications",
+        "ar": "المرتب بيزيد بالشهادات"
+      },
+      {
+        "en": "Work you can see and touch",
+        "ar": "شغل تشوفه وتلمسه"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Heat, fumes and physical strain",
+        "ar": "حرارة ودخان ومجهود جسدي"
+      },
+      {
+        "en": "Strict safety needed to avoid injury",
+        "ar": "لازم سلامة صارمة علشان متتصابش"
+      },
+      {
+        "en": "Projects can be far from home",
+        "ar": "المشاريع ممكن تبقى بعيدة عن البيت"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Welding is simple work anyone can do.",
+          "ar": "اللحام شغل بسيط أي حد يعمله."
+        },
+        "fact": {
+          "en": "Pipe and structural welding are tested to strict standards; a good welder trains for years.",
+          "ar": "لحام المواسير والهياكل بيتختبر بمعايير صارمة؛ واللحّام الشاطر بيتدرب سنين."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Project schedules and overtime are common; rotations on remote sites.",
+      "ar": "جداول المشاريع والأوفرتايم منتشرين؛ وتناوب في المواقع البعيدة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Helper",
+        "ar": "مساعد"
+      },
+      {
+        "en": "Welder",
+        "ar": "لحّام"
+      },
+      {
+        "en": "Certified or pipe welder",
+        "ar": "لحّام معتمد أو لحّام مواسير"
+      },
+      {
+        "en": "Welding foreman or inspector",
+        "ar": "رئيس لحامين أو مفتش لحام"
+      }
+    ],
+    "relatedCareerIds": [
+      "cnc_operator",
+      "industrial_technician",
+      "mechanical_engineer",
+      "site_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Welding inspection",
+        "ar": "فحص اللحام"
+      },
+      {
+        "en": "Running a metal workshop",
+        "ar": "إدارة ورشة معادن"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Welders, Cutters, Solderers, and Brazers (51-4121.00)",
+      "url": "https://www.onetonline.org/link/summary/51-4121.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Structural Metal Fabricators and Fitters (51-2041.00)",
+      "url": "https://www.onetonline.org/link/summary/51-2041.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

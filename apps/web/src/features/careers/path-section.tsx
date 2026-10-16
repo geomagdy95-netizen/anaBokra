@@ -1,5 +1,7 @@
 import { programById, providerById, universityById, type Program } from '@anabokra/content';
+import { ChevronDown } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
+import type { ReactNode } from 'react';
 
 import { BulletList, pick, SubHeading } from './common';
 import { latestMinScore } from './programs';
@@ -52,6 +54,22 @@ function ProgramRow({ program }: { program: Program }) {
   );
 }
 
+/** Programs listed before "show all"; the rest stay one tap away. */
+const SHOWN = 3;
+
+/** Long reference text (admission rules, certificates, licensing) folded so the route itself reads first. */
+function Fold({ title, children }: { title: string; children: ReactNode }) {
+  return (
+    <details className="group rounded-2xl border border-border bg-card">
+      <summary className="flex min-h-11 cursor-pointer list-none items-center gap-2 p-3 font-semibold [&::-webkit-details-marker]:hidden">
+        <span className="flex-1">{title}</span>
+        <ChevronDown className="size-5 shrink-0 text-primary transition-transform group-open:rotate-180" aria-hidden />
+      </summary>
+      <div className="px-3 pb-3">{children}</div>
+    </details>
+  );
+}
+
 export function PathSection({ path, providerIds }: { path: NonNullable<CareerPage['pathEgypt']>; providerIds?: string[] }) {
   const t = useTranslations('Careers.path');
   const locale = useLocale() as Locale;
@@ -92,25 +110,36 @@ export function PathSection({ path, providerIds }: { path: NonNullable<CareerPag
         <div className="space-y-3">
           <SubHeading>{t('programs')}</SubHeading>
           <ul className="grid gap-3 @2xl:grid-cols-2">
-            {programs.map((p) => (
+            {programs.slice(0, SHOWN).map((p) => (
               <ProgramRow key={p.id} program={p} />
             ))}
           </ul>
+          {programs.length > SHOWN ? (
+            <details className="group">
+              <summary className="flex min-h-11 cursor-pointer list-none items-center font-semibold text-primary [&::-webkit-details-marker]:hidden">
+                <span className="group-open:hidden">{t('morePrograms', { count: programs.length - SHOWN })}</span>
+                <span className="hidden group-open:inline">{t('fewerPrograms')}</span>
+              </summary>
+              <ul className="grid gap-3 pt-2 @2xl:grid-cols-2">
+                {programs.slice(SHOWN).map((p) => (
+                  <ProgramRow key={p.id} program={p} />
+                ))}
+              </ul>
+            </details>
+          ) : null}
         </div>
       ) : null}
 
       {path.tansikNote ? (
-        <div className="space-y-2">
-          <SubHeading>{t('tansik')}</SubHeading>
+        <Fold title={t('tansik')}>
           <p className="text-sm">{pick(path.tansikNote, locale)}</p>
-        </div>
+        </Fold>
       ) : null}
 
       {path.otherCurricula ? (
-        <div className="space-y-2">
-          <SubHeading>{t('otherCurricula')}</SubHeading>
-          <p>{pick(path.otherCurricula, locale)}</p>
-        </div>
+        <Fold title={t('otherCurricula')}>
+          <p className="text-sm">{pick(path.otherCurricula, locale)}</p>
+        </Fold>
       ) : null}
 
       {path.alternativeRoutes?.length ? (
@@ -121,10 +150,9 @@ export function PathSection({ path, providerIds }: { path: NonNullable<CareerPag
       ) : null}
 
       {path.licensing ? (
-        <div className="space-y-2">
-          <SubHeading>{t('licensing')}</SubHeading>
-          <p>{pick(path.licensing, locale)}</p>
-        </div>
+        <Fold title={t('licensing')}>
+          <p className="text-sm">{pick(path.licensing, locale)}</p>
+        </Fold>
       ) : null}
 
       {providers.length ? (

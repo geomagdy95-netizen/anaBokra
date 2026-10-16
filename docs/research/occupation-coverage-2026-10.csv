@@ -1,0 +1,1017 @@
+Category,Occupation (O*NET),O*NET code,Status,Job Zone,Our career
+Technology & Data,Computer and Information Research Scientists,15-1221.00,Included,5 postgraduate,ai_engineer
+Technology & Data,Computer and Information Systems Managers,11-3021.00,Included,4 bachelor's,product_manager
+Technology & Data,Data Scientists,15-2051.00,Included,4 bachelor's,"data_scientist,ai_engineer"
+Technology & Data,Information Security Analysts,15-1212.00,Included,4 bachelor's,cybersecurity_specialist
+Technology & Data,Information Technology Project Managers,15-1299.09,Included,4 bachelor's,product_manager
+Technology & Data,Software Developers,15-1252.00,Included,4 bachelor's,"software_engineer,mobile_developer"
+Technology & Data,Video Game Designers,15-1255.01,Included,4 bachelor's,game_developer
+Technology & Data,Web and Digital Interface Designers,15-1255.00,Included,4 bachelor's,ux_designer
+Technology & Data,Computer Systems Engineers/Architects,15-1299.08,Included,3 diploma or training,cloud_devops_engineer
+Technology & Data,Computer User Support Specialists,15-1232.00,Included,3 diploma or training,it_support
+Technology & Data,Network and Computer Systems Administrators,15-1244.00,Included,3 diploma or training,cloud_devops_engineer
+Technology & Data,Web Developers,15-1254.00,Included,3 diploma or training,mobile_developer
+Technology & Data,Health Informatics Specialists,15-1211.01,Close to a career,5 postgraduate,cybersecurity_specialist
+Technology & Data,Blockchain Engineers,15-1299.07,Close to a career,4 bachelor's,product_manager
+Technology & Data,Business Intelligence Analysts,15-2051.01,Close to a career,4 bachelor's,"data_scientist,ai_engineer"
+Technology & Data,Clinical Data Managers,15-2051.02,Close to a career,4 bachelor's,"data_scientist,ai_engineer"
+Technology & Data,Computer Network Architects,15-1241.00,Close to a career,4 bachelor's,cloud_devops_engineer
+Technology & Data,Computer Network Support Specialists,15-1231.00,Close to a career,4 bachelor's,it_support
+Technology & Data,Computer Programmers,15-1251.00,Close to a career,4 bachelor's,game_developer
+Technology & Data,Computer Systems Analysts,15-1211.00,Close to a career,4 bachelor's,cybersecurity_specialist
+Technology & Data,Data Warehousing Specialists,15-1243.01,Close to a career,4 bachelor's,cloud_devops_engineer
+Technology & Data,Database Administrators,15-1242.00,Close to a career,4 bachelor's,cloud_devops_engineer
+Technology & Data,Database Architects,15-1243.00,Close to a career,4 bachelor's,cloud_devops_engineer
+Technology & Data,Digital Forensics Analysts,15-1299.06,Close to a career,4 bachelor's,product_manager
+Technology & Data,Document Management Specialists,15-1299.03,Close to a career,4 bachelor's,product_manager
+Technology & Data,Geographic Information Systems Technologists and Technicians,15-1299.02,Close to a career,4 bachelor's,product_manager
+Technology & Data,Information Security Engineers,15-1299.05,Close to a career,4 bachelor's,product_manager
+Technology & Data,Penetration Testers,15-1299.04,Close to a career,4 bachelor's,product_manager
+Technology & Data,Software Quality Assurance Analysts and Testers,15-1253.00,Close to a career,4 bachelor's,game_developer
+Technology & Data,Web Administrators,15-1299.01,Close to a career,4 bachelor's,product_manager
+Technology & Data,Telecommunications Engineering Specialists,15-1241.01,Close to a career,3 diploma or training,cloud_devops_engineer
+Technology & Data,"Computer Occupations, All Other",15-1299.00,Close to a career,,product_manager
+Technology & Data,Bioinformatics Technicians,15-2099.01,Missed,4 bachelor's,
+Technology & Data,"Mathematical Science Occupations, All Other",15-2099.00,Missed,,
+Health & Medicine,Clinical and Counseling Psychologists,19-3033.00,Included,5 postgraduate,clinical_psychologist
+Health & Medicine,"Dentists, General",29-1021.00,Included,5 postgraduate,dentist
+Health & Medicine,Dietitians and Nutritionists,29-1031.00,Included,5 postgraduate,clinical_nutritionist
+Health & Medicine,Family Medicine Physicians,29-1215.00,Included,5 postgraduate,physician
+Health & Medicine,General Internal Medicine Physicians,29-1216.00,Included,5 postgraduate,physician
+Health & Medicine,Pharmacists,29-1051.00,Included,5 postgraduate,pharmacist
+Health & Medicine,Physical Therapists,29-1123.00,Included,5 postgraduate,physical_therapist
+Health & Medicine,Veterinarians,29-1131.00,Included,5 postgraduate,veterinarian
+Health & Medicine,Medical and Clinical Laboratory Technologists,29-2011.00,Included,4 bachelor's,medical_lab_scientist
+Health & Medicine,Registered Nurses,29-1141.00,Included,4 bachelor's,nurse
+Health & Medicine,Radiologic Technologists and Technicians,29-2034.00,Included,3 diploma or training,radiology_technologist
+Health & Medicine,Advanced Practice Psychiatric Nurses,29-1141.02,Close to a career,5 postgraduate,nurse
+Health & Medicine,Anesthesiologists,29-1211.00,Close to a career,5 postgraduate,physician
+Health & Medicine,Art Therapists,29-1129.01,Close to a career,5 postgraduate,physical_therapist
+Health & Medicine,Cardiologists,29-1212.00,Close to a career,5 postgraduate,physician
+Health & Medicine,Clinical Neuropsychologists,19-3039.03,Close to a career,5 postgraduate,clinical_psychologist
+Health & Medicine,Clinical Nurse Specialists,29-1141.04,Close to a career,5 postgraduate,nurse
+Health & Medicine,Cytotechnologists,29-2011.02,Close to a career,5 postgraduate,medical_lab_scientist
+Health & Medicine,Dermatologists,29-1213.00,Close to a career,5 postgraduate,physician
+Health & Medicine,Emergency Medicine Physicians,29-1214.00,Close to a career,5 postgraduate,physician
+Health & Medicine,"Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation Therapists",29-1122.01,Close to a career,5 postgraduate,physical_therapist
+Health & Medicine,Neurologists,29-1217.00,Close to a career,5 postgraduate,physician
+Health & Medicine,Neuropsychologists,19-3039.02,Close to a career,5 postgraduate,clinical_psychologist
+Health & Medicine,Obstetricians and Gynecologists,29-1218.00,Close to a career,5 postgraduate,physician
+Health & Medicine,Occupational Therapists,29-1122.00,Close to a career,5 postgraduate,physical_therapist
+Health & Medicine,Oral and Maxillofacial Surgeons,29-1022.00,Close to a career,5 postgraduate,dentist
+Health & Medicine,Orthodontists,29-1023.00,Close to a career,5 postgraduate,dentist
+Health & Medicine,Prosthodontists,29-1024.00,Close to a career,5 postgraduate,dentist
+Health & Medicine,Speech-Language Pathologists,29-1127.00,Close to a career,5 postgraduate,physical_therapist
+Health & Medicine,Acute Care Nurses,29-1141.01,Close to a career,4 bachelor's,nurse
+Health & Medicine,Critical Care Nurses,29-1141.03,Close to a career,4 bachelor's,nurse
+Health & Medicine,Cytogenetic Technologists,29-2011.01,Close to a career,4 bachelor's,medical_lab_scientist
+Health & Medicine,Exercise Physiologists,29-1128.00,Close to a career,4 bachelor's,physical_therapist
+Health & Medicine,Histotechnologists,29-2011.04,Close to a career,4 bachelor's,medical_lab_scientist
+Health & Medicine,Medical Dosimetrists,29-2036.00,Close to a career,4 bachelor's,radiology_technologist
+Health & Medicine,Music Therapists,29-1129.02,Close to a career,4 bachelor's,physical_therapist
+Health & Medicine,Recreational Therapists,29-1125.00,Close to a career,4 bachelor's,physical_therapist
+Health & Medicine,Cardiovascular Technologists and Technicians,29-2031.00,Close to a career,3 diploma or training,radiology_technologist
+Health & Medicine,Diagnostic Medical Sonographers,29-2032.00,Close to a career,3 diploma or training,radiology_technologist
+Health & Medicine,Histology Technicians,29-2012.01,Close to a career,3 diploma or training,medical_lab_scientist
+Health & Medicine,Magnetic Resonance Imaging Technologists,29-2035.00,Close to a career,3 diploma or training,radiology_technologist
+Health & Medicine,Medical and Clinical Laboratory Technicians,29-2012.00,Close to a career,3 diploma or training,medical_lab_scientist
+Health & Medicine,Nuclear Medicine Technologists,29-2033.00,Close to a career,3 diploma or training,radiology_technologist
+Health & Medicine,Radiation Therapists,29-1124.00,Close to a career,3 diploma or training,physical_therapist
+Health & Medicine,Respiratory Therapists,29-1126.00,Close to a career,3 diploma or training,physical_therapist
+Health & Medicine,"Dentists, All Other Specialists",29-1029.00,Close to a career,,dentist
+Health & Medicine,"Psychologists, All Other",19-3039.00,Close to a career,,clinical_psychologist
+Health & Medicine,"Therapists, All Other",29-1129.00,Close to a career,,physical_therapist
+Health & Medicine,Acupuncturists,29-1291.00,Missed,5 postgraduate,
+Health & Medicine,Allergists and Immunologists,29-1229.01,Missed,5 postgraduate,
+Health & Medicine,Anesthesiologist Assistants,29-1071.01,Missed,5 postgraduate,
+Health & Medicine,Athletic Trainers,29-9091.00,Missed,5 postgraduate,
+Health & Medicine,Audiologists,29-1181.00,Missed,5 postgraduate,
+Health & Medicine,Chiropractors,29-1011.00,Missed,5 postgraduate,
+Health & Medicine,Genetic Counselors,29-9092.00,Missed,5 postgraduate,
+Health & Medicine,Hospitalists,29-1229.02,Missed,5 postgraduate,
+Health & Medicine,Midwives,29-9099.01,Missed,5 postgraduate,
+Health & Medicine,Naturopathic Physicians,29-1299.01,Missed,5 postgraduate,
+Health & Medicine,Nurse Anesthetists,29-1151.00,Missed,5 postgraduate,
+Health & Medicine,Nurse Midwives,29-1161.00,Missed,5 postgraduate,
+Health & Medicine,Nurse Practitioners,29-1171.00,Missed,5 postgraduate,
+Health & Medicine,"Ophthalmologists, Except Pediatric",29-1241.00,Missed,5 postgraduate,
+Health & Medicine,Optometrists,29-1041.00,Missed,5 postgraduate,
+Health & Medicine,"Orthopedic Surgeons, Except Pediatric",29-1242.00,Missed,5 postgraduate,
+Health & Medicine,Orthoptists,29-1299.02,Missed,5 postgraduate,
+Health & Medicine,Orthotists and Prosthetists,29-2091.00,Missed,5 postgraduate,
+Health & Medicine,Pediatric Surgeons,29-1243.00,Missed,5 postgraduate,
+Health & Medicine,"Pediatricians, General",29-1221.00,Missed,5 postgraduate,
+Health & Medicine,Physical Medicine and Rehabilitation Physicians,29-1229.04,Missed,5 postgraduate,
+Health & Medicine,Physician Assistants,29-1071.00,Missed,5 postgraduate,
+Health & Medicine,"Physicians, Pathologists",29-1222.00,Missed,5 postgraduate,
+Health & Medicine,Podiatrists,29-1081.00,Missed,5 postgraduate,
+Health & Medicine,Preventive Medicine Physicians,29-1229.05,Missed,5 postgraduate,
+Health & Medicine,Psychiatrists,29-1223.00,Missed,5 postgraduate,
+Health & Medicine,Radiologists,29-1224.00,Missed,5 postgraduate,
+Health & Medicine,Sports Medicine Physicians,29-1229.06,Missed,5 postgraduate,
+Health & Medicine,Urologists,29-1229.03,Missed,5 postgraduate,
+Health & Medicine,Medical and Health Services Managers,11-9111.00,Missed,4 bachelor's,
+Health & Medicine,Dental Assistants,31-9091.00,Missed,3 diploma or training,
+Health & Medicine,Dental Hygienists,29-1292.00,Missed,3 diploma or training,
+Health & Medicine,Dietetic Technicians,29-2051.00,Missed,3 diploma or training,
+Health & Medicine,Emergency Medical Technicians,29-2042.00,Missed,3 diploma or training,
+Health & Medicine,Health Information Technologists and Medical Registrars,29-9021.00,Missed,3 diploma or training,
+Health & Medicine,Hearing Aid Specialists,29-2092.00,Missed,3 diploma or training,
+Health & Medicine,Licensed Practical and Licensed Vocational Nurses,29-2061.00,Missed,3 diploma or training,
+Health & Medicine,Massage Therapists,31-9011.00,Missed,3 diploma or training,
+Health & Medicine,Medical Assistants,31-9092.00,Missed,3 diploma or training,
+Health & Medicine,Medical Records Specialists,29-2072.00,Missed,3 diploma or training,
+Health & Medicine,Medical Transcriptionists,31-9094.00,Missed,3 diploma or training,
+Health & Medicine,Neurodiagnostic Technologists,29-2099.01,Missed,3 diploma or training,
+Health & Medicine,Nursing Assistants,31-1131.00,Missed,3 diploma or training,
+Health & Medicine,Occupational Therapy Aides,31-2012.00,Missed,3 diploma or training,
+Health & Medicine,Occupational Therapy Assistants,31-2011.00,Missed,3 diploma or training,
+Health & Medicine,Ophthalmic Medical Technicians,29-2057.00,Missed,3 diploma or training,
+Health & Medicine,Ophthalmic Medical Technologists,29-2099.05,Missed,3 diploma or training,
+Health & Medicine,"Opticians, Dispensing",29-2081.00,Missed,3 diploma or training,
+Health & Medicine,Paramedics,29-2043.00,Missed,3 diploma or training,
+Health & Medicine,Patient Representatives,29-2099.08,Missed,3 diploma or training,
+Health & Medicine,Pharmacy Technicians,29-2052.00,Missed,3 diploma or training,
+Health & Medicine,Phlebotomists,31-9097.00,Missed,3 diploma or training,
+Health & Medicine,Physical Therapist Assistants,31-2021.00,Missed,3 diploma or training,
+Health & Medicine,Psychiatric Technicians,29-2053.00,Missed,3 diploma or training,
+Health & Medicine,Speech-Language Pathology Assistants,31-9099.01,Missed,3 diploma or training,
+Health & Medicine,Surgical Assistants,29-9093.00,Missed,3 diploma or training,
+Health & Medicine,Surgical Technologists,29-2055.00,Missed,3 diploma or training,
+Health & Medicine,Veterinary Technologists and Technicians,29-2056.00,Missed,3 diploma or training,
+Health & Medicine,Dental Laboratory Technicians,51-9081.00,Missed,2 some preparation,
+Health & Medicine,Endoscopy Technicians,31-9099.02,Missed,2 some preparation,
+Health & Medicine,Home Health Aides,31-1121.00,Missed,2 some preparation,
+Health & Medicine,Medical Appliance Technicians,51-9082.00,Missed,2 some preparation,
+Health & Medicine,Medical Equipment Preparers,31-9093.00,Missed,2 some preparation,
+Health & Medicine,Medical Secretaries and Administrative Assistants,43-6013.00,Missed,2 some preparation,
+Health & Medicine,Ophthalmic Laboratory Technicians,51-9083.00,Missed,2 some preparation,
+Health & Medicine,Orderlies,31-1132.00,Missed,2 some preparation,
+Health & Medicine,Personal Care Aides,31-1122.00,Missed,2 some preparation,
+Health & Medicine,Pharmacy Aides,31-9095.00,Missed,2 some preparation,
+Health & Medicine,Physical Therapist Aides,31-2022.00,Missed,2 some preparation,
+Health & Medicine,Psychiatric Aides,31-1133.00,Missed,2 some preparation,
+Health & Medicine,Veterinary Assistants and Laboratory Animal Caretakers,31-9096.00,Missed,2 some preparation,
+Health & Medicine,"Health Technologists and Technicians, All Other",29-2099.00,Missed,,
+Health & Medicine,"Healthcare Diagnosing or Treating Practitioners, All Other",29-1299.00,Missed,,
+Health & Medicine,"Healthcare Practitioners and Technical Workers, All Other",29-9099.00,Missed,,
+Health & Medicine,"Healthcare Support Workers, All Other",31-9099.00,Missed,,
+Health & Medicine,"Physicians, All Other",29-1229.00,Missed,,
+Health & Medicine,"Surgeons, All Other",29-1249.00,Missed,,
+Engineering,"Architects, Except Landscape and Naval",17-1011.00,Included,5 postgraduate,architect
+Engineering,Bioengineers and Biomedical Engineers,17-2031.00,Included,4 bachelor's,biomedical_engineer
+Engineering,Chemical Engineers,17-2041.00,Included,4 bachelor's,chemical_engineer
+Engineering,Civil Engineers,17-2051.00,Included,4 bachelor's,civil_engineer
+Engineering,Electrical Engineers,17-2071.00,Included,4 bachelor's,electrical_engineer
+Engineering,"Electronics Engineers, Except Computer",17-2072.00,Included,4 bachelor's,communications_engineer
+Engineering,Mechanical Engineers,17-2141.00,Included,4 bachelor's,mechanical_engineer
+Engineering,Mechatronics Engineers,17-2199.05,Included,4 bachelor's,mechatronics_engineer
+Engineering,Petroleum Engineers,17-2171.00,Included,4 bachelor's,petroleum_engineer
+Engineering,Solar Energy Systems Engineers,17-2199.11,Included,4 bachelor's,renewable_energy_engineer
+Engineering,Microsystems Engineers,17-2199.06,Close to a career,5 postgraduate,renewable_energy_engineer
+Engineering,Nanosystems Engineers,17-2199.09,Close to a career,5 postgraduate,renewable_energy_engineer
+Engineering,Automotive Engineers,17-2141.02,Close to a career,4 bachelor's,mechanical_engineer
+Engineering,"Energy Engineers, Except Wind and Solar",17-2199.03,Close to a career,4 bachelor's,renewable_energy_engineer
+Engineering,Fuel Cell Engineers,17-2141.01,Close to a career,4 bachelor's,mechanical_engineer
+Engineering,Landscape Architects,17-1012.00,Close to a career,4 bachelor's,architect
+Engineering,Photonics Engineers,17-2199.07,Close to a career,4 bachelor's,renewable_energy_engineer
+Engineering,Radio Frequency Identification Device Specialists,17-2072.01,Close to a career,4 bachelor's,communications_engineer
+Engineering,Robotics Engineers,17-2199.08,Close to a career,4 bachelor's,renewable_energy_engineer
+Engineering,Transportation Engineers,17-2051.01,Close to a career,4 bachelor's,civil_engineer
+Engineering,Water/Wastewater Engineers,17-2051.02,Close to a career,4 bachelor's,civil_engineer
+Engineering,Wind Energy Engineers,17-2199.10,Close to a career,4 bachelor's,renewable_energy_engineer
+Engineering,"Engineers, All Other",17-2199.00,Close to a career,,renewable_energy_engineer
+Engineering,Architectural and Engineering Managers,11-9041.00,Missed,5 postgraduate,
+Engineering,Human Factors Engineers and Ergonomists,17-2112.01,Missed,5 postgraduate,
+Engineering,Urban and Regional Planners,19-3051.00,Missed,5 postgraduate,
+Engineering,Aerospace Engineers,17-2011.00,Missed,4 bachelor's,
+Engineering,Biofuels Production Managers,11-3051.03,Missed,4 bachelor's,
+Engineering,Biofuels/Biodiesel Technology and Product Development Managers,11-9041.01,Missed,4 bachelor's,
+Engineering,Biomass Power Plant Managers,11-3051.04,Missed,4 bachelor's,
+Engineering,Cartographers and Photogrammetrists,17-1021.00,Missed,4 bachelor's,
+Engineering,Computer Hardware Engineers,17-2061.00,Missed,4 bachelor's,
+Engineering,Construction Managers,11-9021.00,Missed,4 bachelor's,
+Engineering,Environmental Engineers,17-2081.00,Missed,4 bachelor's,
+Engineering,Fire-Prevention and Protection Engineers,17-2111.02,Missed,4 bachelor's,
+Engineering,Geodetic Surveyors,17-1022.01,Missed,4 bachelor's,
+Engineering,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",17-2111.00,Missed,4 bachelor's,
+Engineering,Industrial Engineers,17-2112.00,Missed,4 bachelor's,
+Engineering,Industrial Production Managers,11-3051.00,Missed,4 bachelor's,
+Engineering,Manufacturing Engineers,17-2112.03,Missed,4 bachelor's,
+Engineering,Marine Engineers and Naval Architects,17-2121.00,Missed,4 bachelor's,
+Engineering,Materials Engineers,17-2131.00,Missed,4 bachelor's,
+Engineering,"Mining and Geological Engineers, Including Mining Safety Engineers",17-2151.00,Missed,4 bachelor's,
+Engineering,Nuclear Engineers,17-2161.00,Missed,4 bachelor's,
+Engineering,Occupational Health and Safety Specialists,19-5011.00,Missed,4 bachelor's,
+Engineering,Quality Control Systems Managers,11-3051.01,Missed,4 bachelor's,
+Engineering,Surveyors,17-1022.00,Missed,4 bachelor's,
+Engineering,Validation Engineers,17-2112.02,Missed,4 bachelor's,
+Engineering,Geothermal Production Managers,11-3051.02,Missed,3 diploma or training,
+Engineering,Hydroelectric Production Managers,11-3051.06,Missed,3 diploma or training,
+Engineering,Occupational Health and Safety Technicians,19-5012.00,Missed,3 diploma or training,
+Business & Finance,Accountants and Auditors,13-2011.00,Included,4 bachelor's,"accountant,auditor"
+Business & Finance,Actuaries,15-2011.00,Included,4 bachelor's,actuary
+Business & Finance,Financial and Investment Analysts,13-2051.00,Included,4 bachelor's,financial_analyst
+Business & Finance,General and Operations Managers,11-1021.00,Included,4 bachelor's,entrepreneur
+Business & Finance,Human Resources Specialists,13-1071.00,Included,4 bachelor's,hr_specialist
+Business & Finance,Loan Officers,13-2072.00,Included,4 bachelor's,banker
+Business & Finance,Logisticians,13-1081.00,Included,4 bachelor's,supply_chain_specialist
+Business & Finance,Management Analysts,13-1111.00,Included,4 bachelor's,management_consultant
+Business & Finance,"Securities, Commodities, and Financial Services Sales Agents",41-3031.00,Included,4 bachelor's,banker
+Business & Finance,Supply Chain Managers,11-3071.04,Included,4 bachelor's,supply_chain_specialist
+Business & Finance,Industrial-Organizational Psychologists,19-3032.00,Close to a career,5 postgraduate,clinical_psychologist
+Business & Finance,Credit Counselors,13-2071.00,Close to a career,4 bachelor's,banker
+Business & Finance,Financial Risk Specialists,13-2054.00,Close to a career,4 bachelor's,financial_analyst
+Business & Finance,Insurance Underwriters,13-2053.00,Close to a career,4 bachelor's,financial_analyst
+Business & Finance,Labor Relations Specialists,13-1075.00,Close to a career,4 bachelor's,hr_specialist
+Business & Finance,Logistics Analysts,13-1081.02,Close to a career,4 bachelor's,supply_chain_specialist
+Business & Finance,Logistics Engineers,13-1081.01,Close to a career,4 bachelor's,supply_chain_specialist
+Business & Finance,Personal Financial Advisors,13-2052.00,Close to a career,4 bachelor's,financial_analyst
+Business & Finance,Project Management Specialists,13-1082.00,Close to a career,4 bachelor's,supply_chain_specialist
+Business & Finance,Sales Managers,11-2022.00,Close to a career,4 bachelor's,brand_manager
+Business & Finance,"Transportation, Storage, and Distribution Managers",11-3071.00,Close to a career,4 bachelor's,supply_chain_specialist
+Business & Finance,Farm Labor Contractors,13-1074.00,Close to a career,2 some preparation,hr_specialist
+Business & Finance,Chief Executives,11-1011.00,Missed,5 postgraduate,
+Business & Finance,Chief Sustainability Officers,11-1011.03,Missed,5 postgraduate,
+Business & Finance,Economists,19-3011.00,Missed,5 postgraduate,
+Business & Finance,Environmental Economists,19-3011.01,Missed,5 postgraduate,
+Business & Finance,Financial Quantitative Analysts,13-2099.01,Missed,5 postgraduate,
+Business & Finance,Investment Fund Managers,11-3031.03,Missed,5 postgraduate,
+Business & Finance,Operations Research Analysts,15-2031.00,Missed,5 postgraduate,
+Business & Finance,"Agents and Business Managers of Artists, Performers, and Athletes",13-1011.00,Missed,4 bachelor's,
+Business & Finance,Appraisers and Assessors of Real Estate,13-2023.00,Missed,4 bachelor's,
+Business & Finance,Appraisers of Personal and Business Property,13-2022.00,Missed,4 bachelor's,
+Business & Finance,Brownfield Redevelopment Specialists and Site Managers,11-9199.11,Missed,4 bachelor's,
+Business & Finance,Budget Analysts,13-2031.00,Missed,4 bachelor's,
+Business & Finance,Business Continuity Planners,13-1199.04,Missed,4 bachelor's,
+Business & Finance,"Buyers and Purchasing Agents, Farm Products",13-1021.00,Missed,4 bachelor's,
+Business & Finance,"Claims Adjusters, Examiners, and Investigators",13-1031.00,Missed,4 bachelor's,
+Business & Finance,Compensation and Benefits Managers,11-3111.00,Missed,4 bachelor's,
+Business & Finance,"Compensation, Benefits, and Job Analysis Specialists",13-1141.00,Missed,4 bachelor's,
+Business & Finance,Compliance Managers,11-9199.02,Missed,4 bachelor's,
+Business & Finance,Cost Estimators,13-1051.00,Missed,4 bachelor's,
+Business & Finance,Credit Analysts,13-2041.00,Missed,4 bachelor's,
+Business & Finance,Financial Examiners,13-2061.00,Missed,4 bachelor's,
+Business & Finance,Financial Managers,11-3031.00,Missed,4 bachelor's,
+Business & Finance,First-Line Supervisors of Non-Retail Sales Workers,41-1012.00,Missed,4 bachelor's,
+Business & Finance,"Fraud Examiners, Investigators and Analysts",13-2099.04,Missed,4 bachelor's,
+Business & Finance,Human Resources Managers,11-3121.00,Missed,4 bachelor's,
+Business & Finance,Insurance Sales Agents,41-3021.00,Missed,4 bachelor's,
+Business & Finance,Legislators,11-1031.00,Missed,4 bachelor's,
+Business & Finance,Loss Prevention Managers,11-9199.08,Missed,4 bachelor's,
+Business & Finance,Online Merchants,13-1199.06,Missed,4 bachelor's,
+Business & Finance,Proofreaders and Copy Markers,43-9081.00,Missed,4 bachelor's,
+Business & Finance,"Property, Real Estate, and Community Association Managers",11-9141.00,Missed,4 bachelor's,
+Business & Finance,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",13-1023.00,Missed,4 bachelor's,
+Business & Finance,Purchasing Managers,11-3061.00,Missed,4 bachelor's,
+Business & Finance,Real Estate Brokers,41-9021.00,Missed,4 bachelor's,
+Business & Finance,Regulatory Affairs Managers,11-9199.01,Missed,4 bachelor's,
+Business & Finance,Sales Engineers,41-9031.00,Missed,4 bachelor's,
+Business & Finance,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",41-4012.00,Missed,4 bachelor's,
+Business & Finance,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",41-4011.00,Missed,4 bachelor's,
+Business & Finance,Security Management Specialists,13-1199.07,Missed,4 bachelor's,
+Business & Finance,Security Managers,11-3013.01,Missed,4 bachelor's,
+Business & Finance,Statistical Assistants,43-9111.00,Missed,4 bachelor's,
+Business & Finance,Sustainability Specialists,13-1199.05,Missed,4 bachelor's,
+Business & Finance,Training and Development Managers,11-3131.00,Missed,4 bachelor's,
+Business & Finance,Training and Development Specialists,13-1151.00,Missed,4 bachelor's,
+Business & Finance,Treasurers and Controllers,11-3031.01,Missed,4 bachelor's,
+Business & Finance,Wind Energy Development Managers,11-9199.10,Missed,4 bachelor's,
+Business & Finance,Administrative Services Managers,11-3012.00,Missed,3 diploma or training,
+Business & Finance,"Bookkeeping, Accounting, and Auditing Clerks",43-3031.00,Missed,3 diploma or training,
+Business & Finance,Brokerage Clerks,43-4011.00,Missed,3 diploma or training,
+Business & Finance,Desktop Publishers,43-9031.00,Missed,3 diploma or training,
+Business & Finance,"Eligibility Interviewers, Government Programs",43-4061.00,Missed,3 diploma or training,
+Business & Finance,Executive Secretaries and Executive Administrative Assistants,43-6011.00,Missed,3 diploma or training,
+Business & Finance,Facilities Managers,11-3013.00,Missed,3 diploma or training,
+Business & Finance,First-Line Supervisors of Office and Administrative Support Workers,43-1011.00,Missed,3 diploma or training,
+Business & Finance,"Human Resources Assistants, Except Payroll and Timekeeping",43-4161.00,Missed,3 diploma or training,
+Business & Finance,"Insurance Appraisers, Auto Damage",13-1032.00,Missed,3 diploma or training,
+Business & Finance,"Interviewers, Except Eligibility and Loan",43-4111.00,Missed,3 diploma or training,
+Business & Finance,Loan Interviewers and Clerks,43-4131.00,Missed,3 diploma or training,
+Business & Finance,New Accounts Clerks,43-4141.00,Missed,3 diploma or training,
+Business & Finance,Payroll and Timekeeping Clerks,43-3051.00,Missed,3 diploma or training,
+Business & Finance,Solar Sales Representatives and Assessors,41-4011.07,Missed,3 diploma or training,
+Business & Finance,"Tax Examiners and Collectors, and Revenue Agents",13-2081.00,Missed,3 diploma or training,
+Business & Finance,Tax Preparers,13-2082.00,Missed,3 diploma or training,
+Business & Finance,"Wholesale and Retail Buyers, Except Farm Products",13-1022.00,Missed,3 diploma or training,
+Business & Finance,Wind Energy Operations Managers,11-9199.09,Missed,3 diploma or training,
+Business & Finance,Bill and Account Collectors,43-3011.00,Missed,2 some preparation,
+Business & Finance,Billing and Posting Clerks,43-3021.00,Missed,2 some preparation,
+Business & Finance,Cargo and Freight Agents,43-5011.00,Missed,2 some preparation,
+Business & Finance,Cashiers,41-2011.00,Missed,2 some preparation,
+Business & Finance,Correspondence Clerks,43-4021.00,Missed,2 some preparation,
+Business & Finance,Counter and Rental Clerks,41-2021.00,Missed,2 some preparation,
+Business & Finance,Couriers and Messengers,43-5021.00,Missed,2 some preparation,
+Business & Finance,"Court, Municipal, and License Clerks",43-4031.00,Missed,2 some preparation,
+Business & Finance,"Credit Authorizers, Checkers, and Clerks",43-4041.00,Missed,2 some preparation,
+Business & Finance,Customer Service Representatives,43-4051.00,Missed,2 some preparation,
+Business & Finance,Data Entry Keyers,43-9021.00,Missed,2 some preparation,
+Business & Finance,Demonstrators and Product Promoters,41-9011.00,Missed,2 some preparation,
+Business & Finance,"Dispatchers, Except Police, Fire, and Ambulance",43-5032.00,Missed,2 some preparation,
+Business & Finance,"Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",41-9091.00,Missed,2 some preparation,
+Business & Finance,File Clerks,43-4071.00,Missed,2 some preparation,
+Business & Finance,First-Line Supervisors of Retail Sales Workers,41-1011.00,Missed,2 some preparation,
+Business & Finance,Freight Forwarders,43-5011.01,Missed,2 some preparation,
+Business & Finance,Gambling Cage Workers,43-3041.00,Missed,2 some preparation,
+Business & Finance,Gambling Change Persons and Booth Cashiers,41-2012.00,Missed,2 some preparation,
+Business & Finance,Insurance Claims and Policy Processing Clerks,43-9041.00,Missed,2 some preparation,
+Business & Finance,"Library Assistants, Clerical",43-4121.00,Missed,2 some preparation,
+Business & Finance,"Mail Clerks and Mail Machine Operators, Except Postal Service",43-9051.00,Missed,2 some preparation,
+Business & Finance,"Meter Readers, Utilities",43-5041.00,Missed,2 some preparation,
+Business & Finance,"Office Clerks, General",43-9061.00,Missed,2 some preparation,
+Business & Finance,"Office Machine Operators, Except Computer",43-9071.00,Missed,2 some preparation,
+Business & Finance,Order Clerks,43-4151.00,Missed,2 some preparation,
+Business & Finance,Parts Salespersons,41-2022.00,Missed,2 some preparation,
+Business & Finance,Postal Service Clerks,43-5051.00,Missed,2 some preparation,
+Business & Finance,Postal Service Mail Carriers,43-5052.00,Missed,2 some preparation,
+Business & Finance,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",43-5053.00,Missed,2 some preparation,
+Business & Finance,Procurement Clerks,43-3061.00,Missed,2 some preparation,
+Business & Finance,"Production, Planning, and Expediting Clerks",43-5061.00,Missed,2 some preparation,
+Business & Finance,Public Safety Telecommunicators,43-5031.00,Missed,2 some preparation,
+Business & Finance,Real Estate Sales Agents,41-9022.00,Missed,2 some preparation,
+Business & Finance,Receptionists and Information Clerks,43-4171.00,Missed,2 some preparation,
+Business & Finance,Retail Salespersons,41-2031.00,Missed,2 some preparation,
+Business & Finance,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",41-3091.00,Missed,2 some preparation,
+Business & Finance,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",43-6014.00,Missed,2 some preparation,
+Business & Finance,"Shipping, Receiving, and Inventory Clerks",43-5071.00,Missed,2 some preparation,
+Business & Finance,"Switchboard Operators, Including Answering Service",43-2011.00,Missed,2 some preparation,
+Business & Finance,Telemarketers,41-9041.00,Missed,2 some preparation,
+Business & Finance,Telephone Operators,43-2021.00,Missed,2 some preparation,
+Business & Finance,Tellers,43-3071.00,Missed,2 some preparation,
+Business & Finance,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",43-5111.00,Missed,2 some preparation,
+Business & Finance,Word Processors and Typists,43-9022.00,Missed,2 some preparation,
+Business & Finance,"Business Operations Specialists, All Other",13-1199.00,Missed,,
+Business & Finance,"Communications Equipment Operators, All Other",43-2099.00,Missed,,
+Business & Finance,"Financial Clerks, All Other",43-3099.00,Missed,,
+Business & Finance,"Financial Specialists, All Other",13-2099.00,Missed,,
+Business & Finance,"Information and Record Clerks, All Other",43-4199.00,Missed,,
+Business & Finance,"Managers, All Other",11-9199.00,Missed,,
+Business & Finance,"Office and Administrative Support Workers, All Other",43-9199.00,Missed,,
+Business & Finance,"Sales and Related Workers, All Other",41-9099.00,Missed,,
+Marketing & Media,Film and Video Editors,27-4032.00,Included,4 bachelor's,content_creator
+Marketing & Media,Market Research Analysts and Marketing Specialists,13-1161.00,Included,4 bachelor's,digital_marketer
+Marketing & Media,Marketing Managers,11-2021.00,Included,4 bachelor's,brand_manager
+Marketing & Media,"News Analysts, Reporters, and Journalists",27-3023.00,Included,4 bachelor's,journalist
+Marketing & Media,Producers and Directors,27-2012.00,Included,4 bachelor's,film_producer
+Marketing & Media,Public Relations Specialists,27-3031.00,Included,4 bachelor's,"pr_specialist,social_media_manager"
+Marketing & Media,Search Marketing Strategists,13-1161.01,Included,4 bachelor's,"digital_marketer,social_media_manager"
+Marketing & Media,Writers and Authors,27-3043.00,Included,4 bachelor's,content_creator
+Marketing & Media,Editors,27-3041.00,Close to a career,4 bachelor's,content_creator
+Marketing & Media,Media Programming Directors,27-2012.03,Close to a career,4 bachelor's,film_producer
+Marketing & Media,Media Technical Directors/Managers,27-2012.05,Close to a career,4 bachelor's,film_producer
+Marketing & Media,"Poets, Lyricists and Creative Writers",27-3043.05,Close to a career,4 bachelor's,content_creator
+Marketing & Media,Talent Directors,27-2012.04,Close to a career,4 bachelor's,film_producer
+Marketing & Media,Technical Writers,27-3042.00,Close to a career,4 bachelor's,content_creator
+Marketing & Media,"Camera Operators, Television, Video, and Film",27-4031.00,Close to a career,3 diploma or training,content_creator
+Marketing & Media,"Media and Communication Workers, All Other",27-3099.00,Close to a career,,"diplomat,translator"
+Marketing & Media,Advertising and Promotions Managers,11-2011.00,Missed,4 bachelor's,
+Marketing & Media,Broadcast Announcers and Radio Disc Jockeys,27-3011.00,Missed,4 bachelor's,
+Marketing & Media,Fundraisers,13-1131.00,Missed,4 bachelor's,
+Marketing & Media,Fundraising Managers,11-2033.00,Missed,4 bachelor's,
+Marketing & Media,Public Relations Managers,11-2032.00,Missed,4 bachelor's,
+Marketing & Media,Advertising Sales Agents,41-3011.00,Missed,3 diploma or training,
+Marketing & Media,Audio and Video Technicians,27-4011.00,Missed,3 diploma or training,
+Marketing & Media,Broadcast Technicians,27-4012.00,Missed,3 diploma or training,
+Marketing & Media,Lighting Technicians,27-4015.00,Missed,3 diploma or training,
+Marketing & Media,Sound Engineering Technicians,27-4014.00,Missed,3 diploma or training,
+Marketing & Media,"Disc Jockeys, Except Radio",27-2091.00,Missed,2 some preparation,
+Marketing & Media,"Media and Communication Equipment Workers, All Other",27-4099.00,Missed,,
+Creative & Design,Graphic Designers,27-1024.00,Included,4 bachelor's,graphic_designer
+Creative & Design,Interior Designers,27-1025.00,Included,4 bachelor's,interior_designer
+Creative & Design,Musicians and Singers,27-2042.00,Included,4 bachelor's,musician
+Creative & Design,Special Effects Artists and Animators,27-1014.00,Included,4 bachelor's,animator_3d_artist
+Creative & Design,Fashion Designers,27-1022.00,Included,3 diploma or training,fashion_designer
+Creative & Design,Photographers,27-4021.00,Included,3 diploma or training,photographer
+Creative & Design,Set and Exhibit Designers,27-1027.00,Close to a career,5 postgraduate,fashion_designer
+Creative & Design,Art Directors,27-1011.00,Close to a career,4 bachelor's,animator_3d_artist
+Creative & Design,Commercial and Industrial Designers,27-1021.00,Close to a career,4 bachelor's,fashion_designer
+Creative & Design,Music Directors and Composers,27-2041.00,Close to a career,4 bachelor's,musician
+Creative & Design,Craft Artists,27-1012.00,Close to a career,3 diploma or training,animator_3d_artist
+Creative & Design,"Fine Artists, Including Painters, Sculptors, and Illustrators",27-1013.00,Close to a career,3 diploma or training,animator_3d_artist
+Creative & Design,Merchandise Displayers and Window Trimmers,27-1026.00,Close to a career,3 diploma or training,fashion_designer
+Creative & Design,Actors,27-2011.00,Close to a career,2 some preparation,film_producer
+Creative & Design,Floral Designers,27-1023.00,Close to a career,2 some preparation,fashion_designer
+Creative & Design,"Artists and Related Workers, All Other",27-1019.00,Close to a career,,animator_3d_artist
+Creative & Design,"Designers, All Other",27-1029.00,Close to a career,,fashion_designer
+Creative & Design,Choreographers,27-2032.00,Missed,3 diploma or training,
+Creative & Design,Dancers,27-2031.00,Missed,3 diploma or training,
+Creative & Design,Models,41-9012.00,Missed,2 some preparation,
+Creative & Design,"Entertainers and Performers, Sports and Related Workers, All Other",27-2099.00,Missed,,
+Science & Research,Anthropologists and Archeologists,19-3091.00,Included,5 postgraduate,egyptologist
+Science & Research,Biochemists and Biophysicists,19-1021.00,Included,5 postgraduate,biotechnologist
+Science & Research,Biologists,19-1029.04,Included,5 postgraduate,biotechnologist
+Science & Research,Physicists,19-2012.00,Included,5 postgraduate,physicist
+Science & Research,Chemists,19-2031.00,Included,4 bachelor's,chemist
+Science & Research,"Environmental Scientists and Specialists, Including Health",19-2041.00,Included,4 bachelor's,environmental_scientist
+Science & Research,"Geoscientists, Except Hydrologists and Geographers",19-2042.00,Included,4 bachelor's,geologist
+Science & Research,Astronomers,19-2011.00,Close to a career,5 postgraduate,physicist
+Science & Research,Bioinformatics Scientists,19-1029.01,Close to a career,5 postgraduate,biotechnologist
+Science & Research,Climate Change Policy Analysts,19-2041.01,Close to a career,5 postgraduate,geologist
+Science & Research,Environmental Restoration Planners,19-2041.02,Close to a career,5 postgraduate,geologist
+Science & Research,Geneticists,19-1029.03,Close to a career,5 postgraduate,biotechnologist
+Science & Research,Historians,19-3093.00,Close to a career,5 postgraduate,egyptologist
+Science & Research,Industrial Ecologists,19-2041.03,Close to a career,5 postgraduate,geologist
+Science & Research,Molecular and Cellular Biologists,19-1029.02,Close to a career,5 postgraduate,biotechnologist
+Science & Research,Geographers,19-3092.00,Close to a career,4 bachelor's,egyptologist
+Science & Research,Hydrologists,19-2043.00,Close to a career,4 bachelor's,geologist
+Science & Research,Materials Scientists,19-2032.00,Close to a career,4 bachelor's,chemist
+Science & Research,Microbiologists,19-1022.00,Close to a career,4 bachelor's,biotechnologist
+Science & Research,Transportation Planners,19-3099.01,Close to a career,4 bachelor's,egyptologist
+Science & Research,Zoologists and Wildlife Biologists,19-1023.00,Close to a career,4 bachelor's,biotechnologist
+Science & Research,"Biological Scientists, All Other",19-1029.00,Close to a career,,biotechnologist
+Science & Research,"Social Scientists and Related Workers, All Other",19-3099.00,Close to a career,,egyptologist
+Science & Research,Biostatisticians,15-2041.01,Missed,5 postgraduate,
+Science & Research,Epidemiologists,19-1041.00,Missed,5 postgraduate,
+Science & Research,Mathematicians,15-2021.00,Missed,5 postgraduate,
+Science & Research,"Medical Scientists, Except Epidemiologists",19-1042.00,Missed,5 postgraduate,
+Science & Research,Natural Sciences Managers,11-9121.00,Missed,5 postgraduate,
+Science & Research,Sociologists,19-3041.00,Missed,5 postgraduate,
+Science & Research,Statisticians,15-2041.00,Missed,5 postgraduate,
+Science & Research,Survey Researchers,19-3022.00,Missed,5 postgraduate,
+Science & Research,Atmospheric and Space Scientists,19-2021.00,Missed,4 bachelor's,
+Science & Research,Biological Technicians,19-4021.00,Missed,4 bachelor's,
+Science & Research,Clinical Research Coordinators,11-9121.01,Missed,4 bachelor's,
+Science & Research,Conservation Scientists,19-1031.00,Missed,4 bachelor's,
+Science & Research,"Environmental Science and Protection Technicians, Including Health",19-4042.00,Missed,4 bachelor's,
+Science & Research,Foresters,19-1032.00,Missed,4 bachelor's,
+Science & Research,"Geological Technicians, Except Hydrologic Technicians",19-4043.00,Missed,4 bachelor's,
+Science & Research,Park Naturalists,19-1031.03,Missed,4 bachelor's,
+Science & Research,Range Managers,19-1031.02,Missed,4 bachelor's,
+Science & Research,Remote Sensing Scientists and Technologists,19-2099.01,Missed,4 bachelor's,
+Science & Research,Remote Sensing Technicians,19-4099.03,Missed,4 bachelor's,
+Science & Research,Social Science Research Assistants,19-4061.00,Missed,4 bachelor's,
+Science & Research,Water Resource Specialists,11-9121.02,Missed,4 bachelor's,
+Science & Research,Chemical Technicians,19-4031.00,Missed,3 diploma or training,
+Science & Research,Forensic Science Technicians,19-4092.00,Missed,3 diploma or training,
+Science & Research,Forest and Conservation Technicians,19-4071.00,Missed,3 diploma or training,
+Science & Research,Hydrologic Technicians,19-4044.00,Missed,3 diploma or training,
+Science & Research,Nuclear Monitoring Technicians,19-4051.02,Missed,3 diploma or training,
+Science & Research,Nuclear Technicians,19-4051.00,Missed,3 diploma or training,
+Science & Research,Quality Control Analysts,19-4099.01,Missed,3 diploma or training,
+Science & Research,"Life Scientists, All Other",19-1099.00,Missed,,
+Science & Research,"Life, Physical, and Social Science Technicians, All Other",19-4099.00,Missed,,
+Science & Research,"Physical Scientists, All Other",19-2099.00,Missed,,
+Tourism & Hospitality,"Airline Pilots, Copilots, and Flight Engineers",53-2011.00,Included,4 bachelor's,pilot
+Tourism & Hospitality,Lodging Managers,11-9081.00,Included,4 bachelor's,hotel_manager
+Tourism & Hospitality,"Meeting, Convention, and Event Planners",13-1121.00,Included,4 bachelor's,event_planner
+Tourism & Hospitality,Chefs and Head Cooks,35-1011.00,Included,3 diploma or training,chef
+Tourism & Hospitality,Tour Guides and Escorts,39-7011.00,Included,3 diploma or training,tour_guide
+Tourism & Hospitality,Flight Attendants,53-2031.00,Included,2 some preparation,flight_attendant
+Tourism & Hospitality,Commercial Pilots,53-2012.00,Close to a career,3 diploma or training,pilot
+Tourism & Hospitality,First-Line Supervisors of Food Preparation and Serving Workers,35-1012.00,Close to a career,2 some preparation,chef
+Tourism & Hospitality,Travel Guides,39-7012.00,Close to a career,2 some preparation,tour_guide
+Tourism & Hospitality,"Entertainment and Recreation Managers, Except Gambling",11-9072.00,Missed,4 bachelor's,
+Tourism & Hospitality,Fitness and Wellness Coordinators,11-9179.01,Missed,4 bachelor's,
+Tourism & Hospitality,Recreation Workers,39-9032.00,Missed,4 bachelor's,
+Tourism & Hospitality,Air Traffic Controllers,53-2021.00,Missed,3 diploma or training,
+Tourism & Hospitality,Airfield Operations Specialists,53-2022.00,Missed,3 diploma or training,
+Tourism & Hospitality,"Cooks, Private Household",35-2013.00,Missed,3 diploma or training,
+Tourism & Hospitality,Spa Managers,11-9179.02,Missed,3 diploma or training,
+Tourism & Hospitality,Travel Agents,41-3041.00,Missed,3 diploma or training,
+Tourism & Hospitality,Amusement and Recreation Attendants,39-3091.00,Missed,2 some preparation,
+Tourism & Hospitality,Baggage Porters and Bellhops,39-6011.00,Missed,2 some preparation,
+Tourism & Hospitality,Baristas,35-3023.01,Missed,2 some preparation,
+Tourism & Hospitality,Bartenders,35-3011.00,Missed,2 some preparation,
+Tourism & Hospitality,Concierges,39-6012.00,Missed,2 some preparation,
+Tourism & Hospitality,"Cooks, Fast Food",35-2011.00,Missed,2 some preparation,
+Tourism & Hospitality,"Cooks, Institution and Cafeteria",35-2012.00,Missed,2 some preparation,
+Tourism & Hospitality,"Cooks, Restaurant",35-2014.00,Missed,2 some preparation,
+Tourism & Hospitality,"Cooks, Short Order",35-2015.00,Missed,2 some preparation,
+Tourism & Hospitality,Costume Attendants,39-3092.00,Missed,2 some preparation,
+Tourism & Hospitality,Dining Room and Cafeteria Attendants and Bartender Helpers,35-9011.00,Missed,2 some preparation,
+Tourism & Hospitality,Dishwashers,35-9021.00,Missed,2 some preparation,
+Tourism & Hospitality,Fast Food and Counter Workers,35-3023.00,Missed,2 some preparation,
+Tourism & Hospitality,First-Line Supervisors of Housekeeping and Janitorial Workers,37-1011.00,Missed,2 some preparation,
+Tourism & Hospitality,Food Preparation Workers,35-2021.00,Missed,2 some preparation,
+Tourism & Hospitality,"Food Servers, Nonrestaurant",35-3041.00,Missed,2 some preparation,
+Tourism & Hospitality,Food Service Managers,11-9051.00,Missed,2 some preparation,
+Tourism & Hospitality,Gambling Dealers,39-3011.00,Missed,2 some preparation,
+Tourism & Hospitality,Gambling Managers,11-9071.00,Missed,2 some preparation,
+Tourism & Hospitality,Gambling and Sports Book Writers and Runners,39-3012.00,Missed,2 some preparation,
+Tourism & Hospitality,"Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",35-9031.00,Missed,2 some preparation,
+Tourism & Hospitality,"Hotel, Motel, and Resort Desk Clerks",43-4081.00,Missed,2 some preparation,
+Tourism & Hospitality,"Locker Room, Coatroom, and Dressing Room Attendants",39-3093.00,Missed,2 some preparation,
+Tourism & Hospitality,Maids and Housekeeping Cleaners,37-2012.00,Missed,2 some preparation,
+Tourism & Hospitality,Motion Picture Projectionists,39-3021.00,Missed,2 some preparation,
+Tourism & Hospitality,Reservation and Transportation Ticket Agents and Travel Clerks,43-4181.00,Missed,2 some preparation,
+Tourism & Hospitality,"Ushers, Lobby Attendants, and Ticket Takers",39-3031.00,Missed,2 some preparation,
+Tourism & Hospitality,Waiters and Waitresses,35-3031.00,Missed,2 some preparation,
+Tourism & Hospitality,"Cooks, All Other",35-2019.00,Missed,,
+Tourism & Hospitality,"Entertainment Attendants and Related Workers, All Other",39-3099.00,Missed,,
+Tourism & Hospitality,"Food Preparation and Serving Related Workers, All Other",35-9099.00,Missed,,
+Tourism & Hospitality,"Gambling Service Workers, All Other",39-3019.00,Missed,,
+Tourism & Hospitality,"Personal Service Managers, All Other",11-9179.00,Missed,,
+Law & Public Service,"Judges, Magistrate Judges, and Magistrates",23-1023.00,Included,5 postgraduate,judge_prosecutor
+Law & Public Service,Lawyers,23-1011.00,Included,5 postgraduate,lawyer
+Law & Public Service,Political Scientists,19-3094.00,Included,5 postgraduate,"diplomat,political_scientist"
+Law & Public Service,Detectives and Criminal Investigators,33-3021.00,Included,3 diploma or training,police_military_officer
+Law & Public Service,Police and Sheriff's Patrol Officers,33-3051.00,Included,3 diploma or training,police_military_officer
+Law & Public Service,"Administrative Law Judges, Adjudicators, and Hearing Officers",23-1021.00,Close to a career,5 postgraduate,judge_prosecutor
+Law & Public Service,"Arbitrators, Mediators, and Conciliators",23-1022.00,Close to a career,5 postgraduate,judge_prosecutor
+Law & Public Service,Judicial Law Clerks,23-1012.00,Close to a career,5 postgraduate,lawyer
+Law & Public Service,Intelligence Analysts,33-3021.06,Close to a career,4 bachelor's,police_military_officer
+Law & Public Service,Court Reporters and Simultaneous Captioners,27-3092.00,Close to a career,3 diploma or training,"diplomat,translator"
+Law & Public Service,Customs and Border Protection Officers,33-3051.04,Close to a career,3 diploma or training,police_military_officer
+Law & Public Service,Police Identification and Records Officers,33-3021.02,Close to a career,3 diploma or training,police_military_officer
+Law & Public Service,Transit and Railroad Police,33-3052.00,Close to a career,3 diploma or training,police_military_officer
+Law & Public Service,Compliance Officers,13-1041.00,Missed,4 bachelor's,
+Law & Public Service,Emergency Management Directors,11-9161.00,Missed,4 bachelor's,
+Law & Public Service,Environmental Compliance Inspectors,13-1041.01,Missed,4 bachelor's,
+Law & Public Service,Equal Opportunity Representatives and Officers,13-1041.03,Missed,4 bachelor's,
+Law & Public Service,Regulatory Affairs Specialists,13-1041.07,Missed,4 bachelor's,
+Law & Public Service,Bailiffs,33-3011.00,Missed,3 diploma or training,
+Law & Public Service,Coroners,13-1041.06,Missed,3 diploma or training,
+Law & Public Service,Customs Brokers,13-1041.08,Missed,3 diploma or training,
+Law & Public Service,Fire Inspectors and Investigators,33-2021.00,Missed,3 diploma or training,
+Law & Public Service,First-Line Supervisors of Correctional Officers,33-1011.00,Missed,3 diploma or training,
+Law & Public Service,First-Line Supervisors of Firefighting and Prevention Workers,33-1021.00,Missed,3 diploma or training,
+Law & Public Service,Fish and Game Wardens,33-3031.00,Missed,3 diploma or training,
+Law & Public Service,Forest Fire Inspectors and Prevention Specialists,33-2022.00,Missed,3 diploma or training,
+Law & Public Service,Government Property Inspectors and Investigators,13-1041.04,Missed,3 diploma or training,
+Law & Public Service,Legal Secretaries and Administrative Assistants,43-6012.00,Missed,3 diploma or training,
+Law & Public Service,Paralegals and Legal Assistants,23-2011.00,Missed,3 diploma or training,
+Law & Public Service,Private Detectives and Investigators,33-9021.00,Missed,3 diploma or training,
+Law & Public Service,Animal Control Workers,33-9011.00,Missed,2 some preparation,
+Law & Public Service,Correctional Officers and Jailers,33-3012.00,Missed,2 some preparation,
+Law & Public Service,Crossing Guards and Flaggers,33-9091.00,Missed,2 some preparation,
+Law & Public Service,Firefighters,33-2011.00,Missed,2 some preparation,
+Law & Public Service,First-Line Supervisors of Police and Detectives,33-1012.00,Missed,2 some preparation,
+Law & Public Service,First-Line Supervisors of Security Workers,33-1091.00,Missed,2 some preparation,
+Law & Public Service,Gambling Surveillance Officers and Gambling Investigators,33-9031.00,Missed,2 some preparation,
+Law & Public Service,"Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",33-9092.00,Missed,2 some preparation,
+Law & Public Service,Parking Enforcement Workers,33-3041.00,Missed,2 some preparation,
+Law & Public Service,Postmasters and Mail Superintendents,11-9131.00,Missed,2 some preparation,
+Law & Public Service,Retail Loss Prevention Specialists,33-9099.02,Missed,2 some preparation,
+Law & Public Service,School Bus Monitors,33-9094.00,Missed,2 some preparation,
+Law & Public Service,Security Guards,33-9032.00,Missed,2 some preparation,
+Law & Public Service,"Title Examiners, Abstractors, and Searchers",23-2093.00,Missed,2 some preparation,
+Law & Public Service,Transportation Security Screeners,33-9093.00,Missed,2 some preparation,
+Law & Public Service,Air Crew Members,55-3011.00,Missed,,
+Law & Public Service,Air Crew Officers,55-1011.00,Missed,,
+Law & Public Service,Aircraft Launch and Recovery Officers,55-1012.00,Missed,,
+Law & Public Service,Aircraft Launch and Recovery Specialists,55-3012.00,Missed,,
+Law & Public Service,Armored Assault Vehicle Crew Members,55-3013.00,Missed,,
+Law & Public Service,Armored Assault Vehicle Officers,55-1013.00,Missed,,
+Law & Public Service,Artillery and Missile Crew Members,55-3014.00,Missed,,
+Law & Public Service,Artillery and Missile Officers,55-1014.00,Missed,,
+Law & Public Service,Command and Control Center Officers,55-1015.00,Missed,,
+Law & Public Service,Command and Control Center Specialists,55-3015.00,Missed,,
+Law & Public Service,First-Line Supervisors of Air Crew Members,55-2011.00,Missed,,
+Law & Public Service,First-Line Supervisors of All Other Tactical Operations Specialists,55-2013.00,Missed,,
+Law & Public Service,"First-Line Supervisors of Protective Service Workers, All Other",33-1099.00,Missed,,
+Law & Public Service,First-Line Supervisors of Weapons Specialists/Crew Members,55-2012.00,Missed,,
+Law & Public Service,Infantry,55-3016.00,Missed,,
+Law & Public Service,Infantry Officers,55-1016.00,Missed,,
+Law & Public Service,"Legal Support Workers, All Other",23-2099.00,Missed,,
+Law & Public Service,"Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other",55-3019.00,Missed,,
+Law & Public Service,"Military Officer Special and Tactical Operations Leaders, All Other",55-1019.00,Missed,,
+Law & Public Service,"Protective Service Workers, All Other",33-9099.00,Missed,,
+Law & Public Service,Special Forces,55-3018.00,Missed,,
+Law & Public Service,Special Forces Officers,55-1017.00,Missed,,
+Education & Social,"Educational, Guidance, and Career Counselors and Advisors",21-1012.00,Included,5 postgraduate,school_counselor
+Education & Social,"Child, Family, and School Social Workers",21-1021.00,Included,4 bachelor's,social_worker
+Education & Social,Interpreters and Translators,27-3091.00,Included,4 bachelor's,"diplomat,translator"
+Education & Social,"Secondary School Teachers, Except Special and Career/Technical Education",25-2031.00,Included,4 bachelor's,teacher
+Education & Social,"Special Education Teachers, Middle School",25-2057.00,Included,4 bachelor's,special_education_specialist
+Education & Social,"Special Education Teachers, Secondary School",25-2058.00,Included,4 bachelor's,special_education_specialist
+Education & Social,Healthcare Social Workers,21-1022.00,Close to a career,5 postgraduate,social_worker
+Education & Social,Marriage and Family Therapists,21-1013.00,Close to a career,5 postgraduate,school_counselor
+Education & Social,Mental Health Counselors,21-1014.00,Close to a career,5 postgraduate,school_counselor
+Education & Social,Mental Health and Substance Abuse Social Workers,21-1023.00,Close to a career,5 postgraduate,social_worker
+Education & Social,Rehabilitation Counselors,21-1015.00,Close to a career,5 postgraduate,school_counselor
+Education & Social,School Psychologists,19-3034.00,Close to a career,5 postgraduate,clinical_psychologist
+Education & Social,Substance Abuse and Behavioral Disorder Counselors,21-1011.00,Close to a career,5 postgraduate,school_counselor
+Education & Social,Adapted Physical Education Specialists,25-2059.01,Close to a career,4 bachelor's,special_education_specialist
+Education & Social,"Career/Technical Education Teachers, Secondary School",25-2032.00,Close to a career,4 bachelor's,teacher
+Education & Social,"Special Education Teachers, Elementary School",25-2056.00,Close to a career,4 bachelor's,special_education_specialist
+Education & Social,"Special Education Teachers, Kindergarten",25-2055.00,Close to a career,4 bachelor's,special_education_specialist
+Education & Social,"Special Education Teachers, Preschool",25-2051.00,Close to a career,4 bachelor's,special_education_specialist
+Education & Social,"Counselors, All Other",21-1019.00,Close to a career,,school_counselor
+Education & Social,"Social Workers, All Other",21-1029.00,Close to a career,,social_worker
+Education & Social,"Special Education Teachers, All Other",25-2059.00,Close to a career,,special_education_specialist
+Education & Social,"Agricultural Sciences Teachers, Postsecondary",25-1041.00,Missed,5 postgraduate,
+Education & Social,"Anthropology and Archeology Teachers, Postsecondary",25-1061.00,Missed,5 postgraduate,
+Education & Social,"Architecture Teachers, Postsecondary",25-1031.00,Missed,5 postgraduate,
+Education & Social,Archivists,25-4011.00,Missed,5 postgraduate,
+Education & Social,"Area, Ethnic, and Cultural Studies Teachers, Postsecondary",25-1062.00,Missed,5 postgraduate,
+Education & Social,"Art, Drama, and Music Teachers, Postsecondary",25-1121.00,Missed,5 postgraduate,
+Education & Social,"Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",25-1051.00,Missed,5 postgraduate,
+Education & Social,"Biological Science Teachers, Postsecondary",25-1042.00,Missed,5 postgraduate,
+Education & Social,"Business Teachers, Postsecondary",25-1011.00,Missed,5 postgraduate,
+Education & Social,"Chemistry Teachers, Postsecondary",25-1052.00,Missed,5 postgraduate,
+Education & Social,Clergy,21-2011.00,Missed,5 postgraduate,
+Education & Social,"Communications Teachers, Postsecondary",25-1122.00,Missed,5 postgraduate,
+Education & Social,"Computer Science Teachers, Postsecondary",25-1021.00,Missed,5 postgraduate,
+Education & Social,"Criminal Justice and Law Enforcement Teachers, Postsecondary",25-1111.00,Missed,5 postgraduate,
+Education & Social,Curators,25-4012.00,Missed,5 postgraduate,
+Education & Social,"Economics Teachers, Postsecondary",25-1063.00,Missed,5 postgraduate,
+Education & Social,"Education Administrators, Kindergarten through Secondary",11-9032.00,Missed,5 postgraduate,
+Education & Social,"Education Administrators, Postsecondary",11-9033.00,Missed,5 postgraduate,
+Education & Social,"Education Teachers, Postsecondary",25-1081.00,Missed,5 postgraduate,
+Education & Social,"Engineering Teachers, Postsecondary",25-1032.00,Missed,5 postgraduate,
+Education & Social,"English Language and Literature Teachers, Postsecondary",25-1123.00,Missed,5 postgraduate,
+Education & Social,"Environmental Science Teachers, Postsecondary",25-1053.00,Missed,5 postgraduate,
+Education & Social,"Family and Consumer Sciences Teachers, Postsecondary",25-1192.00,Missed,5 postgraduate,
+Education & Social,Farm and Home Management Educators,25-9021.00,Missed,5 postgraduate,
+Education & Social,"Foreign Language and Literature Teachers, Postsecondary",25-1124.00,Missed,5 postgraduate,
+Education & Social,"Forestry and Conservation Science Teachers, Postsecondary",25-1043.00,Missed,5 postgraduate,
+Education & Social,"Geography Teachers, Postsecondary",25-1064.00,Missed,5 postgraduate,
+Education & Social,"Health Specialties Teachers, Postsecondary",25-1071.00,Missed,5 postgraduate,
+Education & Social,"History Teachers, Postsecondary",25-1125.00,Missed,5 postgraduate,
+Education & Social,Instructional Coordinators,25-9031.00,Missed,5 postgraduate,
+Education & Social,"Law Teachers, Postsecondary",25-1112.00,Missed,5 postgraduate,
+Education & Social,Librarians and Media Collections Specialists,25-4022.00,Missed,5 postgraduate,
+Education & Social,"Library Science Teachers, Postsecondary",25-1082.00,Missed,5 postgraduate,
+Education & Social,"Mathematical Science Teachers, Postsecondary",25-1022.00,Missed,5 postgraduate,
+Education & Social,Museum Technicians and Conservators,25-4013.00,Missed,5 postgraduate,
+Education & Social,"Nursing Instructors and Teachers, Postsecondary",25-1072.00,Missed,5 postgraduate,
+Education & Social,"Philosophy and Religion Teachers, Postsecondary",25-1126.00,Missed,5 postgraduate,
+Education & Social,"Physics Teachers, Postsecondary",25-1054.00,Missed,5 postgraduate,
+Education & Social,"Political Science Teachers, Postsecondary",25-1065.00,Missed,5 postgraduate,
+Education & Social,"Psychology Teachers, Postsecondary",25-1066.00,Missed,5 postgraduate,
+Education & Social,"Recreation and Fitness Studies Teachers, Postsecondary",25-1193.00,Missed,5 postgraduate,
+Education & Social,"Social Work Teachers, Postsecondary",25-1113.00,Missed,5 postgraduate,
+Education & Social,"Sociology Teachers, Postsecondary",25-1067.00,Missed,5 postgraduate,
+Education & Social,"Teaching Assistants, Postsecondary",25-9044.00,Missed,5 postgraduate,
+Education & Social,"Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors",25-3011.00,Missed,4 bachelor's,
+Education & Social,"Career/Technical Education Teachers, Middle School",25-2023.00,Missed,4 bachelor's,
+Education & Social,Community Health Workers,21-1094.00,Missed,4 bachelor's,
+Education & Social,"Directors, Religious Activities and Education",21-2021.00,Missed,4 bachelor's,
+Education & Social,"Education and Childcare Administrators, Preschool and Daycare",11-9031.00,Missed,4 bachelor's,
+Education & Social,"Elementary School Teachers, Except Special Education",25-2021.00,Missed,4 bachelor's,
+Education & Social,Health Education Specialists,21-1091.00,Missed,4 bachelor's,
+Education & Social,"Kindergarten Teachers, Except Special Education",25-2012.00,Missed,4 bachelor's,
+Education & Social,"Middle School Teachers, Except Special and Career/Technical Education",25-2022.00,Missed,4 bachelor's,
+Education & Social,Probation Officers and Correctional Treatment Specialists,21-1092.00,Missed,4 bachelor's,
+Education & Social,Social and Community Service Managers,11-9151.00,Missed,4 bachelor's,
+Education & Social,Social and Human Service Assistants,21-1093.00,Missed,4 bachelor's,
+Education & Social,"Substitute Teachers, Short-Term",25-3031.00,Missed,4 bachelor's,
+Education & Social,"Career/Technical Education Teachers, Postsecondary",25-1194.00,Missed,3 diploma or training,
+Education & Social,Library Technicians,25-4031.00,Missed,3 diploma or training,
+Education & Social,"Preschool Teachers, Except Special Education",25-2011.00,Missed,3 diploma or training,
+Education & Social,Residential Advisors,39-9041.00,Missed,3 diploma or training,
+Education & Social,Self-Enrichment Teachers,25-3021.00,Missed,3 diploma or training,
+Education & Social,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education",25-9042.00,Missed,3 diploma or training,
+Education & Social,"Teaching Assistants, Special Education",25-9043.00,Missed,3 diploma or training,
+Education & Social,Tutors,25-3041.00,Missed,3 diploma or training,
+Education & Social,Childcare Workers,39-9011.00,Missed,2 some preparation,
+Education & Social,Nannies,39-9011.01,Missed,2 some preparation,
+Education & Social,"Community and Social Service Specialists, All Other",21-1099.00,Missed,,
+Education & Social,"Education Administrators, All Other",11-9039.00,Missed,,
+Education & Social,"Educational Instruction and Library Workers, All Other",25-9099.00,Missed,,
+Education & Social,"Postsecondary Teachers, All Other",25-1199.00,Missed,,
+Education & Social,"Religious Workers, All Other",21-2099.00,Missed,,
+Education & Social,"Social Sciences Teachers, Postsecondary, All Other",25-1069.00,Missed,,
+Education & Social,"Teachers and Instructors, All Other",25-3099.00,Missed,,
+Education & Social,"Teaching Assistants, All Other",25-9049.00,Missed,,
+Skilled Trades & Technical,Automotive Service Technicians and Mechanics,49-3023.00,Included,3 diploma or training,automotive_ev_technician
+Skilled Trades & Technical,Electricians,47-2111.00,Included,3 diploma or training,electrician
+Skilled Trades & Technical,Electro-Mechanical and Mechatronics Technologists and Technicians,17-3024.00,Included,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Industrial Engineering Technologists and Technicians,17-3026.00,Included,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Computer Numerically Controlled Tool Operators,51-9161.00,Included,2 some preparation,cnc_operator
+Skilled Trades & Technical,Solar Photovoltaic Installers,47-2231.00,Included,2 some preparation,solar_technician
+Skilled Trades & Technical,Environmental Engineering Technologists and Technicians,17-3025.00,Close to a career,4 bachelor's,industrial_technician
+Skilled Trades & Technical,Nanotechnology Engineering Technologists and Technicians,17-3026.01,Close to a career,4 bachelor's,industrial_technician
+Skilled Trades & Technical,Aerospace Engineering and Operations Technologists and Technicians,17-3021.00,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Automotive Engineering Technicians,17-3027.01,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Calibration Technologists and Technicians,17-3028.00,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Civil Engineering Technologists and Technicians,17-3022.00,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Electrical and Electronic Engineering Technologists and Technicians,17-3023.00,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Mechanical Engineering Technologists and Technicians,17-3027.00,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Photonics Technicians,17-3029.08,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Robotics Technicians,17-3024.01,Close to a career,3 diploma or training,industrial_technician
+Skilled Trades & Technical,Automotive Body and Related Repairers,49-3021.00,Close to a career,2 some preparation,automotive_ev_technician
+Skilled Trades & Technical,Automotive Glass Installers and Repairers,49-3022.00,Close to a career,2 some preparation,automotive_ev_technician
+Skilled Trades & Technical,Computer Numerically Controlled Tool Programmers,51-9162.00,Close to a career,2 some preparation,cnc_operator
+Skilled Trades & Technical,Non-Destructive Testing Specialists,17-3029.01,Close to a career,2 some preparation,industrial_technician
+Skilled Trades & Technical,"Engineering Technologists and Technicians, Except Drafters, All Other",17-3029.00,Close to a career,,industrial_technician
+Skilled Trades & Technical,Aircraft Mechanics and Service Technicians,49-3011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Architectural and Civil Drafters,17-3011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Audiovisual Equipment Installers and Repairers,49-2097.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Avionics Technicians,49-2091.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Bus and Truck Mechanics and Diesel Engine Specialists,49-3031.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Camera and Photographic Equipment Repairers,49-9061.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Commercial Divers,49-9092.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Construction and Building Inspectors,47-4011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Control and Valve Installers and Repairers, Except Mechanical Door",49-9012.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Electric Motor, Power Tool, and Related Repairers",49-2092.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Electrical and Electronics Drafters,17-3012.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Electrical and Electronics Installers and Repairers, Transportation Equipment",49-2093.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",49-2094.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",49-2095.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Electronic Equipment Installers and Repairers, Motor Vehicles",49-2096.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Elevator and Escalator Installers and Repairers,47-4021.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Energy Auditors,47-4011.01,Missed,3 diploma or training,
+Skilled Trades & Technical,Fabric and Apparel Patternmakers,51-6092.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Farm Equipment Mechanics and Service Technicians,49-3041.00,Missed,3 diploma or training,
+Skilled Trades & Technical,First-Line Supervisors of Construction Trades and Extraction Workers,47-1011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"First-Line Supervisors of Mechanics, Installers, and Repairers",49-1011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,First-Line Supervisors of Production and Operating Workers,51-1011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Gem and Diamond Workers,51-9071.06,Missed,3 diploma or training,
+Skilled Trades & Technical,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",49-9021.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Hydroelectric Plant Technicians,51-8013.04,Missed,3 diploma or training,
+Skilled Trades & Technical,Industrial Machinery Mechanics,49-9041.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Jewelers and Precious Stone and Metal Workers,51-9071.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Machinists,51-4041.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Maintenance Workers, Machinery",49-9043.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Maintenance and Repair Workers, General",49-9071.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Mechanical Drafters,17-3013.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Medical Equipment Repairers,49-9062.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Mobile Heavy Equipment Mechanics, Except Engines",49-3042.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Model Makers, Metal and Plastic",51-4061.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Model Makers, Wood",51-7031.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Motorboat Mechanics and Service Technicians,49-3051.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Motorcycle Mechanics,49-3052.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Musical Instrument Repairers and Tuners,49-9063.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Nuclear Power Reactor Operators,51-8011.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Patternmakers, Metal and Plastic",51-4062.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Patternmakers, Wood",51-7032.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Plumbers, Pipefitters, and Steamfitters",47-2152.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Potters, Manufacturing",51-9195.05,Missed,3 diploma or training,
+Skilled Trades & Technical,Power Distributors and Dispatchers,51-8012.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Prepress Technicians and Workers,51-5111.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Radio, Cellular, and Tower Equipment Installers and Repairers",49-2021.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Security and Fire Alarm Systems Installers,49-2098.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Signal and Track Switch Repairers,49-9097.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Solar Energy Installation Managers,47-1011.03,Missed,3 diploma or training,
+Skilled Trades & Technical,Solar Thermal Installers and Technicians,47-2152.04,Missed,3 diploma or training,
+Skilled Trades & Technical,Stationary Engineers and Boiler Operators,51-8021.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Surveying and Mapping Technicians,17-3031.00,Missed,3 diploma or training,
+Skilled Trades & Technical,"Telecommunications Equipment Installers and Repairers, Except Line Installers",49-2022.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Tool and Die Makers,51-4111.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Watch and Clock Repairers,49-9064.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Wind Turbine Service Technicians,49-9081.00,Missed,3 diploma or training,
+Skilled Trades & Technical,Adhesive Bonding Machine Operators and Tenders,51-9191.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",51-2011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Bicycle Repairers,49-3091.00,Missed,2 some preparation,
+Skilled Trades & Technical,Biofuels Processing Technicians,51-8099.01,Missed,2 some preparation,
+Skilled Trades & Technical,Biomass Plant Technicians,51-8013.03,Missed,2 some preparation,
+Skilled Trades & Technical,Boilermakers,47-2011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Brickmasons and Blockmasons,47-2021.00,Missed,2 some preparation,
+Skilled Trades & Technical,Cabinetmakers and Bench Carpenters,51-7011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Carpenters,47-2031.00,Missed,2 some preparation,
+Skilled Trades & Technical,Carpet Installers,47-2041.00,Missed,2 some preparation,
+Skilled Trades & Technical,Cement Masons and Concrete Finishers,47-2051.00,Missed,2 some preparation,
+Skilled Trades & Technical,Chemical Equipment Operators and Tenders,51-9011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Chemical Plant and System Operators,51-8091.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",51-9192.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",51-9124.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Coil Winders, Tapers, and Finishers",51-2021.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Coin, Vending, and Amusement Machine Servicers and Repairers",49-9091.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Computer, Automated Teller, and Office Machine Repairers",49-2011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Construction Laborers,47-2061.00,Missed,2 some preparation,
+Skilled Trades & Technical,Continuous Mining Machine Operators,47-5041.00,Missed,2 some preparation,
+Skilled Trades & Technical,Cooling and Freezing Equipment Operators and Tenders,51-9193.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",51-9021.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Cutters and Trimmers, Hand",51-9031.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Cutting and Slicing Machine Setters, Operators, and Tenders",51-9032.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",51-4031.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Derrick Operators, Oil and Gas",47-5011.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51-4032.00,Missed,2 some preparation,
+Skilled Trades & Technical,Drywall and Ceiling Tile Installers,47-2081.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Earth Drillers, Except Oil and Gas",47-5023.00,Missed,2 some preparation,
+Skilled Trades & Technical,Electrical Power-Line Installers and Repairers,49-9051.00,Missed,2 some preparation,
+Skilled Trades & Technical,Electrical and Electronic Equipment Assemblers,51-2022.00,Missed,2 some preparation,
+Skilled Trades & Technical,Electromechanical Equipment Assemblers,51-2023.00,Missed,2 some preparation,
+Skilled Trades & Technical,Engine and Other Machine Assemblers,51-2031.00,Missed,2 some preparation,
+Skilled Trades & Technical,Etchers and Engravers,51-9194.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Excavating and Loading Machine and Dragline Operators, Surface Mining",47-5022.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Explosives Workers, Ordnance Handling Experts, and Blasters",47-5032.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",51-4021.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",51-6091.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",51-9041.00,Missed,2 some preparation,
+Skilled Trades & Technical,Fence Erectors,47-4031.00,Missed,2 some preparation,
+Skilled Trades & Technical,Fiberglass Laminators and Fabricators,51-2051.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Floor Layers, Except Carpet, Wood, and Hard Tiles",47-2042.00,Missed,2 some preparation,
+Skilled Trades & Technical,Floor Sanders and Finishers,47-2043.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",51-4022.00,Missed,2 some preparation,
+Skilled Trades & Technical,Foundry Mold and Coremakers,51-4071.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",51-9051.00,Missed,2 some preparation,
+Skilled Trades & Technical,Furniture Finishers,51-7021.00,Missed,2 some preparation,
+Skilled Trades & Technical,Gas Plant Operators,51-8092.00,Missed,2 some preparation,
+Skilled Trades & Technical,Geothermal Technicians,49-9099.01,Missed,2 some preparation,
+Skilled Trades & Technical,"Glass Blowers, Molders, Benders, and Finishers",51-9195.04,Missed,2 some preparation,
+Skilled Trades & Technical,Glaziers,47-2121.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Grinding and Polishing Workers, Hand",51-9022.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51-4033.00,Missed,2 some preparation,
+Skilled Trades & Technical,Hazardous Materials Removal Workers,47-4041.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",51-4191.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",47-3011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Helpers--Carpenters,47-3012.00,Missed,2 some preparation,
+Skilled Trades & Technical,Helpers--Electricians,47-3013.00,Missed,2 some preparation,
+Skilled Trades & Technical,Helpers--Extraction Workers,47-5081.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Helpers--Installation, Maintenance, and Repair Workers",49-9098.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",47-3014.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",47-3015.00,Missed,2 some preparation,
+Skilled Trades & Technical,Helpers--Production Workers,51-9198.00,Missed,2 some preparation,
+Skilled Trades & Technical,Helpers--Roofers,47-3016.00,Missed,2 some preparation,
+Skilled Trades & Technical,Highway Maintenance Workers,47-4051.00,Missed,2 some preparation,
+Skilled Trades & Technical,Home Appliance Repairers,49-9031.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Inspectors, Testers, Sorters, Samplers, and Weighers",51-9061.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Insulation Workers, Floor, Ceiling, and Wall",47-2131.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Insulation Workers, Mechanical",47-2132.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51-4034.00,Missed,2 some preparation,
+Skilled Trades & Technical,Laundry and Dry-Cleaning Workers,51-6011.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Layout Workers, Metal and Plastic",51-4192.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Loading and Moving Machine Operators, Underground Mining",47-5044.00,Missed,2 some preparation,
+Skilled Trades & Technical,Locksmiths and Safe Repairers,49-9094.00,Missed,2 some preparation,
+Skilled Trades & Technical,Manufactured Building and Mobile Home Installers,49-9095.00,Missed,2 some preparation,
+Skilled Trades & Technical,Mechanical Door Repairers,49-9011.00,Missed,2 some preparation,
+Skilled Trades & Technical,Metal-Refining Furnace Operators and Tenders,51-4051.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",51-4035.00,Missed,2 some preparation,
+Skilled Trades & Technical,Millwrights,49-9044.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Mixing and Blending Machine Setters, Operators, and Tenders",51-9023.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Molders, Shapers, and Casters, Except Metal and Plastic",51-9195.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",51-4072.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51-4081.00,Missed,2 some preparation,
+Skilled Trades & Technical,Operating Engineers and Other Construction Equipment Operators,47-2073.00,Missed,2 some preparation,
+Skilled Trades & Technical,Outdoor Power Equipment and Other Small Engine Mechanics,49-3053.00,Missed,2 some preparation,
+Skilled Trades & Technical,Packaging and Filling Machine Operators and Tenders,51-9111.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Painters, Construction and Maintenance",47-2141.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Painting, Coating, and Decorating Workers",51-9123.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Paper Goods Machine Setters, Operators, and Tenders",51-9196.00,Missed,2 some preparation,
+Skilled Trades & Technical,Paperhangers,47-2142.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Paving, Surfacing, and Tamping Equipment Operators",47-2071.00,Missed,2 some preparation,
+Skilled Trades & Technical,Pest Control Workers,37-2021.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",51-8093.00,Missed,2 some preparation,
+Skilled Trades & Technical,Photographic Process Workers and Processing Machine Operators,51-9151.00,Missed,2 some preparation,
+Skilled Trades & Technical,Pile Driver Operators,47-2072.00,Missed,2 some preparation,
+Skilled Trades & Technical,Pipelayers,47-2151.00,Missed,2 some preparation,
+Skilled Trades & Technical,Plasterers and Stucco Masons,47-2161.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",51-4193.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Pourers and Casters, Metal",51-4052.00,Missed,2 some preparation,
+Skilled Trades & Technical,Power Plant Operators,51-8013.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Pressers, Textile, Garment, and Related Materials",51-6021.00,Missed,2 some preparation,
+Skilled Trades & Technical,Print Binding and Finishing Workers,51-5113.00,Missed,2 some preparation,
+Skilled Trades & Technical,Printing Press Operators,51-5112.00,Missed,2 some preparation,
+Skilled Trades & Technical,Rail Car Repairers,49-3043.00,Missed,2 some preparation,
+Skilled Trades & Technical,Rail-Track Laying and Maintenance Equipment Operators,47-4061.00,Missed,2 some preparation,
+Skilled Trades & Technical,Recreational Vehicle Service Technicians,49-3092.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Refractory Materials Repairers, Except Brickmasons",49-9045.00,Missed,2 some preparation,
+Skilled Trades & Technical,Reinforcing Iron and Rebar Workers,47-2171.00,Missed,2 some preparation,
+Skilled Trades & Technical,Riggers,49-9096.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Rock Splitters, Quarry",47-5051.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",51-4023.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Roof Bolters, Mining",47-5043.00,Missed,2 some preparation,
+Skilled Trades & Technical,Roofers,47-2181.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Rotary Drill Operators, Oil and Gas",47-5012.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Roustabouts, Oil and Gas",47-5071.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Sawing Machine Setters, Operators, and Tenders, Wood",51-7041.00,Missed,2 some preparation,
+Skilled Trades & Technical,Segmental Pavers,47-4091.00,Missed,2 some preparation,
+Skilled Trades & Technical,Semiconductor Processing Technicians,51-9141.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",51-9012.00,Missed,2 some preparation,
+Skilled Trades & Technical,Septic Tank Servicers and Sewer Pipe Cleaners,47-4071.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Service Unit Operators, Oil and Gas",47-5013.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Sewers, Hand",51-6051.00,Missed,2 some preparation,
+Skilled Trades & Technical,Sewing Machine Operators,51-6031.00,Missed,2 some preparation,
+Skilled Trades & Technical,Sheet Metal Workers,47-2211.00,Missed,2 some preparation,
+Skilled Trades & Technical,Shoe Machine Operators and Tenders,51-6042.00,Missed,2 some preparation,
+Skilled Trades & Technical,Shoe and Leather Workers and Repairers,51-6041.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Stone Cutters and Carvers, Manufacturing",51-9195.03,Missed,2 some preparation,
+Skilled Trades & Technical,Stonemasons,47-2022.00,Missed,2 some preparation,
+Skilled Trades & Technical,Structural Iron and Steel Workers,47-2221.00,Missed,2 some preparation,
+Skilled Trades & Technical,Structural Metal Fabricators and Fitters,51-2041.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Tailors, Dressmakers, and Custom Sewers",51-6052.00,Missed,2 some preparation,
+Skilled Trades & Technical,Tapers,47-2082.00,Missed,2 some preparation,
+Skilled Trades & Technical,Team Assemblers,51-2092.00,Missed,2 some preparation,
+Skilled Trades & Technical,Telecommunications Line Installers and Repairers,49-9052.00,Missed,2 some preparation,
+Skilled Trades & Technical,Terrazzo Workers and Finishers,47-2053.00,Missed,2 some preparation,
+Skilled Trades & Technical,Textile Bleaching and Dyeing Machine Operators and Tenders,51-6061.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Textile Cutting Machine Setters, Operators, and Tenders",51-6062.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",51-6063.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",51-6064.00,Missed,2 some preparation,
+Skilled Trades & Technical,Tile and Stone Setters,47-2044.00,Missed,2 some preparation,
+Skilled Trades & Technical,Timing Device Assemblers and Adjusters,51-2061.00,Missed,2 some preparation,
+Skilled Trades & Technical,Tire Builders,51-9197.00,Missed,2 some preparation,
+Skilled Trades & Technical,Tire Repairers and Changers,49-3093.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Tool Grinders, Filers, and Sharpeners",51-4194.00,Missed,2 some preparation,
+Skilled Trades & Technical,Upholsterers,51-6093.00,Missed,2 some preparation,
+Skilled Trades & Technical,Water and Wastewater Treatment Plant and System Operators,51-8031.00,Missed,2 some preparation,
+Skilled Trades & Technical,Weatherization Installers and Technicians,47-4099.03,Missed,2 some preparation,
+Skilled Trades & Technical,"Welders, Cutters, Solderers, and Brazers",51-4121.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",51-4122.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",51-7042.00,Missed,2 some preparation,
+Skilled Trades & Technical,"Assemblers and Fabricators, All Other",51-2099.00,Missed,,
+Skilled Trades & Technical,"Construction and Related Workers, All Other",47-4099.00,Missed,,
+Skilled Trades & Technical,"Drafters, All Other",17-3019.00,Missed,,
+Skilled Trades & Technical,"Extraction Workers, All Other",47-5099.00,Missed,,
+Skilled Trades & Technical,"Helpers, Construction Trades, All Other",47-3019.00,Missed,,
+Skilled Trades & Technical,"Installation, Maintenance, and Repair Workers, All Other",49-9099.00,Missed,,
+Skilled Trades & Technical,"Metal Workers and Plastic Workers, All Other",51-4199.00,Missed,,
+Skilled Trades & Technical,"Plant and System Operators, All Other",51-8099.00,Missed,,
+Skilled Trades & Technical,"Precision Instrument and Equipment Repairers, All Other",49-9069.00,Missed,,
+Skilled Trades & Technical,"Production Workers, All Other",51-9199.00,Missed,,
+Skilled Trades & Technical,"Textile, Apparel, and Furnishings Workers, All Other",51-6099.00,Missed,,
+Skilled Trades & Technical,"Underground Mining Machine Operators, All Other",47-5049.00,Missed,,
+Skilled Trades & Technical,"Woodworkers, All Other",51-7099.00,Missed,,
+Agriculture & Food,Soil and Plant Scientists,19-1013.00,Included,5 postgraduate,agricultural_engineer
+Agriculture & Food,Agricultural Engineers,17-2021.00,Included,4 bachelor's,agricultural_engineer
+Agriculture & Food,"Farmers, Ranchers, and Other Agricultural Managers",11-9013.00,Included,4 bachelor's,agribusiness_manager
+Agriculture & Food,Food Scientists and Technologists,19-1012.00,Included,4 bachelor's,food_scientist
+Agriculture & Food,Animal Scientists,19-1011.00,Close to a career,5 postgraduate,food_scientist
+Agriculture & Food,Agricultural Technicians,19-4012.00,Missed,3 diploma or training,
+Agriculture & Food,"First-Line Supervisors of Farming, Fishing, and Forestry Workers",45-1011.00,Missed,3 diploma or training,
+Agriculture & Food,"First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",37-1012.00,Missed,3 diploma or training,
+Agriculture & Food,Food Science Technicians,19-4013.00,Missed,3 diploma or training,
+Agriculture & Food,Precision Agriculture Technicians,19-4012.01,Missed,3 diploma or training,
+Agriculture & Food,Agricultural Equipment Operators,45-2091.00,Missed,2 some preparation,
+Agriculture & Food,Agricultural Inspectors,45-2011.00,Missed,2 some preparation,
+Agriculture & Food,Animal Breeders,45-2021.00,Missed,2 some preparation,
+Agriculture & Food,Animal Caretakers,39-2021.00,Missed,2 some preparation,
+Agriculture & Food,Animal Trainers,39-2011.00,Missed,2 some preparation,
+Agriculture & Food,Bakers,51-3011.00,Missed,2 some preparation,
+Agriculture & Food,Butchers and Meat Cutters,51-3021.00,Missed,2 some preparation,
+Agriculture & Food,Fallers,45-4021.00,Missed,2 some preparation,
+Agriculture & Food,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",45-2092.00,Missed,2 some preparation,
+Agriculture & Food,"Farmworkers, Farm, Ranch, and Aquacultural Animals",45-2093.00,Missed,2 some preparation,
+Agriculture & Food,Fishing and Hunting Workers,45-3031.00,Missed,2 some preparation,
+Agriculture & Food,Food Batchmakers,51-3092.00,Missed,2 some preparation,
+Agriculture & Food,Food Cooking Machine Operators and Tenders,51-3093.00,Missed,2 some preparation,
+Agriculture & Food,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",51-3091.00,Missed,2 some preparation,
+Agriculture & Food,Forest and Conservation Workers,45-4011.00,Missed,2 some preparation,
+Agriculture & Food,"Graders and Sorters, Agricultural Products",45-2041.00,Missed,2 some preparation,
+Agriculture & Food,Landscaping and Groundskeeping Workers,37-3011.00,Missed,2 some preparation,
+Agriculture & Food,Log Graders and Scalers,45-4023.00,Missed,2 some preparation,
+Agriculture & Food,Logging Equipment Operators,45-4022.00,Missed,2 some preparation,
+Agriculture & Food,"Meat, Poultry, and Fish Cutters and Trimmers",51-3022.00,Missed,2 some preparation,
+Agriculture & Food,"Pesticide Handlers, Sprayers, and Applicators, Vegetation",37-3012.00,Missed,2 some preparation,
+Agriculture & Food,Slaughterers and Meat Packers,51-3023.00,Missed,2 some preparation,
+Agriculture & Food,Tree Trimmers and Pruners,37-3013.00,Missed,2 some preparation,
+Agriculture & Food,"Agricultural Workers, All Other",45-2099.00,Missed,,
+Agriculture & Food,"Food Processing Workers, All Other",51-3099.00,Missed,,
+Agriculture & Food,"Grounds Maintenance Workers, All Other",37-3019.00,Missed,,
+Agriculture & Food,"Logging Workers, All Other",45-4029.00,Missed,,
+No category: transport & logistics,Transportation Inspectors,53-6051.00,Missed,4 bachelor's,
+No category: transport & logistics,Aviation Inspectors,53-6051.01,Missed,3 diploma or training,
+No category: transport & logistics,"Captains, Mates, and Pilots of Water Vessels",53-5021.00,Missed,3 diploma or training,
+No category: transport & logistics,Crane and Tower Operators,53-7021.00,Missed,3 diploma or training,
+No category: transport & logistics,First-Line Supervisors of Material-Moving Machine and Vehicle Operators,53-1043.00,Missed,3 diploma or training,
+No category: transport & logistics,First-Line Supervisors of Passenger Attendants,53-1044.00,Missed,3 diploma or training,
+No category: transport & logistics,Ship Engineers,53-5031.00,Missed,3 diploma or training,
+No category: transport & logistics,Traffic Technicians,53-6041.00,Missed,3 diploma or training,
+No category: transport & logistics,Aircraft Cargo Handling Supervisors,53-1041.00,Missed,2 some preparation,
+No category: transport & logistics,Aircraft Service Attendants,53-6032.00,Missed,2 some preparation,
+No category: transport & logistics,"Ambulance Drivers and Attendants, Except Emergency Medical Technicians",53-3011.00,Missed,2 some preparation,
+No category: transport & logistics,Automotive and Watercraft Service Attendants,53-6031.00,Missed,2 some preparation,
+No category: transport & logistics,Bridge and Lock Tenders,53-6011.00,Missed,2 some preparation,
+No category: transport & logistics,"Bus Drivers, School",53-3051.00,Missed,2 some preparation,
+No category: transport & logistics,"Bus Drivers, Transit and Intercity",53-3052.00,Missed,2 some preparation,
+No category: transport & logistics,Cleaners of Vehicles and Equipment,53-7061.00,Missed,2 some preparation,
+No category: transport & logistics,Conveyor Operators and Tenders,53-7011.00,Missed,2 some preparation,
+No category: transport & logistics,Dredge Operators,53-7031.00,Missed,2 some preparation,
+No category: transport & logistics,Driver/Sales Workers,53-3031.00,Missed,2 some preparation,
+No category: transport & logistics,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",53-1042.00,Missed,2 some preparation,
+No category: transport & logistics,Gas Compressor and Gas Pumping Station Operators,53-7071.00,Missed,2 some preparation,
+No category: transport & logistics,Heavy and Tractor-Trailer Truck Drivers,53-3032.00,Missed,2 some preparation,
+No category: transport & logistics,Hoist and Winch Operators,53-7041.00,Missed,2 some preparation,
+No category: transport & logistics,Industrial Truck and Tractor Operators,53-7051.00,Missed,2 some preparation,
+No category: transport & logistics,"Laborers and Freight, Stock, and Material Movers, Hand",53-7062.00,Missed,2 some preparation,
+No category: transport & logistics,Light Truck Drivers,53-3033.00,Missed,2 some preparation,
+No category: transport & logistics,Locomotive Engineers,53-4011.00,Missed,2 some preparation,
+No category: transport & logistics,Machine Feeders and Offbearers,53-7063.00,Missed,2 some preparation,
+No category: transport & logistics,Motorboat Operators,53-5022.00,Missed,2 some preparation,
+No category: transport & logistics,"Packers and Packagers, Hand",53-7064.00,Missed,2 some preparation,
+No category: transport & logistics,Parking Attendants,53-6021.00,Missed,2 some preparation,
+No category: transport & logistics,Passenger Attendants,53-6061.00,Missed,2 some preparation,
+No category: transport & logistics,"Pump Operators, Except Wellhead Pumpers",53-7072.00,Missed,2 some preparation,
+No category: transport & logistics,"Rail Yard Engineers, Dinkey Operators, and Hostlers",53-4013.00,Missed,2 some preparation,
+No category: transport & logistics,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",53-4022.00,Missed,2 some preparation,
+No category: transport & logistics,Railroad Conductors and Yardmasters,53-4031.00,Missed,2 some preparation,
+No category: transport & logistics,Recycling Coordinators,53-1042.01,Missed,2 some preparation,
+No category: transport & logistics,Recycling and Reclamation Workers,53-7062.04,Missed,2 some preparation,
+No category: transport & logistics,Refuse and Recyclable Material Collectors,53-7081.00,Missed,2 some preparation,
+No category: transport & logistics,Sailors and Marine Oilers,53-5011.00,Missed,2 some preparation,
+No category: transport & logistics,Shuttle Drivers and Chauffeurs,53-3053.00,Missed,2 some preparation,
+No category: transport & logistics,Stockers and Order Fillers,53-7065.00,Missed,2 some preparation,
+No category: transport & logistics,Subway and Streetcar Operators,53-4041.00,Missed,2 some preparation,
+No category: transport & logistics,"Tank Car, Truck, and Ship Loaders",53-7121.00,Missed,2 some preparation,
+No category: transport & logistics,Taxi Drivers,53-3054.00,Missed,2 some preparation,
+No category: transport & logistics,"Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",53-6051.07,Missed,2 some preparation,
+No category: transport & logistics,Wellhead Pumpers,53-7073.00,Missed,2 some preparation,
+No category: transport & logistics,"First-Line Supervisors of Transportation Workers, All Other",53-1049.00,Missed,,
+No category: transport & logistics,"Material Moving Workers, All Other",53-7199.00,Missed,,
+No category: transport & logistics,"Motor Vehicle Operators, All Other",53-3099.00,Missed,,
+No category: transport & logistics,"Rail Transportation Workers, All Other",53-4099.00,Missed,,
+No category: transport & logistics,"Transportation Workers, All Other",53-6099.00,Missed,,
+No category: beauty & personal care,Barbers,39-5011.00,Missed,3 diploma or training,
+No category: beauty & personal care,Embalmers,39-4011.00,Missed,3 diploma or training,
+No category: beauty & personal care,First-Line Supervisors of Personal Service Workers,39-1022.00,Missed,3 diploma or training,
+No category: beauty & personal care,Funeral Home Managers,11-9171.00,Missed,3 diploma or training,
+No category: beauty & personal care,"Hairdressers, Hairstylists, and Cosmetologists",39-5012.00,Missed,3 diploma or training,
+No category: beauty & personal care,"Makeup Artists, Theatrical and Performance",39-5091.00,Missed,3 diploma or training,
+No category: beauty & personal care,"Morticians, Undertakers, and Funeral Arrangers",39-4031.00,Missed,3 diploma or training,
+No category: beauty & personal care,Skincare Specialists,39-5094.00,Missed,3 diploma or training,
+No category: beauty & personal care,Crematory Operators,39-4012.00,Missed,2 some preparation,
+No category: beauty & personal care,"First-Line Supervisors of Entertainment and Recreation Workers, Except Gambling Services",39-1014.00,Missed,2 some preparation,
+No category: beauty & personal care,First-Line Supervisors of Gambling Services Workers,39-1013.00,Missed,2 some preparation,
+No category: beauty & personal care,Funeral Attendants,39-4021.00,Missed,2 some preparation,
+No category: beauty & personal care,Manicurists and Pedicurists,39-5092.00,Missed,2 some preparation,
+No category: beauty & personal care,Shampooers,39-5093.00,Missed,2 some preparation,
+No category: beauty & personal care,"Personal Care and Service Workers, All Other",39-9099.00,Missed,,
+No category: sports & fitness,Coaches and Scouts,27-2022.00,Missed,4 bachelor's,
+No category: sports & fitness,Exercise Trainers and Group Fitness Instructors,39-9031.00,Missed,3 diploma or training,
+No category: sports & fitness,Athletes and Sports Competitors,27-2021.00,Missed,2 some preparation,
+No category: sports & fitness,"Umpires, Referees, and Other Sports Officials",27-2023.00,Missed,2 some preparation,
+No category: cleaning,"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",37-2011.00,Missed,3 diploma or training,
+No category: cleaning,"Building Cleaning Workers, All Other",37-2019.00,Missed,,

@@ -2,6 +2,7 @@ import { instruments } from '@anabokra/content';
 import { STAGES } from '@anabokra/engine';
 
 import { readJourney } from '@/lib/journey/verify';
+import type { AnswerFormats } from '@/server/assessment/config';
 import { researchAnswerSetSchema, researchPathSetSchema, researchReadinessSchema, type ResearchAnswerSet, type ResearchReadiness } from '@/lib/research';
 
 import type { LocalProfile } from './device';
@@ -142,13 +143,16 @@ export async function buildAnswerSet(
 ): Promise<ResearchAnswerSet> {
   const responses = await rt.repo.listResponses(result.sessionId);
   const session = await rt.repo.getSession(rt.userId, result.sessionId);
-  const progress = (session?.progress ?? {}) as { instrumentVersions?: Record<string, string>; valuesRanking?: string[] };
+  const progress = (session?.progress ?? {}) as { instrumentVersions?: Record<string, string>; valuesRanking?: string[]; formats?: Partial<AnswerFormats> };
   const answers: Record<string, Record<string, number>> = {};
   for (const r of responses) {
     if (!['interests', 'personality', 'values', 'abilities'].includes(r.instrumentId)) continue;
     (answers[r.instrumentId] ??= {})[r.itemId] = r.value;
   }
-  const versions = Object.fromEntries(Object.entries(progress.instrumentVersions ?? {}).filter(([k]) => k in answers));
+  const versions: Record<string, string> = Object.fromEntries(Object.entries(progress.instrumentVersions ?? {}).filter(([k]) => k in answers));
+  // The quicker formats are tagged on the version (like "+mini" for the short personality set).
+  if (progress.formats?.interests === 'checklist' && versions.interests) versions.interests += '+checklist';
+  if (progress.formats?.values === 'budget' && versions.values) versions.values += '+budget';
   const rawStage = (result.context as { stage?: unknown } | null | undefined)?.stage;
   return researchAnswerSetSchema.parse({
     v: 1,

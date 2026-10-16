@@ -9,21 +9,23 @@ import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { FinalizeRunner } from '@/features/assessment/finalize-runner';
 import { AppShell } from '@/features/journey/app-shell';
+import { PromptCard } from '@/features/journey/cards';
 import { JourneyGate } from '@/features/journey/journey-gate';
 import { RatingCard } from '@/features/journey/rating-card';
 import { assembleResultView, matchesToExplain } from '@/features/results/assemble';
 import { genderedT } from '@/features/results/gendered';
-import { ResultsFlow } from '@/features/results/results-flow';
 import { SectionDetail } from '@/features/results/section-detail';
 import { buildProfileView, careersForSection, sectionItems, type RawResult, type ResultView, type Section } from '@/features/results/view';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import type { JourneyData } from '@/lib/journey/journey';
+import type { CareerFacts } from '@/server/content/career-facts';
 import type { LocalRuntime } from '@/lib/local/runtime';
 import { AssessmentError } from '@/server/assessment/errors';
 
 import { loadLocalAssessment } from './load';
 import { LocalBlocked, LocalLoading } from './local-states';
+import { MyResults } from './my-results';
 
 type Gender = 'female' | 'male' | null;
 
@@ -46,11 +48,11 @@ type State =
  * /assessment/result in phase 1: finalize on the device if needed, then reveal -> readiness -> profile.
  * The journey gate comes first, so a locked profile asks for the password like every other tab.
  */
-export function LocalResult({ sessionId }: { sessionId?: string }) {
-  return <JourneyGate>{(data) => <Result data={data} sessionId={sessionId} />}</JourneyGate>;
+export function LocalResult({ sessionId, facts }: { sessionId?: string; facts: Record<string, CareerFacts> }) {
+  return <JourneyGate>{(data) => <Result data={data} sessionId={sessionId} facts={facts} />}</JourneyGate>;
 }
 
-function Result({ data, sessionId }: { data: JourneyData; sessionId?: string }) {
+function Result({ data, sessionId, facts }: { data: JourneyData; sessionId?: string; facts: Record<string, CareerFacts> }) {
   const { rt } = data;
   const locale = useLocale() as Locale;
   const t = useTranslations('Results');
@@ -97,15 +99,15 @@ function Result({ data, sessionId }: { data: JourneyData; sessionId?: string }) 
     <AppShell tab="home" title={tr('overview.title')} back="/journey" testId="result-screen">
       {state.kind === 'result' ? (
         <div data-testid="result" className="flex flex-col pt-1">
-          <ResultsFlow
+          <MyResults
+            data={data}
             view={state.view}
             worldProfile={{ interests: state.interests }}
+            facts={facts}
             fresh={Boolean(sessionId)}
             readinessDone={state.readinessDone}
             readiness={{ items: rd.items.map((i) => ({ id: i.id, text: i.text })), labels: rd.responseScale.labels, min: rd.responseScale.min }}
             partial={state.partial}
-            share={false}
-            title={false}
             // No reload after rating: it would rebuild the runtime and replay this page; the card thanks in place.
             after={<RatingCard data={data} onChanged={() => {}} />}
           />
@@ -121,12 +123,17 @@ function Result({ data, sessionId }: { data: JourneyData; sessionId?: string }) 
 
 function NotReady({ text, cta }: { text: string; cta: string }) {
   return (
-    <section className="surface mt-4 flex flex-col items-center gap-4 p-6 text-center" data-testid="result-not-ready">
-      <p>{text}</p>
-      <Button asChild size="lg">
-        <Link href="/journey">{cta}</Link>
-      </Button>
-    </section>
+    <PromptCard
+      className="mt-4"
+      icon="🏝️"
+      title={text}
+      action={
+        <Button asChild size="sm">
+          <Link href="/journey/me">{cta}</Link>
+        </Button>
+      }
+      testId="result-not-ready"
+    />
   );
 }
 

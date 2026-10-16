@@ -1,0 +1,273 @@
+{
+  "id": "hotel_front_office",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You are the first face guests see, and the one they remember.",
+      "ar": "إنت أول وش الضيوف بيشوفوه، واللي بيفتكروه."
+    },
+    "summary": {
+      "en": "Front office and guest relations staff welcome guests, check them in and out, handle bookings, answer requests and solve complaints, often in several languages. In Egypt's resorts on the Red Sea and in Cairo, Luxor and Alexandria, it is a common first job for tourism faculty graduates and a path to hotel management.",
+      "ar": "موظف الاستقبال وعلاقات النزلاء بيرحب بالضيوف، بيعمل تسجيل الدخول والخروج، بيدير الحجوزات، بيرد على الطلبات وبيحل الشكاوى، وغالبًا بكذا لغة. في منتجعات البحر الأحمر وفي القاهرة والأقصر وإسكندرية، دي أول وظيفة شائعة لخريجين كليات السياحة والفنادق وطريق لإدارة الفنادق."
+    },
+    "dayInLife": {
+      "en": "Your morning shift starts at 7. Forty guests check out today, so you prepare their bills and handle payments in euros and pounds. A couple's room isn't ready; you offer them breakfast and a late-afternoon spa slot, then follow up with housekeeping. A Russian family asks for a doctor; you call the hotel clinic and explain in English to the nurse. Before handover you check tomorrow's arrivals and VIP notes.",
+      "ar": "شيفت الصبح بيبدأ الساعة 7. فيه 40 ضيف خارجين النهارده، فبتجهز فواتيرهم وبتاخد الدفع باليورو والجنيه. أوضة اتنين لسه مش جاهزة؛ بتعرض عليهم فطار وميعاد سبا بعد الضهر، وبتتابع مع الهاوس كيبنج. عيلة روسية بتطلب دكتور؛ بتكلم عيادة الفندق وبتشرح للممرضة بالإنجليزي. قبل التسليم بتراجع وصول بكرة وملاحظات الضيوف المهمين."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Check guests in and out and manage room allocation.",
+        "ar": "بتعمل تسجيل الدخول والخروج وتوزيع الأوض."
+      },
+      {
+        "en": "Handle reservations and payments.",
+        "ar": "بتدير الحجوزات والمدفوعات."
+      },
+      {
+        "en": "Answer guest requests and solve complaints.",
+        "ar": "بترد على طلبات الضيوف وتحل الشكاوى."
+      },
+      {
+        "en": "Coordinate with housekeeping, restaurants and maintenance.",
+        "ar": "بتنسّق مع الهاوس كيبنج والمطاعم والصيانة."
+      },
+      {
+        "en": "Look after VIP and repeat guests.",
+        "ar": "بتهتم بالضيوف المهمين والمتكررين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hotels and resorts",
+        "ar": "الفنادق والمنتجعات"
+      },
+      {
+        "en": "Nile cruise ships",
+        "ar": "البواخر النيلية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Property management systems such as Opera",
+        "ar": "أنظمة إدارة الفنادق زي Opera"
+      },
+      {
+        "en": "Phones, key cards and payment terminals",
+        "ar": "التليفونات وكروت المفاتيح وماكينات الدفع"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Tourism and Hotels (hotel studies)",
+        "ar": "كلية السياحة والفنادق (دراسات فندقية)"
+      },
+      {
+        "en": "Hotel institutes",
+        "ar": "المعاهد الفندقية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Hotel technical schools, then internships",
+        "ar": "المدارس الفندقية الفنية وبعدين تدريب"
+      },
+      {
+        "en": "Language graduates hired directly by resorts",
+        "ar": "خريجين اللغات بتعينهم المنتجعات مباشرة"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Hotel systems",
+        "ar": "أنظمة الفنادق"
+      },
+      {
+        "en": "Reservations and billing",
+        "ar": "الحجوزات والفواتير"
+      },
+      {
+        "en": "Local knowledge for guests",
+        "ar": "معرفة المكان علشان الضيوف"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Warm, calm manner",
+        "ar": "أسلوب دافي وهادي"
+      },
+      {
+        "en": "Handling complaints",
+        "ar": "التعامل مع الشكاوى"
+      },
+      {
+        "en": "Teamwork across departments",
+        "ar": "العمل مع الأقسام"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English is essential; German, Russian, Italian or French are a big plus",
+        "ar": "الإنجليزي أساسي؛ والألماني والروسي والإيطالي والفرنساوي ميزة كبيرة"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9557,
+        "max": 15735
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Receptionist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Receptionist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "International and Egyptian hotel chains",
+        "ar": "سلاسل فنادق دولية ومصرية"
+      },
+      {
+        "en": "Resorts and Nile cruises",
+        "ar": "المنتجعات والبواخر النيلية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; the work is at the hotel.",
+      "ar": "لأ؛ الشغل في الفندق."
+    },
+    "regions": [
+      {
+        "en": "Hurghada, Sharm El-Sheikh, Marsa Alam, Luxor, Aswan, Cairo and the North Coast",
+        "ar": "الغردقة وشرم الشيخ ومرسى علم والأقصر وأسوان والقاهرة والساحل الشمالي"
+      }
+    ]
+  },
+  "global": {
+    "en": "Hotel experience with international chains transfers to the Gulf and cruise lines.",
+    "ar": "خبرة الفنادق في السلاسل الدولية بتتنقل للخليج وشركات الكروز."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Meet people from all over the world",
+        "ar": "بتقابل ناس من كل العالم"
+      },
+      {
+        "en": "Clear path to hotel management",
+        "ar": "طريق واضح لإدارة الفنادق"
+      },
+      {
+        "en": "Staff housing and meals at many resorts",
+        "ar": "سكن ووجبات للموظفين في منتجعات كتير"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Shifts, nights and holidays",
+        "ar": "شيفتات وليل وإجازات"
+      },
+      {
+        "en": "Living away from family in resort towns",
+        "ar": "العيشة بعيد عن الأهل في مدن المنتجعات"
+      },
+      {
+        "en": "Tourism ups and downs affect jobs",
+        "ar": "تقلبات السياحة بتأثر على الشغل"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Front desk work is just giving out keys.",
+          "ar": "الاستقبال يعني تدّي مفاتيح وبس."
+        },
+        "fact": {
+          "en": "It is sales, problem solving and coordinating the whole hotel, often in several languages.",
+          "ar": "هو مبيعات وحل مشاكل وتنسيق الفندق كله، وغالبًا بكذا لغة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Rotating shifts including nights and holidays; time off in blocks at some resorts.",
+      "ar": "شيفتات متغيرة منها الليل والإجازات؛ وفي بعض المنتجعات الإجازات بتبقى أيام متجمعة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Front office agent or guest relations",
+        "ar": "موظف استقبال أو علاقات نزلاء"
+      },
+      {
+        "en": "Shift leader or supervisor",
+        "ar": "رئيس شيفت أو مشرف"
+      },
+      {
+        "en": "Front office manager",
+        "ar": "مدير الاستقبال"
+      },
+      {
+        "en": "Rooms division manager, then hotel manager",
+        "ar": "مدير قسم الغرف، وبعدين مدير فندق"
+      }
+    ],
+    "relatedCareerIds": [
+      "hotel_manager",
+      "travel_agent",
+      "event_planner",
+      "customer_service_agent"
+    ],
+    "pivots": [
+      {
+        "en": "Hotel sales and revenue management",
+        "ar": "مبيعات الفنادق وإدارة الإيرادات"
+      },
+      {
+        "en": "Event planning",
+        "ar": "تنظيم الفعاليات"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Hotel, Motel, and Resort Desk Clerks (43-4081.00)",
+      "url": "https://www.onetonline.org/link/summary/43-4081.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Concierges (39-6012.00)",
+      "url": "https://www.onetonline.org/link/summary/39-6012.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Front Office Agent jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Front-Office-Agent-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

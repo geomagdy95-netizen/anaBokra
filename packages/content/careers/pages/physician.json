@@ -449,5 +449,36 @@
       "url": "https://www.paylab.com/eg/salaryinfo/medicine-social-care/doctor?lang=en",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "license",
+        "level": 2,
+        "text": {
+          "en": "After graduation and the internship year you must pass the national licensing exam (Law 153 of 2019): 100 multiple-choice questions in five main specialties, with a 50% pass mark and retakes allowed.",
+          "ar": "بعد التخرج وسنة الامتياز لازم تنجح في الامتحان القومي لمزاولة المهنة (قانون 153 لسنة 2019): 100 سؤال اختيار من متعدد في 5 تخصصات أساسية، والنجاح من 50% ومسموح بالإعادة."
+        },
+        "tip": {
+          "en": "Studying steadily through the clinical years is the best preparation for it.",
+          "ar": "المذاكرة المنتظمة في السنين الإكلينيكية هي أحسن استعداد له."
+        },
+        "source": "https://www.masrawy.com/news/news_egypt/details/2021/2/3/1964156/"
+      },
+      {
+        "kind": "time",
+        "level": 3,
+        "text": {
+          "en": "Six years of study, a year of internship, then years of specialist training (residency, master's or fellowship) before you work independently.",
+          "ar": "ست سنين دراسة، وسنة امتياز، وبعدين سنين تخصص (نيابة أو ماجستير أو زمالة) قبل ما تشتغل لوحدك."
+        },
+        "tip": {
+          "en": "Families plan for a long time with little income; scholarships and part-time teaching help some students.",
+          "ar": "العيلة محتاجة تخطط لفترة طويلة بدخل قليل؛ المنح والتدريس بعض الوقت بيساعدوا طلبة كتير."
+        },
+        "source": "https://en.wikipedia.org/wiki/Egyptian_Medical_Licensing_Examination"
+      }
+    ]
+  }
 }

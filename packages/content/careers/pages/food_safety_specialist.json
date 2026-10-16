@@ -1,0 +1,279 @@
+{
+  "id": "food_safety_specialist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You make sure what people eat is safe.",
+      "ar": "بتتأكد إن اللي الناس بتاكله آمن."
+    },
+    "summary": {
+      "en": "Food safety and quality specialists check that food is produced, stored and sold safely: they test samples, audit factories and restaurants, run quality systems such as HACCP and ISO 22000, and prepare exports to meet foreign rules. In Egypt they work in food factories, export companies, hotels and the National Food Safety Authority.",
+      "ar": "أخصائي سلامة وجودة الغذاء بيتأكد إن الأكل بيتنتج ويتخزن ويتباع بأمان: بيحلل عينات، بيراجع المصانع والمطاعم، بيشغّل أنظمة جودة زي HACCP وISO 22000، وبيجهز الصادرات علشان تطابق قواعد البلاد التانية. في مصر بيشتغلوا في مصانع الأغذية وشركات التصدير والفنادق والهيئة القومية لسلامة الغذاء."
+    },
+    "dayInLife": {
+      "en": "At a juice factory, you start by checking yesterday's lab results: one batch shows sugar slightly off and you hold it for a retest. You walk the production line, check hand-washing and cleaning records and correct a worker storing boxes too close to the floor. An export order to Europe needs paperwork, so you prepare the certificates. In the afternoon you train new staff on hygiene rules and update the HACCP plan for a new product.",
+      "ar": "في مصنع عصاير، بتبدأ بمراجعة نتايج المعمل بتاعة امبارح: تشغيلة السكر فيها مش مظبوط شوية فبتوقفها لحد إعادة التحليل. بتلف على خط الإنتاج، بتراجع سجلات غسيل الإيدين والتنضيف وبتصحح لعامل بيخزن كراتين قريب من الأرض. أوردر تصدير لأوروبا محتاج ورق، فبتجهز الشهادات. بعد الضهر بتدرّب الموظفين الجداد على قواعد النظافة وبتحدّث خطة HACCP لمنتج جديد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Test and inspect raw materials and products.",
+        "ar": "بتحلل وتفحص الخامات والمنتجات."
+      },
+      {
+        "en": "Audit hygiene and production practices.",
+        "ar": "بتراجع النظافة وطرق الإنتاج."
+      },
+      {
+        "en": "Run food safety systems such as HACCP.",
+        "ar": "بتشغّل أنظمة سلامة الغذاء زي HACCP."
+      },
+      {
+        "en": "Prepare documents for exports and inspections.",
+        "ar": "بتجهز المستندات للتصدير والتفتيش."
+      },
+      {
+        "en": "Train staff on food safety rules.",
+        "ar": "بتدرّب الموظفين على قواعد سلامة الغذاء."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Food and beverage factories",
+        "ar": "مصانع الأغذية والمشروبات"
+      },
+      {
+        "en": "Export companies, hotels and restaurant chains",
+        "ar": "شركات التصدير والفنادق وسلاسل المطاعم"
+      },
+      {
+        "en": "National Food Safety Authority",
+        "ar": "الهيئة القومية لسلامة الغذاء"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Food lab equipment",
+        "ar": "أجهزة معمل الأغذية"
+      },
+      {
+        "en": "HACCP and ISO documentation",
+        "ar": "مستندات HACCP وISO"
+      },
+      {
+        "en": "Thermometers and testing kits",
+        "ar": "الترمومترات وأدوات التحليل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Agriculture (food science and technology)",
+        "ar": "كلية الزراعة (علوم وتكنولوجيا الأغذية)"
+      },
+      {
+        "en": "Faculties of Science or Veterinary Medicine",
+        "ar": "كليات العلوم أو الطب البيطري"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Food industry technical institutes, then quality training",
+        "ar": "المعاهد الفنية للصناعات الغذائية وبعدين تدريب جودة"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Food microbiology and chemistry",
+        "ar": "ميكروبيولوجيا وكيمياء الأغذية"
+      },
+      {
+        "en": "HACCP and ISO 22000",
+        "ar": "HACCP وISO 22000"
+      },
+      {
+        "en": "Auditing",
+        "ar": "المراجعة والتدقيق"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Firmness on safety",
+        "ar": "الحزم في السلامة"
+      },
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      },
+      {
+        "en": "Training others",
+        "ar": "تدريب غيرك"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for standards and export documents",
+        "ar": "الإنجليزي للمعايير ومستندات التصدير"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "HACCP and ISO 22000 lead auditor courses",
+        "ar": "كورسات HACCP ومراجع رئيسي ISO 22000"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 7582,
+        "max": 21959
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/quality-management?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Quality Inspector\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Quality Inspector»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Food, dairy and beverage manufacturers",
+        "ar": "مصانع الأغذية والألبان والمشروبات"
+      },
+      {
+        "en": "Fruit and vegetable exporters",
+        "ar": "مصدّرين الخضار والفاكهة"
+      },
+      {
+        "en": "Hotels, catering and the National Food Safety Authority",
+        "ar": "الفنادق والتغذية والهيئة القومية لسلامة الغذاء"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; inspections and labs are on site.",
+      "ar": "لأ؛ التفتيش والمعامل في الموقع."
+    },
+    "regions": [
+      {
+        "en": "Industrial zones and export hubs across Egypt",
+        "ar": "المناطق الصناعية ومراكز التصدير في كل مصر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Food safety auditors are needed in the Gulf and by international certification bodies.",
+    "ar": "مراجعين سلامة الغذاء مطلوبين في الخليج وفي جهات الاعتماد الدولية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Protects public health",
+        "ar": "بيحمي صحة الناس"
+      },
+      {
+        "en": "Needed in every food business",
+        "ar": "مطلوب في كل شغل الأكل"
+      },
+      {
+        "en": "International certificates add value",
+        "ar": "الشهادات الدولية بتزوّد قيمتك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Shift work in some factories",
+        "ar": "شيفتات في بعض المصانع"
+      },
+      {
+        "en": "Pressure to release products quickly",
+        "ar": "ضغط علشان المنتج ينزل بسرعة"
+      },
+      {
+        "en": "Lots of documentation",
+        "ar": "مستندات كتير"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Food safety is just about cleanliness.",
+          "ar": "سلامة الغذاء يعني نظافة وبس."
+        },
+        "fact": {
+          "en": "It also covers temperature, chemistry, labelling, allergens and records across the whole supply chain.",
+          "ar": "كمان فيها الحرارة والكيمياء وبيانات العبوة ومسببات الحساسية والسجلات في سلسلة الإمداد كلها."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Factory hours, sometimes shifts; audits can mean travel.",
+      "ar": "مواعيد المصنع وأحيانًا شيفتات؛ والمراجعات ممكن يبقى فيها سفر."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Quality control specialist",
+        "ar": "أخصائي مراقبة جودة"
+      },
+      {
+        "en": "Quality assurance or food safety officer",
+        "ar": "مسؤول ضمان جودة أو سلامة غذاء"
+      },
+      {
+        "en": "Quality manager",
+        "ar": "مدير جودة"
+      },
+      {
+        "en": "Lead auditor or regulatory head",
+        "ar": "مراجع رئيسي أو رئيس الشؤون التنظيمية"
+      }
+    ],
+    "relatedCareerIds": [
+      "food_scientist",
+      "agronomist",
+      "chemist",
+      "veterinarian"
+    ],
+    "pivots": [
+      {
+        "en": "Regulatory affairs",
+        "ar": "الشؤون التنظيمية"
+      },
+      {
+        "en": "Auditing and certification",
+        "ar": "المراجعة والاعتماد"
+      }
+    ]
+  },
+  "industryId": "agriculture",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Agricultural Inspectors (45-2011.00)",
+      "url": "https://www.onetonline.org/link/summary/45-2011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Food Science Technicians (19-4013.00)",
+      "url": "https://www.onetonline.org/link/summary/19-4013.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

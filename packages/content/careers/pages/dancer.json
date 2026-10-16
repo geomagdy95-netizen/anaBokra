@@ -1,0 +1,260 @@
+{
+  "id": "dancer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You tell a story with your body.",
+      "ar": "بتحكي حكاية بجسمك."
+    },
+    "summary": {
+      "en": "Dancers and choreographers perform and create dance for theatre, folk troupes, ballet, shows, music videos and events, and teach in schools and studios. In Egypt the Higher Institute of Ballet and the Academy of Arts train professionals, and folk troupes such as Reda and the national folk troupe perform at home and abroad.",
+      "ar": "الراقص ومصمم الرقصات بيأدّي ويبدع رقصات للمسرح والفرق الشعبية والباليه والعروض والفيديو كليب والفعاليات، وبيدرّس في المدارس والاستوديوهات. في مصر المعهد العالي للباليه وأكاديمية الفنون بيدربوا المحترفين، وفرق شعبية زي فرقة رضا والفرقة القومية بتعرض في مصر وبرّه."
+    },
+    "dayInLife": {
+      "en": "Morning class starts at 9: ballet technique to warm up. From 11 your troupe rehearses a new folk piece; the choreographer changes a sequence and you repeat it until it is clean. After lunch you teach a children's class at a studio. In the evening you perform in a theatre show, then ice a sore knee at home.",
+      "ar": "كلاس الصبح بيبدأ الساعة 9: تكنيك باليه للتسخين. من 11 فرقتك بتعمل بروفة رقصة شعبية جديدة؛ مصمم الرقصات بيغير جزء وبتعيدوه لحد ما يبقى نضيف. بعد الغدا بتدّي كلاس للأطفال في استوديو. بالليل بتعرض في المسرح، وبعدين بتحط تلج على ركبتك في البيت."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Train daily in technique.",
+        "ar": "بتتمرن كل يوم على التكنيك."
+      },
+      {
+        "en": "Rehearse and perform shows.",
+        "ar": "بتعمل بروفات وبتعرض."
+      },
+      {
+        "en": "Create choreography.",
+        "ar": "بتصمم رقصات."
+      },
+      {
+        "en": "Teach classes.",
+        "ar": "بتدّي كلاسات."
+      },
+      {
+        "en": "Take care of your body to avoid injury.",
+        "ar": "بتهتم بجسمك علشان متتصابش."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Theatres and troupes",
+        "ar": "المسارح والفرق"
+      },
+      {
+        "en": "Studios, schools and events",
+        "ar": "الاستوديوهات والمدارس والفعاليات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Studio, mirrors and music",
+        "ar": "الاستوديو والمرايات والمزيكا"
+      },
+      {
+        "en": "Costumes",
+        "ar": "الملابس"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Higher Institute of Ballet and Academy of Arts institutes",
+        "ar": "المعهد العالي للباليه ومعاهد أكاديمية الفنون"
+      },
+      {
+        "en": "Faculty of Physical Education (dance and movement)",
+        "ar": "كلية التربية الرياضية (التعبير الحركي)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Folk troupes and private studios",
+        "ar": "الفرق الشعبية والاستوديوهات الخاصة"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Dance technique",
+        "ar": "تكنيك الرقص"
+      },
+      {
+        "en": "Rhythm and musicality",
+        "ar": "الإيقاع والإحساس بالمزيكا"
+      },
+      {
+        "en": "Choreography",
+        "ar": "تصميم الرقصات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Discipline",
+        "ar": "الانضباط"
+      },
+      {
+        "en": "Teamwork",
+        "ar": "العمل الجماعي"
+      },
+      {
+        "en": "Expression",
+        "ar": "التعبير"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English for international tours",
+        "ar": "العربي، والإنجليزي للجولات الدولية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8035,
+        "max": 21648
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/arts-culture?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Dancer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Dancer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "National and folk troupes, Cairo Opera House",
+        "ar": "الفرق القومية والشعبية ودار الأوبرا"
+      },
+      {
+        "en": "Studios, schools and event companies",
+        "ar": "الاستوديوهات والمدارس وشركات الفعاليات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo and Alexandria",
+        "ar": "أساسًا القاهرة وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Troupes tour internationally; trained dancers can join companies abroad.",
+    "ar": "الفرق بتلف دوليًا؛ والراقصين المدربين يقدروا ينضموا لفرق برّه."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative, physical expression",
+        "ar": "تعبير إبداعي وجسدي"
+      },
+      {
+        "en": "Team spirit in troupes",
+        "ar": "روح الفريق في الفرق"
+      },
+      {
+        "en": "Teaching as a steady income",
+        "ar": "التدريس كدخل ثابت"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Short careers and injuries",
+        "ar": "مسيرة قصيرة وإصابات"
+      },
+      {
+        "en": "Irregular income",
+        "ar": "دخل غير منتظم"
+      },
+      {
+        "en": "Social attitudes to some dance styles",
+        "ar": "نظرة المجتمع لبعض أنواع الرقص"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Dance isn't a real profession.",
+          "ar": "الرقص مش مهنة حقيقية."
+        },
+        "fact": {
+          "en": "Professional dancers train for years, like athletes, and many teach and choreograph.",
+          "ar": "الراقصين المحترفين بيتدربوا سنين زي الرياضيين، وكتير منهم بيدرّسوا ويصمموا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Daily training plus evening shows and tours.",
+      "ar": "تمرين يومي مع عروض بالليل وجولات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Student or troupe member",
+        "ar": "طالب أو عضو فرقة"
+      },
+      {
+        "en": "Soloist",
+        "ar": "راقص أول"
+      },
+      {
+        "en": "Choreographer",
+        "ar": "مصمم رقصات"
+      },
+      {
+        "en": "Troupe director or teacher",
+        "ar": "مدير فرقة أو مدرّس"
+      }
+    ],
+    "relatedCareerIds": [
+      "actor",
+      "musician",
+      "fitness_trainer",
+      "pe_teacher"
+    ],
+    "pivots": [
+      {
+        "en": "Dance teaching and fitness classes",
+        "ar": "تدريس الرقص وكلاسات اللياقة"
+      },
+      {
+        "en": "Stage direction",
+        "ar": "الإخراج المسرحي"
+      }
+    ]
+  },
+  "industryId": "performing",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Dancers (27-2031.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2031.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Choreographers (27-2032.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2032.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

@@ -1,21 +1,10 @@
-import { notFound } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
-import { Suspense } from 'react';
-
-import { ExplorePage } from '@/features/journey/explore-page';
-import { DATA_MODE } from '@/lib/data-mode';
+import { redirect } from '@/i18n/navigation';
 
 export const dynamic = 'force-dynamic';
 
-/** Explore: every path island on the map or in a list, with the island sheet. Phase 1 only. */
-export default async function JourneyMapPage({ params }: PageProps<'/[locale]/journey/map'>) {
+/** The map used to be its own tab; it is home now. Old links (and ?island=) still land on it. */
+export default async function JourneyMapPage({ params, searchParams }: PageProps<'/[locale]/journey/map'>) {
   const { locale } = await params;
-  setRequestLocale(locale);
-  if (DATA_MODE !== 'local') notFound();
-  // ExplorePage reads ?island= to open a sheet straight away.
-  return (
-    <Suspense>
-      <ExplorePage />
-    </Suspense>
-  );
+  const island = (await searchParams).island;
+  redirect({ href: typeof island === 'string' ? { pathname: '/journey', query: { island } } : '/journey', locale });
 }

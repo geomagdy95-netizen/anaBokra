@@ -15,6 +15,7 @@ import type { Locale } from '@/i18n/routing';
 import { DATA_MODE } from '@/lib/data-mode';
 import { AssessmentError } from '@/server/assessment/errors';
 import { loadAssessment, requireRuntime } from '@/server/assessment/page-data';
+import { careerFacts } from '@/server/content/career-facts';
 
 export const dynamic = 'force-dynamic';
 
@@ -27,7 +28,7 @@ export default async function ResultPage({ params, searchParams }: PageProps<'/[
   const sp = await searchParams;
   setRequestLocale(locale);
   const sid = typeof sp.s === 'string' ? sp.s : undefined;
-  if (DATA_MODE === 'local') return <LocalResult sessionId={sid} />;
+  if (DATA_MODE === 'local') return <LocalResult sessionId={sid} facts={careerFacts()} />;
   const t = await getTranslations('Results');
   const lang = locale as Locale;
 

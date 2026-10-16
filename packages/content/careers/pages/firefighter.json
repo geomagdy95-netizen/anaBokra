@@ -1,0 +1,259 @@
+{
+  "id": "firefighter",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "When everyone runs out, you run in.",
+      "ar": "لما الكل يجري برّه، إنت بتجري جوه."
+    },
+    "summary": {
+      "en": "Firefighters and civil defense officers put out fires, rescue people from accidents and collapsed buildings, and inspect buildings for fire safety. In Egypt civil defense is part of the Ministry of Interior, so officers join through the Police Academy and others through the civil defense ranks; factories, airports and oil companies also employ fire and safety teams.",
+      "ar": "رجل الإطفاء وضابط الدفاع المدني بيطفي الحرايق، بينقذ الناس من الحوادث والمباني اللي بتقع، وبيفتش على المباني في السلامة من الحريق. في مصر الدفاع المدني تبع وزارة الداخلية، فالضباط بيدخلوا من أكاديمية الشرطة والباقي من صفوف الدفاع المدني؛ والمصانع والمطارات وشركات البترول عندها فرق إطفاء وسلامة كمان."
+    },
+    "dayInLife": {
+      "en": "Your shift starts with checking the truck, hoses and breathing equipment. Mid-morning you inspect a new mall's fire exits and sprinklers and write the report. At 4 p.m. the alarm sounds: a kitchen fire in an apartment block. You arrive in minutes, evacuate residents, put out the fire and check that no one is trapped. Back at the station you clean the equipment and write the incident report.",
+      "ar": "شيفتك بيبدأ بمراجعة العربية والخراطيم وأجهزة التنفس. قرب الضهر بتفتش على مخارج الطوارئ والرشاشات في مول جديد وبتكتب التقرير. الساعة 4 الإنذار بيرن: حريقة مطبخ في عمارة. بتوصل في دقايق، بتخرّج السكان، بتطفي الحريقة وبتتأكد إن مفيش حد محبوس. لما ترجع المحطة بتنضف المعدات وبتكتب تقرير الحادثة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Respond to fires, accidents and rescues.",
+        "ar": "بتستجيب للحرايق والحوادث وعمليات الإنقاذ."
+      },
+      {
+        "en": "Inspect buildings for fire safety.",
+        "ar": "بتفتش على المباني في السلامة من الحريق."
+      },
+      {
+        "en": "Maintain equipment and vehicles.",
+        "ar": "بتصين المعدات والعربيات."
+      },
+      {
+        "en": "Train and run drills.",
+        "ar": "بتتدرب وبتعمل تدريبات."
+      },
+      {
+        "en": "Teach the public about prevention.",
+        "ar": "بتوعّي الناس بالوقاية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Fire and civil defense stations",
+        "ar": "محطات الإطفاء والدفاع المدني"
+      },
+      {
+        "en": "Factories, airports and oil sites",
+        "ar": "المصانع والمطارات ومواقع البترول"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Fire trucks, hoses and extinguishers",
+        "ar": "عربيات الإطفاء والخراطيم والطفايات"
+      },
+      {
+        "en": "Breathing apparatus and rescue tools",
+        "ar": "أجهزة التنفس وأدوات الإنقاذ"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Police Academy (civil defense officers)",
+        "ar": "أكاديمية الشرطة (ضباط الدفاع المدني)"
+      },
+      {
+        "en": "Civil defense ranks after secondary school",
+        "ar": "صفوف الدفاع المدني بعد الثانوية"
+      },
+      {
+        "en": "Industrial safety and fire courses for company fire teams",
+        "ar": "كورسات السلامة الصناعية والإطفاء لفرق الشركات"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Firefighting and rescue techniques",
+        "ar": "تقنيات الإطفاء والإنقاذ"
+      },
+      {
+        "en": "First aid",
+        "ar": "الإسعافات الأولية"
+      },
+      {
+        "en": "Fire safety codes",
+        "ar": "أكواد السلامة من الحريق"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Courage with discipline",
+        "ar": "شجاعة مع انضباط"
+      },
+      {
+        "en": "Teamwork",
+        "ar": "العمل الجماعي"
+      },
+      {
+        "en": "Calm in danger",
+        "ar": "الهدوء في الخطر"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English helps in companies and airports",
+        "ar": "العربي، والإنجليزي بيفيد في الشركات والمطارات"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11158,
+        "max": 22003
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/security-protection?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Firefighter, Rescuer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Firefighter, Rescuer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Civil Defense (Ministry of Interior)",
+        "ar": "الدفاع المدني (وزارة الداخلية)"
+      },
+      {
+        "en": "Factories, airports, ports and oil companies",
+        "ar": "المصانع والمطارات والموانئ وشركات البترول"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Industrial fire and safety experience is valued in Gulf oil and gas companies.",
+    "ar": "خبرة الإطفاء والسلامة الصناعية مطلوبة في شركات البترول والغاز في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Saving lives",
+        "ar": "بتنقذ أرواح"
+      },
+      {
+        "en": "Strong team spirit",
+        "ar": "روح فريق قوية"
+      },
+      {
+        "en": "Stable employment",
+        "ar": "شغل مستقر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Physical danger",
+        "ar": "خطر جسدي"
+      },
+      {
+        "en": "Shifts and nights",
+        "ar": "شيفتات وليل"
+      },
+      {
+        "en": "Hard scenes that stay with you",
+        "ar": "مشاهد صعبة بتفضل معاك"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Firefighters only put out fires.",
+          "ar": "رجل الإطفاء بيطفي حرايق وبس."
+        },
+        "fact": {
+          "en": "Much of the work is rescue, inspections and prevention.",
+          "ar": "جزء كبير من الشغل إنقاذ وتفتيش ووقاية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Long shifts followed by rest days.",
+      "ar": "شيفتات طويلة وبعدها أيام راحة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Firefighter or trainee officer",
+        "ar": "رجل إطفاء أو ضابط متدرب"
+      },
+      {
+        "en": "Crew leader or officer",
+        "ar": "رئيس طاقم أو ضابط"
+      },
+      {
+        "en": "Station commander",
+        "ar": "قائد محطة"
+      },
+      {
+        "en": "Senior civil defense command",
+        "ar": "قيادة عليا في الدفاع المدني"
+      }
+    ],
+    "relatedCareerIds": [
+      "police_officer",
+      "security_manager",
+      "forensic_specialist",
+      "site_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Health and safety (HSE) in industry",
+        "ar": "السلامة والصحة المهنية في الصناعة"
+      },
+      {
+        "en": "Fire safety consulting",
+        "ar": "استشارات السلامة من الحريق"
+      }
+    ]
+  },
+  "industryId": "security",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Firefighters (33-2011.00)",
+      "url": "https://www.onetonline.org/link/summary/33-2011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Fire Inspectors and Investigators (33-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/33-2021.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

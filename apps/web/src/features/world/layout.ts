@@ -1,12 +1,16 @@
 import { GROUP_ORDER, type GroupId } from './types';
 
 /** World units. The ground (sea) is the XZ plane, Y is up, the camera looks toward -Z. */
-export const CORE_RADIUS = 3.2;
+/** My island: bigger than the field islands, so its Discover stations fit round its rim. */
+export const CORE_RADIUS = 3.8;
 export const ISLAND_RADIUS = 2.05;
 /** Height of an island's top surface above the sea. */
 export const ISLAND_TOP = 0.8;
-/** Islands alternate between two ring radii so the archipelago doesn't look machine-made. */
-const RING = [10.4, 11.6] as const;
+/**
+ * Islands alternate between two ring radii, so neighbours 20° apart (18 spots) stay clear of each
+ * other and the archipelago doesn't look machine-made.
+ */
+const RING = [14.4, 16.4] as const;
 
 export type XZ = readonly [number, number];
 
@@ -18,16 +22,20 @@ export interface IslandPlacement {
 }
 
 /**
- * The twelve spots round the core (index j sits at -90° + j·30°; -90° is straight back), in the order
- * islands take them: the first three spread evenly (back, front right, front left), then the gaps
- * between them, then the rest. So a map of three looks balanced and adding a field never moves one.
+ * The eighteen spots round the core (index j sits at -90° + j·20°; -90° is straight back), in the
+ * order islands take them: the first three spread evenly (back, front right, front left), then the
+ * gaps between them, then the rest. So a map of three looks balanced and adding a field never moves one.
  */
-export const SLOT_ORDER = [0, 4, 8, 2, 6, 10, 1, 5, 9, 3, 7, 11] as const;
+export const SLOT_ORDER = [0, 6, 12, 3, 9, 15, 1, 7, 13, 4, 10, 16, 2, 8, 14, 5, 11, 17] as const;
 
-/** Spot j on the ring. The first three slots sit closer in (short bridges, a compact first map). */
+/**
+ * Spot j on the ring. The first six slots sit closer in (short bridges, a compact first map, 60°
+ * apart, with room for their career islets); later ones go out to the ring, alternating radius with
+ * their neighbours.
+ */
 const spot = (j: number, rank?: number): XZ => {
   const angle = -Math.PI / 2 + (j * 2 * Math.PI) / GROUP_ORDER.length;
-  const r = rank === undefined ? RING[j % 2]! : rank < 3 ? 8.8 : rank < 6 ? 10.4 : 11.6;
+  const r = rank === undefined || rank >= 6 ? RING[j % 2]! : 8.8;
   return [Math.cos(angle) * r, Math.sin(angle) * r];
 };
 
@@ -44,8 +52,50 @@ export function islandPlacements(positions: Partial<Record<GroupId, XZ>> = {}, s
   });
 }
 
+/** How far in from the core's edge the Discover stations stand. */
+export const STATION_RADIUS = CORE_RADIUS - 0.8;
+
+/**
+ * Discover stations round my island, in order. They start half a step past the front (where the "me"
+ * label sits, facing the camera) and go round, so the path starts and ends at the user's name.
+ */
+export function stationSpots(count: number): XZ[] {
+  return Array.from({ length: count }, (_, k) => {
+    const a = Math.PI / 2 + ((k + 0.5) * 2 * Math.PI) / count;
+    return [Math.cos(a) * STATION_RADIUS, Math.sin(a) * STATION_RADIUS] as const;
+  });
+}
+
+/** L2 career islets: small islands fanned out behind a group island, away from the core. */
+export const ISLET_RADIUS = 0.62;
+const ISLET_DISTANCE = ISLAND_RADIUS + 1.8;
+
+/**
+ * Where a group's career islets stand, behind the group island (the side away from the core, so they
+ * never sit on its bridge): the first two to either side, the third further out straight behind (clear
+ * of the landmark), then two more beyond the first pair. Wide enough apart to see, and kept inside the
+ * gap to the neighbouring islands.
+ */
+const ISLET_SPOTS = [
+  { a: 0.95, d: 0 },
+  { a: -0.95, d: 0 },
+  { a: 0, d: 1.5 },
+  { a: 0.5, d: 2.6 },
+  { a: -0.5, d: 2.6 },
+] as const;
+
+export function isletPlacements(group: IslandPlacement, count: number): { pos: XZ; dir: XZ }[] {
+  const base = Math.atan2(group.dir[1], group.dir[0]);
+  return Array.from({ length: count }, (_, i) => {
+    const spot = ISLET_SPOTS[i % ISLET_SPOTS.length]!;
+    const far = ISLET_DISTANCE + spot.d + Math.floor(i / ISLET_SPOTS.length) * 1.6;
+    const dir: XZ = [Math.cos(base + spot.a), Math.sin(base + spot.a)];
+    return { dir, pos: [group.pos[0] + dir[0] * far, group.pos[1] + dir[1] * far] };
+  });
+}
+
 /** Framing extent for default and user-arranged island positions (sea, clouds, the full map). */
-export const WORLD_EXTENT = 16.8;
+export const WORLD_EXTENT = 20.5;
 
 /** How far the camera must take in: the islands on the map, or just the core when it is alone. */
 export function mapExtent(placements: readonly IslandPlacement[]): number {
@@ -75,7 +125,7 @@ export const LANDMARK_CLEARANCE = 0.7;
 const ISLAND_GAP = ISLAND_RADIUS * 2 + 0.9;
 const CORE_GAP = CORE_RADIUS + ISLAND_RADIUS + 1.6;
 /** Moved islands stay in this ring round the core. */
-export const ARRANGE_RING = [6.2, 14.5] as const;
+export const ARRANGE_RING = [6.2, 17.5] as const;
 
 const fits = (x: number, z: number, others: readonly IslandPlacement[]) => {
   const r = Math.hypot(x, z);

@@ -24,10 +24,10 @@ describe('industries.json', () => {
     expect(isBilingual(industries.method)).toBe(true);
   });
 
-  it('covers all 12 catalog cluster ids exactly once', () => {
+  it('covers all 18 catalog cluster ids exactly once', () => {
     const ids = clusters.map((c) => c.id);
-    expect(ids).toHaveLength(12);
-    expect(new Set(ids).size).toBe(12);
+    expect(ids).toHaveLength(18);
+    expect(new Set(ids).size).toBe(18);
     expect([...ids].sort()).toEqual(catalog.clusters.map((c: { id: string }) => c.id).sort());
   });
 
@@ -113,7 +113,8 @@ describe('industries.json', () => {
         expect(Number.isInteger(s.year)).toBe(true);
         expect(s.url.startsWith('https://')).toBe(true);
         expect(() => new URL(s.url)).not.toThrow();
-        expect(s.accessed).toBe('2026-10-09');
+        expect(s.accessed).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+        expect(s.accessed <= industries.asOf).toBe(true);
       }
     });
   });

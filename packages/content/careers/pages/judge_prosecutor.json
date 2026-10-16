@@ -212,10 +212,19 @@
     ]
   },
   "marketEgypt": {
-    "salaryMonthlyEgp": null,
-    "salaryNote": {
-      "en": "No citable salary figure was found. Judicial salaries follow official pay scales set by law for each rank, and we did not find a current official scale to cite. Paylab lists prosecutor roles but does not reflect the judicial pay scale, so no number is given. Ask the judicial body for official information.",
-      "ar": "لم نعثر على رقم راتب يمكن الاستشهاد به. تتبع مرتبات القضاة جداول رسمية يحددها القانون لكل درجة، ولم نجد جدولًا رسميًا حديثًا للاستشهاد به. يذكر Paylab وظائف نيابة لكنه لا يعبّر عن جدول الأجور القضائي، لذلك لا نقدم رقمًا. اسأل الجهة القضائية للحصول على معلومات رسمية."
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12368,
+        "max": 33810
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/law-legislation?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Prosecutor\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab lists the title \"Judge\" but shows no range for it. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Prosecutor»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. يذكر Paylab مسمى «Judge» لكن بدون نطاق راتب. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
     },
     "demand": "low",
     "employers": [
@@ -345,7 +354,7 @@
       "lawyer",
       "diplomat",
       "political_scientist",
-      "police_military_officer"
+      "police_officer"
     ],
     "pivots": [
       {
@@ -384,5 +393,88 @@
       "url": "https://gate.ahram.org.eg/News/4951911.aspx",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "grades",
+        "level": 2,
+        "text": {
+          "en": "A cumulative law grade of at least \"Good\" (jayyid), and only the graduating classes named in each announcement can apply.",
+          "ar": "تقدير تراكمي في الحقوق لا يقل عن «جيد»، والتقديم مسموح بس للدفعات اللي الإعلان بيحددها."
+        },
+        "tip": {
+          "en": "Every year counts toward the cumulative grade, so the first year matters as much as the last.",
+          "ar": "كل سنة بتدخل في التقدير التراكمي، فأول سنة مهمة زي آخر سنة."
+        },
+        "source": "https://www.dostor.org/5334637"
+      },
+      {
+        "kind": "interview",
+        "level": 3,
+        "text": {
+          "en": "An interview with the Supreme Judicial Council. Some applicants with top grades have been turned down at this stage; a few later won their case in court.",
+          "ar": "مقابلة أمام المجلس الأعلى للقضاء. فيه متقدمين بتقديرات عالية اترفضوا في المرحلة دي، وبعضهم كسب قضيته بعدين في المحكمة."
+        },
+        "tip": {
+          "en": "Practising calm answers on law and current affairs helps; moot courts and work in a law office build confidence.",
+          "ar": "التمرين على الإجابة بهدوء في القانون والأحداث الجارية، والمحاكم الصورية والشغل في مكتب محاماة."
+        },
+        "source": "https://www.youm7.com/story/2022/1/8/%D8%AD%D9%83%D9%85-%D9%8A%D8%A8%D8%B7%D9%84-%D8%AA%D8%AE%D8%B7%D9%89-%D8%A5%D8%AD%D8%AF%D9%89-%D8%A3%D9%88%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%AE%D8%B1%D9%8A%D8%AC%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D8%A8%D8%A7%D9%84%D9%86%D9%8A%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9/5307512"
+      },
+      {
+        "kind": "vetting",
+        "level": 3,
+        "text": {
+          "en": "Security investigations cover you and your close family. A relative's criminal record or \"bad reputation\" can lead to rejection for \"social unsuitability\", which courts say must be justified.",
+          "ar": "التحريات الأمنية بتشمل المتقدم وأسرته القريبة. سابقة جنائية أو «سوء سمعة» عند قريب ممكن تؤدي للاستبعاد بحجة «عدم اللياقة الاجتماعية»، والقضاء بيقول إن السبب ده لازم يكون له مبرر واضح."
+        },
+        "tip": {
+          "en": "If a refusal looks unfair, there is a right to complain and to appeal to the State Council.",
+          "ar": "لو الرفض شكله ظالم، فيه حق في التظلم والطعن أمام مجلس الدولة."
+        },
+        "source": "https://gate.ahram.org.eg/News/3641764.aspx"
+      },
+      {
+        "kind": "age",
+        "level": 2,
+        "text": {
+          "en": "You must be 30 or younger on the registration deadline.",
+          "ar": "لازم سنك ميزيدش عن 30 سنة في آخر يوم للتقديم."
+        },
+        "tip": {
+          "en": "Plan the route early: there is no second chance after the age limit.",
+          "ar": "التخطيط بدري مهم: بعد حد السن مفيش فرصة تانية."
+        },
+        "source": "https://www.dostor.org/5334637"
+      },
+      {
+        "kind": "gender",
+        "level": 2,
+        "text": {
+          "en": "Women could join the State Council and the Public Prosecution only from 2021, and their numbers are still small, though more seats have opened each year.",
+          "ar": "الستات بقى مسموح لهم يدخلوا مجلس الدولة والنيابة العامة من 2021 بس، وعددهم لسه قليل، بس الأماكن بتزيد كل سنة."
+        },
+        "tip": {
+          "en": "Women who aim for the judiciary often also apply to the Administrative Prosecution and State Lawsuits Authority, which took women earlier.",
+          "ar": "البنات اللي عايزين القضاء كتير بيقدّموا كمان في النيابة الإدارية وهيئة قضايا الدولة، لأنهم بيقبلوا ستات من بدري."
+        },
+        "source": "https://gulfnews.com/world/mena/egypt-women-granted-right-to-hold-positions-in-public-prosecution-state-council-1.77854196"
+      },
+      {
+        "kind": "cost",
+        "level": 1,
+        "text": {
+          "en": "Medical tests, courses and a file fee of about 2,500 to 3,000 EGP are paid by the applicant.",
+          "ar": "الكشف الطبي والدورات ورسوم الملف (حوالي 2,500 لـ 3,000 جنيه) على حساب المتقدم."
+        },
+        "tip": {
+          "en": "Set the fee aside before the announcement opens.",
+          "ar": "تجهيز الرسوم قبل ما الإعلان يفتح."
+        },
+        "source": "https://www.dostor.org/5334637"
+      }
+    ]
+  }
 }

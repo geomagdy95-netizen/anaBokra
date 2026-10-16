@@ -1,0 +1,260 @@
+{
+  "id": "occupational_therapist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help people get back to the things that make life theirs.",
+      "ar": "بتساعد الناس يرجعوا للحاجات اللي بتخلّي حياتهم بتاعتهم."
+    },
+    "summary": {
+      "en": "Occupational therapists help children and adults do everyday activities after injury, illness or disability: dressing, writing, working, playing. They adapt tasks and homes, train skills and work with families. In Egypt the profession is growing in rehabilitation centres, children's centres and schools, mainly through faculties of physical therapy and new applied health science programmes.",
+      "ar": "أخصائي العلاج الوظيفي بيساعد الأطفال والكبار يعملوا أنشطتهم اليومية بعد إصابة أو مرض أو إعاقة: يلبسوا، يكتبوا، يشتغلوا، يلعبوا. بيعدّل المهام والبيت، بيدرّب المهارات وبيشتغل مع الأسرة. في مصر المهنة بتكبر في مراكز التأهيل ومراكز الأطفال والمدارس، أغلبها من كليات العلاج الطبيعي وبرامج العلوم الصحية التطبيقية الجديدة."
+    },
+    "dayInLife": {
+      "en": "Your first client is a six-year-old with autism who struggles to hold a pencil. You use play dough and pegs to build hand strength, then practise drawing lines; his mother learns two exercises for home. Next, a man recovering from a stroke practises buttoning a shirt with one hand. Before lunch you visit a school to suggest a special seat for a child. In the afternoon you write progress notes and plan next week's goals.",
+      "ar": "أول عميل عندك طفل عنده 6 سنين وعنده توحد وصعب عليه يمسك القلم. بتستخدم صلصال ومشابك تقوّي إيده، وبعدين تتمرنوا على رسم خطوط؛ ومامته بتتعلم تمرينين للبيت. بعده راجل بيتعافى من جلطة بيتمرن يقفل زراير القميص بإيد واحدة. قبل الغدا بتزور مدرسة تقترح كرسي خاص لطفل. بعد الضهر بتكتب ملاحظات التقدم وتخطط أهداف الأسبوع الجاي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess what daily activities a person finds hard.",
+        "ar": "بتقيّم الأنشطة اليومية اللي صعبة على الشخص."
+      },
+      {
+        "en": "Plan and run therapy sessions with activities and games.",
+        "ar": "بتخطط وتنفذ جلسات علاج بأنشطة وألعاب."
+      },
+      {
+        "en": "Recommend tools and changes at home, school or work.",
+        "ar": "بتقترح أدوات وتعديلات في البيت أو المدرسة أو الشغل."
+      },
+      {
+        "en": "Train families and carers.",
+        "ar": "بتدرّب الأسر ومقدمي الرعاية."
+      },
+      {
+        "en": "Track progress and write reports.",
+        "ar": "بتتابع التقدم وتكتب تقارير."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Rehabilitation and children's development centres",
+        "ar": "مراكز التأهيل وتنمية الأطفال"
+      },
+      {
+        "en": "Hospitals and schools",
+        "ar": "المستشفيات والمدارس"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Therapy toys and sensory equipment",
+        "ar": "ألعاب وأدوات حسية للعلاج"
+      },
+      {
+        "en": "Assessment tests",
+        "ar": "اختبارات التقييم"
+      },
+      {
+        "en": "Splints and adaptive tools",
+        "ar": "جبائر وأدوات مساعدة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Physical Therapy (occupational therapy courses or tracks)",
+        "ar": "كلية العلاج الطبيعي (مواد أو مسارات علاج وظيفي)"
+      },
+      {
+        "en": "Faculties and programmes of applied health sciences, where offered",
+        "ar": "كليات وبرامج العلوم الصحية التطبيقية، لو متاحة"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Postgraduate diplomas in occupational therapy after physical therapy",
+        "ar": "دبلومات دراسات عليا في العلاج الوظيفي بعد العلاج الطبيعي"
+      }
+    ],
+    "licensing": {
+      "en": "Practice licensing goes through the Ministry of Health and the relevant syndicate; check the current rules for your degree.",
+      "ar": "ترخيص المزاولة بيتم عن طريق وزارة الصحة والنقابة المختصة؛ اتأكد من القواعد الحالية لشهادتك."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Anatomy and child development",
+        "ar": "التشريح ونمو الطفل"
+      },
+      {
+        "en": "Therapy planning",
+        "ar": "تخطيط العلاج"
+      },
+      {
+        "en": "Assessment methods",
+        "ar": "طرق التقييم"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and creativity",
+        "ar": "الصبر والإبداع"
+      },
+      {
+        "en": "Warmth with children and families",
+        "ar": "الدفء مع الأطفال والأسر"
+      },
+      {
+        "en": "Encouraging people who feel stuck",
+        "ar": "تشجيع الناس اللي حاسين إنهم واقفين"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for references and training",
+        "ar": "الإنجليزي للمراجع والتدريب"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Private rehabilitation and autism centres",
+        "ar": "مراكز التأهيل والتوحد الخاصة"
+      },
+      {
+        "en": "Hospitals and international schools",
+        "ar": "المستشفيات والمدارس الدولية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly in person; some parent coaching happens online.",
+      "ar": "أغلبه حضوري؛ وبعض تدريب الأهالي أونلاين."
+    },
+    "regions": [
+      {
+        "en": "Mostly Cairo, Giza and Alexandria",
+        "ar": "أغلبه القاهرة والجيزة وإسكندرية"
+      }
+    ],
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for occupational therapists, so we do not show a number. The field is small in Egypt; pay depends on whether you work in a hospital, a rehabilitation centre, a school or your own sessions.",
+      "ar": "لا يضم Paylab مصر مسمى لأخصائيي العلاج الوظيفي، لذلك لا نعرض رقمًا. المجال صغير في مصر، ويعتمد الأجر على العمل في مستشفى أو مركز تأهيل أو مدرسة أو جلسات خاصة."
+    }
+  },
+  "global": {
+    "en": "The Gulf hires occupational therapists, usually after licensing exams; it is a recognised profession worldwide.",
+    "ar": "الخليج بيشغّل أخصائيين علاج وظيفي غالبًا بعد امتحانات ترخيص؛ والمهنة معترف بيها عالميًا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Very meaningful, visible progress",
+        "ar": "معنى كبير وتقدم بتشوفه"
+      },
+      {
+        "en": "Creative, play-based work with children",
+        "ar": "شغل مبدع بالألعاب مع الأطفال"
+      },
+      {
+        "en": "Few specialists, growing need",
+        "ar": "متخصصين قليلين واحتياج بيزيد"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few dedicated degree programmes in Egypt",
+        "ar": "برامج دراسة متخصصة قليلة في مصر"
+      },
+      {
+        "en": "Slow progress can be emotionally hard",
+        "ar": "التقدم البطيء ممكن يبقى صعب نفسيًا"
+      },
+      {
+        "en": "Private centres vary in pay and quality",
+        "ar": "المراكز الخاصة بتختلف في المرتب والجودة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Occupational therapy means helping people find a job.",
+          "ar": "العلاج الوظيفي يعني تساعد الناس يلاقوا شغل."
+        },
+        "fact": {
+          "en": "'Occupation' means everyday activities, from eating to playing to working.",
+          "ar": "كلمة «وظيفي» معناها الأنشطة اليومية، من الأكل للعب للشغل."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Daytime sessions, with some evening sessions for school children.",
+      "ar": "جلسات بالنهار، وفيه جلسات بالمسا لأطفال المدارس."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Occupational therapist",
+        "ar": "أخصائي علاج وظيفي"
+      },
+      {
+        "en": "Senior therapist",
+        "ar": "أخصائي أول"
+      },
+      {
+        "en": "Clinical supervisor",
+        "ar": "مشرف إكلينيكي"
+      },
+      {
+        "en": "Centre director or private practice",
+        "ar": "مدير مركز أو عيادة خاصة"
+      }
+    ],
+    "relatedCareerIds": [
+      "physical_therapist",
+      "speech_therapist",
+      "special_education_specialist",
+      "clinical_psychologist"
+    ],
+    "pivots": [
+      {
+        "en": "Special education",
+        "ar": "التربية الخاصة"
+      },
+      {
+        "en": "Ergonomics and workplace health",
+        "ar": "بيئة العمل والصحة المهنية"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Occupational Therapists (29-1122.00)",
+      "url": "https://www.onetonline.org/link/summary/29-1122.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Occupational Therapy Assistants (31-2011.00)",
+      "url": "https://www.onetonline.org/link/summary/31-2011.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

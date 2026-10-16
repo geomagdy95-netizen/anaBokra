@@ -1,6 +1,6 @@
 {
   "id": "health",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 13 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,14 +9,14 @@
       "title": { "en": "A day in health and medicine", "ar": "يوم في الصحة والطب" },
       "intro": { "en": "Moments from a typical day in health and medicine. How does each one sound to you?", "ar": "لحظات من يوم عادي في الصحة والطب. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "health_day_1", "title": { "en": "The morning round", "ar": "مرور الصبح" }, "text": { "en": "A morning round: the team visits each patient and agrees on the plan for the day.", "ar": "مرور الصبح: الفريق بيعدّي على كل مريض ويتفقوا على خطة اليوم." }, "careers": ["physician", "nurse", "clinical_nutritionist"] },
-        { "id": "health_day_2", "title": { "en": "The night shift", "ar": "نوبتجية الليل" }, "text": { "en": "A night shift in the emergency room.", "ar": "نوبتجية بالليل في الاستقبال والطوارئ." }, "careers": ["physician", "nurse", "radiology_technologist"] },
-        { "id": "health_day_3", "title": { "en": "Five medicines", "ar": "5 أدوية" }, "text": { "en": "Explaining to an elderly patient how to take five different medicines.", "ar": "شرح لمريض كبير في السن إزاي ياخد 5 أدوية مختلفة." }, "careers": ["pharmacist", "nurse", "physician"] },
-        { "id": "health_day_4", "title": { "en": "A steady hand", "ar": "إيد ثابتة" }, "text": { "en": "An hour of careful hands-on work in a tiny space: filling a tooth.", "ar": "ساعة شغل إيد دقيق في مساحة صغيرة جدًا: حشو سنة." }, "careers": ["dentist"] },
-        { "id": "health_day_5", "title": { "en": "Walking again", "ar": "يرجع يمشي" }, "text": { "en": "Helping a footballer walk again after a knee injury, one exercise at a time.", "ar": "مساعدة لاعب كورة يرجع يمشي بعد إصابة في الركبة، تمرين ورا تمرين." }, "careers": ["physical_therapist"] },
-        { "id": "health_day_6", "title": { "en": "In the lab", "ar": "في المعمل" }, "text": { "en": "Running blood samples through machines and checking each result is right.", "ar": "تشغيل عينات دم على الأجهزة والتأكد إن كل نتيجة مظبوطة." }, "careers": ["medical_lab_scientist", "radiology_technologist"] },
-        { "id": "health_day_7", "title": { "en": "An hour of listening", "ar": "ساعة استماع" }, "text": { "en": "Listening to someone talk about their worries for a whole hour.", "ar": "استماع لحد بيحكي عن همومه ساعة كاملة." }, "careers": ["clinical_psychologist"] },
-        { "id": "health_day_8", "title": { "en": "Dawn on the farm", "ar": "الفجر في المزرعة" }, "text": { "en": "6 a.m. on a farm, examining sick calves.", "ar": "6 الصبح في مزرعة: كشف على عجول عيانة." }, "careers": ["veterinarian"] }
+        { "id": "health_day_1", "title": { "en": "The morning round", "ar": "مرور الصبح" }, "text": { "en": "A morning round: the team visits each patient and agrees on the plan for the day.", "ar": "المرور الصبح: الفريق الطبي بيعدّي على كل مريض، ويتفقوا على خطة علاجه النهارده." }, "careers": ["physician", "nurse", "clinical_nutritionist"] },
+        { "id": "health_day_2", "title": { "en": "The night shift", "ar": "نوبتجية الليل" }, "text": { "en": "A night shift in the emergency room.", "ar": "نوبتجية ليل كاملة في قسم الطوارئ." }, "careers": ["physician", "nurse", "radiology_technologist"] },
+        { "id": "health_day_3", "title": { "en": "Five medicines", "ar": "خمس أدوية" }, "text": { "en": "Explaining to an elderly patient how to take five different medicines.", "ar": "مريض كبير في السن محتاج حد يشرحله بهدوء إزاي ياخد 5 أدوية مختلفة من غير ما يتلخبط." }, "careers": ["pharmacist", "nurse", "physician"] },
+        { "id": "health_day_4", "title": { "en": "A steady hand", "ar": "إيد ثابتة" }, "text": { "en": "An hour of careful hands-on work in a tiny space: filling a tooth.", "ar": "ساعة كاملة من الشغل الدقيق بالإيد جوه بُق المريض: حشو ضرس." }, "careers": ["dentist"] },
+        { "id": "health_day_5", "title": { "en": "Walking again", "ar": "يرجع يمشي تاني" }, "text": { "en": "Helping a footballer walk again after a knee injury, one exercise at a time.", "ar": "لاعب كورة اتصاب في ركبته، والمطلوب تساعده يرجع يمشي تاني، تمرين ورا تمرين." }, "careers": ["physical_therapist"] },
+        { "id": "health_day_6", "title": { "en": "In the lab", "ar": "في المعمل" }, "text": { "en": "Running blood samples through machines and checking each result is right.", "ar": "اليوم كله تحاليل دم على الأجهزة، ومراجعة كل نتيجة قبل ما تطلع للمريض." }, "careers": ["medical_lab_scientist", "radiology_technologist"] },
+        { "id": "health_day_7", "title": { "en": "An hour of listening", "ar": "ساعة سماع" }, "text": { "en": "Listening to someone talk about their worries for a whole hour.", "ar": "حد قاعد قدامك ساعة كاملة بيحكي عن همومه، ودورك إنك تسمعه بتركيز." }, "careers": ["clinical_psychologist"] },
+        { "id": "health_day_8", "title": { "en": "Dawn on the farm", "ar": "الفجر في المزرعة" }, "text": { "en": "6 a.m. on a farm, examining sick calves.", "ar": "الساعة 6 الصبح في مزرعة: الكشف على عجول عيانة." }, "careers": ["veterinarian"] }
       ]
     },
     {
@@ -28,9 +28,9 @@
         { "id": "health_real_1", "title": { "en": "Looking ahead", "ar": "نظرة لقدام" }, "a": { "en": "Five or six years of study, then more training", "ar": "5 أو 6 سنين دراسة، وبعدها تدريب كمان" }, "b": { "en": "Starting work within four years", "ar": "تبدأ تشتغل خلال 4 سنين", "arF": "تبدئي تشتغلي خلال 4 سنين" }, "path": "a", "careers": ["physician", "dentist", "pharmacist", "physical_therapist", "veterinarian"] },
         { "id": "health_real_2", "title": { "en": "When you work", "ar": "مواعيد الشغل" }, "a": { "en": "Night shifts and weekends, especially in the first years", "ar": "نوبتجيات بالليل وفي الأجازات، خصوصًا أول سنين" }, "b": { "en": "Regular daytime hours", "ar": "مواعيد ثابتة بالنهار" }, "path": "a", "careers": ["physician", "nurse"] },
         { "id": "health_real_3", "title": { "en": "Facing illness", "ar": "التعامل مع المرض" }, "a": { "en": "Seeing blood, pain and illness up close", "ar": "تشوف دم ووجع وعيا من قريب", "arF": "تشوفي دم ووجع وعيا من قريب" }, "b": { "en": "Never dealing with illness", "ar": "متتعاملش مع المرض خالص", "arF": "متتعامليش مع المرض خالص" }, "path": "a", "careers": ["physician", "nurse", "dentist", "medical_lab_scientist", "veterinarian"] },
-        { "id": "health_real_4", "title": { "en": "What is at stake", "ar": "إيه اللي على المحك" }, "a": { "en": "Being responsible for someone's health", "ar": "مسؤولية عن صحة إنسان" }, "b": { "en": "Work where a mistake only costs money", "ar": "شغل الغلطة فيه تمنها فلوس بس" }, "path": "a" },
+        { "id": "health_real_4", "title": { "en": "What is at stake", "ar": "حجم المسؤولية" }, "a": { "en": "Being responsible for someone's health", "ar": "مسؤولية مباشرة عن صحة الناس" }, "b": { "en": "Work where a mistake only costs money", "ar": "شغل أقصى خسارة فيه لو غلطت فلوس" }, "path": "a" },
         { "id": "health_real_5", "title": { "en": "On your feet?", "ar": "واقف ولا قاعد؟", "arF": "واقفة ولا قاعدة؟" }, "a": { "en": "Standing and moving most of the day", "ar": "واقف وبتتحرك أغلب اليوم", "arF": "واقفة وبتتحركي أغلب اليوم" }, "b": { "en": "Sitting at a desk", "ar": "قاعد على مكتب", "arF": "قاعدة على مكتب" }, "path": "a", "careers": ["nurse", "physical_therapist", "dentist", "physician"] },
-        { "id": "health_real_6", "title": { "en": "Learning after graduation", "ar": "التعلم بعد التخرج" }, "a": { "en": "Keeping up with new research for your whole career", "ar": "تتابع الأبحاث الجديدة طول عمرك المهني", "arF": "تتابعي الأبحاث الجديدة طول عمرك المهني" }, "b": { "en": "Learning once and applying it", "ar": "تتعلم مرة وتطبّق", "arF": "تتعلمي مرة وتطبّقي" }, "path": "a" }
+        { "id": "health_real_6", "title": { "en": "Learning after graduation", "ar": "التعلم بعد التخرج" }, "a": { "en": "Keeping up with new research for your whole career", "ar": "تفضل تذاكر وتتابع الجديد طول حياتك المهنية", "arF": "تفضلي تذاكري وتتابعي الجديد طول حياتك المهنية" }, "b": { "en": "Learning once and applying it", "ar": "تتعلم مرة واحدة وتشتغل بيها", "arF": "تتعلمي مرة واحدة وتشتغلي بيها" }, "path": "a" }
       ]
     },
     {
@@ -43,7 +43,7 @@
           "id": "health_try_1",
           "title": { "en": "A moment that matters", "ar": "لحظة فارقة" },
           "type": "scenario",
-          "text": { "en": "A worried mother keeps asking questions while you're busy with her son.", "ar": "أم قلقانة بتسأل أسئلة كتير وإنت مشغول مع ابنها.", "arF": "أم قلقانة بتسأل أسئلة كتير وإنتي مشغولة مع ابنها." },
+          "text": { "en": "A worried mother keeps asking questions while you're busy with her son.", "ar": "أم قلقانة عمالة تسأل أسئلة كتير وإنت مشغول مع ابنها.", "arF": "أم قلقانة عمالة تسأل أسئلة كتير وإنتي مشغولة مع ابنها." },
           "options": [
             { "text": { "en": "Stop for a minute, listen, and explain simply", "ar": "أقف دقيقة، أسمعها، وأشرح ببساطة" }, "fit": 1 },
             { "text": { "en": "Ask a colleague to talk to her", "ar": "أطلب من زميل يتكلم معاها" }, "fit": 0.4 },
@@ -55,12 +55,12 @@
           "id": "health_try_2",
           "title": { "en": "A dose that looks wrong", "ar": "جرعة شكلها غلط" },
           "type": "scenario",
-          "text": { "en": "A dose on a prescription looks too high to you.", "ar": "جرعة في روشتة شكلها عالية زيادة." },
+          "text": { "en": "A dose on a prescription looks too high to you.", "ar": "جرعة مكتوبة في روشتة شكلها عالية زيادة عن اللزوم." },
           "options": [
-            { "text": { "en": "Check with the doctor before anything is given", "ar": "أتأكد من الدكتور قبل ما حاجة تتدّي" }, "fit": 1 },
-            { "text": { "en": "Look it up in the drug guide first", "ar": "أدور عليها في دليل الأدوية الأول" }, "fit": 0.8 },
-            { "text": { "en": "Give it: the doctor knows best", "ar": "أديها: الدكتور أدرى" }, "fit": 0 },
-            { "text": { "en": "Halve it myself", "ar": "أقسمها نصين بنفسي" }, "fit": 0 }
+            { "text": { "en": "Check with the doctor before anything is given", "ar": "أراجع مع الدكتور قبل ما المريض ياخدها" }, "fit": 1 },
+            { "text": { "en": "Look it up in the drug guide first", "ar": "أدوّر عليها في دليل الأدوية الأول" }, "fit": 0.8 },
+            { "text": { "en": "Give it: the doctor knows best", "ar": "أديهاله: الدكتور أدرى" }, "fit": 0 },
+            { "text": { "en": "Halve it myself", "ar": "أنزّل الجرعة للنص من عندي" }, "fit": 0 }
           ]
         },
         {
@@ -68,7 +68,7 @@
           "title": { "en": "Every 8 hours", "ar": "كل 8 ساعات" },
           "type": "puzzle",
           "text": { "en": "A medicine is taken every 8 hours. The first dose is at 6 a.m. When is the third?", "ar": "دوا بيتاخد كل 8 ساعات. أول جرعة الساعة 6 الصبح. التالتة إمتى؟" },
-          "options": [{ "en": "2 p.m.", "ar": "2 الضهر" }, { "en": "6 p.m.", "ar": "6 المغرب" }, { "en": "10 p.m.", "ar": "10 بالليل" }, { "en": "Midnight", "ar": "12 بالليل" }],
+          "options": [{ "en": "2 p.m.", "ar": "2 الضهر" }, { "en": "6 p.m.", "ar": "6 المسا" }, { "en": "10 p.m.", "ar": "10 بالليل" }, { "en": "Midnight", "ar": "12 بالليل" }],
           "answer": 2,
           "explain": { "en": "6 a.m., then 2 p.m., then 10 p.m. Timing doses is daily work for nurses and pharmacists.", "ar": "6 الصبح، وبعدين 2 الضهر، وبعدين 10 بالليل. مواعيد الجرعات شغل يومي للتمريض والصيدلة." }
         },

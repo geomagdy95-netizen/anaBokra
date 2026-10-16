@@ -1,6 +1,6 @@
 {
   "version": "1.0.0-draft",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-15",
   "method": {
     "en": "Outlook is a judgement, not a forecast. For each cluster we combine (1) recent official growth and employment data (CAPMAS, Ministry of Planning, World Bank, ILO), (2) published government strategies and targets, treated as intentions not predictions, and (3) global evidence on automation and AI exposure (WEF Future of Jobs 2025, ILO). Trend is one of growing, stable, transforming or declining. 5-year demand is a numeric % range only where a source supports one, otherwise a qualitative band. Confidence is high only when several official sources agree, low when official data are missing. Missing numbers are null with a note; none are estimated.",
     "ar": "التوقع هنا تقدير للاتجاه وليس تنبؤًا. نجمع لكل مجال: (1) أحدث بيانات رسمية عن النمو والتشغيل (الجهاز المركزي للتعبئة العامة والإحصاء، وزارة التخطيط، البنك الدولي، منظمة العمل الدولية)، (2) الاستراتيجيات والمستهدفات الحكومية المنشورة باعتبارها نوايا لا تنبؤات، (3) الأدلة العالمية على التعرض للأتمتة والذكاء الاصطناعي (تقرير مستقبل الوظائف 2025 للمنتدى الاقتصادي العالمي ومنظمة العمل الدولية). الاتجاه أحد: متنامٍ أو مستقر أو متحول أو متراجع. الطلب خلال خمس سنوات نطاق رقمي بالنسبة المئوية فقط حيث يدعمه مصدر، وإلا فهو وصف نوعي. تكون الثقة عالية فقط عند اتفاق عدة مصادر رسمية ومنخفضة عند غياب البيانات الرسمية. الأرقام غير المتوفرة تُترك فارغة مع ملاحظة ولا تُقدَّر."
@@ -38,29 +38,29 @@
           "sourceId": "wbHealth"
         },
         "realGrowth": {
-          "value": 4.6,
+          "value": 4.4,
           "unit": "% real, year on year",
           "scope": {
-            "en": "Social services (health and education combined), Q1 FY2025/26",
-            "ar": "الخدمات الاجتماعية (الصحة والتعليم معًا)، الربع الأول من العام المالي 2025/2026"
+            "en": "Health, Q3 FY2025/26 (4.0% a year earlier)",
+            "ar": "الصحة، الربع الثالث من 2025/2026 (4.0% في نفس الربع من السنة السابقة)"
           },
-          "year": 2025,
-          "sourceId": "mpedQ1"
+          "year": 2026,
+          "sourceId": "mpedQ3"
         },
         "employment": {
-          "value": null,
+          "value": 1093000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 3.7,
           "scope": {
-            "en": "Health and social work employment: no reliable figure found in the sources reviewed",
-            "ar": "العاملون في الصحة والعمل الاجتماعي: لم نعثر على رقم موثوق في المصادر التي راجعناها"
+            "en": "Human health and social work activities (ISIC Q), 2024 (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "أنشطة صحة الإنسان والعمل الاجتماعي (القسم Q)، 2024 (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
-          "en": "Health spending is about 4.9% of GDP. Social services (health plus education) grew 4.6% in Q1 FY2025/26, but the growth figure is not health alone. A CAPMAS health-sector headcount was not found, so it is left null.",
-          "ar": "يبلغ الإنفاق على الصحة نحو 4.9% من الناتج المحلي. نمت الخدمات الاجتماعية (الصحة والتعليم) 4.6% في الربع الأول من 2025/2026، لكن الرقم لا يخص الصحة وحدها. لم نجد عدد العاملين في القطاع الصحي من الجهاز المركزي للتعبئة العامة والإحصاء، لذلك تُرك فارغًا."
+          "en": "Health spending is about 4.9% of GDP. Health activity grew 4.4% in Q3 FY2025/26 and produced about 3.2% of value added that quarter. Health and social work employ about 1.1 million people (2024 labour survey).",
+          "ar": "يبلغ الإنفاق على الصحة نحو 4.9% من الناتج المحلي. نما نشاط الصحة 4.4% في الربع الثالث من 2025/2026 وأنتج نحو 3.2% من القيمة المضافة في ذلك الربع. يعمل في الصحة والعمل الاجتماعي نحو 1.1 مليون شخص (مسح القوى العاملة 2024)."
         }
       },
       "business": {
@@ -185,6 +185,22 @@
         }
       ],
       "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "mpedQ3",
+          "title": "Egypt's GDP Growth Rate during Q3 FY 2025/26 (Table 1: growth at constant prices; Table 2: GDP at factor cost at current prices)",
+          "url": "https://mped.gov.eg/AdminPanel/sharedFiles/GDP_Note_Q3_25-26_English_version-1-_Editied_(1)_60b.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2026,
+          "accessed": "2026-10-15"
+        },
         {
           "id": "wbHealth",
           "title": "Current health expenditure (% of GDP) - Egypt",
@@ -568,15 +584,15 @@
           "sourceId": "mpedQ1"
         },
         "employment": {
-          "value": null,
+          "value": 202000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 0.7,
           "scope": {
-            "en": "ICT sector employment: no official CAPMAS headcount found in the sources reviewed",
-            "ar": "العاملون في قطاع تكنولوجيا المعلومات: لم نعثر على رقم رسمي من الجهاز المركزي للتعبئة العامة والإحصاء"
+            "en": "Telecommunications, computer programming and information services (ISIC 61 to 63), 2024 (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "الاتصالات والبرمجة وخدمات المعلومات (الأقسام 61 إلى 63)، 2024 (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
           "en": "ICT is among the fastest-growing sectors. Government figures put digital exports at USD 7.4 billion and outsourcing exports at roughly USD 5.2 billion in 2025. Figures for the sector share of GDP differ between sources depending on definition (telecoms only versus broader ICT), so use 5.8% as an indicative level.",
@@ -696,6 +712,14 @@
       ],
       "sources": [
         {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "mcitIct",
           "title": "Egypt's ICT sector contributes 5.8% of GDP in FY2023/24",
           "url": "https://www.businesstodayegypt.com/amp/1/4833/Egypt-s-ICT-sector-contributes-to-GDP-by-5-8",
@@ -807,13 +831,13 @@
       },
       "economy": {
         "gdpShare": {
-          "value": null,
-          "year": null,
-          "sourceId": null,
+          "value": 16.4,
+          "year": 2026,
+          "sourceId": "mpedQ3",
           "unit": "% of GDP",
           "scope": {
-            "en": "Financial intermediation and trade shares of GDP: not found in a source we could read",
-            "ar": "نصيب الوساطة المالية والتجارة من الناتج المحلي: لم نجده في مصدر أمكننا قراءته"
+            "en": "Wholesale and retail trade (12.0%), financial intermediation (3.8%) and insurance (0.6%): share of gross value added at factor cost, current prices, in one quarter (Q3 FY2025/26, January to March 2026); computed by us from the Ministry of Planning table, so it can differ from full-year shares",
+            "ar": "تجارة الجملة والتجزئة (12.0%) والوساطة المالية (3.8%) والتأمين (0.6%): نصيب من القيمة المضافة الإجمالية بتكلفة عوامل الإنتاج وبالأسعار الجارية، في ربع واحد (الربع الثالث من 2025/2026، يناير إلى مارس 2026)؛ حسبناه من جدول وزارة التخطيط، فقد يختلف عن نصيب السنة كاملة"
           }
         },
         "realGrowth": {
@@ -838,8 +862,8 @@
           "sourceId": "capmasEmp"
         },
         "notes": {
-          "en": "Trade is the second-largest employer after agriculture. Financial activities grew strongly, and financial inclusion reached 77.6% of adults 15+ by the end of 2025 (Central Bank of Egypt, as reported). Sector GDP shares were not found in a readable official source, so that field is null.",
-          "ar": "التجارة ثاني أكبر جهة تشغيل بعد الزراعة. نمت الأنشطة المالية بقوة، وبلغ الشمول المالي 77.6% من البالغين (15 سنة فأكثر) بنهاية 2025 (البنك المركزي المصري كما نُقل). لم نجد نصيب القطاع من الناتج في مصدر رسمي مقروء، لذلك ترك الحقل فارغًا."
+          "en": "Trade is the second-largest employer after agriculture. Trade, finance and insurance together produced about 16% of value added in early 2026. Financial activities grew strongly, and financial inclusion reached 77.6% of adults 15+ by the end of 2025 (Central Bank of Egypt, as reported).",
+          "ar": "التجارة ثاني أكبر جهة تشغيل بعد الزراعة. أنتجت التجارة والتمويل والتأمين معًا نحو 16% من القيمة المضافة في أوائل 2026. نمت الأنشطة المالية بقوة، وبلغ الشمول المالي 77.6% من البالغين (15 سنة فأكثر) بنهاية 2025 (البنك المركزي المصري كما نُقل)."
         }
       },
       "business": {
@@ -955,6 +979,14 @@
       ],
       "sources": [
         {
+          "id": "mpedQ3",
+          "title": "Egypt's GDP Growth Rate during Q3 FY 2025/26 (Table 1: growth at constant prices; Table 2: GDP at factor cost at current prices)",
+          "url": "https://mped.gov.eg/AdminPanel/sharedFiles/GDP_Note_Q3_25-26_English_version-1-_Editied_(1)_60b.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2026,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "mpedQ1",
           "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
           "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
@@ -1062,15 +1094,15 @@
           }
         },
         "employment": {
-          "value": null,
+          "value": 101000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 0.3,
           "scope": {
-            "en": "Media, advertising and marketing employment: no official figure found",
-            "ar": "العاملون في الإعلام والإعلان والتسويق: لم نجد رقمًا رسميًا"
+            "en": "Publishing, film and TV production, broadcasting, and advertising and market research (ISIC 58 to 60 and 73), 2024; a survey count that misses much freelance work (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "النشر وإنتاج الأفلام والتلفزيون والبث والإعلان وبحوث السوق (الأقسام 58 إلى 60 و73)، 2024؛ رقم مسح يفوته كثير من العمل الحر (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
           "en": "This is one of the least well-measured clusters. Private market-research estimates exist for the advertising market but are not official statistics, so we do not use them as numbers here.",
@@ -1173,6 +1205,14 @@
       ],
       "sources": [
         {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "mediaAds",
           "title": "Advertising & Marketing 2025: Egypt",
           "url": "https://practiceguides.chambers.com/practice-guides/advertising-marketing-2025/egypt",
@@ -1256,19 +1296,19 @@
           }
         },
         "employment": {
-          "value": null,
+          "value": 58000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 0.2,
           "scope": {
-            "en": "Creative-sector employment: no official figure found; a British Council study describes the sector as large and largely informal",
-            "ar": "العاملون في القطاع الإبداعي: لم نجد رقمًا رسميًا؛ وتصفه دراسة المجلس الثقافي البريطاني بأنه كبير وغير رسمي في معظمه"
+            "en": "Design, photography and other specialised professional activities (ISIC 74), 2024; a survey count that misses much informal and freelance work (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "التصميم والتصوير وأنشطة مهنية متخصصة أخرى (القسم 74)، 2024؛ رقم مسح يفوته كثير من العمل غير الرسمي والحر (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
-          "en": "A British Council Egypt study found that creative industries sit across several ministries and laws and are often informal, which is why official numbers are missing. This is the weakest-measured cluster, so confidence is low.",
-          "ar": "وجدت دراسة للمجلس الثقافي البريطاني في مصر أن الصناعات الإبداعية موزعة بين عدة وزارات وقوانين وغالبًا غير رسمية، ولهذا تغيب الأرقام الرسمية. هذا أضعف المجالات قياسًا، لذلك الثقة منخفضة."
+          "en": "A British Council Egypt study found that creative industries sit across several ministries and laws and are often informal, which is why official numbers undercount it (the 2024 labour survey finds only about 58,000 in design and photography). This is the weakest-measured cluster, so confidence is low.",
+          "ar": "وجدت دراسة للمجلس الثقافي البريطاني في مصر أن الصناعات الإبداعية موزعة بين عدة وزارات وقوانين وغالبًا غير رسمية، ولهذا تقلل الأرقام الرسمية من حجمها (مسح القوى العاملة 2024 يجد نحو 58 ألفًا فقط في التصميم والتصوير). هذا أضعف المجالات قياسًا، لذلك الثقة منخفضة."
         }
       },
       "business": {
@@ -1374,6 +1414,14 @@
       ],
       "sources": [
         {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "creativeBc",
           "title": "Contextualizing Creativity, Recognizing Informality: On Creative Industries in Egypt",
           "url": "https://britishcouncil.org.eg/en/programmes/arts/creative-economy/study-contextualizing-creativity-recognizing-informality",
@@ -1457,15 +1505,15 @@
           }
         },
         "employment": {
-          "value": null,
+          "value": 343000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 1.1,
           "scope": {
-            "en": "Legal and public-sector employment: no reliable CAPMAS figure found. Bar Association membership is reported in the hundreds of thousands (estimates vary), and many members do not practise",
-            "ar": "العاملون في القانون والقطاع العام: لم نجد رقمًا موثوقًا من الجهاز المركزي للتعبئة العامة والإحصاء. تُقدَّر عضوية نقابة المحامين بمئات الآلاف (تختلف التقديرات) ولا يمارس كثير منهم المهنة"
+            "en": "Legal and accounting activities (ISIC 69), 2024: includes accountants; judges and prosecutors are counted under public administration (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "الأنشطة القانونية والمحاسبية (القسم 69)، 2024: يشمل المحاسبين؛ والقضاة وأعضاء النيابة محسوبون ضمن الإدارة العامة (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
           "en": "Official data are limited. Egypt has a very large number of registered lawyers relative to practising positions, which makes the entry stage competitive. Public service is a large employer, but headcount data are not summarised here.",
@@ -1578,6 +1626,14 @@
       ],
       "sources": [
         {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "digitalJustice",
           "title": "Egypt launches new digital justice projects to accelerate transformation",
           "url": "https://meatechwatch.com/2025/10/01/egypt-launches-new-digital-justice-projects-to-accelerate-transformation/",
@@ -1649,39 +1705,39 @@
       },
       "economy": {
         "gdpShare": {
-          "value": null,
-          "year": null,
-          "sourceId": null,
+          "value": 2.1,
+          "year": 2026,
+          "sourceId": "mpedQ3",
           "unit": "% of GDP",
           "scope": {
-            "en": "Education value-added share of GDP: not found; the latest World Bank figure for government education spending is from 2008, so it is not used",
-            "ar": "نصيب التعليم من الناتج المحلي: لم نجده؛ وآخر رقم للبنك الدولي عن الإنفاق الحكومي على التعليم يعود إلى 2008 فلم نستخدمه"
+            "en": "Education value added: share of gross value added at factor cost, current prices, in one quarter (Q3 FY2025/26, January to March 2026); computed by us from the Ministry of Planning table, so it can differ from full-year shares",
+            "ar": "القيمة المضافة للتعليم: نصيب من القيمة المضافة الإجمالية بتكلفة عوامل الإنتاج وبالأسعار الجارية، في ربع واحد (الربع الثالث من 2025/2026، يناير إلى مارس 2026)؛ حسبناه من جدول وزارة التخطيط، فقد يختلف عن نصيب السنة كاملة"
           }
         },
         "realGrowth": {
-          "value": 4.6,
+          "value": 4.0,
           "unit": "% real, year on year",
           "scope": {
-            "en": "Social services (health and education combined), Q1 FY2025/26",
-            "ar": "الخدمات الاجتماعية (الصحة والتعليم معًا)، الربع الأول من 2025/2026"
+            "en": "Education, Q3 FY2025/26 (5.8% a year earlier)",
+            "ar": "التعليم، الربع الثالث من 2025/2026 (5.8% في نفس الربع من السنة السابقة)"
           },
-          "year": 2025,
-          "sourceId": "mpedQ1"
+          "year": 2026,
+          "sourceId": "mpedQ3"
         },
         "employment": {
-          "value": null,
+          "value": 2168000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 7.3,
           "scope": {
-            "en": "Education employment: press reports cite about 843,000 pre-university teachers with a reported deficit, but the year and basis are unclear, so the field is left null",
-            "ar": "العاملون في التعليم: تذكر تقارير صحفية نحو 843 ألف معلم في التعليم قبل الجامعي مع عجز معلن، لكن السنة والأساس غير واضحين، لذلك ترك الحقل فارغًا"
+            "en": "Education (ISIC P), 2024: all education workers, not teachers only (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "التعليم (القسم P)، 2024: كل العاملين في التعليم وليس المعلمين فقط (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
-          "en": "Education has one of the largest public workforces and a reported shortage of teachers. Government recruited teachers under a plan of 30,000 per year, and also uses hourly-paid teachers. Growth shown is for health and education combined.",
-          "ar": "يضم التعليم واحدة من أكبر قوى العمل الحكومية وعجزًا معلنًا في المعلمين. جندت الحكومة معلمين وفق خطة 30 ألف سنويًا وتستعين أيضًا بمعلمين بالحصة. معدل النمو المعروض يخص الصحة والتعليم معًا."
+          "en": "Education has one of the largest public workforces and a reported shortage of teachers. Government recruited teachers under a plan of 30,000 per year, and also uses hourly-paid teachers. Education alone produced about 2% of value added in early 2026 and grew 4.0%. About 2.2 million people work in education (2024 labour survey).",
+          "ar": "يضم التعليم واحدة من أكبر قوى العمل الحكومية وعجزًا معلنًا في المعلمين. جندت الحكومة معلمين وفق خطة 30 ألف سنويًا وتستعين أيضًا بمعلمين بالحصة. أنتج التعليم وحده نحو 2% من القيمة المضافة في أوائل 2026 ونما 4.0%. يعمل في التعليم نحو 2.2 مليون شخص (مسح القوى العاملة 2024)."
         }
       },
       "business": {
@@ -1790,6 +1846,22 @@
       ],
       "sources": [
         {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "mpedQ3",
+          "title": "Egypt's GDP Growth Rate during Q3 FY 2025/26 (Table 1: growth at constant prices; Table 2: GDP at factor cost at current prices)",
+          "url": "https://mped.gov.eg/AdminPanel/sharedFiles/GDP_Note_Q3_25-26_English_version-1-_Editied_(1)_60b.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2026,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "mpedQ1",
           "title": "Egypt quarterly GDP growth exceeded 5% in Q1 FY2025/2026 (sector growth rates)",
           "url": "https://mped.gov.eg/singlenews?id=6748&lang=en",
@@ -1889,15 +1961,15 @@
           }
         },
         "employment": {
-          "value": null,
+          "value": 19000,
           "unit": "persons",
-          "sharePct": null,
+          "sharePct": 0.1,
           "scope": {
-            "en": "Researcher headcount: no figure found in the sources reviewed",
-            "ar": "عدد الباحثين: لم نجد رقمًا في المصادر التي راجعناها"
+            "en": "Scientific research and development establishments (ISIC 72), 2024; researchers in universities are counted under education. Small survey sample (29,000 in 2023) (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "مؤسسات البحث العلمي والتطوير (القسم 72)، 2024؛ الباحثون في الجامعات محسوبون ضمن التعليم. عينة المسح صغيرة (29 ألفًا في 2023) (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
           },
-          "year": null,
-          "sourceId": null
+          "year": 2024,
+          "sourceId": "iloEmp"
         },
         "notes": {
           "en": "R&D spending has risen steadily to about 1% of GDP, which is a meaningful improvement but still modest. Research jobs are concentrated in universities, national research centres and a small number of company labs.",
@@ -2016,6 +2088,14 @@
         }
       ],
       "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
         {
           "id": "wbRd",
           "title": "Research and development expenditure (% of GDP) - Egypt",
@@ -2578,13 +2658,13 @@
           "sourceId": "wbAgri"
         },
         "realGrowth": {
-          "value": null,
-          "year": null,
-          "sourceId": null,
+          "value": 1.9,
+          "year": 2026,
+          "sourceId": "mpedQ3",
           "unit": "% real, year on year",
           "scope": {
-            "en": "No agriculture growth figure found in the sources reviewed (agriculture was reported among positive-growth sectors)",
-            "ar": "لم نجد معدل نمو للزراعة في المصادر التي راجعناها (ذُكرت الزراعة ضمن القطاعات ذات النمو الإيجابي)"
+            "en": "Agriculture, forestry and fishing, Q3 FY2025/26 (4.7% a year earlier)",
+            "ar": "الزراعة والغابات والصيد، الربع الثالث من 2025/2026 (4.7% في نفس الربع من السنة السابقة)"
           }
         },
         "employment": {
@@ -2599,8 +2679,8 @@
           "sourceId": "capmasEmp"
         },
         "notes": {
-          "en": "Agriculture is the largest single employer (about 6.6 million, around one in five workers). The share of workers in farming has been falling slowly (19.3% in 2021 to 17.5% in 2025 on ILO estimates) as other sectors grow. Fresh-food exports reached USD 11.5 billion in 2025 and total agricultural exports a record 9.5 million tonnes, per press reports.",
-          "ar": "الزراعة أكبر جهة تشغيل منفردة (نحو 6.6 مليون، أي نحو واحد من كل خمسة عاملين). تنخفض نسبة العاملين في الزراعة ببطء (من 19.3% في 2021 إلى 17.5% في 2025 وفق تقديرات منظمة العمل الدولية) مع نمو القطاعات الأخرى. بلغت صادرات الغذاء الطازج 11.5 مليار دولار في 2025 وإجمالي الصادرات الزراعية رقمًا قياسيًا قدره 9.5 مليون طن وفق تقارير صحفية."
+          "en": "Agriculture is the largest single employer (about 6.6 million, around one in five workers). The share of workers in farming has been falling slowly (19.3% in 2021 to 17.5% in 2025 on ILO estimates) as other sectors grow. Fresh-food exports reached USD 11.5 billion in 2025 and total agricultural exports a record 9.5 million tonnes, per press reports. Farm output grew a slower 1.9% in Q3 FY2025/26.",
+          "ar": "الزراعة أكبر جهة تشغيل منفردة (نحو 6.6 مليون، أي نحو واحد من كل خمسة عاملين). تنخفض نسبة العاملين في الزراعة ببطء (من 19.3% في 2021 إلى 17.5% في 2025 وفق تقديرات منظمة العمل الدولية) مع نمو القطاعات الأخرى. بلغت صادرات الغذاء الطازج 11.5 مليار دولار في 2025 وإجمالي الصادرات الزراعية رقمًا قياسيًا قدره 9.5 مليون طن وفق تقارير صحفية. ونما الإنتاج الزراعي بوتيرة أبطأ 1.9% في الربع الثالث من 2025/2026."
         }
       },
       "business": {
@@ -2716,6 +2796,14 @@
       ],
       "sources": [
         {
+          "id": "mpedQ3",
+          "title": "Egypt's GDP Growth Rate during Q3 FY 2025/26 (Table 1: growth at constant prices; Table 2: GDP at factor cost at current prices)",
+          "url": "https://mped.gov.eg/AdminPanel/sharedFiles/GDP_Note_Q3_25-26_English_version-1-_Editied_(1)_60b.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2026,
+          "accessed": "2026-10-15"
+        },
+        {
           "id": "wbAgri",
           "title": "Agriculture, forestry, and fishing, value added (% of GDP) - Egypt",
           "url": "https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS?locations=EG",
@@ -2777,6 +2865,1001 @@
           "url": "https://mped.gov.eg/Files/Egypt_Vision_2030_EnglishDigitalUse.pdf",
           "publisher": "Ministry of Planning and Economic Development (Egypt)",
           "year": 2023,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": {
+        "en": "Sports & Fitness",
+        "ar": "الرياضة واللياقة"
+      },
+      "intro": {
+        "what": {
+          "en": "Playing, coaching, teaching and running sport and fitness, from clubs to gyms and schools.",
+          "ar": "اللعب والتدريب والتدريس وإدارة الرياضة واللياقة، من الأندية للجيمات والمدارس."
+        },
+        "day": {
+          "en": "Training sessions, matches, classes and events, often in the afternoon, evening and at weekends.",
+          "ar": "تمارين وماتشات وكلاسات وفعاليات، غالبًا بعد الضهر وبالليل وفي الإجازات."
+        },
+        "suits": {
+          "en": "Active people who love sport, enjoy teaching or leading, and keep going after a loss.",
+          "ar": "الناس النشيطة اللي بتحب الرياضة، وبتحب تعلّم أو تقود، وبتكمل بعد الخسارة."
+        }
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Sports and fitness share of GDP: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النصيب من الناتج المحلي لـالرياضة واللياقة: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "realGrowth": {
+          "value": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Sports and fitness growth: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النمو لـالرياضة واللياقة: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "employment": {
+          "value": 133000,
+          "unit": "persons",
+          "scope": {
+            "en": "Sports, amusement and recreation activities (ISIC 93), 2024; PE teachers are counted under education (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "أنشطة الرياضة والتسلية والترفيه (القسم 93)، 2024؛ ومدرسو التربية الرياضية محسوبون ضمن التعليم (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
+          },
+          "year": 2024,
+          "sourceId": "iloEmp",
+          "sharePct": 0.4
+        },
+        "notes": {
+          "en": "Sports clubs, gyms and recreation employ about 130,000 people in the 2024 labour survey (about 0.4% of workers). Official accounts do not show sport as a separate share of GDP or growth line, so those two stay empty.",
+          "ar": "أندية الرياضة والجيمات والترفيه بتشغّل حوالي 130 ألف شخص في مسح العمل 2024 (حوالي 0.4% من العاملين). الحسابات الرسمية ما بتطلّعش الرياضة كنصيب منفصل من الناتج أو كبند نمو، فالمؤشرين دول متسابين فاضيين."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are sports clubs and federations, private academies, gym chains, schools, the Ministry of Youth and Sports and youth centres, and sports event and marketing companies.",
+          "ar": "أبرز جهات التوظيف الأندية والاتحادات الرياضية، والأكاديميات الخاصة، وسلاسل الجيمات، والمدارس، ووزارة الشباب والرياضة ومراكز الشباب، وشركات الفعاليات والتسويق الرياضي."
+        },
+        "startupFreelance": {
+          "en": "Many coaches and trainers work freelance or run small academies and online coaching.",
+          "ar": "كتير من المدربين بيشتغلوا فريلانس أو بيديروا أكاديميات صغيرة وتدريب أونلاين."
+        },
+        "remoteGcc": {
+          "en": "Gulf clubs, academies and gyms hire Egyptian coaches, PE teachers and trainers.",
+          "ar": "أندية وأكاديميات وجيمات الخليج بتشغّل مدربين ومدرسين تربية رياضية ومدربين لياقة مصريين."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Federations and coaching licences",
+            "ar": "الاتحادات ورخص التدريب"
+          },
+          "summary": {
+            "en": "Sport is organised by national federations under the Ministry of Youth and Sports, which issue coaching and refereeing licences by level.",
+            "ar": "الرياضة متنظمة عن طريق اتحادات تحت وزارة الشباب والرياضة، وهي اللي بتدّي رخص التدريب والتحكيم حسب المستوى."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "low",
+        "summary": {
+          "en": "Physical, in-person work is among the less exposed to AI in ILO research; data and video tools change analysis and coaching.",
+          "ar": "الشغل البدني والحضوري من الأقل تعرضًا للذكاء الاصطناعي في أبحاث منظمة العمل الدولية؛ وأدوات البيانات والفيديو بتغيّر التحليل والتدريب."
+        },
+        "howChanging": {
+          "en": "Coaches and trainers who use performance data, video analysis and online coaching reach more people.",
+          "ar": "المدربين اللي بيستخدموا بيانات الأداء وتحليل الفيديو والتدريب الأونلاين بيوصلوا لناس أكتر."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Likely growth in fitness, academies and sports events; very few places at the top level.",
+            "ar": "نمو متوقع في اللياقة والأكاديميات والفعاليات الرياضية؛ وأماكن قليلة جدًا في القمة."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "A judgement without Egyptian sector data. Demand for fitness and youth sport appears to be rising, but professional playing careers stay rare.",
+          "ar": "تقدير من غير بيانات قطاع مصرية. الطلب على اللياقة ورياضة الشباب شكله بيزيد، بس الاحتراف كلاعب بيفضل نادر."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Performance and video analysis",
+            "ar": "تحليل الأداء والفيديو"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Online fitness coaching",
+            "ar": "التدريب الأونلاين"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Sports event management",
+            "ar": "إدارة الفعاليات الرياضية"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "Youth academies",
+            "ar": "أكاديميات الناشئين"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": {
+        "en": "Transport, Aviation & Logistics",
+        "ar": "النقل والطيران واللوجستيات"
+      },
+      "intro": {
+        "what": {
+          "en": "Moving people and goods by air, sea and land, and planning how they get there.",
+          "ar": "نقل الناس والبضايع بالجو والبحر والبر، وتخطيط وصولهم."
+        },
+        "day": {
+          "en": "Flights, sea voyages, port and airport operations, tracking shipments and solving delays.",
+          "ar": "رحلات طيران وبحر، وعمليات الموانئ والمطارات، ومتابعة الشحنات وحل التأخير."
+        },
+        "suits": {
+          "en": "People who stay calm under pressure, like precision and English, and don't mind shifts or travel.",
+          "ar": "الناس اللي بتفضل هادية تحت الضغط، وبتحب الدقة والإنجليزي، ومش فارق معاها الشيفتات أو السفر."
+        }
+      },
+      "economy": {
+        "gdpShare": {
+          "value": 6.4,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Transport and storage (5.5%) plus the Suez Canal (1.0%): share of gross value added at factor cost, current prices, in one quarter (Q3 FY2025/26, January to March 2026); computed by us from the Ministry of Planning table, so it can differ from full-year shares",
+            "ar": "النقل والتخزين (5.5%) مع قناة السويس (1.0%): نصيب من القيمة المضافة الإجمالية بتكلفة عوامل الإنتاج وبالأسعار الجارية، في ربع واحد (الربع الثالث من 2025/2026، يناير إلى مارس 2026)؛ حسبناه من جدول وزارة التخطيط، فقد يختلف عن نصيب السنة كاملة"
+          },
+          "year": 2026,
+          "sourceId": "mpedQ3"
+        },
+        "realGrowth": {
+          "value": 4.6,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Transportation and storage, Q3 FY2025/26 (the Suez Canal, counted separately, grew 23.6%)",
+            "ar": "النقل والتخزين، الربع الثالث من 2025/2026 (قناة السويس، وتُحسب منفصلة، نمت 23.6%)"
+          },
+          "year": 2026,
+          "sourceId": "mpedQ3"
+        },
+        "employment": {
+          "value": 2681000,
+          "unit": "persons",
+          "scope": {
+            "en": "Transport and storage employment, Q4 2025 (share computed from 32.677 million employed)",
+            "ar": "العاملون في النقل والتخزين، الربع الرابع من 2025 (النسبة محسوبة من 32.677 مليون مشتغل)"
+          },
+          "year": 2025,
+          "sourceId": "capmasQ4",
+          "sharePct": 8.2
+        },
+        "notes": {
+          "en": "Transport and storage employs about 2.7 million people, roughly one worker in twelve. With the Suez Canal it produced about 6% of value added in early 2026, and the Canal was recovering fast (traffic tonnage up 23.6% on a year earlier) after the Red Sea disruption.",
+          "ar": "النقل والتخزين بيشغّل حوالي 2.7 مليون شخص، يعني تقريبًا واحد من كل 12 عامل. ومع قناة السويس طلّع حوالي 6% من القيمة المضافة في أول 2026، والقناة كانت بترجع بسرعة (حمولات السفن زادت 23.6% عن السنة اللي قبلها) بعد أزمة البحر الأحمر."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are airlines and airports, the air navigation services company, shipping lines and the Suez Canal Authority, ports, freight forwarders and logistics companies, and e-commerce delivery firms.",
+          "ar": "أبرز جهات التوظيف شركات الطيران والمطارات، وشركة خدمات الملاحة الجوية، والخطوط الملاحية وهيئة قناة السويس، والموانئ، وشركات الشحن واللوجستيات، وشركات توصيل التجارة الإلكترونية."
+        },
+        "startupFreelance": {
+          "en": "Logistics startups and delivery platforms create coordination and operations roles.",
+          "ar": "شركات اللوجستيات الناشئة ومنصات التوصيل بتعمل وظايف تنسيق وعمليات."
+        },
+        "remoteGcc": {
+          "en": "Gulf airlines, ports and logistics hubs hire Egyptian crews, officers and coordinators; seafarers work with international lines.",
+          "ar": "شركات الطيران والموانئ ومراكز اللوجستيات في الخليج بتشغّل أطقم وضباط ومنسقين مصريين؛ والبحارة بيشتغلوا مع خطوط دولية."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Aviation and maritime licensing",
+            "ar": "تراخيص الطيران والبحر"
+          },
+          "summary": {
+            "en": "Pilots, air traffic controllers and cabin crew are licensed under civil aviation rules, and ship officers need international STCW certificates.",
+            "ar": "الطيارين والمراقبين الجويين وأطقم الضيافة بيترخصوا تحت قواعد الطيران المدني، وضباط السفن محتاجين شهادات STCW الدولية."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "Routine booking, tracking and paperwork are increasingly automated; flying, sailing and hands-on operations remain human, under strict rules.",
+          "ar": "الحجز والتتبع والورق الروتيني بيتعملوا أوتوماتيك أكتر؛ والطيران والإبحار والعمليات العملية بتفضل بشرية تحت قواعد صارمة."
+        },
+        "howChanging": {
+          "en": "Digital tracking, customs platforms and data skills matter more for logistics roles.",
+          "ar": "التتبع الرقمي ومنصات الجمارك ومهارات البيانات بقت أهم لوظايف اللوجستيات."
+        }
+      },
+      "outlook": {
+        "trend": "growing",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Steady to growing, tied to trade, the Suez Canal and tourism; sensitive to global shocks.",
+            "ar": "ثابت لنامي، مرتبط بالتجارة وقناة السويس والسياحة؛ وبيتأثر بالأزمات العالمية."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "A judgement without gathered sector data. Trade and travel recover and fall with world events, so demand moves in cycles.",
+          "ar": "تقدير من غير بيانات قطاع مجمعة. التجارة والسفر بيتعافوا ويقعوا مع أحداث العالم، فالطلب بيتحرك في دورات."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Digital freight and tracking",
+            "ar": "الشحن والتتبع الرقمي"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "E-commerce delivery operations",
+            "ar": "عمليات توصيل التجارة الإلكترونية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Green shipping and fuels",
+            "ar": "الشحن والوقود الأخضر"
+          },
+          "momentum": "emerging"
+        },
+        {
+          "name": {
+            "en": "Airport and port operations",
+            "ar": "عمليات المطارات والموانئ"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mpedQ3",
+          "title": "Egypt's GDP Growth Rate during Q3 FY 2025/26 (Table 1: growth at constant prices; Table 2: GDP at factor cost at current prices)",
+          "url": "https://mped.gov.eg/AdminPanel/sharedFiles/GDP_Note_Q3_25-26_English_version-1-_Editied_(1)_60b.pdf",
+          "publisher": "Ministry of Planning and Economic Development (Egypt)",
+          "year": 2026,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "capmasQ4",
+          "title": "Egypt's unemployment falls to 6.2% in Q4 2025 (CAPMAS employment by economic activity)",
+          "url": "https://en.amwalalghad.com/?p=225286",
+          "publisher": "Amwal Al Ghad, reporting CAPMAS",
+          "year": 2026,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": {
+        "en": "Beauty & Wellness",
+        "ar": "التجميل والعناية"
+      },
+      "intro": {
+        "what": {
+          "en": "Hair, makeup, skin and body care that helps people look and feel good.",
+          "ar": "العناية بالشعر والمكياج والبشرة والجسم علشان الناس تبان وتحس بشكل أحسن."
+        },
+        "day": {
+          "en": "Clients one after another in salons, spas and clinics, and early starts on wedding days.",
+          "ar": "عملاء ورا بعض في الصالونات والسبا والعيادات، وصحيان بدري يوم الأفراح."
+        },
+        "suits": {
+          "en": "Creative, people-friendly people with good hands who like to see quick results.",
+          "ar": "الناس المبدعة اللي بتحب التعامل مع الناس، وإيديها حلوة، وبتحب تشوف نتيجة سريعة."
+        }
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Beauty and personal care share of GDP: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النصيب من الناتج المحلي لـالتجميل والعناية الشخصية: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "realGrowth": {
+          "value": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Beauty and personal care growth: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النمو لـالتجميل والعناية الشخصية: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "employment": {
+          "value": 363000,
+          "unit": "persons",
+          "scope": {
+            "en": "Other personal service activities (ISIC 96), 2024: mostly hairdressing and beauty, but also laundry and funeral services (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "أنشطة الخدمات الشخصية الأخرى (القسم 96)، 2024: أغلبها الكوافير والتجميل، ومعها المغاسل وخدمات الجنازات (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
+          },
+          "year": 2024,
+          "sourceId": "iloEmp",
+          "sharePct": 1.2
+        },
+        "notes": {
+          "en": "Personal services, mostly salons and beauty, employ about 360,000 people in the 2024 labour survey (about 1.2% of workers), and many more work informally from home. There is no separate share of GDP or growth line, so those two stay empty.",
+          "ar": "الخدمات الشخصية، وأغلبها الصالونات والتجميل، بتشغّل حوالي 360 ألف شخص في مسح العمل 2024 (حوالي 1.2% من العاملين)، وفيه ناس كتير بتشتغل من البيت بشكل غير رسمي. مفيش نصيب منفصل من الناتج ولا بند نمو، فالمؤشرين دول متسابين فاضيين."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are salons and barbershops, hotel and resort spas, skincare clinics, cosmetics brands, wedding and event businesses, and TV and film productions.",
+          "ar": "أبرز جهات التوظيف الصالونات ومحلات الحلاقة، وسبا الفنادق والمنتجعات، وعيادات العناية بالبشرة، وبراندات التجميل، وشغل الأفراح والفعاليات، وإنتاج التلفزيون والسينما."
+        },
+        "startupFreelance": {
+          "en": "Self-employment is common: freelance makeup artists, home visits and small salons built through social media.",
+          "ar": "الشغل الحر منتشر: خبراء مكياج فريلانس، وزيارات للبيوت، وصالونات صغيرة بتتبني بالسوشيال ميديا."
+        },
+        "remoteGcc": {
+          "en": "Gulf salons, spas and clinics hire Egyptian stylists, artists and therapists.",
+          "ar": "صالونات وسبا وعيادات الخليج بتشغّل مصففين وخبراء وأخصائيين مصريين."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Health and hygiene rules",
+            "ar": "قواعد الصحة والنظافة"
+          },
+          "summary": {
+            "en": "Salons, spas and clinics must follow local licensing and hygiene rules; medical skin treatments belong to doctors.",
+            "ar": "الصالونات والسبا والعيادات لازم تلتزم بتراخيص وقواعد نظافة محلية؛ والعلاجات الطبية للبشرة من اختصاص الدكاترة."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "low",
+        "summary": {
+          "en": "Hands-on personal services are among the least exposed to AI; online booking, virtual try-on and social media change how clients find you.",
+          "ar": "الخدمات الشخصية اليدوية من الأقل تعرضًا للذكاء الاصطناعي؛ والحجز الأونلاين والتجربة الافتراضية والسوشيال ميديا بيغيّروا طريقة وصول العملاء ليك."
+        },
+        "howChanging": {
+          "en": "Stylists and artists who market themselves online and keep up with new techniques grow faster.",
+          "ar": "المصففين والخبراء اللي بيسوّقوا لنفسهم أونلاين وبيتابعوا التقنيات الجديدة بيكبروا أسرع."
+        }
+      },
+      "outlook": {
+        "trend": "stable",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Steady demand with seasons around weddings and holidays; strong competition.",
+            "ar": "طلب ثابت بمواسم حوالين الأفراح والأعياد؛ ومنافسة قوية."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "A judgement without gathered sector data. Personal services stay in demand, but income varies widely with skill and clients.",
+          "ar": "تقدير من غير بيانات قطاع مجمعة. الخدمات الشخصية بتفضل مطلوبة، بس الدخل بيختلف جدًا حسب المهارة والعملاء."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Social media marketing for beauty pros",
+            "ar": "التسويق بالسوشيال ميديا للمحترفين"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Skincare and wellness services",
+            "ar": "خدمات العناية بالبشرة والعافية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Bridal and event services",
+            "ar": "خدمات العرايس والمناسبات"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": {
+        "en": "Security & Defense",
+        "ar": "الأمن والدفاع"
+      },
+      "intro": {
+        "what": {
+          "en": "Keeping people, places and borders safe: police, civil defense, forensics, customs and private security.",
+          "ar": "حماية الناس والأماكن والحدود: الشرطة والدفاع المدني والأدلة الجنائية والجمارك والأمن الخاص."
+        },
+        "day": {
+          "en": "Shifts, patrols, inspections, drills and responding fast when something goes wrong.",
+          "ar": "شيفتات ودوريات وتفتيش وتدريبات، واستجابة سريعة لما حاجة تحصل."
+        },
+        "suits": {
+          "en": "Disciplined, brave and honest people who stay calm in danger and accept strict rules.",
+          "ar": "الناس المنضبطة والشجاعة والأمينة اللي بتفضل هادية في الخطر وبتقبل القواعد الصارمة."
+        }
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Security, civil protection and defence share of GDP: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النصيب من الناتج المحلي لـالأمن والحماية المدنية والدفاع: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "realGrowth": {
+          "value": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Security, civil protection and defence growth: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النمو لـالأمن والحماية المدنية والدفاع: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "employment": {
+          "value": 98000,
+          "unit": "persons",
+          "scope": {
+            "en": "Private security and investigation (ISIC 80), 2024; police, armed forces and civil protection are inside public administration (1.21 million, all government offices together). The private figure jumped from about 30,000 in 2023, so treat it with care (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "الأمن الخاص والتحريات (القسم 80)، 2024؛ والشرطة والقوات المسلحة والحماية المدنية داخل الإدارة العامة (1.21 مليون لكل الجهات الحكومية مع بعض). الرقم الخاص قفز من حوالي 30 ألفًا في 2023، فخد بالك وانت بتقراه (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
+          },
+          "year": 2024,
+          "sourceId": "iloEmp",
+          "sharePct": 0.3
+        },
+        "notes": {
+          "en": "Private security companies employ about 100,000 people in the 2024 labour survey. Police, armed forces and civil protection are not published separately: they sit inside public administration, which counts all government offices together. There is no separate share of GDP or growth line.",
+          "ar": "شركات الأمن الخاص بتشغّل حوالي 100 ألف شخص في مسح العمل 2024. الشرطة والقوات المسلحة والحماية المدنية ما بتتنشرش لوحدها: هي جوه الإدارة العامة اللي بتعدّ كل الجهات الحكومية مع بعض. مفيش نصيب منفصل من الناتج ولا بند نمو."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are the Ministry of Interior (police, civil defense, criminal evidence), the armed forces, the Customs Authority, the Forensic Medicine Authority, and private security and facility companies.",
+          "ar": "أبرز جهات التوظيف وزارة الداخلية (الشرطة والدفاع المدني والأدلة الجنائية)، والقوات المسلحة، ومصلحة الجمارك، ومصلحة الطب الشرعي، وشركات الأمن الخاص وإدارة المرافق."
+        },
+        "startupFreelance": {
+          "en": "Private security, safety consulting and training companies offer civilian roles.",
+          "ar": "شركات الأمن الخاص واستشارات وتدريب السلامة بتوفر وظايف مدنية."
+        },
+        "remoteGcc": {
+          "en": "Gulf police, civil defense and private security firms hire experienced Egyptians, especially with safety certificates.",
+          "ar": "شرطة ودفاع مدني وشركات أمن الخليج بتشغّل مصريين أصحاب خبرة، خصوصًا بشهادات السلامة."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Academy entry",
+            "ar": "القبول في الأكاديميات"
+          },
+          "summary": {
+            "en": "Police and military officers enter through the Police Academy and military colleges, with tests, medical and fitness exams and interviews.",
+            "ar": "ضباط الشرطة والجيش بيدخلوا من أكاديمية الشرطة والكليات العسكرية، باختبارات وكشف طبي ولياقة ومقابلات."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "low",
+        "summary": {
+          "en": "Field, emergency and command work stays human; cameras, analytics and digital forensics change investigation and monitoring.",
+          "ar": "الشغل الميداني والطوارئ والقيادة بيفضل بشري؛ والكاميرات والتحليل والأدلة الرقمية بيغيّروا التحقيق والمراقبة."
+        },
+        "howChanging": {
+          "en": "Digital forensics, cybercrime and smart surveillance skills are increasingly valued.",
+          "ar": "مهارات الأدلة الرقمية والجرايم الإلكترونية والمراقبة الذكية بتتقدّر أكتر."
+        }
+      },
+      "outlook": {
+        "trend": "stable",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Stable public demand with selective entry; private security grows with new cities and malls.",
+            "ar": "طلب حكومي ثابت مع قبول انتقائي؛ والأمن الخاص بيكبر مع المدن الجديدة والمولات."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "A judgement without gathered sector data. Public posts depend on yearly intake, and the private side follows construction and retail.",
+          "ar": "تقدير من غير بيانات قطاع مجمعة. الوظايف الحكومية بتعتمد على دفعات القبول السنوية، والجانب الخاص ماشي مع البناء والتجزئة."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Digital forensics and cybercrime",
+            "ar": "الأدلة الرقمية والجرايم الإلكترونية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Smart surveillance systems",
+            "ar": "أنظمة المراقبة الذكية"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Health, safety and fire consulting",
+            "ar": "استشارات السلامة والحريق"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "religion",
+      "name": {
+        "en": "Religion & Ministry",
+        "ar": "الدين والخدمة الدينية"
+      },
+      "intro": {
+        "what": {
+          "en": "Leading worship, teaching faith and values, religious scholarship and Sharia-compliant finance.",
+          "ar": "قيادة العبادة، وتعليم الدين والقيم، والبحث الديني، والتمويل المتوافق مع الشريعة."
+        },
+        "day": {
+          "en": "Prayers and sermons, classes, study, counselling people and community or charity work.",
+          "ar": "صلوات وخطب، ودروس، ودراسة، ونصيحة للناس، وشغل مجتمعي وخيري."
+        },
+        "suits": {
+          "en": "People of faith who love teaching and helping others, and who are patient with long study.",
+          "ar": "الناس المتدينة اللي بتحب التعليم ومساعدة غيرها، وصبورة على الدراسة الطويلة."
+        }
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Religious work share of GDP: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النصيب من الناتج المحلي لـالعمل الديني: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "realGrowth": {
+          "value": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Religious work growth: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النمو لـالعمل الديني: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "employment": {
+          "value": 221000,
+          "unit": "persons",
+          "scope": {
+            "en": "Activities of membership organisations (ISIC 94), 2024: religious organisations together with unions and associations; imams employed by the Ministry of Awqaf may be counted under public administration (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "أنشطة المنظمات ذات العضوية (القسم 94)، 2024: المؤسسات الدينية مع النقابات والجمعيات؛ والأئمة المعيّنون في وزارة الأوقاف ممكن يتحسبوا ضمن الإدارة العامة (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
+          },
+          "year": 2024,
+          "sourceId": "iloEmp",
+          "sharePct": 0.7
+        },
+        "notes": {
+          "en": "There is no official count of religious workers alone. The closest survey line, membership organisations (religious bodies plus unions and associations), employs about 220,000 people in 2024. There is no separate share of GDP or growth line.",
+          "ar": "مفيش عدد رسمي للعاملين في المجال الديني لوحدهم. أقرب بند في المسح، المنظمات ذات العضوية (الجهات الدينية مع النقابات والجمعيات)، بيشغّل حوالي 220 ألف شخص في 2024. مفيش نصيب منفصل من الناتج ولا بند نمو."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are the Ministry of Awqaf, Al-Azhar and its institutes, Dar al-Ifta, churches and their schools and services, Islamic banks and the Islamic branches of banks.",
+          "ar": "أبرز جهات التوظيف وزارة الأوقاف، والأزهر ومعاهده، ودار الإفتاء، والكنايس ومدارسها وخدماتها، والبنوك الإسلامية والفروع الإسلامية للبنوك."
+        },
+        "startupFreelance": {
+          "en": "Online teaching of Quran, Arabic and religion is a large freelance market.",
+          "ar": "تعليم القرآن والعربي والدين أونلاين سوق عمل حر كبير."
+        },
+        "remoteGcc": {
+          "en": "Azhar graduates serve communities abroad; Gulf Islamic banks hire Islamic finance specialists.",
+          "ar": "خريجين الأزهر بيخدموا جاليات برّه؛ وبنوك الخليج الإسلامية بتشغّل أخصائيين تمويل إسلامي."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Religious authorisation",
+            "ar": "التصريح الديني"
+          },
+          "summary": {
+            "en": "Preaching in mosques needs Ministry of Awqaf authorisation, Azhar institutes follow Al-Azhar rules, and churches ordain clergy by their own rules.",
+            "ar": "الخطابة في المساجد محتاجة تصريح من الأوقاف، والمعاهد الأزهرية ماشية على قواعد الأزهر، والكنايس بترسم رجال الدين حسب قواعدها."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "low",
+        "summary": {
+          "en": "Teaching, pastoral and community work stays human; online platforms widen how lessons and services reach people.",
+          "ar": "التعليم والرعاية والعمل المجتمعي بيفضلوا بشريين؛ والمنصات الأونلاين بتوسّع وصول الدروس والخدمات للناس."
+        },
+        "howChanging": {
+          "en": "Teachers and preachers who use online platforms reach far larger audiences.",
+          "ar": "المدرسين والدعاة اللي بيستخدموا المنصات الأونلاين بيوصلوا لجمهور أكبر بكتير."
+        }
+      },
+      "outlook": {
+        "trend": "stable",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Stable demand linked to mosques, churches, Azhar schools and Islamic banking.",
+            "ar": "طلب ثابت مرتبط بالمساجد والكنايس والمعاهد الأزهرية والمصرفية الإسلامية."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "A judgement without gathered sector data. Appointments follow ministry and institution budgets; Islamic finance tracks banking growth.",
+          "ar": "تقدير من غير بيانات قطاع مجمعة. التعيينات ماشية مع ميزانيات الوزارات والمؤسسات؛ والتمويل الإسلامي ماشي مع نمو البنوك."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Online religious education",
+            "ar": "التعليم الديني أونلاين"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Islamic finance products",
+            "ar": "منتجات التمويل الإسلامي"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "Community and social service",
+            "ar": "الخدمة المجتمعية والاجتماعية"
+          },
+          "momentum": "steady"
+        }
+      ],
+      "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "performing",
+      "name": {
+        "en": "Performing Arts & Entertainment",
+        "ar": "الفنون الأدائية والترفيه"
+      },
+      "intro": {
+        "what": {
+          "en": "Acting, music, dance and presenting on stage, screen, radio and online.",
+          "ar": "التمثيل والمزيكا والرقص والتقديم على المسرح والشاشة والراديو وأونلاين."
+        },
+        "day": {
+          "en": "Rehearsals, shoots, shows and auditions, often long days and evenings, with quiet weeks between.",
+          "ar": "بروفات وتصوير وعروض وكاستينجات، غالبًا أيام طويلة ومسايات، وبينها أسابيع هادية."
+        },
+        "suits": {
+          "en": "Expressive people who love an audience, practise daily and can handle rejection.",
+          "ar": "الناس اللي بتحب تعبّر، وبتحب الجمهور، وبتتمرن كل يوم، وتقدر تتحمل الرفض."
+        }
+      },
+      "economy": {
+        "gdpShare": {
+          "value": null,
+          "unit": "% of GDP",
+          "scope": {
+            "en": "Performing arts and entertainment share of GDP: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النصيب من الناتج المحلي لـالفنون الأدائية والترفيه: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "realGrowth": {
+          "value": null,
+          "unit": "% real, year on year",
+          "scope": {
+            "en": "Performing arts and entertainment growth: not published as a separate line in the Ministry of Planning GDP tables or CAPMAS employment releases we reviewed",
+            "ar": "النمو لـالفنون الأدائية والترفيه: لا يُنشر كبند مستقل في جداول الناتج بوزارة التخطيط ولا في نشرات التشغيل من الجهاز المركزي للتعبئة العامة والإحصاء التي راجعناها"
+          },
+          "year": null,
+          "sourceId": null
+        },
+        "employment": {
+          "value": 17000,
+          "unit": "persons",
+          "scope": {
+            "en": "Creative, arts and entertainment activities (ISIC 90), 2024; a very small survey sample (about 8,000 in 2023) that misses most freelance performers (share computed from the 29.9 million workers whose activity was classified)",
+            "ar": "الأنشطة الإبداعية والفنون والترفيه (القسم 90)، 2024؛ عينة مسح صغيرة جدًا (حوالي 8 آلاف في 2023) يفوتها أغلب الفنانين اللي بيشتغلوا بشكل حر (النسبة محسوبة من 29.9 مليون مشتغل تم تصنيف نشاطهم)"
+          },
+          "year": 2024,
+          "sourceId": "iloEmp",
+          "sharePct": 0.1
+        },
+        "notes": {
+          "en": "Most performers work freelance, so the labour survey sees very few of them (about 16,500 in 2024). Treat that number as a floor, not a size. There is no separate share of GDP or growth line.",
+          "ar": "أغلب الفنانين بيشتغلوا بشكل حر، فمسح العمل بيشوف عدد قليل جدًا منهم (حوالي 16,500 في 2024). اعتبر الرقم ده حد أدنى مش حجم المجال. مفيش نصيب منفصل من الناتج ولا بند نمو."
+        }
+      },
+      "business": {
+        "employers": {
+          "en": "Main employers are TV and film production companies, channels and radio stations, the Cairo Opera House and national troupes, theatres, event and advertising companies, and digital platforms.",
+          "ar": "أبرز جهات التوظيف شركات إنتاج التلفزيون والسينما، والقنوات والإذاعات، ودار الأوبرا والفرق القومية، والمسارح، وشركات الفعاليات والإعلان، والمنصات الرقمية."
+        },
+        "startupFreelance": {
+          "en": "Most performers work project to project; many also teach or create content online.",
+          "ar": "أغلب الفنانين بيشتغلوا مشروع ورا مشروع؛ وكتير منهم بيدرّسوا أو بيعملوا محتوى أونلاين."
+        },
+        "remoteGcc": {
+          "en": "Egyptian actors, musicians and presenters work across Arab channels, productions and events.",
+          "ar": "الممثلين والموسيقيين والمذيعين المصريين بيشتغلوا في القنوات والإنتاجات والفعاليات العربية."
+        }
+      },
+      "policy": [
+        {
+          "name": {
+            "en": "Artists' syndicates and media regulation",
+            "ar": "نقابات الفنانين وتنظيم الإعلام"
+          },
+          "summary": {
+            "en": "Professional actors and musicians usually need syndicate membership or permits, and broadcast content falls under the Supreme Council for Media Regulation.",
+            "ar": "الممثلين والموسيقيين المحترفين غالبًا محتاجين عضوية أو تصاريح من النقابات، والمحتوى الإعلامي تابع للمجلس الأعلى لتنظيم الإعلام."
+          }
+        }
+      ],
+      "technology": {
+        "exposure": "medium",
+        "summary": {
+          "en": "Live performance stays human, while AI voices, music and video generation put pressure on dubbing, jingles and some background work.",
+          "ar": "الأداء الحي بيفضل بشري، بينما الأصوات والمزيكا والفيديو بالذكاء الاصطناعي بيضغطوا على الدوبلاج والجينجلز وبعض الشغل الخلفي."
+        },
+        "howChanging": {
+          "en": "Performers who build an audience online and keep a distinctive live presence are better placed.",
+          "ar": "الفنانين اللي بيبنوا جمهور أونلاين وبيحافظوا على حضور مميز على المسرح وضعهم أحسن."
+        }
+      },
+      "outlook": {
+        "trend": "transforming",
+        "demand5y": {
+          "low": null,
+          "high": null,
+          "unit": "qualitative",
+          "band": {
+            "en": "Big local drama industry, but uneven, project-based demand; digital platforms open new routes.",
+            "ar": "صناعة دراما محلية كبيرة، بس الطلب متقطع وبالمشروع؛ والمنصات الرقمية بتفتح طرق جديدة."
+          }
+        },
+        "confidence": "low",
+        "rationale": {
+          "en": "A judgement without gathered sector data. Work clusters around Ramadan drama seasons and events, and income varies widely.",
+          "ar": "تقدير من غير بيانات قطاع مجمعة. الشغل بيتجمع حوالين مواسم دراما رمضان والفعاليات، والدخل بيختلف جدًا."
+        }
+      },
+      "suggestedChanges": [
+        {
+          "name": {
+            "en": "Streaming platform productions",
+            "ar": "إنتاجات منصات البث"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Podcasts and online shows",
+            "ar": "البودكاست والبرامج الأونلاين"
+          },
+          "momentum": "rising"
+        },
+        {
+          "name": {
+            "en": "Live events and festivals",
+            "ar": "الحفلات والمهرجانات"
+          },
+          "momentum": "steady"
+        },
+        {
+          "name": {
+            "en": "AI in voice and music production",
+            "ar": "الذكاء الاصطناعي في الصوت والمزيكا"
+          },
+          "momentum": "emerging"
+        }
+      ],
+      "sources": [
+        {
+          "id": "iloEmp",
+          "title": "Employment by sex and economic activity, ISIC Rev.4 2-digit level (thousands), Egypt, annual, Labour Force Sample Survey",
+          "url": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_EC2_NB,1.0/EGY.A..SEX_T.?startPeriod=2022&format=csv",
+          "publisher": "International Labour Organization (ILOSTAT), processed from CAPMAS survey microdata",
+          "year": 2024,
+          "accessed": "2026-10-15"
+        },
+        {
+          "id": "wef",
+          "title": "The Future of Jobs Report 2025",
+          "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+          "publisher": "World Economic Forum",
+          "year": 2025,
+          "accessed": "2026-10-09"
+        },
+        {
+          "id": "iloAi",
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure (ILO Working Paper 140)",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "publisher": "International Labour Organization",
+          "year": 2025,
           "accessed": "2026-10-09"
         }
       ]

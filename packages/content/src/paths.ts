@@ -12,6 +12,12 @@ import scienceJson from '../paths/science.json';
 import techJson from '../paths/tech.json';
 import tourismJson from '../paths/tourism.json';
 import tradesJson from '../paths/trades.json';
+import sportsJson from '../paths/sports.json';
+import transportJson from '../paths/transport.json';
+import beautyJson from '../paths/beauty.json';
+import securityJson from '../paths/security.json';
+import religionJson from '../paths/religion.json';
+import performingJson from '../paths/performing.json';
 
 /**
  * Verify content for path (career-group) islands (docs/product/discover-verify.md §5). Drafts until
@@ -83,6 +89,7 @@ export const paths: Record<string, PathContent> = Object.fromEntries(
   [
     techJson, businessJson, engineeringJson, healthJson, mediaJson, creativeJson,
     lawJson, educationJson, scienceJson, tourismJson, tradesJson, agricultureJson,
+    sportsJson, transportJson, beautyJson, securityJson, religionJson, performingJson,
   ].map((p) => [p.id, p as unknown as PathContent]),
 );
 

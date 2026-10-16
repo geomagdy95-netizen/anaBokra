@@ -89,6 +89,11 @@ export interface LikertItem {
   /** +1 = higher answer means more of the trait, -1 = reverse keyed. */
   keyed?: 1 | -1;
   text: I18n;
+  /**
+   * A plain explanation shown on request ("what does this mean?") for items that assume knowledge.
+   * It never replaces the validated wording.
+   */
+  hint?: I18n;
   /** Expected answer for attention-check items; such items are excluded from scoring. */
   attentionCheck?: { expected: number };
   /** Optional illustration / 3D scene key used by the UI. */
@@ -122,6 +127,11 @@ export interface ValuesInstrument {
   source: InstrumentSource;
   buckets: { id: ValueBucket; name: I18n; weight: number; limit?: number }[];
   cards: ValueCard[];
+  /**
+   * The quicker "dream job budget": `coins` to spread over the six work values, one item per value
+   * (the stored answer is that value's coins). An alternative to the card sort, not an addition.
+   */
+  budget?: { coins: number; items: { id: string; value: WorkValue }[] };
 }
 
 export interface AbilityPerformanceItem {

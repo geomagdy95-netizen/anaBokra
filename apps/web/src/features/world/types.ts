@@ -1,4 +1,4 @@
-/** The 12 career groups (catalog clusters). Each one is an L1 group island. */
+/** The 18 career groups (catalog clusters). Each one is an L1 group island. */
 export type GroupId =
   | 'health'
   | 'engineering'
@@ -11,22 +11,34 @@ export type GroupId =
   | 'science'
   | 'tourism'
   | 'trades'
-  | 'agriculture';
+  | 'agriculture'
+  | 'sports'
+  | 'transport'
+  | 'beauty'
+  | 'security'
+  | 'religion'
+  | 'performing';
 
 /** Clockwise from the top of the map. Neighbours share interests, so related groups sit side by side. */
 export const GROUP_ORDER: readonly GroupId[] = [
   'tech',
   'science',
   'health',
-  'agriculture',
+  'sports',
+  'beauty',
   'tourism',
-  'education',
+  'transport',
+  'agriculture',
+  'trades',
+  'engineering',
+  'security',
   'law',
+  'religion',
+  'education',
   'business',
   'media',
+  'performing',
   'creative',
-  'engineering',
-  'trades',
 ];
 
 export interface I18nText {
@@ -70,8 +82,15 @@ export interface IslandState {
   checked?: boolean;
 }
 
+/** An L2 career islet next to a checked group island (lib/journey/career-quest.ts). */
+export interface CareerIslet {
+  id: string;
+  /** available: not started; building: quest started; reached: quest finished; selected: one of my careers. */
+  state: 'available' | 'building' | 'reached' | 'selected';
+}
+
 /** What the user tapped: a group island, or the core island (their profile). */
 export type Selection = GroupId | 'core';
 
-export type Scenario = 'before' | 'during' | 'after' | 'added';
-export const SCENARIOS: readonly Scenario[] = ['before', 'during', 'after', 'added'];
+export type Scenario = 'before' | 'during' | 'after' | 'added' | 'all';
+export const SCENARIOS: readonly Scenario[] = ['before', 'during', 'after', 'added', 'all'];

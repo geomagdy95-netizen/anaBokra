@@ -5,7 +5,9 @@ import type { ZodType } from 'zod';
 import {
   ASSESSMENT_VERSION,
   contextFieldsFor,
+  ANSWER_FORMATS,
   currentInstrumentVersions,
+  LEGACY_FORMATS,
   READINESS,
   stationConfig,
   stationsFor,
@@ -224,7 +226,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
       }
     } else {
       const versions = currentInstrumentVersions(input.kind);
-      const progress: SessionProgress = { assessmentVersion: ASSESSMENT_VERSION, instrumentVersions: versions };
+      const progress: SessionProgress = { assessmentVersion: ASSESSMENT_VERSION, instrumentVersions: versions, formats: { ...ANSWER_FORMATS } };
       const first = stationsFor(input.kind)[0]!.id;
       try {
         session = await guarded(async () =>
@@ -285,20 +287,27 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
     }
 
     if (cfg.id === 'values') {
-      // "Must have" is capped (forces prioritisation). Count after merging this batch.
+      // "Must have" is capped (forces prioritisation) and the budget can't be overspent. Both are
+      // counted after merging this batch.
       const inst = valuesInstrument();
+      const merged = new Map(
+        (await repo.listResponses(s.id)).filter((r) => r.instrumentId === 'values').map((r) => [r.itemId, r.value]),
+      );
+      for (const r of byItem.values()) merged.set(r.itemId, r.value);
       const must = inst.buckets.find((b) => b.id === 'must');
       if (must?.limit !== undefined) {
-        const merged = new Map(
-          (await repo.listResponses(s.id)).filter((r) => r.instrumentId === 'values').map((r) => [r.itemId, r.value]),
-        );
-        for (const r of byItem.values()) merged.set(r.itemId, r.value);
-        const count = [...merged.values()].filter((v) => v === must.weight).length;
+        const cardIds = new Set(inst.cards.map((c) => c.id));
+        const count = [...merged].filter(([id, v]) => cardIds.has(id) && v === must.weight).length;
         if (count > must.limit)
           throw new AssessmentError('values_limit_exceeded', `At most ${must.limit} cards can be "must have"`, {
             limit: must.limit,
             count,
           });
+      }
+      if (inst.budget) {
+        const spent = inst.budget.items.reduce((n, i) => n + (merged.get(i.id) ?? 0), 0);
+        if (spent > inst.budget.coins)
+          throw new AssessmentError('invalid_value', `At most ${inst.budget.coins} coins can be spent`, [{ itemId: 'budget', reason: 'value_out_of_range' }]);
       }
     }
 
@@ -374,6 +383,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
       responses: responses.map((r) => ({ instrumentId: r.instrumentId, itemId: r.itemId, value: r.value })),
       context: progress.context ?? (await repo.getUserContext(userId)),
       valuesRanking: progress.valuesRanking ?? [],
+      formats: progress.formats ?? LEGACY_FORMATS,
     };
   }
 
@@ -454,6 +464,7 @@ export function createAssessmentService({ repo, now = () => new Date() }: Servic
         context,
         instrumentVersions: progress.instrumentVersions,
         games,
+        ...(progress.formats ? { formats: progress.formats } : {}),
       });
       if (!scored) throw new AssessmentError('insufficient_data', 'Not enough answers to produce a result');
       result = await repo.insertResult(scored);

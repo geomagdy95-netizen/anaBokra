@@ -25,7 +25,7 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 import { Bridge, bridgeEnds } from './bridges';
 import { bridgePoint, islandGeometry } from './geometry';
-import { ARRANGE_RING, CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, clearSpot, islandPlacements, landmarkOffset, mapExtent, type IslandPlacement, type XZ } from './layout';
+import { ARRANGE_RING, CORE_RADIUS, ISLAND_RADIUS, ISLAND_TOP, ISLET_RADIUS, clearSpot, islandPlacements, isletPlacements, landmarkOffset, mapExtent, stationSpots, type IslandPlacement, type XZ } from './layout';
 import { BRAND, MutedContext } from './materials';
 import { Landmark } from './landmarks';
 import { Logo3D, RBox, Tube } from './props';
@@ -35,9 +35,14 @@ import { Flag, flagSpot, Garden, growthSpots } from './garden';
 import { Motes } from './atmosphere';
 import { Clouds, Sea, SkyDome } from './scenery';
 import { WORLD_THEME } from './theme';
-import { GROUP_ORDER, type GroupId, type IslandState, type Selection } from './types';
+import { GROUP_ORDER, type CareerIslet, type GroupId, type IslandState, type Selection } from './types';
 
 export type Quality = 'high' | 'low';
+
+export interface CameraCommand {
+  kind: 'in' | 'out' | 'home';
+  n: number;
+}
 
 /** A point in the world that a DOM label follows. */
 export interface LabelAnchor {
@@ -60,6 +65,14 @@ export interface WorldCanvasProps {
   onMove?: (id: GroupId, x: number, z: number) => void;
   /** 0–1: how far the core island (the user) has grown, from Discover. Full when missing. */
   coreGrowth?: number;
+  /** L2 career islets per checked group island, best first. */
+  careers?: Partial<Record<GroupId, CareerIslet[]>>;
+  /** Tapping a career islet. */
+  onSelectCareer?: (group: GroupId, careerId: string) => void;
+  /** Number of Discover stations round my island; their DOM pins use the keys `station:1` … `station:n`. */
+  stations?: number;
+  /** A camera button press: zoom in or out, or back to the whole map. `n` changes on every press. */
+  view?: CameraCommand;
   onError?: () => void;
 }
 
@@ -75,7 +88,8 @@ export function labelAnchors(
     islands[p.id] = new Vector3(p.pos[0], ISLAND_TOP + 0.1, p.pos[1] + ISLAND_RADIUS * 0.72);
     bridges[p.id] = bridgePoint(bridgeEnds([0, 0], CORE_RADIUS, p.pos, ISLAND_RADIUS), 0.5).setY(ISLAND_TOP + 0.9);
   }
-  return { islands, bridges, core: new Vector3(0, ISLAND_TOP + 0.1, CORE_RADIUS * 0.8) };
+  // My name sits on the front rim, clear of the Discover stations just inside it.
+  return { islands, bridges, core: new Vector3(0, ISLAND_TOP + 0.1, CORE_RADIUS + 0.1) };
 }
 
 // --- Islands ------------------------------------------------------------------
@@ -238,6 +252,62 @@ function Island({
   );
 }
 
+// --- L2 career islets ---------------------------------------------------------------
+
+export interface PlacedIslet extends CareerIslet {
+  group: GroupId;
+  pos: XZ;
+  dir: XZ;
+  from: XZ;
+}
+
+/** The career islets of every visible group, placed behind their group island. */
+export function placeIslets(placements: readonly IslandPlacement[], careers: Partial<Record<GroupId, CareerIslet[]>> = {}): PlacedIslet[] {
+  return placements.flatMap((p) => {
+    const list = careers[p.id] ?? [];
+    return isletPlacements(p, list.length).map((spot, i) => ({ ...list[i]!, group: p.id, pos: spot.pos, dir: spot.dir, from: p.pos }));
+  });
+}
+
+const ISLET_TINT: Record<CareerIslet['state'], string> = { available: '#F1ECE4', building: '#FFFFFF', reached: '#FFFFFF', selected: '#FFF4E6' };
+
+/**
+ * A small career islet: a rocky islet with a little tree, a flag once its quest is finished and a warm
+ * ring once it is one of the user's careers. Tapping it opens the career island.
+ */
+function Islet({ islet, shadows, animate, onSelect }: { islet: PlacedIslet; shadows: boolean; animate: boolean; onSelect?: () => void }) {
+  const landing = Math.atan2(-islet.dir[1], -islet.dir[0]);
+  const geo = useMemo(() => islandGeometry({ seed: islet.id, radius: ISLET_RADIUS, beach: false, base: -0.3, landAt: [landing] }), [islet.id, landing]);
+  const mat = useMemo(() => new MeshStandardMaterial({ vertexColors: true, roughness: 0.85, color: ISLET_TINT[islet.state] }), [islet.state]);
+  useEffect(() => () => (geo.dispose(), mat.dispose()), [geo, mat]);
+  const reached = islet.state === 'reached' || islet.state === 'selected';
+  return (
+    <group
+      position={[islet.pos[0], 0, islet.pos[1]]}
+      onClick={(e) => {
+        e.stopPropagation();
+        if (e.delta > 8) return;
+        onSelect?.();
+      }}
+      onPointerOver={() => (document.body.style.cursor = 'pointer')}
+      onPointerOut={() => (document.body.style.cursor = '')}
+    >
+      <mesh geometry={geo} material={mat} castShadow={shadows} receiveShadow={shadows} />
+      {/* A little cypress: taller once the quest is under way. */}
+      <mesh position={[0.12, ISLAND_TOP + (islet.state === 'available' ? 0.18 : 0.3), -0.1]} castShadow={shadows}>
+        <coneGeometry args={[0.13, islet.state === 'available' ? 0.36 : 0.6, 10]} />
+        <meshStandardMaterial color={islet.state === 'available' ? '#9DB58A' : '#5E8B5A'} roughness={0.8} />
+      </mesh>
+      {reached && (
+        <group position={[0, ISLAND_TOP * 0.4, 0]} scale={0.6}>
+          <Flag at={[-0.3, 0.2]} animate={animate} />
+        </group>
+      )}
+      {islet.state === 'selected' && <SelectionRing radius={ISLET_RADIUS - 0.25} color={BRAND.apricot} />}
+    </group>
+  );
+}
+
 /** A glowing ring on the water around the selected island, just past its beach. */
 function SelectionRing({ radius, color }: { radius: number; color: string }) {
   return (
@@ -286,7 +356,21 @@ function CoreIsland({ shadows, selected, onSelect, animate }: { shadows: boolean
 
 // --- Camera -------------------------------------------------------------------
 
-function Rig({ focus, animate, arrange, placements, extent }: { focus: Selection | null; animate: boolean; arrange: boolean; placements: IslandPlacement[]; extent: number }) {
+function Rig({
+  focus,
+  animate,
+  arrange,
+  placements,
+  extent,
+  view,
+}: {
+  focus: Selection | null;
+  animate: boolean;
+  arrange: boolean;
+  placements: IslandPlacement[];
+  extent: number;
+  view?: CameraCommand;
+}) {
   const get = useThree((s) => s.get);
   const portrait = useThree((s) => s.size.width < s.size.height);
   const controls = useRef<MapControls | null>(null);
@@ -335,6 +419,21 @@ function Rig({ focus, animate, arrange, placements, extent }: { focus: Selection
     distanceGoal.current = focus ? (portrait ? 17.5 : 22) : homeDistance.current;
     get().invalidate();
   }, [focus, get, placements, portrait]);
+
+  // Zoom and "whole map" buttons (the map's glass controls), for tablets and mice where pinching is awkward.
+  useEffect(() => {
+    const c = controls.current;
+    if (!view || !c) return;
+    const { camera } = get();
+    const distance = camera.position.distanceTo(c.target);
+    if (view.kind === 'home') {
+      goal.current = homeTarget.current.clone();
+      distanceGoal.current = homeDistance.current;
+    } else {
+      distanceGoal.current = Math.min(c.maxDistance, Math.max(c.minDistance, distance * (view.kind === 'in' ? 0.72 : 1.38)));
+    }
+    get().invalidate();
+  }, [view, get]);
 
   useFrame((state) => {
     const c = controls.current;
@@ -414,10 +513,34 @@ function hideLabel(el: HTMLElement) {
   el.style.visibility = 'hidden';
 }
 
-function LabelProjector({ labels, anchors, visible }: { labels: Map<string, HTMLElement>; anchors: ReturnType<typeof labelAnchors>; visible: ReadonlySet<GroupId> }) {
+function LabelProjector({
+  labels,
+  anchors,
+  visible,
+  careers,
+  stations,
+}: {
+  labels: Map<string, HTMLElement>;
+  anchors: ReturnType<typeof labelAnchors>;
+  visible: ReadonlySet<GroupId>;
+  careers: ReadonlyMap<string, Vector3>;
+  stations: readonly Vector3[];
+}) {
   useFrame(({ camera, size }) => {
     for (const [key, el] of labels) {
-      const [kind, id] = key.split(':') as ['island' | 'bridge' | 'core', GroupId];
+      const [kind, id] = key.split(':') as ['island' | 'bridge' | 'core' | 'career' | 'station', GroupId];
+      if (kind === 'station') {
+        const anchor = stations[Number(id) - 1];
+        if (anchor) placeLabel(el, anchor, camera, size);
+        else hideLabel(el);
+        continue;
+      }
+      if (kind === 'career') {
+        const anchor = careers.get(id);
+        if (anchor) placeLabel(el, anchor, camera, size);
+        else hideLabel(el);
+        continue;
+      }
       if (kind !== 'core' && !visible.has(id)) {
         hideLabel(el);
         continue;
@@ -518,7 +641,7 @@ function Lights({ shadows }: { shadows: boolean }) {
   );
 }
 
-function Scene({ states, selected, onSelect, quality, reducedMotion, labels, coreGrowth = 1, arrange = false, positions, onMove }: WorldCanvasProps) {
+function Scene({ states, selected, onSelect, quality, reducedMotion, labels, coreGrowth = 1, arrange = false, positions, onMove, careers, onSelectCareer, stations = 0, view }: WorldCanvasProps) {
   const theme = WORLD_THEME;
   const shadows = quality === 'high';
   const animate = !reducedMotion;
@@ -527,6 +650,14 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
   const visiblePlacements = useMemo(() => placements.filter((p) => states[p.id].visible !== false), [placements, states]);
   const anchors = useMemo(() => labelAnchors(positions, slots), [positions, slots]);
   const visibleIds = useMemo(() => new Set(visiblePlacements.map((p) => p.id)), [visiblePlacements]);
+  // While arranging, islets stay hidden (they follow their island once it's dropped).
+  const islets = useMemo(() => (arrange ? [] : placeIslets(visiblePlacements, careers)), [arrange, visiblePlacements, careers]);
+  const isletAnchors = useMemo(() => new Map(islets.map((i) => [i.id, new Vector3(i.pos[0], ISLAND_TOP + 0.1, i.pos[1] + ISLET_RADIUS + 0.25)])), [islets]);
+  const stationAnchors = useMemo(() => stationSpots(stations).map(([x, z]) => new Vector3(x, ISLAND_TOP + 0.25, z)), [stations]);
+  const extent = useMemo(
+    () => Math.max(mapExtent(visiblePlacements), ...islets.map((i) => Math.hypot(i.pos[0], i.pos[1]) + ISLET_RADIUS + 1)),
+    [visiblePlacements, islets],
+  );
 
   const plants = useMemo(
     () =>
@@ -540,8 +671,12 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
 
   // Where each island meets the water: the outer face of its bottom ring of boulders.
   const shores = useMemo(
-    () => [{ pos: [0, 0] as const, radius: CORE_RADIUS + 0.32 }, ...visiblePlacements.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.32 }))],
-    [visiblePlacements],
+    () => [
+      { pos: [0, 0] as const, radius: CORE_RADIUS + 0.32 },
+      ...visiblePlacements.map((p) => ({ pos: p.pos, radius: ISLAND_RADIUS + 0.32 })),
+      ...islets.map((i) => ({ pos: i.pos, radius: ISLET_RADIUS + 0.2 })),
+    ],
+    [visiblePlacements, islets],
   );
   const muted = useMemo(() => Object.fromEntries(visiblePlacements.map((p) => [p.id, states[p.id].relation === 'other'])), [states, visiblePlacements]);
   return (
@@ -588,15 +723,33 @@ function Scene({ states, selected, onSelect, quality, reducedMotion, labels, cor
           }}
         />
       ))}
+      {islets.map((i) => (
+        <Bridge
+          key={`ib-${i.id}`}
+          from={i.from}
+          fromRadius={ISLAND_RADIUS}
+          to={i.pos}
+          toRadius={ISLET_RADIUS}
+          relation={i.state === 'selected' ? 'added' : i.state === 'available' ? 'neutral' : 'suggested'}
+          mode="connected"
+          done={i.state === 'available' ? 0 : i.state === 'building' ? 1 : 2}
+          total={2}
+          animate={animate}
+          shadows={shadows}
+        />
+      ))}
+      {islets.map((i) => (
+        <Islet key={`i-${i.id}`} islet={i} shadows={shadows} animate={animate} onSelect={() => onSelectCareer?.(i.group, i.id)} />
+      ))}
       <Garden spots={plants} shadows={shadows} animate={animate} />
       <Cliffs placements={visiblePlacements} muted={muted} quality={quality} shadows={shadows} />
       {quality === 'high' && <Motes placements={visiblePlacements} animate={animate} />}
       {visiblePlacements.filter((p) => states[p.id].checked).map((p) => (
         <Flag key={`f-${p.id}`} at={flagSpot(p)} animate={animate} />
       ))}
-      <Rig focus={selected === 'core' || (selected && visibleIds.has(selected)) ? selected : null} animate={animate} arrange={arrange} placements={visiblePlacements} extent={mapExtent(visiblePlacements)} />
+      <Rig focus={selected === 'core' || (selected && visibleIds.has(selected)) ? selected : null} animate={animate} arrange={arrange} placements={visiblePlacements} extent={extent} view={view} />
       {quality === 'high' && <TiltShift />}
-      <LabelProjector labels={labels} anchors={anchors} visible={visibleIds} />
+      <LabelProjector labels={labels} anchors={anchors} visible={visibleIds} careers={isletAnchors} stations={stationAnchors} />
     </>
   );
 }

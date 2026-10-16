@@ -16,7 +16,10 @@ const SECTION_HREF = {
   abilities: '/assessment/result/abilities',
 } as const;
 
-export function ProfileOverview({ view, summary, partial }: { view: ProfileView; summary: string; partial?: boolean }) {
+const TYPE_ICON = { R: '🔧', I: '🔬', A: '🎨', S: '🤝', E: '🚀', C: '🗂️' } as const;
+
+/** `showSummary` false when the screen already leads with the summary (phase 1 results hero). */
+export function ProfileOverview({ view, summary, partial, showSummary = true }: { view: ProfileView; summary: string; partial?: boolean; showSummary?: boolean }) {
   const rt = useRT();
   const tr = useTranslations('Riasec');
   const detail = (k: keyof typeof SECTION_HREF) => (
@@ -29,14 +32,16 @@ export function ProfileOverview({ view, summary, partial }: { view: ProfileView;
     <div className="flex flex-col gap-5" data-testid="profile-overview">
       {partial ? <p className={mutedP}>{rt('overview.partial')}</p> : null}
 
-      <section aria-labelledby="sum-h" className={card}>
-        <h2 id="sum-h" className={h2}>
-          {rt('overview.summaryTitle')}
-        </h2>
-        <p className="mt-2 leading-relaxed" data-testid="summary">
-          {summary || rt('overview.summaryEmpty')}
-        </p>
-      </section>
+      {showSummary && (
+        <section aria-labelledby="sum-h" className={card}>
+          <h2 id="sum-h" className={h2}>
+            {rt('overview.summaryTitle')}
+          </h2>
+          <p className="mt-2 leading-relaxed" data-testid="summary">
+            {summary || rt('overview.summaryEmpty')}
+          </p>
+        </section>
+      )}
 
       {view.types.length > 0 && (
         <section aria-labelledby="holland-h" className="flex flex-col gap-3">
@@ -47,15 +52,12 @@ export function ProfileOverview({ view, summary, partial }: { view: ProfileView;
             {detail('holland')}
           </div>
           <p className={mutedP}>{rt('overview.hollandIntro')}</p>
-          <p className="text-3xl font-semibold tracking-widest" dir="ltr" aria-label={rt('overview.hollandCode', { code: view.hollandCode.split('').join(' ') })}>
-            {view.hollandCode}
-          </p>
           <ol className="grid gap-3">
             {view.types.map((t) => (
               <li key={t.id} className={card} data-testid="type-card">
                 <p className="flex items-center gap-2">
-                  <span className={chip} dir="ltr">
-                    {t.id}
+                  <span className="text-xl" aria-hidden>
+                    {TYPE_ICON[t.id]}
                   </span>
                   <span className="font-semibold">{tr(t.id)}</span>
                 </p>

@@ -327,6 +327,151 @@ function Workshop() {
   );
 }
 
+/** Sports: a small stadium, a green pitch between stands, with floodlights. */
+function Stadium() {
+  const m = useToy();
+  return (
+    <group>
+      <RBox size={[1.12, 0.06, 0.7]} r={0.03} color="#7FB069" position={[0, 0.03, 0]} />
+      <RBox size={[0.02, 0.008, 0.66]} r={0.004} color={C.white} position={[0, 0.065, 0]} />
+      <mesh position={[0, 0.066, 0]} rotation={[-Math.PI / 2, 0, 0]} material={m(C.white)}>
+        <ringGeometry args={[0.1, 0.12, 24]} />
+      </mesh>
+      <RBox size={[1.2, 0.34, 0.2]} r={0.04} color={C.violet} position={[0, 0.17, -0.45]} />
+      {[0, 1, 2].map((i) => <RBox key={i} size={[1.16, 0.04, 0.05]} r={0.01} color={C.lavender} position={[0, 0.08 + i * 0.1, -0.34]} />)}
+      {[-1, 1].map((side) => <RBox key={side} size={[0.18, 0.24, 0.7]} r={0.04} color={C.apricot} position={[side * 0.66, 0.12, 0]} />)}
+      {[-1, 1].map((side) => (
+        <group key={`light-${side}`} position={[side * 0.62, 0, -0.5]}>
+          <mesh position={[0, 0.55, 0]} material={m(C.plum)}>
+            <cylinderGeometry args={[0.025, 0.03, 1.1, 8]} />
+          </mesh>
+          <RBox size={[0.22, 0.12, 0.06]} r={0.02} color={C.ivory} o={{ glow: 0.4 }} position={[0, 1.12, 0.04]} />
+          <Blink position={[0, 1.22, 0.04]} color={C.white} speed={0.9} />
+        </group>
+      ))}
+    </group>
+  );
+}
+
+/** Transport: an airport control tower with a glass cab, beside a small terminal and a windsock. */
+function ControlTower() {
+  const m = useToy();
+  return (
+    <group>
+      <RBox size={[0.86, 0.34, 0.5]} r={0.05} color={C.white} position={[-0.12, 0.17, 0.08]} />
+      <RBox size={[0.8, 0.12, 0.04]} r={0.02} color={C.lavender} o={{ glow: 0.15 }} position={[-0.12, 0.2, 0.34]} />
+      <mesh position={[0.36, 0.55, -0.1]} material={m(C.ivory)}>
+        <cylinderGeometry args={[0.1, 0.14, 1.1, 18]} />
+      </mesh>
+      <mesh position={[0.36, 1.18, -0.1]} material={m(C.lavender, { glow: 0.25 })}>
+        <cylinderGeometry args={[0.24, 0.18, 0.22, 18]} />
+      </mesh>
+      <mesh position={[0.36, 1.33, -0.1]} material={m(C.violet)}>
+        <cylinderGeometry args={[0.04, 0.27, 0.1, 18]} />
+      </mesh>
+      <Blink position={[0.36, 1.42, -0.1]} />
+      <mesh position={[-0.62, 0.35, -0.2]} material={m(C.plum)}>
+        <cylinderGeometry args={[0.015, 0.015, 0.7, 6]} />
+      </mesh>
+      <Bob amp={0.02} speed={2}>
+        <mesh position={[-0.53, 0.66, -0.2]} rotation={[0, 0, Math.PI / 2]} material={m(C.apricot)}>
+          <coneGeometry args={[0.05, 0.2, 10]} />
+        </mesh>
+      </Bob>
+    </group>
+  );
+}
+
+/** Beauty: a little salon with a striped awning, a round mirror sign and a striped pole. */
+function Salon() {
+  const m = useToy();
+  return (
+    <group>
+      <RBox size={[0.96, 0.66, 0.56]} r={0.06} color={C.white} position={[0, 0.33, 0]} />
+      <RBox size={[1.0, 0.08, 0.6]} r={0.03} color={C.violet} position={[0, 0.7, 0]} />
+      {[-0.4, -0.2, 0, 0.2, 0.4].map((x, i) => (
+        <RBox key={x} size={[0.2, 0.05, 0.2]} r={0.015} color={i % 2 ? C.white : C.apricot} position={[x, 0.55, 0.36]} rotation={[0.45, 0, 0]} />
+      ))}
+      <RBox size={[0.5, 0.3, 0.03]} r={0.02} color={C.lavender} o={{ glow: 0.15 }} position={[-0.12, 0.25, 0.29]} />
+      <RBox size={[0.16, 0.32, 0.03]} r={0.02} color={C.plum} position={[0.32, 0.16, 0.29]} />
+      <mesh position={[0, 0.98, 0]} material={m(C.apricot)}>
+        <torusGeometry args={[0.16, 0.035, 10, 28]} />
+      </mesh>
+      <mesh position={[0, 0.98, 0]} material={m(C.lavender, { glow: 0.2 })}>
+        <circleGeometry args={[0.13, 24]} />
+      </mesh>
+      {[0, 1, 2, 3].map((i) => (
+        <mesh key={i} position={[0.56, 0.12 + i * 0.12, 0.3]} material={m(i % 2 ? C.white : C.violet)}>
+          <cylinderGeometry args={[0.04, 0.04, 0.12, 12]} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+/** Security: a watchtower with battlements and a flag beside a small guard house. */
+function Watchtower() {
+  const m = useToy();
+  return (
+    <group>
+      <RBox size={[0.6, 0.4, 0.5]} r={0.05} color={C.ivory} position={[-0.32, 0.2, 0.08]} />
+      <RBox size={[0.64, 0.08, 0.54]} r={0.03} color={C.plum} position={[-0.32, 0.44, 0.08]} />
+      <RBox size={[0.18, 0.22, 0.03]} r={0.02} color={C.plum} position={[-0.32, 0.11, 0.34]} />
+      <RBox size={[0.42, 1.0, 0.42]} r={0.05} color={C.wood} position={[0.3, 0.5, -0.1]} />
+      <RBox size={[0.5, 0.08, 0.5]} r={0.02} color={C.plum} position={[0.3, 1.02, -0.1]} />
+      {[-1, 1].flatMap((sx) => [-1, 1].map((sz) => (
+        <RBox key={`${sx}${sz}`} size={[0.1, 0.12, 0.1]} r={0.02} color={C.plum} position={[0.3 + sx * 0.2, 1.12, -0.1 + sz * 0.2]} />
+      )))}
+      <RBox size={[0.16, 0.2, 0.03]} r={0.02} color={C.lavender} o={{ glow: 0.2 }} position={[0.3, 0.7, 0.12]} />
+      <mesh position={[0.3, 1.38, -0.1]} material={m(C.plum)}>
+        <cylinderGeometry args={[0.015, 0.015, 0.5, 6]} />
+      </mesh>
+      <Bob amp={0.015} speed={2.4}>
+        <RBox size={[0.24, 0.14, 0.015]} r={0.005} color={C.violet} position={[0.42, 1.54, -0.1]} />
+      </Bob>
+    </group>
+  );
+}
+
+/** Religion: a calm domed house of worship with a slender tower (no symbol of one faith). */
+function DomeHall() {
+  const m = useToy();
+  return (
+    <group>
+      <RBox size={[0.86, 0.56, 0.7]} r={0.05} color={C.ivory} position={[-0.08, 0.28, 0]} />
+      <mesh position={[-0.08, 0.56, 0]} material={m(C.violet)}>
+        <sphereGeometry args={[0.32, 28, 14, 0, Math.PI * 2, 0, Math.PI / 2]} />
+      </mesh>
+      <mesh position={[-0.08, 0.92, 0]} material={m(C.apricot)}>
+        <sphereGeometry args={[0.05, 12, 8]} />
+      </mesh>
+      <RBox size={[0.2, 0.3, 0.03]} r={0.08} color={C.plum} position={[-0.08, 0.15, 0.36]} />
+      {[-0.3, 0.14].map((x) => <RBox key={x} size={[0.1, 0.18, 0.03]} r={0.05} color={C.lavender} o={{ glow: 0.2 }} position={[x, 0.36, 0.36]} />)}
+      <mesh position={[0.5, 0.6, -0.15]} material={m(C.white)}>
+        <cylinderGeometry args={[0.07, 0.09, 1.2, 14]} />
+      </mesh>
+      <RBox size={[0.2, 0.06, 0.2]} r={0.02} color={C.violet} position={[0.5, 1.0, -0.15]} />
+      <mesh position={[0.5, 1.26, -0.15]} material={m(C.violet)}>
+        <coneGeometry args={[0.08, 0.2, 14]} />
+      </mesh>
+    </group>
+  );
+}
+
+/** Performing arts: a small theatre with a pediment, a curtained stage door and marquee lights. */
+function Theatre() {
+  return (
+    <group>
+      <RBox size={[1.0, 0.7, 0.6]} r={0.05} color={C.ivory} position={[0, 0.35, 0]} />
+      <Extruded shape={SHAPES.schoolRoof} depth={0.62} bevel={0.015} color={C.violet} position={[0, 0.7, 0]} />
+      <RBox size={[0.46, 0.44, 0.04]} r={0.08} color={C.plum} position={[0, 0.24, 0.3]} />
+      {[-1, 1].map((side) => <RBox key={side} size={[0.17, 0.4, 0.03]} r={0.04} color="#C24B5A" position={[side * 0.13, 0.25, 0.33]} />)}
+      {[-0.4, -0.2, 0, 0.2, 0.4].map((x, i) => <Blink key={x} position={[x, 0.56, 0.32]} color={i % 2 ? C.apricot : C.white} speed={1.2 + i * 0.3} />)}
+      {[-1, 1].map((side) => <RBox key={`c-${side}`} size={[0.08, 0.62, 0.08]} r={0.03} color={C.white} position={[side * 0.42, 0.31, 0.31]} />)}
+    </group>
+  );
+}
+
 const LANDMARKS: Record<GroupId, () => ReactNode> = {
   tech: TechStudio,
   science: Observatory,
@@ -340,6 +485,12 @@ const LANDMARKS: Record<GroupId, () => ReactNode> = {
   creative: Easel,
   engineering: Crane,
   trades: Workshop,
+  sports: Stadium,
+  transport: ControlTower,
+  beauty: Salon,
+  security: Watchtower,
+  religion: DomeHall,
+  performing: Theatre,
 };
 
 export function Landmark({ id }: { id: GroupId }) {

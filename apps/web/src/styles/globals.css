@@ -64,6 +64,34 @@
 @utility surface {
   @apply rounded-2xl bg-card p-4 text-card-foreground shadow-sm ring-1 ring-border/70;
 }
+/*
+ * Glass for controls floating over the world map (Apple-style frosted panels). A tinted base keeps
+ * Arabic text readable over any part of the scene. Blur is costly over a live WebGL canvas, so weak
+ * tablets get a lighter blur ([data-glass="lite"] on an ancestor) and "reduce transparency" gets solid.
+ */
+@utility glass {
+  @apply border border-white/60 bg-white/62 text-brand-ink shadow-[0_8px_32px_rgba(41,17,55,0.14)] backdrop-blur-xl backdrop-saturate-150 dark:border-white/10 dark:bg-[#291137]/62 dark:text-foreground;
+}
+/* Sheets and panels that carry reading text: a little more opaque. */
+@utility glass-strong {
+  @apply border border-white/70 bg-white/80 text-brand-ink shadow-[0_-12px_40px_rgba(41,17,55,0.18)] backdrop-blur-2xl backdrop-saturate-150 dark:border-white/10 dark:bg-[#291137]/85 dark:text-foreground;
+}
+[data-glass='lite'] .glass,
+[data-glass='lite'] .glass-strong {
+  --tw-backdrop-blur: blur(6px);
+  backdrop-filter: blur(6px);
+}
+[data-glass='lite'] .glass {
+  background-color: rgb(255 255 255 / 0.82);
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass,
+  .glass-strong {
+    backdrop-filter: none;
+    background-color: var(--card);
+  }
+}
+
 /* 56×32 visually; the ::after extends the touch area to 64×48. */
 @utility switch {
   @apply relative inline-flex h-8 w-14 shrink-0 items-center rounded-full transition-colors focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:outline-none disabled:opacity-50 after:absolute after:-inset-x-1 after:-inset-y-2 after:content-[''];

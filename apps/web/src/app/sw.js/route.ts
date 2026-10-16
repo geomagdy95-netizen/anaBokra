@@ -8,7 +8,7 @@ const VERSION = Date.now().toString(36);
 
 // The app screens, cached when the worker installs so the app opens without internet. Anything else
 // (a career page, a Verify path, lazy-loaded code such as the 3D map) is cached the first time it loads.
-const APP_PAGES = ['/journey', '/journey/map', '/journey/saved', '/journey/account', '/assessment/result'];
+const APP_PAGES = ['/journey', '/journey/me', '/journey/saved', '/journey/account', '/assessment/result'];
 const PRECACHE = routing.locales.flatMap((l) => APP_PAGES.map((p) => `/${l}${p}`));
 
 /**

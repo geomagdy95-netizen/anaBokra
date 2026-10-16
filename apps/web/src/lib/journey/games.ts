@@ -15,7 +15,7 @@ import { journeyKey, readJourney, type JourneyDoc } from './verify';
 export type GameId = RankedGame | 'patience';
 
 /** Discover task number → the game played after its questions. */
-export const DISCOVER_GAMES: Readonly<Record<number, GameId>> = { 3: 'pattern', 5: 'numbers', 6: 'patience', 7: 'rotation', 9: 'memory' };
+export const DISCOVER_GAMES: Readonly<Record<number, GameId>> = { 3: 'pattern', 5: 'numbers', 6: 'patience', 7: 'rotation', 8: 'memory' };
 
 /** The step id of a game in its task (also what marks it done). */
 export const gameStepId = (game: GameId) => `game_${game}`;

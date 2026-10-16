@@ -1,0 +1,272 @@
+{
+  "id": "hvac_technician",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "When it's 40 degrees outside, people call you.",
+      "ar": "لما الحرارة 40 برّه، الناس بتكلّمك إنت."
+    },
+    "summary": {
+      "en": "HVAC and refrigeration technicians install, maintain and repair air conditioners, chillers, cold rooms and ventilation in homes, shops, hospitals and factories. Demand in Egypt is year-round and peaks in summer. Technical secondary schools and institutes are the usual route, and skilled technicians can start their own business.",
+      "ar": "فني التكييف والتبريد بيركّب ويصين ويصلّح التكييفات والتشيلرات وغرف التبريد والتهوية في البيوت والمحلات والمستشفيات والمصانع. الطلب في مصر طول السنة وبيزيد جدًا في الصيف. المدارس الفنية والمعاهد هي الطريق المعتاد، والفني الشاطر يقدر يفتح شغل خاص بيه."
+    },
+    "dayInLife": {
+      "en": "Your first job is a split unit in an apartment that blows warm air. You check the pressure, find a gas leak at a joint, fix it, vacuum the line and recharge it. Next you service ten units at a bank branch: cleaning filters, checking drains and noting one compressor that sounds tired. In the afternoon you join the team installing a cold room for a supermarket, mounting the evaporator and wiring the thermostat.",
+      "ar": "أول شغلانة عندك تكييف سبليت في شقة بيطلّع هوا سخن. بتقيس الضغط، بتلاقي تسريب فريون عند وصلة، بتصلحه، بتعمل فاكيوم للمواسير وبتشحن. بعدها بتعمل صيانة لـ10 تكييفات في فرع بنك: تنضيف فلاتر، مراجعة الصرف، وبتكتب إن فيه كومبريسور صوته تعبان. بعد الضهر بتنضم للفريق اللي بيركّب غرفة تبريد لسوبر ماركت، بتركّب المبخّر وبتوصّل الترموستات."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Install air conditioning and refrigeration units.",
+        "ar": "بتركّب وحدات التكييف والتبريد."
+      },
+      {
+        "en": "Diagnose faults with gauges and meters.",
+        "ar": "بتشخّص الأعطال بأجهزة القياس."
+      },
+      {
+        "en": "Repair leaks, compressors and electrical parts.",
+        "ar": "بتصلّح التسريبات والكومبريسورات والأجزاء الكهربا."
+      },
+      {
+        "en": "Perform regular maintenance.",
+        "ar": "بتعمل صيانة دورية."
+      },
+      {
+        "en": "Explain problems and costs to customers.",
+        "ar": "بتشرح المشاكل والتكلفة للعملاء."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Homes, shops and offices",
+        "ar": "البيوت والمحلات والمكاتب"
+      },
+      {
+        "en": "Hospitals, factories, hotels and cold stores",
+        "ar": "المستشفيات والمصانع والفنادق والمخازن المبردة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Manifold gauges, vacuum pump and leak detector",
+        "ar": "عدادات الضغط وطلمبة الفاكيوم وجهاز كشف التسريب"
+      },
+      {
+        "en": "Multimeter and hand tools",
+        "ar": "الملتيميتر والعدة اليدوية"
+      },
+      {
+        "en": "Refrigerant cylinders",
+        "ar": "أسطوانات الفريون"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Technical secondary schools (refrigeration and air conditioning)",
+        "ar": "المدارس الثانوية الفنية (تبريد وتكييف)"
+      },
+      {
+        "en": "Industrial technical institutes or technological universities",
+        "ar": "المعاهد الفنية الصناعية أو الجامعات التكنولوجية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 3,
+    "alternativeRoutes": [
+      {
+        "en": "Apprenticeship with an experienced technician",
+        "ar": "تتعلم الصنعة مع فني خبير"
+      },
+      {
+        "en": "Vocational training centres",
+        "ar": "مراكز التدريب المهني"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Refrigeration cycle and electrical basics",
+        "ar": "دورة التبريد وأساسيات الكهربا"
+      },
+      {
+        "en": "Installation and brazing",
+        "ar": "التركيب واللحام"
+      },
+      {
+        "en": "Fault finding",
+        "ar": "تشخيص الأعطال"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Honesty with customers",
+        "ar": "الأمانة مع العملاء"
+      },
+      {
+        "en": "Reliability and punctuality",
+        "ar": "الالتزام والمواعيد"
+      },
+      {
+        "en": "Safety awareness",
+        "ar": "الوعي بالسلامة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; basic English for manuals",
+        "ar": "العربي، وإنجليزي بسيط للكتالوجات"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8330,
+        "max": 27730
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/construction-real-estate?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Refrigeration Mechanic\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Refrigeration Mechanic»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "AC installers and maintenance companies",
+        "ar": "شركات تركيب وصيانة التكييفات"
+      },
+      {
+        "en": "Facility management firms, hospitals and factories",
+        "ar": "شركات إدارة المرافق والمستشفيات والمصانع"
+      },
+      {
+        "en": "Self-employed workshops",
+        "ar": "ورش خاصة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; it is hands-on.",
+      "ar": "لأ؛ شغل إيد."
+    },
+    "regions": [
+      {
+        "en": "Every governorate; peak demand in hot regions and summer",
+        "ar": "كل المحافظات، والطلب الأعلى في المناطق الحارة والصيف"
+      }
+    ]
+  },
+  "global": {
+    "en": "Skilled HVAC technicians are hired across the Gulf.",
+    "ar": "فنيين التكييف المهرة مطلوبين في الخليج كله."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Steady demand all year, busy in summer",
+        "ar": "طلب ثابت طول السنة وزحمة في الصيف"
+      },
+      {
+        "en": "You can start your own business",
+        "ar": "تقدر تفتح شغلك الخاص"
+      },
+      {
+        "en": "Practical skills that travel",
+        "ar": "مهارات عملية تتنقل معاك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Heat, roofs and tight spaces",
+        "ar": "حر وأسطح وأماكن ضيقة"
+      },
+      {
+        "en": "Long hours in summer",
+        "ar": "ساعات طويلة في الصيف"
+      },
+      {
+        "en": "Electrical and refrigerant safety risks",
+        "ar": "مخاطر الكهربا والفريون"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Anyone can fix an AC by watching videos.",
+          "ar": "أي حد يقدر يصلح تكييف من الفيديوهات."
+        },
+        "fact": {
+          "en": "Refrigerant and electrical work need training; mistakes damage units and can be dangerous.",
+          "ar": "شغل الفريون والكهربا محتاج تدريب؛ والغلط بيبوّظ الأجهزة وممكن يبقى خطر."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Very busy summers, calmer winters; self-employed technicians set their own hours.",
+      "ar": "صيف زحمة جدًا وشتا أهدى؛ واللي شغال لحسابه بيحدد مواعيده."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant technician",
+        "ar": "مساعد فني"
+      },
+      {
+        "en": "HVAC technician",
+        "ar": "فني تكييف"
+      },
+      {
+        "en": "Senior technician or supervisor",
+        "ar": "فني أول أو مشرف"
+      },
+      {
+        "en": "Workshop owner or maintenance manager",
+        "ar": "صاحب ورشة أو مدير صيانة"
+      }
+    ],
+    "relatedCareerIds": [
+      "electrician",
+      "industrial_technician",
+      "solar_technician",
+      "mechanical_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Facility management",
+        "ar": "إدارة المرافق"
+      },
+      {
+        "en": "HVAC sales",
+        "ar": "مبيعات التكييف"
+      }
+    ]
+  },
+  "industryId": "trades",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Heating, Air Conditioning, and Refrigeration Mechanics and Installers (49-9021.00)",
+      "url": "https://www.onetonline.org/link/summary/49-9021.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - HVAC Technician jobs in Egypt",
+      "url": "https://wuzzuf.net/a/HVAC-Technician-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

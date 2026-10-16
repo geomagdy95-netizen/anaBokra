@@ -1,0 +1,89 @@
+{
+  "id": "transport",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": {"en": "A day in transport, aviation and logistics", "ar": "يوم في النقل والطيران واللوجستيات"},
+      "intro": {"en": "Moments from a typical day in transport, aviation and logistics. How does each one sound to you?", "ar": "لحظات من يوم عادي في النقل والطيران واللوجستيات. كل لحظة شكلها إيه بالنسبالك؟"},
+      "items": [
+        {"id": "transport_day_1", "title": {"en": "Four flights", "ar": "4 رحلات"}, "text": {"en": "Four flights in one day, greeting the last passenger like the first.", "ar": "4 رحلات طيران في يوم واحد، ولازم تستقبل آخر راكب بنفس الابتسامة اللي استقبلت بيها أول واحد.", "arF": "4 رحلات طيران في يوم واحد، ولازم تستقبلي آخر راكب بنفس الابتسامة اللي استقبلتي بيها أول واحد."}, "careers": ["flight_attendant"]},
+        {"id": "transport_day_2", "title": {"en": "Pre-flight checks", "ar": "مراجعة قبل الطيران"}, "text": {"en": "Checking the weather and the plane carefully before a flight.", "ar": "قبل الإقلاع، بتراجع حالة الجو والطيارة نفسها بدقة.", "arF": "قبل الإقلاع، بتراجعي حالة الجو والطيارة نفسها بدقة."}, "careers": ["pilot"]},
+        {"id": "transport_day_3", "title": {"en": "Eight planes on radar", "ar": "8 طيارات على الرادار"}, "text": {"en": "Eight planes on your radar, and you line them up to land three minutes apart.", "ar": "8 طيارات على الرادار عندك، وبتصفّهم علشان ينزلوا بين كل واحدة والتانية 3 دقايق.", "arF": "8 طيارات على الرادار عندك، وبتصفّيهم علشان ينزلوا بين كل واحدة والتانية 3 دقايق."}, "careers": ["air_traffic_controller"]},
+        {"id": "transport_day_4", "title": {"en": "The canal at night", "ar": "القناة بالليل"}, "text": {"en": "On the ship's bridge at night, guiding a container ship through the Suez Canal.", "ar": "على كوبري السفينة بالليل، بتقود سفينة حاويات في قناة السويس.", "arF": "على كوبري السفينة بالليل، بتقودي سفينة حاويات في قناة السويس."}, "careers": ["marine_officer"]},
+        {"id": "transport_day_5", "title": {"en": "The engine room", "ar": "غرفة المكن"}, "text": {"en": "Fixing a fuel pump in a hot, loud engine room in the middle of the sea.", "ar": "بتصلّح طلمبة وقود في غرفة مكن حر ودوشة في نص البحر.", "arF": "بتصلّحي طلمبة وقود في غرفة مكن حر ودوشة في نص البحر."}, "careers": ["marine_engineer_officer"]},
+        {"id": "transport_day_6", "title": {"en": "The missing paper", "ar": "الورقة الناقصة"}, "text": {"en": "Customs is holding 40 containers for one missing certificate, and the ship leaves tonight.", "ar": "الجمارك موقفة 40 حاوية علشان شهادة واحدة ناقصة، والسفينة طالعة النهارده بالليل."}, "careers": ["logistics_coordinator"]}
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": {"en": "The real deal", "ar": "الحقيقة من غير تجميل"},
+      "intro": {"en": "Every path comes with trade-offs. For each pair, pick the one you would rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه."},
+      "items": [
+        {"id": "transport_real_1", "title": {"en": "Home or away", "ar": "في البيت ولا بعيد"}, "a": {"en": "Weeks or months away from home", "ar": "أسابيع أو شهور بعيد عن البيت"}, "b": {"en": "Home every night", "ar": "في البيت كل ليلة"}, "path": "a", "careers": ["marine_officer", "marine_engineer_officer", "flight_attendant", "pilot"]},
+        {"id": "transport_real_2", "title": {"en": "Getting in", "ar": "طريقة الدخول"}, "a": {"en": "Strict medical checks and long training before you start", "ar": "كشف طبي صارم وتدريب طويل قبل ما تبدأ", "arF": "كشف طبي صارم وتدريب طويل قبل ما تبدأي"}, "b": {"en": "Starting quickly and learning on the job", "ar": "تبدأ بسرعة وتتعلم وإنت شغال", "arF": "تبدأي بسرعة وتتعلمي وإنتي شغالة"}, "path": "a", "careers": ["pilot", "flight_attendant", "air_traffic_controller", "marine_officer"]},
+        {"id": "transport_real_3", "title": {"en": "Your hours", "ar": "مواعيدك"}, "a": {"en": "Shifts, nights and holidays", "ar": "شيفتات وليل وإجازات"}, "b": {"en": "Regular daytime hours", "ar": "مواعيد ثابتة بالنهار"}, "path": "a", "careers": ["air_traffic_controller", "flight_attendant", "pilot"]},
+        {"id": "transport_real_4", "title": {"en": "Responsibility", "ar": "حجم المسؤولية"}, "a": {"en": "Hundreds of lives depend on your decisions", "ar": "حياة مئات الناس معتمدة على قراراتك"}, "b": {"en": "Mistakes only cost time or money", "ar": "الغلطة تمنها وقت أو فلوس بس"}, "path": "a", "careers": ["pilot", "air_traffic_controller", "marine_officer"]},
+        {"id": "transport_real_5", "title": {"en": "English every day", "ar": "إنجليزي كل يوم"}, "a": {"en": "Working in English with crews and clients worldwide", "ar": "بتشتغل بالإنجليزي مع أطقم وعملاء من كل العالم", "arF": "بتشتغلي بالإنجليزي مع أطقم وعملاء من كل العالم"}, "b": {"en": "Working only in Arabic", "ar": "بتشتغل بالعربي بس", "arF": "بتشتغلي بالعربي بس"}, "path": "a", "careers": ["logistics_coordinator", "marine_officer", "air_traffic_controller"]},
+        {"id": "transport_real_6", "title": {"en": "Calm or rush", "ar": "هدوء ولا استعجال"}, "a": {"en": "Urgent problems and tight deadlines", "ar": "مشاكل مستعجلة ومواعيد ضيقة"}, "b": {"en": "A steady pace with time to think", "ar": "إيقاع ثابت فيه وقت للتفكير"}, "path": "a", "careers": ["logistics_coordinator", "marine_engineer_officer"]}
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": {"en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك"},
+      "intro": {"en": "Two real situations and two small puzzles from transport, aviation and logistics. There is no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل النقل والطيران واللوجستيات. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل النقل والطيران واللوجستيات. مفيش درجات: قوليلنا بس عجبك ولا لأ."},
+      "items": [
+        {
+          "id": "transport_try_1",
+          "title": {"en": "The delayed shipment", "ar": "الشحنة المتأخرة"},
+          "type": "scenario",
+          "text": {"en": "A client's goods are stuck at a port abroad and his factory needs them in three days.", "ar": "بضاعة عميل واقفة في ميناء برّه ومصنعه محتاجها خلال 3 أيام."},
+          "options": [
+            {"text": {"en": "Find out why, offer a faster air option with its cost, and update him daily", "ar": "أعرف السبب، وأعرض بديل شحن جوي أسرع بتكلفته، وأبلّغه كل يوم"}, "fit": 1},
+            {"text": {"en": "Call the shipping line and push them to speed up", "ar": "أكلم الخط الملاحي وأضغط عليهم يسرّعوا"}, "fit": 0.6},
+            {"text": {"en": "Tell him delays happen", "ar": "أقوله إن التأخير بيحصل"}, "fit": 0.1},
+            {"text": {"en": "Wait until he calls", "ar": "أستنى لحد ما هو يتصل"}, "fit": 0}
+          ],
+          "careers": ["logistics_coordinator"]
+        },
+        {
+          "id": "transport_try_2",
+          "title": {"en": "The unwell passenger", "ar": "راكب تعبان"},
+          "type": "scenario",
+          "text": {"en": "Halfway through a flight, a passenger feels faint and looks very pale.", "ar": "في نص الرحلة، راكب حاسس إنه هيغمى عليه ووشه أصفر جدًا."},
+          "options": [
+            {"text": {"en": "Help him lie down, give oxygen if needed, tell the captain and ask for a doctor on board", "ar": "أساعده يتمدد، أديله أكسجين لو محتاج، أبلّغ الكابتن وأسأل لو فيه دكتور على الطيارة"}, "fit": 1},
+            {"text": {"en": "Bring water and check on him every few minutes", "ar": "أجيب مية وأطمّن عليه كل كام دقيقة"}, "fit": 0.5},
+            {"text": {"en": "Ask him to wait until landing", "ar": "أطلب منه يستنى لحد الهبوط"}, "fit": 0.1},
+            {"text": {"en": "Ignore it unless he asks again", "ar": "أطنّش إلا لو طلب تاني"}, "fit": 0}
+          ],
+          "careers": ["flight_attendant", "pilot"]
+        },
+        {
+          "id": "transport_try_3",
+          "title": {"en": "Knots to km/h", "ar": "العقدة للكيلو"},
+          "type": "puzzle",
+          "text": {"en": "A ship sails at 20 knots. One knot is about 1.85 km/h. About how fast is that in km/h?", "ar": "سفينة ماشية بسرعة 20 عقدة. العقدة حوالي 1.85 كيلو في الساعة. يعني حوالي كام كيلو في الساعة؟"},
+          "options": [{"en": "about 20 km/h", "ar": "حوالي 20"},{"en": "about 37 km/h", "ar": "حوالي 37"},{"en": "about 50 km/h", "ar": "حوالي 50"},{"en": "about 74 km/h", "ar": "حوالي 74"}],
+          "answer": 1,
+          "explain": {"en": "20 × 1.85 = 37 km/h. Ships and planes measure speed in knots.", "ar": "20 × 1.85 = 37 كيلو في الساعة. السفن والطيارات بتقيس السرعة بالعقدة."},
+          "careers": ["marine_officer", "marine_engineer_officer", "pilot"]
+        },
+        {
+          "id": "transport_try_4",
+          "title": {"en": "Containers on a truck", "ar": "حاويات على تريلا"},
+          "type": "puzzle",
+          "text": {"en": "A factory ships 50 containers. Each truck carries 2. How many truck trips are needed?", "ar": "مصنع بيشحن 50 حاوية. كل تريلا بتشيل 2. محتاجين كام نقلة تريلا؟"},
+          "options": [{"en": "20", "ar": "20"},{"en": "25", "ar": "25"},{"en": "50", "ar": "50"},{"en": "100", "ar": "100"}],
+          "answer": 1,
+          "explain": {"en": "50 ÷ 2 = 25 trips. Logistics planners turn loads into trips and costs every day.", "ar": "50 ÷ 2 = 25 نقلة. مخططين اللوجستيات بيحولوا الحمولات لنقلات وتكاليف كل يوم."},
+          "careers": ["logistics_coordinator", "air_traffic_controller"]
+        }
+      ]
+    }
+  ]
+}

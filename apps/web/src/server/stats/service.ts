@@ -1,8 +1,8 @@
 import type { GameNorms } from '@/features/games/score';
-import { statsUploadSchema } from '@/lib/stats-summary';
+import { cleanFeedbackText, statsUploadSchema } from '@/lib/stats-summary';
 
 import { createRateLimiter, type RateLimiter } from '../rate-limit';
-import { isoWeek, MemoryStatsStore, type StatsStore } from './store';
+import { isoWeek, MemoryStatsStore, type Insights, type StatsStore } from './store';
 
 export type StatsError = 'invalid' | 'rate_limited' | 'store_failed';
 
@@ -24,8 +24,9 @@ export class StatsService {
   constructor(
     readonly store: StatsStore,
     private readonly now: () => number = Date.now,
-    // A whole session can share one university IP, and each person sends a few records.
-    perIpPerHour = 300,
+    // A whole session can share one university IP, and each person sends a few dozen records
+    // (milestones, career views, a daily usage count).
+    perIpPerHour = 3000,
   ) {
     this.limiter = createRateLimiter({ limit: perIpPerHour, windowMs: 60 * 60 * 1000, now: this.now });
   }
@@ -39,13 +40,20 @@ export class StatsService {
     return norms;
   }
 
+  /** Totals for the admin Insights page. */
+  insights(eventCode?: string | null): Promise<Insights> {
+    return this.store.insights(eventCode);
+  }
+
   async submit(body: unknown, ip: string): Promise<void> {
     const parsed = statsUploadSchema.safeParse(body);
     if (!parsed.success) throw new StatsFailure('invalid');
     const limit = await this.limiter.consume(`ip:${ip}`);
     if (!limit.allowed) throw new StatsFailure('rate_limited', limit.retryAfterSec);
+    // Free text is cleaned again here, whatever the phone did.
+    const data = 'kind' in parsed.data && parsed.data.kind === 'feedback' ? { ...parsed.data, text: cleanFeedbackText(parsed.data.text) } : parsed.data;
     try {
-      await this.store.add({ ...parsed.data, receivedWeek: isoWeek(new Date(this.now())) });
+      await this.store.add({ ...data, receivedWeek: isoWeek(new Date(this.now())) });
     } catch {
       throw new StatsFailure('store_failed');
     }
@@ -60,7 +68,8 @@ export async function getStatsService(): Promise<StatsService> {
     let store: StatsStore = new MemoryStatsStore();
     if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY) {
       const [{ createAdminClient }, { SupabaseStatsStore }] = await Promise.all([import('../supabase-admin'), import('./store')]);
-      store = new SupabaseStatsStore(createAdminClient());
+      // The generated client types are too deep to check against the store's small structural type.
+      store = new SupabaseStatsStore(createAdminClient() as unknown as ConstructorParameters<typeof SupabaseStatsStore>[0]);
     }
     g.__statsService = new StatsService(store);
   }

@@ -1,0 +1,268 @@
+{
+  "id": "customer_service_agent",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You are the voice that fixes someone's day.",
+      "ar": "إنت الصوت اللي بيصلّح يوم حد."
+    },
+    "summary": {
+      "en": "Customer service and contact center agents answer customers by phone, chat and email, solve their problems and keep them loyal. In Egypt many work for outsourcing centers that serve customers in the UK, Europe and the Gulf, so good English or another language opens most doors. It is one of the easiest ways to start working while studying or right after graduation.",
+      "ar": "موظف خدمة العملاء بيرد على العملاء بالتليفون والشات والإيميل، وبيحل مشاكلهم ويخليهم مكملين مع الشركة. في مصر ناس كتير بتشتغل في مراكز اتصال بتخدم عملاء في إنجلترا وأوروبا والخليج، فالإنجليزي الكويس أو أي لغة تانية بيفتح أغلب الأبواب. ودي من أسهل الطرق إنك تبدأ تشتغل وإنت بتدرس أو بعد التخرج على طول."
+    },
+    "dayInLife": {
+      "en": "Your shift starts at 2 p.m. You log into the system and take your first call: a customer in Manchester whose internet stopped working. You follow the steps on screen, test the line with him and fix it in eight minutes. Between calls you answer two chats and write short notes on each case. Your team leader checks your average handling time and gives you tips. Near the end of the shift an angry customer shouts about a bill; you stay calm, find the double charge and refund it.",
+      "ar": "شيفتك بيبدأ الساعة 2 الضهر. بتفتح السيستم وبترد على أول مكالمة: عميل في مانشستر النت عنده واقف. بتمشي معاه على الخطوات اللي على الشاشة، بتجرب الخط وبتصلحه في 8 دقايق. بين المكالمات بترد على شاتين وبتكتب ملاحظات قصيرة على كل حالة. التيم ليدر بيراجع متوسط وقت المكالمة بتاعك وبيديك نصايح. قرب آخر الشيفت عميل متعصب بيزعق بسبب فاتورة؛ بتفضل هادي، بتلاقي إن الفلوس اتخصمت مرتين وبترجعها له."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Answer customer calls, chats and emails about products, bills and problems.",
+        "ar": "بترد على مكالمات وشات وإيميلات العملاء عن المنتجات والفواتير والمشاكل."
+      },
+      {
+        "en": "Find the cause of a problem with the customer and solve it or pass it on.",
+        "ar": "بتعرف سبب المشكلة مع العميل وبتحلها أو بتحولها للقسم المسؤول."
+      },
+      {
+        "en": "Record every case clearly in the company's system.",
+        "ar": "بتسجل كل حالة بوضوح على سيستم الشركة."
+      },
+      {
+        "en": "Calm upset customers and keep them from leaving.",
+        "ar": "بتهدّي العملاء الزعلانين وبتحاول تحافظ عليهم."
+      },
+      {
+        "en": "Offer suitable products or upgrades when it helps the customer.",
+        "ar": "بتعرض منتجات أو ترقيات مناسبة لما تفيد العميل."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Contact centers (outsourcing companies and telecom firms)",
+        "ar": "مراكز الاتصال (شركات الأوت سورسنج والاتصالات)"
+      },
+      {
+        "en": "Working from home on some accounts",
+        "ar": "الشغل من البيت في بعض الحسابات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "CRM and ticketing systems",
+        "ar": "أنظمة إدارة العملاء والتذاكر"
+      },
+      {
+        "en": "Headset and softphone",
+        "ar": "السماعة وبرامج الاتصال"
+      },
+      {
+        "en": "Knowledge base and scripts",
+        "ar": "قاعدة المعرفة والسكريبتات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Any faculty; Arts, Languages (Alsun) and Commerce graduates are common",
+        "ar": "أي كلية؛ وخريجين الآداب والألسن والتجارة كتير"
+      },
+      {
+        "en": "Students can start part-time before graduating",
+        "ar": "الطلبة ممكن يبدأوا بارت تايم قبل التخرج"
+      }
+    ],
+    "programIds": [],
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Join straight after secondary school or while studying, if your English is strong",
+        "ar": "تقدر تبدأ بعد الثانوية أو وإنت بتدرس لو الإنجليزي بتاعك قوي"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Using CRM and ticketing systems",
+        "ar": "استخدام أنظمة العملاء والتذاكر"
+      },
+      {
+        "en": "Typing fast and writing clear notes",
+        "ar": "الكتابة بسرعة وملاحظات واضحة"
+      },
+      {
+        "en": "Basic product and technical troubleshooting",
+        "ar": "حل المشاكل التقنية والمنتجات الأساسية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and calm under pressure",
+        "ar": "الصبر والهدوء تحت الضغط"
+      },
+      {
+        "en": "Listening and clear explanation",
+        "ar": "الاستماع والشرح الواضح"
+      },
+      {
+        "en": "Empathy with upset people",
+        "ar": "التعاطف مع الناس الزعلانة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Fluent English (B2 or above) for international accounts",
+        "ar": "إنجليزي بطلاقة (B2 أو أعلى) للحسابات الدولية"
+      },
+      {
+        "en": "German, French, Italian or Spanish pay extra",
+        "ar": "الألماني والفرنساوي والإيطالي والإسباني بيدفعوا أكتر"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10870,
+        "max": 20552
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/customer-support?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Customer Support Specialist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Customer Support Specialist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Contact centers such as VOIS Egypt (Vodafone), Etisalat Egypt, Concentrix and Raya CX",
+        "ar": "مراكز اتصال زي VOIS مصر (فودافون) واتصالات مصر وكونسنتريكس وراية CX"
+      },
+      {
+        "en": "Telecom companies, banks and e-commerce firms",
+        "ar": "شركات الاتصالات والبنوك والتجارة الإلكترونية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Some accounts allow work from home once you are trained; freelance chat support exists but pays less.",
+      "ar": "بعض الحسابات بتسمح بالشغل من البيت بعد التدريب؛ وفيه دعم عملاء فريلانس بس بيدفع أقل."
+    },
+    "regions": [
+      {
+        "en": "Cairo, Giza and Alexandria; growing in New Cairo and 6th of October",
+        "ar": "القاهرة والجيزة وإسكندرية، وبيزيد في التجمع و6 أكتوبر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Experience on international accounts and strong English help you move to customer success or support roles in the Gulf.",
+    "ar": "الخبرة في الحسابات الدولية والإنجليزي القوي بيساعدوك تنتقل لوظائف نجاح العملاء أو الدعم في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Easy to start, often with paid training",
+        "ar": "سهل تبدأ، وغالبًا بتدريب مدفوع"
+      },
+      {
+        "en": "Builds language and people skills fast",
+        "ar": "بيقوّي اللغة والتعامل مع الناس بسرعة"
+      },
+      {
+        "en": "Clear promotion steps inside big centers",
+        "ar": "خطوات ترقية واضحة جوه المراكز الكبيرة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Night and weekend shifts for foreign time zones",
+        "ar": "شيفتات بالليل وفي الإجازات علشان فرق التوقيت"
+      },
+      {
+        "en": "Repetitive calls and strict time targets",
+        "ar": "مكالمات متكررة وأهداف وقت صارمة"
+      },
+      {
+        "en": "Dealing with angry customers every day",
+        "ar": "التعامل مع عملاء متعصبين كل يوم"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Call center work is only for people who couldn't find anything else.",
+          "ar": "شغل الكول سنتر للي ملقاش حاجة تانية بس."
+        },
+        "fact": {
+          "en": "Many managers in telecom, HR and customer experience started on the phones; it is a real entry route.",
+          "ar": "مديرين كتير في الاتصالات والموارد البشرية وتجربة العملاء بدأوا على التليفون؛ ده طريق دخول حقيقي."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shift work, sometimes at night, but with fixed hours and no work to take home.",
+      "ar": "شغل بشيفتات أحيانًا بالليل، بس مواعيده محددة ومفيش شغل بتاخده معاك البيت."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Agent (trainee, then on calls)",
+        "ar": "موظف (متدرب، وبعدين على المكالمات)"
+      },
+      {
+        "en": "Senior agent or subject expert",
+        "ar": "موظف أول أو خبير في الحساب"
+      },
+      {
+        "en": "Team leader",
+        "ar": "تيم ليدر"
+      },
+      {
+        "en": "Operations, quality or training manager",
+        "ar": "مدير عمليات أو جودة أو تدريب"
+      }
+    ],
+    "relatedCareerIds": [
+      "sales_representative",
+      "hr_specialist",
+      "travel_agent",
+      "hotel_front_office"
+    ],
+    "pivots": [
+      {
+        "en": "Quality assurance or training inside the center",
+        "ar": "الجودة أو التدريب جوه المركز"
+      },
+      {
+        "en": "Customer success, HR recruitment or sales",
+        "ar": "نجاح العملاء أو التوظيف أو المبيعات"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Customer Service Representatives (43-4051.00)",
+      "url": "https://www.onetonline.org/link/summary/43-4051.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Contact Center Representative jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Contact-Center-Representative-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

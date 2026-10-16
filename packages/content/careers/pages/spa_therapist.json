@@ -1,0 +1,255 @@
+{
+  "id": "spa_therapist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help people slow down and feel better.",
+      "ar": "بتساعد الناس يهدّوا ويحسّوا بتحسّن."
+    },
+    "summary": {
+      "en": "Spa and massage therapists give massages and body treatments for relaxation and recovery in hotel spas, resorts, wellness centres and sports clubs. Egypt's Red Sea resorts employ many therapists, and certified training in anatomy and massage techniques is essential.",
+      "ar": "أخصائي السبا والمساج بيعمل مساج وعلاجات للجسم للاسترخاء والاستشفاء في سبا الفنادق والمنتجعات ومراكز العافية والأندية الرياضية. منتجعات البحر الأحمر في مصر بتشغّل أخصائيين كتير، والتدريب المعتمد في التشريح وتقنيات المساج أساسي."
+    },
+    "dayInLife": {
+      "en": "At a resort spa in Hurghada, your first guest is a tourist with a stiff back from diving. You ask about health conditions, then give a deep-tissue massage. Next, a couple books a relaxation package. Between guests you prepare the rooms, oils and towels. In the afternoon a footballer staying at the hotel comes for a sports massage before training.",
+      "ar": "في سبا منتجع في الغردقة، أول ضيف سايح ضهره متشنج من الغطس. بتسأل عن حالته الصحية، وبعدين بتعمل مساج عميق. بعده اتنين حاجزين باكدج استرخاء. بين الضيوف بتجهز الأوض والزيوت والفوط. بعد الضهر لاعب كورة مقيم في الفندق جاي لمساج رياضي قبل التمرين."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Ask about clients' health and needs.",
+        "ar": "بتسأل العملاء عن صحتهم واحتياجاتهم."
+      },
+      {
+        "en": "Give massages and body treatments.",
+        "ar": "بتعمل مساج وعلاجات للجسم."
+      },
+      {
+        "en": "Prepare rooms, oils and equipment.",
+        "ar": "بتجهز الأوض والزيوت والأدوات."
+      },
+      {
+        "en": "Keep hygiene and privacy.",
+        "ar": "بتحافظ على النظافة والخصوصية."
+      },
+      {
+        "en": "Recommend care between visits.",
+        "ar": "بتنصح بالعناية بين الزيارات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Hotel and resort spas",
+        "ar": "سبا الفنادق والمنتجعات"
+      },
+      {
+        "en": "Wellness centres and sports clubs",
+        "ar": "مراكز العافية والأندية الرياضية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Massage tables, oils and stones",
+        "ar": "سراير المساج والزيوت والحجارة"
+      },
+      {
+        "en": "Towels and treatment products",
+        "ar": "الفوط ومنتجات العلاج"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Certified massage and spa therapy courses",
+        "ar": "كورسات معتمدة للمساج والسبا"
+      },
+      {
+        "en": "Physical Education graduates for sports massage",
+        "ar": "خريجين التربية الرياضية للمساج الرياضي"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 1,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Anatomy basics",
+        "ar": "أساسيات التشريح"
+      },
+      {
+        "en": "Massage techniques",
+        "ar": "تقنيات المساج"
+      },
+      {
+        "en": "Knowing when massage is not safe",
+        "ar": "تعرف إمتى المساج مش آمن"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm presence",
+        "ar": "حضور هادي"
+      },
+      {
+        "en": "Respect for privacy",
+        "ar": "احترام الخصوصية"
+      },
+      {
+        "en": "Stamina",
+        "ar": "التحمل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English; German, Russian or Italian for resort guests",
+        "ar": "الإنجليزي، والألماني والروسي والإيطالي لضيوف المنتجعات"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8952,
+        "max": 18640
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Spa Therapist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Spa Therapist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Hotel and resort spas",
+        "ar": "سبا الفنادق والمنتجعات"
+      },
+      {
+        "en": "Wellness centres and clubs",
+        "ar": "مراكز العافية والأندية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Red Sea resorts, Sinai, Cairo and the North Coast",
+        "ar": "منتجعات البحر الأحمر وسينا والقاهرة والساحل الشمالي"
+      }
+    ]
+  },
+  "global": {
+    "en": "Spa therapists are hired by Gulf and international resort chains.",
+    "ar": "أخصائيين السبا مطلوبين في منتجعات الخليج والسلاسل الدولية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Calm, caring work",
+        "ar": "شغل هادي وفيه رعاية"
+      },
+      {
+        "en": "Jobs in resorts with housing",
+        "ar": "شغل في منتجعات بسكن"
+      },
+      {
+        "en": "Tips from guests",
+        "ar": "بقشيش من الضيوف"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Physically tiring",
+        "ar": "متعب جسديًا"
+      },
+      {
+        "en": "Shifts and seasonal work",
+        "ar": "شيفتات وشغل موسمي"
+      },
+      {
+        "en": "Living far from family in resort towns",
+        "ar": "العيشة بعيد عن الأهل في مدن المنتجعات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Massage is only for relaxation.",
+          "ar": "المساج للاسترخاء بس."
+        },
+        "fact": {
+          "en": "Sports and therapeutic massage help recovery, but medical problems need a doctor or physiotherapist.",
+          "ar": "المساج الرياضي والعلاجي بيساعد في الاستشفاء، بس المشاكل الطبية محتاجة دكتور أو أخصائي علاج طبيعي."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shifts, often evenings and weekends in resorts.",
+      "ar": "شيفتات، غالبًا مسا وإجازات في المنتجعات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Spa therapist",
+        "ar": "أخصائي سبا"
+      },
+      {
+        "en": "Senior therapist",
+        "ar": "أخصائي أول"
+      },
+      {
+        "en": "Spa supervisor",
+        "ar": "مشرف سبا"
+      },
+      {
+        "en": "Spa manager",
+        "ar": "مدير سبا"
+      }
+    ],
+    "relatedCareerIds": [
+      "skincare_specialist",
+      "fitness_trainer",
+      "physical_therapist",
+      "hotel_front_office"
+    ],
+    "pivots": [
+      {
+        "en": "Sports massage in clubs",
+        "ar": "المساج الرياضي في الأندية"
+      },
+      {
+        "en": "Spa management",
+        "ar": "إدارة السبا"
+      }
+    ]
+  },
+  "industryId": "beauty",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Massage Therapists (31-9011.00)",
+      "url": "https://www.onetonline.org/link/summary/31-9011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Skincare Specialists (39-5094.00)",
+      "url": "https://www.onetonline.org/link/summary/39-5094.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

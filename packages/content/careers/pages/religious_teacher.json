@@ -1,0 +1,262 @@
+{
+  "id": "religious_teacher",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You teach faith, values and the Arabic language to the next generation.",
+      "ar": "بتعلّم الدين والقيم واللغة العربية للجيل الجاي."
+    },
+    "summary": {
+      "en": "Religious education teachers teach religion, Quran and often Arabic in Azhar institutes and in schools, and some teach in churches' Sunday schools or religious centres. In Egypt Azhar institutes form a full school system that hires Al-Azhar graduates, and schools teach Islamic and Christian religious education.",
+      "ar": "مدرس التربية الدينية بيدرّس الدين والقرآن وغالبًا اللغة العربية في المعاهد الأزهرية والمدارس، وفيه اللي بيدرّسوا في مدارس الأحد في الكنايس أو المراكز الدينية. في مصر المعاهد الأزهرية نظام تعليم كامل بيشغّل خريجين الأزهر، والمدارس بتدرّس التربية الدينية الإسلامية والمسيحية."
+    },
+    "dayInLife": {
+      "en": "Your first class is Grade 7 at an Azhar institute: you review the Quran passage they memorised and explain its meaning with examples from daily life. Next you teach Arabic grammar to Grade 9. At break you help a student who is struggling with recitation. After school you mark notebooks and prepare a lesson on kindness to neighbours.",
+      "ar": "أول حصة عندك أولى إعدادي في معهد أزهري: بتراجع الجزء اللي حفظوه من القرآن وبتشرح معناه بأمثلة من الحياة. بعدها بتدرّس نحو لتالتة إعدادي. في الفسحة بتساعد طالب صعب عليه التلاوة. بعد المدرسة بتصحح كراسات وبتحضّر درس عن الإحسان للجيران."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Teach religion, Quran and Arabic lessons.",
+        "ar": "بتدّي دروس دين وقرآن وعربي."
+      },
+      {
+        "en": "Help students memorise and understand texts.",
+        "ar": "بتساعد الطلبة يحفظوا ويفهموا النصوص."
+      },
+      {
+        "en": "Prepare lessons and exams.",
+        "ar": "بتحضّر الدروس والامتحانات."
+      },
+      {
+        "en": "Guide students' behaviour and values.",
+        "ar": "بتوجّه سلوك وقيم الطلبة."
+      },
+      {
+        "en": "Talk with parents.",
+        "ar": "بتتواصل مع الأهالي."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Azhar institutes",
+        "ar": "المعاهد الأزهرية"
+      },
+      {
+        "en": "Public and private schools, churches' Sunday schools and centres",
+        "ar": "المدارس الحكومية والخاصة ومدارس الأحد والمراكز"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Textbooks and religious references",
+        "ar": "الكتب والمراجع الدينية"
+      },
+      {
+        "en": "Recitation apps and boards",
+        "ar": "أبلكيشنز التلاوة والسبورة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Al-Azhar University (Arabic, Islamic Studies, Usul al-Din faculties)",
+        "ar": "جامعة الأزهر (كليات اللغة العربية والدراسات الإسلامية وأصول الدين)"
+      },
+      {
+        "en": "Faculties of Education or Dar al-Ulum",
+        "ar": "كليات التربية أو دار العلوم"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Church-run theological and teacher courses for Christian education",
+        "ar": "كورسات لاهوت وتدريس كنسية للتربية المسيحية"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Religious knowledge",
+        "ar": "المعرفة الدينية"
+      },
+      {
+        "en": "Arabic language",
+        "ar": "اللغة العربية"
+      },
+      {
+        "en": "Teaching methods",
+        "ar": "طرق التدريس"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience",
+        "ar": "الصبر"
+      },
+      {
+        "en": "Respect for every student",
+        "ar": "احترام كل طالب"
+      },
+      {
+        "en": "Clear explanation",
+        "ar": "الشرح الواضح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Excellent Arabic",
+        "ar": "عربي ممتاز"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10727,
+        "max": 18674
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Teacher\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Teacher»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Al-Azhar institutes",
+        "ar": "المعاهد الأزهرية"
+      },
+      {
+        "en": "Schools and religious centres",
+        "ar": "المدارس والمراكز الدينية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Online Quran and religion teaching is common.",
+      "ar": "تعليم القرآن والدين أونلاين منتشر."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Arabic and Quran teachers are hired by schools and online platforms worldwide.",
+    "ar": "مدرسين العربي والقرآن مطلوبين في مدارس ومنصات أونلاين حوالين العالم."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Teaching values you believe in",
+        "ar": "بتعلّم قيم مؤمن بيها"
+      },
+      {
+        "en": "Jobs in every area",
+        "ar": "شغل في كل منطقة"
+      },
+      {
+        "en": "Online income possible",
+        "ar": "دخل أونلاين ممكن"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Modest pay in many schools",
+        "ar": "مرتب متواضع في مدارس كتير"
+      },
+      {
+        "en": "Large classes",
+        "ar": "فصول كبيرة"
+      },
+      {
+        "en": "Keeping lessons engaging",
+        "ar": "إنك تخلّي الدروس ممتعة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Religion lessons are just memorising.",
+          "ar": "حصة الدين حفظ وبس."
+        },
+        "fact": {
+          "en": "Good teachers connect texts to values and daily life.",
+          "ar": "المدرس الكويس بيربط النصوص بالقيم والحياة اليومية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "School hours plus marking and preparation.",
+      "ar": "مواعيد المدرسة مع التصحيح والتحضير."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Teacher",
+        "ar": "مدرس"
+      },
+      {
+        "en": "Senior teacher",
+        "ar": "مدرس أول"
+      },
+      {
+        "en": "Subject supervisor",
+        "ar": "موجّه مادة"
+      },
+      {
+        "en": "Institute or school head",
+        "ar": "شيخ معهد أو مدير مدرسة"
+      }
+    ],
+    "relatedCareerIds": [
+      "teacher",
+      "imam_preacher",
+      "religious_scholar",
+      "early_childhood_teacher"
+    ],
+    "pivots": [
+      {
+        "en": "Online teaching",
+        "ar": "التدريس أونلاين"
+      },
+      {
+        "en": "Curriculum writing",
+        "ar": "كتابة المناهج"
+      }
+    ]
+  },
+  "industryId": "religion",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Directors, Religious Activities and Education (21-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/21-2021.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Secondary School Teachers (25-2031.00)",
+      "url": "https://www.onetonline.org/link/summary/25-2031.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

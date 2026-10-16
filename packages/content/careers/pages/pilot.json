@@ -377,7 +377,7 @@
     ],
     "relatedCareerIds": [
       "flight_attendant",
-      "police_military_officer",
+      "military_officer",
       "mechanical_engineer",
       "electrical_engineer",
       "hotel_manager"
@@ -401,7 +401,7 @@
       }
     ]
   },
-  "industryId": "tourism",
+  "industryId": "transport",
   "sources": [
     {
       "title": "Paylab Egypt: Pilot salary (transport, haulage, logistics)",
@@ -428,5 +428,36 @@
       "url": "https://rotatepilot.com/pilot-cost/egypt",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "cost",
+        "level": 3,
+        "text": {
+          "en": "Civil pilot training is paid by the student and costs tens of thousands of US dollars, often partly in dollars, and a job is not guaranteed afterwards.",
+          "ar": "تدريب الطيار المدني على حساب الطالب وبيتكلف عشرات الآلاف من الدولارات، وغالبًا جزء منه بالدولار، ومفيش وظيفة مضمونة بعده."
+        },
+        "tip": {
+          "en": "Airline cadet programmes and the Air College (military) are the main routes that do not need private funding.",
+          "ar": "برامج الطلبة في شركات الطيران والكلية الجوية (العسكرية) هما الطريقين الأساسيين من غير تمويل خاص."
+        },
+        "source": "https://rotatepilot.com/pilot-cost/egypt"
+      },
+      {
+        "kind": "physical",
+        "level": 2,
+        "text": {
+          "en": "You must hold and keep a Class 1 medical certificate; some health conditions rule this career out.",
+          "ar": "لازم تاخد شهادة طبية درجة أولى وتحافظ عليها؛ وفيه حالات صحية بتمنع المهنة دي."
+        },
+        "tip": {
+          "en": "Doing the Class 1 medical before paying for training avoids a costly surprise.",
+          "ar": "عمل الكشف الطبي درجة أولى قبل دفع تمن التدريب بيمنع مفاجأة مكلفة."
+        },
+        "source": "https://rotatepilot.com/pilot-cost/egypt"
+      }
+    ]
+  }
 }

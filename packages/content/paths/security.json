@@ -1,0 +1,89 @@
+{
+  "id": "security",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": {"en": "A day in security and defense", "ar": "يوم في الأمن والدفاع"},
+      "intro": {"en": "Moments from a typical day in security and defense. How does each one sound to you?", "ar": "لحظات من يوم عادي في الأمن والدفاع. كل لحظة شكلها إيه بالنسبالك؟"},
+      "items": [
+        {"id": "security_day_1", "title": {"en": "The night patrol", "ar": "دورية الليل"}, "text": {"en": "A night patrol, staying alert for hours.", "ar": "دورية بالليل، ولازم تفضل منتبه لساعات.", "arF": "دورية بالليل، ولازم تفضلي منتبهة لساعات."}, "careers": ["police_officer"]},
+        {"id": "security_day_2", "title": {"en": "The alarm rings", "ar": "الإنذار بيرن"}, "text": {"en": "The alarm rings: a kitchen fire in an apartment block, and you are on the truck in a minute.", "ar": "الإنذار بيرن: حريقة مطبخ في عمارة، وإنت على العربية في دقيقة.", "arF": "الإنذار بيرن: حريقة مطبخ في عمارة، وإنتي على العربية في دقيقة."}, "careers": ["firefighter"]},
+        {"id": "security_day_3", "title": {"en": "A fingerprint", "ar": "بصمة"}, "text": {"en": "Lifting a fingerprint from a window frame, then matching it in the lab.", "ar": "بترفع بصمة من حلق شباك، وبعدين تطابقها في المعمل.", "arF": "بترفعي بصمة من حلق شباك، وبعدين تطابقيها في المعمل."}, "careers": ["forensic_specialist"]},
+        {"id": "security_day_4", "title": {"en": "The blocked exit", "ar": "المخرج المقفول"}, "text": {"en": "Walking a mall at opening time and finding a fire exit blocked by boxes.", "ar": "بتلف في مول وقت الفتح وبتلاقي مخرج طوارئ مقفول بكراتين.", "arF": "بتلفي في مول وقت الفتح وبتلاقي مخرج طوارئ مقفول بكراتين."}, "careers": ["security_manager", "firefighter"]},
+        {"id": "security_day_5", "title": {"en": "The X-ray", "ar": "الأشعة"}, "text": {"en": "An X-ray shows hidden cartons in a container, and you decide what happens next.", "ar": "الأشعة بتورّي كراتين متخبية في حاوية، وإنت اللي بتقرر الخطوة الجاية.", "arF": "الأشعة بتورّي كراتين متخبية في حاوية، وإنتي اللي بتقرري الخطوة الجاية."}, "careers": ["customs_officer"]},
+        {"id": "security_day_6", "title": {"en": "Drill day", "ar": "يوم التدريب"}, "text": {"en": "A full morning of physical training and drills with your unit.", "ar": "صبحية كاملة تدريب بدني وتمارين مع وحدتك.", "arF": "صبحية كاملة تدريب بدني وتمارين مع وحدتك."}, "careers": ["military_officer", "firefighter"]}
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": {"en": "The real deal", "ar": "الحقيقة من غير تجميل"},
+      "intro": {"en": "Every path comes with trade-offs. For each pair, pick the one you would rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه."},
+      "items": [
+        {"id": "security_real_1", "title": {"en": "Rules and rank", "ar": "قواعد ورتب"}, "a": {"en": "Strict rules, a uniform and a chain of command", "ar": "قواعد صارمة وزي رسمي وتسلسل قيادي"}, "b": {"en": "A flexible workplace with few rules", "ar": "مكان شغل مرن وقواعده قليلة"}, "path": "a", "careers": ["police_officer", "military_officer", "firefighter", "customs_officer"]},
+        {"id": "security_real_2", "title": {"en": "Danger", "ar": "الخطر"}, "a": {"en": "Work that can put you in physical danger", "ar": "شغل ممكن يعرّضك لخطر جسدي"}, "b": {"en": "Safe work in an office", "ar": "شغل آمن في مكتب"}, "path": "a", "careers": ["firefighter", "police_officer", "military_officer"]},
+        {"id": "security_real_3", "title": {"en": "Your hours", "ar": "مواعيدك"}, "a": {"en": "Shifts, nights and duty on holidays", "ar": "شيفتات وليل ونوبات في الأعياد"}, "b": {"en": "Regular daytime hours", "ar": "مواعيد ثابتة بالنهار"}, "path": "a", "careers": ["police_officer", "military_officer", "firefighter", "security_manager", "customs_officer"]},
+        {"id": "security_real_4", "title": {"en": "Getting in", "ar": "طريقة الدخول"}, "a": {"en": "Tough entrance tests, medical and fitness exams", "ar": "اختبارات قبول صعبة وكشف طبي ولياقة"}, "b": {"en": "Easy entry with no tests", "ar": "دخول سهل من غير اختبارات"}, "path": "a", "careers": ["police_officer", "military_officer", "firefighter", "customs_officer"]},
+        {"id": "security_real_5", "title": {"en": "Hard scenes", "ar": "مشاهد صعبة"}, "a": {"en": "Seeing accidents and crime scenes up close", "ar": "تشوف حوادث وأماكن جرايم من قريب", "arF": "تشوفي حوادث وأماكن جرايم من قريب"}, "b": {"en": "Never dealing with that", "ar": "متتعاملش مع ده خالص", "arF": "متتعامليش مع ده خالص"}, "path": "a", "careers": ["forensic_specialist", "firefighter", "police_officer"]},
+        {"id": "security_real_6", "title": {"en": "Saying no", "ar": "إنك تقول لأ"}, "a": {"en": "Refusing people firmly, even powerful ones", "ar": "ترفض بحزم حتى لو قدام ناس ليهم نفوذ", "arF": "ترفضي بحزم حتى لو قدام ناس ليهم نفوذ"}, "b": {"en": "Work where you rarely have to refuse", "ar": "شغل نادرًا ما بترفض فيه", "arF": "شغل نادرًا ما بترفضي فيه"}, "path": "a", "careers": ["customs_officer", "security_manager"]}
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": {"en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك"},
+      "intro": {"en": "Two real situations and two small puzzles from security and defense. There is no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل الأمن والدفاع. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل الأمن والدفاع. مفيش درجات: قوليلنا بس عجبك ولا لأ."},
+      "items": [
+        {
+          "id": "security_try_1",
+          "title": {"en": "Smoke on the floor", "ar": "دخان في الدور"},
+          "type": "scenario",
+          "text": {"en": "You are in charge at a mall when smoke appears on the second floor full of shoppers.", "ar": "إنت المسؤول في مول والدخان ظهر في الدور التاني وهو مليان ناس.", "arF": "إنتي المسؤولة في مول والدخان ظهر في الدور التاني وهو مليان ناس."},
+          "options": [
+            {"text": {"en": "Sound the alarm, start the evacuation plan and call civil defense", "ar": "أشغّل الإنذار، أبدأ خطة الإخلاء وأكلم الدفاع المدني"}, "fit": 1},
+            {"text": {"en": "Send a guard to check first, then decide", "ar": "أبعت فرد أمن يشوف الأول وبعدين أقرر"}, "fit": 0.4},
+            {"text": {"en": "Ask shoppers to stay calm and wait", "ar": "أطلب من الناس يهدوا ويستنوا"}, "fit": 0.1},
+            {"text": {"en": "Keep it quiet to avoid panic", "ar": "أسكت علشان الناس متتخضش"}, "fit": 0}
+          ],
+          "careers": ["security_manager", "firefighter"]
+        },
+        {
+          "id": "security_try_2",
+          "title": {"en": "The friendly offer", "ar": "العرض الودّي"},
+          "type": "scenario",
+          "text": {"en": "A trader quietly offers you a 'gift' to let his shipment through without inspection.", "ar": "تاجر بيعرض عليك بالراحة «هدية» علشان تعدّي شحنته من غير معاينة.", "arF": "تاجر بيعرض عليكي بالراحة «هدية» علشان تعدّي شحنته من غير معاينة."},
+          "options": [
+            {"text": {"en": "Refuse, inspect the shipment and report the offer", "ar": "أرفض، وأعاين الشحنة وأبلّغ عن العرض"}, "fit": 1},
+            {"text": {"en": "Refuse and inspect, without reporting", "ar": "أرفض وأعاين، من غير ما أبلّغ"}, "fit": 0.6},
+            {"text": {"en": "Pretend I didn't hear", "ar": "أعمل نفسي مسمعتش"}, "fit": 0.1},
+            {"text": {"en": "Accept: everyone does it", "ar": "أقبل: الكل بيعمل كده"}, "fit": 0}
+          ],
+          "careers": ["customs_officer", "police_officer"]
+        },
+        {
+          "id": "security_try_3",
+          "title": {"en": "Response time", "ar": "زمن الوصول"},
+          "type": "puzzle",
+          "text": {"en": "A fire truck drives at 40 km/h. The fire is 6 km away. How many minutes to arrive?", "ar": "عربية إطفاء ماشية 40 كيلو في الساعة. الحريقة على بعد 6 كيلو. هتوصل في كام دقيقة؟"},
+          "options": [{"en": "6", "ar": "6"},{"en": "9", "ar": "9"},{"en": "12", "ar": "12"},{"en": "15", "ar": "15"}],
+          "answer": 1,
+          "explain": {"en": "40 km/h is 1 km every 1.5 minutes; 6 × 1.5 = 9 minutes. Planners place stations by times like this.", "ar": "40 كيلو في الساعة يعني كيلو كل دقيقة ونص؛ 6 × 1.5 = 9 دقايق. المخططين بيحددوا أماكن المحطات بأزمنة زي دي."},
+          "careers": ["firefighter", "security_manager"]
+        },
+        {
+          "id": "security_try_4",
+          "title": {"en": "Whose shoe?", "ar": "الجزمة بتاعة مين؟"},
+          "type": "puzzle",
+          "text": {"en": "A shoe print at a scene is 28 cm long. Shoe size in Egypt's common scale is about length × 1.5. Which size is closest?", "ar": "أثر جزمة في مكان الحادثة طوله 28 سم. مقاس الجزمة في المقياس المنتشر في مصر حوالي الطول × 1.5. أنهي مقاس الأقرب؟"},
+          "options": [{"en": "38", "ar": "38"},{"en": "40", "ar": "40"},{"en": "42", "ar": "42"},{"en": "45", "ar": "45"}],
+          "answer": 2,
+          "explain": {"en": "28 × 1.5 = 42. Forensic teams use rough rules like this to narrow down suspects, then confirm with other evidence.", "ar": "28 × 1.5 = 42. فرق الأدلة الجنائية بتستخدم قواعد تقريبية زي دي تضيّق الاحتمالات، وبعدين تتأكد بأدلة تانية."},
+          "careers": ["forensic_specialist", "police_officer"]
+        }
+      ]
+    }
+  ]
+}

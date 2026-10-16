@@ -7,6 +7,7 @@ import {
   rankGroups,
   scoreAbilities,
   scoreLikert,
+  scoreValueBudget,
   scoreValues,
   surprisingMatches,
   WORK_VALUES,
@@ -23,6 +24,7 @@ import {
 
 import {
   abilitiesInstrument,
+  type AnswerFormats,
   ASSESSMENT_VERSION,
   ENGINE_VERSION,
   likert,
@@ -69,15 +71,20 @@ export function scorePersonality(responses: ResponseRecord[]) {
   return scorePersonalityWithSet(responses)?.scores;
 }
 
+/** Values from the card sort, or from the dream job budget when that is how they were answered. */
 export function scoreValueCards(responses: ResponseRecord[], ranking?: string[]) {
   const inst = valuesInstrument();
+  const valid = (ranking ?? []).filter((v): v is WorkValue => (WORK_VALUES as readonly string[]).includes(v));
+  const rs = forInstrument(responses, 'values');
+  const budgetIds = new Set(inst.budget?.items.map((i) => i.id) ?? []);
+  const budget = rs.filter((r) => budgetIds.has(r.itemId));
+  if (budget.length) return scoreValueBudget(inst, Object.fromEntries(budget.map((r) => [r.itemId, r.value])), valid.length ? valid : undefined);
   const bucketByWeight = new Map(inst.buckets.map((b) => [b.weight, b.id]));
   const placements: Record<string, ValueBucket> = {};
-  for (const r of forInstrument(responses, 'values')) {
+  for (const r of rs) {
     const b = bucketByWeight.get(r.value);
     if (b) placements[r.itemId] = b;
   }
-  const valid = (ranking ?? []).filter((v): v is WorkValue => (WORK_VALUES as readonly string[]).includes(v));
   return scoreValues(inst, placements, valid.length ? valid : undefined);
 }
 
@@ -108,6 +115,8 @@ export interface ScoreSessionInput {
   instrumentVersions?: Record<string, string>;
   /** Game standings per ability (0–1), from the Discover games and the comparison with other players. */
   games?: Partial<Record<AbilityDomain, number>>;
+  /** How interests and values were asked (session progress); missing on older sessions. */
+  formats?: AnswerFormats;
 }
 
 /**
@@ -151,7 +160,9 @@ export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
   // Quality: per Likert instrument, flags merged. Flags never block a result.
   const qualityOf = (id: 'interests' | 'personality') => {
     const rs = inInstrumentOrder(id, forInstrument(responses, id));
-    return rs.length ? checkQuality(likert(id), rs) : undefined;
+    // A checklist leaves most cards untapped in a row, so long runs say nothing about rushing there.
+    const checklist = id === 'interests' && input.formats?.interests === 'checklist';
+    return rs.length ? checkQuality(likert(id), rs, checklist ? { maxRun: Number.POSITIVE_INFINITY } : {}) : undefined;
   };
   const qi = qualityOf('interests');
   const qp = qualityOf('personality');
@@ -185,6 +196,7 @@ export function scoreSession(input: ScoreSessionInput): NewResult | undefined {
         ...(input.games && Object.keys(input.games).length ? { gameStandings: input.games } : {}),
         ...(personalityScored ? { personalitySet: personalityScored.set } : {}),
         instrumentVersions: versions,
+        ...(input.formats ? { answerFormats: { ...input.formats } } : {}),
         scoredStations: [
           ...(interests ? ['interests'] : []),
           ...(personality ? ['personality'] : []),

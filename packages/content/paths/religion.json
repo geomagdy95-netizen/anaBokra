@@ -1,0 +1,89 @@
+{
+  "id": "religion",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": {"en": "A day in religion and ministry", "ar": "يوم في الدين والخدمة الدينية"},
+      "intro": {"en": "Moments from a typical day in religion and ministry. How does each one sound to you?", "ar": "لحظات من يوم عادي في الدين والخدمة الدينية. كل لحظة شكلها إيه بالنسبالك؟"},
+      "items": [
+        {"id": "religion_day_1", "title": {"en": "The Friday sermon", "ar": "خطبة الجمعة"}, "text": {"en": "Preparing Friday's sermon on honesty at work, then delivering it to a full mosque.", "ar": "بتحضّر خطبة الجمعة عن الأمانة في الشغل، وبعدين بتلقيها في جامع مليان."}, "careers": ["imam_preacher"]},
+        {"id": "religion_day_2", "title": {"en": "The memorisation class", "ar": "حلقة الحفظ"}, "text": {"en": "Helping a class of 12-year-olds memorise and understand a passage, with examples from their lives.", "ar": "بتساعد فصل ولاد 12 سنة يحفظوا ويفهموا جزء، بأمثلة من حياتهم.", "arF": "بتساعدي فصل ولاد 12 سنة يحفظوا ويفهموا جزء، بأمثلة من حياتهم."}, "careers": ["religious_teacher"]},
+        {"id": "religion_day_3", "title": {"en": "A family visit", "ar": "زيارة أسرة"}, "text": {"en": "Visiting an elderly person in hospital, then helping a family that is going through hard times.", "ar": "بتزور واحد كبير في السن في المستشفى، وبعدين بتساعد أسرة بتعدّي بظروف صعبة.", "arF": "بتزوري واحد كبير في السن في المستشفى، وبعدين بتساعدي أسرة بتعدّي بظروف صعبة."}, "careers": ["priest_church_minister", "imam_preacher"]},
+        {"id": "religion_day_4", "title": {"en": "The old manuscript", "ar": "المخطوطة القديمة"}, "text": {"en": "A morning in the library comparing old manuscripts for your research.", "ar": "صبحية في المكتبة بتقارن مخطوطات قديمة لبحثك.", "arF": "صبحية في المكتبة بتقارني مخطوطات قديمة لبحثك."}, "careers": ["religious_scholar"]},
+        {"id": "religion_day_5", "title": {"en": "The murabaha deal", "ar": "صفقة المرابحة"}, "text": {"en": "Structuring a factory's machine purchase as murabaha and checking it with the Sharia board.", "ar": "بتنظم شرا ماكينات لمصنع بالمرابحة وبتراجعها مع الهيئة الشرعية.", "arF": "بتنظمي شرا ماكينات لمصنع بالمرابحة وبتراجعيها مع الهيئة الشرعية."}, "careers": ["islamic_finance_specialist"]},
+        {"id": "religion_day_6", "title": {"en": "A hard question", "ar": "سؤال صعب"}, "text": {"en": "A young person asks a hard question about faith, and you take time to listen before you answer.", "ar": "شاب بيسأل سؤال صعب عن الإيمان، وبتاخد وقتك تسمعه قبل ما ترد.", "arF": "شاب بيسأل سؤال صعب عن الإيمان، وبتاخدي وقتك تسمعيه قبل ما تردي."}, "careers": ["imam_preacher", "priest_church_minister", "religious_scholar"]}
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": {"en": "The real deal", "ar": "الحقيقة من غير تجميل"},
+      "intro": {"en": "Every path comes with trade-offs. For each pair, pick the one you would rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه."},
+      "items": [
+        {"id": "religion_real_1", "title": {"en": "Years of study", "ar": "سنين الدراسة"}, "a": {"en": "Long years of study of texts and languages", "ar": "سنين طويلة دراسة نصوص ولغات"}, "b": {"en": "A short route into work", "ar": "طريق قصير للشغل"}, "path": "a", "careers": ["religious_scholar", "imam_preacher", "priest_church_minister"]},
+        {"id": "religion_real_2", "title": {"en": "Always available", "ar": "متاح على طول"}, "a": {"en": "People reach you any time they need help", "ar": "الناس بتلجألك في أي وقت محتاجين مساعدة"}, "b": {"en": "Fixed hours and then you're off", "ar": "مواعيد ثابتة وبعدها إنت حر", "arF": "مواعيد ثابتة وبعدها إنتي حرة"}, "path": "a", "careers": ["imam_preacher", "priest_church_minister"]},
+        {"id": "religion_real_3", "title": {"en": "Money or meaning", "ar": "الفلوس ولا المعنى"}, "a": {"en": "Meaningful service with modest pay", "ar": "خدمة ليها معنى بمرتب متواضع"}, "b": {"en": "Higher pay in work that means less to you", "ar": "مرتب أعلى في شغل بيفرق معاك أقل", "arF": "مرتب أعلى في شغل بيفرق معاكي أقل"}, "path": "a", "careers": ["imam_preacher", "religious_teacher", "priest_church_minister"]},
+        {"id": "religion_real_4", "title": {"en": "Public words", "ar": "كلامك قدام الناس"}, "a": {"en": "Speaking in public, where every word is weighed", "ar": "بتتكلم قدام الناس، وكل كلمة محسوبة", "arF": "بتتكلمي قدام الناس، وكل كلمة محسوبة"}, "b": {"en": "Work behind the scenes", "ar": "شغل ورا الكواليس"}, "path": "a", "careers": ["imam_preacher", "priest_church_minister", "religious_teacher"]},
+        {"id": "religion_real_5", "title": {"en": "Rules and texts", "ar": "قواعد ونصوص"}, "a": {"en": "Applying detailed rules to real cases", "ar": "بتطبق قواعد تفصيلية على حالات حقيقية", "arF": "بتطبقي قواعد تفصيلية على حالات حقيقية"}, "b": {"en": "Work with no fixed rules", "ar": "شغل من غير قواعد ثابتة"}, "path": "a", "careers": ["islamic_finance_specialist", "religious_scholar"]},
+        {"id": "religion_real_6", "title": {"en": "Teaching every day", "ar": "تعليم كل يوم"}, "a": {"en": "Teaching children and young people every day", "ar": "بتعلّم أطفال وشباب كل يوم", "arF": "بتعلّمي أطفال وشباب كل يوم"}, "b": {"en": "Working mostly alone", "ar": "بتشتغل أغلب الوقت لوحدك", "arF": "بتشتغلي أغلب الوقت لوحدك"}, "path": "a", "careers": ["religious_teacher", "imam_preacher"]}
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": {"en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك"},
+      "intro": {"en": "Two real situations and two small puzzles from religion and ministry. There is no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل الدين والخدمة الدينية. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل الدين والخدمة الدينية. مفيش درجات: قوليلنا بس عجبك ولا لأ."},
+      "items": [
+        {
+          "id": "religion_try_1",
+          "title": {"en": "Two neighbours", "ar": "جارين"},
+          "type": "scenario",
+          "text": {"en": "Two neighbours from your community come to you angry over a shared wall.", "ar": "جارين من مجتمعك جايين لك زعلانين على حيطة مشتركة.", "arF": "جارين من مجتمعك جايين لكي زعلانين على حيطة مشتركة."},
+          "options": [
+            {"text": {"en": "Listen to each one, calm things down and help them agree a fair solution", "ar": "أسمع كل واحد، وأهدّي الموقف، وأساعدهم يتفقوا على حل عادل"}, "fit": 1},
+            {"text": {"en": "Advise them to go to the local council", "ar": "أنصحهم يروحوا للحي"}, "fit": 0.5},
+            {"text": {"en": "Tell them both they are wrong", "ar": "أقولهم الاتنين غلطانين"}, "fit": 0.1},
+            {"text": {"en": "Take the side of the older one", "ar": "أقف في صف الأكبر"}, "fit": 0}
+          ],
+          "careers": ["imam_preacher", "priest_church_minister", "religious_teacher"]
+        },
+        {
+          "id": "religion_try_2",
+          "title": {"en": "The bored class", "ar": "الفصل الزهقان"},
+          "type": "scenario",
+          "text": {"en": "Your students look bored while reciting the same lesson again.", "ar": "طلبتك شكلهم زهقانين وهم بيسمّعوا نفس الدرس تاني."},
+          "options": [
+            {"text": {"en": "Turn it into a story or a game linked to their daily life", "ar": "أحوّله لقصة أو لعبة مرتبطة بحياتهم"}, "fit": 1},
+            {"text": {"en": "Split them into small groups to teach each other", "ar": "أقسمهم مجموعات صغيرة يعلّموا بعض"}, "fit": 0.8},
+            {"text": {"en": "Give them more to memorise", "ar": "أدّيهم حفظ أكتر"}, "fit": 0.1},
+            {"text": {"en": "Punish the noisy ones", "ar": "أعاقب اللي بيعملوا دوشة"}, "fit": 0}
+          ],
+          "careers": ["religious_teacher", "religious_scholar"]
+        },
+        {
+          "id": "religion_try_3",
+          "title": {"en": "Zakat on savings", "ar": "زكاة المدخرات"},
+          "type": "puzzle",
+          "text": {"en": "Zakat on savings held for a year is commonly 2.5%. What is it on 40,000 EGP?", "ar": "الزكاة على المدخرات اللي عدّى عليها سنة غالبًا 2.5%. كام زكاة 40000 جنيه؟"},
+          "options": [{"en": "400 EGP", "ar": "400 جنيه"},{"en": "1,000 EGP", "ar": "1000 جنيه"},{"en": "2,500 EGP", "ar": "2500 جنيه"},{"en": "4,000 EGP", "ar": "4000 جنيه"}],
+          "answer": 1,
+          "explain": {"en": "2.5% of 40,000 = 1,000 EGP. Islamic finance specialists handle calculations like this (the full rules include a minimum, the nisab).", "ar": "2.5% من 40000 = 1000 جنيه. أخصائيين التمويل الإسلامي بيتعاملوا مع حسابات زي دي (والقواعد الكاملة فيها حد أدنى هو النصاب)."},
+          "careers": ["islamic_finance_specialist", "religious_scholar"]
+        },
+        {
+          "id": "religion_try_4",
+          "title": {"en": "Murabaha price", "ar": "سعر المرابحة"},
+          "type": "puzzle",
+          "text": {"en": "A bank buys a machine for 100,000 EGP and resells it with an agreed 10% profit, paid over 20 months. What is each monthly payment?", "ar": "بنك بيشتري ماكينة بـ100000 جنيه وبيبيعها بربح متفق عليه 10%، والدفع على 20 شهر. القسط الشهري كام؟"},
+          "options": [{"en": "5,000 EGP", "ar": "5000 جنيه"},{"en": "5,500 EGP", "ar": "5500 جنيه"},{"en": "6,000 EGP", "ar": "6000 جنيه"},{"en": "11,000 EGP", "ar": "11000 جنيه"}],
+          "answer": 1,
+          "explain": {"en": "The price is 110,000 EGP; 110,000 ÷ 20 = 5,500 a month. In murabaha the profit is fixed in the sale price.", "ar": "السعر 110000 جنيه؛ 110000 ÷ 20 = 5500 في الشهر. في المرابحة الربح ثابت في سعر البيع."},
+          "careers": ["islamic_finance_specialist"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import type { UserContext } from '@anabokra/engine';
 
-import type { ReadinessPhase, SessionKind } from './config';
+import type { AnswerFormats, ReadinessPhase, SessionKind } from './config';
 
 export type Json = Record<string, unknown>;
 
@@ -128,5 +128,7 @@ export interface SessionProgress {
   instrumentVersions: Record<string, string>;
   context?: UserContext;
   valuesRanking?: string[];
+  /** How this session asks interests and values (config ANSWER_FORMATS); missing on older sessions. */
+  formats?: AnswerFormats;
   ui?: Json;
 }

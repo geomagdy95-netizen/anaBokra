@@ -29,8 +29,11 @@ export function stationItems(station: Exclude<StationId, 'context'>): StationIte
     const { min, max } = ins.responseScale;
     for (const i of ins.items) add({ id: i.id, instrumentId: station, rule: { type: 'integer', min, max } });
   } else if (station === 'values') {
-    const allowed = valuesInstrument().buckets.map((b) => b.weight);
-    for (const c of valuesInstrument().cards) add({ id: c.id, instrumentId: 'values', rule: { type: 'enum', allowed } });
+    const inst = valuesInstrument();
+    const allowed = inst.buckets.map((b) => b.weight);
+    for (const c of inst.cards) add({ id: c.id, instrumentId: 'values', rule: { type: 'enum', allowed } });
+    // The dream job budget (the other way to answer): coins per work value.
+    for (const b of inst.budget?.items ?? []) add({ id: b.id, instrumentId: 'values', rule: { type: 'integer', min: 0, max: inst.budget!.coins } });
   } else {
     const ab = abilitiesInstrument();
     const { min, max } = ab.selfRatingScale;
@@ -39,7 +42,9 @@ export function stationItems(station: Exclude<StationId, 'context'>): StationIte
     for (const p of ab.performance)
       add({ id: p.id, instrumentId: 'abilities', rule: { type: 'integer', min: 0, max: p.options.length - 1 } });
   }
-  const out: StationItems = { instrumentId: station, specs, expected: specs.size };
+  // A values session answers the cards or the budget, never both: the bar counts the cards.
+  const expected = station === 'values' ? valuesInstrument().cards.length : specs.size;
+  const out: StationItems = { instrumentId: station, specs, expected };
   cache.set(station, out);
   return out;
 }

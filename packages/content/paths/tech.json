@@ -1,6 +1,6 @@
 {
   "id": "tech",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 13 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,12 +9,12 @@
       "title": { "en": "A day in tech", "ar": "يوم في التكنولوجيا" },
       "intro": { "en": "Moments from a typical day in tech. How does each one sound to you?", "ar": "لحظات من يوم عادي في التكنولوجيا. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "tech_day_1", "title": { "en": "The morning stand-up", "ar": "اجتماع الصبح" }, "text": { "en": "9:30 a.m. A 10-minute stand-up: everyone says what they did yesterday and what's blocking them.", "ar": "9:30 الصبح: اجتماع 10 دقايق واقفين، كل واحد يقول عمل إيه امبارح وإيه اللي معطّله." } },
-        { "id": "tech_day_2", "title": { "en": "Deep focus", "ar": "تركيز عالي" }, "text": { "en": "Two hours of focused work, headphones on, turning an idea into working code.", "ar": "ساعتين تركيز والسماعات في الودان: فكرة بتتحوّل لكود شغال." }, "careers": ["software_engineer", "mobile_developer", "game_developer", "ai_engineer", "cloud_devops_engineer"] },
-        { "id": "tech_day_3", "title": { "en": "The bug hunt", "ar": "مطاردة الغلطة" }, "text": { "en": "Hunting a bug: it works on your laptop but not on the server.", "ar": "مطاردة غلطة: البرنامج شغال على اللابتوب بس مش شغال على السيرفر." }, "careers": ["software_engineer", "cloud_devops_engineer", "mobile_developer", "it_support"] },
-        { "id": "tech_day_4", "title": { "en": "A million rows", "ar": "مليون سطر" }, "text": { "en": "Digging through a million rows of data to find out why sales dropped.", "ar": "تدوير في مليون سطر بيانات: ليه المبيعات وقعت؟" }, "careers": ["data_scientist", "ai_engineer", "product_manager"] },
-        { "id": "tech_day_5", "title": { "en": "Watching users", "ar": "متابعة المستخدمين" }, "text": { "en": "Sketching app screens and watching five users try them to see where they get stuck.", "ar": "رسم شاشات تطبيق ومتابعة 5 مستخدمين بيجربوها: بيتلخبطوا فين؟" }, "careers": ["ux_designer", "product_manager"] },
-        { "id": "tech_day_6", "title": { "en": "The 2 a.m. alert", "ar": "تنبيه الساعة 2" }, "text": { "en": "An alert at 2 a.m.: someone is trying to break into the company's systems.", "ar": "تنبيه الساعة 2 بالليل: حد بيحاول يخترق أنظمة الشركة." }, "careers": ["cybersecurity_specialist", "cloud_devops_engineer"] }
+        { "id": "tech_day_1", "title": { "en": "The morning stand-up", "ar": "اجتماع الصبح" }, "text": { "en": "9:30 a.m. A 10-minute stand-up: everyone says what they did yesterday and what's blocking them.", "ar": "9:30 الصبح: اجتماع سريع 10 دقايق والكل واقف، وكل واحد بيقول عمل إيه امبارح وإيه اللي موقّفه." } },
+        { "id": "tech_day_2", "title": { "en": "Deep focus", "ar": "تركيز عالي" }, "text": { "en": "Two hours of focused work, headphones on, turning an idea into working code.", "ar": "ساعتين تركيز والسماعات في ودانك، لحد ما الفكرة تتحوّل لكود شغال." }, "careers": ["software_engineer", "mobile_developer", "game_developer", "ai_engineer", "cloud_devops_engineer"] },
+        { "id": "tech_day_3", "title": { "en": "The bug hunt", "ar": "فين الغلطة؟" }, "text": { "en": "Hunting a bug: it works on your laptop but not on the server.", "ar": "فيه غلطة في البرنامج: شغال تمام على اللابتوب بتاعك، بس مش شغال على السيرفر. ولازم تعرف السبب.", "arF": "فيه غلطة في البرنامج: شغال تمام على اللابتوب بتاعك، بس مش شغال على السيرفر. ولازم تعرفي السبب." }, "careers": ["software_engineer", "cloud_devops_engineer", "mobile_developer", "it_support"] },
+        { "id": "tech_day_4", "title": { "en": "A million rows", "ar": "مليون سطر" }, "text": { "en": "Digging through a million rows of data to find out why sales dropped.", "ar": "مليون سطر بيانات قدامك، والسؤال: ليه المبيعات قلّت؟" }, "careers": ["data_scientist", "ai_engineer", "product_manager"] },
+        { "id": "tech_day_5", "title": { "en": "Watching users", "ar": "إزاي الناس بتستخدمه؟" }, "text": { "en": "Sketching app screens and watching five users try them to see where they get stuck.", "ar": "بترسم شاشات لتطبيق، وبعدين تتفرج على 5 مستخدمين بيجربوها علشان تعرف بيتلخبطوا فين.", "arF": "بترسمي شاشات لتطبيق، وبعدين تتفرجي على 5 مستخدمين بيجربوها علشان تعرفي بيتلخبطوا فين." }, "careers": ["ux_designer", "product_manager"] },
+        { "id": "tech_day_6", "title": { "en": "The 2 a.m. alert", "ar": "تنبيه الساعة 2" }, "text": { "en": "An alert at 2 a.m.: someone is trying to break into the company's systems.", "ar": "تنبيه الساعة 2 بالليل: حد بيحاول يخترق أنظمة الشركة دلوقتي." }, "careers": ["cybersecurity_specialist", "cloud_devops_engineer"] }
       ]
     },
     {
@@ -28,7 +28,7 @@
         { "id": "tech_real_3", "title": { "en": "Projects or degree", "ar": "مشاريع ولا شهادة" }, "a": { "en": "A field where you prove yourself with projects, not your grades", "ar": "مجال بتثبت فيه نفسك بمشاريعك مش بدرجاتك", "arF": "مجال بتثبتي فيه نفسك بمشاريعك مش بدرجاتك" }, "b": { "en": "A field where your degree opens the door for you", "ar": "مجال الشهادة هي اللي بتفتحلك الباب" }, "path": "a" },
         { "id": "tech_real_4", "title": { "en": "Where you work", "ar": "مكان الشغل" }, "a": { "en": "Working remotely for a company abroad", "ar": "شغل من البيت لشركة برا مصر" }, "b": { "en": "An office in Egypt with fixed hours", "ar": "مكتب في مصر بمواعيد ثابتة" }, "path": "a" },
         { "id": "tech_real_5", "title": { "en": "After hours", "ar": "بعد مواعيد الشغل" }, "a": { "en": "Being on call to fix things when they break at night", "ar": "تكون متاح تصلّح الأعطال لو حصلت بالليل", "arF": "تكوني متاحة تصلّحي الأعطال لو حصلت بالليل" }, "b": { "en": "Never being contacted after work hours", "ar": "محدش يكلمك بعد مواعيد الشغل خالص" }, "path": "a", "careers": ["cybersecurity_specialist", "cloud_devops_engineer", "it_support"] },
-        { "id": "tech_real_6", "title": { "en": "Many or few", "ar": "ملايين ولا قليلين" }, "a": { "en": "Building something millions of people use, without ever meeting them", "ar": "تبني حاجة بيستخدمها ملايين من غير ما تقابلهم", "arF": "تبني حاجة بيستخدمها ملايين من غير ما تقابليهم" }, "b": { "en": "Helping a few people face to face", "ar": "تساعد ناس قليلين وش لوش", "arF": "تساعدي ناس قليلين وش لوش" }, "path": "a" }
+        { "id": "tech_real_6", "title": { "en": "Many or few", "ar": "ملايين ولا كام واحد" }, "a": { "en": "Building something millions of people use, without ever meeting them", "ar": "تبني حاجة بيستخدمها ملايين من غير ما تقابلهم", "arF": "تبني حاجة بيستخدمها ملايين من غير ما تقابليهم" }, "b": { "en": "Helping a few people face to face", "ar": "تساعد ناس قليلين وش لوش", "arF": "تساعدي ناس قليلين وش لوش" }, "path": "a" }
       ]
     },
     {
@@ -51,13 +51,13 @@
         },
         {
           "id": "tech_try_2",
-          "title": { "en": "A shiny new tool", "ar": "أداة جديدة" },
+          "title": { "en": "A shiny new tool", "ar": "أداة جديدة بتلمع" },
           "type": "scenario",
           "text": { "en": "A new tool everyone is talking about could replace the one you use every day.", "ar": "فيه أداة جديدة الكل بيتكلم عنها ممكن تغني عن الأداة اللي بتستخدمها كل يوم.", "arF": "فيه أداة جديدة الكل بيتكلم عنها ممكن تغني عن الأداة اللي بتستخدميها كل يوم." },
           "options": [
             { "text": { "en": "Try it on a small project this weekend", "ar": "أجربها على مشروع صغير في الويك إند" }, "fit": 1 },
             { "text": { "en": "Read reviews and wait until others have tested it", "ar": "أقرا آراء الناس وأستنى لما غيري يجربها" }, "fit": 0.6 },
-            { "text": { "en": "Stick with what works until I'm forced to change", "ar": "أفضل على اللي شغال لحد ما أضطر أغيّر" }, "fit": 0.2 }
+            { "text": { "en": "Stick with what works until I'm forced to change", "ar": "أفضل على اللي شغال لحد ما أبقى مضطر أغيّر" }, "fit": 0.2 }
           ]
         },
         {
@@ -73,10 +73,10 @@
           "id": "tech_try_4",
           "title": { "en": "The password rule", "ar": "قاعدة الباسورد" },
           "type": "puzzle",
-          "text": { "en": "A password must have at least 8 characters and include a number. Which one passes?", "ar": "الباسورد لازم يكون 8 حروف على الأقل وفيه رقم. أنهي واحد ينفع؟" },
+          "text": { "en": "A password must have at least 8 characters and include a number. Which one passes?", "ar": "الباسورد لازم يكون 8 خانات على الأقل (حروف أو أرقام)، ويكون فيه رقم واحد على الأقل. أنهي واحد ينفع؟" },
           "options": [{ "en": "password", "ar": "password" }, { "en": "nile7", "ar": "nile7" }, { "en": "cairo2026", "ar": "cairo2026" }, { "en": "AHMED_ALI", "ar": "AHMED_ALI" }],
           "answer": 2,
-          "explain": { "en": "Only \"cairo2026\" has 8+ characters and a number. Checking rules like this is everyday work in security.", "ar": "«cairo2026» بس هو اللي فيه 8 حروف أو أكتر ورقم. التأكد من قواعد زي دي شغل يومي في أمن المعلومات." }
+          "explain": { "en": "Only \"cairo2026\" has 8+ characters and a number. Checking rules like this is everyday work in security.", "ar": "«cairo2026» بس هو اللي فيه 8 خانات أو أكتر وفيه رقم. التأكد من قواعد زي دي شغل يومي في أمن المعلومات." }
         }
       ]
     }

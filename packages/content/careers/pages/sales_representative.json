@@ -1,0 +1,270 @@
+{
+  "id": "sales_representative",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "If you can make people trust you, you can sell.",
+      "ar": "لو تقدر تخلي الناس تثق فيك، تقدر تبيع."
+    },
+    "summary": {
+      "en": "Sales representatives and business developers find customers, explain products and close deals, for shops, factories, banks, real estate and tech firms. Pay usually mixes a basic salary with commission, so good sellers earn well. In Egypt it is one of the most common first jobs for Commerce graduates, and bilingual business developers are in demand.",
+      "ar": "مندوب المبيعات ومطور الأعمال بيدور على عملاء، بيشرح المنتجات وبيقفل الصفقات، لمحلات ومصانع وبنوك وعقارات وشركات تكنولوجيا. المرتب غالبًا أساسي وعمولة، فالبياع الشاطر بيكسب كويس. وفي مصر دي من أكتر أول وظيفة لخريجين التجارة، ومطورين الأعمال اللي بيتكلموا لغتين مطلوبين."
+    },
+    "dayInLife": {
+      "en": "You start with a sales meeting: this month's target and the new offer. By 10 a.m. you are visiting three shops in Nasr City to take orders and check where your products sit on the shelves. One owner complains about a late delivery; you call the warehouse and fix it. After lunch you call new leads from a list and book two meetings. In the evening you update the CRM with every visit and see you are at 70% of your monthly target.",
+      "ar": "بتبدأ باجتماع مبيعات: تارجت الشهر والعرض الجديد. الساعة 10 بتكون بتزور 3 محلات في مدينة نصر تاخد أوردرات وتشوف منتجاتك متحطة فين على الرفوف. صاحب محل بيشتكي من تأخير التوصيل؛ بتكلم المخزن وبتحلها. بعد الغدا بتتصل بعملاء جداد من ليستة وبتحجز ميعادين. بالليل بتحدّث الـCRM بكل زيارة وبتلاقي نفسك وصلت 70% من تارجت الشهر."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Find new customers and follow up on leads.",
+        "ar": "بتدور على عملاء جداد وبتتابع العملاء المحتملين."
+      },
+      {
+        "en": "Visit or call customers and explain the product and price.",
+        "ar": "بتزور أو بتكلم العملاء وبتشرح المنتج والسعر."
+      },
+      {
+        "en": "Negotiate and close deals and contracts.",
+        "ar": "بتتفاوض وبتقفل الصفقات والعقود."
+      },
+      {
+        "en": "Track orders, payments and complaints until the customer is satisfied.",
+        "ar": "بتتابع الأوردرات والتحصيل والشكاوى لحد ما العميل يبقى راضي."
+      },
+      {
+        "en": "Report sales and market feedback to your manager.",
+        "ar": "بتبلغ مديرك بالمبيعات وبآراء السوق."
+      }
+    ],
+    "environments": [
+      {
+        "en": "On the road visiting shops, offices and sites",
+        "ar": "في الشارع بتزور محلات ومكاتب ومواقع"
+      },
+      {
+        "en": "Showrooms, malls and sales offices",
+        "ar": "معارض ومولات ومكاتب مبيعات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "CRM software and spreadsheets",
+        "ar": "برامج الـCRM والشيتات"
+      },
+      {
+        "en": "Phone, WhatsApp and email",
+        "ar": "التليفون والواتساب والإيميل"
+      },
+      {
+        "en": "Product catalogs and price lists",
+        "ar": "كتالوجات المنتجات وقوائم الأسعار"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Commerce (Business Administration, Marketing)",
+        "ar": "كلية التجارة (إدارة أعمال، تسويق)"
+      },
+      {
+        "en": "Any faculty, especially for technical or product sales",
+        "ar": "أي كلية، خصوصًا للمبيعات الفنية أو مبيعات المنتجات"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Start in retail or field sales after secondary school and grow with results",
+        "ar": "ممكن تبدأ في مبيعات المحلات أو الميدان بعد الثانوية وتكبر بنتايجك"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Product knowledge and pricing",
+        "ar": "معرفة المنتج والتسعير"
+      },
+      {
+        "en": "Using a CRM and reporting numbers",
+        "ar": "استخدام الـCRM وكتابة تقارير الأرقام"
+      },
+      {
+        "en": "Negotiation and closing",
+        "ar": "التفاوض وقفل الصفقة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Confidence and persistence after a 'no'",
+        "ar": "الثقة والإصرار بعد ما حد يقول لأ"
+      },
+      {
+        "en": "Building relationships",
+        "ar": "بناء العلاقات"
+      },
+      {
+        "en": "Self-discipline with targets",
+        "ar": "الالتزام الذاتي مع التارجت"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic for local customers; English for corporate and export sales",
+        "ar": "العربي للعملاء المحليين، والإنجليزي لمبيعات الشركات والتصدير"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8820,
+        "max": 29331
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/commerce?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Sales Representative\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Sales Representative»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "FMCG, retail, electronics and furniture companies",
+        "ar": "شركات السلع الاستهلاكية والتجزئة والإلكترونيات والأثاث"
+      },
+      {
+        "en": "Banks, insurance, real estate developers and tech startups",
+        "ar": "البنوك والتأمين والمطورين العقاريين وشركات التكنولوجيا الناشئة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly in person; inside sales and B2B tech sales can be remote.",
+      "ar": "أغلبه حضوري؛ ومبيعات التليفون ومبيعات التكنولوجيا للشركات ممكن تبقى عن بعد."
+    },
+    "regions": [
+      {
+        "en": "All governorates; most corporate roles in Cairo and Alexandria",
+        "ar": "كل المحافظات، وأغلب وظايف الشركات في القاهرة وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Sales experience travels well; Gulf companies hire Egyptian sales staff, especially in real estate, FMCG and tech.",
+    "ar": "خبرة المبيعات بتتنقل بسهولة؛ وشركات الخليج بتشغّل مندوبين مصريين، خصوصًا في العقارات والسلع والتكنولوجيا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Commission can make income grow fast",
+        "ar": "العمولة ممكن تخلي دخلك يزيد بسرعة"
+      },
+      {
+        "en": "Open to any degree",
+        "ar": "مفتوح لأي شهادة"
+      },
+      {
+        "en": "Skills useful for starting your own business",
+        "ar": "مهارات بتنفعك لو فتحت مشروعك"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Monthly targets and pressure to close",
+        "ar": "تارجت كل شهر وضغط علشان تقفل"
+      },
+      {
+        "en": "Rejection is part of every day",
+        "ar": "الرفض جزء من كل يوم"
+      },
+      {
+        "en": "Traffic and long hours on the road",
+        "ar": "زحمة وساعات طويلة في الطريق"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Good salespeople are just good talkers.",
+          "ar": "البياع الشاطر هو اللي بيعرف يتكلم وبس."
+        },
+        "fact": {
+          "en": "The best salespeople listen more than they talk and know the product deeply.",
+          "ar": "أشطر بياعين بيسمعوا أكتر ما بيتكلموا وفاهمين المنتج كويس جدًا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Flexible days but evenings and month-end can get busy when targets are close.",
+      "ar": "الأيام مرنة بس آخر الشهر والمسايات ممكن تتزحم لما التارجت يقرّب."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Sales representative",
+        "ar": "مندوب مبيعات"
+      },
+      {
+        "en": "Senior representative or key account manager",
+        "ar": "مندوب أول أو مدير حسابات رئيسية"
+      },
+      {
+        "en": "Area or sales manager",
+        "ar": "مدير منطقة أو مدير مبيعات"
+      },
+      {
+        "en": "Commercial or business development director",
+        "ar": "مدير تجاري أو مدير تطوير أعمال"
+      }
+    ],
+    "relatedCareerIds": [
+      "customer_service_agent",
+      "digital_marketer",
+      "entrepreneur",
+      "medical_representative",
+      "sales_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Marketing or brand management",
+        "ar": "التسويق أو إدارة العلامة التجارية"
+      },
+      {
+        "en": "Starting your own trading business",
+        "ar": "تفتح بيزنس تجارة خاص بيك"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Sales Representatives, Wholesale and Manufacturing (41-4012.00)",
+      "url": "https://www.onetonline.org/link/summary/41-4012.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Sales Representative jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Sales-Representative-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Africarrieres - in-demand profiles in Egypt",
+      "url": "https://africarrieres.com/egypt/en/guide/marche-emploi/in-demand-profiles",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

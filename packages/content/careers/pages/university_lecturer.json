@@ -1,0 +1,303 @@
+{
+  "id": "university_lecturer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You teach the next engineers, doctors and teachers, and add to what they learn.",
+      "ar": "بتعلّم المهندسين والدكاترة والمدرسين الجايين، وبتزوّد على اللي بيتعلموه."
+    },
+    "summary": {
+      "en": "University lecturers teach students and do research in their subject. In Egypt top graduates are often appointed as teaching assistants (معيد) in their own faculty, then complete a master's and PhD to become lecturers and professors. Private universities and new technological universities also hire. It suits people who love one subject deeply and like explaining it.",
+      "ar": "عضو هيئة التدريس بيدرّس الطلبة وبيعمل أبحاث في تخصصه. في مصر أوائل الدفعة غالبًا بيتعينوا معيدين في كليتهم، وبعدين ياخدوا ماجستير ودكتوراه علشان يبقوا مدرسين وأساتذة. والجامعات الخاصة والجامعات التكنولوجية الجديدة بيشغّلوا كمان. مناسب للي بيحب مادة واحدة جدًا وبيحب يشرحها."
+    },
+    "dayInLife": {
+      "en": "You are a teaching assistant in a science faculty. At 9 you run a lab section for 40 second-year students, showing them how to use the microscope and checking their reports. At noon you meet your PhD supervisor to discuss results from last week's experiment. In the afternoon you grade quizzes, answer students' questions in office hours and spend two hours writing the methods chapter of your thesis.",
+      "ar": "إنت معيد في كلية علوم. الساعة 9 بتدّي سكشن معمل لـ40 طالب في تانية، بتورّيهم يستخدموا الميكروسكوب وبتراجع تقاريرهم. الضهر بتقابل المشرف على الدكتوراه تتناقشوا في نتايج تجربة الأسبوع اللي فات. بعد الضهر بتصحح كويزات، بترد على أسئلة الطلبة في الساعات المكتبية، وبتقضي ساعتين تكتب فصل الطريقة في الرسالة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Teach sections, labs and later full lectures.",
+        "ar": "بتدّي سكاشن ومعامل وبعدين محاضرات كاملة."
+      },
+      {
+        "en": "Prepare materials and exams, and grade.",
+        "ar": "بتجهز المواد والامتحانات وبتصحح."
+      },
+      {
+        "en": "Do research and publish papers.",
+        "ar": "بتعمل أبحاث وتنشر أوراق."
+      },
+      {
+        "en": "Supervise students' projects and theses.",
+        "ar": "بتشرف على مشاريع ورسائل الطلبة."
+      },
+      {
+        "en": "Serve on department committees.",
+        "ar": "بتشارك في لجان القسم."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Public and private universities",
+        "ar": "الجامعات الحكومية والخاصة"
+      },
+      {
+        "en": "Research centres and institutes",
+        "ar": "مراكز ومعاهد البحث"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Lab equipment or field tools in your subject",
+        "ar": "أجهزة المعمل أو أدوات الميدان في تخصصك"
+      },
+      {
+        "en": "Learning platforms such as Moodle",
+        "ar": "منصات التعلم زي Moodle"
+      },
+      {
+        "en": "Research databases and statistics software",
+        "ar": "قواعد بيانات الأبحاث وبرامج الإحصاء"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math",
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Any faculty: teaching assistants are usually appointed from the top graduates of the same faculty",
+        "ar": "أي كلية: المعيدين غالبًا بيتعينوا من أوائل خريجين نفس الكلية"
+      },
+      {
+        "en": "A master's and PhD are needed to become a lecturer",
+        "ar": "الماجستير والدكتوراه لازمين علشان تبقى مدرس"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Private universities hire teaching assistants by interview and grades",
+        "ar": "الجامعات الخاصة بتعيّن معيدين بالمقابلة والتقديرات"
+      },
+      {
+        "en": "A PhD from abroad, then applying to Egyptian or Gulf universities",
+        "ar": "دكتوراه من برّه وبعدين تقديم لجامعات مصرية أو خليجية"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Deep knowledge of your subject",
+        "ar": "معرفة عميقة بتخصصك"
+      },
+      {
+        "en": "Research methods and academic writing",
+        "ar": "مناهج البحث والكتابة الأكاديمية"
+      },
+      {
+        "en": "Teaching and assessment",
+        "ar": "التدريس والتقييم"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Explaining clearly to large groups",
+        "ar": "الشرح الواضح لمجموعات كبيرة"
+      },
+      {
+        "en": "Patience over many years of study",
+        "ar": "الصبر على سنين دراسة كتير"
+      },
+      {
+        "en": "Curiosity",
+        "ar": "الفضول"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for most research and many programmes",
+        "ar": "الإنجليزي لأغلب الأبحاث وبرامج كتير"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 14191,
+        "max": 25527
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"University Teacher\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Full professors: 25,775 to 45,111 EGP. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «University Teacher»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الأستاذ الجامعي: من 25,775 إلى 45,111 جنيهًا. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Public universities",
+        "ar": "الجامعات الحكومية"
+      },
+      {
+        "en": "Private, national and technological universities",
+        "ar": "الجامعات الخاصة والأهلية والتكنولوجية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly on campus; some online teaching.",
+      "ar": "أغلبه في الجامعة؛ وفيه تدريس أونلاين."
+    },
+    "regions": [
+      {
+        "en": "University cities across Egypt",
+        "ar": "مدن الجامعات في كل مصر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egyptian PhDs teach widely in Gulf universities; scholarships abroad are common routes.",
+    "ar": "حاملين الدكتوراه المصريين بيدرّسوا كتير في جامعات الخليج؛ والمنح برّه طريق شائع."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Respected, stable career",
+        "ar": "مهنة محترمة ومستقرة"
+      },
+      {
+        "en": "Freedom to research what you love",
+        "ar": "حرية تبحث في اللي بتحبه"
+      },
+      {
+        "en": "Long holidays between terms",
+        "ar": "إجازات طويلة بين الترمات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Appointment depends heavily on grades and openings",
+        "ar": "التعيين بيعتمد جدًا على التقدير والأماكن المتاحة"
+      },
+      {
+        "en": "Low pay during the master's and PhD years",
+        "ar": "مرتب قليل في سنين الماجستير والدكتوراه"
+      },
+      {
+        "en": "Ten or more years to become a lecturer",
+        "ar": "10 سنين أو أكتر علشان تبقى مدرس"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Only the top student in a class can ever teach at a university.",
+          "ar": "الأول على الدفعة بس هو اللي يقدر يدرّس في الجامعة."
+        },
+        "fact": {
+          "en": "Public faculties appoint from the top graduates, but private universities and a PhD route offer other ways in.",
+          "ar": "الكليات الحكومية بتعيّن من الأوائل، بس الجامعات الخاصة وطريق الدكتوراه بيفتحوا طرق تانية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Flexible outside teaching hours, but research and exams fill evenings at busy times.",
+      "ar": "مرن برّه ساعات التدريس، بس البحث والامتحانات بياخدوا المسايات في أوقات الضغط."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Teaching assistant (معيد)",
+        "ar": "معيد"
+      },
+      {
+        "en": "Assistant lecturer (مدرس مساعد) after the master's",
+        "ar": "مدرس مساعد بعد الماجستير"
+      },
+      {
+        "en": "Lecturer (مدرس) after the PhD",
+        "ar": "مدرس بعد الدكتوراه"
+      },
+      {
+        "en": "Associate professor, then professor",
+        "ar": "أستاذ مساعد، وبعدين أستاذ"
+      }
+    ],
+    "relatedCareerIds": [
+      "teacher",
+      "biotechnologist",
+      "physicist",
+      "economist"
+    ],
+    "pivots": [
+      {
+        "en": "Research and development in industry",
+        "ar": "البحث والتطوير في الصناعة"
+      },
+      {
+        "en": "Instructional design and e-learning",
+        "ar": "تصميم التعليم والتعلم الإلكتروني"
+      }
+    ]
+  },
+  "industryId": "education",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Teaching Assistants, Postsecondary (25-9044.00)",
+      "url": "https://www.onetonline.org/link/summary/25-9044.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Biological Science Teachers, Postsecondary (25-1042.00)",
+      "url": "https://www.onetonline.org/link/summary/25-1042.00",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "grades",
+        "level": 3,
+        "text": {
+          "en": "To start as a teaching assistant (mu'id) you usually need an overall grade of at least \"Very good\"; \"Good\" is accepted only when no one with \"Very good\" applies, and then you need \"Very good\" in the subject.",
+          "ar": "عشان تبدأ معيد غالبًا محتاج تقدير عام لا يقل عن «جيد جدًا»؛ و«جيد» بيتقبل بس لو مفيش متقدم بـ«جيد جدًا»، وساعتها لازم «جيد جدًا» في مادة التخصص."
+        },
+        "tip": {
+          "en": "Your grades from the first year onwards decide this, so the department you love deserves your best effort early.",
+          "ar": "تقديراتك من أول سنة هي اللي بتحدد، فالقسم اللي بتحبه يستاهل مجهودك من بدري."
+        },
+        "source": "https://www.elwatannews.com/news/details/8267015"
+      },
+      {
+        "kind": "time",
+        "level": 3,
+        "text": {
+          "en": "After that come a master's and a doctorate before you become a lecturer, usually many years with modest pay.",
+          "ar": "بعد كده ماجستير ودكتوراه قبل ما تبقى مدرس، وغالبًا سنين كتير بمرتب متواضع."
+        },
+        "tip": {
+          "en": "Scholarships abroad can shorten the doctorate and widen your options.",
+          "ar": "المنح برّه ممكن تقصّر الدكتوراه وتوسّع اختياراتك."
+        },
+        "source": "https://www.elwatannews.com/news/details/8267015"
+      }
+    ]
+  }
+}

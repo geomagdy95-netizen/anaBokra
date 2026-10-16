@@ -1,0 +1,262 @@
+{
+  "id": "pharmacy_technician",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "Every prescription passes through careful hands: yours.",
+      "ar": "كل روشتة بتعدّي على إيدين دقيقة: إيديك."
+    },
+    "summary": {
+      "en": "Pharmacy technicians and pharmacist assistants help pharmacists prepare and hand out medicines, manage stock, serve customers and keep records. In Egypt many start after a technical health institute or a pharmacy-assistant course and work in community pharmacies, chains and hospitals. It is a quick way into health care, and some go on to study pharmacy.",
+      "ar": "فني الصيدلة ومساعد الصيدلي بيساعدوا الصيدلي يجهز ويصرف الأدوية، يدير المخزون، يخدم الزباين ويسجّل. في مصر ناس كتير بيبدأوا بعد معهد فني صحي أو كورس مساعد صيدلي، وبيشتغلوا في الصيدليات والسلاسل والمستشفيات. ده طريق سريع لدخول المجال الصحي، وفيه اللي بيكملوا يدرسوا صيدلة."
+    },
+    "dayInLife": {
+      "en": "The pharmacy opens at 9. You check the overnight delivery against the invoice and put the medicines on the shelves by expiry date. A mother brings a prescription for her child; you find the syrup, show it to the pharmacist to check the dose and explain how to measure it. In the afternoon you enter sales in the system, note three items running low and order them. Before closing you check the fridge temperature for insulin.",
+      "ar": "الصيدلية بتفتح الساعة 9. بتراجع توريد الليل على الفاتورة وبترص الأدوية على الرفوف حسب تاريخ الصلاحية. أم جاية بروشتة لابنها؛ بتطلّع الشراب، بتورّيه للصيدلي يراجع الجرعة وبتشرح لها تقيسها إزاي. بعد الضهر بتسجل المبيعات على السيستم، بتلاحظ 3 أصناف قربت تخلص وبتطلبها. وقبل القفل بتتأكد من درجة حرارة تلاجة الأنسولين."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Prepare and hand out medicines under a pharmacist's supervision.",
+        "ar": "بتجهز وتصرف الأدوية تحت إشراف الصيدلي."
+      },
+      {
+        "en": "Receive deliveries, arrange shelves and check expiry dates.",
+        "ar": "بتستلم التوريدات وترص الرفوف وتراجع الصلاحية."
+      },
+      {
+        "en": "Serve customers and explain how to use medicines.",
+        "ar": "بتخدم الزباين وتشرح استخدام الأدوية."
+      },
+      {
+        "en": "Record sales and order stock.",
+        "ar": "بتسجل المبيعات وتطلب المخزون."
+      },
+      {
+        "en": "Keep storage clean and at the right temperature.",
+        "ar": "بتحافظ على التخزين نضيف وفي الحرارة الصح."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Community pharmacies and chains",
+        "ar": "الصيدليات والسلاسل"
+      },
+      {
+        "en": "Hospital pharmacies",
+        "ar": "صيدليات المستشفيات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Pharmacy management software",
+        "ar": "برامج إدارة الصيدليات"
+      },
+      {
+        "en": "Drug references",
+        "ar": "مراجع الأدوية"
+      },
+      {
+        "en": "Barcode scanners and fridges",
+        "ar": "أجهزة الباركود والتلاجات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Technical Health Institutes (pharmacy section)",
+        "ar": "المعاهد الفنية الصحية (شعبة صيدلة)"
+      },
+      {
+        "en": "Technical secondary nursing or health schools",
+        "ar": "المدارس الثانوية الفنية للتمريض أو الصحة"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 2,
+    "alternativeRoutes": [
+      {
+        "en": "Pharmacist-assistant courses plus on-the-job training",
+        "ar": "كورسات مساعد صيدلي وتدريب في الشغل"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Drug names and forms",
+        "ar": "أسماء الأدوية وأشكالها"
+      },
+      {
+        "en": "Stock management",
+        "ar": "إدارة المخزون"
+      },
+      {
+        "en": "Basic dose calculations",
+        "ar": "حسابات جرعات بسيطة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Care and accuracy",
+        "ar": "الحرص والدقة"
+      },
+      {
+        "en": "Friendly service",
+        "ar": "خدمة لطيفة"
+      },
+      {
+        "en": "Honesty with medicines and money",
+        "ar": "الأمانة في الأدوية والفلوس"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for drug names and leaflets",
+        "ar": "الإنجليزي لأسماء الأدوية والنشرات"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Community pharmacies and pharmacy chains",
+        "ar": "الصيدليات وسلاسل الصيدليات"
+      },
+      {
+        "en": "Hospitals",
+        "ar": "المستشفيات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; the work is at the pharmacy.",
+      "ar": "لأ؛ الشغل في الصيدلية."
+    },
+    "regions": [
+      {
+        "en": "Every city and village",
+        "ar": "كل مدينة وقرية"
+      }
+    ],
+    "salaryNote": {
+      "en": "Paylab Egypt lists a \"Pharmacist assistant\" title but shows no pay range for it, so we do not show a number. Pay is usually lower than a pharmacist's and depends on the pharmacy chain, the area and the shift.",
+      "ar": "يذكر Paylab مصر مسمى «Pharmacist assistant» لكن بدون نطاق أجر، لذلك لا نعرض رقمًا. الأجر عادة أقل من أجر الصيدلي ويعتمد على سلسلة الصيدليات والمنطقة والوردية."
+    }
+  },
+  "global": {
+    "en": "Gulf countries hire pharmacy technicians but usually need a recognised diploma and local licensing.",
+    "ar": "دول الخليج بتشغّل فنيين صيدلة بس غالبًا محتاجين دبلومة معترف بيها وترخيص هناك."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Quick to start",
+        "ar": "سريع تبدأ"
+      },
+      {
+        "en": "Jobs everywhere in Egypt",
+        "ar": "شغل في كل حتة في مصر"
+      },
+      {
+        "en": "Close to patients",
+        "ar": "قريب من المرضى"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long shifts including nights in 24-hour pharmacies",
+        "ar": "شيفتات طويلة ومنها بالليل في صيدليات الـ24 ساعة"
+      },
+      {
+        "en": "Modest pay at the start",
+        "ar": "مرتب متواضع في الأول"
+      },
+      {
+        "en": "Responsibility for mistakes with medicines",
+        "ar": "مسؤولية لو حصلت غلطة في الأدوية"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A pharmacy assistant can prescribe like a pharmacist.",
+          "ar": "مساعد الصيدلي يقدر يكتب علاج زي الصيدلي."
+        },
+        "fact": {
+          "en": "Advice on treatment and checking prescriptions is the pharmacist's job; the assistant works under supervision.",
+          "ar": "النصيحة بالعلاج ومراجعة الروشتات شغل الصيدلي؛ والمساعد بيشتغل تحت إشراف."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shift work, often evenings; fixed hours once the shift ends.",
+      "ar": "شغل بشيفتات غالبًا بالمسا؛ ومواعيد ثابتة لما الشيفت يخلص."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Pharmacy assistant",
+        "ar": "مساعد صيدلي"
+      },
+      {
+        "en": "Senior technician",
+        "ar": "فني أول"
+      },
+      {
+        "en": "Branch stock or purchasing coordinator",
+        "ar": "منسق مخزون أو مشتريات للفرع"
+      },
+      {
+        "en": "Further study in pharmacy",
+        "ar": "دراسة صيدلة"
+      }
+    ],
+    "relatedCareerIds": [
+      "pharmacist",
+      "medical_representative",
+      "nurse",
+      "medical_lab_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Pharmaceutical warehouse or distribution",
+        "ar": "مخازن أو توزيع الأدوية"
+      },
+      {
+        "en": "Medical sales",
+        "ar": "المبيعات الطبية"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Pharmacy Technicians (29-2052.00)",
+      "url": "https://www.onetonline.org/link/summary/29-2052.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Pharmacy Aides (31-9095.00)",
+      "url": "https://www.onetonline.org/link/summary/31-9095.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Pharmacist Assistant jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Pharmacist-Assistant-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

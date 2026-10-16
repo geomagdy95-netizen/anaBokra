@@ -1,0 +1,269 @@
+{
+  "id": "logistics_coordinator",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You make sure the right goods reach the right place on time.",
+      "ar": "بتتأكد إن البضاعة الصح توصل المكان الصح في ميعادها."
+    },
+    "summary": {
+      "en": "Logistics and freight coordinators organise how goods move: booking trucks, ships and flights, preparing shipping and customs documents, tracking shipments and solving delays. Egypt's ports, the Suez Canal economic zone and e-commerce growth keep demand steady, and freight forwarders hire many Commerce and language graduates.",
+      "ar": "منسق اللوجستيات والشحن بينظّم حركة البضاعة: بيحجز عربيات وسفن وطيارات، بيجهز ورق الشحن والجمارك، بيتابع الشحنات وبيحل التأخير. الموانئ المصرية والمنطقة الاقتصادية لقناة السويس ونمو التجارة الإلكترونية بيخلّوا الطلب ثابت، وشركات الشحن بتشغّل خريجين تجارة ولغات كتير."
+    },
+    "dayInLife": {
+      "en": "A client is shipping 40 containers of textiles to Spain. In the morning you book space on a vessel from Alexandria, send the booking to the trucking company and check the export documents. At noon customs asks for a missing certificate; you call the client and get it sent. In the afternoon you track an air shipment stuck in transit and update the client by email.",
+      "ar": "عميل بيصدّر 40 حاوية منسوجات لإسبانيا. الصبح بتحجز مكان على سفينة من إسكندرية، بتبعت الحجز لشركة النقل وبتراجع مستندات التصدير. الضهر الجمارك بتطلب شهادة ناقصة؛ بتكلم العميل وبيبعتها. بعد الضهر بتتابع شحنة جوي واقفة في الترانزيت وبتبلغ العميل بالإيميل."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Book transport by sea, air and road.",
+        "ar": "بتحجز النقل البحري والجوي والبري."
+      },
+      {
+        "en": "Prepare shipping and customs documents.",
+        "ar": "بتجهز مستندات الشحن والجمارك."
+      },
+      {
+        "en": "Track shipments and update clients.",
+        "ar": "بتتابع الشحنات وتبلغ العملاء."
+      },
+      {
+        "en": "Solve delays and problems.",
+        "ar": "بتحل التأخير والمشاكل."
+      },
+      {
+        "en": "Compare costs and negotiate rates.",
+        "ar": "بتقارن التكاليف وتتفاوض على الأسعار."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Freight forwarders and shipping lines",
+        "ar": "شركات الشحن والخطوط الملاحية"
+      },
+      {
+        "en": "Factories, warehouses and e-commerce companies",
+        "ar": "المصانع والمخازن وشركات التجارة الإلكترونية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Tracking systems and ERP",
+        "ar": "أنظمة التتبع والـERP"
+      },
+      {
+        "en": "Excel and email",
+        "ar": "إكسل والإيميل"
+      },
+      {
+        "en": "Customs platforms",
+        "ar": "منصات الجمارك"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Commerce",
+        "ar": "كلية التجارة"
+      },
+      {
+        "en": "Arab Academy, logistics and international transport",
+        "ar": "الأكاديمية العربية، اللوجستيات والنقل الدولي"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Any degree with a logistics or freight course",
+        "ar": "أي شهادة مع كورس لوجستيات أو شحن"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Shipping terms (Incoterms) and documents",
+        "ar": "مصطلحات الشحن (Incoterms) والمستندات"
+      },
+      {
+        "en": "Customs procedures",
+        "ar": "إجراءات الجمارك"
+      },
+      {
+        "en": "Excel",
+        "ar": "إكسل"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Organisation",
+        "ar": "التنظيم"
+      },
+      {
+        "en": "Problem solving",
+        "ar": "حل المشاكل"
+      },
+      {
+        "en": "Clear follow-up",
+        "ar": "المتابعة الواضحة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for international shipping",
+        "ar": "الإنجليزي للشحن الدولي"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "FIATA or IATA cargo courses",
+        "ar": "كورسات FIATA أو IATA للشحن"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10330,
+        "max": 23779
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/transport-haulage-logistics?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Co-ordinator\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Co-ordinator»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Freight forwarders and shipping lines",
+        "ar": "شركات الشحن والخطوط الملاحية"
+      },
+      {
+        "en": "Exporters, factories and e-commerce firms",
+        "ar": "المصدّرين والمصانع وشركات التجارة الإلكترونية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Often hybrid.",
+      "ar": "غالبًا هايبرد."
+    },
+    "regions": [
+      {
+        "en": "Cairo, Alexandria, Port Said, Suez and Ain Sokhna",
+        "ar": "القاهرة وإسكندرية وبورسعيد والسويس والعين السخنة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Logistics skills are in demand in Gulf ports and trading hubs.",
+    "ar": "مهارات اللوجستيات مطلوبة في موانئ ومراكز تجارة الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Many entry jobs",
+        "ar": "فرص بداية كتير"
+      },
+      {
+        "en": "Fast-moving, varied days",
+        "ar": "أيام سريعة ومتنوعة"
+      },
+      {
+        "en": "Path to supply chain management",
+        "ar": "طريق لإدارة سلاسل الإمداد"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Urgent problems and tight deadlines",
+        "ar": "مشاكل مستعجلة ومواعيد ضيقة"
+      },
+      {
+        "en": "Paperwork mistakes cost money",
+        "ar": "غلط الورق بيكلّف فلوس"
+      },
+      {
+        "en": "Calls outside working hours",
+        "ar": "مكالمات برّه مواعيد الشغل"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Logistics is just driving trucks.",
+          "ar": "اللوجستيات يعني سواقة عربيات وبس."
+        },
+        "fact": {
+          "en": "It is planning, documents, costs and coordination across countries.",
+          "ar": "هي تخطيط ومستندات وتكاليف وتنسيق بين دول."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours with urgent calls when shipments go wrong.",
+      "ar": "مواعيد مكتب مع مكالمات مستعجلة لما الشحنات تتعطل."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Logistics coordinator",
+        "ar": "منسق لوجستيات"
+      },
+      {
+        "en": "Senior coordinator or operations specialist",
+        "ar": "منسق أول أو أخصائي عمليات"
+      },
+      {
+        "en": "Logistics or operations manager",
+        "ar": "مدير لوجستيات أو عمليات"
+      },
+      {
+        "en": "Supply chain director",
+        "ar": "مدير سلاسل الإمداد"
+      }
+    ],
+    "relatedCareerIds": [
+      "supply_chain_specialist",
+      "customs_officer",
+      "marine_officer",
+      "sales_representative"
+    ],
+    "pivots": [
+      {
+        "en": "Supply chain management",
+        "ar": "إدارة سلاسل الإمداد"
+      },
+      {
+        "en": "Freight sales",
+        "ar": "مبيعات الشحن"
+      }
+    ]
+  },
+  "industryId": "transport",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Cargo and Freight Agents (43-5011.00)",
+      "url": "https://www.onetonline.org/link/summary/43-5011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Logistics Analysts (13-1081.02)",
+      "url": "https://www.onetonline.org/link/summary/13-1081.02",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

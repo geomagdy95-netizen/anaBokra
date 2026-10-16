@@ -1,0 +1,432 @@
+{
+  "id": "police_officer",
+  "version": "1.0.0-draft",
+  "status": "draft: split from the combined police/military page on 15 Oct 2026",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You keep people safe as a police officer, with training and discipline.",
+      "ar": "بتحمي الناس وتحافظ على الأمن كضابط شرطة، بتدريب وانضباط."
+    },
+    "summary": {
+      "en": "Police officers lead teams that keep public order, prevent and investigate crime, and help people in trouble. Most enter right after Thanaweya Amma through the Police Academy, which has its own application, tests and conditions; some law graduates join later as specialist officers. It is a public service career with strict rules, a demanding schedule and a strong team culture; this page describes the official routes only.",
+      "ar": "ضباط الشرطة بيقودوا فرق بتحافظ على النظام العام، وبتمنع الجريمة وبتحقق فيها، وبتساعد الناس وقت المشاكل. أغلبهم بيدخلوا على طول بعد الثانوية العامة عن طريق أكاديمية الشرطة، وليها تقديمها واختباراتها وشروطها؛ وبعض خريجين الحقوق بيدخلوا بعدين كضباط متخصصين. ودي وظيفة خدمة عامة بقواعد صارمة وجدول متعب وروح فريق قوية؛ والصفحة دي بتشرح الطرق الرسمية بس."
+    },
+    "dayInLife": {
+      "en": "Days differ a lot by department and rank. As a young officer you might start with a briefing on the day's duties, then spend hours at a police station taking reports and solving problems for people, or out on patrol, traffic or event security. You lead a small team, check that procedures follow the law, and write reports. You may be on duty at night or on a holiday. Throughout, you deal with the public, stay calm in tense moments and look after the people in your team.",
+      "ar": "الأيام بتختلف جدًا حسب الإدارة والرتبة. كضابط صغير ممكن تبدأ ببريفينج بمهام اليوم، وبعدين تقضي ساعات في القسم تاخد بلاغات وتحل مشاكل الناس، أو تنزل دورية أو مرور أو تأمين فعالية. بتقود فريق صغير، وتتأكد إن الإجراءات ماشية حسب القانون، وتكتب التقارير. وممكن تبقى في الخدمة بالليل أو في إجازة. وفي كل ده بتتعامل مع الجمهور، وتفضل هادي في اللحظات المتوترة، وتاخد بالك من أفراد فريقك."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Lead a team and give clear instructions.",
+        "ar": "بتقود فريق وتدّي تعليمات واضحة."
+      },
+      {
+        "en": "Protect public safety, prevent and investigate crime, and manage traffic and security at events.",
+        "ar": "حماية الأمن العام، ومنع الجريمة والتحقيق فيها، وتنظيم المرور والأمن في الفعاليات."
+      },
+      {
+        "en": "Deal with the public: take reports, calm disputes and guide people to the right office.",
+        "ar": "التعامل مع الجمهور: تاخد البلاغات، وتهدّي الخلافات، وتوجّه الناس للمكان الصح."
+      },
+      {
+        "en": "Write reports and follow procedures and the law.",
+        "ar": "بتكتب التقارير وتمشي على الإجراءات والقانون."
+      },
+      {
+        "en": "Train in physical fitness, first aid, weapons safety and communication.",
+        "ar": "بتتدرب على اللياقة والإسعافات الأولية وسلامة السلاح والتواصل."
+      },
+      {
+        "en": "Look after the welfare and discipline of your team.",
+        "ar": "بتاخد بالك من أفراد فريقك وانضباطهم."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Police stations, security directorates and specialised units",
+        "ar": "أقسام الشرطة ومديريات الأمن والوحدات المتخصصة"
+      },
+      {
+        "en": "Field assignments in different governorates",
+        "ar": "مهام ميدانية في محافظات مختلفة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Uniform equipment and communication systems",
+        "ar": "المعدات الميدانية وأنظمة الاتصال"
+      },
+      {
+        "en": "Official databases and reporting systems",
+        "ar": "قواعد البيانات الرسمية وأنظمة التقارير"
+      },
+      {
+        "en": "Vehicles and technical systems depending on the unit",
+        "ar": "المركبات والأنظمة الفنية حسب الوحدة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math",
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "The Police Academy announcement we reviewed accepts Thanaweya Amma, Al-Azhar secondary, foreign secondary certificates and diplomas, and STEM school students. Check how IGCSE, American or IB certificates are treated and what equivalence is needed. Fitness, English and maths help in all cases.",
+      "ar": "إعلان أكاديمية الشرطة الذي راجعناه يقبل الثانوية العامة والثانوية الأزهرية والشهادات الثانوية الأجنبية والدبلومات الأجنبية وطلاب مدارس STEM. اسأل عن معاملة شهادات IGCSE والأمريكية وIB والمعادلة المطلوبة. اللياقة والإنجليزية والرياضيات تفيد في كل الأحوال."
+    },
+    "faculties": [
+      {
+        "en": "Police Academy (Police College): study of police science and law with physical and practical training",
+        "ar": "أكاديمية الشرطة (كلية الشرطة): دراسة العلوم الشرطية والقانون مع تدريب بدني وعملي"
+      },
+      {
+        "en": "Faculty of Law, then the specialist-officer route when the Police Academy announces it",
+        "ar": "كلية الحقوق، ثم طريق الضباط المتخصصين لما أكاديمية الشرطة تعلن عنه"
+      }
+    ],
+    "programIds": [
+      "port-said-university-law",
+      "damietta-university-law",
+      "minia-university-law"
+    ],
+    "tansikNote": {
+      "en": "The Police Academy does not use the Tansik lists. The announcement we reviewed set a minimum of 65% in Thanaweya Amma (2026 reporting); passing the minimum only lets you sit the tests. Law faculties, which appear as related programs because police officers study law and law graduates can join as specialist officers, asked for about 75% to 85% in 2026 (Fayoum 74.53% to Port Said 84.84%).",
+      "ar": "أكاديمية الشرطة لا تستخدم قوائم التنسيق. الإعلان الذي راجعناه حدد حدًا أدنى 65% في الثانوية العامة (بحسب تقارير 2026)، والحصول على الحد الأدنى يسمح لك فقط بدخول الاختبارات. أما كليات الحقوق، التي تظهر كبرامج مرتبطة لأن ضباط الشرطة يدرسون القانون ولأن خريجيها يمكنهم الالتحاق كضباط متخصصين، فطلبت نحو 75% إلى 85% في 2026 (الفيوم 74.53% وبورسعيد 84.84%)."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "University graduates can apply as specialist officers in some announcements (for example lawyers, doctors, engineers), according to each announcement.",
+        "ar": "خريجين الجامعات ممكن يقدّموا كضباط متخصصين في بعض الإعلانات (زي الحقوقيين والدكاترة والمهندسين)، حسب كل إعلان."
+      },
+      {
+        "en": "Civilian security careers: private security management, emergency management and civil protection.",
+        "ar": "طرق أمنية مدنية: إدارة الأمن الخاص، وإدارة الطوارئ، والحماية المدنية."
+      }
+    ],
+    "licensing": {
+      "en": "There is no syndicate license. Entry is through the official announcement and selection stages. Police Academy announcement (2026 reporting): apply online through the Ministry of Interior website; Egyptian nationality with Egyptian parents (not by naturalisation); good conduct and no conviction for a felony or crime of dishonesty; at least 65% in Thanaweya Amma; then aptitude, medical, fitness and psychological tests. Conditions, dates and seats change every year, so always read the current official announcement.",
+      "ar": "لا يوجد ترخيص من نقابة. الدخول عبر الإعلان الرسمي ومراحل الاختيار. إعلان أكاديمية الشرطة (بحسب تقارير 2026): التقديم إلكترونيًا عبر موقع وزارة الداخلية؛ الجنسية المصرية لأبوين مصريين (ليس بالتجنس)؛ حسن السير وعدم الحكم في جناية أو جريمة مخلة بالشرف؛ 65% على الأقل في الثانوية العامة؛ ثم اختبارات القدرات والكشف الطبي واللياقة والكشف النفسي. الشروط والمواعيد والأعداد تتغير كل عام، فاقرأ دائمًا الإعلان الرسمي الحالي."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Physical fitness and endurance",
+        "ar": "اللياقة البدنية والتحمل"
+      },
+      {
+        "en": "Knowledge of law and criminal procedure",
+        "ar": "معرفة القانون والإجراءات الجنائية"
+      },
+      {
+        "en": "First aid and safety",
+        "ar": "الإسعافات الأولية والسلامة"
+      },
+      {
+        "en": "Report writing",
+        "ar": "كتابة التقارير"
+      },
+      {
+        "en": "Technical skills for specialised units (communications, IT, driving)",
+        "ar": "مهارات فنية للوحدات المتخصصة (اتصالات وحاسب وقيادة)"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Discipline and reliability",
+        "ar": "الانضباط والاعتمادية"
+      },
+      {
+        "en": "Leadership and teamwork",
+        "ar": "القيادة والعمل الجماعي"
+      },
+      {
+        "en": "Staying calm and making quick decisions",
+        "ar": "الهدوء واتخاذ قرارات سريعة"
+      },
+      {
+        "en": "Respect for people and for the law",
+        "ar": "احترام الناس والقانون"
+      },
+      {
+        "en": "Handling stress",
+        "ar": "التعامل مع الضغط"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic",
+        "ar": "العربية"
+      },
+      {
+        "en": "English: training, courses abroad and specialised roles",
+        "ar": "الإنجليزية: التدريب والدورات الخارجية والوظائف المتخصصة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Graduation from the Police Academy is the qualification.",
+        "ar": "التخرج من أكاديمية الشرطة هو المؤهل."
+      },
+      {
+        "en": "Further courses and master's degrees are offered during the career.",
+        "ar": "تتاح دورات وماجستير أثناء الخدمة."
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian Ministry of Interior (Police Academy applications)",
+        "url": "https://www.moi.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Al-Ain: Police Academy online application steps",
+        "url": "https://al-ain.com/article/online-application-police-academy-development",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12362,
+        "max": 23711
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/security-protection?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Police Officer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Police Officer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Ministry of Interior (police and related services)",
+        "ar": "وزارة الداخلية (الشرطة والخدمات التابعة)"
+      },
+      {
+        "en": "After service: private security companies, corporate security and training roles",
+        "ar": "بعد الخدمة: شركات الأمن الخاصة وأمن الشركات والتدريب"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Not applicable during service. After service, some officers work in security consulting, training or management.",
+      "ar": "ما ينفعش وإنت في الخدمة. وبعد الخدمة فيه ضباط بيشتغلوا في الاستشارات الأمنية والتدريب والإدارة."
+    },
+    "regions": [
+      {
+        "en": "Postings across all governorates",
+        "ar": "تعيينات في كل المحافظات"
+      },
+      {
+        "en": "Application stages are announced each year by the Ministry of Interior",
+        "ar": "مراحل التقديم بتتعلن كل سنة من وزارة الداخلية"
+      }
+    ],
+    "providerIds": []
+  },
+  "global": {
+    "en": "Police officers serve in Egypt, with some training courses and missions abroad (for example in international peacekeeping) decided by the ministry. After retirement, security, management and training experience can be used in the Gulf and in companies, but the career itself is within the Egyptian state.",
+    "ar": "ضباط الشرطة بيخدموا في مصر، ومعاها أحيانًا دورات تدريبية وبعثات برّه (زي قوات حفظ السلام) الوزارة هي اللي بتقررها. بعد التقاعد خبرة الأمن والإدارة والتدريب ممكن تتستخدم في الخليج وفي الشركات، بس المهنة نفسها جوه الدولة المصرية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Clear structure, training and responsibility from a young age",
+        "ar": "نظام واضح وتدريب ومسؤولية من سن صغير"
+      },
+      {
+        "en": "A sense of purpose in serving the country",
+        "ar": "إحساس بالهدف في خدمة البلد"
+      },
+      {
+        "en": "Stable career with defined ranks",
+        "ar": "مسار مستقر برتب محددة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Strict discipline, possible night duty and postings far from home",
+        "ar": "انضباط صارم، وممكن نبطشيات بالليل وتعيينات بعيد عن البيت"
+      },
+      {
+        "en": "Demanding medical, fitness and psychological tests, and strict conditions on nationality and conduct",
+        "ar": "اختبارات طبية ولياقة ونفسية صعبة، وشروط صارمة على الجنسية والسيرة"
+      },
+      {
+        "en": "Risk and stress when dealing with crime and conflict, and limits on personal freedom during service",
+        "ar": "مخاطر وضغوط في التعامل مع الجريمة والخلافات، وقيود على حريتك الشخصية وإنت في الخدمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Only the physically strongest are accepted.",
+          "ar": "بيقبلوا الأقوى جسمانيًا بس."
+        },
+        "fact": {
+          "en": "Fitness matters, but selection also checks medical status, psychology, aptitude and interview.",
+          "ar": "اللياقة مهمة، بس الاختيار كمان بيكشف على الحالة الطبية والنفسية والقدرات والمقابلة."
+        }
+      },
+      {
+        "myth": {
+          "en": "A high Thanaweya Amma score guarantees admission.",
+          "ar": "المجموع العالي بيضمن القبول."
+        },
+        "fact": {
+          "en": "The minimum score only lets you sit the tests. Seats are limited and the other stages decide.",
+          "ar": "الحد الأدنى للمجموع بيدخّلك الاختبارات بس. الأماكن محدودة والمراحل التانية هي اللي بتحسم."
+        }
+      },
+      {
+        "myth": {
+          "en": "Police work is mostly action and chases.",
+          "ar": "شغل الشرطة أغلبه أكشن ومطاردات."
+        },
+        "fact": {
+          "en": "Much of the job is paperwork, procedures and dealing with the public within the law; investigation takes patience.",
+          "ar": "جزء كبير من الشغل ورق وإجراءات وتعامل مع الناس في حدود القانون؛ والتحقيق محتاج صبر."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Hours depend on unit and duty. Shifts, night duty and postings away from family are common, especially early in the career.",
+      "ar": "المواعيد بتعتمد على الوحدة والمهمة. النبطشيات والخدمة بالليل والبعد عن العيلة حاجات منتشرة، خصوصًا في أول المشوار."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate officer (lieutenant)",
+        "ar": "ضابط خريج (ملازم)"
+      },
+      {
+        "en": "Captain and major",
+        "ar": "نقيب ورائد"
+      },
+      {
+        "en": "Lieutenant colonel and colonel",
+        "ar": "مقدم وعقيد"
+      },
+      {
+        "en": "Brigadier and higher ranks",
+        "ar": "عميد ورتب أعلى"
+      },
+      {
+        "en": "Senior command positions",
+        "ar": "مناصب قيادية عليا"
+      }
+    ],
+    "relatedCareerIds": [
+      "judge_prosecutor",
+      "lawyer",
+      "military_officer",
+      "forensic_specialist",
+      "security_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Security management in companies",
+        "ar": "إدارة الأمن في الشركات"
+      },
+      {
+        "en": "Training and instruction",
+        "ar": "التدريب والتعليم"
+      },
+      {
+        "en": "Public administration and local government",
+        "ar": "الإدارة العامة والمحليات"
+      },
+      {
+        "en": "Law or consultancy after service",
+        "ar": "القانون أو الاستشارات بعد الخدمة"
+      }
+    ]
+  },
+  "industryId": "security",
+  "sources": [
+    {
+      "title": "Al-Ain: Police Academy online application and admission conditions 2026",
+      "url": "https://al-ain.com/article/online-application-police-academy-development",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Police College application dates for Thanaweya Amma 2026",
+      "url": "https://www.masrawy.com/news/news_cases/details/2026/7/29/3025050/",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "Masrawy: Tansik 2026 upper and lower limits, science, math and literary",
+      "url": "https://www.masrawy.com/news/education-tansee2/details/2026/8/10/3030947/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A7%D8%AA-2026-%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF-%D8%A7%D9%84%D8%AF%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%82%D8%A8%D9%88%D9%84-%D8%A8%D9%83%D9%84%D9%8A%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%D9%8A-%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9",
+      "accessed": "2026-10-09"
+    }
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "physical",
+        "level": 3,
+        "text": {
+          "en": "Body measurements and posture, a general and an advanced medical exam, and a fitness test. Failing one stage ends the application for that year.",
+          "ar": "قياسات الجسم والقوام، وكشف طبي عام ومتقدم، واختبار لياقة. الرسوب في مرحلة بينهي التقديم للسنة دي."
+        },
+        "tip": {
+          "en": "A year of regular running, swimming and strength training before applying makes a real difference.",
+          "ar": "سنة تمرين منتظم (جري وسباحة وقوة) قبل التقديم بتفرق جدًا."
+        },
+        "source": "https://m.akhbarelyom.com/news/newdetails/4849640/1/%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%82%D8%B1%D8%B1%D8%A9-%D9%84%D9%84%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%82-%D8%A8%D9%83%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%D8%A9"
+      },
+      {
+        "kind": "exam",
+        "level": 2,
+        "text": {
+          "en": "Aptitude tests, a general-knowledge test about Egypt, and computer-based foreign-language and IT tests. The aptitude test cannot be retaken.",
+          "ar": "اختبار قدرات، واختبار معلومات عامة عن مصر، واختبارات لغة أجنبية ونظم معلومات على الكمبيوتر. اختبار القدرات مفيهوش إعادة."
+        },
+        "tip": {
+          "en": "English and basic computer skills now count, so they are worth practising.",
+          "ar": "الإنجليزي ومهارات الكمبيوتر بقوا جزء من التقييم، فيستاهلوا تمرين."
+        },
+        "source": "https://gate.ahram.org.eg/News/5768783.aspx"
+      },
+      {
+        "kind": "interview",
+        "level": 3,
+        "text": {
+          "en": "Psychological and personal-traits tests, then the final committee (\"hay'a\") of ministry and academy leaders, which picks the highest-rated applicants.",
+          "ar": "اختبارات نفسية وسمات شخصية، وبعدين لجنة الهيئة النهائية من قيادات الوزارة والأكاديمية، وهي اللي بتختار الأعلى تقييمًا."
+        },
+        "tip": {
+          "en": "Calm, clear answers about why you want to serve matter more than memorised speeches.",
+          "ar": "الإجابة الهادية الواضحة عن ليه عايز تخدم أهم من الكلام المحفوظ."
+        },
+        "source": "https://gate.ahram.org.eg/Massai/News/5850046.aspx"
+      },
+      {
+        "kind": "vetting",
+        "level": 2,
+        "text": {
+          "en": "You must be Egyptian with Egyptian parents (not by naturalisation), and no relative up to the fourth degree may be on the terrorism lists.",
+          "ar": "لازم تكون مصري لأبوين مصريين (مش بالتجنس)، ومفيش قريب لحد الدرجة الرابعة يكون على قوايم الكيانات الإرهابية."
+        },
+        "tip": {
+          "en": "Check the conditions in the official announcement before the tests.",
+          "ar": "الأفضل مراجعة الشروط في الإعلان الرسمي قبل الاختبارات."
+        },
+        "source": "https://www.masrawy.com/news/news_cases/details/2026/8/4/3027746/"
+      }
+    ]
+  }
+}

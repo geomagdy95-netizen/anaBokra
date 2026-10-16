@@ -1,0 +1,256 @@
+{
+  "id": "marine_engineer_officer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep a floating city's engines running in the middle of the ocean.",
+      "ar": "بتخلّي مكن مدينة عايمة شغال في نص المحيط."
+    },
+    "summary": {
+      "en": "Marine engineer officers run and repair a ship's engines, generators, pumps and systems, working in the engine room and rising to chief engineer. In Egypt they train at the Arab Academy (marine engineering) or faculties of engineering (marine) and sail with international lines for good pay.",
+      "ar": "المهندس البحري بيشغّل ويصلّح محركات السفينة والمولدات والطلمبات والأنظمة، شغله في غرفة المكن ولحد ما يبقى كبير المهندسين. في مصر بيتدربوا في الأكاديمية العربية (هندسة بحرية) أو كليات الهندسة (بحري) وبيبحروا مع خطوط دولية بمرتب كويس."
+    },
+    "dayInLife": {
+      "en": "You start in the engine control room checking temperatures and pressures on the main engine. An alarm shows a fuel pump losing pressure; you switch to the standby pump and take the faulty one apart with the motorman. After lunch you plan maintenance for the next port and order spare parts. Before your shift ends you test the emergency generator.",
+      "ar": "بتبدأ في غرفة التحكم بتراجع الحرارة والضغط على المحرك الرئيسي. إنذار بيقول إن طلمبة وقود ضغطها بيقل؛ بتحوّل للطلمبة الاحتياطي وبتفك العطلانة مع الميكانيكي. بعد الغدا بتخطط الصيانة للميناء الجاي وبتطلب قطع غيار. قبل الشيفت ما يخلص بتجرب مولد الطوارئ."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Operate and monitor engines and machinery.",
+        "ar": "بتشغّل وتراقب المحركات والمكن."
+      },
+      {
+        "en": "Find and repair faults at sea.",
+        "ar": "بتلاقي وتصلّح الأعطال في البحر."
+      },
+      {
+        "en": "Plan maintenance and order parts.",
+        "ar": "بتخطط الصيانة وتطلب قطع الغيار."
+      },
+      {
+        "en": "Manage fuel and environmental rules.",
+        "ar": "بتدير الوقود وقواعد البيئة."
+      },
+      {
+        "en": "Lead the engine crew.",
+        "ar": "بتقود طاقم المكن."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Ship engine rooms",
+        "ar": "غرف مكن السفن"
+      },
+      {
+        "en": "Shipyards and ports",
+        "ar": "أحواض السفن والموانئ"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Engine monitoring systems",
+        "ar": "أنظمة مراقبة المحركات"
+      },
+      {
+        "en": "Hand and power tools",
+        "ar": "العدة اليدوية والكهربا"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Arab Academy for Science, Technology and Maritime Transport, marine engineering",
+        "ar": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري، هندسة بحرية"
+      },
+      {
+        "en": "Faculty of Engineering, marine engineering department",
+        "ar": "كلية الهندسة، قسم الهندسة البحرية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [],
+    "licensing": {
+      "en": "STCW certificates of competency for engineers.",
+      "ar": "شهادات STCW للمهندسين."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Diesel engines and power systems",
+        "ar": "محركات الديزل وأنظمة القوى"
+      },
+      {
+        "en": "Mechanical and electrical repair",
+        "ar": "التصليح الميكانيكي والكهربائي"
+      },
+      {
+        "en": "Safety and pollution rules",
+        "ar": "قواعد السلامة ومنع التلوث"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Problem solving under pressure",
+        "ar": "حل المشاكل تحت الضغط"
+      },
+      {
+        "en": "Teamwork",
+        "ar": "العمل الجماعي"
+      },
+      {
+        "en": "Endurance",
+        "ar": "التحمل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Maritime English",
+        "ar": "إنجليزي بحري"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "STCW engineer certificates",
+        "ar": "شهادات STCW للمهندسين"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "International shipping lines",
+        "ar": "خطوط الشحن الدولية"
+      },
+      {
+        "en": "Offshore and port service companies",
+        "ar": "شركات البحر والخدمات البحرية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Alexandria, Port Said, Suez and the sea",
+        "ar": "إسكندرية وبورسعيد والسويس والبحر"
+      }
+    ],
+    "salaryNote": {
+      "en": "There is no Egypt salary survey for ship engineer officers. Officers on international ships are usually paid in US dollars per contract (often 4 to 6 months at sea), and the rate depends on rank, ship type and company, so we do not show a number. Local companies pay much less than international ones.",
+      "ar": "لا يوجد استطلاع رواتب في مصر لضباط الهندسة البحرية. يُدفع للضباط على السفن الدولية عادة بالدولار لكل عقد (غالبًا 4 إلى 6 أشهر في البحر)، ويعتمد الأجر على الرتبة ونوع السفينة والشركة، لذلك لا نعرض رقمًا. والشركات المحلية تدفع أقل بكثير من الدولية."
+    }
+  },
+  "global": {
+    "en": "Most marine engineers work with foreign shipping companies.",
+    "ar": "أغلب المهندسين البحريين بيشتغلوا مع شركات شحن أجنبية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "High pay and long leave",
+        "ar": "مرتب عالي وإجازات طويلة"
+      },
+      {
+        "en": "Hands-on engineering",
+        "ar": "هندسة عملية"
+      },
+      {
+        "en": "Global career",
+        "ar": "مهنة عالمية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Hot, noisy engine rooms",
+        "ar": "غرف مكن حر ودوشة"
+      },
+      {
+        "en": "Months away from home",
+        "ar": "شهور بعيد عن البيت"
+      },
+      {
+        "en": "Repairs with no help nearby",
+        "ar": "تصليح من غير مساعدة قريبة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Marine engineers only work on boats' motors.",
+          "ar": "المهندس البحري بيشتغل على موتور مركب وبس."
+        },
+        "fact": {
+          "en": "A large ship has power plants, water systems and electronics like a small town.",
+          "ar": "السفينة الكبيرة فيها محطات كهربا وأنظمة مية وإلكترونيات زي مدينة صغيرة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Months at sea, then long leave.",
+      "ar": "شهور في البحر، وبعدين إجازة طويلة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Engine cadet",
+        "ar": "طالب هندسة بحرية"
+      },
+      {
+        "en": "Fourth or third engineer",
+        "ar": "مهندس رابع أو تالت"
+      },
+      {
+        "en": "Second engineer",
+        "ar": "مهندس تاني"
+      },
+      {
+        "en": "Chief engineer",
+        "ar": "كبير المهندسين"
+      }
+    ],
+    "relatedCareerIds": [
+      "marine_officer",
+      "mechanical_engineer",
+      "logistics_coordinator",
+      "electrical_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Shipyard or port engineering",
+        "ar": "هندسة الأحواض أو الموانئ"
+      },
+      {
+        "en": "Ship surveying",
+        "ar": "معاينة السفن"
+      }
+    ]
+  },
+  "industryId": "transport",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Ship Engineers (53-5031.00)",
+      "url": "https://www.onetonline.org/link/summary/53-5031.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Marine Engineers and Naval Architects (17-2121.00)",
+      "url": "https://www.onetonline.org/link/summary/17-2121.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

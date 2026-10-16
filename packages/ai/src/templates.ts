@@ -25,25 +25,25 @@ export function reasonLine(reason: Reason, name: string, locale: Locale, gender:
         locale,
       );
       return locale === 'ar'
-        ? `${g(gender, 'أنت مهتم', 'أنتِ مهتمة')} ب${list}، وهذا ما تقوم عليه مهنة ${name}.`
+        ? `${g(gender, 'إنت مهتم', 'إنتي مهتمة')} بـ${list}، ودي بالظبط الحاجة اللي مهنة ${name} قايمة عليها.`
         : `You enjoy ${list}, and the ${name} career is built around exactly that.`;
     }
     case 'personality': {
       const trait = label(TRAIT_LABELS[reason.trait], locale);
       return locale === 'ar'
-        ? `${trait} ميزة حقيقية في مهنة ${name}.`
+        ? `${trait} حاجة بتفرق بجد في مهنة ${name}.`
         : `${capitalize(trait)} is a real strength in the ${name} career.`;
     }
     case 'value': {
       const value = label(VALUE_LABELS[reason.value], locale);
       return locale === 'ar'
-        ? `توفّر مهنة ${name} ${value}، وهذا مهم بالنسبة لك.`
+        ? `مهنة ${name} فيها ${value}، ودي حاجة تهمك.`
         : `The ${name} career offers ${value}, which matters to you.`;
     }
     case 'ability': {
       const ability = label(ABILITY_LABELS[reason.domain], locale);
       return locale === 'ar'
-        ? `لديك قدرة جيدة في ${ability}، وهذه المهنة تعتمد عليها كثيرًا.`
+        ? `${g(gender, 'إنت شاطر', 'إنتي شاطرة')} في ${ability}، والمهنة دي بتعتمد عليها كتير.`
         : `You have a good head for ${ability}, and this career uses it a lot.`;
     }
   }
@@ -55,13 +55,13 @@ export function watchOutLine(w: WatchOut, name: string, locale: Locale, gender: 
     case 'personalityStretch': {
       const trait = label(TRAIT_LABELS[w.trait], locale);
       return locale === 'ar'
-        ? `تتطلب مهنة ${name} أن تواصل تنمية ${trait}، وهي مهارة تنمو بالتدريب وأنت ${g(gender, 'قادر', 'قادرة')} على تطويرها.`
+        ? g(gender, `مهنة ${name} محتاجة منك تكمّل تنمّي ${trait}، ودي حاجة بتكبر بالتمرين وإنت قادر عليها.`, `مهنة ${name} محتاجة منك تكمّلي تنمّي ${trait}، ودي حاجة بتكبر بالتمرين وإنتي قادرة عليها.`)
         : `The ${name} career asks you to keep building ${trait}, and that is a skill that grows with practice.`;
     }
     case 'abilityGap': {
       const ability = label(ABILITY_LABELS[w.domain], locale);
       return locale === 'ar'
-        ? `تحتاج مهنة ${name} إلى قدر جيد من ${ability}، وهي مهارة يمكن تنميتها بالتدريب خطوة بخطوة.`
+        ? `مهنة ${name} محتاجة مستوى كويس في ${ability}، ودي مهارة بتتبني بالتمرين خطوة بخطوة.`
         : `The ${name} career needs a good level of ${ability}, and that is a skill you can build step by step with practice.`;
     }
   }
@@ -72,35 +72,35 @@ export function flagLine(flag: ContextFlag, name: string, locale: Locale): strin
   switch (flag) {
     case 'trackMismatch':
       return locale === 'ar'
-        ? `تنبيه: مهنة ${name} تبدأ عادةً من شعبة مختلفة عن شعبتك في الثانوية، فمن الجيد أن تتعرف مبكرًا على طرق الالتحاق بها.`
+        ? `تنبيه: مهنة ${name} غالبًا بتبدأ من شعبة غير شعبتك في الثانوي، فمعرفة طرق الدخول ليها بدري هتفيد.`
         : `Heads-up: the ${name} career usually starts from a different secondary-school track than yours, so it is worth checking the entry routes early.`;
     case 'scoreReach':
       return locale === 'ar'
-        ? 'مجموع القبول المعتاد لهذا المسار أعلى من مجموعك المتوقع، فاعتبره هدفًا طموحًا وضع أمامك مسارًا بديلًا.'
+        ? 'المجموع المعتاد للطريق ده أعلى من مجموعك المتوقع، فده هدف طموح، ووجود طريق بديل جنبه فكرة كويسة.'
         : 'The usual admission score for this route is above the score you expect, so treat it as a stretch goal and keep a backup route in mind.';
     case 'costHigh':
       return locale === 'ar'
-        ? 'قد تكون تكلفة الدراسة لهذه المهنة أعلى من ميزانيتك، فقارن بين الخيارات والتكاليف مبكرًا.'
+        ? 'تكلفة الدراسة للمهنة دي ممكن تكون أعلى من ميزانيتك، فمقارنة الاختيارات والتكاليف بدري هتفرق.'
         : 'Studying toward this career can cost more than your budget, so it is worth comparing options and costs early.';
     case 'fieldMatch':
       return locale === 'ar'
-        ? `مجال دراستك من الطرق المعتادة إلى مهنة ${name}، فهي تبني على ما تعلّمته بالفعل.`
+        ? `مجال دراستك من الطرق المعتادة لمهنة ${name}، يعني هتبني على اللي اتعلمته فعلًا.`
         : `Your field of study is one of the usual routes into the ${name} career, so it builds on what you already know.`;
     case 'fieldSwitch':
       return locale === 'ar'
-        ? `معظم من يعملون في مهنة ${name} يأتون من مجال دراسة مختلف عن مجالك. الانتقال إليها ممكن، وعادةً يحتاج إلى دورات أو دراسة إضافية.`
+        ? `أغلب اللي بيشتغلوا في مهنة ${name} جايين من مجال دراسة غير مجالك. الانتقال ليها ممكن، وغالبًا محتاج كورسات أو دراسة زيادة.`
         : `Most people come to the ${name} career from a different field of study than yours. Moving in is possible, usually with extra courses or further study.`;
   }
 }
 
 function opener(fit: number, name: string, locale: Locale): string {
   if (fit >= 75) {
-    return locale === 'ar' ? `مهنة ${name} من أقوى المهن المناسبة لك.` : `The ${name} career is one of your strongest matches.`;
+    return locale === 'ar' ? `مهنة ${name} من أقوى المهن اللي تناسبك.` : `The ${name} career is one of your strongest matches.`;
   }
   if (fit >= 60) {
-    return locale === 'ar' ? `تبدو مهنة ${name} مناسبة لك وواعدة.` : `The ${name} career looks like a promising match for you.`;
+    return locale === 'ar' ? `مهنة ${name} شكلها مناسبة وواعدة بالنسبالك.` : `The ${name} career looks like a promising match for you.`;
   }
-  return locale === 'ar' ? `مهنة ${name} تستحق أن تستكشفها.` : `The ${name} career is worth exploring.`;
+  return locale === 'ar' ? `مهنة ${name} تستاهل نستكشفها مع بعض.` : `The ${name} career is worth exploring.`;
 }
 
 /** Deterministic explanation for one match. Never uses or changes the numeric scores beyond a coarse opener. */
@@ -123,7 +123,7 @@ export function templateExplanation(
   const caution = watchOuts[0] ?? flags[0];
   const parts = [opener(match.fit, name, locale)];
   if (ranked.length === 0) {
-    parts.push(locale === 'ar' ? 'وهي تتوافق مع أكثر من جانب في ملفك.' : 'It fits several parts of your profile.');
+    parts.push(locale === 'ar' ? 'وبتتوافق مع أكتر من جانب في ملفك.' : 'It fits several parts of your profile.');
   } else if (caution) {
     parts.push(ranked[0]!, caution);
   } else {

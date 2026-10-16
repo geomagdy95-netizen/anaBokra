@@ -1,0 +1,263 @@
+{
+  "id": "islamic_finance_specialist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You make sure money works within Islamic rules.",
+      "ar": "بتتأكد إن الفلوس ماشية على قواعد الشريعة."
+    },
+    "summary": {
+      "en": "Islamic finance specialists work in Islamic banks, the Islamic windows of conventional banks, takaful insurance and sukuk: they design and review products such as murabaha and ijara, check Sharia compliance and analyse finance. In Egypt it suits Commerce or Sharia graduates with banking and Islamic finance certificates.",
+      "ar": "أخصائي التمويل الإسلامي بيشتغل في البنوك الإسلامية والفروع الإسلامية للبنوك التقليدية والتأمين التكافلي والصكوك: بيصمم ويراجع منتجات زي المرابحة والإجارة، بيتأكد من الالتزام الشرعي وبيحلل التمويل. في مصر مناسب لخريجين التجارة أو الشريعة مع شهادات بنوك وتمويل إسلامي."
+    },
+    "dayInLife": {
+      "en": "A small factory wants to buy machines through murabaha. You review its financial statements, structure the deal so the bank buys the machines and resells them at an agreed profit, and check the contract with the Sharia compliance team. In the afternoon you join a review of a new savings product and answer a branch's questions about the rules.",
+      "ar": "مصنع صغير عايز يشتري ماكينات بالمرابحة. بتراجع قوائمه المالية، بتنظم الصفقة بحيث البنك يشتري الماكينات ويبيعها له بربح متفق عليه، وبتراجع العقد مع فريق الرقابة الشرعية. بعد الضهر بتحضر مراجعة منتج ادخار جديد وبترد على أسئلة فرع عن القواعد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Structure Islamic finance deals.",
+        "ar": "بتنظم صفقات التمويل الإسلامي."
+      },
+      {
+        "en": "Analyse clients' finances.",
+        "ar": "بتحلل ماليات العملاء."
+      },
+      {
+        "en": "Check Sharia compliance with the board.",
+        "ar": "بتراجع الالتزام الشرعي مع الهيئة."
+      },
+      {
+        "en": "Design and explain products.",
+        "ar": "بتصمم وتشرح المنتجات."
+      },
+      {
+        "en": "Train branch staff.",
+        "ar": "بتدرّب موظفين الفروع."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Islamic banks and Islamic windows",
+        "ar": "البنوك الإسلامية والفروع الإسلامية"
+      },
+      {
+        "en": "Takaful insurance and investment firms",
+        "ar": "التأمين التكافلي وشركات الاستثمار"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Banking systems",
+        "ar": "الأنظمة البنكية"
+      },
+      {
+        "en": "Excel and financial models",
+        "ar": "إكسل والنماذج المالية"
+      },
+      {
+        "en": "Sharia standards (AAOIFI)",
+        "ar": "المعايير الشرعية (AAOIFI)"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Commerce (Al-Azhar or other universities)",
+        "ar": "كلية التجارة (الأزهر أو جامعات تانية)"
+      },
+      {
+        "en": "Faculty of Sharia and Law (Al-Azhar)",
+        "ar": "كلية الشريعة والقانون (الأزهر)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Islamic finance diplomas and certificates after a banking job",
+        "ar": "دبلومات وشهادات تمويل إسلامي بعد شغل في البنك"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Financial analysis",
+        "ar": "التحليل المالي"
+      },
+      {
+        "en": "Islamic contracts (murabaha, ijara, musharaka)",
+        "ar": "العقود الإسلامية (مرابحة، إجارة، مشاركة)"
+      },
+      {
+        "en": "Banking regulations",
+        "ar": "لوايح البنوك"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Integrity",
+        "ar": "النزاهة"
+      },
+      {
+        "en": "Explaining complex products simply",
+        "ar": "شرح المنتجات المعقدة ببساطة"
+      },
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for international standards",
+        "ar": "الإنجليزي للمعايير الدولية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Certified Islamic Banker or AAOIFI certificates",
+        "ar": "شهادة المصرفي الإسلامي المعتمد أو شهادات AAOIFI"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Islamic banks and banks with Islamic branches",
+        "ar": "البنوك الإسلامية والبنوك اللي ليها فروع إسلامية"
+      },
+      {
+        "en": "Takaful and sukuk issuers",
+        "ar": "شركات التكافل ومصدري الصكوك"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly office based.",
+      "ar": "أغلبه في المكتب."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo and Alexandria",
+        "ar": "أساسًا القاهرة وإسكندرية"
+      }
+    ],
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for Islamic finance, so we do not show a number. Roles in Islamic banks and windows are usually paid like other banking roles at the same level; see the banker career for bank pay ranges.",
+      "ar": "لا يضم Paylab مصر مسمى للتمويل الإسلامي، لذلك لا نعرض رقمًا. الوظائف في البنوك والفروع الإسلامية تُدفع عادة مثل وظائف البنوك الأخرى في نفس المستوى؛ راجع مهنة المصرفي لنطاقات أجور البنوك."
+    }
+  },
+  "global": {
+    "en": "The Gulf and Malaysia have large Islamic finance sectors that hire specialists.",
+    "ar": "الخليج وماليزيا فيهم قطاعات تمويل إسلامي كبيرة بتشغّل متخصصين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Combines faith and finance",
+        "ar": "بيجمع الدين والمالية"
+      },
+      {
+        "en": "Growing global sector",
+        "ar": "قطاع عالمي بيكبر"
+      },
+      {
+        "en": "Banking career and pay",
+        "ar": "مسار ومرتب بنكي"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Needs both finance and Sharia knowledge",
+        "ar": "محتاج معرفة مالية وشرعية مع بعض"
+      },
+      {
+        "en": "Complex rules and documents",
+        "ar": "قواعد ومستندات معقدة"
+      },
+      {
+        "en": "Debates about compliance",
+        "ar": "نقاشات حوالين الالتزام"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Islamic banking is the same as normal banking with new names.",
+          "ar": "البنوك الإسلامية زي العادية بأسامي جديدة."
+        },
+        "fact": {
+          "en": "The contracts are structured differently, around trade, leasing and shared risk, and reviewed by Sharia boards.",
+          "ar": "العقود متنظمة بشكل مختلف، على البيع والإجارة والمشاركة في المخاطر، وبتراجعها هيئات شرعية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Bank office hours.",
+      "ar": "مواعيد البنوك."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Islamic banking officer",
+        "ar": "موظف مصرفية إسلامية"
+      },
+      {
+        "en": "Islamic finance analyst",
+        "ar": "محلل تمويل إسلامي"
+      },
+      {
+        "en": "Product or Sharia compliance manager",
+        "ar": "مدير منتجات أو رقابة شرعية"
+      },
+      {
+        "en": "Head of Islamic banking",
+        "ar": "رئيس المصرفية الإسلامية"
+      }
+    ],
+    "relatedCareerIds": [
+      "banker",
+      "financial_analyst",
+      "compliance_officer",
+      "religious_scholar"
+    ],
+    "pivots": [
+      {
+        "en": "Conventional banking",
+        "ar": "البنوك التقليدية"
+      },
+      {
+        "en": "Sharia audit",
+        "ar": "التدقيق الشرعي"
+      }
+    ]
+  },
+  "industryId": "religion",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Financial and Investment Analysts (13-2051.00)",
+      "url": "https://www.onetonline.org/link/summary/13-2051.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Loan Officers (13-2072.00)",
+      "url": "https://www.onetonline.org/link/summary/13-2072.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

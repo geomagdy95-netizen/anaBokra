@@ -1,6 +1,6 @@
 {
   "id": "agriculture",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,13 +9,13 @@
       "title": { "en": "A day in agriculture and food", "ar": "يوم في الزراعة والغذاء" },
       "intro": { "en": "Moments from a typical day in agriculture and food. How does each one sound to you?", "ar": "لحظات من يوم عادي في الزراعة والغذاء. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "agriculture_day_1", "title": { "en": "Sunrise in the field", "ar": "الشروق في الغيط" }, "text": { "en": "Walking a field at sunrise to check the crop and the irrigation.", "ar": "لفّة في الغيط مع طلوع الشمس لمتابعة الزرع والري." }, "careers": ["agricultural_engineer", "agribusiness_manager"] },
-        { "id": "agriculture_day_2", "title": { "en": "Is it safe?", "ar": "آمن ولا لأ؟" }, "text": { "en": "Testing samples in a food lab to make sure a product is safe.", "ar": "تحليل عينات في معمل أغذية للتأكد إن المنتج آمن." }, "careers": ["food_scientist"] },
-        { "id": "agriculture_day_3", "title": { "en": "Drop by drop", "ar": "نقطة نقطة" }, "text": { "en": "Designing a drip irrigation system to save water.", "ar": "تصميم شبكة ري بالتنقيط لتوفير المية." }, "careers": ["agricultural_engineer"] },
-        { "id": "agriculture_day_4", "title": { "en": "Selling the harvest", "ar": "بيع المحصول" }, "text": { "en": "Negotiating a price for a whole harvest with a buyer.", "ar": "تفاوض على سعر محصول كامل مع تاجر." }, "careers": ["agribusiness_manager"] },
-        { "id": "agriculture_day_5", "title": { "en": "A new snack", "ar": "سناك جديد" }, "text": { "en": "Developing a new snack recipe that keeps longer on the shelf.", "ar": "تطوير وصفة سناك جديدة تعيش أكتر على الرف." }, "careers": ["food_scientist"] },
-        { "id": "agriculture_day_6", "title": { "en": "New seeds", "ar": "تقاوي جديدة" }, "text": { "en": "Explaining a new seed variety to farmers who prefer the old one.", "ar": "شرح صنف تقاوي جديد لمزارعين بيفضّلوا القديم." }, "careers": ["agricultural_engineer", "agribusiness_manager"] },
-        { "id": "agriculture_day_7", "title": { "en": "The factory line", "ar": "خط المصنع" }, "text": { "en": "Watching a factory line where thousands of packs pass every hour.", "ar": "متابعة خط مصنع بيعدّي عليه آلاف العبوات كل ساعة." }, "careers": ["food_scientist", "agricultural_engineer"] }
+        { "id": "agriculture_day_1", "title": { "en": "Sunrise in the field", "ar": "الشروق في الغيط" }, "text": { "en": "Walking a field at sunrise to check the crop and the irrigation.", "ar": "بتلف في الغيط مع طلوع الشمس، تطمّن على الزرع والري.", "arF": "بتلفي في الغيط مع طلوع الشمس، تطمّني على الزرع والري." }, "careers": ["agricultural_engineer", "agribusiness_manager"] },
+        { "id": "agriculture_day_2", "title": { "en": "Is it safe?", "ar": "آمن ولا لأ؟" }, "text": { "en": "Testing samples in a food lab to make sure a product is safe.", "ar": "بتحلل عينات في معمل أغذية، علشان تتأكد إن المنتج آمن للأكل.", "arF": "بتحللي عينات في معمل أغذية، علشان تتأكدي إن المنتج آمن للأكل." }, "careers": ["food_scientist"] },
+        { "id": "agriculture_day_3", "title": { "en": "Drop by drop", "ar": "نقطة نقطة" }, "text": { "en": "Designing a drip irrigation system to save water.", "ar": "بتصمم شبكة ري بالتنقيط توفّر المية.", "arF": "بتصممي شبكة ري بالتنقيط توفّر المية." }, "careers": ["agricultural_engineer"] },
+        { "id": "agriculture_day_4", "title": { "en": "Selling the harvest", "ar": "بيع المحصول" }, "text": { "en": "Negotiating a price for a whole harvest with a buyer.", "ar": "بتتفاوض مع تاجر على سعر محصول كامل.", "arF": "بتتفاوضي مع تاجر على سعر محصول كامل." }, "careers": ["agribusiness_manager"] },
+        { "id": "agriculture_day_5", "title": { "en": "A new snack", "ar": "سناك جديد" }, "text": { "en": "Developing a new snack recipe that keeps longer on the shelf.", "ar": "بتطوّر وصفة سناك جديد يعيش مدة أطول من غير ما يبوظ.", "arF": "بتطوّري وصفة سناك جديد يعيش مدة أطول من غير ما يبوظ." }, "careers": ["food_scientist"] },
+        { "id": "agriculture_day_6", "title": { "en": "New seeds", "ar": "تقاوي جديدة" }, "text": { "en": "Explaining a new seed variety to farmers who prefer the old one.", "ar": "بتشرح صنف تقاوي جديد لمزارعين متمسكين بالقديم.", "arF": "بتشرحي صنف تقاوي جديد لمزارعين متمسكين بالقديم." }, "careers": ["agricultural_engineer", "agribusiness_manager"] },
+        { "id": "agriculture_day_7", "title": { "en": "The factory line", "ar": "خط المصنع" }, "text": { "en": "Watching a factory line where thousands of packs pass every hour.", "ar": "بتتابع خط إنتاج في مصنع بيعدّي عليه آلاف العبوات كل ساعة.", "arF": "بتتابعي خط إنتاج في مصنع بيعدّي عليه آلاف العبوات كل ساعة." }, "careers": ["food_scientist", "agricultural_engineer"] }
       ]
     },
     {
@@ -26,9 +26,9 @@
       "items": [
         { "id": "agriculture_real_1", "title": { "en": "Country or city", "ar": "ريف ولا مدينة" }, "a": { "en": "Working outdoors in the countryside, often far from the city", "ar": "شغل برّه في الريف، وغالبًا بعيد عن المدينة" }, "b": { "en": "Working in a city office", "ar": "شغل في مكتب في المدينة" }, "path": "a", "careers": ["agricultural_engineer", "agribusiness_manager"] },
         { "id": "agriculture_real_2", "title": { "en": "Weather and seasons", "ar": "الطقس والمواسم" }, "a": { "en": "Weather and seasons you can't control", "ar": "طقس ومواسم مش في إيدك" }, "b": { "en": "Work where everything is planned", "ar": "شغل كل حاجة فيه متخططة" }, "path": "a", "careers": ["agricultural_engineer", "agribusiness_manager"] },
-        { "id": "agriculture_real_3", "title": { "en": "Food safety rules", "ar": "قواعد سلامة الغذاء" }, "a": { "en": "Strict food safety rules and inspections", "ar": "قواعد سلامة غذاء صارمة وتفتيش" }, "b": { "en": "Few rules to follow", "ar": "قواعد قليلة" }, "path": "a", "careers": ["food_scientist", "agribusiness_manager"] },
+        { "id": "agriculture_real_3", "title": { "en": "Food safety rules", "ar": "قواعد سلامة الغذاء" }, "a": { "en": "Strict food safety rules and inspections", "ar": "قواعد سلامة غذاء صارمة وتفتيش" }, "b": { "en": "Few rules to follow", "ar": "قواعد قليلة تمشي عليها" }, "path": "a", "careers": ["food_scientist", "agribusiness_manager"] },
         { "id": "agriculture_real_4", "title": { "en": "Start of the day", "ar": "بداية اليوم" }, "a": { "en": "Early starts: fields and factories begin at dawn", "ar": "صحيان بدري: الغيطان والمصانع بتبدأ من الفجر" }, "b": { "en": "A day that starts at ten", "ar": "يوم بيبدأ الساعة 10" }, "path": "a" },
-        { "id": "agriculture_real_5", "title": { "en": "What the work touches", "ar": "الشغل بيلمس إيه" }, "a": { "en": "Work that feeds people", "ar": "شغل بيأكّل الناس" }, "b": { "en": "Work far from everyday life", "ar": "شغل بعيد عن الحياة اليومية" }, "path": "a" },
+        { "id": "agriculture_real_5", "title": { "en": "What the work touches", "ar": "أثر الشغل" }, "a": { "en": "Work that feeds people", "ar": "شغل بيأكّل الناس" }, "b": { "en": "Work far from everyday life", "ar": "شغل بعيد عن الحياة اليومية" }, "path": "a" },
         { "id": "agriculture_real_6", "title": { "en": "Science and selling", "ar": "العلم والبيع" }, "a": { "en": "A mix of science, business and selling", "ar": "خلطة بين العلم والبيزنس والبيع" }, "b": { "en": "Pure science without the business side", "ar": "علم بس من غير جانب البيزنس" }, "path": "a", "careers": ["agribusiness_manager", "food_scientist"] }
       ]
     },

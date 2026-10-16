@@ -1,0 +1,260 @@
+{
+  "id": "security_manager",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep people and places safe before anything happens.",
+      "ar": "بتحافظ على أمان الناس والأماكن قبل ما حاجة تحصل."
+    },
+    "summary": {
+      "en": "Security and safety managers protect companies, malls, hotels, banks and events: they assess risks, run guard teams and camera systems, plan emergencies and check safety rules. In Egypt many come from police or military backgrounds, and others from law, commerce or engineering with security and safety certificates.",
+      "ar": "مدير الأمن والسلامة بيحمي الشركات والمولات والفنادق والبنوك والفعاليات: بيقيّم المخاطر، بيدير فرق الأمن وأنظمة الكاميرات، بيخطط للطوارئ وبيراجع قواعد السلامة. في مصر كتير منهم جايين من خلفية شرطة أو جيش، وغيرهم من الحقوق أو التجارة أو الهندسة بشهادات أمن وسلامة."
+    },
+    "dayInLife": {
+      "en": "You start with the overnight report from the control room of a large mall: one alarm, no incident. You walk the site with the shift supervisor, test an emergency exit and spot a blocked fire door. You hold a short briefing on a weekend concert, plan crowd routes with the event team and review new camera positions. In the afternoon you run a fire drill and write up lessons.",
+      "ar": "بتبدأ بتقرير الليل من غرفة التحكم في مول كبير: إنذار واحد ومفيش حادثة. بتلف في المكان مع مشرف الشيفت، بتجرب مخرج طوارئ وبتلاقي باب حريق مقفول بحاجات. بتعمل اجتماع قصير عن حفلة آخر الأسبوع، بتخطط ممرات الجمهور مع فريق الفعاليات وبتراجع أماكن كاميرات جديدة. بعد الضهر بتعمل تدريب حريق وبتكتب الدروس المستفادة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess security and safety risks.",
+        "ar": "بتقيّم مخاطر الأمن والسلامة."
+      },
+      {
+        "en": "Lead guard teams and control rooms.",
+        "ar": "بتقود فرق الأمن وغرف التحكم."
+      },
+      {
+        "en": "Plan for emergencies and run drills.",
+        "ar": "بتخطط للطوارئ وتعمل تدريبات."
+      },
+      {
+        "en": "Manage cameras, access and alarms.",
+        "ar": "بتدير الكاميرات والدخول والإنذارات."
+      },
+      {
+        "en": "Investigate incidents and report.",
+        "ar": "بتحقق في الحوادث وتكتب تقارير."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Malls, hotels, banks and company sites",
+        "ar": "المولات والفنادق والبنوك ومواقع الشركات"
+      },
+      {
+        "en": "Events and stadiums",
+        "ar": "الفعاليات والاستادات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "CCTV and access control systems",
+        "ar": "الكاميرات وأنظمة الدخول"
+      },
+      {
+        "en": "Radios and alarm panels",
+        "ar": "اللاسلكي ولوحات الإنذار"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Police Academy or military academies, then private-sector work",
+        "ar": "أكاديمية الشرطة أو الكليات العسكرية، وبعدين القطاع الخاص"
+      },
+      {
+        "en": "Faculties of Law, Commerce or Engineering with security and safety certificates",
+        "ar": "كليات الحقوق أو التجارة أو الهندسة مع شهادات أمن وسلامة"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Risk assessment",
+        "ar": "تقييم المخاطر"
+      },
+      {
+        "en": "Emergency planning",
+        "ar": "تخطيط الطوارئ"
+      },
+      {
+        "en": "Security systems",
+        "ar": "أنظمة الأمن"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leadership",
+        "ar": "القيادة"
+      },
+      {
+        "en": "Calm decisions",
+        "ar": "قرارات هادية"
+      },
+      {
+        "en": "Integrity",
+        "ar": "النزاهة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for international companies and hotels",
+        "ar": "الإنجليزي للشركات والفنادق الدولية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "NEBOSH or OSHA safety certificates; ASIS security certificates",
+        "ar": "شهادات سلامة NEBOSH أو OSHA؛ وشهادات أمن ASIS"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8467,
+        "max": 34439
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/management?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Security Service Manager\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Security Service Manager»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Security companies and facility managers",
+        "ar": "شركات الأمن وإدارة المرافق"
+      },
+      {
+        "en": "Banks, hotels, malls and factories",
+        "ar": "البنوك والفنادق والمولات والمصانع"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Cairo, Alexandria, new cities and resorts",
+        "ar": "القاهرة وإسكندرية والمدن الجديدة والمنتجعات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Security and HSE managers are in demand in the Gulf, especially with international certificates.",
+    "ar": "مديرين الأمن والسلامة مطلوبين في الخليج، خصوصًا بالشهادات الدولية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Responsibility and leadership",
+        "ar": "مسؤولية وقيادة"
+      },
+      {
+        "en": "Work in many sectors",
+        "ar": "شغل في قطاعات كتير"
+      },
+      {
+        "en": "Clear demand",
+        "ar": "طلب واضح"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Shifts and events at night",
+        "ar": "شيفتات وفعاليات بالليل"
+      },
+      {
+        "en": "Blame when something goes wrong",
+        "ar": "اللوم لما حاجة تبوظ"
+      },
+      {
+        "en": "Managing large teams",
+        "ar": "إدارة فرق كبيرة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Security is just standing at a gate.",
+          "ar": "الأمن يعني تقف على البوابة وبس."
+        },
+        "fact": {
+          "en": "Managers plan, assess risks and lead teams and technology.",
+          "ar": "المديرين بيخططوا ويقيّموا المخاطر ويقودوا فرق وتكنولوجيا."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours plus night and event duty.",
+      "ar": "مواعيد مكتب مع نوبات ليلية وفعاليات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Security or safety officer",
+        "ar": "مسؤول أمن أو سلامة"
+      },
+      {
+        "en": "Shift supervisor",
+        "ar": "مشرف شيفت"
+      },
+      {
+        "en": "Security manager",
+        "ar": "مدير أمن"
+      },
+      {
+        "en": "Head of security and safety",
+        "ar": "رئيس الأمن والسلامة"
+      }
+    ],
+    "relatedCareerIds": [
+      "police_officer",
+      "firefighter",
+      "customs_officer",
+      "event_planner"
+    ],
+    "pivots": [
+      {
+        "en": "Health and safety consulting",
+        "ar": "استشارات السلامة"
+      },
+      {
+        "en": "Risk management",
+        "ar": "إدارة المخاطر"
+      }
+    ]
+  },
+  "industryId": "security",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Security Managers (11-3013.01)",
+      "url": "https://www.onetonline.org/link/summary/11-3013.01",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - First-Line Supervisors of Security Workers (33-1091.00)",
+      "url": "https://www.onetonline.org/link/summary/33-1091.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

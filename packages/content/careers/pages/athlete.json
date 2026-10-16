@@ -1,0 +1,295 @@
+{
+  "id": "athlete",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "Your body is your work, and the scoreboard is your report card.",
+      "ar": "جسمك هو شغلك، ولوحة النتيجة هي شهادتك."
+    },
+    "summary": {
+      "en": "Professional athletes train and compete for clubs, federations and national teams in football, handball, squash, swimming, athletics and more. Very few reach the top, and careers are short, so most combine sport with study and plan a second career in coaching, PE, media or management. In Egypt, clubs and federations run youth academies from an early age.",
+      "ar": "اللاعب الرياضي المحترف بيتمرن وبينافس مع الأندية والاتحادات والمنتخبات في الكورة واليد والإسكواش والسباحة وألعاب القوى وغيرها. قليلين جدًا اللي بيوصلوا للقمة، والمسيرة قصيرة، فأغلبهم بيجمعوا بين الرياضة والدراسة وبيخططوا لمهنة تانية في التدريب أو التربية الرياضية أو الإعلام أو الإدارة. في مصر الأندية والاتحادات عندها أكاديميات ناشئين من سن صغير."
+    },
+    "dayInLife": {
+      "en": "You wake at 6 for a morning session: sprints, then technique with the coach. After breakfast you rest and see the physio for a sore ankle. In the afternoon the team trains tactics for Friday's match and watches video of the opponent. You eat what the nutritionist planned, stretch, and go to sleep early.",
+      "ar": "بتصحى الساعة 6 لتمرين الصبح: جري سريع وبعدين تكنيك مع المدرب. بعد الفطار بترتاح وبتروح للعلاج الطبيعي علشان كاحلك واجعك. بعد الضهر الفريق بيتمرن على خطة ماتش الجمعة وبيتفرج على فيديو للخصم. بتاكل اللي أخصائي التغذية حدده، بتعمل إطالة، وبتنام بدري."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Train every day for fitness, skill and tactics.",
+        "ar": "بتتمرن كل يوم على اللياقة والمهارة والخطط."
+      },
+      {
+        "en": "Compete in matches, races and tournaments.",
+        "ar": "بتنافس في ماتشات وسباقات وبطولات."
+      },
+      {
+        "en": "Follow nutrition, sleep and recovery plans.",
+        "ar": "بتمشي على خطط التغذية والنوم والاستشفاء."
+      },
+      {
+        "en": "Study opponents and your own performance on video.",
+        "ar": "بتدرس الخصوم وأداءك بالفيديو."
+      },
+      {
+        "en": "Represent your club with fans, sponsors and media.",
+        "ar": "بتمثل ناديك قدام الجمهور والرعاة والإعلام."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Club training grounds, gyms and stadiums",
+        "ar": "ملاعب تدريب الأندية والجيم والاستادات"
+      },
+      {
+        "en": "Camps and travel for competitions",
+        "ar": "معسكرات وسفر للبطولات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Training equipment for your sport",
+        "ar": "أدوات التدريب في لعبتك"
+      },
+      {
+        "en": "Fitness trackers and video analysis",
+        "ar": "أجهزة تتبع اللياقة وتحليل الفيديو"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Club academies and youth teams, usually from childhood",
+        "ar": "أكاديميات الأندية وفرق الناشئين، غالبًا من الطفولة"
+      },
+      {
+        "en": "Faculty of Physical Education alongside sport (a common plan B)",
+        "ar": "كلية التربية الرياضية جنب اللعب (خطة بديلة شائعة)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": null,
+    "alternativeRoutes": [
+      {
+        "en": "Talent scouting at school championships and club trials",
+        "ar": "اكتشاف المواهب في بطولات المدارس واختبارات الأندية"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Sport-specific skill",
+        "ar": "مهارة اللعبة نفسها"
+      },
+      {
+        "en": "Physical conditioning",
+        "ar": "اللياقة البدنية"
+      },
+      {
+        "en": "Game understanding",
+        "ar": "فهم اللعب"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Discipline",
+        "ar": "الانضباط"
+      },
+      {
+        "en": "Handling pressure and defeat",
+        "ar": "التعامل مع الضغط والهزيمة"
+      },
+      {
+        "en": "Teamwork",
+        "ar": "روح الفريق"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English helps with foreign coaches and clubs abroad",
+        "ar": "الإنجليزي بيساعد مع المدربين الأجانب والأندية برّه"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Sports clubs and national federations",
+        "ar": "الأندية الرياضية والاتحادات"
+      },
+      {
+        "en": "Company and army or police teams",
+        "ar": "فرق الشركات والجيش أو الشرطة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Cairo and Alexandria clubs mainly, plus clubs in every governorate",
+        "ar": "أندية القاهرة وإسكندرية أساسًا، وأندية في كل المحافظات"
+      }
+    ],
+    "salaryNote": {
+      "en": "There is no salary scale for athletes. Most young athletes earn little or nothing from sport at first, while a small number of professional footballers earn very large contracts, so an average would mislead. We do not show a number.",
+      "ar": "لا يوجد جدول رواتب للرياضيين. أغلب الرياضيين الشباب يكسبون القليل أو لا شيء من الرياضة في البداية، بينما يحصل عدد صغير من لاعبي الكرة المحترفين على عقود ضخمة جدًا، فالمتوسط سيكون مضللًا. لذلك لا نعرض رقمًا."
+    }
+  },
+  "global": {
+    "en": "Top Egyptian players join clubs in the Gulf, Europe and elsewhere; squash players compete on the world tour.",
+    "ar": "اللاعبين المصريين المميزين بينضموا لأندية في الخليج وأوروبا وغيرها؛ ولاعبين الإسكواش بينافسوا في البطولات العالمية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Doing what you love at the highest level",
+        "ar": "بتعمل اللي بتحبه في أعلى مستوى"
+      },
+      {
+        "en": "Fame and big pay for the very few at the top",
+        "ar": "شهرة وفلوس كبيرة للقليلين اللي في القمة"
+      },
+      {
+        "en": "Skills that carry into coaching and management",
+        "ar": "مهارات بتتنقل للتدريب والإدارة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Very few become professionals",
+        "ar": "قليلين جدًا بيبقوا محترفين"
+      },
+      {
+        "en": "Injuries can end a career early",
+        "ar": "الإصابات ممكن تنهي المسيرة بدري"
+      },
+      {
+        "en": "Careers usually end by the early 30s",
+        "ar": "المسيرة غالبًا بتخلص في أول التلاتينات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Talent is enough to make it.",
+          "ar": "الموهبة لوحدها كفاية."
+        },
+        "fact": {
+          "en": "Years of disciplined training, recovery and luck with injuries matter as much as talent.",
+          "ar": "سنين من التدريب المنضبط والاستشفاء والحظ مع الإصابات بيفرقوا قد الموهبة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Training twice a day, weekend matches and travel; little free time in season.",
+      "ar": "تمرين مرتين في اليوم وماتشات في الإجازات وسفر؛ وقت فاضي قليل في الموسم."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Youth academy player",
+        "ar": "لاعب ناشئين"
+      },
+      {
+        "en": "First-team or national-team player",
+        "ar": "لاعب فريق أول أو منتخب"
+      },
+      {
+        "en": "Captain or senior player",
+        "ar": "كابتن أو لاعب خبرة"
+      },
+      {
+        "en": "Coach, analyst, commentator or sports manager",
+        "ar": "مدرب أو محلل أو معلق أو مدير رياضي"
+      }
+    ],
+    "relatedCareerIds": [
+      "sports_coach",
+      "fitness_trainer",
+      "pe_teacher",
+      "sports_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Coaching and youth development",
+        "ar": "التدريب وتطوير الناشئين"
+      },
+      {
+        "en": "Sports media",
+        "ar": "الإعلام الرياضي"
+      }
+    ]
+  },
+  "industryId": "sports",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Athletes and Sports Competitors (27-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2021.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Coaches and Scouts (27-2022.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2022.00",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "age",
+        "level": 3,
+        "text": {
+          "en": "Big clubs pick players young, by birth year: Al Ahly's June 2026 trials were for children born 2010 to 2019. Starting a sport seriously after the early teens makes a professional route much harder.",
+          "ar": "الأندية الكبيرة بتختار اللاعيبة صغيرين وحسب سنة الميلاد: اختبارات الأهلي في يونيو 2026 كانت لمواليد 2010 لـ 2019. البداية الجدية بعد أول المراهقة بتصعّب الطريق الاحترافي جدًا."
+        },
+        "tip": {
+          "en": "School teams and youth centres are where most players are first noticed; sports with later starts (and coaching or sports science) keep you close to sport.",
+          "ar": "فرق المدرسة ومراكز الشباب هي أول مكان أغلب اللاعيبة بيتشافوا فيه؛ وفيه رياضات بتبدأ متأخر، والتدريب وعلوم الرياضة بيخلّوك قريب من المجال."
+        },
+        "source": "https://www.egypttelegraph.com/article/254401/%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-2026-%D9%84%D9%84%D9%86%D8%A7%D8%B4%D8%A6%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B9%D9%85-%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7"
+      },
+      {
+        "kind": "location",
+        "level": 2,
+        "text": {
+          "en": "Trials of the big clubs are held at their branches, mostly in Cairo and Giza, so families from other governorates have to travel.",
+          "ar": "اختبارات الأندية الكبيرة بتتعمل في فروعها، وأغلبها في القاهرة والجيزة، فالعيلات من المحافظات التانية لازم تسافر."
+        },
+        "tip": {
+          "en": "Clubs sometimes run trials in other governorates; local clubs in the league are a real first step too.",
+          "ar": "الأندية أحيانًا بتعمل اختبارات في محافظات تانية، والأندية المحلية في الدوري خطوة أولى حقيقية برضه."
+        },
+        "source": "https://www.egypttelegraph.com/article/254401/%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-2026-%D9%84%D9%84%D9%86%D8%A7%D8%B4%D8%A6%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B9%D9%85-%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7"
+      },
+      {
+        "kind": "cost",
+        "level": 2,
+        "text": {
+          "en": "Trial forms cost money (about 150 EGP at Arab Contractors in 2026), private academies charge monthly fees, and a 2025 press investigation reported \"pay to play\" at some private academies.",
+          "ar": "استمارات الاختبار بفلوس (حوالي 150 جنيه في المقاولون العرب 2026)، والأكاديميات الخاصة ليها اشتراك شهري، وتحقيق صحفي في 2025 تكلم عن «الدفع مقابل اللعب» في بعض الأكاديميات الخاصة."
+        },
+        "tip": {
+          "en": "Official club trials and school sport are the fair way in; be careful with anyone asking for money to guarantee a place.",
+          "ar": "الاختبارات الرسمية للأندية والرياضة المدرسية هما الطريق العادل؛ وخلّي بالك من أي حد يطلب فلوس عشان يضمن مكان."
+        },
+        "source": "https://shbabbek.com/show/278079"
+      }
+    ]
+  }
+}

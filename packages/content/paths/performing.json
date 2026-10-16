@@ -1,0 +1,89 @@
+{
+  "id": "performing",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": {"en": "A day in performing arts and entertainment", "ar": "يوم في الفنون الأدائية والترفيه"},
+      "intro": {"en": "Moments from a typical day in performing arts and entertainment. How does each one sound to you?", "ar": "لحظات من يوم عادي في الفنون الأدائية والترفيه. كل لحظة شكلها إيه بالنسبالك؟"},
+      "items": [
+        {"id": "performing_day_1", "title": {"en": "Take eight", "ar": "اللقطة التامنة"}, "text": {"en": "Repeating the same emotional scene eight times until the director says it's right.", "ar": "بتعيد نفس المشهد المؤثر 8 مرات لحد ما المخرج يقول تمام.", "arF": "بتعيدي نفس المشهد المؤثر 8 مرات لحد ما المخرج يقول تمام."}, "careers": ["actor"]},
+        {"id": "performing_day_2", "title": {"en": "Practice, then the stage", "ar": "تمرين وبعدين المسرح"}, "text": {"en": "Practising the same passage until it's right, then playing it live.", "ar": "بتتمرن على نفس الحتة في المزيكا لحد ما تظبط، وبعدين تعزفها قدام جمهور.", "arF": "بتتمرني على نفس الحتة في المزيكا لحد ما تظبط، وبعدين تعزفيها قدام جمهور."}, "careers": ["musician"]},
+        {"id": "performing_day_3", "title": {"en": "The new routine", "ar": "الرقصة الجديدة"}, "text": {"en": "Learning a new folk dance routine with your troupe, step by step, for a show next week.", "ar": "بتتعلم رقصة شعبية جديدة مع فرقتك خطوة بخطوة، لعرض الأسبوع الجاي.", "arF": "بتتعلمي رقصة شعبية جديدة مع فرقتك خطوة بخطوة، لعرض الأسبوع الجاي."}, "careers": ["dancer"]},
+        {"id": "performing_day_4", "title": {"en": "Live at seven", "ar": "على الهوا 7"}, "text": {"en": "Going live at 7 a.m. and handling a guest who arrives late.", "ar": "بتطلع على الهوا الساعة 7 الصبح وبتتصرف مع ضيف وصل متأخر.", "arF": "بتطلعي على الهوا الساعة 7 الصبح وبتتصرفي مع ضيف وصل متأخر."}, "careers": ["tv_presenter"]},
+        {"id": "performing_day_5", "title": {"en": "The audition", "ar": "الكاستينج"}, "text": {"en": "Walking into an audition with ten minutes to show what you can do.", "ar": "داخل كاستينج ومعاك 10 دقايق توري تقدر تعمل إيه.", "arF": "داخلة كاستينج ومعاكي 10 دقايق توري تقدري تعملي إيه."}, "careers": ["actor", "dancer", "musician"]},
+        {"id": "performing_day_6", "title": {"en": "Curtain call", "ar": "تحية الختام"}, "text": {"en": "The show ends and a full theatre stands up to applaud.", "ar": "العرض بيخلص ومسرح مليان بيقف يسقّف."}, "careers": ["actor", "dancer", "musician"]}
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": {"en": "The real deal", "ar": "الحقيقة من غير تجميل"},
+      "intro": {"en": "Every path comes with trade-offs. For each pair, pick the one you would rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه."},
+      "items": [
+        {"id": "performing_real_1", "title": {"en": "How income comes", "ar": "الدخل بييجي إزاي"}, "a": {"en": "Income that changes from project to project", "ar": "دخل بيتغير من مشروع لمشروع"}, "b": {"en": "A fixed monthly salary", "ar": "مرتب ثابت كل شهر"}, "path": "a", "careers": ["actor", "musician", "dancer"]},
+        {"id": "performing_real_2", "title": {"en": "Rejection", "ar": "الرفض"}, "a": {"en": "Many auditions and a lot of rejection", "ar": "كاستينجات كتير ورفض كتير"}, "b": {"en": "A job where you're rarely turned down", "ar": "شغل نادرًا ما حد بيرفضك فيه"}, "path": "a", "careers": ["actor", "dancer", "musician"]},
+        {"id": "performing_real_3", "title": {"en": "In the spotlight", "ar": "تحت الأضواء"}, "a": {"en": "Being seen and judged by the public", "ar": "الناس بتشوفك وبتحكم عليك"}, "b": {"en": "Staying out of public view", "ar": "تفضل بعيد عن عيون الناس", "arF": "تفضلي بعيد عن عيون الناس"}, "path": "a", "careers": ["tv_presenter", "actor"]},
+        {"id": "performing_real_4", "title": {"en": "Your evenings", "ar": "مسايتك"}, "a": {"en": "Rehearsals, shows and shoots in the evenings", "ar": "بروفات وعروض وتصوير بالمسا"}, "b": {"en": "Free evenings and weekends", "ar": "المسا والإجازات فاضيين"}, "path": "a", "careers": ["actor", "musician", "dancer"]},
+        {"id": "performing_real_5", "title": {"en": "Practice every day", "ar": "تمرين كل يوم"}, "a": {"en": "Daily practice to keep your skill sharp", "ar": "تمرين يومي علشان مهارتك تفضل قوية"}, "b": {"en": "Learning once and applying it", "ar": "تتعلم مرة وتطبّق", "arF": "تتعلمي مرة وتطبّقي"}, "path": "a", "careers": ["musician", "dancer", "actor"]},
+        {"id": "performing_real_6", "title": {"en": "Early or late", "ar": "بدري ولا متأخر"}, "a": {"en": "Shows very early in the morning or late at night", "ar": "برامج بدري جدًا الصبح أو متأخر بالليل"}, "b": {"en": "Regular office hours", "ar": "مواعيد مكتب منتظمة"}, "path": "a", "careers": ["tv_presenter"]}
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": {"en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك"},
+      "intro": {"en": "Two real situations and two small puzzles from performing arts and entertainment. There is no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل الفنون الأدائية والترفيه. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل الفنون الأدائية والترفيه. مفيش درجات: قوليلنا بس عجبك ولا لأ."},
+      "items": [
+        {
+          "id": "performing_try_1",
+          "title": {"en": "The forgotten line", "ar": "الجملة اللي اتنست"},
+          "type": "scenario",
+          "text": {"en": "On stage, the actor opposite you forgets his line and the scene stops.", "ar": "على المسرح، الممثل اللي قدامك نسي جملته والمشهد وقف.", "arF": "على المسرح، الممثل اللي قدامكي نسي جملته والمشهد وقف."},
+          "options": [
+            {"text": {"en": "Improvise a line that helps him back into the scene", "ar": "أرتجل جملة تساعده يرجع للمشهد"}, "fit": 1},
+            {"text": {"en": "Say his line for him naturally", "ar": "أقول جملته بداله بشكل طبيعي"}, "fit": 0.8},
+            {"text": {"en": "Wait in silence for him", "ar": "أستناه ساكت"}, "fit": 0.2},
+            {"text": {"en": "Stop and ask the audience for patience", "ar": "أوقف وأطلب من الجمهور يصبر"}, "fit": 0}
+          ],
+          "careers": ["actor", "dancer"]
+        },
+        {
+          "id": "performing_try_2",
+          "title": {"en": "The rude caller", "ar": "المتصل قليل الذوق"},
+          "type": "scenario",
+          "text": {"en": "Live on air, a caller starts insulting a guest.", "ar": "على الهوا، متصل بدأ يشتم ضيف."},
+          "options": [
+            {"text": {"en": "Calmly end the call and move the conversation on", "ar": "أنهي المكالمة بهدوء وأكمّل الحوار"}, "fit": 1},
+            {"text": {"en": "Ask the director to cut the line", "ar": "أطلب من المخرج يقطع الخط"}, "fit": 0.8},
+            {"text": {"en": "Argue with the caller", "ar": "أتخانق مع المتصل"}, "fit": 0},
+            {"text": {"en": "Let him finish", "ar": "أسيبه يكمل"}, "fit": 0.1}
+          ],
+          "careers": ["tv_presenter"]
+        },
+        {
+          "id": "performing_try_3",
+          "title": {"en": "Counting the beat", "ar": "عدّ الإيقاع"},
+          "type": "puzzle",
+          "text": {"en": "A song has 120 beats per minute. How many beats are there in 30 seconds?", "ar": "أغنية فيها 120 نبضة في الدقيقة. كام نبضة في 30 ثانية؟"},
+          "options": [{"en": "30", "ar": "30"},{"en": "60", "ar": "60"},{"en": "90", "ar": "90"},{"en": "120", "ar": "120"}],
+          "answer": 1,
+          "explain": {"en": "Half a minute is half the beats: 60. Musicians and dancers count beats to stay together.", "ar": "نص دقيقة يعني نص النبضات: 60. الموسيقيين والراقصين بيعدّوا الإيقاع علشان يفضلوا مع بعض."},
+          "careers": ["musician", "dancer"]
+        },
+        {
+          "id": "performing_try_4",
+          "title": {"en": "Fitting the slot", "ar": "الوقت المتاح"},
+          "type": "puzzle",
+          "text": {"en": "A TV segment is 12 minutes. You have 3 guests and need 3 minutes for the opening and close. How long does each guest get?", "ar": "فقرة تلفزيون مدتها 12 دقيقة. عندك 3 ضيوف ومحتاج 3 دقايق للمقدمة والختام. كل ضيف ياخد قد إيه؟"},
+          "options": [{"en": "2 minutes", "ar": "دقيقتين"},{"en": "3 minutes", "ar": "3 دقايق"},{"en": "4 minutes", "ar": "4 دقايق"},{"en": "5 minutes", "ar": "5 دقايق"}],
+          "answer": 1,
+          "explain": {"en": "12 − 3 = 9 minutes for guests; 9 ÷ 3 = 3 minutes each. Presenters plan time to the minute.", "ar": "12 − 3 = 9 دقايق للضيوف؛ 9 ÷ 3 = 3 دقايق لكل واحد. المذيعين بيخططوا الوقت بالدقيقة."},
+          "careers": ["tv_presenter", "actor"]
+        }
+      ]
+    }
+  ]
+}

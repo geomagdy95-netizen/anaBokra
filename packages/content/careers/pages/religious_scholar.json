@@ -1,0 +1,257 @@
+{
+  "id": "religious_scholar",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You study sacred texts deeply, so others can understand them.",
+      "ar": "بتدرس النصوص الدينية بعمق، علشان غيرك يفهمها."
+    },
+    "summary": {
+      "en": "Religious scholars and researchers study and teach theology, jurisprudence, scripture and religious history at universities, research councils and fatwa institutions. In Egypt they work at Al-Azhar University, Dar al-Ifta, the Islamic Research Academy and church theological colleges, usually after a master's and doctorate.",
+      "ar": "الباحث في العلوم الدينية بيدرس ويعلّم العقيدة والفقه والنصوص والتاريخ الديني في الجامعات ومجامع البحث ومؤسسات الفتوى. في مصر بيشتغلوا في جامعة الأزهر ودار الإفتاء ومجمع البحوث الإسلامية والكليات اللاهوتية للكنايس، غالبًا بعد الماجستير والدكتوراه."
+    },
+    "dayInLife": {
+      "en": "You spend the morning in the library comparing manuscripts for your research on a historical text. At noon you answer written questions sent to the fatwa department with a senior scholar, checking sources and context. In the afternoon you lecture second-year students and discuss a thesis plan with your supervisor.",
+      "ar": "بتقضي الصبح في المكتبة بتقارن مخطوطات لبحثك عن نص تاريخي. الضهر بترد على أسئلة مكتوبة وصلت لقسم الفتوى مع عالم أكبر، وبتراجع المصادر والسياق. بعد الضهر بتدّي محاضرة لتانية وبتناقش خطة رسالة مع المشرف."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Research religious texts and questions.",
+        "ar": "بتبحث في النصوص والمسائل الدينية."
+      },
+      {
+        "en": "Teach at university or institutes.",
+        "ar": "بتدرّس في الجامعة أو المعاهد."
+      },
+      {
+        "en": "Write papers and books.",
+        "ar": "بتكتب أبحاث وكتب."
+      },
+      {
+        "en": "Answer religious questions with care.",
+        "ar": "بترد على الأسئلة الدينية بحرص."
+      },
+      {
+        "en": "Take part in public education and dialogue.",
+        "ar": "بتشارك في التوعية والحوار."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Universities and research councils",
+        "ar": "الجامعات ومجامع البحث"
+      },
+      {
+        "en": "Fatwa institutions and theological colleges",
+        "ar": "مؤسسات الفتوى والكليات اللاهوتية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Libraries, manuscripts and digital archives",
+        "ar": "المكتبات والمخطوطات والأرشيفات الرقمية"
+      },
+      {
+        "en": "Research databases",
+        "ar": "قواعد بيانات الأبحاث"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Al-Azhar University (Usul al-Din, Sharia, Arabic)",
+        "ar": "جامعة الأزهر (أصول الدين، الشريعة، اللغة العربية)"
+      },
+      {
+        "en": "Church theological colleges and seminaries",
+        "ar": "الكليات اللاهوتية والإكليريكية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Master's and doctorate for academic posts",
+        "ar": "ماجستير ودكتوراه للوظايف الأكاديمية"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Deep knowledge of texts and sources",
+        "ar": "معرفة عميقة بالنصوص والمصادر"
+      },
+      {
+        "en": "Research methods",
+        "ar": "مناهج البحث"
+      },
+      {
+        "en": "Classical Arabic or ancient languages",
+        "ar": "العربية الفصحى أو اللغات القديمة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and rigour",
+        "ar": "الصبر والدقة"
+      },
+      {
+        "en": "Respectful dialogue",
+        "ar": "الحوار باحترام"
+      },
+      {
+        "en": "Clear teaching",
+        "ar": "التدريس الواضح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Classical Arabic; English for international research",
+        "ar": "العربية الفصحى، والإنجليزي للبحث الدولي"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Al-Azhar University and research councils",
+        "ar": "جامعة الأزهر ومجامع البحث"
+      },
+      {
+        "en": "Dar al-Ifta",
+        "ar": "دار الإفتاء"
+      },
+      {
+        "en": "Church theological colleges",
+        "ar": "الكليات اللاهوتية للكنايس"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Research and some teaching can be remote.",
+      "ar": "البحث وبعض التدريس ممكن عن بعد."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo",
+        "ar": "أساسًا القاهرة"
+      }
+    ],
+    "salaryNote": {
+      "en": "There is no salary survey for religious scholars. Most are paid as university staff at Al-Azhar or other universities, or as employees of the Ministry of Awqaf or Dar Al-Ifta, each on its own official scale, so we do not show a number.",
+      "ar": "لا يوجد استطلاع رواتب لعلماء الدين. يتقاضى أغلبهم أجرًا كأعضاء هيئة تدريس في الأزهر أو جامعات أخرى، أو كموظفين في وزارة الأوقاف أو دار الإفتاء، ولكل جهة جدولها الرسمي، لذلك لا نعرض رقمًا."
+    }
+  },
+  "global": {
+    "en": "Azhar scholars teach and research worldwide; international universities hire religious studies experts.",
+    "ar": "علماء الأزهر بيدرّسوا ويبحثوا حوالين العالم؛ والجامعات الدولية بتشغّل خبراء دراسات دينية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Deep, meaningful study",
+        "ar": "دراسة عميقة ليها معنى"
+      },
+      {
+        "en": "Respected expertise",
+        "ar": "خبرة محترمة"
+      },
+      {
+        "en": "International exchange",
+        "ar": "تبادل دولي"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long years of study",
+        "ar": "سنين دراسة طويلة"
+      },
+      {
+        "en": "Few academic posts",
+        "ar": "وظايف أكاديمية قليلة"
+      },
+      {
+        "en": "Public scrutiny of opinions",
+        "ar": "الآراء بتبقى تحت نظر الناس"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Religious scholars only repeat what is already known.",
+          "ar": "العلماء بيكرروا اللي معروف وبس."
+        },
+        "fact": {
+          "en": "Scholarship involves research, comparing sources and answering new questions.",
+          "ar": "العلم فيه بحث ومقارنة مصادر وإجابة أسئلة جديدة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Flexible academic hours with teaching and deadlines.",
+      "ar": "مواعيد أكاديمية مرنة مع تدريس ومواعيد تسليم."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Research assistant or teaching assistant",
+        "ar": "مساعد باحث أو معيد"
+      },
+      {
+        "en": "Researcher or lecturer",
+        "ar": "باحث أو مدرس"
+      },
+      {
+        "en": "Senior scholar or professor",
+        "ar": "عالم أول أو أستاذ"
+      },
+      {
+        "en": "Head of department or institution",
+        "ar": "رئيس قسم أو مؤسسة"
+      }
+    ],
+    "relatedCareerIds": [
+      "imam_preacher",
+      "religious_teacher",
+      "university_lecturer",
+      "egyptologist"
+    ],
+    "pivots": [
+      {
+        "en": "Religious education",
+        "ar": "التعليم الديني"
+      },
+      {
+        "en": "Translation and publishing",
+        "ar": "الترجمة والنشر"
+      }
+    ]
+  },
+  "industryId": "religion",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Philosophy and Religion Teachers, Postsecondary (25-1126.00)",
+      "url": "https://www.onetonline.org/link/summary/25-1126.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Historians (19-3093.00)",
+      "url": "https://www.onetonline.org/link/summary/19-3093.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

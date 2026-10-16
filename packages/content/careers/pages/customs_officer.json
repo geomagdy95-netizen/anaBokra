@@ -1,0 +1,259 @@
+{
+  "id": "customs_officer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You decide what crosses Egypt's borders, and what doesn't.",
+      "ar": "بتقرر إيه اللي يعدّي حدود مصر، وإيه لأ."
+    },
+    "summary": {
+      "en": "Customs and border officers inspect goods and travellers at ports, airports and land borders, check documents, assess duties and stop smuggling. In Egypt the Egyptian Customs Authority (Ministry of Finance) hires through competitions, often for Commerce and Law graduates, while border security officers come from police and military academies.",
+      "ar": "ضابط الجمارك والحدود بيفتش البضايع والمسافرين في الموانئ والمطارات والمنافذ البرية، بيراجع المستندات، بيحدد الرسوم وبيوقف التهريب. في مصر مصلحة الجمارك (وزارة المالية) بتعيّن بمسابقات، غالبًا لخريجين التجارة والحقوق، وضباط أمن الحدود بييجوا من أكاديميات الشرطة والكليات العسكرية."
+    },
+    "dayInLife": {
+      "en": "At Alexandria port, you review the documents for a container of electronics: the declared value looks low. You open the container with the inspection team, compare the goods with the invoice and recalculate the duties. A risk system flags another shipment; the X-ray shows hidden cartons, which you seize and report. In the afternoon you answer a clearing agent's questions about new rules.",
+      "ar": "في ميناء إسكندرية بتراجع مستندات حاوية إلكترونيات: القيمة المعلنة شكلها قليلة. بتفتح الحاوية مع فريق المعاينة، بتقارن البضاعة بالفاتورة وبتعيد حساب الرسوم. نظام المخاطر بيعلّم على شحنة تانية؛ الأشعة بتورّي كراتين متخبية، فبتتحفظ عليها وبتبلّغ. بعد الضهر بترد على أسئلة مخلّص جمركي عن قواعد جديدة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Check import and export documents.",
+        "ar": "بتراجع مستندات الاستيراد والتصدير."
+      },
+      {
+        "en": "Inspect goods and travellers.",
+        "ar": "بتفتش البضايع والمسافرين."
+      },
+      {
+        "en": "Classify goods and calculate duties.",
+        "ar": "بتصنف البضايع وتحسب الرسوم."
+      },
+      {
+        "en": "Detect and stop smuggling.",
+        "ar": "بتكتشف وتوقف التهريب."
+      },
+      {
+        "en": "Apply trade rules and agreements.",
+        "ar": "بتطبق قواعد واتفاقيات التجارة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Ports, airports and land borders",
+        "ar": "الموانئ والمطارات والمنافذ البرية"
+      },
+      {
+        "en": "Customs offices",
+        "ar": "مكاتب الجمارك"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Customs IT platforms",
+        "ar": "المنصات الإلكترونية للجمارك"
+      },
+      {
+        "en": "X-ray scanners",
+        "ar": "أجهزة الأشعة"
+      },
+      {
+        "en": "Tariff schedules",
+        "ar": "جداول التعريفة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Commerce or Law (Customs Authority competitions)",
+        "ar": "كلية التجارة أو الحقوق (مسابقات مصلحة الجمارك)"
+      },
+      {
+        "en": "Police or military academies for border security",
+        "ar": "أكاديمية الشرطة أو الكليات العسكرية لأمن الحدود"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Customs law and tariffs",
+        "ar": "قانون الجمارك والتعريفات"
+      },
+      {
+        "en": "Inspection techniques",
+        "ar": "طرق المعاينة"
+      },
+      {
+        "en": "Trade documents",
+        "ar": "مستندات التجارة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Integrity",
+        "ar": "النزاهة"
+      },
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      },
+      {
+        "en": "Firm but polite manner",
+        "ar": "أسلوب حازم ومؤدب"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for international documents",
+        "ar": "الإنجليزي للمستندات الدولية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11040,
+        "max": 22571
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/public-administration-self-governance?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Customs Officer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Customs Officer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Egyptian Customs Authority",
+        "ar": "مصلحة الجمارك المصرية"
+      },
+      {
+        "en": "Border security forces",
+        "ar": "قوات أمن الحدود"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Ports, airports and borders across Egypt",
+        "ar": "الموانئ والمطارات والمنافذ في كل مصر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Customs and trade-compliance experience helps in Gulf logistics and compliance roles.",
+    "ar": "خبرة الجمارك والالتزام التجاري بتفيد في وظايف اللوجستيات والامتثال في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Stable government job",
+        "ar": "وظيفة حكومية مستقرة"
+      },
+      {
+        "en": "Important to the economy and safety",
+        "ar": "مهم للاقتصاد والأمان"
+      },
+      {
+        "en": "Varied inspections",
+        "ar": "معاينات متنوعة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few, competitive openings",
+        "ar": "أماكن قليلة وتنافسية"
+      },
+      {
+        "en": "Pressure and temptation require strong integrity",
+        "ar": "الضغط والإغراءات محتاجين نزاهة قوية"
+      },
+      {
+        "en": "Shifts at airports and borders",
+        "ar": "شيفتات في المطارات والمنافذ"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Customs officers just stamp papers.",
+          "ar": "موظف الجمارك بيختم ورق وبس."
+        },
+        "fact": {
+          "en": "They classify goods, calculate duties and catch smuggling using risk systems and inspections.",
+          "ar": "بيصنفوا البضايع ويحسبوا الرسوم ويمسكوا التهريب بأنظمة المخاطر والمعاينة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours at some posts, shifts at ports and airports.",
+      "ar": "مواعيد مكتب في بعض الأماكن، وشيفتات في الموانئ والمطارات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Customs inspector",
+        "ar": "مأمور جمرك"
+      },
+      {
+        "en": "Senior inspector",
+        "ar": "مأمور أول"
+      },
+      {
+        "en": "Customs station head",
+        "ar": "رئيس منفذ جمركي"
+      },
+      {
+        "en": "Senior Customs Authority role",
+        "ar": "منصب أعلى في مصلحة الجمارك"
+      }
+    ],
+    "relatedCareerIds": [
+      "logistics_coordinator",
+      "compliance_officer",
+      "police_officer",
+      "security_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Customs clearance and freight",
+        "ar": "التخليص الجمركي والشحن"
+      },
+      {
+        "en": "Trade compliance",
+        "ar": "الامتثال التجاري"
+      }
+    ]
+  },
+  "industryId": "security",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Customs and Border Protection Officers (33-3051.04)",
+      "url": "https://www.onetonline.org/link/summary/33-3051.04",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Compliance Officers (13-1041.00)",
+      "url": "https://www.onetonline.org/link/summary/13-1041.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

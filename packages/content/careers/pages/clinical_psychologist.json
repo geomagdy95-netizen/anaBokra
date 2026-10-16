@@ -202,7 +202,20 @@
     ]
   },
   "marketEgypt": {
-    "salaryMonthlyEgp": null,
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10520,
+        "max": 26689
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Clinical Psychologist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Clinical Psychologist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
     "demand": "medium",
     "employers": [
       {
@@ -236,11 +249,7 @@
         "ar": "العمل عبر الإنترنت يصل إلى عملاء في المحافظات"
       }
     ],
-    "providerIds": [],
-    "salaryNote": {
-      "en": "We did not find a citable Egypt salary figure for clinical psychologists (the Paylab page for psychologists shows no job-specific data), so pay is left empty rather than estimated. Income varies widely between hospital posts and private session fees.",
-      "ar": "لم نجد رقم راتب موثقًا للأخصائي النفسي الإكلينيكي في مصر (صفحة Paylab للأخصائيين النفسيين لا تعرض بيانات لهذه الوظيفة)، لذلك تُرك الراتب فارغًا بدل التقدير. يختلف الدخل كثيرًا بين وظائف المستشفيات وأجر الجلسات الخاصة."
-    }
+    "providerIds": []
   },
   "global": {
     "en": "Psychologists are in demand worldwide, and Arabic-speaking therapists are needed in the Gulf and in Arabic-speaking communities abroad. But to practice you normally need local licensing, a recognized master's or doctorate and supervised hours, so plan postgraduate study abroad early.",

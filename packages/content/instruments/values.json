@@ -7,7 +7,7 @@
     "name": "Structure of the O*NET Work Importance Locator / Minnesota Importance Questionnaire (6 values, 21 needs)",
     "url": "https://www.onetcenter.org/WIL.html",
     "license": "Value/need taxonomy is public (O*NET content model). Card wording is anaBokra's own and must be reviewed by the psychologist.",
-    "notes": "Each need card maps to one of the six O*NET work values so results connect directly to O*NET occupation data. 'Must have' is limited to 7 cards to force prioritization, as in the original Q-sort."
+    "notes": "Each need card maps to one of the six O*NET work values so results connect directly to O*NET occupation data. 'Must have' is limited to 7 cards to force prioritization, as in the original Q-sort. The 'budget' is a quicker alternative used in Discover/Verify (10 coins over the six values, one screen); a session uses one or the other (apps/web ANSWER_FORMATS). DRAFT: the psychologist confirms the budget and its scoring before the pilot."
   },
   "buckets": [
     { "id": "must", "name": { "en": "Must have", "ar": "لازم يكون موجود" }, "weight": 3, "limit": 7 },
@@ -41,5 +41,16 @@
     { "id": "v_creativity", "value": "independence", "text": { "en": "I'd try out my own ideas", "ar": "أجرّب أفكاري الخاصة" } },
     { "id": "v_responsibility", "value": "independence", "text": { "en": "I'd make decisions on my own", "ar": "آخد قراراتي بنفسي" } },
     { "id": "v_autonomy", "value": "independence", "text": { "en": "I'd plan my work with little supervision", "ar": "أخطط لشغلي من غير رقابة كتير" } }
-  ]
+  ],
+  "budget": {
+    "coins": 10,
+    "items": [
+      { "id": "vb_achievement", "value": "achievement" },
+      { "id": "vb_workingConditions", "value": "workingConditions" },
+      { "id": "vb_recognition", "value": "recognition" },
+      { "id": "vb_relationships", "value": "relationships" },
+      { "id": "vb_support", "value": "support" },
+      { "id": "vb_independence", "value": "independence" }
+    ]
+  }
 }

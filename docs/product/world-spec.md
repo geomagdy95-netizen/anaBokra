@@ -47,7 +47,7 @@ The same rule applies at every level: **the level unlocks, then the user builds 
 
 **Chains per selected career.** L3 and L4 hang off the career the user selected, so each selected career grows outward: Core → Group → Career → Progress plan → Career plan. Two selected careers give two chains, which may come from the same group or from different groups.
 
-**Groups are the 12 catalog clusters** (`packages/content/careers/catalog.json`): Health & Medicine (10 careers), Engineering (10), Technology & Data (10), Business & Finance (9), Marketing & Media (7), Creative & Design (6), Science & Research (6), Tourism & Hospitality (6), Law & Public Service (5), Education & Social (5), Skilled Trades & Technical (5), Agriculture & Food (3). The psychologist can regroup later; a regroup is a content change, not an app change.
+**Groups are the 18 catalog clusters** (`packages/content/careers/catalog.json`). The first 12: Health & Medicine, Engineering, Technology & Data, Business & Finance, Marketing & Media, Creative & Design, Science & Research, Tourism & Hospitality, Law & Public Service, Education & Social, Skilled Trades & Technical, Agriculture & Food. Added 15 Oct 2026: Sports & Fitness, Transport, Aviation & Logistics, Beauty & Wellness, Security & Defense, Religion & Ministry, Performing Arts & Entertainment (Pilot and Flight Attendant moved to Transport, Police/Military Officer to Security, Musician to Performing Arts; the police and military officer career was split in two the same day). 130 careers in all. The psychologist can regroup later; a regroup is a content change, not an app change.
 
 ### 1.2 Island states
 
@@ -113,6 +113,8 @@ Every island has a details page, opened by tapping it. Its content comes from th
 | Your bridge | Phases and steps with progress | New (section 4) |
 
 ### 2.3 Career island (L2)
+
+*Built 15 Oct 2026 (`apps/web/src/lib/journey/career-quest.ts`, `features/journey/career-island.tsx`):* the island opens once its group's path has a result. Its bridge is a career quest generated from the career page: reactions to the day in the life, the challenges and the route in, a tap-the-tasks grid, plus guess-the-pay and myth-or-fact (knowledge only, never scored). The result mixes the Discover fit with the quest (draft weights 50/30/20, as Verify) and offers "add to my careers" (at most 2, swap when full, enforced in the progress logic). Selected careers show on my island under "My careers", with the L3 plan "opening soon". Everything stays on the phone; nothing about careers is uploaded.
 
 | Section | Content | Source today |
 |---|---|---|
@@ -276,7 +278,7 @@ The upload endpoint accepts only these three record types, stores no IP address 
 | World map | 3D "miniature diorama" (since 14 Oct): rocky islands on a turquoise sea, wooden rope bridges, cypress and olive trees, golden-hour daylight only (no night mode), soft tilt-shift on high quality; plus list view | Detailed landmark models per group, a character for "me", camera fly-through; list view kept |
 | Core island + details page | Yes | Yes |
 | L1 group islands | 3–5 fully written; the rest "coming soon" with career pages open | All 12 |
-| L2 career islands | Career pages only, bridges "coming soon" | 15+ with bridges; the rest career pages + "coming soon" |
+| L2 career islands | **Built 15 Oct 2026 for all 82 careers:** a checked path (any band) opens its careers; each has a "career quest" built from its page (day in the life, tasks, guess the pay, myth or fact, challenges, route in), a fit result and "add to my careers" (cap 2). The map shows a checked group's top 3 careers as islets, plus any started or selected | Same, with authored quests where the generated one is thin |
 | L3 progress plan / L4 career plan | Fogged | Yes |
 | Archive / restore | Yes | Yes |
 | XP and achievements (on device) | Yes | Yes |
@@ -284,6 +286,8 @@ The upload endpoint accepts only these three record types, stores no IP address 
 | Event code and research opt-in | Yes | No |
 | Dashboard: template library, tags, island builder, publish, preview | No, content seeded | Yes |
 | Dashboard: level config, world settings | Hard-coded defaults | Yes |
+
+**Navigation (15 Oct 2026): the map is the app.** `/journey` is the world map full screen, with no tab bar. Over it float glass controls (frosted, Apple-style; lighter blur on weak tablets, solid when the system asks for less transparency): a header with the logo, search, map/list, saved and profile; a legend; and a "next step" pill at the bottom (`lib/journey/next-step.ts`: next Discover task, then a field in progress, the best suggested field, then a career quest). My island is bigger; the next Discover task shows as one labelled pin on its rim (finished tasks show as the island growing, so they get no marks). Over the map: zoom in/out and "whole map" buttons plus the arrange button; a dock of shortcuts above the pill (my island, my results, my careers, all fields); and a one-time "tap any island" tip. Tapping an island opens its glass sheet; the sheet's button opens the full page: `/journey/me` (my island: Discover, suggestions, my careers, results; `?task=n` opens a station), `/journey/{group}` (Verify), `/journey/{group}/{career}` (career quest). Every inner page has a back link to the map and the profile button. `/journey/map` redirects to `/journey`. The list view shows the same world (my island first) for screen readers, weak devices and teachers giving instructions. Later: camera fly-in to an island before its page, unlock animations on stations.
 
 **Replaces:** the current `features/path` four-station path world. The assessment, results, careers and explore features stay and are reached from island details pages.
 

@@ -427,5 +427,36 @@
       "url": "https://gate.ahram.org.eg/News/4951911.aspx",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "moderate",
+    "hurdles": [
+      {
+        "kind": "license",
+        "level": 2,
+        "text": {
+          "en": "Since the 2019 amendment, registering with the Bar needs a national written exam set by the syndicate, held twice a year.",
+          "ar": "من تعديل 2019، القيد في نقابة المحامين محتاج امتحان تحريري على مستوى الجمهورية بتحطه النقابة، بيتعمل مرتين في السنة."
+        },
+        "tip": {
+          "en": "Keep your law notes from university; the exam covers the core subjects.",
+          "ar": "الاحتفاظ بمذكرات الكلية مفيد؛ الامتحان بيغطي المواد الأساسية."
+        },
+        "source": "https://www.youm7.com/story/2019/7/8/%D8%B5%D9%88%D8%B1-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D9%86%D9%88%D8%A7%D8%A8-%D9%8A%D9%88%D8%A7%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B4%D9%87%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%A7%D8%B2%D9%85%D8%A9-%D9%84%D9%84%D9%82%D9%8A%D8%AF-%D8%A8%D9%86%D9%82%D8%A7%D8%A8%D8%A9/4324875"
+      },
+      {
+        "kind": "experience",
+        "level": 2,
+        "text": {
+          "en": "You start as a trainee lawyer and need a registered lawyer's office (or a legal department) to accept you; pay in the first years is often low.",
+          "ar": "بتبدأ محامي تحت التمرين ومحتاج مكتب محامي مقيد (أو إدارة قانونية) يقبلك؛ والمرتب في أول سنين غالبًا قليل."
+        },
+        "tip": {
+          "en": "Training in an office during university makes it easier to be accepted later. If no office accepts you, the branch syndicate can arrange one.",
+          "ar": "التدريب في مكتب وإنت في الجامعة بيسهّل القبول بعدين. ولو مفيش مكتب قبلك، النقابة الفرعية ممكن ترتّب لك مكتب."
+        },
+        "source": "https://www.youm7.com/7162714"
+      }
+    ]
+  }
 }

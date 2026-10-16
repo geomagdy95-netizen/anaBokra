@@ -1,6 +1,6 @@
 {
   "id": "law",
-  "version": "0.1.0-draft",
+  "version": "0.1.2-draft",
   "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,14 +9,13 @@
       "title": { "en": "A day in law and public service", "ar": "يوم في القانون والخدمة العامة" },
       "intro": { "en": "Moments from a typical day in law and public service. How does each one sound to you?", "ar": "لحظات من يوم عادي في القانون والخدمة العامة. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "law_day_1", "title": { "en": "The one detail", "ar": "التفصيلة الفارقة" }, "text": { "en": "Reading a 40-page case file to find the one detail that matters.", "ar": "قراية ملف قضية 40 صفحة عشان تلاقي التفصيلة الوحيدة اللي فارقة." }, "careers": ["lawyer", "judge_prosecutor", "political_scientist"] },
-        { "id": "law_day_2", "title": { "en": "In court", "ar": "في المحكمة" }, "text": { "en": "Pleading in court: defending your client in front of the judge.", "ar": "مرافعة في المحكمة: دفاع عن موكلك قدام القاضي." }, "careers": ["lawyer"] },
-        { "id": "law_day_3", "title": { "en": "The witness", "ar": "الشاهد" }, "text": { "en": "Questioning a witness and noticing the story doesn't add up.", "ar": "استجواب شاهد وملاحظة إن حكايته مش راكبة." }, "careers": ["judge_prosecutor", "police_military_officer", "lawyer"] },
-        { "id": "law_day_4", "title": { "en": "Every word weighed", "ar": "كل كلمة محسوبة" }, "text": { "en": "A meeting with a foreign delegation where every word is weighed.", "ar": "اجتماع مع وفد أجنبي، كل كلمة فيه محسوبة." }, "careers": ["diplomat", "political_scientist"] },
-        { "id": "law_day_5", "title": { "en": "A paper for decision-makers", "ar": "ورقة لصناع القرار" }, "text": { "en": "Writing a short paper for decision-makers about a new law.", "ar": "كتابة ورقة قصيرة لصناع القرار عن قانون جديد." }, "careers": ["political_scientist", "lawyer", "diplomat"] },
-        { "id": "law_day_6", "title": { "en": "The night patrol", "ar": "دورية الليل" }, "text": { "en": "A night patrol, staying alert for hours.", "ar": "دورية بالليل وانتباه كامل لساعات." }, "careers": ["police_military_officer"] },
-        { "id": "law_day_7", "title": { "en": "One meaning only", "ar": "معنى واحد بس" }, "text": { "en": "Drafting a contract so nothing in it can be read two ways.", "ar": "صياغة عقد بحيث مفيش كلمة فيه تتفهم بمعنيين." }, "careers": ["lawyer"] },
-        { "id": "law_day_8", "title": { "en": "The ruling", "ar": "الحكم" }, "text": { "en": "Deciding a case and writing the reasons so the decision is fair and clear.", "ar": "الحكم في قضية وكتابة الأسباب بحيث القرار يبقى عادل وواضح." }, "careers": ["judge_prosecutor"] }
+        { "id": "law_day_1", "title": { "en": "The one detail", "ar": "التفصيلة الفارقة" }, "text": { "en": "Reading a 40-page case file to find the one detail that matters.", "ar": "بتقرا ملف قضية 40 صفحة، علشان تلاقي التفصيلة الوحيدة اللي هتفرق.", "arF": "بتقري ملف قضية 40 صفحة، علشان تلاقي التفصيلة الوحيدة اللي هتفرق." }, "careers": ["lawyer", "judge_prosecutor", "political_scientist"] },
+        { "id": "law_day_2", "title": { "en": "In court", "ar": "في المحكمة" }, "text": { "en": "Pleading in court: defending your client in front of the judge.", "ar": "بتترافع في المحكمة، وبتدافع عن موكلك قدام القاضي.", "arF": "بتترافعي في المحكمة، وبتدافعي عن موكلك قدام القاضي." }, "careers": ["lawyer"] },
+        { "id": "law_day_3", "title": { "en": "The witness", "ar": "الشاهد" }, "text": { "en": "Questioning a witness and noticing the story doesn't add up.", "ar": "بتسأل شاهد، وبتاخد بالك إن كلامه مش راكب على بعضه.", "arF": "بتسألي شاهد، وبتاخدي بالك إن كلامه مش راكب على بعضه." }, "careers": ["judge_prosecutor", "lawyer"] },
+        { "id": "law_day_4", "title": { "en": "Every word weighed", "ar": "كل كلمة محسوبة" }, "text": { "en": "A meeting with a foreign delegation where every word is weighed.", "ar": "اجتماع مع وفد أجنبي، وكل كلمة بتتقال لازم تكون محسوبة." }, "careers": ["diplomat", "political_scientist"] },
+        { "id": "law_day_5", "title": { "en": "A paper for decision-makers", "ar": "ورقة للمسؤولين" }, "text": { "en": "Writing a short paper for decision-makers about a new law.", "ar": "بتكتب ورقة قصيرة للمسؤولين عن قانون جديد، علشان ياخدوا قرارهم على أساسها.", "arF": "بتكتبي ورقة قصيرة للمسؤولين عن قانون جديد، علشان ياخدوا قرارهم على أساسها." }, "careers": ["political_scientist", "lawyer", "diplomat"] },
+        { "id": "law_day_7", "title": { "en": "One meaning only", "ar": "معنى واحد بس" }, "text": { "en": "Drafting a contract so nothing in it can be read two ways.", "ar": "بتكتب عقد بحيث مفيش كلمة فيه تتفهم بمعنيين.", "arF": "بتكتبي عقد بحيث مفيش كلمة فيه تتفهم بمعنيين." }, "careers": ["lawyer"] },
+        { "id": "law_day_8", "title": { "en": "The ruling", "ar": "الحكم" }, "text": { "en": "Deciding a case and writing the reasons so the decision is fair and clear.", "ar": "بتحكم في قضية، وبتكتب أسباب الحكم علشان يبان عادل وواضح للكل.", "arF": "بتحكمي في قضية، وبتكتبي أسباب الحكم علشان يبان عادل وواضح للكل." }, "careers": ["judge_prosecutor"] }
       ]
     },
     {
@@ -25,13 +24,13 @@
       "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
       "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
       "items": [
-        { "id": "law_real_1", "title": { "en": "How much reading", "ar": "قد إيه قراية" }, "a": { "en": "Long reading of laws and documents, every day", "ar": "قراية طويلة في قوانين ومستندات كل يوم" }, "b": { "en": "Work with little reading", "ar": "شغل فيه قراية قليلة" }, "path": "a", "careers": ["lawyer", "judge_prosecutor", "political_scientist", "diplomat"] },
-        { "id": "law_real_2", "title": { "en": "Rules and rank", "ar": "قواعد ورتب" }, "a": { "en": "Strict rules, a uniform and a chain of command", "ar": "قواعد صارمة وزي رسمي وتسلسل قيادي" }, "b": { "en": "A flexible workplace with few rules", "ar": "مكان شغل مرن وقواعده قليلة" }, "path": "a", "careers": ["police_military_officer", "judge_prosecutor", "diplomat"] },
+        { "id": "law_real_1", "title": { "en": "How much reading", "ar": "كمية القراية" }, "a": { "en": "Long reading of laws and documents, every day", "ar": "قراية طويلة في قوانين ومستندات كل يوم" }, "b": { "en": "Work with little reading", "ar": "شغل فيه قراية قليلة" }, "path": "a", "careers": ["lawyer", "judge_prosecutor", "political_scientist", "diplomat"] },
+        { "id": "law_real_2", "title": { "en": "Rules and rank", "ar": "قواعد ورتب" }, "a": { "en": "Strict rules, a uniform and a chain of command", "ar": "قواعد صارمة وزي رسمي وتسلسل قيادي" }, "b": { "en": "A flexible workplace with few rules", "ar": "مكان شغل مرن وقواعده قليلة" }, "path": "a", "careers": ["judge_prosecutor", "diplomat"] },
         { "id": "law_real_3", "title": { "en": "How money comes", "ar": "الفلوس بتيجي إزاي" }, "a": { "en": "Years of building your name before the money comes", "ar": "سنين بتبني فيها اسمك قبل ما الفلوس تيجي" }, "b": { "en": "A steady salary from the first month", "ar": "مرتب ثابت من أول شهر" }, "path": "a", "careers": ["lawyer", "political_scientist"] },
-        { "id": "law_real_4", "title": { "en": "Staying or moving", "ar": "استقرار ولا تنقل" }, "a": { "en": "Moving to a new country every few years", "ar": "النقل لبلد جديدة كل كام سنة" }, "b": { "en": "Staying near family in one city", "ar": "الاستقرار جنب العيلة في مدينة واحدة" }, "path": "a", "careers": ["diplomat"] },
-        { "id": "law_real_5", "title": { "en": "Conflict", "ar": "الخلافات" }, "a": { "en": "Dealing with conflict and people at their worst moments", "ar": "تتعامل مع خلافات وناس في أصعب لحظاتهم", "arF": "تتعاملي مع خلافات وناس في أصعب لحظاتهم" }, "b": { "en": "Work where everyone gets along", "ar": "شغل الكل فيه متفاهم" }, "path": "a", "careers": ["lawyer", "judge_prosecutor", "police_military_officer"] },
+        { "id": "law_real_4", "title": { "en": "Staying or moving", "ar": "استقرار ولا تنقل" }, "a": { "en": "Moving to a new country every few years", "ar": "تتنقل لبلد جديدة كل كام سنة", "arF": "تتنقلي لبلد جديدة كل كام سنة" }, "b": { "en": "Staying near family in one city", "ar": "تفضل جنب عيلتك في مدينة واحدة", "arF": "تفضلي جنب عيلتك في مدينة واحدة" }, "path": "a", "careers": ["diplomat"] },
+        { "id": "law_real_5", "title": { "en": "Conflict", "ar": "الخلافات" }, "a": { "en": "Dealing with conflict and people at their worst moments", "ar": "تتعامل مع خلافات وناس في أصعب لحظاتهم", "arF": "تتعاملي مع خلافات وناس في أصعب لحظاتهم" }, "b": { "en": "Work where everyone gets along", "ar": "شغل الكل فيه متفاهم" }, "path": "a", "careers": ["lawyer", "judge_prosecutor"] },
         { "id": "law_real_6", "title": { "en": "What your decisions touch", "ar": "قراراتك بتأثر على إيه" }, "a": { "en": "Decisions that affect people's rights and freedom", "ar": "قرارات بتأثر على حقوق الناس وحريتهم" }, "b": { "en": "Decisions that only affect paperwork", "ar": "قرارات بتأثر على ورق وبس" }, "path": "a" },
-        { "id": "law_real_7", "title": { "en": "Getting in", "ar": "الدخول" }, "a": { "en": "Tough entrance exams and interviews", "ar": "امتحانات ومقابلات دخول صعبة ومنافسة عالية" }, "b": { "en": "Easy entry with no tests", "ar": "دخول سهل من غير اختبارات" }, "path": "a", "careers": ["judge_prosecutor", "diplomat", "police_military_officer"] }
+        { "id": "law_real_7", "title": { "en": "Getting in", "ar": "طريقة الدخول" }, "a": { "en": "Tough entrance exams and interviews", "ar": "امتحانات ومقابلات دخول صعبة ومنافسة عالية" }, "b": { "en": "Easy entry with no tests", "ar": "دخول سهل من غير اختبارات" }, "path": "a", "careers": ["judge_prosecutor", "diplomat"] }
       ]
     },
     {
@@ -64,7 +63,7 @@
             { "text": { "en": "Believe whoever sounds more confident", "ar": "أصدّق اللي باين عليه واثق أكتر" }, "fit": 0.1 },
             { "text": { "en": "Meet them halfway", "ar": "أمسك العصاية من النص" }, "fit": 0.3 }
           ],
-          "careers": ["judge_prosecutor", "police_military_officer", "lawyer", "diplomat"]
+          "careers": ["judge_prosecutor", "lawyer", "diplomat"]
         },
         {
           "id": "law_try_3",

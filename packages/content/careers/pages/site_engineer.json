@@ -1,0 +1,274 @@
+{
+  "id": "site_engineer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "Drawings become buildings because you are on site every day.",
+      "ar": "الرسومات بتتحول لمباني علشان إنت في الموقع كل يوم."
+    },
+    "summary": {
+      "en": "Site engineers run the daily work on a construction site: they read the drawings, set out the work, check quality and quantities, manage subcontractors and keep the job safe and on schedule. In Egypt it is the usual first job for civil and architecture graduates, with large demand from housing, new cities and finishing works.",
+      "ar": "مهندس الموقع بيدير الشغل اليومي في موقع البناء: بيقرا الرسومات، بيوقّع الشغل على الأرض، بيراجع الجودة والكميات، بيدير المقاولين ويخلّي الشغل آمن وفي ميعاده. في مصر دي أول وظيفة معتادة لخريجين المدني والعمارة، والطلب كبير من الإسكان والمدن الجديدة وأعمال التشطيبات."
+    },
+    "dayInLife": {
+      "en": "You are on site at 7 a.m. before the workers start. You check the steel in the columns of the third floor against the drawings, find a spacing mistake and ask the foreman to fix it before the concrete arrives at 11. You count the deliveries of cement and blocks, then meet the finishing subcontractor about tiles. In the afternoon you write the daily report with photos and update the schedule, then walk the site with the safety officer.",
+      "ar": "بتكون في الموقع الساعة 7 الصبح قبل العمال ما يبدأوا. بتراجع حديد أعمدة الدور التالت على الرسومات، بتلاقي غلطة في المسافات وبتطلب من الريس يصلحها قبل الخرسانة ما توصل الساعة 11. بتعد توريدات الأسمنت والطوب، وبعدين بتقابل مقاول التشطيبات بخصوص السيراميك. بعد الضهر بتكتب التقرير اليومي بالصور وبتحدّث الجدول الزمني، وبعدين بتلف في الموقع مع مسؤول السلامة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Read drawings and set out the work on the ground.",
+        "ar": "بتقرا الرسومات وبتوقّع الشغل على الأرض."
+      },
+      {
+        "en": "Supervise workers and subcontractors.",
+        "ar": "بتشرف على العمال والمقاولين."
+      },
+      {
+        "en": "Check quality, measure quantities and approve deliveries.",
+        "ar": "بتراجع الجودة وتحسب الكميات وتستلم التوريدات."
+      },
+      {
+        "en": "Write daily reports and update the schedule.",
+        "ar": "بتكتب التقارير اليومية وبتحدّث الجدول الزمني."
+      },
+      {
+        "en": "Enforce safety rules on site.",
+        "ar": "بتطبق قواعد السلامة في الموقع."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Construction sites for housing, roads, hotels and factories",
+        "ar": "مواقع بناء لإسكان وطرق وفنادق ومصانع"
+      },
+      {
+        "en": "A site office between visits",
+        "ar": "مكتب الموقع بين الجولات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "AutoCAD drawings and specifications",
+        "ar": "رسومات أوتوكاد والمواصفات"
+      },
+      {
+        "en": "Measuring tape, level and total station",
+        "ar": "الشريط والميزان والتوتال ستيشن"
+      },
+      {
+        "en": "Primavera or Excel schedules",
+        "ar": "جداول بريمافيرا أو إكسل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Engineering, Civil or Architecture department",
+        "ar": "كلية الهندسة، قسم مدني أو عمارة"
+      },
+      {
+        "en": "Mechanical or electrical graduates work as MEP site engineers",
+        "ar": "خريجين ميكانيكا وكهربا بيشتغلوا مهندسين موقع MEP"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Higher institutes of engineering",
+        "ar": "المعاهد العليا للهندسة"
+      }
+    ],
+    "licensing": {
+      "en": "Registration with the Egyptian Engineers Syndicate is needed to practise.",
+      "ar": "التسجيل في نقابة المهندسين لازم علشان تمارس المهنة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Reading structural and architectural drawings",
+        "ar": "قراية الرسومات الإنشائية والمعمارية"
+      },
+      {
+        "en": "Quantity surveying",
+        "ar": "حساب الكميات"
+      },
+      {
+        "en": "Construction methods and materials",
+        "ar": "طرق التنفيذ والمواد"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leading workers firmly and fairly",
+        "ar": "قيادة العمال بحزم وعدل"
+      },
+      {
+        "en": "Solving problems fast on site",
+        "ar": "حل المشاكل بسرعة في الموقع"
+      },
+      {
+        "en": "Clear reporting",
+        "ar": "تقارير واضحة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic on site; English for specs and international contractors",
+        "ar": "العربي في الموقع، والإنجليزي للمواصفات والمقاولين الدوليين"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10799,
+        "max": 35283
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/construction-real-estate?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Civil Engineer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Civil Engineer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Contractors and real estate developers",
+        "ar": "شركات المقاولات والمطورين العقاريين"
+      },
+      {
+        "en": "Finishing and fit-out companies",
+        "ar": "شركات التشطيبات والديكور"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; the job is on site.",
+      "ar": "لأ؛ الشغل في الموقع."
+    },
+    "regions": [
+      {
+        "en": "New cities such as New Cairo, the New Administrative Capital, 6th of October and the North Coast",
+        "ar": "المدن الجديدة زي التجمع والعاصمة الإدارية و6 أكتوبر والساحل الشمالي"
+      }
+    ]
+  },
+  "global": {
+    "en": "Site experience is valued in the Gulf, where many Egyptian engineers work on large projects.",
+    "ar": "خبرة الموقع مطلوبة في الخليج، وفيه مهندسين مصريين كتير بيشتغلوا في مشاريع كبيرة هناك."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "You see your work built",
+        "ar": "بتشوف شغلك بيتبني"
+      },
+      {
+        "en": "Many openings for fresh graduates",
+        "ar": "فرص كتير للخريجين الجداد"
+      },
+      {
+        "en": "Fast learning on real projects",
+        "ar": "تعلم سريع في مشاريع حقيقية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long days outdoors in heat and dust",
+        "ar": "أيام طويلة برّه في الحر والتراب"
+      },
+      {
+        "en": "Sites can be far from home",
+        "ar": "المواقع ممكن تبقى بعيدة عن البيت"
+      },
+      {
+        "en": "Pressure from deadlines and contractors",
+        "ar": "ضغط من المواعيد والمقاولين"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A site engineer just watches the workers.",
+          "ar": "مهندس الموقع بيتفرج على العمال وبس."
+        },
+        "fact": {
+          "en": "You are responsible for quality, quantities, safety and the schedule; mistakes cost real money.",
+          "ar": "إنت مسؤول عن الجودة والكميات والسلامة والجدول؛ والغلطة بتتكلف فلوس حقيقية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Six-day weeks and early starts are common, especially near handover.",
+      "ar": "أسبوع 6 أيام والبدري منتشرين، خصوصًا قرب التسليم."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior site engineer",
+        "ar": "مهندس موقع مبتدئ"
+      },
+      {
+        "en": "Site engineer",
+        "ar": "مهندس موقع"
+      },
+      {
+        "en": "Senior site engineer or section head",
+        "ar": "مهندس موقع أول أو رئيس قطاع"
+      },
+      {
+        "en": "Project manager",
+        "ar": "مدير مشروع"
+      }
+    ],
+    "relatedCareerIds": [
+      "civil_engineer",
+      "architect",
+      "industrial_engineer",
+      "sales_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Technical office, quantity surveying or planning",
+        "ar": "المكتب الفني أو حساب الكميات أو التخطيط"
+      },
+      {
+        "en": "Project management",
+        "ar": "إدارة المشروعات"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Construction Managers (11-9021.00)",
+      "url": "https://www.onetonline.org/link/summary/11-9021.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Site Engineer jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Site-Engineer-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Africarrieres - in-demand profiles in Egypt",
+      "url": "https://africarrieres.com/egypt/en/guide/marche-emploi/in-demand-profiles",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

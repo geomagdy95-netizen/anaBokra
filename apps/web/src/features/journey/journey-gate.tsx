@@ -29,7 +29,7 @@ export function JourneyGate({ children }: { children: (data: JourneyData, reload
       setState(s);
       if (s.kind === 'ready') {
         keepStoredData();
-        void import('@/lib/local/stats').then(({ syncStats }) => syncStats(s.rt));
+        void import('@/lib/local/stats').then(({ syncStats }) => syncStats(s.rt, undefined, { discover: s.discover, hasResult: s.hasResult }));
         void import('@/lib/local/research').then(({ syncResearch }) => syncResearch(s.rt));
       }
     });

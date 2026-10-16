@@ -56,10 +56,15 @@ On the new phone: *Restore from a backup file* → choose the file → passphras
 The file never passes through anaBokra; the user carries it to the new phone. (The transfer code through our server was removed on 13 Oct 2026.)
 
 ### 1.6 Anonymous statistics (optional)
-"If you agree, the app sends anonymous records: one summary when an assessment is finished (age group, stage (student or graduate), language, the top interest areas and career groups, score bands, and how many parts were completed); for each career path you check, the path and how well it fits (fits well, partly, or worth rethinking); if you answer it, your 1–5 rating of whether your results were clear and useful; and, for each game you play, your score the first time you play it (so players can see how they compare). Each record carries only your age group, stage, language and session code (if you entered one). They never include a name, phone number, ID number, device identifier or exact time, can't be linked to each other, and can't be traced back to you. You can turn this off at any time in Settings."
+"If you agree, the app sends anonymous records: one summary when an assessment is finished (age group, stage (student or graduate), language, the top interest areas and career groups, score bands, and how many parts were completed); for each career path you check, the path and how well it fits (fits well, partly, or worth rethinking); if you answer it, your 1–5 rating of whether your results were clear and useful; and, for each game you play, your score the first time you play it (so players can see how they compare); which steps of the journey you reached (for example "finished Discover task 3" or "checked a field"), once each; which career pages you opened, once each; and once a day, how many times you used each button on the map and pages (for example search or zoom). **[LAWYER: added 16 Oct 2026 — confirm this stays within the anonymous-statistics consent, or needs its own tick box.]** Each record carries only your age group, stage, language and session code (if you entered one). They never include a name, phone number, ID number, device identifier or exact time, can't be linked to each other, and can't be traced back to you. You can turn this off at any time in Settings."
 Everyone 15 or older makes this choice themselves.
 
 ---
+
+### 1.8 Feedback (optional)
+Shown in Settings, on My results and as "Was this page useful?" on career pages.
+"Tell us what you think: a rating, what helped, what was confusing and, if you like, a short note. It's sent without your name, and only when you press Send. Please don't write your name, phone number or anything that shows who you are; we remove e-mails, links and numbers anyway."
+Each piece of feedback carries only your age group, stage, language and session code (if you entered one), and the week it arrived. It can't be linked to your statistics or traced back to you. It does not depend on the statistics switch. **[LAWYER: is pressing Send enough consent for free text, given it might still contain personal details despite the warning and the cleaning?]**
 
 ### 1.7 Nickname and password
 Shown after acceptance, and in Settings.

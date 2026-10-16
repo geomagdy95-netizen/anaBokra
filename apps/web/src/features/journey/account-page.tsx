@@ -13,9 +13,13 @@ import { StatsSetting } from '@/features/local/stats-setting';
 import { InstallHint } from '@/features/pwa/install-hint';
 import { Link } from '@/i18n/navigation';
 import type { JourneyData } from '@/lib/journey/journey';
+import { saveSituation } from '@/lib/journey/situation';
 
 import { AppShell } from './app-shell';
+import { HeroCard, HeroText } from './cards';
 import { JourneyGate } from './journey-gate';
+import { FeedbackForm } from './feedback-form';
+import { SituationView } from './situation-card';
 import { useJT } from './use-jt';
 
 /** Account: the user's profile and every setting that used to sit at the foot of my island. */
@@ -41,20 +45,38 @@ function Account({ data, onChanged }: { data: JourneyData; onChanged: () => void
   return (
     <AppShell tab="account" title={jt('account.title')} testId="account">
       <div className="space-y-6">
-        <section className="flex items-center gap-4 rounded-3xl bg-gradient-to-br from-brand-lilac to-card p-5 shadow-sm">
-          <span className="grid size-14 place-items-center rounded-2xl bg-card shadow-sm">
-            <LogoMark className="h-9" />
-          </span>
-          <div className="min-w-0">
-            <p className="truncate text-lg font-bold">{nickname ?? jt('account.noName')}</p>
-            <p className="text-sm text-muted-foreground">{jt('account.onDevice')}</p>
-          </div>
-        </section>
+        <HeroCard
+          icon={
+            <span className="grid size-14 place-items-center rounded-2xl bg-white/80 shadow-sm">
+              <LogoMark className="h-9" />
+            </span>
+          }
+          title={<span className="block truncate">{nickname ?? jt('account.noName')}</span>}
+          testId="account-hero"
+        >
+          <HeroText>{jt('account.onDevice')}</HeroText>
+        </HeroCard>
 
         {!data.rt.device.persistent && <StorageWarning />}
         <InstallHint />
 
         <LockSetting onChanged={onChanged} />
+
+        {locale === 'ar' && <AddressSetting data={data} onChanged={onChanged} />}
+
+        <Section title={jt('situation.settingsTitle')}>
+          <SituationView
+            situation={data.journey.situation}
+            onSave={async (next) => {
+              await saveSituation(data.rt.device.kv, data.rt.userId, next);
+              onChanged();
+            }}
+          />
+        </Section>
+
+        <Section title={jt('feedback.title')}>
+          <FeedbackForm rt={data.rt} screen="account" />
+        </Section>
 
         <Section title={jt('account.language')}>
           <div className="surface p-2">
@@ -83,5 +105,45 @@ function Account({ data, onChanged }: { data: JourneyData; onChanged: () => void
         </footer>
       </div>
     </AppShell>
+  );
+}
+
+/** How the Arabic text addresses the user (set at first start; only for grammar, stays on the phone). */
+function AddressSetting({ data, onChanged }: { data: JourneyData; onChanged: () => void }) {
+  const tp = useTranslations('Local.profile');
+  const current = data.rt.profile.gender;
+  const set = async (gender: 'male' | 'female' | null) => {
+    await data.rt.device.updateProfile(data.rt.userId, { gender });
+    onChanged();
+  };
+  return (
+    <Section title={tp('addressQ')}>
+      <div className="surface flex flex-col gap-2">
+        <div className="flex flex-wrap gap-2">
+          {(
+            [
+              ['male', tp('address.male')],
+              ['female', tp('address.female')],
+              [null, tp('address.none')],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={String(value)}
+              type="button"
+              aria-pressed={current === value}
+              onClick={() => void set(value)}
+              className={
+                'min-h-11 rounded-full border px-4 text-sm font-medium transition-colors ' +
+                (current === value ? 'border-primary bg-primary text-primary-foreground' : 'border-border bg-card hover:border-primary')
+              }
+              data-testid={`account-address-${value ?? 'none'}`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        <p className="text-xs text-muted-foreground">{tp('addressHelp')}</p>
+      </div>
+    </Section>
   );
 }

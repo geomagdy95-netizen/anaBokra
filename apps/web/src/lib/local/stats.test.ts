@@ -100,7 +100,9 @@ describe('checked paths and the results rating', () => {
     const posted: Record<string, unknown>[] = [];
     const post = async (s: unknown) => (posted.push(s as Record<string, unknown>), true);
     expect(await syncStats(rt, post)).toBe('sent');
-    expect(posted.map((p) => p.kind ?? 'summary')).toEqual(['summary', 'path', 'path', 'rating']);
+    // Milestones (path_started) also go along; this test is about paths and the rating.
+    const core = (xs: Record<string, unknown>[]) => xs.filter((p) => p.kind !== 'step');
+    expect(core(posted).map((p) => p.kind ?? 'summary')).toEqual(['summary', 'path', 'path', 'rating']);
     expect(posted.filter((p) => p.kind === 'path').map((p) => p.group)).toEqual(['tech', 'health']);
     expect(posted.find((p) => p.kind === 'rating')).toEqual({ v: 1, kind: 'rating', rating: 4, ageBand: '18-20', stage: 'university', locale: 'ar', eventCode: null });
     for (const p of posted) expect(statsUploadSchema.safeParse(p).success).toBe(true);
@@ -111,7 +113,7 @@ describe('checked paths and the results rating', () => {
     expect(await syncStats(rt, post)).toBe('skipped');
     await checkPath(kv, profile.id, 'business');
     expect(await syncStats(rt, post)).toBe('sent');
-    expect(posted).toHaveLength(5);
+    expect(core(posted)).toHaveLength(5);
   });
 
   it('sends a path checked again only once, and nothing without the opt-in', async () => {
@@ -121,7 +123,7 @@ describe('checked paths and the results rating', () => {
     await syncStats(yes.rt, async (s) => (posted.push(s), true));
     await checkPath(yes.kv, yes.profile.id, 'tech');
     expect(await syncStats(yes.rt, async (s) => (posted.push(s), true))).toBe('skipped');
-    expect(posted).toHaveLength(2);
+    expect(posted.filter((p) => (p as { kind?: string }).kind !== 'step')).toHaveLength(2);
 
     const no = await finished({ stats: false });
     await checkPath(no.kv, no.profile.id, 'tech');
@@ -135,9 +137,10 @@ describe('checked paths and the results rating', () => {
     await saveRating(kv, profile.id, 3);
     const posted: Record<string, unknown>[] = [];
     expect(await syncStats(rt, async (s) => ((s as { kind?: string }).kind === 'path' ? false : (posted.push(s as Record<string, unknown>), true)))).toBe('failed');
-    expect(posted.map((p) => p.kind ?? 'summary')).toEqual(['summary', 'rating']);
+    const core = () => posted.filter((p) => p.kind !== 'step').map((p) => p.kind ?? 'summary');
+    expect(core()).toEqual(['summary', 'rating']);
     expect(await syncStats(rt, async (s) => (posted.push(s as Record<string, unknown>), true))).toBe('sent');
-    expect(posted.map((p) => p.kind ?? 'summary')).toEqual(['summary', 'rating', 'path']);
+    expect(core()).toEqual(['summary', 'rating', 'path']);
   });
 
   it('rejects malformed path and rating records', () => {

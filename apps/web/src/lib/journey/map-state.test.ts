@@ -5,6 +5,7 @@ import type { Preview } from '@/server/assessment/scoring';
 import { paths } from '@anabokra/content';
 
 import { coreGrowth, islandStates } from './map-state';
+import { beatIds, storyPlan } from './story-plan';
 
 const preview = (stage: Preview['stage'], flat = false): Preview => ({
   stage,
@@ -27,7 +28,7 @@ describe('island states from progress', () => {
     const early = islandStates(preview('early'), journey);
     expect(early.tech).toMatchObject({ relation: 'suggested', bridge: 'updating' });
     const s = islandStates(preview('suggested'), journey);
-    expect(s.tech).toMatchObject({ relation: 'suggested', bridge: 'connected', total: 3, done: 0 });
+    expect(s.tech).toMatchObject({ relation: 'suggested', bridge: 'connected', total: 4, done: 0 });
     expect(s.health).toMatchObject({ relation: 'added', bridge: 'connected' });
     expect(s.law).toMatchObject({ relation: 'other', bridge: 'broken' });
   });
@@ -62,13 +63,15 @@ describe('island states from progress', () => {
 });
 
 describe('island growth', () => {
-  it('grows with Verify tasks and is full, with a flag, once the path is checked', () => {
+  it('grows with the path story and is full, with a flag, once the path is checked', () => {
     const fresh = islandStates(preview('suggested'), { v: 1, paths: {} });
     expect(fresh.tech).toMatchObject({ growth: 0, checked: false });
     const tech = paths.tech!;
-    const day = tech.tasks.find((t) => t.kind === 'story')!;
-    const half = islandStates(preview('suggested'), { v: 1, paths: { tech: { answers: Object.fromEntries(day.items.map((i) => [i.id, 2])) } } });
-    expect(half.tech!.growth).toBeCloseTo(0.25);
+    // Half the story's beats answered: 2 of 4 planks.
+    const beats = storyPlan(tech);
+    const half = islandStates(preview('suggested'), { v: 1, paths: { tech: { answers: Object.fromEntries(beats.slice(0, beats.length / 2).flatMap(beatIds).map((id) => [id, 2])) } } });
+    expect(half.tech).toMatchObject({ done: 2, total: 4 });
+    expect(half.tech!.growth).toBeCloseTo(0.375);
     const done = islandStates(preview('suggested'), { v: 1, paths: { tech: { answers: {}, result: { band: 'fitsWell' } as never } } });
     expect(done.tech).toMatchObject({ growth: 1, checked: true });
   });

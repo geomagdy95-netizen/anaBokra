@@ -218,7 +218,20 @@
     ]
   },
   "marketEgypt": {
-    "salaryMonthlyEgp": null,
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 13698,
+        "max": 35417
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/mechanical-engineering?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Automation engineer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Automation engineer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
     "demand": "medium",
     "employers": [
       {
@@ -255,11 +268,7 @@
     "providerIds": [
       "egyptian-japanese-kosen",
       "fab-lab-egypt"
-    ],
-    "salaryNote": {
-      "en": "We did not find a citable Egypt salary figure for mechatronics engineers, so pay is left empty. Compare roughly with the Paylab pages for mechanical and electrical engineers, but treat that as a guide only.",
-      "ar": "لم نجد رقمًا موثقًا لراتب مهندس الميكاترونيكس في مصر، لذا تُرك الراتب فارغًا. يمكن المقارنة تقريبيًا بصفحات Paylab للمهندس الميكانيكي والكهربائي مع اعتبارها دليلًا فقط."
-    }
+    ]
   },
   "global": {
     "en": "Mechatronics and automation skills are valued in Germany, the Gulf and other industrial markets. Strong English, project portfolios and PLC or robotics certifications help; some countries require equivalency of the degree.",

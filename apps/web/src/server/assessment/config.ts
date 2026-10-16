@@ -2,13 +2,33 @@ import { instruments } from '@anabokra/content';
 import type { AbilitiesInstrument, LikertInstrument, UserContext, ValuesInstrument } from '@anabokra/engine';
 
 /** Instrument-set tag stored in results.assessment_version. Bump when the set of instruments or scoring rules changes. */
-export const ASSESSMENT_VERSION = '2026.1';
+export const ASSESSMENT_VERSION = '2026.2';
 /** Mirrors packages/engine/package.json (checked by a test). Stored in results.engine_version. */
 export const ENGINE_VERSION = '0.1.0';
 /** Egyptian norms do not exist yet: scores are raw rescaled means. Stored as NULL. */
 export const NORMS_VERSION: string | null = null;
 
 export const TOP_MATCHES = 20;
+
+/**
+ * How new sessions ask two of the instruments (stored on the session, so a session keeps the format
+ * it started with). `checklist`: interest cards in a grid of six, "tap the ones you'd enjoy" (tapped 5,
+ * not tapped 1), close to the Interest Profiler's original checklist; `scale` is the 1–5 swipe.
+ * `budget`: 10 coins over the six work values on one screen; `cards` is the 21-card sort.
+ * DRAFT: the psychologist confirms both before the pilot; set `scale` / `cards` to go back.
+ */
+export const ANSWER_FORMATS: AnswerFormats = { interests: 'checklist', values: 'budget' };
+
+export interface AnswerFormats {
+  interests: 'scale' | 'checklist';
+  values: 'cards' | 'budget';
+}
+
+/** Sessions started before formats were recorded used the original ones. */
+export const LEGACY_FORMATS: AnswerFormats = { interests: 'scale', values: 'cards' };
+
+/** Checklist answers: a tapped card is "strongly like", a card left alone "strongly dislike". */
+export const CHECKLIST_VALUE = { on: 5, off: 1 } as const;
 export const SURPRISING_MATCHES = 3;
 
 export const STATION_IDS = ['interests', 'personality', 'values', 'abilities', 'context'] as const;

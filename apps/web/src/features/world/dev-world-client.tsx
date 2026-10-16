@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import dynamic from 'next/dynamic';
+import { useSearchParams } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { cn } from '@/lib/utils';
@@ -10,7 +11,7 @@ import { useRenderer } from '../path/capabilities';
 import { BridgeSwatch } from './bridge-swatch';
 import { ProfileSheet } from './profile-sheet';
 import { IslandArtwork } from './island-artwork';
-import { addToMap, profileFor, scenarioCoreGrowth, scenarioStates } from './scenarios';
+import { addToMap, profileFor, scenarioCoreGrowth, scenarioFromUrl, scenarioIslets, scenarioStates } from './scenarios';
 import { GROUP_ORDER, SCENARIOS, type GroupId, type GroupInfo, type IslandState, type Relation, type Scenario, type Selection } from './types';
 import type { Quality } from './world-canvas';
 
@@ -40,8 +41,10 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
   const locale = useLocale() as 'ar' | 'en';
   const r = useRenderer();
 
-  const [scenario, setScenario] = useState<Scenario>('after');
-  const [states, setStates] = useState<Record<GroupId, IslandState>>(() => scenarioStates('after'));
+  // ?scenario= opens a scenario directly (screenshots).
+  const initial = scenarioFromUrl(useSearchParams().get('scenario'));
+  const [scenario, setScenario] = useState<Scenario>(initial);
+  const [states, setStates] = useState<Record<GroupId, IslandState>>(() => scenarioStates(initial));
   const [selected, setSelected] = useState<Selection | null>(null);
   const [view, setView] = useState<'map' | 'list'>('map');
   const [quality, setQuality] = useState<Quality | null>(null);
@@ -52,13 +55,14 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
   const byId = useMemo(() => Object.fromEntries(groups.map((g) => [g.id, g])) as Record<GroupId, GroupInfo>, [groups]);
   const name = useCallback((id: GroupId) => byId[id]?.name[locale] ?? id, [byId, locale]);
   /** Map labels use the first part of the name ("الصحة والطب" → "الصحة"), as in the reference board. */
-  const shortName = useCallback((id: GroupId) => name(id).split(/ و| & /)[0]!, [name]);
+  const shortName = useCallback((id: GroupId) => name(id).split(/ و|, | & /)[0]!, [name]);
 
   const pickScenario = (s: Scenario) => {
     setScenario(s);
     setStates(scenarioStates(s));
     setSelected(null);
   };
+
 
   const add = (id: GroupId) => {
     setStates((prev) => ({ ...prev, [id]: addToMap(prev[id]) }));
@@ -152,6 +156,7 @@ export function DevWorldClient({ groups }: { groups: GroupInfo[] }) {
             <WorldCanvas
               states={states}
               coreGrowth={scenarioCoreGrowth(scenario)}
+              careers={scenarioIslets(scenario)}
               selected={selected}
               onSelect={setSelected}
               quality={effectiveQuality}

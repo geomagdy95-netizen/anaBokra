@@ -1,0 +1,89 @@
+{
+  "id": "sports",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": {"en": "A day in sports and fitness", "ar": "يوم في الرياضة واللياقة"},
+      "intro": {"en": "Moments from a typical day in sports and fitness. How does each one sound to you?", "ar": "لحظات من يوم عادي في الرياضة واللياقة. كل لحظة شكلها إيه بالنسبالك؟"},
+      "items": [
+        {"id": "sports_day_1", "title": {"en": "Match day", "ar": "يوم الماتش"}, "text": {"en": "Match day: warming up in front of a full stand, knowing every move counts.", "ar": "يوم ماتش: بتسخّن قدام مدرجات مليانة، وعارف إن كل حركة بتفرق.", "arF": "يوم ماتش: بتسخّني قدام مدرجات مليانة، وعارفة إن كل حركة بتفرق."}, "careers": ["athlete"]},
+        {"id": "sports_day_2", "title": {"en": "The young squad", "ar": "فريق الناشئين"}, "text": {"en": "Teaching a team of 13-year-olds a new passing drill, then talking to the shy one after training.", "ar": "بتعلّم فريق ولاد 13 سنة تمرين تمرير جديد، وبعدين بتتكلم مع الخجول فيهم بعد التمرين.", "arF": "بتعلّمي فريق ولاد 13 سنة تمرين تمرير جديد، وبعدين بتتكلمي مع الخجول فيهم بعد التمرين."}, "careers": ["sports_coach"]},
+        {"id": "sports_day_3", "title": {"en": "Six a.m. client", "ar": "عميل الساعة 6"}, "text": {"en": "A client arrives at 6 a.m. before work, and you take her through a strength session safely.", "ar": "عميلة جاية الساعة 6 الصبح قبل شغلها، وبتمشيها في تمرين قوة بأمان.", "arF": "عميلة جاية الساعة 6 الصبح قبل شغلها، وبتمشّيها في تمرين قوة بأمان."}, "careers": ["fitness_trainer"]},
+        {"id": "sports_day_4", "title": {"en": "Sports day", "ar": "اليوم الرياضي"}, "text": {"en": "Running a school sports day for 300 children, with races, teams and a lot of noise.", "ar": "بتدير يوم رياضي في مدرسة لـ300 طفل، فيه سباقات وفرق ودوشة كتير.", "arF": "بتديري يوم رياضي في مدرسة لـ300 طفل، فيه سباقات وفرق ودوشة كتير."}, "careers": ["pe_teacher"]},
+        {"id": "sports_day_5", "title": {"en": "The sponsor meeting", "ar": "اجتماع الراعي"}, "text": {"en": "Convincing a company to sponsor your club's youth tournament, then planning the budget.", "ar": "بتقنع شركة ترعى بطولة الناشئين في ناديك، وبعدين تخطط الميزانية.", "arF": "بتقنعي شركة ترعى بطولة الناشئين في ناديك، وبعدين تخططي الميزانية."}, "careers": ["sports_manager"]},
+        {"id": "sports_day_6", "title": {"en": "Watching the tape", "ar": "مراجعة الفيديو"}, "text": {"en": "Two hours watching match video to find why the team keeps conceding late goals.", "ar": "ساعتين بتتفرج على فيديو ماتشات علشان تعرف ليه الفريق بياخد أهداف في الآخر.", "arF": "ساعتين بتتفرجي على فيديو ماتشات علشان تعرفي ليه الفريق بياخد أهداف في الآخر."}, "careers": ["sports_coach", "athlete"]}
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": {"en": "The real deal", "ar": "الحقيقة من غير تجميل"},
+      "intro": {"en": "Every path comes with trade-offs. For each pair, pick the one you would rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه."},
+      "items": [
+        {"id": "sports_real_1", "title": {"en": "Your evenings", "ar": "مسايتك"}, "a": {"en": "Training and matches most evenings and weekends", "ar": "تمرين وماتشات أغلب المسايات والإجازات"}, "b": {"en": "Free evenings and weekends", "ar": "المسا والإجازات فاضيين"}, "path": "a", "careers": ["athlete", "sports_coach", "fitness_trainer"]},
+        {"id": "sports_real_2", "title": {"en": "Body on the line", "ar": "جسمك في الشغل"}, "a": {"en": "Physical work with a real risk of injury", "ar": "شغل جسدي فيه خطر إصابة حقيقي"}, "b": {"en": "Work that doesn't depend on your body", "ar": "شغل مش معتمد على جسمك"}, "path": "a", "careers": ["athlete", "fitness_trainer"]},
+        {"id": "sports_real_3", "title": {"en": "How income comes", "ar": "الدخل بييجي إزاي"}, "a": {"en": "Income that depends on results, clients or contracts", "ar": "دخل على حسب النتايج أو العملاء أو العقود"}, "b": {"en": "A fixed salary whatever happens", "ar": "مرتب ثابت مهما حصل"}, "path": "a", "careers": ["athlete", "fitness_trainer", "sports_coach"]},
+        {"id": "sports_real_4", "title": {"en": "A short career?", "ar": "مسيرة قصيرة؟"}, "a": {"en": "A peak career that may end in your early 30s", "ar": "قمة مسيرة ممكن تخلص في أول التلاتينات"}, "b": {"en": "A career that lasts until retirement", "ar": "مهنة بتكمل لحد المعاش"}, "path": "a", "careers": ["athlete"]},
+        {"id": "sports_real_5", "title": {"en": "Win or learn", "ar": "المكسب ولا التعلم"}, "a": {"en": "Being judged on wins and results in public", "ar": "الناس بتحكم عليك بالمكسب والنتايج قدام الكل"}, "b": {"en": "Work judged quietly by a manager", "ar": "شغل مديرك بس اللي بيقيّمه"}, "path": "a", "careers": ["sports_coach", "sports_manager", "athlete"]},
+        {"id": "sports_real_6", "title": {"en": "Kids or adults", "ar": "أطفال ولا كبار"}, "a": {"en": "Teaching children and teenagers every day", "ar": "بتعلّم أطفال ومراهقين كل يوم"}, "b": {"en": "Working only with adults", "ar": "بتشتغل مع كبار بس"}, "path": "a", "careers": ["pe_teacher", "sports_coach"]}
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": {"en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك"},
+      "intro": {"en": "Two real situations and two small puzzles from sports and fitness. There is no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل الرياضة واللياقة. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل الرياضة واللياقة. مفيش درجات: قوليلنا بس عجبك ولا لأ."},
+      "items": [
+        {
+          "id": "sports_try_1",
+          "title": {"en": "The injured player", "ar": "اللاعب المصاب"},
+          "type": "scenario",
+          "text": {"en": "Your best player limps during training a day before the final and says he's fine.", "ar": "أحسن لاعب عندك بيعرج في التمرين قبل النهائي بيوم وبيقول إنه كويس."},
+          "options": [
+            {"text": {"en": "Stop him and get the physio to check him first", "ar": "أوقفه وأخلّي أخصائي العلاج الطبيعي يكشف عليه الأول"}, "fit": 1},
+            {"text": {"en": "Let him rest today and decide tomorrow with the medical team", "ar": "أريّحه النهارده ونقرر بكرة مع الفريق الطبي"}, "fit": 0.8},
+            {"text": {"en": "Let him decide; he knows his body", "ar": "أسيبه يقرر؛ هو أدرى بجسمه"}, "fit": 0.3},
+            {"text": {"en": "Keep him training: it's the final", "ar": "أخلّيه يكمل: ده النهائي"}, "fit": 0}
+          ],
+          "careers": ["sports_coach", "athlete", "fitness_trainer"]
+        },
+        {
+          "id": "sports_try_2",
+          "title": {"en": "The rained-out event", "ar": "فعالية ضربها المطر"},
+          "type": "scenario",
+          "text": {"en": "Heavy rain is forecast for your club's outdoor tournament with 40 teams tomorrow.", "ar": "الأرصاد بتقول مطر جامد على بطولة ناديك في الهوا الطلق بكرة وفيها 40 فريق."},
+          "options": [
+            {"text": {"en": "Move key matches indoors and send every team a clear new schedule", "ar": "أنقل الماتشات المهمة لصالة وأبعت لكل فريق جدول جديد واضح"}, "fit": 1},
+            {"text": {"en": "Postpone by one day and tell everyone tonight", "ar": "أأجّل يوم وأبلّغ الكل النهارده"}, "fit": 0.7},
+            {"text": {"en": "Wait and see in the morning", "ar": "أستنى وأشوف الصبح"}, "fit": 0.2},
+            {"text": {"en": "Play anyway", "ar": "نلعب عادي"}, "fit": 0}
+          ],
+          "careers": ["sports_manager", "pe_teacher"]
+        },
+        {
+          "id": "sports_try_3",
+          "title": {"en": "Laps of the track", "ar": "لفات المضمار"},
+          "type": "puzzle",
+          "text": {"en": "A running track is 400 m. How many full laps make 5 km?", "ar": "مضمار الجري 400 متر. كام لفة كاملة تعمل 5 كيلو؟"},
+          "options": [{"en": "10", "ar": "10"},{"en": "12", "ar": "12"},{"en": "12.5", "ar": "12.5"},{"en": "15", "ar": "15"}],
+          "answer": 2,
+          "explain": {"en": "5,000 ÷ 400 = 12.5 laps. Coaches and runners turn distances into laps all the time.", "ar": "5000 ÷ 400 = 12.5 لفة. المدربين والعدائين بيحولوا المسافات للفات طول الوقت."},
+          "careers": ["athlete", "sports_coach", "fitness_trainer"]
+        },
+        {
+          "id": "sports_try_4",
+          "title": {"en": "Heart rate zone", "ar": "نطاق النبض"},
+          "type": "puzzle",
+          "text": {"en": "A simple guide says maximum heart rate is about 220 minus your age. For an 18-year-old, what is 70% of it?", "ar": "فيه قاعدة بسيطة بتقول أقصى نبض حوالي 220 ناقص سنك. لواحد عنده 18 سنة، كام 70% منه؟"},
+          "options": [{"en": "about 126", "ar": "حوالي 126"},{"en": "about 141", "ar": "حوالي 141"},{"en": "about 154", "ar": "حوالي 154"},{"en": "about 170", "ar": "حوالي 170"}],
+          "answer": 1,
+          "explain": {"en": "220 − 18 = 202, and 70% of 202 is about 141. Trainers use zones like this to plan workouts (it is only a rough guide).", "ar": "220 − 18 = 202، و70% منها حوالي 141. المدربين بيستخدموا نطاقات زي دي لتخطيط التمرين (وهي تقدير تقريبي بس)."},
+          "careers": ["fitness_trainer", "pe_teacher", "sports_coach"]
+        }
+      ]
+    }
+  ]
+}

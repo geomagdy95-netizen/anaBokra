@@ -423,5 +423,23 @@
       "url": "https://amwalalghad.com/fcdc",
       "accessed": "2026-10-09"
     }
-  ]
+  ],
+  "entry": {
+    "level": "competitive",
+    "hurdles": [
+      {
+        "kind": "membership",
+        "level": 3,
+        "text": {
+          "en": "Syndicate membership needs a salaried job at a registered newspaper, with bank statements proving regular pay. Newspapers must list their trainees every six months and hire them within a year.",
+          "ar": "عضوية نقابة الصحفيين محتاجة شغل بمرتب في جريدة مسجلة، مع كشف حساب بنكي يثبت انتظام المرتب. والجرايد لازم تقدّم قوايم المتدربين كل 6 شهور وتعيّنهم خلال سنة."
+        },
+        "tip": {
+          "en": "Building a portfolio of published pieces during university helps you get the first contract.",
+          "ar": "تجميع شغل منشور وإنت في الجامعة بيساعدك تاخد أول عقد."
+        },
+        "source": "https://www.dostor.org/5526993"
+      }
+    ]
+  }
 }

@@ -1,0 +1,89 @@
+{
+  "id": "beauty",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from careers/pages; for psychologist review",
+  "tasks": [
+    {
+      "id": "day",
+      "kind": "story",
+      "title": {"en": "A day in beauty and wellness", "ar": "يوم في التجميل والعناية"},
+      "intro": {"en": "Moments from a typical day in beauty and wellness. How does each one sound to you?", "ar": "لحظات من يوم عادي في التجميل والعناية. كل لحظة شكلها إيه بالنسبالك؟"},
+      "items": [
+        {"id": "beauty_day_1", "title": {"en": "The new look", "ar": "اللوك الجديد"}, "text": {"en": "A client shows you a photo of a haircut, and you explain honestly what will suit her hair.", "ar": "عميلة بتورّيك صورة قصة شعر، وبتشرح لها بصراحة إيه اللي هيناسب شعرها.", "arF": "عميلة بتورّيكي صورة قصة شعر، وبتشرحي لها بصراحة إيه اللي هيناسب شعرها."}, "careers": ["hairstylist"]},
+        {"id": "beauty_day_2", "title": {"en": "The bride at dawn", "ar": "العروسة الفجر"}, "text": {"en": "Doing a bride's makeup at 6 a.m. in her home, with her whole family watching.", "ar": "بتعمل مكياج عروسة الساعة 6 الصبح في بيتها، والعيلة كلها بتتفرج.", "arF": "بتعملي مكياج عروسة الساعة 6 الصبح في بيتها، والعيلة كلها بتتفرج."}, "careers": ["makeup_artist"]},
+        {"id": "beauty_day_3", "title": {"en": "Sensitive skin", "ar": "بشرة حساسة"}, "text": {"en": "Choosing a gentle treatment for a client with sensitive skin, and telling her when to see a doctor.", "ar": "بتختار علاج هادي لعميلة بشرتها حساسة، وبتقولها إمتى تروح لدكتور.", "arF": "بتختاري علاج هادي لعميلة بشرتها حساسة، وبتقوليلها إمتى تروح لدكتور."}, "careers": ["skincare_specialist"]},
+        {"id": "beauty_day_4", "title": {"en": "The diver's back", "ar": "ضهر الغطاس"}, "text": {"en": "Giving a tourist a deep massage after a week of diving in the Red Sea.", "ar": "بتعمل لسايح مساج عميق بعد أسبوع غطس في البحر الأحمر.", "arF": "بتعملي لسايح مساج عميق بعد أسبوع غطس في البحر الأحمر."}, "careers": ["spa_therapist"]},
+        {"id": "beauty_day_5", "title": {"en": "On set", "ar": "في اللوكيشن"}, "text": {"en": "Keeping an actor's look the same across ten hours of filming under hot lights.", "ar": "بتحافظ على لوك ممثل هو هو طول 10 ساعات تصوير تحت إضاءة سخنة.", "arF": "بتحافظي على لوك ممثل هو هو طول 10 ساعات تصوير تحت إضاءة سخنة."}, "careers": ["makeup_artist", "hairstylist"]},
+        {"id": "beauty_day_6", "title": {"en": "Posting your work", "ar": "تنزيل شغلك"}, "text": {"en": "Photographing your best work of the day and posting it to win new clients.", "ar": "بتصوّر أحسن شغل عملته النهارده وبتنزّله علشان تجيب عملاء جداد.", "arF": "بتصوّري أحسن شغل عملتيه النهارده وبتنزّليه علشان تجيبي عملاء جداد."}, "careers": ["hairstylist", "makeup_artist", "skincare_specialist"]}
+      ]
+    },
+    {
+      "id": "real",
+      "kind": "thisOrThat",
+      "title": {"en": "The real deal", "ar": "الحقيقة من غير تجميل"},
+      "intro": {"en": "Every path comes with trade-offs. For each pair, pick the one you would rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه."},
+      "items": [
+        {"id": "beauty_real_1", "title": {"en": "On your feet?", "ar": "واقف ولا قاعد؟", "arF": "واقفة ولا قاعدة؟"}, "a": {"en": "Standing most of the day", "ar": "واقف أغلب اليوم", "arF": "واقفة أغلب اليوم"}, "b": {"en": "Sitting at a desk", "ar": "قاعد على مكتب", "arF": "قاعدة على مكتب"}, "path": "a", "careers": ["hairstylist", "spa_therapist", "makeup_artist"]},
+        {"id": "beauty_real_2", "title": {"en": "How income comes", "ar": "الدخل بييجي إزاي"}, "a": {"en": "Income that depends on clients and seasons", "ar": "دخل على حسب العملاء والمواسم"}, "b": {"en": "A fixed monthly salary", "ar": "مرتب ثابت كل شهر"}, "path": "a", "careers": ["makeup_artist", "hairstylist"]},
+        {"id": "beauty_real_3", "title": {"en": "Close contact", "ar": "تعامل قريب"}, "a": {"en": "Touching and working close to people all day", "ar": "تعامل قريب ولمس للناس طول اليوم"}, "b": {"en": "Work with little physical contact", "ar": "شغل فيه تلامس قليل"}, "path": "a", "careers": ["spa_therapist", "skincare_specialist", "hairstylist"]},
+        {"id": "beauty_real_4", "title": {"en": "Weekends", "ar": "الإجازات"}, "a": {"en": "Busiest on weekends, evenings and wedding seasons", "ar": "أزحم وقت في الإجازات والمسا ومواسم الأفراح"}, "b": {"en": "Weekends and evenings free", "ar": "الإجازات والمسا فاضيين"}, "path": "a", "careers": ["makeup_artist", "hairstylist"]},
+        {"id": "beauty_real_5", "title": {"en": "Short or long study", "ar": "دراسة قصيرة ولا طويلة"}, "a": {"en": "A short course, then learning by practice", "ar": "كورس قصير وبعدين تتعلم بالممارسة", "arF": "كورس قصير وبعدين تتعلمي بالممارسة"}, "b": {"en": "Four or more years at university", "ar": "4 سنين أو أكتر في الجامعة"}, "path": "a", "careers": ["hairstylist", "makeup_artist", "spa_therapist", "skincare_specialist"]},
+        {"id": "beauty_real_6", "title": {"en": "Your own business?", "ar": "بيزنس خاص؟"}, "a": {"en": "Building your own clients and maybe your own salon", "ar": "تبني عملاءك ويمكن صالونك الخاص", "arF": "تبني عملاءك ويمكن صالونك الخاص"}, "b": {"en": "Working for a company forever", "ar": "تشتغل في شركة على طول", "arF": "تشتغلي في شركة على طول"}, "path": "a", "careers": ["hairstylist", "makeup_artist", "skincare_specialist"]}
+      ]
+    },
+    {
+      "id": "try",
+      "kind": "tryIt",
+      "title": {"en": "Try it", "ar": "جرّب بنفسك", "arF": "جرّبي بنفسك"},
+      "intro": {"en": "Two real situations and two small puzzles from beauty and wellness. There is no grade: tell us if you enjoyed them.", "ar": "موقفين حقيقيين ولغزين صغيرين من شغل التجميل والعناية. مفيش درجات: قولنا بس عجبك ولا لأ.", "arF": "موقفين حقيقيين ولغزين صغيرين من شغل التجميل والعناية. مفيش درجات: قوليلنا بس عجبك ولا لأ."},
+      "items": [
+        {
+          "id": "beauty_try_1",
+          "title": {"en": "The unhappy client", "ar": "العميلة الزعلانة"},
+          "type": "scenario",
+          "text": {"en": "A client looks in the mirror after her colour and says it's darker than she wanted.", "ar": "عميلة بتبص في المراية بعد الصبغة وبتقول إنها أغمق من اللي كانت عايزاه."},
+          "options": [
+            {"text": {"en": "Listen, offer to fix it at no cost, and agree the shade with her first", "ar": "أسمعها، وأعرض أصلحها ببلاش، ونتفق على الدرجة الأول"}, "fit": 1},
+            {"text": {"en": "Explain that it will lighten after a few washes", "ar": "أشرح إنها هتفتّح بعد كام غسلة"}, "fit": 0.5},
+            {"text": {"en": "Tell her it looks great", "ar": "أقولها إنها حلوة جدًا"}, "fit": 0.1},
+            {"text": {"en": "Charge her again to change it", "ar": "أحاسبها تاني علشان أغيرها"}, "fit": 0}
+          ],
+          "careers": ["hairstylist", "makeup_artist"]
+        },
+        {
+          "id": "beauty_try_2",
+          "title": {"en": "The rash", "ar": "الحساسية"},
+          "type": "scenario",
+          "text": {"en": "A client wants a strong peel but has a red, irritated patch on her cheek.", "ar": "عميلة عايزة تقشير قوي بس عندها بقعة حمرا ومتهيجة في خدها."},
+          "options": [
+            {"text": {"en": "Don't do the peel; suggest a gentle option and a dermatologist visit", "ar": "مأعملش التقشير؛ وأقترح حاجة هادية وزيارة لدكتور جلدية"}, "fit": 1},
+            {"text": {"en": "Do a milder treatment and avoid the patch", "ar": "أعمل علاج أخف وأبعد عن البقعة"}, "fit": 0.6},
+            {"text": {"en": "Do it: she asked for it", "ar": "أعمله: هي طلبته"}, "fit": 0},
+            {"text": {"en": "Sell her a strong cream instead", "ar": "أبيعلها كريم قوي بداله"}, "fit": 0.1}
+          ],
+          "careers": ["skincare_specialist", "spa_therapist"]
+        },
+        {
+          "id": "beauty_try_3",
+          "title": {"en": "Mixing colour", "ar": "خلطة الصبغة"},
+          "type": "puzzle",
+          "text": {"en": "A colour mix is 1 part dye to 2 parts developer. For 40 ml of dye, how much developer?", "ar": "خلطة الصبغة جزء صبغة لجزئين أوكسجين. لو عندك 40 مل صبغة، محتاج كام أوكسجين؟"},
+          "options": [{"en": "20 ml", "ar": "20 مل"},{"en": "40 ml", "ar": "40 مل"},{"en": "80 ml", "ar": "80 مل"},{"en": "120 ml", "ar": "120 مل"}],
+          "answer": 2,
+          "explain": {"en": "1 to 2 means double: 40 × 2 = 80 ml. Stylists measure ratios like this every day.", "ar": "جزء لجزئين يعني الضعف: 40 × 2 = 80 مل. المصففين بيقيسوا نسب زي دي كل يوم."},
+          "careers": ["hairstylist"]
+        },
+        {
+          "id": "beauty_try_4",
+          "title": {"en": "A full day", "ar": "يوم مليان"},
+          "type": "puzzle",
+          "text": {"en": "Each massage takes 60 minutes plus 15 minutes to prepare the room. How many fit in a 7.5-hour shift?", "ar": "كل مساج بياخد 60 دقيقة و15 دقيقة تجهيز للأوضة. كام واحد يدخلوا في شيفت 7.5 ساعات؟"},
+          "options": [{"en": "5", "ar": "5"},{"en": "6", "ar": "6"},{"en": "7", "ar": "7"},{"en": "8", "ar": "8"}],
+          "answer": 1,
+          "explain": {"en": "Each takes 75 minutes; 7.5 hours is 450 minutes; 450 ÷ 75 = 6. Spas plan bookings like this.", "ar": "كل واحد بياخد 75 دقيقة؛ و7.5 ساعات يعني 450 دقيقة؛ 450 ÷ 75 = 6. السبا بيخطط الحجوزات كده."},
+          "careers": ["spa_therapist", "skincare_specialist", "makeup_artist"]
+        }
+      ]
+    }
+  ]
+}

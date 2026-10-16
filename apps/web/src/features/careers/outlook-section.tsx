@@ -5,8 +5,11 @@ import { SubHeading } from './common';
 import { badgeClass, linkClass } from './ui';
 import type { Locale } from './types';
 
-/** Industry outlook for the career's cluster: trend, confidence, 5-year demand, suggested skill changes and sources. */
-export function OutlookSection({ industry }: { industry: Industry }) {
+/**
+ * Industry outlook for the career's cluster: trend, confidence, 5-year demand, suggested skill changes and
+ * (unless the page lists them elsewhere) sources.
+ */
+export function OutlookSection({ industry, showSources = true }: { industry: Industry; showSources?: boolean }) {
   const t = useTranslations('Careers.future');
   const locale = useLocale() as Locale;
   const nf = new Intl.NumberFormat(locale, { maximumFractionDigits: 0 });
@@ -24,7 +27,7 @@ export function OutlookSection({ industry }: { industry: Industry }) {
           {t('confidence')}: {t(`confidenceLevels.${o.confidence}`)}
         </li>
       </ul>
-      <p>{industry.name[locale]}</p>
+      <p className="text-sm text-muted-foreground">{t('forField', { field: industry.name[locale] })}</p>
       <div className="space-y-1">
         <SubHeading>{t('demand')}</SubHeading>
         <p>
@@ -53,7 +56,7 @@ export function OutlookSection({ industry }: { industry: Industry }) {
           </ul>
         </div>
       ) : null}
-      {industry.sources?.length ? (
+      {showSources && industry.sources?.length ? (
         <div className="space-y-2">
           <SubHeading>{t('sources')}</SubHeading>
           <ul className="list-disc space-y-1 ps-5 text-sm">

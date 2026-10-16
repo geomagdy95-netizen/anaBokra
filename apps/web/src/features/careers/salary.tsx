@@ -26,35 +26,53 @@ export function SalaryBands({ market }: { market: NonNullable<CareerPage['market
   }
 
   const range = (b: SalaryBand) => t('range', { min: nf.format(b.min), max: nf.format(b.max) });
+  const published = BANDS.filter((key) => salary[key]);
+  const single = published.length === 1 ? salary[published[0]!]! : null;
   return (
     <div data-testid="salary-bands" className="space-y-3">
-      <table className="w-full border-collapse text-sm">
-        <caption className="mb-2 text-start text-sm text-muted-foreground">{t('caption', { year: String(salary.year) })}</caption>
-        <thead>
-          <tr className="border-b text-start">
-            <th scope="col" className="py-2 pe-4 text-start font-medium">
-              {t('level')}
-            </th>
-            <th scope="col" className="py-2 text-start font-medium">
-              {t('monthly')}
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {BANDS.map((key) => {
-            const band = salary[key];
-            return (
-              <tr key={key} className="border-b last:border-0">
-                <th scope="row" className="py-2 pe-4 text-start font-normal">
-                  {t(`levels.${key}`)}
-                </th>
-                <td className="py-2 tabular-nums">{band ? <bdi>{range(band)}</bdi> : <span className="text-muted-foreground">{t('notPublished')}</span>}</td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-      {salary.note ? <p className="text-sm text-muted-foreground">{pick(salary.note, locale)}</p> : null}
+      {single ? (
+        // One band for all levels (the usual Paylab case): one clear range instead of a mostly empty table.
+        <div className="rounded-2xl bg-secondary p-4 text-secondary-foreground" data-testid="salary-single">
+          <p className="text-xl font-bold tabular-nums">
+            <bdi>{range(single)}</bdi>
+          </p>
+          <p className="text-sm">{t('caption', { year: String(salary.year) })}</p>
+          <p className="text-sm opacity-80">{t('allLevels')}</p>
+        </div>
+      ) : (
+        <table className="w-full border-collapse text-sm">
+          <caption className="mb-2 text-start text-sm text-muted-foreground">{t('caption', { year: String(salary.year) })}</caption>
+          <thead>
+            <tr className="border-b text-start">
+              <th scope="col" className="py-2 pe-4 text-start font-medium">
+                {t('level')}
+              </th>
+              <th scope="col" className="py-2 text-start font-medium">
+                {t('monthly')}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {BANDS.map((key) => {
+              const band = salary[key];
+              return (
+                <tr key={key} className="border-b last:border-0">
+                  <th scope="row" className="py-2 pe-4 text-start font-normal">
+                    {t(`levels.${key}`)}
+                  </th>
+                  <td className="py-2 tabular-nums">{band ? <bdi>{range(band)}</bdi> : <span className="text-muted-foreground">{t('notPublished')}</span>}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      )}
+      {salary.note ? (
+        <details className="text-sm">
+          <summary className="min-h-11 cursor-pointer content-center font-medium text-primary">{t('about')}</summary>
+          <p className="text-muted-foreground">{pick(salary.note, locale)}</p>
+        </details>
+      ) : null}
       <p className="text-sm">
         <a href={salary.sourceUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
           {t('source')}

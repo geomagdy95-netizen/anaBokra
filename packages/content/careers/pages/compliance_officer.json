@@ -1,0 +1,281 @@
+{
+  "id": "compliance_officer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep the bank honest, and out of trouble.",
+      "ar": "بتخلّي البنك ماشي صح، وبعيد عن المشاكل."
+    },
+    "summary": {
+      "en": "Compliance and anti-money-laundering (AML) officers make sure a company follows laws and regulations: they check customers, watch for suspicious transactions, write policies and train staff. Banks, fintech and insurance companies in Egypt hire them under Central Bank and Financial Regulatory Authority rules, and Africarrieres names compliance officers among Egypt's in-demand profiles.",
+      "ar": "مسؤول الامتثال ومكافحة غسل الأموال بيتأكد إن الشركة ماشية على القوانين واللوايح: بيراجع العملاء، بيراقب العمليات المشبوهة، بيكتب السياسات وبيدرّب الموظفين. البنوك والفينتك والتأمين في مصر بيشغّلوهم تحت قواعد البنك المركزي والهيئة العامة للرقابة المالية، وموقع Africarrieres حاطط مسؤولين الامتثال ضمن الأكتر طلبًا في مصر."
+    },
+    "dayInLife": {
+      "en": "The monitoring system flagged twelve transactions overnight. You review each one: most are salaries, but one account received many small cash deposits and sent them abroad the same day. You check the customer's file and business, ask the branch for more documents and write a short case note recommending a report to the Money Laundering Combating Unit. In the afternoon you update the bank's know-your-customer policy for a new regulation and prepare a training session for new staff.",
+      "ar": "سيستم المراقبة طلّع 12 عملية بالليل. بتراجع كل واحدة: أغلبها مرتبات، بس فيه حساب جاله إيداعات نقدي صغيرة كتير واتبعتت برّه في نفس اليوم. بتراجع ملف العميل ونشاطه، بتطلب من الفرع مستندات زيادة، وبتكتب ملاحظة قصيرة بتوصي بالإبلاغ لوحدة مكافحة غسل الأموال. بعد الضهر بتحدّث سياسة اعرف عميلك في البنك علشان قرار جديد، وبتجهز تدريب للموظفين الجداد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Review customers and transactions for risk.",
+        "ar": "بتراجع العملاء والعمليات من ناحية المخاطر."
+      },
+      {
+        "en": "Investigate suspicious activity and write reports.",
+        "ar": "بتحقق في النشاط المشبوه وبتكتب تقارير."
+      },
+      {
+        "en": "Write and update policies to follow regulations.",
+        "ar": "بتكتب وتحدّث السياسات علشان تتماشى مع اللوايح."
+      },
+      {
+        "en": "Train staff on rules and red flags.",
+        "ar": "بتدرّب الموظفين على القواعد والعلامات الخطرة."
+      },
+      {
+        "en": "Work with regulators and auditors.",
+        "ar": "بتتعامل مع الجهات الرقابية والمراجعين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Banks and fintech companies",
+        "ar": "البنوك وشركات الفينتك"
+      },
+      {
+        "en": "Insurance, brokerage and large corporates",
+        "ar": "التأمين والسمسرة والشركات الكبيرة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Transaction monitoring systems",
+        "ar": "أنظمة مراقبة العمليات"
+      },
+      {
+        "en": "Sanctions and screening databases",
+        "ar": "قواعد بيانات العقوبات والفحص"
+      },
+      {
+        "en": "Excel and reporting tools",
+        "ar": "إكسل وأدوات التقارير"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Law",
+        "ar": "كلية الحقوق"
+      },
+      {
+        "en": "Faculty of Commerce (accounting, finance)",
+        "ar": "كلية التجارة (محاسبة، مالية)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Bank tellers or operations staff moving into compliance with certification",
+        "ar": "موظفين الشباك أو العمليات بينتقلوا للامتثال بشهادة"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Banking regulations and AML rules",
+        "ar": "لوايح البنوك وقواعد مكافحة غسل الأموال"
+      },
+      {
+        "en": "Risk assessment",
+        "ar": "تقييم المخاطر"
+      },
+      {
+        "en": "Investigation and report writing",
+        "ar": "التحقيق وكتابة التقارير"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Integrity and independence",
+        "ar": "النزاهة والاستقلال"
+      },
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      },
+      {
+        "en": "Saying no politely",
+        "ar": "إنك تقول لأ بأدب"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for international rules and correspondent banks",
+        "ar": "الإنجليزي للقواعد الدولية والبنوك المراسلة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ACAMS (Certified Anti-Money Laundering Specialist)",
+        "ar": "شهادة ACAMS لمتخصصي مكافحة غسل الأموال"
+      },
+      {
+        "en": "Egyptian Banking Institute compliance courses",
+        "ar": "كورسات الامتثال في المعهد المصرفي المصري"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11713,
+        "max": 38265
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/banking?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Compliance Specialist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Compliance Specialist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Banks and fintech companies",
+        "ar": "البنوك وشركات الفينتك"
+      },
+      {
+        "en": "Insurance and investment companies",
+        "ar": "شركات التأمين والاستثمار"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly office based for data security.",
+      "ar": "أغلبه في المكتب علشان أمان البيانات."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo and Alexandria head offices",
+        "ar": "أساسًا المقرات الرئيسية في القاهرة وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "AML certification (ACAMS) is recognised worldwide and opens roles in Gulf banks.",
+    "ar": "شهادة ACAMS معترف بيها عالميًا وبتفتح وظايف في بنوك الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Stable, respected role in banking",
+        "ar": "وظيفة مستقرة ومحترمة في البنوك"
+      },
+      {
+        "en": "Growing demand with new regulations and fintech",
+        "ar": "طلب بيزيد مع اللوايح الجديدة والفينتك"
+      },
+      {
+        "en": "Law and commerce graduates both fit",
+        "ar": "يناسب خريجين الحقوق والتجارة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Rules change often and must be learned fast",
+        "ar": "القواعد بتتغير كتير ولازم تتعلمها بسرعة"
+      },
+      {
+        "en": "You may have to block a big customer",
+        "ar": "ممكن تضطر توقف عميل كبير"
+      },
+      {
+        "en": "Detailed, document-heavy work",
+        "ar": "شغل تفصيلي ومليان مستندات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Compliance just slows the business down.",
+          "ar": "الامتثال بيعطّل الشغل وبس."
+        },
+        "fact": {
+          "en": "It protects the bank from fines and crime, and lets it keep working with banks abroad.",
+          "ar": "بيحمي البنك من الغرامات والجريمة، وبيخليه يكمل شغله مع البنوك برّه."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Regular office hours, with pressure around audits and regulator deadlines.",
+      "ar": "مواعيد مكتب منتظمة، مع ضغط وقت المراجعات ومواعيد الجهات الرقابية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Compliance analyst",
+        "ar": "محلل امتثال"
+      },
+      {
+        "en": "Compliance or AML officer",
+        "ar": "مسؤول امتثال أو مكافحة غسل أموال"
+      },
+      {
+        "en": "Senior officer or MLRO",
+        "ar": "مسؤول أول أو مسؤول الإبلاغ"
+      },
+      {
+        "en": "Head of compliance",
+        "ar": "رئيس الامتثال"
+      }
+    ],
+    "relatedCareerIds": [
+      "lawyer",
+      "auditor",
+      "banker",
+      "accountant"
+    ],
+    "pivots": [
+      {
+        "en": "Risk management or internal audit",
+        "ar": "إدارة المخاطر أو المراجعة الداخلية"
+      },
+      {
+        "en": "Fraud investigation",
+        "ar": "التحقيق في الاحتيال"
+      }
+    ]
+  },
+  "industryId": "law",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Compliance Officers (13-1041.00)",
+      "url": "https://www.onetonline.org/link/summary/13-1041.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Africarrieres - in-demand profiles in Egypt",
+      "url": "https://africarrieres.com/egypt/en/guide/marche-emploi/in-demand-profiles",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Compliance Officer jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Compliance-Officer-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

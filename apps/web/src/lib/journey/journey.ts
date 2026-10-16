@@ -3,9 +3,10 @@ import { loadLocalAssessment } from '@/features/local/load';
 import type { LocalRuntime } from '@/lib/local/runtime';
 import type { AssessmentErrorCode } from '@/server/assessment/errors';
 import type { Preview } from '@/server/assessment/scoring';
+import type { AnswerFormats } from '@/server/assessment/config';
 import type { ReadinessRecord } from '@/server/assessment/types';
 
-import { discoverStatus } from './discover-plan';
+import { discoverStatus, interestsSettled } from './discover-plan';
 import { abilityStandings, cachedNorms, comparisonBand, playedGameSteps } from './games';
 import { readJourney, type JourneyDoc } from './verify';
 
@@ -24,6 +25,8 @@ export interface JourneyData {
   discover: ReturnType<typeof discoverStatus>;
   valuesDone: boolean;
   hasResult: boolean;
+  /** How this session asks interests and values (checklist or 1–5 scale; budget or card sort). */
+  formats: AnswerFormats;
 }
 
 export type JourneyLoad =
@@ -57,9 +60,10 @@ export async function loadJourney(locale: Locale): Promise<JourneyLoad> {
     preview,
     journey,
     readiness,
-    discover: discoverStatus(new Set([...Object.keys(answers), ...playedGameSteps(journey)]), { gamesRequired: data.ok === true }),
+    discover: discoverStatus(new Set([...Object.keys(answers), ...playedGameSteps(journey)]), { gamesRequired: data.ok === true, settled: interestsSettled(answers) }),
     valuesDone: progress.stations.find((s) => s.id === 'values')?.done ?? false,
     hasResult: data.ok === 'results' || progress.hasResult,
+    formats: resume.formats,
   };
 }
 
@@ -77,7 +81,8 @@ export async function maybeFinalize(
   if (progress.hasResult || !progress.canFinalize) return false;
   const resume = await rt.service.getResume(rt.userId, { sessionId });
   const journey = await readJourney(rt.device.kv, rt.userId);
-  const discover = discoverStatus(new Set([...resume.responses.map((r) => r.itemId), ...playedGameSteps(journey)]));
+  const answered = Object.fromEntries(resume.responses.map((r) => [r.itemId, r.value]));
+  const discover = discoverStatus(new Set([...Object.keys(answered), ...playedGameSteps(journey)]), { settled: interestsSettled(answered) });
   const values = progress.stations.find((s) => s.id === 'values')?.done ?? false;
   const checked = Object.values(journey.paths).some((p) => p.result);
   if (discover.next !== null || !values || !checked) return false;

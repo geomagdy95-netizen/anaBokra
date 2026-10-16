@@ -1,0 +1,272 @@
+{
+  "id": "early_childhood_teacher",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You shape the years when children learn the fastest.",
+      "ar": "بتشكّل السنين اللي الأطفال بيتعلموا فيها أسرع حاجة."
+    },
+    "summary": {
+      "en": "Early childhood and primary teachers teach children from about 4 to 12: reading, writing, numbers, science and how to learn and get along. In Egypt they work in public, experimental, private and international schools and nurseries. Faculties of Early Childhood Education (Kindergarten) and Faculties of Education prepare them, and international schools look for English and modern teaching methods.",
+      "ar": "معلم رياض الأطفال والابتدائي بيعلّم الأطفال من حوالي 4 لـ12 سنة: القراية والكتابة والأرقام والعلوم، وإزاي يتعلموا ويتعاملوا مع بعض. في مصر بيشتغلوا في المدارس الحكومية والتجريبية والخاصة والدولية والحضانات. كليات التربية للطفولة المبكرة (رياض الأطفال) وكليات التربية بتجهزهم، والمدارس الدولية بتدور على الإنجليزي وطرق التدريس الحديثة."
+    },
+    "dayInLife": {
+      "en": "Your KG2 class of 25 arrives at 8. You start with a morning circle and a song about the days of the week. In small groups, some children trace letters while others count beads with you. A child cries because he misses his mother; you comfort him and give him a helper job. After break you read a story and ask questions, then guide an art activity. At pick-up you tell two parents how their children did and note who needs extra help with letters.",
+      "ar": "فصلك في KG2 فيه 25 طفل بيوصلوا الساعة 8. بتبدأ بدايرة الصبح وأغنية عن أيام الأسبوع. في مجموعات صغيرة، شوية بيمشوا على حروف وشوية بيعدّوا خرز معاك. طفل بيعيط علشان مامته وحشته؛ بتطبطب عليه وبتديله مهمة مساعد. بعد الفسحة بتقرا قصة وبتسأل أسئلة، وبعدين بتوجّه نشاط رسم. وقت المرواح بتقول لاتنين من الأهالي ولادهم عملوا إيه، وبتكتب مين محتاج مساعدة زيادة في الحروف."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan lessons and activities for young children.",
+        "ar": "بتخطط دروس وأنشطة للأطفال الصغيرين."
+      },
+      {
+        "en": "Teach reading, writing, numbers and basic science through play.",
+        "ar": "بتعلّم القراية والكتابة والأرقام والعلوم البسيطة باللعب."
+      },
+      {
+        "en": "Manage the classroom and children's behaviour.",
+        "ar": "بتدير الفصل وسلوك الأطفال."
+      },
+      {
+        "en": "Observe progress and talk with parents.",
+        "ar": "بتتابع التقدم وبتتكلم مع الأهالي."
+      },
+      {
+        "en": "Prepare materials and a safe, colourful classroom.",
+        "ar": "بتجهز الأدوات وفصل آمن وملوّن."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Nurseries and kindergartens",
+        "ar": "الحضانات ورياض الأطفال"
+      },
+      {
+        "en": "Public, private and international primary schools",
+        "ar": "المدارس الابتدائي الحكومية والخاصة والدولية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Storybooks, flashcards and toys",
+        "ar": "قصص وكروت وألعاب"
+      },
+      {
+        "en": "Interactive screens and educational apps",
+        "ar": "شاشات تفاعلية وأبلكيشنز تعليمية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Early Childhood Education (Kindergarten)",
+        "ar": "كلية التربية للطفولة المبكرة (رياض الأطفال)"
+      },
+      {
+        "en": "Faculty of Education, primary education section",
+        "ar": "كلية التربية، شعبة التعليم الابتدائي"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Graduates of other faculties with an education diploma",
+        "ar": "خريجين كليات تانية معاهم دبلومة تربوية"
+      },
+      {
+        "en": "International schools accept other degrees with teaching certificates such as Cambridge CELTA or a PGCE",
+        "ar": "المدارس الدولية بتقبل شهادات تانية مع شهادات تدريس زي CELTA أو PGCE"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Child development",
+        "ar": "نمو الطفل"
+      },
+      {
+        "en": "Teaching early reading and maths",
+        "ar": "تعليم القراية والحساب في البداية"
+      },
+      {
+        "en": "Classroom management",
+        "ar": "إدارة الفصل"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and warmth",
+        "ar": "الصبر والدفء"
+      },
+      {
+        "en": "Creativity",
+        "ar": "الإبداع"
+      },
+      {
+        "en": "Energy all day",
+        "ar": "طاقة طول اليوم"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Clear Arabic; English or French for language and international schools",
+        "ar": "عربي واضح، وإنجليزي أو فرنساوي لمدارس اللغات والدولية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9608,
+        "max": 16755
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Preschool Teacher\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Preschool Teacher»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Private, language and international schools",
+        "ar": "المدارس الخاصة واللغات والدولية"
+      },
+      {
+        "en": "Nurseries",
+        "ar": "الحضانات"
+      },
+      {
+        "en": "Public schools through Ministry of Education hiring",
+        "ar": "المدارس الحكومية عن طريق تعيينات وزارة التربية والتعليم"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly in school; some online tutoring for young learners.",
+      "ar": "أغلبه في المدرسة؛ وفيه دروس أونلاين للصغيرين."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf schools hire Egyptian teachers, especially with English and international certificates.",
+    "ar": "مدارس الخليج بتشغّل مدرسين مصريين، خصوصًا بالإنجليزي والشهادات الدولية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Children's progress is visible every week",
+        "ar": "تقدم الأطفال بيبان كل أسبوع"
+      },
+      {
+        "en": "Jobs in every city",
+        "ar": "شغل في كل مدينة"
+      },
+      {
+        "en": "School holidays",
+        "ar": "إجازات المدارس"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Large classes in many schools",
+        "ar": "فصول كبيرة في مدارس كتير"
+      },
+      {
+        "en": "Modest pay in many private schools",
+        "ar": "مرتب متواضع في مدارس خاصة كتير"
+      },
+      {
+        "en": "Physically and emotionally tiring days",
+        "ar": "أيام متعبة جسديًا ونفسيًا"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Teaching small children is just babysitting.",
+          "ar": "تعليم الأطفال الصغيرين مجرد مجالسة أطفال."
+        },
+        "fact": {
+          "en": "The early years build reading, maths and social skills that shape all later learning.",
+          "ar": "السنين الأولى بتبني القراية والحساب والمهارات الاجتماعية اللي بتشكّل كل التعلم بعد كده."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "School hours plus preparation at home; holidays follow the school year.",
+      "ar": "مواعيد المدرسة وتحضير في البيت؛ والإجازات ماشية مع السنة الدراسية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant teacher",
+        "ar": "مدرس مساعد"
+      },
+      {
+        "en": "Class teacher",
+        "ar": "مدرس فصل"
+      },
+      {
+        "en": "Head of KG or primary stage",
+        "ar": "رئيس مرحلة رياض الأطفال أو الابتدائي"
+      },
+      {
+        "en": "School principal or nursery owner",
+        "ar": "مدير مدرسة أو صاحب حضانة"
+      }
+    ],
+    "relatedCareerIds": [
+      "teacher",
+      "special_education_specialist",
+      "speech_therapist",
+      "school_counselor"
+    ],
+    "pivots": [
+      {
+        "en": "Curriculum and educational content",
+        "ar": "المناهج والمحتوى التعليمي"
+      },
+      {
+        "en": "Special education",
+        "ar": "التربية الخاصة"
+      }
+    ]
+  },
+  "industryId": "education",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Kindergarten Teachers, Except Special Education (25-2012.00)",
+      "url": "https://www.onetonline.org/link/summary/25-2012.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Elementary School Teachers, Except Special Education (25-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/25-2021.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

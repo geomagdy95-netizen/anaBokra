@@ -1,0 +1,270 @@
+{
+  "id": "speech_therapist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help people find their words.",
+      "ar": "بتساعد الناس يلاقوا كلامهم."
+    },
+    "summary": {
+      "en": "Speech and language therapists (أخصائي تخاطب) help children and adults with speaking, language, stuttering, voice and swallowing problems. In Egypt demand is high in children's centres, especially for language delay and autism. The route is phoniatrics for doctors, or language and speech programmes and diplomas for others, so check accredited options carefully.",
+      "ar": "أخصائي التخاطب بيساعد الأطفال والكبار في مشاكل الكلام واللغة والتهتهة والصوت والبلع. في مصر الطلب عالي في مراكز الأطفال، خصوصًا لتأخر الكلام والتوحد. الطريق للدكاترة هو تخصص التخاطب (الفونياتريكس)، ولغيرهم برامج ودبلومات اللغة والتخاطب، فاتأكد كويس من البرامج المعتمدة."
+    },
+    "dayInLife": {
+      "en": "A three-year-old who says only five words arrives with his parents. You play with toy animals and pictures to see what he understands and what he can say, then show the parents how to name things during bath time. Next, a teenager who stutters practises slow, easy speech while reading aloud. After lunch you assess an older woman's swallowing after a stroke with the doctor. You end the day writing plans and short reports.",
+      "ar": "طفل عنده 3 سنين بيقول 5 كلمات بس جاي مع أهله. بتلعب معاه بحيوانات وصور تشوف بيفهم إيه وبيقول إيه، وبعدين بتورّي الأهل يسمّوا الحاجات وقت الحمام. بعده مراهق بيتهته بيتمرن على الكلام البطيء السهل وهو بيقرا بصوت عالي. بعد الغدا بتقيّم البلع عند ست كبيرة بعد جلطة مع الدكتور. وبتخلص يومك بكتابة خطط وتقارير قصيرة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess speech, language, voice and swallowing.",
+        "ar": "بتقيّم الكلام واللغة والصوت والبلع."
+      },
+      {
+        "en": "Plan and run therapy sessions.",
+        "ar": "بتخطط وتنفذ جلسات علاج."
+      },
+      {
+        "en": "Coach parents and teachers.",
+        "ar": "بتدرّب الأهالي والمدرسين."
+      },
+      {
+        "en": "Work with doctors, psychologists and schools.",
+        "ar": "بتشتغل مع الدكاترة والنفسيين والمدارس."
+      },
+      {
+        "en": "Track progress and write reports.",
+        "ar": "بتتابع التقدم وتكتب تقارير."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Children's speech and development centres",
+        "ar": "مراكز التخاطب وتنمية الأطفال"
+      },
+      {
+        "en": "Hospitals (phoniatrics units) and schools",
+        "ar": "المستشفيات (وحدات التخاطب) والمدارس"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Picture cards and toys",
+        "ar": "كروت صور وألعاب"
+      },
+      {
+        "en": "Standardised language tests",
+        "ar": "اختبارات لغة مقننة"
+      },
+      {
+        "en": "Apps and recording devices",
+        "ar": "أبلكيشنز وأجهزة تسجيل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Medicine, then specialising in phoniatrics (doctors)",
+        "ar": "كلية الطب ثم تخصص التخاطب (للدكاترة)"
+      },
+      {
+        "en": "Faculties of Arts, Education or Special Needs with speech and language diplomas",
+        "ar": "كليات الآداب أو التربية أو ذوي الاحتياجات مع دبلومات التخاطب"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Postgraduate diplomas in speech and language therapy",
+        "ar": "دبلومات دراسات عليا في التخاطب"
+      }
+    ],
+    "licensing": {
+      "en": "Rules differ for doctors and non-doctors; check the Ministry of Health requirements for practising.",
+      "ar": "القواعد مختلفة للدكاترة وغيرهم؛ اتأكد من شروط وزارة الصحة للمزاولة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Phonetics and language development",
+        "ar": "علم الأصوات ونمو اللغة"
+      },
+      {
+        "en": "Assessment and therapy techniques",
+        "ar": "أساليب التقييم والعلاج"
+      },
+      {
+        "en": "Arabic language structure",
+        "ar": "تركيب اللغة العربية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience",
+        "ar": "الصبر"
+      },
+      {
+        "en": "Playfulness with children",
+        "ar": "روح اللعب مع الأطفال"
+      },
+      {
+        "en": "Clear guidance for parents",
+        "ar": "إرشاد واضح للأهالي"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Excellent Arabic; English for references",
+        "ar": "عربي ممتاز، وإنجليزي للمراجع"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 7661,
+        "max": 22038
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Speech Therapist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Speech Therapist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Private speech and autism centres",
+        "ar": "مراكز التخاطب والتوحد الخاصة"
+      },
+      {
+        "en": "Hospitals and international schools",
+        "ar": "المستشفيات والمدارس الدولية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Some sessions and parent coaching are done online.",
+      "ar": "بعض الجلسات وتدريب الأهالي بيتعمل أونلاين."
+    },
+    "regions": [
+      {
+        "en": "All big cities; highest demand in Cairo and Alexandria",
+        "ar": "كل المدن الكبيرة، والطلب الأعلى في القاهرة وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Arabic-speaking therapists are needed in the Gulf; licensing requirements apply.",
+    "ar": "أخصائيين التخاطب المتكلمين عربي مطلوبين في الخليج؛ مع شروط الترخيص."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "High demand for children's services",
+        "ar": "طلب عالي على خدمات الأطفال"
+      },
+      {
+        "en": "Visible progress that families celebrate",
+        "ar": "تقدم واضح الأسر بتفرح بيه"
+      },
+      {
+        "en": "Can work privately later",
+        "ar": "ممكن تشتغل خاص بعدين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Training routes are confusing; choose accredited ones",
+        "ar": "طرق الدراسة متلخبطة؛ اختار المعتمد"
+      },
+      {
+        "en": "Progress can take months",
+        "ar": "التقدم ممكن ياخد شهور"
+      },
+      {
+        "en": "Managing worried parents' expectations",
+        "ar": "إدارة توقعات الأهالي القلقانين"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Children who talk late always catch up on their own.",
+          "ar": "الأطفال اللي بيتكلموا متأخر دايمًا بيلحقوا لوحدهم."
+        },
+        "fact": {
+          "en": "Some do, but early assessment matters; delays can signal hearing or development problems.",
+          "ar": "بعضهم آه، بس التقييم بدري مهم؛ التأخير ممكن يكون علامة على مشكلة سمع أو نمو."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Day and evening sessions; children's sessions often after school.",
+      "ar": "جلسات بالنهار والمسا؛ وجلسات الأطفال غالبًا بعد المدرسة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Speech therapist",
+        "ar": "أخصائي تخاطب"
+      },
+      {
+        "en": "Senior therapist",
+        "ar": "أخصائي أول"
+      },
+      {
+        "en": "Clinical supervisor",
+        "ar": "مشرف إكلينيكي"
+      },
+      {
+        "en": "Centre owner or director",
+        "ar": "صاحب أو مدير مركز"
+      }
+    ],
+    "relatedCareerIds": [
+      "occupational_therapist",
+      "special_education_specialist",
+      "clinical_psychologist",
+      "teacher"
+    ],
+    "pivots": [
+      {
+        "en": "Special education",
+        "ar": "التربية الخاصة"
+      },
+      {
+        "en": "Audiology or hearing rehabilitation",
+        "ar": "السمعيات أو تأهيل السمع"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Speech-Language Pathologists (29-1127.00)",
+      "url": "https://www.onetonline.org/link/summary/29-1127.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Speech-Language Pathology Assistants (31-9099.01)",
+      "url": "https://www.onetonline.org/link/summary/31-9099.01",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

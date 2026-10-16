@@ -274,7 +274,8 @@
       "interests": "Would you enjoy doing this?",
       "personality": "How well does this describe you?",
       "abilities": "Compared with others your age, how strong are you at this?",
-      "values": "Sort each card by how much it matters to you in a future job."
+      "values": "Sort each card by how much it matters to you in a future job.",
+      "interestsImagine": "You don’t need to know the job or have studied it: just imagine doing it for a day."
     },
     "swipe": {
       "cardLabel": "Card {current} of {total}",
@@ -497,7 +498,8 @@
       "retakeReady": "It has been a while. You can retake the assessment to see how you have changed.",
       "retake": "Retake the assessment",
       "retakeLocked": "You can retake the assessment on {date}. Interests and strengths take time to change, so we ask you to wait about six months."
-    }
+    },
+    "cardHint": "What does this mean?"
   },
   "Careers": {
     "nav": {
@@ -689,7 +691,9 @@
       "noSources": "Sources will be listed when the full page is published.",
       "lastReviewed": "Last reviewed: {date}.",
       "notReviewed": "Not reviewed yet.",
-      "draft": "This content is a draft."
+      "draft": "This content is a draft.",
+      "workStyle": "Work style",
+      "sourcesCount": "{count, plural, =0 {none yet} one {# source} other {# sources}}"
     },
     "sections": {
       "overview": "Overview",
@@ -699,7 +703,8 @@
       "future": "Future outlook",
       "reality": "Reality check",
       "related": "Related careers",
-      "sources": "Sources"
+      "sources": "Sources",
+      "entry": "What could stand in your way"
     },
     "overview": {
       "dayInLife": "A day in this job",
@@ -744,7 +749,9 @@
       "otherCurricula": "IGCSE, American Diploma and other certificates",
       "alternatives": "Other routes in",
       "licensing": "Licensing and registration",
-      "providers": "Training programs and courses"
+      "providers": "Training programs and courses",
+      "morePrograms": "{count, plural, one {Show # more program} other {Show # more programs}}",
+      "fewerPrograms": "Show fewer"
     },
     "skills": {
       "hard": "Technical skills",
@@ -781,7 +788,9 @@
         "senior": "Senior"
       },
       "notPublished": "Not published separately",
-      "source": "Salary source"
+      "source": "Salary source",
+      "allLevels": "One range for all experience levels.",
+      "about": "About this number"
     },
     "future": {
       "summary": "Outlook summary",
@@ -807,7 +816,8 @@
         "fading": "Fading",
         "emerging": "Emerging"
       },
-      "sources": "Outlook sources"
+      "sources": "Outlook sources",
+      "forField": "This outlook is for the whole {field} field."
     },
     "reality": {
       "pros": "The good side",
@@ -815,7 +825,8 @@
       "myths": "Myths and facts",
       "myth": "Myth",
       "fact": "Fact",
-      "balance": "Work-life balance"
+      "balance": "Work-life balance",
+      "mythsHint": "Tap each one to see the fact."
     },
     "related": {
       "ladder": "A typical career ladder",
@@ -825,6 +836,70 @@
     "report": {
       "subject": "Issue with career page",
       "link": "Report an issue with this page"
+    },
+    "facts": {
+      "label": "Key facts",
+      "pay": "Pay",
+      "payRange": "EGP {min}k–{max}k",
+      "payNone": "No reliable figure",
+      "perMonth": "per month, before deductions",
+      "study": "Study",
+      "studyVaries": "Depends on the route",
+      "demand": "Demand in Egypt",
+      "future": "Field outlook",
+      "entry": "Getting in",
+      "entrySub": "{count, plural, one {# hurdle to know about} other {# hurdles to know about}}"
+    },
+    "tabs": {
+      "job": "The job",
+      "path": "Getting there",
+      "money": "Pay & future",
+      "real": "Real talk"
+    },
+    "next": {
+      "title": "Is this field for you?",
+      "body": "In your journey, the {field} island has short real-life moments that show whether this field suits you.",
+      "cta": "Go to the island"
+    },
+    "entry": {
+      "overall": "Getting in",
+      "intro": "The real hurdles between you and this career, hardest first. Hard is not impossible: under each one is what helps people get past it.",
+      "levels": {
+        "open": "Open to most",
+        "moderate": "Some hurdles",
+        "competitive": "Competitive",
+        "very_competitive": "Very competitive"
+      },
+      "levels3": {
+        "1": "Manageable",
+        "2": "Hard",
+        "3": "Very hard"
+      },
+      "kinds": {
+        "grades": "Grades",
+        "exam": "Entrance exams",
+        "interview": "Interviews and selection",
+        "vetting": "Background checks",
+        "age": "Age limit",
+        "physical": "Medical and fitness",
+        "license": "Licence exam",
+        "membership": "Syndicate membership",
+        "cost": "Cost",
+        "time": "Years of study",
+        "experience": "Experience first",
+        "gender": "Women and men",
+        "location": "Where you live"
+      },
+      "tip": "What helps",
+      "source": "Source",
+      "derived": {
+        "grades": "Public faculties linked to this career asked for {min}% to {max}% in Tansik {year} (phase 1).",
+        "gradesTip": "Private and ahleya universities accept lower scores but charge fees, and nearby fields with lower cut-offs can lead to similar work.",
+        "cost": "Private, ahleya and international options linked here list about {min} to {max} EGP a year.",
+        "costTip": "Many give discounts for high scores and some offer scholarships; public faculties cost far less.",
+        "time": "About {years} years of study before you can work in it.",
+        "timeTip": "Plan with your family for the long years with little income; scholarships and part-time work help some students."
+      }
     }
   },
   "Results": {
@@ -855,7 +930,7 @@
       "summaryTitle": "In a few words",
       "summaryEmpty": "Your summary will appear once your matches are ready.",
       "partial": "This result is based on the parts you finished. Finish the rest for a fuller picture.",
-      "hollandTitle": "Your Holland code",
+      "hollandTitle": "Your interest types",
       "hollandIntro": "Three interest types lead your profile, strongest first.",
       "hollandCode": "Holland code {code}",
       "bigFiveTitle": "Your strengths",
@@ -1602,7 +1677,8 @@
       "flags": "Feature flags",
       "audit": "Audit log",
       "system": "System",
-      "back": "Back to app"
+      "back": "Back to app",
+      "insights": "Insights"
     },
     "demo": "Demo data — dev mock mode. Nothing here is real.",
     "roles": "Your roles: {roles}",
@@ -1780,6 +1856,83 @@
       "status_ok": "OK",
       "status_warn": "Warning",
       "status_missing": "Missing"
+    },
+    "insights": {
+      "title": "Insights",
+      "intro": "What the anonymous, opt-in records say about the journey. Totals only: no record can be traced to a person. Feedback notes are cleaned of e-mails, links and numbers.",
+      "event": "Session code (optional)",
+      "filter": "Show",
+      "tiles": {
+        "started": "Started Discover",
+        "results": "Results made",
+        "rating": "Results rating",
+        "ratingHint": "{n} answers",
+        "feedback": "Feedback sent"
+      },
+      "funnel": "Journey funnel",
+      "count": "Count",
+      "share": "Of those who started",
+      "step": {
+        "name": "Step",
+        "task": "Discover task {n}",
+        "discover_done": "Discover finished",
+        "results_viewed": "Results made",
+        "path_started": "Field check started",
+        "quest_started": "Career quest started",
+        "quest_done": "Career quest finished",
+        "career_chosen": "Career chosen",
+        "situation_answered": "Circumstances answered"
+      },
+      "views": "Most viewed career pages",
+      "career": "Career",
+      "paths": "Field checks by band",
+      "field": "Field",
+      "bands": {
+        "fitsWell": "Fits well",
+        "fitsPartly": "Fits partly",
+        "rethink": "Rethink"
+      },
+      "usage": "What people use",
+      "action": "Action",
+      "actions": {
+        "map_island": "Map: open a field island",
+        "map_core": "Map: open my island",
+        "map_career": "Map: open a career islet",
+        "map_search": "Map: search",
+        "map_list": "Map: switch to list",
+        "map_zoom": "Map: zoom buttons",
+        "map_arrange": "Map: arrange islands",
+        "map_hint_closed": "Map: closed the tip",
+        "dock_island": "Dock: my island",
+        "dock_results": "Dock: my results",
+        "dock_careers": "Dock: my careers",
+        "dock_fields": "Dock: all fields",
+        "next_pill": "Next-step pill",
+        "career_tab": "Career page: tab",
+        "career_fact": "Career page: fact tile",
+        "myth_open": "Career page: opened a myth",
+        "hurdle_source": "Career page: hurdle source",
+        "share": "Share",
+        "results_tab": "Results: tab",
+        "match_details": "Results: match details"
+      },
+      "feedbackTitle": "Feedback",
+      "liked": "Helped most",
+      "confusing": "Most confusing",
+      "parts": {
+        "map": "Map",
+        "tasks": "Discover tasks",
+        "games": "Games",
+        "paths": "Field checks",
+        "quests": "Career quests",
+        "careers": "Career pages",
+        "hurdles": "Hurdles",
+        "results": "Results"
+      },
+      "week": "Week",
+      "screen": "Where",
+      "ratingCol": "Rating",
+      "note": "Note"
     }
   },
   "Public": {
@@ -1990,13 +2143,15 @@
       "before": "Your map before the assessment",
       "during": "Your map during the assessment",
       "after": "Your map after the assessment",
-      "added": "Your map, your choices"
+      "added": "Your map, your choices",
+      "all": "All 18 fields (design review)"
     },
     "hint": {
       "before": "Every field is open to explore",
       "during": "Connections change as you answer",
       "after": "Suggested paths that fit you now",
-      "added": "You added a field yourself"
+      "added": "You added a field yourself",
+      "all": "Every island on the map at once"
     },
     "viewLabel": "View",
     "view": {
@@ -2008,7 +2163,8 @@
       "before": "Before",
       "during": "During",
       "after": "After",
-      "added": "After adding"
+      "added": "After adding",
+      "all": "All islands"
     },
     "quality": "Quality",
     "qualities": {
@@ -2149,7 +2305,7 @@
       "tooYoungBody": "The career library is open to browse in the meantime.",
       "browseCareers": "Career library",
       "back": "Back",
-      "acceptTitle": "Before you start",
+      "acceptTitle": "Our promise to you",
       "acceptPoints": {
         "p1": "Your answers and results stay on this device, encrypted. Nothing is sent to anaBokra: no account, no AI.",
         "p2": "Anyone who can open the app on this device can see your results, unless you lock it with a password. You can delete everything at any time.",
@@ -2158,14 +2314,51 @@
       "acceptCheck": "I am 18 or older, I accept the Terms of Use and I have read the Privacy Policy (version {version}).",
       "acceptCheckTeen": "I am 15–17 years old, I accept the Terms of Use and I have read the Privacy Policy (version {version}).",
       "statsCheck": "Optional: share anonymous statistics to help improve anaBokra. No name, phone number or anything that points to me.",
-      "start": "Start",
+      "start": "I agree, let’s go",
       "docs": {
         "privacy-policy": "Privacy Policy",
         "terms-of-use": "Terms of Use",
         "children-data-notice": "Your data, in short"
       },
       "restoreLink": "Moving from another phone? Restore your data",
-      "joinLater": "You can also join a session later, from the bottom of the main page."
+      "joinLater": "You can also join a session later, from the bottom of the main page.",
+      "progress": "Step {n} of {total}",
+      "welcome": {
+        "eyebrow": "Welcome to anaBokra",
+        "title": "Find the career that fits you",
+        "body": "A journey across islands: discover what you’re into, test fields with a real day in them, and try out careers before you choose.",
+        "time": "About 20 minutes, at your pace",
+        "private": "Everything stays on your phone",
+        "noWrong": "No wrong answers",
+        "start": "Let’s start"
+      },
+      "ageWhy": "So we talk to you right and keep your data safe.",
+      "acceptIntro": "Three things to know before we start.",
+      "acceptHeads": {
+        "p1": "Your answers stay with you",
+        "p2": "You’re in control",
+        "p3": "Guidance, not a test"
+      },
+      "acceptFirst": "Tick the box above to continue",
+      "tour": {
+        "title": "Your journey in three stops",
+        "intro": "Here is what’s waiting on your map.",
+        "stop": "Stop {n}",
+        "s1": {
+          "title": "Your island",
+          "body": "Ten short tasks and games that show what you’re into and what you’re good at."
+        },
+        "s2": {
+          "title": "Field islands",
+          "body": "Check the fields that suit you by living a real day in them."
+        },
+        "s3": {
+          "title": "Careers",
+          "body": "Try a day in a career, and see its pay, the way in and the hurdles."
+        },
+        "tip": "Tap any island on the map to see what it holds. The pill at the bottom always shows your next step.",
+        "go": "Take me to my island"
+      }
     },
     "deleteData": {
       "open": "Delete all my data",
@@ -2203,7 +2396,7 @@
     },
     "stats": {
       "title": "Anonymous statistics",
-      "on": "On: when you finish, an anonymous summary is sent, plus how each path you check came out, your rating of the results, and your first score in each game.",
+      "on": "On: when you finish, an anonymous summary is sent, plus how each path you check came out, your rating of the results, your first score in each game, which steps of the journey you reached, which career pages you opened, and a daily count of the buttons you used on the map and pages.",
       "off": "Off: nothing is sent.",
       "what": "Age group, language, top interest areas and career groups, score ranges and how many parts were finished. No name, phone number, ID or exact time."
     },
@@ -2246,12 +2439,12 @@
       "retry": "Try deleting again"
     },
     "profile": {
-      "title": "Choose a nickname",
+      "title": "What should we call you?",
       "nickname": "Nickname",
       "nicknameHelp": "It stays on this phone. It doesn't have to be your real name.",
       "lockTitle": "Lock the app with a password?",
       "lockBody": "Optional. Without a password, anyone who can open the app on this phone can see your results.",
-      "lockCheck": "Yes, ask for a password when the app opens",
+      "lockCheck": "Lock the app with a password",
       "password": "Password",
       "passwordAgain": "Password again",
       "passwordHelp": "At least {min} characters. It stays on this phone.",
@@ -2259,7 +2452,18 @@
         "short": "At least {min} characters.",
         "mismatch": "The two passwords don't match."
       },
-      "save": "Save"
+      "save": "Continue",
+      "intro": "Optional. You can change it any time in Account.",
+      "nicknamePlaceholder": "Type a nickname or pick one",
+      "suggestions": "Nickname ideas",
+      "addressQ": "How should we address you in Arabic?",
+      "address": {
+        "male": "As a boy",
+        "female": "As a girl",
+        "none": "Doesn’t matter"
+      },
+      "addressHelp": "Only for the grammar of the Arabic text. It stays on this phone.",
+      "skipName": "Skip for now"
     },
     "recovery": {
       "title": "Your recovery code",
@@ -2313,11 +2517,12 @@
     "intro": "Ten short tasks to get to know you. After task 4 we make a first guess at the paths that suit you.",
     "progress": "{done} of {total} tasks done",
     "task": "Task {n}",
-    "taskMeta": "{count} questions · about {min} min",
+    "taskMeta": "{count, plural, one {# question} other {# questions}} · about {min} min",
     "state": {
       "done": "Done",
       "next": "Up next",
-      "locked": "Locked"
+      "locked": "Locked",
+      "bonus": "Bonus"
     },
     "start": "Start",
     "again": "Review",
@@ -2368,7 +2573,8 @@
       "suggested": "Based on your interests, strengths and style so far.",
       "flat": "No path stands out yet: your interest answers are very even. Try using the whole scale, from \"strongly dislike\" to \"strongly like\". You can also explore any path you’re curious about.",
       "top": "Top careers here for you: {list}",
-      "verifySoon": "Checking a path opens soon"
+      "verifySoon": "Checking a path opens soon",
+      "flatChecklist": "No path stands out yet: you picked about the same number of cards of every kind. You can explore any path you’re curious about."
     },
     "saveFailed": "We couldn’t save that answer. Please try again.",
     "verify": {
@@ -2378,6 +2584,8 @@
       "valuesIntro": "Asked once, then used for every path you check.",
       "notReady": "Finish Discover task 8 to get your path suggestions first.",
       "noContent": "Checking this path opens soon. You can still read about its careers.",
+      "resultFailed": "We couldn’t save your result on this phone. Please try again.",
+      "toDiscover": "Continue Discover",
       "result": "See my result",
       "bands": {
         "fitsWell": "Fits you well",
@@ -2393,13 +2601,55 @@
       "accepted": "Realities you’re fine with",
       "keep": "Worth keeping in mind",
       "over": "You picked “{chosen}” over “{path}”",
-      "common": "common for: {list}",
-      "careers": "Careers in this path, for you",
+      "common": "More common for: {list}",
+      "careers": "Careers that suit you best here",
       "caution": "Check: {text}",
       "disclaimer": "This is guidance to explore, not a verdict. You can check any path, any time.",
       "again": "Answer again",
       "openCareer": "Read about it",
-      "other": "Check another path"
+      "other": "Check another path",
+      "why": "Why this result",
+      "signal": {
+        "profile": {
+          "name": "Your Discover answers",
+          "1": "Not very close to this path",
+          "2": "Partly close to this path",
+          "3": "Close to this path"
+        },
+        "activities": {
+          "name": "What you enjoyed of the work",
+          "1": "Not much of it appealed to you",
+          "2": "You enjoyed some of it",
+          "3": "You enjoyed most of it"
+        },
+        "realities": {
+          "name": "The trade-offs",
+          "1": "Most of them aren’t for you",
+          "2": "You’re fine with some of them",
+          "3": "You’re fine with most of them"
+        }
+      },
+      "mix": "Your result combines all three. Your Discover answers count the most.",
+      "allCareers": "See all {count} careers",
+      "fewerCareers": "Show fewer",
+      "keepHint": "This doesn’t close the path. Some careers in it involve these more than others.",
+      "youPrefer": "You’d rather",
+      "pathMeans": "This path often means",
+      "more": "+{n}",
+      "resultEyebrow": "Your result for this path",
+      "careerLevel": {
+        "1": "Less close for you",
+        "2": "Close to you",
+        "3": "Very close to you"
+      },
+      "cautions": "{count, plural, one {# trade-off you’d rather avoid} other {# trade-offs you’d rather avoid}}",
+      "next": {
+        "title": "What next?",
+        "read": "Read about {career}",
+        "save": "Save this path",
+        "saved": "Saved",
+        "visit": "Visit the {career} island"
+      }
     },
     "readiness": {
       "baselineTitle": "Before we start: how ready do you feel?",
@@ -2428,7 +2678,8 @@
       "subtitle": "Your island, your way",
       "mapTitle": "Your map",
       "openMap": "Open map",
-      "discoverTitle": "Discover yourself"
+      "discoverTitle": "Discover yourself",
+      "welcome": "Welcome to your island"
     },
     "explore": {
       "title": "Explore fields of work",
@@ -2511,7 +2762,8 @@
       "onlyMe": "For now it's just your island. Finish its tasks and your first 3 suggested fields appear here.",
       "onMap": "On your map",
       "moreFields": "More fields you can add",
-      "allFields": "All fields"
+      "allFields": "All fields",
+      "careersOpen": "Tap a career to visit its island and try its quest."
     },
     "saved": {
       "title": "Saved",
@@ -2543,7 +2795,282 @@
     },
     "stepsTotal": "{total, plural, one {# step} other {# steps}}",
     "withGame": "+ game: {name}",
-    "playGame": "Play the game"
+    "playGame": "Play the game",
+    "grid": {
+      "prompt": "Which of these would you enjoy doing?",
+      "hint": "You don’t need to know the job or have studied it: just imagine doing it for a day. Tap every one you’d enjoy, no wrong answers.",
+      "check": "Quick check: tap this card",
+      "done": "Done · {count} picked",
+      "none": "None of these"
+    },
+    "compass": {
+      "title": "Your interest types so far",
+      "lead": "You lean towards {a} and {b}",
+      "note": "This fills in with every task. It’s a picture of what you enjoy, not a test.",
+      "types": {
+        "R": "Builder",
+        "I": "Thinker",
+        "A": "Creator",
+        "S": "Helper",
+        "E": "Persuader",
+        "C": "Organizer"
+      }
+    },
+    "settled": "Your top interests are clear already, so you’re done with Discover. Tasks 9 and 10 are a bonus if you want a sharper picture.",
+    "budget": {
+      "title": "Build your dream job",
+      "intro": "You have {coins} coins. Spend them on what your future job must give you. More coins mean it matters more.",
+      "left": "{n} left",
+      "less": "One coin less for {name}",
+      "more": "One coin more for {name}",
+      "spendAll": "Spend all your coins ({n} left)",
+      "done": "That’s my dream job"
+    },
+    "day": {
+      "title": "A day in {path}",
+      "intro": "Spend a day in their shoes: moments from the job, real trade-offs and a few small challenges. React to each one, it’s quick.",
+      "minutes": "about {min} min",
+      "beats": "{count} moments",
+      "noWrong": "no wrong answers",
+      "valuesFirst": "First, build your dream job: one quick screen, asked only once.",
+      "valuesFirstCards": "First, sort what you need from work. It’s asked only once.",
+      "progress": "{done}/{total}",
+      "start": "Start my day",
+      "continue": "Continue my day",
+      "lastResult": "See my last result",
+      "lead": {
+        "moment": "Picture this",
+        "choice": "Your call",
+        "try": "Your turn",
+        "puzzle": "Quick challenge",
+        "after": "Nice"
+      }
+    },
+    "career": {
+      "locked": "This career’s island opens once you check {group}.",
+      "checkGroup": "Check {group}",
+      "readPage": "Read the full career page",
+      "questTitle": "Quest: {career}",
+      "resultEyebrow": "Your career quest",
+      "steps": "{count} steps",
+      "start": "Start the quest",
+      "continue": "Continue the quest",
+      "isMine": "One of my careers",
+      "lead": {
+        "day": "A day as {career}",
+        "tasks": "Your call",
+        "salary": "Guess the pay",
+        "challenge": "The real deal",
+        "myth": "Myth or fact?",
+        "route": "The route in"
+      },
+      "range": "{min}–{max} EGP",
+      "salaryQ": "Roughly how much does {career} earn a month in Egypt?",
+      "close": "Not quite",
+      "salaryReveal": "The usual range: {range} a month.",
+      "salaryNote": "A rough guide from published salary surveys, not a pay scale.",
+      "live": {
+        "1": "Not for me",
+        "2": "I could manage",
+        "3": "No problem"
+      },
+      "myth": "Myth",
+      "fact": "Fact",
+      "notQuite": "Not quite",
+      "isMyth": "It’s a myth. In fact: {fact}",
+      "isFact": "It’s a fact. Many people think: {myth}",
+      "years": "About {n} years of study",
+      "routeQ": "Does this route work for you?",
+      "route": {
+        "1": "Not for me",
+        "2": "Maybe",
+        "3": "Yes, it works"
+      },
+      "tasksQ": "Which of these tasks would you enjoy? Tap every one.",
+      "tasksPicked": "I picked {n} of {total}",
+      "bandText": {
+        "fitsWell": "Your Discover answers and how you felt about {career} both point this way.",
+        "fitsPartly": "Some of {career} suits you and some doesn’t. That’s normal, and worth knowing.",
+        "rethink": "From your answers, {career} may not be the best fit right now. Knowing that is progress too."
+      },
+      "signal": {
+        "profile": "Your Discover answers",
+        "activities": "What you enjoyed of the work",
+        "realities": "The challenges and the route"
+      },
+      "nextLevel": "Your next level for this career is a plan: what to do now, at university or after it.",
+      "planSoon": "Your progress plan opens soon.",
+      "letGo": "Let this career go",
+      "capReached": "You already chose {n} careers.",
+      "capHint": "Swap one of them for this career, or keep your choice. Nothing you answered is lost.",
+      "swap": "Swap {old} for {new}",
+      "chooseQ": "Could {career} be one of your careers?",
+      "chooseHint": "You can choose up to {n} careers, and change your mind any time.",
+      "choose": "Add it to my careers",
+      "liked": "Tasks you’d enjoy",
+      "backToGroup": "Back to the path",
+      "bands": {
+        "fitsWell": "Fits you well",
+        "fitsPartly": "Fits you partly",
+        "rethink": "Worth rethinking"
+      },
+      "profileLevel": {
+        "1": "Not very close to this career",
+        "2": "Partly close to this career",
+        "3": "Close to this career"
+      }
+    },
+    "myCareers": {
+      "title": "My careers",
+      "pick": "You finished these quests. Choose up to {n} as your careers."
+    },
+    "careerPage": {
+      "title": "How it fits you",
+      "fromQuest": "From your career quest.",
+      "fromPath": "From your answers on the {field} island. The career quest makes it sharper.",
+      "fromDiscover": "Your Discover profile match, before checking the field.",
+      "seeResult": "See your result",
+      "tryQuest": "Try a day as {career}",
+      "checkField": "Check the {field} island",
+      "noneYet": "Finish Discover to see how well this career matches you.",
+      "findFit": "Go to Discover"
+    },
+    "backToMap": "Back to the map",
+    "map": {
+      "title": "My map",
+      "brand": "anaBokra",
+      "myIsland": "My island",
+      "coreIntro": "Your stations: every Discover task you finish lights one up.",
+      "openMyIsland": "Open my island",
+      "openIsland": "Open the island",
+      "next": {
+        "start": "Start here",
+        "continue": "Continue",
+        "check": "Next: check a field",
+        "field": "The {field} island",
+        "try": "Next: try a career",
+        "more": "Up next",
+        "explore": "Explore more fields"
+      },
+      "hint": "Tap any island to see what it holds",
+      "hintClose": "Close the tip",
+      "controls": {
+        "in": "Zoom in",
+        "out": "Zoom out",
+        "home": "Show the whole map"
+      },
+      "dock": {
+        "label": "Shortcuts",
+        "island": "My island",
+        "results": "My results",
+        "careers": "My careers",
+        "fields": "All fields",
+        "map": "Back to the map"
+      }
+    },
+    "results": {
+      "eyebrow": "Your results",
+      "stats": {
+        "fields": "{count, plural, one {# field checked} other {# fields checked}}",
+        "careers": "{count, plural, one {# career tried} other {# careers tried}}",
+        "mine": "{count, plural, one {# of my careers} other {# of my careers}}"
+      },
+      "readiness": {
+        "title": "Got a minute?",
+        "body": "Six quick questions about how ready you feel to choose. They help us see whether the journey helps.",
+        "cta": "Start"
+      },
+      "tabs": {
+        "label": "Parts of my results",
+        "careers": "Careers for you",
+        "me": "About me",
+        "journey": "My journey"
+      },
+      "fit": "{n}% fit",
+      "top": "Your top matches",
+      "topIntro": "Best first. Each shows the pay, the years of study and how hard it is to get in.",
+      "more": "More details",
+      "why": "Why it suits you",
+      "watch": "Watch out for",
+      "page": "Career page",
+      "surprising": "Might surprise you",
+      "moreMatches": "{count, plural, one {# more close match} other {# more close matches}}",
+      "entryNote": "\"Getting in\" sums up grades, exams, interviews, checks and cost from official announcements and Tansik lists. Open a career to see each hurdle and what helps.",
+      "next": "Your next step",
+      "fieldsTitle": "Fields you checked",
+      "noFields": "You haven’t checked a field yet. Your top fields are waiting on the map.",
+      "triedTitle": "Careers you tried",
+      "replay": "Watch the reveal again"
+    },
+    "situation": {
+      "title": "Your circumstances matter",
+      "intro": "Three optional questions (money for study, where you live, working while studying) so we can mark the hurdles that may weigh more for you. Your answers stay on this device; no one else sees them.",
+      "answer": "Answer",
+      "settingsTitle": "My circumstances",
+      "budget": {
+        "q": "For university, what can your family manage?",
+        "public": "Public university only",
+        "some": "Some fees",
+        "private": "Private university if needed"
+      },
+      "region": {
+        "q": "Where do you live?",
+        "cairo": "Greater Cairo",
+        "alex": "Alexandria",
+        "delta": "The Delta",
+        "canal": "Canal, Sinai and Red Sea",
+        "upper": "Upper Egypt",
+        "frontier": "Matrouh and New Valley"
+      },
+      "work": {
+        "q": "Will you need to work while you study?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "private": "Saved on this device only.",
+      "save": "Save",
+      "later": "Not now",
+      "edit": "Change",
+      "forget": "Forget my answers",
+      "affects": "From what you told us, these need more planning here:",
+      "none": "From what you told us, none of these hurdles weighs extra for you here.",
+      "saved": "Saved. Career pages mark the hurdles that weigh more for you."
+    },
+    "feedback": {
+      "title": "Tell us what you think",
+      "rating": "How was anaBokra for you?",
+      "faces": {
+        "1": "Not good",
+        "2": "Meh",
+        "3": "Okay",
+        "4": "Good",
+        "5": "Loved it"
+      },
+      "liked": "What helped you?",
+      "confusing": "What was confusing?",
+      "parts": {
+        "map": "The map",
+        "tasks": "Discover tasks",
+        "games": "Games",
+        "paths": "Checking a field",
+        "quests": "Career quests",
+        "careers": "Career pages",
+        "hurdles": "Hurdles to get in",
+        "results": "My results"
+      },
+      "note": "Anything else? (optional)",
+      "notePlaceholder": "What should we change or add?",
+      "privacy": "Sent anonymously, only when you press Send. Please don’t write your name, phone number or anything that shows who you are; we remove e-mails, links and numbers anyway.",
+      "send": "Send",
+      "thanks": "Thank you! We read every note.",
+      "failed": "Couldn’t send it. Check your connection and try again.",
+      "promptTitle": "Your opinion matters",
+      "promptBody": "One minute: what helped and what didn’t?",
+      "promptCta": "Give feedback",
+      "pageQ": "Was this page useful?",
+      "yes": "Yes",
+      "no": "No"
+    }
   },
   "DevPaths": {
     "title": "Path questions (preview)",

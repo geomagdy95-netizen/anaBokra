@@ -3,7 +3,9 @@ import { careers, enjoyId, type PathContent, type PathTask } from '@anabokra/con
 import { ARRANGE_RING } from '@/features/world/layout';
 import type { KvStore } from '@/lib/local/kv';
 
+import type { CareerRecord } from './career-quest';
 import type { GameId, GameRecord } from './games';
+import type { Situation } from './situation';
 
 /**
  * Verify (docs/product/discover-verify.md §5): answers to a path's own tasks, and the path result.
@@ -65,6 +67,15 @@ export interface JourneyDoc {
   rating?: { value: number; at: string };
   /** First full play of each Discover game (lib/journey/games.ts). */
   games?: Partial<Record<GameId, GameRecord>>;
+  /** L2 career islands: each career's quest answers and result (lib/journey/career-quest.ts). */
+  careers?: Record<string, CareerRecord>;
+  /** The careers the user selected (at most CAREER_CAP), in the order chosen. */
+  selectedCareers?: string[];
+  /**
+   * Optional answers about the user's circumstances (lib/journey/situation.ts). Only ever kept on the
+   * device: stats and research uploads pick their own fields and never read this.
+   */
+  situation?: Situation;
 }
 
 export const journeyKey = (profileId: string) => `journey:${profileId}`;

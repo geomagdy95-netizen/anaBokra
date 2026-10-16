@@ -1,6 +1,6 @@
 {
   "id": "engineering",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 13 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,13 +9,13 @@
       "title": { "en": "A day in engineering", "ar": "يوم في الهندسة" },
       "intro": { "en": "Moments from a typical day in engineering. How does each one sound to you?", "ar": "لحظات من يوم عادي في الهندسة. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "engineering_day_1", "title": { "en": "Before the pour", "ar": "قبل صب الخرسانة" }, "text": { "en": "7 a.m. on a construction site in the sun, checking the steel before the concrete is poured.", "ar": "7 الصبح في موقع إنشاءات تحت الشمس: مراجعة الحديد قبل صب الخرسانة." }, "careers": ["civil_engineer", "architect"] },
-        { "id": "engineering_day_2", "title": { "en": "Will it hold?", "ar": "هتستحمل؟" }, "text": { "en": "Designing a part in 3D on the computer and testing whether it can hold the load.", "ar": "تصميم قطعة 3D على الكمبيوتر واختبار هل هتستحمل الحمل ولا لأ." }, "careers": ["mechanical_engineer", "mechatronics_engineer", "biomedical_engineer"] },
-        { "id": "engineering_day_3", "title": { "en": "The faulty panel", "ar": "لوحة الكهربا" }, "text": { "en": "Tracing a fault in an electrical panel with a multimeter.", "ar": "تتبّع عطل في لوحة كهربا بجهاز القياس (المالتيميتر)." }, "careers": ["electrical_engineer", "mechatronics_engineer", "communications_engineer"] },
+        { "id": "engineering_day_1", "title": { "en": "Before the pour", "ar": "قبل صب الخرسانة" }, "text": { "en": "7 a.m. on a construction site in the sun, checking the steel before the concrete is poured.", "ar": "7 الصبح في موقع بناء تحت الشمس، بتراجع الحديد قبل ما الخرسانة تتصب.", "arF": "7 الصبح في موقع بناء تحت الشمس، بتراجعي الحديد قبل ما الخرسانة تتصب." }, "careers": ["civil_engineer", "architect"] },
+        { "id": "engineering_day_2", "title": { "en": "Will it hold?", "ar": "هتستحمل؟" }, "text": { "en": "Designing a part in 3D on the computer and testing whether it can hold the load.", "ar": "بتصمم قطعة 3D على الكمبيوتر، وتختبر هتستحمل الوزن اللي عليها ولا لأ.", "arF": "بتصممي قطعة 3D على الكمبيوتر، وتختبري هتستحمل الوزن اللي عليها ولا لأ." }, "careers": ["mechanical_engineer", "mechatronics_engineer", "biomedical_engineer"] },
+        { "id": "engineering_day_3", "title": { "en": "The faulty panel", "ar": "لوحة كهربا فيها عطل" }, "text": { "en": "Tracing a fault in an electrical panel with a multimeter.", "ar": "بتدور على عطل في لوحة كهربا بجهاز القياس (المالتيميتر).", "arF": "بتدوري على عطل في لوحة كهربا بجهاز القياس (المالتيميتر)." }, "careers": ["electrical_engineer", "mechatronics_engineer", "communications_engineer"] },
         { "id": "engineering_day_4", "title": { "en": "Two weeks in the desert", "ar": "أسبوعين في الصحرا" }, "text": { "en": "Two weeks on an oil field in the desert, then a week off at home.", "ar": "أسبوعين في حقل بترول في الصحرا، وبعدين أسبوع أجازة في البيت." }, "careers": ["petroleum_engineer"] },
-        { "id": "engineering_day_5", "title": { "en": "The demanding client", "ar": "عميل صعب" }, "text": { "en": "Sketching a building's front and discussing the windows with a demanding client.", "ar": "رسم واجهة مبنى ونقاش مع عميل صعب على شكل الشبابيك." }, "careers": ["architect"] },
-        { "id": "engineering_day_6", "title": { "en": "The weak row", "ar": "الصف الضعيف" }, "text": { "en": "Walking a solar farm to find out why one row produces less power.", "ar": "لفّة في محطة طاقة شمسية علشان نعرف ليه صف واحد بيطلّع كهربا أقل." }, "careers": ["renewable_energy_engineer", "electrical_engineer"] },
-        { "id": "engineering_day_7", "title": { "en": "Fewer faulty pieces", "ar": "قطع بايظة أقل" }, "text": { "en": "In a factory, adjusting a production line so it makes fewer faulty pieces.", "ar": "في مصنع: ظبط خط إنتاج علشان يطلّع قطع بايظة أقل." }, "careers": ["mechanical_engineer", "chemical_engineer", "mechatronics_engineer"] }
+        { "id": "engineering_day_5", "title": { "en": "The demanding client", "ar": "عميل صعب الإرضاء" }, "text": { "en": "Sketching a building's front and discussing the windows with a demanding client.", "ar": "بترسم واجهة مبنى، وبتتناقش مع عميل صعب الإرضاء على شكل الشبابيك.", "arF": "بترسمي واجهة مبنى، وبتتناقشي مع عميل صعب الإرضاء على شكل الشبابيك." }, "careers": ["architect"] },
+        { "id": "engineering_day_6", "title": { "en": "The weak row", "ar": "الصف اللي إنتاجه قليل" }, "text": { "en": "Walking a solar farm to find out why one row produces less power.", "ar": "بتلف في محطة طاقة شمسية علشان تعرف ليه صف واحد من الألواح بيطلّع كهربا أقل من الباقي.", "arF": "بتلفي في محطة طاقة شمسية علشان تعرفي ليه صف واحد من الألواح بيطلّع كهربا أقل من الباقي." }, "careers": ["renewable_energy_engineer", "electrical_engineer"] },
+        { "id": "engineering_day_7", "title": { "en": "Fewer faulty pieces", "ar": "قطع بايظة أقل" }, "text": { "en": "In a factory, adjusting a production line so it makes fewer faulty pieces.", "ar": "في مصنع، بتظبط خط الإنتاج علشان عدد القطع البايظة يقل.", "arF": "في مصنع، بتظبطي خط الإنتاج علشان عدد القطع البايظة يقل." }, "careers": ["mechanical_engineer", "chemical_engineer", "mechatronics_engineer"] }
       ]
     },
     {
@@ -24,12 +24,12 @@
       "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
       "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
       "items": [
-        { "id": "engineering_real_1", "title": { "en": "How much maths", "ar": "قد إيه رياضيات" }, "a": { "en": "Five years of study with heavy maths and physics", "ar": "5 سنين دراسة فيها رياضة وفيزيا كتير" }, "b": { "en": "A shorter degree with less maths", "ar": "دراسة أقصر ورياضة أقل" }, "path": "a" },
+        { "id": "engineering_real_1", "title": { "en": "How much maths", "ar": "كمية الرياضيات" }, "a": { "en": "Five years of study with heavy maths and physics", "ar": "5 سنين دراسة فيها رياضة وفيزيا كتير" }, "b": { "en": "A shorter degree with less maths", "ar": "دراسة أقصر ورياضة أقل" }, "path": "a" },
         { "id": "engineering_real_2", "title": { "en": "Site or office", "ar": "موقع ولا مكتب" }, "a": { "en": "Long days on site in heat and dust, especially at first", "ar": "أيام طويلة في الموقع في الحر والتراب، خصوصًا في الأول" }, "b": { "en": "Always in an air-conditioned office", "ar": "مكتب مكيّف على طول" }, "path": "a", "careers": ["civil_engineer", "mechanical_engineer", "petroleum_engineer", "renewable_energy_engineer", "electrical_engineer"] },
-        { "id": "engineering_real_3", "title": { "en": "Home or away", "ar": "في البيت ولا بعيد" }, "a": { "en": "Working far from the city for weeks at a time", "ar": "شغل بعيد عن المدينة بالأسابيع" }, "b": { "en": "Home every evening", "ar": "في البيت كل يوم بالليل" }, "path": "a", "careers": ["petroleum_engineer", "renewable_energy_engineer"] },
+        { "id": "engineering_real_3", "title": { "en": "Home or away", "ar": "قريب من البيت ولا بعيد" }, "a": { "en": "Working far from the city for weeks at a time", "ar": "شغل بعيد عن المدينة بالأسابيع" }, "b": { "en": "Home every evening", "ar": "في البيت كل يوم بالليل" }, "path": "a", "careers": ["petroleum_engineer", "renewable_energy_engineer"] },
         { "id": "engineering_real_4", "title": { "en": "Rules or freedom", "ar": "قواعد ولا حرية" }, "a": { "en": "Strict safety rules for everything you do", "ar": "قواعد أمان صارمة في كل خطوة" }, "b": { "en": "Freedom to improvise as you go", "ar": "حرية إنك تتصرف على حسب الموقف", "arF": "حرية إنك تتصرفي على حسب الموقف" }, "path": "a" },
-        { "id": "engineering_real_5", "title": { "en": "Real or on screen", "ar": "حقيقي ولا على الشاشة" }, "a": { "en": "Seeing something real that you designed get built", "ar": "تشوف حاجة حقيقية صممتها بتتبني قدامك", "arF": "تشوفي حاجة حقيقية صممتيها بتتبني قدامك" }, "b": { "en": "Work that lives on a screen", "ar": "شغل عايش على الشاشة" }, "path": "a" },
-        { "id": "engineering_real_6", "title": { "en": "How pay grows", "ar": "المرتب بيكبر إزاي" }, "a": { "en": "Modest pay at first, growing with experience", "ar": "مرتب متواضع في الأول، وبيزيد مع الخبرة" }, "b": { "en": "A higher start that stays flat", "ar": "بداية أعلى بس بتفضل ثابتة" }, "path": "a" }
+        { "id": "engineering_real_5", "title": { "en": "Real or on screen", "ar": "حقيقي ولا على الشاشة" }, "a": { "en": "Seeing something real that you designed get built", "ar": "تشوف حاجة حقيقية صممتها بتتبني قدامك", "arF": "تشوفي حاجة حقيقية صممتيها بتتبني قدامك" }, "b": { "en": "Work that lives on a screen", "ar": "شغل كله على الشاشة" }, "path": "a" },
+        { "id": "engineering_real_6", "title": { "en": "How pay grows", "ar": "المرتب بيزيد إزاي" }, "a": { "en": "Modest pay at first, growing with experience", "ar": "مرتب متواضع في الأول، وبيزيد مع الخبرة" }, "b": { "en": "A higher start that stays flat", "ar": "مرتب أعلى من الأول، بس مبيزيدش كتير" }, "path": "a" }
       ]
     },
     {
@@ -66,7 +66,7 @@
           "id": "engineering_try_3",
           "title": { "en": "Two gears", "ar": "ترسين" },
           "type": "puzzle",
-          "text": { "en": "Two gears touch side by side. The left one turns clockwise. Which way does the right one turn?", "ar": "ترسين جنب بعض ولامسين بعض. الشمال بيلف مع عقارب الساعة. اليمين بيلف إزاي؟" },
+          "text": { "en": "Two gears touch side by side. The left one turns clockwise. Which way does the right one turn?", "ar": "ترسين جنب بعض وسنانهم داخلة في بعض. اللي على الشمال بيلف مع عقارب الساعة. اللي على اليمين بيلف إزاي؟" },
           "options": [{ "en": "Clockwise", "ar": "مع عقارب الساعة" }, { "en": "Anticlockwise", "ar": "عكس عقارب الساعة" }, { "en": "It doesn't turn", "ar": "مش بيلف" }],
           "answer": 1,
           "explain": { "en": "Touching gears always turn in opposite directions. Engineers picture movement like this before building anything.", "ar": "التروس اللي لامسة بعض دايمًا بتلف عكس بعض. المهندسين بيتخيلوا الحركة كده قبل ما يبنوا أي حاجة." }

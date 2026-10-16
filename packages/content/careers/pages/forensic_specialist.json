@@ -1,0 +1,257 @@
+{
+  "id": "forensic_specialist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "Tiny traces tell you what really happened.",
+      "ar": "الآثار الصغيرة بتقولك إيه اللي حصل فعلًا."
+    },
+    "summary": {
+      "en": "Forensic science specialists collect and analyse evidence such as fingerprints, DNA, fibres, drugs and documents, and report what it shows to investigators and courts. In Egypt the work happens in the Ministry of Interior's criminal evidence labs and the Ministry of Justice's Forensic Medicine Authority, usually for science, pharmacy or medicine graduates.",
+      "ar": "أخصائي الأدلة الجنائية بيجمع ويحلل الأدلة زي البصمات والـDNA والألياف والمخدرات والمستندات، وبيكتب تقرير باللي بتوريه للمحققين والمحاكم. في مصر الشغل ده في معامل الأدلة الجنائية بوزارة الداخلية ومصلحة الطب الشرعي بوزارة العدل، وغالبًا لخريجين العلوم أو الصيدلة أو الطب."
+    },
+    "dayInLife": {
+      "en": "A break-in was reported overnight. You arrive at the scene in protective clothes, photograph everything and lift fingerprints from a window frame. Back at the lab you compare them with the database and get one partial match. In the afternoon you test a seized powder to identify the substance and write a clear report that a court can understand.",
+      "ar": "فيه بلاغ سرقة بالليل. بتوصل مكان الحادثة بلبس واقي، بتصوّر كل حاجة وبترفع بصمات من حلق شباك. لما ترجع المعمل بتقارنها بقاعدة البيانات وبتلاقي تطابق جزئي. بعد الضهر بتحلل بودرة متضبوطة تعرف هي إيه وبتكتب تقرير واضح المحكمة تقدر تفهمه."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect and preserve evidence at scenes.",
+        "ar": "بتجمع وتحفظ الأدلة في أماكن الحوادث."
+      },
+      {
+        "en": "Analyse samples in the lab.",
+        "ar": "بتحلل العينات في المعمل."
+      },
+      {
+        "en": "Compare prints, DNA or documents.",
+        "ar": "بتقارن البصمات أو الـDNA أو المستندات."
+      },
+      {
+        "en": "Write reports for investigators and courts.",
+        "ar": "بتكتب تقارير للمحققين والمحاكم."
+      },
+      {
+        "en": "Testify as an expert when needed.",
+        "ar": "بتشهد كخبير لما يتطلب."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Crime labs",
+        "ar": "معامل الأدلة الجنائية"
+      },
+      {
+        "en": "Crime scenes",
+        "ar": "أماكن الحوادث"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Microscopes and chemical analysers",
+        "ar": "الميكروسكوبات وأجهزة التحليل الكيميائي"
+      },
+      {
+        "en": "Fingerprint and DNA systems",
+        "ar": "أنظمة البصمات والـDNA"
+      },
+      {
+        "en": "Cameras and evidence kits",
+        "ar": "الكاميرات وشنط جمع الأدلة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Science (chemistry, biology) or Pharmacy",
+        "ar": "كلية العلوم (كيمياء، أحياء) أو الصيدلة"
+      },
+      {
+        "en": "Faculty of Medicine then forensic medicine for medical examiners",
+        "ar": "كلية الطب ثم الطب الشرعي للأطباء الشرعيين"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Police Academy officers specialising in criminal evidence",
+        "ar": "ضباط أكاديمية الشرطة المتخصصين في الأدلة الجنائية"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Chemistry and biology lab methods",
+        "ar": "طرق معامل الكيمياء والأحياء"
+      },
+      {
+        "en": "Evidence handling",
+        "ar": "التعامل مع الأدلة"
+      },
+      {
+        "en": "Report writing",
+        "ar": "كتابة التقارير"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Objectivity",
+        "ar": "الحياد"
+      },
+      {
+        "en": "Patience and precision",
+        "ar": "الصبر والدقة"
+      },
+      {
+        "en": "Strong nerves",
+        "ar": "أعصاب قوية"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for scientific methods",
+        "ar": "الإنجليزي للطرق العلمية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Ministry of Interior criminal evidence labs",
+        "ar": "معامل الأدلة الجنائية بوزارة الداخلية"
+      },
+      {
+        "en": "Forensic Medicine Authority (Ministry of Justice)",
+        "ar": "مصلحة الطب الشرعي (وزارة العدل)"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Cairo and governorate labs",
+        "ar": "القاهرة ومعامل المحافظات"
+      }
+    ],
+    "salaryNote": {
+      "en": "Forensic specialists in Egypt mostly work for the Ministry of Justice's Forensic Medicine Authority or the Ministry of Interior's labs on government scales that we could not verify, and salary surveys have no data for the role, so we do not show a number.",
+      "ar": "يعمل أغلب أخصائيي الأدلة الجنائية في مصر في مصلحة الطب الشرعي بوزارة العدل أو معامل وزارة الداخلية على جداول أجور حكومية لم نتمكن من التحقق منها، ولا توجد بيانات لهذه الوظيفة في استطلاعات الرواتب، لذلك لا نعرض رقمًا."
+    }
+  },
+  "global": {
+    "en": "Gulf police forces hire forensic scientists with experience and degrees.",
+    "ar": "شرطة الخليج بتشغّل علماء أدلة جنائية بالخبرة والشهادات."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Science that serves justice",
+        "ar": "علم بيخدم العدالة"
+      },
+      {
+        "en": "Varied cases",
+        "ar": "قضايا متنوعة"
+      },
+      {
+        "en": "Stable government work",
+        "ar": "شغل حكومي مستقر"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Few positions and selective hiring",
+        "ar": "أماكن قليلة وتعيين انتقائي"
+      },
+      {
+        "en": "Disturbing scenes",
+        "ar": "مشاهد مزعجة"
+      },
+      {
+        "en": "Pressure to be exact",
+        "ar": "ضغط علشان تبقى دقيق"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Forensics solves cases in an hour, like on TV.",
+          "ar": "الأدلة الجنائية بتحل القضية في ساعة زي المسلسلات."
+        },
+        "fact": {
+          "en": "Real analysis takes days or weeks and often gives partial answers.",
+          "ar": "التحليل الحقيقي بياخد أيام أو أسابيع وغالبًا بيدّي إجابات جزئية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Lab hours plus call-outs to scenes.",
+      "ar": "مواعيد معمل ومعاها استدعاءات لأماكن الحوادث."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Lab specialist",
+        "ar": "أخصائي معمل"
+      },
+      {
+        "en": "Forensic examiner",
+        "ar": "خبير أدلة"
+      },
+      {
+        "en": "Senior expert",
+        "ar": "خبير أول"
+      },
+      {
+        "en": "Lab director",
+        "ar": "مدير معمل"
+      }
+    ],
+    "relatedCareerIds": [
+      "chemist",
+      "biotechnologist",
+      "police_officer",
+      "medical_lab_scientist"
+    ],
+    "pivots": [
+      {
+        "en": "Quality control labs",
+        "ar": "معامل الجودة"
+      },
+      {
+        "en": "Private investigation and cybercrime",
+        "ar": "التحقيقات الخاصة والجرايم الإلكترونية"
+      }
+    ]
+  },
+  "industryId": "security",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Forensic Science Technicians (19-4092.00)",
+      "url": "https://www.onetonline.org/link/summary/19-4092.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Forensic Science Technicians (tasks) (19-4092.00)",
+      "url": "https://www.onetonline.org/link/details/19-4092.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

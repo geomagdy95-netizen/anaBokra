@@ -14,6 +14,18 @@ Status: design, decided by the founder on 12 Oct 2026; for psychologist review. 
 | Path content | Drafted by Claude in Arabic and English, **reviewed and approved by the psychologist** |
 | Shorter questionnaires | Ask the psychologist about shorter published versions (section 8) |
 
+### Quicker formats (15 Oct 2026)
+
+Testers found the journey too long (about 140 screens before a first path result). Five changes, all on by default for new sessions; a session keeps the formats it started with (`ANSWER_FORMATS` in `apps/web/src/server/assessment/config.ts`; set `scale` / `cards` to go back):
+
+1. **Stop when we know:** personality and strengths now sit in tasks 1–8, so tasks 9–10 hold only interest cards. When the top three interest types can't change whatever those cards get, tasks 9–10 become an optional bonus (`interestsSettled`).
+2. **Many cards on one screen:** a task's 6 interest cards are one grid, "tap the ones you'd enjoy" (tapped = 5, left alone = 1; the Interest Profiler's original format is a checklist). Personality statements share one screen, as do strengths, each keeping its 1–5 scale. A task is about 3 screens instead of 10.
+3. **Dream job budget:** 10 coins over the six work values on one screen replaces the 21-card sort. Stored as its own items (`vb_*`), scored by `scoreValueBudget`.
+4. **A day in their shoes:** Verify is one chat per path: 5 day moments, 4 trade-offs and 3 "Try it" items mixed, answered inline, with "did you enjoy that?" in the same chat. About 15 taps instead of 22 screens, then the result straight away.
+5. **Every answer visible:** after each task, "your interest types so far" bars grow from before to after the task.
+
+Changes 2 and 3 alter how validated answers are collected, so they are **drafts for the psychologist** (section 8). Research uploads tag them on the version (`+checklist`, `+budget`), and the stored result records `answerFormats`.
+
 ## 2. The idea in one picture
 
 ```mermaid
@@ -37,7 +49,7 @@ flowchart LR
 
 1. **5–10 questions per task**, about 1–2 minutes. Each task is one bridge plank.
 2. **Mixed formats inside a task.** Variety comes from presentation, not from changing what a validated question asks.
-3. **Validated questions keep their wording and answer scale** (interests 1–5, personality 1–5, strengths self-rating). Only how they look changes: swipe cards, five faces, a slider. A validated question is never turned into a this-or-that or a quiz.
+3. **Validated questions keep their wording and answer scale** (interests 1–5, personality 1–5, strengths self-rating). Only how they look changes: swipe cards, five faces, a slider. A validated question is never turned into a this-or-that or a quiz. Draft exception, pending the psychologist: the interest checklist and the values budget (section 1, quicker formats).
 4. **New, playful formats are for path questions** (section 5), which are our own and scored our own way.
 5. **Every task ends with a small reward:** the island grows, a fact about a career, or "what this says about you so far". No scores, no grades.
 6. Any task can be paused; answers save as they're given (as today).
@@ -47,10 +59,13 @@ flowchart LR
 
 | Format | Looks like | Used for |
 |---|---|---|
-| Swipe | Card, swipe right "I'd enjoy this" / left "not for me", up "love it" (1–5) | Interests |
+| Grid | The task's interest cards on one screen, tap the ones you'd enjoy (tapped 5, left alone 1) | Interests (checklist format) |
+| Swipe | Card, swipe right "I'd enjoy this" / left "not for me", up "love it" (1–5) | Interests (scale format) |
 | Faces | Five faces from "not me at all" to "so me" (1–5) | Personality |
 | Slider | "How strong are you at…?" (self-rating scale) | Strengths |
-| Card sort | Drag cards into must have / nice to have / don't care, then order the top | Work values |
+| Budget | 10 coins to spend over the six work values | Work values (budget format) |
+| Card sort | Drag cards into must have / nice to have / don't care, then order the top | Work values (card format) |
+| Chat | The path's moments, trade-offs and "Try it" items as one conversation, answered inline | Verify |
 | This or that | Two options, pick one | Path realities |
 | Story | A short "day as a…" moment, then "how does that sound?" | Path activities |
 | Scenario | A work situation with 3–4 ways to respond | Path work style |
@@ -60,7 +75,7 @@ flowchart LR
 
 **Questions:** all **60 interest activities** (10 per type), the **12 strengths**, a **20-question personality set** (section 8) and one attention check: about 93 questions in **10 tasks of 9–10**.
 
-**How tasks are built:** each task has 6 interest cards (one of each type R, I, A, S, E, C, in a varied order), 1–2 strengths and 2 personality statements. Because every task covers every interest type evenly, the interest picture fills in steadily.
+**How tasks are built:** each task has 6 interest cards (one of each type R, I, A, S, E, C, in a varied order). Tasks 1–8 also hold the 20 personality statements (2–3 each) and the 12 strengths (1–2 each); tasks 9–10 are interest cards only and become optional once the top three types are settled. Because every task covers every interest type evenly, the interest picture fills in steadily.
 
 | After | What the user sees |
 |---|---|
@@ -81,7 +96,10 @@ flowchart LR
 
 If the psychologist wants the full personality set (all 50 statements) instead of the short one, the remaining 30 also go here, as 3 tasks of 10.
 
-### 5.2 Per path: 3 tasks
+### 5.2 Per path: one story built from 3 kinds of content
+
+Since 15 Oct the three kinds below are asked as one chat, "a day in their shoes" (`apps/web/src/lib/journey/story-plan.ts`): the 5 day moments and 4 trade-offs that together touch the most careers of the path, and the first 3 "Try it" items with at least one puzzle, spread evenly. The full item sets stay in the content; the story asks a selection.
+
 
 | Task | Format | Questions | Measures |
 |---|---|---|---|
@@ -155,6 +173,25 @@ Path questions are **drafts until the psychologist approves them**. In the pilot
 8. **The interest items are a modified O\*NET tool.** We changed the checklist to a 1–5 scale, translated the items, adapted ip_A08 and split the 60 items into 10 tasks. The O\*NET Tools Developer License asks for a validation study before a modified tool is introduced, plus a notice in the app (lawyer brief P10). Is splitting the items across Discover tasks acceptable, and what would a proportionate validation look like for the pilot and for launch?
 9. **Scenario answers carry hand-set `fit` values** (0 to 1 per option, e.g. 0, 0.2, 0.8, 1, in `packages/content/paths/*.json`), and they count towards the path fit. Keep them, set them, or count only the "did you enjoy that?" answer, as the puzzles do?
 10. **Rules for wording results:** please check [guidance-rules.md](guidance-rules.md) §1, what a result may and may not say from each kind of answer.
+11. **An easier start to the interest cards (16 Oct 2026).** Testers found the first cards too specialised for someone with no direction yet ("develop a new medicine", "buy and sell stocks and bonds"). Without changing any item's wording we:
+    - **ordered each type's cards from everyday to specialised** (`EASY_FIRST` in `apps/web/src/lib/journey/discover-plan.ts`): task 1 is now fix home appliances, chemical experiments, draw pictures, teach children a sport, manage a clothing store, use a calculator; most specialised cards sit in tasks 9–10, which are often skipped once the top three types are settled;
+    - **added the Interest Profiler's own instruction** in our words: "you don't need to know the job or have studied it: just imagine doing it for a day";
+    - **added an optional "what does this mean?" explanation** to 15 cards (`hint` in `packages/content/instruments/interests.json`; rows `*_hint` in [items-review.csv](../review/items-review.csv)), shown only when tapped.
+
+    Please check: is the new order acceptable (order effects), are the explanations neutral (they mustn't make a card sound better or worse), and should these cards be **culturally adapted** or **translated more simply** (our suggestions, nothing changed yet):
+
+    | Item | Original | Today's Arabic | Suggestion |
+    |---|---|---|---|
+    | ip_R10 | Put out forest fires | أطفي حرائق الغابات | Egypt has almost no forests: أطفي حرايق في مصانع أو عماير |
+    | ip_C10 | Stamp, sort, and distribute mail for an organization | أختم وأفرز وأوزّع البريد في مؤسسة | Local equivalent: أسجّل وأوزّع الصادر والوارد في شركة أو مصلحة |
+    | ip_S08 | Help conduct a group therapy session | أساعد في إدارة جلسة علاج جماعي | Group therapy is rare here: أساعد في إدارة جلسة دعم نفسي لمجموعة |
+    | ip_E02 | Manage a retail store | أدير محل بيع بالتجزئة | Simpler translation: أدير محل بيبيع للناس |
+    | ip_E07 | Represent a client in a lawsuit | أمثّل موكّل في قضية | Simpler translation: أدافع عن حد في قضية في المحكمة |
+    | ip_S04 | Perform rehabilitation therapy | أقدّم علاج تأهيلي | Simpler translation: أساعد المصابين يرجعوا يتحركوا (علاج طبيعي) |
+    | ip_C03 | Install software across computers on a large network | أسطّب برامج على أجهزة كمبيوتر في شبكة كبيرة | Simpler translation: أسطّب وأظبط البرامج على كل أجهزة شركة |
+    | ip_E01 | Buy and sell stocks and bonds | أشتري وأبيع أسهم وسندات | Keep, with its explanation; or أشتغل في البورصة |
+
+    If you change any of these, they become adapted items like ip_A08 and join the validation question in point 8.
 
 **Needed by 27 Oct** for the pilot build.
 

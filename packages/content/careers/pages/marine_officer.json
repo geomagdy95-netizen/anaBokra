@@ -1,0 +1,257 @@
+{
+  "id": "marine_officer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You navigate ships through the Suez Canal and across oceans.",
+      "ar": "بتقود السفن في قناة السويس وعبر المحيطات."
+    },
+    "summary": {
+      "en": "Marine deck officers navigate ships, keep watch on the bridge, handle cargo and lead the crew, rising to captain. Egypt trains them at the Arab Academy for Science, Technology and Maritime Transport (AASTMT) and maritime institutes, and many work for international shipping lines, with months at sea and good pay in foreign currency.",
+      "ar": "ضابط الملاحة البحرية بيقود السفن، بيقف نوبة على الكوبري، بيدير الشحنة وبيقود الطاقم، لحد ما يبقى قبطان. مصر بتدربهم في الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري والمعاهد البحرية، وكتير منهم بيشتغلوا مع خطوط شحن دولية، بشهور في البحر ومرتب كويس بالعملة الصعبة."
+    },
+    "dayInLife": {
+      "en": "You are on the 8-to-12 watch as the ship approaches the Suez Canal. You check the position on the electronic chart, talk to the canal pilot station by radio and slow the engines. The canal pilot boards and you assist him on the bridge as the convoy moves north. After your watch you check the cargo securing and update the logbook, then sleep before the evening watch.",
+      "ar": "إنت في نوبة 8 لـ12 والسفينة قربت من قناة السويس. بتراجع الموقع على الخريطة الإلكترونية، بتكلم محطة المرشدين باللاسلكي وبتهدّي المكن. المرشد بيطلع وبتساعده على الكوبري والقافلة بتتحرك شمال. بعد نوبتك بتراجع تثبيت الشحنة وبتحدّث السجل، وبعدين تنام قبل نوبة المسا."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Navigate the ship and keep watch.",
+        "ar": "بتقود السفينة وبتقف نوبة."
+      },
+      {
+        "en": "Plan routes and check weather.",
+        "ar": "بتخطط المسارات وتتابع الجو."
+      },
+      {
+        "en": "Supervise cargo loading and safety.",
+        "ar": "بتشرف على تحميل الشحنة والسلامة."
+      },
+      {
+        "en": "Lead crew drills and emergencies.",
+        "ar": "بتقود تدريبات الطاقم والطوارئ."
+      },
+      {
+        "en": "Keep logs and port paperwork.",
+        "ar": "بتمسك السجلات وورق الموانئ."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Container ships, tankers and bulk carriers",
+        "ar": "سفن الحاويات والناقلات وسفن البضائع"
+      },
+      {
+        "en": "Ports and the Suez Canal",
+        "ar": "الموانئ وقناة السويس"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Radar and electronic charts (ECDIS)",
+        "ar": "الرادار والخرايط الإلكترونية (ECDIS)"
+      },
+      {
+        "en": "GPS and radio",
+        "ar": "GPS واللاسلكي"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Arab Academy for Science, Technology and Maritime Transport, maritime transport college",
+        "ar": "الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري، كلية النقل البحري"
+      },
+      {
+        "en": "Maritime institutes",
+        "ar": "المعاهد البحرية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [],
+    "licensing": {
+      "en": "International STCW certificates of competency, gained with sea time and exams.",
+      "ar": "شهادات الكفاءة الدولية STCW بالخبرة في البحر والامتحانات."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Navigation",
+        "ar": "الملاحة"
+      },
+      {
+        "en": "Ship stability and cargo",
+        "ar": "اتزان السفينة والشحنة"
+      },
+      {
+        "en": "Maritime safety rules",
+        "ar": "قواعد السلامة البحرية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leadership",
+        "ar": "القيادة"
+      },
+      {
+        "en": "Calm in emergencies",
+        "ar": "الهدوء في الطوارئ"
+      },
+      {
+        "en": "Living with a team for months",
+        "ar": "العيشة مع فريق شهور"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Maritime English",
+        "ar": "إنجليزي بحري"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "STCW certificates of competency",
+        "ar": "شهادات STCW"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "International shipping lines",
+        "ar": "خطوط الشحن الدولية"
+      },
+      {
+        "en": "Egyptian shipping and the Suez Canal Authority",
+        "ar": "شركات الشحن المصرية وهيئة قناة السويس"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; you live at sea for months.",
+      "ar": "لأ؛ بتعيش في البحر شهور."
+    },
+    "regions": [
+      {
+        "en": "Alexandria, Port Said, Suez and the sea",
+        "ar": "إسكندرية وبورسعيد والسويس والبحر"
+      }
+    ],
+    "salaryNote": {
+      "en": "There is no Egypt salary survey for deck officers (Paylab's \"Naval Officer\" title has no data). Officers on international ships are usually paid in US dollars per contract, and the rate depends on rank, ship type and company, so we do not show a number. Local companies pay much less than international ones.",
+      "ar": "لا يوجد استطلاع رواتب في مصر لضباط سطح السفينة (مسمى «Naval Officer» في Paylab بدون بيانات). يُدفع للضباط على السفن الدولية عادة بالدولار لكل عقد، ويعتمد الأجر على الرتبة ونوع السفينة والشركة، لذلك لا نعرض رقمًا. والشركات المحلية تدفع أقل بكثير من الدولية."
+    }
+  },
+  "global": {
+    "en": "STCW certificates are recognised worldwide; most officers sail with foreign companies.",
+    "ar": "شهادات STCW معترف بيها عالميًا؛ وأغلب الضباط بيبحروا مع شركات أجنبية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "High pay, often in dollars",
+        "ar": "مرتب عالي، غالبًا بالدولار"
+      },
+      {
+        "en": "Long leave between contracts",
+        "ar": "إجازات طويلة بين العقود"
+      },
+      {
+        "en": "See the world",
+        "ar": "تشوف العالم"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Months away from family",
+        "ar": "شهور بعيد عن الأهل"
+      },
+      {
+        "en": "Storms and hard conditions",
+        "ar": "عواصف وظروف صعبة"
+      },
+      {
+        "en": "Strict medical and fitness rules",
+        "ar": "شروط طبية ولياقة صارمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Sailors just ride the ship.",
+          "ar": "البحارة بيركبوا المركب وبس."
+        },
+        "fact": {
+          "en": "Officers are responsible for navigation, cargo and the lives of the crew.",
+          "ar": "الضباط مسؤولين عن الملاحة والشحنة وحياة الطاقم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Contracts of several months at sea, then months of leave at home.",
+      "ar": "عقود كام شهر في البحر، وبعدين شهور إجازة في البيت."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Deck cadet",
+        "ar": "طالب ملاحة"
+      },
+      {
+        "en": "Third officer",
+        "ar": "ضابط تالت"
+      },
+      {
+        "en": "Second and chief officer",
+        "ar": "ضابط تاني وضابط أول"
+      },
+      {
+        "en": "Captain (master)",
+        "ar": "قبطان"
+      }
+    ],
+    "relatedCareerIds": [
+      "marine_engineer_officer",
+      "logistics_coordinator",
+      "pilot",
+      "supply_chain_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Port and shipping management",
+        "ar": "إدارة الموانئ والشحن"
+      },
+      {
+        "en": "Marine pilot or surveyor",
+        "ar": "مرشد بحري أو مفتش سفن"
+      }
+    ]
+  },
+  "industryId": "transport",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Captains, Mates, and Pilots of Water Vessels (53-5021.00)",
+      "url": "https://www.onetonline.org/link/summary/53-5021.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Sailors and Marine Oilers (53-5011.00)",
+      "url": "https://www.onetonline.org/link/summary/53-5011.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

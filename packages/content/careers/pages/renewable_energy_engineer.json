@@ -210,7 +210,20 @@
     ]
   },
   "marketEgypt": {
-    "salaryMonthlyEgp": null,
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11098,
+        "max": 31464
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/electrical-power-engineering?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Power Engineer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Power Engineer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
     "demand": "high",
     "employers": [
       {
@@ -246,11 +259,7 @@
     ],
     "providerIds": [
       "egyptian-japanese-kosen"
-    ],
-    "salaryNote": {
-      "en": "We did not find a citable Egypt salary figure for renewable energy engineers, so pay is left empty. Compare roughly with electrical engineers, and note that international developers may pay differently from local installers.",
-      "ar": "لم نجد رقمًا موثقًا لراتب مهندس الطاقة المتجددة في مصر، لذا تُرك الراتب فارغًا. يمكن المقارنة تقريبيًا بالمهندس الكهربائي، مع ملاحظة أن المطورين الدوليين قد يدفعون بشكل مختلف عن شركات التركيب المحلية."
-    }
+    ]
   },
   "global": {
     "en": "Renewable energy is one of the fastest-growing fields in the Gulf, Africa and Europe, and Egyptian engineers work on projects abroad. Egypt's own targets of 42% renewable electricity by 2030 and large new solar proposals create local demand too, but targets are intentions and projects can slip.",

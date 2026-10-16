@@ -1,0 +1,251 @@
+{
+  "id": "pe_teacher",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You give children a lifelong love of moving.",
+      "ar": "بتدّي الأطفال حب للحركة يفضل معاهم طول العمر."
+    },
+    "summary": {
+      "en": "Physical education teachers teach sport, games and healthy habits in schools, run school teams and organise sports days and competitions. In Egypt they graduate from Faculties of Physical Education and work in public, private and international schools; some also coach clubs in the afternoon.",
+      "ar": "مدرس التربية الرياضية بيعلّم الرياضة والألعاب والعادات الصحية في المدارس، بيدير فرق المدرسة وبينظم الأيام الرياضية والمسابقات. في مصر بيتخرجوا من كليات التربية الرياضية وبيشتغلوا في المدارس الحكومية والخاصة والدولية، وفيه منهم اللي بيدرّب في الأندية بعد الضهر."
+    },
+    "dayInLife": {
+      "en": "First period, you take Grade 4 to the yard for a relay game that practises running and teamwork. Then Grade 9 plays basketball and you teach the lay-up step by step. At break you supervise the playground. After school the handball team trains for the district tournament, and you fill in the forms for next week's match.",
+      "ar": "أول حصة بتنزّل رابعة ابتدائي الحوش للعبة تتابع بتمرّن الجري وروح الفريق. بعدها تالتة إعدادي بيلعبوا باسكت وبتعلمهم الـlay-up خطوة بخطوة. في الفسحة بتشرف على الحوش. بعد المدرسة فريق اليد بيتمرن لبطولة الإدارة، وبتملا ورق ماتش الأسبوع الجاي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Teach PE lessons for different ages.",
+        "ar": "بتدّي حصص تربية رياضية لأعمار مختلفة."
+      },
+      {
+        "en": "Train and lead school teams.",
+        "ar": "بتدرّب وتقود فرق المدرسة."
+      },
+      {
+        "en": "Organise sports days and competitions.",
+        "ar": "بتنظم الأيام الرياضية والمسابقات."
+      },
+      {
+        "en": "Keep children safe during activity.",
+        "ar": "بتحافظ على أمان الأطفال وقت النشاط."
+      },
+      {
+        "en": "Assess fitness and skills.",
+        "ar": "بتقيّم اللياقة والمهارات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Public, private and international schools",
+        "ar": "المدارس الحكومية والخاصة والدولية"
+      },
+      {
+        "en": "School sports facilities",
+        "ar": "المنشآت الرياضية في المدارس"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Balls, cones and gym equipment",
+        "ar": "كور وأقماع وأدوات جيمانيزيوم"
+      },
+      {
+        "en": "Whistle and stopwatch",
+        "ar": "الصفارة والساعة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Physical Education (teaching section)",
+        "ar": "كلية التربية الرياضية (شعبة التدريس)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Teaching methods for sport",
+        "ar": "طرق تدريس الرياضة"
+      },
+      {
+        "en": "Child development and safety",
+        "ar": "نمو الطفل والسلامة"
+      },
+      {
+        "en": "Rules of many sports",
+        "ar": "قوانين ألعاب كتير"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Energy and enthusiasm",
+        "ar": "طاقة وحماس"
+      },
+      {
+        "en": "Fairness",
+        "ar": "العدل"
+      },
+      {
+        "en": "Classroom control outdoors",
+        "ar": "السيطرة على الفصل في الحوش"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for international schools",
+        "ar": "الإنجليزي للمدارس الدولية"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10727,
+        "max": 18674
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Teacher\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Teacher»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Private and international schools",
+        "ar": "المدارس الخاصة والدولية"
+      },
+      {
+        "en": "Public schools through the Ministry of Education",
+        "ar": "المدارس الحكومية عن طريق وزارة التربية والتعليم"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Gulf schools hire Egyptian PE teachers, especially with English.",
+    "ar": "مدارس الخليج بتشغّل مدرسين تربية رياضية مصريين، خصوصًا بالإنجليزي."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Active days, outdoors",
+        "ar": "أيام فيها حركة وفي الهوا"
+      },
+      {
+        "en": "School holidays",
+        "ar": "إجازات المدارس"
+      },
+      {
+        "en": "Coaching on the side",
+        "ar": "تقدر تدرّب جنب الشغل"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Large classes and limited facilities in some schools",
+        "ar": "فصول كبيرة ومنشآت محدودة في بعض المدارس"
+      },
+      {
+        "en": "PE is sometimes treated as less important",
+        "ar": "التربية الرياضية أحيانًا بتتعامل كمادة أقل أهمية"
+      },
+      {
+        "en": "Heat in summer terms",
+        "ar": "الحر في الترم الصيفي"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "PE teachers just hand out a ball.",
+          "ar": "مدرس الألعاب بيرمي الكورة وبس."
+        },
+        "fact": {
+          "en": "Good PE lessons are planned to build skills, fitness and teamwork safely.",
+          "ar": "حصة التربية الرياضية الكويسة متخططة علشان تبني المهارات واللياقة وروح الفريق بأمان."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "School hours, plus team training after school.",
+      "ar": "مواعيد المدرسة، ومعاها تمرين الفريق بعدها."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "PE teacher",
+        "ar": "مدرس تربية رياضية"
+      },
+      {
+        "en": "Senior teacher and team coach",
+        "ar": "مدرس أول ومدرب فريق"
+      },
+      {
+        "en": "Head of PE department",
+        "ar": "رئيس قسم التربية الرياضية"
+      },
+      {
+        "en": "School sports director",
+        "ar": "مدير النشاط الرياضي"
+      }
+    ],
+    "relatedCareerIds": [
+      "sports_coach",
+      "teacher",
+      "fitness_trainer",
+      "early_childhood_teacher"
+    ],
+    "pivots": [
+      {
+        "en": "Club coaching",
+        "ar": "التدريب في الأندية"
+      },
+      {
+        "en": "Sports management",
+        "ar": "الإدارة الرياضية"
+      }
+    ]
+  },
+  "industryId": "sports",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Adapted Physical Education Specialists (25-2059.01)",
+      "url": "https://www.onetonline.org/link/summary/25-2059.01",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Secondary School Teachers (25-2031.00)",
+      "url": "https://www.onetonline.org/link/summary/25-2031.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

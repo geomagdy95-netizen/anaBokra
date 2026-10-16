@@ -1,0 +1,265 @@
+{
+  "id": "fitness_trainer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help people get stronger, one rep at a time.",
+      "ar": "بتساعد الناس يبقوا أقوى، عدّة ورا عدّة."
+    },
+    "summary": {
+      "en": "Fitness trainers plan and lead workouts for individuals and groups in gyms, clubs and online: strength, cardio, weight loss and healthy habits. Egypt's gym and wellness market has grown fast, and certified trainers can work in gyms, teach classes or build their own clients and online coaching.",
+      "ar": "مدرب اللياقة البدنية بيخطط ويقود تمارين لأفراد ومجموعات في الجيم والأندية وأونلاين: قوة وكارديو وخسارة وزن وعادات صحية. سوق الجيمات واللياقة في مصر كبر بسرعة، والمدرب المعتمد يقدر يشتغل في جيم، أو يدّي كلاسات، أو يبني عملاءه وتدريب أونلاين خاص بيه."
+    },
+    "dayInLife": {
+      "en": "Your first client arrives at 7 a.m. before work; you take her through a strength session and check her form on squats. At 10 you teach a group class. In the afternoon you write a new plan for a client recovering from a back injury, following his physio's advice. In the evening you train three clients back to back and answer online clients' questions about their meals.",
+      "ar": "أول عميلة بتوصل الساعة 7 الصبح قبل شغلها؛ بتمشيها في تمرين قوة وبتراجع طريقة السكوات. الساعة 10 بتدّي كلاس جماعي. بعد الضهر بتكتب خطة جديدة لعميل بيتعافى من إصابة ضهر، على حسب نصيحة أخصائي العلاج الطبيعي. بالليل بتدرّب 3 عملاء ورا بعض وبترد على أسئلة العملاء الأونلاين عن أكلهم."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess clients' fitness and goals.",
+        "ar": "بتقيّم لياقة العملاء وأهدافهم."
+      },
+      {
+        "en": "Design and lead workout programmes.",
+        "ar": "بتصمم وتقود برامج التمرين."
+      },
+      {
+        "en": "Teach safe technique.",
+        "ar": "بتعلّم الطريقة الآمنة."
+      },
+      {
+        "en": "Track progress and adjust plans.",
+        "ar": "بتتابع التقدم وتعدّل الخطط."
+      },
+      {
+        "en": "Give basic advice on habits and nutrition within your limits.",
+        "ar": "بتدّي نصايح أساسية عن العادات والتغذية في حدود تخصصك."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Gyms, clubs and studios",
+        "ar": "الجيمات والأندية والاستوديوهات"
+      },
+      {
+        "en": "Online coaching",
+        "ar": "التدريب أونلاين"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Weights and gym machines",
+        "ar": "الأوزان وأجهزة الجيم"
+      },
+      {
+        "en": "Fitness apps and trackers",
+        "ar": "أبلكيشنز وأجهزة تتبع اللياقة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Physical Education",
+        "ar": "كلية التربية الرياضية"
+      },
+      {
+        "en": "Any degree plus a recognised fitness certificate",
+        "ar": "أي شهادة مع شهادة لياقة معترف بيها"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "International certificates such as ACE, NASM or ISSA",
+        "ar": "شهادات دولية زي ACE أو NASM أو ISSA"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Exercise science and anatomy",
+        "ar": "علم التمرين والتشريح"
+      },
+      {
+        "en": "Programme design",
+        "ar": "تصميم البرامج"
+      },
+      {
+        "en": "First aid and CPR",
+        "ar": "الإسعافات الأولية والإنعاش"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Motivation",
+        "ar": "التحفيز"
+      },
+      {
+        "en": "Listening to clients",
+        "ar": "الاستماع للعملاء"
+      },
+      {
+        "en": "Self-marketing",
+        "ar": "تسويق نفسك"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for certificates and expatriate clients",
+        "ar": "الإنجليزي للشهادات والعملاء الأجانب"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ACE, NASM or ISSA personal trainer certificates",
+        "ar": "شهادات المدرب الشخصي ACE أو NASM أو ISSA"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11123,
+        "max": 19634
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Fitness Instructor\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Fitness Instructor»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Gym chains and sports clubs",
+        "ar": "سلاسل الجيمات والأندية الرياضية"
+      },
+      {
+        "en": "Hotels, compounds and corporate wellness",
+        "ar": "الفنادق والكمباوندات وبرامج صحة الموظفين"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Online coaching is common and can reach clients abroad.",
+      "ar": "التدريب أونلاين منتشر وممكن يوصل لعملاء برّه."
+    },
+    "regions": [
+      {
+        "en": "Mostly Cairo, Giza, Alexandria and resort towns",
+        "ar": "أغلبه القاهرة والجيزة وإسكندرية ومدن المنتجعات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Certified trainers work in Gulf gyms and coach clients online worldwide.",
+    "ar": "المدربين المعتمدين بيشتغلوا في جيمات الخليج وبيدربوا عملاء أونلاين في كل العالم."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Active work, not a desk",
+        "ar": "شغل فيه حركة، مش مكتب"
+      },
+      {
+        "en": "You can build your own clients",
+        "ar": "تقدر تبني عملاءك"
+      },
+      {
+        "en": "Visible results for people",
+        "ar": "نتايج واضحة للناس"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Early mornings and late evenings",
+        "ar": "صحيان بدري وسهر"
+      },
+      {
+        "en": "Income depends on clients",
+        "ar": "الدخل على حسب العملاء"
+      },
+      {
+        "en": "Many trainers compete for the same clients",
+        "ar": "مدربين كتير بينافسوا على نفس العملاء"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You just need big muscles to be a trainer.",
+          "ar": "كفاية تبقى عضلاتك كبيرة علشان تبقى مدرب."
+        },
+        "fact": {
+          "en": "Clients need safe, planned programmes; knowledge and certification matter more than looks.",
+          "ar": "العملاء محتاجين برامج آمنة ومخططة؛ والعلم والشهادة أهم من الشكل."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Split shifts around clients' free time.",
+      "ar": "مواعيد متقطعة على حسب وقت فراغ العملاء."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Gym instructor",
+        "ar": "مدرب جيم"
+      },
+      {
+        "en": "Personal trainer",
+        "ar": "مدرب شخصي"
+      },
+      {
+        "en": "Senior or master trainer",
+        "ar": "مدرب أول"
+      },
+      {
+        "en": "Gym manager or own studio",
+        "ar": "مدير جيم أو استوديو خاص"
+      }
+    ],
+    "relatedCareerIds": [
+      "athlete",
+      "sports_coach",
+      "physical_therapist",
+      "clinical_nutritionist"
+    ],
+    "pivots": [
+      {
+        "en": "Sports nutrition",
+        "ar": "التغذية الرياضية"
+      },
+      {
+        "en": "Corporate wellness",
+        "ar": "برامج صحة الموظفين"
+      }
+    ]
+  },
+  "industryId": "sports",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Exercise Trainers and Group Fitness Instructors (39-9031.00)",
+      "url": "https://www.onetonline.org/link/summary/39-9031.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Athletic Trainers (29-9091.00)",
+      "url": "https://www.onetonline.org/link/summary/29-9091.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

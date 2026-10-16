@@ -1,0 +1,422 @@
+{
+  "id": "military_officer",
+  "version": "1.0.0-draft",
+  "status": "draft: split from the combined police/military page on 15 Oct 2026",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "full",
+  "snapshot": {
+    "hook": {
+      "en": "You defend the country as an officer in the armed forces, with training and discipline.",
+      "ar": "بتدافع عن البلد كضابط في القوات المسلحة، بتدريب وانضباط."
+    },
+    "summary": {
+      "en": "Armed forces officers lead units that train, stay ready and defend the country, on land, at sea or in the air. You enter right after Thanaweya Amma through the Military College or another military college (naval, air, air defence, technical or medical), each with its own application, tests and conditions. It is a public service career with strict rules, time away from home and a strong team culture; this page describes the official routes only.",
+      "ar": "ضباط القوات المسلحة بيقودوا وحدات بتتدرب وتفضل جاهزة وتدافع عن البلد، في البر أو البحر أو الجو. بتدخل على طول بعد الثانوية العامة عن طريق الكلية الحربية أو كلية عسكرية تانية (بحرية أو جوية أو دفاع جوي أو فنية أو طبية)، وكل واحدة ليها تقديمها واختباراتها وشروطها. ودي وظيفة خدمة عامة بقواعد صارمة وبعد عن البيت وروح فريق قوية؛ والصفحة دي بتشرح الطرق الرسمية بس."
+    },
+    "dayInLife": {
+      "en": "Days differ a lot by branch, unit and rank. As a young officer you usually start with physical training in the morning, then a briefing. You lead a group of soldiers, check that weapons, vehicles and equipment are ready and safe, and run training exercises. You write reports and follow the orders of your command. You may live on base for periods, and be on duty at night or on a holiday.",
+      "ar": "الأيام بتختلف جدًا حسب السلاح والوحدة والرتبة. كضابط صغير غالبًا بتبدأ بالتدريب البدني الصبح، وبعدين بريفينج. بتقود مجموعة عساكر، وتتأكد إن السلاح والمركبات والمعدات جاهزة وآمنة، وتدير تدريبات. بتكتب التقارير وتنفّذ أوامر قيادتك. وممكن تعيش في الوحدة فترات، وتبقى في الخدمة بالليل أو في إجازة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Lead a team and give clear instructions.",
+        "ar": "بتقود فريق وتدّي تعليمات واضحة."
+      },
+      {
+        "en": "Train, maintain readiness and carry out duties assigned by the command, which differ by branch and specialty.",
+        "ar": "التدريب والحفاظ على الجاهزية وتنفيذ المهام اللي القيادة بتحددها، وبتختلف حسب السلاح والتخصص."
+      },
+      {
+        "en": "Keep weapons, vehicles and equipment ready and safe.",
+        "ar": "بتتأكد إن السلاح والمركبات والمعدات جاهزة وآمنة."
+      },
+      {
+        "en": "Write reports and follow orders and military regulations.",
+        "ar": "بتكتب التقارير وتنفّذ الأوامر واللوائح العسكرية."
+      },
+      {
+        "en": "Train in physical fitness, first aid, weapons safety and communication.",
+        "ar": "بتتدرب على اللياقة والإسعافات الأولية وسلامة السلاح والتواصل."
+      },
+      {
+        "en": "Look after the welfare and discipline of your team.",
+        "ar": "بتاخد بالك من أفراد فريقك وانضباطهم."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Military units, bases and training grounds",
+        "ar": "الوحدات العسكرية والقواعد وميادين التدريب"
+      },
+      {
+        "en": "Ships, naval bases and air bases, depending on the branch",
+        "ar": "السفن والقواعد البحرية والجوية، حسب السلاح"
+      },
+      {
+        "en": "Field assignments in different governorates",
+        "ar": "مهام ميدانية في محافظات مختلفة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Uniform equipment and communication systems",
+        "ar": "المعدات الميدانية وأنظمة الاتصال"
+      },
+      {
+        "en": "Weapons, vehicles and equipment depending on the branch",
+        "ar": "السلاح والمركبات والمعدات حسب السلاح"
+      },
+      {
+        "en": "Maps, navigation and communication systems",
+        "ar": "الخرايط وأنظمة الملاحة والاتصال"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science",
+      "math",
+      "literary"
+    ],
+    "otherCurricula": {
+      "en": "The Military College announcement we reviewed accepts Thanaweya Amma and Al-Azhar and equivalent certificates from science and literary sections. Check with each college how IGCSE, American or IB certificates are treated and what equivalence is needed. Fitness, English and maths help in all cases.",
+      "ar": "إعلان الكلية الحربية الذي راجعناه يقبل الثانوية العامة والأزهرية والشهادات المعادلة من القسمين العلمي والأدبي. اسأل كل كلية عن معاملة شهادات IGCSE والأمريكية وIB والمعادلة المطلوبة. اللياقة والإنجليزية والرياضيات تفيد في كل الأحوال."
+    },
+    "faculties": [
+      {
+        "en": "Military College (Egyptian Military Academy): four years, awarding a Bachelor of Military Science plus a civilian degree such as economics and political science, computer science or logistics management",
+        "ar": "الكلية الحربية (الأكاديمية العسكرية المصرية): أربع سنوات تمنح بكالوريوس العلوم العسكرية مع درجة مدنية مثل الاقتصاد والعلوم السياسية أو الحاسبات أو إدارة اللوجستيات"
+      },
+      {
+        "en": "Other military colleges and institutes (air, naval, air defence, medical, technical) listed in the Armed Forces announcements",
+        "ar": "كليات ومعاهد عسكرية أخرى (جوية وبحرية ودفاع جوي وطبية وفنية) تُعلن في إعلانات القوات المسلحة"
+      }
+    ],
+    "programIds": [],
+    "tansikNote": {
+      "en": "Military colleges do not use the Tansik lists. The Military College announcement we reviewed (October 2026 batch) set minimums of 65% for the science section and 70% for the literary section; passing the minimum only lets you sit the tests.",
+      "ar": "الكليات العسكرية لا تستخدم قوائم التنسيق. إعلان الكلية الحربية الذي راجعناه (دفعة أكتوبر 2026) حدد حدًا أدنى 65% للقسم العلمي و70% للقسم الأدبي، والحصول على الحد الأدنى يسمح لك فقط بدخول الاختبارات."
+    },
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "University graduates can apply as specialist officers in some announcements (for example doctors, engineers and pharmacists), according to each announcement.",
+        "ar": "خريجين الجامعات ممكن يقدّموا كضباط متخصصين في بعض الإعلانات (زي الدكاترة والمهندسين والصيادلة)، حسب كل إعلان."
+      },
+      {
+        "en": "Technical military institutes and sports schools listed in Armed Forces announcements lead to non-commissioned or technical careers.",
+        "ar": "المعاهد الفنية العسكرية والمدارس الرياضية اللي بتتعلن بتوصّل لمسارات فنية وضباط صف."
+      },
+      {
+        "en": "Civilian security careers: private security management, emergency management and civil protection.",
+        "ar": "طرق أمنية مدنية: إدارة الأمن الخاص، وإدارة الطوارئ، والحماية المدنية."
+      }
+    ],
+    "licensing": {
+      "en": "There is no syndicate license. Entry is through the official announcements and selection stages. Military College announcement (October 2026 batch): age not above 21 on 1 November 2026; Thanaweya Amma (science or literary) or equivalent; at least 65% (science) or 70% (literary); Egyptian nationality of the applicant, parents and grandparents with no other nationality; no conviction for a felony or crime of dishonour; not married; minimum height of 170 cm; then aptitude, medical, fitness, psychological and advanced medical and athletic tests and interviews; four-year programme. Conditions, dates and seats change every year and differ by college, so always read the current official announcement.",
+      "ar": "لا يوجد ترخيص من نقابة. الدخول عبر الإعلانات الرسمية ومراحل الاختيار. إعلان الكلية الحربية (دفعة أكتوبر 2026): ألا يزيد السن على 21 سنة في 1 نوفمبر 2026؛ الثانوية العامة (علمي أو أدبي) أو ما يعادلها؛ 65% على الأقل (علمي) أو 70% (أدبي)؛ الجنسية المصرية للمتقدم وأبويه وجديه دون جنسية أخرى؛ عدم الحكم في جناية أو جريمة مخلة بالشرف؛ غير متزوج؛ طول لا يقل عن 170 سم؛ ثم اختبارات القدرات والكشف الطبي واللياقة والكشف النفسي وكشف طبي ورياضي متقدم ومقابلات؛ والدراسة أربع سنوات. الشروط والمواعيد والأعداد تتغير كل عام وتختلف حسب الكلية، فاقرأ دائمًا الإعلان الرسمي الحالي."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Physical fitness and endurance",
+        "ar": "اللياقة البدنية والتحمل"
+      },
+      {
+        "en": "Military science and tactics, and navigation or technical skills depending on the branch",
+        "ar": "العلوم العسكرية والتكتيكات، ومهارات الملاحة أو المهارات الفنية حسب السلاح"
+      },
+      {
+        "en": "First aid and safety",
+        "ar": "الإسعافات الأولية والسلامة"
+      },
+      {
+        "en": "Report writing",
+        "ar": "كتابة التقارير"
+      },
+      {
+        "en": "Technical skills for specialised units (communications, IT, driving)",
+        "ar": "مهارات فنية للوحدات المتخصصة (اتصالات وحاسب وقيادة)"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Discipline and reliability",
+        "ar": "الانضباط والاعتمادية"
+      },
+      {
+        "en": "Leadership and teamwork",
+        "ar": "القيادة والعمل الجماعي"
+      },
+      {
+        "en": "Staying calm and making quick decisions",
+        "ar": "الهدوء واتخاذ قرارات سريعة"
+      },
+      {
+        "en": "Respect for people and for the law",
+        "ar": "احترام الناس والقانون"
+      },
+      {
+        "en": "Handling stress",
+        "ar": "التعامل مع الضغط"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic",
+        "ar": "العربية"
+      },
+      {
+        "en": "English: training, courses abroad and specialised roles",
+        "ar": "الإنجليزية: التدريب والدورات الخارجية والوظائف المتخصصة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Graduation from the Military College or another military college is the qualification.",
+        "ar": "التخرج من الكلية الحربية أو كلية عسكرية تانية هو المؤهل."
+      },
+      {
+        "en": "Further courses and master's degrees are offered during the career.",
+        "ar": "تتاح دورات وماجستير أثناء الخدمة."
+      }
+    ],
+    "starterResources": [
+      {
+        "title": "Egyptian Armed Forces recruitment portal",
+        "url": "https://www.mod.gov.eg",
+        "free": true
+      },
+      {
+        "title": "Ahram Gate: Military College admission conditions, October 2026",
+        "url": "https://gate.ahram.org.eg/News/5758235.aspx",
+        "free": true
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Armed Forces (army, navy, air force, air defence and others)",
+        "ar": "القوات المسلحة (البرية والبحرية والجوية والدفاع الجوي وغيرها)"
+      },
+      {
+        "en": "After service: private security companies, corporate security and training roles",
+        "ar": "بعد الخدمة: شركات الأمن الخاصة وأمن الشركات والتدريب"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Not applicable during service. After service, some officers work in security consulting, training or management.",
+      "ar": "ما ينفعش وإنت في الخدمة. وبعد الخدمة فيه ضباط بيشتغلوا في الاستشارات الأمنية والتدريب والإدارة."
+    },
+    "regions": [
+      {
+        "en": "Postings across Egypt, sometimes far from home",
+        "ar": "تعيينات في كل مصر، وأحيانًا بعيد عن البيت"
+      },
+      {
+        "en": "Colleges are in Cairo and other locations announced each year",
+        "ar": "الكليات في القاهرة ومواقع أخرى تُعلن كل عام"
+      }
+    ],
+    "providerIds": [],
+    "salaryNote": {
+      "en": "Armed forces officers are paid on official scales by rank, with allowances, and these scales are not published. Salary surveys have no officer title (Paylab's \"Soldier\" range is for a different role), so we do not show a number.",
+      "ar": "ضباط القوات المسلحة بيتقاضوا أجورهم حسب جداول رسمية بالرتبة مع بدلات، والجداول دي مش منشورة. واستطلاعات الرواتب مفيهاش مسمى ضابط (نطاق «Soldier» في Paylab لوظيفة مختلفة)، لذلك لا نعرض رقمًا."
+    }
+  },
+  "global": {
+    "en": "Officers serve in Egypt, with some training courses, missions and postings abroad (for example in international peacekeeping or attaché roles) decided by the institution. After retirement, security, management and training experience can be used in the Gulf and in companies, but the career itself is within the Egyptian state.",
+    "ar": "الضباط بيخدموا في مصر، ومعاها أحيانًا دورات تدريبية وبعثات وتعيينات برّه (زي قوات حفظ السلام أو الملحقين) المؤسسة هي اللي بتقررها. بعد التقاعد خبرة الأمن والإدارة والتدريب ممكن تتستخدم في الخليج وفي الشركات، بس المهنة نفسها جوه الدولة المصرية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Clear structure, training and responsibility from a young age",
+        "ar": "نظام واضح وتدريب ومسؤولية من سن صغير"
+      },
+      {
+        "en": "A sense of purpose in serving the country",
+        "ar": "إحساس بالهدف في خدمة البلد"
+      },
+      {
+        "en": "Stable career with defined ranks",
+        "ar": "مسار مستقر برتب محددة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Strict discipline, possible night duty and postings far from home",
+        "ar": "انضباط صارم، وممكن نبطشيات بالليل وتعيينات بعيد عن البيت"
+      },
+      {
+        "en": "Demanding physical and medical standards, with strict entry conditions such as age, family status and height",
+        "ar": "معايير بدنية وطبية صعبة، وشروط دخول صارمة زي السن والحالة الاجتماعية والطول"
+      },
+      {
+        "en": "Risk and stress in some duties, and limits on personal freedom during service",
+        "ar": "مخاطر وضغوط في بعض المهام، وقيود على حريتك الشخصية وإنت في الخدمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Only the physically strongest are accepted.",
+          "ar": "بيقبلوا الأقوى جسمانيًا بس."
+        },
+        "fact": {
+          "en": "Fitness matters, but selection also checks medical status, psychology, aptitude and interview.",
+          "ar": "اللياقة مهمة، بس الاختيار كمان بيكشف على الحالة الطبية والنفسية والقدرات والمقابلة."
+        }
+      },
+      {
+        "myth": {
+          "en": "A high Thanaweya Amma score guarantees admission.",
+          "ar": "المجموع العالي بيضمن القبول."
+        },
+        "fact": {
+          "en": "The minimum score only lets you sit the tests. Seats are limited and the other stages decide.",
+          "ar": "الحد الأدنى للمجموع بيدخّلك الاختبارات بس. الأماكن محدودة والمراحل التانية هي اللي بتحسم."
+        }
+      },
+      {
+        "myth": {
+          "en": "Only science students can join the Military College.",
+          "ar": "الكلية الحربية للعلمي بس."
+        },
+        "fact": {
+          "en": "The October 2026 announcement accepts both science and literary sections, with a higher minimum (70%) for literary.",
+          "ar": "إعلان دفعة أكتوبر 2026 بيقبل العلمي والأدبي، بحد أدنى أعلى (70%) للأدبي."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Hours depend on unit and duty. Shifts, night duty and postings away from family are common, especially early in the career.",
+      "ar": "المواعيد بتعتمد على الوحدة والمهمة. النبطشيات والخدمة بالليل والبعد عن العيلة حاجات منتشرة، خصوصًا في أول المشوار."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Graduate officer (lieutenant)",
+        "ar": "ضابط خريج (ملازم)"
+      },
+      {
+        "en": "Captain and major",
+        "ar": "نقيب ورائد"
+      },
+      {
+        "en": "Lieutenant colonel and colonel",
+        "ar": "مقدم وعقيد"
+      },
+      {
+        "en": "Brigadier and higher ranks",
+        "ar": "عميد ورتب أعلى"
+      },
+      {
+        "en": "Senior command positions",
+        "ar": "مناصب قيادية عليا"
+      }
+    ],
+    "relatedCareerIds": [
+      "police_officer",
+      "pilot",
+      "marine_officer",
+      "security_manager",
+      "diplomat"
+    ],
+    "pivots": [
+      {
+        "en": "Security management in companies",
+        "ar": "إدارة الأمن في الشركات"
+      },
+      {
+        "en": "Training and instruction",
+        "ar": "التدريب والتعليم"
+      },
+      {
+        "en": "Public administration and local government",
+        "ar": "الإدارة العامة والمحليات"
+      },
+      {
+        "en": "Logistics, engineering or management roles after service",
+        "ar": "وظائف اللوجستيات أو الهندسة أو الإدارة بعد الخدمة"
+      }
+    ]
+  },
+  "industryId": "security",
+  "sources": [
+    {
+      "title": "Ahram Gate: Military College admission conditions for the October 2026 batch",
+      "url": "https://gate.ahram.org.eg/News/5758235.aspx",
+      "accessed": "2026-10-09"
+    },
+    {
+      "title": "O*NET OnLine - Infantry Officers (55-1016.00)",
+      "url": "https://www.onetonline.org/link/summary/55-1016.00",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "entry": {
+    "level": "very_competitive",
+    "hurdles": [
+      {
+        "kind": "physical",
+        "level": 3,
+        "text": {
+          "en": "A minimum height of 170 cm, medical, fitness and advanced medical and athletic tests.",
+          "ar": "طول لا يقل عن 170 سم، وكشف طبي ولياقة وكشف طبي ورياضي متقدم."
+        },
+        "tip": {
+          "en": "Regular training for a year before applying is the best preparation.",
+          "ar": "التمرين المنتظم سنة قبل التقديم هو أحسن استعداد."
+        },
+        "source": "https://gate.ahram.org.eg/News/5758235.aspx"
+      },
+      {
+        "kind": "age",
+        "level": 2,
+        "text": {
+          "en": "Not older than 21 on 1 November of the intake year, and not married.",
+          "ar": "السن ميزيدش عن 21 سنة في 1 نوفمبر من سنة القبول، ومتكونش متجوز."
+        },
+        "tip": {
+          "en": "Most apply right after Thanaweya Amma; the window closes quickly.",
+          "ar": "أغلب المتقدمين بيقدّموا على طول بعد الثانوية العامة؛ الفرصة بتقفل بسرعة."
+        },
+        "source": "https://gate.ahram.org.eg/News/5758235.aspx"
+      },
+      {
+        "kind": "vetting",
+        "level": 2,
+        "text": {
+          "en": "You, your parents and your grandparents must be Egyptian with no other nationality, and you need a clean record.",
+          "ar": "لازم تكون إنت وأبوك وأمك وجدودك مصريين من غير جنسية تانية، وسجلك نضيف."
+        },
+        "tip": {
+          "en": "These rules cannot be worked around, so check them first.",
+          "ar": "الشروط دي مفيهاش استثناء، فالأفضل التأكد منها الأول."
+        },
+        "source": "https://gate.ahram.org.eg/News/5758235.aspx"
+      },
+      {
+        "kind": "interview",
+        "level": 2,
+        "text": {
+          "en": "Psychological tests and interviews come after the medical and fitness stages.",
+          "ar": "الاختبارات النفسية والمقابلات بتيجي بعد المراحل الطبية واللياقة."
+        },
+        "tip": {
+          "en": "Clear reasons for choosing military service help in the interview.",
+          "ar": "وضوح سبب اختيار الخدمة العسكرية بيساعد في المقابلة."
+        },
+        "source": "https://gate.ahram.org.eg/News/5758235.aspx"
+      }
+    ]
+  }
+}

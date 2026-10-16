@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-15",
   "sources": {
     "onet": "O*NET 31.0 Database (interests, work styles, abilities, tasks); Work Values from O*NET 30.0",
     "license": "O*NET data © U.S. Department of Labor, Employment and Training Administration — CC BY 4.0. Modified by anaBokra."
@@ -4404,7 +4404,7 @@
     },
     {
       "id": "musician",
-      "cluster": "creative",
+      "cluster": "performing",
       "name": {
         "en": "Musician",
         "ar": "موسيقي"
@@ -4833,14 +4833,12 @@
       }
     },
     {
-      "id": "police_military_officer",
-      "cluster": "law",
+      "id": "police_officer",
+      "cluster": "security",
       "name": {
-        "en": "Police / Military Officer",
-        "ar": "ضابط شرطة / قوات مسلحة"
+        "en": "Police Officer",
+        "ar": "ضابط شرطة"
       },
-      "proxy": true,
-      "proxyNote": "O*NET has no military occupations; police profiles used.",
       "onet": [
         {
           "code": "33-3051.00",
@@ -4919,6 +4917,97 @@
           "manual": {
             "level": 0.504,
             "importance": 0.387
+          }
+        }
+      }
+    },
+    {
+      "id": "military_officer",
+      "cluster": "security",
+      "name": {
+        "en": "Military Officer",
+        "ar": "ضابط بالقوات المسلحة"
+      },
+      "proxy": true,
+      "proxyNote": "O*NET rates no interests or values for military occupations; police supervisor and patrol officer profiles used.",
+      "onet": [
+        {
+          "code": "33-1012.00",
+          "title": "First-Line Supervisors of Police and Detectives"
+        },
+        {
+          "code": "33-3051.00",
+          "title": "Police and Sheriff's Patrol Officers"
+        }
+      ],
+      "hollandCode": "ECR",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Directly supervise and coordinate activities of members of police force.",
+        "tasksEn": [
+          "Supervise and coordinate the investigation of criminal cases, offering guidance and expertise to investigators, and ensuring that procedures are conducted in accordance with laws and regulations.",
+          "Prepare work schedules and assign duties to subordinates.",
+          "Direct collection, preparation, and handling of evidence and personal property of prisoners.",
+          "Investigate and resolve personnel problems within organization and charges of misconduct against staff.",
+          "Explain police operations to subordinates to assist them in performing their job duties.",
+          "Maintain logs, prepare reports, and direct the preparation, handling, and maintenance of departmental records."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.405,
+          "I": 2.55,
+          "A": 1.04,
+          "S": 3.615,
+          "E": 5.48,
+          "C": 4.72
+        },
+        "personality": {
+          "extraversion": 0.676,
+          "agreeableness": 0.572,
+          "conscientiousness": 0.766,
+          "emotionalStability": 0.717,
+          "intellect": 0.378
+        },
+        "personalityDistinct": {
+          "extraversion": 0.931,
+          "agreeableness": 0.822,
+          "conscientiousness": 0.856,
+          "emotionalStability": 0.935,
+          "intellect": 0.541
+        },
+        "values": {
+          "achievement": 0.745,
+          "workingConditions": 0.766,
+          "recognition": 0.912,
+          "relationships": 0.799,
+          "support": 0.825,
+          "independence": 0.923
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.569,
+            "importance": 0.758
+          },
+          "numerical": {
+            "level": 0.421,
+            "importance": 0.328
+          },
+          "logical": {
+            "level": 0.761,
+            "importance": 0.75
+          },
+          "spatial": {
+            "level": 0.866,
+            "importance": 0.406
+          },
+          "creative": {
+            "level": 0.557,
+            "importance": 0.508
+          },
+          "manual": {
+            "level": 0.598,
+            "importance": 0.457
           }
         }
       }
@@ -6208,7 +6297,7 @@
     },
     {
       "id": "flight_attendant",
-      "cluster": "tourism",
+      "cluster": "transport",
       "name": {
         "en": "Flight Attendant",
         "ar": "مضيف طيران"
@@ -6293,7 +6382,7 @@
     },
     {
       "id": "pilot",
-      "cluster": "tourism",
+      "cluster": "transport",
       "name": {
         "en": "Pilot",
         "ar": "طيار"
@@ -7060,6 +7149,4105 @@
           "manual": {
             "level": 0.607,
             "importance": 0.445
+          }
+        }
+      }
+    },
+    {
+      "id": "customer_service_agent",
+      "cluster": "business",
+      "name": {
+        "en": "Customer Service / Contact Center Agent",
+        "ar": "موظف خدمة عملاء / كول سنتر"
+      },
+      "onet": [
+        {
+          "code": "43-4051.00",
+          "title": "Customer Service Representatives"
+        }
+      ],
+      "hollandCode": "CES",
+      "jobZone": 2,
+      "seed": {
+        "descriptionEn": "Interact with customers to provide basic or scripted information in response to routine inquiries about products and services. May handle and resolve general complaints. Excludes individuals whose duties are primarily installation, sales, repair, and technical support.",
+        "tasksEn": [
+          "Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.",
+          "Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",
+          "Check to ensure that appropriate changes were made to resolve customers' problems.",
+          "Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.",
+          "Determine charges for services requested, collect deposits or payments, or arrange for billing.",
+          "Complete contract forms, prepare change of address records, or issue service discontinuance orders, using computers."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.97,
+          "I": 1.63,
+          "A": 1,
+          "S": 3.77,
+          "E": 5.08,
+          "C": 6.32
+        },
+        "personality": {
+          "extraversion": 0.29,
+          "agreeableness": 0.602,
+          "conscientiousness": 0.479,
+          "emotionalStability": 0.693,
+          "intellect": 0.08
+        },
+        "personalityDistinct": {
+          "extraversion": 0.449,
+          "agreeableness": 0.858,
+          "conscientiousness": 0.121,
+          "emotionalStability": 0.914,
+          "intellect": 0.253
+        },
+        "values": {
+          "achievement": 0.273,
+          "workingConditions": 0.164,
+          "recognition": 0.392,
+          "relationships": 0.886,
+          "support": 0.453,
+          "independence": 0.306
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.374,
+            "importance": 0.703
+          },
+          "numerical": {
+            "level": 0.397,
+            "importance": 0.391
+          },
+          "logical": {
+            "level": 0.34,
+            "importance": 0.586
+          },
+          "spatial": {
+            "level": 0.119,
+            "importance": 0.14
+          },
+          "creative": {
+            "level": 0.331,
+            "importance": 0.438
+          },
+          "manual": {
+            "level": 0.299,
+            "importance": 0.266
+          }
+        }
+      }
+    },
+    {
+      "id": "sales_representative",
+      "cluster": "business",
+      "name": {
+        "en": "Sales Representative / Business Developer",
+        "ar": "مندوب مبيعات / تطوير أعمال"
+      },
+      "onet": [
+        {
+          "code": "41-4012.00",
+          "title": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+        },
+        {
+          "code": "41-3091.00",
+          "title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "imputedFromRelated": [
+            "workValues"
+          ]
+        }
+      ],
+      "hollandCode": "ECS",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Sell goods for wholesalers or manufacturers to businesses or groups of individuals. Work requires substantial knowledge of items sold.",
+        "tasksEn": [
+          "Answer customers' questions about products, prices, availability, product uses, and credit terms.",
+          "Recommend products to customers, based on customers' needs and interests.",
+          "Estimate or quote prices, credit or contract terms, warranties, and delivery dates.",
+          "Consult with clients after sales or contract signings to resolve problems and to provide ongoing support.",
+          "Prepare sales contracts and order forms.",
+          "Provide customers with product samples and catalogs."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.85,
+          "I": 2.09,
+          "A": 1.55,
+          "S": 3.22,
+          "E": 6.425,
+          "C": 4.995
+        },
+        "personality": {
+          "extraversion": 0.714,
+          "agreeableness": 0.282,
+          "conscientiousness": 0.565,
+          "emotionalStability": 0.592,
+          "intellect": 0.458
+        },
+        "personalityDistinct": {
+          "extraversion": 0.966,
+          "agreeableness": 0.409,
+          "conscientiousness": 0.291,
+          "emotionalStability": 0.803,
+          "intellect": 0.632
+        },
+        "values": {
+          "achievement": 0.543,
+          "workingConditions": 0.585,
+          "recognition": 0.522,
+          "relationships": 0.639,
+          "support": 0.351,
+          "independence": 0.526
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.492,
+            "importance": 0.688
+          },
+          "numerical": {
+            "level": 0.579,
+            "importance": 0.375
+          },
+          "logical": {
+            "level": 0.369,
+            "importance": 0.534
+          },
+          "spatial": {
+            "level": 0.268,
+            "importance": 0.171
+          },
+          "creative": {
+            "level": 0.559,
+            "importance": 0.508
+          },
+          "manual": {
+            "level": 0.28,
+            "importance": 0.214
+          }
+        }
+      }
+    },
+    {
+      "id": "medical_representative",
+      "cluster": "health",
+      "name": {
+        "en": "Medical Representative",
+        "ar": "مندوب دعاية طبية"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "41-4011.00",
+          "title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+        }
+      ],
+      "hollandCode": "ECI",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Sell goods for wholesalers or manufacturers where technical or scientific knowledge is required in such areas as biology, engineering, chemistry, and electronics, normally obtained from at least 2 years of postsecondary education.",
+        "tasksEn": [
+          "Negotiate prices or terms of sales or service agreements.",
+          "Prepare and submit sales contracts for orders.",
+          "Visit establishments to evaluate needs or to promote product or service sales.",
+          "Maintain customer records, using automated systems.",
+          "Answer customers' questions about products, prices, availability, or credit terms.",
+          "Quote prices, credit terms, or other bid specifications."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.8,
+          "I": 3.15,
+          "A": 1.44,
+          "S": 3.12,
+          "E": 5.27,
+          "C": 5.14
+        },
+        "personality": {
+          "extraversion": 0.722,
+          "agreeableness": 0.281,
+          "conscientiousness": 0.681,
+          "emotionalStability": 0.549,
+          "intellect": 0.539
+        },
+        "personalityDistinct": {
+          "extraversion": 0.968,
+          "agreeableness": 0.405,
+          "conscientiousness": 0.625,
+          "emotionalStability": 0.742,
+          "intellect": 0.723
+        },
+        "values": {
+          "achievement": 0.572,
+          "workingConditions": 0.657,
+          "recognition": 0.584,
+          "relationships": 0.478,
+          "support": 0.232,
+          "independence": 0.618
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.758,
+            "importance": 0.758
+          },
+          "numerical": {
+            "level": 0.679,
+            "importance": 0.47
+          },
+          "logical": {
+            "level": 0.513,
+            "importance": 0.539
+          },
+          "spatial": {
+            "level": 0.167,
+            "importance": 0.188
+          },
+          "creative": {
+            "level": 0.787,
+            "importance": 0.515
+          },
+          "manual": {
+            "level": 0.218,
+            "importance": 0.149
+          }
+        }
+      }
+    },
+    {
+      "id": "data_analyst",
+      "cluster": "tech",
+      "name": {
+        "en": "Data Analyst",
+        "ar": "محلل بيانات"
+      },
+      "onet": [
+        {
+          "code": "15-2051.01",
+          "title": "Business Intelligence Analysts"
+        },
+        {
+          "code": "15-2041.00",
+          "title": "Statisticians"
+        }
+      ],
+      "hollandCode": "ICE",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Produce financial and market intelligence by querying data repositories and generating periodic reports. Devise methods for identifying data patterns and trends in available information sources.",
+        "tasksEn": [
+          "Generate standard or custom reports summarizing business, financial, or economic data for review by executives, managers, clients, and other stakeholders.",
+          "Maintain or update business intelligence tools, databases, dashboards, systems, or methods.",
+          "Manage timely flow of business intelligence information to users.",
+          "Provide technical support for existing reports, dashboards, or other tools.",
+          "Identify and analyze industry or geographic trends with business strategy implications.",
+          "Document specifications for business intelligence or information technology reports, dashboards, or other outputs."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.69,
+          "I": 5.995,
+          "A": 1.85,
+          "S": 1.78,
+          "E": 3.12,
+          "C": 5.91
+        },
+        "personality": {
+          "extraversion": 0.242,
+          "agreeableness": 0.245,
+          "conscientiousness": 0.71,
+          "emotionalStability": 0.207,
+          "intellect": 0.565
+        },
+        "personalityDistinct": {
+          "extraversion": 0.392,
+          "agreeableness": 0.343,
+          "conscientiousness": 0.71,
+          "emotionalStability": 0.177,
+          "intellect": 0.759
+        },
+        "values": {
+          "achievement": 0.79,
+          "workingConditions": 0.751,
+          "recognition": 0.695,
+          "relationships": 0.349,
+          "support": 0.162,
+          "independence": 0.584
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.866,
+            "importance": 0.754
+          },
+          "numerical": {
+            "level": 0.952,
+            "importance": 0.734
+          },
+          "logical": {
+            "level": 0.859,
+            "importance": 0.672
+          },
+          "spatial": {
+            "level": 0.177,
+            "importance": 0.179
+          },
+          "creative": {
+            "level": 0.802,
+            "importance": 0.555
+          },
+          "manual": {
+            "level": 0.049,
+            "importance": 0.035
+          }
+        }
+      }
+    },
+    {
+      "id": "software_tester",
+      "cluster": "tech",
+      "name": {
+        "en": "Software Tester (QA)",
+        "ar": "مختبر برمجيات (QA)"
+      },
+      "onet": [
+        {
+          "code": "15-1253.00",
+          "title": "Software Quality Assurance Analysts and Testers"
+        }
+      ],
+      "hollandCode": "ICR",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Develop and execute software tests to identify software problems and their causes. Test system modifications to prepare for implementation. Document software and application defects using a bug tracking system and report defects to software or web developers. Create and maintain databases of known defects. May participate in software design reviews to provide input on functional requirements, operational characteristics, product designs, and schedules.",
+        "tasksEn": [
+          "Identify, analyze, and document problems with program function, output, online screen, or content.",
+          "Document software defects, using a bug tracking system, and report defects to software developers.",
+          "Develop testing programs that address areas such as database impacts, software scenarios, regression testing, negative testing, error or bug retests, or usability.",
+          "Design test plans, scenarios, scripts, or procedures.",
+          "Document test procedures to ensure replicability and compliance with standards.",
+          "Provide feedback and recommendations to developers on software usability and functionality."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.8,
+          "I": 5.76,
+          "A": 1.69,
+          "S": 1.53,
+          "E": 1.57,
+          "C": 5.67
+        },
+        "personality": {
+          "extraversion": 0.188,
+          "agreeableness": 0.3,
+          "conscientiousness": 0.75,
+          "emotionalStability": 0.262,
+          "intellect": 0.501
+        },
+        "personalityDistinct": {
+          "extraversion": 0.329,
+          "agreeableness": 0.441,
+          "conscientiousness": 0.822,
+          "emotionalStability": 0.274,
+          "intellect": 0.682
+        },
+        "values": {
+          "achievement": 0.652,
+          "workingConditions": 0.746,
+          "recognition": 0.728,
+          "relationships": 0.478,
+          "support": 0.73,
+          "independence": 0.618
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.651,
+            "importance": 0.742
+          },
+          "numerical": {
+            "level": 0.584,
+            "importance": 0.408
+          },
+          "logical": {
+            "level": 0.784,
+            "importance": 0.734
+          },
+          "spatial": {
+            "level": 0.276,
+            "importance": 0.203
+          },
+          "creative": {
+            "level": 0.559,
+            "importance": 0.5
+          },
+          "manual": {
+            "level": 0.338,
+            "importance": 0.235
+          }
+        }
+      }
+    },
+    {
+      "id": "site_engineer",
+      "cluster": "engineering",
+      "name": {
+        "en": "Site Engineer",
+        "ar": "مهندس موقع"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "11-9021.00",
+          "title": "Construction Managers"
+        },
+        {
+          "code": "17-2051.00",
+          "title": "Civil Engineers"
+        }
+      ],
+      "hollandCode": "RCE",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Plan, direct, or coordinate, usually through subordinate supervisory personnel, activities concerned with the construction and maintenance of structures, facilities, and systems. Participate in the conceptual development of a construction project and oversee its organization, scheduling, budgeting, and implementation. Includes managers in specialized construction fields, such as carpentry or plumbing.",
+        "tasksEn": [
+          "Inspect or review projects to monitor compliance with building and safety codes or other regulations.",
+          "Develop or implement quality control programs.",
+          "Plan, schedule, or coordinate construction project activities to meet deadlines.",
+          "Prepare and submit budget estimates, progress reports, or cost tracking reports.",
+          "Direct and supervise construction or related workers.",
+          "Determine labor requirements for dispatching workers to construction sites."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.555,
+          "I": 4.165,
+          "A": 1.955,
+          "S": 2.02,
+          "E": 4.195,
+          "C": 4.705
+        },
+        "personality": {
+          "extraversion": 0.608,
+          "agreeableness": 0.39,
+          "conscientiousness": 0.763,
+          "emotionalStability": 0.469,
+          "intellect": 0.549
+        },
+        "personalityDistinct": {
+          "extraversion": 0.84,
+          "agreeableness": 0.584,
+          "conscientiousness": 0.85,
+          "emotionalStability": 0.624,
+          "intellect": 0.744
+        },
+        "values": {
+          "achievement": 0.741,
+          "workingConditions": 0.918,
+          "recognition": 0.806,
+          "relationships": 0.525,
+          "support": 0.717,
+          "independence": 0.905
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.818,
+            "importance": 0.746
+          },
+          "numerical": {
+            "level": 0.942,
+            "importance": 0.649
+          },
+          "logical": {
+            "level": 0.899,
+            "importance": 0.746
+          },
+          "spatial": {
+            "level": 0.948,
+            "importance": 0.477
+          },
+          "creative": {
+            "level": 0.825,
+            "importance": 0.594
+          },
+          "manual": {
+            "level": 0.233,
+            "importance": 0.188
+          }
+        }
+      }
+    },
+    {
+      "id": "sales_engineer",
+      "cluster": "engineering",
+      "name": {
+        "en": "Sales Engineer",
+        "ar": "مهندس مبيعات"
+      },
+      "onet": [
+        {
+          "code": "41-9031.00",
+          "title": "Sales Engineers"
+        }
+      ],
+      "hollandCode": "ECI",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Sell business goods or services, the selling of which requires a technical background equivalent to a baccalaureate degree in engineering.",
+        "tasksEn": [
+          "Develop, present, or respond to proposals for specific customer requirements, including request for proposal responses and industry-specific solutions.",
+          "Collaborate with sales teams to understand customer requirements, to promote the sale of company products, and to provide sales support.",
+          "Create sales or service contracts for products or services.",
+          "Visit prospective buyers at commercial, industrial, or other establishments to show samples or catalogs, and to inform them about product pricing, availability, and advantages.",
+          "Keep informed on industry news and trends, products, services, competitors, relevant information about legacy, existing, and emerging technologies, and the latest product-line developments.",
+          "Identify resale opportunities and support them to achieve sales plans."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.38,
+          "I": 3.58,
+          "A": 1.76,
+          "S": 2.82,
+          "E": 5.78,
+          "C": 4.51
+        },
+        "personality": {
+          "extraversion": 0.704,
+          "agreeableness": 0.388,
+          "conscientiousness": 0.655,
+          "emotionalStability": 0.562,
+          "intellect": 0.651
+        },
+        "personalityDistinct": {
+          "extraversion": 0.961,
+          "agreeableness": 0.585,
+          "conscientiousness": 0.551,
+          "emotionalStability": 0.764,
+          "intellect": 0.877
+        },
+        "values": {
+          "achievement": 0.839,
+          "workingConditions": 0.846,
+          "recognition": 0.728,
+          "relationships": 0.773,
+          "support": 0.453,
+          "independence": 0.526
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.862,
+            "importance": 0.75
+          },
+          "numerical": {
+            "level": 0.918,
+            "importance": 0.546
+          },
+          "logical": {
+            "level": 0.767,
+            "importance": 0.719
+          },
+          "spatial": {
+            "level": 0.409,
+            "importance": 0.235
+          },
+          "creative": {
+            "level": 0.863,
+            "importance": 0.625
+          },
+          "manual": {
+            "level": 0.302,
+            "importance": 0.227
+          }
+        }
+      }
+    },
+    {
+      "id": "university_lecturer",
+      "cluster": "education",
+      "name": {
+        "en": "University Lecturer / Teaching Assistant",
+        "ar": "معيد / عضو هيئة تدريس"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "25-1042.00",
+          "title": "Biological Science Teachers, Postsecondary"
+        },
+        {
+          "code": "25-1022.00",
+          "title": "Mathematical Science Teachers, Postsecondary"
+        },
+        {
+          "code": "25-1123.00",
+          "title": "English Language and Literature Teachers, Postsecondary"
+        },
+        {
+          "code": "25-9044.00",
+          "title": "Teaching Assistants, Postsecondary"
+        }
+      ],
+      "hollandCode": "SIC",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Teach courses in biological sciences. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+        "tasksEn": [
+          "Evaluate and grade students' class work, laboratory work, assignments, and papers.",
+          "Prepare and deliver lectures to undergraduate or graduate students on topics such as molecular biology, marine biology, and botany.",
+          "Plan, evaluate, and revise curricula, course content, and course materials and methods of instruction.",
+          "Prepare materials for laboratory activities and course materials, such as syllabi, homework assignments, and handouts.",
+          "Initiate, facilitate, and moderate classroom discussions.",
+          "Supervise students' laboratory work."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.8,
+          "I": 4.913,
+          "A": 3.175,
+          "S": 6.493,
+          "E": 2.3,
+          "C": 4.127
+        },
+        "personality": {
+          "extraversion": 0.519,
+          "agreeableness": 0.526,
+          "conscientiousness": 0.582,
+          "emotionalStability": 0.501,
+          "intellect": 0.576
+        },
+        "personalityDistinct": {
+          "extraversion": 0.735,
+          "agreeableness": 0.763,
+          "conscientiousness": 0.345,
+          "emotionalStability": 0.667,
+          "intellect": 0.78
+        },
+        "values": {
+          "achievement": 0.84,
+          "workingConditions": 0.752,
+          "recognition": 0.788,
+          "relationships": 0.647,
+          "support": 0.221,
+          "independence": 0.758
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.893,
+            "importance": 0.793
+          },
+          "numerical": {
+            "level": 0.576,
+            "importance": 0.457
+          },
+          "logical": {
+            "level": 0.609,
+            "importance": 0.617
+          },
+          "spatial": {
+            "level": 0.109,
+            "importance": 0.133
+          },
+          "creative": {
+            "level": 0.76,
+            "importance": 0.546
+          },
+          "manual": {
+            "level": 0.124,
+            "importance": 0.099
+          }
+        }
+      }
+    },
+    {
+      "id": "early_childhood_teacher",
+      "cluster": "education",
+      "name": {
+        "en": "Early Childhood & Primary Teacher",
+        "ar": "معلم رياض أطفال وابتدائي"
+      },
+      "onet": [
+        {
+          "code": "25-2011.00",
+          "title": "Preschool Teachers, Except Special Education"
+        },
+        {
+          "code": "25-2012.00",
+          "title": "Kindergarten Teachers, Except Special Education"
+        },
+        {
+          "code": "25-2021.00",
+          "title": "Elementary School Teachers, Except Special Education"
+        }
+      ],
+      "hollandCode": "SAC",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Instruct preschool-aged students, following curricula or lesson plans, in activities designed to promote social, physical, and intellectual growth.",
+        "tasksEn": [
+          "Teach basic skills, such as color, shape, number and letter recognition, personal hygiene, and social skills.",
+          "Establish and enforce rules for behavior and procedures for maintaining order.",
+          "Adapt teaching methods and instructional materials to meet students' varying needs and interests.",
+          "Provide a variety of materials and resources for children to explore, manipulate, and use, both in learning activities and in imaginative play.",
+          "Serve meals and snacks in accordance with nutritional guidelines.",
+          "Attend to children's basic needs by feeding them, dressing them, and changing their diapers."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.753,
+          "I": 3.073,
+          "A": 3.947,
+          "S": 7,
+          "E": 2.513,
+          "C": 3.73
+        },
+        "personality": {
+          "extraversion": 0.58,
+          "agreeableness": 0.766,
+          "conscientiousness": 0.595,
+          "emotionalStability": 0.751,
+          "intellect": 0.47
+        },
+        "personalityDistinct": {
+          "extraversion": 0.822,
+          "agreeableness": 0.96,
+          "conscientiousness": 0.382,
+          "emotionalStability": 0.966,
+          "intellect": 0.644
+        },
+        "values": {
+          "achievement": 0.717,
+          "workingConditions": 0.624,
+          "recognition": 0.566,
+          "relationships": 0.951,
+          "support": 0.398,
+          "independence": 0.6
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.51,
+            "importance": 0.729
+          },
+          "numerical": {
+            "level": 0.461,
+            "importance": 0.402
+          },
+          "logical": {
+            "level": 0.495,
+            "importance": 0.652
+          },
+          "spatial": {
+            "level": 0.225,
+            "importance": 0.198
+          },
+          "creative": {
+            "level": 0.768,
+            "importance": 0.672
+          },
+          "manual": {
+            "level": 0.26,
+            "importance": 0.202
+          }
+        }
+      }
+    },
+    {
+      "id": "pharmacy_technician",
+      "cluster": "health",
+      "name": {
+        "en": "Pharmacy Technician / Pharmacist Assistant",
+        "ar": "فني صيدلة / مساعد صيدلي"
+      },
+      "onet": [
+        {
+          "code": "29-2052.00",
+          "title": "Pharmacy Technicians"
+        }
+      ],
+      "hollandCode": "CRS",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Prepare medications under the direction of a pharmacist. May measure, mix, count out, label, and record amounts and dosages of medications according to prescription orders.",
+        "tasksEn": [
+          "Receive written prescription or refill requests and verify that information is complete and accurate.",
+          "Enter prescription information into computer databases.",
+          "Establish or maintain patient profiles, including lists of medications taken by individual patients.",
+          "Maintain proper storage and security conditions for drugs.",
+          "Receive and store incoming supplies, verify quantities against invoices, check for outdated medications in current inventory, and inform supervisors of stock needs and shortages.",
+          "Answer telephones, responding to questions or requests."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.21,
+          "I": 2.99,
+          "A": 1,
+          "S": 3.32,
+          "E": 2.52,
+          "C": 7
+        },
+        "personality": {
+          "extraversion": 0.194,
+          "agreeableness": 0.497,
+          "conscientiousness": 0.695,
+          "emotionalStability": 0.419,
+          "intellect": 0.065
+        },
+        "personalityDistinct": {
+          "extraversion": 0.34,
+          "agreeableness": 0.732,
+          "conscientiousness": 0.672,
+          "emotionalStability": 0.548,
+          "intellect": 0.242
+        },
+        "values": {
+          "achievement": 0.273,
+          "workingConditions": 0.164,
+          "recognition": 0.392,
+          "relationships": 0.773,
+          "support": 0.73,
+          "independence": 0.176
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.458,
+            "importance": 0.695
+          },
+          "numerical": {
+            "level": 0.646,
+            "importance": 0.5
+          },
+          "logical": {
+            "level": 0.349,
+            "importance": 0.601
+          },
+          "spatial": {
+            "level": 0.119,
+            "importance": 0.14
+          },
+          "creative": {
+            "level": 0.169,
+            "importance": 0.328
+          },
+          "manual": {
+            "level": 0.573,
+            "importance": 0.453
+          }
+        }
+      }
+    },
+    {
+      "id": "occupational_therapist",
+      "cluster": "health",
+      "name": {
+        "en": "Occupational Therapist",
+        "ar": "أخصائي علاج وظيفي"
+      },
+      "onet": [
+        {
+          "code": "29-1122.00",
+          "title": "Occupational Therapists"
+        }
+      ],
+      "hollandCode": "SIR",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Assess, plan, and organize rehabilitative programs that help build or restore vocational, homemaking, and daily living skills, as well as general independence, to persons with disabilities or developmental delays. Use therapeutic techniques, adapt the individual's environment, teach skills, and modify specific tasks that present barriers to the individual.",
+        "tasksEn": [
+          "Test and evaluate patients' physical and mental abilities and analyze medical data to determine realistic rehabilitation goals for patients.",
+          "Complete and maintain necessary records.",
+          "Plan, organize, and conduct occupational therapy programs in hospital, institutional, or community settings to help rehabilitate persons with disabilities because of illness, injury or psychological or developmental problems.",
+          "Plan and implement programs and social activities to help patients learn work or school skills and adjust to handicaps.",
+          "Select activities that will help individuals learn work and life-management skills within limits of their mental or physical capabilities.",
+          "Evaluate patients' progress and prepare reports that detail progress."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.57,
+          "I": 4.23,
+          "A": 3.07,
+          "S": 6.08,
+          "E": 1.83,
+          "C": 3.12
+        },
+        "personality": {
+          "extraversion": 0.493,
+          "agreeableness": 0.754,
+          "conscientiousness": 0.667,
+          "emotionalStability": 0.667,
+          "intellect": 0.592
+        },
+        "personalityDistinct": {
+          "extraversion": 0.699,
+          "agreeableness": 0.95,
+          "conscientiousness": 0.577,
+          "emotionalStability": 0.889,
+          "intellect": 0.795
+        },
+        "values": {
+          "achievement": 0.935,
+          "workingConditions": 0.947,
+          "recognition": 0.653,
+          "relationships": 0.991,
+          "support": 0.73,
+          "independence": 0.863
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.657,
+            "importance": 0.742
+          },
+          "numerical": {
+            "level": 0.458,
+            "importance": 0.313
+          },
+          "logical": {
+            "level": 0.767,
+            "importance": 0.742
+          },
+          "spatial": {
+            "level": 0.369,
+            "importance": 0.25
+          },
+          "creative": {
+            "level": 0.877,
+            "importance": 0.688
+          },
+          "manual": {
+            "level": 0.555,
+            "importance": 0.383
+          }
+        }
+      }
+    },
+    {
+      "id": "speech_therapist",
+      "cluster": "health",
+      "name": {
+        "en": "Speech & Language Therapist",
+        "ar": "أخصائي تخاطب"
+      },
+      "onet": [
+        {
+          "code": "29-1127.00",
+          "title": "Speech-Language Pathologists"
+        }
+      ],
+      "hollandCode": "SIC",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Assess and treat persons with speech, language, voice, and fluency disorders. May select alternative communication systems and teach their use. May perform research related to speech and language problems.",
+        "tasksEn": [
+          "Evaluate hearing or speech and language test results, barium swallow results, or medical or background information to diagnose and plan treatment for speech, language, fluency, voice, or swallowing disorders.",
+          "Write reports and maintain proper documentation of information, such as client Medicaid or billing records or caseload activities, including the initial evaluation, treatment, progress, and discharge of clients.",
+          "Monitor patients' progress and adjust treatments accordingly.",
+          "Develop or implement treatment plans for problems such as stuttering, delayed language, swallowing disorders, or inappropriate pitch or harsh voice problems, based on own assessments and recommendations of physicians, psychologists, or social workers.",
+          "Administer hearing or speech and language evaluations, tests, or examinations to patients to collect information on type and degree of impairments, using written or oral tests or special instruments.",
+          "Educate patients and family members about various topics, such as communication techniques or strategies to cope with or to avoid personal misunderstandings."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.62,
+          "I": 5.57,
+          "A": 3,
+          "S": 6.09,
+          "E": 1.44,
+          "C": 4.03
+        },
+        "personality": {
+          "extraversion": 0.508,
+          "agreeableness": 0.741,
+          "conscientiousness": 0.735,
+          "emotionalStability": 0.654,
+          "intellect": 0.55
+        },
+        "personalityDistinct": {
+          "extraversion": 0.714,
+          "agreeableness": 0.948,
+          "conscientiousness": 0.785,
+          "emotionalStability": 0.871,
+          "intellect": 0.74
+        },
+        "values": {
+          "achievement": 0.839,
+          "workingConditions": 0.794,
+          "recognition": 0.728,
+          "relationships": 0.971,
+          "support": 0.328,
+          "independence": 0.739
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.892,
+            "importance": 0.82
+          },
+          "numerical": {
+            "level": 0.584,
+            "importance": 0.391
+          },
+          "logical": {
+            "level": 0.864,
+            "importance": 0.734
+          },
+          "spatial": {
+            "level": 0.233,
+            "importance": 0.188
+          },
+          "creative": {
+            "level": 0.93,
+            "importance": 0.625
+          },
+          "manual": {
+            "level": 0.229,
+            "importance": 0.179
+          }
+        }
+      }
+    },
+    {
+      "id": "industrial_engineer",
+      "cluster": "engineering",
+      "name": {
+        "en": "Industrial Engineer",
+        "ar": "مهندس صناعي"
+      },
+      "onet": [
+        {
+          "code": "17-2112.00",
+          "title": "Industrial Engineers"
+        }
+      ],
+      "hollandCode": "CIR",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Design, develop, test, and evaluate integrated systems for managing industrial production processes, including human work factors, quality control, inventory control, logistics and material flow, cost analysis, and production coordination.",
+        "tasksEn": [
+          "Estimate production costs, cost saving methods, and the effects of product design changes on expenditures for management review, action, and control.",
+          "Plan and establish sequence of operations to fabricate and assemble parts or products and to promote efficient utilization.",
+          "Analyze statistical data and product specifications to determine standards and establish quality and reliability objectives of finished product.",
+          "Confer with clients, vendors, staff, and management personnel regarding purchases, product and production specifications, manufacturing capabilities, or project status.",
+          "Communicate with management and user personnel to develop production and design standards.",
+          "Evaluate precision and accuracy of production and testing equipment and engineering drawings to formulate corrective action plan."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.96,
+          "I": 4.99,
+          "A": 1.58,
+          "S": 1.37,
+          "E": 3.29,
+          "C": 5.35
+        },
+        "personality": {
+          "extraversion": 0.488,
+          "agreeableness": 0.331,
+          "conscientiousness": 0.713,
+          "emotionalStability": 0.319,
+          "intellect": 0.618
+        },
+        "personalityDistinct": {
+          "extraversion": 0.688,
+          "agreeableness": 0.499,
+          "conscientiousness": 0.719,
+          "emotionalStability": 0.378,
+          "intellect": 0.829
+        },
+        "values": {
+          "achievement": 0.741,
+          "workingConditions": 0.846,
+          "recognition": 0.944,
+          "relationships": 0.267,
+          "support": 0.73,
+          "independence": 0.863
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.775,
+            "importance": 0.75
+          },
+          "numerical": {
+            "level": 0.88,
+            "importance": 0.53
+          },
+          "logical": {
+            "level": 0.817,
+            "importance": 0.719
+          },
+          "spatial": {
+            "level": 0.673,
+            "importance": 0.313
+          },
+          "creative": {
+            "level": 0.766,
+            "importance": 0.563
+          },
+          "manual": {
+            "level": 0.277,
+            "importance": 0.195
+          }
+        }
+      }
+    },
+    {
+      "id": "economist",
+      "cluster": "business",
+      "name": {
+        "en": "Economist",
+        "ar": "اقتصادي"
+      },
+      "onet": [
+        {
+          "code": "19-3011.00",
+          "title": "Economists"
+        }
+      ],
+      "hollandCode": "ICE",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Conduct research, prepare reports, or formulate plans to address economic problems related to the production and distribution of goods and services or monetary and fiscal policy. May collect and process economic and statistical data using sampling techniques and econometric methods.",
+        "tasksEn": [
+          "Study economic and statistical data in area of specialization, such as finance, labor, or agriculture.",
+          "Compile, analyze, and report data to explain economic phenomena and forecast market trends, applying mathematical models and statistical techniques.",
+          "Study the socioeconomic impacts of new public policies, such as proposed legislation, taxes, services, and regulations.",
+          "Explain economic impact of policies to the public.",
+          "Review documents written by others.",
+          "Provide advice and consultation on economic relationships to businesses, public and private agencies, and other employers."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.35,
+          "I": 7,
+          "A": 2.43,
+          "S": 2.4,
+          "E": 3.93,
+          "C": 4.53
+        },
+        "personality": {
+          "extraversion": 0.422,
+          "agreeableness": 0.243,
+          "conscientiousness": 0.679,
+          "emotionalStability": 0.307,
+          "intellect": 0.685
+        },
+        "personalityDistinct": {
+          "extraversion": 0.605,
+          "agreeableness": 0.338,
+          "conscientiousness": 0.613,
+          "emotionalStability": 0.36,
+          "intellect": 0.923
+        },
+        "values": {
+          "achievement": 0.652,
+          "workingConditions": 0.92,
+          "recognition": 0.807,
+          "relationships": 0.024,
+          "support": 0.154,
+          "independence": 0.739
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.936,
+            "importance": 0.758
+          },
+          "numerical": {
+            "level": 0.969,
+            "importance": 0.703
+          },
+          "logical": {
+            "level": 0.845,
+            "importance": 0.687
+          },
+          "spatial": {
+            "level": 0.119,
+            "importance": 0.173
+          },
+          "creative": {
+            "level": 0.828,
+            "importance": 0.625
+          },
+          "manual": {
+            "level": 0.021,
+            "importance": 0.024
+          }
+        }
+      }
+    },
+    {
+      "id": "compliance_officer",
+      "cluster": "law",
+      "name": {
+        "en": "Compliance & AML Officer",
+        "ar": "مسؤول امتثال ومكافحة غسل الأموال"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "13-1041.00",
+          "title": "Compliance Officers"
+        }
+      ],
+      "hollandCode": "CEI",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Examine, evaluate, and investigate eligibility for or conformity with laws and regulations governing contract compliance of licenses and permits, and perform other compliance and enforcement inspection and analysis activities not classified elsewhere.",
+        "tasksEn": [
+          "Warn violators of infractions or penalties.",
+          "Evaluate applications, records, or documents to gather information about eligibility or liability issues.",
+          "Advise licensees or other individuals or groups concerning licensing, permit, or passport regulations.",
+          "Prepare reports of activities, evaluations, recommendations, or decisions.",
+          "Report law or regulation violations to appropriate boards or agencies.",
+          "Confer with or interview officials, technical or professional specialists, or applicants to obtain information or to clarify facts relevant to licensing decisions."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.51,
+          "I": 3.07,
+          "A": 1,
+          "S": 2.97,
+          "E": 4.08,
+          "C": 6.33
+        },
+        "personality": {
+          "extraversion": 0.328,
+          "agreeableness": 0.459,
+          "conscientiousness": 0.663,
+          "emotionalStability": 0.406,
+          "intellect": 0.102
+        },
+        "personalityDistinct": {
+          "extraversion": 0.487,
+          "agreeableness": 0.678,
+          "conscientiousness": 0.571,
+          "emotionalStability": 0.531,
+          "intellect": 0.281
+        },
+        "values": {
+          "achievement": 0.457,
+          "workingConditions": 0.465,
+          "recognition": 0.457,
+          "relationships": 0.692,
+          "support": 0.594,
+          "independence": 0.526
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.588,
+            "importance": 0.75
+          },
+          "numerical": {
+            "level": 0.208,
+            "importance": 0.296
+          },
+          "logical": {
+            "level": 0.471,
+            "importance": 0.68
+          },
+          "spatial": {
+            "level": 0.528,
+            "importance": 0.298
+          },
+          "creative": {
+            "level": 0.352,
+            "importance": 0.485
+          },
+          "manual": {
+            "level": 0.221,
+            "importance": 0.163
+          }
+        }
+      }
+    },
+    {
+      "id": "epidemiologist",
+      "cluster": "science",
+      "name": {
+        "en": "Epidemiologist / Biostatistician",
+        "ar": "أخصائي وبائيات وإحصاء حيوي"
+      },
+      "onet": [
+        {
+          "code": "19-1041.00",
+          "title": "Epidemiologists"
+        },
+        {
+          "code": "15-2041.01",
+          "title": "Biostatisticians"
+        }
+      ],
+      "hollandCode": "ICS",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Investigate and describe the determinants and distribution of disease, disability, or health outcomes. May develop the means for prevention and control.",
+        "tasksEn": [
+          "Communicate research findings on various types of diseases to health practitioners, policy makers, and the public.",
+          "Oversee public health programs, including statistical analysis, health care planning, surveillance systems, and public health improvement.",
+          "Investigate diseases or parasites to determine cause and risk factors, progress, life cycle, or mode of transmission.",
+          "Educate healthcare workers, patients, and the public about infectious and communicable diseases, including disease transmission and prevention.",
+          "Monitor and report incidents of infectious diseases to local and state health agencies.",
+          "Plan and direct studies to investigate human or animal disease, preventive methods, and treatments for disease."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.625,
+          "I": 7,
+          "A": 2.495,
+          "S": 3.61,
+          "E": 2.175,
+          "C": 4.015
+        },
+        "personality": {
+          "extraversion": 0.425,
+          "agreeableness": 0.436,
+          "conscientiousness": 0.771,
+          "emotionalStability": 0.356,
+          "intellect": 0.698
+        },
+        "personalityDistinct": {
+          "extraversion": 0.609,
+          "agreeableness": 0.628,
+          "conscientiousness": 0.866,
+          "emotionalStability": 0.431,
+          "intellect": 0.939
+        },
+        "values": {
+          "achievement": 0.839,
+          "workingConditions": 0.676,
+          "recognition": 0.845,
+          "relationships": 0.434,
+          "support": 0.272,
+          "independence": 0.739
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.977,
+            "importance": 0.793
+          },
+          "numerical": {
+            "level": 0.961,
+            "importance": 0.688
+          },
+          "logical": {
+            "level": 0.957,
+            "importance": 0.77
+          },
+          "spatial": {
+            "level": 0.409,
+            "importance": 0.25
+          },
+          "creative": {
+            "level": 0.936,
+            "importance": 0.672
+          },
+          "manual": {
+            "level": 0.142,
+            "importance": 0.094
+          }
+        }
+      }
+    },
+    {
+      "id": "agronomist",
+      "cluster": "agriculture",
+      "name": {
+        "en": "Agronomist / Farm Manager",
+        "ar": "مهندس زراعي / مدير مزرعة"
+      },
+      "onet": [
+        {
+          "code": "19-1013.00",
+          "title": "Soil and Plant Scientists"
+        },
+        {
+          "code": "45-1011.00",
+          "title": "First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+        }
+      ],
+      "hollandCode": "RIC",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Conduct research in breeding, physiology, production, yield, and management of crops and agricultural plants or trees, shrubs, and nursery stock, their growth in soils, and control of pests; or study the chemical, physical, biological, and mineralogical composition of soils as they relate to plant or crop growth. May classify and map soils and investigate effects of alternative practices on soil and crop productivity.",
+        "tasksEn": [
+          "Communicate research or project results to other professionals or the public or teach related courses, seminars, or workshops.",
+          "Develop methods of conserving or managing soil that can be applied by farmers or forestry companies.",
+          "Provide information or recommendations to farmers or other landowners regarding ways in which they can best use land, promote plant growth, or avoid or correct problems such as erosion.",
+          "Conduct experiments to develop new or improved varieties of field crops, focusing on characteristics such as yield, quality, disease resistance, nutritional value, or adaptation to specific soils or climates.",
+          "Investigate soil problems or poor water quality to determine sources and effects.",
+          "Investigate responses of soils to specific management practices to determine the use capabilities of soils and the effects of alternative practices on soil productivity."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.98,
+          "I": 4.47,
+          "A": 1.555,
+          "S": 2.28,
+          "E": 3.86,
+          "C": 4.035
+        },
+        "personality": {
+          "extraversion": 0.47,
+          "agreeableness": 0.322,
+          "conscientiousness": 0.618,
+          "emotionalStability": 0.322,
+          "intellect": 0.45
+        },
+        "personalityDistinct": {
+          "extraversion": 0.675,
+          "agreeableness": 0.475,
+          "conscientiousness": 0.437,
+          "emotionalStability": 0.375,
+          "intellect": 0.66
+        },
+        "values": {
+          "achievement": 0.737,
+          "workingConditions": 0.642,
+          "recognition": 0.7,
+          "relationships": 0.418,
+          "support": 0.342,
+          "independence": 0.766
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.67,
+            "importance": 0.683
+          },
+          "numerical": {
+            "level": 0.716,
+            "importance": 0.468
+          },
+          "logical": {
+            "level": 0.721,
+            "importance": 0.684
+          },
+          "spatial": {
+            "level": 0.736,
+            "importance": 0.383
+          },
+          "creative": {
+            "level": 0.732,
+            "importance": 0.563
+          },
+          "manual": {
+            "level": 0.508,
+            "importance": 0.398
+          }
+        }
+      }
+    },
+    {
+      "id": "food_safety_specialist",
+      "cluster": "agriculture",
+      "name": {
+        "en": "Food Safety & Quality Specialist",
+        "ar": "أخصائي سلامة وجودة الغذاء"
+      },
+      "onet": [
+        {
+          "code": "45-2011.00",
+          "title": "Agricultural Inspectors"
+        },
+        {
+          "code": "19-4013.00",
+          "title": "Food Science Technicians"
+        }
+      ],
+      "hollandCode": "RCI",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Inspect agricultural commodities, processing equipment, and facilities, and fish and logging operations, to ensure compliance with regulations and laws governing health, quality, and safety.",
+        "tasksEn": [
+          "Inspect agricultural commodities or related operations, as well as fish or logging operations, for compliance with laws and regulations governing health, quality, and safety.",
+          "Interpret and enforce government acts and regulations and explain required standards to agricultural workers.",
+          "Inspect the cleanliness and practices of establishment employees.",
+          "Verify that transportation and handling procedures meet regulatory requirements.",
+          "Write reports of findings and recommendations and advise farmers, growers, or processors of corrective action to be taken.",
+          "Collect samples from animals, plants, or products and route them to laboratories for microbiological assessment, ingredient verification, or other testing."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.46,
+          "I": 4.275,
+          "A": 1.165,
+          "S": 1.81,
+          "E": 2.54,
+          "C": 5.105
+        },
+        "personality": {
+          "extraversion": 0.259,
+          "agreeableness": 0.329,
+          "conscientiousness": 0.681,
+          "emotionalStability": 0.293,
+          "intellect": 0.188
+        },
+        "personalityDistinct": {
+          "extraversion": 0.41,
+          "agreeableness": 0.482,
+          "conscientiousness": 0.626,
+          "emotionalStability": 0.334,
+          "intellect": 0.369
+        },
+        "values": {
+          "achievement": 0.515,
+          "workingConditions": 0.405,
+          "recognition": 0.555,
+          "relationships": 0.349,
+          "support": 0.781,
+          "independence": 0.451
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.503,
+            "importance": 0.668
+          },
+          "numerical": {
+            "level": 0.588,
+            "importance": 0.43
+          },
+          "logical": {
+            "level": 0.509,
+            "importance": 0.648
+          },
+          "spatial": {
+            "level": 0.538,
+            "importance": 0.273
+          },
+          "creative": {
+            "level": 0.331,
+            "importance": 0.398
+          },
+          "manual": {
+            "level": 0.472,
+            "importance": 0.402
+          }
+        }
+      }
+    },
+    {
+      "id": "hvac_technician",
+      "cluster": "trades",
+      "name": {
+        "en": "HVAC & Refrigeration Technician",
+        "ar": "فني تكييف وتبريد"
+      },
+      "onet": [
+        {
+          "code": "49-9021.00",
+          "title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+        }
+      ],
+      "hollandCode": "RCI",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Install or repair heating, central air conditioning, HVAC, or refrigeration systems, including oil burners, hot-air furnaces, and heating stoves.",
+        "tasksEn": [
+          "Discuss heating or cooling system malfunctions with users to isolate problems or to verify that repairs corrected malfunctions.",
+          "Test electrical circuits or components for continuity, using electrical test equipment.",
+          "Repair or replace defective equipment, components, or wiring.",
+          "Lay out and connect electrical wiring between controls and equipment, according to wiring diagrams, using electrician's hand tools.",
+          "Schedule work with customers and initiate work orders, house requisitions, and orders from stock.",
+          "Estimate, order, pick up, deliver, and install materials and supplies needed to maintain equipment in good working condition."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 6.96,
+          "I": 2.82,
+          "A": 1.04,
+          "S": 1.47,
+          "E": 1.2,
+          "C": 4.29
+        },
+        "personality": {
+          "extraversion": 0.229,
+          "agreeableness": 0.252,
+          "conscientiousness": 0.674,
+          "emotionalStability": 0.362,
+          "intellect": 0.194
+        },
+        "personalityDistinct": {
+          "extraversion": 0.389,
+          "agreeableness": 0.359,
+          "conscientiousness": 0.603,
+          "emotionalStability": 0.463,
+          "intellect": 0.373
+        },
+        "values": {
+          "achievement": 0.424,
+          "workingConditions": 0.465,
+          "recognition": 0.392,
+          "relationships": 0.359,
+          "support": 0.887,
+          "independence": 0.739
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.292,
+            "importance": 0.539
+          },
+          "numerical": {
+            "level": 0.55,
+            "importance": 0.313
+          },
+          "logical": {
+            "level": 0.608,
+            "importance": 0.681
+          },
+          "spatial": {
+            "level": 0.93,
+            "importance": 0.405
+          },
+          "creative": {
+            "level": 0.391,
+            "importance": 0.438
+          },
+          "manual": {
+            "level": 0.926,
+            "importance": 0.617
+          }
+        }
+      }
+    },
+    {
+      "id": "welder",
+      "cluster": "trades",
+      "name": {
+        "en": "Welder / Metal Fabricator",
+        "ar": "لحّام / مشغّل معادن"
+      },
+      "onet": [
+        {
+          "code": "51-4121.00",
+          "title": "Welders, Cutters, Solderers, and Brazers"
+        },
+        {
+          "code": "51-2041.00",
+          "title": "Structural Metal Fabricators and Fitters"
+        }
+      ],
+      "hollandCode": "RCI",
+      "jobZone": 2,
+      "seed": {
+        "descriptionEn": "Use hand-welding, flame-cutting, hand-soldering, or brazing equipment to weld or join metal components or to fill holes, indentations, or seams of fabricated metal products.",
+        "tasksEn": [
+          "Operate safety equipment and use safe work habits.",
+          "Examine workpieces for defects and measure workpieces with straightedges or templates to ensure conformance with specifications.",
+          "Weld components in flat, vertical, or overhead positions.",
+          "Detect faulty operation of equipment or defective materials and notify supervisors.",
+          "Recognize, set up, and operate hand and power tools common to the welding trade, such as shielded metal arc and gas metal arc welding equipment.",
+          "Select and install torches, torch tips, filler rods, and flux, according to welding chart specifications or types and thicknesses of metals."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 7,
+          "I": 2.34,
+          "A": 1.565,
+          "S": 1.04,
+          "E": 1.325,
+          "C": 3.78
+        },
+        "personality": {
+          "extraversion": 0.035,
+          "agreeableness": 0.082,
+          "conscientiousness": 0.598,
+          "emotionalStability": 0.215,
+          "intellect": 0.025
+        },
+        "personalityDistinct": {
+          "extraversion": 0.142,
+          "agreeableness": 0.111,
+          "conscientiousness": 0.379,
+          "emotionalStability": 0.196,
+          "intellect": 0.194
+        },
+        "values": {
+          "achievement": 0.23,
+          "workingConditions": 0.275,
+          "recognition": 0.233,
+          "relationships": 0.156,
+          "support": 0.696,
+          "independence": 0.098
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.066,
+            "importance": 0.407
+          },
+          "numerical": {
+            "level": 0.115,
+            "importance": 0.281
+          },
+          "logical": {
+            "level": 0.182,
+            "importance": 0.497
+          },
+          "spatial": {
+            "level": 0.799,
+            "importance": 0.375
+          },
+          "creative": {
+            "level": 0.106,
+            "importance": 0.289
+          },
+          "manual": {
+            "level": 0.801,
+            "importance": 0.55
+          }
+        }
+      }
+    },
+    {
+      "id": "travel_agent",
+      "cluster": "tourism",
+      "name": {
+        "en": "Travel Agent / Tourism Sales",
+        "ar": "وكيل سفر / مبيعات سياحة"
+      },
+      "onet": [
+        {
+          "code": "41-3041.00",
+          "title": "Travel Agents"
+        },
+        {
+          "code": "43-4181.00",
+          "title": "Reservation and Transportation Ticket Agents and Travel Clerks"
+        }
+      ],
+      "hollandCode": "CES",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Plan and sell transportation and accommodations for customers. Determine destination, modes of transportation, travel dates, costs, and accommodations required. May also describe, plan, and arrange itineraries and sell tour packages. May assist in resolving clients' travel problems.",
+        "tasksEn": [
+          "Collect payment for transportation and accommodations from customer.",
+          "Plan, describe, arrange, and sell itinerary tour packages and promotional travel incentives offered by various travel carriers.",
+          "Converse with customer to determine destination, mode of transportation, travel dates, financial considerations, and accommodations required.",
+          "Compute cost of travel and accommodations, using calculator, computer, carrier tariff books, and hotel rate books, or quote package tour's costs.",
+          "Record and maintain information on clients, vendors, and travel packages.",
+          "Book transportation and hotel reservations, using computer or telephone."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.635,
+          "I": 1.255,
+          "A": 1.61,
+          "S": 4.35,
+          "E": 4.93,
+          "C": 5.655
+        },
+        "personality": {
+          "extraversion": 0.423,
+          "agreeableness": 0.486,
+          "conscientiousness": 0.529,
+          "emotionalStability": 0.506,
+          "intellect": 0.254
+        },
+        "personalityDistinct": {
+          "extraversion": 0.61,
+          "agreeableness": 0.714,
+          "conscientiousness": 0.21,
+          "emotionalStability": 0.674,
+          "intellect": 0.425
+        },
+        "values": {
+          "achievement": 0.332,
+          "workingConditions": 0.253,
+          "recognition": 0.425,
+          "relationships": 0.644,
+          "support": 0.162,
+          "independence": 0.272
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.417,
+            "importance": 0.679
+          },
+          "numerical": {
+            "level": 0.463,
+            "importance": 0.43
+          },
+          "logical": {
+            "level": 0.32,
+            "importance": 0.554
+          },
+          "spatial": {
+            "level": 0.143,
+            "importance": 0.156
+          },
+          "creative": {
+            "level": 0.527,
+            "importance": 0.477
+          },
+          "manual": {
+            "level": 0.314,
+            "importance": 0.269
+          }
+        }
+      }
+    },
+    {
+      "id": "hotel_front_office",
+      "cluster": "tourism",
+      "name": {
+        "en": "Hotel Front Office & Guest Relations",
+        "ar": "استقبال فندقي وعلاقات نزلاء"
+      },
+      "onet": [
+        {
+          "code": "43-4081.00",
+          "title": "Hotel, Motel, and Resort Desk Clerks"
+        },
+        {
+          "code": "39-6012.00",
+          "title": "Concierges"
+        }
+      ],
+      "hollandCode": "CSE",
+      "jobZone": 2,
+      "seed": {
+        "descriptionEn": "Accommodate hotel, motel, and resort patrons by registering and assigning rooms to guests, issuing room keys or cards, transmitting and receiving messages, keeping records of occupied rooms and guests' accounts, making and confirming reservations, and presenting statements to and collecting payments from departing guests.",
+        "tasksEn": [
+          "Make and confirm reservations.",
+          "Greet, register, and assign rooms to guests of hotels or motels.",
+          "Verify customers' credit, and establish how the customer will pay for the accommodation.",
+          "Post charges, such as those for rooms, food, liquor, or telephone calls, to ledgers, manually or by using computers.",
+          "Issue room keys and escort instructions to bellhops.",
+          "Advise housekeeping staff when rooms have been vacated and are ready for cleaning."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.66,
+          "I": 1,
+          "A": 1.82,
+          "S": 4.915,
+          "E": 4.235,
+          "C": 4.95
+        },
+        "personality": {
+          "extraversion": 0.458,
+          "agreeableness": 0.62,
+          "conscientiousness": 0.488,
+          "emotionalStability": 0.634,
+          "intellect": 0.293
+        },
+        "personalityDistinct": {
+          "extraversion": 0.648,
+          "agreeableness": 0.866,
+          "conscientiousness": 0.134,
+          "emotionalStability": 0.854,
+          "intellect": 0.465
+        },
+        "values": {
+          "achievement": 0.271,
+          "workingConditions": 0.169,
+          "recognition": 0.256,
+          "relationships": 0.886,
+          "support": 0.232,
+          "independence": 0.311
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.377,
+            "importance": 0.625
+          },
+          "numerical": {
+            "level": 0.369,
+            "importance": 0.344
+          },
+          "logical": {
+            "level": 0.234,
+            "importance": 0.539
+          },
+          "spatial": {
+            "level": 0.235,
+            "importance": 0.188
+          },
+          "creative": {
+            "level": 0.437,
+            "importance": 0.485
+          },
+          "manual": {
+            "level": 0.225,
+            "importance": 0.183
+          }
+        }
+      }
+    },
+    {
+      "id": "athlete",
+      "cluster": "sports",
+      "name": {
+        "en": "Professional Athlete",
+        "ar": "لاعب رياضي محترف"
+      },
+      "onet": [
+        {
+          "code": "27-2021.00",
+          "title": "Athletes and Sports Competitors"
+        }
+      ],
+      "hollandCode": "RES",
+      "jobZone": 2,
+      "seed": {
+        "descriptionEn": "Compete in athletic events.",
+        "tasksEn": [
+          "Assess performance following athletic competition, identifying strengths and weaknesses and making adjustments to improve future performance.",
+          "Maintain equipment used in a particular sport.",
+          "Attend scheduled practice or training sessions.",
+          "Maintain optimum physical fitness levels by training regularly, following nutrition plans, or consulting with health professionals.",
+          "Participate in athletic events or competitive sports, according to established rules and regulations.",
+          "Exercise or practice under the direction of athletic trainers or professional coaches to develop skills, improve physical condition, or prepare for competitions."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.18,
+          "I": 1.4,
+          "A": 2.14,
+          "S": 4.3,
+          "E": 4.53,
+          "C": 3.01
+        },
+        "personality": {
+          "extraversion": 0.603,
+          "agreeableness": 0.19,
+          "conscientiousness": 0.557,
+          "emotionalStability": 0.791,
+          "intellect": 0.356
+        },
+        "personalityDistinct": {
+          "extraversion": 0.866,
+          "agreeableness": 0.247,
+          "conscientiousness": 0.269,
+          "emotionalStability": 0.987,
+          "intellect": 0.524
+        },
+        "values": {
+          "achievement": 0.935,
+          "workingConditions": 0.465,
+          "recognition": 0.944,
+          "relationships": 0.826,
+          "support": 0.73,
+          "independence": 0.445
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.353,
+            "importance": 0.617
+          },
+          "numerical": {
+            "level": 0.097,
+            "importance": 0.28
+          },
+          "logical": {
+            "level": 0.271,
+            "importance": 0.618
+          },
+          "spatial": {
+            "level": 0.65,
+            "importance": 0.36
+          },
+          "creative": {
+            "level": 0.51,
+            "importance": 0.47
+          },
+          "manual": {
+            "level": 0.625,
+            "importance": 0.476
+          }
+        }
+      }
+    },
+    {
+      "id": "sports_coach",
+      "cluster": "sports",
+      "name": {
+        "en": "Sports Coach",
+        "ar": "مدرب رياضي"
+      },
+      "onet": [
+        {
+          "code": "27-2022.00",
+          "title": "Coaches and Scouts"
+        }
+      ],
+      "hollandCode": "SER",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Instruct or coach groups or individuals in the fundamentals of sports for the primary purpose of competition. Demonstrate techniques and methods of participation. May evaluate athletes' strengths and weaknesses as possible recruits or to improve the athletes' technique to prepare them for competition. Those required to hold teaching certifications should be reported in the appropriate teaching category.",
+        "tasksEn": [
+          "Plan, organize, and conduct practice sessions.",
+          "Provide training direction, encouragement, motivation, and nutritional advice to prepare athletes for games, competitive events, or tours.",
+          "Adjust coaching techniques, based on the strengths and weaknesses of athletes.",
+          "Instruct individuals or groups in sports rules, game strategies, and performance principles, such as specific ways of moving the body, hands, or feet, to achieve desired results.",
+          "Plan strategies and choose team members for individual games or sports seasons.",
+          "Monitor the academic eligibility of student athletes."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.25,
+          "I": 2.15,
+          "A": 2.43,
+          "S": 5.31,
+          "E": 5.15,
+          "C": 3.45
+        },
+        "personality": {
+          "extraversion": 0.792,
+          "agreeableness": 0.528,
+          "conscientiousness": 0.539,
+          "emotionalStability": 0.681,
+          "intellect": 0.469
+        },
+        "personalityDistinct": {
+          "extraversion": 0.994,
+          "agreeableness": 0.776,
+          "conscientiousness": 0.229,
+          "emotionalStability": 0.905,
+          "intellect": 0.649
+        },
+        "values": {
+          "achievement": 0.935,
+          "workingConditions": 0.465,
+          "recognition": 0.584,
+          "relationships": 0.886,
+          "support": 0.232,
+          "independence": 0.947
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.669,
+            "importance": 0.749
+          },
+          "numerical": {
+            "level": 0.325,
+            "importance": 0.281
+          },
+          "logical": {
+            "level": 0.784,
+            "importance": 0.696
+          },
+          "spatial": {
+            "level": 0.943,
+            "importance": 0.391
+          },
+          "creative": {
+            "level": 0.877,
+            "importance": 0.704
+          },
+          "manual": {
+            "level": 0.352,
+            "importance": 0.305
+          }
+        }
+      }
+    },
+    {
+      "id": "fitness_trainer",
+      "cluster": "sports",
+      "name": {
+        "en": "Fitness Trainer",
+        "ar": "مدرب لياقة بدنية"
+      },
+      "onet": [
+        {
+          "code": "39-9031.00",
+          "title": "Exercise Trainers and Group Fitness Instructors"
+        }
+      ],
+      "hollandCode": "SRE",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Instruct or coach groups or individuals in exercise activities for the primary purpose of personal fitness. Demonstrate techniques and form, observe participants, and explain to them corrective measures necessary to improve their skills. Develop and implement individualized approaches to exercise.",
+        "tasksEn": [
+          "Observe participants and inform them of corrective measures necessary for skill improvement.",
+          "Offer alternatives during classes to accommodate different levels of fitness.",
+          "Monitor participants' progress and adapt programs as needed.",
+          "Plan routines, choose appropriate music, and choose different movements for each set of muscles, depending on participants' capabilities and limitations.",
+          "Evaluate individuals' abilities, needs, and physical conditions, and develop suitable training programs to meet any special requirements.",
+          "Instruct participants in maintaining exertion levels to maximize benefits from exercise routines."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.23,
+          "I": 2.71,
+          "A": 2.4,
+          "S": 5.62,
+          "E": 3.51,
+          "C": 2.98
+        },
+        "personality": {
+          "extraversion": 0.643,
+          "agreeableness": 0.559,
+          "conscientiousness": 0.51,
+          "emotionalStability": 0.62,
+          "intellect": 0.393
+        },
+        "personalityDistinct": {
+          "extraversion": 0.904,
+          "agreeableness": 0.808,
+          "conscientiousness": 0.172,
+          "emotionalStability": 0.847,
+          "intellect": 0.558
+        },
+        "values": {
+          "achievement": 0.515,
+          "workingConditions": 0.381,
+          "recognition": 0.457,
+          "relationships": 0.886,
+          "support": 0.154,
+          "independence": 0.445
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.346,
+            "importance": 0.547
+          },
+          "numerical": {
+            "level": 0.04,
+            "importance": 0.235
+          },
+          "logical": {
+            "level": 0.234,
+            "importance": 0.5
+          },
+          "spatial": {
+            "level": 0.325,
+            "importance": 0.219
+          },
+          "creative": {
+            "level": 0.51,
+            "importance": 0.5
+          },
+          "manual": {
+            "level": 0.436,
+            "importance": 0.352
+          }
+        }
+      }
+    },
+    {
+      "id": "pe_teacher",
+      "cluster": "sports",
+      "name": {
+        "en": "Physical Education Teacher",
+        "ar": "مدرس تربية رياضية"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "25-2031.00",
+          "title": "Secondary School Teachers, Except Special and Career/Technical Education"
+        },
+        {
+          "code": "25-2059.01",
+          "title": "Adapted Physical Education Specialists"
+        }
+      ],
+      "hollandCode": "SCR",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Teach one or more subjects to students at the secondary school level.",
+        "tasksEn": [
+          "Prepare students for later grades by encouraging them to explore learning opportunities and to persevere with challenging tasks.",
+          "Instruct through lectures, discussions, and demonstrations in one or more subjects, such as English, mathematics, or social studies.",
+          "Establish and enforce rules for behavior and procedures for maintaining order among students.",
+          "Prepare materials and classrooms for class activities.",
+          "Adapt teaching methods and instructional materials to meet students' varying needs and interests.",
+          "Prepare, administer, and grade tests and assignments to evaluate students' progress."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.425,
+          "I": 3.42,
+          "A": 3.115,
+          "S": 7,
+          "E": 2.39,
+          "C": 3.89
+        },
+        "personality": {
+          "extraversion": 0.573,
+          "agreeableness": 0.697,
+          "conscientiousness": 0.634,
+          "emotionalStability": 0.726,
+          "intellect": 0.527
+        },
+        "personalityDistinct": {
+          "extraversion": 0.813,
+          "agreeableness": 0.923,
+          "conscientiousness": 0.486,
+          "emotionalStability": 0.945,
+          "intellect": 0.712
+        },
+        "values": {
+          "achievement": 0.887,
+          "workingConditions": 0.632,
+          "recognition": 0.584,
+          "relationships": 0.991,
+          "support": 0.594,
+          "independence": 0.618
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.654,
+            "importance": 0.739
+          },
+          "numerical": {
+            "level": 0.532,
+            "importance": 0.383
+          },
+          "logical": {
+            "level": 0.607,
+            "importance": 0.652
+          },
+          "spatial": {
+            "level": 0.407,
+            "importance": 0.243
+          },
+          "creative": {
+            "level": 0.782,
+            "importance": 0.578
+          },
+          "manual": {
+            "level": 0.319,
+            "importance": 0.238
+          }
+        }
+      }
+    },
+    {
+      "id": "sports_manager",
+      "cluster": "sports",
+      "name": {
+        "en": "Sports Manager",
+        "ar": "مدير رياضي"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "13-1011.00",
+          "title": "Agents and Business Managers of Artists, Performers, and Athletes"
+        },
+        {
+          "code": "11-9072.00",
+          "title": "Entertainment and Recreation Managers, Except Gambling",
+          "imputedFromRelated": [
+            "workValues"
+          ]
+        }
+      ],
+      "hollandCode": "ECS",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Represent and promote artists, performers, and athletes in dealings with current or prospective employers. May handle contract negotiation and other business matters for clients.",
+        "tasksEn": [
+          "Collect fees, commissions, or other payments, according to contract terms.",
+          "Send samples of clients' work and other promotional material to potential employers to obtain auditions, sponsorships, or endorsement deals.",
+          "Keep informed of industry trends and deals.",
+          "Conduct auditions or interviews to evaluate potential clients.",
+          "Negotiate with managers, promoters, union officials, and other persons regarding clients' contractual rights and obligations.",
+          "Confer with clients to develop strategies for their careers, and to explain actions taken on their behalf."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.175,
+          "I": 1.86,
+          "A": 2.765,
+          "S": 4.035,
+          "E": 6.365,
+          "C": 4.385
+        },
+        "personality": {
+          "extraversion": 0.725,
+          "agreeableness": 0.403,
+          "conscientiousness": 0.59,
+          "emotionalStability": 0.628,
+          "intellect": 0.491
+        },
+        "personalityDistinct": {
+          "extraversion": 0.964,
+          "agreeableness": 0.601,
+          "conscientiousness": 0.354,
+          "emotionalStability": 0.843,
+          "intellect": 0.668
+        },
+        "values": {
+          "achievement": 0.823,
+          "workingConditions": 0.741,
+          "recognition": 0.781,
+          "relationships": 0.826,
+          "support": 0.3,
+          "independence": 0.858
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.591,
+            "importance": 0.726
+          },
+          "numerical": {
+            "level": 0.566,
+            "importance": 0.414
+          },
+          "logical": {
+            "level": 0.519,
+            "importance": 0.636
+          },
+          "spatial": {
+            "level": 0.155,
+            "importance": 0.156
+          },
+          "creative": {
+            "level": 0.657,
+            "importance": 0.562
+          },
+          "manual": {
+            "level": 0.158,
+            "importance": 0.129
+          }
+        }
+      }
+    },
+    {
+      "id": "air_traffic_controller",
+      "cluster": "transport",
+      "name": {
+        "en": "Air Traffic Controller",
+        "ar": "مراقب جوي"
+      },
+      "onet": [
+        {
+          "code": "53-2021.00",
+          "title": "Air Traffic Controllers"
+        }
+      ],
+      "hollandCode": "CRE",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Control air traffic on and within vicinity of airport, and movement of air traffic between altitude sectors and control centers, according to established procedures and policies. Authorize, regulate, and control commercial airline flights according to government or company regulations to expedite and ensure flight safety.",
+        "tasksEn": [
+          "Inform pilots about nearby planes or potentially hazardous conditions, such as weather, speed and direction of wind, or visibility problems.",
+          "Monitor aircraft within a specific airspace, using radar, computer equipment, or visual references.",
+          "Monitor, direct, or sequence the movement of aircraft within an assigned air space or on the ground at airports to minimize delays and maximize safety.",
+          "Alert airport emergency services in cases of emergency or when aircraft are experiencing difficulties.",
+          "Maintain radio or telephone contact with adjacent control towers, terminal control units, or other area control centers to coordinate aircraft movement.",
+          "Transfer control of departing flights to traffic control centers and accept control of arriving flights."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.55,
+          "I": 2.45,
+          "A": 1,
+          "S": 2.68,
+          "E": 4.29,
+          "C": 4.99
+        },
+        "personality": {
+          "extraversion": 0.39,
+          "agreeableness": 0.351,
+          "conscientiousness": 0.882,
+          "emotionalStability": 0.702,
+          "intellect": 0.182
+        },
+        "personalityDistinct": {
+          "extraversion": 0.559,
+          "agreeableness": 0.525,
+          "conscientiousness": 0.994,
+          "emotionalStability": 0.921,
+          "intellect": 0.361
+        },
+        "values": {
+          "achievement": 0.652,
+          "workingConditions": 0.846,
+          "recognition": 0.807,
+          "relationships": 0.177,
+          "support": 0.969,
+          "independence": 0.739
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.731,
+            "importance": 0.781
+          },
+          "numerical": {
+            "level": 0.823,
+            "importance": 0.515
+          },
+          "logical": {
+            "level": 0.883,
+            "importance": 0.836
+          },
+          "spatial": {
+            "level": 0.899,
+            "importance": 0.423
+          },
+          "creative": {
+            "level": 0.797,
+            "importance": 0.595
+          },
+          "manual": {
+            "level": 0.521,
+            "importance": 0.415
+          }
+        }
+      }
+    },
+    {
+      "id": "marine_officer",
+      "cluster": "transport",
+      "name": {
+        "en": "Marine Deck Officer",
+        "ar": "ضابط بحري (ملاحة)"
+      },
+      "onet": [
+        {
+          "code": "53-5021.00",
+          "title": "Captains, Mates, and Pilots of Water Vessels"
+        }
+      ],
+      "hollandCode": "RCE",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Command or supervise operations of ships and water vessels, such as tugboats and ferryboats. Required to hold license issued by U.S. Coast Guard.",
+        "tasksEn": [
+          "Direct courses and speeds of ships, based on specialized knowledge of local winds, weather, water depths, tides, currents, and hazards.",
+          "Prevent ships under navigational control from engaging in unsafe operations.",
+          "Serve as a vessel's docking master upon arrival at a port or at a berth.",
+          "Consult maps, charts, weather reports, or navigation equipment to determine and direct ship movements.",
+          "Steer and operate vessels, using radios, depth finders, radars, lights, buoys, or lighthouses.",
+          "Operate ship-to-shore radios to exchange information needed for ship operations."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.61,
+          "I": 2.64,
+          "A": 1,
+          "S": 1.88,
+          "E": 4.22,
+          "C": 4.56
+        },
+        "personality": {
+          "extraversion": 0.665,
+          "agreeableness": 0.377,
+          "conscientiousness": 0.821,
+          "emotionalStability": 0.661,
+          "intellect": 0.418
+        },
+        "personalityDistinct": {
+          "extraversion": 0.925,
+          "agreeableness": 0.566,
+          "conscientiousness": 0.944,
+          "emotionalStability": 0.884,
+          "intellect": 0.582
+        },
+        "values": {
+          "achievement": 0.541,
+          "workingConditions": 0.605,
+          "recognition": 0.617,
+          "relationships": 0.596,
+          "support": 0.665,
+          "independence": 0.92
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.448,
+            "importance": 0.672
+          },
+          "numerical": {
+            "level": 0.562,
+            "importance": 0.375
+          },
+          "logical": {
+            "level": 0.542,
+            "importance": 0.656
+          },
+          "spatial": {
+            "level": 0.998,
+            "importance": 0.625
+          },
+          "creative": {
+            "level": 0.352,
+            "importance": 0.438
+          },
+          "manual": {
+            "level": 0.803,
+            "importance": 0.609
+          }
+        }
+      }
+    },
+    {
+      "id": "marine_engineer_officer",
+      "cluster": "transport",
+      "name": {
+        "en": "Marine Engineer Officer",
+        "ar": "مهندس بحري"
+      },
+      "onet": [
+        {
+          "code": "53-5031.00",
+          "title": "Ship Engineers"
+        }
+      ],
+      "hollandCode": "RCE",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Supervise and coordinate activities of crew engaged in operating and maintaining engines, boilers, deck machinery, and electrical, sanitary, and refrigeration equipment aboard ship.",
+        "tasksEn": [
+          "Monitor engine, machinery, or equipment indicators when vessels are underway, and report abnormalities to appropriate shipboard staff.",
+          "Monitor the availability, use, or condition of lifesaving equipment or pollution preventatives to ensure that international regulations are followed.",
+          "Monitor and test operations of engines or other equipment so that malfunctions and their causes can be identified.",
+          "Start engines to propel ships, and regulate engines and power transmissions to control speeds of ships, according to directions from captains or bridge computers.",
+          "Perform or participate in emergency drills, as required.",
+          "Perform general marine vessel maintenance or repair work, such as repairing leaks, finishing interiors, refueling, or maintaining decks."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 6.44,
+          "I": 3.54,
+          "A": 1,
+          "S": 1.76,
+          "E": 3.73,
+          "C": 4.91
+        },
+        "personality": {
+          "extraversion": 0.479,
+          "agreeableness": 0.341,
+          "conscientiousness": 0.813,
+          "emotionalStability": 0.536,
+          "intellect": 0.413
+        },
+        "personalityDistinct": {
+          "extraversion": 0.679,
+          "agreeableness": 0.512,
+          "conscientiousness": 0.939,
+          "emotionalStability": 0.722,
+          "intellect": 0.575
+        },
+        "values": {
+          "achievement": 0.572,
+          "workingConditions": 0.514,
+          "recognition": 0.728,
+          "relationships": 0.692,
+          "support": 0.73,
+          "independence": 0.618
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.529,
+            "importance": 0.671
+          },
+          "numerical": {
+            "level": 0.528,
+            "importance": 0.421
+          },
+          "logical": {
+            "level": 0.681,
+            "importance": 0.656
+          },
+          "spatial": {
+            "level": 0.949,
+            "importance": 0.421
+          },
+          "creative": {
+            "level": 0.51,
+            "importance": 0.5
+          },
+          "manual": {
+            "level": 0.878,
+            "importance": 0.561
+          }
+        }
+      }
+    },
+    {
+      "id": "logistics_coordinator",
+      "cluster": "transport",
+      "name": {
+        "en": "Logistics & Freight Coordinator",
+        "ar": "منسق لوجستيات وشحن"
+      },
+      "onet": [
+        {
+          "code": "43-5011.00",
+          "title": "Cargo and Freight Agents"
+        },
+        {
+          "code": "13-1081.02",
+          "title": "Logistics Analysts"
+        }
+      ],
+      "hollandCode": "CER",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Expedite and route movement of incoming and outgoing cargo and freight shipments in airline, train, and trucking terminals and shipping docks. Take orders from customers and arrange pickup of freight and cargo for delivery to loading platform. Prepare and examine bills of lading to determine shipping charges and tariffs.",
+        "tasksEn": [
+          "Negotiate and arrange transport of goods with shipping or freight companies.",
+          "Determine method of shipment and prepare bills of lading, invoices, and other shipping documents.",
+          "Track delivery progress of shipments.",
+          "Advise clients on transportation and payment methods.",
+          "Estimate freight or postal rates and record shipment costs and weights.",
+          "Keep records of all goods shipped, received, and stored."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.015,
+          "I": 2.78,
+          "A": 1,
+          "S": 1.83,
+          "E": 4.65,
+          "C": 6.555
+        },
+        "personality": {
+          "extraversion": 0.315,
+          "agreeableness": 0.272,
+          "conscientiousness": 0.624,
+          "emotionalStability": 0.328,
+          "intellect": 0.349
+        },
+        "personalityDistinct": {
+          "extraversion": 0.476,
+          "agreeableness": 0.392,
+          "conscientiousness": 0.451,
+          "emotionalStability": 0.398,
+          "intellect": 0.524
+        },
+        "values": {
+          "achievement": 0.463,
+          "workingConditions": 0.385,
+          "recognition": 0.56,
+          "relationships": 0.418,
+          "support": 0.342,
+          "independence": 0.462
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.53,
+            "importance": 0.692
+          },
+          "numerical": {
+            "level": 0.74,
+            "importance": 0.5
+          },
+          "logical": {
+            "level": 0.493,
+            "importance": 0.59
+          },
+          "spatial": {
+            "level": 0.301,
+            "importance": 0.226
+          },
+          "creative": {
+            "level": 0.557,
+            "importance": 0.429
+          },
+          "manual": {
+            "level": 0.251,
+            "importance": 0.199
+          }
+        }
+      }
+    },
+    {
+      "id": "hairstylist",
+      "cluster": "beauty",
+      "name": {
+        "en": "Hairstylist / Barber",
+        "ar": "مصفف شعر / حلاق"
+      },
+      "onet": [
+        {
+          "code": "39-5012.00",
+          "title": "Hairdressers, Hairstylists, and Cosmetologists"
+        },
+        {
+          "code": "39-5011.00",
+          "title": "Barbers"
+        }
+      ],
+      "hollandCode": "RCS",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Provide beauty services, such as cutting, coloring, and styling hair, and massaging and treating scalp. May shampoo hair, apply makeup, dress wigs, remove hair, and provide nail and skincare services.",
+        "tasksEn": [
+          "Keep work stations clean and sanitize tools, such as scissors and combs.",
+          "Schedule client appointments.",
+          "Bleach, dye, or tint hair, using applicator or brush.",
+          "Cut, trim and shape hair or hairpieces, based on customers' instructions, hair type, and facial features, using clippers, scissors, trimmers and razors.",
+          "Shampoo, rinse, condition, and dry hair and scalp or hairpieces with water, liquid soap, or other solutions.",
+          "Update and maintain customer information records, such as beauty services provided."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.395,
+          "I": 1.27,
+          "A": 2.975,
+          "S": 3.65,
+          "E": 3.4,
+          "C": 3.905
+        },
+        "personality": {
+          "extraversion": 0.433,
+          "agreeableness": 0.462,
+          "conscientiousness": 0.446,
+          "emotionalStability": 0.454,
+          "intellect": 0.274
+        },
+        "personalityDistinct": {
+          "extraversion": 0.616,
+          "agreeableness": 0.686,
+          "conscientiousness": 0.083,
+          "emotionalStability": 0.6,
+          "intellect": 0.444
+        },
+        "values": {
+          "achievement": 0.515,
+          "workingConditions": 0.296,
+          "recognition": 0.35,
+          "relationships": 0.817,
+          "support": 0.015,
+          "independence": 0.428
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.124,
+            "importance": 0.527
+          },
+          "numerical": {
+            "level": 0.133,
+            "importance": 0.274
+          },
+          "logical": {
+            "level": 0.172,
+            "importance": 0.472
+          },
+          "spatial": {
+            "level": 0.442,
+            "importance": 0.289
+          },
+          "creative": {
+            "level": 0.45,
+            "importance": 0.5
+          },
+          "manual": {
+            "level": 0.884,
+            "importance": 0.626
+          }
+        }
+      }
+    },
+    {
+      "id": "makeup_artist",
+      "cluster": "beauty",
+      "name": {
+        "en": "Makeup Artist",
+        "ar": "خبير مكياج"
+      },
+      "onet": [
+        {
+          "code": "39-5091.00",
+          "title": "Makeup Artists, Theatrical and Performance"
+        }
+      ],
+      "hollandCode": "ARE",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Apply makeup to performers to reflect period, setting, and situation of their role.",
+        "tasksEn": [
+          "Clean supplies such as makeup brushes.",
+          "Duplicate work precisely to replicate characters' appearances on a daily basis.",
+          "Apply makeup to enhance or alter the appearance of people appearing in productions such as movies.",
+          "Analyze a script, noting events that affect each character's appearance, so that plans can be made for each scene.",
+          "Alter or maintain makeup during productions as necessary to compensate for lighting changes or to achieve continuity of effect.",
+          "Confer with stage or motion picture officials and performers to determine desired effects."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.33,
+          "I": 1.37,
+          "A": 6.72,
+          "S": 3,
+          "E": 3.08,
+          "C": 3.01
+        },
+        "personality": {
+          "extraversion": 0.482,
+          "agreeableness": 0.295,
+          "conscientiousness": 0.597,
+          "emotionalStability": 0.459,
+          "intellect": 0.557
+        },
+        "personalityDistinct": {
+          "extraversion": 0.683,
+          "agreeableness": 0.426,
+          "conscientiousness": 0.376,
+          "emotionalStability": 0.603,
+          "intellect": 0.75
+        },
+        "values": {
+          "achievement": 0.457,
+          "workingConditions": 0.514,
+          "recognition": 0.517,
+          "relationships": 0.596,
+          "support": 0.008,
+          "independence": 0.306
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.381,
+            "importance": 0.656
+          },
+          "numerical": {
+            "level": 0.378,
+            "importance": 0.313
+          },
+          "logical": {
+            "level": 0.369,
+            "importance": 0.563
+          },
+          "spatial": {
+            "level": 0.591,
+            "importance": 0.328
+          },
+          "creative": {
+            "level": 0.787,
+            "importance": 0.625
+          },
+          "manual": {
+            "level": 0.878,
+            "importance": 0.602
+          }
+        }
+      }
+    },
+    {
+      "id": "skincare_specialist",
+      "cluster": "beauty",
+      "name": {
+        "en": "Skincare Specialist",
+        "ar": "أخصائي عناية بالبشرة"
+      },
+      "onet": [
+        {
+          "code": "39-5094.00",
+          "title": "Skincare Specialists"
+        }
+      ],
+      "hollandCode": "RSC",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Provide skincare treatments to face and body to enhance an individual's appearance. Includes electrologists and laser hair removal specialists.",
+        "tasksEn": [
+          "Sterilize equipment and clean work areas.",
+          "Cleanse clients' skin with water, creams, or lotions.",
+          "Demonstrate how to clean and care for skin properly and recommend skin-care regimens.",
+          "Determine which products or colors will improve clients' skin quality and appearance.",
+          "Keep records of client needs and preferences and the services provided.",
+          "Treat the facial skin to maintain and improve its appearance, using specialized techniques and products, such as peels and masks."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.48,
+          "I": 2.04,
+          "A": 2.95,
+          "S": 4.18,
+          "E": 3.12,
+          "C": 3.37
+        },
+        "personality": {
+          "extraversion": 0.388,
+          "agreeableness": 0.574,
+          "conscientiousness": 0.541,
+          "emotionalStability": 0.481,
+          "intellect": 0.278
+        },
+        "personalityDistinct": {
+          "extraversion": 0.555,
+          "agreeableness": 0.823,
+          "conscientiousness": 0.238,
+          "emotionalStability": 0.63,
+          "intellect": 0.452
+        },
+        "values": {
+          "achievement": 0.572,
+          "workingConditions": 0.339,
+          "recognition": 0.457,
+          "relationships": 0.692,
+          "support": 0.154,
+          "independence": 0.618
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.346,
+            "importance": 0.626
+          },
+          "numerical": {
+            "level": 0.026,
+            "importance": 0.171
+          },
+          "logical": {
+            "level": 0.196,
+            "importance": 0.547
+          },
+          "spatial": {
+            "level": 0.119,
+            "importance": 0.203
+          },
+          "creative": {
+            "level": 0.419,
+            "importance": 0.485
+          },
+          "manual": {
+            "level": 0.668,
+            "importance": 0.516
+          }
+        }
+      }
+    },
+    {
+      "id": "spa_therapist",
+      "cluster": "beauty",
+      "name": {
+        "en": "Spa & Massage Therapist",
+        "ar": "أخصائي سبا ومساج"
+      },
+      "onet": [
+        {
+          "code": "31-9011.00",
+          "title": "Massage Therapists"
+        }
+      ],
+      "hollandCode": "SRI",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Perform therapeutic massages of soft tissues and joints. May assist in the assessment of range of motion and muscle strength, or propose client therapy plans.",
+        "tasksEn": [
+          "Massage and knead muscles and soft tissues of the body to provide treatment for medical conditions, injuries, or wellness maintenance.",
+          "Apply finger and hand pressure to specific points of the body.",
+          "Confer with clients about their medical histories and problems with stress or pain to determine how massage will be most helpful.",
+          "Maintain massage areas by restocking supplies or sanitizing equipment.",
+          "Treat clients in professional settings or travel to clients' offices and homes.",
+          "Develop and propose client treatment plans that specify which types of massage are to be used."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.84,
+          "I": 3.79,
+          "A": 2.23,
+          "S": 5.75,
+          "E": 2.1,
+          "C": 2.66
+        },
+        "personality": {
+          "extraversion": 0.381,
+          "agreeableness": 0.677,
+          "conscientiousness": 0.508,
+          "emotionalStability": 0.551,
+          "intellect": 0.319
+        },
+        "personalityDistinct": {
+          "extraversion": 0.543,
+          "agreeableness": 0.915,
+          "conscientiousness": 0.169,
+          "emotionalStability": 0.747,
+          "intellect": 0.48
+        },
+        "values": {
+          "achievement": 0.395,
+          "workingConditions": 0.339,
+          "recognition": 0.457,
+          "relationships": 0.773,
+          "support": 0.091,
+          "independence": 0.526
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.334,
+            "importance": 0.554
+          },
+          "numerical": {
+            "level": 0.021,
+            "importance": 0.188
+          },
+          "logical": {
+            "level": 0.303,
+            "importance": 0.492
+          },
+          "spatial": {
+            "level": 0.145,
+            "importance": 0.157
+          },
+          "creative": {
+            "level": 0.462,
+            "importance": 0.453
+          },
+          "manual": {
+            "level": 0.538,
+            "importance": 0.453
+          }
+        }
+      }
+    },
+    {
+      "id": "firefighter",
+      "cluster": "security",
+      "name": {
+        "en": "Firefighter / Civil Defense Officer",
+        "ar": "رجل إطفاء / ضابط دفاع مدني"
+      },
+      "onet": [
+        {
+          "code": "33-2011.00",
+          "title": "Firefighters"
+        }
+      ],
+      "hollandCode": "RCS",
+      "jobZone": 2,
+      "seed": {
+        "descriptionEn": "Control and extinguish fires or respond to emergency situations where life, property, or the environment is at risk. Duties may include fire prevention, emergency medical service, hazardous material response, search and rescue, and disaster assistance.",
+        "tasksEn": [
+          "Rescue survivors from burning buildings, accident sites, and water hazards.",
+          "Administer first aid and cardiopulmonary resuscitation to injured persons or provide emergency medical care such as basic or advanced life support.",
+          "Dress with equipment such as fire-resistant clothing and breathing apparatus.",
+          "Move toward the source of a fire, using knowledge of types of fires, construction design, building materials, and physical layout of properties.",
+          "Drive and operate fire fighting vehicles and equipment.",
+          "Respond to fire alarms and other calls for assistance, such as automobile and industrial accidents."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 6.49,
+          "I": 2.92,
+          "A": 1.31,
+          "S": 3.39,
+          "E": 3.01,
+          "C": 3.47
+        },
+        "personality": {
+          "extraversion": 0.64,
+          "agreeableness": 0.639,
+          "conscientiousness": 0.683,
+          "emotionalStability": 0.821,
+          "intellect": 0.436
+        },
+        "personalityDistinct": {
+          "extraversion": 0.9,
+          "agreeableness": 0.887,
+          "conscientiousness": 0.631,
+          "emotionalStability": 0.996,
+          "intellect": 0.605
+        },
+        "values": {
+          "achievement": 0.781,
+          "workingConditions": 0.605,
+          "recognition": 0.765,
+          "relationships": 0.826,
+          "support": 0.951,
+          "independence": 0.526
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.424,
+            "importance": 0.626
+          },
+          "numerical": {
+            "level": 0.528,
+            "importance": 0.36
+          },
+          "logical": {
+            "level": 0.73,
+            "importance": 0.703
+          },
+          "spatial": {
+            "level": 0.992,
+            "importance": 0.563
+          },
+          "creative": {
+            "level": 0.462,
+            "importance": 0.438
+          },
+          "manual": {
+            "level": 0.93,
+            "importance": 0.649
+          }
+        }
+      }
+    },
+    {
+      "id": "forensic_specialist",
+      "cluster": "security",
+      "name": {
+        "en": "Forensic Science Specialist",
+        "ar": "أخصائي أدلة جنائية"
+      },
+      "onet": [
+        {
+          "code": "19-4092.00",
+          "title": "Forensic Science Technicians"
+        }
+      ],
+      "hollandCode": "IRC",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Collect, identify, classify, and analyze physical evidence related to criminal investigations. Perform tests on weapons or substances, such as fiber, hair, and tissue to determine significance to investigation. May testify as expert witnesses on evidence or crime laboratory techniques. May serve as specialists in area of expertise, such as ballistics, fingerprinting, handwriting, or biochemistry.",
+        "tasksEn": [
+          "Collect evidence from crime scenes, storing it in conditions that preserve its integrity.",
+          "Keep records and prepare reports detailing findings, investigative methods, and laboratory techniques.",
+          "Use photographic or video equipment to document evidence or crime scenes.",
+          "Testify in court about investigative or analytical methods or findings.",
+          "Use chemicals or other substances to examine latent fingerprint evidence and compare developed prints to those of known persons in databases.",
+          "Measure and sketch crime scenes to document evidence."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 5.18,
+          "I": 5.94,
+          "A": 1.77,
+          "S": 1.5,
+          "E": 1.59,
+          "C": 4.98
+        },
+        "personality": {
+          "extraversion": 0.288,
+          "agreeableness": 0.421,
+          "conscientiousness": 0.795,
+          "emotionalStability": 0.518,
+          "intellect": 0.521
+        },
+        "personalityDistinct": {
+          "extraversion": 0.444,
+          "agreeableness": 0.628,
+          "conscientiousness": 0.914,
+          "emotionalStability": 0.696,
+          "intellect": 0.704
+        },
+        "values": {
+          "achievement": 0.457,
+          "workingConditions": 0.418,
+          "recognition": 0.653,
+          "relationships": 0.102,
+          "support": 0.84,
+          "independence": 0.376
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.809,
+            "importance": 0.75
+          },
+          "numerical": {
+            "level": 0.665,
+            "importance": 0.421
+          },
+          "logical": {
+            "level": 0.808,
+            "importance": 0.719
+          },
+          "spatial": {
+            "level": 0.881,
+            "importance": 0.375
+          },
+          "creative": {
+            "level": 0.719,
+            "importance": 0.516
+          },
+          "manual": {
+            "level": 0.649,
+            "importance": 0.469
+          }
+        }
+      }
+    },
+    {
+      "id": "security_manager",
+      "cluster": "security",
+      "name": {
+        "en": "Security & Safety Manager",
+        "ar": "مدير أمن وسلامة"
+      },
+      "onet": [
+        {
+          "code": "11-3013.01",
+          "title": "Security Managers",
+          "imputedFromRelated": [
+            "workValues"
+          ]
+        }
+      ],
+      "hollandCode": "ECI",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Direct an organization's security functions, including physical security and safety of employees and facilities.",
+        "tasksEn": [
+          "Develop budgets for security operations.",
+          "Identify, investigate, or resolve security breaches.",
+          "Plan, direct, or coordinate security activities to safeguard company employees, guests, or others on company property.",
+          "Direct or participate in emergency management and contingency planning.",
+          "Respond to medical emergencies, bomb threats, fire alarms, or intrusion alarms, following emergency response procedures.",
+          "Analyze and evaluate security operations to identify risks or opportunities for improvement through auditing, review, or assessment."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.39,
+          "I": 3.69,
+          "A": 1.3,
+          "S": 2.75,
+          "E": 5.63,
+          "C": 5.43
+        },
+        "personality": {
+          "extraversion": 0.61,
+          "agreeableness": 0.423,
+          "conscientiousness": 0.835,
+          "emotionalStability": 0.58,
+          "intellect": 0.478
+        },
+        "personalityDistinct": {
+          "extraversion": 0.872,
+          "agreeableness": 0.634,
+          "conscientiousness": 0.957,
+          "emotionalStability": 0.787,
+          "intellect": 0.66
+        },
+        "values": {
+          "achievement": 0.662,
+          "workingConditions": 0.63,
+          "recognition": 0.692,
+          "relationships": 0.661,
+          "support": 0.553,
+          "independence": 0.703
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.679,
+            "importance": 0.781
+          },
+          "numerical": {
+            "level": 0.627,
+            "importance": 0.438
+          },
+          "logical": {
+            "level": 0.823,
+            "importance": 0.781
+          },
+          "spatial": {
+            "level": 0.705,
+            "importance": 0.408
+          },
+          "creative": {
+            "level": 0.842,
+            "importance": 0.673
+          },
+          "manual": {
+            "level": 0.366,
+            "importance": 0.25
+          }
+        }
+      }
+    },
+    {
+      "id": "customs_officer",
+      "cluster": "security",
+      "name": {
+        "en": "Customs & Border Officer",
+        "ar": "ضابط جمارك وحدود"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "33-3051.04",
+          "title": "Customs and Border Protection Officers"
+        }
+      ],
+      "hollandCode": "CER",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Investigate and inspect persons, common carriers, goods, and merchandise, arriving in or departing from the United States or between states to detect violations of immigration and customs laws and regulations.",
+        "tasksEn": [
+          "Examine immigration applications, visas, and passports and interview persons to determine eligibility for admission, residence, and travel in the U.S.",
+          "Detain persons found to be in violation of customs or immigration laws and arrange for legal action, such as deportation.",
+          "Inspect cargo, baggage, and personal articles entering or leaving U.S. for compliance with revenue laws and U.S. customs regulations.",
+          "Locate and seize contraband, undeclared merchandise, and vehicles, aircraft, or boats that contain such merchandise.",
+          "Interpret and explain laws and regulations to travelers, prospective immigrants, shippers, and manufacturers.",
+          "Institute civil and criminal prosecutions and cooperate with other law enforcement agencies in the investigation and prosecution of those in violation of immigration or customs laws."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 3.39,
+          "I": 2.64,
+          "A": 1,
+          "S": 2.6,
+          "E": 4.29,
+          "C": 5.27
+        },
+        "personality": {
+          "extraversion": 0.474,
+          "agreeableness": 0.305,
+          "conscientiousness": 0.774,
+          "emotionalStability": 0.611,
+          "intellect": 0.283
+        },
+        "personalityDistinct": {
+          "extraversion": 0.669,
+          "agreeableness": 0.452,
+          "conscientiousness": 0.873,
+          "emotionalStability": 0.835,
+          "intellect": 0.456
+        },
+        "values": {
+          "achievement": 0.332,
+          "workingConditions": 0.794,
+          "recognition": 0.457,
+          "relationships": 0.267,
+          "support": 0.92,
+          "independence": 0.376
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.548,
+            "importance": 0.719
+          },
+          "numerical": {
+            "level": 0.458,
+            "importance": 0.329
+          },
+          "logical": {
+            "level": 0.687,
+            "importance": 0.704
+          },
+          "spatial": {
+            "level": 0.571,
+            "importance": 0.298
+          },
+          "creative": {
+            "level": 0.343,
+            "importance": 0.438
+          },
+          "manual": {
+            "level": 0.525,
+            "importance": 0.414
+          }
+        }
+      }
+    },
+    {
+      "id": "imam_preacher",
+      "cluster": "religion",
+      "name": {
+        "en": "Imam & Preacher",
+        "ar": "إمام وخطيب"
+      },
+      "onet": [
+        {
+          "code": "21-2011.00",
+          "title": "Clergy"
+        }
+      ],
+      "hollandCode": "SEA",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Conduct religious worship and perform other spiritual functions associated with beliefs and practices of religious faith or denomination. Provide spiritual and moral guidance and assistance to members.",
+        "tasksEn": [
+          "Pray and promote spirituality.",
+          "Prepare and deliver sermons or other talks.",
+          "Read from sacred texts, such as the Bible, Torah, or Koran.",
+          "Organize and lead regular religious services.",
+          "Instruct people who seek conversion to a particular faith.",
+          "Share information about religious issues by writing articles, giving speeches, or teaching."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.1,
+          "I": 2.11,
+          "A": 3.44,
+          "S": 5.91,
+          "E": 4.17,
+          "C": 2.89
+        },
+        "personality": {
+          "extraversion": 0.73,
+          "agreeableness": 0.963,
+          "conscientiousness": 0.601,
+          "emotionalStability": 0.74,
+          "intellect": 0.461
+        },
+        "personalityDistinct": {
+          "extraversion": 0.978,
+          "agreeableness": 0.999,
+          "conscientiousness": 0.387,
+          "emotionalStability": 0.961,
+          "intellect": 0.631
+        },
+        "values": {
+          "achievement": 0.995,
+          "workingConditions": 0.746,
+          "recognition": 0.884,
+          "relationships": 0.942,
+          "support": 0.154,
+          "independence": 0.983
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.71,
+            "importance": 0.804
+          },
+          "numerical": {
+            "level": 0.325,
+            "importance": 0.266
+          },
+          "logical": {
+            "level": 0.752,
+            "importance": 0.734
+          },
+          "spatial": {
+            "level": 0.119,
+            "importance": 0.14
+          },
+          "creative": {
+            "level": 0.877,
+            "importance": 0.72
+          },
+          "manual": {
+            "level": 0.046,
+            "importance": 0.039
+          }
+        }
+      }
+    },
+    {
+      "id": "religious_teacher",
+      "cluster": "religion",
+      "name": {
+        "en": "Religious Education Teacher",
+        "ar": "مدرس تربية دينية / أزهري"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "21-2021.00",
+          "title": "Directors, Religious Activities and Education"
+        },
+        {
+          "code": "25-2031.00",
+          "title": "Secondary School Teachers, Except Special and Career/Technical Education"
+        }
+      ],
+      "hollandCode": "SEA",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Coordinate or design programs and conduct outreach to promote the religious education or activities of a denominational group. May provide counseling, guidance, and leadership relative to marital, health, financial, and religious problems.",
+        "tasksEn": [
+          "Develop or direct study courses or religious education programs within congregations.",
+          "Identify and recruit potential volunteer workers.",
+          "Select appropriate curricula or class structures for educational programs.",
+          "Schedule special events, such as camps, conferences, meetings, seminars, or retreats.",
+          "Counsel individuals regarding interpersonal, health, financial, or religious problems.",
+          "Collaborate with other ministry members to establish goals and objectives for religious education programs or to develop ways to encourage program participation."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.865,
+          "I": 2.95,
+          "A": 3.575,
+          "S": 7,
+          "E": 4.53,
+          "C": 3.385
+        },
+        "personality": {
+          "extraversion": 0.66,
+          "agreeableness": 0.736,
+          "conscientiousness": 0.628,
+          "emotionalStability": 0.717,
+          "intellect": 0.549
+        },
+        "personalityDistinct": {
+          "extraversion": 0.912,
+          "agreeableness": 0.947,
+          "conscientiousness": 0.467,
+          "emotionalStability": 0.935,
+          "intellect": 0.739
+        },
+        "values": {
+          "achievement": 0.839,
+          "workingConditions": 0.796,
+          "recognition": 0.55,
+          "relationships": 0.991,
+          "support": 0.413,
+          "independence": 0.678
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.693,
+            "importance": 0.75
+          },
+          "numerical": {
+            "level": 0.621,
+            "importance": 0.453
+          },
+          "logical": {
+            "level": 0.591,
+            "importance": 0.656
+          },
+          "spatial": {
+            "level": 0.313,
+            "importance": 0.226
+          },
+          "creative": {
+            "level": 0.748,
+            "importance": 0.603
+          },
+          "manual": {
+            "level": 0.073,
+            "importance": 0.054
+          }
+        }
+      }
+    },
+    {
+      "id": "islamic_finance_specialist",
+      "cluster": "religion",
+      "name": {
+        "en": "Islamic Finance Specialist",
+        "ar": "أخصائي تمويل إسلامي"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "13-2051.00",
+          "title": "Financial and Investment Analysts",
+          "imputedFromRelated": [
+            "workValues",
+            "abilities"
+          ]
+        },
+        {
+          "code": "13-2072.00",
+          "title": "Loan Officers"
+        }
+      ],
+      "hollandCode": "CEI",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Conduct quantitative analyses of information involving investment programs or financial data of public or private institutions, including valuation of businesses.",
+        "tasksEn": []
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.215,
+          "I": 3.69,
+          "A": 1.39,
+          "S": 2.95,
+          "E": 5.035,
+          "C": 5.81
+        },
+        "personality": {
+          "extraversion": 0.528,
+          "agreeableness": 0.409,
+          "conscientiousness": 0.76,
+          "emotionalStability": 0.443,
+          "intellect": 0.474
+        },
+        "personalityDistinct": {
+          "extraversion": 0.749,
+          "agreeableness": 0.605,
+          "conscientiousness": 0.844,
+          "emotionalStability": 0.579,
+          "intellect": 0.659
+        },
+        "values": {
+          "achievement": 0.631,
+          "workingConditions": 0.631,
+          "recognition": 0.746,
+          "relationships": 0.741,
+          "support": 0.576,
+          "independence": 0.702
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.681,
+            "importance": 0.729
+          },
+          "numerical": {
+            "level": 0.899,
+            "importance": 0.619
+          },
+          "logical": {
+            "level": 0.669,
+            "importance": 0.664
+          },
+          "spatial": {
+            "level": 0.047,
+            "importance": 0.13
+          },
+          "creative": {
+            "level": 0.49,
+            "importance": 0.462
+          },
+          "manual": {
+            "level": 0.171,
+            "importance": 0.164
+          }
+        }
+      }
+    },
+    {
+      "id": "religious_scholar",
+      "cluster": "religion",
+      "name": {
+        "en": "Religious Scholar & Researcher",
+        "ar": "باحث في العلوم الدينية"
+      },
+      "proxy": true,
+      "onet": [
+        {
+          "code": "25-1126.00",
+          "title": "Philosophy and Religion Teachers, Postsecondary"
+        },
+        {
+          "code": "19-3093.00",
+          "title": "Historians"
+        }
+      ],
+      "hollandCode": "ISC",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Teach courses in philosophy, religion, and theology. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+        "tasksEn": [
+          "Evaluate and grade students' class work, assignments, and papers.",
+          "Initiate, facilitate, and moderate classroom discussions.",
+          "Prepare and deliver lectures to undergraduate or graduate students and the community on topics such as ethics, logic, and contemporary religious thought.",
+          "Compile, administer, and grade examinations, or assign this work to others.",
+          "Prepare course materials, such as syllabi, homework assignments, and handouts.",
+          "Keep abreast of developments in the field by reading current literature, talking with colleagues, and participating in professional conferences."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.425,
+          "I": 5.23,
+          "A": 3.73,
+          "S": 5.11,
+          "E": 2.56,
+          "C": 4.175
+        },
+        "personality": {
+          "extraversion": 0.404,
+          "agreeableness": 0.463,
+          "conscientiousness": 0.594,
+          "emotionalStability": 0.268,
+          "intellect": 0.639
+        },
+        "personalityDistinct": {
+          "extraversion": 0.594,
+          "agreeableness": 0.672,
+          "conscientiousness": 0.382,
+          "emotionalStability": 0.291,
+          "intellect": 0.858
+        },
+        "values": {
+          "achievement": 0.745,
+          "workingConditions": 0.656,
+          "recognition": 0.845,
+          "relationships": 0.732,
+          "support": 0.056,
+          "independence": 0.74
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.941,
+            "importance": 0.793
+          },
+          "numerical": {
+            "level": 0.228,
+            "importance": 0.25
+          },
+          "logical": {
+            "level": 0.602,
+            "importance": 0.637
+          },
+          "spatial": {
+            "level": 0.037,
+            "importance": 0.125
+          },
+          "creative": {
+            "level": 0.662,
+            "importance": 0.501
+          },
+          "manual": {
+            "level": 0.047,
+            "importance": 0.047
+          }
+        }
+      }
+    },
+    {
+      "id": "priest_church_minister",
+      "cluster": "religion",
+      "name": {
+        "en": "Priest / Church Ministry",
+        "ar": "كاهن / خدمة كنسية"
+      },
+      "onet": [
+        {
+          "code": "21-2011.00",
+          "title": "Clergy"
+        }
+      ],
+      "hollandCode": "SEA",
+      "jobZone": 5,
+      "seed": {
+        "descriptionEn": "Conduct religious worship and perform other spiritual functions associated with beliefs and practices of religious faith or denomination. Provide spiritual and moral guidance and assistance to members.",
+        "tasksEn": [
+          "Pray and promote spirituality.",
+          "Prepare and deliver sermons or other talks.",
+          "Read from sacred texts, such as the Bible, Torah, or Koran.",
+          "Organize and lead regular religious services.",
+          "Instruct people who seek conversion to a particular faith.",
+          "Share information about religious issues by writing articles, giving speeches, or teaching."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.1,
+          "I": 2.11,
+          "A": 3.44,
+          "S": 5.91,
+          "E": 4.17,
+          "C": 2.89
+        },
+        "personality": {
+          "extraversion": 0.73,
+          "agreeableness": 0.963,
+          "conscientiousness": 0.601,
+          "emotionalStability": 0.74,
+          "intellect": 0.461
+        },
+        "personalityDistinct": {
+          "extraversion": 0.978,
+          "agreeableness": 0.999,
+          "conscientiousness": 0.387,
+          "emotionalStability": 0.961,
+          "intellect": 0.631
+        },
+        "values": {
+          "achievement": 0.995,
+          "workingConditions": 0.746,
+          "recognition": 0.884,
+          "relationships": 0.942,
+          "support": 0.154,
+          "independence": 0.983
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.71,
+            "importance": 0.804
+          },
+          "numerical": {
+            "level": 0.325,
+            "importance": 0.266
+          },
+          "logical": {
+            "level": 0.752,
+            "importance": 0.734
+          },
+          "spatial": {
+            "level": 0.119,
+            "importance": 0.14
+          },
+          "creative": {
+            "level": 0.877,
+            "importance": 0.72
+          },
+          "manual": {
+            "level": 0.046,
+            "importance": 0.039
+          }
+        }
+      }
+    },
+    {
+      "id": "actor",
+      "cluster": "performing",
+      "name": {
+        "en": "Actor",
+        "ar": "ممثل"
+      },
+      "onet": [
+        {
+          "code": "27-2011.00",
+          "title": "Actors"
+        }
+      ],
+      "hollandCode": "ASE",
+      "jobZone": 2,
+      "seed": {
+        "descriptionEn": "Play parts in stage, television, radio, video, or film productions, or other settings for entertainment, information, or instruction. Interpret serious or comic role by speech, gesture, and body movement to entertain or inform audience. May dance and sing.",
+        "tasksEn": [
+          "Attend auditions and casting calls to audition for roles.",
+          "Work closely with directors, other actors, and playwrights to find the interpretation most suited to the role.",
+          "Portray and interpret roles, using speech, gestures, and body movements, to entertain, inform, or instruct radio, film, television, or live audiences.",
+          "Study and rehearse roles from scripts to interpret, learn and memorize lines, stunts, and cues as directed.",
+          "Collaborate with other actors as part of an ensemble.",
+          "Learn about characters in scripts and their relationships to each other to develop role interpretations."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 2.29,
+          "I": 2.16,
+          "A": 7,
+          "S": 4.08,
+          "E": 4,
+          "C": 1.81
+        },
+        "personality": {
+          "extraversion": 0.491,
+          "agreeableness": 0.161,
+          "conscientiousness": 0.411,
+          "emotionalStability": 0.631,
+          "intellect": 0.662
+        },
+        "personalityDistinct": {
+          "extraversion": 0.692,
+          "agreeableness": 0.216,
+          "conscientiousness": 0.048,
+          "emotionalStability": 0.857,
+          "intellect": 0.891
+        },
+        "values": {
+          "achievement": 0.839,
+          "workingConditions": 0.514,
+          "recognition": 0.728,
+          "relationships": 0.886,
+          "support": 0.008,
+          "independence": 0.526
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.452,
+            "importance": 0.671
+          },
+          "numerical": {
+            "level": 0.002,
+            "importance": 0.03
+          },
+          "logical": {
+            "level": 0.271,
+            "importance": 0.5
+          },
+          "spatial": {
+            "level": 0.464,
+            "importance": 0.281
+          },
+          "creative": {
+            "level": 0.682,
+            "importance": 0.61
+          },
+          "manual": {
+            "level": 0.195,
+            "importance": 0.133
+          }
+        }
+      }
+    },
+    {
+      "id": "dancer",
+      "cluster": "performing",
+      "name": {
+        "en": "Dancer & Choreographer",
+        "ar": "راقص ومصمم رقصات"
+      },
+      "onet": [
+        {
+          "code": "27-2031.00",
+          "title": "Dancers"
+        },
+        {
+          "code": "27-2032.00",
+          "title": "Choreographers"
+        }
+      ],
+      "hollandCode": "ARS",
+      "jobZone": 3,
+      "seed": {
+        "descriptionEn": "Perform dances. May perform on stage, for broadcasting, or for video recording.",
+        "tasksEn": [
+          "Study and practice dance moves required in roles.",
+          "Harmonize body movements to rhythm of musical accompaniment.",
+          "Train, exercise, and attend dance classes to maintain high levels of technical proficiency, physical ability, and physical fitness.",
+          "Coordinate dancing with that of partners or dance ensembles.",
+          "Develop self-understanding of physical capabilities and limitations, and choose dance styles accordingly.",
+          "Perform classical, modern, or acrobatic dances in productions, expressing stories, rhythm, and sound with their bodies."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 4.23,
+          "I": 1.825,
+          "A": 6.695,
+          "S": 3.805,
+          "E": 3.475,
+          "C": 1.87
+        },
+        "personality": {
+          "extraversion": 0.56,
+          "agreeableness": 0.235,
+          "conscientiousness": 0.442,
+          "emotionalStability": 0.56,
+          "intellect": 0.592
+        },
+        "personalityDistinct": {
+          "extraversion": 0.776,
+          "agreeableness": 0.336,
+          "conscientiousness": 0.072,
+          "emotionalStability": 0.76,
+          "intellect": 0.797
+        },
+        "values": {
+          "achievement": 0.838,
+          "workingConditions": 0.49,
+          "recognition": 0.734,
+          "relationships": 0.759,
+          "support": 0.049,
+          "independence": 0.584
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.34,
+            "importance": 0.574
+          },
+          "numerical": {
+            "level": 0.062,
+            "importance": 0.188
+          },
+          "logical": {
+            "level": 0.299,
+            "importance": 0.523
+          },
+          "spatial": {
+            "level": 0.809,
+            "importance": 0.438
+          },
+          "creative": {
+            "level": 0.773,
+            "importance": 0.603
+          },
+          "manual": {
+            "level": 0.314,
+            "importance": 0.242
+          }
+        }
+      }
+    },
+    {
+      "id": "tv_presenter",
+      "cluster": "performing",
+      "name": {
+        "en": "TV & Radio Presenter",
+        "ar": "مذيع تلفزيون وراديو"
+      },
+      "onet": [
+        {
+          "code": "27-3011.00",
+          "title": "Broadcast Announcers and Radio Disc Jockeys"
+        }
+      ],
+      "hollandCode": "AES",
+      "jobZone": 4,
+      "seed": {
+        "descriptionEn": "Speak or read from scripted materials, such as news reports or commercial messages, on radio, television, or other communications media. May play and queue music, announce artist or title of performance, identify station, or interview guests.",
+        "tasksEn": [
+          "Read news flashes to inform audiences of important events.",
+          "Announce musical selections, station breaks, commercials, or public service information, and accept requests from listening audience.",
+          "Operate control consoles.",
+          "Identify stations, and introduce or close shows, ad-libbing or using memorized or read scripts.",
+          "Study background information to prepare for programs or interviews.",
+          "Prepare and deliver news, sports, or weather reports, gathering and rewriting material so that it will convey required information and fit specific time slots."
+        ]
+      },
+      "traits": {
+        "riasec": {
+          "R": 1.66,
+          "I": 2.01,
+          "A": 5.68,
+          "S": 3.54,
+          "E": 4.38,
+          "C": 3.11
+        },
+        "personality": {
+          "extraversion": 0.618,
+          "agreeableness": 0.273,
+          "conscientiousness": 0.393,
+          "emotionalStability": 0.628,
+          "intellect": 0.439
+        },
+        "personalityDistinct": {
+          "extraversion": 0.88,
+          "agreeableness": 0.391,
+          "conscientiousness": 0.031,
+          "emotionalStability": 0.855,
+          "intellect": 0.608
+        },
+        "values": {
+          "achievement": 0.741,
+          "workingConditions": 0.418,
+          "recognition": 0.807,
+          "relationships": 0.478,
+          "support": 0.594,
+          "independence": 0.618
+        },
+        "abilities": {
+          "verbal": {
+            "level": 0.609,
+            "importance": 0.789
+          },
+          "numerical": {
+            "level": 0.046,
+            "importance": 0.235
+          },
+          "logical": {
+            "level": 0.386,
+            "importance": 0.546
+          },
+          "spatial": {
+            "level": 0.209,
+            "importance": 0.188
+          },
+          "creative": {
+            "level": 0.777,
+            "importance": 0.671
+          },
+          "manual": {
+            "level": 0.319,
+            "importance": 0.235
           }
         }
       }

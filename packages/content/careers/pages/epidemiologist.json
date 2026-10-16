@@ -1,0 +1,257 @@
+{
+  "id": "epidemiologist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You find out why people get sick, and how to stop it spreading.",
+      "ar": "بتعرف الناس بتعيا ليه، وإزاي توقف انتشار المرض."
+    },
+    "summary": {
+      "en": "Epidemiologists and biostatisticians study how diseases spread and what protects people, using data from hospitals, surveys and trials. They design studies, analyse numbers and advise on vaccines, outbreaks and health policy. In Egypt they work at the Ministry of Health, universities, research units, WHO and NGOs. Many start in medicine, pharmacy or statistics and study public health after.",
+      "ar": "أخصائي الوبائيات والإحصاء الحيوي بيدرس الأمراض بتنتشر إزاي وإيه اللي بيحمي الناس، وبيستخدم بيانات من المستشفيات والاستبيانات والتجارب. بيصمم دراسات، بيحلل أرقام، وبينصح في التطعيمات والأوبئة والسياسات الصحية. في مصر بيشتغلوا في وزارة الصحة والجامعات ووحدات البحث ومنظمة الصحة العالمية والجمعيات. ناس كتير بيبدأوا من الطب أو الصيدلة أو الإحصاء ويدرسوا صحة عامة بعدها."
+    },
+    "dayInLife": {
+      "en": "Hospitals in one governorate reported more cases of diarrhoea than usual. You pull the surveillance data, map cases by village and week, and see they cluster around one water source. You call the district team to collect water samples and write a short alert for the ministry. In the afternoon you run a statistical model for a vaccine study and review a student's thesis analysis.",
+      "ar": "مستشفيات محافظة بلّغت عن حالات إسهال أكتر من العادي. بتطلّع بيانات الترصد، بترسم الحالات على خريطة حسب القرية والأسبوع، وبتلاقيها متجمعة حوالين مصدر مية واحد. بتكلم فريق المنطقة ياخدوا عينات مية وبتكتب تنبيه قصير للوزارة. بعد الضهر بتشغّل نموذج إحصائي لدراسة تطعيم وبتراجع تحليل رسالة طالب."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect and analyse health and disease data.",
+        "ar": "بتجمع وتحلل بيانات الصحة والأمراض."
+      },
+      {
+        "en": "Design studies and surveys.",
+        "ar": "بتصمم دراسات واستبيانات."
+      },
+      {
+        "en": "Investigate outbreaks.",
+        "ar": "بتحقق في الأوبئة."
+      },
+      {
+        "en": "Run statistical models and interpret results.",
+        "ar": "بتشغّل نماذج إحصائية وتفسّر النتايج."
+      },
+      {
+        "en": "Advise on prevention and write reports.",
+        "ar": "بتنصح في الوقاية وتكتب تقارير."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Ministry of Health and public health units",
+        "ar": "وزارة الصحة ووحدات الصحة العامة"
+      },
+      {
+        "en": "Universities, research units and WHO or NGOs",
+        "ar": "الجامعات ووحدات البحث ومنظمة الصحة العالمية أو الجمعيات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "R, Stata, SPSS or Python",
+        "ar": "R وStata وSPSS أو بايثون"
+      },
+      {
+        "en": "Survey and GIS tools",
+        "ar": "أدوات الاستبيانات والخرائط"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Medicine, then public health or community medicine",
+        "ar": "كلية الطب ثم الصحة العامة أو طب المجتمع"
+      },
+      {
+        "en": "Faculties of Science (Statistics) or Pharmacy, then a master's in public health or biostatistics",
+        "ar": "كليات العلوم (إحصاء) أو الصيدلة ثم ماجستير صحة عامة أو إحصاء حيوي"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "High Institute of Public Health (Alexandria) postgraduate degrees",
+        "ar": "شهادات الدراسات العليا من المعهد العالي للصحة العامة (إسكندرية)"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Biostatistics",
+        "ar": "الإحصاء الحيوي"
+      },
+      {
+        "en": "Study design",
+        "ar": "تصميم الدراسات"
+      },
+      {
+        "en": "Data analysis software",
+        "ar": "برامج تحليل البيانات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Careful reasoning",
+        "ar": "التفكير الدقيق"
+      },
+      {
+        "en": "Clear communication of risk",
+        "ar": "توصيل المخاطر بوضوح"
+      },
+      {
+        "en": "Teamwork across health teams",
+        "ar": "العمل مع الفرق الصحية"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for research and international work",
+        "ar": "الإنجليزي للبحث والشغل الدولي"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Ministry of Health and Population",
+        "ar": "وزارة الصحة والسكان"
+      },
+      {
+        "en": "Universities, research units, WHO and NGOs",
+        "ar": "الجامعات ووحدات البحث ومنظمة الصحة العالمية والجمعيات"
+      },
+      {
+        "en": "Pharmaceutical companies and contract research organisations",
+        "ar": "شركات الأدوية وشركات الأبحاث الإكلينيكية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Analysis work can be hybrid; field investigations are in person.",
+      "ar": "التحليل ممكن يبقى هايبرد؛ والتحقيقات الميدانية حضوري."
+    },
+    "regions": [
+      {
+        "en": "Cairo and Alexandria mainly, with field work across governorates",
+        "ar": "القاهرة وإسكندرية أساسًا، مع شغل ميداني في المحافظات"
+      }
+    ],
+    "salaryNote": {
+      "en": "Paylab Egypt has no job title for epidemiologists, so we do not show a number. Most work for the Ministry of Health on government scales, while international organisations and research projects pay differently.",
+      "ar": "لا يضم Paylab مصر مسمى لأخصائيي الوبائيات، لذلك لا نعرض رقمًا. يعمل أغلبهم في وزارة الصحة على جداول الأجور الحكومية، بينما تدفع المنظمات الدولية والمشروعات البحثية بشكل مختلف."
+    }
+  },
+  "global": {
+    "en": "Public health degrees open roles with WHO, UNICEF and Gulf health ministries.",
+    "ar": "شهادات الصحة العامة بتفتح وظايف في الصحة العالمية واليونيسف ووزارات الصحة في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work that protects whole populations",
+        "ar": "شغل بيحمي مجتمعات كاملة"
+      },
+      {
+        "en": "Combines health and data",
+        "ar": "بيجمع الصحة والبيانات"
+      },
+      {
+        "en": "International career paths",
+        "ar": "طرق مهنية دولية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Usually needs postgraduate study",
+        "ar": "غالبًا محتاج دراسات عليا"
+      },
+      {
+        "en": "Outbreaks bring long, stressful weeks",
+        "ar": "الأوبئة بتجيب أسابيع طويلة ومتعبة"
+      },
+      {
+        "en": "Data can be incomplete",
+        "ar": "البيانات ممكن تبقى ناقصة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Epidemiology only matters during pandemics.",
+          "ar": "الوبائيات مهمة بس وقت الجوايح."
+        },
+        "fact": {
+          "en": "Most work is everyday: diabetes, nutrition, road injuries, vaccines and hospital infections.",
+          "ar": "أغلب الشغل يومي: السكر والتغذية وحوادث الطرق والتطعيمات وعدوى المستشفيات."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Regular hours most of the year; long days during outbreaks.",
+      "ar": "مواعيد منتظمة أغلب السنة؛ وأيام طويلة وقت الأوبئة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Research assistant or data officer",
+        "ar": "مساعد باحث أو مسؤول بيانات"
+      },
+      {
+        "en": "Epidemiologist or biostatistician",
+        "ar": "أخصائي وبائيات أو إحصاء حيوي"
+      },
+      {
+        "en": "Senior epidemiologist or programme lead",
+        "ar": "أخصائي أول أو قائد برنامج"
+      },
+      {
+        "en": "Director of surveillance or research",
+        "ar": "مدير ترصد أو أبحاث"
+      }
+    ],
+    "relatedCareerIds": [
+      "physician",
+      "data_analyst",
+      "medical_lab_scientist",
+      "biotechnologist"
+    ],
+    "pivots": [
+      {
+        "en": "Clinical research",
+        "ar": "الأبحاث الإكلينيكية"
+      },
+      {
+        "en": "Health data science",
+        "ar": "علم البيانات الصحية"
+      }
+    ]
+  },
+  "industryId": "science",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Epidemiologists (19-1041.00)",
+      "url": "https://www.onetonline.org/link/summary/19-1041.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Biostatisticians (15-2041.01)",
+      "url": "https://www.onetonline.org/link/summary/15-2041.01",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

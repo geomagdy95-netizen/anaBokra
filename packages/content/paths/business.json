@@ -1,6 +1,6 @@
 {
   "id": "business",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 13 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,12 +9,12 @@
       "title": { "en": "A day in business and finance", "ar": "يوم في البيزنس والمال" },
       "intro": { "en": "Moments from a typical day in business and finance. How does each one sound to you?", "ar": "لحظات من يوم عادي في البيزنس والمال. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "business_day_1", "title": { "en": "Matching the books", "ar": "مطابقة الحسابات" }, "text": { "en": "Checking that every invoice this month matches the bank statement, line by line.", "ar": "مراجعة إن كل فواتير الشهر مطابقة لكشف حساب البنك، سطر سطر." }, "careers": ["accountant", "auditor"] },
-        { "id": "business_day_2", "title": { "en": "What if prices rise?", "ar": "لو الأسعار زادت؟" }, "text": { "en": "Building a spreadsheet model: what happens to profit if prices rise 10%?", "ar": "شيت حسابات بيجاوب على سؤال: الربح هيحصله إيه لو الأسعار زادت 10%؟" }, "careers": ["financial_analyst", "actuary", "management_consultant"] },
-        { "id": "business_day_3", "title": { "en": "A family's savings", "ar": "تحويشة أسرة" }, "text": { "en": "Meeting a client to work out which savings plan suits their family.", "ar": "مقابلة مع عميل لاختيار خطة التوفير اللي تناسب عيلته." }, "careers": ["banker", "financial_analyst"] },
-        { "id": "business_day_4", "title": { "en": "5,000 orders by Friday", "ar": "5000 أوردر قبل الجمعة" }, "text": { "en": "Planning how 5,000 orders reach customers in three cities by Friday.", "ar": "تخطيط إزاي 5000 طلب يوصلوا للعملا في 3 محافظات قبل الجمعة." }, "careers": ["supply_chain_specialist"] },
-        { "id": "business_day_5", "title": { "en": "Picking the new hire", "ar": "اختيار موظف جديد" }, "text": { "en": "Interviewing three candidates and deciding who joins the team.", "ar": "مقابلات مع 3 متقدمين واختيار مين ينضم للفريق." }, "careers": ["hr_specialist"] },
-        { "id": "business_day_6", "title": { "en": "Ten minutes to pitch", "ar": "10 دقايق للعرض" }, "text": { "en": "Pitching a small business idea to investors in ten minutes.", "ar": "عرض فكرة مشروع صغير على مستثمرين في 10 دقايق." }, "careers": ["entrepreneur", "management_consultant"] }
+        { "id": "business_day_1", "title": { "en": "Matching the books", "ar": "مطابقة الحسابات" }, "text": { "en": "Checking that every invoice this month matches the bank statement, line by line.", "ar": "فواتير الشهر كلها قدامك، ولازم تطابقها على كشف حساب البنك سطر بسطر.", "arF": "فواتير الشهر كلها قدامك، ولازم تطابقيها على كشف حساب البنك سطر بسطر." }, "careers": ["accountant", "auditor"] },
+        { "id": "business_day_2", "title": { "en": "What if prices rise?", "ar": "لو الأسعار زادت؟" }, "text": { "en": "Building a spreadsheet model: what happens to profit if prices rise 10%?", "ar": "بتعمل شيت إكسل يجاوب على سؤال واحد: الربح هيحصله إيه لو الأسعار زادت 10%؟", "arF": "بتعملي شيت إكسل يجاوب على سؤال واحد: الربح هيحصله إيه لو الأسعار زادت 10%؟" }, "careers": ["financial_analyst", "actuary", "management_consultant"] },
+        { "id": "business_day_3", "title": { "en": "A family's savings", "ar": "تحويشة أسرة" }, "text": { "en": "Meeting a client to work out which savings plan suits their family.", "ar": "قاعد مع عميل علشان تختاروا سوا خطة التوفير اللي تناسب عيلته.", "arF": "قاعدة مع عميل علشان تختاروا سوا خطة التوفير اللي تناسب عيلته." }, "careers": ["banker", "financial_analyst"] },
+        { "id": "business_day_4", "title": { "en": "5,000 orders by Friday", "ar": "5000 أوردر قبل الجمعة" }, "text": { "en": "Planning how 5,000 orders reach customers in three cities by Friday.", "ar": "لازم تخطط إزاي 5000 أوردر يوصلوا للعملا في 3 محافظات قبل يوم الجمعة.", "arF": "لازم تخططي إزاي 5000 أوردر يوصلوا للعملا في 3 محافظات قبل يوم الجمعة." }, "careers": ["supply_chain_specialist"] },
+        { "id": "business_day_5", "title": { "en": "Picking the new hire", "ar": "اختيار موظف جديد" }, "text": { "en": "Interviewing three candidates and deciding who joins the team.", "ar": "بتقابل 3 متقدمين للشغل، وفي الآخر تقرر مين فيهم ينضم للفريق.", "arF": "بتقابلي 3 متقدمين للشغل، وفي الآخر تقرري مين فيهم ينضم للفريق." }, "careers": ["hr_specialist"] },
+        { "id": "business_day_6", "title": { "en": "Ten minutes to pitch", "ar": "10 دقايق للعرض" }, "text": { "en": "Pitching a small business idea to investors in ten minutes.", "ar": "قدامك 10 دقايق بس تعرض فيهم فكرة مشروع صغير على مستثمرين وتقنعهم.", "arF": "قدامك 10 دقايق بس تعرضي فيهم فكرة مشروع صغير على مستثمرين وتقنعيهم." }, "careers": ["entrepreneur", "management_consultant"] }
       ]
     },
     {
@@ -24,11 +24,11 @@
       "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
       "items": [
         { "id": "business_real_1", "title": { "en": "Numbers or words", "ar": "أرقام ولا كلام" }, "a": { "en": "Numbers and details every day", "ar": "أرقام وتفاصيل كل يوم" }, "b": { "en": "Words and ideas every day", "ar": "كلام وأفكار كل يوم" }, "path": "a" },
-        { "id": "business_real_2", "title": { "en": "How you are paid", "ar": "طريقة المرتب" }, "a": { "en": "Sales targets, with a bonus when you hit them", "ar": "تارجت مبيعات، وبونص لما يتحقق" }, "b": { "en": "A fixed salary with no targets", "ar": "مرتب ثابت من غير تارجت" }, "path": "a", "careers": ["banker", "entrepreneur"] },
-        { "id": "business_real_3", "title": { "en": "After graduation", "ar": "بعد التخرج" }, "a": { "en": "Years of professional exams after graduation (such as CMA, CFA or actuarial exams)", "ar": "سنين من الشهادات المهنية بعد التخرج (زي CMA أو CFA أو امتحانات الأكتواري)" }, "b": { "en": "Learning only on the job", "ar": "التعلم من الشغل بس" }, "path": "a", "careers": ["accountant", "auditor", "financial_analyst", "actuary"] },
-        { "id": "business_real_4", "title": { "en": "Risk or salary", "ar": "مخاطرة ولا مرتب" }, "a": { "en": "Risking your own savings on your own idea", "ar": "المخاطرة بفلوسك على فكرتك" }, "b": { "en": "A steady monthly salary", "ar": "مرتب ثابت كل شهر" }, "path": "a", "careers": ["entrepreneur"] },
-        { "id": "business_real_5", "title": { "en": "Where the work happens", "ar": "الشغل فين" }, "a": { "en": "An office, smart clothes and meetings", "ar": "مكتب ولبس رسمي واجتماعات" }, "b": { "en": "A workshop, a field or a studio", "ar": "ورشة أو موقع أو استوديو" }, "path": "a" },
-        { "id": "business_real_6", "title": { "en": "The yearly rhythm", "ar": "إيقاع السنة" }, "a": { "en": "Very busy weeks at month-end and year-end", "ar": "أسابيع ضغط جامد في آخر الشهر وآخر السنة" }, "b": { "en": "The same pace all year round", "ar": "نفس الإيقاع طول السنة" }, "path": "a", "careers": ["accountant", "auditor", "financial_analyst"] }
+        { "id": "business_real_2", "title": { "en": "How you are paid", "ar": "طريقة القبض" }, "a": { "en": "Sales targets, with a bonus when you hit them", "ar": "تارجت مبيعات، وبونص لما يتحقق" }, "b": { "en": "A fixed salary with no targets", "ar": "مرتب ثابت من غير تارجت" }, "path": "a", "careers": ["banker", "entrepreneur"] },
+        { "id": "business_real_3", "title": { "en": "After graduation", "ar": "بعد التخرج" }, "a": { "en": "Years of professional exams after graduation (such as CMA, CFA or actuarial exams)", "ar": "سنين من الشهادات المهنية بعد التخرج (زي CMA أو CFA أو امتحانات الأكتواري)" }, "b": { "en": "Learning only on the job", "ar": "تتعلم من الشغل نفسه وبس", "arF": "تتعلمي من الشغل نفسه وبس" }, "path": "a", "careers": ["accountant", "auditor", "financial_analyst", "actuary"] },
+        { "id": "business_real_4", "title": { "en": "Risk or salary", "ar": "مخاطرة ولا مرتب" }, "a": { "en": "Risking your own savings on your own idea", "ar": "تخاطر بتحويشتك على فكرتك", "arF": "تخاطري بتحويشتك على فكرتك" }, "b": { "en": "A steady monthly salary", "ar": "مرتب ثابت كل شهر" }, "path": "a", "careers": ["entrepreneur"] },
+        { "id": "business_real_5", "title": { "en": "Where the work happens", "ar": "مكان الشغل" }, "a": { "en": "An office, smart clothes and meetings", "ar": "مكتب ولبس رسمي واجتماعات" }, "b": { "en": "A workshop, a field or a studio", "ar": "ورشة أو موقع أو استوديو" }, "path": "a" },
+        { "id": "business_real_6", "title": { "en": "The yearly rhythm", "ar": "الضغط على مدار السنة" }, "a": { "en": "Very busy weeks at month-end and year-end", "ar": "أسابيع ضغط جامد في آخر الشهر وآخر السنة" }, "b": { "en": "The same pace all year round", "ar": "نفس الإيقاع طول السنة" }, "path": "a", "careers": ["accountant", "auditor", "financial_analyst"] }
       ]
     },
     {
@@ -73,7 +73,7 @@
           "id": "business_try_4",
           "title": { "en": "Up 10%, down 10%", "ar": "زيادة 10% ونقص 10%" },
           "type": "puzzle",
-          "text": { "en": "A price goes up 10%, then down 10%. Compared with where it started, it is now…", "ar": "سعر زاد 10%، وبعدين نزل 10%. مقارنة باللي بدأ بيه، بقى…" },
+          "text": { "en": "A price goes up 10%, then down 10%. Compared with where it started, it is now…", "ar": "سعر زاد 10%، وبعدين نزل 10%. مقارنةً بسعره الأصلي، السعر دلوقتي…" },
           "options": [{ "en": "The same", "ar": "زي ما هو" }, { "en": "1% lower", "ar": "أقل بـ1%" }, { "en": "1% higher", "ar": "أعلى بـ1%" }, { "en": "10% lower", "ar": "أقل بـ10%" }],
           "answer": 1,
           "explain": { "en": "100 → 110 → 99. The 10% drop is taken from a bigger number. Analysts spot traps like this all the time.", "ar": "100 ← 110 ← 99. الـ10% اللي نزلت اتحسبت من رقم أكبر. المحللين بيلاحظوا فخاخ زي دي طول الوقت." }

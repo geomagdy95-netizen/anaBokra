@@ -1,0 +1,285 @@
+{
+  "id": "actor",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You become someone else, and make an audience believe it.",
+      "ar": "بتبقى حد تاني، وبتخلّي الجمهور يصدق."
+    },
+    "summary": {
+      "en": "Actors perform roles in TV drama, film, theatre, ads and dubbing. Egypt has a large drama and film industry, especially for Ramadan series, but work is irregular and competitive. The Higher Institute of Dramatic Arts trains many actors, and others start in university theatre, workshops and small roles.",
+      "ar": "الممثل بيأدي أدوار في المسلسلات والسينما والمسرح والإعلانات والدوبلاج. مصر فيها صناعة دراما وسينما كبيرة، خصوصًا مسلسلات رمضان، بس الشغل مش منتظم وتنافسي. المعهد العالي للفنون المسرحية بيدرّب ممثلين كتير، وغيرهم بيبدأوا من مسرح الجامعة والورش والأدوار الصغيرة."
+    },
+    "dayInLife": {
+      "en": "Call time is 7 a.m. on set for a Ramadan series. You go through makeup and costume, rehearse your scene with the director and repeat it eight times from different angles. Between takes you learn tomorrow's lines. In the evening you attend an audition for an ad, then read a new script your agent sent.",
+      "ar": "ميعاد التصوير الساعة 7 الصبح لمسلسل رمضان. بتعدّي على المكياج واللبس، بتعمل بروفة المشهد مع المخرج وبتعيده 8 مرات من زوايا مختلفة. بين اللقطات بتحفظ كلام بكرة. بالليل بتروح كاستينج لإعلان، وبعدين بتقرا سكريبت جديد بعته لك وكيلك."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Study scripts and build characters.",
+        "ar": "بتدرس السكريبتات وتبني الشخصيات."
+      },
+      {
+        "en": "Rehearse and perform on set or stage.",
+        "ar": "بتعمل بروفات وتمثل في التصوير أو على المسرح."
+      },
+      {
+        "en": "Attend auditions.",
+        "ar": "بتروح اختبارات الأداء."
+      },
+      {
+        "en": "Work with directors and other actors.",
+        "ar": "بتشتغل مع المخرجين والممثلين."
+      },
+      {
+        "en": "Keep voice and body in shape.",
+        "ar": "بتحافظ على صوتك وجسمك."
+      }
+    ],
+    "environments": [
+      {
+        "en": "TV and film sets",
+        "ar": "أماكن تصوير التلفزيون والسينما"
+      },
+      {
+        "en": "Theatres and dubbing studios",
+        "ar": "المسارح واستوديوهات الدوبلاج"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Scripts",
+        "ar": "السكريبتات"
+      },
+      {
+        "en": "Voice and movement training",
+        "ar": "تدريب الصوت والحركة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Higher Institute of Dramatic Arts (Academy of Arts)",
+        "ar": "المعهد العالي للفنون المسرحية (أكاديمية الفنون)"
+      },
+      {
+        "en": "Faculties of Arts (theatre departments)",
+        "ar": "كليات الآداب (أقسام المسرح)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "University theatre, acting workshops and independent troupes",
+        "ar": "مسرح الجامعة وورش التمثيل والفرق المستقلة"
+      }
+    ],
+    "licensing": {
+      "en": "Professional work usually needs membership or a permit from the Actors' Syndicate.",
+      "ar": "الشغل الاحترافي غالبًا محتاج عضوية أو تصريح من نقابة المهن التمثيلية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Acting technique",
+        "ar": "تقنيات التمثيل"
+      },
+      {
+        "en": "Voice and diction",
+        "ar": "الصوت والإلقاء"
+      },
+      {
+        "en": "Movement",
+        "ar": "الحركة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Resilience with rejection",
+        "ar": "التحمل مع الرفض"
+      },
+      {
+        "en": "Empathy",
+        "ar": "التعاطف"
+      },
+      {
+        "en": "Discipline",
+        "ar": "الانضباط"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic dialects; English for international work",
+        "ar": "اللهجات العربية، والإنجليزي للشغل الدولي"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 6895,
+        "max": 18344
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/arts-culture?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Actor\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Actor»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "TV and film production companies",
+        "ar": "شركات إنتاج التلفزيون والسينما"
+      },
+      {
+        "en": "Theatres and dubbing studios",
+        "ar": "المسارح واستوديوهات الدوبلاج"
+      },
+      {
+        "en": "Advertising agencies",
+        "ar": "وكالات الإعلان"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; voice work can be recorded remotely.",
+      "ar": "لأ؛ والشغل الصوتي ممكن يتسجل عن بعد."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo",
+        "ar": "أساسًا القاهرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egyptian actors work across the Arab world in drama, film and dubbing.",
+    "ar": "الممثلين المصريين بيشتغلوا في العالم العربي في الدراما والسينما والدوبلاج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative, expressive work",
+        "ar": "شغل مبدع وتعبيري"
+      },
+      {
+        "en": "A big local industry",
+        "ar": "صناعة محلية كبيرة"
+      },
+      {
+        "en": "Fame for a few",
+        "ar": "شهرة لقليلين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Irregular income",
+        "ar": "دخل غير منتظم"
+      },
+      {
+        "en": "Many auditions, few roles",
+        "ar": "كاستينجات كتير وأدوار قليلة"
+      },
+      {
+        "en": "Long shooting days before Ramadan",
+        "ar": "أيام تصوير طويلة قبل رمضان"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Actors only need good looks and connections.",
+          "ar": "الممثل محتاج شكل حلو وواسطة بس."
+        },
+        "fact": {
+          "en": "Training, persistence and craft matter; casting directors look for skill.",
+          "ar": "التدريب والإصرار والحرفة بيفرقوا؛ ومديرين الكاستينج بيدوروا على المهارة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Very long days during shoots, then quiet periods.",
+      "ar": "أيام طويلة جدًا وقت التصوير، وبعدين فترات هادية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Extra or small roles",
+        "ar": "كومبارس أو أدوار صغيرة"
+      },
+      {
+        "en": "Supporting actor",
+        "ar": "ممثل دور مساعد"
+      },
+      {
+        "en": "Lead actor",
+        "ar": "بطل"
+      },
+      {
+        "en": "Director, producer or acting coach",
+        "ar": "مخرج أو منتج أو مدرب تمثيل"
+      }
+    ],
+    "relatedCareerIds": [
+      "tv_presenter",
+      "film_producer",
+      "musician",
+      "dancer"
+    ],
+    "pivots": [
+      {
+        "en": "Voice-over and dubbing",
+        "ar": "التعليق الصوتي والدوبلاج"
+      },
+      {
+        "en": "Drama teaching and workshops",
+        "ar": "تدريس الدراما والورش"
+      }
+    ]
+  },
+  "industryId": "performing",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Actors (27-2011.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Producers and Directors (27-2012.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2012.00",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "entry": {
+    "level": "competitive",
+    "hurdles": [
+      {
+        "kind": "membership",
+        "level": 3,
+        "text": {
+          "en": "To work professionally you need the Actors' Syndicate: a higher qualification, passing its tests and interviews, and paying the fees.",
+          "ar": "عشان تشتغل بشكل احترافي محتاج نقابة المهن التمثيلية: مؤهل عالي، والنجاح في اختباراتها ومقابلاتها، ودفع الرسوم."
+        },
+        "tip": {
+          "en": "Theatre groups at university and the Higher Institute of Dramatic Arts are the usual way in.",
+          "ar": "فرق المسرح في الجامعة والمعهد العالي للفنون المسرحية هم الطريق المعتاد."
+        },
+        "source": "https://filgamaa.com/%d8%b4%d8%b1%d9%88%d8%b7-%d9%82%d9%8a%d8%af-%d8%ae%d8%b1%d9%8a%d8%ac%d9%8a%d9%86-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%87%d8%af-%d8%a8%d9%86%d9%82-3/"
+      }
+    ]
+  }
+}

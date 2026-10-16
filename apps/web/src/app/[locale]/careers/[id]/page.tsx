@@ -63,7 +63,7 @@ export default async function CareerPageRoute({ params }: PageProps<'/[locale]/c
 
   if (DATA_MODE === 'local')
     return (
-      <AppShell tab="explore" back="/journey/map" backToPrevious testId="career-screen">
+      <AppShell tab="explore" back="/journey" backToPrevious testId="career-screen">
         <CareerView career={career} cluster={cluster} page={page} industry={industry} path={`/careers/${id}`} framed />
       </AppShell>
     );

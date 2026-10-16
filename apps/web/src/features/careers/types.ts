@@ -72,7 +72,22 @@ export interface CareerPage {
     workLifeBalance?: Bilingual;
   };
   progression?: { ladder?: Bilingual[]; relatedCareerIds?: string[]; pivots?: Bilingual[] };
+  /** Researched hurdles on the way in (grades, exams, interviews, checks, cost...); see entry.ts. */
+  entry?: { level: EntryLevel; hurdles: AuthoredHurdle[] };
   sources?: SourceRef[];
+}
+
+export type EntryLevel = 'open' | 'moderate' | 'competitive' | 'very_competitive';
+export type HurdleKind = 'grades' | 'exam' | 'interview' | 'vetting' | 'age' | 'physical' | 'license' | 'membership' | 'cost' | 'time' | 'experience' | 'gender' | 'location';
+
+/** One hurdle as written in a career page, with a tip on how people get past it and its source. */
+export interface AuthoredHurdle {
+  kind: HurdleKind;
+  /** 1 manageable, 2 hard, 3 very hard. */
+  level: 1 | 2 | 3;
+  text: Bilingual;
+  tip?: Bilingual;
+  source: string;
 }
 
 /** Per-user match data for one career, computed on the server from the latest stored result. */

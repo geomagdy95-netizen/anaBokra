@@ -11,8 +11,8 @@ import { useNumberFormat } from '@/features/assessment/primitives';
 import { useText } from '@/features/assessment/ui-context';
 import { cn } from '@/lib/utils';
 
-import { ChoiceQuestion, EnjoyQuestion, FacesQuestion, PuzzleQuestion, ScenarioQuestion, SliderQuestion, StoryQuestion, SwipeQuestion } from './questions';
-import type { Step } from './steps';
+import { ChoiceQuestion, EnjoyQuestion, FacesQuestion, GridQuestion, PuzzleQuestion, ScenarioQuestion, SliderQuestion, StackQuestion, StoryQuestion, SwipeQuestion } from './questions';
+import { stepAnswered, stepIds, type ItemStep, type Step } from './steps';
 import { useJT } from './use-jt';
 
 export interface TaskRunnerProps {
@@ -23,7 +23,10 @@ export interface TaskRunnerProps {
   art?: ArtChain;
   /** Answers given before (the task resumes at the first unanswered step). */
   initial: Record<string, number>;
-  /** Saves one answer. Return false if it couldn't be saved; the step stays on screen. */
+  /**
+   * Saves one answer. Return false if it couldn't be saved; the step stays on screen. For a screen of
+   * several questions (grid, stack) it is called once per question, with that question's step.
+   */
   onAnswer: (step: Step, value: number, ms: number) => Promise<boolean>;
   onDone: () => void;
   onClose: () => void;
@@ -43,10 +46,10 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
   const nf = useNumberFormat();
   const [answers, setAnswers] = useState<Record<string, number>>(initial);
   const [index, setIndex] = useState(() => {
-    const i = steps.findIndex((s) => initial[s.id] === undefined);
+    const i = steps.findIndex((s) => !stepAnswered(s, initial));
     return i === -1 ? 0 : i;
   });
-  const [started, setStarted] = useState(() => !intro || steps.some((s) => initial[s.id] !== undefined));
+  const [started, setStarted] = useState(() => !intro || steps.some((s) => stepIds(s).some((id) => initial[id] !== undefined)));
   const [busy, setBusy] = useState(false);
   const [failed, setFailed] = useState(false);
   const shownAt = useRef(0);
@@ -56,6 +59,8 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
 
   const step = steps[index]!;
   const value = answers[step.id];
+  const complete = stepAnswered(step, answers);
+  const grouped = step.kind === 'grid' || step.kind === 'stack';
   const last = index === steps.length - 1;
 
   const advance = () => (last ? onDone() : setIndex(index + 1));
@@ -77,19 +82,47 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
     if (step.kind !== 'puzzle') advance();
   };
 
+  /** A screen of several questions: one of them answered (stack), or all of them at once (grid). */
+  const answerParts = async (values: [ItemStep, number][], { thenAdvance }: { thenAdvance: boolean }) => {
+    if (busy) return;
+    setBusy(true);
+    setFailed(false);
+    const ms = Math.max(0, Date.now() - shownAt.current);
+    const saved: Record<string, number> = {};
+    for (const [part, v] of values) {
+      if (!(await onAnswer(part, v, Math.round(ms / values.length)))) {
+        setAnswers((a) => ({ ...a, ...saved }));
+        setBusy(false);
+        setFailed(true);
+        return;
+      }
+      saved[part.id] = v;
+    }
+    setAnswers((a) => ({ ...a, ...saved }));
+    if (thenAdvance) await new Promise((r) => setTimeout(r, 320));
+    else shownAt.current = Date.now();
+    setBusy(false);
+    if (thenAdvance) advance();
+  };
+
   const common = { value, onAnswer: (v: number) => void answer(v), disabled: busy };
   const heading = started && step.title ? tx(step.title) : title;
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-md flex-col bg-background" data-testid="task-runner">
-      <div className={cn('relative shrink-0 transition-[height] duration-300', started ? 'h-[40dvh] max-h-[26rem] min-h-52' : 'h-[56dvh] max-h-[34rem] min-h-64')}>
+      <div
+        className={cn(
+          'relative shrink-0 transition-[height] duration-300',
+          !started ? 'h-[56dvh] max-h-[34rem] min-h-64' : grouped ? 'h-[22dvh] max-h-48 min-h-32' : 'h-[40dvh] max-h-[26rem] min-h-52',
+        )}
+      >
         <TaskArt chain={started ? (step.art ?? art) : art} className="absolute inset-0" />
         <div aria-hidden="true" className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-black/20 to-transparent" />
         <div className="absolute inset-x-0 top-0 flex items-center gap-3 px-4 pt-[max(env(safe-area-inset-top),0.75rem)]">
           <span className="shrink-0 rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-brand-ink tabular-nums shadow-sm backdrop-blur" data-testid="task-counter">
             {started ? jt('stepOf', { current: nf.format(index + 1), total: nf.format(steps.length) }) : jt('stepsTotal', { total: steps.length })}
           </span>
-          <StepDots count={steps.length} current={started ? index : -1} answered={steps.map((s) => answers[s.id] !== undefined)} />
+          <StepDots count={steps.length} current={started ? index : -1} answered={steps.map((s) => stepAnswered(s, answers))} />
           <Button variant="ghost" size="icon" onClick={onClose} aria-label={jt('back')} className="shrink-0 rounded-full bg-white/90 text-brand-ink shadow-sm backdrop-blur hover:bg-white">
             <X className="size-5" />
           </Button>
@@ -115,7 +148,7 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
         ) : (
           <>
             <div key={step.id} className="motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-2 motion-safe:duration-200">
-              {step.kind === 'swipe' && <SwipeQuestion {...common} text={step.text} scale={step.scale} />}
+              {step.kind === 'swipe' && <SwipeQuestion {...common} text={step.text} hint={step.hint} scale={step.scale} />}
               {step.kind === 'faces' && <FacesQuestion {...common} text={step.text} scale={step.scale} />}
               {step.kind === 'slider' && <SliderQuestion {...common} text={step.text} scale={step.scale} />}
               {step.kind === 'story' && <StoryQuestion {...common} text={step.text} titled={Boolean(step.title)} />}
@@ -125,6 +158,16 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
               {step.kind === 'enjoy' && <EnjoyQuestion {...common} />}
               {step.kind === 'agree' && <FacesQuestion {...common} text={step.text} scale={step.scale} prompt={jt('readiness.prompt')} />}
               {step.kind === 'game' && gameHost && <DiscoverGame game={step.game} played={value !== undefined} host={gameHost} onContinue={() => void answer(1)} />}
+              {step.kind === 'grid' && (
+                <GridQuestion
+                  parts={step.parts}
+                  checkId={step.checkId}
+                  answers={answers}
+                  disabled={busy}
+                  onSubmit={(values) => void answerParts(step.parts.map((p) => [p, values[p.id]!]), { thenAdvance: true })}
+                />
+              )}
+              {step.kind === 'stack' && <StackQuestion parts={step.parts} answers={answers} disabled={busy} onAnswer={(part, v) => void answerParts([[part, v]], { thenAdvance: false })} />}
             </div>
 
             {failed && (
@@ -137,7 +180,7 @@ export function TaskRunner({ title, intro, steps, art, initial, onAnswer, onDone
               <Button variant="outline" size="icon" disabled={index === 0 || busy} onClick={() => setIndex(index - 1)} className="size-14 rounded-2xl" aria-label={jt('previous')}>
                 <ArrowLeft className="size-5 rtl:rotate-180" />
               </Button>
-              {value !== undefined && (
+              {complete && step.kind !== 'grid' && (
                 <Button size="lg" onClick={advance} disabled={busy} className="h-14 flex-1 rounded-2xl text-base" data-testid="task-next">
                   {jt('next')}
                 </Button>

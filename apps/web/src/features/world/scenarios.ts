@@ -1,4 +1,6 @@
-import { GROUP_ORDER, type GroupId, type IslandState, type Scenario } from './types';
+import { careers } from '@anabokra/content';
+
+import { GROUP_ORDER, SCENARIOS, type CareerIslet, type GroupId, type IslandState, type Scenario } from './types';
 
 const PHASES = 4;
 
@@ -24,6 +26,12 @@ export function scenarioStates(scenario: Scenario): Record<GroupId, IslandState>
     return grown();
   }
 
+  // Design review: every island on the map, in order of appearance, with a mix of states.
+  if (scenario === 'all') {
+    GROUP_ORDER.forEach((id, i) => show(id, i, { relation: i < 3 ? 'suggested' : i % 3 ? 'added' : 'other', bridge: i % 3 || i < 3 ? 'connected' : 'broken', done: i % PHASES }));
+    return grown();
+  }
+
   for (const id of GROUP_ORDER) out[id] = { ...out[id], relation: 'other', bridge: 'broken' };
   show('tech', 0, { relation: 'suggested', bridge: 'connected', done: 2 });
   show('creative', 1, { relation: 'suggested', bridge: 'connected', done: 1 });
@@ -36,8 +44,18 @@ export function scenarioStates(scenario: Scenario): Record<GroupId, IslandState>
   return grown();
 }
 
+/** Demo L2 career islets: once tech is checked, its first careers as one of each state. */
+export function scenarioIslets(scenario: Scenario): Partial<Record<GroupId, CareerIslet[]>> {
+  if (scenario !== 'added') return {};
+  const states: CareerIslet['state'][] = ['selected', 'reached', 'available'];
+  return { tech: careers.filter((c) => c.cluster === 'tech').slice(0, 3).map((c, i) => ({ id: c.id, state: states[i]! })) };
+}
+
+/** The scenario named in the page URL (?scenario=), for screenshots; `after` otherwise. */
+export const scenarioFromUrl = (value: string | null): Scenario => (SCENARIOS as readonly string[]).includes(value ?? '') ? (value as Scenario) : 'after';
+
 /** How far the core island has grown in each demo scenario. */
-export const scenarioCoreGrowth = (scenario: Scenario) => ({ before: 0, during: 0.4, after: 1, added: 1 })[scenario];
+export const scenarioCoreGrowth = (scenario: Scenario) => ({ before: 0, during: 0.4, after: 1, added: 1, all: 1 })[scenario];
 
 /** The user reopens a group outside their suggestions. */
 export function addToMap(state: IslandState): IslandState {

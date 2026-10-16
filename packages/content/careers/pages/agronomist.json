@@ -1,0 +1,274 @@
+{
+  "id": "agronomist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You grow more food from less water and land.",
+      "ar": "بتطلّع أكل أكتر من مية وأرض أقل."
+    },
+    "summary": {
+      "en": "Agronomists and farm managers plan what to grow, care for soil and crops, choose seeds, fertiliser and irrigation, fight pests and manage farm teams. It is the main job of Egyptian agriculture graduates, from Delta farms to new desert land in Toshka and the New Delta, and export farms need people who meet international quality rules.",
+      "ar": "المهندس الزراعي ومدير المزرعة بيخطط يزرع إيه، بيهتم بالتربة والمحاصيل، بيختار التقاوي والسماد والري، بيكافح الآفات وبيدير فريق المزرعة. ودي الوظيفة الأساسية لخريجين الزراعة في مصر، من مزارع الدلتا لأراضي الصحرا الجديدة في توشكى والدلتا الجديدة، ومزارع التصدير محتاجة ناس تطبق قواعد الجودة الدولية."
+    },
+    "dayInLife": {
+      "en": "You reach the farm at 6 a.m. while it is cool. You walk the tomato greenhouses with the supervisor, spot yellow leaves in one row and take a sample to check for a fungus. You adjust the drip irrigation schedule for the heat this week and order fertiliser. After breakfast you train workers on safe pesticide use. In the afternoon you record yields for the export shipment and plan next season's planting.",
+      "ar": "بتوصل المزرعة الساعة 6 الصبح والجو لسه طري. بتلف في صوب الطماطم مع المشرف، بتلاحظ ورق أصفر في صف وبتاخد عينة تشوف فيه فطر ولا لأ. بتظبط جدول الري بالتنقيط علشان حر الأسبوع ده وبتطلب سماد. بعد الفطار بتدرّب العمال على استخدام المبيدات بأمان. بعد الضهر بتسجل الإنتاج لشحنة التصدير وبتخطط زراعة الموسم الجاي."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan crops, seeds and planting schedules.",
+        "ar": "بتخطط المحاصيل والتقاوي ومواعيد الزراعة."
+      },
+      {
+        "en": "Manage soil, fertiliser and irrigation.",
+        "ar": "بتدير التربة والسماد والري."
+      },
+      {
+        "en": "Monitor and control pests and diseases.",
+        "ar": "بتراقب وتكافح الآفات والأمراض."
+      },
+      {
+        "en": "Lead farm workers and keep records.",
+        "ar": "بتقود عمال المزرعة وتسجل."
+      },
+      {
+        "en": "Meet quality and export standards.",
+        "ar": "بتطبق معايير الجودة والتصدير."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Farms and greenhouses",
+        "ar": "المزارع والصوب"
+      },
+      {
+        "en": "Agricultural companies and cooperatives",
+        "ar": "الشركات الزراعية والجمعيات التعاونية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Drip and pivot irrigation systems",
+        "ar": "أنظمة الري بالتنقيط والرش المحوري"
+      },
+      {
+        "en": "Soil and plant testing kits",
+        "ar": "أدوات تحليل التربة والنبات"
+      },
+      {
+        "en": "Farm management apps",
+        "ar": "أبلكيشنز إدارة المزارع"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Agriculture (crop science, horticulture, soil, plant protection)",
+        "ar": "كلية الزراعة (محاصيل، بساتين، أراضي، وقاية نبات)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Agricultural technical schools, then field experience",
+        "ar": "المدارس الثانوية الزراعية وبعدين خبرة ميدانية"
+      }
+    ],
+    "licensing": {
+      "en": "Agricultural Syndicate membership for engineering titles.",
+      "ar": "عضوية نقابة المهن الزراعية للقب المهندس."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Crop and soil science",
+        "ar": "علوم المحاصيل والتربة"
+      },
+      {
+        "en": "Irrigation management",
+        "ar": "إدارة الري"
+      },
+      {
+        "en": "Integrated pest management",
+        "ar": "المكافحة المتكاملة للآفات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leading workers in the field",
+        "ar": "قيادة العمال في الأرض"
+      },
+      {
+        "en": "Practical problem solving",
+        "ar": "حل المشاكل العملي"
+      },
+      {
+        "en": "Patience with seasons",
+        "ar": "الصبر على المواسم"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English helps with export standards and new technology",
+        "ar": "الإنجليزي بيساعد في معايير التصدير والتكنولوجيا الجديدة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "GlobalG.A.P. training for export farms",
+        "ar": "تدريب GlobalG.A.P. لمزارع التصدير"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9959,
+        "max": 23263
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/agriculture-food-industry?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Agricultural Engineer, Agronomist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Agricultural Engineer, Agronomist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Export and large commercial farms",
+        "ar": "مزارع التصدير والمزارع التجارية الكبيرة"
+      },
+      {
+        "en": "Seed, fertiliser and agrochemical companies",
+        "ar": "شركات التقاوي والأسمدة والمبيدات"
+      },
+      {
+        "en": "Ministry of Agriculture and national land projects",
+        "ar": "وزارة الزراعة ومشروعات الأراضي القومية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; the work is on the farm.",
+      "ar": "لأ؛ الشغل في المزرعة."
+    },
+    "regions": [
+      {
+        "en": "The Delta, Upper Egypt and new desert lands (Toshka, New Delta, East Oweinat)",
+        "ar": "الدلتا والصعيد وأراضي الصحرا الجديدة (توشكى والدلتا الجديدة وشرق العوينات)"
+      }
+    ]
+  },
+  "global": {
+    "en": "Agricultural engineers work in the Gulf and Africa, especially in greenhouse and desert farming.",
+    "ar": "المهندسين الزراعيين بيشتغلوا في الخليج وإفريقيا، خصوصًا في الصوب والزراعة الصحراوية."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work outdoors with real results each season",
+        "ar": "شغل برّه بنتايج حقيقية كل موسم"
+      },
+      {
+        "en": "Food security matters more each year",
+        "ar": "الأمن الغذائي بيهم أكتر كل سنة"
+      },
+      {
+        "en": "Path to owning or managing farms",
+        "ar": "طريق لامتلاك أو إدارة مزارع"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Farms are often far from cities",
+        "ar": "المزارع غالبًا بعيدة عن المدن"
+      },
+      {
+        "en": "Heat, early starts and weather risks",
+        "ar": "حر وصحيان بدري ومخاطر الجو"
+      },
+      {
+        "en": "Modest pay at the start",
+        "ar": "مرتب متواضع في الأول"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Agriculture is for people who couldn't get into a better faculty.",
+          "ar": "الزراعة للي مدخلش كلية أحسن."
+        },
+        "fact": {
+          "en": "Modern farming uses data, irrigation technology and export standards, and skilled agronomists are needed.",
+          "ar": "الزراعة الحديثة بتستخدم البيانات وتكنولوجيا الري ومعايير التصدير، والمهندس الزراعي الشاطر مطلوب."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Early starts and long days at planting and harvest; quieter in between.",
+      "ar": "صحيان بدري وأيام طويلة وقت الزراعة والحصاد؛ وأهدى بينهم."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Field or greenhouse engineer",
+        "ar": "مهندس حقل أو صوب"
+      },
+      {
+        "en": "Farm supervisor",
+        "ar": "مشرف مزرعة"
+      },
+      {
+        "en": "Farm manager",
+        "ar": "مدير مزرعة"
+      },
+      {
+        "en": "Agricultural operations director or farm owner",
+        "ar": "مدير عمليات زراعية أو صاحب مزرعة"
+      }
+    ],
+    "relatedCareerIds": [
+      "agricultural_engineer",
+      "food_scientist",
+      "agribusiness_manager",
+      "food_safety_specialist"
+    ],
+    "pivots": [
+      {
+        "en": "Agricultural sales and seed companies",
+        "ar": "المبيعات الزراعية وشركات التقاوي"
+      },
+      {
+        "en": "Agri-tech and precision farming",
+        "ar": "التكنولوجيا الزراعية والزراعة الدقيقة"
+      }
+    ]
+  },
+  "industryId": "agriculture",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Soil and Plant Scientists (19-1013.00)",
+      "url": "https://www.onetonline.org/link/summary/19-1013.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - First-Line Supervisors of Farming, Fishing, and Forestry Workers (45-1011.00)",
+      "url": "https://www.onetonline.org/link/summary/45-1011.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

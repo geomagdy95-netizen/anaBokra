@@ -1,6 +1,6 @@
 {
   "id": "trades",
-  "version": "0.1.0-draft",
+  "version": "0.1.1-draft",
   "status": "draft: written 14 Oct 2026 from careers/pages; for psychologist review",
   "tasks": [
     {
@@ -9,13 +9,13 @@
       "title": { "en": "A day in skilled trades and technical work", "ar": "يوم في المهن الفنية والتقنية" },
       "intro": { "en": "Moments from a typical day in skilled trades and technical work. How does each one sound to you?", "ar": "لحظات من يوم عادي في المهن الفنية والتقنية. كل لحظة شكلها إيه بالنسبالك؟" },
       "items": [
-        { "id": "trades_day_1", "title": { "en": "The burnt cable", "ar": "السلك المحروق" }, "text": { "en": "Tracing a fault in a flat's wiring until you find the burnt cable.", "ar": "تتبّع عطل في كهربا شقة لحد ما تلاقي السلك المحروق." }, "careers": ["electrician"] },
-        { "id": "trades_day_2", "title": { "en": "Reading the codes", "ar": "قراية الأكواد" }, "text": { "en": "Plugging a laptop into a car to read its fault codes.", "ar": "توصيل لابتوب بالعربية لقراية أكواد الأعطال." }, "careers": ["automotive_ev_technician"] },
-        { "id": "trades_day_3", "title": { "en": "Panels in the sun", "ar": "ألواح في الشمس" }, "text": { "en": "Installing solar panels on a farm roof in the morning sun.", "ar": "تركيب ألواح شمسية على سطح مزرعة في شمس الصبح." }, "careers": ["solar_technician"] },
-        { "id": "trades_day_4", "title": { "en": "Setting up the line", "ar": "ضبط الخط" }, "text": { "en": "Setting up a machine on a production line and checking each part that comes out.", "ar": "ضبط ماكينة على خط إنتاج وفحص كل قطعة طالعة." }, "careers": ["industrial_technician", "cnc_operator"] },
-        { "id": "trades_day_5", "title": { "en": "To a hundredth", "ar": "بدقة 0.01" }, "text": { "en": "Reading a technical drawing to cut a metal part to within 0.01 mm.", "ar": "قراية رسم هندسي لتشغيل قطعة معدن بدقة 0.01 مم." }, "careers": ["cnc_operator", "industrial_technician"] },
-        { "id": "trades_day_6", "title": { "en": "Explaining the fix", "ar": "شرح التصليح" }, "text": { "en": "Explaining to a customer what was wrong and what you fixed.", "ar": "شرح للعميل كان فيه إيه وإنت صلّحت إيه.", "arF": "شرح للعميل كان فيه إيه وإنتي صلّحتي إيه." }, "careers": ["electrician", "automotive_ev_technician", "solar_technician"] },
-        { "id": "trades_day_7", "title": { "en": "Hands and tools", "ar": "الإيد والعدة" }, "text": { "en": "A full day on your feet, working with your hands and tools.", "ar": "يوم كامل على رجلك، إيدك والعدة شغالين." } },
+        { "id": "trades_day_1", "title": { "en": "The burnt cable", "ar": "السلك المحروق" }, "text": { "en": "Tracing a fault in a flat's wiring until you find the burnt cable.", "ar": "بتدور على عطل في كهربا شقة، لحد ما تلاقي السلك المحروق.", "arF": "بتدوري على عطل في كهربا شقة، لحد ما تلاقي السلك المحروق." }, "careers": ["electrician"] },
+        { "id": "trades_day_2", "title": { "en": "Reading the codes", "ar": "أكواد الأعطال" }, "text": { "en": "Plugging a laptop into a car to read its fault codes.", "ar": "بتوصّل لابتوب بالعربية علشان تقرا أكواد الأعطال.", "arF": "بتوصّلي لابتوب بالعربية علشان تقري أكواد الأعطال." }, "careers": ["automotive_ev_technician"] },
+        { "id": "trades_day_3", "title": { "en": "Panels in the sun", "ar": "ألواح في الشمس" }, "text": { "en": "Installing solar panels on a farm roof in the morning sun.", "ar": "بتركّب ألواح طاقة شمسية على سطح في مزرعة، وشمس الصبح فوقك.", "arF": "بتركّبي ألواح طاقة شمسية على سطح في مزرعة، وشمس الصبح فوقك." }, "careers": ["solar_technician"] },
+        { "id": "trades_day_4", "title": { "en": "Setting up the line", "ar": "تظبيط الماكينة" }, "text": { "en": "Setting up a machine on a production line and checking each part that comes out.", "ar": "بتظبط ماكينة على خط إنتاج، وبتفحص كل قطعة بتطلع منها.", "arF": "بتظبطي ماكينة على خط إنتاج، وبتفحصي كل قطعة بتطلع منها." }, "careers": ["industrial_technician", "cnc_operator"] },
+        { "id": "trades_day_5", "title": { "en": "To a hundredth", "ar": "بدقة 0.01" }, "text": { "en": "Reading a technical drawing to cut a metal part to within 0.01 mm.", "ar": "بتقرا رسم هندسي، وتشغّل قطعة معدن على المخرطة بدقة 0.01 مم.", "arF": "بتقري رسم هندسي، وتشغّلي قطعة معدن على المخرطة بدقة 0.01 مم." }, "careers": ["cnc_operator", "industrial_technician"] },
+        { "id": "trades_day_6", "title": { "en": "Explaining the fix", "ar": "شرح التصليح" }, "text": { "en": "Explaining to a customer what was wrong and what you fixed.", "ar": "بتشرح للعميل كان فيه إيه، وإنت صلّحت إيه بالظبط.", "arF": "بتشرحي للعميل كان فيه إيه، وإنتي صلّحتي إيه بالظبط." }, "careers": ["electrician", "automotive_ev_technician", "solar_technician"] },
+        { "id": "trades_day_7", "title": { "en": "Hands and tools", "ar": "الإيد والعدة" }, "text": { "en": "A full day on your feet, working with your hands and tools.", "ar": "يوم كامل واقف على رجلك، شغال بإيدك وبالعدة.", "arF": "يوم كامل واقفة على رجلك، شغالة بإيدك وبالعدة." } },
         { "id": "trades_day_8", "title": { "en": "The machine stopped", "ar": "الماكينة وقفت" }, "text": { "en": "An urgent call: a factory machine has stopped and production is waiting.", "ar": "مكالمة مستعجلة: ماكينة في المصنع وقفت والإنتاج مستني." }, "careers": ["industrial_technician", "cnc_operator", "electrician"] }
       ]
     },
@@ -25,11 +25,11 @@
       "title": { "en": "The real deal", "ar": "الحقيقة من غير تجميل" },
       "intro": { "en": "Every path comes with trade-offs. For each pair, pick the one you'd rather have.", "ar": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختار اللي تفضّله.", "arF": "كل مجال ليه مميزات وتمن. في كل اختيارين، اختاري اللي تفضّليه." },
       "items": [
-        { "id": "trades_real_1", "title": { "en": "How you learn", "ar": "طريقة التعلم" }, "a": { "en": "Learning by doing from the first months", "ar": "تعلّم بالشغل من أول شهور" }, "b": { "en": "Years in a classroom before any practice", "ar": "سنين في الفصل قبل أي عملي" }, "path": "a" },
+        { "id": "trades_real_1", "title": { "en": "How you learn", "ar": "طريقة التعلم" }, "a": { "en": "Learning by doing from the first months", "ar": "تتعلم وإنت بتشتغل من أول شهور", "arF": "تتعلمي وإنتي بتشتغلي من أول شهور" }, "b": { "en": "Years in a classroom before any practice", "ar": "سنين دراسة في الفصل قبل ما تمسك عدة", "arF": "سنين دراسة في الفصل قبل ما تمسكي عدة" }, "path": "a" },
         { "id": "trades_real_2", "title": { "en": "Where you work", "ar": "مكان الشغل" }, "a": { "en": "Physical work: heat, dust and ladders", "ar": "شغل جسدي: حر وتراب وسلالم" }, "b": { "en": "A clean, air-conditioned office", "ar": "مكتب نضيف ومكيّف" }, "path": "a" },
         { "id": "trades_real_3", "title": { "en": "Safety rules", "ar": "قواعد السلامة" }, "a": { "en": "Strict safety rules, every single time", "ar": "قواعد سلامة صارمة كل مرة من غير استثنا" }, "b": { "en": "Doing things your own quick way", "ar": "تعمل الحاجة على طريقتك السريعة", "arF": "تعملي الحاجة على طريقتك السريعة" }, "path": "a" },
         { "id": "trades_real_4", "title": { "en": "Workshop or office", "ar": "ورشة ولا مكتب" }, "a": { "en": "Your own workshop or business one day", "ar": "ورشة أو بيزنس بتاعك في يوم من الأيام" }, "b": { "en": "A desk job in a big company", "ar": "وظيفة مكتب في شركة كبيرة" }, "path": "a", "careers": ["electrician", "automotive_ev_technician", "solar_technician"] },
-        { "id": "trades_real_5", "title": { "en": "New technology", "ar": "التكنولوجيا الجديدة" }, "a": { "en": "Keeping up with new technology (electric cars, smart machines)", "ar": "متابعة التكنولوجيا الجديدة (عربيات كهربا وماكينات ذكية)" }, "b": { "en": "Tools that stay the same for years", "ar": "عدة ثابتة لسنين" }, "path": "a" },
+        { "id": "trades_real_5", "title": { "en": "New technology", "ar": "التكنولوجيا الجديدة" }, "a": { "en": "Keeping up with new technology (electric cars, smart machines)", "ar": "تتابع التكنولوجيا الجديدة (عربيات كهربا وماكينات ذكية)", "arF": "تتابعي التكنولوجيا الجديدة (عربيات كهربا وماكينات ذكية)" }, "b": { "en": "Tools that stay the same for years", "ar": "عدة ثابتة لسنين" }, "path": "a" },
         { "id": "trades_real_6", "title": { "en": "Your hours", "ar": "مواعيدك" }, "a": { "en": "Shift work in a factory, including nights", "ar": "شيفتات في مصنع، ومنها بالليل" }, "b": { "en": "Daytime hours only", "ar": "مواعيد بالنهار بس" }, "path": "a", "careers": ["industrial_technician", "cnc_operator"] }
       ]
     },
@@ -43,7 +43,7 @@
           "id": "trades_try_1",
           "title": { "en": "The earth wire", "ar": "سلك الأرضي" },
           "type": "scenario",
-          "text": { "en": "A customer wants to skip the earth wire to save money.", "ar": "عميل عايز يستغنى عن سلك الأرضي عشان يوفّر." },
+          "text": { "en": "A customer wants to skip the earth wire to save money.", "ar": "عميل عايز يستغنى عن سلك الأرضي علشان يوفّر." },
           "options": [
             { "text": { "en": "Explain the danger and refuse to install without it", "ar": "أشرحله الخطر وأرفض أركّب من غيره" }, "fit": 1 },
             { "text": { "en": "Suggest a cheaper option that is still safe", "ar": "أقترح حل أرخص بس آمن" }, "fit": 0.9 },

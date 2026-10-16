@@ -181,6 +181,43 @@ export function scoreValues(
   return { scores, ranking };
 }
 
+/**
+ * The "dream job budget": coins spread over the six work values. A value's score is its share of the
+ * coins against an even spread, so an even share is 0.5 and twice that or more is 1 (the same middle
+ * as "nice to have" in the card sort). Every value needs an answer (0 is an answer) and at least one
+ * coin must be spent. Ranking: the explicit one first, then most coins. Weights are a draft for the
+ * psychologist (docs/product/discover-verify.md §5.1).
+ */
+export function scoreValueBudget(
+  instrument: ValuesInstrument,
+  coins: Record<string, number>,
+  finalRanking?: WorkValue[],
+): ValuesResult | undefined {
+  const budget = instrument.budget;
+  if (!budget) return undefined;
+  const byValue = {} as Record<WorkValue, number>;
+  for (const value of WORK_VALUES) {
+    const item = budget.items.find((i) => i.value === value);
+    const c = item ? coins[item.id] : undefined;
+    if (c === undefined || !Number.isFinite(c) || c < 0) return undefined;
+    byValue[value] = c;
+  }
+  const total = WORK_VALUES.reduce((n, v) => n + byValue[v], 0);
+  if (total <= 0) return undefined;
+  const even = total / WORK_VALUES.length;
+  const scores = {} as Scores<WorkValue>;
+  for (const value of WORK_VALUES) scores[value] = clamp01(byValue[value] / (2 * even));
+
+  const rankIndex = (v: WorkValue) => {
+    const i = finalRanking?.indexOf(v) ?? -1;
+    return i === -1 ? Infinity : i;
+  };
+  const ranking = [...WORK_VALUES].sort(
+    (a, b) => rankIndex(a) - rankIndex(b) || byValue[b] - byValue[a] || WORK_VALUES.indexOf(a) - WORK_VALUES.indexOf(b),
+  );
+  return { scores, ranking };
+}
+
 // ---------------------------------------------------------------------------
 // Abilities
 // ---------------------------------------------------------------------------

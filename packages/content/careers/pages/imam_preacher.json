@@ -1,0 +1,321 @@
+{
+  "id": "imam_preacher",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You lead prayer and help people with questions about their faith and lives.",
+      "ar": "بتؤم الصلاة وبتساعد الناس في أسئلة دينهم وحياتهم."
+    },
+    "summary": {
+      "en": "Imams and preachers lead prayers, deliver the Friday sermon, teach Quran and religious lessons and support their community with advice and social work. In Egypt they usually graduate from Al-Azhar University (Faculties of Usul al-Din, Da'wa or Islamic Studies) and are appointed by the Ministry of Awqaf after tests.",
+      "ar": "الإمام والخطيب بيؤم الصلاة، بيلقي خطبة الجمعة، بيعلّم القرآن والدروس الدينية وبيدعم مجتمعه بالنصيحة والعمل الاجتماعي. في مصر غالبًا بيتخرجوا من جامعة الأزهر (كليات أصول الدين أو الدعوة أو الدراسات الإسلامية) وبيتعينوا في وزارة الأوقاف بعد اختبارات."
+    },
+    "dayInLife": {
+      "en": "You lead the dawn prayer, then teach a Quran circle for children. Before noon you prepare Friday's sermon on honesty at work, reading sources and checking the ministry's guidance. After the noon prayer a young man asks for advice about a family problem; you listen and suggest steps. In the evening you give a lesson and help organise a charity drive.",
+      "ar": "بتؤم صلاة الفجر، وبعدين بتدّي حلقة قرآن للأطفال. قبل الضهر بتحضّر خطبة الجمعة عن الأمانة في الشغل، بتقرا المراجع وبتراجع توجيهات الوزارة. بعد صلاة الضهر شاب بيطلب نصيحة في مشكلة عيلة؛ بتسمعه وبتقترح خطوات. بالليل بتدّي درس وبتساعد في تنظيم حملة خير."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Lead daily prayers and the Friday sermon.",
+        "ar": "بتؤم الصلوات اليومية وخطبة الجمعة."
+      },
+      {
+        "en": "Teach Quran and religious lessons.",
+        "ar": "بتعلّم القرآن والدروس الدينية."
+      },
+      {
+        "en": "Advise and support community members.",
+        "ar": "بتنصح وتدعم الناس في المجتمع."
+      },
+      {
+        "en": "Organise charity and social activities.",
+        "ar": "بتنظم أنشطة خيرية واجتماعية."
+      },
+      {
+        "en": "Keep learning and follow ministry guidance.",
+        "ar": "بتكمل تعلم وبتتابع توجيهات الوزارة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Mosques",
+        "ar": "المساجد"
+      },
+      {
+        "en": "Community centres and media",
+        "ar": "المراكز المجتمعية والإعلام"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Quran, hadith and fiqh references",
+        "ar": "مراجع القرآن والحديث والفقه"
+      },
+      {
+        "en": "Microphone and online platforms",
+        "ar": "الميكروفون والمنصات الأونلاين"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Al-Azhar University: Faculties of Usul al-Din, Da'wa, Islamic Studies",
+        "ar": "جامعة الأزهر: كليات أصول الدين والدعوة والدراسات الإسلامية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Azhar secondary institutes lead into Al-Azhar faculties",
+        "ar": "المعاهد الأزهرية الثانوية بتوصّل لكليات الأزهر"
+      }
+    ],
+    "licensing": {
+      "en": "Preaching in mosques requires authorisation from the Ministry of Awqaf.",
+      "ar": "الخطابة في المساجد محتاجة تصريح من وزارة الأوقاف."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Quran memorisation and recitation",
+        "ar": "حفظ وتلاوة القرآن"
+      },
+      {
+        "en": "Islamic jurisprudence",
+        "ar": "الفقه الإسلامي"
+      },
+      {
+        "en": "Public speaking",
+        "ar": "الإلقاء والخطابة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Wisdom and patience",
+        "ar": "الحكمة والصبر"
+      },
+      {
+        "en": "Listening without judging",
+        "ar": "الاستماع من غير حكم"
+      },
+      {
+        "en": "Being a role model",
+        "ar": "إنك تكون قدوة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Classical Arabic; other languages for work abroad",
+        "ar": "العربية الفصحى، ولغات تانية للشغل برّه"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": {
+        "min": 7250,
+        "max": 7950
+      },
+      "mid": null,
+      "senior": {
+        "min": 9306,
+        "max": 10000
+      },
+      "year": 2023,
+      "sourceUrl": "https://almalnews.com/1522334/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%82%D8%A7%D9%81-7250%D8%AC%D9%86%D9%8A%D9%87-%D9%85%D8%B1%D8%AA%D8%A8-%D8%A7%D9%84%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%84%D9%84%D8%A3%D8%A6%D9%85%D8%A9-%D8%AD%D9%85%D9%84%D8%A9/",
+      "note": {
+        "en": "Figures the Minister of Awqaf gave to the House of Representatives on 2 May 2023 for imams employed by the ministry: starting pay 7,250 EGP with a licence (bachelor) degree and 7,950 EGP with a doctorate; first grade 9,306 and 10,000 EGP. The report does not say whether allowances are included. Public-sector pay has been raised several times since 2023, so today's figures are higher. Preachers paid per sermon (\"mokafaa\") earn much less.",
+        "ar": "أرقام قدّمها وزير الأوقاف لمجلس النواب يوم 2 مايو 2023 للأئمة المعيّنين في الوزارة: بداية التعيين 7,250 جنيهًا لحملة الليسانس و7,950 جنيهًا لحملة الدكتوراه؛ والدرجة الأولى 9,306 و10,000 جنيه. لا يذكر الخبر إن كانت البدلات داخلة أم لا. زادت أجور القطاع العام أكثر من مرة منذ 2023، فالأرقام الحالية أعلى. أما الخطباء بنظام المكافأة فيحصلون على أقل من ذلك بكثير."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Ministry of Awqaf",
+        "ar": "وزارة الأوقاف"
+      },
+      {
+        "en": "Al-Azhar and Islamic organisations",
+        "ar": "الأزهر والمؤسسات الإسلامية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly in person; teaching and lessons online are growing.",
+      "ar": "أغلبه حضوري؛ والدروس أونلاين بتزيد."
+    },
+    "regions": [
+      {
+        "en": "Every city and village",
+        "ar": "كل مدينة وقرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Azhar graduates serve communities abroad, sent by Al-Azhar or the Ministry of Awqaf.",
+    "ar": "خريجين الأزهر بيخدموا جاليات برّه، مبعوثين من الأزهر أو الأوقاف."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Meaningful service",
+        "ar": "خدمة ليها معنى"
+      },
+      {
+        "en": "Respected role",
+        "ar": "دور محترم"
+      },
+      {
+        "en": "Work in every community",
+        "ar": "شغل في كل مجتمع"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Modest government pay",
+        "ar": "مرتب حكومي متواضع"
+      },
+      {
+        "en": "High expectations from the community",
+        "ar": "توقعات عالية من الناس"
+      },
+      {
+        "en": "Responsibility for every word",
+        "ar": "مسؤولية عن كل كلمة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "An imam only leads prayer.",
+          "ar": "الإمام بيصلّي بالناس وبس."
+        },
+        "fact": {
+          "en": "Teaching, counselling and community work take much of the time.",
+          "ar": "التعليم والنصيحة والعمل المجتمعي بياخدوا جزء كبير من الوقت."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Fixed around prayer times, including Fridays and holidays.",
+      "ar": "مرتبط بمواعيد الصلاة، ومنها الجمعة والأعياد."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Imam and preacher",
+        "ar": "إمام وخطيب"
+      },
+      {
+        "en": "Senior preacher",
+        "ar": "خطيب أول"
+      },
+      {
+        "en": "Preaching inspector or director",
+        "ar": "مفتش أو مدير دعوة"
+      },
+      {
+        "en": "Senior ministry or Azhar role",
+        "ar": "منصب أعلى في الوزارة أو الأزهر"
+      }
+    ],
+    "relatedCareerIds": [
+      "religious_teacher",
+      "religious_scholar",
+      "school_counselor",
+      "social_worker"
+    ],
+    "pivots": [
+      {
+        "en": "Religious education",
+        "ar": "التعليم الديني"
+      },
+      {
+        "en": "Religious media and content",
+        "ar": "الإعلام والمحتوى الديني"
+      }
+    ]
+  },
+  "industryId": "religion",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Clergy (21-2011.00)",
+      "url": "https://www.onetonline.org/link/summary/21-2011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Directors, Religious Activities and Education (21-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/21-2021.00",
+      "accessed": "2026-10-15"
+    }
+  ],
+  "entry": {
+    "level": "competitive",
+    "hurdles": [
+      {
+        "kind": "grades",
+        "level": 2,
+        "text": {
+          "en": "Ministry of Awqaf posts ask for a cumulative grade of at least \"Good\" from listed faculties (Al-Azhar, Sharia, Islamic studies, Quran, Arabic language and others).",
+          "ar": "وظايف وزارة الأوقاف بتطلب تقدير تراكمي لا يقل عن «جيد» من كليات محددة (الأزهر والشريعة والدراسات الإسلامية والقرآن واللغة العربية وغيرها)."
+        },
+        "tip": {
+          "en": "Your grades at university decide whether you can apply, so they matter from the first year.",
+          "ar": "تقديراتك في الكلية هي اللي بتحدد إذا كنت تقدر تقدّم، فهي مهمة من أول سنة."
+        },
+        "source": "https://www.masrawy.com/news/news_egypt/details/2023/2/17/2371942/"
+      },
+      {
+        "kind": "exam",
+        "level": 2,
+        "text": {
+          "en": "Exams are set by the government jobs agency with the ministry's scholars; competitions for mosque posts and missions abroad test memorising the whole Quran and knowledge of tafsir, hadith and fiqh.",
+          "ar": "الامتحانات بيعملها الجهاز المركزي للتنظيم والإدارة مع لجان من علماء الوزارة؛ ومسابقات المساجد والإيفاد للخارج بتختبر حفظ القرآن كامل والتفسير والحديث والفقه."
+        },
+        "tip": {
+          "en": "Steady Quran revision with a teacher is the core preparation.",
+          "ar": "المراجعة المنتظمة للقرآن مع شيخ هي أساس الاستعداد."
+        },
+        "source": "https://www.elwatannews.com/news/details/4174744"
+      },
+      {
+        "kind": "age",
+        "level": 2,
+        "text": {
+          "en": "In the 2023 competition applicants had to be 30 or younger.",
+          "ar": "في مسابقة 2023 كان لازم سن المتقدم ميزيدش عن 30 سنة."
+        },
+        "tip": {
+          "en": "Applying soon after graduation keeps you within the limit.",
+          "ar": "التقديم بعد التخرج على طول بيخليك جوه حد السن."
+        },
+        "source": "https://www.masrawy.com/news/news_egypt/details/2023/2/17/2371942/"
+      },
+      {
+        "kind": "vetting",
+        "level": 1,
+        "text": {
+          "en": "You need a good reputation and a clean criminal record. The ministry says the official announcement is the only way in and warns against anyone offering connections.",
+          "ar": "محتاج سمعة كويسة وصحيفة جنائية نضيفة. والوزارة بتقول إن الإعلان الرسمي هو الطريق الوحيد للتعيين، وبتحذّر من أي حد يعرض واسطة."
+        },
+        "tip": {
+          "en": "Apply only through the government jobs portal, and never pay anyone to \"arrange\" a post.",
+          "ar": "التقديم بس من بوابة الوظائف الحكومية، ومتدفعش لأي حد عشان «يظبط» وظيفة."
+        },
+        "source": "https://www.masrawy.com/news/news_egypt/details/2023/2/17/2371942/"
+      }
+    ]
+  }
+}

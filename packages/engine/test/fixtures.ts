@@ -38,6 +38,17 @@ export const valuesInstrument: ValuesInstrument = {
     { id: 'c_sup', value: 'support', text: { en: '', ar: '' } },
     { id: 'c_ind', value: 'independence', text: { en: '', ar: '' } },
   ],
+  budget: {
+    coins: 12,
+    items: [
+      { id: 'b_ach', value: 'achievement' },
+      { id: 'b_wc', value: 'workingConditions' },
+      { id: 'b_rec', value: 'recognition' },
+      { id: 'b_rel', value: 'relationships' },
+      { id: 'b_sup', value: 'support' },
+      { id: 'b_ind', value: 'independence' },
+    ],
+  },
 };
 
 export const abilitiesInstrument: AbilitiesInstrument = {

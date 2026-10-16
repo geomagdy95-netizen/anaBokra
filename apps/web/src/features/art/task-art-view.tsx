@@ -1,14 +1,20 @@
 'use client';
 
 import {
+  BookOpen,
   Briefcase,
   Cog,
   Cpu,
+  Drama,
+  Dumbbell,
   FlaskConical,
   GraduationCap,
   Megaphone,
   Palette,
+  Plane,
   Scale,
+  Scissors,
+  Shield,
   Sparkles,
   Stethoscope,
   TreePalm,
@@ -35,6 +41,12 @@ const ICONS: Record<string, LucideIcon> = {
   tourism: TreePalm,
   trades: Wrench,
   agriculture: Wheat,
+  sports: Dumbbell,
+  transport: Plane,
+  beauty: Scissors,
+  security: Shield,
+  religion: BookOpen,
+  performing: Drama,
   discover: Sparkles,
 };
 
@@ -66,6 +78,10 @@ export function TaskArt({ chain, className }: { chain?: ArtChain; className?: st
           alt=""
           decoding="async"
           onLoad={() => setLoaded(src)}
+          // Server-rendered pages can finish loading the image before hydration attaches onLoad.
+          ref={(el) => {
+            if (el?.complete && el.naturalWidth > 0) setLoaded(src);
+          }}
           className={cn('absolute inset-0 size-full object-cover transition-opacity duration-300', loaded === src ? 'opacity-100' : 'opacity-0')}
         />
       )}

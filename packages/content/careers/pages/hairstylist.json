@@ -1,0 +1,256 @@
+{
+  "id": "hairstylist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "People walk in one way and leave feeling new.",
+      "ar": "الناس بتدخل بشكل وبتخرج حاسة إنها جديدة."
+    },
+    "summary": {
+      "en": "Hairstylists and barbers cut, colour and style hair, advise clients and build loyal customers. In Egypt many learn through academies, short courses and apprenticeships in salons, and successful stylists open their own salon or work at weddings, hotels and on film sets. It is skilled, creative and social work.",
+      "ar": "مصفف الشعر والحلاق بيقص ويصبغ ويسرّح الشعر، بينصح العملاء وبيبني زباين دايمين. في مصر ناس كتير بتتعلم في أكاديميات وكورسات قصيرة وتدريب في الصالونات، والشاطرين بيفتحوا صالونهم أو بيشتغلوا في الأفراح والفنادق وأماكن التصوير. شغل فيه مهارة وإبداع وتعامل مع الناس."
+    },
+    "dayInLife": {
+      "en": "Your first client wants a modern fade before a job interview. You talk through the look, then cut and finish with a beard trim. Next, a colour client needs a test strand and a careful mix. Between clients you sterilise tools and post photos of your work on Instagram. In the evening a bride's family books you for the wedding day.",
+      "ar": "أول عميل عايز قصة fade حديثة قبل مقابلة شغل. بتتكلموا عن الشكل، وبعدين تقص وتخلّص بظبط الدقن. بعده عميلة صبغة محتاجة اختبار خصلة وخلطة دقيقة. بين العملاء بتعقّم العدة وبتنزّل صور شغلك على إنستجرام. بالليل عيلة عروسة بتحجزك ليوم الفرح."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Cut, colour and style hair.",
+        "ar": "بتقص وتصبغ وتسرّح الشعر."
+      },
+      {
+        "en": "Advise clients on styles and care.",
+        "ar": "بتنصح العملاء بالأشكال والعناية."
+      },
+      {
+        "en": "Keep tools clean and hygienic.",
+        "ar": "بتحافظ على العدة نضيفة ومعقمة."
+      },
+      {
+        "en": "Manage bookings and products.",
+        "ar": "بتدير الحجوزات والمنتجات."
+      },
+      {
+        "en": "Build a following online.",
+        "ar": "بتبني متابعين أونلاين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Salons and barbershops",
+        "ar": "الصالونات ومحلات الحلاقة"
+      },
+      {
+        "en": "Weddings, hotels and film sets",
+        "ar": "الأفراح والفنادق وأماكن التصوير"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Scissors, clippers and dryers",
+        "ar": "المقص والماكينة والسشوار"
+      },
+      {
+        "en": "Colour and care products",
+        "ar": "منتجات الصبغة والعناية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Beauty and hairdressing academies and vocational centres",
+        "ar": "أكاديميات التجميل وتصفيف الشعر ومراكز التدريب المهني"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 1,
+    "alternativeRoutes": [
+      {
+        "en": "Apprenticeship in a salon",
+        "ar": "تتعلم في صالون"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Cutting and colouring techniques",
+        "ar": "تقنيات القص والصبغة"
+      },
+      {
+        "en": "Hair and scalp care",
+        "ar": "العناية بالشعر وفروة الراس"
+      },
+      {
+        "en": "Hygiene",
+        "ar": "النظافة والتعقيم"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Listening to what clients want",
+        "ar": "تسمع العميل عايز إيه"
+      },
+      {
+        "en": "Creativity",
+        "ar": "الإبداع"
+      },
+      {
+        "en": "Friendly conversation",
+        "ar": "كلام لطيف"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English for hotel and tourist clients",
+        "ar": "العربي، والإنجليزي لعملاء الفنادق والسياح"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8105,
+        "max": 16786
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/service-industries?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Hairdresser\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Hairdresser»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Salons and barbershops",
+        "ar": "الصالونات ومحلات الحلاقة"
+      },
+      {
+        "en": "Hotels, wedding venues and production companies",
+        "ar": "الفنادق وقاعات الأفراح وشركات الإنتاج"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; home visits are common for events.",
+      "ar": "لأ؛ والزيارات للبيوت منتشرة في المناسبات."
+    },
+    "regions": [
+      {
+        "en": "Every city",
+        "ar": "كل مدينة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Skilled stylists find work in Gulf salons.",
+    "ar": "المصففين المهرة بيلاقوا شغل في صالونات الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Creative, social work",
+        "ar": "شغل مبدع واجتماعي"
+      },
+      {
+        "en": "Quick to train",
+        "ar": "تدريب سريع"
+      },
+      {
+        "en": "You can own a salon",
+        "ar": "تقدر تمتلك صالون"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Standing all day",
+        "ar": "وقوف طول اليوم"
+      },
+      {
+        "en": "Income depends on clients",
+        "ar": "الدخل على حسب الزباين"
+      },
+      {
+        "en": "Evenings and wedding seasons are busiest",
+        "ar": "المسايات ومواسم الأفراح هي الأزحم"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Anyone with scissors can be a stylist.",
+          "ar": "أي حد معاه مقص يبقى مصفف."
+        },
+        "fact": {
+          "en": "Cutting and especially colouring need training; mistakes can damage hair.",
+          "ar": "القص والصبغة خصوصًا محتاجين تدريب؛ والغلط ممكن يبوّظ الشعر."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Afternoons, evenings and weekends; your own hours if you own the salon.",
+      "ar": "بعد الضهر والمسا والإجازات؛ ومواعيدك بإيدك لو الصالون بتاعك."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant",
+        "ar": "مساعد"
+      },
+      {
+        "en": "Stylist or barber",
+        "ar": "مصفف أو حلاق"
+      },
+      {
+        "en": "Senior or celebrity stylist",
+        "ar": "مصفف أول أو مصفف مشاهير"
+      },
+      {
+        "en": "Salon owner or educator",
+        "ar": "صاحب صالون أو مدرب"
+      }
+    ],
+    "relatedCareerIds": [
+      "makeup_artist",
+      "skincare_specialist",
+      "spa_therapist",
+      "fashion_designer"
+    ],
+    "pivots": [
+      {
+        "en": "Training at academies",
+        "ar": "التدريب في الأكاديميات"
+      },
+      {
+        "en": "Product sales",
+        "ar": "مبيعات المنتجات"
+      }
+    ]
+  },
+  "industryId": "beauty",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Hairdressers, Hairstylists, and Cosmetologists (39-5012.00)",
+      "url": "https://www.onetonline.org/link/summary/39-5012.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Barbers (39-5011.00)",
+      "url": "https://www.onetonline.org/link/summary/39-5011.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

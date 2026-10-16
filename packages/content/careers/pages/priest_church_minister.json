@@ -1,0 +1,265 @@
+{
+  "id": "priest_church_minister",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You serve your church community in faith and in daily life.",
+      "ar": "بتخدم مجتمع كنيستك في الإيمان وفي الحياة اليومية."
+    },
+    "summary": {
+      "en": "Priests and church ministers lead worship and sacraments, teach, visit the sick and support families, and run church service activities. In Egypt priesthood in the Coptic Orthodox Church usually comes later in life after study at a clerical (theological) college and selection by the church; many young people serve as deacons, Sunday school teachers or in church social services first.",
+      "ar": "الكاهن والخادم الكنسي بيقود الصلوات والأسرار، بيعلّم، بيزور المرضى وبيدعم الأسر، وبيدير أنشطة الخدمة في الكنيسة. في مصر الكهنوت في الكنيسة القبطية الأرثوذكسية غالبًا بييجي متأخر في العمر بعد دراسة في الكلية الإكليريكية واختيار من الكنيسة؛ وشباب كتير بيخدموا الأول شمامسة أو خدام مدارس أحد أو في الخدمات الاجتماعية للكنيسة."
+    },
+    "dayInLife": {
+      "en": "The day starts with the morning liturgy. Afterwards you meet a young couple preparing for marriage, then visit an elderly parishioner in hospital. In the afternoon you coordinate the Sunday school servants' meeting and review a support programme for families in need. In the evening you give a Bible study.",
+      "ar": "اليوم بيبدأ بقداس الصبح. بعده بتقابل خطيبين بيستعدوا للجواز، وبعدين بتزور واحد كبير من أبناء الكنيسة في المستشفى. بعد الضهر بتنسّق اجتماع خدام مدارس الأحد وبتراجع برنامج دعم لأسر محتاجة. بالليل بتدّي درس كتاب."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Lead prayers, liturgy and sacraments.",
+        "ar": "بتقود الصلوات والقداسات والأسرار."
+      },
+      {
+        "en": "Teach and preach.",
+        "ar": "بتعلّم وتعظ."
+      },
+      {
+        "en": "Visit and support families and the sick.",
+        "ar": "بتزور وتدعم الأسر والمرضى."
+      },
+      {
+        "en": "Coordinate church service and social programmes.",
+        "ar": "بتنسّق الخدمة والبرامج الاجتماعية في الكنيسة."
+      },
+      {
+        "en": "Counsel young people and couples.",
+        "ar": "بتنصح الشباب والمخطوبين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Churches",
+        "ar": "الكنايس"
+      },
+      {
+        "en": "Hospitals, homes and community centres",
+        "ar": "المستشفيات والبيوت والمراكز المجتمعية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Scripture and liturgical books",
+        "ar": "الكتاب المقدس وكتب الصلوات"
+      },
+      {
+        "en": "Church programmes and online services",
+        "ar": "برامج الكنيسة والخدمات الأونلاين"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Clerical (theological) college of the church",
+        "ar": "الكلية الإكليريكية"
+      },
+      {
+        "en": "Any university degree, alongside theological study",
+        "ar": "أي شهادة جامعية، جنب الدراسة اللاهوتية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Serving as deacon or Sunday school servant first",
+        "ar": "الخدمة كشماس أو خادم مدارس أحد الأول"
+      }
+    ],
+    "licensing": {
+      "en": "Ordination is by the church according to its own rules.",
+      "ar": "الرسامة بتتم من الكنيسة حسب قواعدها."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Theology and scripture",
+        "ar": "اللاهوت والكتاب المقدس"
+      },
+      {
+        "en": "Liturgy",
+        "ar": "الطقوس"
+      },
+      {
+        "en": "Pastoral care",
+        "ar": "الرعاية الروحية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Compassion",
+        "ar": "الرحمة"
+      },
+      {
+        "en": "Listening",
+        "ar": "الاستماع"
+      },
+      {
+        "en": "Leadership in service",
+        "ar": "القيادة بالخدمة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; Coptic for the liturgy",
+        "ar": "العربي، والقبطي للطقوس"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11999,
+        "max": 29286
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Priest\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Priest»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "low",
+    "employers": [
+      {
+        "en": "Churches and dioceses",
+        "ar": "الكنايس والإيبارشيات"
+      },
+      {
+        "en": "Church schools and social services",
+        "ar": "مدارس الكنيسة والخدمات الاجتماعية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; church service is in person, with some online teaching.",
+      "ar": "لأ؛ الخدمة حضوري، مع شوية تعليم أونلاين."
+    },
+    "regions": [
+      {
+        "en": "Every governorate with church communities",
+        "ar": "كل المحافظات اللي فيها مجتمعات كنسية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egyptian churches abroad serve diaspora communities in many countries.",
+    "ar": "الكنايس المصرية برّه بتخدم الجاليات في دول كتير."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Deeply meaningful service",
+        "ar": "خدمة ليها معنى عميق"
+      },
+      {
+        "en": "Close bonds with a community",
+        "ar": "روابط قوية مع المجتمع"
+      },
+      {
+        "en": "Many ways to serve before ordination",
+        "ar": "طرق كتير للخدمة قبل الرسامة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Priesthood is a calling and a church decision, not a job application",
+        "ar": "الكهنوت دعوة وقرار من الكنيسة، مش طلب وظيفة"
+      },
+      {
+        "en": "Constant availability to people",
+        "ar": "إنك تبقى متاح للناس طول الوقت"
+      },
+      {
+        "en": "Modest material income",
+        "ar": "دخل مادي متواضع"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Church ministry means only leading prayers.",
+          "ar": "الخدمة الكنسية يعني صلوات بس."
+        },
+        "fact": {
+          "en": "Much of it is teaching, visiting, counselling and social service.",
+          "ar": "جزء كبير منها تعليم وافتقاد ونصيحة وخدمة اجتماعية."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Service around prayers, feasts and people's needs, often evenings and weekends.",
+      "ar": "الخدمة حوالين الصلوات والأعياد واحتياجات الناس، غالبًا بالمسا والإجازات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Sunday school servant or deacon",
+        "ar": "خادم مدارس أحد أو شماس"
+      },
+      {
+        "en": "Theological study",
+        "ar": "دراسة لاهوتية"
+      },
+      {
+        "en": "Priest (after selection and ordination)",
+        "ar": "كاهن (بعد الاختيار والرسامة)"
+      },
+      {
+        "en": "Senior church roles",
+        "ar": "مناصب كنسية أعلى"
+      }
+    ],
+    "relatedCareerIds": [
+      "religious_scholar",
+      "religious_teacher",
+      "social_worker",
+      "school_counselor"
+    ],
+    "pivots": [
+      {
+        "en": "Church social services",
+        "ar": "الخدمات الاجتماعية الكنسية"
+      },
+      {
+        "en": "Religious education",
+        "ar": "التعليم الديني"
+      }
+    ]
+  },
+  "industryId": "religion",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Clergy (21-2011.00)",
+      "url": "https://www.onetonline.org/link/summary/21-2011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Directors, Religious Activities and Education (21-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/21-2021.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

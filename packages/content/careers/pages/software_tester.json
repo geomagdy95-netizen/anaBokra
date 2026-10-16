@@ -1,0 +1,271 @@
+{
+  "id": "software_tester",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You find the bug before the customer does.",
+      "ar": "بتلاقي الغلطة قبل ما العميل يلاقيها."
+    },
+    "summary": {
+      "en": "Software testers (QA engineers) check that apps and websites work as they should: they plan tests, try to break features, report bugs clearly and, more and more, write automated tests. It is a common first tech job in Egypt's software houses and outsourcing companies, and it suits careful people who like to understand how things fail.",
+      "ar": "مختبر البرمجيات (مهندس QA) بيتأكد إن الأبلكيشنز والمواقع شغالة صح: بيخطط للاختبارات، بيحاول يكسر الخصائص، بيكتب البجز بوضوح، وبقى بيكتب اختبارات أوتوماتيك كمان. ودي أول وظيفة تكنولوجيا شائعة في شركات البرمجيات والأوت سورسنج في مصر، ومناسبة للناس الدقيقة اللي بتحب تفهم الحاجة بتبوظ إزاي."
+    },
+    "dayInLife": {
+      "en": "A new version of a banking app is due Thursday. You read the new feature, a money transfer screen, and write twelve test cases: normal transfers, wrong account numbers, no internet, very large amounts. You run them on two phones. Three pass, one fails: the app freezes if you rotate the phone mid-transfer. You record a short video, write steps to reproduce it and assign it to the developer. In the afternoon you add two cases to the automated test suite.",
+      "ar": "نسخة جديدة من أبلكيشن بنك نازلة يوم الخميس. بتقرا الخاصية الجديدة، شاشة تحويل فلوس، وبتكتب 12 حالة اختبار: تحويل عادي، رقم حساب غلط، من غير نت، مبلغ كبير جدًا. بتجربهم على موبايلين. واحدة بتفشل: الأبلكيشن بيهنّج لو لفّيت الموبايل في نص التحويل. بتصوّر فيديو قصير، بتكتب خطوات تكرار الغلطة وبتبعتها للمبرمج. بعد الضهر بتضيف حالتين للاختبارات الأوتوماتيك."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Read requirements and plan what to test.",
+        "ar": "بتقرا المتطلبات وبتخطط هتختبر إيه."
+      },
+      {
+        "en": "Write and run test cases on web and mobile.",
+        "ar": "بتكتب وتشغّل حالات اختبار على الويب والموبايل."
+      },
+      {
+        "en": "Report bugs with clear steps and evidence.",
+        "ar": "بتكتب البجز بخطوات واضحة ودليل."
+      },
+      {
+        "en": "Retest fixes before release.",
+        "ar": "بتعيد الاختبار بعد التصليح قبل النزول."
+      },
+      {
+        "en": "Write automated tests as you grow.",
+        "ar": "بتكتب اختبارات أوتوماتيك مع الخبرة."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Software houses and outsourcing companies",
+        "ar": "شركات البرمجيات والأوت سورسنج"
+      },
+      {
+        "en": "Banks, telecom and fintech in-house teams",
+        "ar": "فرق داخلية في البنوك والاتصالات والفينتك"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Jira and test management tools",
+        "ar": "Jira وأدوات إدارة الاختبارات"
+      },
+      {
+        "en": "Postman for APIs",
+        "ar": "Postman للـAPIs"
+      },
+      {
+        "en": "Selenium, Cypress or Appium for automation",
+        "ar": "Selenium أو Cypress أو Appium للأتمتة"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculties of Computers and Information or Engineering",
+        "ar": "كليات الحاسبات والمعلومات أو الهندسة"
+      },
+      {
+        "en": "Science graduates with testing courses",
+        "ar": "خريجين علوم معاهم كورسات اختبار"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "ISTQB Foundation plus a testing bootcamp (for example ITI)",
+        "ar": "شهادة ISTQB Foundation وبوتكامب اختبار (زي ITI)"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Test design and bug reporting",
+        "ar": "تصميم الاختبارات وكتابة البجز"
+      },
+      {
+        "en": "API testing",
+        "ar": "اختبار الـAPIs"
+      },
+      {
+        "en": "Basic programming for automation",
+        "ar": "برمجة أساسية للأتمتة"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Patience and attention to detail",
+        "ar": "الصبر والانتباه للتفاصيل"
+      },
+      {
+        "en": "Diplomacy with developers",
+        "ar": "الدبلوماسية مع المبرمجين"
+      },
+      {
+        "en": "Clear writing",
+        "ar": "كتابة واضحة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for documentation and international clients",
+        "ar": "الإنجليزي للمراجع والعملاء الدوليين"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "ISTQB Certified Tester Foundation Level",
+        "ar": "شهادة ISTQB للمختبرين (المستوى التأسيسي)"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12361,
+        "max": 40407
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/information-technology?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"IT Tester\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Testers who write automated tests: 14,744 to 48,075 EGP. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «IT Tester»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. مختبر الاختبارات الآلية: من 14,744 إلى 48,075 جنيهًا. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Software houses and outsourcing firms",
+        "ar": "شركات البرمجيات والأوت سورسنج"
+      },
+      {
+        "en": "Banks, telecom and fintech companies",
+        "ar": "البنوك والاتصالات والفينتك"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Often hybrid or remote, including for foreign clients.",
+      "ar": "غالبًا هايبرد أو عن بعد، ومنه لعملاء برّه."
+    },
+    "regions": [
+      {
+        "en": "Mostly Cairo (Nasr City, Smart Village, New Cairo) and Alexandria",
+        "ar": "أغلبه القاهرة (مدينة نصر والقرية الذكية والتجمع) وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Automation testers are hired remotely and in the Gulf; ISTQB is recognised internationally.",
+    "ar": "مختبرين الأتمتة بيتطلبوا عن بعد وفي الخليج؛ وشهادة ISTQB معترف بيها دوليًا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "A practical way into tech",
+        "ar": "طريق عملي لدخول التكنولوجيا"
+      },
+      {
+        "en": "Clear skills to learn step by step",
+        "ar": "مهارات واضحة تتعلمها خطوة بخطوة"
+      },
+      {
+        "en": "Automation pays well",
+        "ar": "الأتمتة بتدفع كويس"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Repetitive manual testing at first",
+        "ar": "اختبار يدوي متكرر في الأول"
+      },
+      {
+        "en": "Pressure right before releases",
+        "ar": "ضغط قبل نزول النسخ"
+      },
+      {
+        "en": "Developers may push back on your bugs",
+        "ar": "المبرمجين ممكن يعترضوا على البجز بتاعتك"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Testing is for people who can't code.",
+          "ar": "التستنج للي مش عارف يبرمج."
+        },
+        "fact": {
+          "en": "Modern QA writes code for automated tests and needs to understand how software works.",
+          "ar": "الـQA الحديث بيكتب كود للاختبارات الأوتوماتيك ومحتاج يفهم البرامج شغالة إزاي."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Normal office hours, with late days before a release.",
+      "ar": "مواعيد مكتب عادية، مع أيام متأخرة قبل نزول نسخة."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior QA / tester",
+        "ar": "مختبر مبتدئ"
+      },
+      {
+        "en": "QA engineer",
+        "ar": "مهندس QA"
+      },
+      {
+        "en": "Automation or senior QA engineer",
+        "ar": "مهندس أتمتة أو QA أول"
+      },
+      {
+        "en": "QA lead or manager",
+        "ar": "قائد أو مدير جودة البرمجيات"
+      }
+    ],
+    "relatedCareerIds": [
+      "software_engineer",
+      "mobile_developer",
+      "it_support",
+      "product_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Software development",
+        "ar": "تطوير البرمجيات"
+      },
+      {
+        "en": "Product ownership or DevOps",
+        "ar": "إدارة المنتج أو DevOps"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Software Quality Assurance Analysts and Testers (15-1253.00)",
+      "url": "https://www.onetonline.org/link/summary/15-1253.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Software Tester jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Software-Tester-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

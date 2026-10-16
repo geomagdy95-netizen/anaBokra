@@ -29,7 +29,7 @@ describe('Verify scoring', () => {
     expect(r.components).toEqual({ profile: 0.75, activities: 1, realities: 1 });
     expect(r.enjoyed).toHaveLength(3);
     expect(r.turnedDown).toEqual([]);
-    expect(r.careers).toHaveLength(10);
+    expect(r.careers).toHaveLength(14);
   });
 
   it('is worth rethinking when nothing appeals, even with a decent profile fit', () => {
@@ -111,7 +111,7 @@ describe('islands in the scene', () => {
     await setIslandPosition(kv, 'p1', 'media', 8, 6);
     const { positions } = await readJourney(kv, 'p1');
     expect(Math.hypot(...positions!.tech!)).toBeCloseTo(6.2);
-    expect(positions!.law).toEqual([0, -14.5]);
+    expect(positions!.law).toEqual([0, -17.5]);
     expect(positions!.media).toEqual([8, 6]);
   });
 });

@@ -6,6 +6,7 @@ import {
   normalCdf,
   scoreAbilities,
   scoreLikert,
+  scoreValueBudget,
   scoreValues,
   type LikertResult,
 } from '../src';
@@ -109,6 +110,26 @@ describe('scoreValues', () => {
 
   it('returns undefined until every card is placed', () => {
     expect(scoreValues(valuesInstrument, { c_ach: 'must' })).toBeUndefined();
+  });
+});
+
+describe('scoreValueBudget', () => {
+  const coins = { b_ach: 4, b_wc: 0, b_rec: 2, b_rel: 4, b_sup: 1, b_ind: 1 };
+
+  it('scores each value against an even spread (even = 0.5, double or more = 1)', () => {
+    const r = scoreValueBudget(valuesInstrument, coins)!;
+    expect(r.scores.achievement).toBe(1);
+    expect(r.scores.recognition).toBe(0.5);
+    expect(r.scores.workingConditions).toBe(0);
+    expect(r.scores.support).toBe(0.25);
+    expect(r.ranking.slice(0, 3)).toEqual(['achievement', 'relationships', 'recognition']);
+    expect(scoreValueBudget(valuesInstrument, coins, ['relationships'])!.ranking[0]).toBe('relationships');
+  });
+
+  it('needs an answer for every value and at least one coin spent', () => {
+    expect(scoreValueBudget(valuesInstrument, { b_ach: 12 })).toBeUndefined();
+    expect(scoreValueBudget(valuesInstrument, { b_ach: 0, b_wc: 0, b_rec: 0, b_rel: 0, b_sup: 0, b_ind: 0 })).toBeUndefined();
+    expect(scoreValueBudget({ ...valuesInstrument, budget: undefined }, coins)).toBeUndefined();
   });
 });
 

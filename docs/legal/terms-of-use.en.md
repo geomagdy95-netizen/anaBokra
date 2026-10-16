@@ -37,6 +37,8 @@ If you take part in an anaBokra session at your university or institute, taking 
 ## 6. What you may and may not do
 Do not: try to hack, copy, scrape or overload anaBokra; copy or resell the app or its content; use it to harass anyone; or use it to make decisions about other people (for example in hiring).
 
+Automated collection of anaBokra content (by crawlers, scrapers or bots), including to train, fine-tune or ground artificial-intelligence systems, is not permitted without our written permission. anaBokra reserves its rights to text and data mining (TDM reservation); search engines may index the public pages as allowed in our robots.txt. **[LAWYER: confirm wording and enforceability under Egyptian law (copyright law 82/2002) and for EU visitors (DSM Directive art. 4).]**
+
 ## 7. Our content
 anaBokra, its design, questions, scoring methods, texts and software belong to us or our licensors. Some questions come from public sources (the O\*NET Interest Profiler, CC BY 4.0, and the International Personality Item Pool, public domain), and career data is adapted from O\*NET (U.S. Department of Labor, CC BY 4.0). We give you a personal, non-transferable right to use the app for your own career exploration.
 

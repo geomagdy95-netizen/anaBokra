@@ -1,0 +1,273 @@
+{
+  "id": "travel_agent",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You turn someone's dream trip into a plan that works.",
+      "ar": "بتحوّل رحلة أحلام حد لخطة شغالة."
+    },
+    "summary": {
+      "en": "Travel agents and tourism sales staff plan and sell trips: flights, hotels, Umrah and Hajj packages, Nile cruises and tours for Egyptians and foreign visitors. They use booking systems, compare prices and solve problems when plans change. In Egypt they work at travel companies and online travel firms, and tourism faculty graduates and language speakers do well.",
+      "ar": "وكيل السفر وموظف مبيعات السياحة بيخطط ويبيع رحلات: طيران وفنادق وبرامج عمرة وحج ورحلات نيلية وجولات للمصريين والسياح. بيستخدم أنظمة الحجز، بيقارن الأسعار وبيحل المشاكل لما الخطط تتغير. في مصر بيشتغلوا في شركات السياحة وشركات السفر الأونلاين، وخريجين كليات السياحة واللي بيتكلموا لغات بيتميزوا."
+    },
+    "dayInLife": {
+      "en": "A family wants a week in Sharm El-Sheikh in the mid-year holiday. You check flights in the booking system, compare three hotels and send them options on WhatsApp. A group's Umrah flight changed time, so you rebook their transfers and call each traveller. In the afternoon a German tour operator emails about a Nile cruise for 20 people; you price it with your manager and reply in German.",
+      "ar": "عيلة عايزة أسبوع في شرم الشيخ في إجازة نص السنة. بتشوف الطيران على نظام الحجز، بتقارن 3 فنادق وبتبعتلهم اختيارات على الواتساب. ميعاد طيارة مجموعة عمرة اتغير، فبتعيد حجز التنقلات وبتكلم كل مسافر. بعد الضهر شركة سياحة ألمانية بتبعت إيميل عن رحلة نيلية لـ20 شخص؛ بتسعّرها مع مديرك وبترد بالألماني."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan trips and suggest options to customers.",
+        "ar": "بتخطط رحلات وتقترح اختيارات للعملاء."
+      },
+      {
+        "en": "Book flights, hotels, transfers and tours.",
+        "ar": "بتحجز طيران وفنادق وتنقلات وجولات."
+      },
+      {
+        "en": "Price packages and take payments.",
+        "ar": "بتسعّر البرامج وتحصّل الفلوس."
+      },
+      {
+        "en": "Handle changes, visas and problems.",
+        "ar": "بتتعامل مع التغييرات والتأشيرات والمشاكل."
+      },
+      {
+        "en": "Promote offers online and to companies.",
+        "ar": "بتروّج العروض أونلاين وللشركات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Travel and tourism companies",
+        "ar": "شركات السفر والسياحة"
+      },
+      {
+        "en": "Online travel agencies and airline offices",
+        "ar": "شركات السفر الأونلاين ومكاتب شركات الطيران"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Booking systems such as Amadeus or Sabre",
+        "ar": "أنظمة الحجز زي Amadeus أو Sabre"
+      },
+      {
+        "en": "Hotel and airline portals",
+        "ar": "مواقع الفنادق وشركات الطيران"
+      },
+      {
+        "en": "CRM, WhatsApp and email",
+        "ar": "الـCRM والواتساب والإيميل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "literary",
+      "science",
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Tourism and Hotels (tourism studies)",
+        "ar": "كلية السياحة والفنادق (دراسات سياحية)"
+      },
+      {
+        "en": "Faculties of Alsun or Arts (languages)",
+        "ar": "كليات الألسن أو الآداب (لغات)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Amadeus or IATA travel courses after any degree",
+        "ar": "كورسات Amadeus أو IATA بعد أي شهادة"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Booking systems",
+        "ar": "أنظمة الحجز"
+      },
+      {
+        "en": "Destination knowledge",
+        "ar": "معرفة الوجهات"
+      },
+      {
+        "en": "Pricing and sales",
+        "ar": "التسعير والمبيعات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Customer service",
+        "ar": "خدمة العملاء"
+      },
+      {
+        "en": "Calm when plans change",
+        "ar": "الهدوء لما الخطط تتغير"
+      },
+      {
+        "en": "Persuasion",
+        "ar": "الإقناع"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English; German, Italian, Russian or Chinese for inbound tourism",
+        "ar": "الإنجليزي، والألماني والإيطالي والروسي أو الصيني للسياحة الوافدة"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "IATA travel and tourism courses",
+        "ar": "كورسات IATA للسفر والسياحة"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 10198,
+        "max": 16742
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/tourism-gastronomy-hotel-business?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Booking agent\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Booking agent»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Travel and tourism companies (inbound, outbound, religious)",
+        "ar": "شركات السياحة (وافدة، مصدرة، دينية)"
+      },
+      {
+        "en": "Online travel agencies and airlines",
+        "ar": "شركات السفر الأونلاين وشركات الطيران"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Some sales and booking roles are hybrid or remote.",
+      "ar": "بعض وظايف المبيعات والحجز هايبرد أو عن بعد."
+    },
+    "regions": [
+      {
+        "en": "Cairo, Giza, Alexandria, Hurghada, Sharm El-Sheikh and Luxor",
+        "ar": "القاهرة والجيزة وإسكندرية والغردقة وشرم الشيخ والأقصر"
+      }
+    ]
+  },
+  "global": {
+    "en": "Booking-system skills and languages open roles with Gulf travel firms and international tour operators.",
+    "ar": "مهارات أنظمة الحجز واللغات بتفتح وظايف في شركات سفر خليجية ومنظمي رحلات دوليين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Travel perks and discounts",
+        "ar": "مزايا وخصومات في السفر"
+      },
+      {
+        "en": "Uses your languages every day",
+        "ar": "بتستخدم لغاتك كل يوم"
+      },
+      {
+        "en": "Sales commission",
+        "ar": "عمولة مبيعات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Busy seasons around holidays, Hajj and Umrah",
+        "ar": "مواسم زحمة في الإجازات والحج والعمرة"
+      },
+      {
+        "en": "Online booking competition",
+        "ar": "منافسة الحجز الأونلاين"
+      },
+      {
+        "en": "Last-minute problems",
+        "ar": "مشاكل آخر لحظة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Travel agents are disappearing because of booking apps.",
+          "ar": "وكلاء السفر بيختفوا بسبب أبلكيشنز الحجز."
+        },
+        "fact": {
+          "en": "Simple bookings went online, but groups, religious trips and complex tours still need agents.",
+          "ar": "الحجز البسيط بقى أونلاين، بس المجموعات والرحلات الدينية والجولات المعقدة لسه محتاجة وكلاء."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours with busy seasons; some weekend work.",
+      "ar": "مواعيد مكتب مع مواسم زحمة؛ وشوية شغل في الإجازات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Reservations agent",
+        "ar": "موظف حجوزات"
+      },
+      {
+        "en": "Travel consultant",
+        "ar": "مستشار سفر"
+      },
+      {
+        "en": "Senior consultant or team leader",
+        "ar": "مستشار أول أو تيم ليدر"
+      },
+      {
+        "en": "Branch or operations manager, or your own agency",
+        "ar": "مدير فرع أو عمليات، أو شركتك الخاصة"
+      }
+    ],
+    "relatedCareerIds": [
+      "tour_guide",
+      "hotel_front_office",
+      "event_planner",
+      "customer_service_agent"
+    ],
+    "pivots": [
+      {
+        "en": "Airline or airport customer service",
+        "ar": "خدمة عملاء الطيران أو المطار"
+      },
+      {
+        "en": "Tourism marketing",
+        "ar": "التسويق السياحي"
+      }
+    ]
+  },
+  "industryId": "tourism",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Travel Agents (41-3041.00)",
+      "url": "https://www.onetonline.org/link/summary/41-3041.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Travel Agent jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Travel-Agent-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

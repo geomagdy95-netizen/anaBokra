@@ -1,0 +1,268 @@
+{
+  "id": "sports_coach",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You turn raw talent into a team that wins.",
+      "ar": "بتحوّل الموهبة الخام لفريق بيكسب."
+    },
+    "summary": {
+      "en": "Sports coaches plan training, teach technique and tactics, pick teams and support players' growth, from youth academies to first teams. In Egypt coaches work in clubs, schools, academies and federations, and usually hold a Physical Education degree plus federation coaching licences that go up by level.",
+      "ar": "المدرب الرياضي بيخطط التمرين، بيعلّم التكنيك والخطط، بيختار التشكيل وبيدعم تطور اللاعبين، من أكاديميات الناشئين للفريق الأول. في مصر المدربين بيشتغلوا في الأندية والمدارس والأكاديميات والاتحادات، وغالبًا معاهم شهادة تربية رياضية ورخص تدريب من الاتحاد بتعلى بالمستوى."
+    },
+    "dayInLife": {
+      "en": "At 3 p.m. your under-14 squad arrives. You run a warm-up, then a passing drill you designed this morning after watching last week's match. You stop play to correct two players' positions. After training you talk to a boy who has lost confidence, then meet parents about a tournament trip. At night you plan next week's sessions and update each player's progress sheet.",
+      "ar": "الساعة 3 العصر فريق تحت 14 بيوصل. بتعمل إحماء، وبعدين تمرين تمرير صممته الصبح بعد ما اتفرجت على ماتش الأسبوع اللي فات. بتوقف اللعب تصحح مكان لاعبين. بعد التمرين بتتكلم مع ولد فاقد ثقته، وبعدين تقابل الأهالي بخصوص سفرية بطولة. بالليل بتخطط تمارين الأسبوع الجاي وبتحدّث شيت تقدم كل لاعب."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Plan training sessions and seasons.",
+        "ar": "بتخطط التمارين والموسم."
+      },
+      {
+        "en": "Teach technique, tactics and fitness.",
+        "ar": "بتعلّم التكنيك والخطط واللياقة."
+      },
+      {
+        "en": "Select teams and lead them in matches.",
+        "ar": "بتختار الفريق وبتقوده في الماتشات."
+      },
+      {
+        "en": "Analyse performance and video.",
+        "ar": "بتحلل الأداء والفيديو."
+      },
+      {
+        "en": "Support players' confidence and development.",
+        "ar": "بتدعم ثقة اللاعبين وتطورهم."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Club and academy pitches and courts",
+        "ar": "ملاعب الأندية والأكاديميات"
+      },
+      {
+        "en": "Schools and federations",
+        "ar": "المدارس والاتحادات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Cones, balls and training equipment",
+        "ar": "أقماع وكور وأدوات تدريب"
+      },
+      {
+        "en": "Video analysis apps",
+        "ar": "أبلكيشنز تحليل الفيديو"
+      },
+      {
+        "en": "Training plans and spreadsheets",
+        "ar": "خطط التدريب والشيتات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [],
+    "faculties": [
+      {
+        "en": "Faculty of Physical Education (training section)",
+        "ar": "كلية التربية الرياضية (شعبة التدريب)"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Former players taking federation coaching courses (for example CAF licences in football)",
+        "ar": "لاعبين سابقين بياخدوا كورسات تدريب من الاتحاد (زي رخص الكاف في الكورة)"
+      }
+    ],
+    "licensing": {
+      "en": "Federation coaching licences by level are needed to coach official teams.",
+      "ar": "رخص التدريب من الاتحاد حسب المستوى لازمة علشان تدرب فرق رسمية."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Training science and planning",
+        "ar": "علم التدريب والتخطيط"
+      },
+      {
+        "en": "Technique and tactics of the sport",
+        "ar": "تكنيك وخطط اللعبة"
+      },
+      {
+        "en": "Basic first aid",
+        "ar": "إسعافات أولية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Leadership",
+        "ar": "القيادة"
+      },
+      {
+        "en": "Motivating young people",
+        "ar": "تحفيز الشباب"
+      },
+      {
+        "en": "Clear communication",
+        "ar": "تواصل واضح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English for courses and foreign clubs",
+        "ar": "العربي، والإنجليزي للكورسات والأندية الأجنبية"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Federation coaching licences",
+        "ar": "رخص التدريب من الاتحادات"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 9398,
+        "max": 23479
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Sports Coach\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Sports Coach»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Sports clubs and private academies",
+        "ar": "الأندية والأكاديميات الخاصة"
+      },
+      {
+        "en": "Schools and federations",
+        "ar": "المدارس والاتحادات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; coaching is on the field.",
+      "ar": "لأ؛ التدريب في الملعب."
+    },
+    "regions": [
+      {
+        "en": "Every governorate",
+        "ar": "كل المحافظات"
+      }
+    ]
+  },
+  "global": {
+    "en": "Egyptian coaches work in Gulf clubs and academies, especially in football, handball and squash.",
+    "ar": "المدربين المصريين بيشتغلوا في أندية وأكاديميات الخليج، خصوصًا في الكورة واليد والإسكواش."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Turning a passion for sport into a job",
+        "ar": "بتحوّل حبك للرياضة لشغل"
+      },
+      {
+        "en": "Watching players grow",
+        "ar": "بتشوف اللاعبين بيكبروا"
+      },
+      {
+        "en": "Work in clubs, schools and abroad",
+        "ar": "شغل في الأندية والمدارس وبرّه"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Evening and weekend hours",
+        "ar": "مواعيد مسائية وفي الإجازات"
+      },
+      {
+        "en": "Job insecurity when results are bad",
+        "ar": "الوظيفة مش مضمونة لما النتايج تسوء"
+      },
+      {
+        "en": "Modest pay at youth level",
+        "ar": "مرتب متواضع في مستوى الناشئين"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "A great player automatically makes a great coach.",
+          "ar": "اللاعب الكويس أكيد هيبقى مدرب كويس."
+        },
+        "fact": {
+          "en": "Coaching is a separate skill: planning, teaching and managing people.",
+          "ar": "التدريب مهارة تانية: تخطيط وتعليم وإدارة ناس."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Afternoons, evenings and weekends, with travel for competitions.",
+      "ar": "بعد الضهر والمسا والإجازات، مع سفر للبطولات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Assistant coach",
+        "ar": "مدرب مساعد"
+      },
+      {
+        "en": "Youth team coach",
+        "ar": "مدرب ناشئين"
+      },
+      {
+        "en": "First-team coach",
+        "ar": "مدرب فريق أول"
+      },
+      {
+        "en": "Head coach or technical director",
+        "ar": "مدير فني"
+      }
+    ],
+    "relatedCareerIds": [
+      "athlete",
+      "pe_teacher",
+      "fitness_trainer",
+      "sports_manager"
+    ],
+    "pivots": [
+      {
+        "en": "Performance analysis",
+        "ar": "تحليل الأداء"
+      },
+      {
+        "en": "Sports management",
+        "ar": "الإدارة الرياضية"
+      }
+    ]
+  },
+  "industryId": "sports",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Coaches and Scouts (27-2022.00)",
+      "url": "https://www.onetonline.org/link/summary/27-2022.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Adapted Physical Education Specialists (25-2059.01)",
+      "url": "https://www.onetonline.org/link/summary/25-2059.01",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

@@ -48,7 +48,7 @@ describe('Discover on the phone', () => {
     expect(final.personalitySet).toBe('short');
     expect(final.flat).toBe(false);
     expect(final.interestCode.slice(0, 2).sort()).toEqual(['I', 'R']);
-    expect(final.groups).toHaveLength(12);
+    expect(final.groups).toHaveLength(18);
     // Someone who loves investigating and building should see engineering, tech or science near the top.
     expect(final.groups.slice(0, 3).map((g) => g.cluster).some((c) => ['engineering', 'tech', 'science'].includes(c))).toBe(true);
   });

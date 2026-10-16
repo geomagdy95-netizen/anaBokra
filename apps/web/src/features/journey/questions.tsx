@@ -1,7 +1,7 @@
 'use client';
 
 import type { I18n } from '@anabokra/engine';
-import { Frown, Meh, Smile } from 'lucide-react';
+import { Check, Frown, Info, Meh, Smile } from 'lucide-react';
 import { useState } from 'react';
 
 import { choiceBase, choiceIdle, choiceOn, useNumberFormat } from '@/features/assessment/primitives';
@@ -10,8 +10,10 @@ import { SWIPE_VALUE } from '@/features/assessment/swipe';
 import { useAT, useText } from '@/features/assessment/ui-context';
 import { cn } from '@/lib/utils';
 
+import { CHECKLIST_VALUE } from '@/server/assessment/config';
+
 import { MoodFace } from './mood-face';
-import type { Scale } from './steps';
+import type { ItemStep, Scale } from './steps';
 import { useJT } from './use-jt';
 
 /**
@@ -28,18 +30,42 @@ interface Answerable {
   disabled?: boolean;
 }
 
+/** "What does this mean?" under an interest card that assumes some knowledge; the wording stays as it is. */
+function CardHint({ hint }: { hint: I18n }) {
+  const at = useAT();
+  const tx = useText();
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="-mt-1 flex flex-col items-start gap-1.5">
+      <button type="button" aria-expanded={open} onClick={() => setOpen(!open)} className="inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-primary" data-testid="card-hint-toggle">
+        <Info className="size-4" aria-hidden />
+        {at('cardHint')}
+      </button>
+      {open && (
+        <p className="rounded-2xl bg-secondary/70 px-4 py-3 text-sm text-foreground" data-testid="card-hint">
+          {tx(hint)}
+        </p>
+      )}
+    </div>
+  );
+}
+
 /** Interests: swipe the card (left 2, right 4, up 5) or tap 1–5. */
-export function SwipeQuestion({ text, scale, value, onAnswer, disabled }: Answerable & { text: I18n; scale: Scale }) {
+export function SwipeQuestion({ text, hint, scale, value, onAnswer, disabled }: Answerable & { text: I18n; hint?: I18n; scale: Scale }) {
   const at = useAT();
   const tx = useText();
   const labels = scale.labels.map(tx);
   const nf = useNumberFormat();
   return (
     <div className="flex flex-col gap-4" data-testid="q-swipe">
-      <p className="text-sm text-muted-foreground">{at('prompts.interests')}</p>
+      <div className="space-y-1">
+        <p className="text-sm text-muted-foreground">{at('prompts.interests')}</p>
+        <p className="text-xs text-muted-foreground">{at('prompts.interestsImagine')}</p>
+      </div>
       <SwipeCard ariaLabel={tx(text)} hintFor={(v) => labels[v - scale.min] ?? ''} onSwipe={(v) => onAnswer(v)} disabled={disabled}>
         {tx(text)}
       </SwipeCard>
+      {hint && <CardHint key={tx(text)} hint={hint} />}
       <p className="text-xs text-muted-foreground">
         {at('swipe.help', { left: labels[SWIPE_VALUE.left - scale.min]!, right: labels[SWIPE_VALUE.right - scale.min]!, up: labels[SWIPE_VALUE.up - scale.min]! })}
       </p>
@@ -312,5 +338,175 @@ export function PuzzleQuestion({
         </div>
       )}
     </div>
+  );
+}
+
+/**
+ * Interests as a checklist: the task's activity cards on one screen, tap the ones you'd enjoy.
+ * "Done" saves every card at once (tapped = strongly like, left alone = strongly dislike). The
+ * attention check is a card that asks to be tapped.
+ */
+export function GridQuestion({
+  parts,
+  checkId,
+  answers,
+  onSubmit,
+  disabled,
+}: {
+  parts: ItemStep[];
+  checkId?: string;
+  answers: Readonly<Record<string, number>>;
+  onSubmit: (values: Record<string, number>) => void;
+  disabled?: boolean;
+}) {
+  const at = useAT();
+  const jt = useJT();
+  const tx = useText();
+  const nf = useNumberFormat();
+  const [on, setOn] = useState(() => new Set(parts.filter((p) => answers[p.id] === CHECKLIST_VALUE.on).map((p) => p.id)));
+  const toggle = (id: string) =>
+    setOn((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  const count = parts.filter((p) => p.id !== checkId && on.has(p.id)).length;
+  // Cards whose "what does this mean?" is open.
+  const [explained, setExplained] = useState<Set<string>>(() => new Set());
+  return (
+    <fieldset className="flex flex-col gap-4" data-testid="q-grid" disabled={disabled}>
+      <legend className="mb-1 text-base font-bold text-foreground">{jt('grid.prompt')}</legend>
+      <p className="-mt-2 text-sm text-muted-foreground">{jt('grid.hint')}</p>
+      <div className="grid grid-cols-2 gap-2.5">
+        {parts.map((p) => {
+          const picked = on.has(p.id);
+          const hintOpen = explained.has(p.id);
+          return (
+            <div key={p.id} className="relative">
+              <button
+                type="button"
+                aria-pressed={picked}
+                onClick={() => toggle(p.id)}
+                data-testid="grid-card"
+                className={cn(
+                  'relative flex size-full min-h-24 flex-col justify-center rounded-2xl p-3 pe-8 text-start text-sm font-semibold leading-snug transition-all active:scale-[0.97]',
+                  picked ? ON : p.id === checkId ? TONE.orange : TONE.violet,
+                )}
+              >
+                {p.id === checkId ? jt('grid.check') : tx(p.text)}
+                {p.hint && hintOpen && (
+                  <span className="mt-1.5 block text-xs font-normal leading-snug opacity-85" data-testid="card-hint">
+                    {tx(p.hint)}
+                  </span>
+                )}
+                <span
+                  aria-hidden="true"
+                  className={cn(
+                    'absolute end-2 top-2 grid size-5 place-items-center rounded-full border-2 transition-colors',
+                    picked ? 'border-current bg-primary-foreground text-primary' : 'border-foreground/30',
+                  )}
+                >
+                  {picked && <Check className="size-3.5" strokeWidth={3} />}
+                </span>
+              </button>
+              {/* A sibling, not inside the card: a button can't hold another button. */}
+              {p.hint && (
+                <button
+                  type="button"
+                  aria-expanded={hintOpen}
+                  aria-label={`${at('cardHint')} ${tx(p.text)}`}
+                  onClick={() => setExplained((prev) => (prev.has(p.id) ? new Set([...prev].filter((x) => x !== p.id)) : new Set(prev).add(p.id)))}
+                  className={cn('absolute bottom-0.5 end-0.5 grid size-9 place-items-center rounded-full', picked ? 'text-primary-foreground' : 'text-primary')}
+                  data-testid="card-hint-toggle"
+                >
+                  <Info className="size-4" aria-hidden />
+                </button>
+              )}
+            </div>
+          );
+        })}
+      </div>
+      <button
+        type="button"
+        onClick={() => onSubmit(Object.fromEntries(parts.map((p) => [p.id, on.has(p.id) ? CHECKLIST_VALUE.on : CHECKLIST_VALUE.off])))}
+        className="h-14 rounded-2xl bg-primary text-base font-semibold text-primary-foreground shadow-md shadow-primary/25 transition-transform active:scale-[0.99] disabled:opacity-60"
+        data-testid="grid-done"
+      >
+        {count ? jt('grid.done', { count: nf.format(count) }) : jt('grid.none')}
+      </button>
+    </fieldset>
+  );
+}
+
+/**
+ * Several statements on one screen (personality, or strengths), each with its own compact 1–5 row:
+ * five small faces for personality, a five-step bar for strengths. Each answer is saved as it's given.
+ */
+export function StackQuestion({
+  parts,
+  answers,
+  onAnswer,
+  disabled,
+}: {
+  parts: ItemStep[];
+  answers: Readonly<Record<string, number>>;
+  onAnswer: (part: ItemStep, value: number) => void;
+  disabled?: boolean;
+}) {
+  const at = useAT();
+  const tx = useText();
+  const kind = parts[0]?.kind;
+  return (
+    <fieldset className="flex flex-col gap-3" data-testid="q-stack" disabled={disabled}>
+      <legend className="mb-1 text-base font-bold text-foreground">{at(kind === 'slider' ? 'prompts.abilities' : 'prompts.personality')}</legend>
+      {parts.map((p) => {
+        const value = answers[p.id];
+        const steps = p.scale.labels.map((_, i) => p.scale.min + i);
+        return (
+          <div key={p.id} className={cn(card, 'flex flex-col gap-2 p-4')} data-testid="stack-part" data-answered={value !== undefined}>
+            <p className="font-semibold leading-snug">{tx(p.text)}</p>
+            <div className={cn('grid grid-cols-5', p.kind === 'slider' ? 'gap-1' : 'gap-0.5')} role="group" aria-label={tx(p.text)}>
+              {steps.map((v, i) =>
+                p.kind === 'slider' ? (
+                  <button
+                    key={v}
+                    type="button"
+                    aria-pressed={value === v}
+                    aria-label={tx(p.scale.labels[i]!)}
+                    onClick={() => onAnswer(p, v)}
+                    className={cn(
+                      'h-10 rounded-md border transition-colors first:rounded-s-xl last:rounded-e-xl',
+                      value !== undefined && v <= value ? 'border-primary bg-primary' : 'bg-muted hover:bg-accent',
+                    )}
+                  />
+                ) : (
+                  <button
+                    key={v}
+                    type="button"
+                    aria-pressed={value === v}
+                    aria-label={tx(p.scale.labels[i]!)}
+                    onClick={() => onAnswer(p, v)}
+                    className={cn(
+                      'grid place-items-center rounded-xl py-1 transition-all',
+                      value === v ? 'bg-primary/15 ring-2 ring-primary' : value !== undefined ? 'opacity-45 hover:opacity-80' : 'hover:bg-secondary',
+                    )}
+                  >
+                    <MoodFace level={1 + Math.round(((v - p.scale.min) / (p.scale.max - p.scale.min)) * 4)} className="size-10" />
+                  </button>
+                ),
+              )}
+            </div>
+            <div className="flex justify-between gap-4 text-xs text-muted-foreground">
+              <span className="max-w-[45%] text-start">{tx(p.scale.labels[0]!)}</span>
+              <span className={cn('text-center font-semibold text-primary', value === undefined && 'invisible')} aria-live="polite">
+                {value !== undefined ? tx(p.scale.labels[value - p.scale.min]!) : '·'}
+              </span>
+              <span className="max-w-[45%] text-end">{tx(p.scale.labels[p.scale.labels.length - 1]!)}</span>
+            </div>
+          </div>
+        );
+      })}
+    </fieldset>
   );
 }

@@ -1,0 +1,266 @@
+{
+  "id": "medical_representative",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You are the link between new medicines and the doctors who prescribe them.",
+      "ar": "إنت الحلقة اللي بتوصّل الأدوية الجديدة للدكاترة اللي بيكتبوها."
+    },
+    "summary": {
+      "en": "Medical representatives visit doctors, pharmacies and hospitals to present a company's medicines or medical devices, answer scientific questions and build long relationships. It is the most common first job for Egyptian pharmacy, science and veterinary graduates, and it pays more than many lab or pharmacy jobs at the start. The work is part science, part sales.",
+      "ar": "مندوب الدعاية الطبية بيزور الدكاترة والصيدليات والمستشفيات علشان يعرض أدوية أو أجهزة طبية لشركته، يرد على الأسئلة العلمية ويبني علاقات طويلة. ودي أكتر أول وظيفة لخريجين الصيدلة والعلوم والطب البيطري في مصر، وبتدفع في الأول أكتر من وظايف معمل أو صيدلية كتير. الشغل نصه علم ونصه بيع."
+    },
+    "dayInLife": {
+      "en": "You start at 9 with a short call with your district manager about this month's focus product. By 11 you are in a hospital corridor waiting to see two cardiologists; you have three minutes with each to present a new heart medicine and leave samples. At lunch you visit four pharmacies to check stock. In the evening you wait at a private clinic until the doctor finishes his patients, then answer his questions about side effects. You log every visit in the company app before you sleep.",
+      "ar": "بتبدأ الساعة 9 بمكالمة قصيرة مع مدير المنطقة عن المنتج اللي التركيز عليه الشهر ده. الساعة 11 بتكون في طرقة مستشفى مستني تقابل دكتورين قلب؛ معاك 3 دقايق مع كل واحد تعرض دوا قلب جديد وتسيب عينات. وقت الغدا بتعدّي على 4 صيدليات تشوف المخزون. بالليل بتستنى في عيادة خاصة لحد ما الدكتور يخلّص كشوفاته، وبعدين ترد على أسئلته عن الأعراض الجانبية. وقبل ما تنام بتسجل كل زيارة على أبلكيشن الشركة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Visit doctors, pharmacists and hospitals in your area on a planned route.",
+        "ar": "بتزور الدكاترة والصيادلة والمستشفيات في منطقتك على خط سير."
+      },
+      {
+        "en": "Present products using scientific studies and answer questions.",
+        "ar": "بتعرض المنتجات بالدراسات العلمية وبترد على الأسئلة."
+      },
+      {
+        "en": "Leave samples and promotional materials within the rules.",
+        "ar": "بتسيب عينات ومواد دعاية في حدود القواعد."
+      },
+      {
+        "en": "Follow up on prescriptions and stock in pharmacies.",
+        "ar": "بتتابع الروشتات والمخزون في الصيدليات."
+      },
+      {
+        "en": "Report visits and competitors' activity.",
+        "ar": "بتكتب تقارير الزيارات ونشاط المنافسين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Clinics, hospitals and pharmacies in an assigned area",
+        "ar": "العيادات والمستشفيات والصيدليات في منطقة محددة"
+      },
+      {
+        "en": "Pharmaceutical and medical device companies",
+        "ar": "شركات الأدوية والأجهزة الطبية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "A company tablet or CRM app",
+        "ar": "تابلت أو أبلكيشن CRM من الشركة"
+      },
+      {
+        "en": "Product studies and detail aids",
+        "ar": "الدراسات العلمية ووسائل العرض"
+      },
+      {
+        "en": "A car in many companies",
+        "ar": "عربية في شركات كتير"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Pharmacy",
+        "ar": "كلية الصيدلة"
+      },
+      {
+        "en": "Faculties of Science, Veterinary Medicine or Agriculture",
+        "ar": "كليات العلوم أو الطب البيطري أو الزراعة"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Some companies hire graduates of other faculties with strong communication and training",
+        "ar": "بعض الشركات بتشغّل خريجين كليات تانية لو تواصلهم قوي ومعاهم تدريب"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Pharmacology and product knowledge",
+        "ar": "علم الأدوية ومعرفة المنتج"
+      },
+      {
+        "en": "Reading clinical studies",
+        "ar": "قراية الدراسات الإكلينيكية"
+      },
+      {
+        "en": "Territory planning",
+        "ar": "تخطيط خط السير"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Persuasion with respect",
+        "ar": "الإقناع باحترام"
+      },
+      {
+        "en": "Patience while waiting for busy doctors",
+        "ar": "الصبر وإنت مستني دكاترة مشغولين"
+      },
+      {
+        "en": "Building trust",
+        "ar": "بناء الثقة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for drug names and studies",
+        "ar": "الإنجليزي لأسماء الأدوية والدراسات"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 14934,
+        "max": 34853
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/medicine-social-care?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Medical/Pharmaceutical Sales Representative\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Medical/Pharmaceutical Sales Representative»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Local and multinational pharmaceutical companies",
+        "ar": "شركات الأدوية المحلية والمتعددة الجنسيات"
+      },
+      {
+        "en": "Medical device, nutrition and orthopedic companies",
+        "ar": "شركات الأجهزة الطبية والتغذية والعظام"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; the job is visits in person.",
+      "ar": "لأ؛ الشغل زيارات بنفسك."
+    },
+    "regions": [
+      {
+        "en": "Every governorate; each rep covers an area",
+        "ar": "كل المحافظات؛ كل مندوب بيغطي منطقة"
+      }
+    ]
+  },
+  "global": {
+    "en": "Experience in a multinational company helps you move to medical sales or marketing in the Gulf.",
+    "ar": "الخبرة في شركة متعددة الجنسيات بتساعدك تنتقل للمبيعات أو التسويق الطبي في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "A good starting income and often a company car",
+        "ar": "دخل كويس في الأول وغالبًا عربية شركة"
+      },
+      {
+        "en": "Uses your science degree with people",
+        "ar": "بتستخدم شهادتك العلمية مع الناس"
+      },
+      {
+        "en": "Clear path to product and marketing roles",
+        "ar": "طريق واضح لوظايف المنتج والتسويق"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Long waits and evening clinic visits",
+        "ar": "انتظار طويل وزيارات عيادات بالليل"
+      },
+      {
+        "en": "Monthly targets on prescriptions",
+        "ar": "تارجت شهري على الروشتات"
+      },
+      {
+        "en": "Some doctors don't want to see you",
+        "ar": "فيه دكاترة مش عايزين يقابلوك"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Medical reps just hand out gifts and samples.",
+          "ar": "المندوب بيوزع هدايا وعينات وبس."
+        },
+        "fact": {
+          "en": "Rules limit gifts; the work is presenting evidence and answering scientific questions.",
+          "ar": "القواعد بتحدد الهدايا؛ والشغل هو عرض الأدلة العلمية والرد على الأسئلة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Your day follows doctors' hours, so evenings are common; weekends are mostly free.",
+      "ar": "يومك ماشي على مواعيد الدكاترة، فالمسا كتير؛ والإجازات غالبًا فاضية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Medical representative",
+        "ar": "مندوب دعاية طبية"
+      },
+      {
+        "en": "Senior or key account representative",
+        "ar": "مندوب أول أو مندوب حسابات رئيسية"
+      },
+      {
+        "en": "District or product manager",
+        "ar": "مدير منطقة أو مدير منتج"
+      },
+      {
+        "en": "Marketing or business unit manager",
+        "ar": "مدير تسويق أو وحدة أعمال"
+      }
+    ],
+    "relatedCareerIds": [
+      "pharmacist",
+      "sales_representative",
+      "pharmacy_technician",
+      "biotechnologist"
+    ],
+    "pivots": [
+      {
+        "en": "Product management and medical marketing",
+        "ar": "إدارة المنتج والتسويق الطبي"
+      },
+      {
+        "en": "Medical affairs or regulatory affairs",
+        "ar": "الشؤون الطبية أو التنظيمية"
+      }
+    ]
+  },
+  "industryId": "health",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products (41-4011.00)",
+      "url": "https://www.onetonline.org/link/summary/41-4011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Medical Representative jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Medical-Representative-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

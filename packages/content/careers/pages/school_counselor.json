@@ -176,10 +176,19 @@
     ]
   },
   "marketEgypt": {
-    "salaryMonthlyEgp": null,
-    "salaryNote": {
-      "en": "Paylab Egypt has no job page with data for school counselors, so we do not show a number. Pay differs a lot between public schools, private and international schools, and NGOs.",
-      "ar": "لا تتوفر في Paylab مصر بيانات لمسمى الأخصائي النفسي أو الاجتماعي المدرسي، لذلك لا نعرض رقمًا. ويختلف الأجر كثيرًا بين المدارس الحكومية والخاصة والدولية والجمعيات الأهلية."
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11177,
+        "max": 19311
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/education-science-research?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Psychologist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. Paylab has no separate title for this career, so this is the closest one. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Psychologist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. لا يوجد في Paylab مسمى مستقل لهذه المهنة، فهذا أقرب مسمى. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
     },
     "demand": "medium",
     "employers": [

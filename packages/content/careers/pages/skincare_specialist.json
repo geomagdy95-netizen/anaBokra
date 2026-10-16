@@ -1,0 +1,257 @@
+{
+  "id": "skincare_specialist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You help people feel at home in their own skin.",
+      "ar": "بتساعد الناس يرتاحوا في بشرتهم."
+    },
+    "summary": {
+      "en": "Skincare specialists (aestheticians) give facials, cleansing, peels and skin treatments, recommend routines and products, and refer medical problems to dermatologists. In Egypt they work in skincare clinics, spas and cosmetics brands; Wuzzuf listings for skin care specialists appear in Cairo and Alexandria.",
+      "ar": "أخصائي العناية بالبشرة بيعمل جلسات تنضيف وتقشير وعلاجات للبشرة، بينصح بروتين ومنتجات، وبيحوّل المشاكل الطبية لدكتور الجلدية. في مصر بيشتغلوا في عيادات العناية بالبشرة والسبا وبراندات التجميل؛ وفيه إعلانات على Wuzzuf لأخصائي عناية بالبشرة في القاهرة وإسكندرية."
+    },
+    "dayInLife": {
+      "en": "Your first client has dry, sensitive skin. You ask about her routine, examine her skin and give a gentle hydrating facial. Next, a teenager with mild acne gets a cleansing session and a simple routine; you suggest seeing a dermatologist if it gets worse. In the afternoon you train a new colleague on a device and record each client's notes.",
+      "ar": "أول عميلة بشرتها جافة وحساسة. بتسألها عن روتينها، بتفحص بشرتها وبتعمل لها جلسة ترطيب هادية. بعدها مراهقة عندها حبوب بسيطة بتاخد جلسة تنضيف وروتين بسيط؛ وبتنصحها تروح لدكتور جلدية لو زادت. بعد الضهر بتدرّب زميلة جديدة على جهاز وبتسجل ملاحظات كل عميلة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Assess skin type and concerns.",
+        "ar": "بتقيّم نوع البشرة ومشاكلها."
+      },
+      {
+        "en": "Give facials and treatments.",
+        "ar": "بتعمل جلسات وعلاجات."
+      },
+      {
+        "en": "Recommend routines and products.",
+        "ar": "بتنصح بروتين ومنتجات."
+      },
+      {
+        "en": "Refer medical issues to doctors.",
+        "ar": "بتحوّل المشاكل الطبية للدكاترة."
+      },
+      {
+        "en": "Keep strict hygiene and records.",
+        "ar": "بتحافظ على نظافة صارمة وسجلات."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Skincare and dermatology clinics",
+        "ar": "عيادات العناية بالبشرة والجلدية"
+      },
+      {
+        "en": "Spas, hotels and cosmetics counters",
+        "ar": "السبا والفنادق وكاونترات مستحضرات التجميل"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Facial devices and steamers",
+        "ar": "أجهزة الوش والبخار"
+      },
+      {
+        "en": "Professional skincare products",
+        "ar": "منتجات عناية احترافية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Beauty academies and aesthetics courses",
+        "ar": "أكاديميات التجميل وكورسات العناية بالبشرة"
+      },
+      {
+        "en": "Health and science graduates in clinics",
+        "ar": "خريجين الصحة والعلوم في العيادات"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 1,
+    "alternativeRoutes": [],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Skin science basics",
+        "ar": "أساسيات علم البشرة"
+      },
+      {
+        "en": "Treatment techniques",
+        "ar": "تقنيات العلاج"
+      },
+      {
+        "en": "Product ingredients",
+        "ar": "مكونات المنتجات"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Gentle, reassuring manner",
+        "ar": "أسلوب هادي ومطمّن"
+      },
+      {
+        "en": "Honest advice",
+        "ar": "نصيحة صادقة"
+      },
+      {
+        "en": "Attention to hygiene",
+        "ar": "الاهتمام بالنظافة"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Arabic; English for brands and training",
+        "ar": "العربي، والإنجليزي للبراندات والتدريب"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8681,
+        "max": 17813
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/service-industries?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Beautician\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Beautician»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Skincare clinics and spas",
+        "ar": "عيادات العناية بالبشرة والسبا"
+      },
+      {
+        "en": "Cosmetics brands and pharmacies",
+        "ar": "براندات التجميل والصيدليات"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No; online skincare advice exists as content.",
+      "ar": "لأ؛ والنصايح أونلاين موجودة كمحتوى."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo and Alexandria",
+        "ar": "أساسًا القاهرة وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Aestheticians are hired by Gulf clinics and spas, usually with certificates.",
+    "ar": "أخصائيين البشرة مطلوبين في عيادات وسبا الخليج، غالبًا بالشهادات."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Growing beauty and wellness market",
+        "ar": "سوق التجميل والعناية بيكبر"
+      },
+      {
+        "en": "Calm, caring work",
+        "ar": "شغل هادي وفيه رعاية"
+      },
+      {
+        "en": "Short training to start",
+        "ar": "تدريب قصير للبداية"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "You must know where your role ends and a doctor's begins",
+        "ar": "لازم تعرف دورك بيخلص فين ودور الدكتور بيبدأ"
+      },
+      {
+        "en": "Sales targets in some brands",
+        "ar": "تارجت مبيعات في بعض البراندات"
+      },
+      {
+        "en": "Standing and repetitive work",
+        "ar": "وقوف وشغل متكرر"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Expensive products always work best.",
+          "ar": "المنتجات الغالية دايمًا الأحسن."
+        },
+        "fact": {
+          "en": "The right routine for the skin type matters more than the price.",
+          "ar": "الروتين المناسب لنوع البشرة أهم من السعر."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Shifts in clinics and spas, including evenings.",
+      "ar": "شيفتات في العيادات والسبا، ومنها بالمسا."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior therapist",
+        "ar": "أخصائي مبتدئ"
+      },
+      {
+        "en": "Skincare specialist",
+        "ar": "أخصائي عناية بالبشرة"
+      },
+      {
+        "en": "Senior specialist or trainer",
+        "ar": "أخصائي أول أو مدرب"
+      },
+      {
+        "en": "Clinic or spa manager",
+        "ar": "مدير عيادة أو سبا"
+      }
+    ],
+    "relatedCareerIds": [
+      "spa_therapist",
+      "makeup_artist",
+      "hairstylist",
+      "pharmacy_technician"
+    ],
+    "pivots": [
+      {
+        "en": "Cosmetics brand training",
+        "ar": "التدريب لبراندات التجميل"
+      },
+      {
+        "en": "Beauty sales",
+        "ar": "مبيعات التجميل"
+      }
+    ]
+  },
+  "industryId": "beauty",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Skincare Specialists (39-5094.00)",
+      "url": "https://www.onetonline.org/link/summary/39-5094.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Contact Center Representative jobs in Egypt (search shows skin care specialist listings)",
+      "url": "https://wuzzuf.net/a/Contact-Center-Representative-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

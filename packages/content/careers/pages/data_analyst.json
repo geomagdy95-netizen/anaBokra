@@ -1,0 +1,285 @@
+{
+  "id": "data_analyst",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You turn messy numbers into answers people can act on.",
+      "ar": "بتحوّل الأرقام المتلخبطة لإجابات الناس تقدر تتصرف بيها."
+    },
+    "summary": {
+      "en": "Data analysts collect, clean and analyse data, then explain what it means in dashboards and short reports. Almost every bank, telecom, retailer and startup in Egypt needs them, and it is a more reachable first step than data scientist: Excel, SQL and a visualisation tool are often enough to start. Many come from Commerce, Computing, Engineering or Science.",
+      "ar": "محلل البيانات بيجمع البيانات وينضفها ويحللها، وبعدين يشرح معناها في داشبوردات وتقارير قصيرة. تقريبًا كل بنك وشركة اتصالات وتجزئة وستارت أب في مصر محتاجينه، وهي خطوة أسهل في البداية من عالم البيانات: إكسل وSQL وأداة رسوم بيانية غالبًا كفاية علشان تبدأ. ناس كتير جايين من التجارة والحاسبات والهندسة والعلوم."
+    },
+    "dayInLife": {
+      "en": "The sales director asks why orders dropped in Alexandria last month. You pull the data with SQL, find duplicate rows and clean them, then compare weeks and branches in Power BI. The drop comes from one branch that ran out of stock for ten days. You build a simple chart and write three sentences explaining it. In the afternoon you update the weekly dashboard and help a marketing colleague read the numbers from a campaign.",
+      "ar": "مدير المبيعات بيسأل ليه الأوردرات قلّت في إسكندرية الشهر اللي فات. بتطلّع البيانات بـSQL، بتلاقي صفوف متكررة فتنضفها، وبعدين تقارن الأسابيع والفروع على Power BI. السبب طلع فرع واحد خلص عنده المخزون 10 أيام. بتعمل رسمة بسيطة وتكتب 3 جمل تشرح فيها. بعد الضهر بتحدّث الداشبورد الأسبوعي وبتساعد زميل في التسويق يقرا أرقام حملة."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Pull data from databases and spreadsheets.",
+        "ar": "بتطلّع البيانات من قواعد البيانات والشيتات."
+      },
+      {
+        "en": "Clean data and check it is correct.",
+        "ar": "بتنضف البيانات وتتأكد إنها صح."
+      },
+      {
+        "en": "Analyse trends and compare groups.",
+        "ar": "بتحلل الاتجاهات وتقارن المجموعات."
+      },
+      {
+        "en": "Build dashboards and reports.",
+        "ar": "بتعمل داشبوردات وتقارير."
+      },
+      {
+        "en": "Explain findings to managers in plain words.",
+        "ar": "بتشرح النتايج للمديرين بكلام بسيط."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Banks, telecom, retail and e-commerce companies",
+        "ar": "البنوك والاتصالات والتجزئة والتجارة الإلكترونية"
+      },
+      {
+        "en": "Startups and consulting firms",
+        "ar": "الشركات الناشئة وشركات الاستشارات"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel and Google Sheets",
+        "ar": "إكسل وجوجل شيتس"
+      },
+      {
+        "en": "SQL",
+        "ar": "لغة SQL"
+      },
+      {
+        "en": "Power BI or Tableau",
+        "ar": "Power BI أو Tableau"
+      },
+      {
+        "en": "Python (pandas) as you grow",
+        "ar": "بايثون (pandas) مع الوقت"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "Faculties of Computers and Information, Engineering or Science (Statistics, Mathematics)",
+        "ar": "كليات الحاسبات والمعلومات أو الهندسة أو العلوم (إحصاء ورياضيات)"
+      },
+      {
+        "en": "Faculties of Commerce and Economics and Political Science",
+        "ar": "كليات التجارة والاقتصاد والعلوم السياسية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Short courses such as ITI or Google Data Analytics plus a portfolio of projects",
+        "ar": "كورسات قصيرة زي ITI أو Google Data Analytics ومعاها مشاريع"
+      },
+      {
+        "en": "Moving in from accounting, sales or operations",
+        "ar": "تيجي من المحاسبة أو المبيعات أو العمليات"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "SQL and spreadsheets",
+        "ar": "SQL والشيتات"
+      },
+      {
+        "en": "Data visualisation",
+        "ar": "عرض البيانات بالرسوم"
+      },
+      {
+        "en": "Basic statistics",
+        "ar": "إحصاء أساسي"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Curiosity and asking the right question",
+        "ar": "الفضول وإنك تسأل السؤال الصح"
+      },
+      {
+        "en": "Clear writing for non-experts",
+        "ar": "كتابة واضحة لغير المتخصصين"
+      },
+      {
+        "en": "Attention to detail",
+        "ar": "الانتباه للتفاصيل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for tools, documentation and most reports",
+        "ar": "الإنجليزي للأدوات والمراجع وأغلب التقارير"
+      }
+    ],
+    "certifications": [
+      {
+        "en": "Microsoft Power BI Data Analyst (PL-300)",
+        "ar": "شهادة Microsoft Power BI Data Analyst (PL-300)"
+      }
+    ]
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 11234,
+        "max": 46161
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Data analyst\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Data analyst»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "Banks, telecom companies and retailers",
+        "ar": "البنوك وشركات الاتصالات والتجزئة"
+      },
+      {
+        "en": "Fintech and e-commerce startups",
+        "ar": "شركات الفينتك والتجارة الإلكترونية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Often hybrid; remote and freelance analysis for foreign clients is common.",
+      "ar": "غالبًا هايبرد؛ والتحليل عن بعد أو فريلانس لعملاء برّه منتشر."
+    },
+    "regions": [
+      {
+        "en": "Mostly Cairo, Giza and Alexandria",
+        "ar": "أغلبه القاهرة والجيزة وإسكندرية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Data skills are global; Egyptian analysts work remotely for Gulf and European companies.",
+    "ar": "مهارات البيانات عالمية؛ ومحللين مصريين بيشتغلوا عن بعد لشركات في الخليج وأوروبا."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Many entry routes, not only one degree",
+        "ar": "طرق دخول كتير، مش شهادة واحدة"
+      },
+      {
+        "en": "Useful in every industry",
+        "ar": "مفيد في كل المجالات"
+      },
+      {
+        "en": "A path to data science later",
+        "ar": "طريق لعلم البيانات بعدين"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Most of the time is spent cleaning data",
+        "ar": "أغلب الوقت بيروح في تنضيف البيانات"
+      },
+      {
+        "en": "Managers want answers fast",
+        "ar": "المديرين عايزين إجابات بسرعة"
+      },
+      {
+        "en": "Tools change and need constant learning",
+        "ar": "الأدوات بتتغير ومحتاجة تعلم مستمر"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "You need to be a math genius to analyse data.",
+          "ar": "لازم تبقى عبقري رياضة علشان تحلل بيانات."
+        },
+        "fact": {
+          "en": "Most analysis uses basic statistics; logic, care and clear explanation matter more.",
+          "ar": "أغلب التحليل بيستخدم إحصاء بسيط؛ والمنطق والدقة والشرح الواضح أهم."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Mostly office hours, with busy weeks before monthly or quarterly reports.",
+      "ar": "أغلبه مواعيد مكتب، مع أسابيع ضغط قبل التقارير الشهرية أو الربع سنوية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior data analyst",
+        "ar": "محلل بيانات مبتدئ"
+      },
+      {
+        "en": "Data or BI analyst",
+        "ar": "محلل بيانات أو ذكاء أعمال"
+      },
+      {
+        "en": "Senior analyst or analytics lead",
+        "ar": "محلل أول أو قائد تحليلات"
+      },
+      {
+        "en": "Head of analytics, or data scientist",
+        "ar": "رئيس التحليلات، أو عالم بيانات"
+      }
+    ],
+    "relatedCareerIds": [
+      "data_scientist",
+      "financial_analyst",
+      "economist",
+      "epidemiologist"
+    ],
+    "pivots": [
+      {
+        "en": "Data science and machine learning",
+        "ar": "علم البيانات وتعلم الآلة"
+      },
+      {
+        "en": "Product or business analysis",
+        "ar": "تحليل المنتج أو الأعمال"
+      }
+    ]
+  },
+  "industryId": "tech",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Business Intelligence Analysts (15-2051.01)",
+      "url": "https://www.onetonline.org/link/summary/15-2051.01",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Data Analyst jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Data-Analyst-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Qureos - top in-demand jobs in Egypt",
+      "url": "https://qureos.com/career-guide/top-in-demand-jobs-in-egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

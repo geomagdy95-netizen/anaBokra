@@ -307,7 +307,7 @@
       }
     ]
   },
-  "industryId": "creative",
+  "industryId": "performing",
   "sources": [
     {
       "title": "O*NET OnLine: Musician",
@@ -329,5 +329,23 @@
       "url": "https://www.paylab.com/eg/salaryinfo/arts-culture?lang=en",
       "accessed": "2026-10-14"
     }
-  ]
+  ],
+  "entry": {
+    "level": "competitive",
+    "hurdles": [
+      {
+        "kind": "membership",
+        "level": 2,
+        "text": {
+          "en": "Singers and musicians are tested by the Musicians' Syndicate before they can perform professionally; failing the test means you cannot legally perform in public.",
+          "ar": "المطربين والموسيقيين بيدخلوا اختبار نقابة المهن الموسيقية قبل ما يشتغلوا باحتراف؛ واللي بيرسب مينفعش يغني قدام جمهور بشكل قانوني."
+        },
+        "tip": {
+          "en": "Formal training in music theory and voice prepares you for the test.",
+          "ar": "الدراسة المنظمة للنظريات الموسيقية والصوت بتجهّزك للاختبار."
+        },
+        "source": "https://www.elwatannews.com/news/details/5819317"
+      }
+    ]
+  }
 }

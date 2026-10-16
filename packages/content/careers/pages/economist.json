@@ -1,0 +1,271 @@
+{
+  "id": "economist",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You explain why prices, jobs and money move the way they do.",
+      "ar": "بتشرح ليه الأسعار والوظايف والفلوس بتتحرك بالشكل ده."
+    },
+    "summary": {
+      "en": "Economists study how people, companies and governments use money and resources, using data to explain trends and advise on decisions such as interest rates, subsidies or investment. In Egypt they work at the Central Bank, ministries, banks, research centres and international organisations. A strong base in maths and statistics matters, and a master's degree opens most research roles.",
+      "ar": "الاقتصادي بيدرس الناس والشركات والحكومات بيستخدموا الفلوس والموارد إزاي، وبيستخدم البيانات علشان يشرح الاتجاهات وينصح في قرارات زي الفايدة والدعم والاستثمار. في مصر بيشتغلوا في البنك المركزي والوزارات والبنوك ومراكز البحث والمنظمات الدولية. أساس قوي في الرياضة والإحصاء مهم، والماجستير بيفتح أغلب وظايف البحث."
+    },
+    "dayInLife": {
+      "en": "Inflation figures came out this morning. You download the data, compare food and transport prices with last year and update your forecast model. Your manager asks how a fuel price change could affect inflation next quarter; you run two scenarios and write a one-page note. In the afternoon you join a meeting with the bank's investment team to explain what the numbers mean for interest rates, then read a new IMF report.",
+      "ar": "أرقام التضخم نزلت النهارده الصبح. بتنزّل البيانات، بتقارن أسعار الأكل والمواصلات بالسنة اللي فاتت وبتحدّث نموذج التوقع بتاعك. مديرك بيسأل تغيير سعر البنزين ممكن يأثر إزاي على التضخم الربع الجاي؛ بتعمل سيناريوهين وبتكتب مذكرة صفحة واحدة. بعد الضهر بتحضر اجتماع مع فريق الاستثمار في البنك تشرح الأرقام دي معناها إيه للفايدة، وبعدين بتقرا تقرير جديد لصندوق النقد."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Collect and analyse economic data such as prices, trade and jobs.",
+        "ar": "بتجمع وتحلل بيانات اقتصادية زي الأسعار والتجارة والوظايف."
+      },
+      {
+        "en": "Build models to forecast trends.",
+        "ar": "بتعمل نماذج تتوقع الاتجاهات."
+      },
+      {
+        "en": "Write reports and policy notes.",
+        "ar": "بتكتب تقارير ومذكرات سياسات."
+      },
+      {
+        "en": "Advise managers or officials on decisions.",
+        "ar": "بتنصح المديرين أو المسؤولين في القرارات."
+      },
+      {
+        "en": "Present findings to non-experts.",
+        "ar": "بتعرض النتايج لغير المتخصصين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Central Bank, ministries and CAPMAS",
+        "ar": "البنك المركزي والوزارات والجهاز المركزي للتعبئة والإحصاء"
+      },
+      {
+        "en": "Banks, investment firms and research centres",
+        "ar": "البنوك وشركات الاستثمار ومراكز البحث"
+      },
+      {
+        "en": "International organisations in Cairo",
+        "ar": "المنظمات الدولية في القاهرة"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Excel, Stata, R or Python",
+        "ar": "إكسل وStata وR أو بايثون"
+      },
+      {
+        "en": "Economic databases",
+        "ar": "قواعد البيانات الاقتصادية"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "literary"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Economics and Political Science (Cairo University and others)",
+        "ar": "كلية الاقتصاد والعلوم السياسية (جامعة القاهرة وغيرها)"
+      },
+      {
+        "en": "Faculty of Commerce, economics departments",
+        "ar": "كليات التجارة، أقسام الاقتصاد"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "A master's in economics after a commerce, statistics or engineering degree",
+        "ar": "ماجستير اقتصاد بعد تجارة أو إحصاء أو هندسة"
+      }
+    ],
+    "licensing": null
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Statistics and econometrics",
+        "ar": "الإحصاء والاقتصاد القياسي"
+      },
+      {
+        "en": "Data analysis software",
+        "ar": "برامج تحليل البيانات"
+      },
+      {
+        "en": "Economic theory",
+        "ar": "النظرية الاقتصادية"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Critical thinking",
+        "ar": "التفكير النقدي"
+      },
+      {
+        "en": "Clear writing",
+        "ar": "الكتابة الواضحة"
+      },
+      {
+        "en": "Patience with long research",
+        "ar": "الصبر على البحث الطويل"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for research and international work",
+        "ar": "الإنجليزي للبحث والشغل الدولي"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 8375,
+        "max": 30449
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/economy-finance-accountancy?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Economist\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Economist»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "medium",
+    "employers": [
+      {
+        "en": "Central Bank of Egypt and government ministries",
+        "ar": "البنك المركزي المصري والوزارات"
+      },
+      {
+        "en": "Banks, investment banks and consulting firms",
+        "ar": "البنوك وبنوك الاستثمار وشركات الاستشارات"
+      },
+      {
+        "en": "Think tanks and international organisations",
+        "ar": "مراكز الأبحاث والمنظمات الدولية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly office based; research consulting can be freelance.",
+      "ar": "أغلبه في المكتب؛ والاستشارات البحثية ممكن تبقى فريلانس."
+    },
+    "regions": [
+      {
+        "en": "Mainly Cairo",
+        "ar": "أساسًا القاهرة"
+      }
+    ]
+  },
+  "global": {
+    "en": "A master's or PhD from abroad opens roles at the World Bank, IMF, UN agencies and Gulf central banks.",
+    "ar": "الماجستير أو الدكتوراه من برّه بيفتحوا وظايف في البنك الدولي وصندوق النقد ووكالات الأمم المتحدة والبنوك المركزية في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Work that shapes big decisions",
+        "ar": "شغل بيأثر في قرارات كبيرة"
+      },
+      {
+        "en": "Respected in government and finance",
+        "ar": "محترم في الحكومة والمالية"
+      },
+      {
+        "en": "Skills useful in banking and data roles",
+        "ar": "مهارات بتنفع في البنوك ووظايف البيانات"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Research roles usually need a master's",
+        "ar": "وظايف البحث غالبًا محتاجة ماجستير"
+      },
+      {
+        "en": "Forecasts can be wrong and criticised",
+        "ar": "التوقعات ممكن تطلع غلط وتتنقد"
+      },
+      {
+        "en": "Fewer entry jobs than in commerce",
+        "ar": "وظايف بداية أقل من التجارة"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Economists can predict exactly what the economy will do.",
+          "ar": "الاقتصادي يقدر يتوقع بالظبط الاقتصاد هيعمل إيه."
+        },
+        "fact": {
+          "en": "Economists work with probabilities and scenarios, not certainties.",
+          "ar": "الاقتصادي بيشتغل باحتمالات وسيناريوهات، مش بيقين."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours, with deadlines around reports and budget seasons.",
+      "ar": "مواعيد مكتب، مع ضغط وقت التقارير ومواسم الميزانية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Research assistant or junior economist",
+        "ar": "مساعد باحث أو اقتصادي مبتدئ"
+      },
+      {
+        "en": "Economist",
+        "ar": "اقتصادي"
+      },
+      {
+        "en": "Senior economist",
+        "ar": "اقتصادي أول"
+      },
+      {
+        "en": "Chief economist or policy adviser",
+        "ar": "كبير الاقتصاديين أو مستشار سياسات"
+      }
+    ],
+    "relatedCareerIds": [
+      "financial_analyst",
+      "data_analyst",
+      "political_scientist",
+      "actuary"
+    ],
+    "pivots": [
+      {
+        "en": "Financial analysis and investment research",
+        "ar": "التحليل المالي وأبحاث الاستثمار"
+      },
+      {
+        "en": "Data analysis or public policy",
+        "ar": "تحليل البيانات أو السياسات العامة"
+      }
+    ]
+  },
+  "industryId": "business",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Economists (19-3011.00)",
+      "url": "https://www.onetonline.org/link/summary/19-3011.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Environmental Economists (19-3011.01)",
+      "url": "https://www.onetonline.org/link/summary/19-3011.01",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

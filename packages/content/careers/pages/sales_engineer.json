@@ -1,0 +1,270 @@
+{
+  "id": "sales_engineer",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You sell solutions only an engineer can explain.",
+      "ar": "بتبيع حلول مفيش غير مهندس يقدر يشرحها."
+    },
+    "summary": {
+      "en": "Sales engineers combine technical knowledge with selling: they understand a customer's problem, design or choose the right equipment (HVAC, power, automation, solar, medical devices), price it and win the deal. In Egypt they are hired across construction, industry and renewable energy, and Qureos lists the role among the most in-demand in the country.",
+      "ar": "مهندس المبيعات بيجمع بين المعرفة الفنية والبيع: بيفهم مشكلة العميل، بيصمم أو بيختار المعدات المناسبة (تكييف، كهربا، أتمتة، طاقة شمسية، أجهزة طبية)، بيسعّرها وبيكسب الصفقة. في مصر بيتطلب في المقاولات والصناعة والطاقة المتجددة، وموقع Qureos حاطط الوظيفة ضمن الأكتر طلبًا في البلد."
+    },
+    "dayInLife": {
+      "en": "A hotel project in New Cairo needs a ventilation system. In the morning you read the consultant's specifications and the drawings, size the fans and ducts with your company's software, and prepare a technical offer with prices. At noon you visit the contractor to present it and answer questions about energy use. Back at the office you compare your price with a competitor's and agree a small discount with your manager. You end the day following up on a delivery for another client.",
+      "ar": "مشروع فندق في التجمع محتاج نظام تهوية. الصبح بتقرا مواصفات الاستشاري والرسومات، بتحسب مقاسات المراوح والدكت على برنامج الشركة، وبتجهز عرض فني بالأسعار. الضهر بتزور المقاول تعرضه وترد على أسئلة عن استهلاك الطاقة. لما ترجع المكتب بتقارن سعرك بسعر منافس وبتتفق مع مديرك على خصم صغير. وبتخلص يومك بمتابعة توريد لعميل تاني."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Study customers' technical needs and specifications.",
+        "ar": "بتدرس احتياجات العملاء الفنية والمواصفات."
+      },
+      {
+        "en": "Select or design the right products and prepare technical offers.",
+        "ar": "بتختار أو تصمم المنتجات المناسبة وبتجهز عروض فنية."
+      },
+      {
+        "en": "Present and negotiate with contractors, consultants and factories.",
+        "ar": "بتعرض وتتفاوض مع المقاولين والاستشاريين والمصانع."
+      },
+      {
+        "en": "Follow orders through delivery and installation.",
+        "ar": "بتتابع الأوردرات لحد التوريد والتركيب."
+      },
+      {
+        "en": "Keep up with products and competitors.",
+        "ar": "بتتابع المنتجات والمنافسين."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Equipment suppliers and distributors",
+        "ar": "موردين وموزعين المعدات"
+      },
+      {
+        "en": "Customer sites and consultants' offices",
+        "ar": "مواقع العملاء ومكاتب الاستشاريين"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Product selection software and catalogs",
+        "ar": "برامج اختيار المنتجات والكتالوجات"
+      },
+      {
+        "en": "AutoCAD drawings",
+        "ar": "رسومات أوتوكاد"
+      },
+      {
+        "en": "CRM and Excel",
+        "ar": "الـCRM والإكسل"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math"
+    ],
+    "faculties": [
+      {
+        "en": "Faculty of Engineering: Mechanical, Electrical, Electronics or Mechatronics",
+        "ar": "كلية الهندسة: ميكانيكا أو كهربا أو إلكترونيات أو ميكاترونكس"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 5,
+    "alternativeRoutes": [
+      {
+        "en": "Technical sales after a few years in design or site work",
+        "ar": "مبيعات فنية بعد كام سنة في التصميم أو الموقع"
+      }
+    ],
+    "licensing": {
+      "en": "Engineers Syndicate membership is usually expected.",
+      "ar": "عضوية نقابة المهندسين غالبًا مطلوبة."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Engineering fundamentals of the product",
+        "ar": "أساسيات الهندسة في المنتج"
+      },
+      {
+        "en": "Reading specifications and drawings",
+        "ar": "قراية المواصفات والرسومات"
+      },
+      {
+        "en": "Pricing and offers",
+        "ar": "التسعير والعروض"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Explaining technical things simply",
+        "ar": "شرح الحاجات الفنية ببساطة"
+      },
+      {
+        "en": "Negotiation",
+        "ar": "التفاوض"
+      },
+      {
+        "en": "Relationship building",
+        "ar": "بناء العلاقات"
+      }
+    ],
+    "languages": [
+      {
+        "en": "English for catalogs and international suppliers",
+        "ar": "الإنجليزي للكتالوجات والموردين الدوليين"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": {
+      "junior": null,
+      "mid": {
+        "min": 12523,
+        "max": 37335
+      },
+      "senior": null,
+      "year": 2026,
+      "sourceUrl": "https://www.paylab.com/eg/salaryinfo/commerce?lang=en",
+      "note": {
+        "en": "Paylab Egypt lists one indicative gross monthly range for the job title \"Sales Engineer\" in its category overview, so we show it under \"mid\"; junior and senior pay are not published separately, and the overview does not give a respondent count or what share of respondents the range covers. The page is undated (accessed October 2026), so treat it as a rough guide, not a pay scale.",
+        "ar": "يعرض موقع Paylab مصر في نظرة الفئة العامة نطاقًا تقريبيًا واحدًا للراتب الشهري الإجمالي لمسمى «Sales Engineer»، لذلك وضعناه تحت «متوسط»؛ ولا تُنشر رواتب المبتدئين والكبار منفصلة، ولا تذكر الصفحة عدد المشاركين ولا النسبة التي يغطيها النطاق. الصفحة غير مؤرخة (اطّلعنا عليها في أكتوبر 2026)، فاعتبرها دليلًا تقريبيًا لا جدول أجور."
+      }
+    },
+    "demand": "high",
+    "employers": [
+      {
+        "en": "HVAC, electrical, automation and solar equipment companies",
+        "ar": "شركات التكييف والكهربا والأتمتة والطاقة الشمسية"
+      },
+      {
+        "en": "Medical device and industrial machinery suppliers",
+        "ar": "موردين الأجهزة الطبية والماكينات الصناعية"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "Mostly in the field and office.",
+      "ar": "أغلبه في الميدان والمكتب."
+    },
+    "regions": [
+      {
+        "en": "Cairo, Giza, Alexandria and industrial zones",
+        "ar": "القاهرة والجيزة وإسكندرية والمناطق الصناعية"
+      }
+    ]
+  },
+  "global": {
+    "en": "Technical sales experience is in demand across the Gulf and Africa for Egyptian engineers.",
+    "ar": "خبرة المبيعات الفنية مطلوبة في الخليج وإفريقيا للمهندسين المصريين."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Engineering plus commission",
+        "ar": "هندسة ومعاها عمولة"
+      },
+      {
+        "en": "Less site work, more people",
+        "ar": "شغل موقع أقل وناس أكتر"
+      },
+      {
+        "en": "A route to management",
+        "ar": "طريق للإدارة"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Sales targets",
+        "ar": "تارجت مبيعات"
+      },
+      {
+        "en": "Lots of travel and visits",
+        "ar": "سفر وزيارات كتير"
+      },
+      {
+        "en": "Long tenders that can be lost on price",
+        "ar": "مناقصات طويلة ممكن تضيع على السعر"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Sales engineers aren't real engineers.",
+          "ar": "مهندس المبيعات مش مهندس حقيقي."
+        },
+        "fact": {
+          "en": "You size and specify systems; wrong engineering loses the customer and the deal.",
+          "ar": "إنت بتحسب وتحدد الأنظمة؛ والهندسة الغلط بتضيّع العميل والصفقة."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Office hours plus visits; busy around tender deadlines.",
+      "ar": "مواعيد مكتب وزيارات؛ والضغط بيزيد قرب مواعيد المناقصات."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Junior sales engineer",
+        "ar": "مهندس مبيعات مبتدئ"
+      },
+      {
+        "en": "Sales engineer",
+        "ar": "مهندس مبيعات"
+      },
+      {
+        "en": "Senior or key account sales engineer",
+        "ar": "مهندس مبيعات أول أو حسابات رئيسية"
+      },
+      {
+        "en": "Sales or business unit manager",
+        "ar": "مدير مبيعات أو وحدة أعمال"
+      }
+    ],
+    "relatedCareerIds": [
+      "mechanical_engineer",
+      "electrical_engineer",
+      "sales_representative",
+      "site_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Product management",
+        "ar": "إدارة المنتج"
+      },
+      {
+        "en": "Business development",
+        "ar": "تطوير الأعمال"
+      }
+    ]
+  },
+  "industryId": "engineering",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Sales Engineers (41-9031.00)",
+      "url": "https://www.onetonline.org/link/summary/41-9031.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Wuzzuf - Sales Engineer jobs in Egypt",
+      "url": "https://wuzzuf.net/a/Sales-Engineer-Jobs-in-Egypt",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "Qureos - top in-demand jobs in Egypt",
+      "url": "https://qureos.com/career-guide/top-in-demand-jobs-in-egypt",
+      "accessed": "2026-10-15"
+    }
+  ]
+}

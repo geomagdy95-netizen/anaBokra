@@ -1,5 +1,7 @@
 'use client';
 
+import { useId } from 'react';
+
 import { cn } from '@/lib/utils';
 
 /**
@@ -9,6 +11,8 @@ import { cn } from '@/lib/utils';
  */
 export function MoodFace({ level, className }: { level?: number; className?: string }) {
   const l = level ?? 0;
+  // Several faces can share a screen: each needs its own gradient id.
+  const gradient = `mood-body-${useId().replace(/:/g, '')}`;
   // Body colour warms from lilac to violet to apricot as agreement grows.
   const body = ['#CFC3E8', '#B9A1E6', '#A27DE0', '#8B45DA', '#7025B5', '#FF9A57'][l]!;
   const shade = ['#B7A8D8', '#9F84D6', '#8961CF', '#7232C4', '#5A1C96', '#F07E3B'][l]!;
@@ -18,7 +22,7 @@ export function MoodFace({ level, className }: { level?: number; className?: str
   return (
     <svg viewBox="0 0 120 120" aria-hidden="true" className={cn('overflow-visible', className)}>
       <defs>
-        <radialGradient id="mood-body" cx="38%" cy="32%" r="75%">
+        <radialGradient id={gradient} cx="38%" cy="32%" r="75%">
           <stop offset="0" stopColor="#FFFFFF" stopOpacity="0.55" />
           <stop offset="0.35" stopColor={body} />
           <stop offset="1" stopColor={shade} />
@@ -27,7 +31,7 @@ export function MoodFace({ level, className }: { level?: number; className?: str
       <ellipse cx="60" cy="112" rx="34" ry="5" fill={ink} opacity="0.12" />
       <path
         d="M60 8c26 0 50 18 50 50 0 30-22 50-50 50S10 88 10 58C10 26 34 8 60 8Z"
-        fill="url(#mood-body)"
+        fill={`url(#${gradient})`}
         className="transition-[fill] duration-300"
       />
       {/* Cheeks */}

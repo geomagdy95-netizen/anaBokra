@@ -6,6 +6,7 @@ import { LocaleSwitcher } from '@/components/locale-switcher';
 import { Button } from '@/components/ui/button';
 import { ScreenTracker } from '@/features/journey/app-shell';
 import { Link } from '@/i18n/navigation';
+import { HONEYPOT_PATH } from '@/lib/bots';
 import { DATA_MODE } from '@/lib/data-mode';
 import { SUPPORT_EMAIL } from '@/lib/site';
 
@@ -77,6 +78,10 @@ export async function PublicShell({ children }: { children: ReactNode }) {
             </a>
           </nav>
           <span>{t('copyright', { year: 2026 })}</span>
+          {/* Honeypot: invisible to people and disallowed in robots.txt; a crawler that follows it is blocked (server/bot-guard.ts). */}
+          <a href={HONEYPOT_PATH} rel="nofollow" tabIndex={-1} aria-hidden="true" className="hidden">
+            archive
+          </a>
         </div>
       </footer>
     </div>

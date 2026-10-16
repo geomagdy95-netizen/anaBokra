@@ -13,7 +13,8 @@ import type { JourneyData } from '@/lib/journey/journey';
 import { islandStates } from '@/lib/journey/map-state';
 import { setInList } from '@/lib/journey/verify';
 
-import { AccountButton, AppShell } from './app-shell';
+import { AppShell } from './app-shell';
+import { HeroCard, HeroText } from './cards';
 import { JourneyGate } from './journey-gate';
 import { useJT } from './use-jt';
 
@@ -34,18 +35,14 @@ function Saved({ data, onChanged }: { data: JourneyData; onChanged: () => void }
   };
 
   return (
-    <AppShell tab="saved" title={jt('saved.title')} subtitle={jt('saved.subtitle')} action={<AccountButton />} testId="saved">
+    <AppShell tab="saved" title={jt('saved.title')} subtitle={jt('saved.subtitle')} testId="saved">
       {saved.length === 0 ? (
-        <section className="mt-10 flex flex-col items-center gap-4 rounded-3xl bg-card p-8 text-center shadow-sm" data-testid="saved-empty">
-          <span className="grid size-16 place-items-center rounded-2xl bg-secondary text-primary">
-            <Bookmark className="size-8" aria-hidden />
-          </span>
-          <h2 className="text-lg font-bold">{jt('saved.emptyTitle')}</h2>
-          <p className="text-sm text-muted-foreground">{jt('saved.emptyBody')}</p>
-          <Button asChild size="lg">
-            <Link href="/journey/map">{jt('saved.goExplore')}</Link>
+        <HeroCard className="mt-4" eyebrow={jt('saved.title')} icon={<Bookmark className="size-9 text-primary" />} title={jt('saved.emptyTitle')} testId="saved-empty">
+          <HeroText>{jt('saved.emptyBody')}</HeroText>
+          <Button asChild size="lg" className="self-start">
+            <Link href="/journey?view=list">{jt('saved.goExplore')}</Link>
           </Button>
-        </section>
+        </HeroCard>
       ) : (
         <ul className="space-y-3" data-testid="saved-list">
           {saved.map((id) => {
@@ -55,7 +52,7 @@ function Saved({ data, onChanged }: { data: JourneyData; onChanged: () => void }
             return (
               <li key={id} className="surface flex items-center gap-3 py-2 pe-2">
                 <BridgeSwatch relation={s.relation} broken={s.bridge !== 'connected'} />
-                <Link href={`/journey/map?island=${id}`} className="min-h-12 min-w-0 flex-1 py-2">
+                <Link href={`/journey?island=${id}`} className="min-h-12 min-w-0 flex-1 py-2">
                   <span className="block font-bold">{group?.name[locale] ?? id}</span>
                   <span className="block text-xs text-muted-foreground">
                     {jt(`explore.status.${s.relation}`)} · {jt('explore.careers', { count })}
@@ -64,7 +61,7 @@ function Saved({ data, onChanged }: { data: JourneyData; onChanged: () => void }
                 <button onClick={() => void remove(id)} aria-label={jt('explore.actions.unsave')} className="grid size-11 shrink-0 place-items-center rounded-full text-muted-foreground hover:bg-secondary hover:text-foreground">
                   <BookmarkX className="size-5" />
                 </button>
-                <Link href={`/journey/map?island=${id}`} aria-label={jt('saved.open')} className="grid size-11 shrink-0 place-items-center rounded-full text-primary hover:bg-secondary">
+                <Link href={`/journey?island=${id}`} aria-label={jt('saved.open')} className="grid size-11 shrink-0 place-items-center rounded-full text-primary hover:bg-secondary">
                   <ChevronRight className="size-5 rtl:rotate-180" />
                 </Link>
               </li>

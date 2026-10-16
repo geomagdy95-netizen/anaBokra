@@ -1,0 +1,253 @@
+{
+  "id": "air_traffic_controller",
+  "version": "0.1.0-draft",
+  "status": "draft: written 15 Oct 2026 from O*NET and Egyptian job listings; Egypt routes, pay and demand to verify",
+  "lastReviewedAt": "2026-10-15",
+  "depth": "lite",
+  "snapshot": {
+    "hook": {
+      "en": "You keep hundreds of planes apart in the sky.",
+      "ar": "بتخلّي مئات الطيارات بعيدة عن بعض في السما."
+    },
+    "summary": {
+      "en": "Air traffic controllers guide aircraft safely on the ground, at take-off and landing and across the sky, by radar and radio. In Egypt they are trained and employed by the National Air Navigation Services company after strict selection, medical and English tests. The job is demanding and highly responsible, with shift work and good conditions.",
+      "ar": "المراقب الجوي بيوجّه الطيارات بأمان على الأرض وفي الإقلاع والهبوط وفي السما، بالرادار واللاسلكي. في مصر بيتدربوا ويشتغلوا في الشركة الوطنية لخدمات الملاحة الجوية بعد اختيار صارم وكشف طبي واختبارات إنجليزي. الشغل مجهد ومسؤوليته كبيرة، بشيفتات وظروف كويسة."
+    },
+    "dayInLife": {
+      "en": "You start the evening shift in the approach room at Cairo airport. On your radar screen eight aircraft are heading in from Europe and the Gulf. You give each pilot a heading, altitude and speed so they line up for landing three minutes apart. A thunderstorm builds to the east; you route two flights around it. After two hours you hand over to a colleague and take a mandatory break.",
+      "ar": "بتبدأ شيفت المسا في غرفة الاقتراب في مطار القاهرة. على شاشة الرادار فيه 8 طيارات جاية من أوروبا والخليج. بتدّي كل طيار اتجاه وارتفاع وسرعة علشان يصطفوا للهبوط بين كل واحدة والتانية 3 دقايق. عاصفة رعدية بتتكون في الشرق؛ بتلف طيارتين حواليها. بعد ساعتين بتسلّم لزميل وبتاخد راحة إجبارية."
+    }
+  },
+  "whatYouDo": {
+    "tasks": [
+      {
+        "en": "Give pilots instructions by radio.",
+        "ar": "بتدّي الطيارين تعليمات باللاسلكي."
+      },
+      {
+        "en": "Keep safe distances between aircraft on radar.",
+        "ar": "بتحافظ على مسافات آمنة بين الطيارات على الرادار."
+      },
+      {
+        "en": "Manage take-offs, landings and ground movement.",
+        "ar": "بتدير الإقلاع والهبوط والحركة على الأرض."
+      },
+      {
+        "en": "Handle weather and emergencies.",
+        "ar": "بتتعامل مع الجو والطوارئ."
+      },
+      {
+        "en": "Coordinate with other control centres.",
+        "ar": "بتنسّق مع مراكز المراقبة التانية."
+      }
+    ],
+    "environments": [
+      {
+        "en": "Airport towers and approach rooms",
+        "ar": "أبراج المطارات وغرف الاقتراب"
+      },
+      {
+        "en": "Area control centres",
+        "ar": "مراكز المراقبة الإقليمية"
+      }
+    ],
+    "tools": [
+      {
+        "en": "Radar and flight data systems",
+        "ar": "الرادار وأنظمة بيانات الرحلات"
+      },
+      {
+        "en": "Radio and headsets",
+        "ar": "اللاسلكي والسماعات"
+      }
+    ]
+  },
+  "pathEgypt": {
+    "thanaweyaTracks": [
+      "math",
+      "science"
+    ],
+    "faculties": [
+      {
+        "en": "University graduates (often engineering or science) selected and trained by the air navigation authority",
+        "ar": "خريجين جامعة (غالبًا هندسة أو علوم) بيتم اختيارهم وتدريبهم من جهة الملاحة الجوية"
+      }
+    ],
+    "programIds": [],
+    "studyYears": 4,
+    "alternativeRoutes": [
+      {
+        "en": "Selection tests, medical exam and long in-house training",
+        "ar": "اختبارات قبول وكشف طبي وتدريب داخلي طويل"
+      }
+    ],
+    "licensing": {
+      "en": "An air traffic control licence and English proficiency (ICAO level 4 or above) are required.",
+      "ar": "لازم رخصة مراقبة جوية ومستوى إنجليزي (ICAO مستوى 4 أو أعلى)."
+    }
+  },
+  "skills": {
+    "hard": [
+      {
+        "en": "Aviation rules and phraseology",
+        "ar": "قواعد الطيران والمصطلحات"
+      },
+      {
+        "en": "Spatial awareness on radar",
+        "ar": "الإدراك المكاني على الرادار"
+      },
+      {
+        "en": "Fast calculation",
+        "ar": "الحساب السريع"
+      }
+    ],
+    "soft": [
+      {
+        "en": "Calm under pressure",
+        "ar": "الهدوء تحت الضغط"
+      },
+      {
+        "en": "Quick decisions",
+        "ar": "قرارات سريعة"
+      },
+      {
+        "en": "Clear communication",
+        "ar": "تواصل واضح"
+      }
+    ],
+    "languages": [
+      {
+        "en": "Aviation English at ICAO level 4 or above",
+        "ar": "إنجليزي الطيران مستوى ICAO 4 أو أعلى"
+      }
+    ],
+    "certifications": []
+  },
+  "marketEgypt": {
+    "salaryMonthlyEgp": null,
+    "demand": "low",
+    "employers": [
+      {
+        "en": "National Air Navigation Services (Egypt)",
+        "ar": "الشركة الوطنية لخدمات الملاحة الجوية"
+      },
+      {
+        "en": "Airports and the armed forces",
+        "ar": "المطارات والقوات المسلحة"
+      }
+    ],
+    "freelanceRemote": {
+      "en": "No.",
+      "ar": "لأ."
+    },
+    "regions": [
+      {
+        "en": "Cairo and airports across Egypt",
+        "ar": "القاهرة والمطارات في كل مصر"
+      }
+    ],
+    "salaryNote": {
+      "en": "Air traffic controllers in Egypt work for the state-owned National Air Navigation Services Company, which does not publish its pay scale, and salary surveys have no data for the role, so we do not show a number. Pay is set by company scales plus shift and licence allowances.",
+      "ar": "يعمل مراقبو الحركة الجوية في مصر في الشركة الوطنية لخدمات الملاحة الجوية المملوكة للدولة، ولا تنشر جدول أجورها، ولا توجد بيانات لهذه الوظيفة في استطلاعات الرواتب، لذلك لا نعرض رقمًا. يتحدد الأجر بجداول الشركة مع بدلات الورديات والرخصة."
+    }
+  },
+  "global": {
+    "en": "Licensed controllers with experience can work for Gulf air navigation services.",
+    "ar": "المراقبين المرخصين أصحاب الخبرة يقدروا يشتغلوا في خدمات الملاحة في الخليج."
+  },
+  "reality": {
+    "pros": [
+      {
+        "en": "Respected, well-paid and stable",
+        "ar": "محترم ومرتبه كويس ومستقر"
+      },
+      {
+        "en": "Every shift matters",
+        "ar": "كل شيفت ليه قيمة"
+      },
+      {
+        "en": "Clear training path",
+        "ar": "طريق تدريب واضح"
+      }
+    ],
+    "challenges": [
+      {
+        "en": "Very selective entry and few places",
+        "ar": "قبول انتقائي جدًا وأماكن قليلة"
+      },
+      {
+        "en": "High responsibility and stress",
+        "ar": "مسؤولية وضغط عاليين"
+      },
+      {
+        "en": "Night shifts and holidays",
+        "ar": "شيفتات ليل وإجازات"
+      }
+    ],
+    "myths": [
+      {
+        "myth": {
+          "en": "Controllers just watch dots on a screen.",
+          "ar": "المراقب بيتفرج على نقط على شاشة."
+        },
+        "fact": {
+          "en": "Each dot is a plane full of people; controllers plan and talk constantly to keep them apart.",
+          "ar": "كل نقطة طيارة مليانة ناس؛ والمراقب بيخطط ويتكلم طول الوقت علشان يبعدهم عن بعض."
+        }
+      }
+    ],
+    "workLifeBalance": {
+      "en": "Rotating shifts with required breaks and rest days.",
+      "ar": "شيفتات متغيرة مع راحات وأيام إجازة إجبارية."
+    }
+  },
+  "progression": {
+    "ladder": [
+      {
+        "en": "Trainee controller",
+        "ar": "مراقب متدرب"
+      },
+      {
+        "en": "Licensed controller",
+        "ar": "مراقب مرخص"
+      },
+      {
+        "en": "Senior controller or supervisor",
+        "ar": "مراقب أول أو مشرف"
+      },
+      {
+        "en": "Training or operations manager",
+        "ar": "مدير تدريب أو عمليات"
+      }
+    ],
+    "relatedCareerIds": [
+      "pilot",
+      "flight_attendant",
+      "logistics_coordinator",
+      "communications_engineer"
+    ],
+    "pivots": [
+      {
+        "en": "Airport operations",
+        "ar": "عمليات المطارات"
+      },
+      {
+        "en": "Aviation safety and training",
+        "ar": "سلامة وتدريب الطيران"
+      }
+    ]
+  },
+  "industryId": "transport",
+  "sources": [
+    {
+      "title": "O*NET OnLine - Air Traffic Controllers (53-2021.00)",
+      "url": "https://www.onetonline.org/link/summary/53-2021.00",
+      "accessed": "2026-10-15"
+    },
+    {
+      "title": "O*NET OnLine - Airfield Operations Specialists (53-2022.00)",
+      "url": "https://www.onetonline.org/link/summary/53-2022.00",
+      "accessed": "2026-10-15"
+    }
+  ]
+}
